@@ -1,0 +1,40 @@
+import { s as e } from "./chunk.js";
+import { R as t, a as n, l as r, t as i } from "./app-scope.js";
+import { n as a } from "./app-server-manager-signals.js";
+import { t as o } from "./sortBy.js";
+var s = t(),
+  c = e(o(), 1),
+  l = r(i, (e, { get: t }) => {
+    if (e != null) return Object.fromEntries(e.map((e) => [e, t(a, e)]));
+  });
+function u(e) {
+  let t = (0, s.c)(2),
+    r;
+  return (
+    t[0] === e
+      ? (r = t[1])
+      : ((r = e == null ? void 0 : (0, c.default)(e.map(d))), (t[0] = e), (t[1] = r)),
+    n(l, r)
+  );
+}
+function d(e) {
+  let { hostId: t } = e;
+  return t;
+}
+function f(e) {
+  let t = (0, s.c)(5),
+    n = u(e);
+  if (e == null || n == null) return;
+  let r;
+  if (t[0] !== n || t[1] !== e) {
+    let i;
+    (t[3] === n ? (i = t[4]) : ((i = (e) => n[e.hostId] === `connected`), (t[3] = n), (t[4] = i)),
+      (r = e.filter(i)),
+      (t[0] = n),
+      (t[1] = e),
+      (t[2] = r));
+  } else r = t[2];
+  return r;
+}
+export { u as n, f as t };
+//# sourceMappingURL=use-connected-remote-connections.js.map

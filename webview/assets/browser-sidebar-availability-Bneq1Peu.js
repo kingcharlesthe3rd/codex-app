@@ -1,2 +1,0 @@
-import{c as e,t}from"./app-scope-DbsKKT7R.js";import{v as n}from"./app-server-manager-signals-DoSKsUgQ.js";import{n as r}from"./experimental-features-queries-1L4nRR6j.js";var i=`in_app_browser`,a=e(t,({get:e})=>{let{data:t}=e(r,e(n)),a=t?.find(e=>e.name===i);return t!=null&&a?.enabled!==!1});export{a as t};
-//# sourceMappingURL=browser-sidebar-availability-Bneq1Peu.js.map

@@ -1,0 +1,20 @@
+import { Zi as e, na as t, ra as n } from "./src-1.js";
+var r = e({
+  detail: n([
+    t().transform((e) => ({ type: null, message: e })),
+    e({ type: t(), message: t() }),
+    e({ error_code: t().optional(), message: t(), type: t().optional() }).transform(
+      ({ error_code: e, message: t, type: n }) => ({ type: n ?? e ?? null, message: t }),
+    ),
+  ]),
+});
+function i(e) {
+  try {
+    let t = r.safeParse(JSON.parse(e.message));
+    return t.success ? t.data.detail : null;
+  } catch {
+    return null;
+  }
+}
+export { i as t };
+//# sourceMappingURL=codex-api-error.js.map
