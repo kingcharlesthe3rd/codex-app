@@ -1,0 +1,2 @@
+import{n as e}from"./rolldown-runtime-Czos8NxU.js";import{MM as t,jM as n}from"./app-initial~app-main~remote-conversation-page~plugin-detail-page~new-thread-panel-page~appg~ijdupmx5-CdYgxe-b.js";function r(e){return e.filter(e=>e.isAccessible&&e.isEnabled)}var i,a,o=e((()=>{n(),i=t(`has-seen-ambient-suggestions-connected-apps-consent`,!1),a=t(`has-dismissed-ambient-suggestions-connect-apps-row`,!1)}));export{o as i,a as n,i as r,r as t};
+//# sourceMappingURL=ambient-suggestions-connected-apps-consent-DQKvmN_n.js.map
