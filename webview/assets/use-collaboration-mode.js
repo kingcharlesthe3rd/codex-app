@@ -1,0 +1,194 @@
+import { s as e } from "./chunk-Bj-mKKzh.js";
+import { R as t, fs as n, to as r } from "./app-server-manager-signals.js";
+import { n as i } from "./jsx-runtime.js";
+import { P as a, at as o, g as s, lt as c } from "./vscode-api.js";
+import { n as l } from "./react.js";
+import { r as u } from "./app-server-manager-hooks.js";
+import { n as d } from "./tooltip-dismiss.js";
+import { t as f } from "./persisted-atom.js";
+import { t as p } from "./use-model-settings.js";
+import { t as m } from "./collaboration-mode-queries.js";
+var h = f(`skip-full-access-confirm`, !1),
+  g = f(`composer-best-of-n`, 1),
+  _ = f(`prompt-history`, []),
+  v = o(null),
+  y = o({}),
+  b = c(),
+  x = e(i(), 1);
+function S(e, i) {
+  let o = (0, b.c)(49),
+    c = e === void 0 ? null : e,
+    f = i === void 0 ? null : i,
+    h = a(t, c),
+    g = u(c),
+    { modelSettings: _ } = p(c),
+    [y, S] = l(v),
+    C;
+  o[0] === g ? (C = o[1]) : ((C = g.getHostId()), (o[0] = g), (o[1] = C));
+  let { data: w, isFetching: T } = a(m, C),
+    E;
+  o[2] !== _.model || o[3] !== _.reasoningEffort
+    ? ((E = {
+        mode: r,
+        settings: {
+          model: _.model,
+          reasoning_effort: _.reasoningEffort,
+          developer_instructions: null,
+        },
+      }),
+      (o[2] = _.model),
+      (o[3] = _.reasoningEffort),
+      (o[4] = E))
+    : (E = o[4]);
+  let D = E,
+    O = !T && !_.isLoading,
+    k = h,
+    A = k?.mode ?? y ?? `default`,
+    j,
+    M;
+  if (
+    o[5] !== w ||
+    o[6] !== D ||
+    o[7] !== f ||
+    o[8] !== _.model ||
+    o[9] !== _.reasoningEffort ||
+    o[10] !== A ||
+    o[11] !== k
+  ) {
+    let e;
+    (o[14] !== _.model || o[15] !== _.reasoningEffort
+      ? ((e = (e) => {
+          if (e.mode == null) return [];
+          let t = {
+            mode: e.mode,
+            settings: {
+              model: e.model,
+              reasoning_effort: e.reasoning_effort,
+              developer_instructions: null,
+            },
+          };
+          return [
+            {
+              ...t,
+              settings: { ...t.settings, model: _.model, reasoning_effort: _.reasoningEffort },
+            },
+          ];
+        }),
+        (o[14] = _.model),
+        (o[15] = _.reasoningEffort),
+        (o[16] = e))
+      : (e = o[16]),
+      (j = (w ?? []).flatMap(e)),
+      (M = f ?? k ?? j.find((e) => e.mode === A) ?? D),
+      (o[5] = w),
+      (o[6] = D),
+      (o[7] = f),
+      (o[8] = _.model),
+      (o[9] = _.reasoningEffort),
+      (o[10] = A),
+      (o[11] = k),
+      (o[12] = j),
+      (o[13] = M));
+  } else ((j = o[12]), (M = o[13]));
+  let N = M,
+    P;
+  o[17] !== D || o[18] !== j
+    ? ((P = (e) => (e ? j.find((t) => t.mode === e) : null) ?? D),
+      (o[17] = D),
+      (o[18] = j),
+      (o[19] = P))
+    : (P = o[19]);
+  let F = P,
+    I;
+  o[20] !== c || o[21] !== F || o[22] !== S
+    ? ((I = (e) => {
+        if ((d(), c)) {
+          try {
+            n(`update-thread-settings-for-next-turn`, {
+              conversationId: c,
+              threadSettings: { collaborationMode: F(e) },
+            }).catch((e) => {
+              s.error(`Failed to set collaboration mode`, {
+                safe: { conversationId: c },
+                sensitive: { error: e },
+              });
+            });
+          } catch (e) {
+            let t = e;
+            s.error(`Failed to set collaboration mode`, {
+              safe: { conversationId: c },
+              sensitive: { error: t },
+            });
+          }
+          return;
+        }
+        S(e);
+      }),
+      (o[20] = c),
+      (o[21] = F),
+      (o[22] = S),
+      (o[23] = I))
+    : (I = o[23]);
+  let L = I,
+    R;
+  o[24] !== j || o[25] !== A || o[26] !== L
+    ? ((R = () => {
+        let e = j.find((e) => e.mode === A)?.mode ?? `default`;
+        e !== A && L(e);
+      }),
+      (o[24] = j),
+      (o[25] = A),
+      (o[26] = L),
+      (o[27] = R))
+    : (R = o[27]);
+  let z = (0, x.useEffectEvent)(R),
+    B;
+  o[28] !== O || o[29] !== j.length || o[30] !== z
+    ? ((B = () => {
+        O && j.length > 0 && z();
+      }),
+      (o[28] = O),
+      (o[29] = j.length),
+      (o[30] = z),
+      (o[31] = B))
+    : (B = o[31]);
+  let V;
+  (o[32] !== O || o[33] !== j ? ((V = [j, O]), (o[32] = O), (o[33] = j), (o[34] = V)) : (V = o[34]),
+    (0, x.useEffect)(B, V));
+  let H;
+  o[35] !== N.settings || o[36] !== _.model || o[37] !== _.reasoningEffort
+    ? ((H = { ...N.settings, model: _.model, reasoning_effort: _.reasoningEffort }),
+      (o[35] = N.settings),
+      (o[36] = _.model),
+      (o[37] = _.reasoningEffort),
+      (o[38] = H))
+    : (H = o[38]);
+  let U;
+  o[39] !== N || o[40] !== H
+    ? ((U = { ...N, settings: H }), (o[39] = N), (o[40] = H), (o[41] = U))
+    : (U = o[41]);
+  let W = !O,
+    G;
+  return (
+    o[42] !== F || o[43] !== j || o[44] !== A || o[45] !== L || o[46] !== U || o[47] !== W
+      ? ((G = {
+          modes: j,
+          activeMode: U,
+          selectedMode: A,
+          getModeForSelection: F,
+          setSelectedMode: L,
+          isLoading: W,
+        }),
+        (o[42] = F),
+        (o[43] = j),
+        (o[44] = A),
+        (o[45] = L),
+        (o[46] = U),
+        (o[47] = W),
+        (o[48] = G))
+      : (G = o[48]),
+    G
+  );
+}
+export { h as a, _ as i, g as n, y as r, S as t };
+//# sourceMappingURL=use-collaboration-mode.js.map

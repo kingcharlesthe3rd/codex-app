@@ -1,2 +1,0 @@
-import{L as e,h as t}from"./vscode-api-DjORcpSo.js";import{t as n}from"./os-info-Dm-v1Nm8.js";var r=e(t,({get:e})=>i(e(n).data?.platform));function i(e){return e!=null&&e!==`web`?o(e):a()}function a(){let e=typeof navigator>`u`?``:navigator.platform??``;return e.startsWith(`Mac`)?`macOS`:e.startsWith(`Win`)?`windows`:`linux`}function o(e){return e===`win32`?`windows`:e===`darwin`?`macOS`:`linux`}export{r as n,i as t};
-//# sourceMappingURL=platform-BHmTRipH.js.map

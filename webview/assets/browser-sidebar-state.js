@@ -1,0 +1,37 @@
+import { s as e } from "./chunk-Bj-mKKzh.js";
+import { Ea as t, Ta as n, wn as r } from "./app-server-manager-signals.js";
+import { f as i } from "./vscode-api.js";
+var a = e(r(), 1),
+  o = { BROWSE: `browse`, COMMENT: `comment` };
+function s({
+  browserTabId: e,
+  browserConversationId: r,
+  fallbackBrowserConversationId: o,
+  comments: s,
+  onCommentsChange: c,
+}) {
+  let l = r ?? o;
+  if (l == null || !s.some(t)) return !1;
+  c([]);
+  let u = s.filter(t),
+    d = (0, a.default)(u.map(n).filter((e) => e != null)),
+    f = u.some((e) => n(e) == null);
+  if ((e != null && f && !d.includes(e) && d.push(e), d.length === 0))
+    return (
+      i.dispatchMessage(`browser-sidebar-command`, {
+        ...(e == null ? {} : { browserTabId: e }),
+        conversationId: l,
+        command: { type: `clear-comments` },
+      }),
+      !0
+    );
+  for (let e of d)
+    i.dispatchMessage(`browser-sidebar-command`, {
+      browserTabId: e,
+      conversationId: l,
+      command: { type: `clear-comments` },
+    });
+  return !0;
+}
+export { s as n, o as t };
+//# sourceMappingURL=browser-sidebar-state.js.map

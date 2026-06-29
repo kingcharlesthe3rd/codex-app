@@ -1,0 +1,1496 @@
+import { s as e } from "./chunk-Bj-mKKzh.js";
+import { Wi as t, ca as n, na as r, sa as i } from "./src-2.js";
+import { _c as a, gc as o, vc as s, yc as c } from "./app-server-manager-signals.js";
+import { n as l, t as u } from "./jsx-runtime.js";
+import { t as d } from "./clsx.js";
+import { I as ee, c as te, lt as ne } from "./vscode-api.js";
+import { c as re, o as f } from "./lib-2.js";
+import { v as ie } from "./persisted-signal-CweW-bgN.js";
+import { _ as ae, p as oe } from "./codex-api.js";
+import { t as se } from "./button.js";
+import { t as ce } from "./x.js";
+import { t as le } from "./gradient.js";
+import { d as ue, l as de, u as fe } from "./dialog-layout.js";
+import { n as pe } from "./rate-limit-reset-modal.js";
+import { t as me } from "./check-lg.js";
+var p = e(l()),
+  m = u(),
+  he = (e) =>
+    (0, m.jsxs)(`svg`, {
+      width: 20,
+      height: 20,
+      viewBox: `0 0 20 20`,
+      fill: `none`,
+      xmlns: `http://www.w3.org/2000/svg`,
+      ...e,
+      children: [
+        (0, m.jsx)(`path`, {
+          d: `M3.333 8.333h13.334v8.334H3.333V8.333Z`,
+          stroke: `currentColor`,
+          strokeWidth: 1.5,
+          strokeLinejoin: `round`,
+        }),
+        (0, m.jsx)(`path`, {
+          d: `M2.5 5.833h15v2.5h-15v-2.5Z`,
+          stroke: `currentColor`,
+          strokeWidth: 1.5,
+          strokeLinejoin: `round`,
+        }),
+        (0, m.jsx)(`path`, {
+          d: `M10 5.833v10.834`,
+          stroke: `currentColor`,
+          strokeWidth: 1.5,
+          strokeLinecap: `round`,
+        }),
+        (0, m.jsx)(`path`, {
+          d: `M10 5.833H7.917A2.083 2.083 0 1 1 10 3.75v2.083Z`,
+          stroke: `currentColor`,
+          strokeWidth: 1.5,
+          strokeLinejoin: `round`,
+        }),
+        (0, m.jsx)(`path`, {
+          d: `M10 5.833h2.083A2.083 2.083 0 1 0 10 3.75v2.083Z`,
+          stroke: `currentColor`,
+          strokeWidth: 1.5,
+          strokeLinejoin: `round`,
+        }),
+      ],
+    }),
+  h = {
+    mark: `_mark_12b76_1`,
+    markSuccess: `_markSuccess_12b76_5`,
+    render: `_render_12b76_10`,
+    markSubmitting: `_markSubmitting_12b76_14`,
+    referralModalSubmittingHover: `_referralModalSubmittingHover_12b76_1`,
+    renderSubmitting: `_renderSubmitting_12b76_18`,
+    referralModalSubmittingTilt: `_referralModalSubmittingTilt_12b76_1`,
+    markSendAnimating: `_markSendAnimating_12b76_22`,
+    referralModalMarkSend: `_referralModalMarkSend_12b76_1`,
+    renderSendAnimating: `_renderSendAnimating_12b76_26`,
+    referralModalRenderSend: `_referralModalRenderSend_12b76_1`,
+    backdrop: `_backdrop_12b76_30`,
+    backdropSuccess: `_backdropSuccess_12b76_34`,
+    backdropImage: `_backdropImage_12b76_38`,
+    successBackdrop: `_successBackdrop_12b76_44`,
+    successBackdropVisible: `_successBackdropVisible_12b76_49`,
+    form: `_form_12b76_53`,
+    formHidden: `_formHidden_12b76_61`,
+    successPanel: `_successPanel_12b76_68`,
+    successPanelVisible: `_successPanelVisible_12b76_76`,
+    successIcon: `_successIcon_12b76_84`,
+    successTitle: `_successTitle_12b76_85`,
+    successDescription: `_successDescription_12b76_86`,
+    successButton: `_successButton_12b76_87`,
+    successIconVisible: `_successIconVisible_12b76_99`,
+    successTitleVisible: `_successTitleVisible_12b76_100`,
+    successDescriptionVisible: `_successDescriptionVisible_12b76_101`,
+    successButtonVisible: `_successButtonVisible_12b76_102`,
+    referralModalReducedMarkSend: `_referralModalReducedMarkSend_12b76_1`,
+    referralModalReducedRenderSend: `_referralModalReducedRenderSend_12b76_1`,
+  },
+  g = ne(),
+  _ = /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
+  ge = 100,
+  _e = 1,
+  ve = 5,
+  v = r({
+    detail: n([i(), r({ message: i().optional(), failed_emails: t(i()).optional() })]).optional(),
+  });
+function y(e) {
+  let t = (0, g.c)(241),
+    {
+      grantAmount: n,
+      onClose: r,
+      referralRedemptionAction: i,
+      referralBeaconType: a,
+      referralGrantType: s,
+      referralKey: l,
+    } = e,
+    u = re(),
+    te = ee(ie),
+    { data: ne } = oe(),
+    _ = (0, p.useId)(),
+    v = (0, p.useId)(),
+    [y, b] = (0, p.useState)(``),
+    x;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`) ? ((x = []), (t[0] = x)) : (x = t[0]);
+  let [S, Fe] = (0, p.useState)(x),
+    Ie;
+  t[1] === Symbol.for(`react.memo_cache_sentinel`) ? ((Ie = []), (t[1] = Ie)) : (Ie = t[1]);
+  let [Le, Re] = (0, p.useState)(Ie),
+    [C, ze] = (0, p.useState)(`idle`),
+    [w, T] = (0, p.useState)(null),
+    Be = ae(),
+    Ve;
+  t[2] === y ? (Ve = t[3]) : ((Ve = y.trim()), (t[2] = y), (t[3] = Ve));
+  let He = Ve.length > 0,
+    Ue = S.length > 0,
+    E = !(S.length < ve),
+    D = Be.isPending || C === `submitting`,
+    O = C === `sendAnimation`,
+    k = C === `success`,
+    A = D || O,
+    j = A || k,
+    M = w?.type === `error`,
+    We = w?.type === `error` && w.reason === `maxEmails`,
+    Ge = `${_}-status`,
+    Ke;
+  t[4] === ne?.structure
+    ? (Ke = t[5])
+    : ((Ke = ne?.structure?.toLowerCase()), (t[4] = ne?.structure), (t[5] = Ke));
+  let N = Ke === `personal`,
+    qe;
+  t[6] !== E || t[7] !== u || t[8] !== w || t[9] !== N
+    ? ((qe = w?.type === `error` ? w.message : E ? je(u, N) : null),
+      (t[6] = E),
+      (t[7] = u),
+      (t[8] = w),
+      (t[9] = N),
+      (t[10] = qe))
+    : (qe = t[10]);
+  let Je = qe,
+    Ye = Je == null ? void 0 : Ge,
+    Xe;
+  t[11] === Le ? (Xe = t[12]) : ((Xe = new Set(Le)), (t[11] = Le), (t[12] = Xe));
+  let Ze = Xe,
+    Qe;
+  t[13] === s ? (Qe = t[14]) : ((Qe = ke(s)), (t[13] = s), (t[14] = Qe));
+  let P = Qe,
+    F = n ?? (P === `rateLimitReset` ? _e : ge),
+    $e = F * 2,
+    et;
+  t[15] !== te || t[16] !== a || t[17] !== l || t[18] !== P
+    ? ((et = (e) => {
+        te.logProductEvent(c, {
+          ...e,
+          referralBeaconType: a ?? void 0,
+          referralRewardType: P,
+          referralKey: l,
+        });
+      }),
+      (t[15] = te),
+      (t[16] = a),
+      (t[17] = l),
+      (t[18] = P),
+      (t[19] = et))
+    : (et = t[19]);
+  let I = et,
+    tt;
+  t[20] === I
+    ? (tt = t[21])
+    : ((tt = () => {
+        I({ action: o.CODEX_REFERRAL_INVITE_MODAL_ACTION_SHOWN });
+      }),
+      (t[20] = I),
+      (t[21] = tt));
+  let nt = (0, p.useEffectEvent)(tt),
+    rt;
+  t[22] === nt
+    ? (rt = t[23])
+    : ((rt = () => {
+        nt();
+      }),
+      (t[22] = nt),
+      (t[23] = rt));
+  let it;
+  (t[24] === Symbol.for(`react.memo_cache_sentinel`) ? ((it = []), (t[24] = it)) : (it = t[24]),
+    (0, p.useEffect)(rt, it));
+  let at;
+  t[25] !== A || t[26] !== I || t[27] !== r
+    ? ((at = () => {
+        A || (I({ action: o.CODEX_REFERRAL_INVITE_MODAL_ACTION_CLOSE_CLICKED }), r());
+      }),
+      (t[25] = A),
+      (t[26] = I),
+      (t[27] = r),
+      (t[28] = at))
+    : (at = t[28]);
+  let L = at,
+    ot;
+  t[29] !== S || t[30] !== u || t[31] !== N
+    ? ((ot = (e) => {
+        let t = Ae(e);
+        if (t.length === 0) return { blockedByLimit: !1, emails: S };
+        let n = new Set(S.map(Ce)),
+          r = t.filter((e) => {
+            let t = e.toLowerCase();
+            return n.has(t) ? !1 : (n.add(t), !0);
+          }),
+          i = ve - S.length,
+          a = r.slice(0, i),
+          o = r.slice(i),
+          s = [...S, ...a],
+          c = s.filter(Se);
+        return (
+          Fe(s),
+          b(o.join(`, `)),
+          Re(c),
+          c.length > 0
+            ? T({ type: `error`, message: Me(c, u), reason: `invalidEmails` })
+            : o.length > 0
+              ? T({ type: `error`, message: je(u, N), reason: `maxEmails` })
+              : T(null),
+          { blockedByLimit: o.length > 0, emails: s }
+        );
+      }),
+      (t[29] = S),
+      (t[30] = u),
+      (t[31] = N),
+      (t[32] = ot))
+    : (ot = t[32]);
+  let R = ot,
+    st;
+  t[33] !== S || t[34] !== u
+    ? ((st = (e) => {
+        let t = S.filter((t) => t !== e),
+          n = t.filter(xe);
+        (Fe(t),
+          Re(n),
+          n.length > 0
+            ? T({ type: `error`, message: Me(n, u), reason: `invalidEmails` })
+            : T(null));
+      }),
+      (t[33] = S),
+      (t[34] = u),
+      (t[35] = st))
+    : (st = t[35]);
+  let z = st,
+    ct;
+  t[36] !== R ||
+  t[37] !== y ||
+  t[38] !== S ||
+  t[39] !== He ||
+  t[40] !== u ||
+  t[41] !== Be ||
+  t[42] !== I ||
+  t[43] !== l
+    ? ((ct = async () => {
+        (T(null), Re([]));
+        let e = He ? R(y) : { blockedByLimit: !1, emails: S };
+        if (e.blockedByLimit) return;
+        let t = e.emails;
+        if (t.length === 0) return;
+        let n = t.filter(be);
+        if (n.length > 0) {
+          (Re(n), T({ type: `error`, message: Me(n, u), reason: `invalidEmails` }));
+          return;
+        }
+        (I({ action: o.CODEX_REFERRAL_INVITE_MODAL_ACTION_SEND_CLICKED, emailCount: t.length }),
+          ze(`submitting`));
+        try {
+          let e = await Be.mutateAsync({ emails: t, referralKey: l });
+          (I({
+            action: o.CODEX_REFERRAL_INVITE_MODAL_ACTION_SEND_SUCCEEDED,
+            emailCount: e.invites.length,
+          }),
+            T({ type: `success`, emails: e.invites.map(ye) }),
+            ze(`sendAnimation`));
+        } catch (e) {
+          let n = Pe(e),
+            r = n?.failedEmails != null && n.failedEmails.length > 0 ? n.failedEmails : t;
+          (ze(`idle`),
+            Re(r),
+            n != null &&
+              I({
+                action: o.CODEX_REFERRAL_INVITE_MODAL_ACTION_BACKEND_ERROR,
+                emailCount: t.length,
+                failedEmailCount: r.length,
+                errorType: n.backendErrorAnalytics.errorType,
+                errorResponsibility: n.backendErrorAnalytics.errorResponsibility,
+                httpStatus: n.backendErrorAnalytics.httpStatus,
+                hasBackendDetail: n.backendErrorAnalytics.hasBackendDetail,
+              }),
+            T({ type: `error`, message: Ne(r, u, n?.message), reason: `failedInvite` }));
+        }
+      }),
+      (t[36] = R),
+      (t[37] = y),
+      (t[38] = S),
+      (t[39] = He),
+      (t[40] = u),
+      (t[41] = Be),
+      (t[42] = I),
+      (t[43] = l),
+      (t[44] = ct))
+    : (ct = t[44]);
+  let B = ct,
+    lt;
+  t[45] !== R || t[46] !== y || t[47] !== S || t[48] !== B || t[49] !== z
+    ? ((lt = (e) => {
+        if (e.key === `Enter`) {
+          if ((e.preventDefault(), Ae(y).length === 0)) {
+            B();
+            return;
+          }
+          R(y);
+          return;
+        }
+        if (e.key === `,`) {
+          (e.preventDefault(), R(y));
+          return;
+        }
+        if (e.key === `Backspace` && y.length === 0) {
+          let e = S[S.length - 1];
+          e != null && z(e);
+        }
+      }),
+      (t[45] = R),
+      (t[46] = y),
+      (t[47] = S),
+      (t[48] = B),
+      (t[49] = z),
+      (t[50] = lt))
+    : (lt = t[50]);
+  let ut = lt,
+    dt;
+  t[51] === R
+    ? (dt = t[52])
+    : ((dt = (e) => {
+        let t = e.clipboardData.getData(`text`);
+        Ae(t).length <= 1 || (e.preventDefault(), R(t));
+      }),
+      (t[51] = R),
+      (t[52] = dt));
+  let ft = dt,
+    pt;
+  t[53] !== R || t[54] !== y
+    ? ((pt = () => {
+        R(y);
+      }),
+      (t[53] = R),
+      (t[54] = y),
+      (t[55] = pt))
+    : (pt = t[55]);
+  let mt = pt,
+    ht;
+  t[56] === C
+    ? (ht = t[57])
+    : ((ht = () => {
+        C === `sendAnimation` && ze(`success`);
+      }),
+      (t[56] = C),
+      (t[57] = ht));
+  let gt = ht,
+    V;
+  t[58] === L
+    ? (V = t[59])
+    : ((V = (e) => {
+        e || L();
+      }),
+      (t[58] = L),
+      (t[59] = V));
+  let H;
+  t[60] === A
+    ? (H = t[61])
+    : ((H = (e) => {
+        A && e.preventDefault();
+      }),
+      (t[60] = A),
+      (t[61] = H));
+  let U;
+  t[62] !== v || t[63] !== H
+    ? ((U = { "aria-describedby": v, onEscapeKeyDown: H }), (t[62] = v), (t[63] = H), (t[64] = U))
+    : (U = t[64]);
+  let _t;
+  t[65] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((_t = d(
+        `relative isolate h-full w-full overflow-hidden rounded-[24px] bg-[var(--referral-modal-surface)] text-[var(--referral-modal-primary)] shadow-[0_4px_32px_rgba(0,0,0,0.1)] transition-colors duration-300`,
+        `[--referral-modal-surface:var(--color-token-dropdown-background)] [--referral-modal-primary:var(--color-token-text-primary)] [--referral-modal-secondary:var(--color-token-text-secondary)] [--referral-modal-border:var(--color-token-border)] [--referral-modal-focus:var(--color-token-focus-border)] [--referral-modal-button-background:var(--color-token-foreground)] [--referral-modal-button-foreground:var(--color-token-dropdown-background)] [--referral-modal-reward-background:#eeedff] [--referral-modal-reward-foreground:#4f46e5]`,
+        `[.dark_&]:[--referral-modal-reward-background:color-mix(in_srgb,#4f46e5_24%,transparent)] [.dark_&]:[--referral-modal-reward-foreground:#a5b4fc] [.electron-dark_&]:[--referral-modal-reward-background:color-mix(in_srgb,#4f46e5_24%,transparent)] [.electron-dark_&]:[--referral-modal-reward-foreground:#a5b4fc]`,
+      )),
+      (t[65] = _t))
+    : (_t = t[65]);
+  let vt = k && h.backdropSuccess,
+    W;
+  t[66] === vt
+    ? (W = t[67])
+    : ((W = d(h.backdrop, `pointer-events-none absolute inset-0 z-0 bg-white`, vt)),
+      (t[66] = vt),
+      (t[67] = W));
+  let yt;
+  t[68] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((yt = (0, m.jsx)(`img`, {
+        alt: ``,
+        className: d(h.backdropImage, `size-full object-cover object-center`),
+        draggable: !1,
+        src: le,
+      })),
+      (t[68] = yt))
+    : (yt = t[68]);
+  let G;
+  t[69] === W
+    ? (G = t[70])
+    : ((G = (0, m.jsx)(`div`, { "aria-hidden": !0, className: W, children: yt })),
+      (t[69] = W),
+      (t[70] = G));
+  let bt = k && h.successBackdropVisible,
+    K;
+  t[71] === bt
+    ? (K = t[72])
+    : ((K = d(
+        h.successBackdrop,
+        `pointer-events-none absolute inset-0 z-0 bg-[var(--referral-modal-surface)]`,
+        bt,
+      )),
+      (t[71] = bt),
+      (t[72] = K));
+  let q;
+  t[73] === K
+    ? (q = t[74])
+    : ((q = (0, m.jsx)(`div`, { "aria-hidden": !0, className: K })), (t[73] = K), (t[74] = q));
+  let J;
+  t[75] !== w?.type || t[76] !== N || t[77] !== k
+    ? ((J = (0, m.jsx)(ue, {
+        asChild: !0,
+        children: (0, m.jsx)(`h2`, {
+          className: `sr-only`,
+          children:
+            k && w?.type === `success`
+              ? (0, m.jsx)(De, {})
+              : (0, m.jsx)(we, { isPersonalAccount: N }),
+        }),
+      })),
+      (t[75] = w?.type),
+      (t[76] = N),
+      (t[77] = k),
+      (t[78] = J))
+    : (J = t[78]);
+  let xt = D && h.markSubmitting,
+    St = O && h.markSendAnimating,
+    Ct = k && h.markSuccess,
+    Y;
+  t[79] !== xt || t[80] !== St || t[81] !== Ct
+    ? ((Y = d(
+        h.mark,
+        `absolute left-[calc(50%_-_62px)] top-[calc(50%_-_62px)] size-[124px]`,
+        xt,
+        St,
+        Ct,
+      )),
+      (t[79] = xt),
+      (t[80] = St),
+      (t[81] = Ct),
+      (t[82] = Y))
+    : (Y = t[82]);
+  let wt = D && h.renderSubmitting,
+    Tt = O && h.renderSendAnimating,
+    X;
+  t[83] !== wt || t[84] !== Tt
+    ? ((X = d(
+        h.render,
+        `block size-full object-contain drop-shadow-[0_2px_5px_rgba(44,94,201,0.23)]`,
+        wt,
+        Tt,
+      )),
+      (t[83] = wt),
+      (t[84] = Tt),
+      (t[85] = X))
+    : (X = t[85]);
+  let Et;
+  t[86] !== gt || t[87] !== X
+    ? ((Et = (0, m.jsx)(`img`, {
+        alt: ``,
+        className: X,
+        draggable: !1,
+        onAnimationEnd: gt,
+        src: pe,
+      })),
+      (t[86] = gt),
+      (t[87] = X),
+      (t[88] = Et))
+    : (Et = t[88]);
+  let Z;
+  t[89] !== Y || t[90] !== Et
+    ? ((Z = (0, m.jsx)(`div`, { className: Y, children: Et })),
+      (t[89] = Y),
+      (t[90] = Et),
+      (t[91] = Z))
+    : (Z = t[91]);
+  let Q;
+  t[92] !== L || t[93] !== u || t[94] !== A || t[95] !== O || t[96] !== k
+    ? ((Q = O
+        ? null
+        : (0, m.jsx)(`button`, {
+            type: `button`,
+            disabled: A,
+            onClick: L,
+            "aria-label": u.formatMessage({
+              id: `codex.referralInviteModal.close`,
+              defaultMessage: `Close`,
+              description: `Aria label for closing the Codex referral invite modal`,
+            }),
+            className: d(
+              `cursor-interaction absolute right-5 top-5 z-[3] inline-flex size-9 items-center justify-center rounded-full border-0 bg-transparent text-[#5d5d5d] transition-[opacity,background-color,color] duration-200 disabled:pointer-events-none disabled:opacity-30`,
+              k
+                ? `text-token-text-secondary hover:bg-token-bg-primary/60 hover:text-token-text-primary`
+                : `hover:bg-[rgba(255,255,255,0.48)] hover:text-[#202123]`,
+            ),
+            children: (0, m.jsx)(ce, { className: `size-4 stroke-[2.4]` }),
+          })),
+      (t[92] = L),
+      (t[93] = u),
+      (t[94] = A),
+      (t[95] = O),
+      (t[96] = k),
+      (t[97] = Q))
+    : (Q = t[97]);
+  let Dt;
+  t[98] !== Z || t[99] !== Q
+    ? ((Dt = (0, m.jsxs)(`div`, {
+        className: `relative z-[1] h-48`,
+        "aria-hidden": !0,
+        children: [Z, Q],
+      })),
+      (t[98] = Z),
+      (t[99] = Q),
+      (t[100] = Dt))
+    : (Dt = t[100]);
+  let Ot = O || k,
+    kt = (O || k) && `pointer-events-none`,
+    At = (O || k) && h.formHidden,
+    jt;
+  t[101] !== kt || t[102] !== At
+    ? ((jt = d(
+        h.form,
+        `relative z-[1] flex flex-col gap-5 rounded-b-[24px] bg-[var(--referral-modal-surface)] px-6 pb-6 pt-6`,
+        kt,
+        At,
+      )),
+      (t[101] = kt),
+      (t[102] = At),
+      (t[103] = jt))
+    : (jt = t[103]);
+  let Mt;
+  t[104] === B
+    ? (Mt = t[105])
+    : ((Mt = (e) => {
+        (e.preventDefault(), B());
+      }),
+      (t[104] = B),
+      (t[105] = Mt));
+  let Nt;
+  t[106] === N
+    ? (Nt = t[107])
+    : ((Nt = (0, m.jsx)(`h2`, {
+        className: `heading-xl m-0 font-semibold text-[var(--referral-modal-primary)]`,
+        children: (0, m.jsx)(we, { isPersonalAccount: N }),
+      })),
+      (t[106] = N),
+      (t[107] = Nt));
+  let Pt = k ? void 0 : v,
+    Ft;
+  t[108] !== N || t[109] !== P || t[110] !== F || t[111] !== $e
+    ? ((Ft = (0, m.jsx)(Te, {
+        credits: F,
+        grantAmount: F,
+        isPersonalAccount: N,
+        rewardType: P,
+        totalCredits: $e,
+      })),
+      (t[108] = N),
+      (t[109] = P),
+      (t[110] = F),
+      (t[111] = $e),
+      (t[112] = Ft))
+    : (Ft = t[112]);
+  let It;
+  t[113] !== Pt || t[114] !== Ft
+    ? ((It = (0, m.jsx)(fe, {
+        className: `m-0 max-w-[400px] text-base leading-normal tracking-normal text-[var(--referral-modal-secondary)]`,
+        id: Pt,
+        children: Ft,
+      })),
+      (t[113] = Pt),
+      (t[114] = Ft),
+      (t[115] = It))
+    : (It = t[115]);
+  let Lt;
+  t[116] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((Lt = (0, m.jsx)(he, { className: `size-3.5` })), (t[116] = Lt))
+    : (Lt = t[116]);
+  let Rt;
+  t[117] !== P || t[118] !== F
+    ? ((Rt = (0, m.jsxs)(`div`, {
+        className: `inline-flex h-7 items-center gap-1.5 rounded-full bg-[var(--referral-modal-reward-background)] px-2.5 text-xs leading-4 font-medium text-[var(--referral-modal-reward-foreground)]`,
+        children: [Lt, (0, m.jsx)(Ee, { grantAmount: F, rewardType: P })],
+      })),
+      (t[117] = P),
+      (t[118] = F),
+      (t[119] = Rt))
+    : (Rt = t[119]);
+  let zt;
+  t[120] !== Nt || t[121] !== It || t[122] !== Rt
+    ? ((zt = (0, m.jsxs)(`div`, {
+        className: `flex flex-col items-center gap-3 text-center`,
+        children: [Nt, It, Rt],
+      })),
+      (t[120] = Nt),
+      (t[121] = It),
+      (t[122] = Rt),
+      (t[123] = zt))
+    : (zt = t[123]);
+  let Bt;
+  t[124] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((Bt = (0, m.jsx)(f, {
+        id: `codex.referralInviteModal.emailLabel`,
+        defaultMessage: `Email`,
+        description: `Label for the email field in the Codex referral invite modal`,
+      })),
+      (t[124] = Bt))
+    : (Bt = t[124]);
+  let Vt;
+  t[125] === _
+    ? (Vt = t[126])
+    : ((Vt = (0, m.jsx)(`label`, { className: `sr-only`, htmlFor: _, children: Bt })),
+      (t[125] = _),
+      (t[126] = Vt));
+  let Ht =
+      M &&
+      `border-token-error-foreground shadow-[0_0_0_2px_color-mix(in_srgb,var(--color-token-error-foreground)_18%,transparent)]`,
+    Ut;
+  t[127] === Ht
+    ? (Ut = t[128])
+    : ((Ut = d(
+        `flex min-h-11 w-full flex-wrap items-center gap-1.5 rounded-lg border border-[var(--referral-modal-border)] bg-token-input-background px-2 py-1.5 outline-none focus-within:border-[var(--referral-modal-focus)]`,
+        Ht,
+      )),
+      (t[127] = Ht),
+      (t[128] = Ut));
+  let Wt;
+  if (t[129] !== S || t[130] !== Ze || t[131] !== u || t[132] !== j || t[133] !== z) {
+    let e;
+    (t[135] !== Ze || t[136] !== u || t[137] !== j || t[138] !== z
+      ? ((e = (e) =>
+          (0, m.jsxs)(
+            `span`,
+            {
+              className: d(
+                `inline-flex min-h-7 max-w-full items-center gap-1.5 rounded-lg bg-[color-mix(in_srgb,var(--referral-modal-primary)_7%,transparent)] py-0 pl-2.5 pr-1.5 text-sm leading-5 text-[var(--referral-modal-primary)]`,
+                Ze.has(e) &&
+                  `bg-[color-mix(in_srgb,var(--color-token-error-foreground)_12%,transparent)] text-token-error-foreground shadow-[inset_0_0_0_1px_color-mix(in_srgb,var(--color-token-error-foreground)_30%,transparent)]`,
+              ),
+              children: [
+                (0, m.jsx)(`span`, {
+                  className: `overflow-hidden text-ellipsis whitespace-nowrap`,
+                  children: e,
+                }),
+                (0, m.jsx)(`button`, {
+                  "aria-label": u.formatMessage(
+                    {
+                      id: `codex.referralInviteModal.removeEmail`,
+                      defaultMessage: `Remove {email}`,
+                      description: `Aria label for removing an email from the Codex referral invite modal`,
+                    },
+                    { email: e },
+                  ),
+                  className: d(
+                    `cursor-interaction inline-flex size-[18px] items-center justify-center rounded-full border-0 bg-transparent p-0 text-current disabled:cursor-default disabled:opacity-50`,
+                  ),
+                  disabled: j,
+                  onClick: () => {
+                    z(e);
+                  },
+                  type: `button`,
+                  children: (0, m.jsx)(ce, { className: `size-3.5 stroke-[2.4]` }),
+                }),
+              ],
+            },
+            e,
+          )),
+        (t[135] = Ze),
+        (t[136] = u),
+        (t[137] = j),
+        (t[138] = z),
+        (t[139] = e))
+      : (e = t[139]),
+      (Wt = S.map(e)),
+      (t[129] = S),
+      (t[130] = Ze),
+      (t[131] = u),
+      (t[132] = j),
+      (t[133] = z),
+      (t[134] = Wt));
+  } else Wt = t[134];
+  let Gt;
+  t[140] !== We || t[141] !== E || t[142] !== u || t[143] !== N
+    ? ((Gt = (e) => {
+        let t = e.target.value;
+        (b(t),
+          E && t.trim().length > 0
+            ? T({ type: `error`, message: je(u, N), reason: `maxEmails` })
+            : We && T(null));
+      }),
+      (t[140] = We),
+      (t[141] = E),
+      (t[142] = u),
+      (t[143] = N),
+      (t[144] = Gt))
+    : (Gt = t[144]);
+  let Kt;
+  t[145] !== Ue || t[146] !== E || t[147] !== u
+    ? ((Kt = E
+        ? u.formatMessage({
+            id: `codex.referralInviteModal.maxEmailsPlaceholder`,
+            defaultMessage: `Maximum reached`,
+            description: `Placeholder shown when the Codex referral invite modal email input has reached the maximum number of emails`,
+          })
+        : Ue
+          ? void 0
+          : u.formatMessage({
+              id: `codex.referralInviteModal.emailPlaceholder`,
+              defaultMessage: `Add emails`,
+              description: `Placeholder for the email field in the Codex referral invite modal`,
+            })),
+      (t[145] = Ue),
+      (t[146] = E),
+      (t[147] = u),
+      (t[148] = Kt))
+    : (Kt = t[148]);
+  let qt;
+  t[149] !== Ye ||
+  t[150] !== y ||
+  t[151] !== _ ||
+  t[152] !== mt ||
+  t[153] !== ut ||
+  t[154] !== ft ||
+  t[155] !== M ||
+  t[156] !== j ||
+  t[157] !== Gt ||
+  t[158] !== Kt
+    ? ((qt = (0, m.jsx)(`input`, {
+        autoFocus: !0,
+        "aria-describedby": Ye,
+        "aria-invalid": M,
+        className: `h-8 min-w-[120px] flex-[1_1_140px] border-0 bg-transparent px-1 py-0 text-sm leading-5 text-token-input-foreground caret-[var(--referral-modal-primary)] outline-none placeholder:text-token-input-placeholder-foreground disabled:opacity-70`,
+        disabled: j,
+        id: _,
+        inputMode: `email`,
+        onBlur: mt,
+        onChange: Gt,
+        onKeyDown: ut,
+        onPaste: ft,
+        placeholder: Kt,
+        type: `text`,
+        value: y,
+      })),
+      (t[149] = Ye),
+      (t[150] = y),
+      (t[151] = _),
+      (t[152] = mt),
+      (t[153] = ut),
+      (t[154] = ft),
+      (t[155] = M),
+      (t[156] = j),
+      (t[157] = Gt),
+      (t[158] = Kt),
+      (t[159] = qt))
+    : (qt = t[159]);
+  let Jt;
+  t[160] !== M || t[161] !== Ut || t[162] !== Wt || t[163] !== qt
+    ? ((Jt = (0, m.jsxs)(`div`, { "aria-invalid": M, className: Ut, children: [Wt, qt] })),
+      (t[160] = M),
+      (t[161] = Ut),
+      (t[162] = Wt),
+      (t[163] = qt),
+      (t[164] = Jt))
+    : (Jt = t[164]);
+  let Yt;
+  t[165] !== Je || t[166] !== M || t[167] !== Ge
+    ? ((Yt =
+        Je == null
+          ? null
+          : (0, m.jsx)(`p`, {
+              "aria-live": `polite`,
+              className: d(
+                `m-0 text-xs leading-normal`,
+                M ? `text-token-error-foreground` : `text-[var(--referral-modal-secondary)]`,
+              ),
+              id: Ge,
+              children: Je,
+            })),
+      (t[165] = Je),
+      (t[166] = M),
+      (t[167] = Ge),
+      (t[168] = Yt))
+    : (Yt = t[168]);
+  let Xt;
+  t[169] !== Jt || t[170] !== Yt
+    ? ((Xt = (0, m.jsxs)(`div`, { className: `flex flex-col gap-2`, children: [Jt, Yt] })),
+      (t[169] = Jt),
+      (t[170] = Yt),
+      (t[171] = Xt))
+    : (Xt = t[171]);
+  let Zt = (!Ue && !He) || j,
+    Qt;
+  t[172] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((Qt = (0, m.jsx)(f, {
+        id: `codex.referralInviteModal.send`,
+        defaultMessage: `Send`,
+        description: `Send button label in the Codex referral invite modal`,
+      })),
+      (t[172] = Qt))
+    : (Qt = t[172]);
+  let $t;
+  t[173] !== D || t[174] !== Zt
+    ? (($t = (0, m.jsx)(se, {
+        className: `h-10 w-full justify-center border-0 bg-[var(--referral-modal-button-background)] text-[var(--referral-modal-button-foreground)] hover:bg-[color-mix(in_srgb,var(--referral-modal-button-background)_80%,transparent)]`,
+        disabled: Zt,
+        loading: D,
+        type: `submit`,
+        children: Qt,
+      })),
+      (t[173] = D),
+      (t[174] = Zt),
+      (t[175] = $t))
+    : ($t = t[175]);
+  let en;
+  t[176] !== Vt || t[177] !== Xt || t[178] !== $t
+    ? ((en = (0, m.jsxs)(`div`, { className: `flex flex-col gap-6`, children: [Vt, Xt, $t] })),
+      (t[176] = Vt),
+      (t[177] = Xt),
+      (t[178] = $t),
+      (t[179] = en))
+    : (en = t[179]);
+  let tn;
+  t[180] !== Ot || t[181] !== jt || t[182] !== Mt || t[183] !== zt || t[184] !== en
+    ? ((tn = (0, m.jsxs)(`form`, {
+        "aria-hidden": Ot,
+        className: jt,
+        noValidate: !0,
+        onSubmit: Mt,
+        children: [zt, en],
+      })),
+      (t[180] = Ot),
+      (t[181] = jt),
+      (t[182] = Mt),
+      (t[183] = zt),
+      (t[184] = en),
+      (t[185] = tn))
+    : (tn = t[185]);
+  let nn = !k,
+    rn = k && h.successPanelVisible,
+    an;
+  t[186] === rn
+    ? (an = t[187])
+    : ((an = d(
+        h.successPanel,
+        `pointer-events-none absolute inset-0 z-[2] flex size-full flex-col items-center justify-start gap-3 px-6 pt-28 pb-6`,
+        rn,
+      )),
+      (t[186] = rn),
+      (t[187] = an));
+  let on = k && h.successIconVisible,
+    sn;
+  t[188] === on
+    ? (sn = t[189])
+    : ((sn = d(
+        h.successIcon,
+        `flex size-10 items-center justify-center rounded-full bg-[var(--referral-modal-button-background)] text-[var(--referral-modal-button-foreground)]`,
+        on,
+      )),
+      (t[188] = on),
+      (t[189] = sn));
+  let cn;
+  t[190] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((cn = (0, m.jsx)(me, { className: `size-5` })), (t[190] = cn))
+    : (cn = t[190]);
+  let $;
+  t[191] === sn
+    ? ($ = t[192])
+    : (($ = (0, m.jsx)(`div`, { className: sn, "aria-hidden": `true`, children: cn })),
+      (t[191] = sn),
+      (t[192] = $));
+  let ln = k && h.successTitleVisible,
+    un;
+  t[193] === ln
+    ? (un = t[194])
+    : ((un = d(
+        h.successTitle,
+        `heading-xl m-0 w-[min(100%,400px)] text-center font-semibold text-[var(--referral-modal-primary)]`,
+        ln,
+      )),
+      (t[193] = ln),
+      (t[194] = un));
+  let dn;
+  t[195] === w?.type
+    ? (dn = t[196])
+    : ((dn = w?.type === `success` ? (0, m.jsx)(De, {}) : null), (t[195] = w?.type), (t[196] = dn));
+  let fn;
+  t[197] !== un || t[198] !== dn
+    ? ((fn = (0, m.jsx)(`h2`, { className: un, children: dn })),
+      (t[197] = un),
+      (t[198] = dn),
+      (t[199] = fn))
+    : (fn = t[199]);
+  let pn = k && h.successDescriptionVisible,
+    mn;
+  t[200] === pn
+    ? (mn = t[201])
+    : ((mn = d(
+        h.successDescription,
+        `m-0 w-[min(100%,400px)] text-center text-base leading-normal tracking-normal text-[var(--referral-modal-secondary)]`,
+        pn,
+      )),
+      (t[200] = pn),
+      (t[201] = mn));
+  let hn = k ? v : void 0,
+    gn = w?.type === `success` ? w.emails.length : 1,
+    _n;
+  t[202] !== N || t[203] !== i || t[204] !== P || t[205] !== F || t[206] !== gn
+    ? ((_n = (0, m.jsx)(Oe, {
+        count: gn,
+        credits: F,
+        grantAmount: F,
+        isPersonalAccount: N,
+        redemptionAction: i,
+        rewardType: P,
+      })),
+      (t[202] = N),
+      (t[203] = i),
+      (t[204] = P),
+      (t[205] = F),
+      (t[206] = gn),
+      (t[207] = _n))
+    : (_n = t[207]);
+  let vn;
+  t[208] !== mn || t[209] !== hn || t[210] !== _n
+    ? ((vn = (0, m.jsx)(`p`, { className: mn, id: hn, children: _n })),
+      (t[208] = mn),
+      (t[209] = hn),
+      (t[210] = _n),
+      (t[211] = vn))
+    : (vn = t[211]);
+  let yn = k ? `pointer-events-auto` : `pointer-events-none`,
+    bn = k && h.successButtonVisible,
+    xn;
+  t[212] !== yn || t[213] !== bn
+    ? ((xn = d(
+        h.successButton,
+        `mt-auto h-10 w-full justify-center border-0 bg-[var(--referral-modal-button-background)] text-[var(--referral-modal-button-foreground)] hover:bg-[color-mix(in_srgb,var(--referral-modal-button-background)_80%,transparent)]`,
+        yn,
+        bn,
+      )),
+      (t[212] = yn),
+      (t[213] = bn),
+      (t[214] = xn))
+    : (xn = t[214]);
+  let Sn;
+  t[215] !== I || t[216] !== r
+    ? ((Sn = () => {
+        (I({ action: o.CODEX_REFERRAL_INVITE_MODAL_ACTION_DONE_CLICKED }), r());
+      }),
+      (t[215] = I),
+      (t[216] = r),
+      (t[217] = Sn))
+    : (Sn = t[217]);
+  let Cn;
+  t[218] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((Cn = (0, m.jsx)(f, {
+        id: `codex.referralInviteModal.done`,
+        defaultMessage: `Done`,
+        description: `Button label for closing the Codex referral invite success modal`,
+      })),
+      (t[218] = Cn))
+    : (Cn = t[218]);
+  let wn;
+  t[219] !== xn || t[220] !== Sn
+    ? ((wn = (0, m.jsx)(se, { className: xn, onClick: Sn, type: `button`, children: Cn })),
+      (t[219] = xn),
+      (t[220] = Sn),
+      (t[221] = wn))
+    : (wn = t[221]);
+  let Tn;
+  t[222] !== nn || t[223] !== an || t[224] !== $ || t[225] !== fn || t[226] !== vn || t[227] !== wn
+    ? ((Tn = (0, m.jsxs)(`div`, {
+        "aria-hidden": nn,
+        "aria-live": `polite`,
+        className: an,
+        children: [$, fn, vn, wn],
+      })),
+      (t[222] = nn),
+      (t[223] = an),
+      (t[224] = $),
+      (t[225] = fn),
+      (t[226] = vn),
+      (t[227] = wn),
+      (t[228] = Tn))
+    : (Tn = t[228]);
+  let En;
+  t[229] !== G || t[230] !== q || t[231] !== J || t[232] !== Dt || t[233] !== tn || t[234] !== Tn
+    ? ((En = (0, m.jsxs)(`section`, { className: _t, children: [G, q, J, Dt, tn, Tn] })),
+      (t[229] = G),
+      (t[230] = q),
+      (t[231] = J),
+      (t[232] = Dt),
+      (t[233] = tn),
+      (t[234] = Tn),
+      (t[235] = En))
+    : (En = t[235]);
+  let Dn;
+  return (
+    t[236] !== A || t[237] !== V || t[238] !== U || t[239] !== En
+      ? ((Dn = (0, m.jsx)(de, {
+          open: !0,
+          onOpenChange: V,
+          shouldIgnoreClickOutside: A,
+          size: `default`,
+          overlayClassName: `!bg-[color-mix(in_srgb,var(--color-token-bg-primary)_64%,transparent)]`,
+          contentClassName: `max-h-[calc(100dvh_-_32px)] !overflow-visible !rounded-[24px] !bg-transparent !p-0 !shadow-none !backdrop-blur-none`,
+          contentProps: U,
+          showDialogClose: !1,
+          children: En,
+        })),
+        (t[236] = A),
+        (t[237] = V),
+        (t[238] = U),
+        (t[239] = En),
+        (t[240] = Dn))
+      : (Dn = t[240]),
+    Dn
+  );
+}
+function ye(e) {
+  return e.email;
+}
+function be(e) {
+  return !x(e);
+}
+function xe(e) {
+  return !x(e);
+}
+function Se(e) {
+  return !x(e);
+}
+function Ce(e) {
+  return e.toLowerCase();
+}
+function we(e) {
+  let t = (0, g.c)(2),
+    { isPersonalAccount: n } = e;
+  if (n) {
+    let e;
+    return (
+      t[0] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, m.jsx)(f, {
+            id: `codex.referralInviteModal.personalTitle`,
+            defaultMessage: `Invite a friend`,
+            description: `Title for the Codex referral invite modal in a personal account`,
+          })),
+          (t[0] = e))
+        : (e = t[0]),
+      e
+    );
+  }
+  let r;
+  return (
+    t[1] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((r = (0, m.jsx)(f, {
+          id: `codex.referralInviteModal.workspaceTitle`,
+          defaultMessage: `Invite a coworker`,
+          description: `Title for the Codex referral invite modal in a workspace account`,
+        })),
+        (t[1] = r))
+      : (r = t[1]),
+    r
+  );
+}
+function Te(e) {
+  let t = (0, g.c)(9),
+    { credits: n, grantAmount: r, isPersonalAccount: i, rewardType: a, totalCredits: o } = e;
+  if (a === `rateLimitReset`) {
+    if (i) {
+      let e;
+      return (
+        t[0] === r
+          ? (e = t[1])
+          : ((e = (0, m.jsx)(f, {
+              id: `codex.referralInviteModal.rateLimitDescription.personal`,
+              defaultMessage: `When your friend joins and sends their first message, you’ll get {grantAmount, plural, one {a rate limit reset} other {{grantAmount, number} rate limit resets}} to use any time you want`,
+              description: `Description for the Codex referral invite modal in a personal account when the referral reward is a rate limit reset`,
+              values: { grantAmount: r },
+            })),
+            (t[0] = r),
+            (t[1] = e)),
+        e
+      );
+    }
+    let e;
+    return (
+      t[2] === r
+        ? (e = t[3])
+        : ((e = (0, m.jsx)(f, {
+            id: `codex.referralInviteModal.rateLimitDescription.workspace`,
+            defaultMessage: `When your coworker joins and sends their first message, you’ll get {grantAmount, plural, one {a rate limit reset} other {{grantAmount, number} rate limit resets}} to use any time you want`,
+            description: `Description for the Codex referral invite modal in a workspace account when the referral reward is a rate limit reset`,
+            values: { grantAmount: r },
+          })),
+          (t[2] = r),
+          (t[3] = e)),
+      e
+    );
+  }
+  if (i) {
+    let e;
+    return (
+      t[4] === n
+        ? (e = t[5])
+        : ((e = (0, m.jsx)(f, {
+            id: `codex.referralInviteModal.creditsDescription.personal`,
+            defaultMessage: `When your friend joins and sends their first message, you’ll each get {credits, number} credits to use in Codex`,
+            description: `Description for the Codex referral invite modal in a personal account when the referral reward is credits`,
+            values: { credits: n },
+          })),
+          (t[4] = n),
+          (t[5] = e)),
+      e
+    );
+  }
+  let s;
+  return (
+    t[6] !== n || t[7] !== o
+      ? ((s = (0, m.jsx)(f, {
+          id: `codex.referralInviteModal.creditsDescription.workspace`,
+          defaultMessage: `When your coworker joins and sends their first message, you’ll each get {credits, number} credits ({totalCredits, number} total) added to the workspace pool`,
+          description: `Description for the Codex referral invite modal in a workspace account when the referral reward is credits`,
+          values: { credits: n, totalCredits: o },
+        })),
+        (t[6] = n),
+        (t[7] = o),
+        (t[8] = s))
+      : (s = t[8]),
+    s
+  );
+}
+function Ee(e) {
+  let t = (0, g.c)(4),
+    { grantAmount: n, rewardType: r } = e;
+  if (r === `rateLimitReset`) {
+    let e;
+    return (
+      t[0] === n
+        ? (e = t[1])
+        : ((e = (0, m.jsx)(f, {
+            id: `codex.referralInviteModal.rateLimitRewardPill`,
+            defaultMessage: `{grantAmount, number} {grantAmount, plural, one {rate limit reset} other {rate limit resets}} per invite`,
+            description: `Reward pill shown in the Codex referral invite modal when the referral reward is a rate limit reset`,
+            values: { grantAmount: n },
+          })),
+          (t[0] = n),
+          (t[1] = e)),
+      e
+    );
+  }
+  let i;
+  return (
+    t[2] === n
+      ? (i = t[3])
+      : ((i = (0, m.jsx)(f, {
+          id: `codex.referralInviteModal.rewardPill`,
+          defaultMessage: `Get {grantAmount, number} credits each`,
+          description: `Reward pill shown in the Codex referral invite modal`,
+          values: { grantAmount: n },
+        })),
+        (t[2] = n),
+        (t[3] = i)),
+    i
+  );
+}
+function De() {
+  let e = (0, g.c)(1),
+    t;
+  return (
+    e[0] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((t = (0, m.jsx)(f, {
+          id: `codex.referralInviteModal.successTitle`,
+          defaultMessage: `Invite sent`,
+          description: `Success message shown after one or more Codex referral invites are sent`,
+        })),
+        (e[0] = t))
+      : (t = e[0]),
+    t
+  );
+}
+function Oe(e) {
+  let t = (0, g.c)(24),
+    {
+      count: n,
+      credits: r,
+      grantAmount: i,
+      isPersonalAccount: a,
+      redemptionAction: o,
+      rewardType: s,
+    } = e;
+  if (s === `rateLimitReset`) {
+    if (o === `codex_login`) {
+      if (a) {
+        let e;
+        t[0] === i ? (e = t[1]) : ((e = (0, m.jsx)(b, { grantAmount: i })), (t[0] = i), (t[1] = e));
+        let r;
+        return (
+          t[2] !== n || t[3] !== e
+            ? ((r = (0, m.jsx)(f, {
+                id: `codex.referralInviteModal.rateLimitSuccessDescription.personal.codexLogin`,
+                defaultMessage: `Once your {count, plural, one {friend logs} other {friends log}} into Codex, you’ll each get {reward} so you can get even more work done`,
+                description: `Description shown after a Codex referral invite is sent in a personal account when the referral reward is a rate limit reset and the friend needs to log into Codex`,
+                values: { count: n, reward: e },
+              })),
+              (t[2] = n),
+              (t[3] = e),
+              (t[4] = r))
+            : (r = t[4]),
+          r
+        );
+      }
+      let e;
+      t[5] === i ? (e = t[6]) : ((e = (0, m.jsx)(b, { grantAmount: i })), (t[5] = i), (t[6] = e));
+      let r;
+      return (
+        t[7] !== n || t[8] !== e
+          ? ((r = (0, m.jsx)(f, {
+              id: `codex.referralInviteModal.rateLimitSuccessDescription.workspace.codexLogin`,
+              defaultMessage: `Once your {count, plural, one {coworker logs} other {coworkers log}} into Codex, you’ll each get {reward} so you can get even more work done`,
+              description: `Description shown after a Codex referral invite is sent in a workspace account when the referral reward is a rate limit reset and the coworker needs to log into Codex`,
+              values: { count: n, reward: e },
+            })),
+            (t[7] = n),
+            (t[8] = e),
+            (t[9] = r))
+          : (r = t[9]),
+        r
+      );
+    }
+    if (a) {
+      let e;
+      t[10] === i
+        ? (e = t[11])
+        : ((e = (0, m.jsx)(b, { grantAmount: i })), (t[10] = i), (t[11] = e));
+      let r;
+      return (
+        t[12] !== n || t[13] !== e
+          ? ((r = (0, m.jsx)(f, {
+              id: `codex.referralInviteModal.rateLimitSuccessDescription.personal`,
+              defaultMessage: `Once your {count, plural, one {friend joins and sends} other {friends join and send}} their first message, you’ll each get {reward} so you can get even more work done`,
+              description: `Description shown after a Codex referral invite is sent in a personal account when the referral reward is a rate limit reset`,
+              values: { count: n, reward: e },
+            })),
+            (t[12] = n),
+            (t[13] = e),
+            (t[14] = r))
+          : (r = t[14]),
+        r
+      );
+    }
+    let e;
+    t[15] === i ? (e = t[16]) : ((e = (0, m.jsx)(b, { grantAmount: i })), (t[15] = i), (t[16] = e));
+    let r;
+    return (
+      t[17] !== n || t[18] !== e
+        ? ((r = (0, m.jsx)(f, {
+            id: `codex.referralInviteModal.rateLimitSuccessDescription.workspace`,
+            defaultMessage: `Once your {count, plural, one {coworker joins and sends} other {coworkers join and send}} their first message, you’ll each get {reward} so you can get even more work done`,
+            description: `Description shown after a Codex referral invite is sent in a workspace account when the referral reward is a rate limit reset`,
+            values: { count: n, reward: e },
+          })),
+          (t[17] = n),
+          (t[18] = e),
+          (t[19] = r))
+        : (r = t[19]),
+      r
+    );
+  }
+  if (a) {
+    let e;
+    return (
+      t[20] === r
+        ? (e = t[21])
+        : ((e = (0, m.jsx)(f, {
+            id: `codex.referralInviteModal.creditsSuccessDescription.personal`,
+            defaultMessage: `Once your friend joins and sends their first message, you’ll each get {credits, number} credits to use in Codex`,
+            description: `Description shown after a Codex referral invite is sent in a personal account when the referral reward is credits`,
+            values: { credits: r },
+          })),
+          (t[20] = r),
+          (t[21] = e)),
+      e
+    );
+  }
+  let c;
+  return (
+    t[22] === r
+      ? (c = t[23])
+      : ((c = (0, m.jsx)(f, {
+          id: `codex.referralInviteModal.creditsSuccessDescription.workspace`,
+          defaultMessage: `Once your coworker joins and sends their first message, you’ll each get {credits, number} credits added to the workspace pool`,
+          description: `Description shown after a Codex referral invite is sent in a workspace account when the referral reward is credits`,
+          values: { credits: r },
+        })),
+        (t[22] = r),
+        (t[23] = c)),
+    c
+  );
+}
+function b(e) {
+  let t = (0, g.c)(2),
+    { grantAmount: n } = e,
+    r;
+  return (
+    t[0] === n
+      ? (r = t[1])
+      : ((r = (0, m.jsx)(f, {
+          id: `codex.referralInviteModal.rateLimitResetReward`,
+          defaultMessage: `{grantAmount, plural, one {one rate limit reset} other {{grantAmount, number} rate limit resets}}`,
+          description: `Rate limit reset reward amount in the Codex referral invite success modal`,
+          values: { grantAmount: n },
+        })),
+        (t[0] = n),
+        (t[1] = r)),
+    r
+  );
+}
+function ke(e) {
+  switch (e) {
+    case `rate_limit_reset_credit`:
+      return `rateLimitReset`;
+    case `workspace_credits`:
+    case null:
+    case void 0:
+      return `credits`;
+  }
+}
+function Ae(e) {
+  return e
+    .split(/[\s,;]+/)
+    .map((e) => e.trim())
+    .filter((e) => e.length > 0);
+}
+function x(e) {
+  return _.test(e);
+}
+function je(e, t) {
+  return t
+    ? e.formatMessage(
+        {
+          id: `codex.referralInviteModal.maxEmailsError.personal`,
+          defaultMessage: `You can invite up to {maxEmails, number} friends at a time. Remove one to add another.`,
+          description: `Inline message shown when the Codex referral invite modal in a personal account reaches the maximum number of emails`,
+        },
+        { maxEmails: ve },
+      )
+    : e.formatMessage(
+        {
+          id: `codex.referralInviteModal.maxEmailsError.workspace`,
+          defaultMessage: `You can invite up to {maxEmails, number} coworkers at a time. Remove one to add another.`,
+          description: `Inline message shown when the Codex referral invite modal in a workspace account reaches the maximum number of emails`,
+        },
+        { maxEmails: ve },
+      );
+}
+function Me(e, t) {
+  return t.formatMessage(
+    {
+      id: `codex.referralInviteModal.invalidEmailsError`,
+      defaultMessage: `Fix these emails: {emails}`,
+      description: `Error shown when one or more entered referral invite emails are invalid`,
+    },
+    { emails: e.join(`, `) },
+  );
+}
+function Ne(e, t, n) {
+  return n == null
+    ? t.formatMessage(
+        {
+          id: `codex.referralInviteModal.failedEmailsError`,
+          defaultMessage: `Couldn’t send invites to: {emails}`,
+          description: `Error shown when one or more Codex referral invite emails fail to send`,
+        },
+        { emails: e.join(`, `) },
+      )
+    : t.formatMessage(
+        {
+          id: `codex.referralInviteModal.failedEmailsDetailedError`,
+          defaultMessage: `{message}: {emails}`,
+          description: `Error shown when the backend returns a specific reason that one or more Codex referral invite emails failed`,
+        },
+        { message: n, emails: e.join(`, `) },
+      );
+}
+function Pe(e) {
+  if (!(e instanceof te)) return null;
+  try {
+    let t = v.safeParse(JSON.parse(e.message));
+    if (!t.success)
+      return {
+        backendErrorAnalytics: S({ hasBackendDetail: !1, status: e.status }),
+        failedEmails: void 0,
+        message: void 0,
+      };
+    let n = t.data.detail != null;
+    return typeof t.data.detail == `string`
+      ? {
+          backendErrorAnalytics: S({
+            hasBackendDetail: n,
+            message: t.data.detail,
+            status: e.status,
+          }),
+          failedEmails: void 0,
+          message: t.data.detail,
+        }
+      : {
+          backendErrorAnalytics: S({
+            hasBackendDetail: n,
+            message: t.data.detail?.message,
+            status: e.status,
+          }),
+          failedEmails: t.data.detail?.failed_emails,
+          message: t.data.detail?.message,
+        };
+  } catch {
+    return {
+      backendErrorAnalytics: S({ hasBackendDetail: !1, status: e.status }),
+      failedEmails: void 0,
+      message: void 0,
+    };
+  }
+}
+function S({ hasBackendDetail: e, message: t, status: n }) {
+  let r = Fe({ message: t, status: n });
+  return { errorResponsibility: Ie(r), errorType: r, hasBackendDetail: e, httpStatus: n };
+}
+function Fe({ message: e, status: t }) {
+  return Le(e)
+    ? a.CODEX_REFERRAL_INVITE_MODAL_BACKEND_ERROR_TYPE_REFERRAL_ALREADY_EXISTS
+    : t === 400
+      ? a.CODEX_REFERRAL_INVITE_MODAL_BACKEND_ERROR_TYPE_VALIDATION_FAILED
+      : t === 401
+        ? a.CODEX_REFERRAL_INVITE_MODAL_BACKEND_ERROR_TYPE_AUTHENTICATION_REQUIRED
+        : t === 403
+          ? a.CODEX_REFERRAL_INVITE_MODAL_BACKEND_ERROR_TYPE_PERMISSION_DENIED
+          : t === 409
+            ? a.CODEX_REFERRAL_INVITE_MODAL_BACKEND_ERROR_TYPE_REFERRAL_ALREADY_EXISTS
+            : t === 429
+              ? a.CODEX_REFERRAL_INVITE_MODAL_BACKEND_ERROR_TYPE_RATE_LIMITED
+              : t >= 500 && t < 600
+                ? a.CODEX_REFERRAL_INVITE_MODAL_BACKEND_ERROR_TYPE_BACKEND_ISSUE
+                : a.CODEX_REFERRAL_INVITE_MODAL_BACKEND_ERROR_TYPE_UNKNOWN_BACKEND_ERROR;
+}
+function Ie(e) {
+  switch (e) {
+    case a.CODEX_REFERRAL_INVITE_MODAL_BACKEND_ERROR_TYPE_AUTHENTICATION_REQUIRED:
+    case a.CODEX_REFERRAL_INVITE_MODAL_BACKEND_ERROR_TYPE_PERMISSION_DENIED:
+    case a.CODEX_REFERRAL_INVITE_MODAL_BACKEND_ERROR_TYPE_RATE_LIMITED:
+    case a.CODEX_REFERRAL_INVITE_MODAL_BACKEND_ERROR_TYPE_REFERRAL_ALREADY_EXISTS:
+    case a.CODEX_REFERRAL_INVITE_MODAL_BACKEND_ERROR_TYPE_VALIDATION_FAILED:
+      return s.CODEX_REFERRAL_INVITE_MODAL_ERROR_RESPONSIBILITY_USER;
+    case a.CODEX_REFERRAL_INVITE_MODAL_BACKEND_ERROR_TYPE_BACKEND_ISSUE:
+    case a.CODEX_REFERRAL_INVITE_MODAL_BACKEND_ERROR_TYPE_UNKNOWN_BACKEND_ERROR:
+      return s.CODEX_REFERRAL_INVITE_MODAL_ERROR_RESPONSIBILITY_SYSTEM;
+    case a.CODEX_REFERRAL_INVITE_MODAL_BACKEND_ERROR_TYPE_UNSPECIFIED:
+    case a.UNRECOGNIZED:
+      return s.CODEX_REFERRAL_INVITE_MODAL_ERROR_RESPONSIBILITY_UNSPECIFIED;
+  }
+}
+function Le(e) {
+  return e == null ? !1 : /already/i.test(e) && /(referral|invite)/i.test(e);
+}
+export { he as n, y as t };
+//# sourceMappingURL=referral-invite-modal.js.map
