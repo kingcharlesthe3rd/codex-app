@@ -1,0 +1,2 @@
+import{n as e}from"./rolldown-runtime-Czos8NxU.js";import{bC as t,xC as n}from"./app-initial~app-main~onboarding-page~select-workspace-page-CfKRpsLw.js";function r(e){return e.filter(e=>e.isAccessible&&e.isEnabled)}var i,a,o=e((()=>{t(),i=n(`has-seen-ambient-suggestions-connected-apps-consent`,!1),a=n(`has-dismissed-ambient-suggestions-connect-apps-row`,!1)}));export{o as i,a as n,i as r,r as t};
+//# sourceMappingURL=ambient-suggestions-connected-apps-consent-CCQaEIeB.js.map
