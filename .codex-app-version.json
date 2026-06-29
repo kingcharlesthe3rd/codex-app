@@ -1,0 +1,16 @@
+{
+  "app": {
+    "name": "Codex",
+    "version": "26.609.41114",
+    "bundleVersion": "3888",
+    "branch": "v26.609.41114"
+  },
+  "source": {
+    "url": "https://github.com/KonstantinMeleshkin/codex-desktop-archive/releases/download/desktop-v26.609.41114/Codex-Desktop-26.609.41114-macos.dmg",
+    "sha256": "fcc4da9a09973fd35c0399018434aa80e4e3a04112d0ea98cb0eeeb70fb9d9e8",
+    "downloadedAt": "2026-06-29T15:24:54Z"
+  },
+  "import": {
+    "layout": "app.asar contents and app.asar.unpacked contents merged at repository root"
+  }
+}
