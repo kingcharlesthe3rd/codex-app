@@ -1,0 +1,2 @@
+import{kr as e}from"./src-C-vEhZB3.js";import{t}from"./use-global-state-ByF0e7y-.js";import{t as n}from"./use-auth-CQ6T_OtK.js";function r(){let{data:r,isLoading:i}=t(e.NUX_2025_09_15),{authMethod:a}=n();return`none`}export{r as t};
+//# sourceMappingURL=use-nux-CPToHAV7.js.map
