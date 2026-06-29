@@ -1,1 +1,2 @@
-import{t as e}from"./scss-BjEzxFPt.js";export{e as default};
+import { t as e } from "./scss.js";
+export { e as default };

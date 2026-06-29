@@ -1,0 +1,6188 @@
+import { s as e } from "./chunk-Bj-mKKzh.js";
+import { Hr as t, Kn as n, S as r, U as i, ga as a } from "./src-2.js";
+import {
+  Ba as o,
+  C as s,
+  Ko as c,
+  Qn as l,
+  Tn as u,
+  Uo as d,
+  Wo as f,
+  Ya as p,
+  Zn as m,
+  ar as h,
+  ir as g,
+  lr as _,
+  mo as v,
+  nt as y,
+} from "./app-server-manager-signals.js";
+import { n as b, t as ee } from "./jsx-runtime.js";
+import { t as x } from "./clsx.js";
+import {
+  F as S,
+  H as C,
+  I as w,
+  L as T,
+  P as te,
+  R as E,
+  c as D,
+  et as O,
+  h as k,
+  lt as ne,
+  u as A,
+  v as re,
+} from "./vscode-api.js";
+import { i as j, n as M } from "./react.js";
+import { c as ie, o as N, r as ae } from "./lib-2.js";
+import { t as P } from "./branch.js";
+import { g as oe } from "./persisted-signal-CweW-bgN.js";
+import { o as F } from "./statsig.js";
+import { t as I } from "./request.js";
+import { o as L } from "./app-server-manager-hooks.js";
+import { d as se } from "./thread-context-inputs.js";
+import { t as R } from "./use-global-state.js";
+import { O as z, s as B } from "./codex-api.js";
+import { r as ce } from "./toast-signal.js";
+import { t as V } from "./tooltip.js";
+import { c as le } from "./prompt-text.js";
+import { t as H } from "./use-environment.js";
+import { S as U, t as ue } from "./composer-view-state.js";
+import { t as W } from "./use-collaboration-mode.js";
+import { t as de } from "./button.js";
+import { a as fe } from "./setting-storage.js";
+import { t as pe } from "./spinner.js";
+import { n as me, t as G } from "./use-codex-home.js";
+import { t as he } from "./link-external.js";
+import { n as ge } from "./use-webview-execution-target.js";
+import { o as _e, r as ve, t as ye } from "./remote-projects.js";
+import { n as be } from "./composer-footer.js";
+import { r as K } from "./git-current-branch-query.js";
+import { t as xe } from "./with-window.js";
+import { t as Se } from "./notebook-Y9bM-BJu.js";
+import { t as Ce } from "./settings.cog.js";
+import { t as we } from "./codex.js";
+import { r as q } from "./modal-controller-state.js";
+import { a as Te, i as J, l as Ee, n as De, r as Oe } from "./dialog-layout.js";
+import { t as ke } from "./check-md.js";
+import { t as Ae } from "./chevron-right.js";
+import { n as je } from "./upgrade-plan-dialog-launcher.js";
+import { t as Me } from "./arrow-left.js";
+import { D as Y, c as Ne, d as Pe, f as Fe, o as Ie, t as Le } from "./use-rate-limit-CL-Jgab4.js";
+import { c as Re } from "./plan-management-state.js";
+import { t as ze } from "./x-circle.js";
+import { r as X, t as Be } from "./dropdown.js";
+import { t as Ve } from "./globe.js";
+import { t as He } from "./chevron.js";
+import { t as Ue } from "./cloud.js";
+import { t as We } from "./macbook.js";
+import { t as Ge } from "./worktree.js";
+import { t as Ke } from "./plus-d3DP-DMx.js";
+import { t as qe } from "./use-git-current-branch.js";
+import { t as Je } from "./rate-limit-summary-BqI-pZT5.js";
+import { t as Ye } from "./dist-12.js";
+import { f as Xe, l as Ze, p as Qe } from "./local-remote-selection.js";
+import { t as $e } from "./use-git-default-branch.js";
+import { t as et } from "./slash-command-item.js";
+import { n as tt, r as nt } from "./thread-handoff-composer-block-state.js";
+import { t as rt } from "./action-popover-primitives.js";
+import { t as it } from "./get-default-branch-name.js";
+import { t as at } from "./summary-panel-row.js";
+import { i as ot, n as st, r as ct, t as lt } from "./thread-handoff-store.js";
+import { t as ut } from "./get-move-to-local-targets.js";
+import { n as dt } from "./git-submodule-paths-query.js";
+import { i as ft, n as pt, r as mt } from "./git-branch-switcher.js";
+import { t as ht } from "./dock.js";
+import { t as gt } from "./thread-handoff-step-row.js";
+import { t as _t } from "./use-codex-worktrees-Cz6-FuqU.js";
+function vt({ isCompactWindow: e }) {
+  return !e;
+}
+function yt({ codexWorktree: e, operation: t, threadHandoff: n }) {
+  return t == null
+    ? n == null
+      ? e
+        ? `to-local`
+        : `to-worktree`
+      : n.isWorktreeConversation
+        ? `to-local`
+        : `to-worktree`
+    : t.direction;
+}
+function bt(e) {
+  return e?.status === `success` ? null : e;
+}
+function xt({ conversationId: e, operation: t, threadHandoff: n }) {
+  return e != null && t == null && n != null && !n.disabled;
+}
+function St({
+  conversationId: e,
+  handoffBranch: t,
+  handoffDirection: n,
+  operation: r,
+  threadHandoff: i,
+}) {
+  return e != null && i != null && (n === `to-local` || t != null || r != null);
+}
+function Ct({ destinationHostId: e, destinationWorkspaceRoot: t, operation: n }) {
+  return (
+    n?.direction === `to-host-worktree` &&
+    n.request.destinationHostId === e &&
+    n.request.destinationWorkspaceRoot === t
+  );
+}
+var wt = e(b()),
+  Z = ee(),
+  Tt = (e) =>
+    (0, Z.jsxs)(`svg`, {
+      width: 20,
+      height: 20,
+      viewBox: `0 0 20 20`,
+      fill: `none`,
+      xmlns: `http://www.w3.org/2000/svg`,
+      ...e,
+      children: [
+        (0, Z.jsx)(`path`, {
+          d: `M2.5293 2.52884C2.78894 2.26944 3.21106 2.26944 3.4707 2.52884L17.4707 16.5288C17.7303 16.7885 17.7302 17.2105 17.4707 17.4703C17.211 17.7299 16.789 17.7299 16.5293 17.4703L2.5293 3.47025C2.26982 3.21053 2.26967 2.78847 2.5293 2.52884Z`,
+          fill: `currentColor`,
+        }),
+        (0, Z.jsx)(`path`, {
+          d: `M5.00879 7.59623C3.47308 7.96665 2.33223 9.35009 2.33203 10.9995C2.33203 12.9335 3.90007 14.5015 5.83398 14.5015H11.9141L13.2441 15.8316H5.83398C3.16553 15.8316 1.00098 13.668 1.00098 10.9995C1.00115 8.99603 2.22092 7.27763 3.95801 6.54545L5.00879 7.59623Z`,
+          fill: `currentColor`,
+        }),
+        (0, Z.jsx)(`path`, {
+          d: `M10 2.83451C12.9201 2.83476 15.3235 5.04493 15.6309 7.88334C17.5391 8.18581 18.9987 9.83935 18.999 11.8326C18.999 13.0839 18.4227 14.2008 17.5225 14.9341L16.5723 13.9839C17.2353 13.4983 17.6689 12.7171 17.6689 11.8326C17.6685 10.3594 16.4732 9.16485 15 9.16459C14.6329 9.16441 14.335 8.86671 14.335 8.49955C14.3347 6.10576 12.3938 4.16485 10 4.16459C9.08152 4.16465 8.22971 4.45217 7.52832 4.93998L6.57617 3.98783C7.52699 3.26515 8.71302 2.83458 10 2.83451Z`,
+          fill: `currentColor`,
+        }),
+      ],
+    }),
+  Et = (e) =>
+    (0, Z.jsxs)(`svg`, {
+      width: 16,
+      height: 16,
+      viewBox: `0 0 16 16`,
+      fill: `none`,
+      xmlns: `http://www.w3.org/2000/svg`,
+      ...e,
+      children: [
+        (0, Z.jsx)(`path`, {
+          d: `M7.99609 9.85156C8.38697 9.85156 8.69609 10.1478 8.69609 10.5258C8.69602 10.9037 8.38692 11.2 7.99609 11.2C7.60529 11.2 7.29617 10.9037 7.29609 10.5258C7.29609 10.1478 7.60524 9.85158 7.99609 9.85156Z`,
+          fill: `currentColor`,
+        }),
+        (0, Z.jsx)(`path`, {
+          d: `M8.00078 4.8C8.38281 4.80015 8.62337 5.0363 8.62344 5.43125C8.62344 5.46559 8.62304 5.51722 8.61875 5.56016L8.55469 8.53281C8.54174 8.8978 8.35254 9.1125 7.99609 9.1125C7.63967 9.11249 7.45084 8.89778 7.44219 8.53281L7.37344 5.56016C7.37343 5.51723 7.36875 5.46558 7.36875 5.43125C7.36882 5.03618 7.61426 4.8 8.00078 4.8Z`,
+          fill: `currentColor`,
+        }),
+        (0, Z.jsx)(`path`, {
+          fillRule: `evenodd`,
+          clipRule: `evenodd`,
+          d: `M8 1.66797C11.4971 1.66797 14.332 4.50293 14.332 8C14.332 11.4971 11.4971 14.332 8 14.332C4.50293 14.332 1.66797 11.4971 1.66797 8C1.66797 4.50293 4.50293 1.66797 8 1.66797ZM8 2.73203C5.09056 2.73203 2.73203 5.09056 2.73203 8C2.73203 10.9094 5.09056 13.268 8 13.268C10.9094 13.268 13.268 10.9094 13.268 8C13.268 5.09056 10.9094 2.73203 8 2.73203Z`,
+          fill: `currentColor`,
+        }),
+      ],
+    }),
+  Dt = (e) =>
+    (0, Z.jsx)(`svg`, {
+      xmlns: `http://www.w3.org/2000/svg`,
+      width: 12,
+      height: 10,
+      fill: `none`,
+      viewBox: `0 0 12 10`,
+      ...e,
+      children: (0, Z.jsx)(`path`, {
+        fill: `currentColor`,
+        d: `M2.4 9.332V1.817L.91 3.31a.533.533 0 0 1-.753-.753l2.4-2.4.083-.068a.533.533 0 0 1 .67.068l2.4 2.4.068.083a.533.533 0 0 1-.738.738l-.083-.068-1.492-1.492v7.515a.532.532 0 0 1-1.064 0Zm5.92-8.8a.532.532 0 0 1 1.064 0v7.516l1.492-1.492.084-.068a.533.533 0 0 1 .668.82l-2.4 2.4a.532.532 0 0 1-.752 0l-2.4-2.4a.533.533 0 0 1 .752-.752l1.493 1.492V.532Z`,
+      }),
+    }),
+  Q = ne();
+function Ot(e, t, n, r, i) {
+  let a = (0, Q.c)(5),
+    o;
+  a[0] !== n || a[1] !== r
+    ? ((o = (e) => {
+        let { root: t } = e;
+        return { operationSource: r, root: t, branch: n };
+      }),
+      (a[0] = n),
+      (a[1] = r),
+      (a[2] = o))
+    : (o = a[2]);
+  let s;
+  return (
+    a[3] === i
+      ? (s = a[4])
+      : ((s = { select: kt, staleTime: A.FIVE_SECONDS, ...i }), (a[3] = i), (a[4] = s)),
+    m(e, t, `branch-exists`, o, r, s)
+  );
+}
+function kt(e) {
+  return e.exists;
+}
+function At(e) {
+  let t = (0, Q.c)(7),
+    { command: n, output: r, className: i } = e,
+    a = n ? `$ ${n}\n${r}` : r,
+    o;
+  t[0] === i
+    ? (o = t[1])
+    : ((o = x(
+        `bg-token-terminal-background border-token-terminal-border text-token-terminal-foreground max-h-[36vh] overflow-auto rounded-xl border px-3 py-2`,
+        i,
+      )),
+      (t[0] = i),
+      (t[1] = o));
+  let s;
+  t[2] === a
+    ? (s = t[3])
+    : ((s = (0, Z.jsx)(`pre`, {
+        className: `font-mono text-xs leading-5 whitespace-pre`,
+        children: a,
+      })),
+      (t[2] = a),
+      (t[3] = s));
+  let c;
+  return (
+    t[4] !== o || t[5] !== s
+      ? ((c = (0, Z.jsx)(`div`, { className: o, children: s })), (t[4] = o), (t[5] = s), (t[6] = c))
+      : (c = t[6]),
+    c
+  );
+}
+function jt(e) {
+  let t = (0, Q.c)(11),
+    { operation: n, onClose: r, onRetry: i } = e;
+  if (n.status === `queued` || n.status === `running`) {
+    let e;
+    return (
+      t[0] === n ? (e = t[1]) : ((e = (0, Z.jsx)(Mt, { operation: n })), (t[0] = n), (t[1] = e)), e
+    );
+  }
+  if (n.status === `warning`) {
+    let e;
+    return (
+      t[2] !== r || t[3] !== n
+        ? ((e = (0, Z.jsx)(Pt, { operation: n, onClose: r })), (t[2] = r), (t[3] = n), (t[4] = e))
+        : (e = t[4]),
+      e
+    );
+  }
+  if (n.status === `success`) {
+    let e;
+    return (
+      t[5] === n ? (e = t[6]) : ((e = (0, Z.jsx)(Nt, { operation: n })), (t[5] = n), (t[6] = e)), e
+    );
+  }
+  let a;
+  return (
+    t[7] !== r || t[8] !== i || t[9] !== n
+      ? ((a = (0, Z.jsx)(Ft, { operation: n, onClose: r, onRetry: i })),
+        (t[7] = r),
+        (t[8] = i),
+        (t[9] = n),
+        (t[10] = a))
+      : (a = t[10]),
+    a
+  );
+}
+function Mt(e) {
+  let t = (0, Q.c)(20),
+    { operation: n } = e,
+    r,
+    i,
+    a,
+    o,
+    s,
+    c;
+  if (t[0] !== n) {
+    let e = Ht(n);
+    ((i = De), (s = `gap-0 px-6 py-5`));
+    let l = It(n),
+      u = Lt(n),
+      d;
+    (t[7] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((d = (0, Z.jsx)(N, {
+          id: `localConversation.threadHandoff.progress.subtitle`,
+          defaultMessage: `Hang tight, this may take a few moments. You can close this modal, we’ll let you know when the hand-off is finished.`,
+          description: `Subtitle shown while a thread handoff is running`,
+        })),
+        (t[7] = d))
+      : (d = t[7]),
+      t[8] !== l || t[9] !== u
+        ? ((c = (0, Z.jsx)(Te, {
+            className: `gap-0`,
+            children: (0, Z.jsx)(J, {
+              icon: l,
+              title: u,
+              className: `gap-4`,
+              iconClassName: `h-10 w-10 rounded-2xl p-0`,
+              iconBackgroundClassName: `bg-token-foreground/5`,
+              titleClassName: `font-semibold`,
+              subtitleClassName: `text-base leading-6 tracking-[-0.13px]`,
+              subtitle: d,
+            }),
+          })),
+          (t[8] = l),
+          (t[9] = u),
+          (t[10] = c))
+        : (c = t[10]),
+      (r = Te),
+      (a = `gap-4 pt-5`),
+      (o = e.map((e) =>
+        (0, Z.jsx)(
+          gt,
+          {
+            step: e,
+            direction: n.direction,
+            localBranch: n.localBranch,
+            sourceBranch: n.sourceBranch,
+            worktreeBranch: n.worktreeBranch,
+          },
+          e.id,
+        ),
+      )),
+      (t[0] = n),
+      (t[1] = r),
+      (t[2] = i),
+      (t[3] = a),
+      (t[4] = o),
+      (t[5] = s),
+      (t[6] = c));
+  } else ((r = t[1]), (i = t[2]), (a = t[3]), (o = t[4]), (s = t[5]), (c = t[6]));
+  let l;
+  t[11] !== r || t[12] !== a || t[13] !== o
+    ? ((l = (0, Z.jsx)(r, { className: a, children: o })),
+      (t[11] = r),
+      (t[12] = a),
+      (t[13] = o),
+      (t[14] = l))
+    : (l = t[14]);
+  let u;
+  return (
+    t[15] !== i || t[16] !== s || t[17] !== c || t[18] !== l
+      ? ((u = (0, Z.jsxs)(i, { className: s, children: [c, l] })),
+        (t[15] = i),
+        (t[16] = s),
+        (t[17] = c),
+        (t[18] = l),
+        (t[19] = u))
+      : (u = t[19]),
+    u
+  );
+}
+function Nt(e) {
+  let t = (0, Q.c)(8),
+    { operation: n } = e,
+    r;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((r = (0, Z.jsx)(ke, { className: `icon-md text-token-charts-green` })), (t[0] = r))
+    : (r = t[0]);
+  let i;
+  t[1] === n ? (i = t[2]) : ((i = Bt(n)), (t[1] = n), (t[2] = i));
+  let a;
+  t[3] === n ? (a = t[4]) : ((a = Vt(n)), (t[3] = n), (t[4] = a));
+  let o;
+  return (
+    t[5] !== i || t[6] !== a
+      ? ((o = (0, Z.jsx)(De, {
+          className: `gap-0 px-6 py-5`,
+          children: (0, Z.jsx)(Te, {
+            className: `gap-0`,
+            children: (0, Z.jsx)(J, {
+              icon: r,
+              className: `gap-4`,
+              iconClassName: `h-10 w-10 rounded-2xl p-0`,
+              iconBackgroundClassName: `bg-token-charts-green/20`,
+              title: i,
+              titleClassName: `font-semibold`,
+              subtitle: a,
+              subtitleClassName: `text-base leading-6 tracking-[-0.13px]`,
+            }),
+          }),
+        })),
+        (t[5] = i),
+        (t[6] = a),
+        (t[7] = o))
+      : (o = t[7]),
+    o
+  );
+}
+function Pt(e) {
+  let t = (0, Q.c)(12),
+    { operation: n, onClose: r } = e,
+    i;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((i = (0, Z.jsx)(Et, { className: `icon-md text-token-editor-warning-foreground` })),
+      (t[0] = i))
+    : (i = t[0]);
+  let a;
+  t[1] === n ? (a = t[2]) : ((a = Rt(n)), (t[1] = n), (t[2] = a));
+  let o;
+  t[3] !== n.warningMessage || t[4] !== a
+    ? ((o = (0, Z.jsx)(Te, {
+        children: (0, Z.jsx)(J, {
+          icon: i,
+          className: `gap-4`,
+          iconClassName: `h-10 w-10 rounded-2xl p-0`,
+          iconBackgroundClassName: `bg-token-editor-warning-foreground/15`,
+          title: a,
+          titleClassName: `font-semibold`,
+          subtitle: n.warningMessage,
+          subtitleClassName: `text-base leading-6 tracking-[-0.13px]`,
+        }),
+      })),
+      (t[3] = n.warningMessage),
+      (t[4] = a),
+      (t[5] = o))
+    : (o = t[5]);
+  let s;
+  t[6] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((s = (0, Z.jsx)(N, {
+        id: `localConversation.threadHandoff.warning.close`,
+        defaultMessage: `Close`,
+        description: `Button label to dismiss the warning thread handoff modal`,
+      })),
+      (t[6] = s))
+    : (s = t[6]);
+  let c;
+  t[7] === r
+    ? (c = t[8])
+    : ((c = (0, Z.jsx)(Te, {
+        className: `pt-6`,
+        children: (0, Z.jsx)(Oe, {
+          children: (0, Z.jsx)(de, {
+            color: `primary`,
+            className: `h-8 rounded-full px-4 text-base font-medium`,
+            onClick: r,
+            children: s,
+          }),
+        }),
+      })),
+      (t[7] = r),
+      (t[8] = c));
+  let l;
+  return (
+    t[9] !== o || t[10] !== c
+      ? ((l = (0, Z.jsxs)(De, { className: `gap-0 px-6 py-5`, children: [o, c] })),
+        (t[9] = o),
+        (t[10] = c),
+        (t[11] = l))
+      : (l = t[11]),
+    l
+  );
+}
+function Ft(e) {
+  let t = (0, Q.c)(21),
+    { operation: n, onClose: r, onRetry: i } = e,
+    a = n.execOutput,
+    o;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((o = (0, Z.jsx)(ze, { className: `icon-md text-token-danger -ml-2` })), (t[0] = o))
+    : (o = t[0]);
+  let s;
+  t[1] === n ? (s = t[2]) : ((s = zt(n)), (t[1] = n), (t[2] = s));
+  let c;
+  t[3] !== n.errorMessage || t[4] !== s
+    ? ((c = (0, Z.jsx)(Te, {
+        children: (0, Z.jsx)(J, {
+          icon: o,
+          className: `gap-4`,
+          iconClassName: `h-auto w-auto rounded-none p-0`,
+          iconBackgroundClassName: `bg-transparent`,
+          title: s,
+          titleClassName: `font-semibold`,
+          subtitle: n.errorMessage,
+          subtitleClassName: `text-base leading-6 tracking-[-0.13px]`,
+        }),
+      })),
+      (t[3] = n.errorMessage),
+      (t[4] = s),
+      (t[5] = c))
+    : (c = t[5]);
+  let l;
+  t[6] === a
+    ? (l = t[7])
+    : ((l =
+        a != null && a.output.length > 0
+          ? (0, Z.jsx)(Te, {
+              className: `pt-5`,
+              children: (0, Z.jsx)(At, { command: a?.command, output: a.output }),
+            })
+          : null),
+      (t[6] = a),
+      (t[7] = l));
+  let u;
+  t[8] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((u = (0, Z.jsx)(N, {
+        id: `localConversation.threadHandoff.error.close`,
+        defaultMessage: `Close`,
+        description: `Button label to close the failed thread handoff modal`,
+      })),
+      (t[8] = u))
+    : (u = t[8]);
+  let d;
+  t[9] === r
+    ? (d = t[10])
+    : ((d = (0, Z.jsx)(de, {
+        color: `secondary`,
+        className: `h-8 rounded-full px-4 text-base font-medium`,
+        onClick: r,
+        children: u,
+      })),
+      (t[9] = r),
+      (t[10] = d));
+  let f;
+  t[11] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((f = (0, Z.jsx)(N, {
+        id: `localConversation.threadHandoff.error.retry`,
+        defaultMessage: `Try again`,
+        description: `Button label to retry a failed thread handoff`,
+      })),
+      (t[11] = f))
+    : (f = t[11]);
+  let p;
+  t[12] === i
+    ? (p = t[13])
+    : ((p = (0, Z.jsx)(de, {
+        color: `primary`,
+        className: `h-8 rounded-full px-4 text-base font-medium`,
+        onClick: i,
+        children: f,
+      })),
+      (t[12] = i),
+      (t[13] = p));
+  let m;
+  t[14] !== d || t[15] !== p
+    ? ((m = (0, Z.jsx)(Te, { className: `pt-5`, children: (0, Z.jsxs)(Oe, { children: [d, p] }) })),
+      (t[14] = d),
+      (t[15] = p),
+      (t[16] = m))
+    : (m = t[16]);
+  let h;
+  return (
+    t[17] !== c || t[18] !== l || t[19] !== m
+      ? ((h = (0, Z.jsxs)(De, {
+          className: `max-h-[calc(100dvh-2rem)] gap-0 overflow-y-auto px-6 py-5`,
+          children: [c, l, m],
+        })),
+        (t[17] = c),
+        (t[18] = l),
+        (t[19] = m),
+        (t[20] = h))
+      : (h = t[20]),
+    h
+  );
+}
+function It(e) {
+  return (0, Z.jsx)(Dt, { className: `icon-md rotate-90 text-token-foreground` });
+}
+function Lt(e) {
+  return e.direction === `to-worktree`
+    ? (0, Z.jsx)(N, {
+        id: `localConversation.threadHandoff.progress.worktree.title`,
+        defaultMessage: `Handing off to worktree`,
+        description: `Title shown while a thread is being handed off to a worktree`,
+      })
+    : e.direction === `to-host-worktree`
+      ? (0, Z.jsx)(N, {
+          id: `localConversation.threadHandoff.progress.hostWorktree.title`,
+          defaultMessage: `Handing off to {destinationLabel}`,
+          description: `Title shown while a thread is being handed off to a destination worktree on another host`,
+          values: { destinationLabel: e.request.destinationLabel },
+        })
+      : (0, Z.jsx)(N, {
+          id: `localConversation.threadHandoff.progress.local.title`,
+          defaultMessage: `Handing off to local`,
+          description: `Title shown while a thread is being handed off to local`,
+        });
+}
+function Rt(e) {
+  return e.direction === `to-worktree`
+    ? (0, Z.jsx)(N, {
+        id: `localConversation.threadHandoff.warning.worktree.title`,
+        defaultMessage: `Hand-off to worktree needs attention`,
+        description: `Title shown when move to worktree finishes with a warning`,
+      })
+    : e.direction === `to-host-worktree`
+      ? (0, Z.jsx)(N, {
+          id: `localConversation.threadHandoff.warning.hostWorktree.title`,
+          defaultMessage: `Hand-off to {destinationLabel} needs attention`,
+          description: `Title shown when cross-host handoff finishes with a warning`,
+          values: { destinationLabel: e.request.destinationLabel },
+        })
+      : (0, Z.jsx)(N, {
+          id: `localConversation.threadHandoff.warning.local.title`,
+          defaultMessage: `Hand-off to local needs attention`,
+          description: `Title shown when move to local finishes with a warning`,
+        });
+}
+function zt(e) {
+  return e.direction === `to-worktree`
+    ? (0, Z.jsx)(N, {
+        id: `localConversation.threadHandoff.error.worktree.title`,
+        defaultMessage: `Hand-off to worktree failed`,
+        description: `Title shown when move to worktree fails`,
+      })
+    : e.direction === `to-host-worktree`
+      ? (0, Z.jsx)(N, {
+          id: `localConversation.threadHandoff.error.hostWorktree.title`,
+          defaultMessage: `Hand-off to {destinationLabel} failed`,
+          description: `Title shown when cross-host handoff fails`,
+          values: { destinationLabel: e.request.destinationLabel },
+        })
+      : (0, Z.jsx)(N, {
+          id: `localConversation.threadHandoff.error.local.title`,
+          defaultMessage: `Hand-off to local failed`,
+          description: `Title shown when move to local fails`,
+        });
+}
+function Bt(e) {
+  return e.direction === `to-worktree`
+    ? (0, Z.jsx)(N, {
+        id: `localConversation.threadHandoff.success.worktree.title`,
+        defaultMessage: `Handed-off to worktree`,
+        description: `Title shown when move to worktree succeeds while the modal is open`,
+      })
+    : e.direction === `to-host-worktree`
+      ? (0, Z.jsx)(N, {
+          id: `localConversation.threadHandoff.success.hostWorktree.title`,
+          defaultMessage: `Handed off to {destinationLabel}`,
+          description: `Title shown when cross-host handoff succeeds while the modal is open`,
+          values: { destinationLabel: e.request.destinationLabel },
+        })
+      : (0, Z.jsx)(N, {
+          id: `localConversation.threadHandoff.success.local.title`,
+          defaultMessage: `Handed-off to local`,
+          description: `Title shown when move to local succeeds while the modal is open`,
+        });
+}
+function Vt(e) {
+  if (e.direction === `to-local`)
+    return (0, Z.jsx)(N, {
+      id: `localConversation.threadHandoff.success.local.subtitle`,
+      defaultMessage: `You are now working on {branch} locally.`,
+      description: `Subtitle shown when move to local succeeds while the modal is open`,
+      values: { branch: e.sourceBranch },
+    });
+  if (e.direction === `to-host-worktree`)
+    return (0, Z.jsx)(N, {
+      id: `localConversation.threadHandoff.success.hostWorktree.subtitle`,
+      defaultMessage: `You are now working in a worktree on {destinationLabel}`,
+      description: `Subtitle shown when cross-host handoff succeeds while the modal is open`,
+      values: { destinationLabel: e.request.destinationLabel },
+    });
+  let t = e.worktreeBranch ?? e.sourceBranch,
+    n = e.localBranch != null && e.localBranch !== e.sourceBranch ? e.localBranch : null,
+    r =
+      e.request.existingWorktreeGitRoot == null
+        ? (0, Z.jsx)(N, {
+            id: `localConversation.threadHandoff.success.worktreeDescription.new`,
+            defaultMessage: `new worktree`,
+            description: `Noun phrase describing a newly created worktree in the thread handoff success message`,
+          })
+        : (0, Z.jsx)(N, {
+            id: `localConversation.threadHandoff.success.worktreeDescription.existing`,
+            defaultMessage: `worktree`,
+            description: `Noun phrase describing an existing worktree in the thread handoff success message`,
+          });
+  return n == null
+    ? (0, Z.jsx)(N, {
+        id: `localConversation.threadHandoff.success.worktree.subtitle`,
+        defaultMessage: `You are now working on {worktreeBranch} in a {worktreeDescription}.`,
+        description: `Subtitle shown when move to worktree succeeds while the modal is open and no local checkout branch was changed`,
+        values: { worktreeBranch: t, worktreeDescription: r },
+      })
+    : (0, Z.jsx)(N, {
+        id: `localConversation.threadHandoff.success.worktree.subtitle.localBranch`,
+        defaultMessage: `You are now working on {worktreeBranch} in a {worktreeDescription}. Branch {localBranch} was checked out locally.`,
+        description: `Subtitle shown when move to worktree succeeds while the modal is open and a local checkout branch was changed`,
+        values: { worktreeBranch: t, worktreeDescription: r, localBranch: n },
+      });
+}
+function Ht(e) {
+  let t = e.steps.findIndex((e) => e.status === `failed`);
+  if (t === -1) return e.steps;
+  let n = e.steps.slice(0, t + 1);
+  return t === e.steps.length - 1 ? n : [...n, { id: `rolling-back-changes`, status: `running` }];
+}
+function Ut(e) {
+  let n = (0, Q.c)(8),
+    r = ie(),
+    i = te(nt, e),
+    { data: a, isError: o, isLoading: s } = R(t.QUEUED_FOLLOW_UPS);
+  switch (
+    tt({
+      pendingPastedTextAttachmentCount: i,
+      queuedFollowUpsError: o,
+      queuedFollowUpsLoading: s,
+      queuedFollowUpCount: a?.[e]?.length ?? 0,
+    })
+  ) {
+    case `loading-queued-follow-ups`: {
+      let e;
+      return (
+        n[0] === r
+          ? (e = n[1])
+          : ((e = r.formatMessage({
+              id: `localConversation.threadHandoff.disabled.loadingQueuedFollowUps`,
+              defaultMessage: `Checking queued messages before handing off this chat`,
+              description: `Message shown when thread handoff is disabled while queued messages are loading`,
+            })),
+            (n[0] = r),
+            (n[1] = e)),
+        e
+      );
+    }
+    case `pending-pasted-text-attachments`: {
+      let e;
+      return (
+        n[2] === r
+          ? (e = n[3])
+          : ((e = r.formatMessage({
+              id: `localConversation.threadHandoff.disabled.pendingPastedTextAttachments`,
+              defaultMessage: `Wait for pasted text attachments to finish before handing off this chat`,
+              description: `Message shown when thread handoff is disabled while pasted text attachments are being created`,
+            })),
+            (n[2] = r),
+            (n[3] = e)),
+        e
+      );
+    }
+    case `queued-follow-ups`: {
+      let e;
+      return (
+        n[4] === r
+          ? (e = n[5])
+          : ((e = r.formatMessage({
+              id: `localConversation.threadHandoff.disabled.queuedFollowUps`,
+              defaultMessage: `Send or remove queued messages before handing off this chat`,
+              description: `Message shown when thread handoff is disabled because queued messages would remain attached to the source chat`,
+            })),
+            (n[4] = r),
+            (n[5] = e)),
+        e
+      );
+    }
+    case `unavailable-queued-follow-ups`: {
+      let e;
+      return (
+        n[6] === r
+          ? (e = n[7])
+          : ((e = r.formatMessage({
+              id: `localConversation.threadHandoff.disabled.unavailableQueuedFollowUps`,
+              defaultMessage: `Unable to check queued messages before handing off this chat`,
+              description: `Message shown when thread handoff is disabled because queued messages could not be loaded`,
+            })),
+            (n[6] = r),
+            (n[7] = e)),
+        e
+      );
+    }
+    case null:
+      return null;
+  }
+}
+function Wt(e) {
+  let n = (0, Q.c)(109),
+    {
+      open: r,
+      onOpenChange: i,
+      conversationId: a,
+      composerViewState: s,
+      conversationTitle: c,
+      currentBranch: l,
+      cwd: u,
+      destinationHostId: f,
+      destinationWorkspaceRoot: p,
+      destinationLabel: m,
+    } = e,
+    h = ie(),
+    g = Ut(a),
+    [v, y] = (0, wt.useState)(null),
+    { data: b } = R(t.GIT_BRANCH_PREFIX),
+    ee = it({ branchPrefix: b ?? void 0, conversationTitle: c }),
+    x = L(),
+    S;
+  n[0] === l ? (S = n[1]) : ((S = l.trim()), (n[0] = l), (n[1] = S));
+  let C = S.length === 0,
+    w = C ? (v ?? ee) : l,
+    T = w.trim(),
+    te = d(f),
+    E;
+  n[2] !== a || n[3] !== x
+    ? ((E = x.getMaybeForConversationId(a)?.getConversation(a)?.forkedFromId ?? null),
+      (n[2] = a),
+      (n[3] = x),
+      (n[4] = E))
+    : (E = n[4]);
+  let D = E,
+    O;
+  n[5] !== f || n[6] !== p || n[7] !== D
+    ? ((O = [`move-thread`, `to-host-worktree`, `resolve-owned-worktree`, f, p, D]),
+      (n[5] = f),
+      (n[6] = p),
+      (n[7] = D),
+      (n[8] = O))
+    : (O = n[8]);
+  let k;
+  n[9] !== a || n[10] !== te || n[11] !== p || n[12] !== D
+    ? ((k = () =>
+        _(`git`).request({
+          method: `resolve-worktree-for-thread`,
+          params: {
+            cwd: p,
+            conversationId: D ?? a,
+            hostConfig: te,
+            operationSource: `move_to_host_worktree`,
+          },
+        })),
+      (n[9] = a),
+      (n[10] = te),
+      (n[11] = p),
+      (n[12] = D),
+      (n[13] = k))
+    : (k = n[13]);
+  let ne = r && D != null,
+    A;
+  n[14] !== O || n[15] !== k || n[16] !== ne
+    ? ((A = { queryKey: O, queryFn: k, enabled: ne, staleTime: 0 }),
+      (n[14] = O),
+      (n[15] = k),
+      (n[16] = ne),
+      (n[17] = A))
+    : (A = n[17]);
+  let { data: j } = re(A),
+    M = j?.worktreeGitRoot != null && j?.worktreeWorkspaceRoot != null,
+    ae;
+  n[18] !== s.fileAttachments || n[19] !== s.generatedPastedTextAttachmentPaths
+    ? ((ae = o(s.fileAttachments, s.generatedPastedTextAttachmentPaths)),
+      (n[18] = s.fileAttachments),
+      (n[19] = s.generatedPastedTextAttachmentPaths),
+      (n[20] = ae))
+    : (ae = n[20]);
+  let P = ae != null,
+    oe = r && !P && C && T.length > 0 && !T.endsWith(`/`),
+    F;
+  n[21] === oe ? (F = n[22]) : ((F = { enabled: oe }), (n[21] = oe), (n[22] = F));
+  let { data: I, isPending: se } = Ot(p, te, T, `move_to_host_worktree`, F),
+    z = null;
+  if (g != null) z = g;
+  else if (P) {
+    let e;
+    (n[23] === h
+      ? (e = n[24])
+      : ((e = h.formatMessage({
+          id: `localConversation.moveToHostWorktree.confirm.pastedTextAttachments`,
+          defaultMessage: `Remove pasted text attachments before handing off this chat`,
+          description: `Message shown when cross-host handoff cannot transfer generated pasted text attachments`,
+        })),
+        (n[23] = h),
+        (n[24] = e)),
+      (z = e));
+  } else if (T.length === 0) {
+    let e;
+    (n[25] === h
+      ? (e = n[26])
+      : ((e = h.formatMessage({
+          id: `localConversation.moveToHostWorktree.confirm.branchRequired`,
+          defaultMessage: `Enter a branch name`,
+          description: `Message shown when cross-host handoff needs a branch name before it can continue`,
+        })),
+        (n[25] = h),
+        (n[26] = e)),
+      (z = e));
+  } else if (T.endsWith(`/`)) {
+    let e;
+    (n[27] === h
+      ? (e = n[28])
+      : ((e = h.formatMessage({
+          id: `localConversation.moveToHostWorktree.confirm.trailingSlashError`,
+          defaultMessage: `Branch name cannot end with “/”`,
+          description: `Message shown when the cross-host handoff branch name ends with a slash`,
+        })),
+        (n[27] = h),
+        (n[28] = e)),
+      (z = e));
+  } else if (se && oe) {
+    let e;
+    (n[29] === h
+      ? (e = n[30])
+      : ((e = h.formatMessage({
+          id: `localConversation.moveToHostWorktree.confirm.checkingBranch`,
+          defaultMessage: `Checking whether that branch already exists…`,
+          description: `Message shown while cross-host handoff checks whether the destination branch already exists`,
+        })),
+        (n[29] = h),
+        (n[30] = e)),
+      (z = e));
+  } else if (I && !M) {
+    let e;
+    (n[31] === h
+      ? (e = n[32])
+      : ((e = h.formatMessage({
+          id: `localConversation.moveToHostWorktree.confirm.branchAlreadyExists`,
+          defaultMessage: `Branch already exists`,
+          description: `Message shown when the destination branch already exists before cross-host handoff`,
+        })),
+        (n[31] = h),
+        (n[32] = e)),
+      (z = e));
+  }
+  let B = z != null,
+    { activeOperationId: ce } = ot(),
+    V = ct(a),
+    {
+      addToHostWorktreeOperation: le,
+      closeActiveOperation: H,
+      removeOperation: U,
+      openOperation: ue,
+      updateOperation: W,
+    } = st(),
+    fe = V != null && ce === V.id,
+    pe = r || fe,
+    me = V?.status === `success` || V?.status === `warning` || V?.status === `error`,
+    G;
+  n[33] !== H || n[34] !== fe || n[35] !== i || n[36] !== V || n[37] !== U || n[38] !== me
+    ? ((G = (e) => {
+        if (!e && fe) {
+          if (me) {
+            (U(V.id), i(!1));
+            return;
+          }
+          (H(), i(!1));
+          return;
+        }
+        (e || y(null), i(e));
+      }),
+      (n[33] = H),
+      (n[34] = fe),
+      (n[35] = i),
+      (n[36] = V),
+      (n[37] = U),
+      (n[38] = me),
+      (n[39] = G))
+    : (G = n[39]);
+  let he = G,
+    ge;
+  n[40] !== le ||
+  n[41] !== s ||
+  n[42] !== a ||
+  n[43] !== u ||
+  n[44] !== f ||
+  n[45] !== m ||
+  n[46] !== p ||
+  n[47] !== B ||
+  n[48] !== ue ||
+  n[49] !== T ||
+  n[50] !== M
+    ? ((ge = () => {
+        B ||
+          (ue(
+            le({
+              sourceConversationId: a,
+              sourceBranch: T,
+              request: {
+                cwd: u,
+                destinationHostId: f,
+                destinationLabel: m,
+                destinationWorkspaceRoot: p,
+              },
+              stepIds: [
+                `prepare-host-transfer`,
+                `transfer-host-artifacts`,
+                M ? `reuse-existing-worktree` : `create-new-worktree`,
+                `apply-changes-to-worktree`,
+                `switching-thread`,
+              ],
+              composerViewState: s,
+            }).id,
+          ),
+          y(null));
+      }),
+      (n[40] = le),
+      (n[41] = s),
+      (n[42] = a),
+      (n[43] = u),
+      (n[44] = f),
+      (n[45] = m),
+      (n[46] = p),
+      (n[47] = B),
+      (n[48] = ue),
+      (n[49] = T),
+      (n[50] = M),
+      (n[51] = ge))
+    : (ge = n[51]);
+  let _e = ge;
+  if (fe && V != null) {
+    let e;
+    n[52] !== H || n[53] !== V.id || n[54] !== U || n[55] !== me
+      ? ((e = () => {
+          if (me) {
+            U(V.id);
+            return;
+          }
+          H();
+        }),
+        (n[52] = H),
+        (n[53] = V.id),
+        (n[54] = U),
+        (n[55] = me),
+        (n[56] = e))
+      : (e = n[56]);
+    let t;
+    n[57] !== C ||
+    n[58] !== i ||
+    n[59] !== ue ||
+    n[60] !== V.id ||
+    n[61] !== V.sourceBranch ||
+    n[62] !== U ||
+    n[63] !== W
+      ? ((t = () => {
+          if (C) {
+            (y(V.sourceBranch), U(V.id), i(!0));
+            return;
+          }
+          (W(V.id, Gt), ue(V.id));
+        }),
+        (n[57] = C),
+        (n[58] = i),
+        (n[59] = ue),
+        (n[60] = V.id),
+        (n[61] = V.sourceBranch),
+        (n[62] = U),
+        (n[63] = W),
+        (n[64] = t))
+      : (t = n[64]);
+    let r;
+    n[65] !== V || n[66] !== e || n[67] !== t
+      ? ((r = (0, Z.jsx)(jt, { operation: V, onClose: e, onRetry: t })),
+        (n[65] = V),
+        (n[66] = e),
+        (n[67] = t),
+        (n[68] = r))
+      : (r = n[68]);
+    let a;
+    return (
+      n[69] !== pe || n[70] !== he || n[71] !== r
+        ? ((a = (0, Z.jsx)(Ee, { size: `compact`, open: pe, onOpenChange: he, children: r })),
+          (n[69] = pe),
+          (n[70] = he),
+          (n[71] = r),
+          (n[72] = a))
+        : (a = n[72]),
+      a
+    );
+  }
+  let ve;
+  n[73] === _e
+    ? (ve = n[74])
+    : ((ve = (e) => {
+        (e.preventDefault(), _e());
+      }),
+      (n[73] = _e),
+      (n[74] = ve));
+  let ye;
+  n[75] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((ye = (0, Z.jsx)(rt.Header, {
+        icon: (0, Z.jsx)(Dt, { className: `icon-base rotate-90 text-token-foreground` }),
+      })),
+      (n[75] = ye))
+    : (ye = n[75]);
+  let be;
+  n[76] === m
+    ? (be = n[77])
+    : ((be = (0, Z.jsx)(rt.Title, {
+        children: (0, Z.jsx)(N, {
+          id: `localConversation.moveToHostWorktree.modal.title`,
+          defaultMessage: `Hand off chat to {destinationLabel}`,
+          description: `Title for the cross-host handoff modal`,
+          values: { destinationLabel: m },
+        }),
+      })),
+      (n[76] = m),
+      (n[77] = be));
+  let K;
+  n[78] !== m || n[79] !== C || n[80] !== T || n[81] !== M
+    ? ((K = (0, Z.jsx)(`p`, {
+        className: `text-base leading-6 tracking-[-0.13px] text-token-description-foreground`,
+        children: C
+          ? (0, Z.jsx)(N, {
+              id: `localConversation.moveToHostWorktree.modal.detachedSubtitle`,
+              defaultMessage: `Create a branch to keep working in {worktreeDescription} on {destinationLabel}`,
+              description: `Subtitle shown when cross-host handoff starts from detached HEAD and needs a branch name`,
+              values: {
+                destinationLabel: m,
+                worktreeDescription: M
+                  ? (0, Z.jsx)(N, {
+                      id: `localConversation.moveToHostWorktree.modal.detachedSubtitle.existingWorktree`,
+                      defaultMessage: `the existing worktree`,
+                      description: `Phrase used in cross-host handoff copy when reusing an existing worktree`,
+                    })
+                  : (0, Z.jsx)(N, {
+                      id: `localConversation.moveToHostWorktree.modal.detachedSubtitle.newWorktree`,
+                      defaultMessage: `a new worktree`,
+                      description: `Phrase used in cross-host handoff copy when creating a new worktree`,
+                    }),
+              },
+            })
+          : (0, Z.jsxs)(Z.Fragment, {
+              children: [
+                (0, Z.jsx)(`span`, {
+                  children: (0, Z.jsx)(N, {
+                    id: `localConversation.moveToHostWorktree.modal.branchSubtitle.prefix`,
+                    defaultMessage: `Continue branch `,
+                    description: `Prefix for the cross-host handoff confirmation sentence before the branch name`,
+                  }),
+                }),
+                (0, Z.jsx)(Kt, { children: T }),
+                (0, Z.jsx)(`span`, {
+                  children: (0, Z.jsx)(N, {
+                    id: `localConversation.moveToHostWorktree.modal.branchSubtitle.suffix`,
+                    defaultMessage: ` in {worktreeDescription} on {destinationLabel}`,
+                    description: `Suffix for the cross-host handoff confirmation sentence after the branch name`,
+                    values: {
+                      destinationLabel: m,
+                      worktreeDescription: M
+                        ? (0, Z.jsx)(N, {
+                            id: `localConversation.moveToHostWorktree.modal.branchSubtitle.existingWorktree`,
+                            defaultMessage: `the existing worktree`,
+                            description: `Phrase used in cross-host handoff copy when reusing an existing worktree`,
+                          })
+                        : (0, Z.jsx)(N, {
+                            id: `localConversation.moveToHostWorktree.modal.branchSubtitle.newWorktree`,
+                            defaultMessage: `a new worktree`,
+                            description: `Phrase used in cross-host handoff copy when creating a new worktree`,
+                          }),
+                    },
+                  }),
+                }),
+              ],
+            }),
+      })),
+      (n[78] = m),
+      (n[79] = C),
+      (n[80] = T),
+      (n[81] = M),
+      (n[82] = K))
+    : (K = n[82]);
+  let xe;
+  n[83] !== be || n[84] !== K
+    ? ((xe = (0, Z.jsxs)(`div`, { className: `flex flex-col gap-3`, children: [be, K] })),
+      (n[83] = be),
+      (n[84] = K),
+      (n[85] = xe))
+    : (xe = n[85]);
+  let Se;
+  n[86] !== w || n[87] !== h || n[88] !== C
+    ? ((Se = C
+        ? (0, Z.jsxs)(`div`, {
+            className: `flex flex-col gap-2`,
+            children: [
+              (0, Z.jsx)(`span`, {
+                className: `text-base leading-6 font-medium tracking-[-0.13px] text-token-foreground`,
+                children: (0, Z.jsx)(N, {
+                  id: `localConversation.moveToHostWorktree.modal.branchLabel`,
+                  defaultMessage: `Branch name`,
+                  description: `Label for the branch name input in the cross-host handoff modal`,
+                }),
+              }),
+              (0, Z.jsx)(`input`, {
+                className: `h-12 w-full rounded-2xl border border-token-border/40 bg-transparent px-4 text-base leading-6 tracking-[-0.13px] text-token-foreground outline-none placeholder:text-token-description-foreground`,
+                autoFocus: !0,
+                value: w,
+                onChange: (e) => {
+                  y(pt(e.target.value));
+                },
+                placeholder: h.formatMessage({
+                  id: `localConversation.moveToHostWorktree.modal.branchPlaceholder`,
+                  defaultMessage: `new-branch`,
+                  description: `Placeholder for the branch name input in the cross-host handoff modal`,
+                }),
+                "aria-label": h.formatMessage({
+                  id: `localConversation.moveToHostWorktree.modal.branchAriaLabel`,
+                  defaultMessage: `Destination branch name`,
+                  description: `Aria label for the branch name input in the cross-host handoff modal`,
+                }),
+              }),
+            ],
+          })
+        : null),
+      (n[86] = w),
+      (n[87] = h),
+      (n[88] = C),
+      (n[89] = Se))
+    : (Se = n[89]);
+  let Ce;
+  n[90] !== xe || n[91] !== Se
+    ? ((Ce = (0, Z.jsxs)(`div`, { className: `flex flex-col gap-5`, children: [xe, Se] })),
+      (n[90] = xe),
+      (n[91] = Se),
+      (n[92] = Ce))
+    : (Ce = n[92]);
+  let we;
+  n[93] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((we = (0, Z.jsx)(N, {
+        id: `localConversation.moveToHostWorktree.modal.continue`,
+        defaultMessage: `Hand off`,
+        description: `Primary action in the cross-host handoff modal`,
+      })),
+      (n[93] = we))
+    : (we = n[93]);
+  let q;
+  n[94] === B
+    ? (q = n[95])
+    : ((q = (0, Z.jsx)(de, {
+        className: `h-11 w-full justify-center rounded-full px-4 text-base font-medium`,
+        color: `primary`,
+        disabled: B,
+        type: `submit`,
+        children: we,
+      })),
+      (n[94] = B),
+      (n[95] = q));
+  let Te;
+  n[96] === z
+    ? (Te = n[97])
+    : ((Te =
+        z == null
+          ? null
+          : (0, Z.jsx)(`p`, {
+              className: `text-center text-base leading-6 tracking-[-0.13px] text-token-editor-error-foreground`,
+              children: z,
+            })),
+      (n[96] = z),
+      (n[97] = Te));
+  let J;
+  n[98] !== q || n[99] !== Te
+    ? ((J = (0, Z.jsx)(rt.Footer, {
+        className: `flex-col items-stretch gap-3`,
+        right: (0, Z.jsxs)(`div`, { className: `flex w-full flex-col gap-3`, children: [q, Te] }),
+      })),
+      (n[98] = q),
+      (n[99] = Te),
+      (n[100] = J))
+    : (J = n[100]);
+  let De;
+  n[101] !== ve || n[102] !== Ce || n[103] !== J
+    ? ((De = (0, Z.jsxs)(rt.Root, {
+        as: `form`,
+        className: `gap-5`,
+        onSubmit: ve,
+        children: [ye, Ce, J],
+      })),
+      (n[101] = ve),
+      (n[102] = Ce),
+      (n[103] = J),
+      (n[104] = De))
+    : (De = n[104]);
+  let Oe;
+  return (
+    n[105] !== he || n[106] !== r || n[107] !== De
+      ? ((Oe = (0, Z.jsx)(Ee, { size: `compact`, open: r, onOpenChange: he, children: De })),
+        (n[105] = he),
+        (n[106] = r),
+        (n[107] = De),
+        (n[108] = Oe))
+      : (Oe = n[108]),
+    Oe
+  );
+}
+function Gt(e) {
+  Object.assign(e, lt(e));
+}
+function Kt(e) {
+  let t = (0, Q.c)(2),
+    { children: n } = e,
+    r;
+  return (
+    t[0] === n
+      ? (r = t[1])
+      : ((r = (0, Z.jsx)(`span`, {
+          className: `mx-1 inline-flex max-w-full items-center rounded-lg bg-token-foreground/5 px-2 py-0.5 align-middle text-base leading-6 tracking-[-0.13px] text-token-foreground`,
+          children: (0, Z.jsx)(`span`, { className: `truncate`, children: n }),
+        })),
+        (t[0] = n),
+        (t[1] = r)),
+    r
+  );
+}
+function qt(e, t, r, i) {
+  let a = (0, Q.c)(9),
+    o;
+  a[0] === i ? (o = a[1]) : ((o = i === void 0 ? {} : i), (a[0] = i), (a[1] = o));
+  let s = o,
+    c = String(e),
+    l;
+  a[2] === c ? (l = a[3]) : ((l = n(c)), (a[2] = c), (a[3] = l));
+  let u;
+  a[4] !== r || a[5] !== l
+    ? ((u = { cwd: l, operationSource: r }), (a[4] = r), (a[5] = l), (a[6] = u))
+    : (u = a[6]);
+  let d;
+  return (
+    a[7] === s ? (d = a[8]) : ((d = { staleTime: A.FIVE_SECONDS, ...s }), (a[7] = s), (a[8] = d)),
+    m(e, t, `list-worktrees`, u, r, d)
+  );
+}
+function Jt(e) {
+  let t = (0, Q.c)(63),
+    {
+      open: a,
+      onOpenChange: o,
+      conversationId: s,
+      composerViewState: c,
+      conversationTitle: u,
+      currentBranch: f,
+      cwd: p,
+    } = e,
+    m = ie(),
+    h = Ut(s),
+    [g, _] = (0, wt.useState)(null),
+    [b, ee] = (0, wt.useState)(null),
+    x = it({ branchPrefix: fe(r.branchPrefix) ?? void 0, conversationTitle: u }),
+    S = b ?? (f || x),
+    C = S.trim(),
+    T = d(te(y, s)),
+    { data: E } = l(p, T, `move_to_local_dialog`),
+    D = E?.root ?? null,
+    O = D ?? p,
+    k = v(O),
+    { data: ne, isLoading: A, isFetching: re } = qt(D ?? p, T, `move_to_local_dialog`),
+    { data: j } = _t(T, `move_to_local_dialog`),
+    M = G(T.id),
+    { data: N } = w(se),
+    ae = ne?.worktrees,
+    P;
+  t[0] === j?.worktrees
+    ? (P = t[1])
+    : ((P = new Set((j?.worktrees ?? []).map(Yt))), (t[0] = j?.worktrees), (t[1] = P));
+  let oe = P,
+    F;
+  t[2] !== M || t[3] !== oe
+    ? ((F = (e) => oe.has(v(e)) || i(e, M)), (t[2] = M), (t[3] = oe), (t[4] = F))
+    : (F = t[4]);
+  let I = F,
+    L,
+    R,
+    z,
+    B,
+    ce,
+    V;
+  if (t[5] !== p || t[6] !== I || t[7] !== ae || t[8] !== g || t[9] !== O || t[10] !== N?.labels) {
+    let e;
+    (t[17] === I ? (e = t[18]) : ((e = (e) => !I(e.root)), (t[17] = I), (t[18] = e)),
+      (R = ut({ cwd: p, sourceWorktreeRoot: O, repoWorktreeEntries: (ae ?? []).filter(e) })));
+    let r;
+    (t[19] === N?.labels ? (r = t[20]) : ((r = N?.labels ?? {}), (t[19] = N?.labels), (t[20] = r)),
+      (V = r),
+      (B = R.find((e) => e.gitRoot === g) ?? R[0] ?? null));
+    let i = B?.workspaceRoot ?? null;
+    ((z = i == null ? null : n(i)),
+      (L = B?.gitRoot ?? null),
+      (ce = L ? v(L) : null),
+      (t[5] = p),
+      (t[6] = I),
+      (t[7] = ae),
+      (t[8] = g),
+      (t[9] = O),
+      (t[10] = N?.labels),
+      (t[11] = L),
+      (t[12] = R),
+      (t[13] = z),
+      (t[14] = B),
+      (t[15] = ce),
+      (t[16] = V));
+  } else ((L = t[11]), (R = t[12]), (z = t[13]), (B = t[14]), (ce = t[15]), (V = t[16]));
+  let le = ce,
+    H = a && L != null,
+    U;
+  t[21] === H
+    ? (U = t[22])
+    : ((U = { enabled: H, refetchOnMount: `always`, refetchOnWindowFocus: `always` }),
+      (t[21] = H),
+      (t[22] = U));
+  let { data: ue, isLoading: W, isFetching: de } = qe(L, T, `move_to_local_dialog`, U),
+    pe = a && L != null,
+    me;
+  t[23] === pe
+    ? (me = t[24])
+    : ((me = { enabled: pe, refetchOnMount: `always`, refetchOnWindowFocus: `always` }),
+      (t[23] = pe),
+      (t[24] = me));
+  let { data: he, isLoading: ge, isFetching: _e } = ft(L, T, `move_to_local_dialog`, me),
+    ve = (ae ?? []).some((e) => {
+      let t = v(e.root);
+      return !(
+        I(e.root) ||
+        e.headRef.type !== `branch` ||
+        e.headRef.string !== C ||
+        (le && t === le) ||
+        t === k
+      );
+    }),
+    ye = A || re || (L != null && (W || de || ge || _e)),
+    be = he?.type === `success` && he.stagedCount + he.unstagedCount + he.untrackedCount > 0,
+    K = null;
+  if (h != null) K = h;
+  else if (A || re) {
+    let e;
+    (t[25] === m
+      ? (e = t[26])
+      : ((e = m.formatMessage({
+          id: `localConversation.moveToLocal.disabled.loading`,
+          defaultMessage: `Checking available local workspaces…`,
+          description: `Tooltip shown when the move to local button is disabled while local worktrees are loading`,
+        })),
+        (t[25] = m),
+        (t[26] = e)),
+      (K = e));
+  } else if (B == null || z == null) {
+    let e;
+    (t[27] === m
+      ? (e = t[28])
+      : ((e = m.formatMessage({
+          id: `localConversation.moveToLocal.disabled.noWorkspace`,
+          defaultMessage: `No local workspace found for this worktree`,
+          description: `Tooltip shown when the move to local button is disabled because no local workspace is available`,
+        })),
+        (t[27] = m),
+        (t[28] = e)),
+      (K = e));
+  } else if (C.length === 0) {
+    let e;
+    (t[29] === m
+      ? (e = t[30])
+      : ((e = m.formatMessage({
+          id: `localConversation.moveToLocal.confirm.branchRequired`,
+          defaultMessage: `Enter a branch name`,
+          description: `Tooltip shown when the move to local button is disabled because no local branch name was entered`,
+        })),
+        (t[29] = m),
+        (t[30] = e)),
+      (K = e));
+  } else if (C.endsWith(`/`)) {
+    let e;
+    (t[31] === m
+      ? (e = t[32])
+      : ((e = m.formatMessage({
+          id: `localConversation.moveToLocal.confirm.trailingSlashError`,
+          defaultMessage: `Branch name cannot end with “/”`,
+          description: `Tooltip shown when the move to local button is disabled because the local branch name ends with a slash`,
+        })),
+        (t[31] = m),
+        (t[32] = e)),
+      (K = e));
+  } else if (ve) {
+    let e;
+    (t[33] === m
+      ? (e = t[34])
+      : ((e = m.formatMessage({
+          id: `localConversation.moveToLocal.disabled.branchCheckedOut`,
+          defaultMessage: `Branch is already checked out in another worktree`,
+          description: `Tooltip shown when the move to local button is disabled because the branch is checked out elsewhere`,
+        })),
+        (t[33] = m),
+        (t[34] = e)),
+      (K = e));
+  } else if (D == null) {
+    let e;
+    (t[35] === m
+      ? (e = t[36])
+      : ((e = m.formatMessage({
+          id: `localConversation.moveToLocal.confirm.missingWorktreeRoot`,
+          defaultMessage: `Unable to resolve the current worktree`,
+          description: `Tooltip shown when the move to local button is disabled because the source worktree root is unavailable`,
+        })),
+        (t[35] = m),
+        (t[36] = e)),
+      (K = e));
+  } else if (L != null && (W || de || ge || _e)) {
+    let e;
+    (t[37] === m
+      ? (e = t[38])
+      : ((e = m.formatMessage({
+          id: `localConversation.moveToLocal.confirm.loadingStatus`,
+          defaultMessage: `Checking local workspace status…`,
+          description: `Tooltip shown when the move to local button is disabled while git status is loading`,
+        })),
+        (t[37] = m),
+        (t[38] = e)),
+      (K = e));
+  } else if (ue == null) {
+    let e;
+    (t[39] === m
+      ? (e = t[40])
+      : ((e = m.formatMessage({
+          id: `localConversation.moveToLocal.confirm.missingLocalBranch`,
+          defaultMessage: `Unable to determine the current local branch`,
+          description: `Tooltip shown when the move to local button is disabled because the current local branch is unavailable`,
+        })),
+        (t[39] = m),
+        (t[40] = e)),
+      (K = e));
+  } else if (he?.type !== `success`) {
+    let e;
+    (t[41] === m
+      ? (e = t[42])
+      : ((e = m.formatMessage({
+          id: `localConversation.moveToLocal.confirm.localStatusError`,
+          defaultMessage: `Unable to determine whether the local workspace is clean`,
+          description: `Tooltip shown when the move to local button is disabled because the local git status check failed`,
+        })),
+        (t[41] = m),
+        (t[42] = e)),
+      (K = e));
+  } else if (be) {
+    let e;
+    (t[43] === m
+      ? (e = t[44])
+      : ((e = m.formatMessage({
+          id: `localConversation.moveToLocal.confirm.localChangesBlocked`,
+          defaultMessage: `Stash or commit your local changes to hand off`,
+          description: `Tooltip shown when the move to local button is disabled because the destination local workspace is not clean`,
+        })),
+        (t[43] = m),
+        (t[44] = e)),
+      (K = e));
+  }
+  let xe = T.kind === `local` ? `local` : `remote`,
+    Se;
+  t[45] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((Se = () => {
+        ee(null);
+      }),
+      (t[45] = Se))
+    : (Se = t[45]);
+  let Ce;
+  return (
+    t[46] !== c ||
+    t[47] !== K ||
+    t[48] !== s ||
+    t[49] !== p ||
+    t[50] !== ye ||
+    t[51] !== S ||
+    t[52] !== L ||
+    t[53] !== R ||
+    t[54] !== z ||
+    t[55] !== o ||
+    t[56] !== a ||
+    t[57] !== B ||
+    t[58] !== xe ||
+    t[59] !== C ||
+    t[60] !== V ||
+    t[61] !== D
+      ? ((Ce = (0, Z.jsx)(Xt, {
+          open: a,
+          onOpenChange: o,
+          conversationId: s,
+          composerViewState: c,
+          localBranch: S,
+          trimmedLocalBranch: C,
+          onChangeLocalBranch: ee,
+          cwd: p,
+          localTargets: R,
+          selectedLocalTarget: B,
+          onChangeLocalTarget: _,
+          workspaceRootLabels: V,
+          isLoadingBlocked: ye,
+          confirmDisabledReason: K,
+          localGitRoot: L,
+          localWorkspaceCwd: z,
+          worktreeRoot: D,
+          destinationLabel: xe,
+          onResetLocalBranch: Se,
+        })),
+        (t[46] = c),
+        (t[47] = K),
+        (t[48] = s),
+        (t[49] = p),
+        (t[50] = ye),
+        (t[51] = S),
+        (t[52] = L),
+        (t[53] = R),
+        (t[54] = z),
+        (t[55] = o),
+        (t[56] = a),
+        (t[57] = B),
+        (t[58] = xe),
+        (t[59] = C),
+        (t[60] = V),
+        (t[61] = D),
+        (t[62] = Ce))
+      : (Ce = t[62]),
+    Ce
+  );
+}
+function Yt(e) {
+  return v(e.dir);
+}
+function Xt(e) {
+  let t = (0, Q.c)(108),
+    {
+      open: n,
+      onOpenChange: r,
+      conversationId: i,
+      composerViewState: a,
+      localBranch: o,
+      trimmedLocalBranch: s,
+      onChangeLocalBranch: c,
+      cwd: l,
+      localTargets: u,
+      selectedLocalTarget: d,
+      onChangeLocalTarget: f,
+      workspaceRootLabels: p,
+      isLoadingBlocked: m,
+      confirmDisabledReason: h,
+      localGitRoot: g,
+      localWorkspaceCwd: _,
+      worktreeRoot: v,
+      destinationLabel: y,
+      onResetLocalBranch: b,
+    } = e,
+    ee = ie(),
+    [x, S] = (0, wt.useState)(null),
+    { activeOperationId: C } = ot(),
+    w = ct(i),
+    {
+      addToLocalOperation: T,
+      closeActiveOperation: te,
+      removeOperation: E,
+      openOperation: D,
+      updateOperation: O,
+    } = st(),
+    k = w != null && C === w.id,
+    ne = n || k,
+    A = h != null || g == null || _ == null || v == null,
+    re;
+  t[0] !== d || t[1] !== p
+    ? ((re = d == null ? null : Qt({ workspaceRoot: d.workspaceRoot, workspaceRootLabels: p })),
+      (t[0] = d),
+      (t[1] = p),
+      (t[2] = re))
+    : (re = t[2]);
+  let j = re,
+    M = d == null || u.length <= 1,
+    ae;
+  t[3] !== T ||
+  t[4] !== a ||
+  t[5] !== i ||
+  t[6] !== l ||
+  t[7] !== A ||
+  t[8] !== g ||
+  t[9] !== _ ||
+  t[10] !== b ||
+  t[11] !== D ||
+  t[12] !== s ||
+  t[13] !== v
+    ? ((ae = () => {
+        A ||
+          (D(
+            T({
+              sourceConversationId: i,
+              sourceBranch: s,
+              localBranch: s,
+              request: { cwd: l, localGitRoot: g, localWorkspaceRoot: _, worktreeRoot: v },
+              stepIds: [
+                `stash-source-changes`,
+                `detach-worktree-branch`,
+                `checkout-local-branch`,
+                `apply-changes-to-local`,
+                `switching-thread`,
+              ],
+              composerViewState: a,
+            }).id,
+          ),
+          b());
+      }),
+      (t[3] = T),
+      (t[4] = a),
+      (t[5] = i),
+      (t[6] = l),
+      (t[7] = A),
+      (t[8] = g),
+      (t[9] = _),
+      (t[10] = b),
+      (t[11] = D),
+      (t[12] = s),
+      (t[13] = v),
+      (t[14] = ae))
+    : (ae = t[14]);
+  let P = ae,
+    oe;
+  t[15] !== te || t[16] !== k || t[17] !== r || t[18] !== b || t[19] !== w || t[20] !== E
+    ? ((oe = (e) => {
+        if (!e && k) {
+          if (w?.status === `success` || w?.status === `error`) {
+            (E(w.id), r(!1));
+            return;
+          }
+          if (w?.status === `warning`) {
+            (E(w.id), r(!1));
+            return;
+          }
+          (te(), r(!1));
+          return;
+        }
+        (e || b(), r(e));
+      }),
+      (t[15] = te),
+      (t[16] = k),
+      (t[17] = r),
+      (t[18] = b),
+      (t[19] = w),
+      (t[20] = E),
+      (t[21] = oe))
+    : (oe = t[21]);
+  let F = oe;
+  if (k && w != null) {
+    let e;
+    t[22] !== te || t[23] !== w.id || t[24] !== w.status || t[25] !== E
+      ? ((e = () => {
+          if (w.status === `success` || w.status === `error`) {
+            E(w.id);
+            return;
+          }
+          if (w.status === `warning`) {
+            E(w.id);
+            return;
+          }
+          te();
+        }),
+        (t[22] = te),
+        (t[23] = w.id),
+        (t[24] = w.status),
+        (t[25] = E),
+        (t[26] = e))
+      : (e = t[26]);
+    let n;
+    t[27] !== D || t[28] !== w.id || t[29] !== O
+      ? ((n = () => {
+          (O(w.id, Zt), D(w.id));
+        }),
+        (t[27] = D),
+        (t[28] = w.id),
+        (t[29] = O),
+        (t[30] = n))
+      : (n = t[30]);
+    let r;
+    t[31] !== w || t[32] !== e || t[33] !== n
+      ? ((r = (0, Z.jsx)(jt, { operation: w, onClose: e, onRetry: n })),
+        (t[31] = w),
+        (t[32] = e),
+        (t[33] = n),
+        (t[34] = r))
+      : (r = t[34]);
+    let i;
+    return (
+      t[35] !== ne || t[36] !== F || t[37] !== r
+        ? ((i = (0, Z.jsx)(Ee, { size: `compact`, open: ne, onOpenChange: F, children: r })),
+          (t[35] = ne),
+          (t[36] = F),
+          (t[37] = r),
+          (t[38] = i))
+        : (i = t[38]),
+      i
+    );
+  }
+  let I;
+  t[39] === P
+    ? (I = t[40])
+    : ((I = (e) => {
+        (e.preventDefault(), P());
+      }),
+      (t[39] = P),
+      (t[40] = I));
+  let L;
+  t[41] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((L = (0, Z.jsx)(rt.Header, {
+        icon: (0, Z.jsx)(Dt, { className: `icon-base rotate-90 text-token-foreground` }),
+      })),
+      (t[41] = L))
+    : (L = t[41]);
+  let se;
+  t[42] === y
+    ? (se = t[43])
+    : ((se = (0, Z.jsx)(rt.Title, {
+        children: (0, Z.jsx)(N, {
+          id: `localConversation.moveToLocal.modal.title`,
+          defaultMessage: `Hand off chat to {destinationLabel}`,
+          description: `Title for the move-to-local confirmation modal`,
+          values: { destinationLabel: y },
+        }),
+      })),
+      (t[42] = y),
+      (t[43] = se));
+  let R;
+  t[44] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((R = (0, Z.jsx)(`span`, {
+        children: (0, Z.jsx)(N, {
+          id: `localConversation.moveToLocal.modal.subtitle.prefix`,
+          defaultMessage: `Check out branch `,
+          description: `Prefix for the move-to-local confirmation sentence before the branch name`,
+        }),
+      })),
+      (t[44] = R))
+    : (R = t[44]);
+  let z;
+  t[45] === c
+    ? (z = t[46])
+    : ((z = (e) => {
+        c(pt(e.target.value));
+      }),
+      (t[45] = c),
+      (t[46] = z));
+  let B;
+  t[47] === ee
+    ? (B = t[48])
+    : ((B = ee.formatMessage({
+        id: `localConversation.moveToLocal.modal.branchAriaLabel`,
+        defaultMessage: `Local branch name`,
+        description: `Aria label for the branch name input in the move-to-local modal`,
+      })),
+      (t[47] = ee),
+      (t[48] = B));
+  let ce;
+  t[49] !== o || t[50] !== z || t[51] !== B
+    ? ((ce = (0, Z.jsx)(`input`, {
+        className: `mx-1 inline-flex h-8 w-48 rounded-lg bg-token-foreground/5 px-2 py-0.5 align-middle text-base leading-6 text-token-foreground outline-none`,
+        autoFocus: !0,
+        value: o,
+        onChange: z,
+        "aria-label": B,
+      })),
+      (t[49] = o),
+      (t[50] = z),
+      (t[51] = B),
+      (t[52] = ce))
+    : (ce = t[52]);
+  let V;
+  t[53] === y
+    ? (V = t[54])
+    : ((V = (0, Z.jsx)(`span`, {
+        children: (0, Z.jsx)(N, {
+          id: `localConversation.moveToLocal.modal.subtitle.suffix`,
+          defaultMessage: ` in a {destinationLabel} workspace and detach it from worktree.`,
+          description: `Suffix for the move-to-local confirmation sentence after the branch name`,
+          values: { destinationLabel: y },
+        }),
+      })),
+      (t[53] = y),
+      (t[54] = V));
+  let le;
+  t[55] !== ce || t[56] !== V
+    ? ((le = (0, Z.jsxs)(`p`, {
+        className: `text-base leading-6 tracking-[-0.13px] text-token-description-foreground`,
+        children: [R, ce, V],
+      })),
+      (t[55] = ce),
+      (t[56] = V),
+      (t[57] = le))
+    : (le = t[57]);
+  let H;
+  t[58] !== le || t[59] !== se
+    ? ((H = (0, Z.jsxs)(`div`, { className: `flex flex-col gap-3`, children: [se, le] })),
+      (t[58] = le),
+      (t[59] = se),
+      (t[60] = H))
+    : (H = t[60]);
+  let U;
+  t[61] === y
+    ? (U = t[62])
+    : ((U = (0, Z.jsx)(`span`, {
+        className: `text-token-description-foreground`,
+        children: (0, Z.jsx)(N, {
+          id: `localConversation.moveToLocal.modal.projectPrefix`,
+          defaultMessage: `Handing off to {destinationLabel} workspace`,
+          description: `Text shown before the project selector in the move-to-local modal`,
+          values: { destinationLabel: y },
+        }),
+      })),
+      (t[61] = y),
+      (t[62] = U));
+  let ue;
+  t[63] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((ue = (e) => {
+        if (typeof document > `u`) {
+          S(null);
+          return;
+        }
+        S(e?.closest(`.codex-dialog`) ?? document.body);
+      }),
+      (t[63] = ue))
+    : (ue = t[63]);
+  let W;
+  t[64] === j
+    ? (W = t[65])
+    : ((W =
+        j == null
+          ? (0, Z.jsx)(`span`, {
+              className: `min-w-0 flex-1 truncate text-left text-token-description-foreground`,
+              children: (0, Z.jsx)(N, {
+                id: `localConversation.moveToLocal.modal.projectPlaceholder`,
+                defaultMessage: `No local workspace found`,
+                description: `Placeholder shown when the move-to-local modal cannot find a local workspace target`,
+              }),
+            })
+          : (0, Z.jsxs)(`span`, {
+              className: `flex min-w-0 items-center gap-1.5`,
+              children: [
+                (0, Z.jsx)(`span`, {
+                  className: `w-full min-w-0 truncate text-left text-token-foreground [direction:rtl]`,
+                  children: (0, Z.jsx)(`span`, {
+                    className: `block w-full text-left [direction:ltr] [unicode-bidi:plaintext]`,
+                    children: j,
+                  }),
+                }),
+                (0, Z.jsx)(He, { className: `icon-xs shrink-0 text-token-description-foreground` }),
+              ],
+            })),
+      (t[64] = j),
+      (t[65] = W));
+  let fe;
+  t[66] !== M || t[67] !== W
+    ? ((fe = (0, Z.jsx)(`button`, {
+        type: `button`,
+        className: `flex min-w-0 items-center gap-1.5 rounded-lg bg-token-foreground/5 px-2 py-0.5 text-base leading-6 font-medium tracking-[-0.13px] text-token-foreground`,
+        disabled: M,
+        children: W,
+      })),
+      (t[66] = M),
+      (t[67] = W),
+      (t[68] = fe))
+    : (fe = t[68]);
+  let pe;
+  if (t[69] !== u || t[70] !== f || t[71] !== p) {
+    let e;
+    (t[73] !== f || t[74] !== p
+      ? ((e = (e) => {
+          let t = Qt({ workspaceRoot: e.workspaceRoot, workspaceRootLabels: p });
+          return (0, Z.jsx)(
+            X.Item,
+            {
+              tooltipText: e.workspaceRoot,
+              tooltipAlign: `start`,
+              subTextAllowWrap: !0,
+              SubText: (0, Z.jsx)(`span`, {
+                className: `text-xs text-token-description-foreground`,
+                children: e.workspaceRoot,
+              }),
+              onSelect: () => {
+                f(e.gitRoot);
+              },
+              children: (0, Z.jsx)(`span`, { className: `block truncate`, children: t }),
+            },
+            e.gitRoot,
+          );
+        }),
+        (t[73] = f),
+        (t[74] = p),
+        (t[75] = e))
+      : (e = t[75]),
+      (pe = u.map(e)),
+      (t[69] = u),
+      (t[70] = f),
+      (t[71] = p),
+      (t[72] = pe));
+  } else pe = t[72];
+  let me;
+  t[76] === pe
+    ? (me = t[77])
+    : ((me = (0, Z.jsx)(X.Section, {
+        className: `flex max-h-40 flex-col overflow-y-auto`,
+        children: pe,
+      })),
+      (t[76] = pe),
+      (t[77] = me));
+  let G;
+  t[78] !== x || t[79] !== fe || t[80] !== me
+    ? ((G = (0, Z.jsx)(`div`, {
+        ref: ue,
+        children: (0, Z.jsx)(Be, {
+          align: `end`,
+          contentMaxHeight: `list`,
+          contentWidth: `menuBounded`,
+          portalContainer: x,
+          triggerButton: fe,
+          children: me,
+        }),
+      })),
+      (t[78] = x),
+      (t[79] = fe),
+      (t[80] = me),
+      (t[81] = G))
+    : (G = t[81]);
+  let he;
+  t[82] !== U || t[83] !== G
+    ? ((he = (0, Z.jsxs)(`div`, {
+        className: `flex flex-wrap items-center gap-2 text-base leading-6 tracking-[-0.13px]`,
+        children: [U, G],
+      })),
+      (t[82] = U),
+      (t[83] = G),
+      (t[84] = he))
+    : (he = t[84]);
+  let ge;
+  t[85] !== H || t[86] !== he
+    ? ((ge = (0, Z.jsxs)(`div`, { className: `flex flex-col gap-5`, children: [H, he] })),
+      (t[85] = H),
+      (t[86] = he),
+      (t[87] = ge))
+    : (ge = t[87]);
+  let _e;
+  t[88] === m
+    ? (_e = t[89])
+    : ((_e = m
+        ? (0, Z.jsx)(N, {
+            id: `localConversation.moveToLocal.modal.loading`,
+            defaultMessage: `Checking for ability to hand off…`,
+            description: `Button label shown while move-to-local is waiting on required data before it can continue`,
+          })
+        : (0, Z.jsx)(N, {
+            id: `localConversation.moveToLocal.modal.continue`,
+            defaultMessage: `Hand off`,
+            description: `Primary action in the move-to-local modal`,
+          })),
+      (t[88] = m),
+      (t[89] = _e));
+  let ve;
+  t[90] !== A || t[91] !== m || t[92] !== _e
+    ? ((ve = (0, Z.jsx)(de, {
+        className: `h-11 w-full justify-center rounded-full px-4 text-base font-medium`,
+        color: `primary`,
+        disabled: A,
+        loading: m,
+        type: `submit`,
+        children: _e,
+      })),
+      (t[90] = A),
+      (t[91] = m),
+      (t[92] = _e),
+      (t[93] = ve))
+    : (ve = t[93]);
+  let ye;
+  t[94] !== h || t[95] !== m
+    ? ((ye =
+        h != null && !m
+          ? (0, Z.jsx)(`p`, {
+              className: `text-center text-base leading-6 tracking-[-0.13px] text-token-editor-error-foreground`,
+              children: h,
+            })
+          : null),
+      (t[94] = h),
+      (t[95] = m),
+      (t[96] = ye))
+    : (ye = t[96]);
+  let be;
+  t[97] !== ve || t[98] !== ye
+    ? ((be = (0, Z.jsx)(rt.Footer, {
+        className: `flex-col items-stretch gap-3`,
+        right: (0, Z.jsxs)(`div`, { className: `flex w-full flex-col gap-3`, children: [ve, ye] }),
+      })),
+      (t[97] = ve),
+      (t[98] = ye),
+      (t[99] = be))
+    : (be = t[99]);
+  let K;
+  t[100] !== ge || t[101] !== be || t[102] !== I
+    ? ((K = (0, Z.jsxs)(rt.Root, {
+        as: `form`,
+        className: `gap-5`,
+        onSubmit: I,
+        children: [L, ge, be],
+      })),
+      (t[100] = ge),
+      (t[101] = be),
+      (t[102] = I),
+      (t[103] = K))
+    : (K = t[103]);
+  let xe;
+  return (
+    t[104] !== F || t[105] !== n || t[106] !== K
+      ? ((xe = (0, Z.jsx)(Ee, { size: `compact`, open: n, onOpenChange: F, children: K })),
+        (t[104] = F),
+        (t[105] = n),
+        (t[106] = K),
+        (t[107] = xe))
+      : (xe = t[107]),
+    xe
+  );
+}
+function Zt(e) {
+  Object.assign(e, lt(e));
+}
+function Qt({ workspaceRoot: e, workspaceRootLabels: t }) {
+  let n = v(e);
+  return (
+    (t[e]?.trim() ?? t[n]?.trim() ?? ``) ||
+    e
+      .split(/[/\\]+/)
+      .filter(Boolean)
+      .at(-1) ||
+    e
+  );
+}
+function $t(e) {
+  let t = (0, Q.c)(92),
+    {
+      open: n,
+      onOpenChange: i,
+      conversationId: a,
+      composerViewState: o,
+      conversationTitle: s,
+      currentBranch: c,
+      cwd: l,
+    } = e,
+    u = S(k),
+    f = ie(),
+    p = Ut(a),
+    m = d(te(y, a)),
+    [h, g] = (0, wt.useState)(null),
+    [v, b] = (0, wt.useState)(null),
+    [ee, x] = (0, wt.useState)(null),
+    { activeOperationId: C } = ot(),
+    w = ct(a),
+    {
+      addToWorktreeOperation: T,
+      closeActiveOperation: E,
+      removeOperation: D,
+      openOperation: O,
+      updateOperation: ne,
+    } = st(),
+    A = w != null && C === w.id,
+    j = n || A,
+    { data: M } = $e(l, m, `move_to_worktree_dialog`),
+    ae = fe(r.branchPrefix),
+    oe;
+  t[0] === n ? (oe = t[1]) : ((oe = { enabled: n }), (t[0] = n), (t[1] = oe));
+  let { data: F, isLoading: I, isFetching: L } = qe(l, m, `move_to_worktree_dialog`, oe),
+    se;
+  t[2] !== a || t[3] !== l
+    ? ((se = [`move-thread`, `to-worktree`, `resolve-owned-worktree`, a, l]),
+      (t[2] = a),
+      (t[3] = l),
+      (t[4] = se))
+    : (se = t[4]);
+  let R;
+  t[5] !== a || t[6] !== l || t[7] !== m
+    ? ((R = () =>
+        _(`git`).request({
+          method: `resolve-worktree-for-thread`,
+          params: {
+            cwd: l,
+            conversationId: a,
+            hostConfig: m,
+            operationSource: `move_to_worktree_dialog`,
+          },
+        })),
+      (t[5] = a),
+      (t[6] = l),
+      (t[7] = m),
+      (t[8] = R))
+    : (R = t[8]);
+  let z;
+  t[9] !== n || t[10] !== se || t[11] !== R
+    ? ((z = { queryKey: se, queryFn: R, enabled: n, staleTime: 0 }),
+      (t[9] = n),
+      (t[10] = se),
+      (t[11] = R),
+      (t[12] = z))
+    : (z = t[12]);
+  let { data: B, isLoading: V } = re(z),
+    le = F != null && F === c,
+    H = M != null && c === M,
+    U = le && !H,
+    ue = I || L,
+    W = n && U,
+    pe;
+  t[13] === W ? (pe = t[14]) : ((pe = { enabled: W }), (t[13] = W), (t[14] = pe));
+  let {
+      data: me,
+      isLoading: G,
+      isFetching: he,
+      isError: ge,
+      refetch: _e,
+    } = mt(l, m, `move_to_worktree_dialog`, pe),
+    ve = me === void 0 ? [] : me,
+    ye = n && H,
+    be;
+  t[15] === ye ? (be = t[16]) : ((be = { enabled: ye }), (t[15] = ye), (t[16] = be));
+  let { data: K } = mt(l, m, `move_to_worktree_dialog`, be),
+    xe = K === void 0 ? [] : K,
+    Se = B?.worktreeGitRoot != null && B?.worktreeWorkspaceRoot != null,
+    Ce;
+  t[17] === c ? (Ce = t[18]) : ((Ce = (e) => !c || e !== c), (t[17] = c), (t[18] = Ce));
+  let we = nn({ branches: ve, defaultBranch: M ?? null }).filter(Ce),
+    q = G || he,
+    Te = it({ branchPrefix: ae ?? void 0, conversationTitle: s }),
+    J = U && h && we.includes(h) ? h : U ? (we[0] ?? null) : null,
+    De = H ? (ee ?? Te) : c,
+    Oe = De.trim(),
+    ke = Oe.length === 0,
+    Ae = Oe.endsWith(`/`),
+    je = M != null && Oe === M,
+    Me = H && Oe.length > 0 && xe.includes(Oe),
+    Y = ue || V || (U && q),
+    Ne = null;
+  if (p != null) Ne = p;
+  else if (Y) {
+    let e;
+    (t[19] === f
+      ? (e = t[20])
+      : ((e = f.formatMessage({
+          id: `localConversation.moveToWorktree.modal.loading`,
+          defaultMessage: `Checking for ability to hand off…`,
+          description: `Button label shown while move-to-worktree is waiting on required data before it can continue`,
+        })),
+        (t[19] = f),
+        (t[20] = e)),
+      (Ne = e));
+  } else if (H && ke) {
+    let e;
+    (t[21] === f
+      ? (e = t[22])
+      : ((e = f.formatMessage({
+          id: `localConversation.moveToWorktree.modal.worktreeBranchRequired`,
+          defaultMessage: `Enter a worktree branch name.`,
+          description: `Inline validation message shown above the move-to-worktree CTA when the worktree branch name is empty`,
+        })),
+        (t[21] = f),
+        (t[22] = e)),
+      (Ne = e));
+  } else if (Ae) {
+    let e;
+    (t[23] === f
+      ? (e = t[24])
+      : ((e = f.formatMessage({
+          id: `localConversation.moveToWorktree.modal.trailingSlashError`,
+          defaultMessage: `Branch name cannot end with “/”.`,
+          description: `Validation message shown when the worktree branch name ends with a slash`,
+        })),
+        (t[23] = f),
+        (t[24] = e)),
+      (Ne = e));
+  } else if (je) {
+    let e;
+    (t[25] === f
+      ? (e = t[26])
+      : ((e = f.formatMessage({
+          id: `localConversation.moveToWorktree.modal.defaultBranchError`,
+          defaultMessage: `Worktree branch must be different from the default branch.`,
+          description: `Validation message shown when the entered worktree branch equals the default branch`,
+        })),
+        (t[25] = f),
+        (t[26] = e)),
+      (Ne = e));
+  } else if (Me) {
+    let e;
+    (t[27] === f
+      ? (e = t[28])
+      : ((e = f.formatMessage({
+          id: `localConversation.moveToWorktree.modal.branchAlreadyExistsError`,
+          defaultMessage: `Branch already exists.`,
+          description: `Validation message shown when the entered worktree branch already exists`,
+        })),
+        (t[27] = f),
+        (t[28] = e)),
+      (Ne = e));
+  } else if (U && J == null) {
+    let e;
+    (t[29] !== f || t[30] !== ge
+      ? ((e = ge
+          ? f.formatMessage({
+              id: `localConversation.moveToWorktree.modal.branchesError`,
+              defaultMessage: `Unable to load branches`,
+              description: `Error shown in the move-to-worktree modal when branch list fails to load`,
+            })
+          : f.formatMessage({
+              id: `localConversation.moveToWorktree.modal.noTargetBranch`,
+              defaultMessage: `No other local branches are available`,
+              description: `Message shown when no local branch can be selected for checkout before moving to a worktree`,
+            })),
+        (t[29] = f),
+        (t[30] = ge),
+        (t[31] = e))
+      : (e = t[31]),
+      (Ne = e));
+  }
+  let Pe = Ne != null,
+    Fe;
+  t[32] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((Fe = () => {
+        (g(null), x(null));
+      }),
+      (t[32] = Fe))
+    : (Fe = t[32]);
+  let Ie = Fe,
+    Le;
+  t[33] !== E || t[34] !== A || t[35] !== i || t[36] !== w || t[37] !== D
+    ? ((Le = (e) => {
+        if (!e && A) {
+          if (w?.status === `success` || w?.status === `error`) {
+            (D(w.id), i(!1));
+            return;
+          }
+          if (w?.status === `warning`) {
+            (D(w.id), i(!1));
+            return;
+          }
+          (E(), i(!1));
+          return;
+        }
+        (e || Ie(), i(e));
+      }),
+      (t[33] = E),
+      (t[34] = A),
+      (t[35] = i),
+      (t[36] = w),
+      (t[37] = D),
+      (t[38] = Le))
+    : (Le = t[38]);
+  let Re = Le,
+    ze = () => {
+      if (Me) {
+        u.get(ce).warning(
+          f.formatMessage({
+            id: `localConversation.moveToWorktree.modal.branchAlreadyExists`,
+            defaultMessage: `Branch already exists`,
+            description: `Toast shown when moving to worktree with an existing branch name`,
+          }),
+        );
+        return;
+      }
+      Pe ||
+        (O(
+          T({
+            sourceConversationId: a,
+            sourceBranch: c,
+            localBranch: J,
+            worktreeBranch: Oe,
+            request: {
+              cwd: l,
+              defaultBranch: M ?? null,
+              existingWorktreeGitRoot: B?.worktreeGitRoot ?? null,
+              existingWorktreeWorkspaceRoot: B?.worktreeWorkspaceRoot ?? null,
+              targetHasUncommittedChanges: B?.hasUncommittedChanges ?? !1,
+            },
+            stepIds: [
+              Se ? `reuse-existing-worktree` : `create-new-worktree`,
+              `stash-source-changes`,
+              `checkout-local-branch`,
+              `stash-target-worktree-changes`,
+              `checkout-worktree-branch`,
+              `apply-changes-to-worktree`,
+              `switching-thread`,
+            ],
+            composerViewState: o,
+          }).id,
+        ),
+        Ie());
+    };
+  if (A && w != null) {
+    let e;
+    t[39] !== E || t[40] !== w.id || t[41] !== w.status || t[42] !== D
+      ? ((e = () => {
+          if (w.status === `success` || w.status === `error`) {
+            D(w.id);
+            return;
+          }
+          if (w.status === `warning`) {
+            D(w.id);
+            return;
+          }
+          E();
+        }),
+        (t[39] = E),
+        (t[40] = w.id),
+        (t[41] = w.status),
+        (t[42] = D),
+        (t[43] = e))
+      : (e = t[43]);
+    let n;
+    t[44] !== O || t[45] !== w.id || t[46] !== ne
+      ? ((n = () => {
+          (ne(w.id, en), O(w.id));
+        }),
+        (t[44] = O),
+        (t[45] = w.id),
+        (t[46] = ne),
+        (t[47] = n))
+      : (n = t[47]);
+    let r;
+    t[48] !== w || t[49] !== e || t[50] !== n
+      ? ((r = (0, Z.jsx)(jt, { operation: w, onClose: e, onRetry: n })),
+        (t[48] = w),
+        (t[49] = e),
+        (t[50] = n),
+        (t[51] = r))
+      : (r = t[51]);
+    let i;
+    return (
+      t[52] !== j || t[53] !== Re || t[54] !== r
+        ? ((i = (0, Z.jsx)(Ee, { size: `compact`, open: j, onOpenChange: Re, children: r })),
+          (t[52] = j),
+          (t[53] = Re),
+          (t[54] = r),
+          (t[55] = i))
+        : (i = t[55]),
+      i
+    );
+  }
+  let Ve = Ee,
+    Ue = rt,
+    We;
+  t[56] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((We = (0, Z.jsx)(rt.Header, {
+        icon: (0, Z.jsx)(Dt, { className: `icon-base rotate-90 text-token-foreground` }),
+      })),
+      (t[56] = We))
+    : (We = t[56]);
+  let Ge;
+  t[57] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((Ge = (0, Z.jsx)(rt.Title, {
+        children: (0, Z.jsx)(N, {
+          id: `localConversation.moveToWorktree.modal.title`,
+          defaultMessage: `Hand off chat to worktree`,
+          description: `Title for the move-to-worktree modal`,
+        }),
+      })),
+      (t[57] = Ge))
+    : (Ge = t[57]);
+  let Ke = H
+      ? (0, Z.jsx)(N, {
+          id: `localConversation.moveToWorktree.modal.subtitle.defaultBranch`,
+          defaultMessage: `Create and check out a branch in a {worktreeDescription} to continue working in parallel.`,
+          description: `Subtitle for the move-to-worktree modal when the source branch is the default branch`,
+          values: {
+            worktreeDescription: Se
+              ? (0, Z.jsx)(N, {
+                  id: `localConversation.moveToWorktree.modal.subtitle.defaultBranch.existing`,
+                  defaultMessage: `existing worktree`,
+                  description: `Noun phrase used in the move-to-worktree subtitle when reusing an existing worktree`,
+                })
+              : (0, Z.jsx)(N, {
+                  id: `localConversation.moveToWorktree.modal.subtitle.defaultBranch.new`,
+                  defaultMessage: `new worktree`,
+                  description: `Noun phrase used in the move-to-worktree subtitle when creating a new worktree`,
+                }),
+          },
+        })
+      : (0, Z.jsxs)(Z.Fragment, {
+          children: [
+            (0, Z.jsx)(`span`, {
+              children: (0, Z.jsx)(N, {
+                id: `localConversation.moveToWorktree.modal.subtitle.branch.prefix`,
+                defaultMessage: `Check out branch `,
+                description: `Prefix for the move-to-worktree confirmation sentence before the branch name`,
+              }),
+            }),
+            (0, Z.jsx)(tn, { children: Oe }),
+            (0, Z.jsx)(`span`, {
+              children: (0, Z.jsx)(N, {
+                id: `localConversation.moveToWorktree.modal.subtitle.branch.suffix`,
+                defaultMessage: ` in a {worktreeDescription} to continue working in parallel.`,
+                description: `Suffix for the move-to-worktree confirmation sentence after the branch name`,
+                values: {
+                  worktreeDescription: Se
+                    ? (0, Z.jsx)(N, {
+                        id: `localConversation.moveToWorktree.modal.subtitle.branch.existing`,
+                        defaultMessage: `existing worktree`,
+                        description: `Noun phrase used in the move-to-worktree subtitle when reusing an existing worktree`,
+                      })
+                    : (0, Z.jsx)(N, {
+                        id: `localConversation.moveToWorktree.modal.subtitle.branch.new`,
+                        defaultMessage: `new worktree`,
+                        description: `Noun phrase used in the move-to-worktree subtitle when creating a new worktree`,
+                      }),
+                },
+              }),
+            }),
+          ],
+        }),
+    Je;
+  t[58] === Ke
+    ? (Je = t[59])
+    : ((Je = (0, Z.jsxs)(`div`, {
+        className: `flex flex-col gap-3`,
+        children: [
+          Ge,
+          (0, Z.jsx)(`p`, {
+            className: `text-base leading-6 tracking-[-0.13px] text-token-description-foreground`,
+            children: Ke,
+          }),
+        ],
+      })),
+      (t[58] = Ke),
+      (t[59] = Je));
+  let Ye = U
+      ? (0, Z.jsxs)(`div`, {
+          className: `flex flex-wrap items-center gap-2 text-base leading-6 tracking-[-0.13px]`,
+          children: [
+            (0, Z.jsx)(`span`, {
+              className: `text-token-description-foreground`,
+              children: (0, Z.jsx)(N, {
+                id: `localConversation.moveToWorktree.modal.localCheckoutLabel`,
+                defaultMessage: `Local workspace will switch to`,
+                description: `Label for selecting the branch to check out locally when moving to a worktree`,
+              }),
+            }),
+            (0, Z.jsx)(`div`, {
+              ref: (e) => {
+                if (typeof document > `u`) {
+                  b(null);
+                  return;
+                }
+                b(e?.closest(`.codex-dialog`) ?? document.body);
+              },
+              children: (0, Z.jsx)(Be, {
+                align: `end`,
+                contentMaxHeight: `list`,
+                contentWidth: `menuBounded`,
+                portalContainer: v,
+                triggerButton: (0, Z.jsx)(`button`, {
+                  type: `button`,
+                  className: `flex min-w-0 items-center gap-1.5 rounded-lg bg-token-foreground/5 px-2 py-0.5 text-base leading-6 font-medium tracking-[-0.13px] text-token-foreground disabled:opacity-50`,
+                  disabled: q || ge,
+                  children: J
+                    ? (0, Z.jsxs)(`span`, {
+                        className: `flex min-w-0 items-center gap-1.5`,
+                        children: [
+                          (0, Z.jsx)(`span`, {
+                            className: `w-full min-w-0 truncate text-left text-token-foreground [direction:rtl]`,
+                            children: (0, Z.jsx)(`span`, {
+                              className: `block w-full text-left [direction:ltr] [unicode-bidi:plaintext]`,
+                              children: J,
+                            }),
+                          }),
+                          (0, Z.jsx)(He, {
+                            className: `icon-xs shrink-0 text-token-description-foreground`,
+                          }),
+                        ],
+                      })
+                    : (0, Z.jsx)(`span`, {
+                        className: `min-w-0 flex-1 truncate text-left text-token-description-foreground`,
+                        children: (0, Z.jsx)(N, {
+                          id: `localConversation.moveToWorktree.modal.localBranchPlaceholder`,
+                          defaultMessage: `Select local checkout branch`,
+                          description: `Placeholder shown in the move-to-worktree modal branch selector`,
+                        }),
+                      }),
+                }),
+                children: q
+                  ? (0, Z.jsx)(X.Item, {
+                      disabled: !0,
+                      children: (0, Z.jsx)(N, {
+                        id: `localConversation.moveToWorktree.modal.branchesLoading`,
+                        defaultMessage: `Loading branches…`,
+                        description: `Label shown while loading branches in the move-to-worktree modal`,
+                      }),
+                    })
+                  : ge
+                    ? (0, Z.jsxs)(X.Section, {
+                        className: `flex flex-col gap-1`,
+                        children: [
+                          (0, Z.jsx)(X.SectionLabel, {
+                            children: (0, Z.jsx)(N, {
+                              id: `localConversation.moveToWorktree.modal.branchesError`,
+                              defaultMessage: `Unable to load branches`,
+                              description: `Error shown in the move-to-worktree modal when branch list fails to load`,
+                            }),
+                          }),
+                          (0, Z.jsx)(X.Item, {
+                            onSelect: () => {
+                              _e();
+                            },
+                            children: (0, Z.jsx)(N, {
+                              id: `localConversation.moveToWorktree.modal.branchesRetry`,
+                              defaultMessage: `Retry`,
+                              description: `Retry button for branch loading errors in the move-to-worktree modal`,
+                            }),
+                          }),
+                        ],
+                      })
+                    : we.length === 0
+                      ? (0, Z.jsx)(X.Item, {
+                          disabled: !0,
+                          children: (0, Z.jsx)(N, {
+                            id: `localConversation.moveToWorktree.modal.noTargetBranch`,
+                            defaultMessage: `No other local branches are available`,
+                            description: `Message shown when no local branch can be selected for checkout before moving to a worktree`,
+                          }),
+                        })
+                      : (0, Z.jsx)(X.Section, {
+                          className: `flex max-h-40 flex-col overflow-y-auto`,
+                          children: we.map((e) =>
+                            (0, Z.jsx)(
+                              X.Item,
+                              {
+                                className: `[direction:rtl] [&_.min-w-0]:text-left`,
+                                onSelect: () => {
+                                  g(e);
+                                },
+                                children: (0, Z.jsxs)(`span`, {
+                                  className: `flex min-w-0 items-center gap-1.5`,
+                                  children: [
+                                    (0, Z.jsx)(P, {
+                                      className: `icon-sm shrink-0 text-token-foreground`,
+                                    }),
+                                    (0, Z.jsx)(`span`, {
+                                      className: `[direction:ltr] [unicode-bidi:plaintext]`,
+                                      children: e,
+                                    }),
+                                  ],
+                                }),
+                              },
+                              e,
+                            ),
+                          ),
+                        }),
+              }),
+            }),
+          ],
+        })
+      : null,
+    Xe;
+  t[60] !== ze || t[61] !== f || t[62] !== H || t[63] !== De
+    ? ((Xe = H
+        ? (0, Z.jsxs)(`div`, {
+            className: `flex flex-col gap-2`,
+            children: [
+              (0, Z.jsx)(`span`, {
+                className: `text-base leading-6 font-medium tracking-[-0.13px] text-token-foreground`,
+                children: (0, Z.jsx)(N, {
+                  id: `localConversation.moveToWorktree.modal.worktreeBranchLabel`,
+                  defaultMessage: `Branch name`,
+                  description: `Label for the target worktree branch when moving from the default branch`,
+                }),
+              }),
+              (0, Z.jsx)(`input`, {
+                className: `h-12 w-full rounded-2xl border border-token-border/40 bg-transparent px-4 text-base leading-6 tracking-[-0.13px] text-token-foreground outline-none placeholder:text-token-description-foreground`,
+                autoFocus: !0,
+                value: De,
+                onChange: (e) => {
+                  x(e.target.value);
+                },
+                onKeyDown: (e) => {
+                  e.key === `Enter` && (e.preventDefault(), ze());
+                },
+                placeholder: f.formatMessage({
+                  id: `localConversation.moveToWorktree.modal.worktreeBranchPlaceholder`,
+                  defaultMessage: `new-branch`,
+                  description: `Placeholder for worktree branch name input when moving from the default branch`,
+                }),
+                "aria-label": f.formatMessage({
+                  id: `localConversation.moveToWorktree.modal.worktreeBranchAriaLabel`,
+                  defaultMessage: `Worktree branch name`,
+                  description: `Aria label for worktree branch name input when moving from the default branch`,
+                }),
+              }),
+            ],
+          })
+        : null),
+      (t[60] = ze),
+      (t[61] = f),
+      (t[62] = H),
+      (t[63] = De),
+      (t[64] = Xe))
+    : (Xe = t[64]);
+  let Ze;
+  t[65] !== Je || t[66] !== Ye || t[67] !== Xe
+    ? ((Ze = (0, Z.jsxs)(`div`, { className: `flex flex-col gap-5`, children: [Je, Ye, Xe] })),
+      (t[65] = Je),
+      (t[66] = Ye),
+      (t[67] = Xe),
+      (t[68] = Ze))
+    : (Ze = t[68]);
+  let Qe;
+  t[69] === Y
+    ? (Qe = t[70])
+    : ((Qe = Y
+        ? (0, Z.jsx)(N, {
+            id: `localConversation.moveToWorktree.modal.loading`,
+            defaultMessage: `Checking for ability to hand off…`,
+            description: `Button label shown while move-to-worktree is waiting on required data before it can continue`,
+          })
+        : (0, Z.jsx)(N, {
+            id: `localConversation.moveToWorktree.modal.continue`,
+            defaultMessage: `Hand off`,
+            description: `Primary action in the move-to-worktree modal`,
+          })),
+      (t[69] = Y),
+      (t[70] = Qe));
+  let et;
+  t[71] !== ze || t[72] !== Pe || t[73] !== Y || t[74] !== Qe
+    ? ((et = (0, Z.jsx)(de, {
+        className: `h-11 w-full justify-center rounded-full px-4 text-base font-medium`,
+        color: `primary`,
+        disabled: Pe,
+        loading: Y,
+        onClick: ze,
+        children: Qe,
+      })),
+      (t[71] = ze),
+      (t[72] = Pe),
+      (t[73] = Y),
+      (t[74] = Qe),
+      (t[75] = et))
+    : (et = t[75]);
+  let tt;
+  t[76] !== Ne || t[77] !== Y
+    ? ((tt =
+        Ne != null && !Y
+          ? (0, Z.jsx)(`p`, {
+              className: `text-center text-base leading-6 tracking-[-0.13px] text-token-editor-error-foreground`,
+              children: Ne,
+            })
+          : null),
+      (t[76] = Ne),
+      (t[77] = Y),
+      (t[78] = tt))
+    : (tt = t[78]);
+  let nt;
+  t[79] !== et || t[80] !== tt
+    ? ((nt = (0, Z.jsx)(rt.Footer, {
+        className: `flex-col items-stretch gap-3`,
+        right: (0, Z.jsxs)(`div`, { className: `flex w-full flex-col gap-3`, children: [et, tt] }),
+      })),
+      (t[79] = et),
+      (t[80] = tt),
+      (t[81] = nt))
+    : (nt = t[81]);
+  let at;
+  t[82] !== Ue.Root || t[83] !== We || t[84] !== Ze || t[85] !== nt
+    ? ((at = (0, Z.jsxs)(Ue.Root, { className: `gap-5`, children: [We, Ze, nt] })),
+      (t[82] = Ue.Root),
+      (t[83] = We),
+      (t[84] = Ze),
+      (t[85] = nt),
+      (t[86] = at))
+    : (at = t[86]);
+  let lt;
+  return (
+    t[87] !== Ve || t[88] !== Re || t[89] !== n || t[90] !== at
+      ? ((lt = (0, Z.jsx)(Ve, { size: `compact`, open: n, onOpenChange: Re, children: at })),
+        (t[87] = Ve),
+        (t[88] = Re),
+        (t[89] = n),
+        (t[90] = at),
+        (t[91] = lt))
+      : (lt = t[91]),
+    lt
+  );
+}
+function en(e) {
+  Object.assign(e, lt(e));
+}
+function tn(e) {
+  let t = (0, Q.c)(2),
+    { children: n } = e,
+    r;
+  return (
+    t[0] === n
+      ? (r = t[1])
+      : ((r = (0, Z.jsx)(`span`, {
+          className: `mx-1 inline-flex max-w-full items-center rounded-lg bg-token-foreground/5 px-2 py-0.5 align-middle text-base leading-6 tracking-[-0.13px] text-token-foreground`,
+          children: (0, Z.jsx)(`span`, { className: `truncate`, children: n }),
+        })),
+        (t[0] = n),
+        (t[1] = r)),
+    r
+  );
+}
+function nn({ branches: e, defaultBranch: t }) {
+  return t == null || !e.includes(t) || e[0] === t ? e : [t, ...e.filter((e) => e !== t)];
+}
+function rn(e) {
+  let t = (0, Q.c)(13),
+    { selectedEnvironment: n, zeroEnvironments: r, onClick: i } = e,
+    o = ie();
+  if (r) {
+    let e;
+    return (
+      t[0] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, Z.jsx)(X.Item, {
+            RightIcon: he,
+            href: a,
+            children: (0, Z.jsx)(`span`, {
+              className: `text-token-description-foreground`,
+              children: (0, Z.jsx)(N, {
+                id: `composer.mode.remote.setupViaWeb`,
+                defaultMessage: `Set up an environment via Codex web`,
+                description: `Menu item to set up an environment via Codex web`,
+              }),
+            }),
+          })),
+          (t[0] = e))
+        : (e = t[0]),
+      e
+    );
+  }
+  let s;
+  t[1] === i
+    ? (s = t[2])
+    : ((s = (e) => {
+        (e.stopPropagation(), e.preventDefault(), i());
+      }),
+      (t[1] = i),
+      (t[2] = s));
+  let c;
+  t[3] === o
+    ? (c = t[4])
+    : ((c = o.formatMessage({
+        id: `composer.environmentSelector.tooltip`,
+        defaultMessage: `Select a cloud environment`,
+        description: `Tooltip content for environment selector`,
+      })),
+      (t[3] = o),
+      (t[4] = c));
+  let l;
+  t[5] === n?.label
+    ? (l = t[6])
+    : ((l =
+        n?.label ??
+        (0, Z.jsx)(N, {
+          id: `codex.environmentSelector.noEnvironment`,
+          defaultMessage: `No environment`,
+          description: `No environment selected message`,
+        })),
+      (t[5] = n?.label),
+      (t[6] = l));
+  let u;
+  t[7] === l
+    ? (u = t[8])
+    : ((u = (0, Z.jsx)(`span`, { className: `text-token-description-foreground`, children: l })),
+      (t[7] = l),
+      (t[8] = u));
+  let d;
+  return (
+    t[9] !== s || t[10] !== c || t[11] !== u
+      ? ((d = (0, Z.jsx)(X.Item, {
+          RightIcon: Ae,
+          className: `pl-7`,
+          onClick: s,
+          tooltipText: c,
+          children: u,
+        })),
+        (t[9] = s),
+        (t[10] = c),
+        (t[11] = u),
+        (t[12] = d))
+      : (d = t[12]),
+    d
+  );
+}
+function an(e) {
+  let t = (0, Q.c)(44),
+    {
+      selectedEnvironment: n,
+      envQuery: r,
+      setEnvQuery: i,
+      envListState: o,
+      listToShow: s,
+      setComposerMode: c,
+      setSelectedEnvironment: l,
+      setOpen: u,
+      onClosePanel: d,
+    } = e,
+    f = ie(),
+    p;
+  t[0] === d
+    ? (p = t[1])
+    : ((p = (e) => {
+        (e.stopPropagation(), e.preventDefault(), d());
+      }),
+      (t[0] = d),
+      (t[1] = p));
+  let m;
+  t[2] === f
+    ? (m = t[3])
+    : ((m = f.formatMessage({
+        id: `composer.environmentSelector.goBack`,
+        defaultMessage: `Back to composer`,
+        description: `Accessible label for closing environment selector`,
+      })),
+      (t[2] = f),
+      (t[3] = m));
+  let h;
+  t[4] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((h = (0, Z.jsx)(Me, { className: `icon-xxs` })), (t[4] = h))
+    : (h = t[4]);
+  let g;
+  t[5] !== p || t[6] !== m
+    ? ((g = (0, Z.jsx)(de, {
+        color: `ghost`,
+        size: `icon`,
+        onClick: p,
+        "aria-label": m,
+        children: h,
+      })),
+      (t[5] = p),
+      (t[6] = m),
+      (t[7] = g))
+    : (g = t[7]);
+  let _;
+  t[8] === f
+    ? (_ = t[9])
+    : ((_ = f.formatMessage({
+        id: `composer.searchEnvironments`,
+        defaultMessage: `Search environments`,
+        description: `Search environments placeholder`,
+      })),
+      (t[8] = f),
+      (t[9] = _));
+  let v;
+  t[10] === i ? (v = t[11]) : ((v = (e) => i(e.target.value)), (t[10] = i), (t[11] = v));
+  let y;
+  t[12] !== r || t[13] !== _ || t[14] !== v
+    ? ((y = (0, Z.jsx)(X.SearchInput, {
+        className: `flex-1`,
+        placeholder: _,
+        value: r,
+        onChange: v,
+      })),
+      (t[12] = r),
+      (t[13] = _),
+      (t[14] = v),
+      (t[15] = y))
+    : (y = t[15]);
+  let b;
+  t[16] !== g || t[17] !== y
+    ? ((b = (0, Z.jsxs)(X.Section, {
+        className: `my-1 flex w-full items-center gap-1.5 px-[var(--padding-row-x)]`,
+        children: [g, y],
+      })),
+      (t[16] = g),
+      (t[17] = y),
+      (t[18] = b))
+    : (b = t[18]);
+  let ee;
+  t[19] !== o || t[20] !== s || t[21] !== n?.id || t[22] !== c || t[23] !== u || t[24] !== l
+    ? ((ee =
+        o === `list` &&
+        s?.map((e) =>
+          (0, Z.jsx)(
+            X.Item,
+            {
+              RightIcon: e.id === n?.id ? ke : void 0,
+              onClick: () => {
+                (c(`cloud`), l(e), u(!1));
+              },
+              children: e.label,
+            },
+            e.id,
+          ),
+        )),
+      (t[19] = o),
+      (t[20] = s),
+      (t[21] = n?.id),
+      (t[22] = c),
+      (t[23] = u),
+      (t[24] = l),
+      (t[25] = ee))
+    : (ee = t[25]);
+  let x;
+  t[26] === o
+    ? (x = t[27])
+    : ((x =
+        o === `none-found` &&
+        (0, Z.jsx)(X.Message, {
+          centered: !0,
+          children: (0, Z.jsx)(N, {
+            id: `codex.environments.noEnvironmentsFound`,
+            defaultMessage: `No environments found`,
+            description: `Message shown when no Codex environments were found`,
+          }),
+        })),
+      (t[26] = o),
+      (t[27] = x));
+  let S;
+  t[28] === o
+    ? (S = t[29])
+    : ((S =
+        o === `loading` &&
+        (0, Z.jsx)(pe, {
+          className: `icon-xxs my-4 ms-2 self-center text-token-description-foreground`,
+        })),
+      (t[28] = o),
+      (t[29] = S));
+  let C;
+  t[30] !== o || t[31] !== n?.label
+    ? ((C =
+        o === `error` &&
+        (0, Z.jsx)(`div`, {
+          className: `w-full rounded-lg py-1.5 text-sm`,
+          children: (0, Z.jsxs)(`span`, {
+            className: `flex items-center gap-1.5`,
+            children: [
+              (0, Z.jsx)(ht, { className: `icon-xs` }),
+              (0, Z.jsx)(`span`, {
+                className: `flex-1 truncate`,
+                children:
+                  n?.label ??
+                  (0, Z.jsx)(N, {
+                    id: `codex.environmentSelector.noEnvironment`,
+                    defaultMessage: `No environment`,
+                    description: `No environment selected message`,
+                  }),
+              }),
+              (0, Z.jsx)(Ae, { className: `icon-xs` }),
+            ],
+          }),
+        })),
+      (t[30] = o),
+      (t[31] = n?.label),
+      (t[32] = C))
+    : (C = t[32]);
+  let w;
+  t[33] !== x || t[34] !== S || t[35] !== C || t[36] !== ee
+    ? ((w = (0, Z.jsxs)(`div`, {
+        className: `flex h-[150px] flex-col overflow-y-auto pb-1`,
+        children: [ee, x, S, C],
+      })),
+      (t[33] = x),
+      (t[34] = S),
+      (t[35] = C),
+      (t[36] = ee),
+      (t[37] = w))
+    : (w = t[37]);
+  let T;
+  t[38] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((T = (0, Z.jsx)(X.Separator, {})), (t[38] = T))
+    : (T = t[38]);
+  let te;
+  t[39] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((te = (0, Z.jsx)(X.Item, {
+        LeftIcon: Ce,
+        RightIcon: he,
+        href: `${a}/settings/environments`,
+        children: (0, Z.jsx)(N, {
+          id: `codex.environments.environmentSettings`,
+          defaultMessage: `Environment settings`,
+          description: `Codex code environment settings link`,
+        }),
+      })),
+      (t[39] = te))
+    : (te = t[39]);
+  let E;
+  t[40] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((E = (0, Z.jsxs)(X.Section, {
+        className: `flex flex-col`,
+        children: [
+          te,
+          (0, Z.jsx)(X.Item, {
+            LeftIcon: Se,
+            RightIcon: he,
+            href: `https://platform.openai.com/docs/codex/overview#environment-configuration`,
+            children: (0, Z.jsx)(N, {
+              id: `codex.environments.learnMore`,
+              defaultMessage: `Learn more`,
+              description: `Codex code environment learn more link`,
+            }),
+          }),
+        ],
+      })),
+      (t[40] = E))
+    : (E = t[40]);
+  let D;
+  return (
+    t[41] !== w || t[42] !== b
+      ? ((D = (0, Z.jsx)(`div`, {
+          className: `flex w-full flex-col`,
+          children: (0, Z.jsxs)(`div`, {
+            className: `flex w-56 flex-col overflow-hidden`,
+            children: [b, w, T, E],
+          }),
+        })),
+        (t[41] = w),
+        (t[42] = b),
+        (t[43] = D))
+      : (D = t[43]),
+    D
+  );
+}
+var on = e(z(), 1),
+  sn = e(p(), 1),
+  cn = C(k, () => ({
+    queryKey: [`environments`],
+    queryFn: async () => I.safeGet(`/wham/environments`),
+    placeholderData: O,
+    staleTime: A.FIVE_MINUTES,
+  })),
+  ln = C(k, ({ get: e }) => {
+    let t = e(_e, { params: void 0, source: `workspace_repo_owner_names` }),
+      n = B(t.data?.origins ?? []);
+    return {
+      queryKey: [
+        `workspace`,
+        `environments-by-repo`,
+        `results`,
+        ...(0, on.default)(n, [`owner`, `repoName`]).flatMap(({ owner: e, repoName: t }) => [e, t]),
+      ],
+      enabled: t.isSuccess,
+      staleTime: A.FIVE_MINUTES,
+      queryFn: un.bind(null, n),
+    };
+  });
+async function un(e) {
+  return (
+    await Promise.all(
+      e.map(({ owner: e, repoName: t }) =>
+        I.safeGet(`/wham/environments/by-repo/{provider}/{repo_owner}/{repo_name}`, {
+          parameters: { path: { provider: `github`, repo_owner: e, repo_name: t } },
+        }),
+      ),
+    )
+  ).flat();
+}
+var dn = T(k, ({ get: e }) =>
+    (0, sn.default)([...(e(ln).data ?? []), ...(e(cn).data ?? [])], (e) => e.id),
+  ),
+  fn = E(k, ({ envQuery: e, selectedEnvironmentId: t }, { get: n }) => {
+    let r = n(cn),
+      i = n(ln).data ?? [],
+      a = new Set(i.map((e) => e.id)),
+      o = n(dn),
+      s = e.trim().toLowerCase(),
+      c = [...(s.length > 0 ? o.filter((e) => e.label?.toLowerCase().includes(s)) : o)].sort(
+        (e, n) => {
+          if (e.id === t) return -1;
+          if (n.id === t) return 1;
+          let r = a.has(e.id);
+          if (r !== a.has(n.id)) return r ? -1 : 1;
+          if (!!e.is_pinned != !!n.is_pinned) return e.is_pinned ? -1 : 1;
+          let i = (n.task_count ?? 0) - (e.task_count ?? 0);
+          return i === 0 ? (e.label ?? ``).localeCompare(n.label ?? ``) : i;
+        },
+      );
+    return {
+      availableEnvironments: o,
+      errorLoadingAllEnvironments: r.error,
+      isLoadingAllEnvironments: r.isLoading,
+      listToShow: c,
+    };
+  }),
+  pn = (0, wt.memo)(function (e) {
+    let t = (0, Q.c)(196),
+      {
+        composerMode: r,
+        setComposerMode: i,
+        conversationId: a,
+        footerRemoteState: o,
+        threadHandoff: s,
+        allowWorktree: l,
+        disabled: u,
+        hideModeDropdown: d,
+        worktreeLabelOnly: p,
+        side: m,
+        modeAdjacentControl: _,
+        secondaryControls: v,
+        triggerVariant: y,
+        onOpenChange: b,
+      } = e,
+      ee = l === void 0 ? !1 : l,
+      x = u === void 0 ? !1 : u,
+      C = d === void 0 ? !1 : d,
+      T = p === void 0 ? !1 : p,
+      E = m === void 0 ? `top` : m,
+      D = y === void 0 ? `composer` : y,
+      O = S(le),
+      [k, ne] = (0, wt.useState)(!1),
+      [A, re] = (0, wt.useState)(!1),
+      [ae, P] = (0, wt.useState)(!1),
+      oe = r === `cloud` || k || A,
+      I = ie(),
+      L = F(`505458`),
+      R = F(`2256010998`),
+      z = ct(a),
+      B = R || z?.direction === `to-host-worktree`,
+      { access: ce } = Qe(),
+      W = ge(a),
+      fe = c(),
+      pe;
+    t[0] !== W.cwd || t[1] !== o || t[2] !== fe
+      ? ((pe = Fn({ executionTargetCwd: W.cwd, footerRemoteState: o, remoteConnections: fe })),
+        (t[0] = W.cwd),
+        (t[1] = o),
+        (t[2] = fe),
+        (t[3] = pe))
+      : (pe = t[3]);
+    let me = pe,
+      G = me != null,
+      he;
+    t[4] !== W.cwd || t[5] !== W.hostConfig
+      ? ((he = {
+          cwd: W.cwd,
+          enabled: !0,
+          hostConfig: W.hostConfig,
+          operationSource: `local_remote_dropdown`,
+          watchForGitInit: !1,
+        }),
+        (t[4] = W.cwd),
+        (t[5] = W.hostConfig),
+        (t[6] = he))
+      : (he = t[6]);
+    let ve = te(g, he),
+      K;
+    t[7] !== W.cwd || t[8] !== W.hostConfig
+      ? ((K = {
+          cwd: W.cwd,
+          enabled: !0,
+          hostConfig: W.hostConfig,
+          operationSource: `local_remote_dropdown`,
+          watchForGitInit: !1,
+        }),
+        (t[7] = W.cwd),
+        (t[8] = W.hostConfig),
+        (t[9] = K))
+      : (K = t[9]);
+    let Se = te(h, K),
+      Ce = ve?.root != null,
+      we = ve?.root ?? null,
+      { data: Te } = w(se),
+      J = B && k && W.hostId !== `local` ? Te?.roots : void 0,
+      Ee;
+    t[10] === J ? (Ee = t[11]) : ((Ee = J ?? []), (t[10] = J), (t[11] = Ee));
+    let De;
+    t[12] === Ee
+      ? (De = t[13])
+      : ((De = { params: { hostId: f, dirs: Ee }, source: `local_remote_dropdown` }),
+        (t[12] = Ee),
+        (t[13] = De));
+    let { data: Oe } = te(_e, De),
+      ke;
+    t[14] !== W.cwd || t[15] !== we || t[16] !== Oe?.origins || t[17] !== J
+      ? ((ke =
+          J == null
+            ? null
+            : ye({
+                sourceWorkspaceRoot: W.cwd,
+                sourceGitRoot: we,
+                destinationWorkspaceRoots: J,
+                destinationGitOrigins: Oe?.origins,
+              })),
+        (t[14] = W.cwd),
+        (t[15] = we),
+        (t[16] = Oe?.origins),
+        (t[17] = J),
+        (t[18] = ke))
+      : (ke = t[18]);
+    let Ae = ke,
+      je = (Ce || !1) && ce === `enabled`,
+      Me = Ce && ee && L,
+      [Y, Ne] = M(H),
+      Pe = j(ue),
+      Fe;
+    t[19] !== i || t[20] !== Pe
+      ? ((Fe = (e) => {
+          (Pe(e), i(e));
+        }),
+        (t[19] = i),
+        (t[20] = Pe),
+        (t[21] = Fe))
+      : (Fe = t[21]);
+    let Ie = Fe,
+      Le;
+    t[22] === Y
+      ? (Le = t[23])
+      : ((Le = Y
+          ? (0, Z.jsx)(N, {
+              id: `composer.mode.runInCloudWithEnvironment`,
+              defaultMessage: `Cloud · {environment}`,
+              description: `Remote mode label when a Codex task will be run in the cloud with a selected environment`,
+              values: { environment: Y.label },
+            })
+          : (0, Z.jsx)(N, { ...$.selectEnvironment })),
+        (t[22] = Y),
+        (t[23] = Le));
+    let Re = Le,
+      ze;
+    t[24] === I
+      ? (ze = t[25])
+      : ((ze = I.formatMessage({
+          id: `composer.mode.remote`,
+          defaultMessage: `Remote`,
+          description: `Remote mode label`,
+        })),
+        (t[24] = I),
+        (t[25] = ze));
+    let X = ze,
+      Ke = G ? Ve : We,
+      qe;
+    t[26] !== I || t[27] !== G
+      ? ((qe = G ? I.formatMessage($.startInRemote) : I.formatMessage($.workLocally)),
+        (t[26] = I),
+        (t[27] = G),
+        (t[28] = qe))
+      : (qe = t[28]);
+    let Je = qe,
+      Ye;
+    t[29] !== I || t[30] !== G
+      ? ((Ye = G ? I.formatMessage($.remoteWorktreeTooltip) : I.formatMessage($.worktreeTooltip)),
+        (t[29] = I),
+        (t[30] = G),
+        (t[31] = Ye))
+      : (Ye = t[31]);
+    let $e = Ye,
+      et;
+    t[32] === I
+      ? (et = t[33])
+      : ((et = I.formatMessage({
+          id: `composer.mode.localSlashCommand.description`,
+          defaultMessage: `Run this chat locally`,
+          description: `Description for the local mode slash command`,
+        })),
+        (t[32] = I),
+        (t[33] = et));
+    let tt = r !== `local`,
+      nt;
+    t[34] === Ie
+      ? (nt = t[35])
+      : ((nt = async () => {
+          Ie(`local`);
+        }),
+        (t[34] = Ie),
+        (t[35] = nt));
+    let rt = nt,
+      it;
+    (t[36] !== Ke || t[37] !== Je || t[38] !== et || t[39] !== tt || t[40] !== rt
+      ? ((it = {
+          id: `local`,
+          title: Je,
+          description: et,
+          requiresEmptyComposer: !1,
+          Icon: Ke,
+          enabled: tt,
+          onSelect: rt,
+        }),
+        (t[36] = Ke),
+        (t[37] = Je),
+        (t[38] = et),
+        (t[39] = tt),
+        (t[40] = rt),
+        (t[41] = it))
+      : (it = t[41]),
+      Ze(it));
+    let ot;
+    t[42] === I
+      ? (ot = t[43])
+      : ((ot = I.formatMessage($.worktreeMode)), (t[42] = I), (t[43] = ot));
+    let st;
+    t[44] === I
+      ? (st = t[45])
+      : ((st = I.formatMessage({
+          id: `composer.mode.worktreeSlashCommand.description`,
+          defaultMessage: `Run this chat in a new worktree`,
+          description: `Description for the worktree mode slash command`,
+        })),
+        (t[44] = I),
+        (t[45] = st));
+    let lt = Me && r !== `worktree`,
+      ut;
+    t[46] === Ie
+      ? (ut = t[47])
+      : ((ut = async () => {
+          Ie(`worktree`);
+        }),
+        (t[46] = Ie),
+        (t[47] = ut));
+    let dt = ut,
+      ft;
+    (t[48] !== ot || t[49] !== st || t[50] !== lt || t[51] !== dt
+      ? ((ft = {
+          id: `worktree`,
+          title: ot,
+          description: st,
+          requiresEmptyComposer: !1,
+          Icon: Ge,
+          enabled: lt,
+          onSelect: dt,
+        }),
+        (t[48] = ot),
+        (t[49] = st),
+        (t[50] = lt),
+        (t[51] = dt),
+        (t[52] = ft))
+      : (ft = t[52]),
+      Ze(ft));
+    let pt;
+    t[53] === I ? (pt = t[54]) : ((pt = I.formatMessage($.runInCloud)), (t[53] = I), (t[54] = pt));
+    let mt;
+    t[55] === I
+      ? (mt = t[56])
+      : ((mt = I.formatMessage({
+          id: `composer.mode.cloudSlashCommand.description`,
+          defaultMessage: `Run this chat in the cloud`,
+          description: `Description for the cloud mode slash command`,
+        })),
+        (t[55] = I),
+        (t[56] = mt));
+    let gt = je && r !== `cloud`,
+      _t;
+    t[57] === Ie
+      ? (_t = t[58])
+      : ((_t = async () => {
+          Ie(`cloud`);
+        }),
+        (t[57] = Ie),
+        (t[58] = _t));
+    let vt = _t,
+      yt;
+    (t[59] !== pt || t[60] !== mt || t[61] !== gt || t[62] !== vt
+      ? ((yt = {
+          id: `cloud`,
+          title: pt,
+          description: mt,
+          requiresEmptyComposer: !1,
+          Icon: Ue,
+          enabled: gt,
+          onSelect: vt,
+        }),
+        (t[59] = pt),
+        (t[60] = mt),
+        (t[61] = gt),
+        (t[62] = vt),
+        (t[63] = yt))
+      : (yt = t[63]),
+      Ze(yt));
+    let bt;
+    t[64] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((bt = (0, Z.jsx)(`span`, {
+          className: `inline-flex min-w-0 items-center gap-1`,
+          children: (0, Z.jsx)(`span`, {
+            className: `truncate`,
+            children: (0, Z.jsx)(N, { ...$.worktreeSegment }),
+          }),
+        })),
+        (t[64] = bt))
+      : (bt = t[64]);
+    let xt = bt,
+      St;
+    t[65] === b
+      ? (St = t[66])
+      : ((St = (e) => {
+          (e && P(!1), ne(e), b?.(e));
+        }),
+        (t[65] = b),
+        (t[66] = St));
+    let Ct = St,
+      Tt;
+    t[67] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((Tt = (e) => {
+          (e && P(!1), re(e));
+        }),
+        (t[67] = Tt))
+      : (Tt = t[67]);
+    let Et = Tt,
+      Dt;
+    t[68] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((Dt = () => {
+          P(!0);
+        }),
+        (t[68] = Dt))
+      : (Dt = t[68]);
+    let Ot = Dt,
+      kt;
+    t[69] !== a ||
+    t[70] !== W ||
+    t[71] !== we ||
+    t[72] !== G ||
+    t[73] !== O ||
+    t[74] !== B ||
+    t[75] !== s
+      ? ((kt = () => {
+          a == null ||
+            s == null ||
+            q(O, kn, {
+              conversationId: a,
+              composerViewState: O.get(U),
+              executionTarget: W,
+              gitRoot: we,
+              isLocalModeRemote: G,
+              threadHandoff: s,
+              showCrossHostHandoff: B,
+            });
+        }),
+        (t[69] = a),
+        (t[70] = W),
+        (t[71] = we),
+        (t[72] = G),
+        (t[73] = O),
+        (t[74] = B),
+        (t[75] = s),
+        (t[76] = kt))
+      : (kt = t[76]);
+    let At = kt,
+      jt;
+    t[77] !== a || t[78] !== O || t[79] !== s
+      ? ((jt = (e) => {
+          let {
+            currentBranch: t,
+            destinationHostId: r,
+            destinationWorkspaceRoot: i,
+            destinationLabel: o,
+          } = e;
+          a == null ||
+            s == null ||
+            q(O, An, {
+              conversationId: a,
+              composerViewState: O.get(U),
+              conversationTitle: s.conversationTitle,
+              currentBranch: t,
+              cwd: s.cwd,
+              destinationHostId: r,
+              destinationWorkspaceRoot: n(i),
+              destinationLabel: o,
+            });
+        }),
+        (t[77] = a),
+        (t[78] = O),
+        (t[79] = s),
+        (t[80] = jt))
+      : (jt = t[80]);
+    let Mt = jt,
+      Nt = D === `summary-panel` ? `icon-sm text-token-foreground` : `icon-xs`,
+      Pt;
+    t[81] !== r || t[82] !== G || t[83] !== Nt
+      ? ((Pt =
+          r === `cloud`
+            ? (0, Z.jsx)(Ue, { className: Nt })
+            : r === `worktree`
+              ? (0, Z.jsx)(Ge, { className: Nt })
+              : G
+                ? (0, Z.jsx)(Ve, { className: Nt })
+                : (0, Z.jsx)(We, { className: Nt })),
+        (t[81] = r),
+        (t[82] = G),
+        (t[83] = Nt),
+        (t[84] = Pt))
+      : (Pt = t[84]);
+    let Ft = Pt,
+      It;
+    t[85] !== Re || t[86] !== r || t[87] !== G || t[88] !== D
+      ? ((It =
+          r === `cloud`
+            ? Re
+            : r === `worktree`
+              ? (0, Z.jsx)(`span`, {
+                  className: `inline-flex items-center gap-1`,
+                  children: (0, Z.jsx)(N, { ...$.worktreeMode }),
+                })
+              : D === `summary-panel` && !G
+                ? (0, Z.jsx)(N, { ...$.localShort })
+                : (0, Z.jsx)(Nn, { rateLimit: null, isRemoteHost: G })),
+        (t[85] = Re),
+        (t[86] = r),
+        (t[87] = G),
+        (t[88] = D),
+        (t[89] = It))
+      : (It = t[89]);
+    let Lt = It,
+      Rt;
+    t[90] !== x || t[91] !== I || t[92] !== Ft || t[93] !== Lt || t[94] !== D
+      ? ((Rt =
+          D === `summary-panel`
+            ? (0, Z.jsx)(at, {
+                disabled: x,
+                icon: (0, Z.jsx)(`span`, { className: `shrink-0`, children: Ft }),
+                label: (0, Z.jsxs)(`span`, {
+                  className: `flex min-w-0 items-center gap-1 text-token-foreground`,
+                  children: [
+                    (0, Z.jsx)(`span`, { className: `min-w-0 truncate`, children: Lt }),
+                    x
+                      ? null
+                      : (0, Z.jsx)(He, { className: `icon-2xs shrink-0 text-token-text-tertiary` }),
+                  ],
+                }),
+                labelClassName: `flex min-w-0 items-center`,
+                title: I.formatMessage($.localRemoteWhereRun),
+              })
+            : (0, Z.jsxs)(de, {
+                size: `composerSm`,
+                color: `ghost`,
+                children: [
+                  Ft,
+                  (0, Z.jsx)(be, { collapse: `xs`, className: `max-w-40 truncate`, children: Lt }),
+                  (0, Z.jsx)(He, { className: `icon-2xs text-token-input-placeholder-foreground` }),
+                ],
+              })),
+        (t[90] = x),
+        (t[91] = I),
+        (t[92] = Ft),
+        (t[93] = Lt),
+        (t[94] = D),
+        (t[95] = Rt))
+      : (Rt = t[95]);
+    let zt = Rt,
+      Bt;
+    t[96] !== Ke ||
+    t[97] !== ce ||
+    t[98] !== r ||
+    t[99] !== a ||
+    t[100] !== R ||
+    t[101] !== me ||
+    t[102] !== x ||
+    t[103] !== ae ||
+    t[104] !== W ||
+    t[105] !== o ||
+    t[106] !== we ||
+    t[107] !== Ct ||
+    t[108] !== Ce ||
+    t[109] !== G ||
+    t[110] !== Ae ||
+    t[111] !== zt ||
+    t[112] !== k ||
+    t[113] !== At ||
+    t[114] !== Mt ||
+    t[115] !== X ||
+    t[116] !== Y ||
+    t[117] !== Ne ||
+    t[118] !== Ie ||
+    t[119] !== B ||
+    t[120] !== Me ||
+    t[121] !== E ||
+    t[122] !== s ||
+    t[123] !== D ||
+    t[124] !== $e
+      ? ((Bt = () =>
+          (0, Z.jsx)(Be, {
+            side: E,
+            disabled: x,
+            open: k,
+            onOpenChange: Ct,
+            triggerButton:
+              D === `summary-panel`
+                ? zt
+                : (0, Z.jsx)(V, {
+                    tooltipContent: (0, Z.jsx)(N, { ...$.localRemoteWhereRun }),
+                    children: zt,
+                  }),
+            children: (0, Z.jsx)(mn, {
+              composerMode: r,
+              setComposerMode: Ie,
+              conversationId: a,
+              executionTarget: W,
+              footerRemoteState: o,
+              threadHandoff: s,
+              codexCloudAccess: ce,
+              isBrowser: !1,
+              isLocalModeRemote: G,
+              currentLocalModeRemoteState: me,
+              crossHostHandoffEnabled: R,
+              showCrossHostHandoff: B,
+              localWorkspaceRootForHandoff: Ae,
+              localModeIcon: Ke,
+              remoteLabel: X,
+              showWorktree: Me,
+              hasGitRepo: Ce,
+              gitRoot: we,
+              selectedEnvironment: Y,
+              setSelectedEnvironment: Ne,
+              environmentSelectorOpen: ae,
+              setEnvironmentSelectorOpen: P,
+              openEnvironmentSelector: Ot,
+              worktreeTooltipText: $e,
+              closeDropdown: () => ne(!1),
+              openHandoffDialog: At,
+              openHostWorktreeHandoffDialog: Mt,
+            }),
+          })),
+        (t[96] = Ke),
+        (t[97] = ce),
+        (t[98] = r),
+        (t[99] = a),
+        (t[100] = R),
+        (t[101] = me),
+        (t[102] = x),
+        (t[103] = ae),
+        (t[104] = W),
+        (t[105] = o),
+        (t[106] = we),
+        (t[107] = Ct),
+        (t[108] = Ce),
+        (t[109] = G),
+        (t[110] = Ae),
+        (t[111] = zt),
+        (t[112] = k),
+        (t[113] = At),
+        (t[114] = Mt),
+        (t[115] = X),
+        (t[116] = Y),
+        (t[117] = Ne),
+        (t[118] = Ie),
+        (t[119] = B),
+        (t[120] = Me),
+        (t[121] = E),
+        (t[122] = s),
+        (t[123] = D),
+        (t[124] = $e),
+        (t[125] = Bt))
+      : (Bt = t[125]);
+    let Vt = Bt,
+      Ht = r === `cloud` && je,
+      Ut;
+    t[126] !== x ||
+    t[127] !== A ||
+    t[128] !== ae ||
+    t[129] !== Y ||
+    t[130] !== i ||
+    t[131] !== Ne ||
+    t[132] !== Ie ||
+    t[133] !== Ht ||
+    t[134] !== E
+      ? ((Ut = Ht
+          ? (0, Z.jsx)(Be, {
+              contentMaxHeight: `list`,
+              side: E,
+              open: A,
+              onOpenChange: Et,
+              disabled: x,
+              triggerButton: (0, Z.jsx)(V, {
+                tooltipContent: (0, Z.jsx)(N, {
+                  id: `composer.environmentSelector.tooltip`,
+                  defaultMessage: `Select a cloud environment`,
+                  description: `Tooltip content for environment selector`,
+                }),
+                children: (0, Z.jsxs)(de, {
+                  className: `whitespace-nowrap`,
+                  size: `composerSm`,
+                  color: `ghost`,
+                  disabled: x,
+                  children: [
+                    (0, Z.jsx)(ht, { className: `icon-xs` }),
+                    (0, Z.jsx)(be, {
+                      collapse: `sm`,
+                      className: `max-w-40 truncate`,
+                      children: Y
+                        ? Y.label
+                        : (0, Z.jsx)(N, {
+                            id: `composer.mode.remote.selectEnvironment`,
+                            defaultMessage: `Select environment`,
+                            description: `Remote mode label when no environment is selected`,
+                          }),
+                    }),
+                    (0, Z.jsx)(He, {
+                      className: `icon-2xs text-token-input-placeholder-foreground`,
+                    }),
+                  ],
+                }),
+              }),
+              children: (0, Z.jsx)(Sn, {
+                environmentSelectorOpen: ae,
+                setEnvironmentSelectorOpen: P,
+                selectedEnvironment: Y,
+                setComposerMode: i,
+                setSelectedEnvironment: Ne,
+                onSelectEnvironment: (e) => {
+                  (Ie(`cloud`), Ne(e));
+                },
+                closeDropdown: () => re(!1),
+              }),
+            })
+          : null),
+        (t[126] = x),
+        (t[127] = A),
+        (t[128] = ae),
+        (t[129] = Y),
+        (t[130] = i),
+        (t[131] = Ne),
+        (t[132] = Ie),
+        (t[133] = Ht),
+        (t[134] = E),
+        (t[135] = Ut))
+      : (Ut = t[135]);
+    let Wt = Ut,
+      Gt = v,
+      Kt = Gt != null,
+      qt;
+    t[136] !== Wt || t[137] !== Kt || t[138] !== Gt
+      ? ((qt =
+          Wt || Kt
+            ? (0, Z.jsxs)(`div`, { className: `flex items-center gap-1`, children: [Wt, Gt] })
+            : null),
+        (t[136] = Wt),
+        (t[137] = Kt),
+        (t[138] = Gt),
+        (t[139] = qt))
+      : (qt = t[139]);
+    let Jt = qt,
+      Yt;
+    t[140] === W.cwd
+      ? (Yt = t[141])
+      : ((Yt = W.cwd
+          ? (0, Z.jsx)(`span`, { className: `block font-mono text-xs break-all`, children: W.cwd })
+          : null),
+        (t[140] = W.cwd),
+        (t[141] = Yt));
+    let Xt = Yt,
+      Zt;
+    t[142] !== ce ||
+    t[143] !== a ||
+    t[144] !== R ||
+    t[145] !== W ||
+    t[146] !== we ||
+    t[147] !== Ct ||
+    t[148] !== Ae ||
+    t[149] !== k ||
+    t[150] !== At ||
+    t[151] !== Mt ||
+    t[152] !== Ie ||
+    t[153] !== B ||
+    t[154] !== E ||
+    t[155] !== s ||
+    t[156] !== D ||
+    t[157] !== T ||
+    t[158] !== Xt
+      ? ((Zt = T
+          ? (0, Z.jsx)(On, {
+              open: k,
+              onOpenChange: Ct,
+              side: E,
+              codexCloudAccess: ce,
+              crossHostHandoffEnabled: R,
+              showCrossHostHandoff: B,
+              conversationId: a,
+              executionTarget: W,
+              gitRoot: we,
+              setComposerMode: Ie,
+              threadHandoff: s,
+              worktreeSegmentLabel: xt,
+              tooltipContent: Xt,
+              tooltipMaxWidth: `min(56rem, var(--radix-tooltip-content-available-width), calc(100vw - 16px))`,
+              triggerVariant: D,
+              openHandoffDialog: At,
+              openHostWorktreeHandoffDialog: Mt,
+              localWorkspaceRootForHandoff: Ae,
+            })
+          : null),
+        (t[142] = ce),
+        (t[143] = a),
+        (t[144] = R),
+        (t[145] = W),
+        (t[146] = we),
+        (t[147] = Ct),
+        (t[148] = Ae),
+        (t[149] = k),
+        (t[150] = At),
+        (t[151] = Mt),
+        (t[152] = Ie),
+        (t[153] = B),
+        (t[154] = E),
+        (t[155] = s),
+        (t[156] = D),
+        (t[157] = T),
+        (t[158] = Xt),
+        (t[159] = Zt))
+      : (Zt = t[159]);
+    let Qt = Zt,
+      $t = C || (a == null && !G && !Se && !Ce),
+      en;
+    t[160] !== Vt || t[161] !== $t || t[162] !== T || t[163] !== Qt
+      ? ((en = $t ? null : T ? Qt : Vt()),
+        (t[160] = Vt),
+        (t[161] = $t),
+        (t[162] = T),
+        (t[163] = Qt),
+        (t[164] = en))
+      : (en = t[164]);
+    let tn = en,
+      nn;
+    t[165] === oe
+      ? (nn = t[166])
+      : ((nn = oe ? (0, Z.jsx)(Xe, {}) : null), (t[165] = oe), (t[166] = nn));
+    let rn;
+    t[167] !== je || t[168] !== r || t[169] !== Y || t[170] !== Ne || t[171] !== Ie
+      ? ((rn =
+          je && r === `cloud`
+            ? (0, Z.jsx)(wn, {
+                selectedEnvironment: Y,
+                setSelectedEnvironment: Ne,
+                setComposerMode: Ie,
+              })
+            : null),
+        (t[167] = je),
+        (t[168] = r),
+        (t[169] = Y),
+        (t[170] = Ne),
+        (t[171] = Ie),
+        (t[172] = rn))
+      : (rn = t[172]);
+    let an;
+    t[173] !== je || t[174] !== r || t[175] !== Y || t[176] !== Ne
+      ? ((an =
+          je && r === `cloud` && Y == null ? (0, Z.jsx)(Dn, { setSelectedEnvironment: Ne }) : null),
+        (t[173] = je),
+        (t[174] = r),
+        (t[175] = Y),
+        (t[176] = Ne),
+        (t[177] = an))
+      : (an = t[177]);
+    let on;
+    t[178] !== _ || t[179] !== tn
+      ? ((on = (0, Z.jsx)(xe, {
+          extension: !0,
+          children: (0, Z.jsxs)(`div`, { className: `flex items-center gap-1`, children: [tn, _] }),
+        })),
+        (t[178] = _),
+        (t[179] = tn),
+        (t[180] = on))
+      : (on = t[180]);
+    let sn;
+    t[181] !== Jt || t[182] !== _ || t[183] !== tn
+      ? ((sn = (0, Z.jsx)(xe, {
+          electron: !0,
+          children: (0, Z.jsxs)(`div`, {
+            className: `relative flex w-full items-center gap-2`,
+            children: [tn, _, Jt],
+          }),
+        })),
+        (t[181] = Jt),
+        (t[182] = _),
+        (t[183] = tn),
+        (t[184] = sn))
+      : (sn = t[184]);
+    let cn;
+    t[185] !== Jt || t[186] !== _ || t[187] !== tn
+      ? ((cn = (0, Z.jsx)(xe, {
+          browser: !0,
+          children: (0, Z.jsxs)(`div`, {
+            className: `relative flex w-full items-center gap-2`,
+            children: [tn, _, Jt],
+          }),
+        })),
+        (t[185] = Jt),
+        (t[186] = _),
+        (t[187] = tn),
+        (t[188] = cn))
+      : (cn = t[188]);
+    let ln;
+    return (
+      t[189] !== nn ||
+      t[190] !== rn ||
+      t[191] !== an ||
+      t[192] !== on ||
+      t[193] !== sn ||
+      t[194] !== cn
+        ? ((ln = (0, Z.jsxs)(Z.Fragment, { children: [nn, rn, an, on, sn, cn] })),
+          (t[189] = nn),
+          (t[190] = rn),
+          (t[191] = an),
+          (t[192] = on),
+          (t[193] = sn),
+          (t[194] = cn),
+          (t[195] = ln))
+        : (ln = t[195]),
+      ln
+    );
+  });
+function mn(e) {
+  let t = (0, Q.c)(151),
+    {
+      composerMode: n,
+      setComposerMode: r,
+      conversationId: o,
+      executionTarget: c,
+      footerRemoteState: l,
+      threadHandoff: d,
+      codexCloudAccess: f,
+      isBrowser: p,
+      isLocalModeRemote: m,
+      currentLocalModeRemoteState: h,
+      crossHostHandoffEnabled: g,
+      showCrossHostHandoff: _,
+      localWorkspaceRootForHandoff: v,
+      localModeIcon: y,
+      remoteLabel: b,
+      showWorktree: ee,
+      hasGitRepo: C,
+      gitRoot: T,
+      selectedEnvironment: E,
+      setSelectedEnvironment: D,
+      environmentSelectorOpen: O,
+      setEnvironmentSelectorOpen: ne,
+      openEnvironmentSelector: A,
+      worktreeTooltipText: re,
+      closeDropdown: j,
+      openHandoffDialog: M,
+      openHostWorktreeHandoffDialog: ae,
+    } = e,
+    P = S(k),
+    F = ie(),
+    { activeMode: I } = W(o),
+    L = I?.settings.model ?? null,
+    { data: se } = w(u),
+    R = se === void 0 ? null : se,
+    z = R?.plan_type,
+    B;
+  t[0] === z ? (B = t[1]) : ((B = Re(z)?.pricePlan ?? null), (t[0] = z), (t[1] = B));
+  let ce = B,
+    V = R?.rate_limit,
+    le = R?.credits,
+    H;
+  t[2] !== z || t[3] !== V || t[4] !== le
+    ? ((H = Fe(V, le, z)), (t[2] = z), (t[3] = V), (t[4] = le), (t[5] = H))
+    : (H = t[5]);
+  let U = H,
+    ue,
+    de,
+    fe,
+    G;
+  if (
+    t[6] !== U?.primary?.windowDurationMins ||
+    t[7] !== U?.secondary?.windowDurationMins ||
+    t[8] !== R ||
+    t[9] !== L
+  ) {
+    let e = Ie(R),
+      n = Ne(R);
+    ((de = Le(e, { activeLimitName: n, selectedModel: L })),
+      (ue = de.find(gn)?.limitName ?? n ?? null),
+      (fe = Pe(R, { activeLimitName: n, selectedModel: L })),
+      (G = de.some(hn) || !!U?.primary?.windowDurationMins || !!U?.secondary?.windowDurationMins),
+      (t[6] = U?.primary?.windowDurationMins),
+      (t[7] = U?.secondary?.windowDurationMins),
+      (t[8] = R),
+      (t[9] = L),
+      (t[10] = ue),
+      (t[11] = de),
+      (t[12] = fe),
+      (t[13] = G));
+  } else ((ue = t[10]), (de = t[11]), (fe = t[12]), (G = t[13]));
+  let ge = G,
+    _e = je(),
+    { data: ve } = me(),
+    ye;
+  t[14] !== c.hostConfig || t[15] !== T
+    ? ((ye = {
+        cwd: T,
+        enabled: !0,
+        hostConfig: c.hostConfig,
+        operationSource: `local_remote_dropdown`,
+        refetchOnWindowFocus: !1,
+        staleTime: null,
+      }),
+      (t[14] = c.hostConfig),
+      (t[15] = T),
+      (t[16] = ye))
+    : (ye = t[16]);
+  let be = te(K, ye),
+    Se = be ?? F.formatMessage($.fallbackBranch),
+    Ce = ct(o),
+    q = _ ? bt(Ce) : Ce,
+    Te = q?.direction === `to-host-worktree` ? null : q,
+    J = q?.status === `queued` || q?.status === `running`,
+    Ee = q?.direction === `to-host-worktree` && J,
+    De = te(s, o),
+    { openOperation: Oe } = st(),
+    Ae = i(m ? null : c.activeWorkspaceRoot, ve?.codexHome),
+    Me = be ?? Pn(Ce, o) ?? (_ ? De : null),
+    Y = yt({ codexWorktree: Ae, operation: Te, threadHandoff: d }),
+    ze = St({
+      conversationId: o,
+      handoffBranch: Me,
+      handoffDirection: Y,
+      operation: q,
+      threadHandoff: d,
+    }),
+    Be = q == null && (d?.disabled ?? !1),
+    Ve = Ee || Be,
+    He;
+  t[17] !== Be || t[18] !== F || t[19] !== q?.status
+    ? ((He =
+        q?.status === `queued` || q?.status === `running`
+          ? F.formatMessage({
+              id: `localConversation.threadHandoff.tooltip.viewProgress`,
+              defaultMessage: `View progress`,
+              description: `Tooltip shown when a thread handoff is in progress and the button reopens the progress view`,
+            })
+          : Be
+            ? F.formatMessage({
+                id: `localConversation.moveThread.disabled.turnInProgress`,
+                defaultMessage: `You cannot move a chat while it is in progress`,
+                description: `Tooltip shown when moving a thread is disabled because a turn is in progress`,
+              })
+            : void 0),
+      (t[17] = Be),
+      (t[18] = F),
+      (t[19] = q?.status),
+      (t[20] = He))
+    : (He = t[20]);
+  let We = He,
+    Ke;
+  t[21] === q
+    ? (Ke = t[22])
+    : ((Ke =
+        q?.status === `queued` || q?.status === `running`
+          ? (0, Z.jsx)(pe, { className: `icon-2xs` })
+          : q?.status === `error`
+            ? (0, Z.jsx)(Et, { className: `icon-2xs text-token-danger` })
+            : q?.hasUnseenTerminalState && q.status === `warning`
+              ? (0, Z.jsx)(Et, { className: `icon-2xs text-token-editor-warning-foreground` })
+              : (0, Z.jsx)(Dt, { className: `icon-2xs rotate-90` })),
+      (t[21] = q),
+      (t[22] = Ke));
+  let qe = Ke,
+    Ye;
+  t[23] !== qe || t[24] !== q?.direction
+    ? ((Ye =
+        q?.direction === `to-host-worktree`
+          ? (0, Z.jsx)(Dt, { className: `icon-2xs rotate-90` })
+          : qe),
+      (t[23] = qe),
+      (t[24] = q?.direction),
+      (t[25] = Ye))
+    : (Ye = t[25]);
+  let Xe = Ye,
+    Ze;
+  t[26] !== Ee || t[27] !== We || t[28] !== F || t[29] !== Te
+    ? ((Ze = Ee ? F.formatMessage($.finishCurrentHandoffTooltip) : Te == null ? void 0 : We),
+      (t[26] = Ee),
+      (t[27] = We),
+      (t[28] = F),
+      (t[29] = Te),
+      (t[30] = Ze))
+    : (Ze = t[30]);
+  let Qe = Ze,
+    $e = m
+      ? F.formatMessage($.workRemotelyTooltipWithoutPath, {
+          hostDisplayName: h?.connectionDisplayName ?? b,
+        })
+      : F.formatMessage($.workLocallyTooltip, { branchName: Se }),
+    et;
+  t[31] !== j || t[32] !== M || t[33] !== Oe || t[34] !== Te
+    ? ((et = () => {
+        if ((j(), Te != null)) {
+          (M(), Oe(Te.id));
+          return;
+        }
+        M();
+      }),
+      (t[31] = j),
+      (t[32] = M),
+      (t[33] = Oe),
+      (t[34] = Te),
+      (t[35] = et))
+    : (et = t[35]);
+  let tt = et,
+    nt = _ && ((o != null && d != null) || q?.direction === `to-host-worktree`),
+    rt;
+  t[36] !== n || t[37] !== c.hostConfig || t[38] !== T
+    ? ((rt = (0, Z.jsx)(jn, { composerMode: n, gitRoot: T, hostConfig: c.hostConfig })),
+      (t[36] = n),
+      (t[37] = c.hostConfig),
+      (t[38] = T),
+      (t[39] = rt))
+    : (rt = t[39]);
+  let it = rt;
+  if (O) {
+    let e;
+    return (
+      t[40] !== E || t[41] !== r || t[42] !== ne || t[43] !== D
+        ? ((e = (0, Z.jsx)(xn, {
+            selectedEnvironment: E,
+            setComposerMode: r,
+            setSelectedEnvironment: D,
+            setEnvironmentSelectorOpen: ne,
+          })),
+          (t[40] = E),
+          (t[41] = r),
+          (t[42] = ne),
+          (t[43] = D),
+          (t[44] = e))
+        : (e = t[44]),
+      e
+    );
+  }
+  let at = f === `enabled` ? `min-w-[175px]` : `w-52`,
+    ot;
+  t[45] === at ? (ot = t[46]) : ((ot = x(`flex flex-col`, at)), (t[45] = at), (t[46] = ot));
+  let lt;
+  t[47] === l.isAttachedToStartedTask
+    ? (lt = t[48])
+    : ((lt = (0, Z.jsx)(X.Title, {
+        children: l.isAttachedToStartedTask
+          ? (0, Z.jsx)(N, {
+              id: `composer.mode.newTask.header`,
+              defaultMessage: `Continue in`,
+              description: `Header label above agent mode options`,
+            })
+          : (0, Z.jsx)(N, {
+              id: `composer.mode.startTask.header`,
+              defaultMessage: `Start in`,
+              description: `Header label above agent mode options when starting a new task`,
+            }),
+      })),
+      (t[47] = l.isAttachedToStartedTask),
+      (t[48] = lt));
+  let ut = n === `local` ? ke : void 0,
+    dt;
+  t[49] !== j || t[50] !== n || t[51] !== P || t[52] !== r
+    ? ((dt = () => {
+        (n !== `local` &&
+          oe(P, { eventName: `codex_composer_runtime_changed`, metadata: { mode: `local` } }),
+          r(`local`),
+          j());
+      }),
+      (t[49] = j),
+      (t[50] = n),
+      (t[51] = P),
+      (t[52] = r),
+      (t[53] = dt))
+    : (dt = t[53]);
+  let ft;
+  t[54] !== J || t[55] !== F || t[56] !== $e
+    ? ((ft = J ? F.formatMessage($.finishCurrentHandoffTooltip) : $e),
+      (t[54] = J),
+      (t[55] = F),
+      (t[56] = $e),
+      (t[57] = ft))
+    : (ft = t[57]);
+  let pt;
+  t[58] === m
+    ? (pt = t[59])
+    : ((pt = m ? (0, Z.jsx)(N, { ...$.startInRemote }) : (0, Z.jsx)(N, { ...$.workLocally })),
+      (t[58] = m),
+      (t[59] = pt));
+  let mt;
+  t[60] !== y || t[61] !== J || t[62] !== ut || t[63] !== dt || t[64] !== ft || t[65] !== pt
+    ? ((mt = (0, Z.jsx)(X.Item, {
+        LeftIcon: y,
+        RightIcon: ut,
+        disabled: J,
+        onClick: dt,
+        tooltipText: ft,
+        children: pt,
+      })),
+      (t[60] = y),
+      (t[61] = J),
+      (t[62] = ut),
+      (t[63] = dt),
+      (t[64] = ft),
+      (t[65] = pt),
+      (t[66] = mt))
+    : (mt = t[66]);
+  let ht;
+  t[67] !== j ||
+  t[68] !== n ||
+  t[69] !== J ||
+  t[70] !== F ||
+  t[71] !== P ||
+  t[72] !== r ||
+  t[73] !== ee ||
+  t[74] !== it ||
+  t[75] !== re
+    ? ((ht =
+        ee &&
+        (0, Z.jsx)(X.Item, {
+          LeftIcon: Ge,
+          RightIcon: n === `worktree` ? ke : void 0,
+          disabled: J,
+          onClick: () => {
+            (n !== `worktree` &&
+              oe(P, {
+                eventName: `codex_composer_runtime_changed`,
+                metadata: { mode: `worktree` },
+              }),
+              r(`worktree`),
+              j());
+          },
+          tooltipText: J ? F.formatMessage($.finishCurrentHandoffTooltip) : re,
+          children: (0, Z.jsxs)(`span`, {
+            className: `inline-flex items-center gap-1`,
+            children: [(0, Z.jsx)(N, { ...$.worktreeMode }), it],
+          }),
+        })),
+      (t[67] = j),
+      (t[68] = n),
+      (t[69] = J),
+      (t[70] = F),
+      (t[71] = P),
+      (t[72] = r),
+      (t[73] = ee),
+      (t[74] = it),
+      (t[75] = re),
+      (t[76] = ht))
+    : (ht = t[76]);
+  let gt;
+  t[77] !== f ||
+  t[78] !== n ||
+  t[79] !== J ||
+  t[80] !== C ||
+  t[81] !== F ||
+  t[82] !== p ||
+  t[83] !== P ||
+  t[84] !== r
+    ? ((gt =
+        C || p
+          ? f === `enabled`
+            ? (0, Z.jsx)(X.Item, {
+                LeftIcon: Ue,
+                RightIcon: n === `cloud` ? ke : void 0,
+                disabled: J,
+                onClick: () => {
+                  (n !== `cloud` &&
+                    oe(P, {
+                      eventName: `codex_composer_runtime_changed`,
+                      metadata: { mode: `cloud` },
+                    }),
+                    r(`cloud`));
+                },
+                tooltipText: J
+                  ? F.formatMessage($.finishCurrentHandoffTooltip)
+                  : F.formatMessage({
+                      id: `composer.mode.cloud.tooltip`,
+                      defaultMessage: `Work in a cloud environment`,
+                      description: `Tooltip content for cloud mode dropdown item`,
+                    }),
+                children: (0, Z.jsx)(N, { ...$.runInCloud }),
+              })
+            : (0, Z.jsxs)(Z.Fragment, {
+                children: [
+                  (0, Z.jsx)(X.Item, {
+                    LeftIcon: we,
+                    RightIcon: he,
+                    href: a,
+                    children: (0, Z.jsx)(N, {
+                      id: `composer.mode.remote.connectToCloud`,
+                      defaultMessage: `Connect Codex web`,
+                      description: `Menu item to connect Codex Cloud`,
+                    }),
+                  }),
+                  (0, Z.jsx)(X.Item, {
+                    LeftIcon: Tt,
+                    className: `cursor-not-allowed`,
+                    disabled: !0,
+                    tooltipText: F.formatMessage({
+                      id: `composer.mode.remote.connectToCloudDisabledTooltip`,
+                      defaultMessage: `Set up an environment via Codex web to enable sending tasks to the cloud`,
+                      description: `Tooltip for disabled send to cloud item when Cloud is not connected`,
+                    }),
+                    children: (0, Z.jsx)(`span`, {
+                      className: `truncate`,
+                      children: (0, Z.jsx)(N, {
+                        id: `composer.mode.remote.sendToCloud`,
+                        defaultMessage: `Send to cloud`,
+                        description: `Disabled label when Codex Cloud is not connected`,
+                      }),
+                    }),
+                  }),
+                ],
+              })
+          : null),
+      (t[77] = f),
+      (t[78] = n),
+      (t[79] = J),
+      (t[80] = C),
+      (t[81] = F),
+      (t[82] = p),
+      (t[83] = P),
+      (t[84] = r),
+      (t[85] = gt))
+    : (gt = t[85]);
+  let _t;
+  t[86] !== f || t[87] !== A || t[88] !== E
+    ? ((_t = f === `enabled` ? (0, Z.jsx)(_n, { selectedEnvironment: E, onClick: A }) : null),
+      (t[86] = f),
+      (t[87] = A),
+      (t[88] = E),
+      (t[89] = _t))
+    : (_t = t[89]);
+  let vt;
+  t[90] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((vt = (0, Z.jsx)(`div`, { className: `mx-1 my-1.5 h-[0.5px] bg-token-foreground/10` })),
+      (t[90] = vt))
+    : (vt = t[90]);
+  let xt;
+  t[91] !== ue ||
+  t[92] !== ce ||
+  t[93] !== de ||
+  t[94] !== z ||
+  t[95] !== P ||
+  t[96] !== L ||
+  t[97] !== ge ||
+  t[98] !== fe ||
+  t[99] !== _e
+    ? ((xt =
+        ge &&
+        (0, Z.jsx)(Je, {
+          rateLimits: de,
+          activeLimitName: ue,
+          planType: z,
+          suppressUpsell: fe,
+          selectedModel: L,
+          onPlanUpgradeClick:
+            ce == null
+              ? void 0
+              : (e) => {
+                  _e({
+                    scope: P,
+                    currentPlan: ce,
+                    defaultTab: `personal`,
+                    source: `composer_runtime_dropdown_rate_limit_summary`,
+                  }) && e.preventDefault();
+                },
+        })),
+      (t[91] = ue),
+      (t[92] = ce),
+      (t[93] = de),
+      (t[94] = z),
+      (t[95] = P),
+      (t[96] = L),
+      (t[97] = ge),
+      (t[98] = fe),
+      (t[99] = _e),
+      (t[100] = xt))
+    : (xt = t[100]);
+  let Ct;
+  t[101] !== _t || t[102] !== xt
+    ? ((Ct = (0, Z.jsxs)(xe, { extension: !0, children: [_t, vt, xt] })),
+      (t[101] = _t),
+      (t[102] = xt),
+      (t[103] = Ct))
+    : (Ct = t[103]);
+  let wt;
+  t[104] !== ue ||
+  t[105] !== ce ||
+  t[106] !== de ||
+  t[107] !== z ||
+  t[108] !== P ||
+  t[109] !== L ||
+  t[110] !== ge ||
+  t[111] !== fe ||
+  t[112] !== _e
+    ? ((wt =
+        ge &&
+        (0, Z.jsxs)(Z.Fragment, {
+          children: [
+            (0, Z.jsx)(`div`, { className: `mx-1 my-1.5 h-[0.5px] bg-token-foreground/10` }),
+            (0, Z.jsx)(Je, {
+              rateLimits: de,
+              activeLimitName: ue,
+              planType: z,
+              suppressUpsell: fe,
+              selectedModel: L,
+              onPlanUpgradeClick:
+                ce == null
+                  ? void 0
+                  : (e) => {
+                      _e({
+                        scope: P,
+                        currentPlan: ce,
+                        defaultTab: `personal`,
+                        source: `composer_runtime_dropdown_rate_limit_summary`,
+                      }) && e.preventDefault();
+                    },
+            }),
+          ],
+        })),
+      (t[104] = ue),
+      (t[105] = ce),
+      (t[106] = de),
+      (t[107] = z),
+      (t[108] = P),
+      (t[109] = L),
+      (t[110] = ge),
+      (t[111] = fe),
+      (t[112] = _e),
+      (t[113] = wt))
+    : (wt = t[113]);
+  let Ot;
+  t[114] !== g ||
+  t[115] !== tt ||
+  t[116] !== Y ||
+  t[117] !== ze ||
+  t[118] !== m ||
+  t[119] !== Ve ||
+  t[120] !== Xe ||
+  t[121] !== Qe
+    ? ((Ot = ze
+        ? (0, Z.jsxs)(Z.Fragment, {
+            children: [
+              (0, Z.jsx)(X.Separator, {}),
+              (0, Z.jsxs)(X.Item, {
+                disabled: Ve,
+                onSelect: tt,
+                tooltipText: Qe,
+                children: [
+                  (0, Z.jsx)(X.ItemIcon, { children: Xe }),
+                  (0, Z.jsx)(yn, { useContinueLabel: g, direction: Y, isRemoteHost: m }),
+                ],
+              }),
+            ],
+          })
+        : null),
+      (t[114] = g),
+      (t[115] = tt),
+      (t[116] = Y),
+      (t[117] = ze),
+      (t[118] = m),
+      (t[119] = Ve),
+      (t[120] = Xe),
+      (t[121] = Qe),
+      (t[122] = Ot))
+    : (Ot = t[122]);
+  let kt;
+  t[123] !== j ||
+  t[124] !== o ||
+  t[125] !== g ||
+  t[126] !== c.cwd ||
+  t[127] !== c.hostId ||
+  t[128] !== T ||
+  t[129] !== Me ||
+  t[130] !== Be ||
+  t[131] !== qe ||
+  t[132] !== We ||
+  t[133] !== ze ||
+  t[134] !== v ||
+  t[135] !== q ||
+  t[136] !== ae ||
+  t[137] !== Oe ||
+  t[138] !== nt ||
+  t[139] !== d
+    ? ((kt = nt
+        ? (0, Z.jsx)(vn, {
+            conversationId: o,
+            threadHandoff: d,
+            menuOperation: q,
+            crossHostHandoffEnabled: g,
+            handoffBranch: Me,
+            handoffDisabled: Be,
+            handoffTooltipText: We,
+            handoffIcon: qe,
+            showSeparator: !ze,
+            sourceHostId: c.hostId,
+            sourceGitRoot: T,
+            sourceWorkspaceRoot: c.cwd,
+            localWorkspaceRootForHandoff: v,
+            closeDropdown: j,
+            openHostWorktreeHandoffDialog: ae,
+            openOperation: Oe,
+          })
+        : null),
+      (t[123] = j),
+      (t[124] = o),
+      (t[125] = g),
+      (t[126] = c.cwd),
+      (t[127] = c.hostId),
+      (t[128] = T),
+      (t[129] = Me),
+      (t[130] = Be),
+      (t[131] = qe),
+      (t[132] = We),
+      (t[133] = ze),
+      (t[134] = v),
+      (t[135] = q),
+      (t[136] = ae),
+      (t[137] = Oe),
+      (t[138] = nt),
+      (t[139] = d),
+      (t[140] = kt))
+    : (kt = t[140]);
+  let At;
+  return (
+    t[141] !== ot ||
+    t[142] !== lt ||
+    t[143] !== mt ||
+    t[144] !== ht ||
+    t[145] !== gt ||
+    t[146] !== Ct ||
+    t[147] !== wt ||
+    t[148] !== Ot ||
+    t[149] !== kt
+      ? ((At = (0, Z.jsxs)(`div`, { className: ot, children: [lt, mt, ht, gt, Ct, wt, Ot, kt] })),
+        (t[141] = ot),
+        (t[142] = lt),
+        (t[143] = mt),
+        (t[144] = ht),
+        (t[145] = gt),
+        (t[146] = Ct),
+        (t[147] = wt),
+        (t[148] = Ot),
+        (t[149] = kt),
+        (t[150] = At))
+      : (At = t[150]),
+    At
+  );
+}
+function hn(e) {
+  return !!e.snapshot?.primary?.windowDurationMins || !!e.snapshot?.secondary?.windowDurationMins;
+}
+function gn(e) {
+  return e.limitName != null;
+}
+function _n(e) {
+  let t = (0, Q.c)(4),
+    { selectedEnvironment: n, onClick: r } = e,
+    {
+      availableEnvironments: i,
+      isLoadingAllEnvironments: a,
+      isWorktreeSnapshotsEnabled: o,
+    } = Mn(``),
+    s = o && !a && i.length === 0,
+    c;
+  return (
+    t[0] !== r || t[1] !== n || t[2] !== s
+      ? ((c = (0, Z.jsx)(rn, { selectedEnvironment: n, zeroEnvironments: s, onClick: r })),
+        (t[0] = r),
+        (t[1] = n),
+        (t[2] = s),
+        (t[3] = c))
+      : (c = t[3]),
+    c
+  );
+}
+function vn(e) {
+  let t = (0, Q.c)(53),
+    {
+      conversationId: n,
+      threadHandoff: r,
+      menuOperation: i,
+      crossHostHandoffEnabled: a,
+      handoffBranch: o,
+      handoffDisabled: s,
+      handoffTooltipText: c,
+      handoffIcon: l,
+      showSeparator: u,
+      sourceHostId: d,
+      sourceGitRoot: p,
+      sourceWorkspaceRoot: m,
+      localWorkspaceRootForHandoff: h,
+      closeDropdown: g,
+      openHostWorktreeHandoffDialog: _,
+      openOperation: v,
+    } = e,
+    y = ie(),
+    b;
+  t[0] !== p || t[1] !== d || t[2] !== m
+    ? ((b = { sourceHostId: d, sourceGitRoot: p, sourceWorkspaceRoot: m }),
+      (t[0] = p),
+      (t[1] = d),
+      (t[2] = m),
+      (t[3] = b))
+    : (b = t[3]);
+  let ee = te(ve, b),
+    x;
+  t[4] !== n || t[5] !== a || t[6] !== i || t[7] !== r
+    ? ((x = a && xt({ conversationId: n, operation: i, threadHandoff: r })),
+      (t[4] = n),
+      (t[5] = a),
+      (t[6] = i),
+      (t[7] = r),
+      (t[8] = x))
+    : (x = t[8]);
+  let S = x,
+    C;
+  t[9] !== s || t[10] !== c || t[11] !== y || t[12] !== i
+    ? ((C = i == null ? (s ? c : void 0) : y.formatMessage($.finishCurrentHandoffTooltip)),
+      (t[9] = s),
+      (t[10] = c),
+      (t[11] = y),
+      (t[12] = i),
+      (t[13] = C))
+    : (C = t[13]);
+  let w = C,
+    T =
+      h ??
+      (i?.direction === `to-host-worktree` && i.request.destinationHostId === `local`
+        ? i.request.destinationWorkspaceRoot
+        : null),
+    E;
+  t[14] !== T || t[15] !== i
+    ? ((E =
+        T != null && Ct({ destinationHostId: `local`, destinationWorkspaceRoot: T, operation: i })),
+      (t[14] = T),
+      (t[15] = i),
+      (t[16] = E))
+    : (E = t[16]);
+  let D = E,
+    O = T != null && !S && !D,
+    k;
+  t[17] !== S || t[18] !== g || t[19] !== o || t[20] !== i || t[21] !== _ || t[22] !== v
+    ? ((k = (e) => {
+        let { destinationHostId: t, destinationWorkspaceRoot: n, destinationLabel: r } = e;
+        if (i != null && Ct({ destinationHostId: t, destinationWorkspaceRoot: n, operation: i })) {
+          (g(),
+            _({
+              currentBranch: o ?? ``,
+              destinationHostId: t,
+              destinationWorkspaceRoot: n,
+              destinationLabel: r,
+            }),
+            v(i.id));
+          return;
+        }
+        S &&
+          (g(),
+          _({
+            currentBranch: o ?? ``,
+            destinationHostId: t,
+            destinationWorkspaceRoot: n,
+            destinationLabel: r,
+          }));
+      }),
+      (t[17] = S),
+      (t[18] = g),
+      (t[19] = o),
+      (t[20] = i),
+      (t[21] = _),
+      (t[22] = v),
+      (t[23] = k))
+    : (k = t[23]);
+  let ne = k;
+  if (i?.direction !== `to-host-worktree` && h == null && ee.length === 0) return null;
+  let A;
+  t[24] === u
+    ? (A = t[25])
+    : ((A = u ? (0, Z.jsx)(X.Separator, {}) : null), (t[24] = u), (t[25] = A));
+  let re;
+  t[26] !== w ||
+  t[27] !== ne ||
+  t[28] !== l ||
+  t[29] !== y ||
+  t[30] !== D ||
+  t[31] !== O ||
+  t[32] !== T
+    ? ((re =
+        T == null
+          ? null
+          : (0, Z.jsxs)(X.Item, {
+              disabled: O,
+              onSelect: () => {
+                ne({
+                  destinationHostId: f,
+                  destinationWorkspaceRoot: T,
+                  destinationLabel: y.formatMessage($.thisComputerDestinationLabel),
+                });
+              },
+              tooltipText: O ? w : T,
+              children: [
+                (0, Z.jsx)(X.ItemIcon, {
+                  children: D ? l : (0, Z.jsx)(We, { className: `icon-2xs` }),
+                }),
+                (0, Z.jsx)(N, {
+                  id: `localConversation.moveToLocalHostWorktree.label`,
+                  defaultMessage: `This computer`,
+                  description: `Footer dropdown item label for moving a remote conversation into a local worktree`,
+                }),
+              ],
+            })),
+      (t[26] = w),
+      (t[27] = ne),
+      (t[28] = l),
+      (t[29] = y),
+      (t[30] = D),
+      (t[31] = O),
+      (t[32] = T),
+      (t[33] = re))
+    : (re = t[33]);
+  let j;
+  if (
+    t[34] !== S ||
+    t[35] !== w ||
+    t[36] !== ne ||
+    t[37] !== l ||
+    t[38] !== y ||
+    t[39] !== i ||
+    t[40] !== ee
+  ) {
+    let e;
+    (t[42] !== S || t[43] !== w || t[44] !== ne || t[45] !== l || t[46] !== y || t[47] !== i
+      ? ((e = (e) => {
+          if (e.status !== `ready`) {
+            let t = i?.direction === `to-host-worktree` && i.request.destinationHostId === e.hostId;
+            return (0, Z.jsx)(
+              bn,
+              {
+                hostDisplayName: e.hostDisplayName,
+                disabled: !t,
+                icon: t
+                  ? l
+                  : e.status === `loading`
+                    ? (0, Z.jsx)(pe, { className: `icon-2xs` })
+                    : (0, Z.jsx)(Et, { className: `icon-2xs text-token-danger` }),
+                tooltipText: t
+                  ? i.request.destinationWorkspaceRoot
+                  : y.formatMessage(
+                      e.status === `loading`
+                        ? $.checkingRemoteHandoffDestinationTooltip
+                        : $.remoteHandoffDestinationLookupFailedTooltip,
+                    ),
+                onSelect: t
+                  ? () => {
+                      ne({
+                        destinationHostId: i.request.destinationHostId,
+                        destinationWorkspaceRoot: i.request.destinationWorkspaceRoot,
+                        destinationLabel: e.hostDisplayName,
+                      });
+                    }
+                  : void 0,
+              },
+              e.hostId,
+            );
+          }
+          let { hostDisplayName: t, project: n } = e,
+            r = Ct({
+              destinationHostId: n.hostId,
+              destinationWorkspaceRoot: n.remotePath,
+              operation: i,
+            }),
+            a = !S && !r;
+          return (0, Z.jsx)(
+            bn,
+            {
+              hostDisplayName: t,
+              disabled: a,
+              icon: r ? l : (0, Z.jsx)(Ve, { className: `icon-2xs` }),
+              tooltipText: a ? w : n.remotePath,
+              onSelect: () => {
+                ne({
+                  destinationHostId: n.hostId,
+                  destinationWorkspaceRoot: n.remotePath,
+                  destinationLabel: t,
+                });
+              },
+            },
+            n.id,
+          );
+        }),
+        (t[42] = S),
+        (t[43] = w),
+        (t[44] = ne),
+        (t[45] = l),
+        (t[46] = y),
+        (t[47] = i),
+        (t[48] = e))
+      : (e = t[48]),
+      (j = ee.map(e)),
+      (t[34] = S),
+      (t[35] = w),
+      (t[36] = ne),
+      (t[37] = l),
+      (t[38] = y),
+      (t[39] = i),
+      (t[40] = ee),
+      (t[41] = j));
+  } else j = t[41];
+  let M;
+  return (
+    t[49] !== A || t[50] !== re || t[51] !== j
+      ? ((M = (0, Z.jsxs)(Z.Fragment, { children: [A, re, j] })),
+        (t[49] = A),
+        (t[50] = re),
+        (t[51] = j),
+        (t[52] = M))
+      : (M = t[52]),
+    M
+  );
+}
+function yn(e) {
+  let t = (0, Q.c)(5),
+    { useContinueLabel: n, direction: r, isRemoteHost: i } = e;
+  if (!n) {
+    let e;
+    return (
+      t[0] === r
+        ? (e = t[1])
+        : ((e =
+            r === `to-local`
+              ? (0, Z.jsx)(N, {
+                  id: `localConversation.moveToLocal.label`,
+                  defaultMessage: `Handoff to branch`,
+                  description: `Footer dropdown item label for moving a worktree conversation back to a branch workspace`,
+                })
+              : (0, Z.jsx)(N, {
+                  id: `localConversation.moveToWorktree.label`,
+                  defaultMessage: `Handoff to worktree`,
+                  description: `Footer dropdown item label for moving a local conversation to a new worktree`,
+                })),
+          (t[0] = r),
+          (t[1] = e)),
+      e
+    );
+  }
+  if (r === `to-worktree`) {
+    let e;
+    return (
+      t[2] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, Z.jsx)(N, {
+            id: `localConversation.moveToWorktree.continueLabel`,
+            defaultMessage: `Worktree`,
+            description: `Footer dropdown item label for moving a checkout conversation to a new same-host worktree`,
+          })),
+          (t[2] = e))
+        : (e = t[2]),
+      e
+    );
+  }
+  let a;
+  return (
+    t[3] === i
+      ? (a = t[4])
+      : ((a = i
+          ? (0, Z.jsx)(N, {
+              id: `localConversation.moveToRemoteCheckout.label`,
+              defaultMessage: `Remote checkout`,
+              description: `Footer dropdown item label for moving a remote worktree conversation back to the non-worktree checkout on that same remote host`,
+            })
+          : (0, Z.jsx)(N, {
+              id: `localConversation.moveToLocal.continueLabel`,
+              defaultMessage: `Local checkout`,
+              description: `Footer dropdown item label for moving a local worktree conversation back to the local checkout`,
+            })),
+        (t[3] = i),
+        (t[4] = a)),
+    a
+  );
+}
+function bn(e) {
+  let t = (0, Q.c)(10),
+    { hostDisplayName: n, disabled: r, icon: i, tooltipText: a, onSelect: o } = e,
+    s;
+  t[0] === i ? (s = t[1]) : ((s = (0, Z.jsx)(X.ItemIcon, { children: i })), (t[0] = i), (t[1] = s));
+  let c;
+  t[2] === n
+    ? (c = t[3])
+    : ((c = (0, Z.jsx)(N, {
+        id: `localConversation.moveToRemoteHostWorktree.label`,
+        defaultMessage: `{host}`,
+        description: `Footer dropdown item label for moving a local conversation into a worktree on a configured remote host`,
+        values: { host: n },
+      })),
+      (t[2] = n),
+      (t[3] = c));
+  let l;
+  return (
+    t[4] !== r || t[5] !== o || t[6] !== s || t[7] !== c || t[8] !== a
+      ? ((l = (0, Z.jsxs)(X.Item, { disabled: r, onSelect: o, tooltipText: a, children: [s, c] })),
+        (t[4] = r),
+        (t[5] = o),
+        (t[6] = s),
+        (t[7] = c),
+        (t[8] = a),
+        (t[9] = l))
+      : (l = t[9]),
+    l
+  );
+}
+function xn(e) {
+  let t = (0, Q.c)(11),
+    {
+      selectedEnvironment: n,
+      setComposerMode: r,
+      setSelectedEnvironment: i,
+      setEnvironmentSelectorOpen: a,
+    } = e,
+    [o, s] = (0, wt.useState)(``),
+    { envListState: c, listToShow: l } = Mn(o, n, i),
+    u;
+  t[0] === a ? (u = t[1]) : ((u = () => a(!1)), (t[0] = a), (t[1] = u));
+  let d;
+  return (
+    t[2] !== c ||
+    t[3] !== o ||
+    t[4] !== l ||
+    t[5] !== n ||
+    t[6] !== r ||
+    t[7] !== a ||
+    t[8] !== i ||
+    t[9] !== u
+      ? ((d = (0, Z.jsx)(an, {
+          selectedEnvironment: n,
+          envQuery: o,
+          setEnvQuery: s,
+          envListState: c,
+          listToShow: l,
+          setComposerMode: r,
+          setSelectedEnvironment: i,
+          setOpen: a,
+          onClosePanel: u,
+        })),
+        (t[2] = c),
+        (t[3] = o),
+        (t[4] = l),
+        (t[5] = n),
+        (t[6] = r),
+        (t[7] = a),
+        (t[8] = i),
+        (t[9] = u),
+        (t[10] = d))
+      : (d = t[10]),
+    d
+  );
+}
+function Sn(e) {
+  let t = (0, Q.c)(21),
+    {
+      environmentSelectorOpen: n,
+      setEnvironmentSelectorOpen: r,
+      selectedEnvironment: i,
+      setComposerMode: a,
+      setSelectedEnvironment: o,
+      onSelectEnvironment: s,
+      closeDropdown: c,
+    } = e,
+    [l, u] = (0, wt.useState)(``),
+    {
+      envListState: d,
+      listToShow: f,
+      zeroEnvironments: p,
+      isLoadingAllEnvironments: m,
+    } = Mn(l, i, o);
+  if (n) {
+    let e;
+    t[0] === r ? (e = t[1]) : ((e = () => r(!1)), (t[0] = r), (t[1] = e));
+    let n;
+    return (
+      t[2] !== d ||
+      t[3] !== l ||
+      t[4] !== f ||
+      t[5] !== i ||
+      t[6] !== a ||
+      t[7] !== r ||
+      t[8] !== o ||
+      t[9] !== e
+        ? ((n = (0, Z.jsx)(an, {
+            selectedEnvironment: i,
+            envQuery: l,
+            setEnvQuery: u,
+            envListState: d,
+            listToShow: f,
+            setComposerMode: a,
+            setSelectedEnvironment: o,
+            setOpen: r,
+            onClosePanel: e,
+          })),
+          (t[2] = d),
+          (t[3] = l),
+          (t[4] = f),
+          (t[5] = i),
+          (t[6] = a),
+          (t[7] = r),
+          (t[8] = o),
+          (t[9] = e),
+          (t[10] = n))
+        : (n = t[10]),
+      n
+    );
+  }
+  let h;
+  t[11] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((h = (0, Z.jsx)(X.Title, {
+        children: (0, Z.jsx)(N, {
+          id: `composer.environmentSelector.title`,
+          defaultMessage: `Select environment`,
+          description: `Title for the cloud environment dropdown`,
+        }),
+      })),
+      (t[11] = h))
+    : (h = t[11]);
+  let g;
+  return (
+    t[12] !== c ||
+    t[13] !== d ||
+    t[14] !== l ||
+    t[15] !== m ||
+    t[16] !== f ||
+    t[17] !== s ||
+    t[18] !== i ||
+    t[19] !== p
+      ? ((g = (0, Z.jsxs)(`div`, {
+          className: `flex w-64 flex-col`,
+          children: [
+            h,
+            (0, Z.jsx)(Cn, {
+              envQuery: l,
+              setEnvQuery: u,
+              envListState: d,
+              listToShow: f,
+              selectedEnvironment: i,
+              zeroEnvironments: p,
+              isLoadingAllEnvironments: m,
+              onSelectEnvironment: s,
+              onClose: c,
+            }),
+          ],
+        })),
+        (t[12] = c),
+        (t[13] = d),
+        (t[14] = l),
+        (t[15] = m),
+        (t[16] = f),
+        (t[17] = s),
+        (t[18] = i),
+        (t[19] = p),
+        (t[20] = g))
+      : (g = t[20]),
+    g
+  );
+}
+function Cn(e) {
+  let t = (0, Q.c)(33),
+    {
+      envQuery: n,
+      setEnvQuery: r,
+      envListState: i,
+      listToShow: o,
+      selectedEnvironment: s,
+      zeroEnvironments: c,
+      isLoadingAllEnvironments: l,
+      onSelectEnvironment: u,
+      onClose: d,
+    } = e,
+    f = ie();
+  if (c && !l) {
+    let e;
+    return (
+      t[0] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, Z.jsx)(X.Item, {
+            RightIcon: he,
+            href: a,
+            children: (0, Z.jsx)(`span`, {
+              className: `text-token-description-foreground`,
+              children: (0, Z.jsx)(N, {
+                id: `composer.mode.remote.setupViaWeb`,
+                defaultMessage: `Set up an environment via Codex web`,
+                description: `Menu item to set up an environment via Codex web`,
+              }),
+            }),
+          })),
+          (t[0] = e))
+        : (e = t[0]),
+      e
+    );
+  }
+  let p;
+  t[1] === o ? (p = t[2]) : ((p = o ?? []), (t[1] = o), (t[2] = p));
+  let m = p,
+    h;
+  if (i === `loading`) {
+    let e;
+    (t[3] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((e = (0, Z.jsx)(`div`, {
+          className: `flex items-center justify-center px-[var(--padding-row-x)] py-3`,
+          children: (0, Z.jsx)(pe, { className: `icon-xxs text-token-description-foreground` }),
+        })),
+        (t[3] = e))
+      : (e = t[3]),
+      (h = e));
+  } else if (i === `error`) {
+    let e;
+    (t[4] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((e = (0, Z.jsx)(X.Message, {
+          compact: !0,
+          tone: `error`,
+          children: (0, Z.jsx)(N, {
+            id: `composer.environmentSelector.error`,
+            defaultMessage: `Error loading environments`,
+            description: `Error state for the cloud environment dropdown`,
+          }),
+        })),
+        (t[4] = e))
+      : (e = t[4]),
+      (h = e));
+  } else if (i === `none-found` || i === `empty`) {
+    let e;
+    (t[5] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((e = (0, Z.jsx)(X.Message, {
+          compact: !0,
+          children: (0, Z.jsx)(N, {
+            id: `codex.environments.noEnvironmentsFound`,
+            defaultMessage: `No environments found`,
+            description: `Message shown when no Codex environments were found`,
+          }),
+        })),
+        (t[5] = e))
+      : (e = t[5]),
+      (h = e));
+  } else {
+    let e;
+    if (t[6] !== m || t[7] !== d || t[8] !== u || t[9] !== s?.id) {
+      let n;
+      (t[11] !== d || t[12] !== u || t[13] !== s?.id
+        ? ((n = (e) =>
+            (0, Z.jsx)(
+              X.Item,
+              {
+                RightIcon: e.id === s?.id ? ke : void 0,
+                onClick: () => {
+                  (u(e), d());
+                },
+                children: (0, Z.jsx)(`span`, {
+                  className: `flex min-w-0 items-center gap-1.5`,
+                  children: (0, Z.jsx)(`span`, {
+                    className: `min-w-0 truncate`,
+                    children: e.label,
+                  }),
+                }),
+              },
+              e.id,
+            )),
+          (t[11] = d),
+          (t[12] = u),
+          (t[13] = s?.id),
+          (t[14] = n))
+        : (n = t[14]),
+        (e = m.map(n)),
+        (t[6] = m),
+        (t[7] = d),
+        (t[8] = u),
+        (t[9] = s?.id),
+        (t[10] = e));
+    } else e = t[10];
+    let n;
+    t[15] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((n = (0, Z.jsx)(X.Separator, {})), (t[15] = n))
+      : (n = t[15]);
+    let r;
+    t[16] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((r = (0, Z.jsx)(N, {
+          id: `composer.environmentSelector.createNew`,
+          defaultMessage: `Create new`,
+          description: `CTA to create a new Codex environment`,
+        })),
+        (t[16] = r))
+      : (r = t[16]);
+    let i;
+    t[17] === d
+      ? (i = t[18])
+      : ((i = (0, Z.jsx)(X.Item, {
+          LeftIcon: Ke,
+          href: `${a}/settings/environments`,
+          onClick: d,
+          children: r,
+        })),
+        (t[17] = d),
+        (t[18] = i));
+    let o;
+    (t[19] !== e || t[20] !== i
+      ? ((o = (0, Z.jsxs)(Z.Fragment, { children: [e, n, i] })),
+        (t[19] = e),
+        (t[20] = i),
+        (t[21] = o))
+      : (o = t[21]),
+      (h = o));
+  }
+  let g;
+  t[22] === f
+    ? (g = t[23])
+    : ((g = f.formatMessage({
+        id: `composer.searchEnvironments`,
+        defaultMessage: `Search environments`,
+        description: `Search environments placeholder`,
+      })),
+      (t[22] = f),
+      (t[23] = g));
+  let _;
+  t[24] === r ? (_ = t[25]) : ((_ = (e) => r(e.target.value)), (t[24] = r), (t[25] = _));
+  let v;
+  t[26] !== n || t[27] !== g || t[28] !== _
+    ? ((v = (0, Z.jsx)(X.Section, {
+        className: `my-1`,
+        children: (0, Z.jsx)(X.SearchInput, { placeholder: g, value: n, onChange: _ }),
+      })),
+      (t[26] = n),
+      (t[27] = g),
+      (t[28] = _),
+      (t[29] = v))
+    : (v = t[29]);
+  let y;
+  return (
+    t[30] !== h || t[31] !== v
+      ? ((y = (0, Z.jsxs)(`div`, { className: `flex flex-col`, children: [v, h] })),
+        (t[30] = h),
+        (t[31] = v),
+        (t[32] = y))
+      : (y = t[32]),
+    y
+  );
+}
+function wn(e) {
+  let t = (0, Q.c)(16),
+    { selectedEnvironment: n, setSelectedEnvironment: r, setComposerMode: i } = e,
+    a = ie(),
+    o;
+  t[0] !== n || t[1] !== i || t[2] !== r
+    ? ((o = function (e) {
+        let { onClose: t } = e;
+        return (0, Z.jsx)(Tn, {
+          selectedEnvironment: n,
+          setSelectedEnvironment: r,
+          setComposerMode: i,
+          onClose: t,
+        });
+      }),
+      (t[0] = n),
+      (t[1] = i),
+      (t[2] = r),
+      (t[3] = o))
+    : (o = t[3]);
+  let s = o,
+    c;
+  t[4] === a
+    ? (c = t[5])
+    : ((c = a.formatMessage($.cloudEnvironmentTitle)), (t[4] = a), (t[5] = c));
+  let l;
+  t[6] !== a || t[7] !== n?.label
+    ? ((l =
+        n?.label ??
+        a.formatMessage({
+          id: `composer.slashCommands.cloudEnvironment.description`,
+          defaultMessage: `Choose the cloud environment`,
+          description: `Description for the cloud environment slash command when no environment is selected`,
+        })),
+      (t[6] = a),
+      (t[7] = n?.label),
+      (t[8] = l))
+    : (l = t[8]);
+  let u = n?.id,
+    d;
+  t[9] === u ? (d = t[10]) : ((d = [u]), (t[9] = u), (t[10] = d));
+  let f;
+  return (
+    t[11] !== s || t[12] !== c || t[13] !== l || t[14] !== d
+      ? ((f = {
+          id: `cloud-environment`,
+          title: c,
+          description: l,
+          requiresEmptyComposer: !1,
+          Icon: ht,
+          enabled: !0,
+          Content: s,
+          dependencies: d,
+        }),
+        (t[11] = s),
+        (t[12] = c),
+        (t[13] = l),
+        (t[14] = d),
+        (t[15] = f))
+      : (f = t[15]),
+    Ze(f),
+    null
+  );
+}
+function Tn(e) {
+  let t = (0, Q.c)(13),
+    { selectedEnvironment: n, setSelectedEnvironment: r, setComposerMode: i, onClose: a } = e,
+    { listToShow: o } = Mn(Ye(En), n, r),
+    s;
+  if (t[0] !== o || t[1] !== a || t[2] !== n?.id || t[3] !== i || t[4] !== r) {
+    let e = o.slice(0, 100),
+      c;
+    (t[6] !== a || t[7] !== n?.id || t[8] !== i || t[9] !== r
+      ? ((c = (e) =>
+          (0, Z.jsx)(
+            et,
+            {
+              value: e.label ?? ``,
+              title: e.label ?? ``,
+              onSelect: () => {
+                (i(`cloud`), r(e), a());
+              },
+              RightIcon: e.id === n?.id ? ke : void 0,
+            },
+            e.id,
+          )),
+        (t[6] = a),
+        (t[7] = n?.id),
+        (t[8] = i),
+        (t[9] = r),
+        (t[10] = c))
+      : (c = t[10]),
+      (s = e.map(c)),
+      (t[0] = o),
+      (t[1] = a),
+      (t[2] = n?.id),
+      (t[3] = i),
+      (t[4] = r),
+      (t[5] = s));
+  } else s = t[5];
+  let c;
+  return (
+    t[11] === s
+      ? (c = t[12])
+      : ((c = (0, Z.jsx)(Z.Fragment, { children: s })), (t[11] = s), (t[12] = c)),
+    c
+  );
+}
+function En(e) {
+  return e.search;
+}
+function Dn(e) {
+  let { setSelectedEnvironment: t } = e;
+  return (Mn(``, null, t), null);
+}
+function On(e) {
+  let t = (0, Q.c)(67),
+    {
+      open: n,
+      onOpenChange: r,
+      side: i,
+      codexCloudAccess: a,
+      crossHostHandoffEnabled: o,
+      showCrossHostHandoff: c,
+      conversationId: l,
+      executionTarget: u,
+      gitRoot: d,
+      setComposerMode: p,
+      threadHandoff: m,
+      worktreeSegmentLabel: h,
+      tooltipContent: g,
+      tooltipMaxWidth: _,
+      triggerVariant: v,
+      openHandoffDialog: y,
+      openHostWorktreeHandoffDialog: b,
+      localWorkspaceRootForHandoff: ee,
+    } = e,
+    S = ie(),
+    C;
+  t[0] !== u.hostConfig || t[1] !== d
+    ? ((C = {
+        cwd: d,
+        enabled: !0,
+        hostConfig: u.hostConfig,
+        operationSource: `local_remote_dropdown`,
+        refetchOnWindowFocus: !1,
+        staleTime: null,
+      }),
+      (t[0] = u.hostConfig),
+      (t[1] = d),
+      (t[2] = C))
+    : (C = t[2]);
+  let w = te(K, C),
+    T = ct(l),
+    E = c ? bt(T) : T,
+    D = E?.direction === `to-host-worktree` ? null : E,
+    O = E?.status === `queued` || E?.status === `running`,
+    k = E?.direction === `to-host-worktree` && O,
+    ne = te(s, l),
+    { openOperation: A } = st(),
+    re = w ?? Pn(T, l) ?? (c ? ne : null),
+    j = St({
+      conversationId: l,
+      handoffBranch: re,
+      handoffDirection: yt({ codexWorktree: !1, operation: D, threadHandoff: m }),
+      operation: E,
+      threadHandoff: m,
+    }),
+    M = E == null && (m?.disabled ?? !1),
+    ae = k || M,
+    P;
+  t[3] !== M || t[4] !== S || t[5] !== E?.status
+    ? ((P =
+        E?.status === `queued` || E?.status === `running`
+          ? S.formatMessage({
+              id: `localConversation.threadHandoff.tooltip.viewProgress`,
+              defaultMessage: `View progress`,
+              description: `Tooltip shown when a thread handoff is in progress and the button reopens the progress view`,
+            })
+          : M
+            ? S.formatMessage({
+                id: `localConversation.moveThread.disabled.turnInProgress`,
+                defaultMessage: `You cannot move a chat while it is in progress`,
+                description: `Tooltip shown when moving a thread is disabled because a turn is in progress`,
+              })
+            : void 0),
+      (t[3] = M),
+      (t[4] = S),
+      (t[5] = E?.status),
+      (t[6] = P))
+    : (P = t[6]);
+  let oe = P,
+    F;
+  t[7] === E
+    ? (F = t[8])
+    : ((F =
+        E?.status === `queued` || E?.status === `running`
+          ? (0, Z.jsx)(pe, { className: `icon-2xs` })
+          : E?.status === `error`
+            ? (0, Z.jsx)(Et, { className: `icon-2xs text-token-danger` })
+            : E?.hasUnseenTerminalState && E.status === `warning`
+              ? (0, Z.jsx)(Et, { className: `icon-2xs text-token-editor-warning-foreground` })
+              : (0, Z.jsx)(Dt, { className: `icon-2xs rotate-90` })),
+      (t[7] = E),
+      (t[8] = F));
+  let I = F,
+    L;
+  t[9] !== I || t[10] !== E?.direction
+    ? ((L =
+        E?.direction === `to-host-worktree`
+          ? (0, Z.jsx)(Dt, { className: `icon-2xs rotate-90` })
+          : I),
+      (t[9] = I),
+      (t[10] = E?.direction),
+      (t[11] = L))
+    : (L = t[11]);
+  let se = L,
+    R;
+  t[12] !== k || t[13] !== oe || t[14] !== S || t[15] !== D
+    ? ((R = k ? S.formatMessage($.finishCurrentHandoffTooltip) : D == null ? void 0 : oe),
+      (t[12] = k),
+      (t[13] = oe),
+      (t[14] = S),
+      (t[15] = D),
+      (t[16] = R))
+    : (R = t[16]);
+  let z = R,
+    B;
+  t[17] !== r || t[18] !== y || t[19] !== A || t[20] !== D
+    ? ((B = () => {
+        if ((r(!1), D != null)) {
+          (y(), A(D.id));
+          return;
+        }
+        y();
+      }),
+      (t[17] = r),
+      (t[18] = y),
+      (t[19] = A),
+      (t[20] = D),
+      (t[21] = B))
+    : (B = t[21]);
+  let ce = B,
+    le = c && ((l != null && m != null) || E?.direction === `to-host-worktree`),
+    H = j || (le && (E?.direction === `to-host-worktree` || ee != null)),
+    U;
+  t[22] !== u.cwd || t[23] !== j || t[24] !== H || t[25] !== c || t[26] !== v || t[27] !== h
+    ? ((U =
+        v === `summary-panel`
+          ? (0, Z.jsx)(at, {
+              icon: (0, Z.jsx)(Ge, { className: `icon-sm shrink-0 text-token-foreground` }),
+              label: (0, Z.jsxs)(`span`, {
+                className: `flex min-w-0 items-center gap-1 text-token-foreground`,
+                children: [
+                  (0, Z.jsx)(`span`, { className: `min-w-0 truncate`, children: h }),
+                  j
+                    ? (0, Z.jsx)(He, { className: `icon-2xs shrink-0 text-token-text-tertiary` })
+                    : null,
+                ],
+              }),
+              labelClassName: `flex min-w-0 items-center`,
+              title: u.cwd ?? void 0,
+              trailing:
+                c && H ? (0, Z.jsx)(Ae, { className: `icon-xs text-token-text-tertiary` }) : null,
+            })
+          : (0, Z.jsxs)(de, {
+              color: `ghostActive`,
+              size: `composerSm`,
+              children: [
+                (0, Z.jsx)(`span`, { className: `truncate`, children: h }),
+                H
+                  ? (0, Z.jsx)(He, {
+                      className: `icon-2xs text-token-input-placeholder-foreground`,
+                    })
+                  : null,
+              ],
+            })),
+      (t[22] = u.cwd),
+      (t[23] = j),
+      (t[24] = H),
+      (t[25] = c),
+      (t[26] = v),
+      (t[27] = h),
+      (t[28] = U))
+    : (U = t[28]);
+  let ue = U,
+    W = v === `summary-panel` && `w-full`,
+    fe;
+  t[29] === W ? (fe = t[30]) : ((fe = x(W)), (t[29] = W), (t[30] = fe));
+  let me;
+  t[31] !== a ||
+  t[32] !== l ||
+  t[33] !== o ||
+  t[34] !== u.cwd ||
+  t[35] !== u.hostId ||
+  t[36] !== d ||
+  t[37] !== ce ||
+  t[38] !== re ||
+  t[39] !== M ||
+  t[40] !== I ||
+  t[41] !== O ||
+  t[42] !== oe ||
+  t[43] !== j ||
+  t[44] !== S ||
+  t[45] !== ee ||
+  t[46] !== E ||
+  t[47] !== r ||
+  t[48] !== n ||
+  t[49] !== b ||
+  t[50] !== A ||
+  t[51] !== ae ||
+  t[52] !== se ||
+  t[53] !== z ||
+  t[54] !== p ||
+  t[55] !== H ||
+  t[56] !== c ||
+  t[57] !== i ||
+  t[58] !== m ||
+  t[59] !== g ||
+  t[60] !== _ ||
+  t[61] !== ue ||
+  t[62] !== v
+    ? ((me = H
+        ? (0, Z.jsx)(Be, {
+            open: n,
+            onOpenChange: r,
+            side: i,
+            triggerButton:
+              v === `summary-panel`
+                ? ue
+                : (0, Z.jsx)(V, { tooltipContent: g, tooltipMaxWidth: _, children: ue }),
+            children: (0, Z.jsxs)(`div`, {
+              className: x(`flex flex-col`, c ? `min-w-[220px]` : `min-w-[180px]`),
+              children: [
+                c
+                  ? (0, Z.jsx)(X.Title, {
+                      children: (0, Z.jsx)(N, {
+                        id: `composer.mode.newTask.header`,
+                        defaultMessage: `Continue in`,
+                        description: `Header label above agent mode options`,
+                      }),
+                    })
+                  : null,
+                j
+                  ? (0, Z.jsxs)(X.Item, {
+                      disabled: ae,
+                      onSelect: ce,
+                      tooltipText: z,
+                      children: [
+                        (0, Z.jsx)(X.ItemIcon, { children: se }),
+                        (0, Z.jsx)(yn, {
+                          useContinueLabel: c,
+                          direction: `to-local`,
+                          isRemoteHost: u.hostId !== f,
+                        }),
+                      ],
+                    })
+                  : null,
+                c
+                  ? (0, Z.jsx)(vn, {
+                      conversationId: l,
+                      threadHandoff: m,
+                      menuOperation: E,
+                      crossHostHandoffEnabled: o,
+                      handoffBranch: re,
+                      handoffDisabled: M,
+                      handoffTooltipText: oe,
+                      handoffIcon: I,
+                      showSeparator: !1,
+                      sourceHostId: u.hostId,
+                      sourceGitRoot: d,
+                      sourceWorkspaceRoot: u.cwd,
+                      localWorkspaceRootForHandoff: ee,
+                      closeDropdown: () => {
+                        r(!1);
+                      },
+                      openHostWorktreeHandoffDialog: b,
+                      openOperation: A,
+                    })
+                  : null,
+                c && a === `enabled`
+                  ? (0, Z.jsxs)(X.Item, {
+                      disabled: O,
+                      onClick: () => {
+                        (p(`cloud`), r(!1));
+                      },
+                      tooltipText: O
+                        ? S.formatMessage($.finishCurrentHandoffTooltip)
+                        : S.formatMessage({
+                            id: `composer.mode.cloud.tooltip`,
+                            defaultMessage: `Work in a cloud environment`,
+                            description: `Tooltip content for cloud mode dropdown item`,
+                          }),
+                      children: [
+                        (0, Z.jsx)(X.ItemIcon, {
+                          children: (0, Z.jsx)(Ue, { className: `icon-2xs` }),
+                        }),
+                        (0, Z.jsx)(N, { ...$.runInCloud }),
+                      ],
+                    })
+                  : null,
+              ],
+            }),
+          })
+        : (0, Z.jsx)(V, {
+            tooltipContent: g,
+            tooltipMaxWidth: _,
+            children: (0, Z.jsx)(`span`, {
+              className: `inline-flex`,
+              children: (0, Z.jsx)(`div`, { className: `pointer-events-none`, children: ue }),
+            }),
+          })),
+      (t[31] = a),
+      (t[32] = l),
+      (t[33] = o),
+      (t[34] = u.cwd),
+      (t[35] = u.hostId),
+      (t[36] = d),
+      (t[37] = ce),
+      (t[38] = re),
+      (t[39] = M),
+      (t[40] = I),
+      (t[41] = O),
+      (t[42] = oe),
+      (t[43] = j),
+      (t[44] = S),
+      (t[45] = ee),
+      (t[46] = E),
+      (t[47] = r),
+      (t[48] = n),
+      (t[49] = b),
+      (t[50] = A),
+      (t[51] = ae),
+      (t[52] = se),
+      (t[53] = z),
+      (t[54] = p),
+      (t[55] = H),
+      (t[56] = c),
+      (t[57] = i),
+      (t[58] = m),
+      (t[59] = g),
+      (t[60] = _),
+      (t[61] = ue),
+      (t[62] = v),
+      (t[63] = me))
+    : (me = t[63]);
+  let G;
+  return (
+    t[64] !== me || t[65] !== fe
+      ? ((G = (0, Z.jsx)(`div`, { className: fe, children: me })),
+        (t[64] = me),
+        (t[65] = fe),
+        (t[66] = G))
+      : (G = t[66]),
+    G
+  );
+}
+function kn(e) {
+  let t = (0, Q.c)(19),
+    {
+      onClose: n,
+      conversationId: r,
+      composerViewState: a,
+      executionTarget: o,
+      gitRoot: c,
+      threadHandoff: l,
+      isLocalModeRemote: u,
+      showCrossHostHandoff: d,
+    } = e,
+    { data: f } = me(),
+    p;
+  t[0] !== o.hostConfig || t[1] !== c
+    ? ((p = {
+        cwd: c,
+        enabled: !0,
+        hostConfig: o.hostConfig,
+        operationSource: `local_remote_dropdown`,
+        refetchOnWindowFocus: !1,
+        staleTime: null,
+      }),
+      (t[0] = o.hostConfig),
+      (t[1] = c),
+      (t[2] = p))
+    : (p = t[2]);
+  let m = te(K, p),
+    h = ct(r),
+    g = d ? bt(h) : h,
+    _ = te(s, r),
+    v = yt({
+      codexWorktree: i(u ? null : o.activeWorkspaceRoot, f?.codexHome),
+      operation: g,
+      threadHandoff: l,
+    }),
+    y;
+  t[3] !== r || t[4] !== m || t[5] !== h || t[6] !== d || t[7] !== _
+    ? ((y = m ?? Pn(h, r) ?? (d ? _ : null)),
+      (t[3] = r),
+      (t[4] = m),
+      (t[5] = h),
+      (t[6] = d),
+      (t[7] = _),
+      (t[8] = y))
+    : (y = t[8]);
+  let b = y,
+    ee;
+  t[9] === n
+    ? (ee = t[10])
+    : ((ee = (e) => {
+        e || n();
+      }),
+      (t[9] = n),
+      (t[10] = ee));
+  let x = ee,
+    S;
+  return (
+    t[11] !== a ||
+    t[12] !== r ||
+    t[13] !== x ||
+    t[14] !== b ||
+    t[15] !== v ||
+    t[16] !== l.conversationTitle ||
+    t[17] !== l.cwd
+      ? ((S =
+          v === `to-local`
+            ? (0, Z.jsx)(Jt, {
+                open: !0,
+                onOpenChange: x,
+                conversationId: r,
+                composerViewState: a,
+                conversationTitle: l.conversationTitle,
+                currentBranch: b ?? ``,
+                cwd: l.cwd,
+              })
+            : (0, Z.jsx)($t, {
+                open: !0,
+                onOpenChange: x,
+                conversationId: r,
+                composerViewState: a,
+                conversationTitle: l.conversationTitle,
+                currentBranch: b ?? ``,
+                cwd: l.cwd,
+              })),
+        (t[11] = a),
+        (t[12] = r),
+        (t[13] = x),
+        (t[14] = b),
+        (t[15] = v),
+        (t[16] = l.conversationTitle),
+        (t[17] = l.cwd),
+        (t[18] = S))
+      : (S = t[18]),
+    S
+  );
+}
+function An(e) {
+  let t = (0, Q.c)(12),
+    {
+      onClose: n,
+      conversationId: r,
+      composerViewState: i,
+      conversationTitle: a,
+      currentBranch: o,
+      cwd: s,
+      destinationHostId: c,
+      destinationWorkspaceRoot: l,
+      destinationLabel: u,
+    } = e,
+    d;
+  t[0] === n
+    ? (d = t[1])
+    : ((d = (e) => {
+        e || n();
+      }),
+      (t[0] = n),
+      (t[1] = d));
+  let f = d,
+    p;
+  return (
+    t[2] !== i ||
+    t[3] !== r ||
+    t[4] !== a ||
+    t[5] !== o ||
+    t[6] !== s ||
+    t[7] !== c ||
+    t[8] !== u ||
+    t[9] !== l ||
+    t[10] !== f
+      ? ((p = (0, Z.jsx)(Wt, {
+          open: !0,
+          onOpenChange: f,
+          conversationId: r,
+          composerViewState: i,
+          conversationTitle: a,
+          currentBranch: o,
+          cwd: s,
+          destinationHostId: c,
+          destinationWorkspaceRoot: l,
+          destinationLabel: u,
+        })),
+        (t[2] = i),
+        (t[3] = r),
+        (t[4] = a),
+        (t[5] = o),
+        (t[6] = s),
+        (t[7] = c),
+        (t[8] = u),
+        (t[9] = l),
+        (t[10] = f),
+        (t[11] = p))
+      : (p = t[11]),
+    p
+  );
+}
+function jn(e) {
+  let t = (0, Q.c)(6),
+    { composerMode: n, gitRoot: r, hostConfig: i } = e,
+    a = n === `worktree`,
+    o;
+  if (
+    (t[0] !== r || t[1] !== i || t[2] !== a
+      ? ((o = {
+          cwd: r,
+          enabled: a,
+          hostConfig: i,
+          operationSource: `local_remote_dropdown`,
+          refetchOnWindowFocus: !1,
+          staleTime: A.ONE_MINUTE,
+        }),
+        (t[0] = r),
+        (t[1] = i),
+        (t[2] = a),
+        (t[3] = o))
+      : (o = t[3]),
+    !((te(dt, o)?.length ?? 0) > 0) || n !== `worktree`)
+  )
+    return null;
+  let s;
+  t[4] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((s = (0, Z.jsx)(N, { ...$.worktreeSubmoduleWarning })), (t[4] = s))
+    : (s = t[4]);
+  let c;
+  return (
+    t[5] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((c = (0, Z.jsx)(V, {
+          tooltipContent: s,
+          children: (0, Z.jsx)(`span`, {
+            className: `flex items-center`,
+            children: (0, Z.jsx)(Et, {
+              className: `icon-2xs text-token-editor-warning-foreground`,
+            }),
+          }),
+        })),
+        (t[5] = c))
+      : (c = t[5]),
+    c
+  );
+}
+function Mn(e, t, n) {
+  let r = (0, Q.c)(18),
+    i = (0, wt.useDeferredValue)(e),
+    a = t?.id,
+    o;
+  r[0] !== i || r[1] !== a
+    ? ((o = { envQuery: i, selectedEnvironmentId: a }), (r[0] = i), (r[1] = a), (r[2] = o))
+    : (o = r[2]);
+  let {
+      availableEnvironments: s,
+      errorLoadingAllEnvironments: c,
+      isLoadingAllEnvironments: l,
+      listToShow: u,
+    } = te(fn, o),
+    d = F(`1907601843`),
+    f;
+  r[3] !== s || r[4] !== t
+    ? ((f = t == null ? null : (s.find((e) => e.id === t.id) ?? null)),
+      (r[3] = s),
+      (r[4] = t),
+      (r[5] = f))
+    : (f = r[5]);
+  let p = f,
+    m = d && !l && s.length === 0,
+    h,
+    g;
+  (r[6] !== s || r[7] !== p || r[8] !== n
+    ? ((h = () => {
+        n == null || p != null || n(s[0] ?? null);
+      }),
+      (g = [s, p, n]),
+      (r[6] = s),
+      (r[7] = p),
+      (r[8] = n),
+      (r[9] = h),
+      (r[10] = g))
+    : ((h = r[9]), (g = r[10])),
+    (0, wt.useEffect)(h, g));
+  let _ = c instanceof D && c.status === 404,
+    v = u.length ? `list` : l ? `loading` : c && !_ ? `error` : e.length ? `none-found` : `empty`,
+    y;
+  return (
+    r[11] !== s || r[12] !== v || r[13] !== l || r[14] !== d || r[15] !== u || r[16] !== m
+      ? ((y = {
+          availableEnvironments: s,
+          envListState: v,
+          isLoadingAllEnvironments: l,
+          isWorktreeSnapshotsEnabled: d,
+          listToShow: u,
+          zeroEnvironments: m,
+        }),
+        (r[11] = s),
+        (r[12] = v),
+        (r[13] = l),
+        (r[14] = d),
+        (r[15] = u),
+        (r[16] = m),
+        (r[17] = y))
+      : (y = r[17]),
+    y
+  );
+}
+function Nn(e) {
+  let t = (0, Q.c)(9),
+    { rateLimit: n, isRemoteHost: r } = e,
+    i;
+  t[0] === n ? (i = t[1]) : ((i = Y(n)), (t[0] = n), (t[1] = i));
+  let a = i,
+    o;
+  t[2] === r
+    ? (o = t[3])
+    : ((o = r
+        ? (0, Z.jsx)(N, {
+            id: `composer.mode.remote`,
+            defaultMessage: `Remote`,
+            description: `Remote mode label`,
+          })
+        : (0, Z.jsx)(N, {
+            id: `composer.mode.local`,
+            defaultMessage: `Work locally`,
+            description: `Local mode label`,
+          })),
+      (t[2] = r),
+      (t[3] = o));
+  let s;
+  t[4] === a
+    ? (s = t[5])
+    : ((s =
+        a &&
+        (0, Z.jsx)(`span`, {
+          className: `whitespace-nowrap text-token-input-placeholder-foreground opacity-60`,
+          children: (0, Z.jsx)(N, {
+            id: `composer.mode.local.ratePercent`,
+            defaultMessage: ` {usage}%`,
+            description: `Rate limit remaining percent appended to Local when near limit`,
+            values: { usage: Math.round(a.remainingPercent) },
+          }),
+        })),
+      (t[4] = a),
+      (t[5] = s));
+  let c;
+  return (
+    t[6] !== o || t[7] !== s
+      ? ((c = (0, Z.jsxs)(Z.Fragment, { children: [o, s] })), (t[6] = o), (t[7] = s), (t[8] = c))
+      : (c = t[8]),
+    c
+  );
+}
+function Pn(e, t) {
+  return e == null || t == null
+    ? null
+    : e.sourceConversationId === t
+      ? e.sourceBranch
+      : e.targetConversationId === t
+        ? e.direction === `to-worktree`
+          ? (e.worktreeBranch ?? e.sourceBranch)
+          : (e.localBranch ?? e.sourceBranch)
+        : null;
+}
+var $ = ae({
+  workLocally: {
+    id: `composer.mode.workLocally`,
+    defaultMessage: `Work locally`,
+    description: `Local mode label`,
+  },
+  startInRemote: {
+    id: `composer.mode.startInRemote`,
+    defaultMessage: `Remote`,
+    description: `Dropdown label for starting a task in a remote project`,
+  },
+  workLocallyTooltip: {
+    id: `composer.mode.workLocally.tooltip`,
+    defaultMessage: `Work on {branchName}`,
+    description: `Tooltip describing what local mode runs against`,
+  },
+  workRemotelyTooltipWithoutPath: {
+    id: `composer.mode.workRemotely.tooltipWithoutPath`,
+    defaultMessage: `Work on {hostDisplayName}`,
+    description: `Tooltip describing what where the remote mode is run`,
+  },
+  fallbackBranch: {
+    id: `composer.mode.workLocally.currentBranchFallback`,
+    defaultMessage: `your branch`,
+    description: `Fallback branch name when current branch cannot be detected`,
+  },
+  runInCloud: {
+    id: `composer.mode.runInCloud`,
+    defaultMessage: `Cloud`,
+    description: `Remote mode label when a Codex task will be run in the cloud`,
+  },
+  localShort: {
+    id: `composer.mode.local.short`,
+    defaultMessage: `Local`,
+    description: `Short local mode label`,
+  },
+  selectEnvironment: {
+    id: `composer.mode.remote.selectEnvironment`,
+    defaultMessage: `Select environment`,
+    description: `Remote mode label when no environment is selected`,
+  },
+  worktreeMode: {
+    id: `composer.mode.worktree`,
+    defaultMessage: `New worktree`,
+    description: `Worktree mode label`,
+  },
+  worktreeTooltip: {
+    id: `composer.mode.worktree.tooltip`,
+    defaultMessage: `Create a copy of your local project to work in parallel`,
+    description: `Tooltip content for worktree mode dropdown item`,
+  },
+  remoteWorktreeTooltip: {
+    id: `composer.mode.remoteWorktree.tooltip`,
+    defaultMessage: `Create a copy of your remote project to work in parallel`,
+    description: `Tooltip content for worktree mode dropdown item when the selected workspace is remote`,
+  },
+  worktreeSegment: {
+    id: `composer.mode.worktreeSegment`,
+    defaultMessage: `Worktree`,
+    description: `Worktree mode label for the segmented toggle`,
+  },
+  localRemoteWhereRun: {
+    id: `composer.mode.localRemoteWhereRun`,
+    defaultMessage: `Select where to run the task`,
+    description: `Tooltip content for local/remote dropdown`,
+  },
+  worktreeSubmoduleWarning: {
+    id: `composer.mode.worktree.submoduleWarning`,
+    defaultMessage: `This repo has git submodules. Worktree creation may fail`,
+    description: `Warning shown when a repo contains git submodules`,
+  },
+  cloudEnvironmentTitle: {
+    id: `composer.slashCommands.cloudEnvironment.title`,
+    defaultMessage: `Cloud environment`,
+    description: `Title for a composer slash command that makes Codex run in the cloud with a specific environment.`,
+  },
+  finishCurrentHandoffTooltip: {
+    id: `localConversation.moveThread.disabled.finishCurrentHandoff`,
+    defaultMessage: `Finish the current handoff before starting another`,
+    description: `Tooltip shown on disabled cross-host handoff destinations while another handoff operation still needs attention`,
+  },
+  thisComputerDestinationLabel: {
+    id: `localConversation.moveThread.destination.thisComputer`,
+    defaultMessage: `this computer`,
+    description: `Destination label used in cross-host handoff copy when moving a thread back to the local machine`,
+  },
+  checkingRemoteHandoffDestinationTooltip: {
+    id: `localConversation.moveThread.destination.remoteChecking`,
+    defaultMessage: `Checking this host for a matching project`,
+    description: `Tooltip shown while Codex checks whether a remote host can receive this chat`,
+  },
+  remoteHandoffDestinationLookupFailedTooltip: {
+    id: `localConversation.moveThread.destination.remoteLookupFailed`,
+    defaultMessage: `Couldn’t inspect this host for a matching project`,
+    description: `Tooltip shown when Codex cannot inspect a remote host to decide whether it can receive this chat`,
+  },
+});
+function Fn({ executionTargetCwd: e, footerRemoteState: t, remoteConnections: n }) {
+  let { existingRemoteThreadState: r, draftNewThreadRemoteSelectionState: i } = t;
+  if (t.isAttachedToStartedTask)
+    return r.hostId === `local`
+      ? null
+      : {
+          hostId: r.hostId,
+          connectionDisplayName: r.connectionDisplayName ?? In(n, r.hostId),
+          projectPath: r.projectPath ?? e,
+        };
+  let a = i?.hostId ?? null,
+    o = i?.projectPath ?? null;
+  return a == null || a === `local` || o == null
+    ? null
+    : { hostId: a, connectionDisplayName: i?.connectionDisplayName ?? In(n, a), projectPath: o };
+}
+function In(e, t) {
+  return e.find((e) => e.hostId === t)?.displayName ?? null;
+}
+export { vt as n, pn as t };
+//# sourceMappingURL=local-remote-dropdown-C.js.map

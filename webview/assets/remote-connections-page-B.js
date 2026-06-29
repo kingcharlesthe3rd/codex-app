@@ -1,0 +1,39 @@
+import "./src-2.js";
+import "./app-server-manager-signals.js";
+import { t as e } from "./jsx-runtime.js";
+import "./marked.esm-BR-H6018.js";
+import { lt as t } from "./vscode-api.js";
+import "./lib-2.js";
+import { a as n } from "./chunk-12.js";
+import "./persisted-signal-CweW-bgN.js";
+import "./rpc-1.js";
+import "./statsig.js";
+import "./request.js";
+import "./invalidate-queries-and-broadcast.js";
+import "./thread-context-inputs.js";
+import "./config-queries.js";
+import "./selectable-remote-connections-signal.js";
+import { n as r } from "./remote-connection-visibility.js";
+var i = t(),
+  a = e();
+function o() {
+  let e = (0, i.c)(2);
+  if (!r()) {
+    let t;
+    return (
+      e[0] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((t = (0, a.jsx)(n, { to: `/`, replace: !0 })), (e[0] = t))
+        : (t = e[0]),
+      t
+    );
+  }
+  let t;
+  return (
+    e[1] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((t = (0, a.jsx)(n, { to: `/settings/connections`, replace: !0 })), (e[1] = t))
+      : (t = e[1]),
+    t
+  );
+}
+export { o as RemoteConnectionsPage };
+//# sourceMappingURL=remote-connections-page-B.js.map

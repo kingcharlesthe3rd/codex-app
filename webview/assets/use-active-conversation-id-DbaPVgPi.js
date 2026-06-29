@@ -1,2 +1,0 @@
-import{Qr as e}from"./src-BOCweS1p.js";import{lt as t}from"./vscode-api-DjORcpSo.js";import{p as n}from"./chunk-LFPYN7LY-PMGLV5Go.js";var r=t();function i(){let t=(0,r.c)(2),i=n(`/local/:conversationId`),a=n(`/remote/:conversationId`),o=n(`/hotkey-window/thread/:conversationId`),s=i?.params.conversationId??a?.params.conversationId??o?.params.conversationId,c;return t[0]===s?c=t[1]:(c=s?e(s):null,t[0]=s,t[1]=c),c}export{i as t};
-//# sourceMappingURL=use-active-conversation-id-DbaPVgPi.js.map

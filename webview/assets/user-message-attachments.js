@@ -1,0 +1,2228 @@
+import { s as e, t } from "./chunk-Bj-mKKzh.js";
+import { na as n, sa as r } from "./src-2.js";
+import { E as i, Ir as a, Sa as o } from "./app-server-manager-signals.js";
+import { n as s, t as c } from "./jsx-runtime.js";
+import { t as l } from "./clsx.js";
+import {
+  A as u,
+  F as d,
+  G as f,
+  I as p,
+  P as m,
+  g as h,
+  l as g,
+  lt as _,
+  o as v,
+  s as y,
+  u as ee,
+  v as te,
+} from "./vscode-api.js";
+import { c as b, o as x, t as S } from "./lib-2.js";
+import { v as C } from "./persisted-signal-CweW-bgN.js";
+import { t as w } from "./request.js";
+import { t as T } from "./tooltip.js";
+import { t as E } from "./route-scope.js";
+import { n as D, t as O } from "./prompt-text.js";
+import { t as k } from "./button.js";
+import { t as A } from "./spinner.js";
+import { t as j } from "./open-workspace-file.js";
+import { t as M } from "./thread-detail-level.js";
+import { _ as N, g as P } from "./use-plugins.js";
+import { t as F } from "./pencil.js";
+import { d as I } from "./inline-mentions.js";
+import { t as L } from "./workspace-file-context-menu.js";
+import { t as R } from "./check-md.js";
+import { t as z } from "./context-menu.js";
+import { t as B } from "./chevron.js";
+import { t as V } from "./warning.js";
+import { t as ne } from "./copy.js";
+import { t as re } from "./image-preview-dialog.js";
+import { t as ie } from "./pull-request-open.js";
+import { i as ae, n as H, o as oe, r as se, t as U } from "./composer-controller-r.js";
+import { n as W } from "./attachment-remove-button-IK_O-aB4.js";
+import { a as G, i as K, n as ce, r as q, t as le } from "./mention-metadata-syncer-BQP-BBHU.js";
+import { t as ue } from "./use-enter-behavior.js";
+import { d as de } from "./hooks-settings-model-B-xhl-k2.js";
+import { r as fe } from "./use-composer-controller.js";
+import { t as pe } from "./at-mention-list-1.js";
+import { t as me } from "./anchored-autocomplete-overlay.js";
+import { n as J } from "./prompt-editor.js";
+import { t as he } from "./use-autocomplete-overlay-placement.js";
+import { t as ge } from "./use-measured-text-collapse.js";
+import { t as _e } from "./hooks.js";
+import { t as Y } from "./user-formatted-text.js";
+import { n as ve } from "./hooks-settings-copy.js";
+var X = _(),
+  Z = e(s(), 1),
+  Q = c();
+function ye(e) {
+  let t = (0, X.c)(11),
+    { stats: n, threadDetailLevel: r } = e,
+    i = b(),
+    a = (r ?? `STEPS_COMMANDS`) === M,
+    o;
+  t[0] === i
+    ? (o = t[1])
+    : ((o = i.formatMessage({
+        id: `assistantMessage.hookStats.label`,
+        defaultMessage: `Hooks`,
+        description: `Accessible label for hook runs`,
+      })),
+      (t[0] = i),
+      (t[1] = o));
+  let s = o,
+    c;
+  t[2] !== a || t[3] !== n
+    ? ((c = a ? (0, Q.jsx)(Se, { stats: n }) : (0, Q.jsx)(be, { stats: n })),
+      (t[2] = a),
+      (t[3] = n),
+      (t[4] = c))
+    : (c = t[4]);
+  let l;
+  t[5] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((l = (0, Q.jsx)(_e, { className: `icon-xs` })), (t[5] = l))
+    : (l = t[5]);
+  let u;
+  t[6] === s
+    ? (u = t[7])
+    : ((u = (0, Q.jsx)(k, { "aria-label": s, color: `ghost`, size: `icon`, children: l })),
+      (t[6] = s),
+      (t[7] = u));
+  let d;
+  return (
+    t[8] !== c || t[9] !== u
+      ? ((d = (0, Q.jsx)(T, {
+          tooltipContent: c,
+          tooltipClassName: `px-3 py-2`,
+          tooltipMaxWidth: `min(32rem, var(--radix-tooltip-content-available-width), calc(100vw - 16px))`,
+          children: u,
+        })),
+        (t[8] = c),
+        (t[9] = u),
+        (t[10] = d))
+      : (d = t[10]),
+    d
+  );
+}
+function be(e) {
+  let t = (0, X.c)(17),
+    { stats: n } = e,
+    r;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((r = (0, Q.jsx)(`div`, {
+        className: `font-medium`,
+        children: (0, Q.jsx)(x, {
+          id: `assistantMessage.hookStats.title`,
+          defaultMessage: `Hooks summary`,
+          description: `Title for hook summary tooltip`,
+        }),
+      })),
+      (t[0] = r))
+    : (r = t[0]);
+  let i;
+  t[1] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((i = (0, Q.jsx)(`span`, {
+        children: (0, Q.jsx)(x, {
+          id: `assistantMessage.hookStats.ranCount`,
+          defaultMessage: `Ran`,
+          description: `Label for hook runs counted in the hook stats tooltip`,
+        }),
+      })),
+      (t[1] = i))
+    : (i = t[1]);
+  let a;
+  t[2] === n.count
+    ? (a = t[3])
+    : ((a = (0, Q.jsx)(`span`, {
+        className: `text-right text-token-text-primary`,
+        children: (0, Q.jsx)(S, { value: n.count }),
+      })),
+      (t[2] = n.count),
+      (t[3] = a));
+  let o;
+  t[4] === n.blockedCount
+    ? (o = t[5])
+    : ((o =
+        n.blockedCount > 0
+          ? (0, Q.jsxs)(Q.Fragment, {
+              children: [
+                (0, Q.jsx)(`span`, {
+                  children: (0, Q.jsx)(x, {
+                    id: `assistantMessage.hookStats.blockedCount`,
+                    defaultMessage: `Blocked`,
+                    description: `Label for blocked hook runs counted in the hook stats tooltip`,
+                  }),
+                }),
+                (0, Q.jsx)(`span`, {
+                  className: `text-right text-token-text-primary`,
+                  children: (0, Q.jsx)(S, { value: n.blockedCount }),
+                }),
+              ],
+            })
+          : null),
+      (t[4] = n.blockedCount),
+      (t[5] = o));
+  let s;
+  t[6] === n.errorCount
+    ? (s = t[7])
+    : ((s =
+        n.errorCount > 0
+          ? (0, Q.jsxs)(Q.Fragment, {
+              children: [
+                (0, Q.jsx)(`span`, {
+                  children: (0, Q.jsx)(x, {
+                    id: `assistantMessage.hookStats.errorCount`,
+                    defaultMessage: `Errors`,
+                    description: `Label for failed hook runs counted in the hook stats tooltip`,
+                  }),
+                }),
+                (0, Q.jsx)(`span`, {
+                  className: `text-right text-token-text-primary`,
+                  children: (0, Q.jsx)(S, { value: n.errorCount }),
+                }),
+              ],
+            })
+          : null),
+      (t[6] = n.errorCount),
+      (t[7] = s));
+  let c;
+  t[8] !== a || t[9] !== o || t[10] !== s
+    ? ((c = (0, Q.jsxs)(`div`, {
+        className: `grid grid-cols-[auto_auto] gap-x-3 gap-y-1 text-token-text-secondary`,
+        children: [i, a, o, s],
+      })),
+      (t[8] = a),
+      (t[9] = o),
+      (t[10] = s),
+      (t[11] = c))
+    : (c = t[11]);
+  let l;
+  t[12] === n.entries
+    ? (l = t[13])
+    : ((l =
+        n.entries.length > 0
+          ? (0, Q.jsx)(`ul`, {
+              className: `grid min-w-0 grid-cols-[auto_minmax(0,1fr)] gap-x-3 gap-y-1`,
+              children: n.entries.map(xe),
+            })
+          : null),
+      (t[12] = n.entries),
+      (t[13] = l));
+  let u;
+  return (
+    t[14] !== c || t[15] !== l
+      ? ((u = (0, Q.jsxs)(`div`, {
+          className: `flex min-w-0 flex-col gap-2 text-left`,
+          children: [r, c, l],
+        })),
+        (t[14] = c),
+        (t[15] = l),
+        (t[16] = u))
+      : (u = t[16]),
+    u
+  );
+}
+function xe(e, t) {
+  return (0, Q.jsxs)(
+    `li`,
+    {
+      className: `contents`,
+      children: [
+        (0, Q.jsx)(`span`, { className: `text-token-text-secondary`, children: Ce(e.kind) }),
+        (0, Q.jsx)(`span`, {
+          className: `min-w-0 break-words whitespace-pre-wrap text-token-text-primary`,
+          children: e.text,
+        }),
+      ],
+    },
+    `${e.kind}:${String(t)}:${e.text}`,
+  );
+}
+function Se(e) {
+  let t = (0, X.c)(8),
+    { stats: n } = e,
+    r = b(),
+    i;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((i = (0, Q.jsx)(`div`, {
+        className: `font-medium`,
+        children: (0, Q.jsx)(x, {
+          id: `assistantMessage.hookStats.codeTitle`,
+          defaultMessage: `Hooks`,
+          description: `Title for detailed hook runs tooltip in code mode`,
+        }),
+      })),
+      (t[0] = i))
+    : (i = t[0]);
+  let a;
+  if (t[1] !== r || t[2] !== n.runs) {
+    let e;
+    (t[4] === r
+      ? (e = t[5])
+      : ((e = (e) =>
+          (0, Q.jsxs)(
+            Z.Fragment,
+            {
+              children: [
+                (0, Q.jsx)(`li`, {
+                  className: `text-token-text-primary`,
+                  children: ve(e.eventName, r),
+                }),
+                (0, Q.jsxs)(`li`, {
+                  className: `flex min-w-0 flex-col`,
+                  children: [
+                    (0, Q.jsxs)(`span`, {
+                      className: `min-w-0 break-words whitespace-pre-wrap text-token-text-secondary`,
+                      children: [
+                        Te(e.source),
+                        e.count > 1
+                          ? (0, Q.jsx)(x, {
+                              id: `assistantMessage.hookStats.repeatCount`,
+                              defaultMessage: ` · {count} runs`,
+                              description: `Count for adjacent identical hook summaries`,
+                              values: { count: e.count },
+                            })
+                          : null,
+                      ],
+                    }),
+                    e.statusMessage == null
+                      ? null
+                      : (0, Q.jsx)(`span`, {
+                          className: `text-token-text-secondary`,
+                          children: e.statusMessage,
+                        }),
+                    e.entries.map($),
+                  ],
+                }),
+              ],
+            },
+            e.id,
+          )),
+        (t[4] = r),
+        (t[5] = e)),
+      (a = n.runs.map(e)),
+      (t[1] = r),
+      (t[2] = n.runs),
+      (t[3] = a));
+  } else a = t[3];
+  let o;
+  return (
+    t[6] === a
+      ? (o = t[7])
+      : ((o = (0, Q.jsxs)(`div`, {
+          className: `flex min-w-0 flex-col gap-2 text-left`,
+          children: [
+            i,
+            (0, Q.jsx)(`ul`, {
+              className: `grid min-w-0 grid-cols-[auto_minmax(0,1fr)] gap-x-4 gap-y-1`,
+              children: a,
+            }),
+          ],
+        })),
+        (t[6] = a),
+        (t[7] = o)),
+    o
+  );
+}
+function $(e, t) {
+  return (0, Q.jsx)(
+    `span`,
+    { className: we(e.tone), children: e.text },
+    `${e.tone}:${String(t)}:${e.text}`,
+  );
+}
+function Ce(e) {
+  switch (e) {
+    case `feedback`:
+      return (0, Q.jsx)(x, {
+        id: `assistantMessage.hookStats.entry.feedback`,
+        defaultMessage: `Feedback`,
+        description: `Label for hook feedback surfaced in the hook stats tooltip`,
+      });
+    case `stop`:
+      return (0, Q.jsx)(x, {
+        id: `assistantMessage.hookStats.entry.stop`,
+        defaultMessage: `Stop`,
+        description: `Label for hook stop output surfaced in the hook stats tooltip`,
+      });
+    case `error`:
+      return (0, Q.jsx)(x, {
+        id: `assistantMessage.hookStats.entry.error`,
+        defaultMessage: `Error`,
+        description: `Label for hook errors surfaced in the hook stats tooltip`,
+      });
+  }
+}
+function we(e) {
+  switch (e) {
+    case `error`:
+      return `text-token-editor-warning-foreground`;
+    case `warning`:
+      return `text-token-text-secondary`;
+  }
+}
+function Te(e) {
+  return (0, Q.jsx)(x, {
+    id: `assistantMessage.hookStats.source`,
+    defaultMessage: `{source, select, admin {Admin} user {User} project {Project} plugin {Plugin} sessionFlags {Session} other {Unknown}}`,
+    description: `Source label for hook runs in the detailed hook stats tooltip`,
+    values: { source: de([e]) ?? `unknown` },
+  });
+}
+var Ee = 20,
+  De = { display: `-webkit-box`, overflow: `hidden`, WebkitBoxOrient: `vertical` };
+function Oe(e) {
+  let t = (0, X.c)(18),
+    { text: n, cwd: r, hostId: i, collapsedLineCount: a } = e,
+    o = a === void 0 ? Ee : a,
+    s;
+  t[0] !== o || t[1] !== n
+    ? ((s = { text: n, collapsedLineCount: o, fallbackFontSizePx: 13 }),
+      (t[0] = o),
+      (t[1] = n),
+      (t[2] = s))
+    : (s = t[2]);
+  let { setTextContentMeasurementRef: c, collapseState: l, handleToggleExpansion: u } = ge(s),
+    d;
+  t[3] !== l || t[4] !== o
+    ? ((d = l === `collapsed` ? { ...De, maxHeight: `${o}lh`, WebkitLineClamp: o } : void 0),
+      (t[3] = l),
+      (t[4] = o),
+      (t[5] = d))
+    : (d = t[5]);
+  let f;
+  t[6] !== r || t[7] !== i || t[8] !== c || t[9] !== d || t[10] !== n
+    ? ((f = (0, Q.jsx)(`div`, {
+        className: `text-size-chat relative w-full min-w-0`,
+        children: (0, Q.jsx)(Y, { ref: c, cwd: r, hostId: i, style: d, text: n }),
+      })),
+      (t[6] = r),
+      (t[7] = i),
+      (t[8] = c),
+      (t[9] = d),
+      (t[10] = n),
+      (t[11] = f))
+    : (f = t[11]);
+  let p;
+  t[12] !== l || t[13] !== u
+    ? ((p =
+        l === `uncollapsible`
+          ? null
+          : (0, Q.jsxs)(`button`, {
+              type: `button`,
+              "aria-expanded": l === `expanded`,
+              className: `text-size-chat mt-1.5 inline-flex cursor-interaction items-center gap-1 self-start text-token-description-foreground hover:text-token-foreground`,
+              onClick: u,
+              children: [
+                (0, Q.jsx)(`span`, {
+                  children:
+                    l === `expanded`
+                      ? (0, Q.jsx)(x, {
+                          id: `codex.userMessage.showLess`,
+                          defaultMessage: `Show less`,
+                          description: `Button label for collapsing an expanded user message`,
+                        })
+                      : (0, Q.jsx)(x, {
+                          id: `codex.userMessage.showMore`,
+                          defaultMessage: `Show more`,
+                          description: `Button label for expanding a truncated user message`,
+                        }),
+                }),
+                (0, Q.jsx)(B, { className: l === `expanded` ? `icon-2xs rotate-180` : `icon-2xs` }),
+              ],
+            })),
+      (t[12] = l),
+      (t[13] = u),
+      (t[14] = p))
+    : (p = t[14]);
+  let m;
+  return (
+    t[15] !== f || t[16] !== p
+      ? ((m = (0, Q.jsxs)(`div`, { className: `flex flex-col items-end gap-1`, children: [f, p] })),
+        (t[15] = f),
+        (t[16] = p),
+        (t[17] = m))
+      : (m = t[17]),
+    m
+  );
+}
+var ke = 7;
+function Ae({ intl: e, sentAtMs: t, now: n }) {
+  let r = new Date(t),
+    i = je(r, n);
+  return i === 0
+    ? e.formatDate(r, { hour: `numeric`, minute: `2-digit` })
+    : i < 0 && i > -ke
+      ? e.formatDate(r, { weekday: `long`, hour: `numeric`, minute: `2-digit` })
+      : e.formatDate(r, { month: `short`, day: `numeric`, hour: `numeric`, minute: `2-digit` });
+}
+function je(e, t) {
+  let n = new Date(e.getFullYear(), e.getMonth(), e.getDate()),
+    r = new Date(t.getFullYear(), t.getMonth(), t.getDate());
+  return Math.round((n.getTime() - r.getTime()) / 864e5);
+}
+function Me(e) {
+  let t = (0, X.c)(9),
+    { className: n, sentAtMs: r, nowMs: i } = e,
+    a = b();
+  if (r == null) return null;
+  let o;
+  t[0] === n
+    ? (o = t[1])
+    : ((o = l(`text-xs text-token-text-tertiary`, n)), (t[0] = n), (t[1] = o));
+  let s;
+  t[2] !== a || t[3] !== i || t[4] !== r
+    ? ((s = Ae({ intl: a, sentAtMs: r, now: i == null ? new Date() : new Date(i) })),
+      (t[2] = a),
+      (t[3] = i),
+      (t[4] = r),
+      (t[5] = s))
+    : (s = t[5]);
+  let c;
+  return (
+    t[6] !== o || t[7] !== s
+      ? ((c = (0, Q.jsx)(`span`, { className: o, children: s })),
+        (t[6] = o),
+        (t[7] = s),
+        (t[8] = c))
+      : (c = t[8]),
+    c
+  );
+}
+function Ne({ cwd: e, hostId: t, initialMessage: n, onCancel: r, onDraftChange: i, onSubmit: a }) {
+  let o = b(),
+    { enterBehavior: s } = ue(),
+    c = (0, Z.useRef)(null),
+    [l] = (0, Z.useState)(() => {
+      let e = D(n),
+        t = O(n);
+      return U(n, {
+        defaultTextKind: e || t ? `prompt` : `plain`,
+        enterBehavior: s,
+        enableSelectedTextLinks: !0,
+        enableSlashCommands: !1,
+        restoreMarkdownLinksAsTextLinks: !0,
+        restorePathLinksAsFileMentions: e || !t,
+      });
+    });
+  ((0, Z.useEffect)(() => {
+    l.setEnterBehavior(s);
+  }, [l, s]),
+    J(
+      (0, Z.useCallback)(() => {
+        l.view.isDestroyed || l.destroy();
+      }, [l]),
+    ));
+  let u = (0, Z.useMemo)(() => {
+      if (e != null) return [e];
+    }, [e]),
+    d = se(l),
+    f = H(l),
+    p = he({ anchorRef: c, isActive: d.ui?.active ?? !1 }),
+    m = he({ anchorRef: c, isActive: f.ui?.active ?? !1 }),
+    [h, g] = (0, Z.useState)(!1),
+    _ = (0, Z.useEffectEvent)(() => {
+      i(l.getText());
+    });
+  (0, Z.useEffect)(() => fe(l.view, _), [l]);
+  let v = async () => {
+    if (!h) {
+      g(!0);
+      try {
+        await a(l.getText().trim());
+      } finally {
+        g(!1);
+      }
+    }
+  };
+  return (0, Q.jsx)(`form`, {
+    className: `relative flex w-full flex-col rounded-3xl bg-token-foreground/5`,
+    onSubmit: (e) => {
+      (e.preventDefault(), v());
+    },
+    children: (0, Q.jsxs)(`div`, {
+      ref: c,
+      className: `relative z-10 flex min-h-0 flex-1 flex-col`,
+      children: [
+        (0, Q.jsx)(me, {
+          anchorRef: c,
+          composerController: l,
+          isActive: d.ui?.active ?? !1,
+          mentionUiState: d.ui,
+          placement: p,
+          children: (0, Q.jsx)(pe, {
+            hostId: t,
+            onAddContext: d.addMention,
+            onRequestClose: d.closeAutocomplete,
+            onUpdateSelectedMention: d.setSelectedMention,
+            query: d.ui?.query ?? ``,
+            roots: u,
+            skillRoots: u,
+            source: d.ui?.source ?? null,
+          }),
+        }),
+        (0, Q.jsx)(ae, {
+          autocomplete: f,
+          cwd: e ?? void 0,
+          roots: u,
+          hostId: t,
+          composerController: l,
+          anchorRef: c,
+          placement: m,
+        }),
+        (0, Q.jsx)(le, {
+          composerController: l,
+          hostId: t,
+          roots: u,
+          shouldLoadPlugins: d.ui?.active === !0,
+        }),
+        (0, Q.jsx)(`div`, {
+          className: `mb-2 flex-grow overflow-y-auto px-3 pt-3`,
+          children: (0, Q.jsx)(oe, {
+            ariaLabel: o.formatMessage({
+              id: `codex.userMessage.editTextareaAriaLabel`,
+              defaultMessage: `Edit message`,
+              description: `Aria label for the editor used to edit the previous user message`,
+            }),
+            className: `text-base`,
+            composerController: l,
+            placeholder: o.formatMessage({
+              id: `codex.userMessage.editPlaceholder`,
+              defaultMessage: `Edit message`,
+              description: `Placeholder shown in the editor used to edit a previous user message`,
+            }),
+            onMentionHandler: d.handleMentionEvent,
+            onSkillMentionHandler: f.handleMentionEvent,
+            onSubmit: () => {
+              v();
+            },
+          }),
+        }),
+        (0, Q.jsxs)(`div`, {
+          className: `flex justify-end gap-1.5 px-3 pb-3`,
+          children: [
+            (0, Q.jsx)(k, {
+              color: `outline`,
+              size: `toolbar`,
+              disabled: h,
+              onClick: r,
+              children: (0, Q.jsx)(x, {
+                id: `codex.userMessage.cancelEditMessage`,
+                defaultMessage: `Cancel`,
+                description: `Button label for canceling an edited user message`,
+              }),
+            }),
+            (0, Q.jsx)(k, {
+              color: `primary`,
+              size: `toolbar`,
+              loading: h,
+              type: `submit`,
+              children: (0, Q.jsx)(x, {
+                id: `codex.userMessage.sendEditedMessage`,
+                defaultMessage: `Send`,
+                description: `Button label for submitting an edited user message`,
+              }),
+            }),
+          ],
+        }),
+      ],
+    }),
+  });
+}
+var Pe = f(E, (e) => null);
+function Fe(e) {
+  let t = (0, X.c)(93),
+    {
+      message: n,
+      sentAtMs: r,
+      collapsedLineCount: i,
+      alwaysShowActions: s,
+      compactActions: c,
+      messageStatus: u,
+      messageStatusIcon: f,
+      hookStats: h,
+      threadDetailLevel: g,
+      referencesPriorConversation: _,
+      reviewMode: v,
+      pullRequestFixMode: y,
+      autoResolveSync: ee,
+      hasExternalAttachments: te,
+      commentCount: S,
+      onEditMessage: w,
+      threadId: D,
+      turnId: O,
+      cwd: A,
+      hostId: j,
+    } = e,
+    M = s === void 0 ? !1 : s,
+    N = c === void 0 ? !1 : c,
+    P = _ === void 0 ? !1 : _,
+    I = v === void 0 ? !1 : v,
+    L = y === void 0 ? !1 : y,
+    z = ee === void 0 ? !1 : ee,
+    B = te === void 0 ? !1 : te,
+    V = S === void 0 ? 0 : S,
+    re = d(E),
+    ie = o(n),
+    ae = ie.trim(),
+    H = w != null && O != null && !ie.startsWith(`PLEASE IMPLEMENT THIS PLAN:`),
+    [oe, se] = (0, Z.useState)(!1),
+    U = m(Pe, O),
+    W = H && U != null,
+    G = b(),
+    K = p(C),
+    ce = ie.startsWith(`PLEASE IMPLEMENT THIS PLAN:`)
+      ? G.formatMessage({
+          id: `codex.userMessage.implementPlan`,
+          defaultMessage: `Implement plan`,
+          description: `Display text for the synthetic implement-plan follow-up prompt`,
+        })
+      : ie,
+    q = ce.trim().length > 0,
+    le = P || I || L || z || B || V > 0,
+    ue = q || !le,
+    de = le || u != null || !N,
+    fe;
+  t[0] !== K || t[1] !== se || t[2] !== D || t[3] !== ae || t[4] !== O
+    ? ((fe = () => {
+        (D != null &&
+          O != null &&
+          K.submitCodexAnalyticsEvent?.({
+            action: `copy`,
+            eventKind: `action`,
+            metadata: { surface: `user_message` },
+            threadId: D,
+            turnId: O,
+          }),
+          navigator.clipboard.writeText(a(ae)).then(() => {
+            (se(!0), setTimeout(() => se(!1), 1500));
+          }));
+      }),
+      (t[0] = K),
+      (t[1] = se),
+      (t[2] = D),
+      (t[3] = ae),
+      (t[4] = O),
+      (t[5] = fe))
+    : (fe = t[5]);
+  let pe = fe,
+    me;
+  t[6] !== re || t[7] !== O
+    ? ((me = (e) => {
+        re.set(Pe, O, e);
+      }),
+      (t[6] = re),
+      (t[7] = O),
+      (t[8] = me))
+    : (me = t[8]);
+  let J = me,
+    he;
+  t[9] !== w || t[10] !== J
+    ? ((he = async (e) => {
+        w != null && (await w(e), J(null));
+      }),
+      (t[9] = w),
+      (t[10] = J),
+      (t[11] = he))
+    : (he = t[11]);
+  let ge = he,
+    _e;
+  t[12] !== U || t[13] !== K || t[14] !== J || t[15] !== D || t[16] !== ae || t[17] !== O
+    ? ((_e = () => {
+        (D != null &&
+          O != null &&
+          K.submitCodexAnalyticsEvent?.({
+            action: `edit`,
+            eventKind: `action`,
+            metadata: { surface: `user_message` },
+            threadId: D,
+            turnId: O,
+          }),
+          U ?? J(ae));
+      }),
+      (t[12] = U),
+      (t[13] = K),
+      (t[14] = J),
+      (t[15] = D),
+      (t[16] = ae),
+      (t[17] = O),
+      (t[18] = _e))
+    : (_e = t[18]);
+  let Y = _e,
+    ve;
+  t[19] === Y
+    ? (ve = t[20])
+    : ((ve = (e) => {
+        (e.key !== `Enter` && e.key !== ` `) || (e.preventDefault(), Y());
+      }),
+      (t[19] = Y),
+      (t[20] = ve));
+  let be = ve,
+    xe;
+  t[21] !== i || t[22] !== A || t[23] !== ce || t[24] !== q || t[25] !== j
+    ? ((xe = q
+        ? (0, Q.jsx)(Oe, { text: ce, cwd: A ?? null, hostId: j, collapsedLineCount: i })
+        : (0, Q.jsx)(`div`, {
+            className: `text-size-chat mb-px text-token-description-foreground`,
+            children: (0, Q.jsx)(x, {
+              id: `codex.userMessage.noContent`,
+              defaultMessage: `(No content)`,
+              description: `Text for when a user message has no content`,
+            }),
+          })),
+      (t[21] = i),
+      (t[22] = A),
+      (t[23] = ce),
+      (t[24] = q),
+      (t[25] = j),
+      (t[26] = xe))
+    : (xe = t[26]);
+  let Se = xe,
+    $,
+    Ce;
+  if (
+    t[27] !== H ||
+    t[28] !== A ||
+    t[29] !== U ||
+    t[30] !== be ||
+    t[31] !== pe ||
+    t[32] !== Y ||
+    t[33] !== ge ||
+    t[34] !== q ||
+    t[35] !== j ||
+    t[36] !== G ||
+    t[37] !== W ||
+    t[38] !== oe ||
+    t[39] !== J ||
+    t[40] !== ue ||
+    t[41] !== Se
+  ) {
+    let e = l(
+        `bg-token-foreground/5 max-w-[77%] min-w-0 overflow-hidden break-words rounded-2xl px-3 py-2 [&_.contain-inline-size]:[contain:initial]`,
+        !q && `leading-none`,
+      ),
+      n;
+    (t[44] !== pe || t[45] !== G || t[46] !== oe
+      ? ((n = oe
+          ? (0, Q.jsx)(T, {
+              tooltipContent: (0, Q.jsx)(x, {
+                id: `codex.userMessage.copiedTooltip`,
+                defaultMessage: `Copied`,
+                description: `Tooltip on copy message icon button when copied`,
+              }),
+              disabled: !0,
+              children: (0, Q.jsx)(k, {
+                color: `ghost`,
+                size: `icon`,
+                "aria-label": G.formatMessage({
+                  id: `codex.userMessage.copiedAriaLabel`,
+                  defaultMessage: `Copied`,
+                  description: `Aria label for the copy button after the content has been copied`,
+                }),
+                children: (0, Q.jsx)(R, { className: `icon-xs` }),
+              }),
+            })
+          : (0, Q.jsx)(T, {
+              tooltipContent: (0, Q.jsx)(x, {
+                id: `codex.userMessage.copyTooltip`,
+                defaultMessage: `Copy`,
+                description: `Tooltip on copy message icon button`,
+              }),
+              children: (0, Q.jsx)(k, {
+                color: `ghost`,
+                size: `icon`,
+                "aria-label": G.formatMessage({
+                  id: `codex.userMessage.copyAriaLabel`,
+                  defaultMessage: `Copy message`,
+                  description: `Aria label for the button that copies the user's message`,
+                }),
+                onClick: pe,
+                children: (0, Q.jsx)(ne, { className: `icon-xs` }),
+              }),
+            })),
+        (t[44] = pe),
+        (t[45] = G),
+        (t[46] = oe),
+        (t[47] = n))
+      : (n = t[47]),
+      ($ = n),
+      (Ce = W
+        ? (0, Q.jsx)(`div`, {
+            className: `w-full p-px`,
+            children: (0, Q.jsx)(Ne, {
+              cwd: A ?? null,
+              hostId: j,
+              initialMessage: U.trim(),
+              onCancel: () => {
+                J(null);
+              },
+              onDraftChange: (e) => {
+                J(e);
+              },
+              onSubmit: ge,
+            }),
+          })
+        : ue
+          ? H
+            ? (0, Q.jsx)(`div`, {
+                role: `button`,
+                tabIndex: 0,
+                className: l(
+                  e,
+                  `cursor-interaction text-left focus-visible:ring-2 focus-visible:ring-token-focus-border focus-visible:outline-none`,
+                ),
+                "aria-label": G.formatMessage({
+                  id: `codex.userMessage.editBubbleAriaLabel`,
+                  defaultMessage: `Edit user message`,
+                  description: `Aria label for an editable user message bubble`,
+                }),
+                onKeyDown: be,
+                onDoubleClick: Y,
+                children: Se,
+              })
+            : (0, Q.jsx)(`div`, { className: e, children: Se })
+          : null),
+      (t[27] = H),
+      (t[28] = A),
+      (t[29] = U),
+      (t[30] = be),
+      (t[31] = pe),
+      (t[32] = Y),
+      (t[33] = ge),
+      (t[34] = q),
+      (t[35] = j),
+      (t[36] = G),
+      (t[37] = W),
+      (t[38] = oe),
+      (t[39] = J),
+      (t[40] = ue),
+      (t[41] = Se),
+      (t[42] = $),
+      (t[43] = Ce));
+  } else (($ = t[42]), (Ce = t[43]));
+  let we = Ce,
+    Te;
+  t[48] !== N || t[49] !== $ || t[50] !== q || t[51] !== W || t[52] !== we
+    ? ((Te =
+        N && q && !W
+          ? (0, Q.jsxs)(`div`, {
+              className: `flex w-full items-center justify-end gap-1`,
+              children: [
+                (0, Q.jsx)(`div`, {
+                  className: `opacity-0 group-focus-within:opacity-100 group-hover:opacity-100`,
+                  children: $,
+                }),
+                we,
+              ],
+            })
+          : we),
+      (t[48] = N),
+      (t[49] = $),
+      (t[50] = q),
+      (t[51] = W),
+      (t[52] = we),
+      (t[53] = Te))
+    : (Te = t[53]);
+  let Ee = !de && `hidden`,
+    De;
+  t[54] === Ee
+    ? (De = t[55])
+    : ((De = l(`flex flex-row-reverse items-center gap-1`, Ee)), (t[54] = Ee), (t[55] = De));
+  let ke;
+  t[56] !== u || t[57] !== f
+    ? ((ke =
+        u == null
+          ? null
+          : (0, Q.jsxs)(`div`, {
+              className: `ms-1 mr-1 flex items-center gap-2`,
+              children: [f, (0, Q.jsx)(Ie, { children: u })],
+            })),
+      (t[56] = u),
+      (t[57] = f),
+      (t[58] = ke))
+    : (ke = t[58]);
+  let Ae;
+  t[59] === P
+    ? (Ae = t[60])
+    : ((Ae =
+        P &&
+        (0, Q.jsx)(Ie, {
+          children: (0, Q.jsx)(x, {
+            id: `codex.userMessage.priorConversation`,
+            defaultMessage: `References prior conversation`,
+            description: `Text for the prior conversation button`,
+          }),
+        })),
+      (t[59] = P),
+      (t[60] = Ae));
+  let je;
+  t[61] === I
+    ? (je = t[62])
+    : ((je =
+        I &&
+        (0, Q.jsx)(Ie, {
+          children: (0, Q.jsx)(x, {
+            id: `codex.userMessage.reviewMode`,
+            defaultMessage: `Review mode`,
+            description: `Chip shown when a user asked for a code review`,
+          }),
+        })),
+      (t[61] = I),
+      (t[62] = je));
+  let Fe;
+  t[63] === L
+    ? (Fe = t[64])
+    : ((Fe =
+        L &&
+        (0, Q.jsx)(Ie, {
+          children: (0, Q.jsx)(x, {
+            id: `codex.userMessage.pullRequestFixMode`,
+            defaultMessage: `PR fix`,
+            description: `Chip shown when a user started a pull request CI fix task`,
+          }),
+        })),
+      (t[63] = L),
+      (t[64] = Fe));
+  let Le;
+  t[65] === z
+    ? (Le = t[66])
+    : ((Le =
+        z &&
+        (0, Q.jsx)(Ie, {
+          children: (0, Q.jsx)(x, {
+            id: `codex.userMessage.autoResolveSync`,
+            defaultMessage: `Auto resolve conflicts`,
+            description: `Chip shown when the user requested auto resolve for handoff conflicts`,
+          }),
+        })),
+      (t[65] = z),
+      (t[66] = Le));
+  let Re;
+  t[67] === V
+    ? (Re = t[68])
+    : ((Re =
+        V > 0 &&
+        (0, Q.jsx)(Ie, {
+          children: (0, Q.jsx)(x, {
+            id: `codex.userMessage.commentCount`,
+            defaultMessage: `{count, plural, one {# comment} other {# comments}}`,
+            description: `Chip shown when the user included inline diff comments in the prompt`,
+            values: { count: V },
+          }),
+        })),
+      (t[67] = V),
+      (t[68] = Re));
+  let ze;
+  t[69] !== M ||
+  t[70] !== H ||
+  t[71] !== N ||
+  t[72] !== $ ||
+  t[73] !== Y ||
+  t[74] !== q ||
+  t[75] !== h ||
+  t[76] !== G ||
+  t[77] !== W ||
+  t[78] !== r ||
+  t[79] !== g
+    ? ((ze =
+        q && !W && !N
+          ? (0, Q.jsxs)(`div`, {
+              className: l(
+                `mr-1 ms-1 flex items-center gap-2`,
+                M ? void 0 : `opacity-0 group-focus-within:opacity-100 group-hover:opacity-100`,
+              ),
+              children: [
+                r == null
+                  ? null
+                  : (0, Q.jsx)(`span`, {
+                      className: `opacity-0 group-focus-within:opacity-100 group-hover:opacity-100`,
+                      children: (0, Q.jsx)(Me, { sentAtMs: r }),
+                    }),
+                (0, Q.jsxs)(`div`, {
+                  className: `flex items-center gap-1`,
+                  children: [
+                    h == null ? null : (0, Q.jsx)(ye, { stats: h, threadDetailLevel: g }),
+                    $,
+                    H
+                      ? (0, Q.jsx)(T, {
+                          tooltipContent: (0, Q.jsx)(x, {
+                            id: `codex.userMessage.editTooltip`,
+                            defaultMessage: `Edit`,
+                            description: `Tooltip on edit message icon button`,
+                          }),
+                          children: (0, Q.jsx)(k, {
+                            color: `ghost`,
+                            size: `icon`,
+                            "aria-label": G.formatMessage({
+                              id: `codex.userMessage.editAriaLabel`,
+                              defaultMessage: `Edit message`,
+                              description: `Aria label for the button that edits the previous user message`,
+                            }),
+                            onClick: Y,
+                            children: (0, Q.jsx)(F, { className: `icon-xs` }),
+                          }),
+                        })
+                      : null,
+                  ],
+                }),
+              ],
+            })
+          : null),
+      (t[69] = M),
+      (t[70] = H),
+      (t[71] = N),
+      (t[72] = $),
+      (t[73] = Y),
+      (t[74] = q),
+      (t[75] = h),
+      (t[76] = G),
+      (t[77] = W),
+      (t[78] = r),
+      (t[79] = g),
+      (t[80] = ze))
+    : (ze = t[80]);
+  let Be;
+  t[81] !== De ||
+  t[82] !== ke ||
+  t[83] !== Ae ||
+  t[84] !== je ||
+  t[85] !== Fe ||
+  t[86] !== Le ||
+  t[87] !== Re ||
+  t[88] !== ze
+    ? ((Be = (0, Q.jsxs)(`div`, { className: De, children: [ke, Ae, je, Fe, Le, Re, ze] })),
+      (t[81] = De),
+      (t[82] = ke),
+      (t[83] = Ae),
+      (t[84] = je),
+      (t[85] = Fe),
+      (t[86] = Le),
+      (t[87] = Re),
+      (t[88] = ze),
+      (t[89] = Be))
+    : (Be = t[89]);
+  let Ve;
+  return (
+    t[90] !== Te || t[91] !== Be
+      ? ((Ve = (0, Q.jsxs)(`div`, {
+          className: `group flex w-full flex-col items-end justify-end gap-1`,
+          children: [Te, Be],
+        })),
+        (t[90] = Te),
+        (t[91] = Be),
+        (t[92] = Ve))
+      : (Ve = t[92]),
+    Ve
+  );
+}
+function Ie(e) {
+  let t = (0, X.c)(8),
+    n,
+    r;
+  t[0] === e
+    ? ((n = t[1]), (r = t[2]))
+    : (({ className: n, ...r } = e), (t[0] = e), (t[1] = n), (t[2] = r));
+  let i;
+  t[3] === n
+    ? (i = t[4])
+    : ((i = l(`text-token-description-foreground text-xs`, n)), (t[3] = n), (t[4] = i));
+  let a;
+  return (
+    t[5] !== r || t[6] !== i
+      ? ((a = (0, Q.jsx)(`span`, { className: i, ...r })), (t[5] = r), (t[6] = i), (t[7] = a))
+      : (a = t[7]),
+    a
+  );
+}
+var Le = t((e, t) => {
+  var n = [
+      [
+        { color: `0, 0, 0`, class: `ansi-black` },
+        { color: `187, 0, 0`, class: `ansi-red` },
+        { color: `0, 187, 0`, class: `ansi-green` },
+        { color: `187, 187, 0`, class: `ansi-yellow` },
+        { color: `0, 0, 187`, class: `ansi-blue` },
+        { color: `187, 0, 187`, class: `ansi-magenta` },
+        { color: `0, 187, 187`, class: `ansi-cyan` },
+        { color: `255,255,255`, class: `ansi-white` },
+      ],
+      [
+        { color: `85, 85, 85`, class: `ansi-bright-black` },
+        { color: `255, 85, 85`, class: `ansi-bright-red` },
+        { color: `0, 255, 0`, class: `ansi-bright-green` },
+        { color: `255, 255, 85`, class: `ansi-bright-yellow` },
+        { color: `85, 85, 255`, class: `ansi-bright-blue` },
+        { color: `255, 85, 255`, class: `ansi-bright-magenta` },
+        { color: `85, 255, 255`, class: `ansi-bright-cyan` },
+        { color: `255, 255, 255`, class: `ansi-bright-white` },
+      ],
+    ],
+    r = /(https?:\/\/(?:[A-Za-z0-9#;/?:@=+$',_.!~*()[\]-]|&amp;|%[A-Fa-f0-9]{2})+)/gm;
+  t.exports = class e {
+    static escapeForHtml(t) {
+      return new e().escapeForHtml(t);
+    }
+    static linkify(t) {
+      return new e().linkify(t);
+    }
+    static ansiToHtml(t, n) {
+      return new e().ansiToHtml(t, n);
+    }
+    static ansiToJson(t, n) {
+      return new e().ansiToJson(t, n);
+    }
+    static ansiToText(t) {
+      return new e().ansiToText(t);
+    }
+    constructor() {
+      ((this.fg = this.bg = this.fg_truecolor = this.bg_truecolor = null),
+        (this.bright = 0),
+        (this.decorations = []));
+    }
+    setupPalette() {
+      this.PALETTE_COLORS = [];
+      for (let e = 0; e < 2; ++e)
+        for (let t = 0; t < 8; ++t) this.PALETTE_COLORS.push(n[e][t].color);
+      let e = [0, 95, 135, 175, 215, 255],
+        t = (t, n, r) => e[t] + `, ` + e[n] + `, ` + e[r];
+      for (let e = 0; e < 6; ++e)
+        for (let n = 0; n < 6; ++n)
+          for (let r = 0; r < 6; ++r) this.PALETTE_COLORS.push(t(e, n, r));
+      let r = 8;
+      for (let e = 0; e < 24; ++e, r += 10) this.PALETTE_COLORS.push(r + `, ` + r + `, ` + r);
+    }
+    escapeForHtml(e) {
+      return e.replace(/[&<>\"]/gm, (e) =>
+        e == `&` ? `&amp;` : e == `"` ? `&quot;` : e == `<` ? `&lt;` : e == `>` ? `&gt;` : ``,
+      );
+    }
+    linkify(e) {
+      return e.replace(r, (e) => `<a href="${e}">${e}</a>`);
+    }
+    ansiToHtml(e, t) {
+      return this.process(e, t, !0);
+    }
+    ansiToJson(e, t) {
+      return ((t ||= {}), (t.json = !0), (t.clearLine = !1), this.process(e, t, !0));
+    }
+    ansiToText(e) {
+      return this.process(e, {}, !1);
+    }
+    process(e, t, n) {
+      let r = this,
+        i = e.split(/\033\[/),
+        a = i.shift();
+      ((t ??= {}), (t.clearLine = /\r/.test(e)));
+      let o = i.map((e) => this.processChunk(e, t, n));
+      if (t && t.json) {
+        let e = r.processChunkJson(``);
+        return (
+          (e.content = a),
+          (e.clearLine = t.clearLine),
+          o.unshift(e),
+          t.remove_empty && (o = o.filter((e) => !e.isEmpty())),
+          o
+        );
+      } else o.unshift(a);
+      return o.join(``);
+    }
+    processChunkJson(e, t, r) {
+      t = t === void 0 ? {} : t;
+      let i = (t.use_classes = t.use_classes !== void 0 && t.use_classes),
+        a = (t.key = i ? `class` : `color`),
+        o = {
+          content: e,
+          fg: null,
+          bg: null,
+          fg_truecolor: null,
+          bg_truecolor: null,
+          isInverted: !1,
+          clearLine: t.clearLine,
+          decoration: null,
+          decorations: [],
+          was_processed: !1,
+          isEmpty: () => !o.content,
+        },
+        s = e.match(/^([!\x3c-\x3f]*)([\d;]*)([\x20-\x2c]*[\x40-\x7e])([\s\S]*)/m);
+      if (!s) return o;
+      o.content = s[4];
+      let c = s[2].split(`;`);
+      if (s[1] !== `` || s[3] !== `m` || !r) return o;
+      let l = this;
+      for (; c.length > 0; ) {
+        let e = c.shift(),
+          t = parseInt(e);
+        if (isNaN(t) || t === 0) ((l.fg = l.bg = null), (l.decorations = []));
+        else if (t === 1) l.decorations.push(`bold`);
+        else if (t === 2) l.decorations.push(`dim`);
+        else if (t === 3) l.decorations.push(`italic`);
+        else if (t === 4) l.decorations.push(`underline`);
+        else if (t === 5) l.decorations.push(`blink`);
+        else if (t === 7) l.decorations.push(`reverse`);
+        else if (t === 8) l.decorations.push(`hidden`);
+        else if (t === 9) l.decorations.push(`strikethrough`);
+        else if (t === 21) l.removeDecoration(`bold`);
+        else if (t === 22) (l.removeDecoration(`bold`), l.removeDecoration(`dim`));
+        else if (t === 23) l.removeDecoration(`italic`);
+        else if (t === 24) l.removeDecoration(`underline`);
+        else if (t === 25) l.removeDecoration(`blink`);
+        else if (t === 27) l.removeDecoration(`reverse`);
+        else if (t === 28) l.removeDecoration(`hidden`);
+        else if (t === 29) l.removeDecoration(`strikethrough`);
+        else if (t === 39) l.fg = null;
+        else if (t === 49) l.bg = null;
+        else if (t >= 30 && t < 38) l.fg = n[0][t % 10][a];
+        else if (t >= 90 && t < 98) l.fg = n[1][t % 10][a];
+        else if (t >= 40 && t < 48) l.bg = n[0][t % 10][a];
+        else if (t >= 100 && t < 108) l.bg = n[1][t % 10][a];
+        else if (t === 38 || t === 48) {
+          let e = t === 38;
+          if (c.length >= 1) {
+            let t = c.shift();
+            if (t === `5` && c.length >= 1) {
+              let t = parseInt(c.shift());
+              if (t >= 0 && t <= 255)
+                if (!i)
+                  (this.PALETTE_COLORS || l.setupPalette(),
+                    e ? (l.fg = this.PALETTE_COLORS[t]) : (l.bg = this.PALETTE_COLORS[t]));
+                else {
+                  let r = t >= 16 ? `ansi-palette-` + t : n[t > 7 ? 1 : 0][t % 8].class;
+                  e ? (l.fg = r) : (l.bg = r);
+                }
+            } else if (t === `2` && c.length >= 3) {
+              let t = parseInt(c.shift()),
+                n = parseInt(c.shift()),
+                r = parseInt(c.shift());
+              if (t >= 0 && t <= 255 && n >= 0 && n <= 255 && r >= 0 && r <= 255) {
+                let a = t + `, ` + n + `, ` + r;
+                i
+                  ? e
+                    ? ((l.fg = `ansi-truecolor`), (l.fg_truecolor = a))
+                    : ((l.bg = `ansi-truecolor`), (l.bg_truecolor = a))
+                  : e
+                    ? (l.fg = a)
+                    : (l.bg = a);
+              }
+            }
+          }
+        }
+      }
+      return l.fg === null && l.bg === null && l.decorations.length === 0
+        ? o
+        : ((o.fg = l.fg),
+          (o.bg = l.bg),
+          (o.fg_truecolor = l.fg_truecolor),
+          (o.bg_truecolor = l.bg_truecolor),
+          (o.decorations = l.decorations),
+          (o.decoration = l.decorations.slice(-1).pop() || null),
+          (o.was_processed = !0),
+          o);
+    }
+    processChunk(e, t, r) {
+      t ||= {};
+      let i = this.processChunkJson(e, t, r),
+        a = t.use_classes;
+      if (
+        ((i.decorations = i.decorations.filter((e) => {
+          if (e === `reverse`) {
+            ((i.fg ||= n[0][7][a ? `class` : `color`]), (i.bg ||= n[0][0][a ? `class` : `color`]));
+            let e = i.fg;
+            ((i.fg = i.bg), (i.bg = e));
+            let t = i.fg_truecolor;
+            return (
+              (i.fg_truecolor = i.bg_truecolor), (i.bg_truecolor = t), (i.isInverted = !0), !1
+            );
+          }
+          return !0;
+        })),
+        t.json)
+      )
+        return i;
+      if (i.isEmpty()) return ``;
+      if (!i.was_processed) return i.content;
+      let o = [],
+        s = [],
+        c = [],
+        l = {},
+        u = (e) => {
+          let t = [],
+            n;
+          for (n in e)
+            e.hasOwnProperty(n) && t.push(`data-` + n + `="` + this.escapeForHtml(e[n]) + `"`);
+          return t.length > 0 ? ` ` + t.join(` `) : ``;
+        };
+      return (
+        i.isInverted && (l[`ansi-is-inverted`] = `true`),
+        i.fg &&
+          (a
+            ? (o.push(i.fg + `-fg`),
+              i.fg_truecolor !== null &&
+                ((l[`ansi-truecolor-fg`] = i.fg_truecolor), (i.fg_truecolor = null)))
+            : o.push(`color:rgb(` + i.fg + `)`)),
+        i.bg &&
+          (a
+            ? (o.push(i.bg + `-bg`),
+              i.bg_truecolor !== null &&
+                ((l[`ansi-truecolor-bg`] = i.bg_truecolor), (i.bg_truecolor = null)))
+            : o.push(`background-color:rgb(` + i.bg + `)`)),
+        i.decorations.forEach((e) => {
+          if (a) {
+            s.push(`ansi-` + e);
+            return;
+          }
+          e === `bold`
+            ? s.push(`font-weight:bold`)
+            : e === `dim`
+              ? s.push(`opacity:0.5`)
+              : e === `italic`
+                ? s.push(`font-style:italic`)
+                : e === `hidden`
+                  ? s.push(`visibility:hidden`)
+                  : e === `strikethrough`
+                    ? c.push(`line-through`)
+                    : c.push(e);
+        }),
+        c.length && s.push(`text-decoration:` + c.join(` `)),
+        a
+          ? `<span class="` + o.concat(s).join(` `) + `"` + u(l) + `>` + i.content + `</span>`
+          : `<span style="` + o.concat(s).join(`;`) + `"` + u(l) + `>` + i.content + `</span>`
+      );
+    }
+    removeDecoration(e) {
+      let t = this.decorations.indexOf(e);
+      t >= 0 && this.decorations.splice(t, 1);
+    }
+  };
+});
+function Re(e) {
+  if (!e) return ``;
+  if (!/\r/.test(e)) return e;
+  let t = e.replace(
+    /\r+\n/gm,
+    `
+`,
+  );
+  for (; /\r./.test(t); )
+    t = t.replace(/^([^\r\n]*)\r+([^\r\n]+)/gm, (e, t, n) => n + t.slice(n.length));
+  return t;
+}
+var ze = e(Le(), 1),
+  Be = RegExp(`[^\\n]\b`, `gm`);
+function Ve(e) {
+  let t = (0, X.c)(7),
+    { children: n, className: r } = e,
+    i,
+    a;
+  if (t[0] !== n || t[1] !== r) {
+    let e = ze.default.ansiToJson(Re(We(n)), { json: !0, remove_empty: !0, use_classes: !0 });
+    ((i = r), (a = e.map(He)), (t[0] = n), (t[1] = r), (t[2] = i), (t[3] = a));
+  } else ((i = t[2]), (a = t[3]));
+  let o;
+  return (
+    t[4] !== i || t[5] !== a
+      ? ((o = (0, Q.jsx)(`code`, { className: i, children: a })),
+        (t[4] = i),
+        (t[5] = a),
+        (t[6] = o))
+      : (o = t[6]),
+    o
+  );
+}
+function He(e, t) {
+  return (0, Q.jsx)(
+    `span`,
+    {
+      className: l(e.fg != null && `${e.fg}-fg`, e.bg != null && `${e.bg}-bg`),
+      style: Ue(e),
+      children: e.content,
+    },
+    `${t}-${e.content}`,
+  );
+}
+function Ue(e) {
+  let t = e.decoration == null ? [] : [e.decoration];
+  if (t.length === 0) return;
+  let n = {},
+    r = [];
+  return (
+    t.includes(`bold`) && (n.fontWeight = `bold`),
+    t.includes(`dim`) && (n.opacity = `0.5`),
+    t.includes(`italic`) && (n.fontStyle = `italic`),
+    t.includes(`hidden`) && (n.visibility = `hidden`),
+    t.includes(`underline`) && r.push(`underline`),
+    t.includes(`strikethrough`) && r.push(`line-through`),
+    r.length > 0 && (n.textDecorationLine = r.join(` `)),
+    n
+  );
+}
+function We(e) {
+  let t = e,
+    n = t;
+  do ((t = n), (n = t.replace(Be, ``)));
+  while (n.length < t.length);
+  return t;
+}
+function Ge(e) {
+  let t = (0, X.c)(14),
+    {
+      children: n,
+      column: r,
+      cwd: i,
+      endLine: a,
+      hostId: o,
+      line: s,
+      openInSidePanel: c,
+      path: l,
+    } = e,
+    u = c === void 0 ? !1 : c,
+    f = d(E),
+    p;
+  t[0] !== r || t[1] !== i || t[2] !== a || t[3] !== o || t[4] !== s || t[5] !== u || t[6] !== l
+    ? ((p = { column: r, cwd: i, endLine: a, hostId: o, line: s, openInSidePanel: u, path: l }),
+      (t[0] = r),
+      (t[1] = i),
+      (t[2] = a),
+      (t[3] = o),
+      (t[4] = s),
+      (t[5] = u),
+      (t[6] = l),
+      (t[7] = p))
+    : (p = t[7]);
+  let m = p,
+    h;
+  t[8] !== m || t[9] !== f
+    ? ((h = () => L(f, m)), (t[8] = m), (t[9] = f), (t[10] = h))
+    : (h = t[10]);
+  let g;
+  return (
+    t[11] !== n || t[12] !== h
+      ? ((g = (0, Q.jsx)(z, { getItems: h, children: n })), (t[11] = n), (t[12] = h), (t[13] = g))
+      : (g = t[13]),
+    g
+  );
+}
+var Ke = n({ base64: r(), contentType: r().optional() });
+function qe(e) {
+  return e.startsWith(`file-service://`) || e.startsWith(`sediment://`);
+}
+function Je(e) {
+  return e.startsWith(`file-service://`)
+    ? e.replace(`file-service://`, ``)
+    : e.startsWith(`sediment://`)
+      ? e.replace(`sediment://`, ``)
+      : e;
+}
+function Ye(e, t) {
+  let n = atob(e),
+    r = new Uint8Array(n.length);
+  for (let e = 0; e < n.length; e++) r[e] = n.charCodeAt(e);
+  let i = new Blob([r], { type: t || `application/octet-stream` });
+  return URL.createObjectURL(i);
+}
+function Xe(e, t) {
+  let n = (0, X.c)(22),
+    r = (0, Z.useRef)(null),
+    i = !!e,
+    a;
+  n[0] === t?.cacheKey
+    ? (a = n[1])
+    : ((a = t?.cacheKey ?? [`codex`]), (n[0] = t?.cacheKey), (n[1] = a));
+  let o;
+  n[2] !== e || n[3] !== a
+    ? ((o = [`file`, `image-src`, e, ...a]), (n[2] = e), (n[3] = a), (n[4] = o))
+    : (o = n[4]);
+  let s;
+  n[5] !== e || n[6] !== t
+    ? ((s = async () => {
+        let n = Je(e),
+          r = t == null ? `codex` : `custom`,
+          i = Ze(e);
+        try {
+          h.debug(`Image asset download diagnostic: started`, {
+            safe: { pointerScheme: i, resolverKind: r },
+            sensitive: { assetPointer: e, fileId: n },
+          });
+          let a = t == null ? await Qe(n) : await t.getDownloadRequest(n);
+          h.debug(`Image asset download diagnostic: URL resolved`, {
+            safe: { pointerScheme: i, resolverKind: r },
+            sensitive: { downloadUrl: a.downloadUrl, fileId: n },
+          });
+          let { body: o } = await g.getInstance().get(a.downloadUrl, a.requestHeaders),
+            s = Ke.parse(o);
+          return (
+            h.debug(`Image asset download diagnostic: bytes fetched`, {
+              safe: {
+                contentType: s.contentType,
+                hasBase64: s.base64.length > 0,
+                pointerScheme: i,
+                resolverKind: r,
+              },
+              sensitive: { fileId: n },
+            }),
+            Ye(s.base64, s.contentType)
+          );
+        } catch (t) {
+          let a = t;
+          throw (
+            h.warning(`Image asset download failed`, {
+              safe: { pointerScheme: i, resolverKind: r },
+              sensitive: { assetPointer: e, error: a, fileId: n },
+            }),
+            a
+          );
+        }
+      }),
+      (n[5] = e),
+      (n[6] = t),
+      (n[7] = s))
+    : (s = n[7]);
+  let c;
+  n[8] !== i || n[9] !== o || n[10] !== s
+    ? ((c = { enabled: i, queryKey: o, queryFn: s, staleTime: ee.FIVE_MINUTES }),
+      (n[8] = i),
+      (n[9] = o),
+      (n[10] = s),
+      (n[11] = c))
+    : (c = n[11]);
+  let { data: l, isLoading: u, isError: d, refetch: f } = te(c),
+    p,
+    m;
+  (n[12] === l
+    ? ((p = n[13]), (m = n[14]))
+    : ((p = () => {
+        if (r.current && r.current !== l && r.current.startsWith(`blob:`))
+          try {
+            URL.revokeObjectURL(r.current);
+          } catch {}
+        return (
+          (r.current = l ?? null),
+          () => {
+            if (r.current && r.current.startsWith(`blob:`))
+              try {
+                URL.revokeObjectURL(r.current);
+              } catch {}
+            r.current = null;
+          }
+        );
+      }),
+      (m = [l]),
+      (n[12] = l),
+      (n[13] = p),
+      (n[14] = m)),
+    (0, Z.useEffect)(p, m));
+  let _ = l ?? null,
+    v;
+  n[15] === f
+    ? (v = n[16])
+    : ((v = () => {
+        f();
+      }),
+      (n[15] = f),
+      (n[16] = v));
+  let y;
+  return (
+    n[17] !== d || n[18] !== u || n[19] !== _ || n[20] !== v
+      ? ((y = { src: _, isLoading: u, isError: d, refetch: v }),
+        (n[17] = d),
+        (n[18] = u),
+        (n[19] = _),
+        (n[20] = v),
+        (n[21] = y))
+      : (y = n[21]),
+    y
+  );
+}
+function Ze(e) {
+  try {
+    return new URL(e).protocol.replace(/:$/, ``) || `unknown`;
+  } catch {
+    return `unknown`;
+  }
+}
+async function Qe(e) {
+  return {
+    downloadUrl: $e(
+      await w.safeGet(`/files/download/{file_id}`, { parameters: { path: { file_id: e } } }),
+    ),
+  };
+}
+function $e(e) {
+  let t = et(e);
+  if (t == null || (t.status != null && t.status !== `success`) || !t.download_url)
+    throw Error(`Failed to get download URL`);
+  return t.download_url;
+}
+function et(e) {
+  if (typeof e != `object` || !e) return null;
+  let t = Object.fromEntries(Object.entries(e)),
+    n = t.download_url,
+    r = t.status;
+  return {
+    ...(typeof n == `string` ? { download_url: n } : {}),
+    ...(typeof r == `string` ? { status: r } : {}),
+  };
+}
+function tt(e) {
+  let t = (0, X.c)(42),
+    {
+      src: n,
+      conversationId: r,
+      imageAssetResolver: a,
+      open: o,
+      onOpenChange: s,
+      onPreviousImage: c,
+      onNextImage: l,
+      disableOpenAnimation: d,
+    } = e,
+    f = b(),
+    p = u(),
+    h = m(i, r) ?? `local`,
+    g = qe(n) ? n : ``,
+    { isError: _, src: v } = Xe(g, a),
+    [y, ee] = (0, Z.useState)(!1),
+    te = o ?? y,
+    S = s ?? ee,
+    C;
+  t[0] !== g.length || t[1] !== n
+    ? ((C = () => (g.length > 0 || P(n) != null ? null : n)),
+      (t[0] = g.length),
+      (t[1] = n),
+      (t[2] = C))
+    : (C = t[2]);
+  let [w, T] = (0, Z.useState)(C),
+    E = g.length > 0 ? v : w,
+    D;
+  t[3] === f
+    ? (D = t[4])
+    : ((D = f.formatMessage({
+        id: `codex.localConversation.userImageAttachmentFailed`,
+        defaultMessage: `Image failed to load`,
+        description: `Alt text for a user image attachment that could not be loaded in local conversation`,
+      })),
+      (t[3] = f),
+      (t[4] = D));
+  let O = D,
+    k;
+  t[5] === f
+    ? (k = t[6])
+    : ((k = f.formatMessage({
+        id: `codex.localConversation.userImageAttachment`,
+        defaultMessage: `User attachment`,
+        description: `Alt text for user image attachment in local conversation`,
+      })),
+      (t[5] = f),
+      (t[6] = k));
+  let j = k,
+    M;
+  t[7] === f
+    ? (M = t[8])
+    : ((M = f.formatMessage({
+        id: `codex.localConversation.closeImagePreview`,
+        defaultMessage: `Close image preview`,
+        description: `Aria label for closing the image preview dialog in local conversation`,
+      })),
+      (t[7] = f),
+      (t[8] = M));
+  let F = M,
+    I;
+  t[9] !== h || t[10] !== g.length || t[11] !== p || t[12] !== n
+    ? ((I = () => {
+        if (g.length > 0) return;
+        let e = P(n);
+        if (e == null) {
+          T(n);
+          return;
+        }
+        let t = !1;
+        return (
+          T(null),
+          N(e, h, p).then((e) => {
+            t || T(e);
+          }),
+          () => {
+            t = !0;
+          }
+        );
+      }),
+      (t[9] = h),
+      (t[10] = g.length),
+      (t[11] = p),
+      (t[12] = n),
+      (t[13] = I))
+    : (I = t[13]);
+  let L;
+  if (
+    (t[14] !== h || t[15] !== g || t[16] !== p || t[17] !== n
+      ? ((L = [h, g, p, n]), (t[14] = h), (t[15] = g), (t[16] = p), (t[17] = n), (t[18] = L))
+      : (L = t[18]),
+    (0, Z.useEffect)(I, L),
+    g.length > 0 && _)
+  ) {
+    let e;
+    t[19] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((e = (0, Q.jsx)(x, {
+          id: `codex.localConversation.userImageAttachmentFailedShort`,
+          defaultMessage: `Failed`,
+          description: `Short visible text for a user image attachment that could not be loaded in local conversation`,
+        })),
+        (t[19] = e))
+      : (e = t[19]);
+    let n;
+    return (
+      t[20] === O
+        ? (n = t[21])
+        : ((n = (0, Q.jsx)(`div`, {
+            className: `flex size-16 items-center justify-center rounded-lg border border-token-error-foreground/20 bg-token-input-validation-error-background/20 px-1 text-center text-[10px] leading-3 text-token-error-foreground`,
+            role: `img`,
+            "aria-label": O,
+            children: e,
+          })),
+          (t[20] = O),
+          (t[21] = n)),
+      n
+    );
+  }
+  if (E == null) {
+    let e;
+    return (
+      t[22] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, Q.jsx)(`div`, {
+            className: `flex size-20 items-center justify-center rounded-lg border border-token-border-heavy`,
+            children: (0, Q.jsx)(A, { className: `icon-xs` }),
+          })),
+          (t[22] = e))
+        : (e = t[22]),
+      e
+    );
+  }
+  let R;
+  t[23] === S
+    ? (R = t[24])
+    : ((R = (e) => {
+        (e.key === `Enter` || e.key === ` `) && (e.preventDefault(), S(!0));
+      }),
+      (t[23] = S),
+      (t[24] = R));
+  let z;
+  t[25] !== j || t[26] !== E
+    ? ((z = (0, Q.jsx)(`img`, {
+        src: E,
+        className: `h-full w-full rounded-md object-cover`,
+        referrerPolicy: `no-referrer`,
+        alt: j,
+      })),
+      (t[25] = j),
+      (t[26] = E),
+      (t[27] = z))
+    : (z = t[27]);
+  let B;
+  t[28] !== j || t[29] !== R || t[30] !== z
+    ? ((B = (0, Q.jsx)(`div`, {
+        className: `size-20 cursor-interaction rounded-lg border border-token-border-heavy focus:outline-none focus-visible:ring-1 focus-visible:ring-token-focus-border`,
+        role: `button`,
+        tabIndex: 0,
+        "aria-label": j,
+        onKeyDown: R,
+        children: z,
+      })),
+      (t[28] = j),
+      (t[29] = R),
+      (t[30] = z),
+      (t[31] = B))
+    : (B = t[31]);
+  let V;
+  return (
+    t[32] !== j ||
+    t[33] !== F ||
+    t[34] !== d ||
+    t[35] !== l ||
+    t[36] !== c ||
+    t[37] !== te ||
+    t[38] !== E ||
+    t[39] !== S ||
+    t[40] !== B
+      ? ((V = (0, Q.jsx)(re, {
+          src: E,
+          alt: j,
+          open: te,
+          onOpenChange: S,
+          onPreviousImage: c,
+          onNextImage: l,
+          disableOpenAnimation: d,
+          closeAriaLabel: F,
+          imageReferrerPolicy: `no-referrer`,
+          triggerContent: B,
+        })),
+        (t[32] = j),
+        (t[33] = F),
+        (t[34] = d),
+        (t[35] = l),
+        (t[36] = c),
+        (t[37] = te),
+        (t[38] = E),
+        (t[39] = S),
+        (t[40] = B),
+        (t[41] = V))
+      : (V = t[41]),
+    V
+  );
+}
+function nt(e) {
+  let t = (0, X.c)(10),
+    { srcs: n, conversationId: r } = e,
+    [i, a] = (0, Z.useState)(null),
+    o;
+  if (t[0] !== r || t[1] !== i || t[2] !== n) {
+    let e;
+    (t[4] !== r || t[5] !== i || t[6] !== n.length
+      ? ((e = (e, t) =>
+          (0, Q.jsx)(
+            tt,
+            {
+              src: e,
+              conversationId: r,
+              open: i === t,
+              onOpenChange: (e) => {
+                a(e ? t : null);
+              },
+              onPreviousImage:
+                t === 0
+                  ? void 0
+                  : () => {
+                      a(t - 1);
+                    },
+              onNextImage:
+                t === n.length - 1
+                  ? void 0
+                  : () => {
+                      a(t + 1);
+                    },
+              disableOpenAnimation: !0,
+            },
+            t,
+          )),
+        (t[4] = r),
+        (t[5] = i),
+        (t[6] = n.length),
+        (t[7] = e))
+      : (e = t[7]),
+      (o = n.map(e)),
+      (t[0] = r),
+      (t[1] = i),
+      (t[2] = n),
+      (t[3] = o));
+  } else o = t[3];
+  let s;
+  return (
+    t[8] === o
+      ? (s = t[9])
+      : ((s = (0, Q.jsx)(Q.Fragment, { children: o })), (t[8] = o), (t[9] = s)),
+    s
+  );
+}
+function rt(e) {
+  let t = (0, X.c)(36),
+    { appshotContext: n, conversationId: r } = e,
+    a = b(),
+    o = u(),
+    s = m(i, r) ?? `local`,
+    c;
+  t[0] !== n.bundleIdentifier || t[1] !== n.imageName
+    ? ((c = { bundleIdentifier: n.bundleIdentifier, imageName: n.imageName }),
+      (t[0] = n.bundleIdentifier),
+      (t[1] = n.imageName),
+      (t[2] = c))
+    : (c = t[2]);
+  let l = m(W, c),
+    d = n.imageDataUrl ?? n.imagePath,
+    f;
+  t[3] === d ? (f = t[4]) : ((f = P(d)), (t[3] = d), (t[4] = f));
+  let p = f,
+    h;
+  t[5] !== p || t[6] !== s
+    ? ((h = [`local-user-appshot-screenshot-data-url`, s, p]), (t[5] = p), (t[6] = s), (t[7] = h))
+    : (h = t[7]);
+  let g;
+  t[8] !== p || t[9] !== s || t[10] !== o
+    ? ((g = () => N(p, s, o)), (t[8] = p), (t[9] = s), (t[10] = o), (t[11] = g))
+    : (g = t[11]);
+  let _ = p != null,
+    y;
+  t[12] !== h || t[13] !== g || t[14] !== _
+    ? ((y = { queryKey: h, queryFn: g, enabled: _, gcTime: 1 / 0, staleTime: ee.INFINITE }),
+      (t[12] = h),
+      (t[13] = g),
+      (t[14] = _),
+      (t[15] = y))
+    : (y = t[15]);
+  let x = te(y),
+    S = p == null ? (d ?? null) : (x.data ?? null),
+    C;
+  t[16] === n.bundleIdentifier
+    ? (C = t[17])
+    : ((C = { bundleId: n.bundleIdentifier }), (t[16] = n.bundleIdentifier), (t[17] = C));
+  let w = n.bundleIdentifier.length > 0,
+    T;
+  t[18] === w
+    ? (T = t[19])
+    : ((T = { enabled: w, staleTime: ee.INFINITE, refetchOnWindowFocus: !1 }),
+      (t[18] = w),
+      (t[19] = T));
+  let E;
+  t[20] !== C || t[21] !== T
+    ? ((E = { params: C, queryConfig: T, select: it }), (t[20] = C), (t[21] = T), (t[22] = E))
+    : (E = t[22]);
+  let D = v(`native-desktop-app-by-bundle-id`, E).data?.appPath ?? null,
+    O;
+  t[23] === D ? (O = t[24]) : ((O = { appPath: D }), (t[23] = D), (t[24] = O));
+  let { iconSmall: k } = I(O),
+    j = n.appIconDataUrl ?? l,
+    M;
+  t[25] === a
+    ? (M = t[26])
+    : ((M = a.formatMessage({
+        id: `codex.localConversation.userAppshotAttachment`,
+        defaultMessage: `Appshot attachment`,
+        description: `Alt text for appshot attachment in local conversation`,
+      })),
+      (t[25] = a),
+      (t[26] = M));
+  let F = M;
+  if (S == null) {
+    let e;
+    return (
+      t[27] === d
+        ? (e = t[28])
+        : ((e =
+            d == null
+              ? null
+              : (0, Q.jsx)(`div`, {
+                  className: `flex size-20 items-center justify-center rounded-lg border border-token-border-heavy`,
+                  children: (0, Q.jsx)(A, { className: `icon-xs` }),
+                })),
+          (t[27] = d),
+          (t[28] = e)),
+      e
+    );
+  }
+  let L = j ?? k,
+    R;
+  return (
+    t[29] !== n.appName ||
+    t[30] !== n.axTree ||
+    t[31] !== n.windowTitle ||
+    t[32] !== S ||
+    t[33] !== F ||
+    t[34] !== L
+      ? ((R = (0, Q.jsx)(G, {
+          variant: `thread`,
+          appName: n.appName,
+          appIconSrc: L,
+          accessibilityText: n.axTree,
+          screenshotAlt: F,
+          screenshotSrc: S,
+          windowTitle: n.windowTitle,
+        })),
+        (t[29] = n.appName),
+        (t[30] = n.axTree),
+        (t[31] = n.windowTitle),
+        (t[32] = S),
+        (t[33] = F),
+        (t[34] = L),
+        (t[35] = R))
+      : (R = t[35]),
+    R
+  );
+}
+function it(e) {
+  return e.app;
+}
+function at(e) {
+  let t = (0, X.c)(30),
+    { attachment: n, cwd: r, hostId: i } = e,
+    a = y(`open-file`),
+    o,
+    s,
+    c,
+    l,
+    u;
+  if (t[0] !== n || t[1] !== r || t[2] !== i || t[3] !== a) {
+    ((c = lt(n)), (l = n.fsPath || n.path));
+    let e;
+    (t[9] !== n.startLine || t[10] !== r || t[11] !== i || t[12] !== a || t[13] !== l
+      ? ((e = () => {
+          if (!l) return;
+          let e = n.startLine;
+          j({
+            path: l,
+            line: e,
+            column: e == null ? void 0 : 1,
+            cwd: r,
+            ...(i == null ? {} : { hostId: i }),
+            openFile: a.mutate,
+          });
+        }),
+        (t[9] = n.startLine),
+        (t[10] = r),
+        (t[11] = i),
+        (t[12] = a),
+        (t[13] = l),
+        (t[14] = e))
+      : (e = t[14]),
+      (s = e),
+      (o = q),
+      (u = ce(n.label, c)),
+      (t[0] = n),
+      (t[1] = r),
+      (t[2] = i),
+      (t[3] = a),
+      (t[4] = o),
+      (t[5] = s),
+      (t[6] = c),
+      (t[7] = l),
+      (t[8] = u));
+  } else ((o = t[4]), (s = t[5]), (c = t[6]), (l = t[7]), (u = t[8]));
+  let d;
+  t[15] !== o || t[16] !== n.path || t[17] !== s || t[18] !== c || t[19] !== u
+    ? ((d = (0, Q.jsx)(o, { filename: u, resourcePath: n.path, lineInfo: c, onClick: s })),
+      (t[15] = o),
+      (t[16] = n.path),
+      (t[17] = s),
+      (t[18] = c),
+      (t[19] = u),
+      (t[20] = d))
+    : (d = t[20]);
+  let f = d;
+  if (!l) return f;
+  let p;
+  t[21] === f
+    ? (p = t[22])
+    : ((p = (0, Q.jsx)(`span`, { className: `inline-flex max-w-full`, children: f })),
+      (t[21] = f),
+      (t[22] = p));
+  let m;
+  return (
+    t[23] !== n.endLine ||
+    t[24] !== n.startLine ||
+    t[25] !== r ||
+    t[26] !== i ||
+    t[27] !== l ||
+    t[28] !== p
+      ? ((m = (0, Q.jsx)(Ge, {
+          cwd: r,
+          endLine: n.endLine,
+          hostId: i,
+          line: n.startLine,
+          path: l,
+          children: p,
+        })),
+        (t[23] = n.endLine),
+        (t[24] = n.startLine),
+        (t[25] = r),
+        (t[26] = i),
+        (t[27] = l),
+        (t[28] = p),
+        (t[29] = m))
+      : (m = t[29]),
+    m
+  );
+}
+function ot(e) {
+  let t = (0, X.c)(2),
+    { pullRequestNumber: n } = e,
+    r;
+  return (
+    t[0] === n
+      ? (r = t[1])
+      : ((r = (0, Q.jsx)(K, {
+          Icon: ie,
+          children: (0, Q.jsx)(x, {
+            id: `codex.userMessage.pullRequestMergeTask`,
+            defaultMessage: `PR #{number}`,
+            description: `Pill shown on a user message for a pull request merge task`,
+            values: { number: n },
+          }),
+        })),
+        (t[0] = n),
+        (t[1] = r)),
+    r
+  );
+}
+function st(e) {
+  let t = (0, X.c)(5),
+    { checkNames: n } = e,
+    r = n[0];
+  if (r == null) return null;
+  let i;
+  t[0] !== n.length || t[1] !== r
+    ? ((i =
+        n.length === 1
+          ? r
+          : (0, Q.jsx)(x, {
+              id: `codex.userMessage.pullRequestChecksAttachment`,
+              defaultMessage: `{checkName} +{count} more`,
+              description: `Pill shown on a user message for multiple attached failing pull request checks`,
+              values: { checkName: r, count: n.length - 1 },
+            })),
+      (t[0] = n.length),
+      (t[1] = r),
+      (t[2] = i))
+    : (i = t[2]);
+  let a;
+  return (
+    t[3] === i
+      ? (a = t[4])
+      : ((a = (0, Q.jsx)(K, { Icon: V, children: i })), (t[3] = i), (t[4] = a)),
+    a
+  );
+}
+function ct(e) {
+  let t = (0, X.c)(2),
+    { pullRequestNumber: n } = e,
+    r;
+  return (
+    t[0] === n
+      ? (r = t[1])
+      : ((r = (0, Q.jsx)(K, {
+          Icon: V,
+          children:
+            n == null
+              ? (0, Q.jsx)(x, {
+                  id: `codex.userMessage.pullRequestMergeConflictAttachmentWithoutNumber`,
+                  defaultMessage: `Merge conflicts`,
+                  description: `Pill shown on a user message for attached pull request merge conflicts without a pull request number`,
+                })
+              : (0, Q.jsx)(x, {
+                  id: `codex.userMessage.pullRequestMergeConflictAttachment`,
+                  defaultMessage: `Merge conflicts - PR #{number}`,
+                  description: `Pill shown on a user message for attached pull request merge conflicts`,
+                  values: { number: n },
+                }),
+        })),
+        (t[0] = n),
+        (t[1] = r)),
+    r
+  );
+}
+function lt(e) {
+  if (e.startLine != null)
+    return e.endLine != null && e.endLine !== e.startLine
+      ? `${e.startLine}-${e.endLine}`
+      : `${e.startLine}`;
+}
+export {
+  ct as a,
+  Xe as c,
+  Fe as d,
+  Me as f,
+  st as i,
+  Ge as l,
+  nt as n,
+  ot as o,
+  ye as p,
+  at as r,
+  qe as s,
+  rt as t,
+  Ve as u,
+};
+//# sourceMappingURL=user-message-attachments.js.map

@@ -1,0 +1,77 @@
+import {
+  at as e,
+  fs as t,
+  ia as n,
+  jt as r,
+  kt as i,
+  o as a,
+  us as o,
+} from "./app-server-manager-signals.js";
+import { g as s } from "./vscode-api.js";
+import { c } from "./config-queries.js";
+import { t as l } from "./use-is-copilot-api-available.js";
+async function u(e, t) {
+  return t === `local` &&
+    n(e.get, `use-copilot-auth-if-available`) &&
+    (await e.query.fetch(l)).available
+    ? `copilot`
+    : d((await e.get(a, t)?.getAccount())?.account ?? null);
+}
+function d(e) {
+  if (e == null) return null;
+  switch (e.type) {
+    case `apiKey`:
+      return `apikey`;
+    case `amazonBedrock`:
+      return `amazonBedrock`;
+    case `chatgpt`:
+      return `chatgpt`;
+  }
+}
+async function f(n, a, c) {
+  try {
+    let s = await p(n, a),
+      l = n.get(e, a);
+    if (l.type !== `fromConfig`) return i(null, r(l, null), s);
+    let { config: u } = await t(`read-config-for-host`, {
+        hostId: a,
+        includeLayers: !1,
+        cwd: null,
+      }),
+      d = o(u);
+    return d.service_tier == null
+      ? i(await m(a, c ?? d.model), d.service_tier, s)
+      : i(null, d.service_tier, s);
+  } catch (e) {
+    return (
+      s.error(`Failed to read service tier for request`, { safe: {}, sensitive: { error: e } }),
+      null
+    );
+  }
+}
+async function p(e, t) {
+  let n = await u(e, t);
+  return n === `chatgpt`
+    ? (await e.query.fetch(c, { authMethod: n, hostId: t })).requirements?.featureRequirements
+        ?.fast_mode !== !1
+    : !1;
+}
+async function m(e, n) {
+  try {
+    let { data: r } = await t(`list-models-for-host`, {
+      hostId: e,
+      includeHidden: !0,
+      cursor: null,
+      limit: 100,
+    });
+    return n == null
+      ? (r.find((e) => e.isDefault) ?? null)
+      : (r.find((e) => e.model === n || e.id === n) ?? null);
+  } catch (e) {
+    return (
+      s.error(`Failed to read service tier model`, { safe: {}, sensitive: { error: e } }), null
+    );
+  }
+}
+export { u as n, f as t };
+//# sourceMappingURL=read-service-tier-for-request.js.map

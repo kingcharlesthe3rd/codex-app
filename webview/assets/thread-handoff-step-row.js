@@ -1,0 +1,276 @@
+import { t as e } from "./jsx-runtime.js";
+import { t } from "./clsx.js";
+import { lt as n } from "./vscode-api.js";
+import { o as r } from "./lib-2.js";
+import { t as i } from "./spinner.js";
+import { t as a } from "./x.js";
+import { t as o } from "./check-md.js";
+import { t as s } from "./check-circle.js";
+import { t as c } from "./x-circle.js";
+import { t as l } from "./unselected-circle-BN-IdXY-.js";
+var u = n(),
+  d = e();
+function f(e) {
+  let n = (0, u.c)(22),
+    { compact: r, direction: i, localBranch: a, sourceBranch: o, step: s, worktreeBranch: c } = e,
+    l = r === void 0 ? !1 : r,
+    f = l ? `gap-2` : `gap-3`,
+    h;
+  n[0] === f ? (h = n[1]) : ((h = t(`flex items-center`, f)), (n[0] = f), (n[1] = h));
+  let g;
+  n[2] !== l || n[3] !== s.status
+    ? ((g = (0, d.jsx)(p, { compact: l, status: s.status })),
+      (n[2] = l),
+      (n[3] = s.status),
+      (n[4] = g))
+    : (g = n[4]);
+  let _ = l
+      ? `text-size-chat text-token-conversation-summary-leading`
+      : `text-base leading-6 tracking-[-0.13px]`,
+    v;
+  n[5] !== l || n[6] !== s.status || n[7] !== _
+    ? ((v = t(
+        _,
+        !l && {
+          "font-medium text-token-foreground": s.status === `running`,
+          "text-token-foreground": s.status === `done`,
+          "text-token-editor-error-foreground": s.status === `failed`,
+          "text-token-description-foreground": s.status === `pending`,
+        },
+      )),
+      (n[5] = l),
+      (n[6] = s.status),
+      (n[7] = _),
+      (n[8] = v))
+    : (v = n[8]);
+  let y;
+  n[9] !== i || n[10] !== a || n[11] !== o || n[12] !== s.id || n[13] !== c
+    ? ((y = m(s.id, i, a, o, c)),
+      (n[9] = i),
+      (n[10] = a),
+      (n[11] = o),
+      (n[12] = s.id),
+      (n[13] = c),
+      (n[14] = y))
+    : (y = n[14]);
+  let b;
+  n[15] !== v || n[16] !== y
+    ? ((b = (0, d.jsx)(`div`, { className: v, children: y })),
+      (n[15] = v),
+      (n[16] = y),
+      (n[17] = b))
+    : (b = n[17]);
+  let x;
+  return (
+    n[18] !== h || n[19] !== g || n[20] !== b
+      ? ((x = (0, d.jsxs)(`div`, { className: h, children: [g, b] })),
+        (n[18] = h),
+        (n[19] = g),
+        (n[20] = b),
+        (n[21] = x))
+      : (x = n[21]),
+    x
+  );
+}
+function p(e) {
+  let t = (0, u.c)(10),
+    { compact: n, status: r } = e;
+  if (n) {
+    let e;
+    bb0: switch (r) {
+      case `running`: {
+        let n;
+        (t[0] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((n = (0, d.jsx)(i, { className: `icon-xs` })), (t[0] = n))
+          : (n = t[0]),
+          (e = n));
+        break bb0;
+      }
+      case `done`: {
+        let n;
+        (t[1] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((n = (0, d.jsx)(s, { className: `icon-xs` })), (t[1] = n))
+          : (n = t[1]),
+          (e = n));
+        break bb0;
+      }
+      case `failed`: {
+        let n;
+        (t[2] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((n = (0, d.jsx)(c, { className: `icon-xs text-token-editor-error-foreground` })),
+            (t[2] = n))
+          : (n = t[2]),
+          (e = n));
+        break bb0;
+      }
+      case `pending`: {
+        let n;
+        (t[3] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((n = (0, d.jsx)(l, { className: `icon-xs` })), (t[3] = n))
+          : (n = t[3]),
+          (e = n));
+      }
+    }
+    let n;
+    return (
+      t[4] === e
+        ? (n = t[5])
+        : ((n = (0, d.jsx)(`span`, {
+            className: `flex h-4 w-4 shrink-0 items-center justify-center text-token-text-secondary`,
+            children: e,
+          })),
+          (t[4] = e),
+          (t[5] = n)),
+      n
+    );
+  }
+  if (r === `running`) {
+    let e;
+    return (
+      t[6] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, d.jsx)(`span`, {
+            className: `relative h-4 w-4 shrink-0`,
+            children: (0, d.jsx)(`span`, {
+              className: `absolute inset-0 animate-spin rounded-full border-2 border-transparent border-t-token-foreground border-r-token-foreground`,
+            }),
+          })),
+          (t[6] = e))
+        : (e = t[6]),
+      e
+    );
+  }
+  if (r === `done`) {
+    let e;
+    return (
+      t[7] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, d.jsx)(`span`, {
+            className: `border-token-success/40 bg-token-success/15 flex h-4 w-4 shrink-0 items-center justify-center rounded-full border`,
+            children: (0, d.jsx)(o, { className: `icon-2xs text-token-success` }),
+          })),
+          (t[7] = e))
+        : (e = t[7]),
+      e
+    );
+  }
+  if (r === `failed`) {
+    let e;
+    return (
+      t[8] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, d.jsx)(`span`, {
+            className: `flex h-4 w-4 shrink-0 items-center justify-center rounded-full border border-token-editor-error-foreground/40 bg-token-editor-error-foreground/15`,
+            children: (0, d.jsx)(a, { className: `icon-2xs text-token-editor-error-foreground` }),
+          })),
+          (t[8] = e))
+        : (e = t[8]),
+      e
+    );
+  }
+  let f;
+  return (
+    t[9] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((f = (0, d.jsx)(`span`, {
+          className: `border-token-border-subtle h-4 w-4 shrink-0 rounded-full border-2`,
+        })),
+        (t[9] = f))
+      : (f = t[9]),
+    f
+  );
+}
+function m(e, t, n, i, a) {
+  if (e === `rolling-back-changes`)
+    return (0, d.jsx)(r, {
+      id: `localConversation.threadHandoff.step.rollingBackChanges`,
+      defaultMessage: `Rolling back changes`,
+      description: `Progress step shown after a thread handoff step fails while cleanup is still in progress`,
+    });
+  switch (e) {
+    case `prepare-host-transfer`:
+      return (0, d.jsx)(r, {
+        id: `localConversation.threadHandoff.step.prepareHostTransfer`,
+        defaultMessage: `Preparing files for transfer`,
+        description: `Progress step shown while preparing cross-host git and rollout artifacts`,
+      });
+    case `transfer-host-artifacts`:
+      return (0, d.jsx)(r, {
+        id: `localConversation.threadHandoff.step.transferHostArtifacts`,
+        defaultMessage: `Copying files to the destination host`,
+        description: `Progress step shown while copying cross-host git and rollout artifacts`,
+      });
+    case `create-new-worktree`:
+      return (0, d.jsx)(r, {
+        id: `localConversation.threadHandoff.step.createNewWorktree`,
+        defaultMessage: `Creating a new worktree`,
+        description: `Progress step shown while creating a new worktree during thread handoff`,
+      });
+    case `reuse-existing-worktree`:
+      return (0, d.jsx)(r, {
+        id: `localConversation.threadHandoff.step.reuseExistingWorktree`,
+        defaultMessage: `Reusing the existing worktree`,
+        description: `Progress step shown while reusing an existing worktree during thread handoff`,
+      });
+    case `stash-source-changes`:
+      return (0, d.jsx)(r, {
+        id: `localConversation.threadHandoff.step.stashSourceChanges`,
+        defaultMessage: `Stashing uncommitted changes`,
+        description: `Progress step shown while stashing source changes during thread handoff`,
+      });
+    case `checkout-local-branch`:
+      return (0, d.jsx)(r, {
+        id: `localConversation.threadHandoff.step.checkoutLocalBranch`,
+        defaultMessage: `Checking out {branch} locally`,
+        description: `Progress step shown while checking out a branch locally during thread handoff`,
+        values: { branch: n ?? i },
+      });
+    case `stash-target-worktree-changes`:
+      return (0, d.jsx)(r, {
+        id: `localConversation.threadHandoff.step.stashTargetWorktreeChanges`,
+        defaultMessage: `Stashing worktree changes`,
+        description: `Progress step shown while stashing pre-existing worktree changes during thread handoff`,
+      });
+    case `checkout-worktree-branch`:
+      return (0, d.jsx)(r, {
+        id: `localConversation.threadHandoff.step.checkoutWorktreeBranch`,
+        defaultMessage: `Checking out {branch} in worktree`,
+        description: `Progress step shown while checking out a branch in the worktree during thread handoff`,
+        values: { branch: a ?? i },
+      });
+    case `detach-worktree-branch`:
+      return (0, d.jsx)(r, {
+        id: `localConversation.threadHandoff.step.detachWorktreeBranch`,
+        defaultMessage: `Detaching branch from worktree`,
+        description: `Progress step shown while detaching the worktree branch during handoff back to local`,
+      });
+    case `apply-changes-to-worktree`:
+      return (0, d.jsx)(r, {
+        id: `localConversation.threadHandoff.step.applyChangesToWorktree`,
+        defaultMessage: `Applying uncommitted changes to worktree`,
+        description: `Progress step shown while applying changes to the worktree during thread handoff`,
+      });
+    case `apply-changes-to-local`:
+      return (0, d.jsx)(r, {
+        id: `localConversation.threadHandoff.step.applyChangesToLocal`,
+        defaultMessage: `Applying uncommitted changes locally`,
+        description: `Progress step shown while applying changes locally during thread handoff`,
+      });
+    case `switching-thread`:
+      return t === `to-worktree`
+        ? (0, d.jsx)(r, {
+            id: `localConversation.threadHandoff.step.moveThreadToWorktree`,
+            defaultMessage: `Moving chat to worktree`,
+            description: `Progress step shown while moving the thread to a worktree after the git handoff`,
+          })
+        : t === `to-host-worktree`
+          ? (0, d.jsx)(r, {
+              id: `localConversation.threadHandoff.step.moveThreadToHostWorktree`,
+              defaultMessage: `Moving chat to the destination worktree`,
+              description: `Progress step shown while moving the thread to a destination-host worktree after transfer`,
+            })
+          : (0, d.jsx)(r, {
+              id: `localConversation.threadHandoff.step.moveThreadToLocal`,
+              defaultMessage: `Moving chat to local`,
+              description: `Progress step shown while moving the thread to local after the git handoff`,
+            });
+  }
+}
+export { f as t };
+//# sourceMappingURL=thread-handoff-step-row.js.map
