@@ -1,0 +1,14 @@
+import { n as e } from "./chunk-70.js";
+var t = class {
+  constructor(e) {
+    ((this.init = e), (this.records = this.init()));
+  }
+  static {
+    e(this, `ImperativeState`);
+  }
+  reset() {
+    this.records = this.init();
+  }
+};
+export { t };
+//# sourceMappingURL=chunk-125.js.map

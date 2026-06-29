@@ -1,0 +1,8 @@
+import { r as e } from "./use-host-config-C.js";
+function t(t) {
+  if (typeof window > `u`) return t === e;
+  let n = window.electronBridge?.getSharedObjectSnapshotValue?.(`host_config`) ?? null;
+  return n == null ? t === e : n.id === t && n.kind === `local`;
+}
+export { t };
+//# sourceMappingURL=automation-host-support.js.map
