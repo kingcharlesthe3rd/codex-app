@@ -1,0 +1,3935 @@
+{
+  "renamedAt": "2026-07-01T09:24:37.299Z",
+  "renames": [
+    {
+      "from": "webview/assets/architecture-U656AL7Q.js",
+      "to": "webview/assets/architecture.js"
+    },
+    {
+      "from": "webview/assets/architectureDiagram-Q4EWVU46.js",
+      "to": "webview/assets/architectureDiagram.js"
+    },
+    {
+      "from": "webview/assets/blockDiagram-VD42YOAC.js",
+      "to": "webview/assets/blockDiagram.js"
+    },
+    {
+      "from": "webview/assets/c4Diagram-YG6GDRKO.js",
+      "to": "webview/assets/c4Diagram.js"
+    },
+    {
+      "from": "webview/assets/chunk-5PVQY5BW.js",
+      "to": "webview/assets/chunk-1.js"
+    },
+    {
+      "from": "webview/assets/chunk-AGHRB4JF.js",
+      "to": "webview/assets/chunk-2.js"
+    },
+    {
+      "from": "webview/assets/chunk-ATLVNIR6.js",
+      "to": "webview/assets/chunk-3.js"
+    },
+    {
+      "from": "webview/assets/chunk-B4BG7PRW.js",
+      "to": "webview/assets/chunk-4.js"
+    },
+    {
+      "from": "webview/assets/chunk-BSJP7CBP.js",
+      "to": "webview/assets/chunk-5.js"
+    },
+    {
+      "from": "webview/assets/chunk-K5T4RW27.js",
+      "to": "webview/assets/chunk-6.js"
+    },
+    {
+      "from": "webview/assets/chunk-KS23V3DP.js",
+      "to": "webview/assets/chunk-7.js"
+    },
+    {
+      "from": "webview/assets/chunk-LHMN2FUI.js",
+      "to": "webview/assets/chunk-8.js"
+    },
+    {
+      "from": "webview/assets/chunk-N4CR4FBY.js",
+      "to": "webview/assets/chunk-9.js"
+    },
+    {
+      "from": "webview/assets/chunk-O7ZBX7Z2.js",
+      "to": "webview/assets/chunk-10.js"
+    },
+    {
+      "from": "webview/assets/chunk-OYMX7WX6.js",
+      "to": "webview/assets/chunk-11.js"
+    },
+    {
+      "from": "webview/assets/chunk-QN33PNHL.js",
+      "to": "webview/assets/chunk-12.js"
+    },
+    {
+      "from": "webview/assets/chunk-T53DSG4Q.js",
+      "to": "webview/assets/chunk-13.js"
+    },
+    {
+      "from": "webview/assets/chunk-TZMSLE5B.js",
+      "to": "webview/assets/chunk-14.js"
+    },
+    {
+      "from": "webview/assets/chunk-U2HBQHQK.js",
+      "to": "webview/assets/chunk-15.js"
+    },
+    {
+      "from": "webview/assets/classDiagram-2ON5EDUG.js",
+      "to": "webview/assets/classDiagram.js"
+    },
+    {
+      "from": "webview/assets/cose-bilkent-S5V4N54A.js",
+      "to": "webview/assets/cose-bilkent.js"
+    },
+    {
+      "from": "webview/assets/dagre-6UL2VRFP.js",
+      "to": "webview/assets/dagre.js"
+    },
+    {
+      "from": "webview/assets/diagram-QEK2KX5R.js",
+      "to": "webview/assets/diagram-1.js"
+    },
+    {
+      "from": "webview/assets/diagram-S2PKOQOG.js",
+      "to": "webview/assets/diagram-2.js"
+    },
+    {
+      "from": "webview/assets/erDiagram-Q2GNP2WA.js",
+      "to": "webview/assets/erDiagram.js"
+    },
+    {
+      "from": "webview/assets/flowDiagram-NV44I4VS.js",
+      "to": "webview/assets/flowDiagram.js"
+    },
+    {
+      "from": "webview/assets/info-NVLQJR56.js",
+      "to": "webview/assets/info.js"
+    },
+    {
+      "from": "webview/assets/ishikawaDiagram-UXIWVN3A.js",
+      "to": "webview/assets/ishikawaDiagram.js"
+    },
+    {
+      "from": "webview/assets/kanban-definition-3W4ZIXB7.js",
+      "to": "webview/assets/kanban-definition.js"
+    },
+    {
+      "from": "webview/assets/packet-BFZMPI3H.js",
+      "to": "webview/assets/packet.js"
+    },
+    {
+      "from": "webview/assets/sequenceDiagram-WL72ISMW.js",
+      "to": "webview/assets/sequenceDiagram.js"
+    },
+    {
+      "from": "webview/assets/stateDiagram-FKZM4ZOC.js",
+      "to": "webview/assets/stateDiagram.js"
+    },
+    {
+      "from": "webview/assets/stateDiagram-v2-4FDKWEC3.js",
+      "to": "webview/assets/stateDiagram-v2.js"
+    },
+    {
+      "from": "webview/assets/treemap-KMMF4GRG.js",
+      "to": "webview/assets/treemap.js"
+    },
+    {
+      "from": ".vite/build/codex-micro-service-rjpeLKbm.js",
+      "to": ".vite/build/codex-micro-service.js"
+    },
+    {
+      "from": ".vite/build/src-BZqs_tzA.js",
+      "to": ".vite/build/src-1.js"
+    },
+    {
+      "from": ".vite/build/trace-recording-upload-CCNAZiAx.js",
+      "to": ".vite/build/trace-recording-upload.js"
+    },
+    {
+      "from": ".vite/build/workspace-root-drop-handler-DbDnwAf_.js",
+      "to": ".vite/build/workspace-root-drop-handler.js"
+    },
+    {
+      "from": "webview/assets/PopcornElectronPresentationPanel-BbgPQaJg.js",
+      "to": "webview/assets/PopcornElectronPresentationPanel.js"
+    },
+    {
+      "from": "webview/assets/PopcornElectronPresentationPanel-pMDpowHW.css",
+      "to": "webview/assets/PopcornElectronPresentationPanel.css"
+    },
+    {
+      "from": "webview/assets/PopcornElectronWorkbookPanel-BluQzqwt.js",
+      "to": "webview/assets/PopcornElectronWorkbookPanel.js"
+    },
+    {
+      "from": "webview/assets/System.Console.zevyqgdjei.wasm",
+      "to": "webview/assets/System.Console.wasm"
+    },
+    {
+      "from": "webview/assets/System.Diagnostics.DiagnosticSource.atgcpdiswi.wasm",
+      "to": "webview/assets/System.Diagnostics.DiagnosticSource.wasm"
+    },
+    {
+      "from": "webview/assets/System.Linq.Expressions.wtffzpkofr.wasm",
+      "to": "webview/assets/System.Linq.Expressions.wasm"
+    },
+    {
+      "from": "webview/assets/_baseFor-DhUeMyzd.js",
+      "to": "webview/assets/_baseFor-1.js"
+    },
+    {
+      "from": "webview/assets/ambient-suggestions-connected-apps-consent-DEdjluUh.js",
+      "to": "webview/assets/ambient-suggestions-connected-apps-consent.js"
+    },
+    {
+      "from": "webview/assets/andromeeda-CjklpbjY.js",
+      "to": "webview/assets/andromeeda-1.js"
+    },
+    {
+      "from": "webview/assets/angular-html-CTspWwkK.js",
+      "to": "webview/assets/angular-html-1.js"
+    },
+    {
+      "from": "webview/assets/apache-C-_gAAun.js",
+      "to": "webview/assets/apache-C.js"
+    },
+    {
+      "from": "webview/assets/app-DvOUyjQD.js",
+      "to": "webview/assets/app.js"
+    },
+    {
+      "from": "webview/assets/app-Z_CjsWcA.css",
+      "to": "webview/assets/app.css"
+    },
+    {
+      "from": "webview/assets/app-initial~app-main~onboarding-page-BUwCKIcU.js",
+      "to": "webview/assets/app-initial~app-main~onboarding-page.js"
+    },
+    {
+      "from": "webview/assets/app-initial~app-main~onboarding-page~pending-request-item-panel~home-ambient-suggestions-content-BNHtKJoK.js",
+      "to": "webview/assets/app-initial~app-main~onboarding-page~pending-request-item-panel~home-ambient-suggestions-content.js"
+    },
+    {
+      "from": "webview/assets/app-initial~app-main~onboarding-page~profile-BLiiviCM.js",
+      "to": "webview/assets/app-initial~app-main~onboarding-page~profile.js"
+    },
+    {
+      "from": "webview/assets/app-initial~app-main~onboarding-page~select-workspace-page~debug-window-page~debug-modal-DcqgMolm.js",
+      "to": "webview/assets/app-initial~app-main~onboarding-page~select-workspace-page~debug-window-page~debug-modal.js"
+    },
+    {
+      "from": "webview/assets/app-initial~app-main~page~onboarding-page~skills-settings~plugins-settings~remote-connectio~c59x15mv-DDkvwlbO.js",
+      "to": "webview/assets/app-initial~app-main~page~onboarding-page~skills-settings~plugins-settings~remote-connectio~c59x15mv.js"
+    },
+    {
+      "from": "webview/assets/app-initial~app-main~pet-install-modal-host~avatar-overlay-page~avatar-overlay-native-page~~s9e72i2g-DHkEywPa.js",
+      "to": "webview/assets/app-initial~app-main~pet-install-modal-host~avatar-overlay-page~avatar-overlay-native-page~~s9e72i2g.js"
+    },
+    {
+      "from": "webview/assets/app-initial~app-main~remote-conversation-page~hotkey-window-thread-page~automations-page~th~bnlvjk3w-CKQxrGhJ.js",
+      "to": "webview/assets/app-initial~app-main~remote-conversation-page~hotkey-window-thread-page~automations-page~th~bnlvjk3w.js"
+    },
+    {
+      "from": "webview/assets/app-initial~app-main~remote-conversation-page~hotkey-window-thread-page~thread-app-shell-ch~oc6ebzsr-BwqxraHe.js",
+      "to": "webview/assets/app-initial~app-main~remote-conversation-page~hotkey-window-thread-page~thread-app-shell-ch~oc6ebzsr.js"
+    },
+    {
+      "from": "webview/assets/app-initial~app-main~remote-conversation-page~new-thread-panel-page~appgen-library-page~hot~byb29nd9-CzUWNPuT.js",
+      "to": "webview/assets/app-initial~app-main~remote-conversation-page~new-thread-panel-page~appgen-library-page~hot~byb29nd9.js"
+    },
+    {
+      "from": "webview/assets/app-initial~app-main~remote-conversation-page~new-thread-panel-page~appgen-library-page~hot~gm3qqodb-ChZFpJan.js",
+      "to": "webview/assets/app-initial~app-main~remote-conversation-page~new-thread-panel-page~appgen-library-page~hot~gm3qqodb.js"
+    },
+    {
+      "from": "webview/assets/app-initial~app-main~remote-conversation-page~new-thread-panel-page~onboarding-page~appgen-~d4gukj65-CzTWbFLy.js",
+      "to": "webview/assets/app-initial~app-main~remote-conversation-page~new-thread-panel-page~onboarding-page~appgen-~d4gukj65.js"
+    },
+    {
+      "from": "webview/assets/app-initial~app-main~remote-conversation-page~new-thread-panel-page~projects-index-page~app~edtlcz4n-DeNnfVpo.css",
+      "to": "webview/assets/app-initial~app-main~remote-conversation-page~new-thread-panel-page~projects-index-page~app~edtlcz4n.css"
+    },
+    {
+      "from": "webview/assets/app-initial~app-main~remote-conversation-page~onboarding-page~hotkey-window-thread-page~app~c482ypdv-DWbVQfmz.js",
+      "to": "webview/assets/app-initial~app-main~remote-conversation-page~onboarding-page~hotkey-window-thread-page~app~c482ypdv.js"
+    },
+    {
+      "from": "webview/assets/app-initial~app-main~remote-conversation-page~projects-index-page~hotkey-window-thread-page~o5l7nhuo-yccnYlvy.js",
+      "to": "webview/assets/app-initial~app-main~remote-conversation-page~projects-index-page~hotkey-window-thread-page~o5l7nhuo.js"
+    },
+    {
+      "from": "webview/assets/app-initial~app-main~remote-conversation-page~pull-requests-page~onboarding-page~hotkey-win~fzw0jvy4-czZPzzcM.css",
+      "to": "webview/assets/app-initial~app-main~remote-conversation-page~pull-requests-page~onboarding-page~hotkey-win~fzw0jvy4.css"
+    },
+    {
+      "from": "webview/assets/app-initial~app-main~settings-page~projects-index-page~notebook-preview-panel~docx-preview-panel-BHOEvyvO.js",
+      "to": "webview/assets/app-initial~app-main~settings-page~projects-index-page~notebook-preview-panel~docx-preview-panel.js"
+    },
+    {
+      "from": "webview/assets/app-initial~app-main~worktree-init-v2-page~appgen-publication-terms-route~remote-conversati~dg864qec-ISZMeMHq.js",
+      "to": "webview/assets/app-initial~app-main~worktree-init-v2-page~appgen-publication-terms-route~remote-conversati~dg864qec.js"
+    },
+    {
+      "from": "webview/assets/app-initial~app-main~worktree-init-v2-page~remote-conversation-page~new-thread-panel-page~o~dv5z3ftk-BhBbJNnt.js",
+      "to": "webview/assets/app-initial~app-main~worktree-init-v2-page~remote-conversation-page~new-thread-panel-page~o~dv5z3ftk.js"
+    },
+    {
+      "from": "webview/assets/app-initial~app-main~worktree-init-v2-page~remote-conversation-page~onboarding-page~hotkey-~fnaniary-BhOGlSiR.css",
+      "to": "webview/assets/app-initial~app-main~worktree-init-v2-page~remote-conversation-page~onboarding-page~hotkey-~fnaniary.css"
+    },
+    {
+      "from": "webview/assets/appgen-publication-terms-route-CKmBrQWl.js",
+      "to": "webview/assets/appgen-publication-terms-route.js"
+    },
+    {
+      "from": "webview/assets/appgen-share-dialog-BndpWNzj.js",
+      "to": "webview/assets/appgen-share-dialog.js"
+    },
+    {
+      "from": "webview/assets/artifact-analytics-DeyIRgFu.js",
+      "to": "webview/assets/artifact-analytics.js"
+    },
+    {
+      "from": "webview/assets/artifact-file-preview-icon-CMIbYvOS.js",
+      "to": "webview/assets/artifact-file-preview-icon.js"
+    },
+    {
+      "from": "webview/assets/at-mention-list-DQSiRVqt.js",
+      "to": "webview/assets/at-mention-list.js"
+    },
+    {
+      "from": "webview/assets/avatar-mascot-button-DMfpOSwL.js",
+      "to": "webview/assets/avatar-mascot-button.js"
+    },
+    {
+      "from": "webview/assets/avatar-overlay-pill-dismiss-button-CcGLWPoh.js",
+      "to": "webview/assets/avatar-overlay-pill-dismiss-button.js"
+    },
+    {
+      "from": "webview/assets/awk-WnS_lmCs.js",
+      "to": "webview/assets/awk.js"
+    },
+    {
+      "from": "webview/assets/ayu-mirage-BAlSSDlI.js",
+      "to": "webview/assets/ayu-mirage.js"
+    },
+    {
+      "from": "webview/assets/beancount-BJFnoWKx.js",
+      "to": "webview/assets/beancount.js"
+    },
+    {
+      "from": "webview/assets/berry-BBLFLfAe.js",
+      "to": "webview/assets/berry.js"
+    },
+    {
+      "from": "webview/assets/bibtex-DKKtyngV.js",
+      "to": "webview/assets/bibtex.js"
+    },
+    {
+      "from": "webview/assets/bicep-CrejHwQs.js",
+      "to": "webview/assets/bicep.js"
+    },
+    {
+      "from": "webview/assets/blockDiagram-DXYQGD6D-XSVqL_VJ.js",
+      "to": "webview/assets/blockDiagram-DXYQGD6D.js"
+    },
+    {
+      "from": "webview/assets/browser-sidebar-hidden-background-webview-host-BWupD_uZ.js",
+      "to": "webview/assets/browser-sidebar-hidden-background-webview-host.js"
+    },
+    {
+      "from": "webview/assets/browser-use-settings-BNPmmCNL.js",
+      "to": "webview/assets/browser-use-settings-1.js"
+    },
+    {
+      "from": "webview/assets/browser-use-settings-DSCnCfEB.js",
+      "to": "webview/assets/browser-use-settings-2.js"
+    },
+    {
+      "from": "webview/assets/c-BTwNxbsL.js",
+      "to": "webview/assets/c.js"
+    },
+    {
+      "from": "webview/assets/c4Diagram-AHTNJAMY-CXQndbox.js",
+      "to": "webview/assets/c4Diagram-AHTNJAMY-3.js"
+    },
+    {
+      "from": "webview/assets/c4Diagram-AHTNJAMY-DcmFZGKi.js",
+      "to": "webview/assets/c4Diagram-AHTNJAMY-4.js"
+    },
+    {
+      "from": "webview/assets/cairo-DZk_Ople.js",
+      "to": "webview/assets/cairo.js"
+    },
+    {
+      "from": "webview/assets/catppuccin-macchiato-CFlufAQx.js",
+      "to": "webview/assets/catppuccin-macchiato-1.js"
+    },
+    {
+      "from": "webview/assets/catppuccin-mocha-BOTDlfZB.js",
+      "to": "webview/assets/catppuccin-mocha-1.js"
+    },
+    {
+      "from": "webview/assets/chunk-2KRD3SAO-DHdxDmna.js",
+      "to": "webview/assets/chunk-2KRD3SAO.js"
+    },
+    {
+      "from": "webview/assets/chunk-426QAEUC-DxNwCBET.js",
+      "to": "webview/assets/chunk-426QAEUC.js"
+    },
+    {
+      "from": "webview/assets/chunk-4BX2VUAB-ConBjPgp.js",
+      "to": "webview/assets/chunk-4BX2VUAB-4.js"
+    },
+    {
+      "from": "webview/assets/chunk-4BX2VUAB-DAnoPJdG.js",
+      "to": "webview/assets/chunk-4BX2VUAB-5.js"
+    },
+    {
+      "from": "webview/assets/chunk-4TB4RGXK-BCpOwkVH.js",
+      "to": "webview/assets/chunk-4TB4RGXK.js"
+    },
+    {
+      "from": "webview/assets/chunk-55IACEB6-CqpxJPbF.js",
+      "to": "webview/assets/chunk-55IACEB6-4.js"
+    },
+    {
+      "from": "webview/assets/chunk-55IACEB6-DBIditYu.js",
+      "to": "webview/assets/chunk-55IACEB6-5.js"
+    },
+    {
+      "from": "webview/assets/chunk-5FUZZQ4R-DJxxCeBl.js",
+      "to": "webview/assets/chunk-5FUZZQ4R.js"
+    },
+    {
+      "from": "webview/assets/chunk-5PVQY5BW-DEldFBPA.js",
+      "to": "webview/assets/chunk-5PVQY5BW-1.js"
+    },
+    {
+      "from": "webview/assets/chunk-5PVQY5BW-VrOwugqI.js",
+      "to": "webview/assets/chunk-5PVQY5BW-2.js"
+    },
+    {
+      "from": "webview/assets/chunk-67CJDMHE-Vupntdzx.js",
+      "to": "webview/assets/chunk-67CJDMHE.js"
+    },
+    {
+      "from": "webview/assets/chunk-76Q3JFCE-eYhmDldQ.js",
+      "to": "webview/assets/chunk-76Q3JFCE.js"
+    },
+    {
+      "from": "webview/assets/chunk-7N4EOEYR-CfJFZH_K.js",
+      "to": "webview/assets/chunk-7N4EOEYR.js"
+    },
+    {
+      "from": "webview/assets/chunk-ABZYJK2D-Ugtemmk_.js",
+      "to": "webview/assets/chunk-ABZYJK2D.js"
+    },
+    {
+      "from": "webview/assets/chunk-AGHRB4JF-DIvkCYtW.js",
+      "to": "webview/assets/chunk-AGHRB4JF.js"
+    },
+    {
+      "from": "webview/assets/chunk-BSJP7CBP-CXOgCIBN.js",
+      "to": "webview/assets/chunk-BSJP7CBP.js"
+    },
+    {
+      "from": "webview/assets/chunk-EDXVE4YY-mzmFTiuP.js",
+      "to": "webview/assets/chunk-EDXVE4YY.js"
+    },
+    {
+      "from": "webview/assets/chunk-ENJZ2VHE-DMrwZYNz.js",
+      "to": "webview/assets/chunk-ENJZ2VHE.js"
+    },
+    {
+      "from": "webview/assets/chunk-EXTU4WIE-fqByunxs.js",
+      "to": "webview/assets/chunk-EXTU4WIE.js"
+    },
+    {
+      "from": "webview/assets/chunk-FMBD7UC4-DiCLsQbr.js",
+      "to": "webview/assets/chunk-FMBD7UC4.js"
+    },
+    {
+      "from": "webview/assets/chunk-FOC6F5B3-BluoYoGB.js",
+      "to": "webview/assets/chunk-FOC6F5B3-1.js"
+    },
+    {
+      "from": "webview/assets/chunk-FOC6F5B3-BQkdNRoT.js",
+      "to": "webview/assets/chunk-FOC6F5B3-2.js"
+    },
+    {
+      "from": "webview/assets/chunk-FOC6F5B3-DIovYYQv.js",
+      "to": "webview/assets/chunk-FOC6F5B3-3.js"
+    },
+    {
+      "from": "webview/assets/chunk-FOC6F5B3-DtpZceIN.js",
+      "to": "webview/assets/chunk-FOC6F5B3-4.js"
+    },
+    {
+      "from": "webview/assets/chunk-FPAJGGOC-DZQRrZBw.js",
+      "to": "webview/assets/chunk-FPAJGGOC.js"
+    },
+    {
+      "from": "webview/assets/chunk-HN2XXSSU-BPyoUjyB.js",
+      "to": "webview/assets/chunk-HN2XXSSU.js"
+    },
+    {
+      "from": "webview/assets/chunk-ICPOFSXX-CPupJSsJ.js",
+      "to": "webview/assets/chunk-ICPOFSXX-3.js"
+    },
+    {
+      "from": "webview/assets/chunk-ICPOFSXX-DnzHnSjF.js",
+      "to": "webview/assets/chunk-ICPOFSXX-4.js"
+    },
+    {
+      "from": "webview/assets/chunk-JZLCHNYA-Dn_DumwI.js",
+      "to": "webview/assets/chunk-JZLCHNYA.js"
+    },
+    {
+      "from": "webview/assets/chunk-K5T4RW27-BasTmxaS.js",
+      "to": "webview/assets/chunk-K5T4RW27-1.js"
+    },
+    {
+      "from": "webview/assets/chunk-K5T4RW27-CV_XjMQC.js",
+      "to": "webview/assets/chunk-K5T4RW27-2.js"
+    },
+    {
+      "from": "webview/assets/chunk-K5T4RW27-DGM_cVYA.js",
+      "to": "webview/assets/chunk-K5T4RW27-3.js"
+    },
+    {
+      "from": "webview/assets/chunk-KGLVRYIC-DIYgUndE.js",
+      "to": "webview/assets/chunk-KGLVRYIC.js"
+    },
+    {
+      "from": "webview/assets/chunk-LBM3YZW2-CrUBqdFe.js",
+      "to": "webview/assets/chunk-LBM3YZW2.js"
+    },
+    {
+      "from": "webview/assets/chunk-LIHQZDEY-CgRZpBHs.js",
+      "to": "webview/assets/chunk-LIHQZDEY.js"
+    },
+    {
+      "from": "webview/assets/chunk-MI3HLSF2-Cyapgrol.js",
+      "to": "webview/assets/chunk-MI3HLSF2.js"
+    },
+    {
+      "from": "webview/assets/chunk-ORNJ4GCN-CYOwbfCr.js",
+      "to": "webview/assets/chunk-ORNJ4GCN.js"
+    },
+    {
+      "from": "webview/assets/chunk-OYMX7WX6-BZKCrNLI.js",
+      "to": "webview/assets/chunk-OYMX7WX6-1.js"
+    },
+    {
+      "from": "webview/assets/chunk-OYMX7WX6-CBPHFxAs.js",
+      "to": "webview/assets/chunk-OYMX7WX6-2.js"
+    },
+    {
+      "from": "webview/assets/chunk-QZHKN3VN-CWujSndb.js",
+      "to": "webview/assets/chunk-QZHKN3VN.js"
+    },
+    {
+      "from": "webview/assets/chunk-S3R3BYOJ-BHdYahbs.js",
+      "to": "webview/assets/chunk-S3R3BYOJ.js"
+    },
+    {
+      "from": "webview/assets/chunk-U2HBQHQK-ByHLWhPg.js",
+      "to": "webview/assets/chunk-U2HBQHQK-1.js"
+    },
+    {
+      "from": "webview/assets/chunk-U2HBQHQK-CowWxNLz.js",
+      "to": "webview/assets/chunk-U2HBQHQK-2.js"
+    },
+    {
+      "from": "webview/assets/chunk-U2HBQHQK-Di_FkPOF.js",
+      "to": "webview/assets/chunk-U2HBQHQK-3.js"
+    },
+    {
+      "from": "webview/assets/chunk-X2U36JSP-CHy_YXLL.js",
+      "to": "webview/assets/chunk-X2U36JSP.js"
+    },
+    {
+      "from": "webview/assets/chunk-YZCP3GAM-CLwUXLrb.js",
+      "to": "webview/assets/chunk-YZCP3GAM.js"
+    },
+    {
+      "from": "webview/assets/clarity-DrgQdVxB.js",
+      "to": "webview/assets/clarity.js"
+    },
+    {
+      "from": "webview/assets/classDiagram-6PBFFD2Q-CvyjdvuM.js",
+      "to": "webview/assets/classDiagram-6PBFFD2Q.js"
+    },
+    {
+      "from": "webview/assets/classDiagram-v2-HSJHXN6E-BYdYDkBk.js",
+      "to": "webview/assets/classDiagram-v2-HSJHXN6E-3.js"
+    },
+    {
+      "from": "webview/assets/classDiagram-v2-HSJHXN6E-CbfcHaoM.js",
+      "to": "webview/assets/classDiagram-v2-HSJHXN6E-4.js"
+    },
+    {
+      "from": "webview/assets/clone-DxcxFHwk.js",
+      "to": "webview/assets/clone.js"
+    },
+    {
+      "from": "webview/assets/cloud-preferences-settings-BEKBzFdU.js",
+      "to": "webview/assets/cloud-preferences-settings.js"
+    },
+    {
+      "from": "webview/assets/cmake-BwOJwYKA.js",
+      "to": "webview/assets/cmake-1.js"
+    },
+    {
+      "from": "webview/assets/codex-looking-around-DQj_jyXY.js",
+      "to": "webview/assets/codex-looking-around.js"
+    },
+    {
+      "from": "webview/assets/codex-mobile-setup-flow-DpKiJmml.js",
+      "to": "webview/assets/codex-mobile-setup-flow.js"
+    },
+    {
+      "from": "webview/assets/cose-bilkent-S5V4N54A-CnGsfQjL.js",
+      "to": "webview/assets/cose-bilkent-S5V4N54A-1.js"
+    },
+    {
+      "from": "webview/assets/cose-bilkent-S5V4N54A-DoRDnSVu.js",
+      "to": "webview/assets/cose-bilkent-S5V4N54A-2.js"
+    },
+    {
+      "from": "webview/assets/cose-bilkent-S5V4N54A-DwADXCWy.js",
+      "to": "webview/assets/cose-bilkent-S5V4N54A-3.js"
+    },
+    {
+      "from": "webview/assets/cose-bilkent-S5V4N54A-yFxFJPDP.js",
+      "to": "webview/assets/cose-bilkent-S5V4N54A-4.js"
+    },
+    {
+      "from": "webview/assets/cpp-CEyrFeOc.js",
+      "to": "webview/assets/cpp-1.js"
+    },
+    {
+      "from": "webview/assets/cue-CefLgsJP.js",
+      "to": "webview/assets/cue.js"
+    },
+    {
+      "from": "webview/assets/cytoscape-cose-bilkent-CZ_nfQWZ.js",
+      "to": "webview/assets/cytoscape-cose-bilkent.js"
+    },
+    {
+      "from": "webview/assets/cytoscape.esm-KEBVOvFd.js",
+      "to": "webview/assets/cytoscape.esm-1.js"
+    },
+    {
+      "from": "webview/assets/d-BzUvXqjp.js",
+      "to": "webview/assets/d.js"
+    },
+    {
+      "from": "webview/assets/dagre-KV5264BT-DyEEluUy.js",
+      "to": "webview/assets/dagre-KV5264BT.js"
+    },
+    {
+      "from": "webview/assets/dagre-bCFXQEZA.js",
+      "to": "webview/assets/dagre-5.js"
+    },
+    {
+      "from": "webview/assets/dart-DWAKLrcF.js",
+      "to": "webview/assets/dart.js"
+    },
+    {
+      "from": "webview/assets/debug-modal-EbZCkOET.js",
+      "to": "webview/assets/debug-modal.js"
+    },
+    {
+      "from": "webview/assets/diagram-5BDNPKRD-BPtvZpPx.js",
+      "to": "webview/assets/diagram-5BDNPKRD.js"
+    },
+    {
+      "from": "webview/assets/diagram-PSM6KHXK-_uPuWuHP.js",
+      "to": "webview/assets/diagram-PSM6KHXK.js"
+    },
+    {
+      "from": "webview/assets/diagram-TYMM5635-BQicbNzl.js",
+      "to": "webview/assets/diagram-TYMM5635-3.js"
+    },
+    {
+      "from": "webview/assets/diagram-TYMM5635-gMagBsSf.js",
+      "to": "webview/assets/diagram-TYMM5635-4.js"
+    },
+    {
+      "from": "webview/assets/diff-CzsKexCh.js",
+      "to": "webview/assets/diff-1.js"
+    },
+    {
+      "from": "webview/assets/dist-CPJPVGOt.js",
+      "to": "webview/assets/dist.js"
+    },
+    {
+      "from": "webview/assets/docx-preview-panel-CPMkHiwj.js",
+      "to": "webview/assets/docx-preview-panel.js"
+    },
+    {
+      "from": "webview/assets/dracula-soft-BWECmVol.js",
+      "to": "webview/assets/dracula-soft-1.js"
+    },
+    {
+      "from": "webview/assets/edit_files_animation-DbcPz_Aa.js",
+      "to": "webview/assets/edit_files_animation.js"
+    },
+    {
+      "from": "webview/assets/erDiagram-SMLLAGMA-CwxhLUyX.js",
+      "to": "webview/assets/erDiagram-SMLLAGMA-1.js"
+    },
+    {
+      "from": "webview/assets/erDiagram-SMLLAGMA-yFWbItFm.js",
+      "to": "webview/assets/erDiagram-SMLLAGMA-2.js"
+    },
+    {
+      "from": "webview/assets/erb-DcCyflcL.js",
+      "to": "webview/assets/erb.js"
+    },
+    {
+      "from": "webview/assets/erlang-DWmeBEnE.js",
+      "to": "webview/assets/erlang.js"
+    },
+    {
+      "from": "webview/assets/everforest-dark-BMLGFqoS.js",
+      "to": "webview/assets/everforest-dark-1.js"
+    },
+    {
+      "from": "webview/assets/everforest-light-CeHuJghg.js",
+      "to": "webview/assets/everforest-light-1.js"
+    },
+    {
+      "from": "webview/assets/fa-BXfCiPdU.js",
+      "to": "webview/assets/fa.js"
+    },
+    {
+      "from": "webview/assets/first-run-Dv_mcmnN.js",
+      "to": "webview/assets/first-run.js"
+    },
+    {
+      "from": "webview/assets/fish-CVWCdZdY.js",
+      "to": "webview/assets/fish.js"
+    },
+    {
+      "from": "webview/assets/fortran-fixed-form-CbMquwfU.js",
+      "to": "webview/assets/fortran-fixed-form.js"
+    },
+    {
+      "from": "webview/assets/fr-CA-DqzWWoFx.js",
+      "to": "webview/assets/fr-CA.js"
+    },
+    {
+      "from": "webview/assets/fr-FR-Cpvtbppl.js",
+      "to": "webview/assets/fr-FR.js"
+    },
+    {
+      "from": "webview/assets/fsharp-CmhSjPrh.js",
+      "to": "webview/assets/fsharp.js"
+    },
+    {
+      "from": "webview/assets/gdshader-BNFpOmGy.js",
+      "to": "webview/assets/gdshader-1.js"
+    },
+    {
+      "from": "webview/assets/general-settings-CuPItQSl.js",
+      "to": "webview/assets/general-settings-1.js"
+    },
+    {
+      "from": "webview/assets/git-commit-BZgZtFdH.js",
+      "to": "webview/assets/git-commit.js"
+    },
+    {
+      "from": "webview/assets/git-rebase-zqTwzNyf.js",
+      "to": "webview/assets/git-rebase.js"
+    },
+    {
+      "from": "webview/assets/gitGraph-7Q5UKJZL-BNwjXrZM.js",
+      "to": "webview/assets/gitGraph-7Q5UKJZL.js"
+    },
+    {
+      "from": "webview/assets/gitGraphDiagram-NY62KEGX-CsIEzHiX.js",
+      "to": "webview/assets/gitGraphDiagram-NY62KEGX.js"
+    },
+    {
+      "from": "webview/assets/gitGraphDiagram-UUTBAWPF-DAiHqJvc.js",
+      "to": "webview/assets/gitGraphDiagram-UUTBAWPF-3.js"
+    },
+    {
+      "from": "webview/assets/gitGraphDiagram-UUTBAWPF-DBNPirJY.js",
+      "to": "webview/assets/gitGraphDiagram-UUTBAWPF-4.js"
+    },
+    {
+      "from": "webview/assets/github-dark-default-BdcrjVER.js",
+      "to": "webview/assets/github-dark-default-1.js"
+    },
+    {
+      "from": "webview/assets/github-dark-high-contrast-CeTjNCQj.js",
+      "to": "webview/assets/github-dark-high-contrast-1.js"
+    },
+    {
+      "from": "webview/assets/github-light-high-contrast-CuhwcYSo.js",
+      "to": "webview/assets/github-light-high-contrast-1.js"
+    },
+    {
+      "from": "webview/assets/glimmer-js-YZqzeOwE.js",
+      "to": "webview/assets/glimmer-js.js"
+    },
+    {
+      "from": "webview/assets/global-dictation-orb-BOlLShjq.css",
+      "to": "webview/assets/global-dictation-orb.css"
+    },
+    {
+      "from": "webview/assets/global-dictation-orb-BTMuOubw.js",
+      "to": "webview/assets/global-dictation-orb.js"
+    },
+    {
+      "from": "webview/assets/global-dictation-page-C-bhTjfc.js",
+      "to": "webview/assets/global-dictation-page-C.js"
+    },
+    {
+      "from": "webview/assets/gnuplot-DexKWLcf.js",
+      "to": "webview/assets/gnuplot.js"
+    },
+    {
+      "from": "webview/assets/gracefulDecodeURIComponent-LfJMBovP.js",
+      "to": "webview/assets/gracefulDecodeURIComponent.js"
+    },
+    {
+      "from": "webview/assets/graphlib-CITVmEAN.js",
+      "to": "webview/assets/graphlib-4.js"
+    },
+    {
+      "from": "webview/assets/graphlib-CqExjonE.js",
+      "to": "webview/assets/graphlib-5.js"
+    },
+    {
+      "from": "webview/assets/graphql-ClHLFSEo.js",
+      "to": "webview/assets/graphql.js"
+    },
+    {
+      "from": "webview/assets/gruvbox-dark-hard-BnEjuVpA.js",
+      "to": "webview/assets/gruvbox-dark-hard.js"
+    },
+    {
+      "from": "webview/assets/gruvbox-light-hard-DeYzvKrd.js",
+      "to": "webview/assets/gruvbox-light-hard-1.js"
+    },
+    {
+      "from": "webview/assets/gruvbox-light-hard-DZsPxaFt.js",
+      "to": "webview/assets/gruvbox-light-hard-2.js"
+    },
+    {
+      "from": "webview/assets/gruvbox-light-medium-BIDSXeNU.js",
+      "to": "webview/assets/gruvbox-light-medium-1.js"
+    },
+    {
+      "from": "webview/assets/gu-IN-Dk_OGIGT.js",
+      "to": "webview/assets/gu-IN.js"
+    },
+    {
+      "from": "webview/assets/hack-DbxzJxoX.js",
+      "to": "webview/assets/hack.js"
+    },
+    {
+      "from": "webview/assets/handlebars-D_PGGrCH.js",
+      "to": "webview/assets/handlebars.js"
+    },
+    {
+      "from": "webview/assets/header-DpUZYotp.js",
+      "to": "webview/assets/header-1.js"
+    },
+    {
+      "from": "webview/assets/hi-IN-VbqkHreo.js",
+      "to": "webview/assets/hi-IN.js"
+    },
+    {
+      "from": "webview/assets/home-artifact-templates-DEAd_KXL.js",
+      "to": "webview/assets/home-artifact-templates.js"
+    },
+    {
+      "from": "webview/assets/home-onboarding-assistant-tutorial-card-CHTorzrc.js",
+      "to": "webview/assets/home-onboarding-assistant-tutorial-card.js"
+    },
+    {
+      "from": "webview/assets/home-use-cases-data-hIxZSoyH.js",
+      "to": "webview/assets/home-use-cases-data.js"
+    },
+    {
+      "from": "webview/assets/horizon-BJzxVnZG.js",
+      "to": "webview/assets/horizon.js"
+    },
+    {
+      "from": "webview/assets/hu-HU-PeillpTn.js",
+      "to": "webview/assets/hu-HU.js"
+    },
+    {
+      "from": "webview/assets/hurl-CneTkCaN.js",
+      "to": "webview/assets/hurl.js"
+    },
+    {
+      "from": "webview/assets/hy-AM-CqrvdbOW.js",
+      "to": "webview/assets/hy-AM.js"
+    },
+    {
+      "from": "webview/assets/id-ID-CQKnHCYT.js",
+      "to": "webview/assets/id-ID.js"
+    },
+    {
+      "from": "webview/assets/import-settings-_dOMsN_Y.js",
+      "to": "webview/assets/import-settings.js"
+    },
+    {
+      "from": "webview/assets/index-CxLSpAwm.js",
+      "to": "webview/assets/index.js"
+    },
+    {
+      "from": "webview/assets/info-OMHHGYJF-DfUzhqEq.js",
+      "to": "webview/assets/info-OMHHGYJF.js"
+    },
+    {
+      "from": "webview/assets/infoDiagram-42DDH7IO-BJFQLOdL.js",
+      "to": "webview/assets/infoDiagram-42DDH7IO.js"
+    },
+    {
+      "from": "webview/assets/ini-DjQnjYwE.js",
+      "to": "webview/assets/ini.js"
+    },
+    {
+      "from": "webview/assets/is-IS-CFYSbhEO.js",
+      "to": "webview/assets/is-IS.js"
+    },
+    {
+      "from": "webview/assets/isEmpty-BmEACTde.js",
+      "to": "webview/assets/isEmpty-1.js"
+    },
+    {
+      "from": "webview/assets/ishikawaDiagram-UXIWVN3A-DlFUyCNo.js",
+      "to": "webview/assets/ishikawaDiagram-UXIWVN3A-1.js"
+    },
+    {
+      "from": "webview/assets/ishikawaDiagram-UXIWVN3A-DpvBJxBD.js",
+      "to": "webview/assets/ishikawaDiagram-UXIWVN3A-2.js"
+    },
+    {
+      "from": "webview/assets/jinja-BoEsWOrI.js",
+      "to": "webview/assets/jinja.js"
+    },
+    {
+      "from": "webview/assets/journeyDiagram-VCZTEJTY-CXMCXgeV.js",
+      "to": "webview/assets/journeyDiagram-VCZTEJTY.js"
+    },
+    {
+      "from": "webview/assets/json5-cJJzze_g.js",
+      "to": "webview/assets/json5.js"
+    },
+    {
+      "from": "webview/assets/jsonl-BKxYvlaE.js",
+      "to": "webview/assets/jsonl.js"
+    },
+    {
+      "from": "webview/assets/ka-GE-CDVNJAgG.js",
+      "to": "webview/assets/ka-GE.js"
+    },
+    {
+      "from": "webview/assets/kanagawa-dragon-DLfGKwaI.js",
+      "to": "webview/assets/kanagawa-dragon-1.js"
+    },
+    {
+      "from": "webview/assets/kanagawa-lotus-OFVMOucj.js",
+      "to": "webview/assets/kanagawa-lotus-1.js"
+    },
+    {
+      "from": "webview/assets/kanagawa-wave-CGQsGOAS.js",
+      "to": "webview/assets/kanagawa-wave-1.js"
+    },
+    {
+      "from": "webview/assets/kanban-definition-6JOO6SKY-CkaCpUwV.js",
+      "to": "webview/assets/kanban-definition-6JOO6SKY.js"
+    },
+    {
+      "from": "webview/assets/kusto-BFgRsUWN.js",
+      "to": "webview/assets/kusto.js"
+    },
+    {
+      "from": "webview/assets/laserwave-DFvpTuNs.js",
+      "to": "webview/assets/laserwave-1.js"
+    },
+    {
+      "from": "webview/assets/lean-CiifFuSN.js",
+      "to": "webview/assets/lean.js"
+    },
+    {
+      "from": "webview/assets/less-BOUwevrn.js",
+      "to": "webview/assets/less-1.js"
+    },
+    {
+      "from": "webview/assets/linear-light-D-OtMJGJ.js",
+      "to": "webview/assets/linear-light-D.js"
+    },
+    {
+      "from": "webview/assets/llvm-CeQvuCLE.js",
+      "to": "webview/assets/llvm.js"
+    },
+    {
+      "from": "webview/assets/local-conversation-thread-BwqAGxoz.js",
+      "to": "webview/assets/local-conversation-thread.js"
+    },
+    {
+      "from": "webview/assets/logo-BjKdncHT.js",
+      "to": "webview/assets/logo.js"
+    },
+    {
+      "from": "webview/assets/make-cAYTkUT_.js",
+      "to": "webview/assets/make.js"
+    },
+    {
+      "from": "webview/assets/material-theme-darker-tecngVWd.js",
+      "to": "webview/assets/material-theme-darker-1.js"
+    },
+    {
+      "from": "webview/assets/material-theme-ocean-MdVAdAfZ.js",
+      "to": "webview/assets/material-theme-ocean.js"
+    },
+    {
+      "from": "webview/assets/mcp-settings-rSYMD_vg.js",
+      "to": "webview/assets/mcp-settings.js"
+    },
+    {
+      "from": "webview/assets/merge-Baqijoc_.js",
+      "to": "webview/assets/merge-1.js"
+    },
+    {
+      "from": "webview/assets/merge-XflwQgWH.js",
+      "to": "webview/assets/merge-2.js"
+    },
+    {
+      "from": "webview/assets/mermaid-parser.core-BaVCoLZH.js",
+      "to": "webview/assets/mermaid-parser.core.js"
+    },
+    {
+      "from": "webview/assets/mindmap-definition-VGOIOE7T-DdYOkKZJ.js",
+      "to": "webview/assets/mindmap-definition-VGOIOE7T.js"
+    },
+    {
+      "from": "webview/assets/narrat-CcmfvnCP.js",
+      "to": "webview/assets/narrat.js"
+    },
+    {
+      "from": "webview/assets/nb-NO-DbuGrLe_.js",
+      "to": "webview/assets/nb-NO.js"
+    },
+    {
+      "from": "webview/assets/nord-BcZOZQCT.js",
+      "to": "webview/assets/nord-1.js"
+    },
+    {
+      "from": "webview/assets/notion-dark-mMgrZbKL.js",
+      "to": "webview/assets/notion-dark.js"
+    },
+    {
+      "from": "webview/assets/objective-cpp-YkIVaRCL.js",
+      "to": "webview/assets/objective-cpp.js"
+    },
+    {
+      "from": "webview/assets/open-in-targets-query-iQfifJeS.js",
+      "to": "webview/assets/open-in-targets-query.js"
+    },
+    {
+      "from": "webview/assets/openscad-CaVihhwU.js",
+      "to": "webview/assets/openscad.js"
+    },
+    {
+      "from": "webview/assets/oscurange-BsBVVucu.js",
+      "to": "webview/assets/oscurange.js"
+    },
+    {
+      "from": "webview/assets/pdf-preview-panel-BHPFKiOr.css",
+      "to": "webview/assets/pdf-preview-panel.css"
+    },
+    {
+      "from": "webview/assets/pie-ZZUOXDRM-BhKikLzB.js",
+      "to": "webview/assets/pie-ZZUOXDRM-1.js"
+    },
+    {
+      "from": "webview/assets/pie-ZZUOXDRM-OHayUxDu.js",
+      "to": "webview/assets/pie-ZZUOXDRM-2.js"
+    },
+    {
+      "from": "webview/assets/pie-ZZUOXDRM-C-GbAKjj.js",
+      "to": "webview/assets/pie-ZZUOXDRM-C.js"
+    },
+    {
+      "from": "webview/assets/pkg-CsBnWPsQ.js",
+      "to": "webview/assets/pkg.js"
+    },
+    {
+      "from": "webview/assets/plugin-uninstall-dialog-m-AHOBoV.js",
+      "to": "webview/assets/plugin-uninstall-dialog-m.js"
+    },
+    {
+      "from": "webview/assets/plugins-page-DoKhPslE.css",
+      "to": "webview/assets/plugins-page.css"
+    },
+    {
+      "from": "webview/assets/powershell-DWeTd_zo.js",
+      "to": "webview/assets/powershell.js"
+    },
+    {
+      "from": "webview/assets/pricing-plan-page-CfBmVXFu.js",
+      "to": "webview/assets/pricing-plan-page.js"
+    },
+    {
+      "from": "webview/assets/profile-DOxOBCjz.css",
+      "to": "webview/assets/profile.css"
+    },
+    {
+      "from": "webview/assets/pt-PT-CECMtpkP.js",
+      "to": "webview/assets/pt-PT.js"
+    },
+    {
+      "from": "webview/assets/pug-CIoNuXBo.js",
+      "to": "webview/assets/pug.js"
+    },
+    {
+      "from": "webview/assets/puppet-BaXPPOyA.js",
+      "to": "webview/assets/puppet.js"
+    },
+    {
+      "from": "webview/assets/python-DAmoLWNe.js",
+      "to": "webview/assets/python-1.js"
+    },
+    {
+      "from": "webview/assets/qss-ZmlPXtjf.js",
+      "to": "webview/assets/qss.js"
+    },
+    {
+      "from": "webview/assets/quadrantDiagram-AYHSOK5B-BRnrrCmT.js",
+      "to": "webview/assets/quadrantDiagram-AYHSOK5B.js"
+    },
+    {
+      "from": "webview/assets/query-string-CoYNflPh.js",
+      "to": "webview/assets/query-string.js"
+    },
+    {
+      "from": "webview/assets/queued-message-list-ClCasU_c.js",
+      "to": "webview/assets/queued-message-list.js"
+    },
+    {
+      "from": "webview/assets/r-BEvHTvjh.js",
+      "to": "webview/assets/r-1.js"
+    },
+    {
+      "from": "webview/assets/radar-PYXPWWZC-CkKrZkO_.js",
+      "to": "webview/assets/radar-PYXPWWZC-3.js"
+    },
+    {
+      "from": "webview/assets/radar-PYXPWWZC-Cvhporan.js",
+      "to": "webview/assets/radar-PYXPWWZC-4.js"
+    },
+    {
+      "from": "webview/assets/reduce-CYbtueTs.js",
+      "to": "webview/assets/reduce.js"
+    },
+    {
+      "from": "webview/assets/regexp-CiMOjVJH.js",
+      "to": "webview/assets/regexp-1.js"
+    },
+    {
+      "from": "webview/assets/requirementDiagram-MS252O5E-CVrySQlO.js",
+      "to": "webview/assets/requirementDiagram-MS252O5E-1.js"
+    },
+    {
+      "from": "webview/assets/requirementDiagram-MS252O5E-CYYPaSyf.js",
+      "to": "webview/assets/requirementDiagram-MS252O5E-2.js"
+    },
+    {
+      "from": "webview/assets/requirementDiagram-MS252O5E-DDpGYDms.js",
+      "to": "webview/assets/requirementDiagram-MS252O5E-3.js"
+    },
+    {
+      "from": "webview/assets/ro-RO-DdEIpEKg.js",
+      "to": "webview/assets/ro-RO.js"
+    },
+    {
+      "from": "webview/assets/rose-pine-DynzhByL.js",
+      "to": "webview/assets/rose-pine-1.js"
+    },
+    {
+      "from": "webview/assets/rose-pine-dawn-YQkYGXbf.js",
+      "to": "webview/assets/rose-pine-dawn-1.js"
+    },
+    {
+      "from": "webview/assets/rose-pine-moon-zsnvlLqH.js",
+      "to": "webview/assets/rose-pine-moon-1.js"
+    },
+    {
+      "from": "webview/assets/rpc-tZApRqpy.js",
+      "to": "webview/assets/rpc.js"
+    },
+    {
+      "from": "webview/assets/ruby-BvFGfhJE.js",
+      "to": "webview/assets/ruby-1.js"
+    },
+    {
+      "from": "webview/assets/sankeyDiagram-TZEHDZUN-DaYrOv_J.js",
+      "to": "webview/assets/sankeyDiagram-TZEHDZUN.js"
+    },
+    {
+      "from": "webview/assets/sankeyDiagram-XADWPNL6-BTTFHYdQ.js",
+      "to": "webview/assets/sankeyDiagram-XADWPNL6-3.js"
+    },
+    {
+      "from": "webview/assets/sankeyDiagram-XADWPNL6-CU_xHsSR.js",
+      "to": "webview/assets/sankeyDiagram-XADWPNL6-4.js"
+    },
+    {
+      "from": "webview/assets/scss-BfPyILsc.js",
+      "to": "webview/assets/scss-1.js"
+    },
+    {
+      "from": "webview/assets/scss-DnbfHMbk.js",
+      "to": "webview/assets/scss-2.js"
+    },
+    {
+      "from": "webview/assets/sdbl-BYRsvxdI.js",
+      "to": "webview/assets/sdbl-1.js"
+    },
+    {
+      "from": "webview/assets/sectioned-page-BgyNiIIs.js",
+      "to": "webview/assets/sectioned-page.js"
+    },
+    {
+      "from": "webview/assets/selectable-list-row-CackmjJs.js",
+      "to": "webview/assets/selectable-list-row.js"
+    },
+    {
+      "from": "webview/assets/sequenceDiagram-FGHM5R23-BeCynHZS.js",
+      "to": "webview/assets/sequenceDiagram-FGHM5R23.js"
+    },
+    {
+      "from": "webview/assets/settings-page-KrgxwmYI.js",
+      "to": "webview/assets/settings-page.js"
+    },
+    {
+      "from": "webview/assets/setup-codex-wizard-step-view-DkZFzDpn.js",
+      "to": "webview/assets/setup-codex-wizard-step-view.js"
+    },
+    {
+      "from": "webview/assets/shellscript-DXEWFrev.js",
+      "to": "webview/assets/shellscript-1.js"
+    },
+    {
+      "from": "webview/assets/shellscript-QhsrqZEg.js",
+      "to": "webview/assets/shellscript-2.js"
+    },
+    {
+      "from": "webview/assets/slack-ochin-BGZoa_Zz.js",
+      "to": "webview/assets/slack-ochin-1.js"
+    },
+    {
+      "from": "webview/assets/sparql-CVqBOdV_.js",
+      "to": "webview/assets/sparql.js"
+    },
+    {
+      "from": "webview/assets/splunk-Cfwiy_VD.js",
+      "to": "webview/assets/splunk.js"
+    },
+    {
+      "from": "webview/assets/spreadsheet-S_ezKCuJ.js",
+      "to": "webview/assets/spreadsheet-1.js"
+    },
+    {
+      "from": "webview/assets/src-BsddAySF.js",
+      "to": "webview/assets/src-4.js"
+    },
+    {
+      "from": "webview/assets/src-DUJGKvUX.js",
+      "to": "webview/assets/src-5.js"
+    },
+    {
+      "from": "webview/assets/stata-BMwoYXoN.js",
+      "to": "webview/assets/stata.js"
+    },
+    {
+      "from": "webview/assets/stateDiagram-FHFEXIEX-BzAAcE_B.js",
+      "to": "webview/assets/stateDiagram-FHFEXIEX.js"
+    },
+    {
+      "from": "webview/assets/stateDiagram-v2-QKLJ7IA2-DOZoTWEO.js",
+      "to": "webview/assets/stateDiagram-v2-QKLJ7IA2-3.js"
+    },
+    {
+      "from": "webview/assets/stateDiagram-v2-QKLJ7IA2-NVujTopY.js",
+      "to": "webview/assets/stateDiagram-v2-QKLJ7IA2-4.js"
+    },
+    {
+      "from": "webview/assets/tabs-BAeCIxNQ.js",
+      "to": "webview/assets/tabs.js"
+    },
+    {
+      "from": "webview/assets/templ-xGaZXhOs.js",
+      "to": "webview/assets/templ.js"
+    },
+    {
+      "from": "webview/assets/temple-dark-CXWxQtiv.js",
+      "to": "webview/assets/temple-dark.js"
+    },
+    {
+      "from": "webview/assets/thread-user-message-navigation-rail-DIEtpbgb.js",
+      "to": "webview/assets/thread-user-message-navigation-rail.js"
+    },
+    {
+      "from": "webview/assets/timeline-definition-IT6M3QCI-DaTZmOPo.js",
+      "to": "webview/assets/timeline-definition-IT6M3QCI.js"
+    },
+    {
+      "from": "webview/assets/tl-BqjOJzNK.js",
+      "to": "webview/assets/tl.js"
+    },
+    {
+      "from": "webview/assets/to_do_animation-QXnMUnnJ.js",
+      "to": "webview/assets/to_do_animation.js"
+    },
+    {
+      "from": "webview/assets/toolbar-breadcrumb-BZpOAzWC.js",
+      "to": "webview/assets/toolbar-breadcrumb.js"
+    },
+    {
+      "from": "webview/assets/tr-TR-DJOlOhhn.js",
+      "to": "webview/assets/tr-TR.js"
+    },
+    {
+      "from": "webview/assets/treeView-SZITEDCU-cjLZpVgp.js",
+      "to": "webview/assets/treeView-SZITEDCU.js"
+    },
+    {
+      "from": "webview/assets/typespec-Bd_d_YvI.js",
+      "to": "webview/assets/typespec.js"
+    },
+    {
+      "from": "webview/assets/typst-YzNlKzsC.js",
+      "to": "webview/assets/typst.js"
+    },
+    {
+      "from": "webview/assets/ur-DYOXcuku.js",
+      "to": "webview/assets/ur.js"
+    },
+    {
+      "from": "webview/assets/v-COdZhkdW.js",
+      "to": "webview/assets/v.js"
+    },
+    {
+      "from": "webview/assets/verilog-PmTCTjZk.js",
+      "to": "webview/assets/verilog.js"
+    },
+    {
+      "from": "webview/assets/vesper-BYVhFeGb.js",
+      "to": "webview/assets/vesper-1.js"
+    },
+    {
+      "from": "webview/assets/vi-VN-CBrBuiMI.js",
+      "to": "webview/assets/vi-VN.js"
+    },
+    {
+      "from": "webview/assets/vitesse-light-DHwJMwSm.js",
+      "to": "webview/assets/vitesse-light.js"
+    },
+    {
+      "from": "webview/assets/vyper-BwWGgemK.js",
+      "to": "webview/assets/vyper.js"
+    },
+    {
+      "from": "webview/assets/wardley-RL74JXVD-pIeHHMCS.js",
+      "to": "webview/assets/wardley-RL74JXVD.js"
+    },
+    {
+      "from": "webview/assets/wasm-CboGkVi_.js",
+      "to": "webview/assets/wasm.js"
+    },
+    {
+      "from": "webview/assets/web-search-icon-DtUFVMeN.js",
+      "to": "webview/assets/web-search-icon.js"
+    },
+    {
+      "from": "webview/assets/wenyan-BOEh_aWF.js",
+      "to": "webview/assets/wenyan.js"
+    },
+    {
+      "from": "webview/assets/wikitext-BBSROShb.js",
+      "to": "webview/assets/wikitext.js"
+    },
+    {
+      "from": "webview/assets/workbook-from-csv-DdquzPzc.js",
+      "to": "webview/assets/workbook-from-csv.js"
+    },
+    {
+      "from": "webview/assets/workbook-from-markdown-jPKycuSB.js",
+      "to": "webview/assets/workbook-from-markdown-3.js"
+    },
+    {
+      "from": "webview/assets/workbook-from-markdown-raPrwWad.js",
+      "to": "webview/assets/workbook-from-markdown-4.js"
+    },
+    {
+      "from": "webview/assets/worker-QcUPnwRG.js",
+      "to": "webview/assets/worker.js"
+    },
+    {
+      "from": "webview/assets/worktrees-settings-page-DWPENrfK.js",
+      "to": "webview/assets/worktrees-settings-page.js"
+    },
+    {
+      "from": "webview/assets/yaml-DdZLbiFP.js",
+      "to": "webview/assets/yaml-1.js"
+    },
+    {
+      "from": "webview/assets/zenscript-CJVCzxCK.js",
+      "to": "webview/assets/zenscript.js"
+    },
+    {
+      "from": "webview/assets/app-initial~app-main~personalization-settings~appearance-settings~general-settings-DCerg-br.js",
+      "to": "webview/assets/app-initial~app-main~personalization-settings~appearance-settings~general-settings.js"
+    },
+    {
+      "from": "webview/assets/app-initial~app-main~remote-conversation-page~pull-requests-page~hotkey-window-thread-page~~dag4dvlp-XvbiN2D-.js",
+      "to": "webview/assets/app-initial~app-main~remote-conversation-page~pull-requests-page~hotkey-window-thread-page~~dag4dvlp.js"
+    },
+    {
+      "from": "webview/assets/app-initial~app-main~worktree-init-v2-page~remote-conversation-page~plugin-detail-page~new-~sfopfmmp-9J50_--p.js",
+      "to": "webview/assets/app-initial~app-main~worktree-init-v2-page~remote-conversation-page~plugin-detail-page~new-~sfopfmmp.js"
+    },
+    {
+      "from": "webview/assets/app-prefetch-impl-S8F5E-ce.js",
+      "to": "webview/assets/app-prefetch-impl.js"
+    },
+    {
+      "from": "webview/assets/appgen-share-dialog-C2XeC-_r.js",
+      "to": "webview/assets/appgen-share-dialog-1.js"
+    },
+    {
+      "from": "webview/assets/applescript--BZIIAhT.js",
+      "to": "webview/assets/applescript.js"
+    },
+    {
+      "from": "webview/assets/architecture-YZFGNWBL-1.js",
+      "to": "webview/assets/architecture-1.js"
+    },
+    {
+      "from": "webview/assets/architecture-YZFGNWBL-2.js",
+      "to": "webview/assets/architecture-2.js"
+    },
+    {
+      "from": "webview/assets/architecture-YZFGNWBL-3.js",
+      "to": "webview/assets/architecture-3.js"
+    },
+    {
+      "from": "webview/assets/architecture-YZFGNWBL-rarOtu8-.js",
+      "to": "webview/assets/architecture-4.js"
+    },
+    {
+      "from": "webview/assets/architectureDiagram-Q4EWVU46--3f7RRxc.js",
+      "to": "webview/assets/architectureDiagram-1.js"
+    },
+    {
+      "from": "webview/assets/architectureDiagram-Q4EWVU46-CxNS-sgT.js",
+      "to": "webview/assets/architectureDiagram-2.js"
+    },
+    {
+      "from": "webview/assets/architectureDiagram-Q4EWVU46-DXwQl5j-.js",
+      "to": "webview/assets/architectureDiagram-3.js"
+    },
+    {
+      "from": "webview/assets/architectureDiagram-VXUJARFQ-DSHF0-Hw.js",
+      "to": "webview/assets/architectureDiagram-4.js"
+    },
+    {
+      "from": "webview/assets/bat-Bpxvqyt-.js",
+      "to": "webview/assets/bat.js"
+    },
+    {
+      "from": "webview/assets/blockDiagram-DXYQGD6D-1.js",
+      "to": "webview/assets/blockDiagram-1.js"
+    },
+    {
+      "from": "webview/assets/blockDiagram-DXYQGD6D-2.js",
+      "to": "webview/assets/blockDiagram-2.js"
+    },
+    {
+      "from": "webview/assets/blockDiagram-DXYQGD6D-3.js",
+      "to": "webview/assets/blockDiagram-3.js"
+    },
+    {
+      "from": "webview/assets/blockDiagram-DXYQGD6D.js",
+      "to": "webview/assets/blockDiagram-4.js"
+    },
+    {
+      "from": "webview/assets/browser-profile-import-dialog-tHFYbf-n.js",
+      "to": "webview/assets/browser-profile-import-dialog.js"
+    },
+    {
+      "from": "webview/assets/c-C6sx0t-b.js",
+      "to": "webview/assets/c-1.js"
+    },
+    {
+      "from": "webview/assets/c4Diagram-AHTNJAMY-1.js",
+      "to": "webview/assets/c4Diagram-1.js"
+    },
+    {
+      "from": "webview/assets/c4Diagram-AHTNJAMY-2.js",
+      "to": "webview/assets/c4Diagram-2.js"
+    },
+    {
+      "from": "webview/assets/c4Diagram-AHTNJAMY-3.js",
+      "to": "webview/assets/c4Diagram-3.js"
+    },
+    {
+      "from": "webview/assets/c4Diagram-AHTNJAMY-4.js",
+      "to": "webview/assets/c4Diagram-4.js"
+    },
+    {
+      "from": "webview/assets/cadence-8Nq2Z-Td.js",
+      "to": "webview/assets/cadence.js"
+    },
+    {
+      "from": "webview/assets/catppuccin-latte-DZ8T4G8-.js",
+      "to": "webview/assets/catppuccin-latte-1.js"
+    },
+    {
+      "from": "webview/assets/channel-fkXXpwx-.js",
+      "to": "webview/assets/channel.js"
+    },
+    {
+      "from": "webview/assets/chunk-2KRD3SAO-1.js",
+      "to": "webview/assets/chunk-16.js"
+    },
+    {
+      "from": "webview/assets/chunk-2KRD3SAO-2.js",
+      "to": "webview/assets/chunk-17.js"
+    },
+    {
+      "from": "webview/assets/chunk-2KRD3SAO-3.js",
+      "to": "webview/assets/chunk-18.js"
+    },
+    {
+      "from": "webview/assets/chunk-2KRD3SAO.js",
+      "to": "webview/assets/chunk-19.js"
+    },
+    {
+      "from": "webview/assets/chunk-336JU56O-1.js",
+      "to": "webview/assets/chunk-20.js"
+    },
+    {
+      "from": "webview/assets/chunk-336JU56O-2.js",
+      "to": "webview/assets/chunk-21.js"
+    },
+    {
+      "from": "webview/assets/chunk-336JU56O-3.js",
+      "to": "webview/assets/chunk-22.js"
+    },
+    {
+      "from": "webview/assets/chunk-336JU56O-CMkn-uh4.js",
+      "to": "webview/assets/chunk-23.js"
+    },
+    {
+      "from": "webview/assets/chunk-426QAEUC-1.js",
+      "to": "webview/assets/chunk-24.js"
+    },
+    {
+      "from": "webview/assets/chunk-426QAEUC-2.js",
+      "to": "webview/assets/chunk-25.js"
+    },
+    {
+      "from": "webview/assets/chunk-426QAEUC-3.js",
+      "to": "webview/assets/chunk-26.js"
+    },
+    {
+      "from": "webview/assets/chunk-426QAEUC.js",
+      "to": "webview/assets/chunk-27.js"
+    },
+    {
+      "from": "webview/assets/chunk-4BX2VUAB-1.js",
+      "to": "webview/assets/chunk-28.js"
+    },
+    {
+      "from": "webview/assets/chunk-4BX2VUAB-2.js",
+      "to": "webview/assets/chunk-29.js"
+    },
+    {
+      "from": "webview/assets/chunk-4BX2VUAB-3.js",
+      "to": "webview/assets/chunk-30.js"
+    },
+    {
+      "from": "webview/assets/chunk-4BX2VUAB-4.js",
+      "to": "webview/assets/chunk-31.js"
+    },
+    {
+      "from": "webview/assets/chunk-4BX2VUAB-5.js",
+      "to": "webview/assets/chunk-32.js"
+    },
+    {
+      "from": "webview/assets/chunk-4TB4RGXK-1.js",
+      "to": "webview/assets/chunk-33.js"
+    },
+    {
+      "from": "webview/assets/chunk-4TB4RGXK-2.js",
+      "to": "webview/assets/chunk-34.js"
+    },
+    {
+      "from": "webview/assets/chunk-4TB4RGXK-3.js",
+      "to": "webview/assets/chunk-35.js"
+    },
+    {
+      "from": "webview/assets/chunk-4TB4RGXK.js",
+      "to": "webview/assets/chunk-36.js"
+    },
+    {
+      "from": "webview/assets/chunk-55IACEB6-1.js",
+      "to": "webview/assets/chunk-37.js"
+    },
+    {
+      "from": "webview/assets/chunk-55IACEB6-2.js",
+      "to": "webview/assets/chunk-38.js"
+    },
+    {
+      "from": "webview/assets/chunk-55IACEB6-3.js",
+      "to": "webview/assets/chunk-39.js"
+    },
+    {
+      "from": "webview/assets/chunk-55IACEB6-4.js",
+      "to": "webview/assets/chunk-40.js"
+    },
+    {
+      "from": "webview/assets/chunk-55IACEB6-5.js",
+      "to": "webview/assets/chunk-41.js"
+    },
+    {
+      "from": "webview/assets/chunk-5FUZZQ4R-1.js",
+      "to": "webview/assets/chunk-42.js"
+    },
+    {
+      "from": "webview/assets/chunk-5FUZZQ4R-2.js",
+      "to": "webview/assets/chunk-43.js"
+    },
+    {
+      "from": "webview/assets/chunk-5FUZZQ4R-3.js",
+      "to": "webview/assets/chunk-44.js"
+    },
+    {
+      "from": "webview/assets/chunk-5FUZZQ4R.js",
+      "to": "webview/assets/chunk-45.js"
+    },
+    {
+      "from": "webview/assets/chunk-5PVQY5BW-1.js",
+      "to": "webview/assets/chunk-46.js"
+    },
+    {
+      "from": "webview/assets/chunk-5PVQY5BW-2.js",
+      "to": "webview/assets/chunk-47.js"
+    },
+    {
+      "from": "webview/assets/chunk-5PVQY5BW-B-If-JI6.js",
+      "to": "webview/assets/chunk-48.js"
+    },
+    {
+      "from": "webview/assets/chunk-67CJDMHE-1.js",
+      "to": "webview/assets/chunk-49.js"
+    },
+    {
+      "from": "webview/assets/chunk-67CJDMHE-2.js",
+      "to": "webview/assets/chunk-50.js"
+    },
+    {
+      "from": "webview/assets/chunk-67CJDMHE-BwzXel-I.js",
+      "to": "webview/assets/chunk-51.js"
+    },
+    {
+      "from": "webview/assets/chunk-67CJDMHE.js",
+      "to": "webview/assets/chunk-52.js"
+    },
+    {
+      "from": "webview/assets/chunk-76Q3JFCE.js",
+      "to": "webview/assets/chunk-53.js"
+    },
+    {
+      "from": "webview/assets/chunk-7N4EOEYR-1.js",
+      "to": "webview/assets/chunk-54.js"
+    },
+    {
+      "from": "webview/assets/chunk-7N4EOEYR-2.js",
+      "to": "webview/assets/chunk-55.js"
+    },
+    {
+      "from": "webview/assets/chunk-7N4EOEYR-3.js",
+      "to": "webview/assets/chunk-56.js"
+    },
+    {
+      "from": "webview/assets/chunk-7N4EOEYR.js",
+      "to": "webview/assets/chunk-57.js"
+    },
+    {
+      "from": "webview/assets/chunk-AA7GKIK3--EMbbHQf.js",
+      "to": "webview/assets/chunk-58.js"
+    },
+    {
+      "from": "webview/assets/chunk-AA7GKIK3-1.js",
+      "to": "webview/assets/chunk-59.js"
+    },
+    {
+      "from": "webview/assets/chunk-AA7GKIK3-2.js",
+      "to": "webview/assets/chunk-60.js"
+    },
+    {
+      "from": "webview/assets/chunk-AA7GKIK3-BiHWd-2t.js",
+      "to": "webview/assets/chunk-61.js"
+    },
+    {
+      "from": "webview/assets/chunk-ABZYJK2D.js",
+      "to": "webview/assets/chunk-62.js"
+    },
+    {
+      "from": "webview/assets/chunk-AGHRB4JF.js",
+      "to": "webview/assets/chunk-63.js"
+    },
+    {
+      "from": "webview/assets/chunk-BSJP7CBP-Cis2-Qs5.js",
+      "to": "webview/assets/chunk-64.js"
+    },
+    {
+      "from": "webview/assets/chunk-BSJP7CBP-DNK2-xIh.js",
+      "to": "webview/assets/chunk-65.js"
+    },
+    {
+      "from": "webview/assets/chunk-BSJP7CBP.js",
+      "to": "webview/assets/chunk-66.js"
+    },
+    {
+      "from": "webview/assets/chunk-CIAEETIT-1.js",
+      "to": "webview/assets/chunk-67.js"
+    },
+    {
+      "from": "webview/assets/chunk-CIAEETIT-2.js",
+      "to": "webview/assets/chunk-68.js"
+    },
+    {
+      "from": "webview/assets/chunk-CIAEETIT-3.js",
+      "to": "webview/assets/chunk-69.js"
+    },
+    {
+      "from": "webview/assets/chunk-CIAEETIT-4.js",
+      "to": "webview/assets/chunk-70.js"
+    },
+    {
+      "from": "webview/assets/chunk-CVBHYZKI-ucg-Wr6h.js",
+      "to": "webview/assets/chunk-71.js"
+    },
+    {
+      "from": "webview/assets/chunk-DI55MBZ5-DHN-rvMU.js",
+      "to": "webview/assets/chunk-72.js"
+    },
+    {
+      "from": "webview/assets/chunk-EDXVE4YY-1.js",
+      "to": "webview/assets/chunk-73.js"
+    },
+    {
+      "from": "webview/assets/chunk-EDXVE4YY-2.js",
+      "to": "webview/assets/chunk-74.js"
+    },
+    {
+      "from": "webview/assets/chunk-EDXVE4YY-3.js",
+      "to": "webview/assets/chunk-75.js"
+    },
+    {
+      "from": "webview/assets/chunk-EDXVE4YY.js",
+      "to": "webview/assets/chunk-76.js"
+    },
+    {
+      "from": "webview/assets/chunk-ENJZ2VHE-1.js",
+      "to": "webview/assets/chunk-77.js"
+    },
+    {
+      "from": "webview/assets/chunk-ENJZ2VHE-2.js",
+      "to": "webview/assets/chunk-78.js"
+    },
+    {
+      "from": "webview/assets/chunk-ENJZ2VHE-3.js",
+      "to": "webview/assets/chunk-79.js"
+    },
+    {
+      "from": "webview/assets/chunk-ENJZ2VHE.js",
+      "to": "webview/assets/chunk-80.js"
+    },
+    {
+      "from": "webview/assets/chunk-EXTU4WIE.js",
+      "to": "webview/assets/chunk-81.js"
+    },
+    {
+      "from": "webview/assets/chunk-FMBD7UC4-1.js",
+      "to": "webview/assets/chunk-82.js"
+    },
+    {
+      "from": "webview/assets/chunk-FMBD7UC4-2.js",
+      "to": "webview/assets/chunk-83.js"
+    },
+    {
+      "from": "webview/assets/chunk-FMBD7UC4-3.js",
+      "to": "webview/assets/chunk-84.js"
+    },
+    {
+      "from": "webview/assets/chunk-FMBD7UC4-4.js",
+      "to": "webview/assets/chunk-85.js"
+    },
+    {
+      "from": "webview/assets/chunk-FMBD7UC4.js",
+      "to": "webview/assets/chunk-86.js"
+    },
+    {
+      "from": "webview/assets/chunk-FOC6F5B3-1.js",
+      "to": "webview/assets/chunk-87.js"
+    },
+    {
+      "from": "webview/assets/chunk-FOC6F5B3-2.js",
+      "to": "webview/assets/chunk-88.js"
+    },
+    {
+      "from": "webview/assets/chunk-FOC6F5B3-3.js",
+      "to": "webview/assets/chunk-89.js"
+    },
+    {
+      "from": "webview/assets/chunk-FOC6F5B3-4.js",
+      "to": "webview/assets/chunk-90.js"
+    },
+    {
+      "from": "webview/assets/chunk-FPAJGGOC.js",
+      "to": "webview/assets/chunk-91.js"
+    },
+    {
+      "from": "webview/assets/chunk-FWNWRKHM.js",
+      "to": "webview/assets/chunk-92.js"
+    },
+    {
+      "from": "webview/assets/chunk-HN2XXSSU.js",
+      "to": "webview/assets/chunk-93.js"
+    },
+    {
+      "from": "webview/assets/chunk-ICPOFSXX-1.js",
+      "to": "webview/assets/chunk-94.js"
+    },
+    {
+      "from": "webview/assets/chunk-ICPOFSXX-2.js",
+      "to": "webview/assets/chunk-95.js"
+    },
+    {
+      "from": "webview/assets/chunk-ICPOFSXX-3.js",
+      "to": "webview/assets/chunk-96.js"
+    },
+    {
+      "from": "webview/assets/chunk-ICPOFSXX-4.js",
+      "to": "webview/assets/chunk-97.js"
+    },
+    {
+      "from": "webview/assets/chunk-JA3XYJ7Z-Co-9Jc82.js",
+      "to": "webview/assets/chunk-98.js"
+    },
+    {
+      "from": "webview/assets/chunk-JZLCHNYA.js",
+      "to": "webview/assets/chunk-99.js"
+    },
+    {
+      "from": "webview/assets/chunk-K5T4RW27-1.js",
+      "to": "webview/assets/chunk-100.js"
+    },
+    {
+      "from": "webview/assets/chunk-K5T4RW27-2.js",
+      "to": "webview/assets/chunk-101.js"
+    },
+    {
+      "from": "webview/assets/chunk-K5T4RW27-3.js",
+      "to": "webview/assets/chunk-102.js"
+    },
+    {
+      "from": "webview/assets/chunk-KGLVRYIC-1.js",
+      "to": "webview/assets/chunk-103.js"
+    },
+    {
+      "from": "webview/assets/chunk-KGLVRYIC-2.js",
+      "to": "webview/assets/chunk-104.js"
+    },
+    {
+      "from": "webview/assets/chunk-KGLVRYIC-3.js",
+      "to": "webview/assets/chunk-105.js"
+    },
+    {
+      "from": "webview/assets/chunk-KGLVRYIC.js",
+      "to": "webview/assets/chunk-106.js"
+    },
+    {
+      "from": "webview/assets/chunk-LBM3YZW2.js",
+      "to": "webview/assets/chunk-107.js"
+    },
+    {
+      "from": "webview/assets/chunk-LIHQZDEY-1.js",
+      "to": "webview/assets/chunk-108.js"
+    },
+    {
+      "from": "webview/assets/chunk-LIHQZDEY-2.js",
+      "to": "webview/assets/chunk-109.js"
+    },
+    {
+      "from": "webview/assets/chunk-LIHQZDEY-3.js",
+      "to": "webview/assets/chunk-110.js"
+    },
+    {
+      "from": "webview/assets/chunk-LIHQZDEY.js",
+      "to": "webview/assets/chunk-111.js"
+    },
+    {
+      "from": "webview/assets/chunk-MI3HLSF2.js",
+      "to": "webview/assets/chunk-112.js"
+    },
+    {
+      "from": "webview/assets/chunk-ORNJ4GCN-1.js",
+      "to": "webview/assets/chunk-113.js"
+    },
+    {
+      "from": "webview/assets/chunk-ORNJ4GCN-2.js",
+      "to": "webview/assets/chunk-114.js"
+    },
+    {
+      "from": "webview/assets/chunk-ORNJ4GCN-CZ8XwNI-.js",
+      "to": "webview/assets/chunk-115.js"
+    },
+    {
+      "from": "webview/assets/chunk-ORNJ4GCN.js",
+      "to": "webview/assets/chunk-116.js"
+    },
+    {
+      "from": "webview/assets/chunk-OYMX7WX6-1.js",
+      "to": "webview/assets/chunk-117.js"
+    },
+    {
+      "from": "webview/assets/chunk-OYMX7WX6-2.js",
+      "to": "webview/assets/chunk-118.js"
+    },
+    {
+      "from": "webview/assets/chunk-OYMX7WX6-DCKR-mnE.js",
+      "to": "webview/assets/chunk-119.js"
+    },
+    {
+      "from": "webview/assets/chunk-QXUST7PY-Db24C-B7.js",
+      "to": "webview/assets/chunk-120.js"
+    },
+    {
+      "from": "webview/assets/chunk-QZHKN3VN-1.js",
+      "to": "webview/assets/chunk-121.js"
+    },
+    {
+      "from": "webview/assets/chunk-QZHKN3VN-2.js",
+      "to": "webview/assets/chunk-122.js"
+    },
+    {
+      "from": "webview/assets/chunk-QZHKN3VN-3.js",
+      "to": "webview/assets/chunk-123.js"
+    },
+    {
+      "from": "webview/assets/chunk-QZHKN3VN-4.js",
+      "to": "webview/assets/chunk-124.js"
+    },
+    {
+      "from": "webview/assets/chunk-QZHKN3VN.js",
+      "to": "webview/assets/chunk-125.js"
+    },
+    {
+      "from": "webview/assets/chunk-S3R3BYOJ.js",
+      "to": "webview/assets/chunk-126.js"
+    },
+    {
+      "from": "webview/assets/chunk-S6J4BHB3-SF-cXrJ2.js",
+      "to": "webview/assets/chunk-127.js"
+    },
+    {
+      "from": "webview/assets/chunk-U2HBQHQK-1.js",
+      "to": "webview/assets/chunk-128.js"
+    },
+    {
+      "from": "webview/assets/chunk-U2HBQHQK-2.js",
+      "to": "webview/assets/chunk-129.js"
+    },
+    {
+      "from": "webview/assets/chunk-U2HBQHQK-3.js",
+      "to": "webview/assets/chunk-130.js"
+    },
+    {
+      "from": "webview/assets/chunk-X2U36JSP-1.js",
+      "to": "webview/assets/chunk-131.js"
+    },
+    {
+      "from": "webview/assets/chunk-X2U36JSP-2.js",
+      "to": "webview/assets/chunk-132.js"
+    },
+    {
+      "from": "webview/assets/chunk-X2U36JSP-3.js",
+      "to": "webview/assets/chunk-133.js"
+    },
+    {
+      "from": "webview/assets/chunk-X2U36JSP.js",
+      "to": "webview/assets/chunk-134.js"
+    },
+    {
+      "from": "webview/assets/chunk-XPW4576I-1.js",
+      "to": "webview/assets/chunk-135.js"
+    },
+    {
+      "from": "webview/assets/chunk-XPW4576I-2.js",
+      "to": "webview/assets/chunk-136.js"
+    },
+    {
+      "from": "webview/assets/chunk-XPW4576I-3.js",
+      "to": "webview/assets/chunk-137.js"
+    },
+    {
+      "from": "webview/assets/chunk-XPW4576I-4.js",
+      "to": "webview/assets/chunk-138.js"
+    },
+    {
+      "from": "webview/assets/chunk-YZCP3GAM-1.js",
+      "to": "webview/assets/chunk-139.js"
+    },
+    {
+      "from": "webview/assets/chunk-YZCP3GAM-2.js",
+      "to": "webview/assets/chunk-140.js"
+    },
+    {
+      "from": "webview/assets/chunk-YZCP3GAM-3.js",
+      "to": "webview/assets/chunk-141.js"
+    },
+    {
+      "from": "webview/assets/chunk-YZCP3GAM.js",
+      "to": "webview/assets/chunk-142.js"
+    },
+    {
+      "from": "webview/assets/chunk-ZZ45TVLE-1.js",
+      "to": "webview/assets/chunk-143.js"
+    },
+    {
+      "from": "webview/assets/chunk-ZZ45TVLE-2.js",
+      "to": "webview/assets/chunk-144.js"
+    },
+    {
+      "from": "webview/assets/chunk-ZZ45TVLE-3.js",
+      "to": "webview/assets/chunk-145.js"
+    },
+    {
+      "from": "webview/assets/chunk-ZZ45TVLE-B85K-is4.js",
+      "to": "webview/assets/chunk-146.js"
+    },
+    {
+      "from": "webview/assets/classDiagram-6PBFFD2Q-1.js",
+      "to": "webview/assets/classDiagram-1.js"
+    },
+    {
+      "from": "webview/assets/classDiagram-6PBFFD2Q-2.js",
+      "to": "webview/assets/classDiagram-2.js"
+    },
+    {
+      "from": "webview/assets/classDiagram-6PBFFD2Q-BNwKZ-xO.js",
+      "to": "webview/assets/classDiagram-3.js"
+    },
+    {
+      "from": "webview/assets/classDiagram-6PBFFD2Q.js",
+      "to": "webview/assets/classDiagram-4.js"
+    },
+    {
+      "from": "webview/assets/classDiagram-v2-HSJHXN6E-1.js",
+      "to": "webview/assets/classDiagram-v2-1.js"
+    },
+    {
+      "from": "webview/assets/classDiagram-v2-HSJHXN6E-2.js",
+      "to": "webview/assets/classDiagram-v2-2.js"
+    },
+    {
+      "from": "webview/assets/classDiagram-v2-HSJHXN6E-3.js",
+      "to": "webview/assets/classDiagram-v2-3.js"
+    },
+    {
+      "from": "webview/assets/classDiagram-v2-HSJHXN6E-4.js",
+      "to": "webview/assets/classDiagram-v2-4.js"
+    },
+    {
+      "from": "webview/assets/classDiagram-v2-WZHVMYZB.js",
+      "to": "webview/assets/classDiagram-v2-5.js"
+    },
+    {
+      "from": "webview/assets/cose-bilkent-S5V4N54A-1.js",
+      "to": "webview/assets/cose-bilkent-1.js"
+    },
+    {
+      "from": "webview/assets/cose-bilkent-S5V4N54A-2.js",
+      "to": "webview/assets/cose-bilkent-2.js"
+    },
+    {
+      "from": "webview/assets/cose-bilkent-S5V4N54A-3.js",
+      "to": "webview/assets/cose-bilkent-3.js"
+    },
+    {
+      "from": "webview/assets/cose-bilkent-S5V4N54A-4.js",
+      "to": "webview/assets/cose-bilkent-4.js"
+    },
+    {
+      "from": "webview/assets/css-CodTJ-Bo.js",
+      "to": "webview/assets/css-1.js"
+    },
+    {
+      "from": "webview/assets/dagre-KV5264BT-1.js",
+      "to": "webview/assets/dagre-6.js"
+    },
+    {
+      "from": "webview/assets/dagre-KV5264BT-2.js",
+      "to": "webview/assets/dagre-7.js"
+    },
+    {
+      "from": "webview/assets/dagre-KV5264BT-3.js",
+      "to": "webview/assets/dagre-8.js"
+    },
+    {
+      "from": "webview/assets/dagre-KV5264BT.js",
+      "to": "webview/assets/dagre-9.js"
+    },
+    {
+      "from": "webview/assets/diagram-5BDNPKRD-1.js",
+      "to": "webview/assets/diagram-3.js"
+    },
+    {
+      "from": "webview/assets/diagram-5BDNPKRD-2.js",
+      "to": "webview/assets/diagram-4.js"
+    },
+    {
+      "from": "webview/assets/diagram-5BDNPKRD-3.js",
+      "to": "webview/assets/diagram-5.js"
+    },
+    {
+      "from": "webview/assets/diagram-5BDNPKRD.js",
+      "to": "webview/assets/diagram-6.js"
+    },
+    {
+      "from": "webview/assets/diagram-G4DWMVQ6-1.js",
+      "to": "webview/assets/diagram-7.js"
+    },
+    {
+      "from": "webview/assets/diagram-G4DWMVQ6-2.js",
+      "to": "webview/assets/diagram-8.js"
+    },
+    {
+      "from": "webview/assets/diagram-G4DWMVQ6-3.js",
+      "to": "webview/assets/diagram-9.js"
+    },
+    {
+      "from": "webview/assets/diagram-G4DWMVQ6-CIe-Jvh9.js",
+      "to": "webview/assets/diagram-10.js"
+    },
+    {
+      "from": "webview/assets/diagram-MMDJMWI5-1.js",
+      "to": "webview/assets/diagram-11.js"
+    },
+    {
+      "from": "webview/assets/diagram-MMDJMWI5-2.js",
+      "to": "webview/assets/diagram-12.js"
+    },
+    {
+      "from": "webview/assets/diagram-MMDJMWI5-3.js",
+      "to": "webview/assets/diagram-13.js"
+    },
+    {
+      "from": "webview/assets/diagram-MMDJMWI5-4.js",
+      "to": "webview/assets/diagram-14.js"
+    },
+    {
+      "from": "webview/assets/diagram-PSM6KHXK.js",
+      "to": "webview/assets/diagram-15.js"
+    },
+    {
+      "from": "webview/assets/diagram-TYMM5635-1.js",
+      "to": "webview/assets/diagram-16.js"
+    },
+    {
+      "from": "webview/assets/diagram-TYMM5635-2.js",
+      "to": "webview/assets/diagram-17.js"
+    },
+    {
+      "from": "webview/assets/diagram-TYMM5635-3.js",
+      "to": "webview/assets/diagram-18.js"
+    },
+    {
+      "from": "webview/assets/diagram-TYMM5635-4.js",
+      "to": "webview/assets/diagram-19.js"
+    },
+    {
+      "from": "webview/assets/document-DHCO4-l0.js",
+      "to": "webview/assets/document-1.js"
+    },
+    {
+      "from": "webview/assets/dracula-BWaSkd-J.js",
+      "to": "webview/assets/dracula-1.js"
+    },
+    {
+      "from": "webview/assets/erDiagram-SMLLAGMA-1.js",
+      "to": "webview/assets/erDiagram-1.js"
+    },
+    {
+      "from": "webview/assets/erDiagram-SMLLAGMA-2.js",
+      "to": "webview/assets/erDiagram-2.js"
+    },
+    {
+      "from": "webview/assets/erDiagram-SMLLAGMA-nU-8-kz9.js",
+      "to": "webview/assets/erDiagram-3.js"
+    },
+    {
+      "from": "webview/assets/erDiagram-SMLLAGMA.js",
+      "to": "webview/assets/erDiagram-4.js"
+    },
+    {
+      "from": "webview/assets/flowDiagram-DWJPFMVM-0YuD-9Tv.js",
+      "to": "webview/assets/flowDiagram-1.js"
+    },
+    {
+      "from": "webview/assets/flowDiagram-DWJPFMVM-1.js",
+      "to": "webview/assets/flowDiagram-2.js"
+    },
+    {
+      "from": "webview/assets/flowDiagram-DWJPFMVM-2.js",
+      "to": "webview/assets/flowDiagram-3.js"
+    },
+    {
+      "from": "webview/assets/flowDiagram-DWJPFMVM-3.js",
+      "to": "webview/assets/flowDiagram-4.js"
+    },
+    {
+      "from": "webview/assets/ganttDiagram-LVOFAZNH.js",
+      "to": "webview/assets/ganttDiagram-1.js"
+    },
+    {
+      "from": "webview/assets/ganttDiagram-T4ZO3ILL-1.js",
+      "to": "webview/assets/ganttDiagram-2.js"
+    },
+    {
+      "from": "webview/assets/ganttDiagram-T4ZO3ILL-2.js",
+      "to": "webview/assets/ganttDiagram-3.js"
+    },
+    {
+      "from": "webview/assets/ganttDiagram-T4ZO3ILL-3.js",
+      "to": "webview/assets/ganttDiagram-4.js"
+    },
+    {
+      "from": "webview/assets/ganttDiagram-T4ZO3ILL-bUMNCv-k.js",
+      "to": "webview/assets/ganttDiagram-5.js"
+    },
+    {
+      "from": "webview/assets/gdscript-CWHHJwX-.js",
+      "to": "webview/assets/gdscript-1.js"
+    },
+    {
+      "from": "webview/assets/gitGraph-7Q5UKJZL-1.js",
+      "to": "webview/assets/gitGraph-1.js"
+    },
+    {
+      "from": "webview/assets/gitGraph-7Q5UKJZL-2.js",
+      "to": "webview/assets/gitGraph-2.js"
+    },
+    {
+      "from": "webview/assets/gitGraph-7Q5UKJZL-3.js",
+      "to": "webview/assets/gitGraph-3.js"
+    },
+    {
+      "from": "webview/assets/gitGraph-7Q5UKJZL.js",
+      "to": "webview/assets/gitGraph-4.js"
+    },
+    {
+      "from": "webview/assets/gitGraph-F6HP7TQM-fvR48z-j.js",
+      "to": "webview/assets/gitGraph-5.js"
+    },
+    {
+      "from": "webview/assets/gitGraphDiagram-NY62KEGX.js",
+      "to": "webview/assets/gitGraphDiagram-1.js"
+    },
+    {
+      "from": "webview/assets/gitGraphDiagram-UUTBAWPF-1.js",
+      "to": "webview/assets/gitGraphDiagram-2.js"
+    },
+    {
+      "from": "webview/assets/gitGraphDiagram-UUTBAWPF-2.js",
+      "to": "webview/assets/gitGraphDiagram-3.js"
+    },
+    {
+      "from": "webview/assets/gitGraphDiagram-UUTBAWPF-3.js",
+      "to": "webview/assets/gitGraphDiagram-4.js"
+    },
+    {
+      "from": "webview/assets/gitGraphDiagram-UUTBAWPF-4.js",
+      "to": "webview/assets/gitGraphDiagram-5.js"
+    },
+    {
+      "from": "webview/assets/gruvbox-light-soft-CK2mbXT-.js",
+      "to": "webview/assets/gruvbox-light-soft-1.js"
+    },
+    {
+      "from": "webview/assets/home-ambient-suggestions-content-TNwltn5-.js",
+      "to": "webview/assets/home-ambient-suggestions-content.js"
+    },
+    {
+      "from": "webview/assets/home-announcements-YZ5mT-8r.js",
+      "to": "webview/assets/home-announcements-1.js"
+    },
+    {
+      "from": "webview/assets/info-OMHHGYJF-1.js",
+      "to": "webview/assets/info-1.js"
+    },
+    {
+      "from": "webview/assets/info-OMHHGYJF-2.js",
+      "to": "webview/assets/info-2.js"
+    },
+    {
+      "from": "webview/assets/info-OMHHGYJF-pC1W-Mm-.js",
+      "to": "webview/assets/info-3.js"
+    },
+    {
+      "from": "webview/assets/info-OMHHGYJF.js",
+      "to": "webview/assets/info-4.js"
+    },
+    {
+      "from": "webview/assets/infoDiagram-42DDH7IO-1.js",
+      "to": "webview/assets/infoDiagram-1.js"
+    },
+    {
+      "from": "webview/assets/infoDiagram-42DDH7IO-2.js",
+      "to": "webview/assets/infoDiagram-2.js"
+    },
+    {
+      "from": "webview/assets/infoDiagram-42DDH7IO-3.js",
+      "to": "webview/assets/infoDiagram-3.js"
+    },
+    {
+      "from": "webview/assets/infoDiagram-42DDH7IO.js",
+      "to": "webview/assets/infoDiagram-4.js"
+    },
+    {
+      "from": "webview/assets/infoDiagram-F6ZHWCRC-DCNCNGKS.js",
+      "to": "webview/assets/infoDiagram-5.js"
+    },
+    {
+      "from": "webview/assets/isEmpty-D7Zxz-Bs.js",
+      "to": "webview/assets/isEmpty-2.js"
+    },
+    {
+      "from": "webview/assets/ishikawaDiagram-UXIWVN3A-1.js",
+      "to": "webview/assets/ishikawaDiagram-1.js"
+    },
+    {
+      "from": "webview/assets/ishikawaDiagram-UXIWVN3A-2.js",
+      "to": "webview/assets/ishikawaDiagram-2.js"
+    },
+    {
+      "from": "webview/assets/ishikawaDiagram-UXIWVN3A-ChFx-FqX.js",
+      "to": "webview/assets/ishikawaDiagram-3.js"
+    },
+    {
+      "from": "webview/assets/java-BdWxND-8.js",
+      "to": "webview/assets/java-1.js"
+    },
+    {
+      "from": "webview/assets/journeyDiagram-VCZTEJTY-1.js",
+      "to": "webview/assets/journeyDiagram-1.js"
+    },
+    {
+      "from": "webview/assets/journeyDiagram-VCZTEJTY-2.js",
+      "to": "webview/assets/journeyDiagram-2.js"
+    },
+    {
+      "from": "webview/assets/journeyDiagram-VCZTEJTY-3.js",
+      "to": "webview/assets/journeyDiagram-3.js"
+    },
+    {
+      "from": "webview/assets/journeyDiagram-VCZTEJTY.js",
+      "to": "webview/assets/journeyDiagram-4.js"
+    },
+    {
+      "from": "webview/assets/journeyDiagram-XKPGCS4Q-BcfnIZ-y.js",
+      "to": "webview/assets/journeyDiagram-5.js"
+    },
+    {
+      "from": "webview/assets/kanban-definition-6JOO6SKY-1.js",
+      "to": "webview/assets/kanban-definition-1.js"
+    },
+    {
+      "from": "webview/assets/kanban-definition-6JOO6SKY-2.js",
+      "to": "webview/assets/kanban-definition-2.js"
+    },
+    {
+      "from": "webview/assets/kanban-definition-6JOO6SKY-DZb-WGcX.js",
+      "to": "webview/assets/kanban-definition-3.js"
+    },
+    {
+      "from": "webview/assets/kanban-definition-6JOO6SKY.js",
+      "to": "webview/assets/kanban-definition-4.js"
+    },
+    {
+      "from": "webview/assets/light-plus-DTRg0Z4-.js",
+      "to": "webview/assets/light-plus-1.js"
+    },
+    {
+      "from": "webview/assets/material-theme-ocean-vZ0SN-gq.js",
+      "to": "webview/assets/material-theme-ocean-1.js"
+    },
+    {
+      "from": "webview/assets/mermaid-parser.core-CY6PoT-_.js",
+      "to": "webview/assets/mermaid-parser.core-4.js"
+    },
+    {
+      "from": "webview/assets/mermaid.core-iDdCGP-p.js",
+      "to": "webview/assets/mermaid.core.js"
+    },
+    {
+      "from": "webview/assets/mindmap-definition-QFDTVHPH-1.js",
+      "to": "webview/assets/mindmap-definition-1.js"
+    },
+    {
+      "from": "webview/assets/mindmap-definition-QFDTVHPH-2.js",
+      "to": "webview/assets/mindmap-definition-2.js"
+    },
+    {
+      "from": "webview/assets/mindmap-definition-QFDTVHPH-3.js",
+      "to": "webview/assets/mindmap-definition-3.js"
+    },
+    {
+      "from": "webview/assets/mindmap-definition-QFDTVHPH-CD_nG-Fd.js",
+      "to": "webview/assets/mindmap-definition-4.js"
+    },
+    {
+      "from": "webview/assets/mindmap-definition-VGOIOE7T.js",
+      "to": "webview/assets/mindmap-definition-5.js"
+    },
+    {
+      "from": "webview/assets/notebook-preview-panel-UPj_w1N-.js",
+      "to": "webview/assets/notebook-preview-panel.js"
+    },
+    {
+      "from": "webview/assets/onboarding-plugin-suggestions-B9nxpG-N.js",
+      "to": "webview/assets/onboarding-plugin-suggestions.js"
+    },
+    {
+      "from": "webview/assets/packet-4T2RLAQJ-1.js",
+      "to": "webview/assets/packet-1.js"
+    },
+    {
+      "from": "webview/assets/packet-4T2RLAQJ-2.js",
+      "to": "webview/assets/packet-2.js"
+    },
+    {
+      "from": "webview/assets/packet-4T2RLAQJ-3.js",
+      "to": "webview/assets/packet-3.js"
+    },
+    {
+      "from": "webview/assets/packet-4T2RLAQJ-4.js",
+      "to": "webview/assets/packet-4.js"
+    },
+    {
+      "from": "webview/assets/pascal-CoAWn-ck.js",
+      "to": "webview/assets/pascal.js"
+    },
+    {
+      "from": "webview/assets/pending-request-item-panel-DdQdfEk-.js",
+      "to": "webview/assets/pending-request-item-panel.js"
+    },
+    {
+      "from": "webview/assets/pie-7BOR55EZ-BDq7x-wB.js",
+      "to": "webview/assets/pie-1.js"
+    },
+    {
+      "from": "webview/assets/pie-ZZUOXDRM-1.js",
+      "to": "webview/assets/pie-2.js"
+    },
+    {
+      "from": "webview/assets/pie-ZZUOXDRM-2.js",
+      "to": "webview/assets/pie-3.js"
+    },
+    {
+      "from": "webview/assets/pie-ZZUOXDRM-C.js",
+      "to": "webview/assets/pie-4.js"
+    },
+    {
+      "from": "webview/assets/pie-ZZUOXDRM.js",
+      "to": "webview/assets/pie-5.js"
+    },
+    {
+      "from": "webview/assets/pieDiagram-ADFJNKIX.js",
+      "to": "webview/assets/pieDiagram-1.js"
+    },
+    {
+      "from": "webview/assets/pieDiagram-DEJITSTG-1.js",
+      "to": "webview/assets/pieDiagram-2.js"
+    },
+    {
+      "from": "webview/assets/pieDiagram-DEJITSTG-2.js",
+      "to": "webview/assets/pieDiagram-3.js"
+    },
+    {
+      "from": "webview/assets/pieDiagram-DEJITSTG-3.js",
+      "to": "webview/assets/pieDiagram-4.js"
+    },
+    {
+      "from": "webview/assets/pieDiagram-DEJITSTG-4.js",
+      "to": "webview/assets/pieDiagram-5.js"
+    },
+    {
+      "from": "webview/assets/play-outline-CXNX40-N.js",
+      "to": "webview/assets/play-outline.js"
+    },
+    {
+      "from": "webview/assets/plugin-detail-page-utils-DPpf121-.js",
+      "to": "webview/assets/plugin-detail-page-utils.js"
+    },
+    {
+      "from": "webview/assets/quadrantDiagram-34T5L4WZ-1.js",
+      "to": "webview/assets/quadrantDiagram-1.js"
+    },
+    {
+      "from": "webview/assets/quadrantDiagram-34T5L4WZ-2.js",
+      "to": "webview/assets/quadrantDiagram-2.js"
+    },
+    {
+      "from": "webview/assets/quadrantDiagram-34T5L4WZ-3.js",
+      "to": "webview/assets/quadrantDiagram-3.js"
+    },
+    {
+      "from": "webview/assets/quadrantDiagram-34T5L4WZ-4.js",
+      "to": "webview/assets/quadrantDiagram-4.js"
+    },
+    {
+      "from": "webview/assets/quadrantDiagram-AYHSOK5B.js",
+      "to": "webview/assets/quadrantDiagram-5.js"
+    },
+    {
+      "from": "webview/assets/radar-NHE76QYJ-DLr-eYFz.js",
+      "to": "webview/assets/radar-1.js"
+    },
+    {
+      "from": "webview/assets/radar-PYXPWWZC-1.js",
+      "to": "webview/assets/radar-2.js"
+    },
+    {
+      "from": "webview/assets/radar-PYXPWWZC-2.js",
+      "to": "webview/assets/radar-3.js"
+    },
+    {
+      "from": "webview/assets/radar-PYXPWWZC-3.js",
+      "to": "webview/assets/radar-4.js"
+    },
+    {
+      "from": "webview/assets/radar-PYXPWWZC-4.js",
+      "to": "webview/assets/radar-5.js"
+    },
+    {
+      "from": "webview/assets/raycast-dark-CHk_G--6.js",
+      "to": "webview/assets/raycast-dark.js"
+    },
+    {
+      "from": "webview/assets/requirementDiagram-MS252O5E--z-7P-Ei.js",
+      "to": "webview/assets/requirementDiagram-1.js"
+    },
+    {
+      "from": "webview/assets/requirementDiagram-MS252O5E-1.js",
+      "to": "webview/assets/requirementDiagram-2.js"
+    },
+    {
+      "from": "webview/assets/requirementDiagram-MS252O5E-2.js",
+      "to": "webview/assets/requirementDiagram-3.js"
+    },
+    {
+      "from": "webview/assets/requirementDiagram-MS252O5E-3.js",
+      "to": "webview/assets/requirementDiagram-4.js"
+    },
+    {
+      "from": "webview/assets/requirementDiagram-UZGBJVZJ.js",
+      "to": "webview/assets/requirementDiagram-5.js"
+    },
+    {
+      "from": "webview/assets/sankeyDiagram-TZEHDZUN.js",
+      "to": "webview/assets/sankeyDiagram-1.js"
+    },
+    {
+      "from": "webview/assets/sankeyDiagram-XADWPNL6-1.js",
+      "to": "webview/assets/sankeyDiagram-2.js"
+    },
+    {
+      "from": "webview/assets/sankeyDiagram-XADWPNL6-2.js",
+      "to": "webview/assets/sankeyDiagram-3.js"
+    },
+    {
+      "from": "webview/assets/sankeyDiagram-XADWPNL6-3.js",
+      "to": "webview/assets/sankeyDiagram-4.js"
+    },
+    {
+      "from": "webview/assets/sankeyDiagram-XADWPNL6-4.js",
+      "to": "webview/assets/sankeyDiagram-5.js"
+    },
+    {
+      "from": "webview/assets/scheme--iJhrG-o.js",
+      "to": "webview/assets/scheme.js"
+    },
+    {
+      "from": "webview/assets/sequenceDiagram-FGHM5R23-1.js",
+      "to": "webview/assets/sequenceDiagram-1.js"
+    },
+    {
+      "from": "webview/assets/sequenceDiagram-FGHM5R23-2.js",
+      "to": "webview/assets/sequenceDiagram-2.js"
+    },
+    {
+      "from": "webview/assets/sequenceDiagram-FGHM5R23-3.js",
+      "to": "webview/assets/sequenceDiagram-3.js"
+    },
+    {
+      "from": "webview/assets/sequenceDiagram-FGHM5R23.js",
+      "to": "webview/assets/sequenceDiagram-4.js"
+    },
+    {
+      "from": "webview/assets/src-BJ6aJX-_.js",
+      "to": "webview/assets/src.js"
+    },
+    {
+      "from": "webview/assets/stateDiagram-FHFEXIEX-1.js",
+      "to": "webview/assets/stateDiagram-1.js"
+    },
+    {
+      "from": "webview/assets/stateDiagram-FHFEXIEX-2.js",
+      "to": "webview/assets/stateDiagram-2.js"
+    },
+    {
+      "from": "webview/assets/stateDiagram-FHFEXIEX-ClwlM--z.js",
+      "to": "webview/assets/stateDiagram-3.js"
+    },
+    {
+      "from": "webview/assets/stateDiagram-FHFEXIEX.js",
+      "to": "webview/assets/stateDiagram-4.js"
+    },
+    {
+      "from": "webview/assets/stateDiagram-v2-QKLJ7IA2-1.js",
+      "to": "webview/assets/stateDiagram-v2-1.js"
+    },
+    {
+      "from": "webview/assets/stateDiagram-v2-QKLJ7IA2-2.js",
+      "to": "webview/assets/stateDiagram-v2-2.js"
+    },
+    {
+      "from": "webview/assets/stateDiagram-v2-QKLJ7IA2-3.js",
+      "to": "webview/assets/stateDiagram-v2-3.js"
+    },
+    {
+      "from": "webview/assets/stateDiagram-v2-QKLJ7IA2-4.js",
+      "to": "webview/assets/stateDiagram-v2-4.js"
+    },
+    {
+      "from": "webview/assets/tex-IcR4e0H-.js",
+      "to": "webview/assets/tex-1.js"
+    },
+    {
+      "from": "webview/assets/timeline-definition-GMOUNBTQ--vp0tW5j.js",
+      "to": "webview/assets/timeline-definition-1.js"
+    },
+    {
+      "from": "webview/assets/timeline-definition-GMOUNBTQ-1.js",
+      "to": "webview/assets/timeline-definition-2.js"
+    },
+    {
+      "from": "webview/assets/timeline-definition-GMOUNBTQ-2.js",
+      "to": "webview/assets/timeline-definition-3.js"
+    },
+    {
+      "from": "webview/assets/timeline-definition-GMOUNBTQ-BZhsMWQ-.js",
+      "to": "webview/assets/timeline-definition-4.js"
+    },
+    {
+      "from": "webview/assets/timeline-definition-IT6M3QCI.js",
+      "to": "webview/assets/timeline-definition-5.js"
+    },
+    {
+      "from": "webview/assets/tokyo-night-Ad643-5a.js",
+      "to": "webview/assets/tokyo-night-1.js"
+    },
+    {
+      "from": "webview/assets/treeView-SZITEDCU-1.js",
+      "to": "webview/assets/treeView-1.js"
+    },
+    {
+      "from": "webview/assets/treeView-SZITEDCU-2.js",
+      "to": "webview/assets/treeView-2.js"
+    },
+    {
+      "from": "webview/assets/treeView-SZITEDCU-B3M3Gal-.js",
+      "to": "webview/assets/treeView-3.js"
+    },
+    {
+      "from": "webview/assets/treeView-SZITEDCU.js",
+      "to": "webview/assets/treeView-4.js"
+    },
+    {
+      "from": "webview/assets/treemap-W4RFUUIX-1.js",
+      "to": "webview/assets/treemap-1.js"
+    },
+    {
+      "from": "webview/assets/treemap-W4RFUUIX-2.js",
+      "to": "webview/assets/treemap-2.js"
+    },
+    {
+      "from": "webview/assets/treemap-W4RFUUIX-3.js",
+      "to": "webview/assets/treemap-3.js"
+    },
+    {
+      "from": "webview/assets/treemap-W4RFUUIX-4.js",
+      "to": "webview/assets/treemap-4.js"
+    },
+    {
+      "from": "webview/assets/upgrade-plan-dialog-B70ZA4z-.js",
+      "to": "webview/assets/upgrade-plan-dialog.js"
+    },
+    {
+      "from": "webview/assets/vennDiagram-DHZGUBPP-1.js",
+      "to": "webview/assets/vennDiagram-1.js"
+    },
+    {
+      "from": "webview/assets/vennDiagram-DHZGUBPP-2.js",
+      "to": "webview/assets/vennDiagram-2.js"
+    },
+    {
+      "from": "webview/assets/vennDiagram-DHZGUBPP-3.js",
+      "to": "webview/assets/vennDiagram-3.js"
+    },
+    {
+      "from": "webview/assets/vennDiagram-DHZGUBPP-4.js",
+      "to": "webview/assets/vennDiagram-4.js"
+    },
+    {
+      "from": "webview/assets/vitesse-light-BnLPjP-8.js",
+      "to": "webview/assets/vitesse-light-1.js"
+    },
+    {
+      "from": "webview/assets/wardley-RL74JXVD-1.js",
+      "to": "webview/assets/wardley-1.js"
+    },
+    {
+      "from": "webview/assets/wardley-RL74JXVD-2.js",
+      "to": "webview/assets/wardley-2.js"
+    },
+    {
+      "from": "webview/assets/wardley-RL74JXVD-BKwl9Y-_.js",
+      "to": "webview/assets/wardley-3.js"
+    },
+    {
+      "from": "webview/assets/wardley-RL74JXVD.js",
+      "to": "webview/assets/wardley-4.js"
+    },
+    {
+      "from": "webview/assets/wardleyDiagram-NUSXRM2D-1.js",
+      "to": "webview/assets/wardleyDiagram-1.js"
+    },
+    {
+      "from": "webview/assets/wardleyDiagram-NUSXRM2D-2.js",
+      "to": "webview/assets/wardleyDiagram-2.js"
+    },
+    {
+      "from": "webview/assets/wardleyDiagram-NUSXRM2D-3.js",
+      "to": "webview/assets/wardleyDiagram-3.js"
+    },
+    {
+      "from": "webview/assets/wardleyDiagram-NUSXRM2D-4.js",
+      "to": "webview/assets/wardleyDiagram-4.js"
+    },
+    {
+      "from": "webview/assets/xychartDiagram-5P7HB3ND-1.js",
+      "to": "webview/assets/xychartDiagram-1.js"
+    },
+    {
+      "from": "webview/assets/xychartDiagram-5P7HB3ND-2.js",
+      "to": "webview/assets/xychartDiagram-2.js"
+    },
+    {
+      "from": "webview/assets/xychartDiagram-5P7HB3ND-3.js",
+      "to": "webview/assets/xychartDiagram-3.js"
+    },
+    {
+      "from": "webview/assets/xychartDiagram-5P7HB3ND-4.js",
+      "to": "webview/assets/xychartDiagram-4.js"
+    },
+    {
+      "from": "webview/assets/xychartDiagram-PRI3JC2R-BSg-J5mB.js",
+      "to": "webview/assets/xychartDiagram-5.js"
+    }
+  ],
+  "referenceUpdates": [
+    ".codex-app-postprocess.json",
+    "webview/assets/app-initial~app-main~remote-conversation-page~pull-requests-page~onboarding-page~hotkey-win~fzw0jvy4.js",
+    "webview/assets/architecture-YZFGNWBL-2.js",
+    "webview/assets/architecture.js",
+    "webview/assets/architectureDiagram-Q4EWVU46--3f7RRxc.js",
+    "webview/assets/architectureDiagram-Q4EWVU46-DXwQl5j-.js",
+    "webview/assets/architectureDiagram.js",
+    "webview/assets/blockDiagram-DXYQGD6D-2.js",
+    "webview/assets/blockDiagram-DXYQGD6D-XSVqL_VJ.js",
+    "webview/assets/blockDiagram.js",
+    "webview/assets/c4Diagram-AHTNJAMY-CXQndbox.js",
+    "webview/assets/c4Diagram.js",
+    "webview/assets/chunk-1.js",
+    "webview/assets/chunk-10.js",
+    "webview/assets/chunk-11.js",
+    "webview/assets/chunk-12.js",
+    "webview/assets/chunk-13.js",
+    "webview/assets/chunk-14.js",
+    "webview/assets/chunk-15.js",
+    "webview/assets/chunk-2.js",
+    "webview/assets/chunk-2KRD3SAO-2.js",
+    "webview/assets/chunk-3.js",
+    "webview/assets/chunk-336JU56O-3.js",
+    "webview/assets/chunk-4.js",
+    "webview/assets/chunk-426QAEUC-DxNwCBET.js",
+    "webview/assets/chunk-4BX2VUAB-DAnoPJdG.js",
+    "webview/assets/chunk-4TB4RGXK-BCpOwkVH.js",
+    "webview/assets/chunk-5.js",
+    "webview/assets/chunk-55IACEB6-1.js",
+    "webview/assets/chunk-5FUZZQ4R-2.js",
+    "webview/assets/chunk-6.js",
+    "webview/assets/chunk-67CJDMHE-1.js",
+    "webview/assets/chunk-7.js",
+    "webview/assets/chunk-7N4EOEYR-CfJFZH_K.js",
+    "webview/assets/chunk-8.js",
+    "webview/assets/chunk-9.js",
+    "webview/assets/chunk-AA7GKIK3-1.js",
+    "webview/assets/chunk-BSJP7CBP-Cis2-Qs5.js",
+    "webview/assets/chunk-CIAEETIT-4.js",
+    "webview/assets/chunk-DI55MBZ5-DHN-rvMU.js",
+    "webview/assets/chunk-EDXVE4YY-3.js",
+    "webview/assets/chunk-ENJZ2VHE-2.js",
+    "webview/assets/chunk-ENJZ2VHE-DMrwZYNz.js",
+    "webview/assets/chunk-FMBD7UC4-DiCLsQbr.js",
+    "webview/assets/chunk-FOC6F5B3-BQkdNRoT.js",
+    "webview/assets/chunk-ICPOFSXX-CPupJSsJ.js",
+    "webview/assets/chunk-JZLCHNYA-Dn_DumwI.js",
+    "webview/assets/chunk-KGLVRYIC-2.js",
+    "webview/assets/chunk-LIHQZDEY-2.js",
+    "webview/assets/chunk-ORNJ4GCN-CYOwbfCr.js",
+    "webview/assets/chunk-OYMX7WX6-BZKCrNLI.js",
+    "webview/assets/chunk-QXUST7PY-Db24C-B7.js",
+    "webview/assets/chunk-QZHKN3VN-4.js",
+    "webview/assets/chunk-X2U36JSP-2.js",
+    "webview/assets/chunk-XPW4576I-1.js",
+    "webview/assets/chunk-YZCP3GAM-2.js",
+    "webview/assets/chunk-ZZ45TVLE-2.js",
+    "webview/assets/classDiagram-6PBFFD2Q-1.js",
+    "webview/assets/classDiagram-6PBFFD2Q-2.js",
+    "webview/assets/classDiagram-v2-HSJHXN6E-BYdYDkBk.js",
+    "webview/assets/classDiagram-v2-HSJHXN6E-CbfcHaoM.js",
+    "webview/assets/classDiagram-v2-WZHVMYZB.js",
+    "webview/assets/classDiagram.js",
+    "webview/assets/cose-bilkent-S5V4N54A-DwADXCWy.js",
+    "webview/assets/cose-bilkent.js",
+    "webview/assets/dagre-KV5264BT-2.js",
+    "webview/assets/dagre-KV5264BT-DyEEluUy.js",
+    "webview/assets/dagre.js",
+    "webview/assets/diagram-1.js",
+    "webview/assets/diagram-2.js",
+    "webview/assets/diagram-5BDNPKRD-3.js",
+    "webview/assets/diagram-5BDNPKRD-BPtvZpPx.js",
+    "webview/assets/diagram-G4DWMVQ6-3.js",
+    "webview/assets/diagram-G4DWMVQ6-CIe-Jvh9.js",
+    "webview/assets/diagram-MMDJMWI5-2.js",
+    "webview/assets/diagram-MMDJMWI5-4.js",
+    "webview/assets/diagram-PSM6KHXK-_uPuWuHP.js",
+    "webview/assets/diagram-TYMM5635-2.js",
+    "webview/assets/diagram-TYMM5635-BQicbNzl.js",
+    "webview/assets/erDiagram-SMLLAGMA-CwxhLUyX.js",
+    "webview/assets/erDiagram-SMLLAGMA-nU-8-kz9.js",
+    "webview/assets/erDiagram.js",
+    "webview/assets/flowDiagram-DWJPFMVM-2.js",
+    "webview/assets/flowDiagram-DWJPFMVM-3.js",
+    "webview/assets/flowDiagram.js",
+    "webview/assets/ganttDiagram-T4ZO3ILL-2.js",
+    "webview/assets/gitGraph-7Q5UKJZL-BNwjXrZM.js",
+    "webview/assets/gitGraphDiagram-UUTBAWPF-2.js",
+    "webview/assets/gitGraphDiagram-UUTBAWPF-DBNPirJY.js",
+    "webview/assets/info-OMHHGYJF-2.js",
+    "webview/assets/info.js",
+    "webview/assets/infoDiagram-42DDH7IO-1.js",
+    "webview/assets/infoDiagram-42DDH7IO-BJFQLOdL.js",
+    "webview/assets/infoDiagram-F6ZHWCRC-DCNCNGKS.js",
+    "webview/assets/ishikawaDiagram-UXIWVN3A-ChFx-FqX.js",
+    "webview/assets/ishikawaDiagram.js",
+    "webview/assets/journeyDiagram-VCZTEJTY-CXMCXgeV.js",
+    "webview/assets/journeyDiagram-XKPGCS4Q-BcfnIZ-y.js",
+    "webview/assets/kanban-definition-6JOO6SKY-CkaCpUwV.js",
+    "webview/assets/kanban-definition.js",
+    "webview/assets/mermaid-diagram.js",
+    "webview/assets/mermaid-parser.core-2.js",
+    "webview/assets/mermaid-parser.core-BaVCoLZH.js",
+    "webview/assets/mermaid.core-2.js",
+    "webview/assets/mermaid.core-B1J-kViV.js",
+    "webview/assets/mermaid.core-iDdCGP-p.js",
+    "webview/assets/mindmap-definition-QFDTVHPH-2.js",
+    "webview/assets/mindmap-definition-QFDTVHPH-3.js",
+    "webview/assets/mindmap-definition-VGOIOE7T-DdYOkKZJ.js",
+    "webview/assets/packet-4T2RLAQJ-2.js",
+    "webview/assets/packet.js",
+    "webview/assets/pie-7BOR55EZ-BDq7x-wB.js",
+    "webview/assets/pie-ZZUOXDRM-BhKikLzB.js",
+    "webview/assets/pieDiagram-DEJITSTG-1.js",
+    "webview/assets/pieDiagram-DEJITSTG-3.js",
+    "webview/assets/quadrantDiagram-34T5L4WZ-3.js",
+    "webview/assets/radar-NHE76QYJ-DLr-eYFz.js",
+    "webview/assets/radar-PYXPWWZC-Cvhporan.js",
+    "webview/assets/requirementDiagram-MS252O5E-CVrySQlO.js",
+    "webview/assets/requirementDiagram-MS252O5E-DDpGYDms.js",
+    "webview/assets/requirementDiagram-UZGBJVZJ.js",
+    "webview/assets/sankeyDiagram-XADWPNL6-CU_xHsSR.js",
+    "webview/assets/sequenceDiagram-FGHM5R23-BeCynHZS.js",
+    "webview/assets/sequenceDiagram.js",
+    "webview/assets/stateDiagram-FHFEXIEX-1.js",
+    "webview/assets/stateDiagram-FHFEXIEX-2.js",
+    "webview/assets/stateDiagram-FHFEXIEX-BzAAcE_B.js",
+    "webview/assets/stateDiagram-v2-QKLJ7IA2-2.js",
+    "webview/assets/stateDiagram-v2-QKLJ7IA2-DOZoTWEO.js",
+    "webview/assets/stateDiagram-v2-QKLJ7IA2-NVujTopY.js",
+    "webview/assets/stateDiagram-v2.js",
+    "webview/assets/stateDiagram.js",
+    "webview/assets/timeline-definition-GMOUNBTQ--vp0tW5j.js",
+    "webview/assets/treeView-SZITEDCU-1.js",
+    "webview/assets/treemap-W4RFUUIX-3.js",
+    "webview/assets/treemap.js",
+    "webview/assets/vennDiagram-DHZGUBPP-3.js",
+    "webview/assets/wardley-RL74JXVD-pIeHHMCS.js",
+    "webview/assets/wardleyDiagram-NUSXRM2D-3.js",
+    "webview/assets/wardleyDiagram-NUSXRM2D-4.js",
+    "webview/assets/workbook-2.js",
+    "webview/assets/xychartDiagram-5P7HB3ND-4.js",
+    ".vite/build/bootstrap.js",
+    ".vite/build/codex-micro-service.js",
+    ".vite/build/core.js",
+    ".vite/build/feedback-desktop-log-archive.js",
+    ".vite/build/file-based-logger.js",
+    ".vite/build/main.js",
+    ".vite/build/src-1.js",
+    ".vite/build/src.js",
+    ".vite/build/trace-recording-upload.js",
+    ".vite/build/workspace-root-drop-handler.js",
+    "webview/assets/PopcornElectronPresentationPanel.js",
+    "webview/assets/PopcornElectronWorkbookPanel.js",
+    "webview/assets/_baseFor-1.js",
+    "webview/assets/_baseUniq.js",
+    "webview/assets/above-composer-suggestions.js",
+    "webview/assets/agent-settings.js",
+    "webview/assets/ambient-suggestions-connected-apps-consent.js",
+    "webview/assets/andromeeda-1.js",
+    "webview/assets/angular-ts.js",
+    "webview/assets/animated-icon.js",
+    "webview/assets/apache-C.js",
+    "webview/assets/app-connect-oauth-callback-page.js",
+    "webview/assets/app-initial~app-main~appgen-page~remote-conversation-page~new-thread-panel-page~onboarding-~q51dlew8.js",
+    "webview/assets/app-initial~app-main~appgen-publication-terms-route~plugin-detail-page~skills-settings~plug~bpqstr7s.js",
+    "webview/assets/app-initial~app-main~automations-page.js",
+    "webview/assets/app-initial~app-main~debug-window-page~agent-settings~debug-modal.js",
+    "webview/assets/app-initial~app-main~debug-window-page~debug-modal~home-ambient-suggestions-content.js",
+    "webview/assets/app-initial~app-main~first-run~new-thread-panel-page.js",
+    "webview/assets/app-initial~app-main~hotkey-window-thread-page~automations-page~local-conversation-page.js",
+    "webview/assets/app-initial~app-main~new-thread-panel-page~home-announcements~upgrade-plan-dialog.js",
+    "webview/assets/app-initial~app-main~onboarding-page.js",
+    "webview/assets/app-initial~app-main~onboarding-page~appearance-settings~general-settings.js",
+    "webview/assets/app-initial~app-main~onboarding-page~pending-request-item-panel~home-ambient-suggestions-content.js",
+    "webview/assets/app-initial~app-main~onboarding-page~profile.js",
+    "webview/assets/app-initial~app-main~onboarding-page~select-workspace-page~debug-window-page~debug-modal.js",
+    "webview/assets/app-initial~app-main~page~onboarding-page~skills-settings~plugins-settings~remote-connectio~c59x15mv.js",
+    "webview/assets/app-initial~app-main~page~remote-conversation-page~new-thread-panel-page~settings-page~appg~ibjpfz58.js",
+    "webview/assets/app-initial~app-main~personalization-settings~appearance-settings~general-settings-DCerg-br.js",
+    "webview/assets/app-initial~app-main~pet-install-modal-host~avatar-overlay-page~avatar-overlay-native-page~~s9e72i2g.js",
+    "webview/assets/app-initial~app-main~pets-settings.js",
+    "webview/assets/app-initial~app-main~pets-settings~appearance-settings~general-settings.js",
+    "webview/assets/app-initial~app-main~projects-index-page~hotkey-window-new-thread-page~hotkey-window-home-p~hswrsggc.js",
+    "webview/assets/app-initial~app-main~projects-index-page~remote-connections-settings~local-conversation-pag~goqedmh7.js",
+    "webview/assets/app-initial~app-main~register-app-actions.js",
+    "webview/assets/app-initial~app-main~remote-conversation-page~hotkey-window-thread-page~automations-page~th~bnlvjk3w.js",
+    "webview/assets/app-initial~app-main~remote-conversation-page~hotkey-window-thread-page~thread-app-shell-ch~oc6ebzsr.js",
+    "webview/assets/app-initial~app-main~remote-conversation-page~hotkey-window-thread-page~thread-app-shell-ch~ou5otpha-Ia-u7-Lt.js",
+    "webview/assets/app-initial~app-main~remote-conversation-page~new-thread-panel-page~appgen-library-page~hot~bnuob1na.js",
+    "webview/assets/app-initial~app-main~remote-conversation-page~new-thread-panel-page~appgen-library-page~hot~byb29nd9.js",
+    "webview/assets/app-initial~app-main~remote-conversation-page~new-thread-panel-page~appgen-library-page~hot~djo67r4n.js",
+    "webview/assets/app-initial~app-main~remote-conversation-page~new-thread-panel-page~appgen-library-page~hot~e4x7741c.js",
+    "webview/assets/app-initial~app-main~remote-conversation-page~new-thread-panel-page~appgen-library-page~hot~gm3qqodb.js",
+    "webview/assets/app-initial~app-main~remote-conversation-page~new-thread-panel-page~appgen-library-page~hot~ji9pfk68.js",
+    "webview/assets/app-initial~app-main~remote-conversation-page~new-thread-panel-page~appgen-library-page~hot~kj79zy13.js",
+    "webview/assets/app-initial~app-main~remote-conversation-page~new-thread-panel-page~onboarding-page~appgen-~d4gukj65.js",
+    "webview/assets/app-initial~app-main~remote-conversation-page~new-thread-panel-page~onboarding-page~appgen-~mhwq036p.js",
+    "webview/assets/app-initial~app-main~remote-conversation-page~new-thread-panel-page~onboarding-page~login-r~ehxf5gah.js",
+    "webview/assets/app-initial~app-main~remote-conversation-page~new-thread-panel-page~onboarding-page~select-~cvtadpw5.js",
+    "webview/assets/app-initial~app-main~remote-conversation-page~new-thread-panel-page~projects-index-page~app~edtlcz4n.js",
+    "webview/assets/app-initial~app-main~remote-conversation-page~new-thread-panel-page~projects-index-page~app~ovcriy74.js",
+    "webview/assets/app-initial~app-main~remote-conversation-page~onboarding-page~hotkey-window-thread-page~app~c482ypdv.js",
+    "webview/assets/app-initial~app-main~remote-conversation-page~onboarding-page~hotkey-window-thread-page~thr~jv7rs281.js",
+    "webview/assets/app-initial~app-main~remote-conversation-page~onboarding-page~projects-index-page~hotkey-wi~nek76pmq.js",
+    "webview/assets/app-initial~app-main~remote-conversation-page~plugin-detail-page~new-thread-panel-page~appg~fkswc4hr.js",
+    "webview/assets/app-initial~app-main~remote-conversation-page~projects-index-page.js",
+    "webview/assets/app-initial~app-main~remote-conversation-page~projects-index-page~hotkey-window-thread-page~ki4n9fl3.js",
+    "webview/assets/app-initial~app-main~remote-conversation-page~projects-index-page~hotkey-window-thread-page~o5l7nhuo.js",
+    "webview/assets/app-initial~app-main~remote-conversation-page~pull-requests-page~hotkey-window-thread-page~~dag4dvlp-XvbiN2D-.js",
+    "webview/assets/app-initial~app-main~remote-conversation-page~pull-requests-page~new-thread-panel-page~proj~jolrh1c9.js",
+    "webview/assets/app-initial~app-main~remote-conversation-page~pull-requests-page~projects-index-page~hotkey~ek7ayrmo.js",
+    "webview/assets/app-initial~app-main~remote-conversation-page~settings-page~hotkey-window-thread-page~usage~hc2m5m0u.js",
+    "webview/assets/app-initial~app-main~remote-conversation-page~thread-app-shell-chrome~local-conversation-page.js",
+    "webview/assets/app-initial~app-main~settings-page~projects-index-page~notebook-preview-panel~docx-preview-panel.js",
+    "webview/assets/app-initial~app-main~worktree-init-v2-page~appgen-page~remote-conversation-page~plugin-deta~hb9r3lcf.js",
+    "webview/assets/app-initial~app-main~worktree-init-v2-page~appgen-publication-terms-route~remote-conversati~dg864qec.js",
+    "webview/assets/app-initial~app-main~worktree-init-v2-page~appgen-settings-page~page~appgen-page~remote-con~di269h6j.js",
+    "webview/assets/app-initial~app-main~worktree-init-v2-page~appgen-settings-page~page~appgen-publication-ter~chrf619l.js",
+    "webview/assets/app-initial~app-main~worktree-init-v2-page~appgen-settings-page~page~appgen-publication-ter~g5252vxb.js",
+    "webview/assets/app-initial~app-main~worktree-init-v2-page~remote-conversation-page~new-thread-panel-page~o~bj5tp28r.js",
+    "webview/assets/app-initial~app-main~worktree-init-v2-page~remote-conversation-page~new-thread-panel-page~o~dv5z3ftk.js",
+    "webview/assets/app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~plug~kmtatxxf.js",
+    "webview/assets/app-main.js",
+    "webview/assets/app-prefetch-impl-S8F5E-ce.js",
+    "webview/assets/app.js",
+    "webview/assets/appgen-library-page.js",
+    "webview/assets/appgen-page.js",
+    "webview/assets/appgen-publication-terms-route.js",
+    "webview/assets/appgen-settings-page.js",
+    "webview/assets/appgen-share-dialog-C2XeC-_r.js",
+    "webview/assets/apps-availability.js",
+    "webview/assets/appshots-settings.js",
+    "webview/assets/architecture-YZFGNWBL-1.js",
+    "webview/assets/architecture-YZFGNWBL-3.js",
+    "webview/assets/architecture-YZFGNWBL-rarOtu8-.js",
+    "webview/assets/architectureDiagram-Q4EWVU46-CxNS-sgT.js",
+    "webview/assets/architectureDiagram-VXUJARFQ-DSHF0-Hw.js",
+    "webview/assets/artifact-analytics.js",
+    "webview/assets/artifact-annotation-comment.js",
+    "webview/assets/artifact-file-preview-icon.js",
+    "webview/assets/artifact-tab-content.electron.js",
+    "webview/assets/automations-page.js",
+    "webview/assets/avatar-mascot-button.js",
+    "webview/assets/avatar-overlay-featuregate-page.js",
+    "webview/assets/avatar-overlay-native-frame.js",
+    "webview/assets/avatar-overlay-native-page.js",
+    "webview/assets/avatar-overlay-page.js",
+    "webview/assets/avatar-overlay-pill-dismiss-button.js",
+    "webview/assets/avatarOverlayCompositionSurface.js",
+    "webview/assets/awk.js",
+    "webview/assets/ayu-mirage.js",
+    "webview/assets/beancount.js",
+    "webview/assets/berry.js",
+    "webview/assets/bibtex.js",
+    "webview/assets/bicep.js",
+    "webview/assets/blockDiagram-DXYQGD6D-1.js",
+    "webview/assets/blockDiagram-DXYQGD6D-3.js",
+    "webview/assets/blockDiagram-DXYQGD6D.js",
+    "webview/assets/browser-profile-import-dialog-tHFYbf-n.js",
+    "webview/assets/browser-sidebar-hidden-background-webview-host.js",
+    "webview/assets/browser-sidebar-hidden-browser-use-webview-host.js",
+    "webview/assets/browser-use-elevated-risk-learn-more-url.js",
+    "webview/assets/browser-use-settings-1.js",
+    "webview/assets/browser-use-settings-2.js",
+    "webview/assets/bsl.js",
+    "webview/assets/c4Diagram-AHTNJAMY-1.js",
+    "webview/assets/c4Diagram-AHTNJAMY-2.js",
+    "webview/assets/c4Diagram-AHTNJAMY-3.js",
+    "webview/assets/c4Diagram-AHTNJAMY-4.js",
+    "webview/assets/cairo.js",
+    "webview/assets/catppuccin-macchiato-1.js",
+    "webview/assets/catppuccin-mocha-1.js",
+    "webview/assets/channel-2.js",
+    "webview/assets/chunk-2KRD3SAO-1.js",
+    "webview/assets/chunk-2KRD3SAO-3.js",
+    "webview/assets/chunk-2KRD3SAO.js",
+    "webview/assets/chunk-336JU56O-1.js",
+    "webview/assets/chunk-336JU56O-2.js",
+    "webview/assets/chunk-336JU56O-CMkn-uh4.js",
+    "webview/assets/chunk-426QAEUC-1.js",
+    "webview/assets/chunk-426QAEUC-3.js",
+    "webview/assets/chunk-426QAEUC.js",
+    "webview/assets/chunk-4BX2VUAB-1.js",
+    "webview/assets/chunk-4BX2VUAB-2.js",
+    "webview/assets/chunk-4BX2VUAB-4.js",
+    "webview/assets/chunk-4BX2VUAB-5.js",
+    "webview/assets/chunk-4TB4RGXK-1.js",
+    "webview/assets/chunk-4TB4RGXK-2.js",
+    "webview/assets/chunk-4TB4RGXK-3.js",
+    "webview/assets/chunk-4TB4RGXK.js",
+    "webview/assets/chunk-55IACEB6-4.js",
+    "webview/assets/chunk-55IACEB6-5.js",
+    "webview/assets/chunk-5FUZZQ4R-1.js",
+    "webview/assets/chunk-5FUZZQ4R-3.js",
+    "webview/assets/chunk-5FUZZQ4R.js",
+    "webview/assets/chunk-5PVQY5BW-1.js",
+    "webview/assets/chunk-5PVQY5BW-2.js",
+    "webview/assets/chunk-5PVQY5BW-B-If-JI6.js",
+    "webview/assets/chunk-67CJDMHE-2.js",
+    "webview/assets/chunk-67CJDMHE-BwzXel-I.js",
+    "webview/assets/chunk-67CJDMHE.js",
+    "webview/assets/chunk-76Q3JFCE.js",
+    "webview/assets/chunk-7N4EOEYR-1.js",
+    "webview/assets/chunk-7N4EOEYR-2.js",
+    "webview/assets/chunk-7N4EOEYR-3.js",
+    "webview/assets/chunk-7N4EOEYR.js",
+    "webview/assets/chunk-AA7GKIK3--EMbbHQf.js",
+    "webview/assets/chunk-AA7GKIK3-2.js",
+    "webview/assets/chunk-AA7GKIK3-BiHWd-2t.js",
+    "webview/assets/chunk-ABZYJK2D.js",
+    "webview/assets/chunk-AGHRB4JF.js",
+    "webview/assets/chunk-BSJP7CBP-DNK2-xIh.js",
+    "webview/assets/chunk-BSJP7CBP.js",
+    "webview/assets/chunk-CIAEETIT-1.js",
+    "webview/assets/chunk-CIAEETIT-2.js",
+    "webview/assets/chunk-CIAEETIT-3.js",
+    "webview/assets/chunk-CVBHYZKI-ucg-Wr6h.js",
+    "webview/assets/chunk-EDXVE4YY-1.js",
+    "webview/assets/chunk-EDXVE4YY.js",
+    "webview/assets/chunk-ENJZ2VHE-1.js",
+    "webview/assets/chunk-ENJZ2VHE-3.js",
+    "webview/assets/chunk-ENJZ2VHE.js",
+    "webview/assets/chunk-EXTU4WIE.js",
+    "webview/assets/chunk-FMBD7UC4-2.js",
+    "webview/assets/chunk-FMBD7UC4-4.js",
+    "webview/assets/chunk-FMBD7UC4.js",
+    "webview/assets/chunk-FOC6F5B3-1.js",
+    "webview/assets/chunk-FOC6F5B3-2.js",
+    "webview/assets/chunk-FOC6F5B3-3.js",
+    "webview/assets/chunk-FOC6F5B3-4.js",
+    "webview/assets/chunk-FPAJGGOC.js",
+    "webview/assets/chunk-FWNWRKHM.js",
+    "webview/assets/chunk-HN2XXSSU.js",
+    "webview/assets/chunk-ICPOFSXX-1.js",
+    "webview/assets/chunk-ICPOFSXX-3.js",
+    "webview/assets/chunk-ICPOFSXX-4.js",
+    "webview/assets/chunk-JA3XYJ7Z-Co-9Jc82.js",
+    "webview/assets/chunk-JZLCHNYA.js",
+    "webview/assets/chunk-K5T4RW27-1.js",
+    "webview/assets/chunk-K5T4RW27-2.js",
+    "webview/assets/chunk-K5T4RW27-3.js",
+    "webview/assets/chunk-KGLVRYIC-1.js",
+    "webview/assets/chunk-KGLVRYIC-3.js",
+    "webview/assets/chunk-KGLVRYIC.js",
+    "webview/assets/chunk-LBM3YZW2.js",
+    "webview/assets/chunk-LIHQZDEY-1.js",
+    "webview/assets/chunk-LIHQZDEY-3.js",
+    "webview/assets/chunk-LIHQZDEY.js",
+    "webview/assets/chunk-MI3HLSF2.js",
+    "webview/assets/chunk-ORNJ4GCN-1.js",
+    "webview/assets/chunk-ORNJ4GCN-2.js",
+    "webview/assets/chunk-ORNJ4GCN-CZ8XwNI-.js",
+    "webview/assets/chunk-ORNJ4GCN.js",
+    "webview/assets/chunk-OYMX7WX6-1.js",
+    "webview/assets/chunk-OYMX7WX6-2.js",
+    "webview/assets/chunk-OYMX7WX6-DCKR-mnE.js",
+    "webview/assets/chunk-QZHKN3VN-2.js",
+    "webview/assets/chunk-QZHKN3VN-3.js",
+    "webview/assets/chunk-QZHKN3VN.js",
+    "webview/assets/chunk-S3R3BYOJ.js",
+    "webview/assets/chunk-S6J4BHB3-SF-cXrJ2.js",
+    "webview/assets/chunk-U2HBQHQK-1.js",
+    "webview/assets/chunk-U2HBQHQK-2.js",
+    "webview/assets/chunk-U2HBQHQK-3.js",
+    "webview/assets/chunk-X2U36JSP-1.js",
+    "webview/assets/chunk-X2U36JSP.js",
+    "webview/assets/chunk-XPW4576I-2.js",
+    "webview/assets/chunk-YZCP3GAM-1.js",
+    "webview/assets/chunk-YZCP3GAM.js",
+    "webview/assets/chunk-ZZ45TVLE-1.js",
+    "webview/assets/chunk-ZZ45TVLE-3.js",
+    "webview/assets/chunk-ZZ45TVLE-B85K-is4.js",
+    "webview/assets/clarity.js",
+    "webview/assets/classDiagram-6PBFFD2Q-BNwKZ-xO.js",
+    "webview/assets/classDiagram-6PBFFD2Q.js",
+    "webview/assets/classDiagram-v2-HSJHXN6E-1.js",
+    "webview/assets/classDiagram-v2-HSJHXN6E-2.js",
+    "webview/assets/classDiagram-v2-HSJHXN6E-3.js",
+    "webview/assets/classDiagram-v2-HSJHXN6E-4.js",
+    "webview/assets/clone.js",
+    "webview/assets/cloud-environments-settings-page.js",
+    "webview/assets/cloud-preferences-CNWGV-Sh.js",
+    "webview/assets/cloud-preferences-settings.js",
+    "webview/assets/cmake-1.js",
+    "webview/assets/cmake.js",
+    "webview/assets/code-review-settings.js",
+    "webview/assets/codex-looking-around.js",
+    "webview/assets/codex-mobile-page.js",
+    "webview/assets/codex-mobile-setup-dialog.js",
+    "webview/assets/codex-mobile-setup-flow.js",
+    "webview/assets/composer-external-footer.js",
+    "webview/assets/composer-footer-branch-switcher.js",
+    "webview/assets/computer-use-settings.js",
+    "webview/assets/conversation-markdown-BBR-zfID.js",
+    "webview/assets/cose-bilkent-S5V4N54A-1.js",
+    "webview/assets/cose-bilkent-S5V4N54A-2.js",
+    "webview/assets/cose-bilkent-S5V4N54A-3.js",
+    "webview/assets/cose-bilkent-S5V4N54A-4.js",
+    "webview/assets/cpp.js",
+    "webview/assets/crystal.js",
+    "webview/assets/cue.js",
+    "webview/assets/custom-avatars-query.js",
+    "webview/assets/cytoscape-cose-bilkent.js",
+    "webview/assets/cytoscape.esm-1.js",
+    "webview/assets/d.js",
+    "webview/assets/dagre-1.js",
+    "webview/assets/dagre-2.js",
+    "webview/assets/dagre-3.js",
+    "webview/assets/dagre-4.js",
+    "webview/assets/dagre-5.js",
+    "webview/assets/dagre-KV5264BT-1.js",
+    "webview/assets/dagre-KV5264BT-3.js",
+    "webview/assets/dagre-KV5264BT.js",
+    "webview/assets/dart.js",
+    "webview/assets/data-controls.js",
+    "webview/assets/debug-modal-B.js",
+    "webview/assets/debug-window-page.js",
+    "webview/assets/diagram-5BDNPKRD-1.js",
+    "webview/assets/diagram-5BDNPKRD-2.js",
+    "webview/assets/diagram-5BDNPKRD.js",
+    "webview/assets/diagram-G4DWMVQ6-1.js",
+    "webview/assets/diagram-G4DWMVQ6-2.js",
+    "webview/assets/diagram-MMDJMWI5-1.js",
+    "webview/assets/diagram-MMDJMWI5-3.js",
+    "webview/assets/diagram-PSM6KHXK.js",
+    "webview/assets/diagram-TYMM5635-1.js",
+    "webview/assets/diagram-TYMM5635-3.js",
+    "webview/assets/diagram-TYMM5635-4.js",
+    "webview/assets/diff-1.js",
+    "webview/assets/diff.js",
+    "webview/assets/dist.js",
+    "webview/assets/document.js",
+    "webview/assets/docx-preview-panel.js",
+    "webview/assets/dracula-soft-1.js",
+    "webview/assets/edit_files_animation.js",
+    "webview/assets/editor-diff-page.js",
+    "webview/assets/erDiagram-SMLLAGMA-1.js",
+    "webview/assets/erDiagram-SMLLAGMA-2.js",
+    "webview/assets/erDiagram-SMLLAGMA.js",
+    "webview/assets/erb.js",
+    "webview/assets/erlang.js",
+    "webview/assets/esm-1.js",
+    "webview/assets/everforest-dark-1.js",
+    "webview/assets/everforest-light-1.js",
+    "webview/assets/experimental-feature-visibility.js",
+    "webview/assets/fa.js",
+    "webview/assets/first-run.js",
+    "webview/assets/fish.js",
+    "webview/assets/flowDiagram-DWJPFMVM-0YuD-9Tv.js",
+    "webview/assets/flowDiagram-DWJPFMVM-1.js",
+    "webview/assets/fortran-fixed-form.js",
+    "webview/assets/fr-CA.js",
+    "webview/assets/fr-FR.js",
+    "webview/assets/fsharp.js",
+    "webview/assets/ganttDiagram-LVOFAZNH.js",
+    "webview/assets/ganttDiagram-T4ZO3ILL-1.js",
+    "webview/assets/ganttDiagram-T4ZO3ILL-3.js",
+    "webview/assets/ganttDiagram-T4ZO3ILL-bUMNCv-k.js",
+    "webview/assets/gdresource.js",
+    "webview/assets/gdshader-1.js",
+    "webview/assets/gdshader.js",
+    "webview/assets/general-settings.js",
+    "webview/assets/git-branch-switcher.js",
+    "webview/assets/git-commit.js",
+    "webview/assets/git-rebase.js",
+    "webview/assets/git-settings.js",
+    "webview/assets/git-submodule-paths-query.js",
+    "webview/assets/gitGraph-7Q5UKJZL-1.js",
+    "webview/assets/gitGraph-7Q5UKJZL-2.js",
+    "webview/assets/gitGraph-7Q5UKJZL-3.js",
+    "webview/assets/gitGraph-F6HP7TQM-fvR48z-j.js",
+    "webview/assets/gitGraphDiagram-NY62KEGX.js",
+    "webview/assets/gitGraphDiagram-UUTBAWPF-1.js",
+    "webview/assets/gitGraphDiagram-UUTBAWPF-3.js",
+    "webview/assets/gitGraphDiagram-UUTBAWPF-4.js",
+    "webview/assets/github-dark-default-1.js",
+    "webview/assets/github-dark-high-contrast-1.js",
+    "webview/assets/github-light-high-contrast-1.js",
+    "webview/assets/glimmer-js.js",
+    "webview/assets/global-dictation-orb.js",
+    "webview/assets/global-dictation-page-C.js",
+    "webview/assets/gnuplot.js",
+    "webview/assets/gracefulDecodeURIComponent.js",
+    "webview/assets/graphlib-1.js",
+    "webview/assets/graphlib-2.js",
+    "webview/assets/graphlib-3.js",
+    "webview/assets/graphlib-4.js",
+    "webview/assets/graphlib-5.js",
+    "webview/assets/gruvbox-dark-hard.js",
+    "webview/assets/gruvbox-light-hard-1.js",
+    "webview/assets/gruvbox-light-hard-2.js",
+    "webview/assets/gruvbox-light-medium-1.js",
+    "webview/assets/gu-IN.js",
+    "webview/assets/hack.js",
+    "webview/assets/handlebars.js",
+    "webview/assets/header-1.js",
+    "webview/assets/header.js",
+    "webview/assets/hi-IN.js",
+    "webview/assets/home-ambient-suggestions-content-TNwltn5-.js",
+    "webview/assets/home-announcements.js",
+    "webview/assets/home-artifact-templates.js",
+    "webview/assets/home-conversation-starters.js",
+    "webview/assets/home-onboarding-assistant-tutorial-card.js",
+    "webview/assets/home-prefill-artifact-preview.js",
+    "webview/assets/home-row-layout.js",
+    "webview/assets/home-use-cases-data.js",
+    "webview/assets/hooks-settings.js",
+    "webview/assets/horizon.js",
+    "webview/assets/hotkey-window-detail-layout.js",
+    "webview/assets/hotkey-window-home-page.js",
+    "webview/assets/hotkey-window-new-thread-page.js",
+    "webview/assets/hotkey-window-thread-page.js",
+    "webview/assets/hotkey-window-worktree-init-page.js",
+    "webview/assets/http.js",
+    "webview/assets/hu-HU.js",
+    "webview/assets/hurl.js",
+    "webview/assets/hy-AM.js",
+    "webview/assets/id-ID.js",
+    "webview/assets/import-settings.js",
+    "webview/assets/index.js",
+    "webview/assets/info-OMHHGYJF-1.js",
+    "webview/assets/info-OMHHGYJF-pC1W-Mm-.js",
+    "webview/assets/info-OMHHGYJF.js",
+    "webview/assets/infoDiagram-42DDH7IO-2.js",
+    "webview/assets/infoDiagram-42DDH7IO-3.js",
+    "webview/assets/infoDiagram-42DDH7IO.js",
+    "webview/assets/ini.js",
+    "webview/assets/is-IS.js",
+    "webview/assets/isEmpty-1.js",
+    "webview/assets/isEmpty-D7Zxz-Bs.js",
+    "webview/assets/ishikawaDiagram-UXIWVN3A-1.js",
+    "webview/assets/ishikawaDiagram-UXIWVN3A-2.js",
+    "webview/assets/jinja.js",
+    "webview/assets/journeyDiagram-VCZTEJTY-1.js",
+    "webview/assets/journeyDiagram-VCZTEJTY-3.js",
+    "webview/assets/journeyDiagram-VCZTEJTY.js",
+    "webview/assets/json5.js",
+    "webview/assets/jsonl.js",
+    "webview/assets/ka-GE.js",
+    "webview/assets/kanagawa-dragon-1.js",
+    "webview/assets/kanagawa-lotus-1.js",
+    "webview/assets/kanagawa-wave-1.js",
+    "webview/assets/kanban-definition-6JOO6SKY-1.js",
+    "webview/assets/kanban-definition-6JOO6SKY-2.js",
+    "webview/assets/kanban-definition-6JOO6SKY-DZb-WGcX.js",
+    "webview/assets/kanban-definition-6JOO6SKY.js",
+    "webview/assets/keyboard-event-accelerator.js",
+    "webview/assets/keyboard-shortcuts-settings.js",
+    "webview/assets/kusto.js",
+    "webview/assets/laserwave-1.js",
+    "webview/assets/lean.js",
+    "webview/assets/legacy-video-plugins.js",
+    "webview/assets/linear-light-D.js",
+    "webview/assets/llvm.js",
+    "webview/assets/local-conversation-page.js",
+    "webview/assets/local-conversation-stream-role-product-event.js",
+    "webview/assets/local-conversation-thread.js",
+    "webview/assets/local-environments-settings-page.js",
+    "webview/assets/local-remote-dropdown.js",
+    "webview/assets/lodash-1.js",
+    "webview/assets/lodash-2.js",
+    "webview/assets/login-route-DpC-1bDk.js",
+    "webview/assets/logo.js",
+    "webview/assets/make.js",
+    "webview/assets/marko.js",
+    "webview/assets/material-theme-darker-1.js",
+    "webview/assets/material-theme-ocean.js",
+    "webview/assets/mcp-capability-view-page.js",
+    "webview/assets/mcp-settings.js",
+    "webview/assets/merge-1.js",
+    "webview/assets/merge-2.js",
+    "webview/assets/mermaid-parser.core-1.js",
+    "webview/assets/mermaid-parser.core-3.js",
+    "webview/assets/mermaid-parser.core-CY6PoT-_.js",
+    "webview/assets/mermaid-parser.core.js",
+    "webview/assets/mermaid.core-1.js",
+    "webview/assets/mindmap-definition-QFDTVHPH-1.js",
+    "webview/assets/mindmap-definition-QFDTVHPH-CD_nG-Fd.js",
+    "webview/assets/mindmap-definition-VGOIOE7T.js",
+    "webview/assets/narrat.js",
+    "webview/assets/nb-NO.js",
+    "webview/assets/nord-1.js",
+    "webview/assets/notebook-preview-panel-UPj_w1N-.js",
+    "webview/assets/notion-dark.js",
+    "webview/assets/objective-cpp.js",
+    "webview/assets/onboarding-page.js",
+    "webview/assets/onboarding-plugin-suggestions-B9nxpG-N.js",
+    "webview/assets/open-in-targets-query.js",
+    "webview/assets/open-source-licenses-page.js",
+    "webview/assets/openscad.js",
+    "webview/assets/oscurange.js",
+    "webview/assets/packet-4T2RLAQJ-1.js",
+    "webview/assets/packet-4T2RLAQJ-3.js",
+    "webview/assets/packet-4T2RLAQJ-4.js",
+    "webview/assets/page-search-input.js",
+    "webview/assets/page.js",
+    "webview/assets/pdf-preview-panel-CA-j3mcg.js",
+    "webview/assets/pending-request-item-panel-DdQdfEk-.js",
+    "webview/assets/personalization-settings.js",
+    "webview/assets/pet-install-modal-host.js",
+    "webview/assets/pet-install-state-1.js",
+    "webview/assets/pets-settings.js",
+    "webview/assets/pie-ZZUOXDRM-2.js",
+    "webview/assets/pie-ZZUOXDRM-C.js",
+    "webview/assets/pie-ZZUOXDRM.js",
+    "webview/assets/pieDiagram-ADFJNKIX.js",
+    "webview/assets/pieDiagram-DEJITSTG-2.js",
+    "webview/assets/pieDiagram-DEJITSTG-4.js",
+    "webview/assets/pkg.js",
+    "webview/assets/plan-summary-page.js",
+    "webview/assets/plugin-detail-page-2.js",
+    "webview/assets/plugin-uninstall-dialog-m.js",
+    "webview/assets/plugins-page-selectors.js",
+    "webview/assets/plugins-page.js",
+    "webview/assets/popcorn-electron-surface-style.js",
+    "webview/assets/powershell.js",
+    "webview/assets/preview-aOKF-WEp.js",
+    "webview/assets/pricing-plan-page.js",
+    "webview/assets/profile.js",
+    "webview/assets/projects-index-page.js",
+    "webview/assets/pt-PT.js",
+    "webview/assets/pug.js",
+    "webview/assets/pull-request-check-rows.js",
+    "webview/assets/pull-requests-page.js",
+    "webview/assets/puppet.js",
+    "webview/assets/qss.js",
+    "webview/assets/quadrantDiagram-34T5L4WZ-1.js",
+    "webview/assets/quadrantDiagram-34T5L4WZ-2.js",
+    "webview/assets/quadrantDiagram-AYHSOK5B.js",
+    "webview/assets/query-string.js",
+    "webview/assets/queued-message-list.js",
+    "webview/assets/radar-PYXPWWZC-1.js",
+    "webview/assets/radar-PYXPWWZC-2.js",
+    "webview/assets/radar-PYXPWWZC-3.js",
+    "webview/assets/recommended-skill-statsig-overrides.js",
+    "webview/assets/reduce.js",
+    "webview/assets/regexp-1.js",
+    "webview/assets/regexp.js",
+    "webview/assets/register-app-actions.js",
+    "webview/assets/remote-connections-settings.js",
+    "webview/assets/remote-conversation-page.js",
+    "webview/assets/requirementDiagram-MS252O5E--z-7P-Ei.js",
+    "webview/assets/requirementDiagram-MS252O5E-1.js",
+    "webview/assets/requirementDiagram-MS252O5E-2.js",
+    "webview/assets/requirementDiagram-MS252O5E-3.js",
+    "webview/assets/review-mode-content.js",
+    "webview/assets/ro-RO.js",
+    "webview/assets/rose-pine-1.js",
+    "webview/assets/rose-pine-dawn-1.js",
+    "webview/assets/rose-pine-moon-1.js",
+    "webview/assets/rst.js",
+    "webview/assets/ruby-1.js",
+    "webview/assets/ruby.js",
+    "webview/assets/runtime.worker-1.js",
+    "webview/assets/runtime.worker-2.js",
+    "webview/assets/runtime.worker-3.js",
+    "webview/assets/sankeyDiagram-TZEHDZUN.js",
+    "webview/assets/sankeyDiagram-XADWPNL6-1.js",
+    "webview/assets/sankeyDiagram-XADWPNL6-3.js",
+    "webview/assets/sankeyDiagram-XADWPNL6-4.js",
+    "webview/assets/scss-1.js",
+    "webview/assets/scss-2.js",
+    "webview/assets/sdbl-1.js",
+    "webview/assets/sdbl.js",
+    "webview/assets/sectioned-page.js",
+    "webview/assets/select-workspace-page.js",
+    "webview/assets/selectable-list-row.js",
+    "webview/assets/sequenceDiagram-FGHM5R23-1.js",
+    "webview/assets/sequenceDiagram-FGHM5R23-2.js",
+    "webview/assets/sequenceDiagram-FGHM5R23-3.js",
+    "webview/assets/sequenceDiagram-FGHM5R23.js",
+    "webview/assets/settings-host-dropdown.js",
+    "webview/assets/settings-page.js",
+    "webview/assets/setup-codex-wizard-step-view.js",
+    "webview/assets/shellscript-1.js",
+    "webview/assets/shellscript-2.js",
+    "webview/assets/shellsession.js",
+    "webview/assets/skills-page-1.js",
+    "webview/assets/slack-ochin-1.js",
+    "webview/assets/sparql.js",
+    "webview/assets/splunk.js",
+    "webview/assets/spreadsheet-1.js",
+    "webview/assets/spreadsheet.js",
+    "webview/assets/src-1.js",
+    "webview/assets/src-4.js",
+    "webview/assets/src-5.js",
+    "webview/assets/start-appgen-conversation.js",
+    "webview/assets/stata.js",
+    "webview/assets/stateDiagram-FHFEXIEX-ClwlM--z.js",
+    "webview/assets/stateDiagram-FHFEXIEX.js",
+    "webview/assets/stateDiagram-v2-QKLJ7IA2-1.js",
+    "webview/assets/stateDiagram-v2-QKLJ7IA2-3.js",
+    "webview/assets/stateDiagram-v2-QKLJ7IA2-4.js",
+    "webview/assets/subscription-update-plan.js",
+    "webview/assets/tabs.js",
+    "webview/assets/templ.js",
+    "webview/assets/temple-dark.js",
+    "webview/assets/thread-app-shell-chrome-B0-PtbSs.js",
+    "webview/assets/thread-browser-panel-tabs.js",
+    "webview/assets/thread-overflow-menu.js",
+    "webview/assets/thread-scroll-layout.js",
+    "webview/assets/thread-side-panel-tabs-tc-mAOFK.js",
+    "webview/assets/thread-user-message-navigation-rail.js",
+    "webview/assets/timeline-definition-GMOUNBTQ-1.js",
+    "webview/assets/timeline-definition-GMOUNBTQ-2.js",
+    "webview/assets/timeline-definition-GMOUNBTQ-BZhsMWQ-.js",
+    "webview/assets/timeline-definition-IT6M3QCI.js",
+    "webview/assets/tl.js",
+    "webview/assets/to_do_animation.js",
+    "webview/assets/toolbar-breadcrumb.js",
+    "webview/assets/tr-TR.js",
+    "webview/assets/treeView-SZITEDCU-2.js",
+    "webview/assets/treeView-SZITEDCU-B3M3Gal-.js",
+    "webview/assets/treeView-SZITEDCU.js",
+    "webview/assets/treemap-W4RFUUIX-1.js",
+    "webview/assets/treemap-W4RFUUIX-2.js",
+    "webview/assets/treemap-W4RFUUIX-4.js",
+    "webview/assets/twig.js",
+    "webview/assets/typespec.js",
+    "webview/assets/typst.js",
+    "webview/assets/upgrade-plan-dialog-B70ZA4z-.js",
+    "webview/assets/ur.js",
+    "webview/assets/usage-settings.js",
+    "webview/assets/use-avatar-options.js",
+    "webview/assets/use-avatar-overlay-selection.js",
+    "webview/assets/use-codex-worktrees.js",
+    "webview/assets/use-debug-panel.js",
+    "webview/assets/use-git-config-value-Cc-cEPKE.js",
+    "webview/assets/use-home-directory.js",
+    "webview/assets/use-recommended-skills.js",
+    "webview/assets/use-workspace-users.js",
+    "webview/assets/v.js",
+    "webview/assets/vennDiagram-DHZGUBPP-1.js",
+    "webview/assets/vennDiagram-DHZGUBPP-2.js",
+    "webview/assets/vennDiagram-DHZGUBPP-4.js",
+    "webview/assets/verilog.js",
+    "webview/assets/vesper-1.js",
+    "webview/assets/vi-VN.js",
+    "webview/assets/vitesse-light.js",
+    "webview/assets/vue-vine.js",
+    "webview/assets/vyper.js",
+    "webview/assets/wardley-RL74JXVD-1.js",
+    "webview/assets/wardley-RL74JXVD-2.js",
+    "webview/assets/wardley-RL74JXVD-BKwl9Y-_.js",
+    "webview/assets/wardleyDiagram-NUSXRM2D-1.js",
+    "webview/assets/wardleyDiagram-NUSXRM2D-2.js",
+    "webview/assets/wasm.js",
+    "webview/assets/web-search-icon.js",
+    "webview/assets/wenyan.js",
+    "webview/assets/wikitext.js",
+    "webview/assets/workbook-from-csv.js",
+    "webview/assets/workbook-from-markdown-3.js",
+    "webview/assets/workbook-from-markdown-4.js",
+    "webview/assets/worker.js",
+    "webview/assets/worktree-init-v2-page-1.js",
+    "webview/assets/worktrees-settings-page.js",
+    "webview/assets/xychartDiagram-5P7HB3ND-1.js",
+    "webview/assets/xychartDiagram-5P7HB3ND-2.js",
+    "webview/assets/xychartDiagram-5P7HB3ND-3.js",
+    "webview/assets/xychartDiagram-PRI3JC2R-BSg-J5mB.js",
+    "webview/assets/zenscript.js",
+    "webview/avatar-overlay-composition-surface.html",
+    "webview/index.html",
+    "webview/assets/PopcornElectronDocumentPanel.js",
+    "webview/assets/PopcornPageNumberNavigation.js",
+    "webview/assets/app-initial~app-main~appgen-library-page-B4-cMcQI.js",
+    "webview/assets/app-initial~app-main~appgen-settings-page~plugin-detail-page~open-source-licenses-page~skil~dv11zlwm.js",
+    "webview/assets/app-initial~app-main~personalization-settings~appearance-settings~general-settings.js",
+    "webview/assets/app-initial~app-main~projects-index-page~appearance-settings~general-settings.js",
+    "webview/assets/app-initial~app-main~remote-conversation-page~hotkey-window-thread-page~remote-connections-~j2v767qq.js",
+    "webview/assets/app-initial~app-main~remote-conversation-page~new-thread-panel-page~onboarding-page~appgen-~1je6c975.js",
+    "webview/assets/app-initial~app-main~remote-conversation-page~pull-requests-page~hotkey-window-thread-page~~dag4dvlp.js",
+    "webview/assets/app-initial~app-main~remote-conversation-page~settings-page~hotkey-window-thread-page~mcp-s~lv2pzabw.js",
+    "webview/assets/app-initial~app-main~select-workspace-page.js",
+    "webview/assets/app-initial~app-main~worktree-init-v2-page~appgen-page~remote-conversation-page~new-thread-~cudo26ta-w.js",
+    "webview/assets/app-initial~app-main~worktree-init-v2-page~remote-conversation-page~new-thread-panel-page~a~hqj10sd5.js",
+    "webview/assets/app-initial~app-main~worktree-init-v2-page~remote-conversation-page~new-thread-panel-page~o~cf3a13zj.js",
+    "webview/assets/app-initial~app-main~worktree-init-v2-page~remote-conversation-page~onboarding-page~hotkey-~fnaniary.js",
+    "webview/assets/app-initial~app-main~worktree-init-v2-page~remote-conversation-page~plugin-detail-page~new-~sfopfmmp.js",
+    "webview/assets/app-prefetch-impl.js",
+    "webview/assets/appearance-settings.js",
+    "webview/assets/appgen-share-dialog-1.js",
+    "webview/assets/appgen-share-dialog.js",
+    "webview/assets/applescript.js",
+    "webview/assets/architecture-1.js",
+    "webview/assets/architecture-2.js",
+    "webview/assets/architecture-3.js",
+    "webview/assets/architecture-4.js",
+    "webview/assets/architectureDiagram-1.js",
+    "webview/assets/architectureDiagram-2.js",
+    "webview/assets/architectureDiagram-3.js",
+    "webview/assets/architectureDiagram-4.js",
+    "webview/assets/artifact-preview-status-Bog-waeI.js",
+    "webview/assets/bat.js",
+    "webview/assets/blockDiagram-1.js",
+    "webview/assets/blockDiagram-2.js",
+    "webview/assets/blockDiagram-3.js",
+    "webview/assets/blockDiagram-4.js",
+    "webview/assets/browser-profile-import-dialog.js",
+    "webview/assets/browser.js",
+    "webview/assets/c-1.js",
+    "webview/assets/c.js",
+    "webview/assets/c4Diagram-1.js",
+    "webview/assets/c4Diagram-2.js",
+    "webview/assets/c4Diagram-3.js",
+    "webview/assets/c4Diagram-4.js",
+    "webview/assets/cadence.js",
+    "webview/assets/catppuccin-latte-1.js",
+    "webview/assets/channel-1.js",
+    "webview/assets/channel.js",
+    "webview/assets/chunk-100.js",
+    "webview/assets/chunk-101.js",
+    "webview/assets/chunk-102.js",
+    "webview/assets/chunk-103.js",
+    "webview/assets/chunk-104.js",
+    "webview/assets/chunk-105.js",
+    "webview/assets/chunk-106.js",
+    "webview/assets/chunk-107.js",
+    "webview/assets/chunk-108.js",
+    "webview/assets/chunk-109.js",
+    "webview/assets/chunk-110.js",
+    "webview/assets/chunk-111.js",
+    "webview/assets/chunk-112.js",
+    "webview/assets/chunk-113.js",
+    "webview/assets/chunk-114.js",
+    "webview/assets/chunk-115.js",
+    "webview/assets/chunk-116.js",
+    "webview/assets/chunk-117.js",
+    "webview/assets/chunk-118.js",
+    "webview/assets/chunk-119.js",
+    "webview/assets/chunk-120.js",
+    "webview/assets/chunk-121.js",
+    "webview/assets/chunk-122.js",
+    "webview/assets/chunk-123.js",
+    "webview/assets/chunk-124.js",
+    "webview/assets/chunk-125.js",
+    "webview/assets/chunk-126.js",
+    "webview/assets/chunk-127.js",
+    "webview/assets/chunk-128.js",
+    "webview/assets/chunk-129.js",
+    "webview/assets/chunk-130.js",
+    "webview/assets/chunk-131.js",
+    "webview/assets/chunk-132.js",
+    "webview/assets/chunk-133.js",
+    "webview/assets/chunk-134.js",
+    "webview/assets/chunk-135.js",
+    "webview/assets/chunk-136.js",
+    "webview/assets/chunk-137.js",
+    "webview/assets/chunk-138.js",
+    "webview/assets/chunk-139.js",
+    "webview/assets/chunk-140.js",
+    "webview/assets/chunk-141.js",
+    "webview/assets/chunk-142.js",
+    "webview/assets/chunk-143.js",
+    "webview/assets/chunk-144.js",
+    "webview/assets/chunk-145.js",
+    "webview/assets/chunk-146.js",
+    "webview/assets/chunk-16.js",
+    "webview/assets/chunk-17.js",
+    "webview/assets/chunk-18.js",
+    "webview/assets/chunk-19.js",
+    "webview/assets/chunk-20.js",
+    "webview/assets/chunk-21.js",
+    "webview/assets/chunk-22.js",
+    "webview/assets/chunk-23.js",
+    "webview/assets/chunk-24.js",
+    "webview/assets/chunk-25.js",
+    "webview/assets/chunk-26.js",
+    "webview/assets/chunk-27.js",
+    "webview/assets/chunk-28.js",
+    "webview/assets/chunk-29.js",
+    "webview/assets/chunk-30.js",
+    "webview/assets/chunk-31.js",
+    "webview/assets/chunk-32.js",
+    "webview/assets/chunk-33.js",
+    "webview/assets/chunk-34.js",
+    "webview/assets/chunk-35.js",
+    "webview/assets/chunk-36.js",
+    "webview/assets/chunk-37.js",
+    "webview/assets/chunk-38.js",
+    "webview/assets/chunk-39.js",
+    "webview/assets/chunk-40.js",
+    "webview/assets/chunk-41.js",
+    "webview/assets/chunk-42.js",
+    "webview/assets/chunk-43.js",
+    "webview/assets/chunk-44.js",
+    "webview/assets/chunk-45.js",
+    "webview/assets/chunk-46.js",
+    "webview/assets/chunk-47.js",
+    "webview/assets/chunk-48.js",
+    "webview/assets/chunk-49.js",
+    "webview/assets/chunk-50.js",
+    "webview/assets/chunk-51.js",
+    "webview/assets/chunk-52.js",
+    "webview/assets/chunk-53.js",
+    "webview/assets/chunk-54.js",
+    "webview/assets/chunk-55.js",
+    "webview/assets/chunk-56.js",
+    "webview/assets/chunk-57.js",
+    "webview/assets/chunk-58.js",
+    "webview/assets/chunk-59.js",
+    "webview/assets/chunk-60.js",
+    "webview/assets/chunk-61.js",
+    "webview/assets/chunk-62.js",
+    "webview/assets/chunk-63.js",
+    "webview/assets/chunk-64.js",
+    "webview/assets/chunk-65.js",
+    "webview/assets/chunk-66.js",
+    "webview/assets/chunk-67.js",
+    "webview/assets/chunk-68.js",
+    "webview/assets/chunk-69.js",
+    "webview/assets/chunk-70.js",
+    "webview/assets/chunk-71.js",
+    "webview/assets/chunk-72.js",
+    "webview/assets/chunk-73.js",
+    "webview/assets/chunk-74.js",
+    "webview/assets/chunk-75.js",
+    "webview/assets/chunk-76.js",
+    "webview/assets/chunk-77.js",
+    "webview/assets/chunk-78.js",
+    "webview/assets/chunk-79.js",
+    "webview/assets/chunk-80.js",
+    "webview/assets/chunk-81.js",
+    "webview/assets/chunk-82.js",
+    "webview/assets/chunk-83.js",
+    "webview/assets/chunk-84.js",
+    "webview/assets/chunk-85.js",
+    "webview/assets/chunk-86.js",
+    "webview/assets/chunk-87.js",
+    "webview/assets/chunk-88.js",
+    "webview/assets/chunk-89.js",
+    "webview/assets/chunk-90.js",
+    "webview/assets/chunk-91.js",
+    "webview/assets/chunk-92.js",
+    "webview/assets/chunk-93.js",
+    "webview/assets/chunk-94.js",
+    "webview/assets/chunk-95.js",
+    "webview/assets/chunk-96.js",
+    "webview/assets/chunk-97.js",
+    "webview/assets/chunk-98.js",
+    "webview/assets/chunk-99.js",
+    "webview/assets/classDiagram-1.js",
+    "webview/assets/classDiagram-2.js",
+    "webview/assets/classDiagram-3.js",
+    "webview/assets/classDiagram-4.js",
+    "webview/assets/classDiagram-v2-1.js",
+    "webview/assets/classDiagram-v2-2.js",
+    "webview/assets/classDiagram-v2-3.js",
+    "webview/assets/classDiagram-v2-4.js",
+    "webview/assets/classDiagram-v2-5.js",
+    "webview/assets/codex-avatar.js",
+    "webview/assets/connector-logo-stack.js",
+    "webview/assets/control-group.js",
+    "webview/assets/conversation-starter-card-B.js",
+    "webview/assets/cose-bilkent-1.js",
+    "webview/assets/cose-bilkent-2.js",
+    "webview/assets/cose-bilkent-3.js",
+    "webview/assets/cose-bilkent-4.js",
+    "webview/assets/dagre-6.js",
+    "webview/assets/dagre-7.js",
+    "webview/assets/dagre-8.js",
+    "webview/assets/dagre-9.js",
+    "webview/assets/diagram-10.js",
+    "webview/assets/diagram-11.js",
+    "webview/assets/diagram-12.js",
+    "webview/assets/diagram-13.js",
+    "webview/assets/diagram-14.js",
+    "webview/assets/diagram-15.js",
+    "webview/assets/diagram-16.js",
+    "webview/assets/diagram-17.js",
+    "webview/assets/diagram-18.js",
+    "webview/assets/diagram-19.js",
+    "webview/assets/diagram-3.js",
+    "webview/assets/diagram-4.js",
+    "webview/assets/diagram-5.js",
+    "webview/assets/diagram-6.js",
+    "webview/assets/diagram-7.js",
+    "webview/assets/diagram-8.js",
+    "webview/assets/diagram-9.js",
+    "webview/assets/dock.js",
+    "webview/assets/dracula-1.js",
+    "webview/assets/erDiagram-1.js",
+    "webview/assets/erDiagram-2.js",
+    "webview/assets/erDiagram-3.js",
+    "webview/assets/erDiagram-4.js",
+    "webview/assets/feature-catalog.js",
+    "webview/assets/filter.js",
+    "webview/assets/flowDiagram-1.js",
+    "webview/assets/flowDiagram-2.js",
+    "webview/assets/flowDiagram-3.js",
+    "webview/assets/flowDiagram-4.js",
+    "webview/assets/ganttDiagram-1.js",
+    "webview/assets/ganttDiagram-2.js",
+    "webview/assets/ganttDiagram-3.js",
+    "webview/assets/ganttDiagram-4.js",
+    "webview/assets/ganttDiagram-5.js",
+    "webview/assets/gitGraph-1.js",
+    "webview/assets/gitGraph-2.js",
+    "webview/assets/gitGraph-3.js",
+    "webview/assets/gitGraph-4.js",
+    "webview/assets/gitGraph-5.js",
+    "webview/assets/gitGraphDiagram-1.js",
+    "webview/assets/gitGraphDiagram-2.js",
+    "webview/assets/gitGraphDiagram-3.js",
+    "webview/assets/gitGraphDiagram-4.js",
+    "webview/assets/gitGraphDiagram-5.js",
+    "webview/assets/glsl-2.js",
+    "webview/assets/gruvbox-light-soft-1.js",
+    "webview/assets/home-ambient-suggestions-content.js",
+    "webview/assets/infinite-scroll-pagination-spinner.js",
+    "webview/assets/info-1.js",
+    "webview/assets/info-2.js",
+    "webview/assets/info-3.js",
+    "webview/assets/info-4.js",
+    "webview/assets/infoDiagram-1.js",
+    "webview/assets/infoDiagram-2.js",
+    "webview/assets/infoDiagram-3.js",
+    "webview/assets/infoDiagram-4.js",
+    "webview/assets/infoDiagram-5.js",
+    "webview/assets/isEmpty-2.js",
+    "webview/assets/ishikawaDiagram-1.js",
+    "webview/assets/ishikawaDiagram-2.js",
+    "webview/assets/ishikawaDiagram-3.js",
+    "webview/assets/journeyDiagram-1.js",
+    "webview/assets/journeyDiagram-2.js",
+    "webview/assets/journeyDiagram-3.js",
+    "webview/assets/journeyDiagram-4.js",
+    "webview/assets/journeyDiagram-5.js",
+    "webview/assets/kanban-definition-1.js",
+    "webview/assets/kanban-definition-2.js",
+    "webview/assets/kanban-definition-3.js",
+    "webview/assets/kanban-definition-4.js",
+    "webview/assets/latex.js",
+    "webview/assets/light-plus-1.js",
+    "webview/assets/local-environments-utils.js",
+    "webview/assets/lua-2.js",
+    "webview/assets/material-theme-ocean-1.js",
+    "webview/assets/mermaid-parser.core-4.js",
+    "webview/assets/mermaid.core.js",
+    "webview/assets/mindmap-definition-1.js",
+    "webview/assets/mindmap-definition-2.js",
+    "webview/assets/mindmap-definition-3.js",
+    "webview/assets/mindmap-definition-4.js",
+    "webview/assets/mindmap-definition-5.js",
+    "webview/assets/new-thread-panel-page.js",
+    "webview/assets/nim.js",
+    "webview/assets/notebook-preview-panel.js",
+    "webview/assets/onboarding-login-content.js",
+    "webview/assets/onboarding-plugin-suggestions.js",
+    "webview/assets/packet-1.js",
+    "webview/assets/packet-2.js",
+    "webview/assets/packet-3.js",
+    "webview/assets/packet-4.js",
+    "webview/assets/pascal.js",
+    "webview/assets/pending-request-item-panel.js",
+    "webview/assets/pie-1.js",
+    "webview/assets/pie-2.js",
+    "webview/assets/pie-3.js",
+    "webview/assets/pie-4.js",
+    "webview/assets/pie-5.js",
+    "webview/assets/pieDiagram-1.js",
+    "webview/assets/pieDiagram-2.js",
+    "webview/assets/pieDiagram-3.js",
+    "webview/assets/pieDiagram-4.js",
+    "webview/assets/pieDiagram-5.js",
+    "webview/assets/play-outline.js",
+    "webview/assets/plugin-detail-page-utils.js",
+    "webview/assets/plugins-settings.js",
+    "webview/assets/plus-sm.js",
+    "webview/assets/quadrantDiagram-1.js",
+    "webview/assets/quadrantDiagram-2.js",
+    "webview/assets/quadrantDiagram-3.js",
+    "webview/assets/quadrantDiagram-4.js",
+    "webview/assets/quadrantDiagram-5.js",
+    "webview/assets/radar-1.js",
+    "webview/assets/radar-2.js",
+    "webview/assets/radar-3.js",
+    "webview/assets/radar-4.js",
+    "webview/assets/radar-5.js",
+    "webview/assets/raycast-dark.js",
+    "webview/assets/remote-connections-page.js",
+    "webview/assets/remote-text-edit-session-B1r-nLdc.js",
+    "webview/assets/requirementDiagram-1.js",
+    "webview/assets/requirementDiagram-2.js",
+    "webview/assets/requirementDiagram-3.js",
+    "webview/assets/requirementDiagram-4.js",
+    "webview/assets/requirementDiagram-5.js",
+    "webview/assets/sankeyDiagram-1.js",
+    "webview/assets/sankeyDiagram-2.js",
+    "webview/assets/sankeyDiagram-3.js",
+    "webview/assets/sankeyDiagram-4.js",
+    "webview/assets/sankeyDiagram-5.js",
+    "webview/assets/scheme.js",
+    "webview/assets/searchable-page-layout.js",
+    "webview/assets/segmented-toggle.js",
+    "webview/assets/sequenceDiagram-1.js",
+    "webview/assets/sequenceDiagram-2.js",
+    "webview/assets/sequenceDiagram-3.js",
+    "webview/assets/sequenceDiagram-4.js",
+    "webview/assets/settings-empty-state.js",
+    "webview/assets/settings-external-section.js",
+    "webview/assets/share-invite-autocomplete.js",
+    "webview/assets/skills-settings.js",
+    "webview/assets/src.js",
+    "webview/assets/star.js",
+    "webview/assets/stateDiagram-1.js",
+    "webview/assets/stateDiagram-2.js",
+    "webview/assets/stateDiagram-3.js",
+    "webview/assets/stateDiagram-4.js",
+    "webview/assets/stateDiagram-v2-1.js",
+    "webview/assets/stateDiagram-v2-2.js",
+    "webview/assets/stateDiagram-v2-3.js",
+    "webview/assets/stateDiagram-v2-4.js",
+    "webview/assets/team.js",
+    "webview/assets/tex-1.js",
+    "webview/assets/tex.js",
+    "webview/assets/thread-scroll-controller-context-value.js",
+    "webview/assets/timeline-definition-1.js",
+    "webview/assets/timeline-definition-2.js",
+    "webview/assets/timeline-definition-3.js",
+    "webview/assets/timeline-definition-4.js",
+    "webview/assets/timeline-definition-5.js",
+    "webview/assets/tokyo-night-1.js",
+    "webview/assets/treeView-1.js",
+    "webview/assets/treeView-2.js",
+    "webview/assets/treeView-3.js",
+    "webview/assets/treeView-4.js",
+    "webview/assets/treemap-1.js",
+    "webview/assets/treemap-2.js",
+    "webview/assets/treemap-3.js",
+    "webview/assets/treemap-4.js",
+    "webview/assets/trending-topics-D41t-u7e.js",
+    "webview/assets/upgrade-plan-dialog.js",
+    "webview/assets/use-ascii-engine.js",
+    "webview/assets/use-element-in-view.js",
+    "webview/assets/use-floating-window-pointer-interactivity.js",
+    "webview/assets/use-git-recent-branches.js",
+    "webview/assets/use-hotkey-window-detail-layout-CNp-n4dg.js",
+    "webview/assets/use-hotkey-window-dismiss-on-escape.js",
+    "webview/assets/use-media-query.js",
+    "webview/assets/vennDiagram-1.js",
+    "webview/assets/vennDiagram-2.js",
+    "webview/assets/vennDiagram-3.js",
+    "webview/assets/vennDiagram-4.js",
+    "webview/assets/vitesse-light-1.js",
+    "webview/assets/wardley-1.js",
+    "webview/assets/wardley-2.js",
+    "webview/assets/wardley-3.js",
+    "webview/assets/wardley-4.js",
+    "webview/assets/wardleyDiagram-1.js",
+    "webview/assets/wardleyDiagram-2.js",
+    "webview/assets/wardleyDiagram-3.js",
+    "webview/assets/wardleyDiagram-4.js",
+    "webview/assets/worktree-environment-dropdown.js",
+    "webview/assets/xychartDiagram-1.js",
+    "webview/assets/xychartDiagram-2.js",
+    "webview/assets/xychartDiagram-3.js",
+    "webview/assets/xychartDiagram-4.js",
+    "webview/assets/xychartDiagram-5.js"
+  ]
+}

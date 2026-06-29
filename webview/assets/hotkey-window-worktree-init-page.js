@@ -1,0 +1,85 @@
+import { n as e } from "./rolldown-runtime.js";
+import {
+  I as t,
+  L as n,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~plugin-detail-page~new-~sfopfmmp.js";
+import {
+  Ao as r,
+  Bt as i,
+  Ft as a,
+  Io as o,
+  Vt as s,
+  _ as c,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~new-thread-panel-page~o~dv5z3ftk.js";
+import {
+  Ab as l,
+  bc as u,
+  hc as d,
+  jb as f,
+  jc as p,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~new-thread-panel-page~o~bj5tp28r.js";
+import {
+  d as m,
+  m as h,
+} from "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~onboarding-page~appgen-~1je6c975.js";
+import { d as g, f as _ } from "./app-initial~app-main~automations-page.js";
+import { n as v, r as y } from "./use-hotkey-window-detail-layout-CNp-n4dg.js";
+import { n as b, t as x } from "./worktree-init-v2-page-1.js";
+function S() {
+  let e = (0, w.c)(8),
+    { pendingWorktreeId: t } = p(),
+    { data: n } = o(g),
+    r = n == null || n.configuredHotkey != null,
+    c;
+  e[0] === r ? (c = e[1]) : ((c = s(r)), (e[0] = r), (e[1] = c));
+  let l = c,
+    d;
+  if (
+    (e[2] === t
+      ? (d = e[3])
+      : ((d =
+          t == null
+            ? null
+            : {
+                title: (0, T.jsx)(`span`, {
+                  className: `max-w-full truncate`,
+                  children: (0, T.jsx)(h, {
+                    id: `worktreeInitV2.title`,
+                    defaultMessage: `Creating worktree`,
+                    description: `Title for the worktree init v2 page`,
+                  }),
+                }),
+                mainWindowPath: i(t),
+              }),
+        (e[2] = t),
+        (e[3] = d)),
+    y(d),
+    !t)
+  ) {
+    let t;
+    return (
+      e[4] === l
+        ? (t = e[5])
+        : ((t = (0, T.jsx)(u, { to: l, replace: !0 })), (e[4] = l), (e[5] = t)),
+      t
+    );
+  }
+  let f;
+  return (
+    e[6] === l
+      ? (f = e[7])
+      : ((f = (0, T.jsx)(x, { homePath: l, conversationPathBuilder: a, onConversationReady: C })),
+        (e[6] = l),
+        (e[7] = f)),
+    f
+  );
+}
+function C(e) {
+  l.hotkeyWindowHotkeys?.open({ path: a(e) });
+}
+var w, T;
+e(() => {
+  ((w = n()), r(), c(), m(), d(), f(), b(), _(), v(), (T = t()));
+})();
+export { S as HotkeyWindowWorktreeInitPage };
+//# sourceMappingURL=hotkey-window-worktree-init-page.js.map

@@ -1,1 +1,3 @@
-import{n as e,t}from"./javascript-BDZDk5xA.js";t();export{e as default};
+import { n as e, t } from "./javascript.js";
+t();
+export { e as default };
