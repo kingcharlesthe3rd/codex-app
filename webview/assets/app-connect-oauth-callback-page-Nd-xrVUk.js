@@ -1,2 +1,203 @@
-import{s as e}from"./chunk-Cq_f4orQ.js";import{n as t,t as n}from"./jsx-runtime-DXKlqYIQ.js";import{Z as r,o as i,t as a}from"./app-scope-CWE-zIhQ.js";import"./use-host-config-CiYpjHRj.js";import"./thread-context-inputs-B6tQCr7t.js";import"./vscode-api-Cc4BqLmp.js";import"./isEqual-DoHfXEc2.js";import{it as o}from"./src-l0hbMZ-p.js";import{l as s,s as c}from"./lib-BWT6A3Q0.js";import"./setting-storage-DpOcYU7S.js";import"./reduced-motion-preference-BFM-v_UB.js";import"./use-reduced-motion-Dx8ukPZm.js";import{t as l}from"./spinner-DHBmwxtt.js";import{r as u}from"./toast-signal-D5jJGQGW.js";import"./rpc-BF_evcbU.js";import"./statsig-C09DmQ8J.js";import"./request-DmzCscWA.js";import"./codex-api-error-_CzxEWtd.js";import"./markdown-to-search-text-D4gbAqkt.js";import"./marked.esm-CESG9QWl.js";import"./product-logger-ibAP2Yp2.js";import{f as d,m as f,u as p}from"./chunk-LFPYN7LY-h_ROgi7V.js";import"./parse-directives-BWfnLkkG.js";import"./platform-BWhOK2AS.js";import"./persisted-signal-Djfqb095.js";import"./app-server-manager-hooks-D4-J16ZL.js";import"./invalidate-queries-and-broadcast-DTx8Xm8g.js";import"./config-queries-C2OQQYPH.js";import"./selectable-remote-connections-signal-DIsHsJK7.js";import"./remote-connection-visibility-CzDH6oqC.js";import"./sidebar-signals-CPMTa_tq.js";import"./use-auth-pK1tONyf.js";import"./use-global-state-C0LjG8WG.js";import"./experimental-features-queries-B5O3duhG.js";import"./apps-queries-9OR8lHId.js";import"./uniq-CdTw0qC4.js";import{n as m,r as h,t as g}from"./app-connect-oauth-CaBlbuQW.js";var _=r(),v=e(t(),1),y=n();function b(){let e=(0,_.c)(17),t=i(a),n=s(),r=f(),b=d(),S=h(),{getPendingAppConnectForCallbackUrl:C}=m(),w=(0,v.useRef)(null),T;e[0]!==S||e[1]!==n||e[2]!==t?(T=e=>{let{appId:r,appName:i,fullRedirectUrl:a,shouldShowPendingToast:o,shouldShowSuccessToast:s}=e,l=x(r);o&&a!=null&&a.length>0&&t.get(u).info((0,y.jsx)(`span`,{className:`loading-shimmer-pure-text`,children:(0,y.jsx)(c,{id:`apps.appConnectOAuthCallbackPage.pending`,defaultMessage:`Finishing {connector} setup`,description:`Toast shown when an app OAuth callback has returned and Codex is finishing setup`,values:{connector:i??n.formatMessage({id:`apps.appConnectOAuthCallbackPage.fallbackAppName`,defaultMessage:`App`,description:`Fallback app name used in app connect callback pending toasts`})}})}),{duration:0,id:l}),S({fullRedirectUrl:a??``}).then(e=>{bb21:switch(e.kind){case`missing-callback-data`:t.get(u).danger((0,y.jsx)(c,{id:`apps.appConnectOAuthCallbackPage.missingData`,defaultMessage:`Missing OAuth callback data.`,description:`Toast shown when an app connection OAuth callback is missing the redirect URL`}),{id:l});break bb21;case`request-failed`:{let r=e.message??n.formatMessage({id:`apps.appConnectOAuthCallbackPage.requestFailed`,defaultMessage:`Failed to finish connecting app.`,description:`Toast shown when finishing an app connection OAuth callback fails`});t.get(u).danger(r,{id:l});break bb21}case`success`:if(!s)break bb21;t.get(u).success((0,y.jsx)(c,{id:`apps.appConnectOAuthCallbackPage.success`,defaultMessage:`{appName} is now connected.`,description:`Toast shown when an app connection OAuth callback succeeds`,values:{appName:e.appName}}),{id:l})}})},e[0]=S,e[1]=n,e[2]=t,e[3]=T):T=e[3];let E=(0,v.useEffectEvent)(T),D;e[4]!==C||e[5]!==b.key||e[6]!==b.state||e[7]!==r||e[8]!==E?(D=()=>{if(w.current===b.key)return;w.current=b.key;let e=g(b.state),t=e?.fullRedirectUrl?.trim(),n=t!=null&&t.length>0?C(t):null,i=n?.returnTo??e?.returnTo??`/skills`,a=n?.resumeTarget.kind===`plugin-install`,s=n?.resumeTarget.kind===`connector-auth-elicitation`;if(E({appId:n?.appId,appName:n?.appName,fullRedirectUrl:t??null,shouldShowPendingToast:!1,shouldShowSuccessToast:!a&&!s}),p(o,i)!=null){r(i,{replace:!0});return}switch(n?.resumeTarget.kind){case`plugin-install`:r(i,{replace:!0,state:{initialHostId:n.hostId,initialTab:`plugins`}});return;case`connector-auth-elicitation`:r(i,{replace:!0});return;case`apps-tab`:case void 0:r(i,{replace:!0,state:{connectAppId:n?.appId,initialHostId:n?.hostId,initialTab:`apps`}});return}},e[4]=C,e[5]=b.key,e[6]=b.state,e[7]=r,e[8]=E,e[9]=D):D=e[9];let O;e[10]!==C||e[11]!==n||e[12]!==b.key||e[13]!==b.state||e[14]!==r?(O=[C,n,b.key,b.state,r],e[10]=C,e[11]=n,e[12]=b.key,e[13]=b.state,e[14]=r,e[15]=O):O=e[15],(0,v.useEffect)(D,O);let k;return e[16]===Symbol.for(`react.memo_cache_sentinel`)?(k=(0,y.jsx)(`div`,{className:`flex h-full w-full items-center justify-center`,children:(0,y.jsx)(l,{className:`icon-sm`})}),e[16]=k):k=e[16],k}function x(e){return e==null?`app-connect-oauth-callback`:`app-connect-oauth-callback-${e}`}export{b as AppConnectOAuthCallbackPage};
+import { s as e } from "./chunk.js";
+import { n as t, t as n } from "./jsx-runtime.js";
+import { Z as r, o as i, t as a } from "./app-scope-CWE-zIhQ.js";
+import "./use-host-config.js";
+import "./thread-context-inputs.js";
+import "./vscode-api.js";
+import "./isEqual.js";
+import { it as o } from "./src.js";
+import { l as s, s as c } from "./lib-1.js";
+import "./setting-storage.js";
+import "./reduced-motion-preference-BFM-v_UB.js";
+import "./use-reduced-motion-1.js";
+import { t as l } from "./spinner.js";
+import { r as u } from "./toast-signal.js";
+import "./rpc.js";
+import "./statsig.js";
+import "./request.js";
+import "./codex-api-error.js";
+import "./markdown-to-search-text.js";
+import "./marked.esm.js";
+import "./product-logger.js";
+import { f as d, m as f, u as p } from "./chunk-13.js";
+import "./parse-directives.js";
+import "./platform.js";
+import "./persisted-signal.js";
+import "./app-server-manager-hooks-D4-J16ZL.js";
+import "./invalidate-queries-and-broadcast.js";
+import "./config-queries.js";
+import "./selectable-remote-connections-signal.js";
+import "./remote-connection-visibility.js";
+import "./sidebar-signals.js";
+import "./use-auth.js";
+import "./use-global-state.js";
+import "./experimental-features-queries.js";
+import "./apps-queries.js";
+import "./uniq.js";
+import { n as m, r as h, t as g } from "./app-connect-oauth.js";
+var _ = r(),
+  v = e(t(), 1),
+  y = n();
+function b() {
+  let e = (0, _.c)(17),
+    t = i(a),
+    n = s(),
+    r = f(),
+    b = d(),
+    S = h(),
+    { getPendingAppConnectForCallbackUrl: C } = m(),
+    w = (0, v.useRef)(null),
+    T;
+  e[0] !== S || e[1] !== n || e[2] !== t
+    ? ((T = (e) => {
+        let {
+            appId: r,
+            appName: i,
+            fullRedirectUrl: a,
+            shouldShowPendingToast: o,
+            shouldShowSuccessToast: s,
+          } = e,
+          l = x(r);
+        (o &&
+          a != null &&
+          a.length > 0 &&
+          t
+            .get(u)
+            .info(
+              (0, y.jsx)(`span`, {
+                className: `loading-shimmer-pure-text`,
+                children: (0, y.jsx)(c, {
+                  id: `apps.appConnectOAuthCallbackPage.pending`,
+                  defaultMessage: `Finishing {connector} setup`,
+                  description: `Toast shown when an app OAuth callback has returned and Codex is finishing setup`,
+                  values: {
+                    connector:
+                      i ??
+                      n.formatMessage({
+                        id: `apps.appConnectOAuthCallbackPage.fallbackAppName`,
+                        defaultMessage: `App`,
+                        description: `Fallback app name used in app connect callback pending toasts`,
+                      }),
+                  },
+                }),
+              }),
+              { duration: 0, id: l },
+            ),
+          S({ fullRedirectUrl: a ?? `` }).then((e) => {
+            bb21: switch (e.kind) {
+              case `missing-callback-data`:
+                t.get(u).danger(
+                  (0, y.jsx)(c, {
+                    id: `apps.appConnectOAuthCallbackPage.missingData`,
+                    defaultMessage: `Missing OAuth callback data.`,
+                    description: `Toast shown when an app connection OAuth callback is missing the redirect URL`,
+                  }),
+                  { id: l },
+                );
+                break bb21;
+              case `request-failed`: {
+                let r =
+                  e.message ??
+                  n.formatMessage({
+                    id: `apps.appConnectOAuthCallbackPage.requestFailed`,
+                    defaultMessage: `Failed to finish connecting app.`,
+                    description: `Toast shown when finishing an app connection OAuth callback fails`,
+                  });
+                t.get(u).danger(r, { id: l });
+                break bb21;
+              }
+              case `success`:
+                if (!s) break bb21;
+                t.get(u).success(
+                  (0, y.jsx)(c, {
+                    id: `apps.appConnectOAuthCallbackPage.success`,
+                    defaultMessage: `{appName} is now connected.`,
+                    description: `Toast shown when an app connection OAuth callback succeeds`,
+                    values: { appName: e.appName },
+                  }),
+                  { id: l },
+                );
+            }
+          }));
+      }),
+      (e[0] = S),
+      (e[1] = n),
+      (e[2] = t),
+      (e[3] = T))
+    : (T = e[3]);
+  let E = (0, v.useEffectEvent)(T),
+    D;
+  e[4] !== C || e[5] !== b.key || e[6] !== b.state || e[7] !== r || e[8] !== E
+    ? ((D = () => {
+        if (w.current === b.key) return;
+        w.current = b.key;
+        let e = g(b.state),
+          t = e?.fullRedirectUrl?.trim(),
+          n = t != null && t.length > 0 ? C(t) : null,
+          i = n?.returnTo ?? e?.returnTo ?? `/skills`,
+          a = n?.resumeTarget.kind === `plugin-install`,
+          s = n?.resumeTarget.kind === `connector-auth-elicitation`;
+        if (
+          (E({
+            appId: n?.appId,
+            appName: n?.appName,
+            fullRedirectUrl: t ?? null,
+            shouldShowPendingToast: !1,
+            shouldShowSuccessToast: !a && !s,
+          }),
+          p(o, i) != null)
+        ) {
+          r(i, { replace: !0 });
+          return;
+        }
+        switch (n?.resumeTarget.kind) {
+          case `plugin-install`:
+            r(i, { replace: !0, state: { initialHostId: n.hostId, initialTab: `plugins` } });
+            return;
+          case `connector-auth-elicitation`:
+            r(i, { replace: !0 });
+            return;
+          case `apps-tab`:
+          case void 0:
+            r(i, {
+              replace: !0,
+              state: { connectAppId: n?.appId, initialHostId: n?.hostId, initialTab: `apps` },
+            });
+            return;
+        }
+      }),
+      (e[4] = C),
+      (e[5] = b.key),
+      (e[6] = b.state),
+      (e[7] = r),
+      (e[8] = E),
+      (e[9] = D))
+    : (D = e[9]);
+  let O;
+  (e[10] !== C || e[11] !== n || e[12] !== b.key || e[13] !== b.state || e[14] !== r
+    ? ((O = [C, n, b.key, b.state, r]),
+      (e[10] = C),
+      (e[11] = n),
+      (e[12] = b.key),
+      (e[13] = b.state),
+      (e[14] = r),
+      (e[15] = O))
+    : (O = e[15]),
+    (0, v.useEffect)(D, O));
+  let k;
+  return (
+    e[16] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((k = (0, y.jsx)(`div`, {
+          className: `flex h-full w-full items-center justify-center`,
+          children: (0, y.jsx)(l, { className: `icon-sm` }),
+        })),
+        (e[16] = k))
+      : (k = e[16]),
+    k
+  );
+}
+function x(e) {
+  return e == null ? `app-connect-oauth-callback` : `app-connect-oauth-callback-${e}`;
+}
+export { b as AppConnectOAuthCallbackPage };
 //# sourceMappingURL=app-connect-oauth-callback-page-Nd-xrVUk.js.map
