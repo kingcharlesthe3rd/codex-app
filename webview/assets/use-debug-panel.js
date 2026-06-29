@@ -1,0 +1,48 @@
+import { s as e } from "./chunk-Bj-mKKzh.js";
+import { jr as t } from "./src-C.js";
+import { Er as n } from "./app-server-manager-signals.js";
+import { n as r } from "./jsx-runtime.js";
+import { S as i, Z as a, at as o } from "./setting-storage.js";
+import { v as s } from "./use-plugins.js";
+function c(e) {
+  return u(e, `editedFilePaths`);
+}
+function l(e) {
+  return u(e, `referencedFilePaths`);
+}
+function u(e, t) {
+  let r = [],
+    i = new Set();
+  for (let a of e) for (let e of n(a)[t]) i.has(e) || (i.add(e), r.push(e));
+  return r;
+}
+var d = e(r(), 1),
+  f = o(i, []),
+  p = 0;
+function m() {
+  return a(f);
+}
+function h() {
+  return t.isInternal(s());
+}
+function g(e, t) {
+  let n = `[non-serializable title]`;
+  return (
+    typeof t.title == `string` ? (n = t.title) : (0, d.isValidElement)(t.title) && (n = ``),
+    { id: e, titleText: n, lines: t.lines }
+  );
+}
+function _(e, t, n) {
+  let r = g(t, n);
+  e.set(f, (e) => [...e.filter((e) => e.id !== t), r]);
+}
+function v(e, t) {
+  e.set(f, (e) => e.filter((e) => e.id !== t));
+}
+function y() {
+  if (typeof crypto < `u` && typeof crypto.randomUUID == `function`) return crypto.randomUUID();
+  let e = p;
+  return ((p += 1), `debug-panel-${e}`);
+}
+export { m as a, h as i, v as n, c as o, _ as r, l as s, y as t };
+//# sourceMappingURL=use-debug-panel.js.map

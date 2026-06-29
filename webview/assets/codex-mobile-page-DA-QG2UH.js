@@ -1,2 +1,187 @@
-import{s as e}from"./chunk-Bj-mKKzh.js";import{kr as t}from"./src-C-vEhZB3.js";import{$s as n}from"./app-server-manager-signals-Bpaj8VHp.js";import{n as r,t as i}from"./jsx-runtime-CiQ1k8xo.js";import"./react-dom-CvzHKZGB.js";import"./Combination-9DfZp13g.js";import"./core.esm-D4TU2vSa.js";import"./marked.esm-BR-H6018.js";import{wt as a}from"./setting-storage-dfCo8V4m.js";import{m as o}from"./chunk-LFPYN7LY-CyNj8Dc0.js";import"./product-logger-DusapRyT.js";import"./rpc-DqwD0euc.js";import"./statsig--EYRNU53.js";import"./request-DWZTrEAr.js";import"./app-server-manager-hooks-DfDI-9lO.js";import{t as s}from"./use-global-state-ByF0e7y-.js";import"./invalidate-queries-and-broadcast-BXgBlyBv.js";import"./thread-context-inputs-Dq1kERW_.js";import"./config-queries-CC6L5I-V.js";import"./remote-connection-visibility-iAKu2EKA.js";import"./sidebar-signals-CZ0DCkeI.js";import"./use-auth-CQ6T_OtK.js";import"./codex-api-B-oi2KK_.js";import"./_baseEach-BQqHw6ZO.js";import"./_baseOrderBy-BTJwMz1e.js";import"./use-debounced-value-BtOJx-Vp.js";import"./apps-queries-XXmfl-Wy.js";import"./startCase-Bo0-xpFk.js";import"./experimental-features-queries-CVjYsT-k.js";import"./use-is-dark-BHkhnHe-.js";import"./connector-logo-rXpC1C2w.js";import"./toast-signal-CTz_x1Qc.js";import"./window-zoom-context-D5BnmlFm.js";import"./tooltip-CDzchJxN.js";import"./route-scope-CW6DqgPQ.js";import"./button-OF01XbfH.js";import"./reduced-motion-preference-DE4zP-oH.js";import"./spinner-z6E1Cmc2.js";import"./use-codex-home-CQ7goDGl.js";import"./os-info-CLWbGRUe.js";import"./use-os-info-CpFtQpVC.js";import"./remote-projects-CbkUc1d1.js";import"./proxy-C18Qs_GV.js";import"./app-shell-state-BMrooxqY.js";import{t as c}from"./app-shell-BKA1k2RA.js";import"./apps-DwfMzB5Q.js";import"./chats-DoviPPWc.js";import"./x-C_RDKBp5.js";import"./projectless-thread-WJPQC84k.js";import"./plugin-install-store-CS-dd4DH.js";import"./use-platform-C9YgcEa7.js";import"./use-is-plugins-enabled-DbPtU22F.js";import"./browser-sidebar-availability-6AqzkABm.js";import"./use-plugins-054I4ymj.js";import"./browser-sidebar-manager-BLXOqzh1.js";import"./app-shell-tab-controller-G2yDJB5I.js";import"./info-B8GAwpK6.js";import"./error-boundary-BQS0BD4L.js";import"./download-rdDRg7bx.js";import"./with-window-u3MMMLhZ.js";import"./window-app-action-helpers-CI_y_qRa.js";import"./use-plugin-install-flow-BXFieYft.js";import"./dialog-layout-ComqLb82.js";import"./plugins-availability-tXe7i5sp.js";import"./plugin-config-edits-DUMiyKty.js";import"./local-projects-HLjglGT4.js";import"./run-command-BG6DCbJv.js";import"./modal-controller-state-HobAU5fG.js";import"./open-project-setup-dialog-Dij4Sidi.js";import"./folder-DTP6uOAM.js";import"./use-stable-callback-Cpp1p1Kh.js";import"./electron-menu-shortcuts-Dn0qXIYF.js";import"./use-register-command-2d_g1XYh.js";import"./homepage-logo-BZ_f6E2o.js";import"./loading-page-B8HAkOoI.js";import"./sortable.esm-BRPfvPzy.js";import"./use-resize-observer-DCpyQHos.js";import"./check-md-CK953dYB.js";import"./chevron-right-DpP6L2Db.js";import"./context-menu-CDka65eJ.js";import"./command-keybindings-C3NM9T-L.js";import"./expand-DiUecpw2.js";import"./keyboard-modifier-state-BKqcycjV.js";import"./arrow-left-pIVM9taO.js";import"./use-window-controls-safe-area-DUC0yUIy.js";import"./app-shell-bottom-panel-scroll-sync-Dc7z4Mzg.js";import"./codex-api-error-CsUcWied.js";import"./links-CqHI3WFw.js";import"./check-circle-hJ_ggIqT.js";import"./phone-B4TY4-zj.js";import"./badge-BAhoZZ8q.js";import"./globe-CnvlclXd.js";import"./remote-host-globe-icon-DwUovbza.js";import"./cloud-BOSNAJnX.js";import"./macbook-Cy4IPzCm.js";import"./worktree-D_6WAQVb.js";import"./thread-env-icon-DLKw_pWO.js";import"./chrome-ZI-wJE1V.js";import"./openai-blossom-CXnPbecc.js";import"./filesystem-media-src-CsmJ_w6I.js";import"./use-skills-DdpKjSFa.js";import"./check-plugin-availability-fTZpqnCL.js";import"./plugin-detail-queries-kNm_gxcb.js";import"./toggle-DdFhwp5X.js";import"./app-connect-oauth-40dCt3b0.js";import"./computer-use-app-approvals-query-Bsc2Hbhf.js";import"./hooks-settings-queries-BvDCtj3Z.js";import"./thread-page-header-31pIc3RB.js";import"./sun-D2_itVHO.js";import"./local-remote-control-enabled-sync-fwp2dgh7.js";import{n as l,o as u}from"./codex-mobile-setup-dialog-DZEXTREe.js";import"./chatgpt-token-auth.browser-hC0xUZnS.js";import{t as d}from"./codex-mobile-setup-flow-DUbslN_z.js";import"./use-home-directory-CJSSsHOp.js";import"./cursor-BR8kvV5Y.js";import"./segmented-toggle-Ck23lwCB.js";var f=a(),p=e(r(),1),m=i();function h(){let e=(0,f.c)(2),{data:n,isLoading:r}=s(t.CODEX_MOBILE_SETUP_COMPLETED);if(r)return null;let i;return e[0]===n?i=e[1]:(i=(0,m.jsx)(g,{hasCompletedCodexMobileSetup:n}),e[0]=n,e[1]=i),i}function g(e){let t=(0,f.c)(6),{hasCompletedCodexMobileSetup:r}=e,i=o(),[a]=n(u),[s]=(0,p.useState)(!r);if(s||a!==`auto`){let e;t[0]===Symbol.for(`react.memo_cache_sentinel`)?(e=(0,m.jsx)(c.MainContentLayout,{layout:`full-bleed`}),t[0]=e):e=t[0];let n;return t[1]===i?n=t[2]:(n=(0,m.jsxs)(m.Fragment,{children:[e,(0,m.jsx)(d,{onClose:()=>{i(`/`)},variant:`page`})]}),t[1]=i,t[2]=n),n}let h;t[3]===Symbol.for(`react.memo_cache_sentinel`)?(h=(0,m.jsx)(c.MainContentLayout,{layout:`full-bleed`}),t[3]=h):h=t[3];let g;return t[4]===i?g=t[5]:(g=(0,m.jsxs)(m.Fragment,{children:[h,(0,m.jsx)(l,{onManageConnections:()=>{i(`/settings/connections`)}})]}),t[4]=i,t[5]=g),g}export{h as CodexMobilePage};
+import { s as e } from "./chunk-Bj-mKKzh.js";
+import { kr as t } from "./src-C.js";
+import { $s as n } from "./app-server-manager-signals.js";
+import { n as r, t as i } from "./jsx-runtime.js";
+import "./react-dom.js";
+import "./Combination.js";
+import "./core.esm.js";
+import "./marked.esm-BR-H6018.js";
+import { wt as a } from "./setting-storage.js";
+import { m as o } from "./chunk-8.js";
+import "./product-logger.js";
+import "./rpc.js";
+import "./statsig.js";
+import "./request.js";
+import "./app-server-manager-hooks-DfDI-9lO.js";
+import { t as s } from "./use-global-state.js";
+import "./invalidate-queries-and-broadcast.js";
+import "./thread-context-inputs.js";
+import "./config-queries.js";
+import "./remote-connection-visibility.js";
+import "./sidebar-signals.js";
+import "./use-auth.js";
+import "./codex-api-B.js";
+import "./_baseEach.js";
+import "./_baseOrderBy.js";
+import "./use-debounced-value.js";
+import "./apps-queries.js";
+import "./startCase-Bo0-xpFk.js";
+import "./experimental-features-queries.js";
+import "./use-is-dark.js";
+import "./connector-logo.js";
+import "./toast-signal.js";
+import "./window-zoom-context.js";
+import "./tooltip.js";
+import "./route-scope.js";
+import "./button.js";
+import "./reduced-motion-preference.js";
+import "./spinner.js";
+import "./use-codex-home.js";
+import "./os-info.js";
+import "./use-os-info.js";
+import "./remote-projects.js";
+import "./proxy.js";
+import "./app-shell-state.js";
+import { t as c } from "./app-shell.js";
+import "./apps.js";
+import "./chats.js";
+import "./x.js";
+import "./projectless-thread.js";
+import "./plugin-install-store-CS-dd4DH.js";
+import "./use-platform.js";
+import "./use-is-plugins-enabled.js";
+import "./browser-sidebar-availability.js";
+import "./use-plugins.js";
+import "./browser-sidebar-manager.js";
+import "./app-shell-tab-controller.js";
+import "./info.js";
+import "./error-boundary.js";
+import "./download.js";
+import "./with-window.js";
+import "./window-app-action-helpers.js";
+import "./use-plugin-install-flow.js";
+import "./dialog-layout.js";
+import "./plugins-availability.js";
+import "./plugin-config-edits.js";
+import "./local-projects.js";
+import "./run-command.js";
+import "./modal-controller-state.js";
+import "./open-project-setup-dialog.js";
+import "./folder.js";
+import "./use-stable-callback.js";
+import "./electron-menu-shortcuts.js";
+import "./use-register-command.js";
+import "./homepage-logo.js";
+import "./loading-page.js";
+import "./sortable.esm.js";
+import "./use-resize-observer.js";
+import "./check-md.js";
+import "./chevron-right.js";
+import "./context-menu.js";
+import "./command-keybindings.js";
+import "./expand.js";
+import "./keyboard-modifier-state.js";
+import "./arrow-left.js";
+import "./use-window-controls-safe-area.js";
+import "./app-shell-bottom-panel-scroll-sync.js";
+import "./codex-api-error.js";
+import "./links.js";
+import "./check-circle.js";
+import "./phone.js";
+import "./badge.js";
+import "./globe.js";
+import "./remote-host-globe-icon.js";
+import "./cloud.js";
+import "./macbook.js";
+import "./worktree.js";
+import "./thread-env-icon.js";
+import "./chrome-ZI-wJE1V.js";
+import "./openai-blossom.js";
+import "./filesystem-media-src.js";
+import "./use-skills.js";
+import "./check-plugin-availability.js";
+import "./plugin-detail-queries.js";
+import "./toggle.js";
+import "./app-connect-oauth.js";
+import "./computer-use-app-approvals-query.js";
+import "./hooks-settings-queries.js";
+import "./thread-page-header.js";
+import "./sun.js";
+import "./local-remote-control-enabled-sync.js";
+import { n as l, o as u } from "./codex-mobile-setup-dialog.js";
+import "./chatgpt-token-auth.browser.js";
+import { t as d } from "./codex-mobile-setup-flow.js";
+import "./use-home-directory.js";
+import "./cursor.js";
+import "./segmented-toggle.js";
+var f = a(),
+  p = e(r(), 1),
+  m = i();
+function h() {
+  let e = (0, f.c)(2),
+    { data: n, isLoading: r } = s(t.CODEX_MOBILE_SETUP_COMPLETED);
+  if (r) return null;
+  let i;
+  return (
+    e[0] === n
+      ? (i = e[1])
+      : ((i = (0, m.jsx)(g, { hasCompletedCodexMobileSetup: n })), (e[0] = n), (e[1] = i)),
+    i
+  );
+}
+function g(e) {
+  let t = (0, f.c)(6),
+    { hasCompletedCodexMobileSetup: r } = e,
+    i = o(),
+    [a] = n(u),
+    [s] = (0, p.useState)(!r);
+  if (s || a !== `auto`) {
+    let e;
+    t[0] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((e = (0, m.jsx)(c.MainContentLayout, { layout: `full-bleed` })), (t[0] = e))
+      : (e = t[0]);
+    let n;
+    return (
+      t[1] === i
+        ? (n = t[2])
+        : ((n = (0, m.jsxs)(m.Fragment, {
+            children: [
+              e,
+              (0, m.jsx)(d, {
+                onClose: () => {
+                  i(`/`);
+                },
+                variant: `page`,
+              }),
+            ],
+          })),
+          (t[1] = i),
+          (t[2] = n)),
+      n
+    );
+  }
+  let h;
+  t[3] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((h = (0, m.jsx)(c.MainContentLayout, { layout: `full-bleed` })), (t[3] = h))
+    : (h = t[3]);
+  let g;
+  return (
+    t[4] === i
+      ? (g = t[5])
+      : ((g = (0, m.jsxs)(m.Fragment, {
+          children: [
+            h,
+            (0, m.jsx)(l, {
+              onManageConnections: () => {
+                i(`/settings/connections`);
+              },
+            }),
+          ],
+        })),
+        (t[4] = i),
+        (t[5] = g)),
+    g
+  );
+}
+export { h as CodexMobilePage };
 //# sourceMappingURL=codex-mobile-page-DA-QG2UH.js.map

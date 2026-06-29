@@ -1,2 +1,9 @@
-import{eo as e}from"./app-server-manager-signals-Bpaj8VHp.js";function t(t){return e(t?.source)?.parentThreadId!=null}function n(e,n){return!n&&t(e)}export{n,t};
+import { eo as e } from "./app-server-manager-signals.js";
+function t(t) {
+  return e(t?.source)?.parentThreadId != null;
+}
+function n(e, n) {
+  return !n && t(e);
+}
+export { n, t };
 //# sourceMappingURL=is-subagent-conversation-Tg4-cSB_.js.map
