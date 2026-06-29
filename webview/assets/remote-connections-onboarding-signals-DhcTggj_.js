@@ -1,0 +1,2 @@
+import{W as e,h as t}from"./vscode-api-DjORcpSo.js";import{t as n}from"./persisted-signal-CweW-bgN.js";var r=e(t,`hidden`),i=n(`has-seen-remote-connections-home-announcement`,!1);export{r as n,i as t};
+//# sourceMappingURL=remote-connections-onboarding-signals-DhcTggj_.js.map
