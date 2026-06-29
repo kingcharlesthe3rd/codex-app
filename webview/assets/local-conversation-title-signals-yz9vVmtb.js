@@ -1,0 +1,2 @@
+import{Di as e,Ei as t,_t as n,dt as r,ht as i}from"./app-server-manager-signals-Yn0WSnoY.js";import{R as a,h as o}from"./vscode-api-DjORcpSo.js";var s=a(o,(e,{get:r})=>e==null?null:t({id:e,title:r(i,e),turns:r(n,e)})),c=a(o,(t,{get:i})=>t==null?null:i(s,t)??e(t,i(n,i(r,t))));export{c as n,s as t};
+//# sourceMappingURL=local-conversation-title-signals-yz9vVmtb.js.map

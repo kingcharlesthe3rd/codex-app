@@ -1,0 +1,2 @@
+import{r as e}from"./react-0SBwfqBm.js";import{t}from"./persisted-atom-D9Fx3rWR.js";var n=t(`environment`,null),r=()=>e(n);function i(e){return Array.isArray(e?.repos)?e.repos[0]:void 0}function a(e){if(e==null)return null;let t=i(e);return t==null?null:(e.repo_map??{})[t]??null}export{r as i,a as n,i as r,n as t};
+//# sourceMappingURL=use-environment-DqaL6HjM.js.map
