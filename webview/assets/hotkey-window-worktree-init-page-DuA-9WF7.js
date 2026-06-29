@@ -1,2 +1,234 @@
-import{t as e}from"./jsx-runtime-DXKlqYIQ.js";import{s as t,z as n}from"./app-scope-D4gJGP2y.js";import"./app-server-manager-signals-HgWmRvLr.js";import"./vscode-api-D4QUNFB4.js";import"./isEqual-TjhdS4vC.js";import{gt as r,ht as i,ut as a}from"./src-DEDxOnN6.js";import"./react-dom-BWTl3S_q.js";import{s as o}from"./lib-CCBxYe8I.js";import"./persisted-signal-B2dNEBDj.js";import"./proxy-ej60dXCN.js";import"./app-shell-state-BvB85tXe.js";import"./button-BtdINRU0.js";import"./setting-storage-YcZwzp7E.js";import"./reduced-motion-preference-DSWc7wlL.js";import"./use-reduced-motion-DJIIYnr5.js";import"./spinner-CVefAPBJ.js";import"./Combination-CAAeX-HD.js";import"./window-zoom-context-Cgc2fSW9.js";import"./check-md-CHyDz6Fa.js";import"./chevron-right-7HVL0bkA.js";import"./use-stable-callback-SeObBB7R.js";import"./tooltip-6TNduY_K.js";import"./context-menu-BUnu9_M6.js";import"./toast-signal-BACnLtLa.js";import"./x-BHtzaO4V.js";import"./mime-types-BfZrE8wF.js";import"./product-logger-CD3ksHqB.js";import"./format-skill-title-BQ4h2tYz.js";import{n as s}from"./rpc-DDdc8fnG.js";import"./statsig-BurQ71Of.js";import"./request-B81FIRmf.js";import"./platform-C41Q7PfT.js";import"./marked.esm-DKKIFtNm.js";import"./invalidate-queries-and-broadcast-B1TbQi7G.js";import"./thread-context-inputs-BzoDtcD5.js";import"./config-queries-BAeIrVPL.js";import"./appshot-icon-cache-DugACAVS.js";import"./modal-controller-state-CGXRicX9.js";import"./dialog-layout-B-CrG7B3.js";import"./with-window-BCHWMCz_.js";import"./file-DFUvTGwO.js";import"./folder-D6QrMX0i.js";import"./use-debounced-value-Dw-7BPJJ.js";import"./experimental-features-queries-Czv9y_YO.js";import"./use-in-app-browser-use-availability-C6JXQY2T.js";import"./image-square-BF_PIxB9.js";import"./plus-DPHufuzT.js";import"./app-server-manager-hooks-D1o1AJOL.js";import"./selectable-remote-connections-signal-BsOfabcu.js";import"./remote-connection-visibility-BS23u_P-.js";import"./sidebar-signals-chbigDnq.js";import"./use-is-copilot-api-available-C0kxjpQG.js";import"./use-global-state-CXIT3YOn.js";import"./use-auth-BgKIew3o.js";import"./use-codex-home-CUMNYJYL.js";import"./use-os-info-CGpknY8c.js";import"./use-platform-B74nPrDa.js";import"./browser-sidebar-availability-BRSpR8Nm.js";import"./use-plugins-D38FFcwl.js";import"./apps-queries-DJjt3BKn.js";import"./startCase-BovhU-2j.js";import"./mention-item-CYzVblRG.js";import"./mcp-fd72xN2i.js";import"./get-skill-icon-bE0T99Qd.js";import"./bug-BQtiAm4I.js";import"./chrome-CIDLjTEw.js";import"./codex-Dw-qSlib.js";import"./notion-Bw9s4LU6.js";import"./openai-blossom-Dj6e_s0I.js";import"./pencil-CZT2bYWa.js";import"./filesystem-media-src-BhP_wfqE.js";import"./plugin-mention-utils-D4b6YdBz.js";import"./use-composer-controller-BbUSoaLb.js";import"./apps-2-O0DbeP.js";import"./open-workspace-file-BvmRd8EE.js";import"./mcp-capability-signals-BAteM3aT.js";import"./send-open-file-request-BayTSSw6.js";import"./remote-projects-OXFR6V6O.js";import"./chevron-C65BXTUx.js";import"./warning-B_f3FLNq.js";import{a as c,g as l}from"./chunk-LFPYN7LY-ChhXKu0j.js";import"./known-app-icon-BjYseyWn.js";import"./branch-D-_UPU9S.js";import"./github-mark-chTb6tx9.js";import"./google-drive-DXP9KvwG.js";import"./_baseEach-DLdbLgWY.js";import"./_baseOrderBy-o7ii5FS9.js";import"./codex-api-Atuhavru.js";import"./use-is-dark-CfYW2xHb.js";import"./connector-logo-DXIvGYHC.js";import"./build-start-conversation-params-BWnyzAKG.js";import"./route-scope-DjisXIuv.js";import"./prompt-text-BwUg1Gnf.js";import"./thread-detail-level-D4yD82Ad.js";import"./permissions-mode-defaults-DNkNKaaF.js";import"./use-permissions-mode-9OJM2a7p.js";import"./projectless-thread-EQf2gMmY.js";import"./plugin-install-store-_CFMwOBn.js";import"./app-shell-tab-controller-BClR5CuW.js";import"./focus-composer-DdlPOntN.js";import"./thread-panel-state-BTIfazQm.js";import"./terminal-DsviwqPn.js";import"./download-BHAZMQHg.js";import"./appgen-gating-3JtynIdQ.js";import"./plugin-detail-route-utils-BnNzalHQ.js";import"./use-native-apps.electron-BAiYopIJ.js";import"./get-file-icon-rKI0QulF.js";import"./code-CBI-Jt6Z.js";import"./json-BvEakc3s.js";import"./notebook-BUEHqHjX.js";import"./settings.cog-C5y7HR24.js";import"./skills---nEAI32.js";import"./mention-icons-DnLNhHui.js";import"./inline-mentions-Cjw2rcJZ.js";import"./workspace-file-context-menu-DwYop4B7.js";import"./command-menu-state-BOe0gVSq.js";import"./open-project-setup-dialog-BPxfutud.js";import"./local-projects-CE560ee6.js";import"./select-project-BToSrdWa.js";import"./sidebar-project-group-signals-CbmjSsH-.js";import"./sidebar-project-groups-B82rIP9Z.js";import"./_defineProperty-DxC_zC_M.js";import"./run-command-C61vFzsG.js";import"./use-register-command-Ct_cnlPW.js";import"./use-skills-BPKRGzoa.js";import"./inline-mention-content-CMWFQs_F.js";import"./external-link-C2QVYYOz.js";import"./initial-route-atom-C1h5Aq0v.js";import"./use-start-new-conversation-_CNLYSFT.js";import"./sites-color-BXKteS9P.js";import"./read-service-tier-for-request-CacKo-Cv.js";import"./pending-worktree-store-9iDA5Rty.js";import"./use-composer-top-menu-max-height-Dp6LZz-X.js";import"./use-resize-observer-DKe0jBQ0.js";import"./arrow-left-DtgnVB60.js";import"./app-shell-bottom-panel-scroll-sync-BZDogF9t.js";import"./minus-DQI8LgvN.js";import"./check-circle-Cw8ed3xs.js";import"./x-circle-A1MrGI77.js";import"./globe-BfHljqjB.js";import"./set-pinned-thread-CrVE38yK.js";import"./unselected-circle-BBKI5ChL.js";import"./external-link-favicon-DiVWYZUI.js";import"./external-markdown-link-BkHiu37O.js";import"./copy-Do99EMq1.js";import"./image-preview-dialog-rsZGHHrt.js";import"./pull-request-open-BWmX39PL.js";import"./use-is-background-subagents-enabled-xyFfw-Vi.js";import"./sortBy-Bw2p54qU.js";import"./composer-controller-p26FIwOW.js";/* empty css                    */import"./mention-metadata-syncer-Cux3-DQM.js";import"./composer-top-menu-chrome-CBz1Z3-3.js";import"./use-enter-behavior-2Os2izbZ.js";import"./connected-apps-Bx7xGQW7.js";import"./attachment-remove-button-BLmWf78O.js";import"./thread-resource-card-_pgL4ayJ.js";import"./format-skill-scope-Cq2b_asq.js";import"./list-navigation-BkQSInmZ.js";import"./thread-layout-BNcqYopi.js";import"./use-workspace-file-search-2OkTDN1L.js";import"./at-mention-list-BXKdCYpK.js";import"./anchored-autocomplete-overlay-CSLruwdy.js";import"./mcp-capability-client-BH3wcta9.js";import"./prompt-editor-BdcqFeI2.js";import"./thread-right-panel-state-CnhbwwJD.js";import"./use-autocomplete-overlay-placement-WeOQ6Bfq.js";import"./use-measured-text-collapse-D5tfFpx7.js";import"./hooks-Oi7PSMU8.js";import{n as u}from"./hotkey-window-state-u5admek8.js";import"./pending-worktree-conversation-kmii0N0G.js";import"./progress-step-row-9fPLxmdW.js";import"./user-formatted-text-Ct0ATYJB.js";import{n as d}from"./use-hotkey-window-detail-layout-CCL2myDd.js";import"./thread-scroll-controller-context-value-EzlTADgA.js";import"./thread-scroll-layout-DayuVsMp.js";import"./hooks-settings-copy-CDjcpK3D.js";import"./user-message-attachments-B540flxS.js";import{t as f}from"./worktree-init-v2-page-B06HE_fr.js";var p=n(),m=e();function h(){let e=(0,p.c)(8),{pendingWorktreeId:n}=l(),{data:s}=t(u),h=s==null||s.configuredHotkey!=null,_;e[0]===h?_=e[1]:(_=r(h),e[0]=h,e[1]=_);let v=_,y;if(e[2]===n?y=e[3]:(y=n==null?null:{title:(0,m.jsx)(`span`,{className:`max-w-full truncate`,children:(0,m.jsx)(o,{id:`worktreeInitV2.title`,defaultMessage:`Creating worktree`,description:`Title for the worktree init v2 page`})}),mainWindowPath:i(n)},e[2]=n,e[3]=y),d(y),!n){let t;return e[4]===v?t=e[5]:(t=(0,m.jsx)(c,{to:v,replace:!0}),e[4]=v,e[5]=t),t}let b;return e[6]===v?b=e[7]:(b=(0,m.jsx)(f,{homePath:v,conversationPathBuilder:a,onConversationReady:g}),e[6]=v,e[7]=b),b}function g(e){s.hotkeyWindowHotkeys?.open({path:a(e)})}export{h as HotkeyWindowWorktreeInitPage};
+import { t as e } from "./jsx-runtime.js";
+import { s as t, z as n } from "./app-scope.js";
+import "./app-server-manager-signals.js";
+import "./vscode-api.js";
+import "./isEqual.js";
+import { gt as r, ht as i, ut as a } from "./src-2.js";
+import "./react-dom.js";
+import { s as o } from "./lib.js";
+import "./persisted-signal.js";
+import "./proxy.js";
+import "./app-shell-state.js";
+import "./button.js";
+import "./setting-storage.js";
+import "./reduced-motion-preference.js";
+import "./use-reduced-motion-2.js";
+import "./spinner.js";
+import "./Combination.js";
+import "./window-zoom-context.js";
+import "./check-md.js";
+import "./chevron-right.js";
+import "./use-stable-callback.js";
+import "./tooltip.js";
+import "./context-menu.js";
+import "./toast-signal.js";
+import "./x.js";
+import "./mime-types.js";
+import "./product-logger.js";
+import "./format-skill-title.js";
+import { n as s } from "./rpc-2.js";
+import "./statsig.js";
+import "./request.js";
+import "./platform.js";
+import "./marked.esm.js";
+import "./invalidate-queries-and-broadcast.js";
+import "./thread-context-inputs.js";
+import "./config-queries.js";
+import "./appshot-icon-cache.js";
+import "./modal-controller-state.js";
+import "./dialog-layout-B.js";
+import "./with-window.js";
+import "./file.js";
+import "./folder.js";
+import "./use-debounced-value-Dw-7BPJJ.js";
+import "./experimental-features-queries.js";
+import "./use-in-app-browser-use-availability.js";
+import "./image-square.js";
+import "./plus.js";
+import "./app-server-manager-hooks.js";
+import "./selectable-remote-connections-signal.js";
+import "./remote-connection-visibility.js";
+import "./sidebar-signals.js";
+import "./use-is-copilot-api-available.js";
+import "./use-global-state.js";
+import "./use-auth.js";
+import "./use-codex-home.js";
+import "./use-os-info.js";
+import "./use-platform.js";
+import "./browser-sidebar-availability.js";
+import "./use-plugins.js";
+import "./apps-queries.js";
+import "./startCase.js";
+import "./mention-item.js";
+import "./mcp.js";
+import "./get-skill-icon.js";
+import "./bug.js";
+import "./chrome.js";
+import "./codex-Dw-qSlib.js";
+import "./notion.js";
+import "./openai-blossom.js";
+import "./pencil.js";
+import "./filesystem-media-src.js";
+import "./plugin-mention-utils.js";
+import "./use-composer-controller.js";
+import "./apps-2.js";
+import "./open-workspace-file.js";
+import "./mcp-capability-signals.js";
+import "./send-open-file-request.js";
+import "./remote-projects.js";
+import "./chevron.js";
+import "./warning.js";
+import { a as c, g as l } from "./chunk-9.js";
+import "./known-app-icon.js";
+import "./branch-D.js";
+import "./github-mark.js";
+import "./google-drive.js";
+import "./_baseEach.js";
+import "./_baseOrderBy.js";
+import "./codex-api.js";
+import "./use-is-dark.js";
+import "./connector-logo.js";
+import "./build-start-conversation-params.js";
+import "./route-scope.js";
+import "./prompt-text.js";
+import "./thread-detail-level.js";
+import "./permissions-mode-defaults.js";
+import "./use-permissions-mode.js";
+import "./projectless-thread.js";
+import "./plugin-install-store.js";
+import "./app-shell-tab-controller.js";
+import "./focus-composer.js";
+import "./thread-panel-state.js";
+import "./terminal.js";
+import "./download.js";
+import "./appgen-gating.js";
+import "./plugin-detail-route-utils.js";
+import "./use-native-apps.electron.js";
+import "./get-file-icon.js";
+import "./code-CBI-Jt6Z.js";
+import "./json.js";
+import "./notebook.js";
+import "./settings.cog.js";
+import "./skills.js";
+import "./mention-icons.js";
+import "./inline-mentions.js";
+import "./workspace-file-context-menu.js";
+import "./command-menu-state.js";
+import "./open-project-setup-dialog.js";
+import "./local-projects.js";
+import "./select-project.js";
+import "./sidebar-project-group-signals.js";
+import "./sidebar-project-groups.js";
+import "./_defineProperty.js";
+import "./run-command.js";
+import "./use-register-command.js";
+import "./use-skills.js";
+import "./inline-mention-content.js";
+import "./external-link.js";
+import "./initial-route-atom.js";
+import "./use-start-new-conversation.js";
+import "./sites-color.js";
+import "./read-service-tier-for-request.js";
+import "./pending-worktree-store.js";
+import "./use-composer-top-menu-max-height.js";
+import "./use-resize-observer.js";
+import "./arrow-left.js";
+import "./app-shell-bottom-panel-scroll-sync.js";
+import "./minus.js";
+import "./check-circle.js";
+import "./x-circle.js";
+import "./globe.js";
+import "./set-pinned-thread.js";
+import "./unselected-circle.js";
+import "./external-link-favicon.js";
+import "./external-markdown-link.js";
+import "./copy.js";
+import "./image-preview-dialog.js";
+import "./pull-request-open.js";
+import "./use-is-background-subagents-enabled.js";
+import "./sortBy.js";
+import "./composer-controller.js";
+/* empty css                    */ import "./mention-metadata-syncer-Cux3-DQM.js";
+import "./composer-top-menu-chrome.js";
+import "./use-enter-behavior.js";
+import "./connected-apps.js";
+import "./attachment-remove-button.js";
+import "./thread-resource-card.js";
+import "./format-skill-scope.js";
+import "./list-navigation.js";
+import "./thread-layout.js";
+import "./use-workspace-file-search.js";
+import "./at-mention-list-1.js";
+import "./anchored-autocomplete-overlay.js";
+import "./mcp-capability-client.js";
+import "./prompt-editor.js";
+import "./thread-right-panel-state.js";
+import "./use-autocomplete-overlay-placement.js";
+import "./use-measured-text-collapse.js";
+import "./hooks.js";
+import { n as u } from "./hotkey-window-state.js";
+import "./pending-worktree-conversation.js";
+import "./progress-step-row.js";
+import "./user-formatted-text.js";
+import { n as d } from "./use-hotkey-window-detail-layout.js";
+import "./thread-scroll-controller-context-value.js";
+import "./thread-scroll-layout.js";
+import "./hooks-settings-copy.js";
+import "./user-message-attachments.js";
+import { t as f } from "./worktree-init-v2-page.js";
+var p = n(),
+  m = e();
+function h() {
+  let e = (0, p.c)(8),
+    { pendingWorktreeId: n } = l(),
+    { data: s } = t(u),
+    h = s == null || s.configuredHotkey != null,
+    _;
+  e[0] === h ? (_ = e[1]) : ((_ = r(h)), (e[0] = h), (e[1] = _));
+  let v = _,
+    y;
+  if (
+    (e[2] === n
+      ? (y = e[3])
+      : ((y =
+          n == null
+            ? null
+            : {
+                title: (0, m.jsx)(`span`, {
+                  className: `max-w-full truncate`,
+                  children: (0, m.jsx)(o, {
+                    id: `worktreeInitV2.title`,
+                    defaultMessage: `Creating worktree`,
+                    description: `Title for the worktree init v2 page`,
+                  }),
+                }),
+                mainWindowPath: i(n),
+              }),
+        (e[2] = n),
+        (e[3] = y)),
+    d(y),
+    !n)
+  ) {
+    let t;
+    return (
+      e[4] === v
+        ? (t = e[5])
+        : ((t = (0, m.jsx)(c, { to: v, replace: !0 })), (e[4] = v), (e[5] = t)),
+      t
+    );
+  }
+  let b;
+  return (
+    e[6] === v
+      ? (b = e[7])
+      : ((b = (0, m.jsx)(f, { homePath: v, conversationPathBuilder: a, onConversationReady: g })),
+        (e[6] = v),
+        (e[7] = b)),
+    b
+  );
+}
+function g(e) {
+  s.hotkeyWindowHotkeys?.open({ path: a(e) });
+}
+export { h as HotkeyWindowWorktreeInitPage };
 //# sourceMappingURL=hotkey-window-worktree-init-page-DuA-9WF7.js.map

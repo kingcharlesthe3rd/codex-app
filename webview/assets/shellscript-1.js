@@ -1,0 +1,2 @@
+import { t as e } from "./shellscript.js";
+export { e as default };

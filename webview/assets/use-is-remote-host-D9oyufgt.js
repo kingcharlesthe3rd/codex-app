@@ -1,2 +1,0 @@
-import{s as e}from"./app-scope-D4gJGP2y.js";import{us as t,y as n}from"./app-server-manager-signals-HgWmRvLr.js";function r(){return t(e(n)).kind!==`local`}export{r as t};
-//# sourceMappingURL=use-is-remote-host-D9oyufgt.js.map
