@@ -1,1 +1,2 @@
-import{c as e}from"./katex--WVKgE7E.js";export{e as default};
+import { c as e } from "./katex-1.js";
+export { e as default };

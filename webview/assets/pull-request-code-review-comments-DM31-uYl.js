@@ -1,4 +1,47 @@
-import{s as e}from"./chunk-Cq_f4orQ.js";import{t}from"./jsx-runtime-DXKlqYIQ.js";import{Z as n}from"./app-scope-CWE-zIhQ.js";import{Mt as r,Tt as i,Zt as a}from"./use-host-config-C-vtNynr.js";import{_n as o}from"./src-C7fSIbpz.js";import{s}from"./lib-BWT6A3Q0.js";import{t as c}from"./use-stable-callback-BtVbB7Gq.js";import{Qt as l}from"./review-navigation-model-BCAepwW6.js";import{n as u,r as d}from"./file-tree-search-input-Dr_tgf2j.js";import{r as f}from"./right-panel-composer-overlay-scroll-reserve-BaAvt4F3.js";var p={hunkLineCount:50,lineHeight:12*1.8,diffHeaderHeight:0,hunkSeparatorHeight:32,spacing:0};function m(e){let t=window.getComputedStyle(e);return{...p,lineHeight:g(t.lineHeight,p.lineHeight),spacing:g(t.getPropertyValue(`--diffs-gap-block`),p.spacing)}}function h(e,t){return e.hunkLineCount===t.hunkLineCount&&e.lineHeight===t.lineHeight&&e.diffHeaderHeight===t.diffHeaderHeight&&e.hunkSeparatorHeight===t.hunkSeparatorHeight&&e.spacing===t.spacing&&e.paddingTop===t.paddingTop&&e.paddingBottom===t.paddingBottom}function g(e,t){let n=e.trim();if(n===`0`)return 0;if(!n.endsWith(`px`))return t;let r=Number.parseFloat(n.slice(0,-2));return Number.isFinite(r)?r:t}var _=`<svg
+import { s as e } from "./chunk.js";
+import { t } from "./jsx-runtime.js";
+import { Z as n } from "./app-scope-CWE-zIhQ.js";
+import { Mt as r, Tt as i, Zt as a } from "./use-host-config-C.js";
+import { _n as o } from "./src-1.js";
+import { s } from "./lib-1.js";
+import { t as c } from "./use-stable-callback.js";
+import { Qt as l } from "./review-navigation-model.js";
+import { n as u, r as d } from "./file-tree-search-input.js";
+import { r as f } from "./right-panel-composer-overlay-scroll-reserve.js";
+var p = {
+  hunkLineCount: 50,
+  lineHeight: 12 * 1.8,
+  diffHeaderHeight: 0,
+  hunkSeparatorHeight: 32,
+  spacing: 0,
+};
+function m(e) {
+  let t = window.getComputedStyle(e);
+  return {
+    ...p,
+    lineHeight: g(t.lineHeight, p.lineHeight),
+    spacing: g(t.getPropertyValue(`--diffs-gap-block`), p.spacing),
+  };
+}
+function h(e, t) {
+  return (
+    e.hunkLineCount === t.hunkLineCount &&
+    e.lineHeight === t.lineHeight &&
+    e.diffHeaderHeight === t.diffHeaderHeight &&
+    e.hunkSeparatorHeight === t.hunkSeparatorHeight &&
+    e.spacing === t.spacing &&
+    e.paddingTop === t.paddingTop &&
+    e.paddingBottom === t.paddingBottom
+  );
+}
+function g(e, t) {
+  let n = e.trim();
+  if (n === `0`) return 0;
+  if (!n.endsWith(`px`)) return t;
+  let r = Number.parseFloat(n.slice(0, -2));
+  return Number.isFinite(r) ? r : t;
+}
+var _ = `<svg
   width="21"
   height="21"
   viewBox="0 0 21 21"
@@ -10,7 +53,125 @@ import{s as e}from"./chunk-Cq_f4orQ.js";import{t}from"./jsx-runtime-DXKlqYIQ.js"
     fill="currentColor"
   />
 </svg>
-`,v=n(),y=t();function b(e){let t=(0,v.c)(41),{activePath:n,allowSelectingActivePath:r,cwd:i,hostId:a,onSelectPath:s,commentCountByPath:p,entries:m,reserveBottomPadding:h}=e,g=r===void 0?!1:r,_=h===void 0?!1:h,b;t[0]===i?b=t[1]:(b=i==null?null:o(i),t[0]=i,t[1]=b);let T=b,E;t[2]===m?E=t[3]:(E=l(m),t[2]=m,t[3]=E);let D=E,O;t[4]===D?O=t[5]:(O=D.map(S),t[4]=D,t[5]=O);let k=O,M;t[6]===D?M=t[7]:(M=new Map(D.map(x)),t[6]=D,t[7]=M);let N=M,P;t[8]===k?P=t[9]:(P=w(k),t[8]=k,t[9]=P);let F=P,I;bb0:{if(p==null){I=void 0;break bb0}let e;t[10]===p?e=t[11]:(e=j(p.values()),t[10]=p,t[11]=e),I=e}let L=I,R;t[12]!==p||t[13]!==N?(R=e=>{let{item:t}=e;if(t.kind!==`file`)return null;let n=N.get(t.path),r=n==null?0:p?.get(n.path)??0;return r===0?null:{icon:A(r)}},t[12]=p,t[13]=N,t[14]=R):R=t[14];let z=c(R),B;t[15]!==n||t[16]!==D?(B=n==null?void 0:D.find(e=>e.path===n)?.displayPath,t[15]=n,t[16]=D,t[17]=B):B=t[17];let V=B,H;t[18]!==n||t[19]!==N||t[20]!==s?(H=e=>{let t=e.find(e=>N.get(e)!=null);if(t==null)return;let r=N.get(t)?.path;r!=null&&r!==n&&s(r)},t[18]=n,t[19]=N,t[20]=s,t[21]=H):H=t[21];let U=c(H),W;t[22]!==g||t[23]!==N||t[24]!==s?(W=e=>{if(!g)return;let t=d(e.nativeEvent);if(t==null)return;let n=N.get(t)?.path;n!=null&&s(n)},t[22]=g,t[23]=N,t[24]=s,t[25]=W):W=t[25];let G=W,K;t[26]===_?K=t[27]:(K=_?{paddingBottom:f}:void 0,t[26]=_,t[27]=K);let q;t[28]!==V||t[29]!==L||t[30]!==F||t[31]!==D||t[32]!==T||t[33]!==G||t[34]!==U||t[35]!==a||t[36]!==z?(q=D.length>0?(0,y.jsx)(u,{flattenEmptyDirectories:!0,cwd:T,decorationIcons:L,hostId:a,initialExpandedPaths:F,onClick:G,onSelectionChange:U,paths:D,renderRowDecoration:z,selectedPath:V,unsafeCSS:`
+`,
+  v = n(),
+  y = t();
+function b(e) {
+  let t = (0, v.c)(41),
+    {
+      activePath: n,
+      allowSelectingActivePath: r,
+      cwd: i,
+      hostId: a,
+      onSelectPath: s,
+      commentCountByPath: p,
+      entries: m,
+      reserveBottomPadding: h,
+    } = e,
+    g = r === void 0 ? !1 : r,
+    _ = h === void 0 ? !1 : h,
+    b;
+  t[0] === i ? (b = t[1]) : ((b = i == null ? null : o(i)), (t[0] = i), (t[1] = b));
+  let T = b,
+    E;
+  t[2] === m ? (E = t[3]) : ((E = l(m)), (t[2] = m), (t[3] = E));
+  let D = E,
+    O;
+  t[4] === D ? (O = t[5]) : ((O = D.map(S)), (t[4] = D), (t[5] = O));
+  let k = O,
+    M;
+  t[6] === D ? (M = t[7]) : ((M = new Map(D.map(x))), (t[6] = D), (t[7] = M));
+  let N = M,
+    P;
+  t[8] === k ? (P = t[9]) : ((P = w(k)), (t[8] = k), (t[9] = P));
+  let F = P,
+    I;
+  bb0: {
+    if (p == null) {
+      I = void 0;
+      break bb0;
+    }
+    let e;
+    (t[10] === p ? (e = t[11]) : ((e = j(p.values())), (t[10] = p), (t[11] = e)), (I = e));
+  }
+  let L = I,
+    R;
+  t[12] !== p || t[13] !== N
+    ? ((R = (e) => {
+        let { item: t } = e;
+        if (t.kind !== `file`) return null;
+        let n = N.get(t.path),
+          r = n == null ? 0 : (p?.get(n.path) ?? 0);
+        return r === 0 ? null : { icon: A(r) };
+      }),
+      (t[12] = p),
+      (t[13] = N),
+      (t[14] = R))
+    : (R = t[14]);
+  let z = c(R),
+    B;
+  t[15] !== n || t[16] !== D
+    ? ((B = n == null ? void 0 : D.find((e) => e.path === n)?.displayPath),
+      (t[15] = n),
+      (t[16] = D),
+      (t[17] = B))
+    : (B = t[17]);
+  let V = B,
+    H;
+  t[18] !== n || t[19] !== N || t[20] !== s
+    ? ((H = (e) => {
+        let t = e.find((e) => N.get(e) != null);
+        if (t == null) return;
+        let r = N.get(t)?.path;
+        r != null && r !== n && s(r);
+      }),
+      (t[18] = n),
+      (t[19] = N),
+      (t[20] = s),
+      (t[21] = H))
+    : (H = t[21]);
+  let U = c(H),
+    W;
+  t[22] !== g || t[23] !== N || t[24] !== s
+    ? ((W = (e) => {
+        if (!g) return;
+        let t = d(e.nativeEvent);
+        if (t == null) return;
+        let n = N.get(t)?.path;
+        n != null && s(n);
+      }),
+      (t[22] = g),
+      (t[23] = N),
+      (t[24] = s),
+      (t[25] = W))
+    : (W = t[25]);
+  let G = W,
+    K;
+  t[26] === _ ? (K = t[27]) : ((K = _ ? { paddingBottom: f } : void 0), (t[26] = _), (t[27] = K));
+  let q;
+  t[28] !== V ||
+  t[29] !== L ||
+  t[30] !== F ||
+  t[31] !== D ||
+  t[32] !== T ||
+  t[33] !== G ||
+  t[34] !== U ||
+  t[35] !== a ||
+  t[36] !== z
+    ? ((q =
+        D.length > 0
+          ? (0, y.jsx)(u, {
+              flattenEmptyDirectories: !0,
+              cwd: T,
+              decorationIcons: L,
+              hostId: a,
+              initialExpandedPaths: F,
+              onClick: G,
+              onSelectionChange: U,
+              paths: D,
+              renderRowDecoration: z,
+              selectedPath: V,
+              unsafeCSS: `
             [data-item-type='file'] {
               color: var(--color-token-text-tertiary);
             }
@@ -23,7 +184,146 @@ import{s as e}from"./chunk-Cq_f4orQ.js";import{t}from"./jsx-runtime-DXKlqYIQ.js"
             [role='treeitem'] + [role='treeitem'] {
               margin-top: 1px;
             }
-          `}):(0,y.jsx)(C,{}),t[28]=V,t[29]=L,t[30]=F,t[31]=D,t[32]=T,t[33]=G,t[34]=U,t[35]=a,t[36]=z,t[37]=q):q=t[37];let J;return t[38]!==K||t[39]!==q?(J=(0,y.jsx)(`div`,{className:`h-full min-h-0 w-full px-2`,style:K,children:q}),t[38]=K,t[39]=q,t[40]=J):J=t[40],J}function x(e){return[e.displayPath,e]}function S(e){return e.displayPath}function C(){let e=(0,v.c)(1),t;return e[0]===Symbol.for(`react.memo_cache_sentinel`)?(t=(0,y.jsx)(`div`,{className:`py-2 ps-2 pe-2 text-left text-base text-token-description-foreground`,children:(0,y.jsx)(s,{id:`codex.review.fileSearch.empty`,defaultMessage:`No matching files`,description:`Empty state shown when the file filter hides all files in review`})}),e[0]=t):t=e[0],t}function w(e){let t=new Set;for(let n of e){let e=(n.endsWith(`/`)?n.slice(0,-1):n).split(`/`);for(let n=1;n<e.length;n+=1)t.add(e.slice(0,n).join(`/`))}return Array.from(t)}var T=_.replace(/<svg[^>]*>/,``).replace(`</svg>`,``),E=18,D=4,O=7,k=E/21;function A(e){let t=M(e);return{height:E,name:`review-file-tree-comment-${e}`,viewBox:`0 0 ${t} ${E}`,width:t}}function j(e){return Array.from(new Set(e)).filter(e=>e>0).map(e=>{let t=E+D,n=E/2;return{...A(e),body:`<g transform="scale(${k})">${T}</g><text x="${t}" y="${n}" fill="currentColor" font-size="12" font-family="system-ui" dominant-baseline="middle">${e}</text>`}})}function M(e){return E+D+String(e).length*O}var N=e(a(),1);function P(e){return e.content.flatMap(e=>e.content_type===`text`?[e.text]:[]).join(`
+          `,
+            })
+          : (0, y.jsx)(C, {})),
+      (t[28] = V),
+      (t[29] = L),
+      (t[30] = F),
+      (t[31] = D),
+      (t[32] = T),
+      (t[33] = G),
+      (t[34] = U),
+      (t[35] = a),
+      (t[36] = z),
+      (t[37] = q))
+    : (q = t[37]);
+  let J;
+  return (
+    t[38] !== K || t[39] !== q
+      ? ((J = (0, y.jsx)(`div`, {
+          className: `h-full min-h-0 w-full px-2`,
+          style: K,
+          children: q,
+        })),
+        (t[38] = K),
+        (t[39] = q),
+        (t[40] = J))
+      : (J = t[40]),
+    J
+  );
+}
+function x(e) {
+  return [e.displayPath, e];
+}
+function S(e) {
+  return e.displayPath;
+}
+function C() {
+  let e = (0, v.c)(1),
+    t;
+  return (
+    e[0] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((t = (0, y.jsx)(`div`, {
+          className: `py-2 ps-2 pe-2 text-left text-base text-token-description-foreground`,
+          children: (0, y.jsx)(s, {
+            id: `codex.review.fileSearch.empty`,
+            defaultMessage: `No matching files`,
+            description: `Empty state shown when the file filter hides all files in review`,
+          }),
+        })),
+        (e[0] = t))
+      : (t = e[0]),
+    t
+  );
+}
+function w(e) {
+  let t = new Set();
+  for (let n of e) {
+    let e = (n.endsWith(`/`) ? n.slice(0, -1) : n).split(`/`);
+    for (let n = 1; n < e.length; n += 1) t.add(e.slice(0, n).join(`/`));
+  }
+  return Array.from(t);
+}
+var T = _.replace(/<svg[^>]*>/, ``).replace(`</svg>`, ``),
+  E = 18,
+  D = 4,
+  O = 7,
+  k = E / 21;
+function A(e) {
+  let t = M(e);
+  return { height: E, name: `review-file-tree-comment-${e}`, viewBox: `0 0 ${t} ${E}`, width: t };
+}
+function j(e) {
+  return Array.from(new Set(e))
+    .filter((e) => e > 0)
+    .map((e) => {
+      let t = E + D,
+        n = E / 2;
+      return {
+        ...A(e),
+        body: `<g transform="scale(${k})">${T}</g><text x="${t}" y="${n}" fill="currentColor" font-size="12" font-family="system-ui" dominant-baseline="middle">${e}</text>`,
+      };
+    });
+}
+function M(e) {
+  return E + D + String(e).length * O;
+}
+var N = e(a(), 1);
+function P(e) {
+  return e.content
+    .flatMap((e) => (e.content_type === `text` ? [e.text] : []))
+    .join(`
 
-`).trim()}function F({currentComments:e,nextComments:t}){let n=new Set(e.map(i)),r=t.filter(t=>e.some(e=>z({currentComment:e,nextComment:t}))),a=t.filter(e=>P(e).length>0&&!n.has(i(e)));return(0,N.default)([...r,...a],i)}function I(e){return{line:e.position.line,path:e.position.path,side:e.position.side,...e.position.start_line==null?{}:{startLine:e.position.start_line},...e.position.start_side==null?{}:{startSide:e.position.start_side}}}function L(e){let t=e.inlineComment;return[e.number,e.body,e.replyToReviewThreadId??``,t?.path??``,t?.side??``,t?.startSide??``,t?.startLine??``,t?.line??``].join(`|`)}function R({comments:e,filePaths:t,workspaceRoot:n}){let i=new Map;for(let a of e){let e=t.find(e=>r(a.position.path,e,n??void 0));e!=null&&i.set(e,(i.get(e)??0)+1)}return i}function z({currentComment:e,nextComment:t}){return e.replyToReviewThreadId!=null&&e.replyToReviewThreadId===t.replyToReviewThreadId&&P(e).length===0&&P(t).length>0&&e.position.path===t.position.path&&e.position.side===t.position.side&&e.position.line===t.position.line}export{I as a,p as c,F as i,h as l,P as n,C as o,R as r,b as s,L as t,m as u};
+`)
+    .trim();
+}
+function F({ currentComments: e, nextComments: t }) {
+  let n = new Set(e.map(i)),
+    r = t.filter((t) => e.some((e) => z({ currentComment: e, nextComment: t }))),
+    a = t.filter((e) => P(e).length > 0 && !n.has(i(e)));
+  return (0, N.default)([...r, ...a], i);
+}
+function I(e) {
+  return {
+    line: e.position.line,
+    path: e.position.path,
+    side: e.position.side,
+    ...(e.position.start_line == null ? {} : { startLine: e.position.start_line }),
+    ...(e.position.start_side == null ? {} : { startSide: e.position.start_side }),
+  };
+}
+function L(e) {
+  let t = e.inlineComment;
+  return [
+    e.number,
+    e.body,
+    e.replyToReviewThreadId ?? ``,
+    t?.path ?? ``,
+    t?.side ?? ``,
+    t?.startSide ?? ``,
+    t?.startLine ?? ``,
+    t?.line ?? ``,
+  ].join(`|`);
+}
+function R({ comments: e, filePaths: t, workspaceRoot: n }) {
+  let i = new Map();
+  for (let a of e) {
+    let e = t.find((e) => r(a.position.path, e, n ?? void 0));
+    e != null && i.set(e, (i.get(e) ?? 0) + 1);
+  }
+  return i;
+}
+function z({ currentComment: e, nextComment: t }) {
+  return (
+    e.replyToReviewThreadId != null &&
+    e.replyToReviewThreadId === t.replyToReviewThreadId &&
+    P(e).length === 0 &&
+    P(t).length > 0 &&
+    e.position.path === t.position.path &&
+    e.position.side === t.position.side &&
+    e.position.line === t.position.line
+  );
+}
+export { I as a, p as c, F as i, h as l, P as n, C as o, R as r, b as s, L as t, m as u };
 //# sourceMappingURL=pull-request-code-review-comments-DM31-uYl.js.map
