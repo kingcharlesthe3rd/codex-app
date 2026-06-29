@@ -1,0 +1,2 @@
+import{$ as e,S as t}from"./setting-storage-dfCo8V4m.js";import{i as n}from"./git-current-branch-query-Hm9ocV-q.js";var r=n({method:`submodule-paths`,getParams:e=>({operationSource:e.operationSource,root:e.root}),getOptions:e=>({refetchOnWindowFocus:e.refetchOnWindowFocus,select:e=>e.paths,staleTime:e.staleTime})}).fromCwd$,i=e(t,(e,{get:t})=>t(r,e).data??null);export{i as n,r as t};
+//# sourceMappingURL=git-submodule-paths-query-BMa6hlPq.js.map

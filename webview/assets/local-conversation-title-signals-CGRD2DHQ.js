@@ -1,0 +1,2 @@
+import{ht as e,lt as t,ni as n,pt as r,ri as i}from"./app-server-manager-signals-Bpaj8VHp.js";import{$ as a,S as o}from"./setting-storage-dfCo8V4m.js";var s=a(o,(t,{get:i})=>t==null?null:n({id:t,title:i(r,t),turns:i(e,t)})),c=a(o,(n,{get:r})=>n==null?null:r(s,n)??i(n,r(e,r(t,n))));export{c as n,s as t};
+//# sourceMappingURL=local-conversation-title-signals-CGRD2DHQ.js.map
