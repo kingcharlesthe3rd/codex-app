@@ -1,0 +1,64 @@
+import { n as e, s as t } from "./rolldown-runtime.js";
+import {
+  Ol as n,
+  kl as r,
+  oc as i,
+  tc as a,
+} from "./app-initial~app-main~remote-conversation-page~pull-requests-page~new-thread-panel-page~proj~i4yy32ef.js";
+import {
+  en as o,
+  tn as s,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~new-thread-panel-page~o~hgx54pg3.js";
+import {
+  ll as c,
+  pl as l,
+} from "./app-initial~app-main~onboarding-page~select-workspace-page.js";
+function u(e) {
+  let t = (0, f.c)(4),
+    { hostId: n, locationKey: r, previewFiles: i } = e,
+    a;
+  return (
+    t[0] !== n || t[1] !== r || t[2] !== i
+      ? ((a = { hostId: n, locationKey: r, previewFiles: i }),
+        (t[0] = n),
+        (t[1] = r),
+        (t[2] = i),
+        (t[3] = a))
+      : (a = t[3]),
+    d(a),
+    null
+  );
+}
+function d(e) {
+  let t = (0, f.c)(6),
+    { hostId: n, locationKey: r, previewFiles: a } = e,
+    o = i(c),
+    l = (0, p.useRef)(null),
+    u,
+    d;
+  (t[0] !== n || t[1] !== r || t[2] !== a || t[3] !== o
+    ? ((u = () => {
+        if (!(a == null || a.length === 0 || l.current === r)) {
+          l.current = r;
+          for (let e of a) {
+            let t = e.fsPath || e.path;
+            t == null || t.length === 0 || s(o, t, { hostId: n, title: e.label });
+          }
+        }
+      }),
+      (d = [n, r, a, o]),
+      (t[0] = n),
+      (t[1] = r),
+      (t[2] = a),
+      (t[3] = o),
+      (t[4] = u),
+      (t[5] = d))
+    : ((u = t[4]), (d = t[5])),
+    (0, p.useEffect)(u, d));
+}
+var f, p;
+e(() => {
+  ((f = n()), a(), (p = t(r(), 1)), o(), l());
+})();
+export { u as HomePrefillArtifactPreview };
+//# sourceMappingURL=home-prefill-artifact-preview.js.map

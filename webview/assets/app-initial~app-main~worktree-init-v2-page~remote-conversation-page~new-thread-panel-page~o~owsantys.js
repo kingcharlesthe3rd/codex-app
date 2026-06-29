@@ -1,0 +1,34 @@
+import { n as e } from "./rolldown-runtime.js";
+import {
+  Gc as t,
+  Ht as n,
+  Ut as r,
+  tc as i,
+} from "./app-initial~app-main~remote-conversation-page~pull-requests-page~new-thread-panel-page~proj~i4yy32ef.js";
+import {
+  Dv as a,
+  Ev as o,
+  Ov as s,
+} from "./app-initial~app-main~onboarding-page~select-workspace-page.js";
+function c(e, t, n) {
+  s(e, `diff_comments`, (e) => {
+    let r = e?.[t] ?? l,
+      i = typeof n == `function` ? n(r) : n;
+    if (i === r) return e;
+    if (i.length > 0) return { ...e, [t]: i };
+    if (e?.[t] == null) return e;
+    let a = { ...e };
+    return (delete a[t], Object.keys(a).length === 0 ? void 0 : a);
+  });
+}
+var l,
+  u,
+  d = e(() => {
+    (i(),
+      r(),
+      a(),
+      (l = []),
+      (u = t(n, (e, { get: t }) => (e == null ? l : (o(t, `diff_comments`)?.[e] ?? l)))));
+  });
+export { d as n, c as r, u as t };
+//# sourceMappingURL=app-initial~app-main~worktree-init-v2-page~remote-conversation-page~new-thread-panel-page~o~owsantys.js.map

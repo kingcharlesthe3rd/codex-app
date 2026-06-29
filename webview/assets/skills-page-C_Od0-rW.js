@@ -1,1 +1,0 @@
-import{n as e,t}from"./skills-page-DlFxxni_.js";e();export{t as SkillsPage};

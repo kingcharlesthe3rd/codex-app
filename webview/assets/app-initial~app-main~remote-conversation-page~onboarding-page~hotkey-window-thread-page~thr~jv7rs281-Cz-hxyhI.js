@@ -1,6 +1,279 @@
-import{n as e,s as t,t as n}from"./rolldown-runtime-Czos8NxU.js";import{Tt as r,Wt as i,mi as a,wt as o}from"./app-initial~app-main~remote-conversation-page~pull-requests-page~new-thread-panel-page~proj~i4yy32ef-BvSrqfh0.js";import{Db as s,nS as c,yb as l}from"./app-initial~app-main~onboarding-page~select-workspace-page-CfKRpsLw.js";import{$r as u,Gr as d,Hr as f,Jr as p,Kr as m,Vr as h,Wr as g,Xr as _,Yr as v,Zr as y,ei as b,qr as x,ti as S}from"./app-initial~app-main~remote-conversation-page~pull-requests-page~onboarding-page~hotkey-win~fzw0jvy4-ClA9EoA9.js";function C(e,t){try{let n=x({name:e,load:t});v.registerTheme(n.name,n.load)}catch(t){if(t instanceof y){console.error(`SharedHighlight.registerCustomTheme: theme name already registered`,e);return}throw t}}var w=e((()=>{p(),m(),_()})),T=e((()=>{u(),g(),f(),h(),w()})),E=n(((e,t)=>{function n(e,t){for(var n,r=-1,i=e.length;++r<i;){var a=t(e[r]);a!==void 0&&(n=n===void 0?a:n+a)}return n}t.exports=n})),D=n(((e,t)=>{var n=c(),r=E();function i(e,t){return e&&e.length?r(e,n(t,2)):0}t.exports=i}));function O(e,{maxFiles:t}={}){let n=e.length<=B,i=`${t??`all`}`,a=n?V.get(e):void 0,o=a?.get(i);if(a&&(V.delete(e),V.set(e,a)),o)return o;let s=e.includes(`GIT binary patch`)?H(e):new Set,c=e.includes(`160000`)?U(e):new Set,l,u=M(e);try{l=d(u.diff,k(e))}catch(e){r.error(`Failed to parse diff`,{safe:{},sensitive:{error:e}}),l=[]}let f=[],p=0;for(let e of l)for(let n of e.files){if(t!==void 0&&f.length>=t)return f;try{let e=N(n,u.pathsByFileIndex.get(p)),{oldPath:t,newPath:r}=j(e),i=L(e),a=e.hunks,o=(0,R.default)(a,e=>e.additionLines),l=(0,R.default)(a,e=>e.deletionLines),d=a.find(e=>e.additionCount>0)?.additionStart,m=a.find(e=>e.deletionLines>0)?.deletionStart;f.push({metadata:e,oldPath:t,newPath:r,additions:o,deletions:l,get changedBytes(){return i().changedBytes},get maxChangedLineBytes(){return i().maxChangedLineBytes},firstAdditionLine:d,firstDeletionLine:m,isBinary:s.has(p),isGitlink:c.has(p)})}catch(e){r.error(`Failed to parse diff`,{safe:{},sensitive:{name:n.name,error:e}})}p+=1}if(n){let t=a??new Map;if(t.set(i,f),V.delete(e),V.set(e,t),V.size>z){let e=V.keys().next().value;e&&V.delete(e)}}return f}function k(e){let t=3735928559,n=1103547991;for(let r=0;r<e.length;r+=1){let i=e.charCodeAt(r);t=Math.imul(t^i,2654435761),n=Math.imul(n^i,1597334677)}let r=Math.imul(t^t>>>16,2246822507)^Math.imul(n^n>>>13,3266489909),i=Math.imul(n^n>>>16,2246822507)^Math.imul(r^r>>>13,3266489909);return`codex-diff-${e.length}-${A(r)}-${A(i)}`}function A(e){return(e>>>0).toString(16).padStart(8,`0`)}function j(e){return{oldPath:e.type===`new`?l:e.prevName??e.name,newPath:e.type===`deleted`?l:e.name}}function M(e){let t=new Map,n=-1;return{diff:e.split(/(?<=\n)/).map(e=>{if(e.startsWith(`diff --git `)&&(n+=1),e.startsWith(`diff --git "`)){let r=P(e);return r==null?e:(t.set(n,r.paths),r.line)}return e.startsWith(`--- "`)?F(e,`---`)??e:e.startsWith(`+++ "`)?F(e,`+++`)??e:e}).join(``),pathsByFileIndex:t}}function N(e,t){return t==null?e:e.type===`rename-pure`||e.type===`rename-changed`?{...e,name:t.newPath,prevName:t.oldPath}:{...e,name:t.newPath}}function P(e){let t=I(e),n=e.slice(0,e.length-t.length).slice(11),r=a(n,0);if(r==null||n[r.nextIndex]!==` `)return null;let i=a(n,r.nextIndex+1);return i==null||i.nextIndex!==n.length||!r.path.startsWith(`a/`)||!i.path.startsWith(`b/`)?null:{line:`diff --git ${r.pathForUnquotedDiffHeader} ${i.pathForUnquotedDiffHeader}${t}`,paths:{oldPath:r.path.slice(2),newPath:i.path.slice(2)}}}function F(e,t){let n=I(e),r=a(e.slice(0,e.length-n.length),t.length+1);return r==null?null:`${t} ${r.pathForUnquotedDiffHeader}${n}`}function I(e){return e.endsWith(`\r
-`)?`\r
-`:e.endsWith(`
-`)?`
-`:``}function L(e){let t=null;return()=>(t??=b(e),t)}var R,z,B,V,H,U,W=e((()=>{T(),R=t(D(),1),i(),o(),s(),S(),z=50,B=2e5,V=new Map,H=e=>{let t=new Set,n=-1;for(let r of e.split(/\r?\n/)){if(r.startsWith(`diff --git `)){n+=1;continue}r.startsWith(`GIT binary patch`)&&n>=0&&t.add(n)}return t},U=e=>{let t=new Set,n=-1;for(let r of e.split(/\r?\n/)){if(r.startsWith(`diff --git `)){n+=1;continue}n>=0&&(/^(?:new file mode|deleted file mode|old mode|new mode) 160000$/.test(r)||/^index [0-9a-f]+\.\.[0-9a-f]+ 160000$/.test(r))&&t.add(n)}return t}}));function G(e,t){if(!e)return null;let n=K(e),r=O(e)[0];return r&&(r.additions>0||r.deletions>0||n.added===0&&n.deleted===0)?{added:r.additions,deleted:r.deletions,openLocation:{path:t,line:r.firstAdditionLine??r.firstDeletionLine??1}}:n.added===0&&n.deleted===0?null:{...n,openLocation:{path:t,line:1}}}function K(e){let t=0,n=0;for(let r of e.split(/\r?\n/))r.startsWith(`+++`)||r.startsWith(`---`)||(r.startsWith(`+`)?t+=1:r.startsWith(`-`)&&(n+=1));return{added:t,deleted:n}}var q=e((()=>{W()}));export{D as a,O as i,q as n,T as o,W as r,C as s,G as t};
+import { n as e, s as t, t as n } from "./rolldown-runtime.js";
+import {
+  Tt as r,
+  Wt as i,
+  mi as a,
+  wt as o,
+} from "./app-initial~app-main~remote-conversation-page~pull-requests-page~new-thread-panel-page~proj~i4yy32ef.js";
+import {
+  Db as s,
+  nS as c,
+  yb as l,
+} from "./app-initial~app-main~onboarding-page~select-workspace-page.js";
+import {
+  $r as u,
+  Gr as d,
+  Hr as f,
+  Jr as p,
+  Kr as m,
+  Vr as h,
+  Wr as g,
+  Xr as _,
+  Yr as v,
+  Zr as y,
+  ei as b,
+  qr as x,
+  ti as S,
+} from "./app-initial~app-main~remote-conversation-page~pull-requests-page~onboarding-page~hotkey-win~fzw0jvy4.js";
+function C(e, t) {
+  try {
+    let n = x({ name: e, load: t });
+    v.registerTheme(n.name, n.load);
+  } catch (t) {
+    if (t instanceof y) {
+      console.error(`SharedHighlight.registerCustomTheme: theme name already registered`, e);
+      return;
+    }
+    throw t;
+  }
+}
+var w = e(() => {
+    (p(), m(), _());
+  }),
+  T = e(() => {
+    (u(), g(), f(), h(), w());
+  }),
+  E = n((e, t) => {
+    function n(e, t) {
+      for (var n, r = -1, i = e.length; ++r < i; ) {
+        var a = t(e[r]);
+        a !== void 0 && (n = n === void 0 ? a : n + a);
+      }
+      return n;
+    }
+    t.exports = n;
+  }),
+  D = n((e, t) => {
+    var n = c(),
+      r = E();
+    function i(e, t) {
+      return e && e.length ? r(e, n(t, 2)) : 0;
+    }
+    t.exports = i;
+  });
+function O(e, { maxFiles: t } = {}) {
+  let n = e.length <= B,
+    i = `${t ?? `all`}`,
+    a = n ? V.get(e) : void 0,
+    o = a?.get(i);
+  if ((a && (V.delete(e), V.set(e, a)), o)) return o;
+  let s = e.includes(`GIT binary patch`) ? H(e) : new Set(),
+    c = e.includes(`160000`) ? U(e) : new Set(),
+    l,
+    u = M(e);
+  try {
+    l = d(u.diff, k(e));
+  } catch (e) {
+    (r.error(`Failed to parse diff`, { safe: {}, sensitive: { error: e } }), (l = []));
+  }
+  let f = [],
+    p = 0;
+  for (let e of l)
+    for (let n of e.files) {
+      if (t !== void 0 && f.length >= t) return f;
+      try {
+        let e = N(n, u.pathsByFileIndex.get(p)),
+          { oldPath: t, newPath: r } = j(e),
+          i = L(e),
+          a = e.hunks,
+          o = (0, R.default)(a, (e) => e.additionLines),
+          l = (0, R.default)(a, (e) => e.deletionLines),
+          d = a.find((e) => e.additionCount > 0)?.additionStart,
+          m = a.find((e) => e.deletionLines > 0)?.deletionStart;
+        f.push({
+          metadata: e,
+          oldPath: t,
+          newPath: r,
+          additions: o,
+          deletions: l,
+          get changedBytes() {
+            return i().changedBytes;
+          },
+          get maxChangedLineBytes() {
+            return i().maxChangedLineBytes;
+          },
+          firstAdditionLine: d,
+          firstDeletionLine: m,
+          isBinary: s.has(p),
+          isGitlink: c.has(p),
+        });
+      } catch (e) {
+        r.error(`Failed to parse diff`, { safe: {}, sensitive: { name: n.name, error: e } });
+      }
+      p += 1;
+    }
+  if (n) {
+    let t = a ?? new Map();
+    if ((t.set(i, f), V.delete(e), V.set(e, t), V.size > z)) {
+      let e = V.keys().next().value;
+      e && V.delete(e);
+    }
+  }
+  return f;
+}
+function k(e) {
+  let t = 3735928559,
+    n = 1103547991;
+  for (let r = 0; r < e.length; r += 1) {
+    let i = e.charCodeAt(r);
+    ((t = Math.imul(t ^ i, 2654435761)), (n = Math.imul(n ^ i, 1597334677)));
+  }
+  let r = Math.imul(t ^ (t >>> 16), 2246822507) ^ Math.imul(n ^ (n >>> 13), 3266489909),
+    i = Math.imul(n ^ (n >>> 16), 2246822507) ^ Math.imul(r ^ (r >>> 13), 3266489909);
+  return `codex-diff-${e.length}-${A(r)}-${A(i)}`;
+}
+function A(e) {
+  return (e >>> 0).toString(16).padStart(8, `0`);
+}
+function j(e) {
+  return {
+    oldPath: e.type === `new` ? l : (e.prevName ?? e.name),
+    newPath: e.type === `deleted` ? l : e.name,
+  };
+}
+function M(e) {
+  let t = new Map(),
+    n = -1;
+  return {
+    diff: e
+      .split(/(?<=\n)/)
+      .map((e) => {
+        if ((e.startsWith(`diff --git `) && (n += 1), e.startsWith(`diff --git "`))) {
+          let r = P(e);
+          return r == null ? e : (t.set(n, r.paths), r.line);
+        }
+        return e.startsWith(`--- "`)
+          ? (F(e, `---`) ?? e)
+          : e.startsWith(`+++ "`)
+            ? (F(e, `+++`) ?? e)
+            : e;
+      })
+      .join(``),
+    pathsByFileIndex: t,
+  };
+}
+function N(e, t) {
+  return t == null
+    ? e
+    : e.type === `rename-pure` || e.type === `rename-changed`
+      ? { ...e, name: t.newPath, prevName: t.oldPath }
+      : { ...e, name: t.newPath };
+}
+function P(e) {
+  let t = I(e),
+    n = e.slice(0, e.length - t.length).slice(11),
+    r = a(n, 0);
+  if (r == null || n[r.nextIndex] !== ` `) return null;
+  let i = a(n, r.nextIndex + 1);
+  return i == null ||
+    i.nextIndex !== n.length ||
+    !r.path.startsWith(`a/`) ||
+    !i.path.startsWith(`b/`)
+    ? null
+    : {
+        line: `diff --git ${r.pathForUnquotedDiffHeader} ${i.pathForUnquotedDiffHeader}${t}`,
+        paths: { oldPath: r.path.slice(2), newPath: i.path.slice(2) },
+      };
+}
+function F(e, t) {
+  let n = I(e),
+    r = a(e.slice(0, e.length - n.length), t.length + 1);
+  return r == null ? null : `${t} ${r.pathForUnquotedDiffHeader}${n}`;
+}
+function I(e) {
+  return e.endsWith(`\r
+`)
+    ? `\r
+`
+    : e.endsWith(`
+`)
+      ? `
+`
+      : ``;
+}
+function L(e) {
+  let t = null;
+  return () => ((t ??= b(e)), t);
+}
+var R,
+  z,
+  B,
+  V,
+  H,
+  U,
+  W = e(() => {
+    (T(),
+      (R = t(D(), 1)),
+      i(),
+      o(),
+      s(),
+      S(),
+      (z = 50),
+      (B = 2e5),
+      (V = new Map()),
+      (H = (e) => {
+        let t = new Set(),
+          n = -1;
+        for (let r of e.split(/\r?\n/)) {
+          if (r.startsWith(`diff --git `)) {
+            n += 1;
+            continue;
+          }
+          r.startsWith(`GIT binary patch`) && n >= 0 && t.add(n);
+        }
+        return t;
+      }),
+      (U = (e) => {
+        let t = new Set(),
+          n = -1;
+        for (let r of e.split(/\r?\n/)) {
+          if (r.startsWith(`diff --git `)) {
+            n += 1;
+            continue;
+          }
+          n >= 0 &&
+            (/^(?:new file mode|deleted file mode|old mode|new mode) 160000$/.test(r) ||
+              /^index [0-9a-f]+\.\.[0-9a-f]+ 160000$/.test(r)) &&
+            t.add(n);
+        }
+        return t;
+      }));
+  });
+function G(e, t) {
+  if (!e) return null;
+  let n = K(e),
+    r = O(e)[0];
+  return r && (r.additions > 0 || r.deletions > 0 || (n.added === 0 && n.deleted === 0))
+    ? {
+        added: r.additions,
+        deleted: r.deletions,
+        openLocation: { path: t, line: r.firstAdditionLine ?? r.firstDeletionLine ?? 1 },
+      }
+    : n.added === 0 && n.deleted === 0
+      ? null
+      : { ...n, openLocation: { path: t, line: 1 } };
+}
+function K(e) {
+  let t = 0,
+    n = 0;
+  for (let r of e.split(/\r?\n/))
+    r.startsWith(`+++`) ||
+      r.startsWith(`---`) ||
+      (r.startsWith(`+`) ? (t += 1) : r.startsWith(`-`) && (n += 1));
+  return { added: t, deleted: n };
+}
+var q = e(() => {
+  W();
+});
+export { D as a, O as i, q as n, T as o, W as r, C as s, G as t };
 //# sourceMappingURL=app-initial~app-main~remote-conversation-page~onboarding-page~hotkey-window-thread-page~thr~jv7rs281-Cz-hxyhI.js.map

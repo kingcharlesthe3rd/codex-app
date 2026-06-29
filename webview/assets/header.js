@@ -1,0 +1,2404 @@
+import { n as e, s as t } from "./rolldown-runtime.js";
+import {
+  Ol as n,
+  Ot as r,
+  Tt as i,
+  Wt as a,
+  ac as o,
+  al as s,
+  bt as c,
+  ho as l,
+  ht as u,
+  kl as d,
+  kt as f,
+  pt as p,
+  rl as m,
+  sc as h,
+  tc as g,
+  wt as _,
+  xl as v,
+  yt as y,
+} from "./app-initial~app-main~remote-conversation-page~pull-requests-page~new-thread-panel-page~proj~i4yy32ef.js";
+import {
+  Xt as b,
+  Zt as x,
+  nr as S,
+  rr as C,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~new-thread-panel-page~o~hgx54pg3.js";
+import {
+  Co as w,
+  Dd as T,
+  Ed as E,
+  Es as D,
+  Jp as O,
+  Jr as k,
+  Sa as A,
+  Sp as j,
+  Ss as M,
+  Ts as N,
+  Xp as ee,
+  Yp as P,
+  Zp as F,
+  _a as te,
+  _o as ne,
+  _s as re,
+  am as I,
+  ap as L,
+  ds as R,
+  fp as ie,
+  fs as z,
+  im as ae,
+  ip as B,
+  j as V,
+  mp as H,
+  nm as oe,
+  qr as U,
+  rm as W,
+  us as se,
+  xa as ce,
+  xo as le,
+  xp as ue,
+  ya as de,
+  yo as G,
+  ys as fe,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~plug~fjtgnfyk.js";
+import {
+  An as pe,
+  Bx as me,
+  Dn as he,
+  Fa as ge,
+  Fp as _e,
+  Fy as ve,
+  Hn as ye,
+  Hr as be,
+  Ip as xe,
+  Kl as Se,
+  Ma as Ce,
+  Qb as we,
+  Rx as Te,
+  Un as Ee,
+  Up as De,
+  Wp as Oe,
+  _r as ke,
+  au as Ae,
+  aw as K,
+  cC as je,
+  cw as q,
+  dn as Me,
+  dr as Ne,
+  ir as Pe,
+  iu as Fe,
+  iw as Ie,
+  jn as Le,
+  jy as Re,
+  oC as ze,
+  ou as Be,
+  uw as Ve,
+  vn as He,
+} from "./app-initial~app-main~onboarding-page~select-workspace-page.js";
+import { Nt as Ue, Pt as We } from "./app-initial~app-main~automations-page.js";
+import {
+  _ as Ge,
+  g as Ke,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~new-~ozr5a6hk.js";
+import {
+  C as qe,
+  E as Je,
+  Kn as Ye,
+  qn as Xe,
+} from "./app-initial~app-main~remote-conversation-page~pull-requests-page~onboarding-page~hotkey-win~fzw0jvy4.js";
+import {
+  c as Ze,
+  ft as Qe,
+  l as $e,
+  n as et,
+  s as tt,
+  t as nt,
+  u as rt,
+  ut as it,
+} from "./app-initial~app-main~remote-conversation-page~projects-index-page~hotkey-window-thread-page~hc7acb17.js";
+import {
+  Sn as at,
+  _r as ot,
+  bn as st,
+  vr as ct,
+  xn as lt,
+  yn as ut,
+} from "./app-initial~app-main~remote-conversation-page~projects-index-page.js";
+import {
+  S as dt,
+  x as ft,
+} from "./app-initial~app-main~worktree-init-v2-page~appgen-settings-page~page~appgen-page~remote-con~dfrs7ujs-rL-9I_AY.js";
+import {
+  _ as pt,
+  p as mt,
+} from "./app-initial~app-main~remote-conversation-page~local-conversation-page.js";
+import {
+  a as ht,
+  n as gt,
+  o as _t,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~new-~miy2ua3n.js";
+import { n as vt, t as yt } from "./dock.js";
+function bt(e) {
+  let t = (0, Dt.c)(27),
+    { conversationId: n } = e,
+    r = Ve(),
+    i,
+    a;
+  t[0] === r
+    ? ((i = t[1]), (a = t[2]))
+    : ((i = Et()),
+      (a = i == null ? null : r.formatMessage(jt.extensionVersion, { version: i })),
+      (t[0] = r),
+      (t[1] = i),
+      (t[2] = a));
+  let o = a,
+    s;
+  t[3] === r ? (s = t[4]) : ((s = r.formatMessage(jt.codexForChrome)), (t[3] = r), (t[4] = s));
+  let c = s,
+    l = o == null ? c : `${c} ${o}`,
+    u = Ct,
+    d = St,
+    f = xt,
+    p;
+  t[5] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((p = (0, J.jsx)(q, { ...jt.moreActionsTrigger })), (t[5] = p))
+    : (p = t[5]);
+  let m;
+  t[6] === r ? (m = t[7]) : ((m = r.formatMessage(jt.moreActionsTrigger)), (t[6] = r), (t[7] = m));
+  let h;
+  t[8] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((h = (0, J.jsx)(S, { className: `icon-xs` })), (t[8] = h))
+    : (h = t[8]);
+  let g;
+  t[9] === m
+    ? (g = t[10])
+    : ((g = (0, J.jsx)(ie, {
+        tooltipContent: p,
+        children: (0, J.jsx)(O, { color: `ghost`, size: `icon`, "aria-label": m, children: h }),
+      })),
+      (t[9] = m),
+      (t[10] = g));
+  let _;
+  t[11] === n
+    ? (_ = t[12])
+    : ((_ =
+        n == null
+          ? null
+          : (0, J.jsx)(G.Item, {
+              RightIcon: ot,
+              onSelect: () => {
+                wt(`codex://threads/${n}`);
+              },
+              children: (0, J.jsx)(q, {
+                id: `header.openInApp`,
+                defaultMessage: `Open in app`,
+                description: `Menu item label for opening the active Chrome extension thread in the Codex desktop app`,
+              }),
+            })),
+      (t[11] = n),
+      (t[12] = _));
+  let v;
+  t[13] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((v = (0, J.jsx)(G.Item, {
+        RightIcon: ot,
+        onSelect: d,
+        children: (0, J.jsx)(q, { ...jt.appSettings }),
+      })),
+      (t[13] = v))
+    : (v = t[13]);
+  let y;
+  t[14] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((y = (0, J.jsx)(G.Item, {
+        RightIcon: ot,
+        onSelect: f,
+        children: (0, J.jsx)(q, { ...jt.chromeComputerUseSettings }),
+      })),
+      (t[14] = y))
+    : (y = t[14]);
+  let b;
+  t[15] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((b = (0, J.jsx)(q, { ...jt.codexForChrome })), (t[15] = b))
+    : (b = t[15]);
+  let x;
+  t[16] === i
+    ? (x = t[17])
+    : ((x =
+        i == null
+          ? null
+          : (0, J.jsx)(`span`, {
+              className: `shrink-0`,
+              children: (0, J.jsx)(q, { ...jt.extensionVersion, values: { version: i } }),
+            })),
+      (t[16] = i),
+      (t[17] = x));
+  let C;
+  t[18] === x
+    ? (C = t[19])
+    : ((C = (0, J.jsxs)(`span`, {
+        className: `flex w-full items-center justify-between gap-4`,
+        children: [b, x],
+      })),
+      (t[18] = x),
+      (t[19] = C));
+  let w;
+  t[20] !== l || t[21] !== C
+    ? ((w = (0, J.jsx)(G.Item, {
+        "aria-label": l,
+        className: `text-token-foreground/50 hover:!bg-transparent focus:!bg-transparent`,
+        onSelect: u,
+        children: C,
+      })),
+      (t[20] = l),
+      (t[21] = C),
+      (t[22] = w))
+    : (w = t[22]);
+  let T;
+  return (
+    t[23] !== w || t[24] !== g || t[25] !== _
+      ? ((T = (0, J.jsxs)(ne, {
+          align: `end`,
+          contentWidth: `menuBounded`,
+          triggerButton: g,
+          children: [_, v, y, w],
+        })),
+        (t[23] = w),
+        (t[24] = g),
+        (t[25] = _),
+        (t[26] = T))
+      : (T = t[26]),
+    T
+  );
+}
+function xt() {
+  wt(kt);
+}
+function St() {
+  wt(Ot);
+}
+function Ct() {
+  wt(Tt());
+}
+function wt(e) {
+  M({ href: e, initiator: `open_in_browser_bridge` });
+}
+function Tt() {
+  return globalThis.chrome?.runtime?.getURL(At) ?? At;
+}
+function Et() {
+  return globalThis.chrome?.runtime?.getManifest?.().version ?? null;
+}
+var Dt,
+  J,
+  Ot,
+  kt,
+  At,
+  jt,
+  Mt = e(() => {
+    ((Dt = n()),
+      K(),
+      P(),
+      w(),
+      fe(),
+      H(),
+      ct(),
+      C(),
+      (J = v()),
+      (Ot = `codex://settings`),
+      (kt = `codex://settings/computer-use/google-chrome`),
+      (At = `popup.html`),
+      (jt = Ie({
+        moreActionsTrigger: {
+          id: `header.moreActionsTrigger`,
+          defaultMessage: `More actions`,
+          description: `Button label for opening more actions from the Chrome extension side panel header`,
+        },
+        appSettings: {
+          id: `header.appSettings`,
+          defaultMessage: `App settings`,
+          description: `Menu item label for opening app settings in the Codex desktop app from the Chrome extension`,
+        },
+        chromeComputerUseSettings: {
+          id: `header.chromeComputerUseSettings`,
+          defaultMessage: `Chrome computer use settings`,
+          description: `Menu item label for opening Chrome computer use settings in the Codex desktop app from the Chrome extension`,
+        },
+        codexForChrome: {
+          id: `header.codexForChrome`,
+          defaultMessage: `Codex for Chrome`,
+          description: `Footer label for the Chrome extension in the more actions menu`,
+        },
+        extensionVersion: {
+          id: `header.extensionVersion`,
+          defaultMessage: `v{version}`,
+          description: `Footer label for the Chrome extension version in the settings menu`,
+        },
+      })));
+  });
+function Nt() {
+  let e = (0, Pt.c)(12),
+    t = at(),
+    n = Ve(),
+    r = o(mt, `newThread`),
+    i;
+  e[0] === t
+    ? (i = e[1])
+    : ((i = (e) => {
+        e.defaultPrevented || t();
+      }),
+      (e[0] = t),
+      (e[1] = i));
+  let a = i,
+    s;
+  e[2] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((s = (0, Ft.jsx)(q, { ...It.newChat })), (e[2] = s))
+    : (s = e[2]);
+  let c;
+  e[3] === n ? (c = e[4]) : ((c = n.formatMessage(It.newChat)), (e[3] = n), (e[4] = c));
+  let l;
+  e[5] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((l = (0, Ft.jsx)(ut, { className: `icon-xs` })), (e[5] = l))
+    : (l = e[5]);
+  let u;
+  e[6] !== a || e[7] !== c
+    ? ((u = (0, Ft.jsx)(O, {
+        color: `ghost`,
+        size: `icon`,
+        onClick: a,
+        "aria-label": c,
+        children: l,
+      })),
+      (e[6] = a),
+      (e[7] = c),
+      (e[8] = u))
+    : (u = e[8]);
+  let d;
+  return (
+    e[9] !== r || e[10] !== u
+      ? ((d = (0, Ft.jsx)(ie, { tooltipContent: s, shortcut: r, children: u })),
+        (e[9] = r),
+        (e[10] = u),
+        (e[11] = d))
+      : (d = e[11]),
+    d
+  );
+}
+var Pt,
+  Ft,
+  It,
+  Lt = e(() => {
+    ((Pt = n()),
+      g(),
+      K(),
+      pt(),
+      P(),
+      H(),
+      lt(),
+      st(),
+      (Ft = v()),
+      (It = Ie({
+        newChat: {
+          id: `localConversationPage.newChat`,
+          defaultMessage: `New chat`,
+          description: `Label for starting a new chat`,
+        },
+      })));
+  });
+function Rt(e, t) {
+  switch (e.kind) {
+    case `remote`:
+      return t.remote(e);
+    case `local`:
+      return t.local(e);
+    case `pending-worktree`:
+      return t[`pending-worktree`](e);
+  }
+}
+var zt = e(() => {});
+function Bt(e) {
+  let t = (0, Ut.c)(23),
+    { mergedTasks: n, tasksQuery: r } = e,
+    i = Be(),
+    a = Fe(),
+    { cancelPendingWorktree: o } = ht();
+  if (r.isLoading && n.length === 0) return null;
+  let s = r.error instanceof p && r.error.status === 404;
+  if (r.isError && n.length === 0 && !s) {
+    let e;
+    t[0] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((e = (0, Wt.jsx)(q, {
+          id: `codex.recentTasksMenu.errorCloud.inline`,
+          defaultMessage: `Failed to load cloud tasks.`,
+          description: `Inline error indicator for cloud tasks in recent feed`,
+        })),
+        (t[0] = e))
+      : (e = t[0]);
+    let n;
+    t[1] === r
+      ? (n = t[2])
+      : ((n = () => {
+          r.refetch();
+        }),
+        (t[1] = r),
+        (t[2] = n));
+    let i;
+    t[3] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((i = (0, Wt.jsx)(q, {
+          id: `codex.common.retry`,
+          defaultMessage: `Retry`,
+          description: `Retry button`,
+        })),
+        (t[3] = i))
+      : (i = t[3]);
+    let a;
+    return (
+      t[4] === n
+        ? (a = t[5])
+        : ((a = (0, Wt.jsxs)(`div`, {
+            className: `mb-2 flex items-center gap-2 text-base text-token-input-placeholder-foreground`,
+            children: [
+              e,
+              (0, Wt.jsx)(O, { size: `default`, color: `outline`, onClick: n, children: i }),
+            ],
+          })),
+          (t[4] = n),
+          (t[5] = a)),
+      a
+    );
+  }
+  if (n.length === 0) return null;
+  let c;
+  t[6] === n ? (c = t[7]) : (n.filter(Ht), (c = n), (t[6] = n), (t[7] = c));
+  let l = c,
+    u;
+  if (t[8] !== o || t[9] !== a || t[10] !== i || t[11] !== l) {
+    let e;
+    (t[13] !== o || t[14] !== a || t[15] !== i
+      ? ((e = (e) =>
+          Rt(e, {
+            remote: (e) =>
+              (0, Wt.jsx)(
+                $e,
+                {
+                  useStableTrailingRail: !0,
+                  isActive: a.pathname === `/remote/${e.task.id}`,
+                  task: e.task,
+                  onClose: Vt,
+                },
+                e.key,
+              ),
+            local: (e) =>
+              (0, Wt.jsx)(
+                nt,
+                {
+                  useStableTrailingRail: !0,
+                  isActive: a.pathname === `/local/${e.conversation.id}`,
+                  conversationId: e.conversation.id,
+                  statusIndicatorReplacesMeta: !0,
+                  metaContent:
+                    e.conversation.createdAt == null
+                      ? void 0
+                      : (0, Wt.jsx)(qe, {
+                          dateString: new Date(e.conversation.createdAt).toISOString(),
+                        }),
+                  onClick: () => {
+                    i(`/local/${e.conversation.id}`);
+                  },
+                },
+                e.key,
+              ),
+            "pending-worktree": (e) =>
+              (0, Wt.jsx)(
+                tt,
+                {
+                  useStableTrailingRail: !0,
+                  task: e.pendingWorktree,
+                  hasAttention: e.pendingWorktree.needsAttention,
+                  statusIndicatorReplacesMeta: !0,
+                  onClick: () => {
+                    i(`/worktree-init-v2/${e.pendingWorktree.id}`);
+                  },
+                  onArchive: () => {
+                    o(e.pendingWorktree.id);
+                  },
+                },
+                e.key,
+              ),
+          })),
+        (t[13] = o),
+        (t[14] = a),
+        (t[15] = i),
+        (t[16] = e))
+      : (e = t[16]),
+      (u = l.map(e)),
+      (t[8] = o),
+      (t[9] = a),
+      (t[10] = i),
+      (t[11] = l),
+      (t[12] = u));
+  } else u = t[12];
+  let d;
+  t[17] !== n.length || t[18] !== !1
+    ? ((d = !1), (t[17] = n.length), (t[18] = !1), (t[19] = d))
+    : (d = t[19]);
+  let f;
+  return (
+    t[20] !== u || t[21] !== d
+      ? ((f = (0, Wt.jsxs)(`div`, {
+          className: `group/inline -mx-[var(--padding-row-x)] flex flex-col gap-px rounded-xl pb-1 transition-colors [--task-row-trailing-inset:calc(var(--spacing)*1.5)]`,
+          children: [u, d],
+        })),
+        (t[20] = u),
+        (t[21] = d),
+        (t[22] = f))
+      : (f = t[22]),
+    f
+  );
+}
+function Vt() {}
+function Ht(e) {
+  if (e.kind === `remote`) {
+    let t = e.task.task_status_display?.latest_turn_status_display?.turn_status;
+    return e.task.has_unread_turn === !0 || t === `in_progress` || t === `pending`;
+  }
+  return e.kind === `local` && e.conversation.hasUnreadTurn
+    ? !0
+    : e.kind === `local`
+      ? xe(e.conversation)
+      : e.kind === `pending-worktree`;
+}
+var Ut,
+  Wt,
+  Gt = e(() => {
+    ((Ut = n()),
+      t(we(), 1),
+      K(),
+      Se(),
+      _e(),
+      P(),
+      Je(),
+      u(),
+      gt(),
+      rt(),
+      et(),
+      zt(),
+      Ze(),
+      (Wt = v()));
+  });
+function Kt(e, t) {
+  return typeof e == `string` && e.toLowerCase().includes(t);
+}
+var qt = e(() => {}),
+  Jt,
+  Yt = e(() => {
+    (r(), (Jt = f(`cloudTasksEnvironmentFilterId`, null)));
+  });
+function Xt(e) {
+  let t = (0, Zt.c)(15),
+    { searchQuery: n, onQueryChange: r, autoFocus: i } = e,
+    a = i === void 0 ? !1 : i,
+    o = Ve(),
+    s;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((s = (0, Qt.jsx)(`label`, {
+        className: `sr-only`,
+        htmlFor: `recent-tasks-search`,
+        children: (0, Qt.jsx)(q, {
+          id: `codex.recentTasksMenu.search`,
+          defaultMessage: `Search recent tasks`,
+          description: `Label for the recent tasks menu search input`,
+        }),
+      })),
+      (t[0] = s))
+    : (s = t[0]);
+  let c;
+  t[1] === r ? (c = t[2]) : ((c = (e) => r(e.target.value)), (t[1] = r), (t[2] = c));
+  let l;
+  t[3] === o
+    ? (l = t[4])
+    : ((l = o.formatMessage({
+        id: `codex.recentTasksMenu.search`,
+        defaultMessage: `Search recent tasks`,
+        description: `Label for the recent tasks menu search input`,
+      })),
+      (t[3] = o),
+      (t[4] = l));
+  let u;
+  t[5] !== o || t[6] !== r || t[7] !== n.length
+    ? ((u =
+        n.length > 0
+          ? (0, Qt.jsx)(`button`, {
+              type: `button`,
+              className: `flex items-center justify-center text-token-input-placeholder-foreground transition-colors hover:text-token-foreground`,
+              onClick: () => r(``),
+              "aria-label": o.formatMessage({
+                id: `codex.recentTasksMenu.clearSearch`,
+                defaultMessage: `Clear search`,
+                description: `Button label to clear the recent tasks menu search input`,
+              }),
+              children: (0, Qt.jsx)(B, { className: `icon-2xs` }),
+            })
+          : null),
+      (t[5] = o),
+      (t[6] = r),
+      (t[7] = n.length),
+      (t[8] = u))
+    : (u = t[8]);
+  let d;
+  return (
+    t[9] !== a || t[10] !== n || t[11] !== c || t[12] !== l || t[13] !== u
+      ? ((d = (0, Qt.jsxs)(`div`, {
+          children: [
+            s,
+            (0, Qt.jsx)(le, {
+              id: `recent-tasks-search`,
+              autoFocus: a,
+              value: n,
+              onChange: c,
+              placeholder: l,
+              trailingContent: u,
+            }),
+          ],
+        })),
+        (t[9] = a),
+        (t[10] = n),
+        (t[11] = c),
+        (t[12] = l),
+        (t[13] = u),
+        (t[14] = d))
+      : (d = t[14]),
+    d
+  );
+}
+var Zt,
+  Qt,
+  $t = e(() => {
+    ((Zt = n()), K(), w(), L(), (Qt = v()));
+  });
+function en() {
+  let e = (0, tn.c)(1),
+    t;
+  return (
+    e[0] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((t = (0, nn.jsx)(`div`, {
+          className: `flex h-48 items-center justify-center text-sm text-token-input-placeholder-foreground`,
+          children: (0, nn.jsx)(q, {
+            id: `codex.recentTasksMenu.empty`,
+            defaultMessage: `No chats yet`,
+            description: `Empty state for recent tasks menu`,
+          }),
+        })),
+        (e[0] = t))
+      : (t = e[0]),
+    t
+  );
+}
+var tn,
+  nn,
+  rn = e(() => {
+    ((tn = n()), K(), (nn = v()));
+  }),
+  an,
+  on = e(() => {
+    an = `w-full justify-between !px-[var(--padding-row-x)] !py-[var(--padding-row-y)] text-left`;
+  });
+function sn(e) {
+  let t = (0, ln.c)(64),
+    { className: n } = e,
+    r = Ve(),
+    [i, a] = (0, un.useState)(!1),
+    [o, c] = (0, un.useState)(``),
+    [l, u] = s(Jt),
+    d = T(),
+    { data: f, isLoading: p, isError: m, refetch: h } = Le(),
+    g;
+  t[0] === o ? (g = t[1]) : ((g = o.trim()), (t[0] = o), (t[1] = g));
+  let _ = g.length > 0,
+    v;
+  t[2] === _ ? (v = t[3]) : ((v = { enabled: _ }), (t[2] = _), (t[3] = v));
+  let { data: y, isLoading: b, isError: x, refetch: S } = He(o, v),
+    C;
+  if (t[4] !== o || t[5] !== f || t[6] !== y || t[7] !== d) {
+    bb0: {
+      let e = o.trim(),
+        n = e.length > 0 ? (y ?? []) : (f ?? []);
+      if (e.length === 0 && d) {
+        let e;
+        t[9] === d ? (e = t[10]) : ((e = (e) => e.id === d.id), (t[9] = d), (t[10] = e));
+        let r = n.find(e);
+        if (!r) {
+          C = n;
+          break bb0;
+        }
+        let i;
+        (t[11] === d ? (i = t[12]) : ((i = (e) => e.id !== d.id), (t[11] = d), (t[12] = i)),
+          (C = [r, ...n.filter(i)]));
+        break bb0;
+      }
+      C = n;
+    }
+    ((t[4] = o), (t[5] = f), (t[6] = y), (t[7] = d), (t[8] = C));
+  } else C = t[8];
+  let w = C,
+    E;
+  t[13] !== l || t[14] !== f
+    ? ((E = f?.find((e) => e.id === l) ?? null), (t[13] = l), (t[14] = f), (t[15] = E))
+    : (E = t[15]);
+  let D = E,
+    k;
+  t[16] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((k = (0, Y.jsx)(q, {
+        id: `codex.recentTasksMenu.filterTooltip`,
+        defaultMessage: `Filter tasks by environment`,
+        description: `Tooltip explaining the environment filter button`,
+      })),
+      (t[16] = k))
+    : (k = t[16]);
+  let A = l ? `default` : `icon`,
+    j;
+  t[17] === n ? (j = t[18]) : ((j = ae(`mr-1`, n)), (t[17] = n), (t[18] = j));
+  let M;
+  t[19] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((M = (0, Y.jsx)(yt, { className: `icon-2xs` })), (t[19] = M))
+    : (M = t[19]);
+  let N;
+  t[20] !== l || t[21] !== D
+    ? ((N = !!l && D?.label && (0, Y.jsx)(`span`, { className: `text-sm`, children: D.label })),
+      (t[20] = l),
+      (t[21] = D),
+      (t[22] = N))
+    : (N = t[22]);
+  let P;
+  t[23] === N
+    ? (P = t[24])
+    : ((P = (0, Y.jsxs)(`span`, { className: `flex items-center gap-1.5`, children: [M, N] })),
+      (t[23] = N),
+      (t[24] = P));
+  let F;
+  t[25] !== P || t[26] !== A || t[27] !== j
+    ? ((F = (0, Y.jsx)(ce, {
+        asChild: !0,
+        children: (0, Y.jsx)(ie, {
+          tooltipContent: k,
+          children: (0, Y.jsx)(O, { color: `ghost`, size: A, className: j, children: P }),
+        }),
+      })),
+      (t[25] = P),
+      (t[26] = A),
+      (t[27] = j),
+      (t[28] = F))
+    : (F = t[28]);
+  let ne;
+  t[29] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((ne = (0, Y.jsx)(`div`, {
+        className: `pb-1 text-xs tracking-wide text-token-input-placeholder-foreground uppercase`,
+        children: (0, Y.jsx)(q, {
+          id: `codex.recentTasksMenu.filterCloudTasks`,
+          defaultMessage: `Filter cloud tasks`,
+          description: `Title for environment filter menu in recent tasks`,
+        }),
+      })),
+      (t[29] = ne))
+    : (ne = t[29]);
+  let re = !l,
+    I;
+  t[30] === u
+    ? (I = t[31])
+    : ((I = () => {
+        (u(null), a(!1));
+      }),
+      (t[30] = u),
+      (t[31] = I));
+  let L;
+  t[32] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((L = (0, Y.jsx)(q, {
+        id: `codex.recentTasksMenu.filterAll`,
+        defaultMessage: `All`,
+        description: `All environments filter option`,
+      })),
+      (t[32] = L))
+    : (L = t[32]);
+  let R;
+  t[33] !== re || t[34] !== I
+    ? ((R = (0, Y.jsx)(cn, { isSelected: re, onClick: I, children: L })),
+      (t[33] = re),
+      (t[34] = I),
+      (t[35] = R))
+    : (R = t[35]);
+  let z;
+  t[36] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((z = (0, Y.jsx)(G.Separator, {})), (t[36] = z))
+    : (z = t[36]);
+  let B;
+  t[37] === r
+    ? (B = t[38])
+    : ((B = r.formatMessage({
+        id: `composer.searchEnvironments`,
+        defaultMessage: `Search environments`,
+        description: `Search environments placeholder`,
+      })),
+      (t[37] = r),
+      (t[38] = B));
+  let V;
+  t[39] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((V = (e) => c(e.currentTarget.value)), (t[39] = V))
+    : (V = t[39]);
+  let H;
+  t[40] !== o || t[41] !== B
+    ? ((H = (0, Y.jsx)(G.Section, {
+        className: `my-1`,
+        children: (0, Y.jsx)(G.SearchInput, { placeholder: B, value: o, onChange: V }),
+      })),
+      (t[40] = o),
+      (t[41] = B),
+      (t[42] = H))
+    : (H = t[42]);
+  let oe;
+  t[43] !== l ||
+  t[44] !== o ||
+  t[45] !== m ||
+  t[46] !== p ||
+  t[47] !== x ||
+  t[48] !== b ||
+  t[49] !== w ||
+  t[50] !== h ||
+  t[51] !== S ||
+  t[52] !== u
+    ? ((oe =
+        o.trim().length > 0 && x
+          ? (0, Y.jsxs)(G.Message, {
+              className: `flex w-full items-center justify-center gap-2`,
+              children: [
+                (0, Y.jsx)(`span`, {
+                  children: (0, Y.jsx)(q, {
+                    id: `codex.environments.searchError`,
+                    defaultMessage: `Failed to search environments.`,
+                    description: `Error shown when environment search fails`,
+                  }),
+                }),
+                (0, Y.jsx)(O, {
+                  size: `default`,
+                  color: `outline`,
+                  onClick: () => {
+                    S();
+                  },
+                  children: (0, Y.jsx)(q, {
+                    id: `codex.common.retry`,
+                    defaultMessage: `Retry`,
+                    description: `Retry button`,
+                  }),
+                }),
+              ],
+            })
+          : o.trim().length === 0 && m
+            ? (0, Y.jsxs)(G.Message, {
+                className: `flex w-full items-center justify-center gap-2`,
+                children: [
+                  (0, Y.jsx)(`span`, {
+                    children: (0, Y.jsx)(q, {
+                      id: `codex.environments.listError`,
+                      defaultMessage: `Failed to load environments.`,
+                      description: `Error shown when listing environments fails`,
+                    }),
+                  }),
+                  (0, Y.jsx)(O, {
+                    size: `default`,
+                    color: `outline`,
+                    onClick: () => {
+                      h();
+                    },
+                    children: (0, Y.jsx)(q, {
+                      id: `codex.common.retry`,
+                      defaultMessage: `Retry`,
+                      description: `Retry button`,
+                    }),
+                  }),
+                ],
+              })
+            : w?.length > 0
+              ? w.map((e) =>
+                  (0, Y.jsx)(
+                    cn,
+                    {
+                      isSelected: e.id === l,
+                      onClick: () => {
+                        (u(e.id), a(!1));
+                      },
+                      children: e.label,
+                    },
+                    e.id,
+                  ),
+                )
+              : b || p
+                ? (0, Y.jsx)(ee, {
+                    className: `icon-xxs my-2 self-center text-token-description-foreground`,
+                  })
+                : (0, Y.jsx)(G.Message, {
+                    centered: !0,
+                    children: (0, Y.jsx)(q, {
+                      id: `codex.environments.noEnvironmentsFound`,
+                      defaultMessage: `No environments found`,
+                      description: `Message shown when no Codex environments were found`,
+                    }),
+                  })),
+      (t[43] = l),
+      (t[44] = o),
+      (t[45] = m),
+      (t[46] = p),
+      (t[47] = x),
+      (t[48] = b),
+      (t[49] = w),
+      (t[50] = h),
+      (t[51] = S),
+      (t[52] = u),
+      (t[53] = oe))
+    : (oe = t[53]);
+  let U;
+  t[54] === oe
+    ? (U = t[55])
+    : ((U = (0, Y.jsx)(G.Section, {
+        className: `flex max-h-[140px] flex-col overflow-y-auto pb-1`,
+        children: oe,
+      })),
+      (t[54] = oe),
+      (t[55] = U));
+  let W;
+  t[56] !== R || t[57] !== H || t[58] !== U
+    ? ((W = (0, Y.jsx)(de, {
+        className: `w-[240px]`,
+        side: `top`,
+        children: (0, Y.jsxs)(`div`, {
+          className: `flex max-w-full flex-col py-1`,
+          children: [ne, R, z, H, U],
+        }),
+      })),
+      (t[56] = R),
+      (t[57] = H),
+      (t[58] = U),
+      (t[59] = W))
+    : (W = t[59]);
+  let se;
+  return (
+    t[60] !== i || t[61] !== F || t[62] !== W
+      ? ((se = (0, Y.jsxs)(te, { open: i, onOpenChange: a, children: [F, W] })),
+        (t[60] = i),
+        (t[61] = F),
+        (t[62] = W),
+        (t[63] = se))
+      : (se = t[63]),
+    se
+  );
+}
+function cn(e) {
+  let t = (0, ln.c)(11),
+    { children: n, isSelected: r, onClick: i } = e,
+    a = r && `font-medium`,
+    o;
+  t[0] === a ? (o = t[1]) : ((o = ae(an, a)), (t[0] = a), (t[1] = o));
+  let s;
+  t[2] === n
+    ? (s = t[3])
+    : ((s = (0, Y.jsx)(`span`, { className: `min-w-0 flex-1 truncate`, children: n })),
+      (t[2] = n),
+      (t[3] = s));
+  let c;
+  t[4] === r
+    ? (c = t[5])
+    : ((c = r ? (0, Y.jsx)(ue, { className: `icon-2xs shrink-0 opacity-75` }) : null),
+      (t[4] = r),
+      (t[5] = c));
+  let l;
+  return (
+    t[6] !== i || t[7] !== o || t[8] !== s || t[9] !== c
+      ? ((l = (0, Y.jsxs)(O, {
+          color: `ghostActive`,
+          size: `medium`,
+          className: o,
+          onClick: i,
+          children: [s, c],
+        })),
+        (t[6] = i),
+        (t[7] = o),
+        (t[8] = s),
+        (t[9] = c),
+        (t[10] = l))
+      : (l = t[10]),
+    l
+  );
+}
+var ln,
+  un,
+  Y,
+  dn = e(() => {
+    ((ln = n()),
+      I(),
+      m(),
+      (un = t(d(), 1)),
+      K(),
+      Me(),
+      P(),
+      w(),
+      A(),
+      F(),
+      H(),
+      j(),
+      vt(),
+      E(),
+      Yt(),
+      on(),
+      (Y = v()));
+  });
+function fn(e) {
+  let t = (0, hn.c)(31),
+    { filter: n, onSelect: r } = e,
+    i = _n[n],
+    [a, o] = (0, gn.useState)(!1),
+    s;
+  t[0] === i
+    ? (s = t[1])
+    : ((s = (0, X.jsx)(`span`, { children: (0, X.jsx)(q, { ...i }) })), (t[0] = i), (t[1] = s));
+  let c;
+  t[2] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((c = (0, X.jsx)(oe, { className: `icon-2xs` })), (t[2] = c))
+    : (c = t[2]);
+  let l;
+  t[3] === s
+    ? (l = t[4])
+    : ((l = (0, X.jsx)(ce, {
+        asChild: !0,
+        children: (0, X.jsxs)(`button`, {
+          type: `button`,
+          className: `flex items-center gap-1 px-2 pt-2 text-sm font-medium text-token-input-placeholder-foreground hover:text-token-foreground`,
+          children: [s, c],
+        }),
+      })),
+      (t[3] = s),
+      (t[4] = l));
+  let u = n === `recent`,
+    d;
+  t[5] === r
+    ? (d = t[6])
+    : ((d = () => {
+        (r(`recent`), o(!1));
+      }),
+      (t[5] = r),
+      (t[6] = d));
+  let f;
+  t[7] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((f = (0, X.jsx)(q, {
+        id: `codex.recentTasksMenu.recent`,
+        defaultMessage: `All tasks`,
+        description: `Menu title for recent Codex tasks`,
+      })),
+      (t[7] = f))
+    : (f = t[7]);
+  let p;
+  t[8] !== u || t[9] !== d
+    ? ((p = (0, X.jsx)(mn, { isSelected: u, onClick: d, children: f })),
+      (t[8] = u),
+      (t[9] = d),
+      (t[10] = p))
+    : (p = t[10]);
+  let m = n === `cloud`,
+    h;
+  t[11] === r
+    ? (h = t[12])
+    : ((h = () => {
+        (r(`cloud`), o(!1));
+      }),
+      (t[11] = r),
+      (t[12] = h));
+  let g;
+  t[13] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((g = (0, X.jsx)(q, {
+        id: `codex.recentTasksMenu.cloud`,
+        defaultMessage: `Cloud tasks`,
+        description: `Menu title for cloud Codex tasks`,
+      })),
+      (t[13] = g))
+    : (g = t[13]);
+  let _;
+  t[14] !== m || t[15] !== h
+    ? ((_ = (0, X.jsx)(mn, { isSelected: m, onClick: h, children: g })),
+      (t[14] = m),
+      (t[15] = h),
+      (t[16] = _))
+    : (_ = t[16]);
+  let v = n === `local`,
+    y;
+  t[17] === r
+    ? (y = t[18])
+    : ((y = () => {
+        (r(`local`), o(!1));
+      }),
+      (t[17] = r),
+      (t[18] = y));
+  let b;
+  t[19] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((b = (0, X.jsx)(q, {
+        id: `codex.recentTasksMenu.local`,
+        defaultMessage: `Local tasks`,
+        description: `Menu title for local Codex tasks`,
+      })),
+      (t[19] = b))
+    : (b = t[19]);
+  let x;
+  t[20] !== v || t[21] !== y
+    ? ((x = (0, X.jsx)(mn, { isSelected: v, onClick: y, children: b })),
+      (t[20] = v),
+      (t[21] = y),
+      (t[22] = x))
+    : (x = t[22]);
+  let S;
+  t[23] !== _ || t[24] !== x || t[25] !== p
+    ? ((S = (0, X.jsx)(de, {
+        className: `w-[220px]`,
+        onOpenAutoFocus: pn,
+        children: (0, X.jsxs)(`div`, { className: `flex flex-col`, children: [p, _, x] }),
+      })),
+      (t[23] = _),
+      (t[24] = x),
+      (t[25] = p),
+      (t[26] = S))
+    : (S = t[26]);
+  let C;
+  return (
+    t[27] !== a || t[28] !== S || t[29] !== l
+      ? ((C = (0, X.jsxs)(te, { open: a, onOpenChange: o, children: [l, S] })),
+        (t[27] = a),
+        (t[28] = S),
+        (t[29] = l),
+        (t[30] = C))
+      : (C = t[30]),
+    C
+  );
+}
+function pn(e) {
+  e.preventDefault();
+}
+function mn(e) {
+  let t = (0, hn.c)(11),
+    { children: n, isSelected: r, onClick: i } = e,
+    a = r && `font-medium`,
+    o;
+  t[0] === a ? (o = t[1]) : ((o = ae(an, a)), (t[0] = a), (t[1] = o));
+  let s;
+  t[2] === n
+    ? (s = t[3])
+    : ((s = (0, X.jsx)(`span`, { className: `min-w-0 flex-1 truncate`, children: n })),
+      (t[2] = n),
+      (t[3] = s));
+  let c;
+  t[4] === r
+    ? (c = t[5])
+    : ((c = r ? (0, X.jsx)(ue, { className: `icon-2xs shrink-0 opacity-75` }) : null),
+      (t[4] = r),
+      (t[5] = c));
+  let l;
+  return (
+    t[6] !== i || t[7] !== o || t[8] !== s || t[9] !== c
+      ? ((l = (0, X.jsxs)(O, {
+          color: `ghostActive`,
+          size: `medium`,
+          className: o,
+          onClick: i,
+          children: [s, c],
+        })),
+        (t[6] = i),
+        (t[7] = o),
+        (t[8] = s),
+        (t[9] = c),
+        (t[10] = l))
+      : (l = t[10]),
+    l
+  );
+}
+var hn,
+  gn,
+  X,
+  _n,
+  vn = e(() => {
+    ((hn = n()),
+      I(),
+      (gn = t(d(), 1)),
+      K(),
+      P(),
+      A(),
+      j(),
+      W(),
+      on(),
+      (X = v()),
+      (_n = Ie({
+        recent: {
+          id: `codex.recentTasksMenu.recent`,
+          defaultMessage: `All tasks`,
+          description: `Menu title for recent Codex tasks`,
+        },
+        cloud: {
+          id: `codex.recentTasksMenu.cloud`,
+          defaultMessage: `Cloud tasks`,
+          description: `Menu title for cloud Codex tasks`,
+        },
+        local: {
+          id: `codex.recentTasksMenu.local`,
+          defaultMessage: `Local tasks`,
+          description: `Menu title for local Codex tasks`,
+        },
+      })));
+  });
+function yn() {
+  let e = (0, bn.c)(1),
+    t;
+  return (
+    e[0] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((t = (0, xn.jsx)(`div`, {
+          className: `flex h-48 items-center justify-center text-sm text-token-input-placeholder-foreground`,
+          children: (0, xn.jsx)(q, {
+            id: `codex.recentTasksMenu.searchEmpty`,
+            defaultMessage: `No result`,
+            description: `Empty state for recent tasks menu search results`,
+          }),
+        })),
+        (e[0] = t))
+      : (t = e[0]),
+    t
+  );
+}
+var bn,
+  xn,
+  Sn = e(() => {
+    ((bn = n()), K(), (xn = v()));
+  });
+function Cn({ conversation: e, isBackgroundSubagentsEnabled: t }) {
+  return !me(e, t);
+}
+var wn = e(() => {
+  Te();
+});
+function Tn(e, t, n) {
+  let r = _t(),
+    i = je(`12346831`),
+    a = h(be),
+    o = i ? De : a,
+    s = Xe(),
+    c = (0, kn.useRef)(new Map());
+  return (0, kn.useMemo)(() => {
+    let i = Dn(
+      En({
+        tasks: e,
+        localConversations: t,
+        pendingWorktrees: r,
+        envForFilter: n,
+        threadSortKey: o,
+        isBackgroundSubagentsEnabled: s,
+      }),
+      c.current,
+    );
+    return ((c.current = new Map(i.map((e) => [e.key, e]))), i);
+  }, [e, n, s, t, r, o]);
+}
+function En({
+  tasks: e,
+  localConversations: t,
+  pendingWorktrees: n,
+  envForFilter: r,
+  threadSortKey: a,
+  isBackgroundSubagentsEnabled: o,
+}) {
+  let s = e ?? [],
+    c = t.filter((e) => Cn({ conversation: e, isBackgroundSubagentsEnabled: o })),
+    l = (0, On.default)(
+      r ? s.filter((e) => e.task_status_display?.environment_label === r.label) : s,
+      `id`,
+    ).map((e) => {
+      let t =
+        a === `updated_at`
+          ? (e.updated_at ?? e.created_at ?? 0)
+          : (e.created_at ?? e.updated_at ?? 0);
+      return { kind: `remote`, key: z(e.id), at: t * 1e3, task: e };
+    }),
+    u = c.map((e) => {
+      let t = a === `updated_at` ? (e.recencyAt ?? e.updatedAt) : e.createdAt;
+      Number.isFinite(t) || i.error(`local conversation has invalid createdAt or updatedAt`);
+      let n = Number.isFinite(t) ? t : Number.isFinite(e.createdAt) ? e.createdAt : 0;
+      return { kind: `local`, key: se(e.id), at: n, conversation: e };
+    }),
+    d = n.map((e) => ({
+      kind: `pending-worktree`,
+      key: R(e.id),
+      at: e.createdAt,
+      pendingWorktree: e,
+    }));
+  return [...l, ...u, ...d].sort((e, t) => t.at - e.at);
+}
+function Dn(e, t) {
+  return e.map((e) => {
+    let n = t.get(e.key);
+    if (n == null || n.at !== e.at) return e;
+    switch (e.kind) {
+      case `remote`:
+        return n.kind === `remote` && n.task === e.task ? n : e;
+      case `local`:
+        return n.kind === `local` && n.conversation === e.conversation ? n : e;
+      case `pending-worktree`:
+        return n.kind === `pending-worktree` && n.pendingWorktree === e.pendingWorktree ? n : e;
+    }
+  });
+}
+var On,
+  kn,
+  An = e(() => {
+    ((On = t(we(), 1)), g(), (kn = t(d(), 1)), Ye(), ke(), re(), ze(), Oe(), _(), gt(), wn());
+  });
+function jn(e) {
+  let t = (0, In.c)(33),
+    {
+      cloudtasksQuery: n,
+      localConversations: r,
+      onClose: i,
+      autoFocusSearch: a,
+      showFilters: o,
+    } = e,
+    c = a === void 0 ? !1 : a,
+    l = o === void 0 ? !0 : o,
+    u = Ve(),
+    { authMethod: d } = Ee(),
+    [f, p] = s(Rn),
+    [m] = s(Jt),
+    h = l ? f : `recent`,
+    g = Ae(`/local/:conversationId`)?.params?.conversationId ?? null,
+    { data: _ } = Le(),
+    v = Xe(),
+    y;
+  t[0] !== m || t[1] !== l || t[2] !== _
+    ? ((y = l ? (_?.find((e) => e.id === m) ?? null) : null),
+      (t[0] = m),
+      (t[1] = l),
+      (t[2] = _),
+      (t[3] = y))
+    : (y = t[3]);
+  let b = y,
+    x;
+  t[4] === v
+    ? (x = t[5])
+    : ((x = (e) => Cn({ conversation: e, isBackgroundSubagentsEnabled: v })),
+      (t[4] = v),
+      (t[5] = x));
+  let S = r.filter(x),
+    C = Tn(n.data, r, b),
+    [w, T] = (0, Ln.useState)(``),
+    E = (0, Ln.useDeferredValue)(w).trim().toLowerCase(),
+    D = E.length > 0,
+    k = C.filter(Mn),
+    A = D
+      ? k.filter((e) => {
+          let { task: t } = e;
+          return Kt(t.title, E);
+        })
+      : k,
+    j = D ? S.filter((e) => Kt(Re(e), E)) : S,
+    M = D
+      ? C.filter((e) =>
+          e.kind === `remote`
+            ? Kt(e.task.title, E)
+            : e.kind === `local`
+              ? Kt(Re(e.conversation), E)
+              : Kt(Nn(e.pendingWorktree, u), E),
+        )
+      : C,
+    N;
+  t[6] !== c || t[7] !== w
+    ? ((N = (0, Z.jsx)(G.Section, {
+        children: (0, Z.jsx)(Xt, { searchQuery: w, onQueryChange: T, autoFocus: c }),
+      })),
+      (t[6] = c),
+      (t[7] = w),
+      (t[8] = N))
+    : (N = t[8]);
+  let P;
+  t[9] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((P = (0, Z.jsx)(`div`, {
+        className: `mx-2 border-t-[0.5px] border-token-border`,
+        "aria-hidden": !0,
+      })),
+      (t[9] = P))
+    : (P = t[9]);
+  let F;
+  t[10] !== d || t[11] !== f || t[12] !== p || t[13] !== l
+    ? ((F =
+        l &&
+        d === `chatgpt` &&
+        (0, Z.jsxs)(G.Section, {
+          className: `flex items-center justify-between px-[var(--padding-row-x)]`,
+          children: [
+            (0, Z.jsx)(fn, { filter: f, onSelect: p }),
+            f !== `local` && (0, Z.jsx)(sn, {}),
+          ],
+        })),
+      (t[10] = d),
+      (t[11] = f),
+      (t[12] = p),
+      (t[13] = l),
+      (t[14] = F))
+    : (F = t[14]);
+  let te = G,
+    ne =
+      h === `cloud` &&
+      (n.isError
+        ? (0, Z.jsx)(Fn, {
+            onRetry: () => {
+              n.refetch();
+            },
+          })
+        : n.isLoading
+          ? (0, Z.jsx)(Pn, {})
+          : A.length === 0
+            ? D
+              ? (0, Z.jsx)(yn, {})
+              : (0, Z.jsx)(en, {})
+            : A.map((e) => (0, Z.jsx)($e, { task: e.task, onClose: i }, e.key))),
+    re =
+      h === `local` &&
+      (j.length
+        ? j.map((e) =>
+            (0, Z.jsx)(
+              zn,
+              {
+                conversationId: e.id,
+                updatedAt: e.recencyAt ?? e.updatedAt,
+                isActive: g === e.id,
+                onClose: i,
+              },
+              e.id,
+            ),
+          )
+        : D
+          ? (0, Z.jsx)(yn, {})
+          : (0, Z.jsx)(en, {})),
+    I;
+  t[15] !== g ||
+  t[16] !== n ||
+  t[17] !== M ||
+  t[18] !== D ||
+  t[19] !== C.length ||
+  t[20] !== i ||
+  t[21] !== h
+    ? ((I =
+        h === `recent` &&
+        (n.isError && C.length === 0
+          ? (0, Z.jsx)(Fn, {
+              onRetry: () => {
+                n.refetch();
+              },
+            })
+          : n.isLoading && C.length === 0
+            ? (0, Z.jsx)(Pn, {})
+            : M.length === 0
+              ? D
+                ? (0, Z.jsx)(yn, {})
+                : (0, Z.jsx)(en, {})
+              : (0, Z.jsxs)(Z.Fragment, {
+                  children: [
+                    n.isError &&
+                      (0, Z.jsxs)(`div`, {
+                        className: `mx-1 my-1 flex items-center justify-between gap-2 px-1 text-base text-token-foreground`,
+                        children: [
+                          (0, Z.jsx)(q, {
+                            id: `codex.recentTasksMenu.errorCloud.inline`,
+                            defaultMessage: `Failed to load cloud tasks.`,
+                            description: `Inline error indicator for cloud tasks in recent feed`,
+                          }),
+                          (0, Z.jsx)(O, {
+                            size: `default`,
+                            color: `outline`,
+                            onClick: () => {
+                              n.refetch();
+                            },
+                            children: (0, Z.jsx)(q, {
+                              id: `codex.common.retry`,
+                              defaultMessage: `Retry`,
+                              description: `Retry button`,
+                            }),
+                          }),
+                        ],
+                      }),
+                    n.isPending &&
+                      !C.length &&
+                      (0, Z.jsx)(`div`, {
+                        className: `mx-1 my-1 flex items-center gap-2 text-sm text-token-input-placeholder-foreground`,
+                        children: (0, Z.jsx)(ee, { className: `icon-xs` }),
+                      }),
+                    M.map((e) =>
+                      (0, Z.jsx)(
+                        Bn,
+                        {
+                          item: e,
+                          isActive: e.kind === `local` && g === e.conversation.id,
+                          onClose: i,
+                        },
+                        e.key,
+                      ),
+                    ),
+                  ],
+                }))),
+      (t[15] = g),
+      (t[16] = n),
+      (t[17] = M),
+      (t[18] = D),
+      (t[19] = C.length),
+      (t[20] = i),
+      (t[21] = h),
+      (t[22] = I))
+    : (I = t[22]);
+  let L;
+  t[23] !== te.Section || t[24] !== ne || t[25] !== re || t[26] !== I
+    ? ((L = (0, Z.jsxs)(te.Section, {
+        className: `vertical-scroll-fade-mask flex max-h-[60vh] flex-col gap-0 overflow-y-auto pb-1`,
+        children: [ne, re, I],
+      })),
+      (t[23] = te.Section),
+      (t[24] = ne),
+      (t[25] = re),
+      (t[26] = I),
+      (t[27] = L))
+    : (L = t[27]);
+  let R;
+  return (
+    t[28] !== L || t[29] !== N || t[30] !== P || t[31] !== F
+      ? ((R = (0, Z.jsxs)(`div`, {
+          className: `flex max-h-[300px] w-[calc(var(--radix-popper-available-width)_-_var(--padding-panel))] flex-col gap-1`,
+          children: [N, P, F, L],
+        })),
+        (t[28] = L),
+        (t[29] = N),
+        (t[30] = P),
+        (t[31] = F),
+        (t[32] = R))
+      : (R = t[32]),
+    R
+  );
+}
+function Mn(e) {
+  return e.kind === `remote`;
+}
+function Nn(e, t) {
+  let n = e.label?.trim();
+  return n && n.length > 0
+    ? n
+    : e.phase === `failed`
+      ? t.formatMessage({
+          id: `recentTasks.worktreeInitFailedTitle`,
+          defaultMessage: `Worktree init failed`,
+          description: `Worktree row title when the init script fails`,
+        })
+      : t.formatMessage({
+          id: `recentTasks.worktreeSettingUpTitle`,
+          defaultMessage: `Setting up worktree`,
+          description: `Worktree row title while init is pending`,
+        });
+}
+function Pn() {
+  let e = (0, In.c)(1),
+    t;
+  return (
+    e[0] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((t = (0, Z.jsx)(`div`, {
+          className: `flex h-48 items-center justify-center gap-2 text-sm text-token-input-placeholder-foreground`,
+          children: (0, Z.jsx)(ee, { className: `icon-xs` }),
+        })),
+        (e[0] = t))
+      : (t = e[0]),
+    t
+  );
+}
+function Fn(e) {
+  let t = (0, In.c)(4),
+    { onRetry: n } = e,
+    r;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((r = (0, Z.jsx)(q, {
+        id: `codex.recentTasksMenu.errorCloud`,
+        defaultMessage: `Failed to load tasks.`,
+        description: `Error state for cloud tasks in recent tasks menu`,
+      })),
+      (t[0] = r))
+    : (r = t[0]);
+  let i;
+  t[1] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((i = (0, Z.jsx)(q, {
+        id: `codex.common.retry`,
+        defaultMessage: `Retry`,
+        description: `Retry button`,
+      })),
+      (t[1] = i))
+    : (i = t[1]);
+  let a;
+  return (
+    t[2] === n
+      ? (a = t[3])
+      : ((a = (0, Z.jsxs)(`div`, {
+          className: `flex h-48 items-center justify-center gap-3 text-sm text-token-input-placeholder-foreground`,
+          children: [
+            r,
+            (0, Z.jsx)(O, { size: `default`, color: `outline`, onClick: n, children: i }),
+          ],
+        })),
+        (t[2] = n),
+        (t[3] = a)),
+    a
+  );
+}
+var In,
+  Ln,
+  Z,
+  Rn,
+  zn,
+  Bn,
+  Vn = e(() => {
+    ((In = n()),
+      m(),
+      (Ln = t(d(), 1)),
+      K(),
+      Se(),
+      ye(),
+      Me(),
+      P(),
+      w(),
+      Je(),
+      F(),
+      Ye(),
+      ve(),
+      y(),
+      qt(),
+      r(),
+      gt(),
+      rt(),
+      et(),
+      Yt(),
+      $t(),
+      rn(),
+      dn(),
+      vn(),
+      Sn(),
+      wn(),
+      An(),
+      Ze(),
+      (Z = v()),
+      (Rn = f(`recent-tasks-filter`, `recent`)),
+      (zn = (0, Ln.memo)(function (e) {
+        let t = (0, In.c)(7),
+          { conversationId: n, updatedAt: r, isActive: i, onClose: a } = e,
+          o;
+        t[0] === r
+          ? (o = t[1])
+          : ((o = r == null ? void 0 : (0, Z.jsx)(qe, { dateString: new Date(r).toISOString() })),
+            (t[0] = r),
+            (t[1] = o));
+        let s;
+        return (
+          t[2] !== n || t[3] !== i || t[4] !== a || t[5] !== o
+            ? ((s = (0, Z.jsx)(nt, { conversationId: n, isActive: i, metaContent: o, onClick: a })),
+              (t[2] = n),
+              (t[3] = i),
+              (t[4] = a),
+              (t[5] = o),
+              (t[6] = s))
+            : (s = t[6]),
+          s
+        );
+      })),
+      (Bn = (0, Ln.memo)(function (e) {
+        let t = (0, In.c)(21),
+          { item: n, isActive: r, onClose: i } = e,
+          { cancelPendingWorktree: a } = ht();
+        switch (n.kind) {
+          case `remote`: {
+            let e;
+            return (
+              t[0] !== n.task || t[1] !== i
+                ? ((e = (0, Z.jsx)($e, { task: n.task, onClose: i })),
+                  (t[0] = n.task),
+                  (t[1] = i),
+                  (t[2] = e))
+                : (e = t[2]),
+              e
+            );
+          }
+          case `local`: {
+            let e;
+            t[3] !== n.conversation.recencyAt || t[4] !== n.conversation.updatedAt
+              ? ((e =
+                  (n.conversation.recencyAt ?? n.conversation.updatedAt) == null
+                    ? void 0
+                    : (0, Z.jsx)(qe, {
+                        dateString: new Date(
+                          n.conversation.recencyAt ?? n.conversation.updatedAt,
+                        ).toISOString(),
+                      })),
+                (t[3] = n.conversation.recencyAt),
+                (t[4] = n.conversation.updatedAt),
+                (t[5] = e))
+              : (e = t[5]);
+            let a;
+            return (
+              t[6] !== r || t[7] !== n.conversation.id || t[8] !== i || t[9] !== e
+                ? ((a = (0, Z.jsx)(nt, {
+                    conversationId: n.conversation.id,
+                    isActive: r,
+                    metaContent: e,
+                    onClick: i,
+                  })),
+                  (t[6] = r),
+                  (t[7] = n.conversation.id),
+                  (t[8] = i),
+                  (t[9] = e),
+                  (t[10] = a))
+                : (a = t[10]),
+              a
+            );
+          }
+          case `pending-worktree`: {
+            let e;
+            t[11] !== n.pendingWorktree.id || t[12] !== i
+              ? ((e = () => {
+                  (c.dispatchHostMessage({
+                    type: `navigate-to-route`,
+                    path: `/worktree-init-v2/${n.pendingWorktree.id}`,
+                  }),
+                    i());
+                }),
+                (t[11] = n.pendingWorktree.id),
+                (t[12] = i),
+                (t[13] = e))
+              : (e = t[13]);
+            let r;
+            t[14] !== a || t[15] !== n.pendingWorktree.id
+              ? ((r = () => {
+                  a(n.pendingWorktree.id);
+                }),
+                (t[14] = a),
+                (t[15] = n.pendingWorktree.id),
+                (t[16] = r))
+              : (r = t[16]);
+            let o;
+            return (
+              t[17] !== n.pendingWorktree || t[18] !== e || t[19] !== r
+                ? ((o = (0, Z.jsx)(tt, {
+                    task: n.pendingWorktree,
+                    hasAttention: n.pendingWorktree.needsAttention,
+                    onClick: e,
+                    onArchive: r,
+                  })),
+                  (t[17] = n.pendingWorktree),
+                  (t[18] = e),
+                  (t[19] = r),
+                  (t[20] = o))
+                : (o = t[20]),
+              o
+            );
+          }
+        }
+      })));
+  });
+function Hn(e) {
+  let t = (0, Gn.c)(67),
+    n;
+  t[0] === e ? (n = t[1]) : ((n = e === void 0 ? {} : e), (t[0] = e), (t[1] = n));
+  let { label: r, showFilters: i } = n,
+    a = i === void 0 ? !0 : i,
+    o = Ve(),
+    { authMethod: s } = Ee(),
+    c = Fe(),
+    { data: l } = Ne(),
+    u = Xe(),
+    [d, f] = (0, Kn.useState)(!1),
+    p;
+  t[2] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((p = () => {
+        f(!1);
+      }),
+      (t[2] = p))
+    : (p = t[2]);
+  let m = Ge(p),
+    h = d && s === `chatgpt`,
+    g;
+  t[3] === h
+    ? (g = t[4])
+    : ((g = { taskFilter: `current`, limit: 20, enabled: h }), (t[3] = h), (t[4] = g));
+  let _ = pe(g),
+    v;
+  t[5] === _.data ? (v = t[6]) : ((v = _.data ?? []), (t[5] = _.data), (t[6] = v));
+  let y;
+  t[7] === v ? (y = t[8]) : ((y = v.filter(Wn)), (t[7] = v), (t[8] = y));
+  let x = y,
+    S,
+    C,
+    w,
+    T;
+  if (t[9] !== l || t[10] !== u || t[11] !== r || t[12] !== c.pathname || t[13] !== x.length) {
+    let e;
+    t[18] === u
+      ? (e = t[19])
+      : ((e = (e) => Cn({ conversation: e, isBackgroundSubagentsEnabled: u })),
+        (t[18] = u),
+        (t[19] = e));
+    let n = (l ?? []).filter(e).filter(Un);
+    ((S = x.length + n.length),
+      (w = c.pathname !== `/` && S > 0),
+      (C = r != null),
+      (T = !1),
+      (t[9] = l),
+      (t[10] = u),
+      (t[11] = r),
+      (t[12] = c.pathname),
+      (t[13] = x.length),
+      (t[14] = S),
+      (t[15] = C),
+      (t[16] = w),
+      (t[17] = T));
+  } else ((S = t[14]), (C = t[15]), (w = t[16]), (T = t[17]));
+  let E = T,
+    D;
+  t[20] !== E || t[21] !== S || t[22] !== o
+    ? ((D = E
+        ? o.formatMessage(
+            {
+              id: `codex.recentTasksMenu.triggerWithUnread`,
+              defaultMessage: `Recent tasks. {count, plural, one {# in progress} other {# in progress}}. Unread task updates`,
+              description: `Accessible label for opening the recent tasks menu when unread task updates are present`,
+            },
+            { count: S },
+          )
+        : o.formatMessage(
+            {
+              id: `codex.recentTasksMenu.trigger`,
+              defaultMessage: `Recent tasks. {count, plural, one {# in progress} other {# in progress}}`,
+              description: `Accessible label for opening the recent tasks menu`,
+            },
+            { count: S },
+          )),
+      (t[20] = E),
+      (t[21] = S),
+      (t[22] = o),
+      (t[23] = D))
+    : (D = t[23]);
+  let k = D,
+    A;
+  t[24] !== s || t[25] !== d || t[26] !== _
+    ? ((A = () => {
+        d && s === `chatgpt` && _.refetch();
+      }),
+      (t[24] = s),
+      (t[25] = d),
+      (t[26] = _),
+      (t[27] = A))
+    : (A = t[27]);
+  let j;
+  (t[28] === d ? (j = t[29]) : ((j = [d]), (t[28] = d), (t[29] = j)), (0, Kn.useEffect)(A, j));
+  let M, N;
+  (t[30] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((M = () => {
+        let e = (e) => f(!0);
+        return (
+          window.addEventListener(`open-recent-tasks-menu`, e),
+          () => window.removeEventListener(`open-recent-tasks-menu`, e)
+        );
+      }),
+      (N = []),
+      (t[30] = M),
+      (t[31] = N))
+    : ((M = t[30]), (N = t[31])),
+    (0, Kn.useEffect)(M, N));
+  let P;
+  t[32] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((P = (0, Q.jsx)(q, {
+        id: `codex.recentTasksMenu.tooltip`,
+        defaultMessage: `Task history`,
+        description: `Tooltip text for recent tasks menu`,
+      })),
+      (t[32] = P))
+    : (P = t[32]);
+  let F = C ? `ghostActive` : `ghost`,
+    te = C ? `default` : `icon`,
+    re = C && `max-w-full min-w-0 !px-0 !py-0 hover:!bg-transparent hover:opacity-80`,
+    I;
+  t[33] === re ? (I = t[34]) : ((I = ae(`relative`, re)), (t[33] = re), (t[34] = I));
+  let L = C ? void 0 : k,
+    R;
+  t[35] === E
+    ? (R = t[36])
+    : ((R = E
+        ? (0, Q.jsx)(`span`, {
+            "aria-hidden": `true`,
+            className: `absolute top-0.5 right-0.5 size-1.5 rounded-full`,
+            style: { backgroundColor: `var(--vscode-textLink-foreground)` },
+          })
+        : null),
+      (t[35] = E),
+      (t[36] = R));
+  let z;
+  t[37] !== r || t[38] !== C || t[39] !== w
+    ? ((z = C
+        ? (0, Q.jsxs)(Q.Fragment, {
+            children: [
+              (0, Q.jsx)(`span`, { className: ae(`min-w-0 truncate`, !1), children: r }),
+              (0, Q.jsx)(oe, { className: `icon-2xs shrink-0 text-token-text-tertiary` }),
+            ],
+          })
+        : w
+          ? (0, Q.jsx)(`span`, {
+              className: `relative inline-flex size-4 justify-center`,
+              children: (0, Q.jsx)(ee, { className: `icon-xs` }),
+            })
+          : (0, Q.jsx)(b, { className: `icon-xs hover:opacity-80` })),
+      (t[37] = r),
+      (t[38] = C),
+      (t[39] = w),
+      (t[40] = z))
+    : (z = t[40]);
+  let B;
+  t[41] !== S || t[42] !== o
+    ? ((B = o.formatMessage(
+        {
+          id: `codex.recentTasksMenu.count`,
+          defaultMessage: `{count, plural, =0 {No tasks in progress} one {# task in progress} other {# tasks in progress}}`,
+          description: `Live region text announcing in-progress task count for recent tasks trigger`,
+        },
+        { count: S },
+      )),
+      (t[41] = S),
+      (t[42] = o),
+      (t[43] = B))
+    : (B = t[43]);
+  let V;
+  t[44] === B
+    ? (V = t[45])
+    : ((V = (0, Q.jsx)(`span`, {
+        className: `sr-only`,
+        "aria-live": `polite`,
+        "aria-atomic": `true`,
+        children: B,
+      })),
+      (t[44] = B),
+      (t[45] = V));
+  let H;
+  t[46] !== C ||
+  t[47] !== F ||
+  t[48] !== te ||
+  t[49] !== I ||
+  t[50] !== L ||
+  t[51] !== R ||
+  t[52] !== z ||
+  t[53] !== V
+    ? ((H = (0, Q.jsx)(ie, {
+        tooltipContent: P,
+        children: (0, Q.jsxs)(O, {
+          color: F,
+          size: te,
+          className: I,
+          allowShrink: C,
+          "aria-label": L,
+          children: [R, z, V],
+        }),
+      })),
+      (t[46] = C),
+      (t[47] = F),
+      (t[48] = te),
+      (t[49] = I),
+      (t[50] = L),
+      (t[51] = R),
+      (t[52] = z),
+      (t[53] = V),
+      (t[54] = H))
+    : (H = t[54]);
+  let U;
+  t[55] === l ? (U = t[56]) : ((U = l ?? []), (t[55] = l), (t[56] = U));
+  let W;
+  t[57] !== m || t[58] !== d || t[59] !== _ || t[60] !== a || t[61] !== U
+    ? ((W = (0, Q.jsx)(jn, {
+        cloudtasksQuery: _,
+        localConversations: U,
+        onClose: m,
+        autoFocusSearch: d,
+        showFilters: a,
+      })),
+      (t[57] = m),
+      (t[58] = d),
+      (t[59] = _),
+      (t[60] = a),
+      (t[61] = U),
+      (t[62] = W))
+    : (W = t[62]);
+  let se;
+  return (
+    t[63] !== d || t[64] !== H || t[65] !== W
+      ? ((se = (0, Q.jsx)(ne, {
+          contentClassName: `!pb-0 mt-[9px]`,
+          triggerButton: H,
+          open: d,
+          onOpenChange: f,
+          children: W,
+        })),
+        (t[63] = d),
+        (t[64] = H),
+        (t[65] = W),
+        (t[66] = se))
+      : (se = t[66]),
+    se
+  );
+}
+function Un(e) {
+  return xe(e);
+}
+function Wn(e) {
+  let t = e.task_status_display?.latest_turn_status_display?.turn_status;
+  return t === `in_progress` || t === `pending`;
+}
+var Gn,
+  Kn,
+  Q,
+  qn = e(() => {
+    ((Gn = n()),
+      I(),
+      (Kn = t(d(), 1)),
+      K(),
+      Se(),
+      Pe(),
+      _e(),
+      ye(),
+      Me(),
+      P(),
+      w(),
+      F(),
+      H(),
+      Ye(),
+      W(),
+      x(),
+      Ke(),
+      Vn(),
+      wn(),
+      (Q = v()));
+  });
+function Jn(e) {
+  let t = (0, $n.c)(66),
+    { className: n, desktopDeepLinkConversationId: r, title: i, onBack: a, trailing: o } = e,
+    s = Fe(),
+    c = a ?? Xn,
+    l = s.pathname === `/`,
+    u = Yn,
+    { data: d } = Ne(),
+    f = l,
+    p;
+  t[0] === f
+    ? (p = t[1])
+    : ((p = { taskFilter: `current`, limit: 20, enabled: f }), (t[0] = f), (t[1] = p));
+  let m = pe(p),
+    h;
+  t[2] === d ? (h = t[3]) : ((h = d ?? []), (t[2] = d), (t[3] = h));
+  let g = Tn(m.data, h, null),
+    _;
+  t[28] === n
+    ? (_ = t[29])
+    : ((_ = ae(`draggable extension:px-panel`, n)), (t[28] = n), (t[29] = _));
+  let v = `justify-between`,
+    y;
+  t[30] === v
+    ? (y = t[31])
+    : ((y = ae(`flex items-center electron:h-toolbar extension:py-row-y`, v)),
+      (t[30] = v),
+      (t[31] = y));
+  let b;
+  t[32] !== a || t[33] !== !1 ? ((b = null), (t[32] = a), (t[33] = !1), (t[34] = b)) : (b = t[34]);
+  let x;
+  t[35] !== c || t[36] !== g || t[37] !== i
+    ? ((x = (0, $.jsx)(`div`, {
+        className: `mr-3 line-clamp-1 flex min-w-0 flex-1 items-center gap-1 truncate`,
+        style: { viewTransitionName: `header-title` },
+        children: i
+          ? (0, $.jsxs)(`div`, {
+              className: `flex min-w-0 flex-1 items-center gap-1`,
+              children: [
+                (0, $.jsx)(Qn, { onClick: c }),
+                (0, $.jsx)(O, {
+                  color: `ghostActive`,
+                  type: `button`,
+                  onClick: u,
+                  className: `min-w-0 flex-1 truncate !px-0 !py-0 text-left text-sm text-token-foreground hover:!bg-transparent hover:opacity-80 electron:font-medium`,
+                  children: (0, $.jsx)(`span`, { className: `truncate`, children: i }),
+                }),
+              ],
+            })
+          : (0, $.jsx)(`span`, {
+              className: `text-token-description-foreground`,
+              children: (0, $.jsx)(Zn, { mergedTasks: g, onBack: c, showBackButton: !0 }),
+            }),
+      })),
+      (t[35] = c),
+      (t[36] = g),
+      (t[37] = i),
+      (t[38] = x))
+    : (x = t[38]);
+  let S;
+  t[39] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((S = (0, $.jsx)(Hn, {})), (t[39] = S))
+    : (S = t[39]);
+  let C;
+  t[40] === r
+    ? (C = t[41])
+    : ((C = (0, $.jsx)(N, {
+        chromeExtension: !0,
+        children: (0, $.jsx)(bt, { conversationId: r }),
+      })),
+      (t[40] = r),
+      (t[41] = C));
+  let w;
+  t[42] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((w = (0, $.jsx)(N, { extension: !0, children: (0, $.jsx)(Ue, {}) })), (t[42] = w))
+    : (w = t[42]);
+  let T;
+  t[43] === !0 ? (T = t[44]) : ((T = (0, $.jsx)(Nt, {})), (t[43] = !0), (t[44] = T));
+  let E;
+  t[45] !== C || t[46] !== T
+    ? ((E = (0, $.jsx)(N, {
+        chromeExtension: !0,
+        extension: !0,
+        children: (0, $.jsx)(`div`, {
+          className: `flex flex-shrink-0 items-center`,
+          children: (0, $.jsxs)(`div`, {
+            className: `flex items-center gap-1`,
+            children: [S, C, w, T],
+          }),
+        }),
+      })),
+      (t[45] = C),
+      (t[46] = T),
+      (t[47] = E))
+    : (E = t[47]);
+  let D;
+  t[48] !== E || t[49] !== o
+    ? ((D = (0, $.jsxs)(`div`, {
+        className: `flex flex-shrink-0 items-center gap-1`,
+        children: [o, E],
+      })),
+      (t[48] = E),
+      (t[49] = o),
+      (t[50] = D))
+    : (D = t[50]);
+  let k;
+  t[51] !== D || t[52] !== y || t[53] !== b || t[54] !== x
+    ? ((k = (0, $.jsxs)(`div`, { className: y, children: [b, x, D] })),
+      (t[51] = D),
+      (t[52] = y),
+      (t[53] = b),
+      (t[54] = x),
+      (t[55] = k))
+    : (k = t[55]);
+  let A;
+  t[56] !== l || t[57] !== g || t[58] !== m
+    ? ((A =
+        l && (0, $.jsx)(`div`, { children: (0, $.jsx)(Bt, { tasksQuery: m, mergedTasks: g }) })),
+      (t[56] = l),
+      (t[57] = g),
+      (t[58] = m),
+      (t[59] = A))
+    : (A = t[59]);
+  let j;
+  t[60] === A
+    ? (j = t[61])
+    : ((j = (0, $.jsx)(N, { extension: !0, children: A })), (t[60] = A), (t[61] = j));
+  let M;
+  return (
+    t[62] !== k || t[63] !== j || t[64] !== _
+      ? ((M = (0, $.jsxs)(`div`, { className: _, children: [k, j] })),
+        (t[62] = k),
+        (t[63] = j),
+        (t[64] = _),
+        (t[65] = M))
+      : (M = t[65]),
+    M
+  );
+}
+function Yn() {
+  window.dispatchEvent(new CustomEvent(`open-recent-tasks-menu`));
+}
+function Xn() {
+  k(`newThread`, `header_new_thread`);
+}
+function Zn(e) {
+  let t = (0, $n.c)(21),
+    { mergedTasks: n, onBack: r, showBackButton: i } = e,
+    a = Fe().pathname === `/`,
+    s = Ae(`/local/:conversationId`)?.params?.conversationId ?? null,
+    c;
+  t[0] === s ? (c = t[1]) : ((c = s == null ? null : l(s)), (t[0] = s), (t[1] = c));
+  let u = c,
+    d = Ae(`/remote/:taskId`)?.params?.taskId ?? null,
+    { data: f } = he(d),
+    p = o(Ce, u),
+    m = o(Qe, u);
+  if (d && f?.task?.title) {
+    let e;
+    t[2] !== r || t[3] !== i
+      ? ((e = i ? (0, $.jsx)(Qn, { onClick: r }) : null), (t[2] = r), (t[3] = i), (t[4] = e))
+      : (e = t[4]);
+    let n;
+    t[5] === f.task.title
+      ? (n = t[6])
+      : ((n = (0, $.jsx)(`span`, {
+          className: `min-w-0 flex-1 text-base text-token-foreground`,
+          children: f.task.title,
+        })),
+        (t[5] = f.task.title),
+        (t[6] = n));
+    let a;
+    return (
+      t[7] !== e || t[8] !== n
+        ? ((a = (0, $.jsxs)(`div`, {
+            className: `flex min-w-0 items-center gap-1`,
+            children: [e, n],
+          })),
+          (t[7] = e),
+          (t[8] = n),
+          (t[9] = a))
+        : (a = t[9]),
+      a
+    );
+  }
+  if (u && p) {
+    let e;
+    t[10] !== r || t[11] !== i
+      ? ((e = i ? (0, $.jsx)(Qn, { onClick: r }) : null), (t[10] = r), (t[11] = i), (t[12] = e))
+      : (e = t[12]);
+    let n;
+    t[13] === m
+      ? (n = t[14])
+      : ((n =
+          m ||
+          (0, $.jsx)(q, {
+            id: `codex.taskRow.title`,
+            defaultMessage: `New chat`,
+            description: `Default title for a Codex thread that doesn't have a title`,
+          })),
+        (t[13] = m),
+        (t[14] = n));
+    let a;
+    t[15] === n
+      ? (a = t[16])
+      : ((a = (0, $.jsx)(`span`, {
+          className: `min-w-0 flex-1 text-base text-token-foreground`,
+          children: n,
+        })),
+        (t[15] = n),
+        (t[16] = a));
+    let o;
+    return (
+      t[17] !== e || t[18] !== a
+        ? ((o = (0, $.jsxs)(`div`, {
+            className: `flex min-w-0 items-center gap-1`,
+            children: [e, a],
+          })),
+          (t[17] = e),
+          (t[18] = a),
+          (t[19] = o))
+        : (o = t[19]),
+      o
+    );
+  }
+  if (a) {
+    if (n.length === 0) return null;
+    let e;
+    return (
+      t[20] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, $.jsx)(q, {
+            id: `header.recentChats`,
+            defaultMessage: `Tasks`,
+            description: `Header label for recent tasks`,
+          })),
+          (t[20] = e))
+        : (e = t[20]),
+      e
+    );
+  }
+  return null;
+}
+function Qn(e) {
+  let t = (0, $n.c)(7),
+    { onClick: n } = e,
+    r = Ve(),
+    i;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((i = (0, $.jsx)(q, { ...er.backButton })), (t[0] = i))
+    : (i = t[0]);
+  let a;
+  t[1] === r ? (a = t[2]) : ((a = r.formatMessage(er.backButton)), (t[1] = r), (t[2] = a));
+  let o;
+  t[3] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((o = (0, $.jsx)(ft, { className: `size-3` })), (t[3] = o))
+    : (o = t[3]);
+  let s;
+  return (
+    t[4] !== n || t[5] !== a
+      ? ((s = (0, $.jsx)(N, {
+          chromeExtension: !0,
+          extension: !0,
+          children: (0, $.jsx)(ie, {
+            tooltipContent: i,
+            children: (0, $.jsx)(O, {
+              color: `ghost`,
+              size: `icon`,
+              onClick: n,
+              className: `opacity-70 hover:bg-transparent hover:opacity-100 focus:bg-transparent active:bg-transparent`,
+              "aria-label": a,
+              children: o,
+            }),
+          }),
+        })),
+        (t[4] = n),
+        (t[5] = a),
+        (t[6] = s))
+      : (s = t[6]),
+    s
+  );
+}
+var $n,
+  $,
+  er,
+  tr = e(() => {
+    (($n = n()),
+      I(),
+      g(),
+      a(),
+      K(),
+      Se(),
+      Pe(),
+      ge(),
+      Me(),
+      U(),
+      P(),
+      H(),
+      D(),
+      dt(),
+      V(),
+      it(),
+      We(),
+      Mt(),
+      Lt(),
+      Gt(),
+      qn(),
+      An(),
+      ($ = v()),
+      (er = Ie({
+        backButton: {
+          id: `header.back`,
+          defaultMessage: `Back`,
+          description: `Back button label for returning to the previous screen`,
+        },
+        newChatTitle: {
+          id: `header.newChatTitle`,
+          defaultMessage: `New chat`,
+          description: `Fallback title shown in the Chrome extension side panel header before a chat exists`,
+        },
+      })));
+  });
+export { tr as n, Jn as t };
+//# sourceMappingURL=header.js.map

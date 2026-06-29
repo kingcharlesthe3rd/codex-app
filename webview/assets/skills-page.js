@@ -1,0 +1,972 @@
+import { n as e, s as t } from "./rolldown-runtime.js";
+import {
+  Ht as n,
+  Ol as r,
+  Ut as i,
+  kl as a,
+  oc as o,
+  ol as s,
+  rl as c,
+  sc as l,
+  sl as u,
+  tc as d,
+  xl as f,
+} from "./app-initial~app-main~remote-conversation-page~pull-requests-page~new-thread-panel-page~proj~i4yy32ef.js";
+import {
+  Mn as p,
+  Nn as m,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~new-thread-panel-page~o~hgx54pg3.js";
+import {
+  $u as h,
+  Jp as ee,
+  Sl as g,
+  Yp as _,
+  nd as te,
+  op as ne,
+  rd as v,
+  sp as y,
+  td as re,
+  xl as ie,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~plug~fjtgnfyk.js";
+import {
+  G_ as ae,
+  Jr as oe,
+  Xr as se,
+  _n as ce,
+  _v as le,
+  am as ue,
+  aw as b,
+  cw as x,
+  dn as de,
+  dv as S,
+  rm as fe,
+  uw as pe,
+  yv as me,
+} from "./app-initial~app-main~onboarding-page~select-workspace-page.js";
+import { At as C, kt as he } from "./app-initial~app-main~automations-page.js";
+import {
+  _n as ge,
+  bn as _e,
+  vn as ve,
+} from "./app-initial~app-main~remote-conversation-page~pull-requests-page~onboarding-page~hotkey-win~fzw0jvy4.js";
+import {
+  Dn as ye,
+  On as w,
+  at as be,
+  it as T,
+} from "./app-initial~app-main~remote-conversation-page~onboarding-page~hotkey-window-thread-page~thr~bsekxs5f.js";
+import {
+  ct as xe,
+  lt as Se,
+} from "./app-initial~app-main~remote-conversation-page~projects-index-page~hotkey-window-thread-page~hc7acb17.js";
+import {
+  Sn as Ce,
+  xn as we,
+} from "./app-initial~app-main~remote-conversation-page~projects-index-page.js";
+import {
+  M as E,
+  P as D,
+} from "./app-initial~app-main~remote-conversation-page~plugin-detail-page~new-thread-panel-page~pric~dbjkmxsl.js";
+import { n as O, t as Te } from "./page-search-input.js";
+import { n as Ee, t as k } from "./use-element-in-view.js";
+import {
+  B as De,
+  G as Oe,
+  I as ke,
+  J as A,
+  L as Ae,
+  R as je,
+  ct as Me,
+  st as Ne,
+  v as Pe,
+  y as Fe,
+  z as Ie,
+} from "./plugin-detail-page-1.js";
+import {
+  a as Le,
+  c as Re,
+  i as ze,
+  l as j,
+  n as M,
+  o as Be,
+  r as Ve,
+  s as He,
+  t as N,
+  u as Ue,
+} from "./plugins-page.js";
+import { n as We, t as Ge } from "./settings-host-dropdown.js";
+function P() {
+  let e = (0, I.c)(3),
+    t;
+  if (
+    (e[0] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((t = { hostId: me }), (e[0] = t))
+      : (t = e[0]),
+    g(t))
+  ) {
+    let t;
+    return (
+      e[1] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((t = (0, R.jsx)(N, {})), (e[1] = t))
+        : (t = e[1]),
+      t
+    );
+  }
+  let n;
+  return (
+    e[2] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((n = (0, R.jsx)(Ke, {})), (e[2] = n))
+      : (n = e[2]),
+    n
+  );
+}
+function Ke() {
+  let e = (0, I.c)(103),
+    t = o(n),
+    r = pe(),
+    { data: i } = ce(),
+    a = Ce(),
+    c = l(se),
+    d = m(c),
+    f;
+  e[0] === c ? (f = e[1]) : ((f = c?.map(Ye)), (e[0] = c), (e[1] = f));
+  let p = f,
+    [g, _] = (0, L.useState)(me),
+    v;
+  e[2] !== d || e[3] !== g ? ((v = Se(g, d)), (e[2] = d), (e[3] = g), (e[4] = v)) : (v = e[4]);
+  let y = v,
+    [re, ie] = (0, L.useState)(null),
+    [oe, le] = (0, L.useState)(null),
+    b;
+  e[5] !== oe || e[6] !== re
+    ? ((b = { container: re, target: oe }), (e[5] = oe), (e[6] = re), (e[7] = b))
+    : (b = e[7]);
+  let de = Ee(b),
+    [S, fe] = (0, L.useState)(``),
+    [C, _e] = (0, L.useState)(!1),
+    w = s(Le),
+    be = u(Le),
+    {
+      forceReloadSkills: T,
+      installedSkillMatchKeys: xe,
+      isFetching: we,
+      isLoading: E,
+      markSkillsUpdated: D,
+      standaloneInstalledSkills: O,
+      workspaceRoots: k,
+    } = je(y),
+    {
+      canInstallRecommendedSkills: Oe,
+      defaultRecommendedRepoRoot: ke,
+      skillCreatorPath: A,
+    } = De(y),
+    { errorMessage: Me, isLoading: Ne, refresh: Pe, repoRoot: Fe, skills: ze } = Ie(ke, y),
+    j;
+  e[8] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((j = () => {
+        _e(!0);
+      }),
+      (e[8] = j))
+    : (j = e[8]);
+  let M;
+  e[9] !== T || e[10] !== y
+    ? ((M = { forceReloadSkills: T, hostId: y, onInstalled: j }),
+      (e[9] = T),
+      (e[10] = y),
+      (e[11] = M))
+    : (M = e[11]);
+  let { installRecommendedSkill: Ve, installingSkillId: He } = Ae(M),
+    N;
+  e[12] === r ? (N = e[13]) : ((N = ge({ scope: `repo`, intl: r })), (e[12] = r), (e[13] = N));
+  let Ue = N,
+    We = i?.name ?? void 0,
+    P;
+  e[14] !== r || e[15] !== We
+    ? ((P = ge({ scope: `admin`, intl: r, adminLabel: We })),
+      (e[14] = r),
+      (e[15] = We),
+      (e[16] = P))
+    : (P = e[16]);
+  let Ke = P,
+    F;
+  e[17] !== r || e[18] !== Ke || e[19] !== Ue || e[20] !== k
+    ? ((F = (e) => {
+        let { scope: t, skillPath: n } = e;
+        return ge({
+          scope: t,
+          intl: r,
+          repoLabel: ve({ skillPath: n, roots: k, fallbackLabel: Ue }),
+          adminLabel: Ke,
+        });
+      }),
+      (e[17] = r),
+      (e[18] = Ke),
+      (e[19] = Ue),
+      (e[20] = k),
+      (e[21] = F))
+    : (F = e[21]);
+  let Qe = F,
+    et;
+  if (e[22] !== S || e[23] !== O) {
+    let t = S.trim().toLowerCase();
+    ((et = O.filter((e) => {
+      let { skill: n } = e;
+      if (t.length === 0) return !0;
+      let r = te(n).toLowerCase(),
+        i = h(n).toLowerCase();
+      return n.name.toLowerCase().includes(t) || i.includes(t) || r.includes(t);
+    })),
+      (e[22] = S),
+      (e[23] = O),
+      (e[24] = et));
+  } else et = e[24];
+  let tt = et,
+    nt;
+  e[25] !== D || e[26] !== Pe
+    ? ((nt = async () => {
+        (D(), await Pe(), _e(!1));
+      }),
+      (e[25] = D),
+      (e[26] = Pe),
+      (e[27] = nt))
+    : (nt = e[27]);
+  let rt = nt,
+    it;
+  (e[28] === Symbol.for(`react.memo_cache_sentinel`) ? ((it = []), (e[28] = it)) : (it = e[28]),
+    (0, L.useEffect)(Je, it));
+  let z;
+  e[29] === de
+    ? (z = e[30])
+    : ((z = de
+        ? null
+        : (0, R.jsx)(x, {
+            id: `skills.page.heading`,
+            defaultMessage: `Skills`,
+            description: `Header title for the skills page`,
+          })),
+      (e[29] = de),
+      (e[30] = z));
+  let B;
+  e[31] !== d || e[32] !== p || e[33] !== y
+    ? ((B =
+        d != null && d.length > 0 && p != null
+          ? (0, R.jsx)(Ge, {
+              connectedRemoteConnections: d,
+              onSelectHost: _,
+              remoteConnectionHostIds: p,
+              selectedHostId: y,
+            })
+          : null),
+      (e[31] = d),
+      (e[32] = p),
+      (e[33] = y),
+      (e[34] = B))
+    : (B = e[34]);
+  let at = C ? `secondary` : `ghost`,
+    V;
+  e[35] === rt
+    ? (V = e[36])
+    : ((V = () => {
+        rt();
+      }),
+      (e[35] = rt),
+      (e[36] = V));
+  let ot = E || we,
+    st;
+  e[37] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((st = (0, R.jsx)(ye, { className: `icon-xs` })), (e[37] = st))
+    : (st = e[37]);
+  let H;
+  e[38] === C
+    ? (H = e[39])
+    : ((H = (0, R.jsx)(`span`, {
+        className: `hidden lg:inline`,
+        children: C
+          ? (0, R.jsx)(x, {
+              id: `skills.page.refreshSkillsToUseNew`,
+              defaultMessage: `Refresh to use new skill(s)`,
+              description: `Button label shown when newly installed skills require a refresh before they can be used in the composer`,
+            })
+          : (0, R.jsx)(x, {
+              id: `skills.page.refreshSkills`,
+              defaultMessage: `Refresh`,
+              description: `Button label for reloading skills list`,
+            }),
+      })),
+      (e[38] = C),
+      (e[39] = H));
+  let U;
+  e[40] !== at || e[41] !== V || e[42] !== ot || e[43] !== H
+    ? ((U = (0, R.jsxs)(ee, {
+        color: at,
+        size: `toolbar`,
+        onClick: V,
+        disabled: ot,
+        children: [st, H],
+      })),
+      (e[40] = at),
+      (e[41] = V),
+      (e[42] = ot),
+      (e[43] = H),
+      (e[44] = U))
+    : (U = e[44]);
+  let W;
+  e[45] === r
+    ? (W = e[46])
+    : ((W = r.formatMessage({
+        id: `skills.page.search.label`,
+        defaultMessage: `Search skills`,
+        description: `Label for the skills page search input`,
+      })),
+      (e[45] = r),
+      (e[46] = W));
+  let G;
+  e[47] === r
+    ? (G = e[48])
+    : ((G = r.formatMessage({
+        id: `skills.page.search`,
+        defaultMessage: `Search skills`,
+        description: `Placeholder for the skills page search input`,
+      })),
+      (e[47] = r),
+      (e[48] = G));
+  let K;
+  e[49] !== S || e[50] !== W || e[51] !== G
+    ? ((K = (0, R.jsx)(`div`, {
+        className: `hidden min-w-[160px] flex-1 lg:flex lg:w-[220px] lg:flex-none`,
+        children: (0, R.jsx)(Te, {
+          id: `skills-search`,
+          label: W,
+          placeholder: G,
+          searchQuery: S,
+          onSearchQueryChange: fe,
+        }),
+      })),
+      (e[49] = S),
+      (e[50] = W),
+      (e[51] = G),
+      (e[52] = K))
+    : (K = e[52]);
+  let q;
+  e[53] !== w || e[54] !== t || e[55] !== be || e[56] !== A || e[57] !== a
+    ? ((q = () => {
+        if (!A) return;
+        ue(t, ae, {});
+        let e = Be({ creatorPath: A, isFirstOpen: !w, kind: `skill` });
+        (w || be(!0), a({ prefillPrompt: e, startInSidebar: !0 }));
+      }),
+      (e[53] = w),
+      (e[54] = t),
+      (e[55] = be),
+      (e[56] = A),
+      (e[57] = a),
+      (e[58] = q))
+    : (q = e[58]);
+  let ct = !A,
+    lt,
+    ut;
+  e[59] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((lt = (0, R.jsx)(ne, { className: `icon-xs` })),
+      (ut = (0, R.jsx)(x, {
+        id: `skills.page.createSkill`,
+        defaultMessage: `New skill`,
+        description: `Button label for creating a new skill`,
+      })),
+      (e[59] = lt),
+      (e[60] = ut))
+    : ((lt = e[59]), (ut = e[60]));
+  let J;
+  e[61] !== q || e[62] !== ct
+    ? ((J = (0, R.jsxs)(ee, {
+        color: `primary`,
+        size: `toolbar`,
+        onClick: q,
+        disabled: ct,
+        children: [lt, ut],
+      })),
+      (e[61] = q),
+      (e[62] = ct),
+      (e[63] = J))
+    : (J = e[63]);
+  let Y;
+  e[64] !== B || e[65] !== U || e[66] !== K || e[67] !== J
+    ? ((Y = (0, R.jsxs)(`div`, {
+        className: `flex flex-nowrap items-center gap-1.5`,
+        children: [B, U, K, J],
+      })),
+      (e[64] = B),
+      (e[65] = U),
+      (e[66] = K),
+      (e[67] = J),
+      (e[68] = Y))
+    : (Y = e[68]);
+  let X;
+  e[69] !== z || e[70] !== Y
+    ? ((X = (0, R.jsx)(he, { start: z, trailing: Y })), (e[69] = z), (e[70] = Y), (e[71] = X))
+    : (X = e[71]);
+  let dt;
+  e[72] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((dt = (e) => {
+        ie(e);
+      }),
+      (e[72] = dt))
+    : (dt = e[72]);
+  let ft;
+  e[73] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((ft = (e) => {
+        le(e);
+      }),
+      (e[73] = ft))
+    : (ft = e[73]);
+  let pt;
+  e[74] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((pt = (0, R.jsx)(`div`, {
+        className: `heading-xl font-normal text-token-foreground`,
+        children: (0, R.jsx)(x, {
+          id: `skills.page.heading`,
+          defaultMessage: `Skills`,
+          description: `Header title for the skills page`,
+        }),
+      })),
+      (e[74] = pt))
+    : (pt = e[74]);
+  let mt;
+  e[75] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((mt = (0, R.jsx)(`div`, {
+        className: `flex items-end justify-between gap-4`,
+        children: (0, R.jsxs)(`div`, {
+          className: `flex flex-col gap-1`,
+          ref: ft,
+          children: [
+            pt,
+            (0, R.jsx)(`div`, {
+              className: `text-lg font-normal text-token-description-foreground`,
+              children: (0, R.jsx)(x, {
+                id: `skills.page.subheading`,
+                defaultMessage: `Give Codex superpowers. <link>Learn more</link>`,
+                description: `Subheading shown above the skills sections`,
+                values: { link: qe },
+              }),
+            }),
+          ],
+        }),
+      })),
+      (e[75] = mt))
+    : (mt = e[75]);
+  let ht;
+  e[76] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((ht = (0, R.jsx)(x, {
+        id: `skills.section.installed`,
+        defaultMessage: `Installed`,
+        description: `Heading for the installed skills section`,
+      })),
+      (e[76] = ht))
+    : (ht = e[76]);
+  let Z;
+  e[77] !== tt ||
+  e[78] !== Qe ||
+  e[79] !== E ||
+  e[80] !== D ||
+  e[81] !== y ||
+  e[82] !== O.length ||
+  e[83] !== k
+    ? ((Z = (0, R.jsx)(Xe, {
+        title: ht,
+        children: (0, R.jsx)(Ze, {
+          hostId: y,
+          isLoading: E,
+          uniqueSkillCount: O.length,
+          filteredSkills: tt,
+          getScopeBadgeLabel: Qe,
+          roots: k,
+          onSkillsUpdated: D,
+        }),
+      })),
+      (e[77] = tt),
+      (e[78] = Qe),
+      (e[79] = E),
+      (e[80] = D),
+      (e[81] = y),
+      (e[82] = O.length),
+      (e[83] = k),
+      (e[84] = Z))
+    : (Z = e[84]);
+  let gt;
+  e[85] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((gt = (0, R.jsx)(x, {
+        id: `skills.section.recommended`,
+        defaultMessage: `Recommended`,
+        description: `Heading for the recommended skills section`,
+      })),
+      (e[85] = gt))
+    : (gt = e[85]);
+  let Q;
+  e[86] !== Oe ||
+  e[87] !== Ve ||
+  e[88] !== xe ||
+  e[89] !== He ||
+  e[90] !== Ne ||
+  e[91] !== Fe ||
+  e[92] !== ze ||
+  e[93] !== Me ||
+  e[94] !== S ||
+  e[95] !== y
+    ? ((Q = (0, R.jsx)(Xe, {
+        title: gt,
+        children: (0, R.jsx)($e, {
+          hostId: y,
+          isLoading: Ne,
+          errorMessage: Me,
+          skills: ze,
+          searchQuery: S,
+          canInstall: Oe,
+          repoRoot: Fe,
+          onInstall: Ve,
+          installedSkillMatchKeys: xe,
+          installingSkillId: He,
+        }),
+      })),
+      (e[86] = Oe),
+      (e[87] = Ve),
+      (e[88] = xe),
+      (e[89] = He),
+      (e[90] = Ne),
+      (e[91] = Fe),
+      (e[92] = ze),
+      (e[93] = Me),
+      (e[94] = S),
+      (e[95] = y),
+      (e[96] = Q))
+    : (Q = e[96]);
+  let $;
+  e[97] !== Z || e[98] !== Q
+    ? (($ = (0, R.jsx)(`div`, {
+        className: `flex-1 overflow-y-auto p-panel`,
+        ref: dt,
+        children: (0, R.jsxs)(Re, {
+          className: `mx-auto flex min-h-full w-full max-w-[var(--thread-content-max-width)] flex-1 flex-col gap-8`,
+          children: [
+            mt,
+            (0, R.jsx)(`div`, {
+              className: `flex min-h-0 w-full flex-1`,
+              children: (0, R.jsxs)(`div`, {
+                className: `flex min-h-0 flex-1 flex-col gap-9 pb-10`,
+                children: [Z, Q],
+              }),
+            }),
+          ],
+        }),
+      })),
+      (e[97] = Z),
+      (e[98] = Q),
+      (e[99] = $))
+    : ($ = e[99]);
+  let _t;
+  return (
+    e[100] !== X || e[101] !== $
+      ? ((_t = (0, R.jsxs)(`div`, {
+          className: `mr-4 flex h-full flex-col text-base`,
+          children: [X, $],
+        })),
+        (e[100] = X),
+        (e[101] = $),
+        (e[102] = _t))
+      : (_t = e[102]),
+    _t
+  );
+}
+function qe(e) {
+  return (0, R.jsx)(`a`, {
+    href: E,
+    target: `_blank`,
+    rel: `noopener noreferrer`,
+    className: `text-token-link`,
+    children: e,
+  });
+}
+function Je() {
+  return ((document.documentElement.dataset.hideHeaderDivider = `true`), F);
+}
+function F() {
+  delete document.documentElement.dataset.hideHeaderDivider;
+}
+function Ye(e) {
+  return e.hostId;
+}
+function Xe(e) {
+  let t = (0, I.c)(5),
+    { title: n, children: r } = e,
+    i;
+  t[0] === n
+    ? (i = t[1])
+    : ((i = (0, R.jsx)(`div`, {
+        className: `pr-0.5 pl-2 text-base font-medium text-token-foreground opacity-75`,
+        children: n,
+      })),
+      (t[0] = n),
+      (t[1] = i));
+  let a;
+  return (
+    t[2] !== r || t[3] !== i
+      ? ((a = (0, R.jsxs)(`section`, { className: `flex flex-col gap-4`, children: [i, r] })),
+        (t[2] = r),
+        (t[3] = i),
+        (t[4] = a))
+      : (a = t[4]),
+    a
+  );
+}
+function Ze(e) {
+  let t = (0, I.c)(16),
+    {
+      hostId: n,
+      isLoading: r,
+      uniqueSkillCount: i,
+      filteredSkills: a,
+      getScopeBadgeLabel: o,
+      roots: s,
+      onSkillsUpdated: c,
+    } = e;
+  if (r) {
+    let e;
+    return (
+      t[0] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, R.jsx)(`div`, {
+            className: `flex min-h-0 flex-1 items-center justify-center`,
+            children: (0, R.jsx)(T, {
+              title: (0, R.jsx)(x, {
+                id: `skills.page.loading`,
+                defaultMessage: `Loading skills...`,
+                description: `Loading label on the skills page`,
+              }),
+            }),
+          })),
+          (t[0] = e))
+        : (e = t[0]),
+      e
+    );
+  }
+  if (i === 0) {
+    let e;
+    return (
+      t[1] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, R.jsx)(`div`, {
+            className: `flex min-h-0 flex-1 items-center justify-center`,
+            children: (0, R.jsx)(T, {
+              title: (0, R.jsx)(x, {
+                id: `skills.page.empty`,
+                defaultMessage: `No skills found`,
+                description: `Empty state on the skills page`,
+              }),
+            }),
+          })),
+          (t[1] = e))
+        : (e = t[1]),
+      e
+    );
+  }
+  if (a.length === 0) {
+    let e;
+    return (
+      t[2] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, R.jsx)(`div`, {
+            className: `flex min-h-0 flex-1 items-center justify-center`,
+            children: (0, R.jsx)(T, {
+              title: (0, R.jsx)(x, {
+                id: `skills.page.filteredEmpty`,
+                defaultMessage: `No skills match your filters`,
+                description: `Empty state when filters hide all skills`,
+              }),
+              description: (0, R.jsx)(x, {
+                id: `skills.page.filteredEmptyDescription`,
+                defaultMessage: `Try adjusting your search or scope filters`,
+                description: `Description for filtered skills empty state`,
+              }),
+            }),
+          })),
+          (t[2] = e))
+        : (e = t[2]),
+      e
+    );
+  }
+  let l;
+  if (t[3] !== a || t[4] !== o || t[5] !== n || t[6] !== c || t[7] !== s) {
+    let e;
+    (t[9] !== o || t[10] !== n || t[11] !== c || t[12] !== s
+      ? ((e = (e) => {
+          let { skill: t } = e,
+            r =
+              t.scope === `repo`
+                ? [
+                    (0, R.jsx)(
+                      Qe,
+                      { label: o({ scope: `repo`, skillPath: t.path }) },
+                      `${t.path}-repo`,
+                    ),
+                  ]
+                : [],
+            i = t.scope === `repo` ? Ne({ skillPath: t.path, roots: s }) : null;
+          return (0, R.jsx)(
+            Pe,
+            {
+              skill: t,
+              displayName: h(t),
+              hostId: n,
+              scopeBadges: r,
+              repoRoot: i,
+              onSkillsUpdated: c,
+            },
+            t.path,
+          );
+        }),
+        (t[9] = o),
+        (t[10] = n),
+        (t[11] = c),
+        (t[12] = s),
+        (t[13] = e))
+      : (e = t[13]),
+      (l = a.map(e)),
+      (t[3] = a),
+      (t[4] = o),
+      (t[5] = n),
+      (t[6] = c),
+      (t[7] = s),
+      (t[8] = l));
+  } else l = t[8];
+  let u;
+  return (
+    t[14] === l ? (u = t[15]) : ((u = (0, R.jsx)(j, { children: l })), (t[14] = l), (t[15] = u)), u
+  );
+}
+function Qe(e) {
+  let t = (0, I.c)(2),
+    { label: n } = e,
+    r;
+  return (
+    t[0] === n
+      ? (r = t[1])
+      : ((r = (0, R.jsx)(`span`, { className: `text-token-description-foreground`, children: n })),
+        (t[0] = n),
+        (t[1] = r)),
+    r
+  );
+}
+function $e(e) {
+  let t = (0, I.c)(31),
+    {
+      hostId: n,
+      isLoading: r,
+      errorMessage: i,
+      skills: a,
+      searchQuery: o,
+      canInstall: s,
+      repoRoot: c,
+      onInstall: l,
+      installedSkillMatchKeys: u,
+      installingSkillId: d,
+    } = e,
+    f,
+    p,
+    m;
+  if (
+    t[0] !== s ||
+    t[1] !== i ||
+    t[2] !== n ||
+    t[3] !== u ||
+    t[4] !== d ||
+    t[5] !== r ||
+    t[6] !== l ||
+    t[7] !== c ||
+    t[8] !== o ||
+    t[9] !== a
+  ) {
+    m = Symbol.for(`react.early_return_sentinel`);
+    bb0: {
+      let e;
+      t[13] === u
+        ? (e = t[14])
+        : ((e = (e) => !A({ installedSkillMatchKeys: u, skill: e })), (t[13] = u), (t[14] = e));
+      let h = a.filter(e),
+        ee = o.trim().toLowerCase(),
+        g = h.filter((e) =>
+          ee.length === 0
+            ? !0
+            : [e.name, e.description, e.shortDescription ?? ``]
+                .join(` `)
+                .toLowerCase()
+                .includes(ee),
+        );
+      if (r) {
+        let e;
+        (t[15] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, R.jsx)(`div`, {
+              className: `flex min-h-0 flex-1 items-center justify-center`,
+              children: (0, R.jsx)(T, {
+                title: (0, R.jsx)(x, {
+                  id: `skills.page.loading`,
+                  defaultMessage: `Loading skills...`,
+                  description: `Loading label on the skills page`,
+                }),
+              }),
+            })),
+            (t[15] = e))
+          : (e = t[15]),
+          (m = e));
+        break bb0;
+      }
+      if (i) {
+        let e;
+        t[16] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, R.jsx)(x, {
+              id: `skills.recommended.error`,
+              defaultMessage: `Unable to load recommended skills`,
+              description: `Error title when recommended skills fail to load`,
+            })),
+            (t[16] = e))
+          : (e = t[16]);
+        let n;
+        (t[17] === i
+          ? (n = t[18])
+          : ((n = (0, R.jsx)(`div`, {
+              className: `flex min-h-0 flex-1 items-center justify-center`,
+              children: (0, R.jsx)(T, { title: e, description: i }),
+            })),
+            (t[17] = i),
+            (t[18] = n)),
+          (m = n));
+        break bb0;
+      }
+      if (h.length === 0) {
+        let e;
+        (t[19] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, R.jsx)(`div`, {
+              className: `flex min-h-0 flex-1 items-center justify-center`,
+              children: (0, R.jsx)(T, {
+                title: (0, R.jsx)(x, {
+                  id: `skills.page.empty`,
+                  defaultMessage: `No skills found`,
+                  description: `Empty state on the skills page`,
+                }),
+              }),
+            })),
+            (t[19] = e))
+          : (e = t[19]),
+          (m = e));
+        break bb0;
+      }
+      if (g.length === 0) {
+        let e;
+        (t[20] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, R.jsx)(`div`, {
+              className: `flex min-h-0 flex-1 items-center justify-center`,
+              children: (0, R.jsx)(T, {
+                title: (0, R.jsx)(x, {
+                  id: `skills.page.filteredEmpty`,
+                  defaultMessage: `No skills match your filters`,
+                  description: `Empty state when filters hide all skills`,
+                }),
+                description: (0, R.jsx)(x, {
+                  id: `skills.page.filteredEmptyDescription`,
+                  defaultMessage: `Try adjusting your search or scope filters`,
+                  description: `Description for filtered skills empty state`,
+                }),
+              }),
+            })),
+            (t[20] = e))
+          : (e = t[20]),
+          (m = e));
+        break bb0;
+      }
+      f = j;
+      let _;
+      (t[21] !== s || t[22] !== n || t[23] !== u || t[24] !== d || t[25] !== l || t[26] !== c
+        ? ((_ = (e) =>
+            (0, R.jsx)(
+              Ve,
+              {
+                skill: e,
+                canInstall: s,
+                hostId: n,
+                isInstalled: A({ installedSkillMatchKeys: u, skill: e }),
+                isInstalling: d === e.id,
+                repoRoot: c,
+                onInstall: l,
+              },
+              e.id,
+            )),
+          (t[21] = s),
+          (t[22] = n),
+          (t[23] = u),
+          (t[24] = d),
+          (t[25] = l),
+          (t[26] = c),
+          (t[27] = _))
+        : (_ = t[27]),
+        (p = g.map(_)));
+    }
+    ((t[0] = s),
+      (t[1] = i),
+      (t[2] = n),
+      (t[3] = u),
+      (t[4] = d),
+      (t[5] = r),
+      (t[6] = l),
+      (t[7] = c),
+      (t[8] = o),
+      (t[9] = a),
+      (t[10] = f),
+      (t[11] = p),
+      (t[12] = m));
+  } else ((f = t[10]), (p = t[11]), (m = t[12]));
+  if (m !== Symbol.for(`react.early_return_sentinel`)) return m;
+  let h;
+  return (
+    t[28] !== f || t[29] !== p
+      ? ((h = (0, R.jsx)(f, { children: p })), (t[28] = f), (t[29] = p), (t[30] = h))
+      : (h = t[30]),
+    h
+  );
+}
+var I,
+  L,
+  R,
+  et = e(() => {
+    ((I = r()),
+      S(),
+      c(),
+      d(),
+      (L = t(a(), 1)),
+      b(),
+      p(),
+      de(),
+      _(),
+      be(),
+      O(),
+      D(),
+      ie(),
+      we(),
+      y(),
+      w(),
+      fe(),
+      oe(),
+      i(),
+      We(),
+      xe(),
+      le(),
+      _e(),
+      v(),
+      M(),
+      Oe(),
+      Me(),
+      ze(),
+      Fe(),
+      re(),
+      Ue(),
+      ke(),
+      C(),
+      k(),
+      He(),
+      (R = f()));
+  });
+export { et as n, P as t };
+//# sourceMappingURL=skills-page.js.map

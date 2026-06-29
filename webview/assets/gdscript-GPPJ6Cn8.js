@@ -1,1 +1,0 @@
-import{n as e,t}from"./gdscript-BFz2r-Y8.js";e();export{t as default};

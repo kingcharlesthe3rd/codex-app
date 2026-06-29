@@ -1,0 +1,37 @@
+import { n as e } from "./rolldown-runtime.js";
+import {
+  r as t,
+  t as n,
+} from "./app-initial~app-main~remote-conversation-page~onboarding-page~hotkey-window-thread-page~thr~de1xfdde.js";
+function r(e) {
+  return {
+    type: e.schema.shape.type.value,
+    schema: e.schema,
+    run: (t, n) => e.run(e.schema.parse(t), n),
+  };
+}
+function i(e) {
+  let t = new Map();
+  for (let n of e) t.set(n.type, n.run);
+  return t;
+}
+var a = e(() => {});
+function o(e) {
+  s = e;
+}
+var s,
+  c,
+  l = e(() => {
+    (a(),
+      n(),
+      (s = null),
+      (c = r({
+        schema: t,
+        run: (e, t) => {
+          if (s == null) throw Error(`windows.tabs.open is unavailable in this app view`);
+          return s(e, t);
+        },
+      })));
+  });
+export { r as a, i, o as n, a as o, c as r, l as t };
+//# sourceMappingURL=app-initial~app-main~register-app-actions.js.map

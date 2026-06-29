@@ -1,0 +1,5545 @@
+import { n as e, s as t } from "./rolldown-runtime.js";
+import {
+  $c as n,
+  A as r,
+  Cl as i,
+  F as a,
+  G as o,
+  Gc as s,
+  H as c,
+  Ha as l,
+  Hn as u,
+  Ht as d,
+  I as f,
+  Jt as p,
+  L as m,
+  Ol as h,
+  P as g,
+  Q as _,
+  Qc as v,
+  R as y,
+  Tt as b,
+  U as x,
+  Ua as S,
+  Ut as C,
+  Va as w,
+  W as T,
+  Wc as E,
+  Wt as D,
+  Xc as O,
+  Y as k,
+  Ya as A,
+  Yc as j,
+  Yt as M,
+  Z as ee,
+  _ as te,
+  _t as ne,
+  ac as re,
+  b as ie,
+  bt as ae,
+  cc as oe,
+  dl as se,
+  f as ce,
+  gt as le,
+  h as ue,
+  hi as de,
+  ho as fe,
+  k as pe,
+  kl as me,
+  lt as he,
+  m as ge,
+  nt as _e,
+  oc as ve,
+  p as ye,
+  qa as be,
+  rt as xe,
+  sc as N,
+  tc as P,
+  ut as Se,
+  v as Ce,
+  wt as we,
+  x as Te,
+  xl as Ee,
+  xt as De,
+  yt as Oe,
+} from "./app-initial~app-main~remote-conversation-page~pull-requests-page~new-thread-panel-page~proj~i4yy32ef.js";
+import {
+  $p as ke,
+  Do as Ae,
+  Eo as je,
+  Jp as Me,
+  Js as Ne,
+  Qd as Pe,
+  Qp as Fe,
+  Xd as Ie,
+  Yp as Le,
+  am as Re,
+  ap as ze,
+  d as Be,
+  f as Ve,
+  im as He,
+  ip as Ue,
+  om as We,
+  qs as Ge,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~plug~fjtgnfyk.js";
+import {
+  $i as Ke,
+  At as qe,
+  B as Je,
+  Bl as Ye,
+  Bu as Xe,
+  Ca as Ze,
+  Db as Qe,
+  Eb as $e,
+  Fa as et,
+  Ga as tt,
+  Gi as nt,
+  H as rt,
+  Hi as it,
+  Jr as at,
+  Lb as ot,
+  Ll as st,
+  Pa as ct,
+  Rb as lt,
+  Tv as ut,
+  U as dt,
+  Ui as ft,
+  Vt as pt,
+  Vu as mt,
+  Xi as ht,
+  Xr as gt,
+  Yi as _t,
+  Yr as vt,
+  Zi as yt,
+  _t as bt,
+  _v as xt,
+  al as St,
+  am as Ct,
+  at as wt,
+  aw as Tt,
+  ca as Et,
+  cl as Dt,
+  dv as Ot,
+  ea as kt,
+  ep as At,
+  fl as jt,
+  go as Mt,
+  gt as Nt,
+  gv as Pt,
+  ht as Ft,
+  il as It,
+  ip as Lt,
+  it as Rt,
+  kl as zt,
+  ll as F,
+  mt as Bt,
+  nl as Vt,
+  nv as Ht,
+  ol as Ut,
+  pl as I,
+  qi as Wt,
+  rm as Gt,
+  rp as Kt,
+  rt as qt,
+  sl as Jt,
+  st as Yt,
+  ta as Xt,
+  tt as Zt,
+  uw as Qt,
+  wv as $t,
+  yv as en,
+} from "./app-initial~app-main~onboarding-page~select-workspace-page.js";
+import {
+  Fa as tn,
+  Ia as nn,
+  Nr as rn,
+  Pr as an,
+  ni as on,
+  oi as sn,
+  ri as cn,
+  ti as ln,
+} from "./app-initial~app-main~remote-conversation-page~pull-requests-page~onboarding-page~hotkey-win~fzw0jvy4.js";
+import {
+  h as un,
+  m as dn,
+} from "./app-initial~app-main~worktree-init-v2-page~appgen-settings-page~page~appgen-page~remote-con~dfrs7ujs-rL-9I_AY.js";
+import {
+  a as fn,
+  i as pn,
+  r as mn,
+} from "./app-initial~app-main~remote-conversation-page~onboarding-page~hotkey-window-thread-page~thr~jv7rs281-Cz-hxyhI.js";
+import {
+  r as hn,
+  t as gn,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~new-~fushs14r.js";
+import {
+  n as _n,
+  t as vn,
+} from "./app-initial~app-main~worktree-init-v2-page~appgen-settings-page~page~appgen-page~remote-con~iaodc20q.js";
+function yn(e, t) {
+  return [...e]
+    .map((e, t) => ({ connection: e, index: t }))
+    .sort((e, n) => {
+      let r = bn[t[e.connection.hostId] ?? `disconnected`],
+        i = bn[t[n.connection.hostId] ?? `disconnected`];
+      return r === i ? e.index - n.index : r - i;
+    })
+    .map(({ connection: e }) => e);
+}
+var bn,
+  xn = e(() => {
+    bn = { connected: 0, restarting: 1, error: 2, connecting: 3, disconnected: 4 };
+  });
+function Sn(e) {
+  let t;
+  return e.watch(({ get: n }) => {
+    let r = n(wn);
+    if (
+      (t === r.persistedSelectedRemoteHostId && (t = void 0),
+      r.isRemoteConnectionsLoading ||
+        r.persistedSelectedRemoteHostId === r.selectedRemoteHostId ||
+        r.sortedRemoteConnections.length === 0 ||
+        t === r.selectedRemoteHostId)
+    )
+      return;
+    b.info(`${Cn} persisted_selection_reconciled`, {
+      safe: {
+        availableConnectionCount: r.sortedRemoteConnections.length,
+        selectedConnectionState: r.selectedRemoteConnection == null ? `cleared` : `selected`,
+      },
+      sensitive: {
+        persistedSelectedRemoteHostId: r.persistedSelectedRemoteHostId,
+        selectedRemoteHostId: r.selectedRemoteHostId,
+      },
+    });
+    let i = r.selectedRemoteHostId;
+    ((t = i),
+      Lt(e, A.SELECTED_REMOTE_HOST_ID, i ?? void 0).catch((e) => {
+        throw (t === i && (t = void 0), e);
+      }));
+  });
+}
+var Cn,
+  wn,
+  Tn = e(() => {
+    (P(),
+      D(),
+      et(),
+      Kt(),
+      C(),
+      we(),
+      at(),
+      xn(),
+      (Cn = `[remote-connections/selection]`),
+      (wn = E(d, ({ get: e }) => {
+        let t = e(vt),
+          n = e(gt) ?? [],
+          r = yn(n, Object.fromEntries(n.map((t) => [t.hostId, e(Et, t.hostId)]))),
+          i = At(e, A.SELECTED_REMOTE_HOST_ID) ?? null,
+          a = t ? i : (r.find((e) => e.hostId === i)?.hostId ?? r[0]?.hostId ?? null);
+        return {
+          isRemoteConnectionsLoading: t,
+          persistedSelectedRemoteHostId: i,
+          remoteConnections: n,
+          selectedRemoteConnection: r.find((e) => e.hostId === a) ?? null,
+          selectedRemoteHostId: a,
+          sortedRemoteConnections: r,
+        };
+      })));
+  });
+function En({
+  activeLocalProjectCwd: e,
+  conversationCwd: t,
+  conversationHostId: n,
+  selectedRemoteProject: r,
+}) {
+  return t || n != null
+    ? { cwd: t === `~` ? null : t, hostId: n ?? `local` }
+    : r == null
+      ? { cwd: e, hostId: en }
+      : { cwd: r.remotePath, hostId: r.hostId };
+}
+function Dn(e) {
+  let t = (0, On.c)(13),
+    n = e === void 0 ? null : e,
+    r = re(Ze, n),
+    i = re(ct, n),
+    { data: a, isLoading: o } = N(nt),
+    s = N(it),
+    c = N(ft),
+    { remoteConnections: l } = N(wn),
+    { selectedRemoteProject: u } = Pe(),
+    [d] = ut(`host_config`),
+    f = a?.roots?.[0] ?? null,
+    p,
+    m;
+  t[0] !== s || t[1] !== r || t[2] !== i || t[3] !== d || t[4] !== l || t[5] !== u
+    ? ((p = En({
+        activeLocalProjectCwd: s,
+        conversationCwd: r,
+        conversationHostId: i,
+        selectedRemoteProject: u,
+      })),
+      (m = d && p.hostId === d.id ? d : Pt(p.hostId, l)),
+      (t[0] = s),
+      (t[1] = r),
+      (t[2] = i),
+      (t[3] = d),
+      (t[4] = l),
+      (t[5] = u),
+      (t[6] = p),
+      (t[7] = m))
+    : ((p = t[6]), (m = t[7]));
+  let h = m,
+    g = o || c,
+    _;
+  return (
+    t[8] !== f || t[9] !== h || t[10] !== p || t[11] !== g
+      ? ((_ = { activeWorkspaceRoot: f, isActiveWorkspaceRootLoading: g, hostConfig: h, ...p }),
+        (t[8] = f),
+        (t[9] = h),
+        (t[10] = p),
+        (t[11] = g),
+        (t[12] = _))
+      : (_ = t[12]),
+    _
+  );
+}
+var On,
+  kn = e(() => {
+    ((On = h()), P(), D(), et(), Tn(), Ie(), ht(), xt(), $t());
+  });
+function An(e) {
+  if (e == null) return null;
+  if (Ut(e)) return `browser`;
+  let t = e.tabId;
+  return t === Jt.DIFF
+    ? `review`
+    : t === Jt.MCP_APP || t.startsWith(`${Jt.MCP_APP}:`)
+      ? `mcp_app`
+      : t.startsWith(`artifact:`)
+        ? `artifact`
+        : t.startsWith(`automation:`)
+          ? `automation`
+          : t.startsWith(`file:`)
+            ? `file`
+            : t.startsWith(`pull-request:`)
+              ? `pull_request`
+              : `other`;
+}
+function jn(e) {
+  switch (e) {
+    case `chatgpt-thread`:
+      return `chatgpt_thread`;
+    case `client-local-thread`:
+      return `local_thread`;
+    case `home`:
+      return `home`;
+    case `local-thread`:
+      return `local_thread`;
+    case `new-thread-panel`:
+      return `new_thread_panel`;
+    case `other`:
+      return `other`;
+    case `remote-thread`:
+      return `remote_thread`;
+  }
+}
+var Mn = e(() => {
+  (St(), Dt());
+});
+function Nn(e, t) {
+  let n = An(t);
+  n != null && Ct(e, Ht, { routeKind: jn(e.value.routeKind), tab: n });
+}
+var Pn = e(() => {
+  (Ot(), Gt(), Mn());
+});
+function Fn(e, t, n) {
+  let r = t == null ? -1 : e.indexOf(t);
+  return r === -1 ? e.length : r + (n === `after` ? 1 : 0);
+}
+var In = e(() => {});
+function Ln({ panelId: e, panelOpen$: t, setPanelOpen: r }) {
+  let i = v(zt, []),
+    a = n(zt, (e) => null),
+    o = E(zt, ({ get: e }) =>
+      e(i)
+        .map((t) => e(a, t))
+        .filter((e) => e != null),
+    ),
+    s = n(zt, (e) => null),
+    c = v(zt, null),
+    l = v(zt, []),
+    u = E(zt, ({ get: e }) => {
+      let n = e(c),
+        r = e(i);
+      return n == null ? null : (e(a, n) ?? (e(t) && r[0] != null ? e(a, r[0]) : null));
+    }),
+    d = E(zt, ({ get: e }) => {
+      let t = e(u);
+      if (t == null) return null;
+      let n = e(s, t.tabId),
+        { tabId: r, kind: i } = t;
+      return `${i ?? r}-${n?.key ?? null}`;
+    });
+  function f(t, n, i) {
+    let {
+        activate: o = !0,
+        contextMenuItems: c,
+        hasExternalFocus: l,
+        highlightedIcon: u,
+        id: d,
+        icon: f,
+        isClosable: p,
+        isHighlighted: h = !1,
+        isLabel: _ = !1,
+        insertAfterTabId: v,
+        isPreview: y = !1,
+        kind: b,
+        onActivate: x,
+        onBeforeClose: S,
+        onClose: C,
+        onMove: w,
+        requiresWorkspaceReady: T,
+        defaultState: E,
+        props: D,
+        resetState: O,
+        trailingContent: k,
+        title: A,
+        tooltip: j,
+      } = i,
+      M = qn(n, d),
+      te = t.get(a, M);
+    if (te == null && !t.get(bt)) return M;
+    let ne = t.get(s, M),
+      re = ne?.value ?? E?.(),
+      ie = D ?? {};
+    ne == null && E != null && t.set(s, M, { key: 0, value: re });
+    let ae = {
+      Component: n,
+      contextMenuItems: c,
+      dndId: te?.dndId ?? zn(),
+      hasExternalFocus: l,
+      highlightedIcon: u,
+      icon: f,
+      isClosable: !_ && (p ?? !0),
+      isHighlighted: h,
+      isLabel: _,
+      isPreview: y,
+      kind: b,
+      onActivate: x,
+      onBeforeClose: S,
+      onClose: C,
+      onMove: w,
+      props: ie,
+      requiresWorkspaceReady: T,
+      defaultState: E,
+      renderPanel: ee(n, M, ie, re),
+      resetState: O,
+      tabId: M,
+      trailingContent: k,
+      title: A,
+      tooltip: j,
+    };
+    return (
+      m(t, ae, v),
+      o &&
+        (g(t, M),
+        r(t, !0),
+        requestAnimationFrame(() => {
+          Un(e, ae.tabId);
+        })),
+      M
+    );
+  }
+  function p(e, t, n) {
+    let r = e.get(a, t);
+    if (r == null) return;
+    let i = n.isPreview && !r.isPreview ? { ...n, isPreview: !1 } : n;
+    e.set(a, t, { ...r, ...i });
+  }
+  function m(e, t, n) {
+    let r = e.get(a, t.tabId),
+      o = t.isPreview && r != null ? { ...t, isPreview: r.isPreview } : t;
+    (o.isPreview && r == null && h(e),
+      e.set(a, t.tabId, o),
+      r ??
+        e.set(i, (e) => {
+          let t = n == null ? -1 : e.indexOf(n);
+          return t === -1 ? [...e, o.tabId] : [...e.slice(0, t + 1), o.tabId, ...e.slice(t + 1)];
+        }));
+  }
+  function h(e) {
+    let t = e.get(o).find((e) => e.isPreview) ?? null;
+    t != null &&
+      (T(e, t),
+      e.set(a, t.tabId, null),
+      e.set(i, (e) => e.filter((e) => e !== t.tabId)),
+      e.set(l, (e) => e.filter((e) => e !== t.tabId)));
+  }
+  function g(t, n) {
+    let r = n == null ? null : t.get(a, n);
+    if (n != null && r == null) return;
+    let i = t.get(u)?.tabId ?? null,
+      o = i == null ? null : t.get(a, i),
+      s = i != null && i !== n && Wn(e, o);
+    (A(t, n, !0),
+      r != null &&
+        (pt(t, e === `bottom` ? `bottom-panel` : `right-panel`),
+        s &&
+          requestAnimationFrame(() => {
+            Un(e, r.tabId);
+          })));
+  }
+  function _(e, n) {
+    let r = Vn(
+      e.get(o).map((e) => e.tabId),
+      e.get(u)?.tabId ?? null,
+      n,
+    );
+    return !e.get(t) || r == null ? !1 : (g(e, r), !0);
+  }
+  function y(e, t, n) {
+    let r = e.get(i),
+      a = r.indexOf(t),
+      o = r.indexOf(n);
+    if (a === -1 || o === -1 || a === o) return;
+    let s = [...r],
+      [c] = s.splice(a, 1);
+    c != null && (s.splice(o, 0, c), e.set(i, s));
+  }
+  function b(e, t, n, r, i = {}) {
+    if (n === M || e.get(n.tabById$, t) != null) return;
+    let a = x(e, t);
+    a != null && n.receiveMovedTab(e, a, r, i);
+  }
+  function x(t, n) {
+    let r = t.get(i),
+      o = r.indexOf(n),
+      u = t.get(a, n);
+    if (o === -1 || u == null) return null;
+    let d = t.get(s, n),
+      f = r.filter((e) => e !== n),
+      p = Bn(t, l, f);
+    return (
+      Kn(e, u.tabId),
+      t.set(a, n, null),
+      t.set(i, f),
+      t.set(l, p),
+      t.set(s, n, null),
+      t.get(c) === n && A(t, p[0] ?? Rn(f, o), !1),
+      { state: d, tab: u }
+    );
+  }
+  function S(t, n, o, { activate: c = !0, insertionPlacement: l = `before` } = {}) {
+    if (t.get(a, n.tab.tabId) != null) return;
+    let { tab: u } = n;
+    (u.isPreview && h(t), t.set(s, u.tabId, n.state));
+    let d = u.onMove?.(t, M),
+      f = d?.props ?? u.props,
+      p = {
+        ...u,
+        ...d,
+        props: f,
+        renderPanel: ee(u.Component, u.tabId, f, n.state?.value ?? u.defaultState?.()),
+      },
+      m = t.get(i),
+      _ = Fn(m, o, l);
+    (t.set(a, p.tabId, p),
+      t.set(i, [...m.slice(0, _), p.tabId, ...m.slice(_)]),
+      c &&
+        (g(t, p.tabId),
+        r(t, !0),
+        requestAnimationFrame(() => {
+          Un(e, p.tabId);
+        })));
+  }
+  function C(t, n) {
+    let o = t.get(i),
+      s = o.indexOf(n);
+    if (s === -1) return;
+    let d = t.get(a, n);
+    if (d?.onBeforeClose?.(t) === !1) return;
+    let f = Wn(e, d);
+    d != null && T(t, d);
+    let p = o.filter((e) => e !== n);
+    (t.set(a, n, null), t.set(i, p), p.length === 0 && r(t, !1));
+    let m = Bn(t, l, p);
+    (t.set(l, m),
+      t.get(c) === n &&
+        (A(t, m[0] ?? Rn(p, s), !1),
+        f &&
+          requestAnimationFrame(() => {
+            Un(e, t.get(u)?.tabId ?? null);
+          })));
+  }
+  function w(e, t) {
+    p(e, t, { isPreview: !1 });
+  }
+  function T(t, n) {
+    (Kn(e, n.tabId), n.onClose?.(t, e), t.set(s, n.tabId, null));
+  }
+  function D(e) {
+    let n = e.get(u);
+    return !e.get(t) || n == null || !n.isClosable ? !1 : (C(e, n.tabId), !0);
+  }
+  function O(e, t) {
+    let n = e
+      .get(o)
+      .filter((e) => e.tabId !== t && e.isClosable)
+      .map((e) => e.tabId)
+      .reverse();
+    for (let t of n) C(e, t);
+    e.get(a, t) != null && g(e, t);
+  }
+  function k(e, t) {
+    let n = e.get(i),
+      r = n.indexOf(t);
+    if (r === -1) return;
+    let o = n
+      .slice(r + 1)
+      .map((t) => e.get(a, t))
+      .filter((e) => e != null && e.isClosable)
+      .map((e) => e.tabId)
+      .reverse();
+    for (let t of o) C(e, t);
+  }
+  function A(t, n, r) {
+    let i = t.get(c),
+      o = i !== n;
+    if (
+      (r &&
+        i !== n &&
+        t.set(l, (e) => [...(i == null ? [] : [i]), ...e.filter((e) => e !== i && e !== n)]),
+      t.set(c, n),
+      n == null)
+    )
+      return;
+    let s = t.get(a, n);
+    (s?.onActivate?.(t),
+      e === `right` && o && Nn(t, s),
+      requestAnimationFrame(() => {
+        Hn(e, n);
+      }));
+  }
+  function j(e, t) {
+    let n = e.get(a, t);
+    e.set(s, t, (e) => ({
+      key: (e?.key ?? 0) + 1,
+      value:
+        e != null && n?.resetState != null ? n.resetState(e.value) : (n?.defaultState?.() ?? null),
+    }));
+  }
+  let M = {
+    activateAdjacentTab: _,
+    activeTabReactKey$: d,
+    resetTabState: j,
+    activateTab: g,
+    activeTab$: u,
+    closeActiveTab: D,
+    closeOtherTabs: O,
+    closeTab: C,
+    closeTabsToRight: k,
+    moveTabTo: b,
+    openTab: f,
+    panelId: e,
+    pinTab: w,
+    receiveMovedTab: S,
+    reorderTab: y,
+    tabById$: a,
+    tabIds$: i,
+    tabStateById$: s,
+    tabs$: o,
+    updateTab: p,
+  };
+  return M;
+  function ee(e, t, n, r) {
+    return (i, o) => {
+      let c = i.get(s, t),
+        l = c?.key ?? 0,
+        d = (e) => {
+          i.set(s, t, (t) => {
+            if ((t?.key ?? 0) !== l) return t;
+            let n = t == null ? r : t.value,
+              i = typeof e == `function` ? e(n) : e;
+            return Object.is(i, n) ? t : { key: l, value: i };
+          });
+        };
+      return (0, Yn.createElement)(e, {
+        ...(i.get(a, t)?.props ?? n),
+        onClose: o,
+        tabId: t,
+        isActive: i.get(u)?.tabId === t,
+        tabState: c == null ? r : c.value,
+        setTabState: d,
+      });
+    };
+  }
+}
+function Rn(e, t) {
+  return e[t - 1] ?? e[t] ?? null;
+}
+function zn() {
+  return ((Xn += 1), `app-shell-tab:${Xn}`);
+}
+function Bn(e, t, n) {
+  return e.get(t).filter((e) => n.includes(e));
+}
+function Vn(e, t, n) {
+  if (e.length < 2) return null;
+  let r = t == null ? -1 : e.indexOf(t);
+  return r === -1
+    ? n === `next`
+      ? (e[0] ?? null)
+      : (e.at(-1) ?? null)
+    : n === `next`
+      ? (e[(r + 1) % e.length] ?? null)
+      : (e[(r - 1 + e.length) % e.length] ?? null);
+}
+function Hn(e, t) {
+  for (let n of document.querySelectorAll(`[data-app-shell-tab-controller="${e}"]`))
+    if (
+      !(
+        !(n instanceof HTMLElement) ||
+        n.dataset.tabId !== t ||
+        typeof n.scrollIntoView != `function`
+      )
+    ) {
+      n.scrollIntoView({ behavior: `smooth`, block: `nearest`, inline: `nearest` });
+      return;
+    }
+}
+function Un(e, t) {
+  if (t == null) return;
+  let n = Gn(e, t),
+    r = n?.contains(document.activeElement) ?? !1;
+  n == null || r || n.focus({ preventScroll: !0 });
+}
+function Wn(e, t) {
+  let n = t?.tabId ?? null;
+  return n == null
+    ? !1
+    : Gn(e, n)?.contains(document.activeElement) === !0 || (t?.hasExternalFocus?.() ?? !1);
+}
+function Gn(e, t) {
+  return document.querySelector(
+    `[role="tabpanel"][data-app-shell-tab-panel-controller="${e}"][data-tab-id="${t}"]`,
+  );
+}
+function Kn(e, t) {
+  let n = document.fullscreenElement;
+  if (n != null) {
+    for (let r of document.querySelectorAll(`[data-app-shell-tab-panel-controller="${e}"]`))
+      if (!(!(r instanceof HTMLElement) || r.dataset.tabId !== t || !r.contains(n))) {
+        document.exitFullscreen().catch(() => void 0);
+        return;
+      }
+  }
+}
+function qn(e, t) {
+  if (t != null) return t;
+  let n = Zn.get(e);
+  if (n != null) return n;
+  let r = `component:${crypto.randomUUID()}`;
+  return (Zn.set(e, r), r);
+}
+function Jn(e, { excludeTab: t } = {}) {
+  return [
+    ...e.get(Qn.tabs$).filter((e) => t?.panelId !== `right` || e.tabId !== t.tabId),
+    ...e.get($n.tabs$).filter((e) => t?.panelId !== `bottom` || e.tabId !== t.tabId),
+  ];
+}
+var Yn,
+  Xn,
+  Zn,
+  Qn,
+  $n,
+  er = e(() => {
+    (P(),
+      (Yn = t(me(), 1)),
+      qe(),
+      Zt(),
+      st(),
+      Pn(),
+      In(),
+      (Xn = 0),
+      (Zn = new WeakMap()),
+      (Qn = Ln({ panelId: `right`, panelOpen$: dt, setPanelOpen: wt })),
+      ($n = Ln({ panelId: `bottom`, panelOpen$: Je, setPanelOpen: qt })));
+  });
+function tr(e) {
+  return e === `staged` || e === `unstaged`;
+}
+var L,
+  nr = e(() => {
+    (P(), st(), (L = v(zt, `unstaged`)));
+  });
+function rr({ defaultHostId: e, hostId: t, projectId: n, remoteProjects: r }) {
+  return t == null
+    ? { cwd: n, hostId: e }
+    : { cwd: r.find((e) => e.id === n)?.remotePath ?? null, hostId: t };
+}
+var ir,
+  ar,
+  R,
+  or,
+  z,
+  sr,
+  cr = e(() => {
+    (P(),
+      D(),
+      et(),
+      f(),
+      kn(),
+      st(),
+      I(),
+      ht(),
+      (ir = E(F, ({ get: e, scope: t }) => {
+        switch (t.value.routeKind) {
+          case `home`:
+          case `new-thread-panel`: {
+            let n =
+                t.value.routeKind !== `home` || t.value.projectContext == null
+                  ? null
+                  : rr({
+                      defaultHostId: e(Mt, null),
+                      hostId: t.value.projectContext.hostId,
+                      projectId: t.value.projectContext.projectId,
+                      remoteProjects: e(Ke),
+                    }),
+              r = e(Mt, null),
+              { cwd: i, hostId: a } = En({
+                activeLocalProjectCwd: e(it),
+                conversationCwd: null,
+                conversationHostId: null,
+                selectedRemoteProject: e(kt),
+              });
+            return { cwd: n?.cwd ?? i, hostId: n?.hostId ?? (a || r) };
+          }
+          case `client-local-thread`:
+            return { cwd: e(Ye) ?? e(nt).data?.roots?.[0] ?? null, hostId: e(Mt, null) };
+          case `local-thread`: {
+            let n = e(Xt)?.[t.value.conversationId],
+              r =
+                t.value.projectContext == null
+                  ? null
+                  : rr({
+                      defaultHostId: e(Mt, null),
+                      hostId: t.value.projectContext.hostId,
+                      projectId: t.value.projectContext.projectId,
+                      remoteProjects: e(Ke),
+                    });
+            return {
+              cwd: r?.cwd ?? p({ assignment: n, cwd: e(Ze, t.value.conversationId) }) ?? e(it),
+              hostId:
+                r?.hostId ??
+                (n == null ? null : M(n)) ??
+                e(ct, t.value.conversationId) ??
+                e(Mt, t.value.conversationId),
+            };
+          }
+          case `remote-thread`:
+          case `chatgpt-thread`:
+            return { cwd: null, hostId: e(Mt, null) };
+          case `other`:
+            throw Error(`Thread context is unavailable for non-thread routes`);
+        }
+      })),
+      (ar = E(F, ({ get: e, scope: t }) => {
+        switch (t.value.routeKind) {
+          case `home`:
+          case `new-thread-panel`:
+          case `client-local-thread`:
+          case `local-thread`:
+          case `remote-thread`:
+          case `chatgpt-thread`:
+            return e(Wt).data?.codexHome ?? null;
+          case `other`:
+            throw Error(`Thread context is unavailable for non-thread routes`);
+        }
+      })),
+      (R = E(F, ({ get: e }) => e(ir).cwd)),
+      (or = E(F, ({ get: e }) => e(ir).hostId)),
+      (z = E(F, ({ get: e }) => e(_t, e(or)))),
+      (sr = E(F, ({ get: e }) => a(e(z)))));
+  });
+function lr(e) {
+  let t = new Set();
+  for (let { displayPath: n } of e) {
+    let e = n.split(`/`);
+    for (let n = 1; n < e.length; n += 1) t.add(e.slice(0, n).join(`/`));
+  }
+  if (!e.some((e) => t.has(e.displayPath))) return e;
+  let n = new Set(e.map((e) => e.displayPath));
+  return e.map((e) => {
+    if (!t.has(e.displayPath)) return e;
+    let r = `${e.displayPath}${ur}`;
+    for (; n.has(r) || t.has(r); ) r = `${r}${ur}`;
+    return (n.add(r), { ...e, displayPath: r });
+  });
+}
+var ur,
+  dr = e(() => {
+    ur = `⁣`;
+  }),
+  fr,
+  pr,
+  mr,
+  hr,
+  gr = e(() => {
+    (P(),
+      C(),
+      ye(),
+      (fr = ce({
+        method: `current-branch`,
+        getParams: (e) => ({ operationSource: e.operationSource, root: e.root }),
+        getOptions: (e) => ({
+          refetchOnWindowFocus: e.refetchOnWindowFocus,
+          select: (e) => e.branch,
+          ...(e.staleTime == null ? {} : { staleTime: e.staleTime }),
+        }),
+      })),
+      (pr = fr.fromMetadata$),
+      (mr = fr.fromCwd$),
+      (hr = s(d, (e, { get: t }) => t(mr, e).data ?? null)));
+  });
+function _r({ codexHome: e, cwd: t, gitMetadata: n, hostId: r }) {
+  return t == null
+    ? { kind: `none`, codexHome: e, cwd: null, git: null, hostId: r, isCodexWorktree: !1 }
+    : n == null
+      ? { kind: `plain`, codexHome: e, cwd: t, git: null, hostId: r, isCodexWorktree: !1 }
+      : {
+          kind: `git`,
+          codexHome: e,
+          cwd: t,
+          git: n,
+          hostId: r,
+          isCodexWorktree: u(t, e ?? void 0),
+        };
+}
+var vr = e(() => {
+    D();
+  }),
+  yr,
+  br,
+  xr,
+  Sr,
+  Cr = e(() => {
+    (P(),
+      D(),
+      Ne(),
+      gr(),
+      g(),
+      y(),
+      I(),
+      cr(),
+      ht(),
+      vr(),
+      (yr = O(F, ({ get: e }) => {
+        let t = e(z),
+          n =
+            e(Ge, { hostConfig: t, operationSource: `local_conversation_thread` }).data
+              ?.available === !0;
+        return m(e(R), e(sr), t, `local_conversation_thread`, { enabled: n, watchForGitInit: !0 });
+      })),
+      (br = E(F, ({ get: e }) => {
+        let t = e(yr),
+          n = t.data ?? null;
+        return n == null
+          ? r(t)
+          : e(pr, {
+              commonDir: n.commonDir,
+              enabled: !0,
+              hostConfig: e(z),
+              operationSource: `local_conversation_thread`,
+              refetchOnWindowFocus: !1,
+              root: n.root,
+              staleTime: null,
+            });
+      })),
+      (xr = E(F, ({ get: e }) => {
+        let t = e(yr).data ?? null;
+        return _r({ codexHome: e(ar), cwd: e(R), gitMetadata: t, hostId: e(or) });
+      })),
+      (Sr = E(F, ({ get: e, scope: t }) => {
+        let n = e(xr);
+        switch (n.kind) {
+          case `none`:
+            return null;
+          case `plain`: {
+            let r = e(z),
+              i = t.value.routeKind === `local-thread` ? e(Xt)?.[t.value.conversationId] : null,
+              a = i?.projectKind === `local` ? e(yt, i.projectId) : null,
+              o = a?.length === 1 ? (a[0] ?? null) : null,
+              s = i == null ? n.cwd : p({ assignment: i, cwd: n.cwd }),
+              c =
+                t.value.routeKind !== `local-thread` && r.kind === `local` && r.id === n.hostId
+                  ? e(it)
+                  : null,
+              l = s != null && w(s) ? s : null;
+            return o ?? c ?? l;
+          }
+          case `git`:
+            return n.git.root;
+        }
+      })));
+  });
+function wr({
+  baseBranch: e,
+  changeKind: t,
+  commitSha: n = null,
+  cwd: r,
+  hostConfig: i,
+  hideWhitespace: o,
+  path: s,
+  previousPath: c,
+  signal: l,
+  source: u,
+}) {
+  return l?.aborted
+    ? Promise.reject(T())
+    : new Promise((d, f) => {
+        let p = `${a(i)}:${r}:${u}:${e ?? ``}:${n ?? ``}:${o}`,
+          m = Mr.get(p) ?? {
+            abortControllers: null,
+            baseBranch: e,
+            commitSha: n,
+            cwd: r,
+            hideWhitespace: o,
+            hostConfig: i,
+            paths: new Map(),
+            requestKey: p,
+            source: u,
+          },
+          h = {
+            changeKind: t,
+            disposeAbortListener: () => {},
+            previousPath: c ?? null,
+            reject: f,
+            resolve: d,
+          };
+        h.disposeAbortListener = Er({
+          abortPathRequest: () => {
+            Dr({ path: s, pendingRequest: m, pathRequest: h });
+          },
+          signal: l,
+        });
+        let g = m.paths.get(s);
+        (g != null && (g.disposeAbortListener(), g.reject(T())),
+          m.paths.set(s, h),
+          !Mr.has(p) &&
+            (Mr.set(p, m),
+            queueMicrotask(() => {
+              queueMicrotask(() => {
+                Mr.get(p) === m && Or(p);
+              });
+            })));
+      });
+}
+function Tr(e) {
+  return [
+    e.filter((e) => e.changeKind !== `untracked`),
+    e.filter((e) => e.changeKind === `untracked`),
+  ].filter((e) => e.length > 0);
+}
+function Er({ abortPathRequest: e, signal: t }) {
+  return t == null
+    ? () => {}
+    : (t.addEventListener(`abort`, e, { once: !0 }),
+      () => {
+        t.removeEventListener(`abort`, e);
+      });
+}
+function Dr({ path: e, pathRequest: t, pendingRequest: n }) {
+  if (
+    n.paths.get(e) === t &&
+    (t.disposeAbortListener(), n.paths.delete(e), t.reject(T()), !(n.paths.size > 0))
+  ) {
+    if (n.abortControllers != null) {
+      for (let e of n.abortControllers) e.abort();
+      return;
+    }
+    Mr.delete(n.requestKey);
+  }
+}
+async function Or(e) {
+  let t = Mr.get(e);
+  if (t == null || (Mr.delete(e), t.paths.size === 0)) return;
+  let n = new Set();
+  t.abortControllers = n;
+  try {
+    let e = Tr(
+      [...t.paths.entries()].map(([e, t]) => ({
+        path: e,
+        changeKind: t.changeKind,
+        previousPath: t.previousPath ?? void 0,
+      })),
+    );
+    await Promise.allSettled(
+      e.map(async (e) => {
+        let r = new AbortController(),
+          i = null;
+        n.add(r);
+        try {
+          kr({
+            diffs: (
+              await Promise.race([
+                x(`git`).request({
+                  method: `review-diff`,
+                  params: {
+                    ...jr({
+                      cwd: t.cwd,
+                      hideWhitespace: t.hideWhitespace,
+                      source: t.source,
+                      baseBranch: t.baseBranch,
+                      commitSha: t.commitSha,
+                    }),
+                    files: e,
+                    hostConfig: t.hostConfig,
+                    operationSource: `review_model`,
+                  },
+                  signal: r.signal,
+                }),
+                new Promise((e, t) => {
+                  i = setTimeout(() => {
+                    (t(Error(Fr)), r.abort());
+                  }, Pr);
+                }),
+              ])
+            ).diffs,
+            files: e,
+            hideWhitespace: t.hideWhitespace,
+            pendingRequest: t,
+          });
+        } catch (n) {
+          Ar({ error: n instanceof Error ? n : Error(String(n)), files: e, pendingRequest: t });
+        } finally {
+          (i != null && clearTimeout(i), n.delete(r));
+        }
+      }),
+    );
+  } finally {
+    for (let [, e] of t.paths) e.disposeAbortListener();
+    ((t.abortControllers = null), t.paths.clear());
+  }
+}
+function kr({ diffs: e, files: t, hideWhitespace: n, pendingRequest: r }) {
+  for (let i of t) {
+    let t = r.paths.get(i.path),
+      a = e[i.path];
+    if (t != null) {
+      if (a?.type === `success` && (a.diff.trim().length > 0 || n)) {
+        t.resolve(a);
+        continue;
+      }
+      t.reject(Error(Nr));
+    }
+  }
+}
+function Ar({ error: e, files: t, pendingRequest: n }) {
+  for (let r of t) n.paths.get(r.path)?.reject(e);
+}
+function jr({ baseBranch: e, commitSha: t, cwd: n, hideWhitespace: r, source: i }) {
+  return {
+    cwd: de(n),
+    ...(r ? { hideWhitespace: r } : {}),
+    source: i,
+    ...(i === `branch` && e != null ? { baseBranch: e } : {}),
+    ...(i === `commit` && t != null ? { commitSha: t } : {}),
+  };
+}
+var Mr,
+  Nr,
+  Pr,
+  Fr,
+  Ir = e(() => {
+    (D(), f(), c(), o(), (Mr = new Map()), (Nr = `load-failed`), (Pr = 15e3), (Fr = `timed-out`));
+  });
+function Lr({ cwd: e, path: t }) {
+  if (e == null || !_(t)) return t;
+  let n = xe(``, e),
+    r = l(e) || S(e) ? zr(n, t) : _e(Br.default.relative(n, t));
+  return r === `` ? k(t) : r;
+}
+function Rr({ gitRoot: e, gitPath: t }) {
+  let n = _e(t);
+  return e == null ? n : _e(xe(e, n));
+}
+function zr(e, t) {
+  let n = _e(e).split(`/`).filter(Boolean),
+    r = _e(t).split(`/`).filter(Boolean),
+    i = 0;
+  for (; n[i] != null && n[i]?.toLowerCase() === r[i]?.toLowerCase(); ) i += 1;
+  return [...n.slice(i).fill(`..`), ...r.slice(i)].join(`/`);
+}
+var Br,
+  Vr = e(() => {
+    ((Br = t(be(), 1)), D(), ee());
+  });
+function Hr(e, t) {
+  (e.set(Ur, null), e.set(L, t));
+}
+var Ur,
+  Wr = e(() => {
+    (P(), I(), nr(), (Ur = v(F, null)));
+  });
+function Gr(e, t, n, r = null) {
+  let i = e.isFetching || t.isFetching,
+    a = e.isPending || (!e.isError && n === void 0 && t.isPending);
+  return {
+    ...e,
+    data: n,
+    dataUpdatedAt: Math.max(e.dataUpdatedAt, t.dataUpdatedAt),
+    error: e.error ?? t.error ?? r,
+    isError: e.isError || t.isError || r != null,
+    isFetching: i,
+    isLoading: a && i,
+    isPending: a,
+    refetch: async (n) => {
+      let [, r] = await Promise.all([e.refetch(n), t.refetch(n)]);
+      return r;
+    },
+  };
+}
+function Kr(e, t = e.get(Wi)) {
+  let n = e.get(ji),
+    r = t === `branch` && n.data == null && n.isFetching,
+    i = qr({
+      baseBranch: e.get(Pi),
+      commitSha: e.get(B),
+      cwd: e.get(R),
+      enabled: e.get(W) && !r,
+      hideWhitespace: e.get(rn),
+      hostConfig: e.get(z),
+      metadata: e.get(V).data ?? null,
+      source: t,
+    });
+  return i == null ? null : e.query.snapshot(Ri, i);
+}
+function qr({
+  baseBranch: e,
+  commitSha: t,
+  cwd: n,
+  enabled: r,
+  hideWhitespace: i,
+  hostConfig: a,
+  metadata: o,
+  source: s,
+}) {
+  return o == null || n == null || s == null
+    ? null
+    : {
+        baseBranch: e,
+        commitSha: t,
+        commonDir: o.commonDir,
+        cwd: n,
+        enabled: r,
+        hideWhitespace: i,
+        hostConfig: a,
+        root: o.root,
+        source: s,
+      };
+}
+function Jr({ cwd: e, hideWhitespace: t, source: n, baseBranch: r, commitSha: i }) {
+  return {
+    cwd: de(e),
+    ...(t ? { hideWhitespace: t } : {}),
+    operationSource: `review_model`,
+    source: n,
+    ...(n === `branch` && r != null ? { baseBranch: r } : {}),
+    ...(n === `commit` && i != null ? { commitSha: i } : {}),
+  };
+}
+async function Yr(e) {
+  let t = e.get(V).data;
+  if (e.get(W) && t != null) {
+    try {
+      await ie({
+        clearUntrackedPathsCache: !0,
+        hostConfig: e.get(z),
+        operationSource: `review_model`,
+        root: t.root,
+      });
+    } catch {}
+    await ni(e, t);
+  }
+}
+async function Xr(e, t) {
+  await e.get(Gi, t).refetch();
+}
+async function Zr(e, { queueIfRefreshing: t = !1 } = {}) {
+  let n = e.get(V).data,
+    r = gi.get(e);
+  if (n == null) return;
+  if (r != null) {
+    if (!t) return;
+    try {
+      await r;
+    } catch {}
+  }
+  let a = Qr(e, n);
+  gi.set(e, a);
+  try {
+    await a;
+  } catch (e) {
+    if (!(e instanceof i)) throw e;
+  } finally {
+    gi.get(e) === a && gi.delete(e);
+  }
+}
+async function Qr(e, t) {
+  e.set(Di, !0);
+  try {
+    try {
+      await ie({
+        clearUntrackedPathsCache: !0,
+        hostConfig: e.get(z),
+        operationSource: `review_model`,
+        root: t.root,
+      });
+    } catch {}
+    await Promise.all([Ce(e.queryClient, t.commonDir, { hostKey: e.get(sr) }), li(e)]);
+  } finally {
+    e.set(Di, !1);
+  }
+}
+async function $r(e, t) {
+  let n = e.get(V).data,
+    r = e.get(R),
+    i = ei({ cwd: r, gitRoot: n?.root ?? null, paths: t });
+  if (!(!e.get(W) || n == null || r == null || i.length === 0)) {
+    try {
+      await ie({
+        clearUntrackedPathsCache: !1,
+        hostConfig: e.get(z),
+        operationSource: `review_model`,
+        paths: i,
+        root: n.root,
+      });
+    } catch {}
+    await ni(e, n);
+  }
+}
+function ei({ cwd: e, gitRoot: t, paths: n }) {
+  if (e == null || t == null) return [];
+  let r = xe(``, t);
+  return [
+    ...new Set(
+      n.flatMap((t) => {
+        if (t === ``) return [];
+        let n = mi.default.relative(r, xe(e, t));
+        return n === `` || n === `..` || n.startsWith(`../`) ? [] : [n];
+      }),
+    ),
+  ];
+}
+function ti(e) {
+  return e?.local == null ? null : e.remote == null ? e.local : `${e.remote}/${e.local}`;
+}
+async function ni(e, t) {
+  try {
+    await Promise.all([Te(e.queryClient, t, { hostKey: e.get(sr) }), li(e)]);
+  } catch (e) {
+    if (!(e instanceof i)) throw e;
+  }
+}
+function ri(e, t = null) {
+  return t ?? ti(e);
+}
+async function ii(e) {
+  e.get(Ui) && (await e.get(Li).refetch());
+}
+function ai(e, t, n) {
+  (e.set(_i, t), e.set(vi, n));
+}
+function oi(e, t, n) {
+  e.set(bi, t, n);
+}
+function si(e, t) {
+  (e.set(B, t), Hr(e, `commit`));
+}
+function ci(e) {
+  return e.watch((t) => {
+    if (t.get(L) === `commit`) {
+      let e = t.get(B);
+      if (e == null) {
+        Hr(t, `branch`);
+        return;
+      }
+      let n = t.get(Fi).data?.commits;
+      if (!(n == null || n.some((t) => t.sha === e))) {
+        (t.set(B, null), Hr(t, `branch`));
+        return;
+      }
+    }
+    let n = t.get(Wi);
+    (n === `branch` && t.get(Pi),
+      t.get(V).data != null && (t.get(_i) != null || (t.get(W) && n != null)) && Yr(e));
+  });
+}
+async function li(e) {
+  let t = Kr(e);
+  t == null || t.getOptions().enabled === !1 || (await t.getOrFetch());
+}
+function ui(e) {
+  return e == null || e.trim() === ``
+    ? { diff: null, diffText: null, diffBytes: null, diffError: null }
+    : { diff: pn(e), diffText: e, diffBytes: new TextEncoder().encode(e).length, diffError: null };
+}
+function di(e, t) {
+  return t.name !== `AbortError` && e < Si;
+}
+function fi(e) {
+  return Math.min(Ci * 2 ** e, 2e3);
+}
+function pi(e, t) {
+  return e.length > 0 && e.length === t.length && (0, hi.default)(e.slice(0, -1), t.slice(0, -1));
+}
+var mi,
+  hi,
+  gi,
+  _i,
+  vi,
+  B,
+  yi,
+  bi,
+  xi,
+  Si,
+  Ci,
+  wi,
+  Ti,
+  Ei,
+  Di,
+  V,
+  Oi,
+  ki,
+  Ai,
+  ji,
+  Mi,
+  Ni,
+  Pi,
+  Fi,
+  Ii,
+  Li,
+  Ri,
+  zi,
+  Bi,
+  H,
+  Vi,
+  U,
+  Hi,
+  Ui,
+  W,
+  Wi,
+  Gi,
+  Ki,
+  qi = e(() => {
+    ((mi = t(be(), 1)),
+      se(),
+      (hi = t(oe(), 1)),
+      P(),
+      D(),
+      an(),
+      mn(),
+      te(),
+      g(),
+      y(),
+      f(),
+      Cr(),
+      C(),
+      I(),
+      cr(),
+      st(),
+      ee(),
+      ne(),
+      nr(),
+      Ir(),
+      Vr(),
+      Wr(),
+      (gi = new WeakMap()),
+      (_i = v(F, null)),
+      (vi = v(F, null)),
+      (B = v(zt, null)),
+      (yi = E(F, ({ get: e }) => e(vi))),
+      (bi = n(d, (e) => null)),
+      (xi = E(F, ({ get: e, scope: t }) => e(bi, jt(t.value)))),
+      (Si = 3),
+      (Ci = 300),
+      (wi = 1e3),
+      (Ti = 30),
+      (Ei = Error(`Review summary failed`)),
+      (Di = v(F, !1)),
+      (V = yr),
+      (Oi = O(F, ({ get: e }) => m(e(vi), e(sr), e(z), `review_model`, { watchForGitInit: !0 }))),
+      (ki = E(F, ({ get: e }) => e(Oi).data?.root ?? e(vi))),
+      (Ai = j(d, (e) =>
+        ue(
+          `base-branch`,
+          { commonDir: e.commonDir, root: e.root },
+          { operationSource: `review_model`, root: e.root },
+          a(e.hostConfig),
+          e.hostConfig,
+        ),
+      )),
+      (ji = E(F, ({ get: e }) => {
+        let t = e(V),
+          n = t.data ?? null;
+        return n == null ? r(t) : e(Ai, { commonDir: n.commonDir, hostConfig: e(z), root: n.root });
+      })),
+      (Mi = br),
+      (Ni = O(F, ({ get: e }) => {
+        let t = e(z),
+          n = e(sr),
+          r = e(V).data ?? null;
+        return ue(
+          `recent-branches`,
+          r,
+          r == null ? null : { limit: Ti, operationSource: `review_model`, root: r.root },
+          n,
+          t,
+        );
+      })),
+      (Pi = E(F, ({ get: e }) => ri(e(ji).data ?? null, e(xi)))),
+      (Fi = O(F, ({ get: e }) => {
+        let t = e(z),
+          n = e(sr),
+          r = e(V).data ?? null,
+          i = e(Pi);
+        return ue(
+          `branch-commits`,
+          r,
+          r == null
+            ? null
+            : { baseBranch: i ?? void 0, operationSource: `review_model`, root: r.root },
+          n,
+          t,
+          { staleTime: le.FIVE_SECONDS },
+        );
+      })),
+      (Ii = j(d, (e) =>
+        ue(
+          `index-info`,
+          { commonDir: e.commonDir, root: e.root },
+          { cwd: de(e.cwd), operationSource: `review_model` },
+          a(e.hostConfig),
+          e.hostConfig,
+          { refetchOnWindowFocus: !0, staleTime: le.FIVE_SECONDS },
+        ),
+      )),
+      (Li = E(F, ({ get: e }) => {
+        let t = e(Ui),
+          n = e(R);
+        if (!t || n == null) return pe();
+        let i = e(V),
+          a = i.data ?? null;
+        return a == null
+          ? r(i)
+          : e(Ii, { commonDir: a.commonDir, cwd: n, hostConfig: e(z), root: a.root });
+      })),
+      (Ri = j(d, (e) =>
+        ue(
+          `review-summary`,
+          { commonDir: e.commonDir, root: e.root },
+          {
+            ...Jr({
+              cwd: e.cwd,
+              hideWhitespace: e.hideWhitespace,
+              source: e.source,
+              baseBranch: e.baseBranch,
+              commitSha: e.commitSha,
+            }),
+            includeUntrackedFiles: e.includeUntrackedFiles,
+          },
+          a(e.hostConfig),
+          e.hostConfig,
+          {
+            enabled: e.enabled,
+            refetchInterval: (e) => (e.state.data?.type === `error` ? wi : !1),
+            refetchIntervalInBackground: !0,
+            refetchOnMount: e.includeUntrackedFiles === !1 ? `always` : !1,
+            refetchOnWindowFocus: !0,
+            staleTime: le.FIVE_SECONDS,
+          },
+        ),
+      )),
+      (zi = j(d, (e) =>
+        ue(
+          `branch-diff-stats`,
+          { commonDir: e.commonDir, root: e.root },
+          {
+            cwd: de(e.cwd),
+            baseBranch: e.baseBranch ?? void 0,
+            ...(e.hideWhitespace ? { hideWhitespace: !0 } : {}),
+            includeUntrackedFiles: e.includeUntrackedFiles,
+            operationSource: `review_model`,
+          },
+          a(e.hostConfig),
+          e.hostConfig,
+          { enabled: e.enabled, staleTime: le.FIVE_SECONDS },
+        ),
+      )),
+      (Bi = E(F, ({ get: e }) => {
+        let t = e(V),
+          n = t.data ?? null,
+          i = e(R),
+          a = e(ji),
+          o = a.data == null && a.isFetching;
+        if (n == null) return r(t);
+        if (i == null || e(U) === `cloud`) return pe();
+        let s = {
+            baseBranch: e(Pi),
+            commonDir: n.commonDir,
+            cwd: i,
+            enabled: !o,
+            hideWhitespace: e(rn),
+            hostConfig: e(z),
+            includeUntrackedFiles: !0,
+            root: n.root,
+          },
+          c = e(zi, { ...s, includeUntrackedFiles: !1 }),
+          l = e(zi, s),
+          u = c.data != null && c.data.fileCount > 0 ? c.data : void 0;
+        return Gr(
+          c,
+          l,
+          ((l.isFetching && !c.isFetching) || l.isError ? u : (l.data ?? u)) ??
+            (l.isPending ? void 0 : null),
+        );
+      })),
+      (H = E(F, ({ get: e }) => {
+        let t = e(V),
+          n = t.data ?? null,
+          i = e(Wi),
+          a = e(ji),
+          o = i === `branch` && a.data == null && a.isFetching,
+          s = qr({
+            baseBranch: e(Pi),
+            commitSha: e(B),
+            cwd: e(R),
+            enabled: e(W) && !o,
+            hideWhitespace: e(rn),
+            hostConfig: e(z),
+            metadata: n,
+            source: i,
+          });
+        if (s == null) return n == null ? r(t) : pe();
+        if (i !== `branch` && i !== `unstaged`) return e(Ri, s);
+        let c = e(Ri, s);
+        if (c.data?.type === `success` && !c.isError) return c;
+        let l = e(Ri, { ...s, includeUntrackedFiles: !1 });
+        return Gr(
+          l,
+          c,
+          c.isPending && (l.data?.type !== `success` || l.data.files.length === 0)
+            ? void 0
+            : l.data,
+          c.data?.type === `error` ? Ei : null,
+        );
+      })),
+      (Vi = E(F, ({ get: e }) => {
+        let t = e(H).data;
+        if (t?.type !== `success`) return null;
+        let n = e(V).data?.root ?? null,
+          r = new Map();
+        for (let e of t.files) {
+          let t = Rr({ gitRoot: n, gitPath: e.path });
+          r.has(t) || r.set(t, e);
+        }
+        return r;
+      })),
+      (U = E(F, ({ get: e, scope: t }) =>
+        t.value.routeKind === `remote-thread`
+          ? `cloud`
+          : e(xr).isCodexWorktree
+            ? `worktree`
+            : `local`,
+      )),
+      (Hi = E(F, ({ get: e }) => e(W) && e(L) === `branch`)),
+      (Ui = E(F, ({ get: e }) => e(W) && tr(e(L)))),
+      (W = E(F, ({ get: e }) => {
+        let t = e(L);
+        return (
+          e(R) != null && e(U) !== `cloud` && t !== `last-turn` && (t !== `commit` || e(B) != null)
+        );
+      })),
+      (Wi = E(F, ({ get: e }) => {
+        let t = e(L);
+        return t === `last-turn` || (t === `commit` && e(B) == null) ? null : t;
+      })),
+      (Gi = j(F, (e, { get: t }) => {
+        let n = t(V).data,
+          r = t(H).data,
+          i = t(Vi)?.get(e) ?? null,
+          a = t(R),
+          o = t(Pi),
+          s = t(B),
+          c = t(z),
+          l = t(sr),
+          u = t(rn),
+          d =
+            n != null && r?.type === `success` && i != null && a != null
+              ? [
+                  ...ge({
+                    metadata: n,
+                    method: `review-diff`,
+                    params: {
+                      ...Jr({
+                        cwd: a,
+                        hideWhitespace: u,
+                        source: r.source,
+                        baseBranch: o,
+                        commitSha: s,
+                      }),
+                      files: [
+                        {
+                          path: e,
+                          changeKind: i.changeKind,
+                          previousPath: i.previousPath ?? void 0,
+                        },
+                      ],
+                    },
+                    hostKey: l,
+                  }),
+                  i.revision,
+                ]
+              : [`git`, `disabled`, `review-diff`, e];
+        return {
+          queryKey: d,
+          queryFn: async ({ signal: t }) => {
+            if (r?.type !== `success` || i == null || a == null)
+              throw Error(`Missing review diff metadata`);
+            return wr({
+              baseBranch: o,
+              commitSha: s,
+              changeKind: i.changeKind,
+              cwd: a,
+              hideWhitespace: u,
+              hostConfig: c,
+              path: e,
+              previousPath: i.previousPath,
+              signal: t,
+              source: r.source,
+            });
+          },
+          enabled: t(W) && n != null && r?.type === `success` && i != null && a != null,
+          refetchOnWindowFocus: !0,
+          retry: di,
+          retryDelay: fi,
+          staleTime: le.FIVE_SECONDS,
+          placeholderData: (e, t) => {
+            if (!(t == null || !pi(d, t.queryKey))) return e;
+          },
+        };
+      })),
+      (Ki = E(F, ({ get: e }) => ui(e(_i)))));
+  });
+function Ji() {
+  return { full: new Map(), trimmed: new Map() };
+}
+function Yi() {
+  return { staged: Ji(), unstaged: Ji(), version: 0 };
+}
+function Xi(e) {
+  return new Set([
+    ...e.staged.trimmed.keys(),
+    ...e.staged.full.keys(),
+    ...e.unstaged.trimmed.keys(),
+    ...e.unstaged.full.keys(),
+  ]);
+}
+function Zi(e) {
+  e.set(oa, Yi());
+}
+async function Qi(e, t) {
+  let n = e.get(R);
+  if (e.get(U) === `cloud` || n == null) return;
+  let r = Array.from(new Set(t.filter(Boolean)));
+  r.length !== 0 &&
+    e.set(oa, (e) => {
+      let t = {
+        staged: { trimmed: new Map(e.staged.trimmed), full: new Map(e.staged.full) },
+        unstaged: { trimmed: new Map(e.unstaged.trimmed), full: new Map(e.unstaged.full) },
+        version: e.version + 1,
+      };
+      for (let e of r)
+        (t.staged.trimmed.delete(e),
+          t.staged.full.delete(e),
+          t.unstaged.trimmed.delete(e),
+          t.unstaged.full.delete(e));
+      return t;
+    });
+}
+function $i({ reviewSummary: e, selectedDiff: t, shouldFetchReviewSummary: n }) {
+  if (n && e?.type === `success`) return ea(e);
+  let r = t.diff ?? [];
+  return na(
+    (0, aa.default)(r, (e) => e.additions),
+    (0, aa.default)(r, (e) => e.deletions),
+    r.length,
+    t.diffText?.length ?? 0,
+  );
+}
+function ea(e) {
+  return na(
+    (0, aa.default)(e.files, (e) => e.additions ?? 0),
+    (0, aa.default)(e.files, (e) => e.deletions ?? 0),
+    e.files.length,
+  );
+}
+function ta(e) {
+  return e == null ? null : na(e.additions, e.deletions, e.fileCount);
+}
+function na(e, t, n, r = 0) {
+  return { additions: e, bytesEstimate: r, deletions: t, fileCount: n, lineCount: e + t };
+}
+function ra({ reviewSummary: e, selectedDiff: t, shouldFetchReviewSummary: n }) {
+  return n ? e?.type === `success` && e.files.length > 0 : (t.diff?.length ?? 0) > 0;
+}
+function ia({ reviewSummaryFetching: e, reviewSummaryUpdatedAt: t, shouldFetchReviewSummary: n }) {
+  return !n || e ? !1 : t !== 0;
+}
+var aa,
+  oa,
+  sa,
+  ca,
+  la,
+  ua,
+  da,
+  fa,
+  pa,
+  ma,
+  ha,
+  ga,
+  _a,
+  va,
+  ya,
+  ba,
+  xa,
+  Sa,
+  Ca,
+  wa = e(() => {
+    ((aa = t(fn(), 1)),
+      P(),
+      I(),
+      cr(),
+      nr(),
+      qi(),
+      (oa = v(F, Yi())),
+      (sa = E(F, ({ get: e }) => Xi(e(oa)))),
+      (ca = E(F, ({ get: e }) =>
+        e(U) === `cloud` || e(L) === `last-turn`
+          ? e(Ki)
+          : { diff: null, diffText: null, diffBytes: null, diffError: null },
+      )),
+      (la = E(F, ({ get: e }) =>
+        e(U) === `cloud` || e(L) === `last-turn` ? (e(yi) ?? e(R)) : e(R),
+      )),
+      (ua = E(F, ({ get: e }) => {
+        if (e(U) === `cloud` || e(L) === `last-turn`)
+          return { isFetchingGitChanges: !1, isPendingGitChanges: !1 };
+        let t = e(H);
+        return { isFetchingGitChanges: t.isFetching, isPendingGitChanges: e(W) && t.isPending };
+      })),
+      (da = E(F, ({ get: e }) => {
+        let t = e(L),
+          n = e(ua),
+          r = e(sa),
+          i = e(U),
+          a = r.size > 0;
+        return i !== `cloud` && tr(t)
+          ? {
+              diff: null,
+              diffText: null,
+              diffBytes: null,
+              diffError: null,
+              fullDiff: null,
+              hasOptimisticDiffs: a,
+              isFetchingGitChanges: n.isFetchingGitChanges,
+              isPendingGitChanges: n.isPendingGitChanges,
+            }
+          : {
+              ...e(ca),
+              fullDiff: null,
+              hasOptimisticDiffs: !1,
+              isFetchingGitChanges: n.isFetchingGitChanges,
+              isPendingGitChanges: n.isPendingGitChanges,
+            };
+      })),
+      (fa = E(F, ({ get: e }) => {
+        if (e(U) === `cloud`) return { isLoading: !1, metrics: null };
+        if (e(L) === `branch`) {
+          let t = e(H),
+            n = t.data;
+          if (n?.type === `success`) return { isLoading: !1, metrics: ea(n) };
+          if (e(W) && !t.isError && (t.isFetching || t.isPending))
+            return { isLoading: !0, metrics: null };
+        }
+        let t = e(Bi),
+          n = ta(t.data);
+        return n == null
+          ? { isLoading: t.isFetching, metrics: null }
+          : { isLoading: !1, metrics: n };
+      })),
+      (pa = E(F, ({ get: e }) => e(L) !== `branch` && (e(fa).metrics?.fileCount ?? 0) > 0)),
+      (ma = E(F, ({ get: e }) => {
+        if (e(U) !== `cloud` && e(L) === `branch`) {
+          let t = e(fa);
+          if (t.metrics != null) return t.metrics;
+        }
+        let t = e(W);
+        return $i({
+          reviewSummary: e(H).data,
+          selectedDiff: t ? { diff: null, diffText: null } : e(da),
+          shouldFetchReviewSummary: t,
+        });
+      })),
+      (ha = E(F, ({ get: e }) => {
+        if (e(U) === `cloud` || !tr(e(L)))
+          return { stagedFileCount: void 0, unstagedFileCount: void 0 };
+        let t = e(H).data;
+        return t?.type === `success`
+          ? {
+              stagedFileCount: t.stageCounts.stagedFileCount,
+              unstagedFileCount: t.stageCounts.unstagedFileCount + t.stageCounts.untrackedFileCount,
+            }
+          : { stagedFileCount: 0, unstagedFileCount: 0 };
+      })),
+      (ga = E(F, ({ get: e }) =>
+        ra({ reviewSummary: e(H).data, selectedDiff: e(da), shouldFetchReviewSummary: e(W) }),
+      )),
+      (_a = E(F, ({ get: e }) => {
+        let t = e(V);
+        return e(U) !== `cloud` && !t.isLoading && t.data?.root == null;
+      })),
+      (va = E(F, ({ get: e, scope: t }) => {
+        let n = e(L),
+          r = e(V);
+        return (
+          t.value.routeKind !== `remote-thread` &&
+          tr(n) &&
+          r.data?.root != null &&
+          (e(U) === `local` || e(U) === `worktree`)
+        );
+      })),
+      (ya = E(F, ({ get: e }) => {
+        let t = e(da);
+        if (e(W)) {
+          let n = e(H).data;
+          return n?.type === `success` && n.files.length > 0 && !(e(va) && t.hasOptimisticDiffs);
+        }
+        return (
+          t.diffText != null && t.diffText.trim().length > 0 && !(e(va) && t.hasOptimisticDiffs)
+        );
+      })),
+      (ba = E(F, ({ get: e }) => e(V).data?.commonDir != null && !e(Di))),
+      (xa = E(F, ({ get: e, scope: t }) => {
+        let n = e(da);
+        return t.value.routeKind !== `remote-thread` && n.isPendingGitChanges && !e(ga);
+      })),
+      (Sa = E(F, ({ get: e }) => e(da).diffError?.type === `diff-too-large`)),
+      (Ca = E(F, ({ get: e }) => {
+        let t = e(W),
+          n = e(oa),
+          r = Xi(n);
+        if (!t || (r.size === 0 && n.version === 0)) return !1;
+        let i = e(H);
+        return ia({
+          reviewSummaryFetching: i.isFetching,
+          reviewSummaryUpdatedAt: i.dataUpdatedAt,
+          shouldFetchReviewSummary: t,
+        });
+      })));
+  });
+function Ta({ cwd: e, gitRoot: t, reviewSummary: n }) {
+  return n?.type === `success`
+    ? Ea(n.files.map((n) => Da({ cwd: e, gitRoot: t, reviewDiffIsFetching: !0, reviewFile: n })))
+    : [];
+}
+function Ea(e) {
+  let t = lr(e),
+    n = new Map(t.map((t, n) => [t.displayPath, e[n]])),
+    r = sn(
+      t.map((e) => e.displayPath),
+      { flattenEmptyDirectories: !0 },
+    ),
+    i = [];
+  for (let e of r.paths) {
+    let t = n.get(e);
+    t != null && i.push(t);
+  }
+  return i;
+}
+function Da({
+  cwd: e,
+  gitRoot: t,
+  reviewDiffEntry: n,
+  reviewDiffError: r,
+  reviewDiffIsFetching: i,
+  reviewDiffIsPlaceholderData: a = !1,
+  reviewFile: o,
+}) {
+  let s = _e(o.path),
+    c = Rr({ gitRoot: t, gitPath: s }),
+    l = n?.type === `success` ? n.diff : ``,
+    u = l.trim().length > 0,
+    d = u ? (pn(l)[0] ?? null) : null,
+    f = `loading`;
+  return (
+    d == null
+      ? n?.type === `success`
+        ? (f = `loaded`)
+        : !i && (r != null || n?.type === `error` || u) && (f = `error`)
+      : (f = `loaded`),
+    {
+      canApplyPatchActions: !i && n?.type === `success`,
+      displayPath: Lr({ cwd: e, path: c }),
+      diff: d,
+      diffRevision: n?.type === `success` && !a ? o.revision : null,
+      diffLoadStatus: f,
+      gitPath: s,
+      path: c,
+      summary: o,
+    }
+  );
+}
+function Oa(e, t, n) {
+  return Ea(
+    e?.map((e) => {
+      let r = e;
+      if (t != null) {
+        let n = (e) => (e === `/dev/null` || !_(e) ? _e(e) : $e(e, t));
+        r = {
+          ...e,
+          metadata: {
+            ...e.metadata,
+            name: n(e.metadata.name),
+            prevName: e.metadata.prevName == null ? void 0 : n(e.metadata.prevName),
+          },
+          newPath: n(e.newPath),
+          oldPath: n(e.oldPath),
+        };
+      }
+      let i = _e(r.metadata.name),
+        a = Rr({ gitRoot: t, gitPath: i });
+      return {
+        canApplyPatchActions: !0,
+        displayPath: n == null ? i : Lr({ cwd: n, path: a }),
+        diff: r,
+        diffRevision: null,
+        diffLoadStatus: `loaded`,
+        gitPath: i,
+        path: a,
+        summary: null,
+      };
+    }) ?? [],
+  );
+}
+function ka(e) {
+  return e.reduce(
+    (e, t) =>
+      e +
+      (t.summary?.additions ?? t.diff?.additions ?? 0) +
+      (t.summary?.deletions ?? t.diff?.deletions ?? 0),
+    0,
+  );
+}
+function Aa({ diffBytes: e, fileEntries: t }) {
+  return e ?? t.reduce((e, t) => e + (t.diff?.changedBytes ?? 0), 0);
+}
+var ja,
+  Ma,
+  Na,
+  Pa,
+  Fa,
+  Ia,
+  La = e(() => {
+    (cn(),
+      P(),
+      D(),
+      Qe(),
+      ln(),
+      mn(),
+      I(),
+      cr(),
+      ee(),
+      dr(),
+      nr(),
+      wa(),
+      Vr(),
+      qi(),
+      (ja = E(F, ({ get: e }) => {
+        if (e(W))
+          return Ta({ cwd: e(R), gitRoot: e(V).data?.root ?? null, reviewSummary: e(H).data });
+        let t = e(U) === `cloud` || e(L) === `last-turn` ? e(ki) : (e(V).data?.root ?? null),
+          n = e(la);
+        return Oa(e(da).diff, t, n == null ? null : de(n));
+      })),
+      (Ma = s(F, (e, { get: t }) => {
+        if (t(W)) {
+          let n = t(V).data?.root ?? null,
+            r = t(Vi)?.get(e) ?? null;
+          if (r == null) return null;
+          let i = t(Gi, e);
+          return Da({
+            cwd: t(R),
+            gitRoot: n,
+            reviewDiffEntry: i.data,
+            reviewDiffError: i.isError ? i.error : null,
+            reviewDiffIsFetching: i.isFetching,
+            reviewDiffIsPlaceholderData: i.isPlaceholderData,
+            reviewFile: r,
+          });
+        }
+        let n = _e($e(e, t(R) ?? void 0));
+        return t(ja).find((t) => t.path === e || t.gitPath === n) ?? null;
+      })),
+      (Na = E(F, ({ get: e }) => ka(e(ja)))),
+      (Pa = E(F, ({ get: e }) => Aa({ diffBytes: e(da).diffBytes, fileEntries: e(ja) }))),
+      (Fa = E(F, ({ get: e }) =>
+        on({ fileCount: e(ja).length, totalChangedBytes: e(Pa), totalChangedLines: e(Na) }),
+      )),
+      (Ia = E(F, ({ get: e }) => {
+        let t = e(ja);
+        return !e(W) || e(Fa) ? t : t.map((t) => e(Ma, t.path) ?? t);
+      })));
+  });
+function Ra(e) {
+  return e === `bottom` ? $n : Qn;
+}
+function za(e, t) {
+  return Ua.find((n) => e.get(Ra(n).tabById$, t) != null) ?? null;
+}
+function Ba(e, t, { activateFallbackTab: n, allowEmpty: r } = {}) {
+  let i = Ra(t),
+    a = e.get(i.tabs$),
+    o = null;
+  if (t === `bottom`) {
+    let t = e.get(Ft);
+    o = t === `bottom-panel` ? null : t;
+  }
+  return a.length === 0 && r !== !0
+    ? !1
+    : (n === !0 && e.get(i.activeTab$) == null && i.activateTab(e, a[0]?.tabId ?? null),
+      t === `bottom`
+        ? (o != null && e.set(Bt, o), qt(e, !0), pt(e, `bottom-panel`))
+        : (wt(e, !0), pt(e, `right-panel`)),
+      !0);
+}
+function Va(e, t) {
+  if (t === `bottom`) {
+    let t = e.get(Ft) === `bottom-panel` ? e.get(Bt) : null;
+    (qt(e, !1), t != null && pt(e, t), gn());
+    return;
+  }
+  Rt(e, !1, { restoreFullWidthOnNextOpen: !0 });
+}
+function Ha(e, t, n) {
+  let r = Ra(t);
+  return e.get(r.tabById$, n) == null ? !1 : (r.activateTab(e, n), Ba(e, t));
+}
+var Ua,
+  Wa = e(() => {
+    (qe(), er(), Zt(), hn(), (Ua = [`right`, `bottom`]));
+  });
+function Ga() {
+  let e = new CustomEvent(qa);
+  window.dispatchEvent(e);
+}
+function Ka(e) {
+  let t = () => {
+    e();
+  };
+  return (
+    window.addEventListener(qa, t),
+    () => {
+      window.removeEventListener(qa, t);
+    }
+  );
+}
+var qa,
+  Ja = e(() => {
+    qa = `codex-check-git-index-for-changes`;
+  });
+function Ya(e, t, n) {
+  let r = Math.max(0, t - $a),
+    i = Math.min(e.length, n + $a);
+  return { before: e.slice(r, t), match: e.slice(t, n), after: e.slice(n, i) };
+}
+function Xa(e, t, n) {
+  let r = t.toLowerCase(),
+    i = e.toLowerCase(),
+    a = [],
+    o = 0,
+    s = !1,
+    c = 0;
+  for (; c < i.length; ) {
+    let e = i.indexOf(r, c);
+    if (e === -1) break;
+    let l = e + t.length;
+    ((o += 1), a.length < n ? a.push({ start: e, end: l }) : (s = !0), (c = l));
+  }
+  return { offsets: a, totalMatches: o, isCapped: s };
+}
+function Za(e, t) {
+  return e == null || t == null ? null : (e.matches[t] ?? null);
+}
+function Qa(e, t) {
+  let { query: n, routeContextId: r, stateDomain: i, result: a } = e;
+  return n.length === 0 || i !== t || a == null || a.domain !== t || a.contextId !== r ? null : a;
+}
+var $a,
+  eo = e(() => {
+    $a = 24;
+  });
+function to(e) {
+  e.set(No, !0);
+}
+function no(e, t, n) {
+  (e.set(jo, t), n != null && n !== So(e) && (bo(e), e.set(ko, n), vo(e)));
+}
+function ro(e) {
+  (bo(e), e.set(No, !1), e.set(K, ``), e.set(q, null), e.set(J, !1), e.set(Y, null));
+}
+function io(e, t) {
+  (bo(e), e.set(G, t), e.set(q, null), e.set(J, !1), e.set(Y, null));
+}
+function ao(e, t) {
+  let n = e.get(X);
+  (n?.conversationId === t?.conversationId && n?.browserTabId === t?.browserTabId) ||
+    (e.set(X, t), e.set(Fo, Do), t == null && e.get(G) === `browser` && io(e, `conversation`));
+}
+function oo(e, t) {
+  (bo(e),
+    e.set(K, t),
+    e.set(q, null),
+    e.set(J, !1),
+    e.set(Y, null),
+    e.set(Fo, { activeMatchOrdinal: 0, matches: 0, query: t }));
+}
+function so(e, t) {
+  e.set(Io, t);
+}
+function co(e) {
+  e.set(Io, null);
+}
+function lo(e, t) {
+  (e.set(Fo, t), e.get(G) === `browser` && (e.set(K, t.query), e.set(J, !1)));
+}
+function uo({ currentDomain: e, hasDiffSource: t, hasBrowserTarget: n }) {
+  let r = [`conversation`];
+  return (
+    t && r.push(`diff`), n && r.push(`browser`), r[(r.indexOf(e) + 1) % r.length] ?? `conversation`
+  );
+}
+function fo(e, t) {
+  if (t.trim().length === 0) {
+    (bo(e), e.set(K, t), e.set(q, null), e.set(J, !1), e.set(Y, null));
+    return;
+  }
+  (e.set(K, t), e.set(J, !0));
+}
+function po(e, t) {
+  let n = e.get(q);
+  if (t == null || n == null || n.matches.length === 0) {
+    e.set(Y, null);
+    return;
+  }
+  let r = yo(t, n.matches.length);
+  if (e.get(Y) === r) {
+    xo(e)?.ensureVisibleActiveMatch();
+    return;
+  }
+  e.set(Y, r);
+}
+function mo(e) {
+  let t = e.get(q);
+  t == null || t.matches.length === 0 || po(e, (e.get(Y) ?? -1) + 1);
+}
+function ho(e) {
+  let t = e.get(q);
+  t == null || t.matches.length === 0 || po(e, (e.get(Y) ?? 0) - 1);
+}
+function go(e, t) {
+  let n = e.get(K).trim();
+  if (n.length === 0) return;
+  let r = e.get(q);
+  if (!(r != null && r.query === n && r.domain === e.get(G))) {
+    xo(e)?.runSearch({ selectFirstMatch: !0 });
+    return;
+  }
+  if (t?.shift) {
+    ho(e);
+    return;
+  }
+  mo(e);
+}
+function _o(
+  e,
+  t = { conversationSource: null, diffSource: null },
+  {
+    orchestrationId: n = t.conversationSource?.contextId ??
+      t.diffSource?.contextId ??
+      `unavailable`,
+    isDefault: r = !0,
+  } = {},
+) {
+  let i = 1,
+    a = 0,
+    o = null,
+    s = null,
+    c = null,
+    l = !1,
+    u = null,
+    d = () => {
+      c != null && (window.clearTimeout(c), (c = null));
+    },
+    f = () => {
+      (s?.abort(), (s = null));
+    },
+    p = () => {
+      (o?.abort(), (o = null), (a += 1), f());
+    },
+    m = async ({ selectFirstMatch: n }) => {
+      if (l || xo(e) !== g) return;
+      d();
+      let r = e.get(K).trim();
+      if (r.length === 0) {
+        e.set(J, !1);
+        return;
+      }
+      o?.abort();
+      let s = new AbortController();
+      ((o = s), (a += 1));
+      let c = a,
+        u = e.get(G),
+        f = To({ domain: u, conversationSource: t.conversationSource, diffSource: t.diffSource }),
+        p = f?.contextId ?? `unavailable`;
+      e.set(J, !0);
+      try {
+        let t = { domain: u, contextId: p, query: r },
+          o;
+        if (f == null) ((o = wo(t, i)), (i += 1));
+        else {
+          let e = i;
+          ((i += 1), (o = { ...(await f.search(t, { signal: s.signal })), runId: e }));
+        }
+        if (c !== a || l) return;
+        let d = e.get(Y),
+          m = d != null && d >= 0 && d < o.matches.length,
+          h = n && o.matches.length > 0 ? 0 : o.matches.length > 0 ? (m ? d : 0) : null;
+        (e.set(q, o), e.set(Y, h), e.set(J, !1));
+      } catch {
+        if (s.signal.aborted || c !== a || l) return;
+        (e.set(q, null), e.set(Y, null), e.set(J, !1));
+      }
+    },
+    h = async () => {
+      if (xo(e) !== g) return;
+      let n = e.get(q),
+        r = e.get(Y);
+      if (n == null || r == null) return;
+      f();
+      let i = new AbortController();
+      s = i;
+      try {
+        await Co(t, n, r, i.signal);
+      } finally {
+        s === i && (s = null);
+      }
+    },
+    g = {
+      clearDebouncedSearch: d,
+      ensureVisibleActiveMatch: h,
+      preserveScrollBeforeResultClear: () => {
+        f();
+        let n = e.get(q),
+          r = Za(n, e.get(Y));
+        (n == null
+          ? null
+          : To({
+              domain: n.domain,
+              conversationSource: t.conversationSource,
+              diffSource: t.diffSource,
+            })
+        )?.preserveScrollBeforeResultClear?.(r?.location ?? null);
+      },
+      runSearch: m,
+    };
+  (e.set(Oo, n, g), r && e.set(Ao, n));
+  let _ = () => {
+      if ((d(), p(), So(e) !== n)) return;
+      let t = e.get(No),
+        r = e.get(K).trim();
+      if (!t || r.length === 0 || e.get(G) === `browser`) {
+        e.set(J, !1);
+        return;
+      }
+      c = window.setTimeout(() => {
+        m({ selectFirstMatch: !1 });
+      }, Eo);
+    },
+    v = e.watch((e) => {
+      (e.get(No), e.get(K), e.get(G), e.get(ko), e.get(Ao), _());
+    }),
+    y = e.watch((e) => {
+      let t = e.get(q),
+        n = e.get(Y);
+      if (t == null || n == null) {
+        u = null;
+        return;
+      }
+      let r = `${t.runId}:${n}`;
+      r !== u && ((u = r), h());
+    });
+  return () => {
+    l = !0;
+    let t = e.get(ko) === n;
+    (t && bo(e),
+      e.get(Oo, n) === g && e.set(Oo, n, null),
+      e.get(Ao) === n && e.set(Ao, null),
+      e.get(ko) === n && e.set(ko, null),
+      t && vo(e),
+      v(),
+      y(),
+      d(),
+      o?.abort(),
+      f());
+  };
+}
+function vo(e) {
+  (e.set(q, null),
+    e.set(Y, null),
+    e.set(J, xo(e) != null && e.get(No) && e.get(K).trim().length > 0));
+}
+function yo(e, t) {
+  if (t <= 0) return 0;
+  let n = e % t;
+  return n < 0 ? n + t : n;
+}
+function bo(e) {
+  e.get(q) != null && xo(e)?.preserveScrollBeforeResultClear();
+}
+function xo(e) {
+  let t = So(e);
+  return t == null ? null : e.get(Oo, t);
+}
+function So(e) {
+  return e.get(ko) ?? e.get(Ao);
+}
+async function Co(e, t, n, r) {
+  let i = t.matches[n];
+  if (i == null) return;
+  let a = To({
+    domain: i.location.domain,
+    conversationSource: e.conversationSource,
+    diffSource: e.diffSource,
+  });
+  a != null && (await a.ensureVisible(i.location, { signal: r }));
+}
+function wo(e, t) {
+  return {
+    runId: t,
+    domain: e.domain,
+    contextId: e.contextId,
+    query: e.query,
+    matches: [],
+    totalMatches: 0,
+    isCapped: !1,
+  };
+}
+function To({ domain: e, conversationSource: t, diffSource: n }) {
+  switch (e) {
+    case `conversation`:
+      return t;
+    case `diff`:
+      return n;
+    case `browser`:
+      return null;
+  }
+}
+var Eo,
+  Do,
+  Oo,
+  ko,
+  Ao,
+  jo,
+  Mo,
+  No,
+  G,
+  K,
+  q,
+  J,
+  Y,
+  Po,
+  X,
+  Fo,
+  Io,
+  Lo,
+  Ro,
+  zo,
+  Bo,
+  Vo = e(() => {
+    (P(),
+      qe(),
+      er(),
+      Zt(),
+      I(),
+      eo(),
+      (Eo = 150),
+      (Do = { activeMatchOrdinal: 0, matches: 0, query: `` }),
+      (Oo = n(F, (e) => null)),
+      (ko = v(F, null)),
+      (Ao = v(F, null)),
+      (jo = v(F, `conversation`)),
+      (Mo = E(F, ({ get: e }) =>
+        e(Nt) === `right-panel` && e(rt) && e(Qn.activeTab$)?.tabId === `diff` ? `diff` : e(jo),
+      )),
+      (No = v(F, !1)),
+      (G = v(F, `conversation`)),
+      (K = v(F, ``)),
+      (q = v(F, null)),
+      (J = v(F, !1)),
+      (Y = v(F, null)),
+      (Po = v(F, null)),
+      (X = v(F, null)),
+      (Fo = v(F, Do)),
+      (Io = v(F, null)),
+      (Lo = E(F, ({ get: e }) => e(K).trim().length > 0)),
+      (Ro = E(F, ({ get: e }) =>
+        Qa(
+          {
+            query: e(K).trim(),
+            routeContextId: e(q)?.contextId ?? `unavailable`,
+            stateDomain: e(G),
+            result: e(q),
+          },
+          `conversation`,
+        ),
+      )),
+      (zo = E(F, ({ get: e }) =>
+        Qa(
+          {
+            query: e(K).trim(),
+            routeContextId: e(q)?.contextId ?? `unavailable`,
+            stateDomain: e(G),
+            result: e(q),
+          },
+          `diff`,
+        ),
+      )),
+      (Bo = E(F, ({ get: e }) => Za(e(q), e(Y)))));
+  }),
+  Ho,
+  Uo,
+  Wo = e(() => {
+    (t(me()),
+      (Ho = Ee()),
+      (Uo = (e) =>
+        (0, Ho.jsxs)(`svg`, {
+          xmlns: `http://www.w3.org/2000/svg`,
+          width: 20,
+          height: 20,
+          fill: `currentColor`,
+          viewBox: `0 0 20 20`,
+          ...e,
+          children: [
+            (0, Ho.jsx)(`path`, {
+              d: `M12.084 12.668a.666.666 0 0 1 0 1.33H7.917a.665.665 0 1 1 0-1.33h4.167ZM10 5.585c.367 0 .665.298.665.665v1.418h1.419a.666.666 0 0 1 0 1.33h-1.419v1.419a.666.666 0 0 1-1.33 0V8.998H7.917a.665.665 0 0 1 0-1.33h1.418V6.25c0-.367.298-.665.665-.665Z`,
+            }),
+            (0, Ho.jsx)(`path`, {
+              fillRule: `evenodd`,
+              d: `M12.667 2.668c.689 0 1.246 0 1.696.036.458.038.865.117 1.242.309a3.163 3.163 0 0 1 1.382 1.383c.192.377.272.783.309 1.24.037.45.036 1.008.036 1.697v5.333c0 .689 0 1.246-.036 1.696-.037.458-.117.865-.309 1.242a3.166 3.166 0 0 1-1.382 1.382c-.377.192-.784.271-1.242.309-.45.037-1.007.036-1.696.036H7.334c-.689 0-1.246 0-1.696-.036-.458-.038-.864-.117-1.24-.309a3.166 3.166 0 0 1-1.384-1.383c-.192-.376-.271-.783-.309-1.24-.037-.45-.036-1.008-.036-1.697V7.333c0-.689 0-1.246.036-1.696.038-.458.117-.864.309-1.24a3.17 3.17 0 0 1 1.383-1.384c.377-.192.783-.272 1.24-.309.45-.037 1.008-.036 1.697-.036h5.333Zm-5.333 1.33c-.71 0-1.204.001-1.588.032-.375.03-.587.088-.745.168A1.836 1.836 0 0 0 4.199 5c-.08.158-.137.37-.168.745C4 6.13 4 6.622 4 7.333v5.333c0 .71.001 1.204.032 1.588.03.375.088.587.168.745.176.345.457.627.802.803.158.08.37.137.745.168.384.031.877.031 1.588.031h5.333c.71 0 1.204 0 1.588-.031.375-.031.587-.088.745-.168a1.84 1.84 0 0 0 .803-.803c.08-.158.137-.37.168-.745.031-.383.031-.877.031-1.588V7.333c0-.71 0-1.204-.031-1.588-.031-.375-.088-.587-.168-.745A1.838 1.838 0 0 0 15 4.198c-.158-.08-.37-.137-.745-.168-.384-.031-.877-.032-1.588-.032H7.334Z`,
+              clipRule: `evenodd`,
+            }),
+          ],
+        })));
+  }),
+  Go,
+  Ko = e(() => {
+    Go = [
+      {
+        id: `hotkeyWindow`,
+        titleIntlId: `codex.command.hotkeyWindow`,
+        descriptionIntlId: `codex.commandDescription.hotkeyWindow`,
+        shortcutScope: `os-global`,
+      },
+      {
+        id: `globalDictationHold`,
+        titleIntlId: `codex.command.globalDictationHold`,
+        descriptionIntlId: `codex.commandDescription.globalDictationHold`,
+        shortcutScope: `os-global`,
+        allowsBareModifiers: !0,
+      },
+      {
+        id: `globalDictationToggle`,
+        titleIntlId: `codex.command.globalDictationToggle`,
+        descriptionIntlId: `codex.commandDescription.globalDictationToggle`,
+        shortcutScope: `os-global`,
+        allowsBareModifiers: !0,
+      },
+      ...[],
+      {
+        id: `copyConversationPath`,
+        descriptionIntlId: `codex.commandDescription.copyConversationPath`,
+        electron: {
+          menuTitle: `Copy conversation path`,
+          menuTitleIntlId: `codex.commandMenuTitle.copyConversationPath`,
+          defaultKeybindings: [{ key: `CmdOrCtrl+Alt+Shift+C` }],
+        },
+      },
+      {
+        id: `copyDeeplink`,
+        descriptionIntlId: `codex.commandDescription.copyDeeplink`,
+        electron: {
+          menuTitle: `Copy deeplink`,
+          menuTitleIntlId: `codex.commandMenuTitle.copyDeeplink`,
+          defaultKeybindings: [{ key: `CmdOrCtrl+Alt+L` }],
+        },
+      },
+      {
+        id: `copySessionId`,
+        descriptionIntlId: `codex.commandDescription.copySessionId`,
+        electron: {
+          menuTitle: `Copy session id`,
+          menuTitleIntlId: `codex.commandMenuTitle.copySessionId`,
+          defaultKeybindings: [{ key: `CmdOrCtrl+Alt+C` }],
+        },
+      },
+      {
+        id: `copyWorkingDirectory`,
+        descriptionIntlId: `codex.commandDescription.copyWorkingDirectory`,
+        electron: {
+          menuTitle: `Copy working directory`,
+          menuTitleIntlId: `codex.commandMenuTitle.copyWorkingDirectory`,
+          defaultKeybindings: [{ key: `CmdOrCtrl+Shift+C` }],
+        },
+      },
+      {
+        id: `closeTab`,
+        descriptionIntlId: `codex.commandDescription.closeTab`,
+        electron: {
+          menuTitle: `Close Tab`,
+          menuTitleIntlId: `codex.commandMenuTitle.closeTab`,
+          defaultKeybindings: [{ key: `CmdOrCtrl+W` }],
+          platformDefaultKeybindings: { default: [{ key: `Ctrl+W` }, { key: `Ctrl+F4` }] },
+        },
+      },
+      {
+        id: `closeWindow`,
+        descriptionIntlId: `codex.commandDescription.closeWindow`,
+        electron: {
+          menuTitle: `Close`,
+          menuTitleIntlId: `codex.commandMenuTitle.closeWindow`,
+          defaultKeybindings: [{ key: `CmdOrCtrl+W` }],
+          platformDefaultKeybindings: { default: [{ key: `Ctrl+W` }, { key: `Ctrl+F4` }] },
+        },
+      },
+      {
+        id: `reloadBrowserPage`,
+        descriptionIntlId: `codex.commandDescription.reloadBrowserPage`,
+        electron: {
+          menuTitle: `Reload Browser Page`,
+          menuTitleIntlId: `codex.commandMenuTitle.reloadBrowserPage`,
+          defaultKeybindings: [{ key: `CmdOrCtrl+R` }],
+        },
+      },
+      {
+        id: `hardReloadBrowserPage`,
+        descriptionIntlId: `codex.commandDescription.hardReloadBrowserPage`,
+        electron: {
+          menuTitle: `Force Reload Browser Page`,
+          menuTitleIntlId: `codex.commandMenuTitle.hardReloadBrowserPage`,
+          defaultKeybindings: [{ key: `CmdOrCtrl+Shift+R` }],
+        },
+      },
+      {
+        id: `newWindow`,
+        descriptionIntlId: `codex.commandDescription.newWindow`,
+        electron: {
+          menuTitle: `New Window`,
+          menuTitleIntlId: `codex.commandMenuTitle.newWindow`,
+          defaultKeybindings: [{ key: `CmdOrCtrl+Shift+N` }],
+        },
+      },
+      {
+        id: `openCommandMenu`,
+        descriptionIntlId: `codex.commandDescription.openCommandMenu`,
+        electron: {
+          menuTitle: `Open command menu`,
+          menuTitleIntlId: `codex.commandMenuTitle.openCommandMenu`,
+          defaultKeybindings: [{ key: `CmdOrCtrl+K` }, { key: `CmdOrCtrl+Shift+P` }],
+        },
+      },
+      {
+        id: `searchChats`,
+        descriptionIntlId: `codex.commandDescription.searchChats`,
+        electron: {
+          menuTitle: `Search Chats…`,
+          menuTitleIntlId: `codex.commandMenuTitle.searchChats`,
+          defaultKeybindings: [{ key: `CmdOrCtrl+G` }],
+        },
+      },
+      {
+        id: `searchFiles`,
+        descriptionIntlId: `codex.commandDescription.searchFiles`,
+        electron: {
+          menuTitle: `Search Files…`,
+          menuTitleIntlId: `codex.commandMenuTitle.searchFiles`,
+          defaultKeybindings: [{ key: `CmdOrCtrl+P` }],
+        },
+      },
+      {
+        id: `renameThread`,
+        descriptionIntlId: `codex.commandDescription.renameThread`,
+        electron: {
+          menuTitle: `Rename chat`,
+          menuTitleIntlId: `codex.commandMenuTitle.renameThread`,
+          defaultKeybindings: [{ key: `CmdOrCtrl+Alt+R` }],
+        },
+      },
+      {
+        id: `toggleFileTreePanel`,
+        descriptionIntlId: `codex.commandDescription.toggleFileTreePanel`,
+        electron: {
+          menuTitle: `Toggle File Tree`,
+          menuTitleIntlId: `codex.commandMenuTitle.toggleFileTreePanel`,
+          defaultKeybindings: [{ key: `CmdOrCtrl+Shift+E` }],
+        },
+      },
+      {
+        id: `toggleTraceRecording`,
+        descriptionIntlId: `codex.commandDescription.toggleTraceRecording`,
+        electron: {
+          menuTitle: `Start Trace Recording`,
+          menuTitleIntlId: `codex.commandMenuTitle.toggleTraceRecording`,
+          defaultKeybindings: [{ key: `CmdOrCtrl+Shift+S` }],
+        },
+      },
+    ];
+  }),
+  qo,
+  Jo = e(() => {
+    qo = [
+      {
+        id: `implementTodo`,
+        vscodeCommand: { title: `Implement with Codex`, enablement: `false` },
+      },
+      {
+        id: `openSidebar`,
+        vscodeCommand: {
+          title: `Open Codex Sidebar`,
+          icon: { light: `resources/blossom-black.svg`, dark: `resources/blossom-white.svg` },
+        },
+      },
+      { id: `newCodexPanel`, vscodeCommand: { title: `New Codex Agent`, icon: `$(plus)` } },
+      { id: `addToThread`, vscodeCommand: { title: `Add to Codex Thread` } },
+      { id: `addFileToThread`, vscodeCommand: { title: `Add File to Codex Thread` } },
+      { id: `showLspMcpCliArgs`, vscodeCommand: { title: `Copy Codex CLI args for LSP MCP` } },
+      {
+        id: `dumpNuxState`,
+        vscodeCommand: {
+          title: `Debug: print NUX state to console`,
+          enablement: `chatgpt.sidebarView.visible`,
+        },
+      },
+      {
+        id: `resetNuxState`,
+        vscodeCommand: {
+          title: `Debug: reset NUX state`,
+          enablement: `chatgpt.sidebarView.visible`,
+        },
+      },
+    ];
+  }),
+  Yo,
+  Xo = e(() => {
+    Yo = [
+      {
+        id: `newThread`,
+        titleIntlId: `codex.command.newThread`,
+        descriptionIntlId: `codex.commandDescription.newThread`,
+        commandMenuGroupKey: `thread`,
+        commandMenu: !0,
+        electron: {
+          menuTitle: `New Chat`,
+          menuTitleIntlId: `codex.commandMenuTitle.newThread`,
+          defaultKeybindings: [{ key: `CmdOrCtrl+N` }, { key: `CmdOrCtrl+Shift+O` }],
+        },
+        vscodeCommand: {
+          commandId: `chatgpt.newChat`,
+          title: `New Thread in Codex Sidebar`,
+          keybinding: { key: `ctrl+n`, mac: `cmd+n`, when: `chatgpt.supportsNewChatKeyShortcut` },
+        },
+      },
+      {
+        id: `quickChat`,
+        titleIntlId: `codex.command.quickChat`,
+        descriptionIntlId: `codex.commandDescription.quickChat`,
+        commandMenuGroupKey: `thread`,
+        commandMenu: !0,
+        electron: {
+          menuTitle: `Quick Chat`,
+          menuTitleIntlId: `codex.commandMenuTitle.quickChat`,
+          defaultKeybindings: [{ key: `CmdOrCtrl+Alt+N` }],
+        },
+      },
+      {
+        id: `openThreadInNewWindow`,
+        titleIntlId: `codex.command.openThreadInNewWindow`,
+        descriptionIntlId: `codex.commandDescription.openThreadInNewWindow`,
+        commandMenuGroupKey: `thread`,
+        commandMenu: !0,
+        electron: {
+          menuTitle: `Open in New Window`,
+          menuTitleIntlId: `codex.commandMenuTitle.openThreadInNewWindow`,
+        },
+      },
+      {
+        id: `archiveThread`,
+        titleIntlId: `codex.command.archiveThread`,
+        descriptionIntlId: `codex.commandDescription.archiveThread`,
+        commandMenuGroupKey: `thread`,
+        commandMenu: !0,
+        electron: {
+          menuTitle: `Archive chat`,
+          menuTitleIntlId: `codex.commandMenuTitle.archiveThread`,
+          defaultKeybindings: [{ key: `CmdOrCtrl+Shift+A` }],
+        },
+      },
+      {
+        id: `toggleThreadPin`,
+        titleIntlId: `codex.command.toggleThreadPin`,
+        descriptionIntlId: `codex.commandDescription.toggleThreadPin`,
+        commandMenuGroupKey: `thread`,
+        commandMenu: !0,
+        electron: {
+          menuTitle: `Pin/unpin chat`,
+          menuTitleIntlId: `codex.commandMenuTitle.toggleThreadPin`,
+          defaultKeybindings: [{ key: `CmdOrCtrl+Alt+P` }],
+        },
+      },
+      {
+        id: `copyConversationMarkdown`,
+        titleIntlId: `codex.command.copyConversationMarkdown`,
+        descriptionIntlId: `codex.commandDescription.copyConversationMarkdown`,
+      },
+      {
+        id: `openSideChat`,
+        titleIntlId: `codex.command.openSideChat`,
+        descriptionIntlId: `codex.commandDescription.openSideChat`,
+        availableIn: [`electron`],
+        shortcutScope: `app`,
+        commandMenuGroupKey: `thread`,
+        commandMenu: !0,
+        electron: { defaultKeybindings: [{ key: `CmdOrCtrl+Alt+S` }] },
+      },
+      {
+        id: `openControlWindow`,
+        titleIntlId: `codex.command.openControlWindow`,
+        descriptionIntlId: `codex.commandDescription.openControlWindow`,
+        commandMenuGroupKey: `app`,
+        commandMenu: !0,
+      },
+      {
+        id: `composer.openModelPicker`,
+        titleIntlId: `codex.command.composer.openModelPicker`,
+        descriptionIntlId: `codex.commandDescription.composer.openModelPicker`,
+        shortcutScope: `app`,
+        electron: { defaultKeybindings: [{ key: `Ctrl+Shift+M` }] },
+      },
+      {
+        id: `composer.startVoiceMode`,
+        titleIntlId: `codex.command.composer.startVoiceMode`,
+        descriptionIntlId: `codex.commandDescription.composer.startVoiceMode`,
+        shortcutScope: `app`,
+        electron: { defaultKeybindings: [{ key: `Ctrl+Shift+V` }] },
+      },
+      {
+        id: `composer.startDictation`,
+        titleIntlId: `codex.command.composer.startDictation`,
+        descriptionIntlId: `codex.commandDescription.composer.startDictation`,
+        shortcutScope: `app`,
+        electron: {
+          menuTitle: `Dictation`,
+          menuTitleIntlId: `codex.commandMenuTitle.composer.startDictation`,
+          defaultKeybindings: [{ key: `Ctrl+Shift+D` }],
+        },
+      },
+      {
+        id: `composer.submit`,
+        titleIntlId: `codex.command.composer.submit`,
+        descriptionIntlId: `codex.commandDescription.composer.submit`,
+        shortcutScope: `app`,
+      },
+      {
+        id: `composer.toggleFastMode`,
+        titleIntlId: `codex.command.composer.toggleFastMode`,
+        descriptionIntlId: `codex.commandDescription.composer.toggleFastMode`,
+        shortcutScope: `app`,
+      },
+      {
+        id: `composer.increaseReasoningEffort`,
+        titleIntlId: `codex.command.composer.increaseReasoningEffort`,
+        descriptionIntlId: `codex.commandDescription.composer.increaseReasoningEffort`,
+        shortcutScope: `app`,
+      },
+      {
+        id: `composer.decreaseReasoningEffort`,
+        titleIntlId: `codex.command.composer.decreaseReasoningEffort`,
+        descriptionIntlId: `codex.commandDescription.composer.decreaseReasoningEffort`,
+        shortcutScope: `app`,
+      },
+      {
+        id: `composer.cycleReasoningEffort`,
+        titleIntlId: `codex.command.composer.cycleReasoningEffort`,
+        descriptionIntlId: `codex.commandDescription.composer.cycleReasoningEffort`,
+        shortcutScope: `app`,
+      },
+      {
+        id: `composer.togglePlanMode`,
+        titleIntlId: `codex.command.composer.togglePlanMode`,
+        descriptionIntlId: `codex.commandDescription.composer.togglePlanMode`,
+        shortcutScope: `app`,
+      },
+      {
+        id: `approval.approve`,
+        titleIntlId: `codex.command.approval.approve`,
+        descriptionIntlId: `codex.commandDescription.approval.approve`,
+        shortcutScope: `app`,
+        electron: { defaultKeybindings: [{ key: `Enter` }] },
+      },
+      {
+        id: `approval.decline`,
+        titleIntlId: `codex.command.approval.decline`,
+        descriptionIntlId: `codex.commandDescription.approval.decline`,
+        shortcutScope: `app`,
+        electron: { defaultKeybindings: [{ key: `Escape` }] },
+      },
+      {
+        id: `git.commit`,
+        titleIntlId: `codex.command.git.commit`,
+        descriptionIntlId: `codex.commandDescription.git.commit`,
+        shortcutScope: `app`,
+        commandMenuGroupKey: `workspace`,
+        commandMenu: !0,
+      },
+      {
+        id: `git.createPullRequest`,
+        titleIntlId: `codex.command.git.createPullRequest`,
+        descriptionIntlId: `codex.commandDescription.git.createPullRequest`,
+        shortcutScope: `app`,
+        commandMenuGroupKey: `workspace`,
+        commandMenu: !0,
+      },
+      {
+        id: `forkThread`,
+        titleIntlId: `codex.command.forkThread`,
+        descriptionIntlId: `codex.commandDescription.forkThread`,
+        shortcutScope: `app`,
+      },
+      {
+        id: `openAvatarOverlay`,
+        titleIntlId: `codex.command.openPetOverlay`,
+        descriptionIntlId: `codex.commandDescription.openPetOverlay`,
+        commandMenuGroupKey: `app`,
+        commandMenu: !0,
+        electron: {
+          menuTitle: `Wake Pet`,
+          menuTitleIntlId: `codex.commandMenuTitle.openAvatarOverlay`,
+        },
+      },
+      {
+        id: `previousTab`,
+        titleIntlId: `codex.command.previousTab`,
+        descriptionIntlId: `codex.commandDescription.previousTab`,
+        availableIn: [`electron`],
+        shortcutScope: `app`,
+        allowsKeyRepeat: !0,
+        commandMenuGroupKey: `navigation`,
+        electron: {
+          defaultKeybindings: [{ key: `CmdOrCtrl+Shift+[` }],
+          platformDefaultKeybindings: {
+            macOS: [
+              { key: `Ctrl+Shift+Tab` },
+              { key: `Command+Shift+[` },
+              { key: `Command+Alt+Left` },
+            ],
+            default: [{ key: `Ctrl+Shift+Tab` }, { key: `Ctrl+Shift+[` }, { key: `Ctrl+PageUp` }],
+          },
+        },
+      },
+      {
+        id: `previousThread`,
+        titleIntlId: `codex.command.previousThread`,
+        descriptionIntlId: `codex.commandDescription.previousThread`,
+        commandMenuGroupKey: `navigation`,
+        commandMenu: !0,
+        electron: {
+          menuTitle: `Previous Chat`,
+          menuTitleIntlId: `codex.commandMenuTitle.previousThread`,
+          defaultKeybindings: [{ key: `CmdOrCtrl+Shift+[` }],
+          platformDefaultKeybindings: {
+            macOS: [{ key: `Command+Shift+[` }, { key: `Command+Alt+Left` }],
+            default: [{ key: `Ctrl+Shift+[` }, { key: `Ctrl+PageUp` }],
+          },
+        },
+      },
+      {
+        id: `previousRecentThread`,
+        titleIntlId: `codex.command.previousRecentThread`,
+        descriptionIntlId: `codex.commandDescription.previousRecentThread`,
+        availableIn: [`electron`],
+        shortcutScope: `app`,
+        allowsKeyRepeat: !0,
+        commandMenuGroupKey: `navigation`,
+        electron: { defaultKeybindings: [{ key: `Ctrl+Shift+Tab` }] },
+      },
+      {
+        id: `nextTab`,
+        titleIntlId: `codex.command.nextTab`,
+        descriptionIntlId: `codex.commandDescription.nextTab`,
+        availableIn: [`electron`],
+        shortcutScope: `app`,
+        allowsKeyRepeat: !0,
+        commandMenuGroupKey: `navigation`,
+        electron: {
+          defaultKeybindings: [{ key: `CmdOrCtrl+Shift+]` }],
+          platformDefaultKeybindings: {
+            macOS: [{ key: `Ctrl+Tab` }, { key: `Command+Shift+]` }, { key: `Command+Alt+Right` }],
+            default: [{ key: `Ctrl+Tab` }, { key: `Ctrl+Shift+]` }, { key: `Ctrl+PageDown` }],
+          },
+        },
+      },
+      {
+        id: `nextThread`,
+        titleIntlId: `codex.command.nextThread`,
+        descriptionIntlId: `codex.commandDescription.nextThread`,
+        commandMenuGroupKey: `navigation`,
+        commandMenu: !0,
+        electron: {
+          menuTitle: `Next Chat`,
+          menuTitleIntlId: `codex.commandMenuTitle.nextThread`,
+          defaultKeybindings: [{ key: `CmdOrCtrl+Shift+]` }],
+          platformDefaultKeybindings: {
+            macOS: [{ key: `Command+Shift+]` }, { key: `Command+Alt+Right` }],
+            default: [{ key: `Ctrl+Shift+]` }, { key: `Ctrl+PageDown` }],
+          },
+        },
+      },
+      {
+        id: `nextRecentThread`,
+        titleIntlId: `codex.command.nextRecentThread`,
+        descriptionIntlId: `codex.commandDescription.nextRecentThread`,
+        availableIn: [`electron`],
+        shortcutScope: `app`,
+        allowsKeyRepeat: !0,
+        commandMenuGroupKey: `navigation`,
+        electron: { defaultKeybindings: [{ key: `Ctrl+Tab` }] },
+      },
+      {
+        id: `switchToMode1`,
+        titleIntlId: `codex.command.switchToMode1`,
+        descriptionIntlId: `codex.commandDescription.switchToMode1`,
+        availableIn: [`electron`],
+        shortcutScope: `app`,
+        commandMenuGroupKey: `navigation`,
+        commandMenu: !0,
+        electron: {
+          platformDefaultKeybindings: { macOS: [{ key: `Ctrl+1` }], default: [{ key: `Alt+1` }] },
+        },
+      },
+      {
+        id: `switchToMode2`,
+        titleIntlId: `codex.command.switchToMode2`,
+        descriptionIntlId: `codex.commandDescription.switchToMode2`,
+        availableIn: [`electron`],
+        shortcutScope: `app`,
+        commandMenuGroupKey: `navigation`,
+        commandMenu: !0,
+        electron: {
+          platformDefaultKeybindings: { macOS: [{ key: `Ctrl+2` }], default: [{ key: `Alt+2` }] },
+        },
+      },
+      {
+        id: `settings`,
+        titleIntlId: `codex.command.settings`,
+        descriptionIntlId: `codex.commandDescription.settings`,
+        commandMenuGroupKey: `app`,
+        commandMenu: !0,
+        electron: {
+          menuTitle: `Settings…`,
+          menuTitleIntlId: `codex.commandMenuTitle.settings`,
+          defaultKeybindings: [{ key: `CmdOrCtrl+,` }],
+        },
+      },
+      {
+        id: `mcpSettings`,
+        titleIntlId: `codex.command.mcpSettings`,
+        descriptionIntlId: `codex.commandDescription.mcpSettings`,
+        commandMenuGroupKey: `configure`,
+        commandMenu: !0,
+      },
+      {
+        id: `personalitySettings`,
+        titleIntlId: `codex.command.personalitySettings`,
+        descriptionIntlId: `codex.commandDescription.personalitySettings`,
+        commandMenuGroupKey: `configure`,
+        commandMenu: !0,
+      },
+      {
+        id: `keyboardShortcuts`,
+        titleIntlId: `codex.command.keyboardShortcuts`,
+        descriptionIntlId: `codex.commandDescription.keyboardShortcuts`,
+        commandMenuGroupKey: `configure`,
+        commandMenu: !0,
+      },
+      {
+        id: `showKeyboardShortcuts`,
+        titleIntlId: `codex.command.showKeyboardShortcuts`,
+        descriptionIntlId: `codex.commandDescription.showKeyboardShortcuts`,
+        availableIn: [`electron`],
+        shortcutScope: `app`,
+        electron: {
+          menuTitle: `Keyboard Shortcuts`,
+          menuTitleIntlId: `codex.commandMenuTitle.showKeyboardShortcuts`,
+          defaultKeybindings: [{ key: `CmdOrCtrl+Shift+/` }],
+        },
+      },
+      {
+        id: `manageTasks`,
+        titleIntlId: `codex.command.manageTasks`,
+        descriptionIntlId: `codex.commandDescription.manageTasks`,
+        commandMenuGroupKey: `app`,
+        commandMenu: !0,
+      },
+      {
+        id: `openProcessManager`,
+        titleIntlId: `codex.command.openProcessManager`,
+        descriptionIntlId: `codex.commandDescription.openProcessManager`,
+        availableIn: [`electron`],
+        shortcutScope: `app`,
+        commandMenuGroupKey: `app`,
+        commandMenu: !0,
+        electron: {
+          menuTitle: `Process Manager`,
+          menuTitleIntlId: `codex.commandMenuTitle.openProcessManager`,
+          defaultKeybindings: [{ key: `Ctrl+Alt+M` }],
+        },
+      },
+      {
+        id: `forceReloadSkills`,
+        titleIntlId: `codex.command.forceReloadSkills`,
+        descriptionIntlId: `codex.commandDescription.forceReloadSkills`,
+        commandMenuGroupKey: `skills`,
+        commandMenu: !0,
+      },
+      {
+        id: `installPrimaryRuntime`,
+        titleIntlId: `codex.command.installPrimaryRuntime`,
+        descriptionIntlId: `codex.commandDescription.installPrimaryRuntime`,
+        commandMenuGroupKey: `configure`,
+        commandMenu: !0,
+      },
+      {
+        id: `openSkills`,
+        titleIntlId: `codex.command.openSkills`,
+        descriptionIntlId: `codex.commandDescription.openSkills`,
+        commandMenuGroupKey: `skills`,
+        commandMenu: !0,
+      },
+      {
+        id: `openFolder`,
+        titleIntlId: `codex.command.openFolder`,
+        descriptionIntlId: `codex.commandDescription.openFolder`,
+        commandMenuGroupKey: `workspace`,
+        commandMenu: !0,
+        electron: {
+          menuTitle: `Open Folder…`,
+          menuTitleIntlId: `codex.commandMenuTitle.openFolder`,
+          defaultKeybindings: [{ key: `CmdOrCtrl+O` }],
+        },
+      },
+      {
+        id: `toggleSidebar`,
+        titleIntlId: `codex.command.toggleSidebar`,
+        descriptionIntlId: `codex.commandDescription.toggleSidebar`,
+        commandMenuGroupKey: `panels`,
+        commandMenu: !0,
+        electron: {
+          menuTitle: `Toggle Sidebar`,
+          menuTitleIntlId: `codex.commandMenuTitle.toggleSidebar`,
+          defaultKeybindings: [{ key: `CmdOrCtrl+B` }],
+        },
+      },
+      {
+        id: `toggleBottomPanel`,
+        titleIntlId: `codex.command.toggleBottomPanel`,
+        descriptionIntlId: `codex.commandDescription.toggleBottomPanel`,
+        commandMenuGroupKey: `panels`,
+        commandMenu: !0,
+        electron: {
+          menuTitle: `Toggle Bottom Panel`,
+          menuTitleIntlId: `codex.commandMenuTitle.toggleBottomPanel`,
+          defaultKeybindings: [{ key: `CmdOrCtrl+J` }],
+        },
+      },
+      {
+        id: `togglePinnedSummary`,
+        titleIntlId: `codex.command.togglePinnedSummary`,
+        descriptionIntlId: `codex.commandDescription.togglePinnedSummary`,
+        commandMenuGroupKey: `panels`,
+        commandMenu: !0,
+        electron: {
+          menuTitle: `Toggle Pinned Summary`,
+          menuTitleIntlId: `codex.commandMenuTitle.togglePinnedSummary`,
+        },
+      },
+      {
+        id: `toggleTerminal`,
+        titleIntlId: `codex.command.toggleTerminal`,
+        descriptionIntlId: `codex.commandDescription.toggleTerminal`,
+        commandMenuGroupKey: `panels`,
+        commandMenu: !0,
+        electron: {
+          menuTitle: `Open Terminal`,
+          menuTitleIntlId: `codex.commandMenuTitle.toggleTerminal`,
+          defaultKeybindings: [{ key: "Control+`" }],
+        },
+      },
+      {
+        id: `openBrowserTab`,
+        titleIntlId: `codex.command.openBrowserTab`,
+        descriptionIntlId: `codex.commandDescription.openBrowserTab`,
+        commandMenuGroupKey: `panels`,
+        commandMenu: !0,
+        electron: {
+          menuTitle: `Open Browser Tab`,
+          menuTitleIntlId: `codex.commandMenuTitle.openBrowserTab`,
+          defaultKeybindings: [{ key: `CmdOrCtrl+T` }],
+        },
+      },
+      {
+        id: `toggleBrowserPanel`,
+        titleIntlId: `codex.command.toggleBrowserPanel`,
+        descriptionIntlId: `codex.commandDescription.toggleBrowserPanel`,
+        commandMenuGroupKey: `panels`,
+        commandMenu: !0,
+        electron: {
+          menuTitle: `Toggle Browser Panel`,
+          menuTitleIntlId: `codex.commandMenuTitle.toggleBrowserPanel`,
+          defaultKeybindings: [{ key: `CmdOrCtrl+Shift+B` }],
+        },
+      },
+      {
+        id: `openReviewTab`,
+        titleIntlId: `codex.command.openReviewTab`,
+        descriptionIntlId: `codex.commandDescription.openReviewTab`,
+        availableIn: [`electron`, `browser`],
+        shortcutScope: `app`,
+        commandMenuGroupKey: `panels`,
+        commandMenu: !0,
+        electron: { defaultKeybindings: [{ key: `Ctrl+Shift+G` }] },
+      },
+      {
+        id: `toggleSidePanel`,
+        titleIntlId: `codex.command.toggleSidePanel`,
+        descriptionIntlId: `codex.commandDescription.toggleSidePanel`,
+        commandMenuGroupKey: `panels`,
+        commandMenu: !0,
+        electron: {
+          menuTitle: `Toggle Side Panel`,
+          menuTitleIntlId: `codex.commandMenuTitle.toggleSidePanel`,
+          defaultKeybindings: [{ key: `CmdOrCtrl+Alt+B` }],
+        },
+      },
+      {
+        id: `toggleMaximizeSidePanel`,
+        titleIntlId: `codex.command.toggleMaximizeSidePanel`,
+        descriptionIntlId: `codex.commandDescription.toggleMaximizeSidePanel`,
+        shortcutScope: `app`,
+      },
+      {
+        id: `findInThread`,
+        titleIntlId: `codex.command.findInThread`,
+        descriptionIntlId: `codex.commandDescription.findInThread`,
+        commandMenuGroupKey: `navigation`,
+        commandMenu: !0,
+        electron: {
+          menuTitle: `Find`,
+          menuTitleIntlId: `codex.commandMenuTitle.findInThread`,
+          defaultKeybindings: [{ key: `CmdOrCtrl+F` }],
+          platformDefaultKeybindings: {
+            macOS: [{ key: `Command+F` }],
+            default: [{ key: `Ctrl+F` }],
+          },
+        },
+      },
+      {
+        id: `focusBrowserAddressBar`,
+        titleIntlId: `codex.command.focusBrowserAddressBar`,
+        descriptionIntlId: `codex.commandDescription.focusBrowserAddressBar`,
+        commandMenuGroupKey: `navigation`,
+        commandMenu: !0,
+        electron: {
+          menuTitle: `Focus Browser Address Bar`,
+          menuTitleIntlId: `codex.commandMenuTitle.focusBrowserAddressBar`,
+          defaultKeybindings: [{ key: `CmdOrCtrl+L` }],
+        },
+      },
+      {
+        id: `navigateBrowserBack`,
+        titleIntlId: `codex.command.navigateBrowserBack`,
+        descriptionIntlId: `codex.commandDescription.navigateBrowserBack`,
+        availableIn: [`electron`],
+        shortcutScope: `app`,
+        electron: {
+          platformDefaultKeybindings: {
+            macOS: [{ key: `Command+Left` }],
+            default: [{ key: `Alt+Left` }],
+          },
+        },
+      },
+      {
+        id: `navigateBrowserForward`,
+        titleIntlId: `codex.command.navigateBrowserForward`,
+        descriptionIntlId: `codex.commandDescription.navigateBrowserForward`,
+        availableIn: [`electron`],
+        shortcutScope: `app`,
+        electron: {
+          platformDefaultKeybindings: {
+            macOS: [{ key: `Command+Right` }],
+            default: [{ key: `Alt+Right` }],
+          },
+        },
+      },
+      {
+        id: `navigateBack`,
+        titleIntlId: `codex.command.navigateBack`,
+        descriptionIntlId: `codex.commandDescription.navigateBack`,
+        commandMenuGroupKey: `navigation`,
+        commandMenu: !0,
+        electron: {
+          menuTitle: `Back`,
+          menuTitleIntlId: `codex.commandMenuTitle.navigateBack`,
+          defaultKeybindings: [{ key: `CmdOrCtrl+[` }, { key: `MouseBack` }],
+        },
+      },
+      {
+        id: `navigateForward`,
+        titleIntlId: `codex.command.navigateForward`,
+        descriptionIntlId: `codex.commandDescription.navigateForward`,
+        commandMenuGroupKey: `navigation`,
+        commandMenu: !0,
+        electron: {
+          menuTitle: `Forward`,
+          menuTitleIntlId: `codex.commandMenuTitle.navigateForward`,
+          defaultKeybindings: [{ key: `CmdOrCtrl+]` }, { key: `MouseForward` }],
+        },
+      },
+      {
+        id: `logOut`,
+        titleIntlId: `codex.command.logOut`,
+        descriptionIntlId: `codex.commandDescription.logOut`,
+        commandMenuGroupKey: `app`,
+        commandMenu: !0,
+      },
+      {
+        id: `feedback`,
+        titleIntlId: `codex.command.feedback`,
+        descriptionIntlId: `codex.commandDescription.feedback`,
+        commandMenuGroupKey: `app`,
+        commandMenu: !0,
+      },
+      {
+        id: `environmentAction1`,
+        titleIntlId: `codex.command.environmentAction1`,
+        descriptionIntlId: `codex.commandDescription.environmentActionSlot`,
+        shortcutScope: `app`,
+        commandMenuGroupKey: `workspace`,
+        electron: { defaultKeybindings: [{ key: `Command+Shift+D` }] },
+      },
+      {
+        id: `environmentAction2`,
+        titleIntlId: `codex.command.environmentAction2`,
+        descriptionIntlId: `codex.commandDescription.environmentActionSlot`,
+        shortcutScope: `app`,
+        commandMenuGroupKey: `workspace`,
+      },
+      {
+        id: `environmentAction3`,
+        titleIntlId: `codex.command.environmentAction3`,
+        descriptionIntlId: `codex.commandDescription.environmentActionSlot`,
+        shortcutScope: `app`,
+        commandMenuGroupKey: `workspace`,
+      },
+      {
+        id: `environmentAction4`,
+        titleIntlId: `codex.command.environmentAction4`,
+        descriptionIntlId: `codex.commandDescription.environmentActionSlot`,
+        shortcutScope: `app`,
+        commandMenuGroupKey: `workspace`,
+      },
+      {
+        id: `environmentAction5`,
+        titleIntlId: `codex.command.environmentAction5`,
+        descriptionIntlId: `codex.commandDescription.environmentActionSlot`,
+        shortcutScope: `app`,
+        commandMenuGroupKey: `workspace`,
+      },
+      {
+        id: `environmentAction6`,
+        titleIntlId: `codex.command.environmentAction6`,
+        descriptionIntlId: `codex.commandDescription.environmentActionSlot`,
+        shortcutScope: `app`,
+        commandMenuGroupKey: `workspace`,
+      },
+      {
+        id: `environmentAction7`,
+        titleIntlId: `codex.command.environmentAction7`,
+        descriptionIntlId: `codex.commandDescription.environmentActionSlot`,
+        shortcutScope: `app`,
+        commandMenuGroupKey: `workspace`,
+      },
+      {
+        id: `environmentAction8`,
+        titleIntlId: `codex.command.environmentAction8`,
+        descriptionIntlId: `codex.commandDescription.environmentActionSlot`,
+        shortcutScope: `app`,
+        commandMenuGroupKey: `workspace`,
+      },
+      {
+        id: `environmentAction9`,
+        titleIntlId: `codex.command.environmentAction9`,
+        descriptionIntlId: `codex.commandDescription.environmentActionSlot`,
+        shortcutScope: `app`,
+        commandMenuGroupKey: `workspace`,
+      },
+      {
+        id: `thread1`,
+        titleIntlId: `codex.command.thread1`,
+        descriptionIntlId: `codex.commandDescription.threadSlot`,
+        electron: {
+          menuTitle: `Go to Chat 1`,
+          menuTitleIntlId: `codex.commandMenuTitle.thread1`,
+          defaultKeybindings: [{ key: `CmdOrCtrl+1` }],
+        },
+      },
+      {
+        id: `thread2`,
+        titleIntlId: `codex.command.thread2`,
+        descriptionIntlId: `codex.commandDescription.threadSlot`,
+        electron: {
+          menuTitle: `Go to Chat 2`,
+          menuTitleIntlId: `codex.commandMenuTitle.thread2`,
+          defaultKeybindings: [{ key: `CmdOrCtrl+2` }],
+        },
+      },
+      {
+        id: `thread3`,
+        titleIntlId: `codex.command.thread3`,
+        descriptionIntlId: `codex.commandDescription.threadSlot`,
+        electron: {
+          menuTitle: `Go to Chat 3`,
+          menuTitleIntlId: `codex.commandMenuTitle.thread3`,
+          defaultKeybindings: [{ key: `CmdOrCtrl+3` }],
+        },
+      },
+      {
+        id: `thread4`,
+        titleIntlId: `codex.command.thread4`,
+        descriptionIntlId: `codex.commandDescription.threadSlot`,
+        electron: {
+          menuTitle: `Go to Chat 4`,
+          menuTitleIntlId: `codex.commandMenuTitle.thread4`,
+          defaultKeybindings: [{ key: `CmdOrCtrl+4` }],
+        },
+      },
+      {
+        id: `thread5`,
+        titleIntlId: `codex.command.thread5`,
+        descriptionIntlId: `codex.commandDescription.threadSlot`,
+        electron: {
+          menuTitle: `Go to Chat 5`,
+          menuTitleIntlId: `codex.commandMenuTitle.thread5`,
+          defaultKeybindings: [{ key: `CmdOrCtrl+5` }],
+        },
+      },
+      {
+        id: `thread6`,
+        titleIntlId: `codex.command.thread6`,
+        descriptionIntlId: `codex.commandDescription.threadSlot`,
+        electron: {
+          menuTitle: `Go to Chat 6`,
+          menuTitleIntlId: `codex.commandMenuTitle.thread6`,
+          defaultKeybindings: [{ key: `CmdOrCtrl+6` }],
+        },
+      },
+      {
+        id: `thread7`,
+        titleIntlId: `codex.command.thread7`,
+        descriptionIntlId: `codex.commandDescription.threadSlot`,
+        electron: {
+          menuTitle: `Go to Chat 7`,
+          menuTitleIntlId: `codex.commandMenuTitle.thread7`,
+          defaultKeybindings: [{ key: `CmdOrCtrl+7` }],
+        },
+      },
+      {
+        id: `thread8`,
+        titleIntlId: `codex.command.thread8`,
+        descriptionIntlId: `codex.commandDescription.threadSlot`,
+        electron: {
+          menuTitle: `Go to Chat 8`,
+          menuTitleIntlId: `codex.commandMenuTitle.thread8`,
+          defaultKeybindings: [{ key: `CmdOrCtrl+8` }],
+        },
+      },
+      {
+        id: `thread9`,
+        titleIntlId: `codex.command.thread9`,
+        descriptionIntlId: `codex.commandDescription.threadSlot`,
+        electron: {
+          menuTitle: `Go to Chat 9`,
+          menuTitleIntlId: `codex.commandMenuTitle.thread9`,
+          defaultKeybindings: [{ key: `CmdOrCtrl+9` }],
+        },
+      },
+    ];
+  });
+function Zo(e, t) {
+  return e.map((e) => ({ ...e, kind: t }));
+}
+var Qo,
+  $o = e(() => {
+    (Ko(),
+      Jo(),
+      Xo(),
+      (Qo = [...Zo(Yo, `webview`), ...Zo(qo, `vscode-only`), ...Zo(Go, `electron-only`)]));
+  });
+function es(e) {
+  return _s.get(e) ?? null;
+}
+function ts(e) {
+  return _s.has(e);
+}
+function ns(e) {
+  return e.kind === `webview` && `commandMenu` in e && e.commandMenu === !0;
+}
+function rs(e, t) {
+  return e.availableIn?.includes(t) ?? !0;
+}
+function is(e) {
+  return !ms(e);
+}
+function as(e) {
+  return `descriptionIntlId` in e;
+}
+function os(e) {
+  return (
+    `shortcutScope` in e &&
+    e.shortcutScope === `os-global` &&
+    `allowsBareModifiers` in e &&
+    e.allowsBareModifiers === !0
+  );
+}
+function ss(e) {
+  return `shortcutScope` in e && e.shortcutScope === `os-global`;
+}
+function cs(e) {
+  return e === `MouseBack` || e === `MouseForward`;
+}
+function ls(e, t) {
+  return e === t ? !0 : gs.some((n) => n.includes(e) && n.includes(t));
+}
+function us({ commandId: e, isMacOS: t }) {
+  return ds({ commandId: e, isMacOS: t })[0] ?? null;
+}
+function ds({ commandId: e, isMacOS: t }) {
+  let n = es(e);
+  if (n == null || !is(n)) return [];
+  let r = ps(n);
+  return r == null
+    ? []
+    : t === !0 && r.platformDefaultKeybindings?.macOS != null
+      ? r.platformDefaultKeybindings.macOS.map((e) => e.key)
+      : t === !1 && r.platformDefaultKeybindings?.default != null
+        ? r.platformDefaultKeybindings.default.map((e) => e.key)
+        : r.defaultKeybindings == null
+          ? []
+          : r.defaultKeybindings.map((e) => e.key);
+}
+function fs({ commandId: e, keymapState: t, isMacOS: n }) {
+  let r = es(e);
+  if (r == null || !is(r)) return [];
+  let i = t?.bindings.filter((t) => t.command === e);
+  if (i != null && i.length > 0) {
+    let e = [];
+    for (let t of i) {
+      if (t.key == null) return [];
+      e.push(t.key);
+    }
+    return e;
+  }
+  return ds({ commandId: e, isMacOS: n });
+}
+function ps(e) {
+  return e == null || !(`electron` in e) || e.electron == null ? null : e.electron;
+}
+function ms(e) {
+  return e.kind === `vscode-only`;
+}
+var hs,
+  gs,
+  _s,
+  vs,
+  ys,
+  bs = e(() => {
+    ($o(),
+      (hs = [`thread`, `navigation`, `panels`, `workspace`, `skills`, `configure`, `app`]),
+      (gs = [
+        [`closeTab`, `closeWindow`],
+        [`nextTab`, `nextThread`],
+        [`nextTab`, `nextRecentThread`],
+        [`previousTab`, `previousThread`],
+        [`previousTab`, `previousRecentThread`],
+      ]),
+      (_s = new Map()));
+    for (let e of Qo) {
+      if (_s.has(e.id)) throw Error(`Duplicate Codex command id: ${e.id}`);
+      _s.set(e.id, e);
+    }
+    ((vs = Qo.filter((e) => e.kind === `webview` && /^thread[1-9]$/.test(e.id)).map((e) => e.id)),
+      (ys = Qo.filter((e) => e.kind === `webview` && /^environmentAction[1-9]$/.test(e.id)).map(
+        (e) => e.id,
+      )),
+      Qo.flatMap((e) => {
+        let t = ps(e);
+        return t?.menuTitle == null || t.menuTitleIntlId == null ? [] : [t.menuTitleIntlId];
+      }),
+      Qo.flatMap((e) => {
+        if (!(`vscodeCommand` in e) || e.vscodeCommand == null) return [];
+        let { commandId: t = `chatgpt.${e.id}`, ...n } = e.vscodeCommand;
+        return [{ commandId: t, ...n }];
+      }));
+  }),
+  xs = e(() => {
+    ($o(), bs());
+  });
+function Ss(e) {
+  return e.trim().split(/\s+/).filter(Boolean);
+}
+var Cs,
+  ws = e(() => {
+    Cs = 1e3;
+  });
+function Ts() {
+  return typeof navigator > `u` ? !1 : (navigator.platform ?? ``).startsWith(`Mac`);
+}
+function Es() {
+  return typeof navigator > `u` ? !1 : (navigator.platform ?? ``).startsWith(`Linux`);
+}
+function Ds(e, t = Ts(), n = !t && Es()) {
+  return Ss(e)
+    .map((e) => Os(e, t, n))
+    .join(` `);
+}
+function Os(e, t, n) {
+  let r = js.get(e);
+  if (t && r != null) return r;
+  let i = e.split(`+`).filter(Boolean),
+    a = new Set(),
+    o = null;
+  for (let e of i)
+    switch (e) {
+      case `CmdOrCtrl`:
+        a.add(t ? `Command` : `Ctrl`);
+        break;
+      case `Command`:
+      case `Cmd`:
+        a.add(t ? `Command` : n ? `Super` : `Win`);
+        break;
+      case `Control`:
+      case `Ctrl`:
+        a.add(`Ctrl`);
+        break;
+      case `Alt`:
+      case `Option`:
+        a.add(`Alt`);
+        break;
+      case `Shift`:
+        a.add(`Shift`);
+        break;
+      default:
+        o = e;
+        break;
+    }
+  t && o === `/` && a.has(`Shift`) && (a.delete(`Shift`), (o = `?`));
+  let s = ks(o, t);
+  if (t) {
+    let e = { Ctrl: `⌃`, Alt: `⌥`, Shift: `⇧`, Command: `⌘` };
+    return `${[`Ctrl`, `Alt`, `Shift`, `Command`]
+      .filter((e) => a.has(e))
+      .map((t) => e[t])
+      .join(``)}${s}`;
+  }
+  let c = Array.from(a).map((e) => (e === `Command` ? `Cmd` : e));
+  return [...[`Ctrl`, `Alt`, `Shift`, `Cmd`, `Super`, `Win`].filter((e) => c.includes(e)), s]
+    .filter(Boolean)
+    .join(`+`);
+}
+function ks(e, t) {
+  if (e == null) return ``;
+  if (t && e === `Plus`) return `+`;
+  switch (e) {
+    case `Enter`:
+      return `⏎`;
+    case `LeftOption`:
+      return t ? `Left ⌥` : `Left Option`;
+    case `RightOption`:
+      return t ? `Right ⌥` : `Right Option`;
+    case `DoubleOption`:
+      return t ? `⌥ + ⌥` : `Double Option`;
+    case `LeftCommand`:
+      return t ? `Left ⌘` : `Left Command`;
+    case `DoubleCommand`:
+      return t ? `⌘ + ⌘` : `Double Command`;
+    case `RightCommand`:
+      return t ? `Right ⌘` : `Right Command`;
+    case `LeftControl`:
+      return t ? `Left ⌃` : `Left Control`;
+    case `RightControl`:
+      return t ? `Right ⌃` : `Right Control`;
+    case `LeftShift`:
+      return t ? `Left ⇧` : `Left Shift`;
+    case `RightShift`:
+      return t ? `Right ⇧` : `Right Shift`;
+    case `DoubleShift`:
+      return t ? `⇧ + ⇧` : `Double Shift`;
+    case `Fn`:
+      return `Fn`;
+    case `MouseBack`:
+      return `Mouse Back`;
+    case `MouseForward`:
+      return `Mouse Forward`;
+    default:
+      return e;
+  }
+}
+function As(e, t = Ts()) {
+  let n = us({ commandId: e, isMacOS: t });
+  return n == null ? null : Ds(n, t);
+}
+var js,
+  Ms = e(() => {
+    (xs(),
+      ws(),
+      (js = new Map([
+        [`LeftOption+RightOption`, `⌥ + ⌥`],
+        [`LeftAlt+RightAlt`, `⌥ + ⌥`],
+        [`LeftCommand+RightCommand`, `⌘ + ⌘`],
+        [`LeftCmd+RightCmd`, `⌘ + ⌘`],
+        [`LeftMeta+RightMeta`, `⌘ + ⌘`],
+        [`LeftShift+RightShift`, `⇧ + ⇧`],
+      ])));
+  });
+function Ns({ altKey: e, code: t, key: n }) {
+  return !e || t == null ? n : (Ls?.[t] ?? Fs(t) ?? n);
+}
+function Ps(e) {
+  Ls = e;
+}
+function Fs(e) {
+  return /^Key[A-Z]$/.test(e)
+    ? e.slice(3).toLowerCase()
+    : /^Digit[0-9]$/.test(e)
+      ? e.slice(5)
+      : (Is.get(e) ?? null);
+}
+var Is,
+  Ls,
+  Rs = e(() => {
+    ((Is = new Map([
+      [`Backquote`, "`"],
+      [`Minus`, `-`],
+      [`Equal`, `=`],
+      [`BracketLeft`, `[`],
+      [`BracketRight`, `]`],
+      [`Backslash`, `\\`],
+      [`Semicolon`, `;`],
+      [`Quote`, `'`],
+      [`Comma`, `,`],
+      [`Period`, `.`],
+      [`Slash`, `/`],
+      [`Space`, ` `],
+      [`NumpadMultiply`, `*`],
+      [`NumpadAdd`, `+`],
+      [`NumpadSubtract`, `-`],
+      [`NumpadDecimal`, `.`],
+      [`NumpadDivide`, `/`],
+    ])),
+      (Ls = null));
+  });
+function zs(e, t) {
+  let n = e.split(`+`).filter(Boolean),
+    r = null,
+    i = !1,
+    a = !1,
+    o = !1,
+    s = !1;
+  for (let e of n)
+    switch (e) {
+      case `CmdOrCtrl`:
+        t ? (a = !0) : (i = !0);
+        break;
+      case `Command`:
+      case `Cmd`:
+        a = !0;
+        break;
+      case `Control`:
+      case `Ctrl`:
+        i = !0;
+        break;
+      case `Alt`:
+      case `Option`:
+        o = !0;
+        break;
+      case `Shift`:
+        s = !0;
+        break;
+      default:
+        r = e.toLowerCase();
+        break;
+    }
+  return { key: Bs(r ?? ``), requireCtrl: i, requireMeta: a, requireAlt: o, requireShift: s };
+}
+function Bs(e) {
+  switch (e) {
+    case `esc`:
+    case `escape`:
+      return `escape`;
+    case `up`:
+    case `arrowup`:
+      return `arrowup`;
+    case `down`:
+    case `arrowdown`:
+      return `arrowdown`;
+    case `left`:
+    case `arrowleft`:
+      return `arrowleft`;
+    case `right`:
+    case `arrowright`:
+      return `arrowright`;
+    case `space`:
+      return ` `;
+    case `plus`:
+      return `+`;
+    default:
+      return e;
+  }
+}
+function Vs(e, t) {
+  return e.target instanceof Element && e.target.closest(t) != null;
+}
+function Hs(e, t) {
+  return Ns(e).toLowerCase() === t.key || (t.key === `=` && t.requireShift && e.key === `+`);
+}
+function Us(e, t) {
+  return !(
+    !t.key ||
+    !Hs(e, t) ||
+    e.ctrlKey !== t.requireCtrl ||
+    e.metaKey !== t.requireMeta ||
+    e.altKey !== t.requireAlt ||
+    e.shiftKey !== t.requireShift
+  );
+}
+function Ws(e, t) {
+  let n = Ss(t),
+    r = n[0];
+  return r == null || n.length !== 1 ? !1 : Us(e, zs(r, Ts()));
+}
+function Gs(e) {
+  return e.requireCtrl || e.requireMeta || e.requireAlt;
+}
+function Ks(e) {
+  let t = (0, qs.c)(27),
+    {
+      accelerator: n,
+      allowRepeat: r,
+      enabled: i,
+      onKeyDown: a,
+      onKeyUp: o,
+      capture: s,
+      ignoreWithin: c,
+      keyboardEventTarget: l,
+    } = e,
+    u = r === void 0 ? !1 : r,
+    d = i === void 0 ? !0 : i,
+    f = s === void 0 ? !0 : s,
+    p;
+  if (t[0] !== n) {
+    let e = Ts();
+    ((p = Ss(n).map((t) => zs(t, e))), (t[0] = n), (t[1] = p));
+  } else p = t[1];
+  let m = p,
+    h = m.length > 1,
+    g = (0, Js.useRef)(!1),
+    _ = (0, Js.useRef)(null),
+    v = (0, Js.useRef)(0),
+    y = (0, Js.useRef)(null),
+    b = o != null,
+    x;
+  t[2] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((x = () => {
+        ((v.current = 0), y.current != null && (clearTimeout(y.current), (y.current = null)));
+      }),
+      (t[2] = x))
+    : (x = t[2]);
+  let S = x,
+    C;
+  t[3] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((C = () => {
+        ((g.current = !1), (_.current = null), S());
+      }),
+      (t[3] = C))
+    : (C = t[3]);
+  let w = C,
+    T;
+  t[4] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((T = () => {
+        (y.current != null && clearTimeout(y.current), (y.current = setTimeout(S, Cs)));
+      }),
+      (t[4] = T))
+    : (T = t[4]);
+  let E = T,
+    D;
+  t[5] !== u || t[6] !== d || t[7] !== c || t[8] !== h || t[9] !== a || t[10] !== m
+    ? ((D = (e) => {
+        if (!d || (!u && e.repeat) || Vs(e, Ys) || (c && Vs(e, c))) return;
+        let t = m[v.current];
+        if (t != null && !(Vs(e, Xs) && (h || !Gs(t)))) {
+          if (!Us(e, t)) {
+            if (!h) return;
+            S();
+            let t = m[0];
+            if (t == null || !Us(e, t)) return;
+          }
+          if (!h) {
+            ((g.current = !0), (_.current = t), a(e));
+            return;
+          }
+          if ((e.preventDefault(), (v.current += 1), v.current < m.length)) {
+            E();
+            return;
+          }
+          ((g.current = !0), (_.current = m[m.length - 1] ?? null), S(), a(e));
+        }
+      }),
+      (t[5] = u),
+      (t[6] = d),
+      (t[7] = c),
+      (t[8] = h),
+      (t[9] = a),
+      (t[10] = m),
+      (t[11] = D))
+    : (D = t[11]);
+  let O = (0, Js.useEffectEvent)(D),
+    k;
+  t[12] === o
+    ? (k = t[13])
+    : ((k = (e) => {
+        if (!g.current) return;
+        let t = _.current;
+        t != null && Hs(e, t) && ((g.current = !1), (_.current = null), o?.(e));
+      }),
+      (t[12] = o),
+      (t[13] = k));
+  let A = (0, Js.useEffectEvent)(k),
+    j;
+  t[14] !== f || t[15] !== d || t[16] !== O || t[17] !== A || t[18] !== b || t[19] !== l
+    ? ((j = () => {
+        if (!d) {
+          w();
+          return;
+        }
+        let e = l ?? (typeof window > `u` ? null : window);
+        if (e == null) {
+          w();
+          return;
+        }
+        return (
+          e.addEventListener(`keydown`, O, { capture: f }),
+          b && e.addEventListener(`keyup`, A, { capture: f }),
+          () => {
+            (e.removeEventListener(`keydown`, O, { capture: f }),
+              b && e.removeEventListener(`keyup`, A, { capture: f }),
+              w());
+          }
+        );
+      }),
+      (t[14] = f),
+      (t[15] = d),
+      (t[16] = O),
+      (t[17] = A),
+      (t[18] = b),
+      (t[19] = l),
+      (t[20] = j))
+    : (j = t[20]);
+  let M;
+  (t[21] !== n || t[22] !== f || t[23] !== d || t[24] !== b || t[25] !== l
+    ? ((M = [n, f, d, b, l]),
+      (t[21] = n),
+      (t[22] = f),
+      (t[23] = d),
+      (t[24] = b),
+      (t[25] = l),
+      (t[26] = M))
+    : (M = t[26]),
+    (0, Js.useEffect)(j, M));
+}
+var qs,
+  Js,
+  Ys,
+  Xs,
+  Zs = e(() => {
+    ((qs = h()),
+      (Js = t(me(), 1)),
+      Ms(),
+      Rs(),
+      ws(),
+      (Ys = `[data-codex-shortcut-capture]`),
+      (Xs = `input,textarea,select,[contenteditable='true'],[data-codex-composer],[data-codex-terminal]`));
+  });
+function Qs(e, t) {
+  return ds({ commandId: e, isMacOS: t === `macOS` }).length > 0;
+}
+function $s(e, t, n) {
+  return fs({ commandId: e, keymapState: t, isMacOS: n === `macOS` }).map((e) => ({
+    accelerator: e,
+    label: Ds(e, n === `macOS`, n === `linux`),
+  }));
+}
+var ec,
+  tc,
+  nc,
+  rc,
+  ic,
+  ac,
+  oc,
+  sc,
+  cc = e(() => {
+    (xs(),
+      P(),
+      Xe(),
+      Ms(),
+      C(),
+      ne(),
+      Se(),
+      (ec = [
+        `thread1`,
+        `thread2`,
+        `thread3`,
+        `thread4`,
+        `thread5`,
+        `thread6`,
+        `thread7`,
+        `thread8`,
+        `thread9`,
+      ]),
+      (tc = he(d, `codex-command-keymap-state`, { enabled: !0, staleTime: le.ONE_MINUTE })),
+      (nc = s(d, (e, { get: t }) => {
+        es(e);
+        let n = t(mt);
+        return [...fs({ commandId: e, keymapState: t(tc).data, isMacOS: n === `macOS` })];
+      })),
+      (rc = s(d, (e, { get: t }) => t(nc, e)[0] ?? null)),
+      (ic = s(d, (e, { get: t }) => {
+        let n = t(mt);
+        return t(nc, e).map((e) => Ds(e, n === `macOS`, n === `linux`));
+      })),
+      (ac = s(d, (e, { get: t }) => t(ic, e)[0] ?? null)),
+      (oc = E(d, ({ get: e }) => ec.map((t) => e(ac, t)))),
+      (sc = s(d, (e, { get: t }) => t(tc).data?.bindings.some((t) => t.command === e) === !0)));
+  });
+function lc(e, t) {
+  e != null &&
+    ae.dispatchMessage(`browser-sidebar-command`, {
+      browserTabId: e.browserTabId,
+      command: t,
+      conversationId: e.conversationId,
+    });
+}
+var uc = e(() => {
+  Oe();
+});
+function dc(e) {
+  let t = (0, hc.c)(24),
+    {
+      autoFocus: n,
+      id: r,
+      isLoading: i,
+      label: a,
+      onChange: o,
+      onEnter: s,
+      onEscape: c,
+      onFocus: l,
+      placeholder: u,
+      value: d,
+    } = e,
+    f = n === void 0 ? !0 : n,
+    p = i === void 0 ? !1 : i,
+    m;
+  t[0] === p
+    ? (m = t[1])
+    : ((m = p
+        ? (0, Z.jsx)(Fe, {
+            "aria-hidden": !0,
+            className: `size-4 animate-spin text-token-foreground`,
+          })
+        : (0, Z.jsx)(je, { className: `size-4 text-token-foreground` })),
+      (t[0] = p),
+      (t[1] = m));
+  let h;
+  t[2] !== r || t[3] !== a
+    ? ((h = (0, Z.jsx)(`label`, { className: `sr-only`, htmlFor: r, children: a })),
+      (t[2] = r),
+      (t[3] = a),
+      (t[4] = h))
+    : (h = t[4]);
+  let g = p || void 0,
+    _;
+  t[5] === o
+    ? (_ = t[6])
+    : ((_ = (e) => {
+        o(e.target.value);
+      }),
+      (t[5] = o),
+      (t[6] = _));
+  let v;
+  t[7] !== s || t[8] !== c
+    ? ((v = (e) => {
+        if (e.key === `Enter`) {
+          (e.preventDefault(), s(e.shiftKey));
+          return;
+        }
+        e.key === `Escape` && (e.preventDefault(), c());
+      }),
+      (t[7] = s),
+      (t[8] = c),
+      (t[9] = v))
+    : (v = t[9]);
+  let y;
+  t[10] !== f ||
+  t[11] !== r ||
+  t[12] !== a ||
+  t[13] !== l ||
+  t[14] !== u ||
+  t[15] !== g ||
+  t[16] !== _ ||
+  t[17] !== v ||
+  t[18] !== d
+    ? ((y = (0, Z.jsx)(`input`, {
+        id: r,
+        type: `text`,
+        autoFocus: f,
+        value: d,
+        "aria-busy": g,
+        "aria-label": a,
+        placeholder: u,
+        className: `h-6 min-w-0 flex-1 bg-transparent text-base leading-6 text-token-foreground outline-none placeholder:text-token-input-placeholder-foreground`,
+        onChange: _,
+        onFocus: l,
+        onKeyDown: v,
+      })),
+      (t[10] = f),
+      (t[11] = r),
+      (t[12] = a),
+      (t[13] = l),
+      (t[14] = u),
+      (t[15] = g),
+      (t[16] = _),
+      (t[17] = v),
+      (t[18] = d),
+      (t[19] = y))
+    : (y = t[19]);
+  let b;
+  return (
+    t[20] !== m || t[21] !== h || t[22] !== y
+      ? ((b = (0, Z.jsxs)(`div`, {
+          className: `col-[1/2] row-[1] flex h-[44px] min-w-0 items-center gap-2 pl-4`,
+          children: [m, h, y],
+        })),
+        (t[20] = m),
+        (t[21] = h),
+        (t[22] = y),
+        (t[23] = b))
+      : (b = t[23]),
+    b
+  );
+}
+function fc(e) {
+  let t = (0, hc.c)(18),
+    { isVisible: n, matches: r, nextLabel: i, onNext: a, onPrevious: o, previousLabel: s } = e,
+    c = n
+      ? `max-h-9 translate-y-0 border-t py-2 opacity-100`
+      : `pointer-events-none max-h-0 -translate-y-2 border-t-0 py-0 opacity-0`,
+    l;
+  t[0] === c
+    ? (l = t[1])
+    : ((l = He(
+        `col-[1/4] row-[2] flex min-w-0 items-center border-token-border px-4 text-base leading-6 transition-[border-width,max-height,opacity,padding,translate] duration-200 ease-out`,
+        c,
+      )),
+      (t[0] = c),
+      (t[1] = l));
+  let u = r === 0,
+    d;
+  t[2] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((d = (0, Z.jsx)(tn, { className: `size-4` })), (t[2] = d))
+    : (d = t[2]);
+  let f;
+  t[3] !== o || t[4] !== s || t[5] !== u
+    ? ((f = (0, Z.jsx)(Me, {
+        className: `h-4 w-4 p-0 text-token-description-foreground`,
+        size: `icon`,
+        color: `ghost`,
+        uniform: !0,
+        onClick: o,
+        disabled: u,
+        "aria-label": s,
+        children: d,
+      })),
+      (t[3] = o),
+      (t[4] = s),
+      (t[5] = u),
+      (t[6] = f))
+    : (f = t[6]);
+  let p = r === 0,
+    m;
+  t[7] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((m = (0, Z.jsx)(tn, { className: `size-4 rotate-180` })), (t[7] = m))
+    : (m = t[7]);
+  let h;
+  t[8] !== i || t[9] !== a || t[10] !== p
+    ? ((h = (0, Z.jsx)(Me, {
+        className: `h-4 w-4 p-0 text-token-description-foreground`,
+        size: `icon`,
+        color: `ghost`,
+        uniform: !0,
+        onClick: a,
+        disabled: p,
+        "aria-label": i,
+        children: m,
+      })),
+      (t[8] = i),
+      (t[9] = a),
+      (t[10] = p),
+      (t[11] = h))
+    : (h = t[11]);
+  let g;
+  t[12] !== f || t[13] !== h
+    ? ((g = (0, Z.jsxs)(`div`, { className: `flex items-center gap-3`, children: [f, h] })),
+      (t[12] = f),
+      (t[13] = h),
+      (t[14] = g))
+    : (g = t[14]);
+  let _;
+  return (
+    t[15] !== l || t[16] !== g
+      ? ((_ = (0, Z.jsx)(`div`, { className: l, children: g })),
+        (t[15] = l),
+        (t[16] = g),
+        (t[17] = _))
+      : (_ = t[17]),
+    _
+  );
+}
+function pc(e) {
+  let t = (0, hc.c)(5),
+    { isVisible: n, label: r } = e,
+    i = n ? `max-h-9 translate-y-0 py-2 opacity-100` : `max-h-0 -translate-y-2 py-0 opacity-0`,
+    a;
+  t[0] === i
+    ? (a = t[1])
+    : ((a = He(
+        `text-token-description-foreground pointer-events-none col-[1/4] row-[2] min-w-0 px-4 text-right text-base leading-6 transition-[max-height,opacity,padding,translate] duration-200 ease-out`,
+        i,
+      )),
+      (t[0] = i),
+      (t[1] = a));
+  let o;
+  return (
+    t[2] !== r || t[3] !== a
+      ? ((o = (0, Z.jsx)(`span`, { className: a, children: r })),
+        (t[2] = r),
+        (t[3] = a),
+        (t[4] = o))
+      : (o = t[4]),
+    o
+  );
+}
+function mc(e) {
+  let t = (0, hc.c)(5),
+    { label: n, onClose: r } = e,
+    i;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((i = (0, Z.jsx)(`div`, { className: `mr-2 ml-2 h-4 w-px bg-token-border` })), (t[0] = i))
+    : (i = t[0]);
+  let a;
+  t[1] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((a = (0, Z.jsx)(Ue, { className: `size-4 text-token-foreground` })), (t[1] = a))
+    : (a = t[1]);
+  let o;
+  return (
+    t[2] !== n || t[3] !== r
+      ? ((o = (0, Z.jsxs)(`div`, {
+          className: `col-[3/4] row-[1] flex h-[44px] items-center pr-4`,
+          children: [
+            i,
+            (0, Z.jsx)(Me, {
+              className: `-m-0.5 size-6`,
+              size: `icon`,
+              color: `ghost`,
+              uniform: !0,
+              onClick: r,
+              "aria-label": n,
+              children: a,
+            }),
+          ],
+        })),
+        (t[2] = n),
+        (t[3] = r),
+        (t[4] = o))
+      : (o = t[4]),
+    o
+  );
+}
+var hc,
+  Z,
+  gc = e(() => {
+    ((hc = h()), Re(), Le(), nn(), Ae(), ke(), ze(), (Z = Ee()));
+  });
+function _c() {
+  let e = (0, vc.c)(9),
+    t = ve(F),
+    n = Qt(),
+    r = N(X),
+    i = N(G),
+    a;
+  e[0] === n
+    ? (a = e[1])
+    : ((a = n.formatMessage({
+        id: `codex.threadFindBar.close`,
+        defaultMessage: `Close find`,
+        description: `Button label to close the find bar`,
+      })),
+      (e[0] = n),
+      (e[1] = a));
+  let o;
+  e[2] !== r || e[3] !== i || e[4] !== t
+    ? ((o = () => {
+        (i === `browser` && (so(t, r), lc(r, { type: `close-find` }), lo(t, Do)), ro(t));
+      }),
+      (e[2] = r),
+      (e[3] = i),
+      (e[4] = t),
+      (e[5] = o))
+    : (o = e[5]);
+  let s;
+  return (
+    e[6] !== a || e[7] !== o
+      ? ((s = (0, yc.jsx)(mc, { label: a, onClose: o })), (e[6] = a), (e[7] = o), (e[8] = s))
+      : (s = e[8]),
+    s
+  );
+}
+var vc,
+  yc,
+  bc = e(() => {
+    ((vc = h()), P(), Tt(), I(), uc(), gc(), Vo(), (yc = Ee()));
+  });
+function xc() {
+  let e = (0, Sc.c)(29),
+    t = ve(F),
+    n = Qt(),
+    r = N(X),
+    i = N(Po),
+    a = N(G),
+    o = N(K),
+    s;
+  e[0] !== r || e[1] !== a || e[2] !== o || e[3] !== t
+    ? ((s = (e) => {
+        if (a === `browser` && e !== `browser`) {
+          (lc(r, { type: `close-find` }), io(t, e), lo(t, Do));
+          return;
+        }
+        (io(t, e), e === `browser` && o.length > 0 && lc(r, { type: `set-find-query`, query: o }));
+      }),
+      (e[0] = r),
+      (e[1] = a),
+      (e[2] = o),
+      (e[3] = t),
+      (e[4] = s))
+    : (s = e[4]);
+  let c = s;
+  if (i == null && r == null) return null;
+  let l = a === `conversation` ? `ghostActive` : `ghost`,
+    u;
+  e[5] === c
+    ? (u = e[6])
+    : ((u = () => {
+        c(`conversation`);
+      }),
+      (e[5] = c),
+      (e[6] = u));
+  let d = a === `conversation`,
+    f;
+  e[7] === n
+    ? (f = e[8])
+    : ((f = n.formatMessage({
+        id: `codex.threadFindBar.chatFilter`,
+        defaultMessage: `Search chat`,
+        description: `Button label to scope find results to chat`,
+      })),
+      (e[7] = n),
+      (e[8] = f));
+  let p;
+  e[9] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((p = (0, Cc.jsx)(Be, { className: `size-4` })), (e[9] = p))
+    : (p = e[9]);
+  let m;
+  e[10] !== l || e[11] !== u || e[12] !== d || e[13] !== f
+    ? ((m = (0, Cc.jsx)(Me, {
+        className: `-m-0.5 size-6`,
+        size: `icon`,
+        color: l,
+        uniform: !0,
+        onClick: u,
+        "aria-pressed": d,
+        "aria-label": f,
+        children: p,
+      })),
+      (e[10] = l),
+      (e[11] = u),
+      (e[12] = d),
+      (e[13] = f),
+      (e[14] = m))
+    : (m = e[14]);
+  let h;
+  e[15] !== i || e[16] !== a || e[17] !== n || e[18] !== c
+    ? ((h =
+        i == null
+          ? null
+          : (0, Cc.jsx)(Me, {
+              className: `-m-0.5 size-6`,
+              size: `icon`,
+              color: a === `diff` ? `ghostActive` : `ghost`,
+              uniform: !0,
+              onClick: () => {
+                c(`diff`);
+              },
+              "aria-pressed": a === `diff`,
+              "aria-label": n.formatMessage({
+                id: `codex.threadFindBar.diffFilter`,
+                defaultMessage: `Search diffs`,
+                description: `Button label to scope find results to diffs`,
+              }),
+              children: (0, Cc.jsx)(Uo, { className: `size-4` }),
+            })),
+      (e[15] = i),
+      (e[16] = a),
+      (e[17] = n),
+      (e[18] = c),
+      (e[19] = h))
+    : (h = e[19]);
+  let g;
+  e[20] !== r || e[21] !== a || e[22] !== n || e[23] !== c
+    ? ((g =
+        r == null
+          ? null
+          : (0, Cc.jsx)(Me, {
+              className: `-m-0.5 size-6`,
+              size: `icon`,
+              color: a === `browser` ? `ghostActive` : `ghost`,
+              uniform: !0,
+              onClick: () => {
+                c(`browser`);
+              },
+              "aria-pressed": a === `browser`,
+              "aria-label": n.formatMessage({
+                id: `codex.threadFindBar.browserFilter`,
+                defaultMessage: `Search browser page`,
+                description: `Button label to scope find results to browser page`,
+              }),
+              children: (0, Cc.jsx)(dn, { className: `size-4` }),
+            })),
+      (e[20] = r),
+      (e[21] = a),
+      (e[22] = n),
+      (e[23] = c),
+      (e[24] = g))
+    : (g = e[24]);
+  let _;
+  return (
+    e[25] !== m || e[26] !== h || e[27] !== g
+      ? ((_ = (0, Cc.jsxs)(`div`, {
+          className: `col-[2/3] row-[1] flex h-[44px] items-center justify-center gap-2`,
+          children: [m, h, g],
+        })),
+        (e[25] = m),
+        (e[26] = h),
+        (e[27] = g),
+        (e[28] = _))
+      : (_ = e[28]),
+    _
+  );
+}
+var Sc,
+  Cc,
+  wc = e(() => {
+    ((Sc = h()), P(), Tt(), Le(), Ve(), Wo(), un(), I(), uc(), Vo(), (Cc = Ee()));
+  });
+function Tc(e) {
+  let t = (0, Ec.c)(5),
+    { children: n, className: r } = e,
+    i;
+  t[0] === r
+    ? (i = t[1])
+    : ((i = He(
+        `no-drag pointer-events-auto grid w-[340px] max-w-[70vw] grid-cols-[minmax(0,1fr)_auto_auto] overflow-hidden rounded-[20px] border-[0.5px] border-token-border bg-token-side-bar-background shadow-[0px_8px_16px_-4px_rgba(0,0,0,0.12)]`,
+        r,
+      )),
+      (t[0] = r),
+      (t[1] = i));
+  let a;
+  return (
+    t[2] !== n || t[3] !== i
+      ? ((a = (0, Dc.jsx)(`div`, { className: i, children: n })),
+        (t[2] = n),
+        (t[3] = i),
+        (t[4] = a))
+      : (a = t[4]),
+    a
+  );
+}
+var Ec,
+  Dc,
+  Oc = e(() => {
+    ((Ec = h()), Re(), (Dc = Ee()));
+  });
+function kc(e) {
+  let t = (0, Ac.c)(8),
+    {
+      commandId: n,
+      enabled: r,
+      onKeyDown: i,
+      onKeyUp: a,
+      capture: o,
+      ignoreWithin: s,
+      keyboardEventTarget: c,
+    } = e,
+    l = r === void 0 ? !0 : r,
+    u = re(rc, n),
+    d = u ?? ``,
+    f = l && u != null,
+    p;
+  (t[0] !== o || t[1] !== s || t[2] !== c || t[3] !== i || t[4] !== a || t[5] !== d || t[6] !== f
+    ? ((p = {
+        accelerator: d,
+        enabled: f,
+        onKeyDown: i,
+        onKeyUp: a,
+        capture: o,
+        ignoreWithin: s,
+        keyboardEventTarget: c,
+      }),
+      (t[0] = o),
+      (t[1] = s),
+      (t[2] = c),
+      (t[3] = i),
+      (t[4] = a),
+      (t[5] = d),
+      (t[6] = f),
+      (t[7] = p))
+    : (p = t[7]),
+    Ks(p));
+}
+var Ac,
+  jc = e(() => {
+    ((Ac = h()), P(), Zs(), cc());
+  });
+function Mc() {
+  let e = (0, Rc.c)(33),
+    t = ve(F),
+    n = N(Mo),
+    r = N(X),
+    i = N(Po),
+    a = N($n.tabs$),
+    o = N($n.activeTab$),
+    s = N(Qn.tabs$),
+    c = N(Qn.activeTab$),
+    l = N(Je),
+    u = N(rt),
+    d,
+    f;
+  e[0] !== o || e[1] !== c || e[2] !== a || e[3] !== l || e[4] !== u || e[5] !== s || e[6] !== t
+    ? ((d = Vt(t)),
+      (f = Pc({
+        activeTabs: { bottom: o, right: c },
+        browserConversationId: d,
+        openPanels: { bottom: l, right: u },
+        tabs: { bottom: a, right: s },
+      })),
+      (e[0] = o),
+      (e[1] = c),
+      (e[2] = a),
+      (e[3] = l),
+      (e[4] = u),
+      (e[5] = s),
+      (e[6] = t),
+      (e[7] = d),
+      (e[8] = f))
+    : ((d = e[7]), (f = e[8]));
+  let p = f,
+    m;
+  e[9] !== p || e[10] !== t
+    ? ((m = () => {
+        ao(t, p);
+      }),
+      (e[9] = p),
+      (e[10] = t),
+      (e[11] = m))
+    : (m = e[11]);
+  let h = p?.browserTabId,
+    g = p?.conversationId,
+    _;
+  (e[12] !== p || e[13] !== t || e[14] !== h || e[15] !== g
+    ? ((_ = [p, h, g, t]), (e[12] = p), (e[13] = t), (e[14] = h), (e[15] = g), (e[16] = _))
+    : (_ = e[16]),
+    (0, zc.useEffect)(m, _));
+  let v;
+  e[17] !== o ||
+  e[18] !== c ||
+  e[19] !== d ||
+  e[20] !== r ||
+  e[21] !== n ||
+  e[22] !== i ||
+  e[23] !== l ||
+  e[24] !== u ||
+  e[25] !== t
+    ? ((v = function () {
+        if (Lc()) return;
+        let e = Nc({
+            activeTabs: { bottom: o, right: c },
+            browserConversationId: d,
+            openPanels: { bottom: l, right: u },
+          }),
+          a = document.activeElement?.id === `content-search-input`,
+          s = a ? void 0 : Ic(),
+          f = n;
+        if (
+          (a
+            ? (f = uo({
+                currentDomain: t.get(G),
+                hasDiffSource: i != null,
+                hasBrowserTarget: r != null,
+              }))
+            : e == null
+              ? f === `diff` && i == null && (f = `conversation`)
+              : (f = `browser`),
+          e != null && ao(t, e),
+          io(t, f),
+          s != null && (f === `browser` ? oo(t, s) : fo(t, s)),
+          f === `browser`)
+        ) {
+          let n = s ?? t.get(K);
+          n.length > 0 && lc(e ?? r, { type: `set-find-query`, query: n });
+        }
+        (to(t), window.requestAnimationFrame(Fc));
+      }),
+      (e[17] = o),
+      (e[18] = c),
+      (e[19] = d),
+      (e[20] = r),
+      (e[21] = n),
+      (e[22] = i),
+      (e[23] = l),
+      (e[24] = u),
+      (e[25] = t),
+      (e[26] = v))
+    : (v = e[26]);
+  let y = v,
+    b;
+  (e[27] === y
+    ? (b = e[28])
+    : ((b = () => {
+        y();
+      }),
+      (e[27] = y),
+      (e[28] = b)),
+    De(`find-in-thread`, b));
+  let x;
+  (e[29] === t
+    ? (x = e[30])
+    : ((x = (e) => {
+        let n = t.get(X);
+        e.conversationId !== n?.conversationId ||
+          e.browserTabId !== n.browserTabId ||
+          lo(t, e.state);
+      }),
+      (e[29] = t),
+      (e[30] = x)),
+    De(`browser-sidebar-find-state`, x));
+  let S;
+  return (
+    e[31] === y
+      ? (S = e[32])
+      : ((S = {
+          commandId: `findInThread`,
+          enabled: !0,
+          ignoreWithin: Bc,
+          onKeyDown: (e) => {
+            (e.preventDefault(), y());
+          },
+        }),
+        (e[31] = y),
+        (e[32] = S)),
+    kc(S),
+    null
+  );
+}
+function Nc({ activeTabs: e, browserConversationId: t, openPanels: n }) {
+  if (t == null) return null;
+  let r = document.activeElement;
+  if (!(r instanceof HTMLElement)) return null;
+  for (let i of Ua) {
+    if (!n[i]) continue;
+    let a = It(e[i], t);
+    if (
+      a != null &&
+      ((r.tagName.toLowerCase() === `webview` &&
+        r.getAttribute(`data-browser-sidebar-conversation-id`) === t &&
+        (r.getAttribute(`data-browser-sidebar-browser-tab-id`) ?? a) === a) ||
+        r.closest(`[data-app-shell-focus-area="${i}-panel"]`) != null)
+    )
+      return { browserTabId: a, conversationId: t };
+  }
+  return null;
+}
+function Pc({ activeTabs: e, browserConversationId: t, openPanels: n, tabs: r }) {
+  if (t == null) return null;
+  for (let r of Ua) {
+    if (!n[r]) continue;
+    let i = It(e[r], t);
+    if (i != null) return { browserTabId: i, conversationId: t };
+  }
+  for (let e of Ua)
+    if (n[e])
+      for (let n of r[e]) {
+        let e = It(n, t);
+        if (e != null) return { browserTabId: e, conversationId: t };
+      }
+  return null;
+}
+function Fc() {
+  let e = document.getElementById(`content-search-input`);
+  e instanceof HTMLInputElement && (e.focus(), e.select());
+}
+function Ic() {
+  let e = document.activeElement,
+    t;
+  if (e instanceof HTMLInputElement || e instanceof HTMLTextAreaElement) {
+    if (e.selectionStart == null || e.selectionEnd == null) return;
+    t = e.value.slice(e.selectionStart, e.selectionEnd);
+  } else t = window.getSelection?.()?.toString();
+  let n = t?.trim();
+  if (n) return /[\r\n]/.test(n) ? `` : n;
+}
+function Lc() {
+  let e = document.activeElement;
+  if (e?.closest(Bc) == null) return !1;
+  let t = e;
+  for (; t.shadowRoot?.activeElement != null; ) t = t.shadowRoot.activeElement;
+  let n = Ts();
+  return (
+    t.dispatchEvent(
+      new KeyboardEvent(`keydown`, {
+        bubbles: !0,
+        composed: !0,
+        ctrlKey: !n,
+        key: `f`,
+        metaKey: n,
+      }),
+    ),
+    !0
+  );
+}
+var Rc,
+  zc,
+  Bc,
+  Vc = e(() => {
+    ((Rc = h()),
+      P(),
+      (zc = t(me(), 1)),
+      jc(),
+      er(),
+      Zt(),
+      Ms(),
+      Oe(),
+      I(),
+      St(),
+      Wa(),
+      uc(),
+      Vo(),
+      (Bc = `[data-pierre-editor-surface]`));
+  });
+function Hc() {
+  let e = (0, Uc.c)(20),
+    t = ve(F),
+    n = Qt(),
+    r = N(X),
+    i = N(G),
+    a = N(J),
+    o = N(K),
+    s;
+  e[0] !== i || e[1] !== n
+    ? ((s =
+        i === `browser`
+          ? n.formatMessage({
+              id: `codex.threadFindBar.placeholder.browser`,
+              defaultMessage: `Find in page…`,
+              description: `Placeholder for the browser page find input`,
+            })
+          : i === `diff`
+            ? n.formatMessage({
+                id: `codex.threadFindBar.placeholder.review`,
+                defaultMessage: `Search diff…`,
+                description: `Placeholder for the review find input`,
+              })
+            : n.formatMessage({
+                id: `codex.threadFindBar.placeholder`,
+                defaultMessage: `Search chat…`,
+                description: `Placeholder for the thread find input`,
+              })),
+      (e[0] = i),
+      (e[1] = n),
+      (e[2] = s))
+    : (s = e[2]);
+  let c = s,
+    l;
+  e[3] !== i || e[4] !== n
+    ? ((l =
+        i === `browser`
+          ? n.formatMessage({
+              id: `codex.threadFindBar.label.browser`,
+              defaultMessage: `Find in page`,
+              description: `Accessible label for the browser page find input`,
+            })
+          : n.formatMessage({
+              id: `codex.threadFindBar.label`,
+              defaultMessage: `Find in chat`,
+              description: `Accessible label for the thread find input`,
+            })),
+      (e[3] = i),
+      (e[4] = n),
+      (e[5] = l))
+    : (l = e[5]);
+  let u = l,
+    d,
+    f,
+    p;
+  e[6] !== r || e[7] !== i || e[8] !== t
+    ? ((d = (e) => {
+        if (i === `browser`) {
+          (oo(t, e), lc(r, { type: `set-find-query`, query: e }));
+          return;
+        }
+        fo(t, e);
+      }),
+      (f = (e) => {
+        if (i === `browser`) {
+          lc(r, { type: e ? `find-previous` : `find-next` });
+          return;
+        }
+        go(t, { shift: e });
+      }),
+      (p = () => {
+        (i === `browser` && (so(t, r), lc(r, { type: `close-find` }), lo(t, Do)), ro(t));
+      }),
+      (e[6] = r),
+      (e[7] = i),
+      (e[8] = t),
+      (e[9] = d),
+      (e[10] = f),
+      (e[11] = p))
+    : ((d = e[9]), (f = e[10]), (p = e[11]));
+  let m;
+  return (
+    e[12] !== a ||
+    e[13] !== u ||
+    e[14] !== c ||
+    e[15] !== o ||
+    e[16] !== d ||
+    e[17] !== f ||
+    e[18] !== p
+      ? ((m = (0, Wc.jsx)(dc, {
+          id: `content-search-input`,
+          isLoading: a,
+          label: u,
+          placeholder: c,
+          value: o,
+          onChange: d,
+          onEnter: f,
+          onEscape: p,
+        })),
+        (e[12] = a),
+        (e[13] = u),
+        (e[14] = c),
+        (e[15] = o),
+        (e[16] = d),
+        (e[17] = f),
+        (e[18] = p),
+        (e[19] = m))
+      : (m = e[19]),
+    m
+  );
+}
+var Uc,
+  Wc,
+  Gc = e(() => {
+    ((Uc = h()), P(), Tt(), I(), uc(), gc(), Vo(), (Wc = Ee()));
+  });
+function Kc() {
+  let e = (0, qc.c)(16),
+    t = ve(F),
+    n = Qt(),
+    r = N(Fo),
+    i = N(X),
+    a = N(G),
+    o = N(q),
+    s = a === `browser` ? r.matches : (o?.totalMatches ?? 0),
+    c = N(Lo),
+    l;
+  e[0] === n
+    ? (l = e[1])
+    : ((l = n.formatMessage({
+        id: `codex.threadFindBar.nextResult`,
+        defaultMessage: `Next result`,
+        description: `Button label to move to the next find match`,
+      })),
+      (e[0] = n),
+      (e[1] = l));
+  let u;
+  e[2] === n
+    ? (u = e[3])
+    : ((u = n.formatMessage({
+        id: `codex.threadFindBar.previousResult`,
+        defaultMessage: `Previous result`,
+        description: `Button label to move to the previous find match`,
+      })),
+      (e[2] = n),
+      (e[3] = u));
+  let d, f;
+  e[4] !== i || e[5] !== a || e[6] !== t
+    ? ((d = () => {
+        if (a === `browser`) {
+          lc(i, { type: `find-next` });
+          return;
+        }
+        mo(t);
+      }),
+      (f = () => {
+        if (a === `browser`) {
+          lc(i, { type: `find-previous` });
+          return;
+        }
+        ho(t);
+      }),
+      (e[4] = i),
+      (e[5] = a),
+      (e[6] = t),
+      (e[7] = d),
+      (e[8] = f))
+    : ((d = e[7]), (f = e[8]));
+  let p;
+  return (
+    e[9] !== c || e[10] !== s || e[11] !== l || e[12] !== u || e[13] !== d || e[14] !== f
+      ? ((p = (0, Jc.jsx)(fc, {
+          isVisible: c,
+          matches: s,
+          nextLabel: l,
+          previousLabel: u,
+          onNext: d,
+          onPrevious: f,
+        })),
+        (e[9] = c),
+        (e[10] = s),
+        (e[11] = l),
+        (e[12] = u),
+        (e[13] = d),
+        (e[14] = f),
+        (e[15] = p))
+      : (p = e[15]),
+    p
+  );
+}
+var qc,
+  Jc,
+  Yc = e(() => {
+    ((qc = h()), P(), Tt(), I(), uc(), gc(), Vo(), (Jc = Ee()));
+  });
+function Xc() {
+  let e = (0, Zc.c)(10),
+    t = Qt(),
+    n = N(Fo),
+    r = N(G),
+    i = N(Lo),
+    a = N(q),
+    o = N(Y),
+    s = r === `browser` ? n.matches : (a?.totalMatches ?? 0),
+    c = r === `browser` ? n.activeMatchOrdinal : o == null ? (s > 0 ? 1 : 0) : o + 1,
+    l = null;
+  if (i && s === 0) {
+    let n;
+    (e[0] === t
+      ? (n = e[1])
+      : ((n = t.formatMessage({
+          id: `codex.threadFindBar.noResults`,
+          defaultMessage: `0 results`,
+          description: `Find-in-thread label when there are no matches`,
+        })),
+        (e[0] = t),
+        (e[1] = n)),
+      (l = n));
+  } else if (i) {
+    let n;
+    (e[2] !== c || e[3] !== t || e[4] !== a?.isCapped || e[5] !== s
+      ? ((n = t.formatMessage(
+          a?.isCapped
+            ? {
+                id: `codex.threadFindBar.results.capped`,
+                defaultMessage: `{active} / {matches}+ results`,
+                description: `Find-in-thread label showing the active match index when matches are capped`,
+              }
+            : {
+                id: `codex.threadFindBar.results`,
+                defaultMessage: `{active} / {matches} results`,
+                description: `Find-in-thread label showing the active match index`,
+              },
+          { active: c, matches: s },
+        )),
+        (e[2] = c),
+        (e[3] = t),
+        (e[4] = a?.isCapped),
+        (e[5] = s),
+        (e[6] = n))
+      : (n = e[6]),
+      (l = n));
+  }
+  let u;
+  return (
+    e[7] !== i || e[8] !== l
+      ? ((u = (0, Qc.jsx)(pc, { isVisible: i, label: l })), (e[7] = i), (e[8] = l), (e[9] = u))
+      : (u = e[9]),
+    u
+  );
+}
+var Zc,
+  Qc,
+  $c = e(() => {
+    ((Zc = h()), P(), Tt(), gc(), Vo(), (Qc = Ee()));
+  });
+function el(e) {
+  let t = (0, ol.c)(3),
+    { children: n, className: r } = e;
+  if (!N(No)) return null;
+  let i;
+  return (
+    t[0] !== n || t[1] !== r
+      ? ((i = (0, Q.jsx)(Tc, { className: r, children: n })), (t[0] = n), (t[1] = r), (t[2] = i))
+      : (i = t[2]),
+    i
+  );
+}
+function tl(e) {
+  let t = (0, ol.c)(2),
+    { children: n } = e,
+    r;
+  return (
+    t[0] === n
+      ? (r = t[1])
+      : ((r = (0, Q.jsx)(Q.Fragment, { children: n })), (t[0] = n), (t[1] = r)),
+    r
+  );
+}
+function nl() {
+  let e = (0, ol.c)(8),
+    t = _n(),
+    n = (0, sl.useSyncExternalStore)(il, al, rl),
+    r;
+  e[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((r = (0, Q.jsx)(Mc, {})), (e[0] = r))
+    : (r = e[0]);
+  let i;
+  e[1] !== n || e[2] !== t
+    ? ((i = n
+        ? null
+        : (0, Q.jsx)(`div`, {
+            className: `pointer-events-none fixed top-2 z-[55] flex justify-end`,
+            style: { right: 16 + t.right },
+            children: (0, Q.jsxs)(el, {
+              children: [
+                (0, Q.jsx)(Hc, {}),
+                (0, Q.jsx)(xc, {}),
+                (0, Q.jsx)(Kc, {}),
+                (0, Q.jsx)(Xc, {}),
+                (0, Q.jsx)(_c, {}),
+              ],
+            }),
+          })),
+      (e[1] = n),
+      (e[2] = t),
+      (e[3] = i))
+    : (i = e[3]);
+  let a;
+  e[4] === i
+    ? (a = e[5])
+    : ((a = (0, Q.jsxs)(Q.Fragment, { children: [r, i] })), (e[4] = i), (e[5] = a));
+  let o = a;
+  if (typeof document > `u`) return o;
+  let s;
+  return (
+    e[6] === o
+      ? (s = e[7])
+      : ((s = (0, cl.createPortal)(o, document.body)), (e[6] = o), (e[7] = s)),
+    s
+  );
+}
+function rl() {
+  return !1;
+}
+function il(e) {
+  if (typeof document > `u` || typeof MutationObserver > `u`) return () => {};
+  let t = new MutationObserver(e);
+  return (
+    t.observe(document.body, { childList: !0, subtree: !0 }),
+    () => {
+      t.disconnect();
+    }
+  );
+}
+function al() {
+  return typeof document < `u` && document.querySelector(`.codex-dialog-overlay`) != null;
+}
+var ol,
+  sl,
+  cl,
+  Q,
+  ll,
+  ul = e(() => {
+    ((ol = h()),
+      P(),
+      (sl = t(me(), 1)),
+      (cl = t(We(), 1)),
+      vn(),
+      Vo(),
+      bc(),
+      wc(),
+      Oc(),
+      Vc(),
+      Gc(),
+      Yc(),
+      $c(),
+      (Q = Ee()),
+      (ll = Object.assign(tl, {
+        Frame: el,
+        Surface: nl,
+        Input: Hc,
+        DomainToggle: xc,
+        Navigation: Kc,
+        ResultLabel: Xc,
+        Close: _c,
+      })));
+  });
+function dl(e) {
+  let t = (0, fl.c)(3),
+    n,
+    r;
+  (t[0] === e
+    ? ((n = t[1]), (r = t[2]))
+    : ((n = (t) => {
+        e(t.open);
+      }),
+      (r = [e]),
+      (t[0] = e),
+      (t[1] = n),
+      (t[2] = r)),
+    De(`toggle-diff-panel`, n, r));
+}
+var fl,
+  pl = e(() => {
+    ((fl = h()), Oe());
+  });
+function ml(e) {
+  let t = (0, gl.c)(46),
+    { lastTurnCwd: n, lastTurnDiff: r } = e,
+    i = ve(F),
+    a = N(or),
+    o = N(ma),
+    s = N(Hi),
+    c = N(vl),
+    l = N(Ui),
+    u = N(Ca),
+    d;
+  t[0] === i ? (d = t[1]) : ((d = () => ci(i)), (t[0] = i), (t[1] = d));
+  let f;
+  (t[2] !== i || t[3] !== s || t[4] !== l
+    ? ((f = [i, s, l]), (t[2] = i), (t[3] = s), (t[4] = l), (t[5] = f))
+    : (f = t[5]),
+    (0, $.useEffect)(d, f));
+  let p, m;
+  (t[6] !== n || t[7] !== r || t[8] !== i
+    ? ((p = () => {
+        ai(i, r, n);
+      }),
+      (m = [n, r, i]),
+      (t[6] = n),
+      (t[7] = r),
+      (t[8] = i),
+      (t[9] = p),
+      (t[10] = m))
+    : ((p = t[9]), (m = t[10])),
+    (0, $.useEffect)(p, m));
+  let h, g;
+  (t[11] !== i || t[12] !== u
+    ? ((h = () => {
+        u && Zi(i);
+      }),
+      (g = [i, u]),
+      (t[11] = i),
+      (t[12] = u),
+      (t[13] = h),
+      (t[14] = g))
+    : ((h = t[13]), (g = t[14])),
+    (0, $.useEffect)(h, g));
+  let _, v;
+  (t[15] !== i || t[16] !== c
+    ? ((_ = () => {
+        c && Zr(i);
+      }),
+      (v = [i, c]),
+      (t[15] = i),
+      (t[16] = c),
+      (t[17] = _),
+      (t[18] = v))
+    : ((_ = t[17]), (v = t[18])),
+    (0, $.useEffect)(_, v));
+  let y;
+  t[19] !== a || t[20] !== o.bytesEstimate || t[21] !== o.fileCount || t[22] !== o.lineCount
+    ? ((y = () => {
+        lt(`set-review-pane-snapshot-metrics-for-host`, {
+          hostId: a,
+          reviewDiffFilesTotal: o.fileCount,
+          reviewDiffLinesTotal: o.lineCount,
+          reviewDiffBytesEstimate: o.bytesEstimate,
+        });
+      }),
+      (t[19] = a),
+      (t[20] = o.bytesEstimate),
+      (t[21] = o.fileCount),
+      (t[22] = o.lineCount),
+      (t[23] = y))
+    : (y = t[23]);
+  let b;
+  (t[24] !== a || t[25] !== o ? ((b = [a, o]), (t[24] = a), (t[25] = o), (t[26] = b)) : (b = t[26]),
+    (0, $.useEffect)(y, b));
+  let x, S;
+  (t[27] === a
+    ? ((x = t[28]), (S = t[29]))
+    : ((x = () => () => {
+        lt(`set-review-pane-snapshot-metrics-for-host`, {
+          hostId: a,
+          reviewDiffFilesTotal: 0,
+          reviewDiffLinesTotal: 0,
+          reviewDiffBytesEstimate: 0,
+        });
+      }),
+      (S = [a]),
+      (t[27] = a),
+      (t[28] = x),
+      (t[29] = S)),
+    (0, $.useEffect)(x, S));
+  let C, w;
+  (t[30] !== i || t[31] !== l
+    ? ((C = () => {
+        if (l)
+          return Ka(() => {
+            (Yr(i), ii(i));
+          });
+      }),
+      (w = [i, l]),
+      (t[30] = i),
+      (t[31] = l),
+      (t[32] = C),
+      (t[33] = w))
+    : ((C = t[32]), (w = t[33])),
+    (0, $.useEffect)(C, w));
+  let T, E;
+  (t[34] === i
+    ? ((T = t[35]), (E = t[36]))
+    : ((T = () => {
+        let e = !1;
+        return i.watch((t) => {
+          let { get: n } = t;
+          if (!n(Fa)) {
+            e = !1;
+            return;
+          }
+          e || ((e = !0), Yt(i, !0, { animate: !1 }));
+        });
+      }),
+      (E = [i]),
+      (t[34] = i),
+      (t[35] = T),
+      (t[36] = E)),
+    (0, $.useEffect)(T, E));
+  let D;
+  t[37] !== a || t[38] !== i || t[39] !== c
+    ? ((D = (e) => {
+        if (e.hostId !== a || !c || i.value.routeKind !== `local-thread`) return;
+        let t = hl(i.value.conversationId, e.notification);
+        t.length !== 0 && $r(i, t);
+      }),
+      (t[37] = a),
+      (t[38] = i),
+      (t[39] = c),
+      (t[40] = D))
+    : (D = t[40]);
+  let O = (0, $.useEffectEvent)(D),
+    k;
+  t[41] !== O || t[42] !== i
+    ? ((k = () => {
+        let e = !0;
+        return i.watch((t) => {
+          let { get: n } = t,
+            r = n(tt);
+          if (e) {
+            e = !1;
+            return;
+          }
+          r != null && O(r);
+        });
+      }),
+      (t[41] = O),
+      (t[42] = i),
+      (t[43] = k))
+    : (k = t[43]);
+  let A;
+  return (
+    t[44] === i ? (A = t[45]) : ((A = [i]), (t[44] = i), (t[45] = A)), (0, $.useEffect)(k, A), null
+  );
+}
+function hl(e, t) {
+  if (fe(t.params.threadId) !== e) return [];
+  let { item: n } = t.params;
+  return n.type !== `fileChange` || n.status !== `completed`
+    ? []
+    : [
+        ...new Set(
+          n.changes.flatMap((e) => {
+            switch (e.kind.type) {
+              case `add`:
+              case `delete`:
+                return [e.path];
+              case `update`:
+                return e.kind.move_path == null ? [e.path] : [e.path, e.kind.move_path];
+            }
+          }),
+        ),
+      ];
+}
+var gl,
+  $,
+  _l,
+  vl,
+  yl = e(() => {
+    ((gl = h()),
+      P(),
+      D(),
+      ($ = t(me(), 1)),
+      et(),
+      ot(),
+      er(),
+      Zt(),
+      I(),
+      cr(),
+      Dt(),
+      Ja(),
+      wa(),
+      La(),
+      qi(),
+      (_l = E(F, ({ get: e }) => e(dt) && e(Qn.activeTab$)?.tabId === Jt.DIFF)),
+      (vl = E(F, ({ get: e }) => e(_l) && e(W))));
+  });
+export {
+  Y as $,
+  Ki as $t,
+  ws as A,
+  z as An,
+  ja as At,
+  cs as B,
+  In as Bn,
+  Sa as Bt,
+  Ps as C,
+  mr as Cn,
+  Va as Ct,
+  Ms as D,
+  dr as Dn,
+  Ba as Dt,
+  As as E,
+  lr as En,
+  Wa as Et,
+  ls as F,
+  $n as Fn,
+  fa as Ft,
+  Qo as G,
+  Mn as Gn,
+  ha as Gt,
+  is as H,
+  Nn as Hn,
+  xa as Ht,
+  os as I,
+  Jn as In,
+  ya as It,
+  Do as J,
+  Tn as Jn,
+  ji as Jt,
+  Uo as K,
+  kn as Kn,
+  la as Kt,
+  ds as L,
+  er as Ln,
+  ba as Lt,
+  hs as M,
+  nr as Mn,
+  Fa as Mt,
+  ys as N,
+  tr as Nn,
+  wa as Nt,
+  Cs as O,
+  cr as On,
+  La as Ot,
+  vs as P,
+  L as Pn,
+  Qi as Pt,
+  zo as Q,
+  qi as Qt,
+  as as R,
+  Qn as Rn,
+  pa as Rt,
+  Rs as S,
+  Sr as Sn,
+  Ha as St,
+  Ds as T,
+  gr as Tn,
+  za as Tt,
+  ns as U,
+  An as Un,
+  va as Ut,
+  ss as V,
+  Pn as Vn,
+  _a as Vt,
+  rs as W,
+  jn as Wn,
+  ma as Wt,
+  ro as X,
+  Sn as Xn,
+  ti as Xt,
+  co as Y,
+  wn as Yn,
+  Mi as Yt,
+  Ro as Z,
+  V as Zt,
+  cc as _,
+  Rr as _n,
+  Za as _t,
+  ll as a,
+  Gi as an,
+  G as at,
+  Ks as b,
+  xr as bn,
+  Ja as bt,
+  kc as c,
+  Ni as cn,
+  to as ct,
+  tc as d,
+  Wi as dn,
+  io as dt,
+  Xr as en,
+  Bo as et,
+  rc as f,
+  si as fn,
+  fo as ft,
+  Qs as g,
+  Hr as gn,
+  Xa as gt,
+  $s as h,
+  Ur as hn,
+  Ya as ht,
+  dl as i,
+  Fi as in,
+  Po as it,
+  xs as j,
+  or as jn,
+  Ma as jt,
+  Ss as k,
+  R as kn,
+  Ia as kt,
+  nc as l,
+  B as ln,
+  ao as lt,
+  oc as m,
+  Wr as mn,
+  lo as mt,
+  yl as n,
+  Zr as nn,
+  Io as nt,
+  ul as o,
+  Pi as on,
+  No as ot,
+  ac as p,
+  oi as pn,
+  _o as pt,
+  Wo as q,
+  Dn as qn,
+  da as qt,
+  pl as r,
+  U as rn,
+  X as rt,
+  jc as s,
+  Di as sn,
+  Vo as st,
+  ml as t,
+  Yr as tn,
+  Fo as tt,
+  sc as u,
+  H as un,
+  no as ut,
+  Zs as v,
+  Vr as vn,
+  eo as vt,
+  Ts as w,
+  hr as wn,
+  Ra as wt,
+  Ns as x,
+  br as xn,
+  Ua as xt,
+  Ws as y,
+  Cr as yn,
+  Ga as yt,
+  ts as z,
+  Fn as zn,
+  ga as zt,
+};
+//# sourceMappingURL=app-initial~app-main~remote-conversation-page~local-conversation-page.js.map

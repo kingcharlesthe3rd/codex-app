@@ -1,0 +1,2938 @@
+import { n as e, s as t } from "./rolldown-runtime.js";
+import {
+  Go as n,
+  Ht as r,
+  Ol as i,
+  Tt as a,
+  Ut as o,
+  Wt as s,
+  Y as c,
+  Z as l,
+  _l as u,
+  bl as d,
+  dl as f,
+  kl as p,
+  nt as m,
+  oc as h,
+  ot as g,
+  pl as _,
+  st as v,
+  tc as y,
+  ut as b,
+  wt as x,
+  xl as S,
+  yo as C,
+} from "./app-initial~app-main~remote-conversation-page~pull-requests-page~new-thread-panel-page~proj~i4yy32ef.js";
+import {
+  $t as w,
+  Qt as T,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~new-thread-panel-page~o~hgx54pg3.js";
+import {
+  $s as E,
+  Aa as D,
+  Go as O,
+  Gs as k,
+  Ho as A,
+  Ia as j,
+  Jn as M,
+  Jp as N,
+  Ks as P,
+  Ma as ee,
+  Na as te,
+  Nl as F,
+  Pl as I,
+  Qc as L,
+  Qs as R,
+  Uo as ne,
+  Wo as re,
+  Xp as ie,
+  Xs as ae,
+  Yn as oe,
+  Yp as z,
+  Ys as se,
+  Zp as ce,
+  Zs as le,
+  _t as ue,
+  am as de,
+  co as fe,
+  ec as pe,
+  fp as me,
+  gt as he,
+  im as ge,
+  io as _e,
+  ja as ve,
+  mp as ye,
+  no as be,
+  ol as xe,
+  ro as Se,
+  so as Ce,
+  to as we,
+  vn as Te,
+  yn as Ee,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~plug~fjtgnfyk.js";
+import {
+  Ci as De,
+  Dr as Oe,
+  Lb as ke,
+  Rb as Ae,
+  Si as je,
+  Up as Me,
+  Wp as Ne,
+  _r as Pe,
+  _v as Fe,
+  aw as Ie,
+  bi as Le,
+  cw as B,
+  ki as Re,
+  rw as ze,
+  uw as V,
+  yv as H,
+} from "./app-initial~app-main~onboarding-page~select-workspace-page.js";
+import { r as Be } from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~new-~ozr5a6hk.js";
+import {
+  n as Ve,
+  o as He,
+  r as Ue,
+} from "./app-initial~app-main~onboarding-page~select-workspace-page~login-route~appearance-settings~~fmq7ylbx.js";
+var U,
+  We,
+  Ge = e(() => {
+    (t(p()),
+      (U = S()),
+      (We = (e) =>
+        (0, U.jsxs)(`svg`, {
+          width: 18,
+          height: 18,
+          viewBox: `0 0 18 18`,
+          fill: `none`,
+          xmlns: `http://www.w3.org/2000/svg`,
+          ...e,
+          children: [
+            (0, U.jsx)(`circle`, {
+              cx: 8.99805,
+              cy: 4.875,
+              r: 1.875,
+              stroke: `currentColor`,
+              strokeWidth: 1.5,
+            }),
+            (0, U.jsx)(`path`, {
+              d: `M9 6.75V12C9 13.6569 10.3431 15 12 15C13.6569 15 15 13.6569 15 12V9.75L13.5 11.25`,
+              stroke: `currentColor`,
+              strokeWidth: 1.5,
+              strokeLinecap: `round`,
+              strokeLinejoin: `round`,
+            }),
+            (0, U.jsx)(`path`, {
+              d: `M9 6.75V12C9 13.6569 7.65685 15 6 15C4.34315 15 3 13.6569 3 12V9.75L4.5 11.25`,
+              stroke: `currentColor`,
+              strokeWidth: 1.5,
+              strokeLinecap: `round`,
+              strokeLinejoin: `round`,
+            }),
+          ],
+        })));
+  }),
+  W,
+  Ke,
+  qe = e(() => {
+    (t(p()),
+      (W = S()),
+      (Ke = (e) =>
+        (0, W.jsxs)(`svg`, {
+          width: 20,
+          height: 20,
+          viewBox: `0 0 20 20`,
+          fill: `none`,
+          xmlns: `http://www.w3.org/2000/svg`,
+          ...e,
+          children: [
+            (0, W.jsx)(`path`, {
+              d: `M10 12.668C11.7333 12.668 13.331 13.1693 14.5117 14.0127C15.691 14.8551 16.4989 16.0791 16.499 17.5C16.4988 17.8669 16.2009 18.1647 15.834 18.165C15.4668 18.165 15.1691 17.8671 15.1689 17.5C15.1688 16.62 14.6699 15.7602 13.7383 15.0947C12.8078 14.4302 11.488 13.9981 10 13.998C8.51211 13.9981 7.19214 14.4303 6.26172 15.0947C5.33026 15.7602 4.83215 16.6201 4.83203 17.5C4.83186 17.867 4.53404 18.1649 4.16699 18.165C3.79983 18.165 3.50213 17.8671 3.50195 17.5C3.50207 16.0791 4.3099 14.8551 5.48926 14.0127C6.66991 13.1695 8.26685 12.668 10 12.668Z`,
+              fill: `currentColor`,
+            }),
+            (0, W.jsx)(`path`, {
+              d: `M7.91699 5C8.60724 5.00013 9.16699 5.55973 9.16699 6.25C9.16699 6.94027 8.60724 7.49987 7.91699 7.5C7.22664 7.5 6.66699 6.94036 6.66699 6.25C6.66699 5.55964 7.22664 5 7.91699 5Z`,
+              fill: `currentColor`,
+            }),
+            (0, W.jsx)(`path`, {
+              d: `M12.083 5C12.7734 5 13.333 5.55964 13.333 6.25C13.333 6.94036 12.7734 7.5 12.083 7.5C11.3928 7.49987 10.833 6.94027 10.833 6.25C10.833 5.55973 11.3928 5.00013 12.083 5Z`,
+              fill: `currentColor`,
+            }),
+            (0, W.jsx)(`path`, {
+              fillRule: `evenodd`,
+              clipRule: `evenodd`,
+              d: `M10 1.00195C10.3673 1.00195 10.665 1.29972 10.665 1.66699V2.25195H13.1113C13.554 2.25195 13.9248 2.25137 14.2275 2.27539C14.5377 2.30004 14.8331 2.35361 15.1143 2.49219C15.5745 2.71921 15.9478 3.09243 16.1748 3.55273C16.3133 3.83385 16.367 4.12942 16.3916 4.43945C16.4156 4.74209 16.415 5.11318 16.415 5.55566C16.415 6.45208 16.4157 7.16418 16.3701 7.7373C16.324 8.31755 16.2274 8.81322 16.0029 9.26855C15.6137 10.0577 14.9746 10.6967 14.1855 11.0859C13.73 11.3105 13.2339 11.407 12.6533 11.4531C12.0802 11.4987 11.369 11.499 10.4727 11.499H9.52734C8.631 11.499 7.91978 11.4987 7.34668 11.4531C6.76612 11.407 6.26997 11.3105 5.81445 11.0859C5.02538 10.6967 4.38629 10.0577 3.99707 9.26855C3.77258 8.81322 3.67603 8.31755 3.62988 7.7373C3.58434 7.16418 3.58496 6.45208 3.58496 5.55566C3.58496 5.11318 3.5844 4.74209 3.6084 4.43945C3.63303 4.12942 3.6867 3.83385 3.8252 3.55273C4.05219 3.09243 4.42545 2.71921 4.88574 2.49219C5.16693 2.35361 5.46234 2.30004 5.77246 2.27539C6.07515 2.25137 6.44604 2.25195 6.88867 2.25195H9.33496V1.66699C9.33496 1.29972 9.63273 1.00195 10 1.00195ZM6.88867 3.58203C6.42452 3.58203 6.11484 3.58266 5.87695 3.60156C5.64679 3.61988 5.54082 3.65242 5.47363 3.68555C5.27602 3.78307 5.11605 3.94299 5.01855 4.14062C4.98547 4.20782 4.95287 4.31406 4.93457 4.54395C4.91569 4.78179 4.91504 5.09172 4.91504 5.55566C4.91504 6.47338 4.91567 7.1236 4.95605 7.63184C4.99587 8.13234 5.07138 8.43926 5.19043 8.68066C5.45025 9.20725 5.87667 9.63384 6.40332 9.89355C6.64477 10.0126 6.9515 10.0881 7.45215 10.1279C7.96034 10.1683 8.60976 10.1689 9.52734 10.1689H10.4727C11.3902 10.1689 12.0397 10.1683 12.5479 10.1279C13.0485 10.0881 13.3552 10.0126 13.5967 9.89355C14.1233 9.63384 14.5498 9.20725 14.8096 8.68066C14.9286 8.43926 15.0041 8.13234 15.0439 7.63184C15.0843 7.1236 15.085 6.47338 15.085 5.55566C15.085 5.09172 15.0843 4.78179 15.0654 4.54395C15.0471 4.31406 15.0145 4.20782 14.9814 4.14062C14.884 3.94299 14.724 3.78307 14.5264 3.68555C14.4592 3.65242 14.3532 3.61988 14.123 3.60156C13.8852 3.58266 13.5755 3.58203 13.1113 3.58203H6.88867Z`,
+              fill: `currentColor`,
+            }),
+          ],
+        })));
+  });
+function Je(e, t) {
+  switch (t.itemType) {
+    case `AGENTS_MD`:
+      return e.formatMessage({
+        id: `externalAgentConfig.itemType.agentsMd`,
+        defaultMessage: `Instructions`,
+        description: `Label for instruction file external agent config migration item`,
+      });
+    case `CONFIG`:
+      return e.formatMessage({
+        id: `externalAgentConfig.itemType.config`,
+        defaultMessage: `Settings`,
+        description: `Label for config external agent config migration item`,
+      });
+    case `SKILLS`:
+      return e.formatMessage({
+        id: `externalAgentConfig.itemType.skills`,
+        defaultMessage: `Skills`,
+        description: `Label for skills external agent config migration item`,
+      });
+    case `PLUGINS`:
+      return e.formatMessage({
+        id: `externalAgentConfig.itemType.plugins`,
+        defaultMessage: `Plugins`,
+        description: `Label for plugins external agent config migration item`,
+      });
+    case `SUBAGENTS`:
+      return e.formatMessage({
+        id: `externalAgentConfig.itemType.subagents`,
+        defaultMessage: `Agents`,
+        description: `Label for subagents external agent config migration item`,
+      });
+    case `HOOKS`:
+      return e.formatMessage({
+        id: `externalAgentConfig.itemType.hooks`,
+        defaultMessage: `Hooks`,
+        description: `Label for hooks external agent config migration item`,
+      });
+    case `COMMANDS`:
+      return e.formatMessage({
+        id: `externalAgentConfig.itemType.commands`,
+        defaultMessage: `Commands`,
+        description: `Label for commands external agent config migration item`,
+      });
+    case `SESSIONS`:
+      return e.formatMessage({
+        id: `externalAgentConfig.itemType.sessions`,
+        defaultMessage: `Sessions`,
+        description: `Label for sessions external agent config migration item`,
+      });
+    case `MCP_SERVER_CONFIG`:
+      return e.formatMessage({
+        id: `externalAgentConfig.itemType.mcpServerConfig`,
+        defaultMessage: `MCP servers`,
+        description: `Label for MCP server config external agent config migration item`,
+      });
+  }
+}
+function Ye(e) {
+  return (0, Qe.default)(e, ({ itemType: e }) => {
+    switch (e) {
+      case `CONFIG`:
+        return 0;
+      case `AGENTS_MD`:
+        return 1;
+      case `SKILLS`:
+        return 2;
+      case `COMMANDS`:
+        return 3;
+      case `SUBAGENTS`:
+        return 4;
+      case `HOOKS`:
+        return 5;
+      case `PLUGINS`:
+        return 6;
+      case `MCP_SERVER_CONFIG`:
+        return 7;
+      case `SESSIONS`:
+        return 8;
+    }
+  });
+}
+function Xe(e) {
+  return e.itemType !== `SESSIONS`;
+}
+function Ze(e) {
+  return e.filter(Xe);
+}
+var Qe,
+  $e = e(() => {
+    Qe = t(Be(), 1);
+  }),
+  et,
+  tt,
+  nt = e(() => {
+    (t(p()),
+      (et = S()),
+      (tt = (e) =>
+        (0, et.jsx)(`svg`, {
+          width: 40,
+          height: 40,
+          viewBox: `0 0 40 40`,
+          fill: `none`,
+          xmlns: `http://www.w3.org/2000/svg`,
+          ...e,
+          children: (0, et.jsx)(`path`, {
+            d: `M21.1025 15.1483C21.2658 14.8857 21.5961 14.7644 21.8974 14.8759C22.2418 15.0034 22.4175 15.3869 22.29 15.7313L18.957 24.7313L18.8974 24.8514C18.7341 25.1141 18.4038 25.2354 18.1025 25.1239C17.7581 24.9963 17.5823 24.6128 17.7099 24.2684L21.0429 15.2684L21.1025 15.1483ZM14.4189 15.1766C14.5973 14.8558 15.0022 14.7405 15.3232 14.9188C15.644 15.0973 15.7593 15.5022 15.581 15.8231L13.2597 19.9999L15.581 24.1766L15.6347 24.3007C15.7276 24.5955 15.6039 24.9248 15.3232 25.0809C15.0422 25.237 14.6964 25.1684 14.4951 24.9335L14.4189 24.8231L11.9189 20.3231C11.8073 20.1223 11.8073 19.8775 11.9189 19.6766L14.4189 15.1766ZM24.6767 14.9188C24.9577 14.7627 25.3035 14.8313 25.5048 15.0663L25.581 15.1766L28.081 19.6766C28.1926 19.8775 28.1926 20.1223 28.081 20.3231L25.581 24.8231C25.4025 25.1439 24.9976 25.2592 24.6767 25.0809C24.3559 24.9025 24.2406 24.4976 24.4189 24.1766L26.7392 19.9999L24.4189 15.8231L24.3652 15.6991C24.2723 15.4042 24.396 15.075 24.6767 14.9188Z`,
+            fill: `currentColor`,
+          }),
+        })));
+  }),
+  G,
+  rt,
+  it = e(() => {
+    (t(p()),
+      (G = S()),
+      (rt = (e) =>
+        (0, G.jsxs)(`svg`, {
+          width: 40,
+          height: 40,
+          viewBox: `0 0 40 40`,
+          fill: `none`,
+          xmlns: `http://www.w3.org/2000/svg`,
+          ...e,
+          children: [
+            (0, G.jsx)(`path`, {
+              fillRule: `evenodd`,
+              clipRule: `evenodd`,
+              d: `M15.4997 21.1346C16.9715 21.1346 18.1646 22.3279 18.1647 23.7996C18.1647 25.2714 16.9715 26.4646 15.4997 26.4646C14.028 26.4645 12.8347 25.2713 12.8347 23.7996C12.8348 22.328 14.0281 21.1347 15.4997 21.1346ZM15.4997 22.4646C14.7626 22.4648 14.1649 23.0625 14.1647 23.7996C14.1647 24.5368 14.7625 25.1344 15.4997 25.1346C16.237 25.1346 16.8347 24.5369 16.8347 23.7996C16.8345 23.0624 16.2369 22.4646 15.4997 22.4646Z`,
+              fill: `currentColor`,
+            }),
+            (0, G.jsx)(`path`, {
+              d: `M27.1335 23.1482C27.4365 23.2101 27.6646 23.4783 27.6647 23.7996C27.6647 24.121 27.4366 24.389 27.1335 24.451L26.9997 24.4646H20.9997C20.6326 24.4645 20.3347 24.1668 20.3347 23.7996C20.3348 23.4325 20.6327 23.1347 20.9997 23.1346H26.9997L27.1335 23.1482Z`,
+              fill: `currentColor`,
+            }),
+            (0, G.jsx)(`path`, {
+              d: `M17.2975 13.6002C17.5179 13.3066 17.9354 13.2473 18.2292 13.4674C18.5229 13.6878 18.5823 14.1052 18.362 14.399L15.362 18.399C15.2463 18.5531 15.0689 18.649 14.8766 18.6627C14.6845 18.6762 14.4953 18.6065 14.3591 18.4703L12.8591 16.9703L12.7741 16.8658C12.6038 16.6077 12.6319 16.2561 12.8591 16.0289C13.0862 15.8017 13.4379 15.7737 13.696 15.9439L13.8005 16.0289L14.7575 16.9859L17.2975 13.6002Z`,
+              fill: `currentColor`,
+            }),
+            (0, G.jsx)(`path`, {
+              d: `M27.1335 15.5482C27.4365 15.6101 27.6646 15.8783 27.6647 16.1996C27.6647 16.521 27.4366 16.789 27.1335 16.851L26.9997 16.8646H20.9997C20.6326 16.8645 20.3347 16.5668 20.3347 16.1996C20.3348 15.8325 20.6327 15.5347 20.9997 15.5346H26.9997L27.1335 15.5482Z`,
+              fill: `currentColor`,
+            }),
+          ],
+        })));
+  }),
+  at,
+  ot,
+  st = e(() => {
+    (t(p()),
+      (at = S()),
+      (ot = (e) =>
+        (0, at.jsx)(`svg`, {
+          xmlns: `http://www.w3.org/2000/svg`,
+          width: 40,
+          height: 48,
+          fill: `none`,
+          viewBox: `0 0 40 48`,
+          ...e,
+          children: (0, at.jsx)(`path`, {
+            stroke: `currentColor`,
+            strokeLinecap: `round`,
+            strokeLinejoin: `round`,
+            strokeWidth: 1.67,
+            d: `m38.963 18.927-3.072-5.963m3.072 5.963L33 22m5.963-3.073C24.132 13.427 10.5 15.5 1.11 22.47`,
+            opacity: 0.2,
+          }),
+        })));
+  }),
+  ct,
+  lt,
+  ut = e(() => {
+    (t(p()),
+      (ct = S()),
+      (lt = (e) =>
+        (0, ct.jsx)(`svg`, {
+          xmlns: `http://www.w3.org/2000/svg`,
+          width: 20,
+          height: 20,
+          fill: `none`,
+          viewBox: `0 0 20 20`,
+          ...e,
+          children: (0, ct.jsx)(`path`, {
+            fill: `currentColor`,
+            fillRule: `evenodd`,
+            d: `m7.584 2.874.251.026c.58.085 1.125.338 1.565.73l.244.238c.111.113.15.15.186.183l.112.093q.138.102.291.175l2.09-.443.226-.037c.7-.076 1.373.182 1.844.66q.369.005.668.028c.436.036.821.112 1.18.294l.206.116c.471.288.855.703 1.107 1.198l.063.136c.137.319.2.662.23 1.042.036.428.035.957.035 1.612V12.7c0 .655 0 1.184-.034 1.612-.031.38-.094.723-.23 1.043l-.064.135c-.252.495-.636.91-1.107 1.199l-.207.115c-.358.182-.743.258-1.178.294-.428.035-.957.034-1.612.034h-6.9c-.655 0-1.184 0-1.612-.034-.38-.031-.723-.094-1.042-.23l-.136-.064a3 3 0 0 1-1.198-1.107l-.116-.207c-.182-.358-.258-.743-.294-1.178-.035-.428-.034-.957-.034-1.612V7.3c0-.655 0-1.184.034-1.612.036-.435.112-.82.294-1.178l.116-.207A3 3 0 0 1 3.76 3.196l.136-.063c.319-.137.662-.2 1.042-.23.428-.036.957-.035 1.612-.035h.695c.144 0 .242 0 .339.006M3.382 12.7c0 .675 0 1.144.03 1.508.03.357.083.558.16.708l.067.12c.167.273.408.496.695.643l.123.052c.137.05.317.085.585.107.364.03.833.03 1.508.03h6.9c.675 0 1.144 0 1.508-.03.357-.03.558-.083.708-.16l.12-.067c.273-.167.496-.408.643-.695l.052-.123c.05-.137.085-.317.107-.585.03-.364.03-.833.03-1.508V9.332H3.382zm12.132-4.632h1.1a10 10 0 0 0-.026-.651 2.3 2.3 0 0 0-.107-.585l-.052-.123a1.75 1.75 0 0 0-.643-.695l-.12-.068c-.14-.07-.324-.12-.636-.151zM12.69 5.162l-.092.015-6.204 1.318a.92.92 0 0 0-.71 1.092l.103.481h8.366l-.464-2.182a.92.92 0 0 0-.999-.724M6.55 4.132c-.675 0-1.144 0-1.508.03a2.3 2.3 0 0 0-.585.107l-.123.052c-.287.147-.528.37-.695.643l-.068.12c-.076.15-.13.351-.159.708-.03.364-.03.833-.03 1.508v.768h1.047l-.044-.205a2.25 2.25 0 0 1 1.733-2.669l2.527-.537-.085-.083a1.75 1.75 0 0 0-.909-.424l-.144-.015c-.05-.003-.103-.003-.262-.003z`,
+            clipRule: `evenodd`,
+          }),
+        })));
+  }),
+  dt,
+  ft = e(() => {
+    dt = `` + new URL(`codex-app-ga-logo--UgmJjKM.png`, import.meta.url).href;
+  }),
+  K,
+  pt,
+  mt = e(() => {
+    (t(p()),
+      (K = S()),
+      (pt = (e) =>
+        (0, K.jsxs)(`svg`, {
+          width: 36,
+          height: 36,
+          viewBox: `0 0 36 36`,
+          fill: `none`,
+          xmlns: `http://www.w3.org/2000/svg`,
+          ...e,
+          children: [
+            (0, K.jsx)(`g`, {
+              clipPath: `url(#clip0_1683_12416)`,
+              children: (0, K.jsx)(`path`, {
+                d: `M13.8076 13.1477V9.75825C13.8076 9.47278 13.9147 9.25859 14.1644 9.11603L20.9792 5.1914C21.9069 4.65627 23.013 4.40661 24.1545 4.40661C28.4359 4.40661 31.1477 7.72483 31.1477 11.2569C31.1477 11.5065 31.1477 11.792 31.1119 12.0775L24.0474 7.93867C23.6194 7.68901 23.191 7.68901 22.763 7.93867L13.8076 13.1477ZM29.7203 26.349V18.2497C29.7203 17.7501 29.5061 17.3933 29.0781 17.1437L20.1228 11.9346L23.0484 10.2576C23.2981 10.115 23.5123 10.115 23.7619 10.2576L30.5767 14.1822C32.5392 15.3241 33.8591 17.7501 33.8591 20.1048C33.8591 22.8162 32.2537 25.3138 29.7203 26.3486V26.349ZM11.7026 19.2132L8.77694 17.5007C8.52728 17.3582 8.42019 17.144 8.42019 16.8585V9.00927C8.42019 5.19174 11.3458 2.30157 15.3063 2.30157C16.8049 2.30157 18.1961 2.80122 19.3738 3.69311L12.3452 7.76064C11.9171 8.0103 11.7029 8.36705 11.7029 8.86671V19.2136L11.7026 19.2132ZM18 22.8524L13.8076 20.4977V15.5028L18 13.1481L22.192 15.5028V20.4977L18 22.8524ZM20.6937 33.6989C19.1951 33.6989 17.8039 33.1992 16.6262 32.3074L23.6548 28.2398C24.0829 27.9902 24.2971 27.6334 24.2971 27.1338V16.7869L27.2585 18.4994C27.5082 18.6419 27.6153 18.8561 27.6153 19.1416V26.9909C27.6153 30.8084 24.6538 33.6986 20.6937 33.6986V33.6989ZM12.2377 25.7426L5.42292 21.8179C3.46044 20.6761 2.14052 18.2501 2.14052 15.8954C2.14052 13.1481 3.78172 10.6863 6.3148 9.6515V17.7862C6.3148 18.2859 6.52899 18.6426 6.95703 18.8923L15.8769 24.0655L12.9512 25.7426C12.7016 25.8851 12.4874 25.8851 12.2377 25.7426ZM11.8455 31.5939C7.81378 31.5939 4.85232 28.5611 4.85232 24.8149C4.85232 24.5294 4.88813 24.2439 4.9236 23.9585L11.9523 28.026C12.3803 28.2756 12.8087 28.2756 13.2367 28.026L22.192 22.8527V26.2422C22.192 26.5277 22.0849 26.7419 21.8353 26.8844L15.0205 30.8091C14.0928 31.3442 12.9867 31.5939 11.8452 31.5939H11.8455ZM20.6937 35.8394C25.0109 35.8394 28.6143 32.7712 29.4352 28.7037C33.4311 27.6689 36 23.9226 36 20.1051C36 17.6075 34.9297 15.1815 33.0031 13.4332C33.1814 12.6839 33.2885 11.9346 33.2885 11.1856C33.2885 6.08363 29.1497 2.26575 24.3687 2.26575C23.4055 2.26575 22.4778 2.40832 21.5501 2.7296C19.9444 1.15968 17.7323 0.160706 15.3063 0.160706C10.9891 0.160706 7.38574 3.22892 6.5648 7.29645C2.56889 8.33124 0 12.0775 0 15.895C0 18.3926 1.07026 20.8186 2.99693 22.5669C2.81855 23.3162 2.71146 24.0655 2.71146 24.8145C2.71146 29.9165 6.85027 33.7344 11.6313 33.7344C12.5945 33.7344 13.5222 33.5918 14.4499 33.2705C16.0553 34.8405 18.2674 35.8394 20.6937 35.8394Z`,
+                fill: `currentColor`,
+              }),
+            }),
+            (0, K.jsx)(`defs`, {
+              children: (0, K.jsx)(`clipPath`, {
+                id: `clip0_1683_12416`,
+                children: (0, K.jsx)(`rect`, { width: 36, height: 36, fill: `white` }),
+              }),
+            }),
+          ],
+        })));
+  });
+function ht(e) {
+  let t = (0, gt.c)(3),
+    { appBrand: r, className: i } = e,
+    a;
+  return (
+    t[0] !== r || t[1] !== i
+      ? ((a =
+          r === n.ChatGPT
+            ? (0, _t.jsx)(pt, { "aria-hidden": `true`, className: i })
+            : (0, _t.jsx)(`img`, {
+                alt: ``,
+                "aria-hidden": `true`,
+                className: i,
+                draggable: !1,
+                src: dt,
+              })),
+        (t[0] = r),
+        (t[1] = i),
+        (t[2] = a))
+      : (a = t[2]),
+    a
+  );
+}
+var gt,
+  _t,
+  vt = e(() => {
+    ((gt = i()), s(), ft(), mt(), (_t = S()));
+  });
+function yt(e) {
+  let t = (0, xt.c)(16),
+    { appBrand: n, sourceIconVariant: r, title: i, subtitle: a } = e,
+    o;
+  t[0] === r ? (o = t[1]) : ((o = (0, q.jsx)(bt, { variant: r })), (t[0] = r), (t[1] = o));
+  let s;
+  t[2] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((s = (0, q.jsx)(ot, { className: `h-12 w-10 text-token-foreground` })), (t[2] = s))
+    : (s = t[2]);
+  let c;
+  t[3] === n
+    ? (c = t[4])
+    : ((c = (0, q.jsx)(ht, { appBrand: n, className: `size-12` })), (t[3] = n), (t[4] = c));
+  let l;
+  t[5] !== o || t[6] !== c
+    ? ((l = (0, q.jsxs)(`div`, {
+        className: `flex items-center gap-4`,
+        "aria-hidden": `true`,
+        children: [o, s, c],
+      })),
+      (t[5] = o),
+      (t[6] = c),
+      (t[7] = l))
+    : (l = t[7]);
+  let u;
+  t[8] === i
+    ? (u = t[9])
+    : ((u = (0, q.jsx)(`h1`, {
+        className: `mt-6 text-[28px] leading-[34px] font-normal text-token-foreground`,
+        children: i,
+      })),
+      (t[8] = i),
+      (t[9] = u));
+  let d;
+  t[10] === a
+    ? (d = t[11])
+    : ((d = (0, q.jsx)(`p`, {
+        className: `mt-2 text-[16px] leading-6 text-token-description-foreground`,
+        children: a,
+      })),
+      (t[10] = a),
+      (t[11] = d));
+  let f;
+  return (
+    t[12] !== l || t[13] !== u || t[14] !== d
+      ? ((f = (0, q.jsxs)(`div`, {
+          className: `flex flex-col items-center text-center`,
+          children: [l, u, d],
+        })),
+        (t[12] = l),
+        (t[13] = u),
+        (t[14] = d),
+        (t[15] = f))
+      : (f = t[15]),
+    f
+  );
+}
+function bt(e) {
+  let t = (0, xt.c)(5),
+    { variant: n } = e,
+    r =
+      n === `orange`
+        ? `bg-[#DA6A44] text-token-button-foreground`
+        : `bg-[color-mix(in_srgb,var(--color-token-foreground)_4%,transparent)] text-token-text-secondary`,
+    i;
+  t[0] === r
+    ? (i = t[1])
+    : ((i = ge(`flex size-12 shrink-0 items-center justify-center rounded-xl`, r)),
+      (t[0] = r),
+      (t[1] = i));
+  let a;
+  t[2] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((a = (0, q.jsx)(lt, { className: `size-6` })), (t[2] = a))
+    : (a = t[2]);
+  let o;
+  return (
+    t[3] === i
+      ? (o = t[4])
+      : ((o = (0, q.jsx)(`div`, { className: i, children: a })), (t[3] = i), (t[4] = o)),
+    o
+  );
+}
+var xt,
+  q,
+  St = e(() => {
+    ((xt = i()), de(), st(), ut(), vt(), (q = S()));
+  });
+function Ct(e) {
+  let t = (0, Tt.c)(49),
+    { appBrand: n, providerIds: r, variant: i, onCustomize: a, onContinue: o, onSkip: s } = e,
+    c = i === void 0 ? `onboarding` : i,
+    l = V(),
+    [u, d] = (0, Et.useState)(r),
+    f = c === `dialog`,
+    p;
+  t[0] === f
+    ? (p = t[1])
+    : ((p = f
+        ? (0, J.jsx)(B, {
+            id: `electron.onboarding.welcomeV2.externalAgentImport.providers.dialogTitle`,
+            defaultMessage: `Import from other AI apps`,
+            description: `Title for the external agent provider selection dialog`,
+          })
+        : (0, J.jsx)(B, {
+            id: `electron.onboarding.welcomeV2.externalAgentImport.providers.title`,
+            defaultMessage: `Import work from other AI apps`,
+            description: `Title for the external agent provider selection step`,
+          })),
+      (t[0] = f),
+      (t[1] = p));
+  let m = p,
+    h;
+  t[2] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((h = (0, J.jsx)(B, {
+        id: `electron.onboarding.welcomeV2.externalAgentImport.providers.subtitle`,
+        defaultMessage: `Bring over your setup, projects, and recent chats`,
+        description: `Subtitle for the external agent provider selection step`,
+      })),
+      (t[2] = h))
+    : (h = t[2]);
+  let g = h,
+    _;
+  t[3] !== o || t[4] !== s || t[5] !== u
+    ? ((_ = () => {
+        if (u.length === 0) {
+          s();
+          return;
+        }
+        o(u);
+      }),
+      (t[3] = o),
+      (t[4] = s),
+      (t[5] = u),
+      (t[6] = _))
+    : (_ = t[6]);
+  let v = _,
+    y;
+  t[7] !== a || t[8] !== s || t[9] !== u
+    ? ((y = () => {
+        if (u.length === 0) {
+          s();
+          return;
+        }
+        a?.(u);
+      }),
+      (t[7] = a),
+      (t[8] = s),
+      (t[9] = u),
+      (t[10] = y))
+    : (y = t[10]);
+  let b = y,
+    x;
+  t[11] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((x = (e) => {
+        d((t) => (t.includes(e) ? t.filter((t) => t !== e) : [...t, e]));
+      }),
+      (t[11] = x))
+    : (x = t[11]);
+  let S = x,
+    C;
+  t[12] === v
+    ? (C = t[13])
+    : ((C = (e) => {
+        (e.preventDefault(), v());
+      }),
+      (t[12] = v),
+      (t[13] = C));
+  let w = C,
+    T;
+  t[14] !== n || t[15] !== f || t[16] !== m
+    ? ((T = f
+        ? (0, J.jsx)(te, {
+            children: (0, J.jsx)(ee, {
+              title: (0, J.jsx)(re, { className: `contents`, children: m }),
+              subtitle: (0, J.jsx)(ne, { className: `sr-only`, children: g }),
+            }),
+          })
+        : (0, J.jsx)(yt, { appBrand: n, sourceIconVariant: `neutral`, title: m, subtitle: g })),
+      (t[14] = n),
+      (t[15] = f),
+      (t[16] = m),
+      (t[17] = T))
+    : (T = t[17]);
+  let E = f ? `mt-4 flex w-full flex-col` : `mt-8 flex w-full max-w-xs flex-col`,
+    O;
+  t[18] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((O = (0, J.jsx)(`div`, {
+        className: `mb-2 text-xs leading-4 font-medium text-token-description-foreground`,
+        children: (0, J.jsx)(B, {
+          id: `electron.onboarding.welcomeV2.externalAgentImport.providers.appsFound`,
+          defaultMessage: `Apps found`,
+          description: `Label above the external agent apps found list`,
+        }),
+      })),
+      (t[18] = O))
+    : (O = t[18]);
+  let k;
+  t[19] === l
+    ? (k = t[20])
+    : ((k = l.formatMessage({
+        id: `electron.onboarding.welcomeV2.externalAgentImport.providers.list`,
+        defaultMessage: `Apps found`,
+        description: `Accessible label for the external agent provider list`,
+      })),
+      (t[19] = l),
+      (t[20] = k));
+  let A;
+  if (t[21] !== r || t[22] !== u) {
+    let e;
+    t[24] === r ? (e = t[25]) : ((e = (e) => r.includes(e)), (t[24] = r), (t[25] = e));
+    let n;
+    (t[26] === u
+      ? (n = t[27])
+      : ((n = (e) =>
+          (0, J.jsx)(wt, { providerId: e, selected: u.includes(e), onToggle: () => S(e) }, e)),
+        (t[26] = u),
+        (t[27] = n)),
+      (A = Dt.filter(e).map(n)),
+      (t[21] = r),
+      (t[22] = u),
+      (t[23] = A));
+  } else A = t[23];
+  let j;
+  t[28] !== k || t[29] !== A
+    ? ((j = (0, J.jsx)(`div`, {
+        role: `list`,
+        "aria-label": k,
+        className: `overflow-hidden rounded-2xl border border-token-border bg-token-main-surface-primary`,
+        children: A,
+      })),
+      (t[28] = k),
+      (t[29] = A),
+      (t[30] = j))
+    : (j = t[30]);
+  let M;
+  t[31] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((M = (0, J.jsx)(`div`, {
+        className: `mt-2 text-center text-xs leading-4 text-token-text-secondary`,
+        children: (0, J.jsx)(B, {
+          id: `electron.onboarding.welcomeV2.externalAgentImport.providers.standardChatsUnsupported`,
+          defaultMessage: `Your existing Claude setup won’t be affected. Standard Claude Chat data cannot be imported.`,
+          description: `Note below the external agent provider selection list`,
+        }),
+      })),
+      (t[31] = M))
+    : (M = t[31]);
+  let P;
+  t[32] !== j || t[33] !== E
+    ? ((P = (0, J.jsxs)(`div`, { className: E, children: [O, j, M] })),
+      (t[32] = j),
+      (t[33] = E),
+      (t[34] = P))
+    : (P = t[34]);
+  let F;
+  t[35] !== v || t[36] !== b || t[37] !== f || t[38] !== a || t[39] !== s
+    ? ((F = f
+        ? (0, J.jsx)(`div`, {
+            className: `mt-4`,
+            children: (0, J.jsxs)(ve, {
+              children: [
+                (0, J.jsx)(N, {
+                  color: `ghost`,
+                  onClick: s,
+                  children: (0, J.jsx)(B, {
+                    id: `common.cancel`,
+                    defaultMessage: `Cancel`,
+                    description: `Cancel button label`,
+                  }),
+                }),
+                a == null
+                  ? null
+                  : (0, J.jsx)(N, {
+                      type: `button`,
+                      color: `secondary`,
+                      onClick: b,
+                      children: (0, J.jsx)(B, {
+                        id: `electron.onboarding.welcomeV2.externalAgentImport.customize`,
+                        defaultMessage: `Customize`,
+                        description: `Customize button label on the external agent import step`,
+                      }),
+                    }),
+                (0, J.jsx)(N, {
+                  type: `submit`,
+                  color: `primary`,
+                  children: (0, J.jsx)(B, {
+                    id: `electron.onboarding.welcomeV2.continue`,
+                    defaultMessage: `Continue`,
+                    description: `Welcome v2 continue button label`,
+                  }),
+                }),
+              ],
+            }),
+          })
+        : (0, J.jsxs)(`div`, {
+            className: `mt-8 flex w-full max-w-xs flex-col items-center gap-2`,
+            children: [
+              (0, J.jsx)(N, {
+                className: `w-full justify-center`,
+                size: `large`,
+                onClick: v,
+                children: (0, J.jsx)(B, {
+                  id: `electron.onboarding.welcomeV2.continue`,
+                  defaultMessage: `Continue`,
+                  description: `Welcome v2 continue button label`,
+                }),
+              }),
+              (0, J.jsx)(N, {
+                className: `w-full justify-center`,
+                color: `ghost`,
+                size: `large`,
+                onClick: s,
+                children: (0, J.jsx)(B, {
+                  id: `electron.onboarding.welcomeV2.skip`,
+                  defaultMessage: `Skip`,
+                  description: `Welcome v2 skip button label`,
+                }),
+              }),
+            ],
+          })),
+      (t[35] = v),
+      (t[36] = b),
+      (t[37] = f),
+      (t[38] = a),
+      (t[39] = s),
+      (t[40] = F))
+    : (F = t[40]);
+  let I;
+  t[41] !== P || t[42] !== F || t[43] !== T
+    ? ((I = (0, J.jsxs)(J.Fragment, { children: [T, P, F] })),
+      (t[41] = P),
+      (t[42] = F),
+      (t[43] = T),
+      (t[44] = I))
+    : (I = t[44]);
+  let L = I,
+    R;
+  return (
+    t[45] !== L || t[46] !== w || t[47] !== f
+      ? ((R = f
+          ? (0, J.jsx)(D, { as: `form`, className: `gap-0`, onSubmit: w, children: L })
+          : (0, J.jsx)(`div`, {
+              className: `flex w-full max-w-lg flex-col items-center overflow-hidden rounded-2xl p-10`,
+              children: L,
+            })),
+        (t[45] = L),
+        (t[46] = w),
+        (t[47] = f),
+        (t[48] = R))
+      : (R = t[48]),
+    R
+  );
+}
+function wt(e) {
+  let t = (0, Tt.c)(18),
+    { providerId: n, selected: r, onToggle: i } = e,
+    a = V(),
+    { Icon: o, label: s } = Ot[n],
+    c;
+  t[0] !== a || t[1] !== s
+    ? ((c = a.formatMessage(s)), (t[0] = a), (t[1] = s), (t[2] = c))
+    : (c = t[2]);
+  let l = c,
+    u;
+  t[3] === o
+    ? (u = t[4])
+    : ((u = (0, J.jsx)(`div`, {
+        className: `flex size-10 shrink-0 items-center justify-center rounded-xl bg-[#DA6A44] text-token-button-foreground`,
+        "aria-hidden": `true`,
+        children: (0, J.jsx)(o, { className: `size-10` }),
+      })),
+      (t[3] = o),
+      (t[4] = u));
+  let d;
+  t[5] === l
+    ? (d = t[6])
+    : ((d = (0, J.jsx)(`div`, {
+        className: `min-w-0 flex-1 text-base leading-6 text-token-foreground`,
+        children: l,
+      })),
+      (t[5] = l),
+      (t[6] = d));
+  let f;
+  t[7] !== a || t[8] !== l
+    ? ((f = a.formatMessage(
+        {
+          id: `electron.onboarding.welcomeV2.externalAgentImport.providers.toggle`,
+          defaultMessage: `Import {provider}`,
+          description: `Accessible label for an external agent provider toggle`,
+        },
+        { provider: l },
+      )),
+      (t[7] = a),
+      (t[8] = l),
+      (t[9] = f))
+    : (f = t[9]);
+  let p;
+  t[10] !== i || t[11] !== r || t[12] !== f
+    ? ((p = (0, J.jsx)(Te, { checked: r, ariaLabel: f, onChange: i })),
+      (t[10] = i),
+      (t[11] = r),
+      (t[12] = f),
+      (t[13] = p))
+    : (p = t[13]);
+  let m;
+  return (
+    t[14] !== u || t[15] !== d || t[16] !== p
+      ? ((m = (0, J.jsxs)(`div`, {
+          role: `listitem`,
+          className: `flex min-h-[64px] items-center gap-3 border-b border-token-border px-3 py-3 last:border-b-0`,
+          children: [u, d, p],
+        })),
+        (t[14] = u),
+        (t[15] = d),
+        (t[16] = p),
+        (t[17] = m))
+      : (m = t[17]),
+    m
+  );
+}
+var Tt,
+  Et,
+  J,
+  Dt,
+  Ot,
+  kt = e(() => {
+    ((Tt = i()),
+      (Et = t(p(), 1)),
+      Ie(),
+      z(),
+      O(),
+      j(),
+      Ee(),
+      nt(),
+      it(),
+      St(),
+      (J = S()),
+      (Dt = [`claude-code`, `claude-cowork`]),
+      (Ot = {
+        "claude-code": {
+          Icon: tt,
+          label: ze({
+            id: `electron.onboarding.welcomeV2.externalAgentImport.providers.claudeCode`,
+            defaultMessage: `Claude Code`,
+            description: `Claude Code provider name in onboarding import`,
+          }),
+        },
+        "claude-cowork": {
+          Icon: rt,
+          label: ze({
+            id: `electron.onboarding.welcomeV2.externalAgentImport.providers.claudeCowork`,
+            defaultMessage: `Claude Cowork`,
+            description: `Claude Cowork provider name in onboarding import`,
+          }),
+        },
+      }));
+  }),
+  At,
+  jt,
+  Mt = e(() => {
+    (t(p()),
+      (At = S()),
+      (jt = (e) =>
+        (0, At.jsx)(`svg`, {
+          width: 20,
+          height: 20,
+          viewBox: `0 0 20 20`,
+          fill: `none`,
+          xmlns: `http://www.w3.org/2000/svg`,
+          ...e,
+          children: (0, At.jsx)(`path`, {
+            d: `M11.335 12.083C11.3347 9.97242 9.44966 8.16504 7 8.16504C4.55034 8.16504 2.66527 9.97242 2.66504 12.083C2.66504 12.8512 2.90887 13.5704 3.33691 14.1797C3.4302 14.3125 3.47218 14.4745 3.4541 14.6357C3.40535 15.0678 3.31415 15.4843 3.19922 15.8877C3.66136 15.8098 4.10651 15.6986 4.54297 15.5508L4.66699 15.5215C4.79159 15.5045 4.91938 15.5238 5.03516 15.5771C5.62294 15.8481 6.2901 16.002 7 16.002C9.44981 16.002 11.335 14.1938 11.335 12.083ZM17.335 7.91309C17.3348 5.80247 15.4497 3.99512 13 3.99512C11.5595 3.99512 10.298 4.62925 9.51465 5.58496C9.28182 5.86891 8.86214 5.9105 8.57812 5.67773C8.29409 5.44493 8.25257 5.02526 8.48535 4.74121C9.52649 3.47094 11.1693 2.66504 13 2.66504C16.0729 2.66504 18.6648 4.96138 18.665 7.91309C18.665 8.8753 18.3824 9.77408 17.8984 10.5459C17.9866 11.1153 18.1604 11.6767 18.3848 12.2568C18.4665 12.4681 18.4355 12.7068 18.3018 12.8896C18.1681 13.0723 17.9505 13.1739 17.7246 13.1602C16.8659 13.1076 16.0585 12.9617 15.2734 12.7178C15.1054 12.7861 14.9347 12.8511 14.7588 12.9043C14.4073 13.0104 14.036 12.8113 13.9297 12.46C13.8235 12.1084 14.0226 11.7372 14.374 11.6309C14.5782 11.5692 14.7758 11.4944 14.9648 11.4072L15.084 11.3652C15.2063 11.3351 15.3361 11.3399 15.457 11.3809C15.8932 11.5286 16.338 11.6399 16.7998 11.7178C16.6849 11.3144 16.5946 10.8978 16.5459 10.4658C16.5278 10.3046 16.5698 10.1426 16.6631 10.0098C17.0911 9.40048 17.335 8.68131 17.335 7.91309ZM12.665 12.083C12.665 15.0349 10.073 17.332 7 17.332C6.19184 17.332 5.42143 17.1731 4.72266 16.8887C4.04698 17.0983 3.35521 17.2365 2.62793 17.3037L2.27539 17.3301C2.04946 17.3438 1.83192 17.2422 1.69824 17.0596C1.56452 16.8767 1.53354 16.638 1.61523 16.4268L1.79297 15.9375C1.93133 15.5279 2.03737 15.1238 2.10059 14.7158C1.61678 13.9441 1.33496 13.045 1.33496 12.083C1.33519 9.13134 3.92709 6.83496 7 6.83496C10.0729 6.83496 12.6648 9.13134 12.665 12.083Z`,
+            fill: `currentColor`,
+          }),
+        })));
+  });
+function Nt(e) {
+  let t = (0, It.c)(10),
+    { open: n, items: r, selectedItemIds: i, onOpenChange: a, onConfirm: o } = e,
+    s;
+  t[0] !== r || t[1] !== o || t[2] !== a || t[3] !== n || t[4] !== i
+    ? ((s = n
+        ? (0, Y.jsx)(Pt, {
+            items: r,
+            selectedItemIds: i,
+            onConfirm: (e) => {
+              (o(e), a(!1));
+            },
+          })
+        : null),
+      (t[0] = r),
+      (t[1] = o),
+      (t[2] = a),
+      (t[3] = n),
+      (t[4] = i),
+      (t[5] = s))
+    : (s = t[5]);
+  let c;
+  return (
+    t[6] !== a || t[7] !== n || t[8] !== s
+      ? ((c = (0, Y.jsx)(A, {
+          open: n,
+          onOpenChange: a,
+          size: `compact`,
+          contentClassName: `w-[400px] rounded-[20px]`,
+          children: s,
+        })),
+        (t[6] = a),
+        (t[7] = n),
+        (t[8] = s),
+        (t[9] = c))
+      : (c = t[9]),
+    c
+  );
+}
+function Pt(e) {
+  let t = (0, It.c)(23),
+    { items: n, selectedItemIds: r, onConfirm: i } = e,
+    a = V(),
+    o;
+  t[0] === r ? (o = t[1]) : ((o = () => new Set(r)), (t[0] = r), (t[1] = o));
+  let [s, c] = (0, Lt.useState)(o),
+    l = s.size,
+    u;
+  t[2] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((u = (0, Y.jsx)(re, {
+        className: `pr-10 text-[18px] leading-8 font-normal text-token-foreground`,
+        children: (0, Y.jsx)(B, {
+          id: `electron.onboarding.welcomeV2.externalAgentImport.customize.title`,
+          defaultMessage: `Choose what to import`,
+          description: `Title for the external agent onboarding customize dialog`,
+        }),
+      })),
+      (t[2] = u))
+    : (u = t[2]);
+  let d;
+  t[3] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((d = (0, Y.jsx)(ne, {
+        className: `sr-only`,
+        children: (0, Y.jsx)(B, {
+          id: `electron.onboarding.welcomeV2.externalAgentImport.customize.description`,
+          defaultMessage: `Select which detected items to import`,
+          description: `Accessible description for the external agent onboarding customize dialog`,
+        }),
+      })),
+      (t[3] = d))
+    : (d = t[3]);
+  let f;
+  if (t[4] !== s || t[5] !== a || t[6] !== n) {
+    let e;
+    (t[8] !== s || t[9] !== a
+      ? ((e = (e) => {
+          let t = `external-agent-import-customize-${e.id}`,
+            n = s.has(e.id);
+          return (0, Y.jsxs)(
+            `div`,
+            {
+              className: `relative flex h-12 items-center`,
+              children: [
+                (0, Y.jsxs)(`label`, {
+                  className: `flex min-w-0 flex-1 cursor-interaction items-center gap-3`,
+                  htmlFor: t,
+                  children: [
+                    (0, Y.jsx)(`div`, {
+                      className: `flex size-10 shrink-0 items-center justify-center rounded-xl bg-token-foreground/5 text-token-text-secondary`,
+                      children: (0, Y.jsx)(Ft, { icon: e.icon }),
+                    }),
+                    (0, Y.jsxs)(`div`, {
+                      className: `min-w-0 flex-1`,
+                      children: [
+                        (0, Y.jsx)(`div`, {
+                          className: `truncate text-[14px] leading-[17px] font-normal text-token-foreground`,
+                          children: e.title,
+                        }),
+                        (0, Y.jsx)(`div`, {
+                          className: `mt-1 truncate text-[12px] leading-[14px] text-token-description-foreground`,
+                          children: e.description,
+                        }),
+                      ],
+                    }),
+                  ],
+                }),
+                e.tooltip == null
+                  ? null
+                  : (0, Y.jsx)(me, {
+                      tooltipContent: e.tooltip.text,
+                      tooltipClassName: `!border-transparent !bg-black !text-white shadow-lg`,
+                      side: `top`,
+                      sideOffset: 8,
+                      delayDuration: 0,
+                      children: (0, Y.jsx)(`button`, {
+                        type: `button`,
+                        "aria-label": a.formatMessage(
+                          {
+                            id: `electron.onboarding.welcomeV2.externalAgentImport.customize.itemInfo`,
+                            defaultMessage: `What will be imported for {item}`,
+                            description: `Accessible label for an import customize item info tooltip`,
+                          },
+                          { item: e.title },
+                        ),
+                        className: `ml-3 flex size-5 cursor-interaction items-center justify-center rounded-full text-token-text-secondary hover:text-token-foreground focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-token-focus-border`,
+                        children: (0, Y.jsx)(E, { className: `size-4`, "aria-hidden": `true` }),
+                      }),
+                    }),
+                (0, Y.jsx)(`div`, {
+                  className: `relative ml-3 flex size-4 shrink-0 items-center justify-center`,
+                  children: (0, Y.jsx)(he, {
+                    id: t,
+                    "aria-label": e.title,
+                    checked: n,
+                    className: `flex h-4 w-4 items-center justify-center rounded-[3px] border-[1px] !border-token-border-heavy focus-visible:!border-token-border-heavy data-[state=checked]:!border-token-charts-blue data-[state=checked]:!bg-token-charts-blue data-[state=checked]:!text-white`,
+                    onCheckedChange: (t) => {
+                      c((n) => {
+                        let r = new Set(n);
+                        return (t ? r.add(e.id) : r.delete(e.id), r);
+                      });
+                    },
+                  }),
+                }),
+              ],
+            },
+            e.id,
+          );
+        }),
+        (t[8] = s),
+        (t[9] = a),
+        (t[10] = e))
+      : (e = t[10]),
+      (f = n.map(e)),
+      (t[4] = s),
+      (t[5] = a),
+      (t[6] = n),
+      (t[7] = f));
+  } else f = t[7];
+  let p;
+  t[11] === f
+    ? (p = t[12])
+    : ((p = (0, Y.jsx)(`div`, { className: `flex flex-col gap-2`, children: f })),
+      (t[11] = f),
+      (t[12] = p));
+  let m = l === 0,
+    h;
+  t[13] !== s || t[14] !== i
+    ? ((h = () => {
+        i(s);
+      }),
+      (t[13] = s),
+      (t[14] = i),
+      (t[15] = h))
+    : (h = t[15]);
+  let g;
+  t[16] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((g = (0, Y.jsx)(B, {
+        id: `electron.onboarding.welcomeV2.externalAgentImport.customize.confirm`,
+        defaultMessage: `Confirm`,
+        description: `Confirm button label in the external agent onboarding customize dialog`,
+      })),
+      (t[16] = g))
+    : (g = t[16]);
+  let _;
+  t[17] !== m || t[18] !== h
+    ? ((_ = (0, Y.jsx)(`div`, {
+        className: `flex h-7 items-center justify-end`,
+        children: (0, Y.jsx)(N, {
+          color: `primary`,
+          disabled: m,
+          className: `h-7 rounded-[10px] px-2 text-[13px] leading-6 font-medium`,
+          onClick: h,
+          children: g,
+        }),
+      })),
+      (t[17] = m),
+      (t[18] = h),
+      (t[19] = _))
+    : (_ = t[19]);
+  let v;
+  return (
+    t[20] !== p || t[21] !== _
+      ? ((v = (0, Y.jsxs)(`div`, { className: `flex flex-col gap-4 p-4`, children: [u, d, p, _] })),
+        (t[20] = p),
+        (t[21] = _),
+        (t[22] = v))
+      : (v = t[22]),
+    v
+  );
+}
+function Ft(e) {
+  let t = (0, It.c)(9),
+    { icon: n } = e;
+  switch (n) {
+    case `instructions`: {
+      let e;
+      return (
+        t[0] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, Y.jsx)(se, { className: `icon-base` })), (t[0] = e))
+          : (e = t[0]),
+        e
+      );
+    }
+    case `settings`: {
+      let e;
+      return (
+        t[1] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, Y.jsx)(Ce, { className: `icon-base` })), (t[1] = e))
+          : (e = t[1]),
+        e
+      );
+    }
+    case `skills`: {
+      let e;
+      return (
+        t[2] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, Y.jsx)(we, { className: `icon-base` })), (t[2] = e))
+          : (e = t[2]),
+        e
+      );
+    }
+    case `plugins`: {
+      let e;
+      return (
+        t[3] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, Y.jsx)(F, { className: `icon-base` })), (t[3] = e))
+          : (e = t[3]),
+        e
+      );
+    }
+    case `projects`: {
+      let e;
+      return (
+        t[4] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, Y.jsx)(T, { className: `icon-base` })), (t[4] = e))
+          : (e = t[4]),
+        e
+      );
+    }
+    case `chats`: {
+      let e;
+      return (
+        t[5] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, Y.jsx)(jt, { className: `icon-base` })), (t[5] = e))
+          : (e = t[5]),
+        e
+      );
+    }
+    case `hooks`: {
+      let e;
+      return (
+        t[6] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, Y.jsx)(We, { className: `icon-base` })), (t[6] = e))
+          : (e = t[6]),
+        e
+      );
+    }
+    case `commands`: {
+      let e;
+      return (
+        t[7] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, Y.jsx)(k, { className: `icon-base` })), (t[7] = e))
+          : (e = t[7]),
+        e
+      );
+    }
+    case `agents`: {
+      let e;
+      return (
+        t[8] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, Y.jsx)(Ke, { className: `icon-base` })), (t[8] = e))
+          : (e = t[8]),
+        e
+      );
+    }
+  }
+}
+var It,
+  Lt,
+  Y,
+  Rt = e(() => {
+    ((It = i()),
+      (Lt = t(p(), 1)),
+      Ie(),
+      z(),
+      ue(),
+      O(),
+      ye(),
+      qe(),
+      I(),
+      Mt(),
+      ae(),
+      w(),
+      Ge(),
+      pe(),
+      fe(),
+      be(),
+      P(),
+      (Y = S()));
+  });
+async function zt({
+  hostId: e,
+  invalidateWorkspaceRootQueries: t,
+  onImportedProjectRootsReady: n,
+  projectRoots: r,
+  refreshRecentConversations: i,
+}) {
+  let a = await Bt({
+    hostId: e,
+    invalidateWorkspaceRootQueries: t,
+    onImportedProjectRootsReady: n,
+    projectRoots: r,
+  });
+  return (i != null && (await Wt(i)), { importedProjectRoots: a });
+}
+async function Bt({
+  hostId: e,
+  invalidateWorkspaceRootQueries: t,
+  onImportedProjectRootsReady: n,
+  projectRoots: r,
+}) {
+  try {
+    let i = await Vt({ hostId: e, projectRoots: r });
+    return i.length === 0 ? [] : (n?.(i), await Ht(i), await t?.(), i);
+  } catch (t) {
+    return (
+      a.warning(`Failed to add imported project roots after import`, {
+        safe: { hostId: e },
+        sensitive: { error: t },
+      }),
+      []
+    );
+  }
+}
+async function Vt({ hostId: e, projectRoots: t }) {
+  if (t.length === 0) return [];
+  let n = await g(`paths-exist`, { params: { hostId: e, paths: t } }),
+    r = new Set(n.existingPaths);
+  return t.filter((e) => r.has(e));
+}
+async function Ht(e) {
+  let t = (
+    await Promise.allSettled(
+      [...e]
+        .reverse()
+        .map(
+          async (e) => (
+            await g(`add-workspace-root-option`, { params: { root: e, setActive: !1 } }),
+            e
+          ),
+        ),
+    )
+  ).filter((e) => e.status === `rejected`);
+  t.length > 0 &&
+    a.warning(`Failed to add some imported project roots after import`, {
+      safe: { failedRootCount: t.length, totalRootCount: e.length },
+      sensitive: { errors: t.map((e) => e.reason) },
+    });
+}
+function Ut(e = H) {
+  return Ae(`refresh-recent-conversations-for-host`, { hostId: e });
+}
+async function Wt(e) {
+  try {
+    await e();
+  } catch (e) {
+    a.warning(`Failed to refresh recent conversations after import`, {
+      safe: {},
+      sensitive: { error: e },
+    });
+  }
+}
+var Gt = e(() => {
+  (ke(), Fe(), x(), b());
+});
+function Kt({ homeItems: e, projectItems: t }) {
+  let n = e.filter((e) => e.cwd == null || e.cwd === ``),
+    r = e.filter((e) => e.cwd != null && e.cwd !== ``),
+    i = Ye(Ze(n)),
+    a = Ye(Ze([...r, ...t])),
+    o = n.filter((e) => e.itemType === `SESSIONS`);
+  return i.length === 0 && a.length === 0 && o.length === 0
+    ? null
+    : { projectItems: a, sessionItems: o, toolsAndSetupItems: i };
+}
+function qt(e) {
+  let t = C(e.sessionItems),
+    n = C(e.projectItems),
+    r = [...new Set([...t, ...n])].sort((e, t) => e.localeCompare(t));
+  return [
+    ...e.toolsAndSetupItems.map((e, t) => ({
+      key: Xt(e, t),
+      kind: `migrationItem`,
+      item: e,
+      items: [e],
+    })),
+    ...(e.projectItems.length > 0 || r.length > 0
+      ? [{ key: `projects`, kind: `projects`, count: r.length, items: e.projectItems }]
+      : []),
+    ...(e.sessionItems.length > 0
+      ? [{ key: `chats`, kind: `chats`, count: Zt(e.sessionItems), items: e.sessionItems }]
+      : []),
+  ];
+}
+function Jt({ model: e, selection: t }) {
+  let n = e.projectItems.some((e, n) => Object.prototype.hasOwnProperty.call(t, Yt(e, n))),
+    r = qt(e).filter((e) => t[e.key] ?? !1);
+  return [
+    ...r
+      .filter((e) => e.kind !== `chats`)
+      .flatMap((e) =>
+        e.kind !== `projects` || !n ? e.items : e.items.filter((e, n) => t[Yt(e, n)] ?? !1),
+      ),
+    ...r.filter((e) => e.kind === `chats`).flatMap((e) => e.items),
+  ];
+}
+function Yt(e, t) {
+  return `projects:${e.itemType}:${e.cwd ?? `project`}:${t}`;
+}
+function Xt(e, t) {
+  return `${e.itemType}:${e.cwd ?? `home`}:${t}`;
+}
+function Zt(e) {
+  return e.reduce((e, t) => e + (t.details?.sessions.length ?? 0), 0);
+}
+var Qt = e(() => {
+  (s(), $e());
+});
+function $t({ hostId: e, workspaceRoots: t }) {
+  return [`external-agent-config`, `import-model`, `detected`, e, t];
+}
+async function en({ hostId: e, includeHome: t, workspaceRoots: n }) {
+  return g(`external-agent-import-detect`, {
+    params: {
+      hostId: e,
+      includeHome: t,
+      providers: nn,
+      workspaceRoots: n == null || n.length === 0 ? void 0 : n,
+    },
+  });
+}
+async function tn({ hostId: e, items: t }) {
+  return t.length === 0
+    ? { projectRoots: [] }
+    : g(`external-agent-import-import`, { params: { hostId: e, items: t } });
+}
+var nn,
+  rn = e(() => {
+    (b(), (nn = [`claude-code`, `claude-cowork`]));
+  });
+async function an(e) {
+  await Promise.all([
+    e.invalidateQueries({ queryKey: L }),
+    e.invalidateQueries({ queryKey: M }),
+    e.invalidateQueries({ queryKey: je }),
+    e.invalidateQueries({ queryKey: Le }),
+    e.invalidateQueries({ queryKey: De }),
+    e.invalidateQueries({ queryKey: v(`local-custom-agents`) }),
+    e.invalidateQueries({ queryKey: v(`external-agent-import-status`) }),
+    e.invalidateQueries({ queryKey: v(`external-agent-imported-connectors`) }),
+  ]);
+}
+var on = e(() => {
+  (xe(), Re(), oe(), b());
+});
+function sn({ items: e, surface: t }) {
+  a.info(`external_agent_import_user_flow_started`, { safe: { surface: t, ...un(e) } });
+}
+function cn({
+  durationMs: e,
+  error: t,
+  failedStage: n,
+  items: r,
+  projectRootsReturnedCount: i,
+  status: o,
+  surface: s,
+}) {
+  let c = {
+    status: o,
+    surface: s,
+    durationMs: e,
+    projectRootsReturnedCount: i,
+    failedStage: n,
+    failureKind: n == null ? void 0 : ln(n),
+    ...un(r),
+  };
+  if (o === `success`) {
+    a.info(`external_agent_import_user_flow_finished`, { safe: c });
+    return;
+  }
+  a.warning(`external_agent_import_user_flow_finished`, { safe: c, sensitive: { error: t } });
+}
+function ln(e) {
+  switch (e) {
+    case `import`:
+      return `import_failed`;
+    case `complete_import`:
+      return `post_import_failed`;
+    case `refetch_detected_items`:
+      return `detect_failed`;
+    case `invalidate_queries`:
+      return `query_invalidation_failed`;
+  }
+}
+function un(e) {
+  let t = 0,
+    n = 0,
+    r = 0,
+    i = 0,
+    a = 0,
+    o = new Set();
+  for (let s of e)
+    (o.add(s.providerId),
+      s.providerId === `claude-code` && (t += 1),
+      s.providerId === `claude-cowork` && (n += 1),
+      s.cwd == null || s.cwd === `` ? (r += 1) : (i += 1),
+      s.itemType === `SESSIONS` && (a += 1));
+  return {
+    claudeCodeItemCount: t,
+    claudeCoworkItemCount: n,
+    homeItemCount: r,
+    itemCount: e.length,
+    projectItemCount: i,
+    providerIds: [...o].sort().join(`,`),
+    sessionItemCount: a,
+  };
+}
+var dn = e(() => {
+  x();
+});
+function fn(e) {
+  let t = (0, hn.c)(40),
+    { enabled: n, hostId: r, workspaceRoots: i } = e,
+    a = r === void 0 ? H : r,
+    o;
+  t[0] !== a || t[1] !== i
+    ? ((o = $t({ hostId: a, workspaceRoots: i })), (t[0] = a), (t[1] = i), (t[2] = o))
+    : (o = t[2]);
+  let s;
+  t[3] !== a || t[4] !== i
+    ? ((s = () => en({ hostId: a, includeHome: !0, workspaceRoots: i })),
+      (t[3] = a),
+      (t[4] = i),
+      (t[5] = s))
+    : (s = t[5]);
+  let c;
+  t[6] !== n || t[7] !== o || t[8] !== s
+    ? ((c = { queryKey: o, staleTime: 0, enabled: n, queryFn: s }),
+      (t[6] = n),
+      (t[7] = o),
+      (t[8] = s),
+      (t[9] = c))
+    : (c = t[9]);
+  let l = u(c),
+    d = l.data?.items ?? gn,
+    f = l.data?.unsupportedProjects ?? _n,
+    p;
+  t[10] === d ? (p = t[11]) : ((p = d.filter(mn)), (t[10] = d), (t[11] = p));
+  let m = p,
+    h;
+  t[12] === d ? (h = t[13]) : ((h = d.filter(pn)), (t[12] = d), (t[13] = h));
+  let g = h,
+    v;
+  t[14] !== m || t[15] !== g
+    ? ((v = Kt({ homeItems: m, projectItems: g })), (t[14] = m), (t[15] = g), (t[16] = v))
+    : (v = t[16]);
+  let y = v,
+    b;
+  t[17] === y ? (b = t[18]) : ((b = y == null ? [] : qt(y)), (t[17] = y), (t[18] = b));
+  let x = b,
+    S = n && l.isLoading,
+    C;
+  t[19] === y
+    ? (C = t[20])
+    : ((C = (e) => (y == null ? [] : Jt({ model: y, selection: e }))), (t[19] = y), (t[20] = C));
+  let w = C,
+    T;
+  t[21] === a
+    ? (T = t[22])
+    : ((T = { mutationFn: (e) => tn({ hostId: a, items: e }) }), (t[21] = a), (t[22] = T));
+  let E = _(T),
+    D = y != null || f.length > 0,
+    O = y != null,
+    k;
+  t[23] !== w || t[24] !== E
+    ? ((k = (e) => E.mutateAsync(w(e))), (t[23] = w), (t[24] = E), (t[25] = k))
+    : (k = t[25]);
+  let A;
+  t[26] === l
+    ? (A = t[27])
+    : ((A = async () => (await l.refetch()).data?.items ?? gn), (t[26] = l), (t[27] = A));
+  let j;
+  return (
+    t[28] !== x ||
+    t[29] !== d ||
+    t[30] !== w ||
+    t[31] !== E.isPending ||
+    t[32] !== E.mutateAsync ||
+    t[33] !== S ||
+    t[34] !== D ||
+    t[35] !== O ||
+    t[36] !== k ||
+    t[37] !== A ||
+    t[38] !== f
+      ? ((j = {
+          choices: x,
+          detectedItems: d,
+          unsupportedProjects: f,
+          getSelectedItems: w,
+          hasDetectedItems: D,
+          hasImportableItems: O,
+          importSelected: k,
+          importItems: E.mutateAsync,
+          isDetecting: S,
+          isImporting: E.isPending,
+          refetchDetectedItems: A,
+        }),
+        (t[28] = x),
+        (t[29] = d),
+        (t[30] = w),
+        (t[31] = E.isPending),
+        (t[32] = E.mutateAsync),
+        (t[33] = S),
+        (t[34] = D),
+        (t[35] = O),
+        (t[36] = k),
+        (t[37] = A),
+        (t[38] = f),
+        (t[39] = j))
+      : (j = t[39]),
+    j
+  );
+}
+function pn(e) {
+  return e.cwd != null && e.cwd !== ``;
+}
+function mn(e) {
+  return e.cwd == null || e.cwd === ``;
+}
+var hn,
+  gn,
+  _n,
+  vn = e(() => {
+    ((hn = i()), f(), Fe(), Qt(), rn(), (gn = []), (_n = []));
+  });
+function yn(e) {
+  let t = (0, Zn.c)(30),
+    { enabled: n } = e,
+    i = h(r),
+    a = V(),
+    o = d(),
+    s;
+  t[0] === n ? (s = t[1]) : ((s = { enabled: n }), (t[0] = n), (t[1] = s));
+  let {
+      detectedItems: c,
+      getSelectedItems: l,
+      hasImportableItems: u,
+      importItems: f,
+      importSelected: p,
+      isDetecting: m,
+      isImporting: g,
+    } = fn(s),
+    _;
+  t[2] === c ? (_ = t[3]) : ((_ = Sn(c)), (t[2] = c), (t[3] = _));
+  let y = _,
+    b;
+  bb0: {
+    if (!n) {
+      b = null;
+      break bb0;
+    }
+    let e;
+    (t[4] !== c || t[5] !== a || t[6] !== y
+      ? ((e = Cn({ detectedItems: c, intl: a, providerIds: y })),
+        (t[4] = c),
+        (t[5] = a),
+        (t[6] = y),
+        (t[7] = e))
+      : (e = t[7]),
+      (b = e));
+  }
+  let x = b,
+    S = n && m,
+    C = n && g,
+    w = n && x != null,
+    T;
+  t[8] !== c || t[9] !== a
+    ? ((T = (e) => Cn({ detectedItems: c, intl: a, providerIds: e })),
+      (t[8] = c),
+      (t[9] = a),
+      (t[10] = T))
+    : (T = t[10]);
+  let E;
+  t[11] !== c ||
+  t[12] !== n ||
+  t[13] !== l ||
+  t[14] !== u ||
+  t[15] !== f ||
+  t[16] !== p ||
+  t[17] !== a ||
+  t[18] !== o ||
+  t[19] !== i ||
+  t[20] !== x
+    ? ((E = async (e, t) => {
+        if (!n || (t == null && !u)) return;
+        let r = t == null ? x : Cn({ detectedItems: c, intl: a, providerIds: t }),
+          s = t == null ? l(e) : wn({ detectedItems: c, providerIds: t, selection: e }),
+          d = Date.now(),
+          m = `import`,
+          h = 0;
+        sn({ items: s, surface: `first_time_onboarding` });
+        let g = r?.chatChoiceKey != null && e[r.chatChoiceKey];
+        try {
+          m = `import`;
+          let { projectRoots: n } = t == null ? await p(e) : await f(s);
+          ((h = n.length),
+            (m = `invalidate_queries`),
+            await an(o),
+            (m = `complete_import`),
+            await zt({
+              hostId: H,
+              onImportedProjectRootsReady: (e) => {
+                Oe(i, { importedProjectRoots: e });
+              },
+              projectRoots: n,
+              invalidateWorkspaceRootQueries: async () => {
+                await Promise.all([
+                  o.invalidateQueries({ queryKey: v(`workspace-root-options`) }),
+                  o.invalidateQueries({ queryKey: v(`active-workspace-roots`) }),
+                ]);
+              },
+              refreshRecentConversations: g ? bn : void 0,
+            }),
+            (m = `invalidate_queries`),
+            await Promise.all([
+              o.invalidateQueries({ queryKey: v(`codex-agents-md`) }),
+              o.invalidateQueries({ queryKey: M }),
+            ]),
+            cn({
+              durationMs: Date.now() - d,
+              items: s,
+              projectRootsReturnedCount: h,
+              status: `success`,
+              surface: `first_time_onboarding`,
+            }));
+        } catch (e) {
+          let t = e;
+          throw (
+            cn({
+              durationMs: Date.now() - d,
+              error: t,
+              failedStage: m,
+              items: s,
+              projectRootsReturnedCount: h,
+              status: `failure`,
+              surface: `first_time_onboarding`,
+            }),
+            t
+          );
+        }
+      }),
+      (t[11] = c),
+      (t[12] = n),
+      (t[13] = l),
+      (t[14] = u),
+      (t[15] = f),
+      (t[16] = p),
+      (t[17] = a),
+      (t[18] = o),
+      (t[19] = i),
+      (t[20] = x),
+      (t[21] = E))
+    : (E = t[21]);
+  let D;
+  return (
+    t[22] !== y ||
+    t[23] !== x ||
+    t[24] !== S ||
+    t[25] !== C ||
+    t[26] !== w ||
+    t[27] !== T ||
+    t[28] !== E
+      ? ((D = {
+          isLoading: S,
+          isImporting: C,
+          providerIds: y,
+          shouldShowImportStep: w,
+          summary: x,
+          getSummaryForProviders: T,
+          importSelection: E,
+        }),
+        (t[22] = y),
+        (t[23] = x),
+        (t[24] = S),
+        (t[25] = C),
+        (t[26] = w),
+        (t[27] = T),
+        (t[28] = E),
+        (t[29] = D))
+      : (D = t[29]),
+    D
+  );
+}
+function bn() {
+  return Ae(`refresh-recent-conversations-for-host`, { hostId: H, sortKey: Me });
+}
+async function xn({ queryClient: e }) {
+  try {
+    return (
+      Sn(
+        (
+          await e.fetchQuery({
+            queryKey: $t({ hostId: H }),
+            queryFn: () => en({ hostId: H, includeHome: !0 }),
+            staleTime: 0,
+          })
+        ).items,
+      ).length > 0
+    );
+  } catch {
+    return !1;
+  }
+}
+function Sn(e) {
+  return Qn.filter((t) => Tn(e, [t]) != null);
+}
+function Cn({ detectedItems: e, intl: t, providerIds: n }) {
+  let r = Tn(e, n),
+    i = r == null ? [] : qt(r);
+  return i.length === 0 ? null : En(t, i);
+}
+function wn({ detectedItems: e, providerIds: t, selection: n }) {
+  let r = Tn(e, t);
+  return r == null ? [] : Jt({ model: r, selection: n });
+}
+function Tn(e, t) {
+  let n = e.filter((e) => t.includes(e.providerId));
+  return Kt({
+    homeItems: n.filter((e) => e.cwd == null || e.cwd === ``),
+    projectItems: n.filter((e) => e.cwd != null && e.cwd !== ``),
+  });
+}
+function En(e, t) {
+  let n = t.filter((e) => e.kind === `migrationItem`),
+    r = t.find((e) => e.kind === `projects`),
+    i = t.find((e) => e.kind === `chats`),
+    a = Rn([...(r?.items ?? []), ...(i?.items ?? [])]),
+    o = On(i, r, n),
+    s = i == null ? void 0 : Fn(e, i),
+    c = n.map((t) => zn(e, t, `toolsAndSetup`));
+  return (
+    r != null &&
+      r.count > 0 &&
+      c.push({
+        id: r.key,
+        title: e.formatMessage(
+          {
+            id: `electron.onboarding.welcomeV2.externalAgentImport.customize.projects`,
+            defaultMessage: `Projects ({count})`,
+            description: `Customize dialog item title for external agent project imports`,
+          },
+          { count: r.count },
+        ),
+        description: e.formatMessage({
+          id: `electron.onboarding.welcomeV2.externalAgentImport.customize.projectsDescription`,
+          defaultMessage: `Work inside your existing projects`,
+          description: `Customize dialog item description for external agent project imports`,
+        }),
+        group: `projects`,
+        icon: `projects`,
+        ...(a.length === 0 ? {} : { tooltip: { text: Gn(e, a) } }),
+      }),
+    i != null &&
+      i.count > 0 &&
+      c.push({
+        id: i.key,
+        title: e.formatMessage(
+          {
+            id: `electron.onboarding.welcomeV2.externalAgentImport.customize.chats`,
+            defaultMessage: `Chat sessions ({count})`,
+            description: `Customize dialog item title for external agent chat session imports`,
+          },
+          { count: i.count },
+        ),
+        description: e.formatMessage({
+          id: `electron.onboarding.welcomeV2.externalAgentImport.customize.chatsDescription`,
+          defaultMessage: `Last 30 days of chats`,
+          description: `Customize dialog item description for external agent chat session imports`,
+        }),
+        group: `chats`,
+        icon: `chats`,
+        tooltip: s,
+      }),
+    {
+      chatChoiceKey: i?.key ?? null,
+      ...(a.length === 0 ? {} : { projectTooltip: { text: Gn(e, a) } }),
+      projectChoiceKey: r?.key ?? null,
+      providerBreakdowns: o,
+      recentChatTooltip: s,
+      toolsAndSetupCount: n.length,
+      ...(n.length === 0 ? {} : { toolsAndSetupTooltip: Nn(e, n) }),
+      projectCount: r?.count ?? 0,
+      recentChatCount: i?.count ?? 0,
+      customizeItems: c,
+    }
+  );
+}
+function X(e, t, n = Mn(e)) {
+  let r = {
+      agentsSelectedCount: 0,
+      commandsSelectedCount: 0,
+      hooksSelectedCount: 0,
+      instructionsSelectedCount: 0,
+      mcpServersSelectedCount: 0,
+      pluginsSelectedCount: 0,
+      settingsSelectedCount: 0,
+      skillsSelectedCount: 0,
+    },
+    i = {
+      AGENTS_MD: `instructionsSelectedCount`,
+      COMMANDS: `commandsSelectedCount`,
+      CONFIG: `settingsSelectedCount`,
+      HOOKS: `hooksSelectedCount`,
+      MCP_SERVER_CONFIG: `mcpServersSelectedCount`,
+      PLUGINS: `pluginsSelectedCount`,
+      SKILLS: `skillsSelectedCount`,
+      SUBAGENTS: `agentsSelectedCount`,
+    },
+    a = 0;
+  e.customizeItems.forEach((e) => {
+    let n = i[e.id.split(`:`)[0]];
+    n != null && ((a += 1), (t[e.id] ?? !1) && (r[n] += 1));
+  });
+  let o = Object.values(r).reduce((e, t) => e + t, 0),
+    s = e.chatChoiceKey == null ? !1 : (t[e.chatChoiceKey] ?? !1),
+    c = e.projectChoiceKey == null ? !1 : (t[e.projectChoiceKey] ?? !1),
+    l = kn(e, t, c, s),
+    u = An(`claude-code`, e, t, c, s),
+    d = An(`claude-cowork`, e, t, c, s);
+  return {
+    ...r,
+    chatsCount: e.recentChatCount,
+    chatsSelected: s,
+    claudeCodeChatsCount: u.chatsCount,
+    claudeCodeChatsSelected: u.chatsSelected,
+    claudeCodeProjectsCount: u.projectsCount,
+    claudeCodeProjectsSelected: u.projectsSelected,
+    claudeCodeToolsAndSetupSelectedCount: u.toolsAndSetupSelectedCount,
+    claudeCodeToolsAndSetupTotalCount: u.toolsAndSetupTotalCount,
+    claudeCoworkChatsCount: d.chatsCount,
+    claudeCoworkChatsSelected: d.chatsSelected,
+    claudeCoworkProjectsCount: d.projectsCount,
+    claudeCoworkProjectsSelected: d.projectsSelected,
+    claudeCoworkToolsAndSetupSelectedCount: d.toolsAndSetupSelectedCount,
+    claudeCoworkToolsAndSetupTotalCount: d.toolsAndSetupTotalCount,
+    detectedProviderCount: n.length,
+    detectedProviderIds: n.join(`,`),
+    projectsCount: e.projectCount,
+    projectsSelected: c,
+    selectedProviderCount: l.length,
+    selectedProviderIds: l.join(`,`),
+    selectedItemsCount: o,
+    totalItemsCount: a,
+  };
+}
+function Dn(e) {
+  return {
+    ...Object.fromEntries(e.customizeItems.map((e) => [e.id, !0])),
+    ...(e.projectChoiceKey == null ? {} : { [e.projectChoiceKey]: !0 }),
+    ...(e.chatChoiceKey == null ? {} : { [e.chatChoiceKey]: !0 }),
+  };
+}
+function On(e, t, n) {
+  let r = e?.items ?? [],
+    i = [...(t?.items ?? []), ...r];
+  return Qn.flatMap((e) => {
+    let t = Rn(i.filter((t) => t.providerId === e)).length,
+      a = jn(r.filter((t) => t.providerId === e)),
+      o = n.filter((t) => t.item.providerId === e).length;
+    return t === 0 && a === 0 && o === 0
+      ? []
+      : [{ providerId: e, projectCount: t, recentChatCount: a, toolsAndSetupCount: o }];
+  });
+}
+function kn(e, t, n, r) {
+  return (e.providerBreakdowns ?? []).flatMap((i) => {
+    let a = An(i.providerId, e, t, n, r);
+    return a.toolsAndSetupSelectedCount === 0 && !a.projectsSelected && !a.chatsSelected
+      ? []
+      : [i.providerId];
+  });
+}
+function An(e, t, n, r, i) {
+  let a = t.providerBreakdowns?.find((t) => t.providerId === e),
+    o = t.customizeItems.filter((t) => t.group === `toolsAndSetup` && t.providerId === e);
+  return {
+    chatsCount: a?.recentChatCount ?? 0,
+    chatsSelected: i && (a?.recentChatCount ?? 0) > 0,
+    projectsCount: a?.projectCount ?? 0,
+    projectsSelected: r && (a?.projectCount ?? 0) > 0,
+    toolsAndSetupSelectedCount: o.filter((e) => n[e.id] ?? !1).length,
+    toolsAndSetupTotalCount: o.length,
+  };
+}
+function jn(e) {
+  return e.reduce((e, t) => e + (t.details?.sessions.length ?? 0), 0);
+}
+function Mn(e) {
+  return e.providerBreakdowns?.map((e) => e.providerId) ?? [];
+}
+function Nn(e, t) {
+  let n = [...t]
+    .sort((e, t) => Pn(e.item) - Pn(t.item))
+    .flatMap((t) => {
+      let n = Hn(e, t.item);
+      return n == null ? [] : [n];
+    });
+  if (n.length !== 0)
+    return {
+      text: e.formatMessage(
+        {
+          id: `electron.onboarding.welcomeV2.externalAgentImport.toolsAndSetup.tooltip`,
+          defaultMessage: `{items} will be imported`,
+          description: `Tooltip describing tools and setup import contents`,
+        },
+        { items: e.formatList(n, { type: `conjunction` }) },
+      ),
+    };
+}
+function Pn(e) {
+  switch (e.itemType) {
+    case `AGENTS_MD`:
+      return 0;
+    case `CONFIG`:
+      return 1;
+    case `SKILLS`:
+      return 2;
+    case `COMMANDS`:
+      return 3;
+    case `SUBAGENTS`:
+      return 4;
+    case `HOOKS`:
+      return 5;
+    case `PLUGINS`:
+      return 6;
+    case `MCP_SERVER_CONFIG`:
+      return 7;
+    case `SESSIONS`:
+      return 8;
+  }
+}
+function Fn(e, t) {
+  let n = In(e, t.items);
+  return {
+    text: e.formatMessage(
+      {
+        id: `electron.onboarding.welcomeV2.externalAgentImport.recentChats.tooltip`,
+        defaultMessage: `{count, plural, one {# chat from {providers} from the last 30 days will be imported} other {# chats from {providers} from the last 30 days will be imported}}`,
+        description: `Tooltip describing recent chat import contents`,
+      },
+      { count: t.count, providers: e.formatList(n, { type: `conjunction` }) },
+    ),
+  };
+}
+function In(e, t) {
+  return [...new Set(t.map((e) => e.providerId))].map((t) => Ln(e, t));
+}
+function Ln(e, t) {
+  switch (t) {
+    case `claude-code`:
+      return e.formatMessage({
+        id: `electron.onboarding.welcomeV2.externalAgentImport.provider.claudeCode`,
+        defaultMessage: `Claude Code`,
+        description: `Claude Code provider name in import tooltips`,
+      });
+    case `claude-cowork`:
+      return e.formatMessage({
+        id: `electron.onboarding.welcomeV2.externalAgentImport.provider.claudeCowork`,
+        defaultMessage: `Claude Cowork`,
+        description: `Claude Cowork provider name in import tooltips`,
+      });
+  }
+}
+function Rn(e) {
+  return C(e).map(c);
+}
+function zn(e, t, n) {
+  let { item: r } = t;
+  return {
+    id: t.key,
+    title: Yn(e, r),
+    description: qn(r.description),
+    group: n,
+    providerId: r.providerId,
+    icon: Xn(r),
+    ...Bn(e, r),
+  };
+}
+function Bn(e, t) {
+  let n = Vn(e, t);
+  if (n != null) return { tooltip: n };
+  let r = Un(t);
+  if (r.length > 0) return { tooltip: { text: Gn(e, r) } };
+  let i = Hn(e, t);
+  return i == null ? {} : { tooltip: { text: i } };
+}
+function Vn(e, t) {
+  switch (t.itemType) {
+    case `AGENTS_MD`:
+      return {
+        text: e.formatMessage({
+          id: `electron.onboarding.welcomeV2.externalAgentImport.customize.instructionsTooltip`,
+          defaultMessage: `CLAUDE.md will be imported as AGENTS.md`,
+          description: `Tooltip explaining how Claude instructions are imported into Codex`,
+        }),
+      };
+    case `CONFIG`:
+      return t.providerId === `claude-cowork`
+        ? null
+        : {
+            text: e.formatMessage({
+              id: `electron.onboarding.welcomeV2.externalAgentImport.customize.settingsTooltip`,
+              defaultMessage: `settings.json will be imported as config.toml`,
+              description: `Tooltip explaining how Claude settings are imported into Codex`,
+            }),
+          };
+    case `COMMANDS`:
+    case `HOOKS`:
+    case `MCP_SERVER_CONFIG`:
+    case `PLUGINS`:
+    case `SESSIONS`:
+    case `SKILLS`:
+    case `SUBAGENTS`:
+      return null;
+  }
+}
+function Hn(e, t) {
+  switch (t.itemType) {
+    case `AGENTS_MD`:
+      return `CLAUDE.md`;
+    case `CONFIG`:
+      return t.providerId === `claude-cowork` ? qn(t.description) : `settings.json`;
+    case `SKILLS`:
+      return e.formatMessage({
+        id: `electron.onboarding.welcomeV2.externalAgentImport.tooltip.skills`,
+        defaultMessage: `skills`,
+        description: `Lowercase skills label in import tooltip lists`,
+      });
+    case `PLUGINS`:
+      return Z({
+        count: Wn(t).length,
+        fallback: e.formatMessage({
+          id: `electron.onboarding.welcomeV2.externalAgentImport.tooltip.plugins`,
+          defaultMessage: `plugins`,
+          description: `Lowercase plugins label in import tooltip lists`,
+        }),
+        formatCount: (t) =>
+          e.formatMessage(
+            {
+              id: `electron.onboarding.welcomeV2.externalAgentImport.tooltip.pluginCount`,
+              defaultMessage: `{count, plural, one {# plugin} other {# plugins}}`,
+              description: `Plugin count in import tooltip lists`,
+            },
+            { count: t },
+          ),
+      });
+    case `MCP_SERVER_CONFIG`:
+      return Z({
+        count: t.details?.mcpServers.length ?? 0,
+        fallback: e.formatMessage({
+          id: `electron.onboarding.welcomeV2.externalAgentImport.tooltip.mcpServers`,
+          defaultMessage: `MCP servers`,
+          description: `MCP servers label in import tooltip lists`,
+        }),
+        formatCount: (t) =>
+          e.formatMessage(
+            {
+              id: `electron.onboarding.welcomeV2.externalAgentImport.tooltip.mcpServerCount`,
+              defaultMessage: `{count, plural, one {# MCP server} other {# MCP servers}}`,
+              description: `MCP server count in import tooltip lists`,
+            },
+            { count: t },
+          ),
+      });
+    case `SUBAGENTS`:
+      return Z({
+        count: t.details?.subagents.length ?? 0,
+        fallback: e.formatMessage({
+          id: `electron.onboarding.welcomeV2.externalAgentImport.tooltip.agents`,
+          defaultMessage: `agents`,
+          description: `Lowercase agents label in import tooltip lists`,
+        }),
+        formatCount: (t) =>
+          e.formatMessage(
+            {
+              id: `electron.onboarding.welcomeV2.externalAgentImport.tooltip.agentCount`,
+              defaultMessage: `{count, plural, one {# agent} other {# agents}}`,
+              description: `Agent count in import tooltip lists`,
+            },
+            { count: t },
+          ),
+      });
+    case `HOOKS`:
+      return Z({
+        count: t.details?.hooks.length ?? 0,
+        fallback: e.formatMessage({
+          id: `electron.onboarding.welcomeV2.externalAgentImport.tooltip.hooks`,
+          defaultMessage: `hooks`,
+          description: `Lowercase hooks label in import tooltip lists`,
+        }),
+        formatCount: (t) =>
+          e.formatMessage(
+            {
+              id: `electron.onboarding.welcomeV2.externalAgentImport.tooltip.hookCount`,
+              defaultMessage: `{count, plural, one {# hook} other {# hooks}}`,
+              description: `Hook count in import tooltip lists`,
+            },
+            { count: t },
+          ),
+      });
+    case `COMMANDS`:
+      return Z({
+        count: t.details?.commands.length ?? 0,
+        fallback: e.formatMessage({
+          id: `electron.onboarding.welcomeV2.externalAgentImport.tooltip.commands`,
+          defaultMessage: `commands`,
+          description: `Lowercase commands label in import tooltip lists`,
+        }),
+        formatCount: (t) =>
+          e.formatMessage(
+            {
+              id: `electron.onboarding.welcomeV2.externalAgentImport.tooltip.commandCount`,
+              defaultMessage: `{count, plural, one {# command} other {# commands}}`,
+              description: `Command count in import tooltip lists`,
+            },
+            { count: t },
+          ),
+      });
+    case `SESSIONS`:
+      return null;
+  }
+}
+function Z({ count: e, fallback: t, formatCount: n }) {
+  return e > 0 ? n(e) : t;
+}
+function Un(e) {
+  switch (e.itemType) {
+    case `PLUGINS`:
+      return Wn(e);
+    case `MCP_SERVER_CONFIG`:
+      return e.details?.mcpServers.map((e) => e.name) ?? [];
+    case `SUBAGENTS`:
+      return e.details?.subagents.map((e) => `$${e.name}`) ?? [];
+    case `HOOKS`:
+      return e.details?.hooks.map((e) => e.name) ?? [];
+    case `COMMANDS`:
+      return e.details?.commands.map((e) => e.name) ?? [];
+    case `AGENTS_MD`:
+    case `CONFIG`:
+    case `SKILLS`:
+    case `SESSIONS`:
+      return [];
+  }
+}
+function Wn(e) {
+  return e.details?.plugins.flatMap((e) => e.pluginNames) ?? [];
+}
+function Gn(e, t) {
+  let n = t.slice(0, $n),
+    r = t.length - n.length;
+  return r <= 0
+    ? Kn(n)
+    : e.formatMessage(
+        {
+          id: `electron.onboarding.welcomeV2.externalAgentImport.tooltip.itemListWithRemaining`,
+          defaultMessage: `{items}, and {remainingCount, plural, one {# more} other {# more}}`,
+          description: `Tooltip list when only the first detected external agent import items can be shown`,
+        },
+        { items: Kn(n), remainingCount: r },
+      );
+}
+function Kn(e) {
+  return e.join(`, `);
+}
+function qn(e) {
+  return Jn(
+    e
+      .replace(/^Migrate [A-Za-z ]+ from (.+?) (?:to|into) (.+)$/, `$1 to $2`)
+      .replace(/^Migrate (.+?) (?:to|into) (.+)$/, `$1 to $2`)
+      .replace(/^Migrate [A-Za-z ]+ from (.+)$/, `$1`)
+      .replace(/^Migrate /, ``)
+      .replace(/\binto\b/g, `to`),
+  );
+}
+function Jn(e) {
+  return m(
+    e
+      .replace(
+        /\/(?:private\/)?var\/folders\/\S+?\/T\/codex-claude-import\/\.claude(?=\/|\s|$)/g,
+        `~/.claude`,
+      )
+      .replace(
+        /\/(?:private\/)?var\/folders\/\S+?\/T\/codex-claude-import\/\.codex(?=\/|\s|$)/g,
+        `~/.codex`,
+      )
+      .replace(
+        /\/(?:private\/)?var\/folders\/\S+?\/T\/codex-claude-import\/\.agents(?=\/|\s|$)/g,
+        `~/.agents`,
+      )
+      .replace(/\/(?:private\/)?tmp\/codex-claude-import\/\.claude(?=\/|\s|$)/g, `~/.claude`)
+      .replace(/\/(?:private\/)?tmp\/codex-claude-import\/\.codex(?=\/|\s|$)/g, `~/.codex`)
+      .replace(/\/(?:private\/)?tmp\/codex-claude-import\/\.agents(?=\/|\s|$)/g, `~/.agents`)
+      .replace(/\/Users\/[^/\s]+\/\S+?\/\.stage\/home\/\.claude(?=\/|\s|$)/g, `~/.claude`)
+      .replace(/\/Users\/[^/\s]+\/\S+?\/\.stage\/codex-home(?=\/|\s|$)/g, `~/.codex`)
+      .replace(/\/Users\/[^/\s]+\/\S+?\/\.stage\/\.agents(?=\/|\s|$)/g, `~/.agents`)
+      .replace(/\/Users\/[^/\s]+\/\.claude(?=\/|\s|$)/g, `~/.claude`)
+      .replace(/\/Users\/[^/\s]+\/\.codex(?=\/|\s|$)/g, `~/.codex`)
+      .replace(/\/Users\/[^/\s]+\/\.agents(?=\/|\s|$)/g, `~/.agents`)
+      .replace(/\/Users\/[^/\s]+(?=\/|\s|$)/g, `~`)
+      .replace(/[A-Za-z]:\\Users\\[^\\]+\\\.claude(?=\\|\s|$)/g, `~/.claude`)
+      .replace(/[A-Za-z]:\\Users\\[^\\]+\\\.codex(?=\\|\s|$)/g, `~/.codex`)
+      .replace(/[A-Za-z]:\\Users\\[^\\]+\\\.agents(?=\\|\s|$)/g, `~/.agents`)
+      .replace(/[A-Za-z]:\\Users\\[^\\]+(?=\\|\s|$)/g, `~`),
+  );
+}
+function Yn(e, t) {
+  if (
+    `providerId` in t &&
+    t.providerId === `claude-cowork` &&
+    (t.cwd == null || t.cwd === ``) &&
+    t.itemType === `CONFIG`
+  )
+    return `Tools & Setup`;
+  if (t.itemType === `PLUGINS`) {
+    let n = t.details?.plugins.reduce((e, t) => e + t.pluginNames.length, 0) ?? 0;
+    if (n > 0)
+      return e.formatMessage(
+        {
+          id: `electron.onboarding.welcomeV2.externalAgentImport.customize.pluginsWithCount`,
+          defaultMessage: `Plugins ({count})`,
+          description: `Customize dialog item title for external agent plugin imports`,
+        },
+        { count: n },
+      );
+  }
+  return Je(e, t);
+}
+function Xn(e) {
+  switch (e.itemType) {
+    case `AGENTS_MD`:
+      return `instructions`;
+    case `CONFIG`:
+    case `MCP_SERVER_CONFIG`:
+      return `settings`;
+    case `SKILLS`:
+      return `skills`;
+    case `PLUGINS`:
+      return `plugins`;
+    case `SUBAGENTS`:
+      return `agents`;
+    case `HOOKS`:
+      return `hooks`;
+    case `COMMANDS`:
+      return `commands`;
+    case `SESSIONS`:
+      return `projects`;
+  }
+}
+var Zn,
+  Qn,
+  $n,
+  er = e(() => {
+    ((Zn = i()),
+      f(),
+      y(),
+      s(),
+      Ie(),
+      ke(),
+      Gt(),
+      Qt(),
+      rn(),
+      on(),
+      $e(),
+      dn(),
+      vn(),
+      o(),
+      Fe(),
+      Pe(),
+      oe(),
+      Ne(),
+      l(),
+      b(),
+      (Qn = [`claude-code`, `claude-cowork`]),
+      ($n = 6));
+  });
+function tr({
+  appBrand: e,
+  continueLabel: t,
+  hasError: n = !1,
+  eventSource: r = `first_time_onboarding`,
+  isComplete: i = !1,
+  isPending: a = !1,
+  logShownOnMount: o = !0,
+  subtitle: s,
+  title: c,
+  variant: l = `onboarding`,
+  providerIds: u = [],
+  detectedProviderIds: d = u,
+  summary: f,
+  onCustomize: p,
+  onContinue: m,
+  onEvent: h,
+  onSkip: g,
+}) {
+  let _ = V(),
+    [v, y] = (0, mr.useState)(() => Dn(f)),
+    [b, x] = (0, mr.useState)(!1),
+    [S, C] = (0, mr.useState)(() => new Set(f.customizeItems.map((e) => e.id))),
+    w = l === `dialog`,
+    E = a || i,
+    O = a || i,
+    k = ur({ summary: f, selection: v }),
+    A = lr({ items: f.customizeItems, selection: v, group: `toolsAndSetup` }),
+    j = lr({ items: f.customizeItems, selection: v, group: `projects` }),
+    M = f.chatChoiceKey != null && (v[f.chatChoiceKey] ?? !1),
+    P = ar({ isComplete: i, isSelected: A !== !1 }),
+    F = ar({ isComplete: i, isSelected: j !== !1 }),
+    I = ar({ isComplete: i, isSelected: M }),
+    L = (e) => {
+      h?.({ source: r, ...e });
+    };
+  (0, mr.useEffect)(() => {
+    o && L({ action: `shown`, ...X(f, v, d) });
+  }, []);
+  let R = () => {
+      (p?.(), x(!0));
+    },
+    ie = () => {
+      a || !k || (i || L({ action: `continue`, ...X(f, v, d) }), m(v));
+    },
+    ae = () => {
+      E || (L({ action: `skipped`, ...X(f, v, d) }), g());
+    },
+    oe = a
+      ? (0, $.jsx)(B, {
+          id: `electron.onboarding.welcomeV2.externalAgentImport.importingButton`,
+          defaultMessage: `Importing`,
+          description: `Button label shown while external agent onboarding import is running`,
+        })
+      : (t ??
+        (0, $.jsx)(B, {
+          id: `electron.onboarding.welcomeV2.continue`,
+          defaultMessage: `Continue`,
+          description: `Welcome v2 continue button label`,
+        })),
+    z = c ?? (0, $.jsx)(nr, {}),
+    se = s === void 0 ? (0, $.jsx)(rr, {}) : s,
+    ce = (e) => {
+      (e.preventDefault(), !(a || !k) && ie());
+    },
+    le = (0, $.jsxs)($.Fragment, {
+      children: [
+        w
+          ? (0, $.jsx)(te, {
+              children: (0, $.jsx)(ee, {
+                title: (0, $.jsx)(re, { className: `contents`, children: z }),
+                subtitle: se == null ? null : (0, $.jsx)(ne, { children: se }),
+              }),
+            })
+          : (0, $.jsx)(yt, { appBrand: e, sourceIconVariant: `orange`, title: z, subtitle: se }),
+        (0, $.jsxs)(`div`, {
+          className: ge(`flex w-full flex-col`, w ? `mt-4` : `mt-8 max-w-sm`),
+          children: [
+            cr(f)
+              ? (0, $.jsxs)(Ve, {
+                  ariaLabel: _.formatMessage({
+                    id: `electron.onboarding.welcomeV2.externalAgentImport.items.list`,
+                    defaultMessage: `Import options`,
+                    description: `Accessible label for external agent import options`,
+                  }),
+                  className: `h-auto gap-0 border-token-border-default !px-3 !py-0`,
+                  children: [
+                    f.toolsAndSetupCount > 0
+                      ? (0, $.jsx)(Ue, {
+                          checkboxId: `external-agent-import-tools-and-setup`,
+                          checked: A,
+                          control: O ? (0, $.jsx)(ir, { status: P }) : void 0,
+                          disabled: E,
+                          leadingContent: (0, $.jsx)(Se, { className: `icon-base` }),
+                          label: (0, $.jsx)(B, {
+                            id: `electron.onboarding.welcomeV2.externalAgentImport.toolsAndSetup.title`,
+                            defaultMessage: `Tools & setup`,
+                            description: `Tools and setup import row title`,
+                          }),
+                          description: (0, $.jsx)(B, {
+                            id: `electron.onboarding.welcomeV2.externalAgentImport.toolsAndSetup.description`,
+                            defaultMessage: `Settings, instructions, plugins, skills`,
+                            description: `Tools and setup import row description`,
+                          }),
+                          trailingControl:
+                            f.toolsAndSetupTooltip == null
+                              ? null
+                              : (0, $.jsx)(or, {
+                                  ariaLabel: _.formatMessage({
+                                    id: `electron.onboarding.welcomeV2.externalAgentImport.toolsAndSetup.info`,
+                                    defaultMessage: `What will be imported for Tools & setup`,
+                                    description: `Accessible label for the tools and setup import info tooltip`,
+                                  }),
+                                  tooltip: f.toolsAndSetupTooltip.text,
+                                }),
+                          className: gr,
+                          checkboxClassName: hr,
+                          controlPlacement: `right`,
+                          onCheckedChange: (e) => {
+                            (y((t) =>
+                              pr({
+                                current: t,
+                                items: f.customizeItems,
+                                group: `toolsAndSetup`,
+                                checked: e,
+                              }),
+                            ),
+                              C((t) =>
+                                fr({
+                                  current: t,
+                                  items: f.customizeItems,
+                                  group: `toolsAndSetup`,
+                                  checked: e,
+                                }),
+                              ));
+                          },
+                        })
+                      : null,
+                    f.projectCount > 0
+                      ? (0, $.jsx)(Ue, {
+                          checkboxId: `external-agent-import-projects`,
+                          checked: j,
+                          control: O ? (0, $.jsx)(ir, { status: F }) : void 0,
+                          disabled: E,
+                          leadingContent: (0, $.jsx)(T, { className: `icon-base` }),
+                          label: (0, $.jsx)(B, {
+                            id: `electron.onboarding.welcomeV2.externalAgentImport.projects.title`,
+                            defaultMessage: `Projects ({count})`,
+                            description: `Projects import row title`,
+                            values: { count: f.projectCount },
+                          }),
+                          description: (0, $.jsx)(B, {
+                            id: `electron.onboarding.welcomeV2.externalAgentImport.projects.description`,
+                            defaultMessage: `Use your existing project folders`,
+                            description: `Projects import row description`,
+                          }),
+                          trailingControl:
+                            f.projectTooltip == null
+                              ? null
+                              : (0, $.jsx)(or, {
+                                  ariaLabel: _.formatMessage({
+                                    id: `electron.onboarding.welcomeV2.externalAgentImport.projects.info`,
+                                    defaultMessage: `What will be imported for Projects`,
+                                    description: `Accessible label for the projects import info tooltip`,
+                                  }),
+                                  tooltip: f.projectTooltip.text,
+                                }),
+                          className: gr,
+                          checkboxClassName: hr,
+                          controlPlacement: `right`,
+                          onCheckedChange: (e) => {
+                            (y((t) =>
+                              pr({
+                                current: t,
+                                items: f.customizeItems,
+                                group: `projects`,
+                                checked: e,
+                              }),
+                            ),
+                              C((t) =>
+                                fr({
+                                  current: t,
+                                  items: f.customizeItems,
+                                  group: `projects`,
+                                  checked: e,
+                                }),
+                              ));
+                          },
+                        })
+                      : null,
+                    f.recentChatCount > 0
+                      ? (0, $.jsx)(Ue, {
+                          checkboxId: `external-agent-import-recent-chats`,
+                          checked: M,
+                          control: O ? (0, $.jsx)(ir, { status: I }) : void 0,
+                          disabled: E || f.chatChoiceKey == null,
+                          leadingContent: (0, $.jsx)(jt, { className: `icon-base` }),
+                          label: (0, $.jsx)(B, {
+                            id: `electron.onboarding.welcomeV2.externalAgentImport.recentChats.title`,
+                            defaultMessage: `Chat sessions ({count})`,
+                            description: `Recent chats toggle title`,
+                            values: { count: f.recentChatCount },
+                          }),
+                          description: (0, $.jsx)(B, {
+                            id: `electron.onboarding.welcomeV2.externalAgentImport.recentChats.description`,
+                            defaultMessage: `Last 30 days of chats`,
+                            description: `Recent chats row description`,
+                          }),
+                          trailingControl:
+                            f.recentChatTooltip == null
+                              ? null
+                              : (0, $.jsx)(or, {
+                                  ariaLabel: _.formatMessage({
+                                    id: `electron.onboarding.welcomeV2.externalAgentImport.recentChats.info`,
+                                    defaultMessage: `What will be imported for Chat sessions`,
+                                    description: `Accessible label for the recent chats import info tooltip`,
+                                  }),
+                                  tooltip: f.recentChatTooltip.text,
+                                }),
+                          className: gr,
+                          checkboxClassName: hr,
+                          controlPlacement: `right`,
+                          onCheckedChange: (e) => {
+                            let t = f.chatChoiceKey;
+                            t != null &&
+                              (y((n) => ({ ...n, [t]: e })),
+                              C((n) => {
+                                let r = new Set(n);
+                                return (e ? r.add(t) : r.delete(t), r);
+                              }));
+                          },
+                        })
+                      : null,
+                  ],
+                })
+              : null,
+            u.length > 0
+              ? (0, $.jsx)(`div`, {
+                  className: `mt-2 text-center text-xs leading-4 text-token-text-secondary`,
+                  children: (0, $.jsx)(B, {
+                    id: `electron.onboarding.welcomeV2.externalAgentImport.items.setupPreservedNote`,
+                    defaultMessage: `Your existing Claude setup will not be affected`,
+                    description: `Note below external agent import items explaining the source setup is preserved`,
+                  }),
+                })
+              : null,
+          ],
+        }),
+        (0, $.jsx)(Nt, {
+          open: b,
+          items: f.customizeItems,
+          selectedItemIds: S,
+          onOpenChange: x,
+          onConfirm: (e) => {
+            let t = f.customizeItems.filter((t) => S.has(t.id) !== e.has(t.id)).length;
+            C(e);
+            let n = dr({ current: v, items: f.customizeItems, selectedItemIds: e });
+            (y(n), L({ action: `customized`, changedItemsCount: t, ...X(f, n, d) }));
+          },
+        }),
+        (0, $.jsxs)(`div`, {
+          className: ge(
+            w
+              ? `mt-4 flex w-full flex-col gap-3`
+              : `mt-8 flex w-full max-w-sm flex-col items-center gap-4`,
+          ),
+          children: [
+            n
+              ? (0, $.jsx)(`div`, {
+                  role: `alert`,
+                  className: `text-center text-[13px] leading-5 text-token-error-foreground`,
+                  children: (0, $.jsx)(B, {
+                    id: `electron.onboarding.welcomeV2.externalAgentImport.error`,
+                    defaultMessage: `Couldn't finish the import. Try again, or skip for now.`,
+                    description: `Error message shown when external agent onboarding import fails`,
+                  }),
+                })
+              : null,
+            w
+              ? (0, $.jsxs)(ve, {
+                  children: [
+                    (0, $.jsx)(N, {
+                      color: `ghost`,
+                      disabled: E,
+                      onClick: ae,
+                      children: (0, $.jsx)(B, {
+                        id: `common.cancel`,
+                        defaultMessage: `Cancel`,
+                        description: `Cancel button label`,
+                      }),
+                    }),
+                    f.customizeItems.length === 0
+                      ? null
+                      : (0, $.jsx)(N, {
+                          type: `button`,
+                          color: `secondary`,
+                          disabled: E,
+                          onClick: R,
+                          children: (0, $.jsx)(B, {
+                            id: `electron.onboarding.welcomeV2.externalAgentImport.customize`,
+                            defaultMessage: `Customize`,
+                            description: `Customize button label on the external agent import step`,
+                          }),
+                        }),
+                    (0, $.jsx)(N, {
+                      type: `submit`,
+                      color: `primary`,
+                      disabled: a || !k,
+                      children: oe,
+                    }),
+                  ],
+                })
+              : (0, $.jsxs)($.Fragment, {
+                  children: [
+                    f.customizeItems.length === 0
+                      ? null
+                      : (0, $.jsx)(N, {
+                          className: `w-full justify-center`,
+                          color: `ghost`,
+                          size: `large`,
+                          type: `button`,
+                          disabled: E,
+                          onClick: R,
+                          children: (0, $.jsx)(B, {
+                            id: `electron.onboarding.welcomeV2.externalAgentImport.customize`,
+                            defaultMessage: `Customize`,
+                            description: `Customize button label on the external agent import step`,
+                          }),
+                        }),
+                    (0, $.jsx)(N, {
+                      className: `w-full justify-center`,
+                      size: `large`,
+                      type: `button`,
+                      disabled: a || !k,
+                      onClick: ie,
+                      children: oe,
+                    }),
+                    (0, $.jsx)(N, {
+                      className: `w-full justify-center`,
+                      color: `ghost`,
+                      size: `large`,
+                      type: `button`,
+                      disabled: E,
+                      onClick: ae,
+                      children: (0, $.jsx)(B, {
+                        id: `electron.onboarding.welcomeV2.skip`,
+                        defaultMessage: `Skip`,
+                        description: `Welcome v2 skip button label`,
+                      }),
+                    }),
+                  ],
+                }),
+          ],
+        }),
+      ],
+    });
+  return w
+    ? (0, $.jsx)(D, { as: `form`, className: `gap-0`, onSubmit: ce, children: le })
+    : (0, $.jsx)(`div`, {
+        className: `flex w-full max-w-lg flex-col items-center overflow-hidden rounded-2xl p-10`,
+        children: le,
+      });
+}
+function nr() {
+  let e = (0, Q.c)(1),
+    t;
+  return (
+    e[0] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((t = (0, $.jsx)(B, {
+          id: `electron.onboarding.welcomeV2.externalAgentImport.items.title`,
+          defaultMessage: `Select items to import`,
+          description: `Title for the external agent item selection step in welcome onboarding`,
+        })),
+        (e[0] = t))
+      : (t = e[0]),
+    t
+  );
+}
+function rr() {
+  let e = (0, Q.c)(1),
+    t;
+  return (
+    e[0] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((t = (0, $.jsx)(B, {
+          id: `electron.onboarding.welcomeV2.externalAgentImport.items.subtitle`,
+          defaultMessage: `Import all your work or handpick what to bring over`,
+          description: `Subtitle for the external agent item selection step in welcome onboarding`,
+        })),
+        (e[0] = t))
+      : (t = e[0]),
+    t
+  );
+}
+function ir(e) {
+  let t = (0, Q.c)(11),
+    { status: n } = e,
+    r = V();
+  if (n === `idle`) {
+    let e;
+    return (
+      t[0] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, $.jsx)(`span`, { "aria-hidden": !0, className: `block h-5 w-5 shrink-0` })),
+          (t[0] = e))
+        : (e = t[0]),
+      e
+    );
+  }
+  if (n === `complete`) {
+    let e;
+    t[1] === r
+      ? (e = t[2])
+      : ((e = r.formatMessage({
+          id: `electron.onboarding.welcomeV2.externalAgentImport.importedStatus`,
+          defaultMessage: `Imported`,
+          description: `Accessible label for an external agent import row that has finished importing`,
+        })),
+        (t[1] = r),
+        (t[2] = e));
+    let n;
+    t[3] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((n = (0, $.jsx)(le, { className: `h-5 w-5 text-token-charts-green` })), (t[3] = n))
+      : (n = t[3]);
+    let i;
+    return (
+      t[4] === e
+        ? (i = t[5])
+        : ((i = (0, $.jsx)(`span`, {
+            role: `img`,
+            "aria-label": e,
+            className: `flex h-5 w-5 shrink-0 items-center justify-center`,
+            children: n,
+          })),
+          (t[4] = e),
+          (t[5] = i)),
+      i
+    );
+  }
+  let i;
+  t[6] === r
+    ? (i = t[7])
+    : ((i = r.formatMessage({
+        id: `electron.onboarding.welcomeV2.externalAgentImport.importingStatus`,
+        defaultMessage: `Importing`,
+        description: `Accessible label for an external agent import row that is importing`,
+      })),
+      (t[6] = r),
+      (t[7] = i));
+  let a;
+  t[8] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((a = (0, $.jsx)(ie, { className: `h-5 w-5` })), (t[8] = a))
+    : (a = t[8]);
+  let o;
+  return (
+    t[9] === i
+      ? (o = t[10])
+      : ((o = (0, $.jsx)(`span`, {
+          role: `img`,
+          "aria-label": i,
+          className: `flex h-5 w-5 shrink-0 items-center justify-center text-token-description-foreground`,
+          children: a,
+        })),
+        (t[9] = i),
+        (t[10] = o)),
+    o
+  );
+}
+function ar({ isComplete: e, isSelected: t }) {
+  return t ? (e ? `complete` : `importing`) : `idle`;
+}
+function or(e) {
+  let t = (0, Q.c)(6),
+    { ariaLabel: n, tooltip: r } = e,
+    i;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((i = (0, $.jsx)(E, { className: `size-4`, "aria-hidden": `true` })), (t[0] = i))
+    : (i = t[0]);
+  let a;
+  t[1] === n
+    ? (a = t[2])
+    : ((a = (0, $.jsx)(`button`, {
+        type: `button`,
+        "aria-label": n,
+        className: `flex size-5 cursor-interaction items-center justify-center rounded-full text-token-text-secondary hover:text-token-foreground focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-token-focus-border`,
+        onClick: sr,
+        children: i,
+      })),
+      (t[1] = n),
+      (t[2] = a));
+  let o;
+  return (
+    t[3] !== a || t[4] !== r
+      ? ((o = (0, $.jsx)(me, {
+          tooltipContent: r,
+          tooltipClassName: `!border-transparent !bg-black !text-white shadow-lg`,
+          side: `top`,
+          sideOffset: 8,
+          delayDuration: 0,
+          children: a,
+        })),
+        (t[3] = a),
+        (t[4] = r),
+        (t[5] = o))
+      : (o = t[5]),
+    o
+  );
+}
+function sr(e) {
+  e.stopPropagation();
+}
+function cr(e) {
+  return e.toolsAndSetupCount > 0 || e.projectCount > 0 || e.recentChatCount > 0;
+}
+function lr({ items: e, selection: t, group: n }) {
+  let r = e.filter((e) => e.group === n),
+    i = r.filter((e) => t[e.id]).length;
+  return r.length === 0 || i === 0 ? !1 : i === r.length ? !0 : `indeterminate`;
+}
+function ur({ summary: e, selection: t }) {
+  return [...e.customizeItems.map((e) => e.id), e.projectChoiceKey, e.chatChoiceKey].some(
+    (e) => e != null && (t[e] ?? !1),
+  );
+}
+function dr({ current: e, items: t, selectedItemIds: n }) {
+  let r = { ...e };
+  return (
+    t.forEach((e) => {
+      r[e.id] = n.has(e.id);
+    }),
+    r
+  );
+}
+function fr({ current: e, items: t, group: n, checked: r }) {
+  let i = new Set(e);
+  return (
+    t
+      .filter((e) => e.group === n)
+      .forEach((e) => {
+        r ? i.add(e.id) : i.delete(e.id);
+      }),
+    i
+  );
+}
+function pr({ current: e, items: t, group: n, checked: r }) {
+  let i = { ...e };
+  return (
+    t
+      .filter((e) => e.group === n)
+      .forEach((e) => {
+        i[e.id] = r;
+      }),
+    i
+  );
+}
+var Q,
+  mr,
+  $,
+  hr,
+  gr,
+  _r = e(() => {
+    ((Q = i()),
+      de(),
+      (mr = t(p(), 1)),
+      Ie(),
+      z(),
+      O(),
+      j(),
+      ce(),
+      ye(),
+      Mt(),
+      R(),
+      w(),
+      pe(),
+      _e(),
+      He(),
+      Rt(),
+      St(),
+      er(),
+      ($ = S()),
+      (hr = `h-4 w-4 rounded-[3px] border-[1px] !border-token-border-heavy data-[state=checked]:!border-token-charts-blue data-[state=checked]:!bg-token-charts-blue data-[state=checked]:!text-white data-[state=indeterminate]:!border-token-charts-blue data-[state=indeterminate]:!bg-token-charts-blue data-[state=indeterminate]:!text-white focus-visible:!border-token-border-heavy`),
+      (gr = `-mx-3 !items-center gap-3 border-b border-token-border px-3 py-3`));
+  });
+export {
+  ht as A,
+  Ke as B,
+  zt as C,
+  Mt as D,
+  jt as E,
+  ft as F,
+  We as H,
+  Je as I,
+  Ze as L,
+  pt as M,
+  mt as N,
+  Ct as O,
+  dt as P,
+  $e as R,
+  rn as S,
+  Ut as T,
+  Ge as U,
+  qe as V,
+  on as _,
+  wn as a,
+  en as b,
+  Sn as c,
+  yn as d,
+  vn as f,
+  sn as g,
+  cn as h,
+  Dn as i,
+  vt as j,
+  kt as k,
+  xn as l,
+  dn as m,
+  _r as n,
+  X as o,
+  fn as p,
+  En as r,
+  Cn as s,
+  tr as t,
+  er as u,
+  an as v,
+  Gt as w,
+  tn as x,
+  nn as y,
+  Ye as z,
+};
+//# sourceMappingURL=app-initial~app-main~onboarding-page~appearance-settings~general-settings.js.map

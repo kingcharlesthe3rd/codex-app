@@ -1,0 +1,18 @@
+import { n as e } from "./rolldown-runtime.js";
+import {
+  Gs as t,
+  xs as n,
+} from "./app-initial~app-main~remote-conversation-page~pull-requests-page~new-thread-panel-page~proj~i4yy32ef.js";
+function r(e, t) {
+  let n = i.safeParse(e.url);
+  return n.success ? n.data : t;
+}
+var i,
+  a = e(() => {
+    (n(),
+      (i = t()
+        .url()
+        .refine((e) => e.startsWith(`https://`))));
+  });
+export { a as n, r as t };
+//# sourceMappingURL=app-initial~app-main~remote-conversation-page~new-thread-panel-page~onboarding-page~appgen-~oqvyaloh.js.map

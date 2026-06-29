@@ -1,0 +1,639 @@
+import { n as e, s as t } from "./rolldown-runtime.js";
+import {
+  Ol as n,
+  ac as r,
+  bt as i,
+  kl as a,
+  tc as o,
+  xl as s,
+  xt as c,
+  yt as l,
+} from "./app-initial~app-main~remote-conversation-page~pull-requests-page~new-thread-panel-page~proj~i4yy32ef.js";
+import {
+  At as u,
+  Xp as d,
+  Zp as f,
+  am as p,
+  ap as m,
+  im as h,
+  ip as g,
+  jt as _,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~plug~fjtgnfyk.js";
+import {
+  aw as v,
+  cC as y,
+  oC as b,
+  uw as x,
+} from "./app-initial~app-main~onboarding-page~select-workspace-page.js";
+import {
+  D as S,
+  T as C,
+  _ as w,
+  b as T,
+  f as E,
+  v as D,
+} from "./app-initial~app-main~remote-conversation-page~local-conversation-page.js";
+var O,
+  k,
+  A = e(() => {
+    ((O = `_fillOnMount_9hstz_1`),
+      (k = { fillOnMount: O, "progression-donut-fill": `_progression-donut-fill_9hstz_1` }));
+  });
+function j(e) {
+  return !Number.isFinite(e) || e < L ? L : e > R ? R : e;
+}
+function M(e) {
+  let t = (0, N.c)(29),
+    {
+      className: n,
+      progressClassName: r,
+      animateOnMount: i,
+      animateOnMountDelayMs: a,
+      percent: o,
+      reducedMotion: s,
+      size: c,
+      strokeWidth: l,
+      transitionDurationMs: u,
+    } = e,
+    d = i === void 0 ? !1 : i,
+    f = a === void 0 ? 0 : a,
+    p = s === void 0 ? !1 : s,
+    m = c === void 0 ? F : c,
+    g = l === void 0 ? 2 : l,
+    _ = u === void 0 ? I : u,
+    v = (m - g) / 2,
+    y = j(o),
+    b = R - y,
+    x = `0 0 ${m} ${m}`,
+    S;
+  t[0] === n ? (S = t[1]) : ((S = h(`shrink-0`, n)), (t[0] = n), (t[1] = S));
+  let C = m / 2,
+    w = m / 2,
+    T;
+  t[2] !== v || t[3] !== g || t[4] !== w || t[5] !== C
+    ? ((T = (0, P.jsx)(`circle`, {
+        cx: C,
+        cy: w,
+        r: v,
+        stroke: `currentColor`,
+        strokeWidth: g,
+        fill: `none`,
+        opacity: 0.16,
+      })),
+      (t[2] = v),
+      (t[3] = g),
+      (t[4] = w),
+      (t[5] = C),
+      (t[6] = T))
+    : (T = t[6]);
+  let E = m / 2,
+    D = m / 2,
+    O = y === L ? 0 : 1,
+    A = d && !p && k.fillOnMount,
+    M;
+  t[7] !== r || t[8] !== A ? ((M = h(r, A)), (t[7] = r), (t[8] = A), (t[9] = M)) : (M = t[9]);
+  let z = d && !p ? `${f}ms` : void 0,
+    B = p ? `none` : `stroke-dashoffset ${_}ms ease-out, opacity ${_}ms ease-out`,
+    V;
+  t[10] !== z || t[11] !== B
+    ? ((V = { animationDelay: z, transition: B }), (t[10] = z), (t[11] = B), (t[12] = V))
+    : (V = t[12]);
+  let H = `rotate(-90 ${m / 2} ${m / 2})`,
+    U;
+  t[13] !== b ||
+  t[14] !== v ||
+  t[15] !== g ||
+  t[16] !== E ||
+  t[17] !== D ||
+  t[18] !== O ||
+  t[19] !== M ||
+  t[20] !== V ||
+  t[21] !== H
+    ? ((U = (0, P.jsx)(`circle`, {
+        cx: E,
+        cy: D,
+        r: v,
+        stroke: `currentColor`,
+        strokeWidth: g,
+        opacity: O,
+        strokeLinecap: `round`,
+        fill: `none`,
+        pathLength: R,
+        strokeDasharray: R,
+        strokeDashoffset: b,
+        className: M,
+        style: V,
+        transform: H,
+      })),
+      (t[13] = b),
+      (t[14] = v),
+      (t[15] = g),
+      (t[16] = E),
+      (t[17] = D),
+      (t[18] = O),
+      (t[19] = M),
+      (t[20] = V),
+      (t[21] = H),
+      (t[22] = U))
+    : (U = t[22]);
+  let W;
+  return (
+    t[23] !== m || t[24] !== T || t[25] !== U || t[26] !== x || t[27] !== S
+      ? ((W = (0, P.jsxs)(`svg`, {
+          "aria-hidden": `true`,
+          width: m,
+          height: m,
+          viewBox: x,
+          className: S,
+          children: [T, U],
+        })),
+        (t[23] = m),
+        (t[24] = T),
+        (t[25] = U),
+        (t[26] = x),
+        (t[27] = S),
+        (t[28] = W))
+      : (W = t[28]),
+    W
+  );
+}
+var N,
+  P,
+  F,
+  I,
+  L,
+  R,
+  z = e(() => {
+    ((N = n()), p(), A(), (P = s()), (F = 12), (I = 120), (L = 0), (R = 100));
+  });
+function B(e) {
+  let t = (0, H.c)(9),
+    { ariaLabel: n, className: r, onRemove: i } = e,
+    a = r === void 0 ? `top-1 right-1` : r,
+    o;
+  t[0] === a
+    ? (o = t[1])
+    : ((o = h(
+        `absolute flex size-4 cursor-interaction items-center justify-center rounded-full bg-token-foreground text-token-dropdown-background shadow-sm`,
+        a,
+      )),
+      (t[0] = a),
+      (t[1] = o));
+  let s;
+  t[2] === i
+    ? (s = t[3])
+    : ((s = (e) => {
+        (e.preventDefault(), e.stopPropagation(), i());
+      }),
+      (t[2] = i),
+      (t[3] = s));
+  let c;
+  t[4] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((c = (0, U.jsx)(g, { className: `icon-xxs` })), (t[4] = c))
+    : (c = t[4]);
+  let l;
+  return (
+    t[5] !== n || t[6] !== o || t[7] !== s
+      ? ((l = (0, U.jsx)(`button`, {
+          type: `button`,
+          className: o,
+          onPointerDown: V,
+          onClick: s,
+          "aria-label": n,
+          children: c,
+        })),
+        (t[5] = n),
+        (t[6] = o),
+        (t[7] = s),
+        (t[8] = l))
+      : (l = t[8]),
+    l
+  );
+}
+function V(e) {
+  (e.preventDefault(), e.stopPropagation());
+}
+var H,
+  U,
+  W = e(() => {
+    ((H = n()), p(), m(), (U = s()));
+  });
+function ee(e) {
+  let t = (0, G.c)(46),
+    {
+      src: n,
+      filename: r,
+      alt: i,
+      onRemove: a,
+      loading: o,
+      loadingPercentage: s,
+      previewEnabled: c,
+      previewPortalContainer: l,
+      onPreviewCloseAutoFocus: f,
+      onPreviewOpenChange: p,
+      previewItems: m,
+      previewIndex: g,
+      compact: _,
+    } = e,
+    v = i === void 0 ? `Attachment image` : i,
+    y = o === void 0 ? !1 : o,
+    b = c === void 0 ? !0 : c,
+    S = g === void 0 ? 0 : g,
+    C = _ === void 0 ? !1 : _,
+    w = x(),
+    [T, E] = (0, K.useState)(!1),
+    [D, O] = (0, K.useState)(S),
+    k;
+  t[0] !== p || t[1] !== S
+    ? ((k = (e) => {
+        (e && O(S), E(e), p?.(e));
+      }),
+      (t[0] = p),
+      (t[1] = S),
+      (t[2] = k))
+    : (k = t[2]);
+  let A = k,
+    j;
+  t[3] !== v || t[4] !== n
+    ? ((j = { alt: v, src: n }), (t[3] = v), (t[4] = n), (t[5] = j))
+    : (j = t[5]);
+  let N = j,
+    P;
+  t[6] !== N || t[7] !== m ? ((P = m ?? [N]), (t[6] = N), (t[7] = m), (t[8] = P)) : (P = t[8]);
+  let F = P,
+    I = F[D] ?? N,
+    L = D > 0 ? D - 1 : null,
+    R = D + 1 < F.length ? D + 1 : null,
+    z;
+  if (
+    t[9] !== v ||
+    t[10] !== C ||
+    t[11] !== r ||
+    t[12] !== A ||
+    t[13] !== w ||
+    t[14] !== y ||
+    t[15] !== s ||
+    t[16] !== a ||
+    t[17] !== b ||
+    t[18] !== n
+  ) {
+    let e =
+        r ??
+        w.formatMessage({
+          id: `imageAttachment.defaultName`,
+          defaultMessage: `image`,
+          description: `Default filename label for image attachment`,
+        }),
+      i = y || s != null,
+      o = C ? `size-[54px]` : `size-20`,
+      c = b ? `cursor-interaction` : `cursor-default`,
+      l;
+    t[20] !== o || t[21] !== c
+      ? ((l = h(
+          `composer-attachment-surface border-token-border-heavy relative inline-flex flex-shrink-0 overflow-visible rounded-lg border focus:outline-none focus-visible:ring-1 focus-visible:ring-token-focus-border focus-visible:ring-inset`,
+          o,
+          c,
+        )),
+        (t[20] = o),
+        (t[21] = c),
+        (t[22] = l))
+      : (l = t[22]);
+    let u;
+    t[23] !== A || t[24] !== b
+      ? ((u = b
+          ? (e) => {
+              (e.key === `Enter` || e.key === ` `) && (e.preventDefault(), A(!0));
+            }
+          : void 0),
+        (t[23] = A),
+        (t[24] = b),
+        (t[25] = u))
+      : (u = t[25]);
+    let f;
+    t[26] !== v || t[27] !== n
+      ? ((f = (0, q.jsx)(`img`, { src: n, alt: v, className: `size-full object-cover` })),
+        (t[26] = v),
+        (t[27] = n),
+        (t[28] = f))
+      : (f = t[28]);
+    let p =
+        i &&
+        (0, q.jsx)(`span`, {
+          className: `absolute inset-0 flex items-center justify-center rounded-lg bg-black/5 text-white backdrop-blur-xs`,
+          role: `progressbar`,
+          "aria-label": w.formatMessage(
+            {
+              id: `imageAttachment.uploadingAriaLabel`,
+              defaultMessage: `Uploading {filename}`,
+              description: `Accessible label for image attachment upload progress`,
+            },
+            { filename: e },
+          ),
+          "aria-valuemin": 0,
+          "aria-valuemax": 100,
+          "aria-valuenow": s === 0 ? void 0 : s,
+          children:
+            s == null || s === 0
+              ? (0, q.jsx)(d, { className: `size-6 text-token-text-secondary` })
+              : (0, q.jsx)(M, { className: `text-white`, percent: s, size: 24, strokeWidth: 2 }),
+        }),
+      m;
+    (t[29] !== f || t[30] !== p
+      ? ((m = (0, q.jsxs)(`span`, {
+          className: `composer-attachment-surface absolute inset-0 overflow-hidden rounded-lg`,
+          children: [f, p],
+        })),
+        (t[29] = f),
+        (t[30] = p),
+        (t[31] = m))
+      : (m = t[31]),
+      (z = (0, q.jsxs)(`div`, {
+        className: l,
+        role: b ? `button` : void 0,
+        "aria-label": b ? e : void 0,
+        tabIndex: b ? 0 : void 0,
+        onKeyDown: u,
+        children: [
+          m,
+          a &&
+            (0, q.jsx)(B, {
+              ariaLabel: w.formatMessage(
+                {
+                  id: `imageAttachment.removeAriaLabel`,
+                  defaultMessage: `Remove {filename}`,
+                  description: `Aria label for the remove image attachment button`,
+                },
+                { filename: e },
+              ),
+              onRemove: a,
+            }),
+        ],
+      })),
+      (t[9] = v),
+      (t[10] = C),
+      (t[11] = r),
+      (t[12] = A),
+      (t[13] = w),
+      (t[14] = y),
+      (t[15] = s),
+      (t[16] = a),
+      (t[17] = b),
+      (t[18] = n),
+      (t[19] = z));
+  } else z = t[19];
+  let V = z;
+  if (!b) return V;
+  let H;
+  t[32] === L
+    ? (H = t[33])
+    : ((H =
+        L == null
+          ? void 0
+          : () => {
+              O(L);
+            }),
+      (t[32] = L),
+      (t[33] = H));
+  let U;
+  t[34] === R
+    ? (U = t[35])
+    : ((U =
+        R == null
+          ? void 0
+          : () => {
+              O(R);
+            }),
+      (t[34] = R),
+      (t[35] = U));
+  let W;
+  return (
+    t[36] !== I.alt ||
+    t[37] !== I.src ||
+    t[38] !== A ||
+    t[39] !== T ||
+    t[40] !== f ||
+    t[41] !== V ||
+    t[42] !== l ||
+    t[43] !== H ||
+    t[44] !== U
+      ? ((W = (0, q.jsx)(u, {
+          src: I.src,
+          alt: I.alt,
+          open: T,
+          onOpenChange: A,
+          downloadSrc: I.src,
+          imageDraggable: !1,
+          onCloseAutoFocus: f,
+          onPreviousImage: H,
+          onNextImage: U,
+          portalContainer: l,
+          triggerContent: V,
+        })),
+        (t[36] = I.alt),
+        (t[37] = I.src),
+        (t[38] = A),
+        (t[39] = T),
+        (t[40] = f),
+        (t[41] = V),
+        (t[42] = l),
+        (t[43] = H),
+        (t[44] = U),
+        (t[45] = W))
+      : (W = t[45]),
+    W
+  );
+}
+var G,
+  K,
+  q,
+  te = e(() => {
+    ((G = n()), p(), (K = t(a(), 1)), v(), _(), z(), f(), W(), (q = s()));
+  });
+function J() {
+  return r(E, `composer.startDictation`);
+}
+function ne() {
+  let e = (0, Y.c)(2),
+    t = J();
+  if (t == null) return null;
+  let n;
+  return (e[0] === t ? (n = e[1]) : ((n = C(t)), (e[0] = t), (e[1] = n)), n);
+}
+function re({ composerInput: e, focusedElement: t, isActiveComposer: n }) {
+  return n && (e.contains(t) || t?.closest(Q) == null);
+}
+function ie(e) {
+  let t = (0, Y.c)(31),
+    {
+      enabled: n,
+      isDictating: r,
+      isTranscribing: a,
+      startDictation: o,
+      stopDictation: s,
+      keyboardEventTarget: l,
+      shouldHandleDictation: u,
+      ignoreWithin: d,
+    } = e,
+    f = d === void 0 ? Z : d,
+    p = y(`1244621283`),
+    m = J(),
+    h = (0, X.useRef)(null),
+    g = (0, X.useRef)(!1),
+    _ = (0, X.useRef)(!1),
+    v;
+  t[0] === o
+    ? (v = t[1])
+    : ((v = () => {
+        ((_.current = !0),
+          o().finally(() => {
+            _.current = !1;
+          }));
+      }),
+      (t[0] = o),
+      (t[1] = v));
+  let b = v,
+    x;
+  t[2] !== n || t[3] !== f || t[4] !== a || t[5] !== l || t[6] !== u
+    ? ((x = () => (!n || a || (f != null && ae(l, f)) ? !1 : u == null || u())),
+      (t[2] = n),
+      (t[3] = f),
+      (t[4] = a),
+      (t[5] = l),
+      (t[6] = u),
+      (t[7] = x))
+    : (x = t[7]);
+  let S = x,
+    C;
+  t[8] !== S || t[9] !== r || t[10] !== p || t[11] !== b
+    ? ((C = (e) => {
+        !p ||
+          !S() ||
+          ((h.current = e.sessionId),
+          i.dispatchMessage(`global-dictation-in-app-started`, { sessionId: e.sessionId }),
+          !(r || _.current) && b());
+      }),
+      (t[8] = S),
+      (t[9] = r),
+      (t[10] = p),
+      (t[11] = b),
+      (t[12] = C))
+    : (C = t[12]);
+  let w;
+  (t[13] === Symbol.for(`react.memo_cache_sentinel`) ? ((w = []), (t[13] = w)) : (w = t[13]),
+    c(`global-dictation-in-app-start`, C, w));
+  let E;
+  t[14] !== p || t[15] !== s
+    ? ((E = (e) => {
+        !p || h.current !== e.sessionId || ((h.current = null), s(`insert`));
+      }),
+      (t[14] = p),
+      (t[15] = s),
+      (t[16] = E))
+    : (E = t[16]);
+  let D;
+  (t[17] === Symbol.for(`react.memo_cache_sentinel`) ? ((D = []), (t[17] = D)) : (D = t[17]),
+    c(`global-dictation-in-app-stop`, E, D));
+  let O = m ?? ``,
+    k = n && m != null,
+    A = f ?? void 0,
+    j;
+  t[18] !== S || t[19] !== r || t[20] !== b
+    ? ((j = (e) => {
+        if ((e.preventDefault(), e.stopPropagation(), !S() || r || _.current)) {
+          g.current = !1;
+          return;
+        }
+        ((g.current = !0), b());
+      }),
+      (t[18] = S),
+      (t[19] = r),
+      (t[20] = b),
+      (t[21] = j))
+    : (j = t[21]);
+  let M;
+  t[22] === s
+    ? (M = t[23])
+    : ((M = (e) => {
+        (e.preventDefault(),
+          e.stopPropagation(),
+          !(!g.current || h.current != null) && ((g.current = !1), s(`insert`)));
+      }),
+      (t[22] = s),
+      (t[23] = M));
+  let N;
+  (t[24] !== l || t[25] !== A || t[26] !== j || t[27] !== M || t[28] !== O || t[29] !== k
+    ? ((N = {
+        accelerator: O,
+        enabled: k,
+        ignoreWithin: A,
+        keyboardEventTarget: l,
+        onKeyDown: j,
+        onKeyUp: M,
+      }),
+      (t[24] = l),
+      (t[25] = A),
+      (t[26] = j),
+      (t[27] = M),
+      (t[28] = O),
+      (t[29] = k),
+      (t[30] = N))
+    : (N = t[30]),
+    T(N));
+}
+function ae(e, t) {
+  let n = e?.document ?? (typeof window > `u` ? null : window.document);
+  if (n == null) return !1;
+  let r = n.defaultView,
+    i = n.activeElement;
+  return r != null && i instanceof r.Element && i.closest(t) != null;
+}
+var Y,
+  X,
+  Z,
+  Q,
+  oe = e(() => {
+    ((Y = n()),
+      o(),
+      (X = t(a(), 1)),
+      w(),
+      S(),
+      D(),
+      l(),
+      b(),
+      (Z = `[data-codex-terminal]`),
+      (Q = `input,textarea,[contenteditable]:not([contenteditable='false' i])`));
+  }),
+  $,
+  se,
+  ce = e(() => {
+    (t(a()),
+      ($ = s()),
+      (se = (e) =>
+        (0, $.jsx)(`svg`, {
+          width: 24,
+          height: 24,
+          viewBox: `0 0 20 20`,
+          fill: `none`,
+          xmlns: `http://www.w3.org/2000/svg`,
+          ...e,
+          children: (0, $.jsx)(`path`, {
+            d: `M7.9165 11.0012C9.43621 11.0012 10.7056 12.0728 11.0112 13.5012H16.6665L16.8013 13.5149C17.104 13.577 17.3314 13.8452 17.3315 14.1663C17.3315 14.4874 17.1041 14.7554 16.8013 14.8176L16.6665 14.8313H11.0112C10.7058 16.2601 9.43643 17.3313 7.9165 17.3313C6.39667 17.3311 5.12714 16.26 4.82178 14.8313H3.3335C2.96623 14.8313 2.66846 14.5335 2.66846 14.1663C2.66863 13.7991 2.96634 13.5012 3.3335 13.5012H4.82178C5.12738 12.0728 6.3969 11.0014 7.9165 11.0012ZM7.9165 12.3313C6.90332 12.3315 6.08172 13.1531 6.08154 14.1663C6.08154 15.1796 6.90321 16.001 7.9165 16.0012C8.92995 16.0012 9.75146 15.1797 9.75146 14.1663C9.75129 13.153 8.92984 12.3313 7.9165 12.3313ZM12.0835 2.66821C13.6033 2.66821 14.8727 3.73958 15.1782 5.16821H16.6665L16.8013 5.18188C17.1041 5.24406 17.3315 5.51204 17.3315 5.83325C17.3315 6.15446 17.1041 6.42245 16.8013 6.48462L16.6665 6.49829H15.1782C14.8727 7.92693 13.6033 8.99829 12.0835 8.99829C10.5637 8.99829 9.2943 7.92693 8.98877 6.49829H3.3335C2.96623 6.49829 2.66846 6.20052 2.66846 5.83325C2.66846 5.46598 2.96623 5.16821 3.3335 5.16821H8.98877C9.2943 3.73958 10.5637 2.66821 12.0835 2.66821ZM12.0835 3.99829C11.0701 3.99829 10.2485 4.81981 10.2485 5.83325C10.2485 6.84669 11.0701 7.66821 12.0835 7.66821C13.0969 7.66821 13.9185 6.84669 13.9185 5.83325C13.9185 4.81981 13.0969 3.99829 12.0835 3.99829Z`,
+            fill: `currentColor`,
+          }),
+        })));
+  });
+export {
+  ie as a,
+  te as c,
+  M as d,
+  z as f,
+  re as i,
+  B as l,
+  ce as n,
+  ne as o,
+  oe as r,
+  ee as s,
+  se as t,
+  W as u,
+};
+//# sourceMappingURL=app-initial~app-main~remote-conversation-page~new-thread-panel-page~onboarding-page~appgen-~o4yhvtva.js.map

@@ -1,0 +1,44 @@
+import { n as e, s as t } from "./rolldown-runtime.js";
+import {
+  Ht as n,
+  Ol as r,
+  Ut as i,
+  kl as a,
+  oc as o,
+  tc as s,
+} from "./app-initial~app-main~remote-conversation-page~pull-requests-page~new-thread-panel-page~proj~i4yy32ef.js";
+import {
+  Jd as c,
+  Ud as l,
+  _g as u,
+  dv as d,
+} from "./app-initial~app-main~onboarding-page~select-workspace-page.js";
+function f(e, t) {
+  let r = (0, p.c)(5),
+    i = t === void 0 ? !0 : t,
+    a = o(n),
+    s = (0, m.useRef)(null),
+    l,
+    d;
+  (r[0] !== i || r[1] !== e || r[2] !== a
+    ? ((l = () => {
+        !i ||
+          s.current === e ||
+          ((s.current = e), c(a, e, u.CODEX_ONBOARDING_WIZARD_ACTION_VIEWED));
+      }),
+      (d = [i, e, a]),
+      (r[0] = i),
+      (r[1] = e),
+      (r[2] = a),
+      (r[3] = l),
+      (r[4] = d))
+    : ((l = r[3]), (d = r[4])),
+    (0, m.useEffect)(l, d));
+}
+var p,
+  m,
+  h = e(() => {
+    ((p = r()), d(), s(), (m = t(a(), 1)), l(), i());
+  });
+export { f as n, h as t };
+//# sourceMappingURL=setup-codex-wizard-step-view.js.map

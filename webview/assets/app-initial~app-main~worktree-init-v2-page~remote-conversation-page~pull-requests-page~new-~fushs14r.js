@@ -1,0 +1,157 @@
+import { n as e } from "./rolldown-runtime.js";
+import {
+  bt as t,
+  yt as n,
+} from "./app-initial~app-main~remote-conversation-page~pull-requests-page~new-thread-panel-page~proj~i4yy32ef.js";
+function r() {
+  let e = h();
+  e &&
+    requestAnimationFrame(() => {
+      e.focus();
+    });
+}
+function i(e, { composerId: t, isPrimaryComposer: n }) {
+  let r = () => {
+    E = e;
+  };
+  return (
+    S.set(e, { composerId: t, isPrimaryComposer: n }),
+    e.addEventListener(`focus`, r),
+    document.activeElement === e && (E = e),
+    () => {
+      (S.delete(e), e.removeEventListener(`focus`, r), E === e && (E = null));
+    }
+  );
+}
+function a(e, t) {
+  let n = C.get(e) ?? new Set();
+  return (
+    C.size === 0 && window.addEventListener(`keydown`, p, !0),
+    n.add(t),
+    C.set(e, n),
+    () => {
+      (n.delete(t),
+        n.size === 0 && C.delete(e),
+        C.size === 0 && window.removeEventListener(`keydown`, p, !0));
+    }
+  );
+}
+function o(e) {
+  return (
+    w.size === 0 && window.addEventListener(`paste`, m, !0),
+    w.add(e),
+    () => {
+      (w.delete(e), w.size === 0 && window.removeEventListener(`paste`, m, !0));
+    }
+  );
+}
+function s(e, n, r) {
+  let i = T.get(e);
+  if (i == null) {
+    let n = new Map();
+    ((i = {
+      handlersByComposerInput: n,
+      unsubscribe: t.subscribe(e, (e) => {
+        let t = h();
+        if (t != null) for (let r of n.get(t) ?? []) r(e);
+      }),
+    }),
+      T.set(e, i));
+  }
+  let a = i.handlersByComposerInput.get(n) ?? new Set();
+  return (
+    a.add(r),
+    i.handlersByComposerInput.set(n, a),
+    () => {
+      (a.delete(r),
+        a.size === 0 && i.handlersByComposerInput.delete(n),
+        i.handlersByComposerInput.size === 0 && (i.unsubscribe(), T.delete(e)));
+    }
+  );
+}
+function c(e) {
+  return h() === e;
+}
+function l(e) {
+  let t = h();
+  return t != null && S.get(t)?.composerId === e;
+}
+function u(e, t, n) {
+  return e === t || e === n;
+}
+function d(e = document) {
+  e.querySelector(b)?.querySelector(`textarea`)?.focus();
+}
+function f({ composerController: e, event: t }) {
+  g(t) && (_(t) || (t.preventDefault(), e.focus(), e.insertTextAtSelection(t.key)));
+}
+function p(e) {
+  if (document.querySelector(y) != null) return;
+  let t = h();
+  if (t != null) for (let n of C.get(t) ?? []) n(e);
+}
+function m(e) {
+  if (e.defaultPrevented || _(e)) return;
+  let t = h();
+  if (t == null || !w.has(t)) return;
+  (e.preventDefault(), t.focus());
+  let n = new Event(`paste`, { bubbles: !0, cancelable: !0, composed: !0 });
+  (Object.defineProperty(n, `clipboardData`, { value: e.clipboardData }), t.dispatchEvent(n));
+}
+function h() {
+  if (E != null && E.isConnected && S.has(E)) return E;
+  E = null;
+  for (let [e, { isPrimaryComposer: t }] of S) if (t && e.isConnected) return e;
+  for (let e of S.keys()) if (e.isConnected) return e;
+  return document.querySelector(`[data-codex-composer]`);
+}
+function g(e) {
+  return (
+    !e.defaultPrevented &&
+    !e.isComposing &&
+    !e.metaKey &&
+    !e.ctrlKey &&
+    e.key !== ` ` &&
+    e.key !== `\xA0` &&
+    e.key.length === 1
+  );
+}
+function _(e) {
+  return (
+    e.composedPath().some((e) => e instanceof HTMLElement && (v(e) || e.closest(x) != null)) ||
+    document.querySelector(y) != null
+  );
+}
+function v(e) {
+  if (e == null) return !1;
+  if (e.isContentEditable) return !0;
+  let t = e.tagName.toLowerCase();
+  return t === `input` || t === `textarea` || t === `select`
+    ? !0
+    : e.closest(`[contenteditable='true']`) != null;
+}
+var y,
+  b,
+  x,
+  S,
+  C,
+  w,
+  T,
+  E,
+  D = e(() => {
+    (n(),
+      (y = [
+        `[role="dialog"][data-state="open"]`,
+        `[role="menu"][data-state="open"]`,
+        `[role="listbox"][data-state="open"]`,
+      ].join(`, `)),
+      (b = `[data-codex-terminal]`),
+      (x = [b, `dil-renderer`].join(`, `)),
+      (S = new Map()),
+      (C = new Map()),
+      (w = new Set()),
+      (T = new Map()),
+      (E = null));
+  });
+export { c as a, s as c, f as d, l as i, o as l, d as n, u as o, D as r, a as s, r as t, i as u };
+//# sourceMappingURL=app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~new-~fushs14r.js.map

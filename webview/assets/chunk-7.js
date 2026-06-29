@@ -1,0 +1,42 @@
+import { n as e } from "./rolldown-runtime.js";
+import {
+  _ as t,
+  b as n,
+  c as r,
+  g as i,
+  h as a,
+  i as o,
+  m as s,
+  s as c,
+  t as l,
+  v as u,
+  y as d,
+} from "./chunk-98.js";
+function f(e = t) {
+  let i = u(n(e), c),
+    a = u(d({ shared: i }), r, m);
+  return (i.ServiceRegistry.register(a), { shared: i, Packet: a });
+}
+var p,
+  m,
+  h = e(() => {
+    (a(),
+      i(),
+      (p = class extends l {
+        static {
+          s(this, `PacketTokenBuilder`);
+        }
+        constructor() {
+          super([`packet`]);
+        }
+      }),
+      (m = {
+        parser: {
+          TokenBuilder: s(() => new p(), `TokenBuilder`),
+          ValueConverter: s(() => new o(), `ValueConverter`),
+        },
+      }),
+      s(f, `createPacketServices`));
+  });
+export { f as n, h as r, m as t };
+//# sourceMappingURL=chunk-7.js.map

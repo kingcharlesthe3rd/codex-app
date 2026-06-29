@@ -1,0 +1,917 @@
+import { n as e, s as t } from "./rolldown-runtime.js";
+import {
+  $c as n,
+  Ht as r,
+  Ol as i,
+  Qc as a,
+  Sn as o,
+  Ut as s,
+  Wc as c,
+  Wt as l,
+  ac as u,
+  kl as d,
+  ll as f,
+  oc as p,
+  rl as m,
+  sl as h,
+  tc as g,
+  xl as _,
+} from "./app-initial~app-main~remote-conversation-page~pull-requests-page~new-thread-panel-page~proj~i4yy32ef.js";
+import {
+  Ep as ee,
+  Gs as v,
+  Ks as y,
+  wp as b,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~plug~fjtgnfyk.js";
+import {
+  Ca as x,
+  Fa as S,
+  Fo as C,
+  LC as w,
+  MC as T,
+  _v as E,
+  aw as D,
+  cw as O,
+  fo as k,
+  ll as A,
+  mp as j,
+  pl as M,
+  po as N,
+  pp as P,
+} from "./app-initial~app-main~onboarding-page~select-workspace-page.js";
+import { r as te } from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~new-~ozr5a6hk.js";
+import {
+  Ar as ne,
+  Or as re,
+  bi as ie,
+  kr as ae,
+  xi as oe,
+  yi as se,
+} from "./app-initial~app-main~remote-conversation-page~pull-requests-page~onboarding-page~hotkey-win~fzw0jvy4.js";
+import {
+  ft as ce,
+  ut as le,
+} from "./app-initial~app-main~remote-conversation-page~projects-index-page~hotkey-window-thread-page~hc7acb17.js";
+import {
+  Ar as ue,
+  Fr as de,
+  Gr as fe,
+  Hr as pe,
+  Ir as me,
+  Lr as he,
+  Mr as ge,
+  Nr as F,
+  Or as _e,
+  Pr as I,
+  Rr as ve,
+  Ur as ye,
+  Vr as be,
+  Wr as xe,
+  jr as Se,
+  kr as Ce,
+  zr as we,
+} from "./app-initial~app-main~remote-conversation-page~projects-index-page.js";
+import {
+  Ln as Te,
+  Rn as Ee,
+  pt as De,
+  st as Oe,
+} from "./app-initial~app-main~remote-conversation-page~local-conversation-page.js";
+function L(e) {
+  for (let t = e.commandActions.length - 1; t >= 0; --t) {
+    let n = e.commandActions[t]?.command.trim() ?? ``;
+    if (n.length > 0 && !R(n)) return n;
+  }
+  let t = e.command.trim();
+  return R(t) ? `` : t;
+}
+function R(e) {
+  return /^(?:.*[/\\])?(?:bash|cmd(?:\.exe)?|fish|powershell(?:\.exe)?|pwsh(?:\.exe)?|sh|zsh)(?:\s|$)/iu.test(
+    e,
+  );
+}
+var ke = e(() => {});
+function Ae(e) {
+  let t = (0, Ie.c)(16),
+    n = h(B),
+    r;
+  t[0] === e.dependencies
+    ? (r = t[1])
+    : ((r = e.dependencies ? e.dependencies.map(Pe).join(`|`) : ``),
+      (t[0] = e.dependencies),
+      (t[1] = r));
+  let i = r,
+    a;
+  t[2] !== e || t[3] !== n
+    ? ((a = () => {
+        n((t) => {
+          let n = !1,
+            r = [...t].map((t) => (t.id === e.id ? ((n = !0), e) : t));
+          return (n || r.push(e), (0, Le.default)(r.filter(Ne), [Me, je]));
+        });
+      }),
+      (t[2] = e),
+      (t[3] = n),
+      (t[4] = a))
+    : (a = t[4]);
+  let o = (0, z.useEffectEvent)(a),
+    s;
+  t[5] === o
+    ? (s = t[6])
+    : ((s = () => {
+        o();
+      }),
+      (t[5] = o),
+      (t[6] = s));
+  let c;
+  (t[7] !== i || t[8] !== e.enabled || t[9] !== e.id || t[10] !== e.order
+    ? ((c = [e.id, e.enabled, e.order, i]),
+      (t[7] = i),
+      (t[8] = e.enabled),
+      (t[9] = e.id),
+      (t[10] = e.order),
+      (t[11] = c))
+    : (c = t[11]),
+    (0, z.useEffect)(s, c));
+  let l, u;
+  (t[12] !== e.id || t[13] !== n
+    ? ((l = () => () => {
+        n((t) => t.filter((t) => t.id !== e.id));
+      }),
+      (u = [e.id, n]),
+      (t[12] = e.id),
+      (t[13] = n),
+      (t[14] = l),
+      (t[15] = u))
+    : ((l = t[14]), (u = t[15])),
+    (0, z.useEffect)(l, u));
+}
+function je(e) {
+  return e.id;
+}
+function Me(e) {
+  return e.order ?? 0;
+}
+function Ne(e) {
+  return e.enabled !== !1;
+}
+function Pe(e) {
+  return Fe(e);
+}
+function Fe(e) {
+  return e == null ? `` : String(e);
+}
+var Ie,
+  Le,
+  z,
+  B,
+  Re = e(() => {
+    ((Ie = i()), m(), (Le = t(te(), 1)), (z = t(d(), 1)), (B = f([])));
+  });
+function ze(e) {
+  let t = (0, Be.c)(7),
+    { conversationSource: n, diffSource: r, orchestrationId: i, isDefault: a } = e,
+    o = n === void 0 ? null : n,
+    s = r === void 0 ? null : r,
+    c = p(A),
+    l,
+    u;
+  return (
+    t[0] !== o || t[1] !== s || t[2] !== a || t[3] !== i || t[4] !== c
+      ? ((l = () =>
+          De(c, { conversationSource: o, diffSource: s }, { orchestrationId: i, isDefault: a })),
+        (u = [o, s, a, i, c]),
+        (t[0] = o),
+        (t[1] = s),
+        (t[2] = a),
+        (t[3] = i),
+        (t[4] = c),
+        (t[5] = l),
+        (t[6] = u))
+      : ((l = t[5]), (u = t[6])),
+    (0, Ve.useEffect)(l, u),
+    null
+  );
+}
+var Be,
+  Ve,
+  He = e(() => {
+    ((Be = i()), g(), (Ve = t(d(), 1)), M(), Oe());
+  });
+function Ue(e, t) {
+  return (0, We.useRef)(null);
+}
+var We,
+  Ge = e(() => {
+    We = t(d(), 1);
+  }),
+  V,
+  Ke,
+  qe = e(() => {
+    (t(d()),
+      (V = _()),
+      (Ke = (e) =>
+        (0, V.jsx)(`svg`, {
+          xmlns: `http://www.w3.org/2000/svg`,
+          width: 20,
+          height: 20,
+          fill: `currentColor`,
+          viewBox: `0 0 20 20`,
+          ...e,
+          children: (0, V.jsx)(`path`, {
+            d: `M5.693 11.056a2.71 2.71 0 0 1 2.432 2.694l-.015.277a2.71 2.71 0 0 1-2.694 2.432l-.276-.015a2.71 2.71 0 0 1-2.418-2.417l-.014-.277a2.709 2.709 0 0 1 2.708-2.708l.277.014Zm-.277 1.316a1.378 1.378 0 1 0 0 2.757 1.378 1.378 0 0 0 0-2.757Zm11.384.727a.665.665 0 0 1 0 1.302l-.134.014h-5.833a.665.665 0 0 1 0-1.33h5.833l.135.014ZM5.693 3.556A2.71 2.71 0 0 1 8.125 6.25l-.015.277A2.71 2.71 0 0 1 5.416 8.96l-.276-.015a2.71 2.71 0 0 1-2.418-2.417l-.014-.277a2.709 2.709 0 0 1 2.708-2.708l.277.014Zm-.277 1.316a1.378 1.378 0 1 0 .001 2.757 1.378 1.378 0 0 0-.001-2.757Zm11.384.727a.665.665 0 0 1 0 1.302l-.134.014h-5.833a.665.665 0 0 1 0-1.33h5.833l.135.014Z`,
+          }),
+        })));
+  });
+function Je(e) {
+  let t = (0, Ye.c)(33),
+    { output: n } = e,
+    r = ee(),
+    i = ne(ae()),
+    a = w(o.lightChromeTheme),
+    s = w(o.darkChromeTheme),
+    c = w(o.codeFontSize),
+    l,
+    u,
+    d,
+    f;
+  if (t[0] !== c || t[1] !== s || t[2] !== a || t[3] !== i) {
+    l = i === `light` ? ie(a, `light`) : ie(s, `dark`);
+    let e = l.fonts.code?.trim() || `ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace`;
+    ((d = c ?? 12),
+      (u = Se(e)),
+      (f = e.split(`,`)[0]?.trim() ?? ``),
+      (t[0] = c),
+      (t[1] = s),
+      (t[2] = a),
+      (t[3] = i),
+      (t[4] = l),
+      (t[5] = u),
+      (t[6] = d),
+      (t[7] = f));
+  } else ((l = t[4]), (u = t[5]), (d = t[6]), (f = t[7]));
+  let p = f,
+    m = (0, H.useRef)(null),
+    h = (0, H.useRef)(null),
+    g = (0, H.useRef)(null),
+    _ = (0, H.useRef)(null),
+    v = (0, H.useRef)(``),
+    y = (0, H.useRef)(r),
+    b,
+    x;
+  (t[8] === r
+    ? ((b = t[9]), (x = t[10]))
+    : ((b = () => {
+        y.current = r;
+      }),
+      (x = [r]),
+      (t[8] = r),
+      (t[9] = b),
+      (t[10] = x)),
+    (0, H.useLayoutEffect)(b, x));
+  let S, C;
+  (t[11] !== l || t[12] !== i
+    ? ((S = () => {
+        let e = m.current;
+        e != null && se(e, l, i);
+      }),
+      (C = [l, i]),
+      (t[11] = l),
+      (t[12] = i),
+      (t[13] = S),
+      (t[14] = C))
+    : ((S = t[13]), (C = t[14])),
+    (0, H.useLayoutEffect)(S, C));
+  let T;
+  t[15] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((T = () => {
+        let e = g.current,
+          t = m.current;
+        e == null ||
+          t == null ||
+          ((e.options.theme = F(t)), e.rows > 0 && e.refresh(0, e.rows - 1));
+      }),
+      (t[15] = T))
+    : (T = t[15]);
+  let E;
+  (t[16] !== l || t[17] !== i ? ((E = [l, i]), (t[16] = l), (t[17] = i), (t[18] = E)) : (E = t[18]),
+    (0, H.useEffect)(T, E));
+  let D, O;
+  (t[19] !== u || t[20] !== d || t[21] !== p
+    ? ((D = () => {
+        let e = g.current;
+        if (e == null) return;
+        let t = !1,
+          n = null;
+        return (
+          (async () => {
+            (await ge(p, d),
+              !t &&
+                ((e.options.fontFamily = u),
+                (e.options.fontSize = d),
+                (n = requestAnimationFrame(() => {
+                  _.current?.fit();
+                }))));
+          })(),
+          () => {
+            ((t = !0), n != null && cancelAnimationFrame(n));
+          }
+        );
+      }),
+      (O = [u, d, p]),
+      (t[19] = u),
+      (t[20] = d),
+      (t[21] = p),
+      (t[22] = D),
+      (t[23] = O))
+    : ((D = t[22]), (O = t[23])),
+    (0, H.useEffect)(D, O));
+  let k, A;
+  (t[24] !== u || t[25] !== d
+    ? ((k = () => {
+        let e = h.current,
+          t = m.current;
+        if (e == null || t == null) return;
+        let n = !1,
+          r = null,
+          i = new Qe.Terminal({
+            allowTransparency: !0,
+            cursorStyle: `bar`,
+            disableStdin: !0,
+            fontSize: d,
+            fontFamily: u,
+            letterSpacing: 0,
+            lineHeight: 1.2,
+            linkHandler: we,
+            theme: F(t),
+          }),
+          a = new Xe.FitAddon(),
+          o = () => {
+            r ??= requestAnimationFrame(() => {
+              ((r = null), i.scrollToBottom());
+            });
+          };
+        ((g.current = i),
+          (_.current = a),
+          i.loadAddon(a),
+          i.loadAddon(new Ze.WebLinksAddon(ve)),
+          i.open(e));
+        let s = ue(i, () => y.current);
+        (a.fit(), v.current.length > 0 && (i.write(I(v.current)), o()));
+        let c = new ResizeObserver(() => {
+          n || a.fit();
+        });
+        return (
+          c.observe(e),
+          () => {
+            ((n = !0),
+              r != null && (cancelAnimationFrame(r), (r = null)),
+              c.disconnect(),
+              (_.current = null),
+              (g.current = null),
+              s(),
+              i.dispose());
+          }
+        );
+      }),
+      (A = [u, d]),
+      (t[24] = u),
+      (t[25] = d),
+      (t[26] = k),
+      (t[27] = A))
+    : ((k = t[26]), (A = t[27])),
+    (0, H.useEffect)(k, A));
+  let j, M;
+  (t[28] === n
+    ? ((j = t[29]), (M = t[30]))
+    : ((j = () => {
+        let e = g.current;
+        if (e == null) {
+          v.current = n;
+          return;
+        }
+        let t = v.current,
+          r = me(e);
+        if (n.startsWith(t)) {
+          let r = n.slice(t.length);
+          r.length > 0 && e.write(I(r));
+        } else (e.reset(), n.length > 0 && e.write(I(n)));
+        if (((v.current = n), !r)) return;
+        let i = requestAnimationFrame(() => {
+          e.scrollToBottom();
+        });
+        return () => {
+          cancelAnimationFrame(i);
+        };
+      }),
+      (M = [n]),
+      (t[28] = n),
+      (t[29] = j),
+      (t[30] = M)),
+    (0, H.useEffect)(j, M));
+  let N;
+  t[31] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((N = {
+        backgroundColor: `var(--vscode-terminal-background)`,
+        color: `var(--vscode-terminal-foreground)`,
+      }),
+      (t[31] = N))
+    : (N = t[31]);
+  let P;
+  return (
+    t[32] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((P = (0, U.jsx)(`div`, {
+          "data-codex-xterm": !0,
+          ref: m,
+          className: `relative flex h-full w-full flex-col app-theme`,
+          style: N,
+          children: (0, U.jsx)(`div`, {
+            className: `flex-1 overflow-hidden py-3 pl-3 tracking-normal`,
+            children: (0, U.jsx)(`div`, { className: `h-full w-full overflow-hidden`, ref: h }),
+          }),
+        })),
+        (t[32] = P))
+      : (P = t[32]),
+    P
+  );
+}
+var Ye,
+  Xe,
+  Ze,
+  Qe,
+  H,
+  U,
+  $e = e(() => {
+    ((Ye = i()),
+      (Xe = fe()),
+      (Ze = xe()),
+      (Qe = ye()),
+      l(),
+      (H = t(d(), 1)),
+      b(),
+      be(),
+      T(),
+      oe(),
+      re(),
+      pe(),
+      he(),
+      de(),
+      Ce(),
+      _e(),
+      (U = _()));
+  });
+function et(e) {
+  let t = (0, W.c)(5),
+    { conversationId: n, terminalId: r } = e,
+    i = u(C, n),
+    a;
+  t[0] !== r || t[1] !== i ? ((a = rt(i, r)), (t[0] = r), (t[1] = i), (t[2] = a)) : (a = t[2]);
+  let o = a,
+    s = tt(r),
+    c = o?.aggregatedOutput ?? s?.buffer ?? ``,
+    l;
+  return (
+    t[3] === c
+      ? (l = t[4])
+      : ((l = (0, G.jsx)(`div`, {
+          className: `h-full min-h-0 bg-token-main-surface-primary`,
+          children:
+            c.length > 0
+              ? (0, G.jsx)(Je, { output: c })
+              : (0, G.jsx)(`div`, {
+                  className: `font-vscode-editor text-size-code-sm p-4 text-token-description-foreground`,
+                  children: (0, G.jsx)(O, {
+                    id: `codex.localConversation.backgroundTerminalTab.noOutput`,
+                    defaultMessage: `No output yet`,
+                    description: `Placeholder shown in a background terminal output tab before any terminal output is available`,
+                  }),
+                }),
+        })),
+        (t[3] = c),
+        (t[4] = l)),
+    l
+  );
+}
+function tt(e) {
+  let t = (0, W.c)(3),
+    n,
+    r;
+  return (
+    t[0] === e
+      ? ((n = t[1]), (r = t[2]))
+      : ((n = (t) => j.subscribeToSessionSnapshot(e, t)),
+        (r = () => j.getSnapshot(e)),
+        (t[0] = e),
+        (t[1] = n),
+        (t[2] = r)),
+    (0, it.useSyncExternalStore)(n, r, nt)
+  );
+}
+function nt() {
+  return null;
+}
+function rt(e, t) {
+  if (e == null) return null;
+  for (let n = e.length - 1; n >= 0; --n) {
+    let r = e[n];
+    if (r != null) {
+      for (let e of r.items) if (e.type === `commandExecution` && e.id === t) return e;
+    }
+  }
+  return null;
+}
+var W,
+  it,
+  G,
+  at = e(() => {
+    ((W = i()), g(), (it = t(d(), 1)), D(), S(), P(), $e(), (G = _()));
+  });
+function ot({ scope: e, backgroundTerminal: t, conversationId: n, fallbackTitle: r }) {
+  Ee.openTab(e, et, {
+    icon: (0, st.jsx)(v, { className: `icon-xs shrink-0` }),
+    props: { conversationId: n, terminalId: t.id },
+    id: `background-terminal:${n}:${t.id}`,
+    title: t.command.length > 0 ? t.command : r,
+  });
+}
+var st,
+  ct = e(() => {
+    (Te(), y(), at(), (st = _()));
+  });
+function lt(e) {
+  let t = [];
+  for (let n of e) {
+    let e = n.turns.length - 1;
+    for (let r = e; r >= 0; --r) {
+      let i = n.turns[r];
+      if (i == null) continue;
+      let a = r === e && i.status === `inProgress`;
+      for (let e of i.items) {
+        if (e?.type !== `commandExecution`) continue;
+        let o = mt(e, i, a);
+        if (o == null) continue;
+        let s = L(e);
+        if (s.length === 0) continue;
+        let c = i.commandExecutionStartedAtMsById?.[e.id];
+        t.push({
+          chatTitle: n.title,
+          command: s,
+          commandExecutionStartedAtMs: c,
+          conversationId: n.id,
+          cwd: e.cwd ?? n.cwd,
+          hostId: n.hostId,
+          id: `${n.id}:${i.turnId ?? r}:${e.id}`,
+          itemId: e.id,
+          osPid: null,
+          processId: e.processId,
+          source: o.source,
+          startedAtMs: c ?? i.firstTurnWorkItemStartedAtMs ?? i.turnStartedAtMs ?? null,
+          stopAction: o.stopAction,
+          turnId: i.turnId,
+        });
+      }
+    }
+  }
+  return t;
+}
+function ut(e, t) {
+  let n = new Map(t.map((e) => [e.id, e]));
+  return e.map((e) => {
+    let t = n.get(e.conversationId);
+    return {
+      chatTitle: t?.title ?? e.chatTitle,
+      command: e.command,
+      commandExecutionStartedAtMs: e.startedAtMs,
+      conversationId: e.conversationId,
+      cwd: e.cwd ?? t?.cwd ?? null,
+      hostId: t?.hostId ?? `local`,
+      id: e.id,
+      itemId: e.itemId,
+      osPid: e.osPid,
+      processId: e.processId,
+      source: `restored-process`,
+      startedAtMs: e.startedAtMs,
+      stopAction: `kill-child-process`,
+      turnId: e.turnId,
+    };
+  });
+}
+function dt(e, t) {
+  let n = new Map(t.map((e) => [e.id, e]));
+  return [
+    ...e.map((e) => {
+      let t = n.get(e.id);
+      return t == null
+        ? e
+        : (n.delete(e.id),
+          e.source === `restored-process`
+            ? t
+            : {
+                ...e,
+                chatTitle: e.chatTitle ?? t.chatTitle,
+                commandExecutionStartedAtMs:
+                  t.commandExecutionStartedAtMs ?? e.commandExecutionStartedAtMs,
+                cwd: e.cwd ?? t.cwd,
+                osPid: e.osPid ?? t.osPid,
+                processId: e.processId ?? t.processId,
+                startedAtMs: t.commandExecutionStartedAtMs ?? e.startedAtMs ?? t.startedAtMs,
+              });
+    }),
+    ...n.values(),
+  ];
+}
+function K(e, t) {
+  return e.id === t.id
+    ? !0
+    : e.command === t.command &&
+        e.conversationId === t.conversationId &&
+        e.cwd === t.cwd &&
+        e.hostId === t.hostId &&
+        e.stopAction === t.stopAction &&
+        e.turnId === t.turnId;
+}
+function ft(e, t, n = Date.now(), { matchCommandStartTime: r = !1 } = {}) {
+  if (t == null) return null;
+  let i = r && e.commandExecutionStartedAtMs != null ? xt : null;
+  if (e.osPid != null) {
+    let n = q(e.osPid, t);
+    if (n != null && vt(Y(e.command), n.command)) return n;
+  }
+  let a = ht(e.processId);
+  if (a != null) {
+    if (e.source !== `restored-process` && i == null) {
+      let e = q(a, t);
+      if (e != null) return e;
+    }
+    let r = _t(e, pt(a, t), n, i);
+    if (r != null) return q(r.pid, t);
+  }
+  let o = _t(e, t, n, i);
+  return o == null ? null : q(o.pid, t);
+}
+function pt(e, t) {
+  let n = new Map(t.map((e) => [e.pid, e]));
+  return t.filter((t) => gt(t.pid, e, n));
+}
+function mt(e, t, n) {
+  return t.interruptedCommandExecutionItemIds?.includes(e.id)
+    ? null
+    : e.status === `inProgress`
+      ? n
+        ? { source: `active-turn`, stopAction: `interrupt-conversation` }
+        : { source: `background-terminal`, stopAction: `kill-child-process` }
+      : e.status === `completed`
+        ? { source: `restored-process`, stopAction: `kill-child-process` }
+        : null;
+}
+function ht(e) {
+  if (e == null || !/^\d+$/u.test(e)) return null;
+  let t = Number(e);
+  return Number.isSafeInteger(t) ? t : null;
+}
+function q(e, t) {
+  let n = new Map(t.map((e) => [e.pid, e])),
+    r = n.get(e);
+  if (r == null) return null;
+  let i = 0,
+    a = !1,
+    o = 0,
+    s = !1;
+  for (let r of t)
+    gt(r.pid, e, n) &&
+      (r.cpuPercent != null && Number.isFinite(r.cpuPercent) && ((i += r.cpuPercent), (a = !0)),
+      r.rssKb != null && Number.isFinite(r.rssKb) && ((o += r.rssKb), (s = !0)));
+  return {
+    ageSeconds: r.ageSeconds,
+    command: r.command,
+    cpuPercent: a ? i : null,
+    pid: e,
+    rssKb: s ? o : null,
+  };
+}
+function gt(e, t, n) {
+  let r = e,
+    i = new Set();
+  for (; !i.has(r); ) {
+    if (r === t) return !0;
+    i.add(r);
+    let e = n.get(r);
+    if (e == null) return !1;
+    r = e.parentPid;
+  }
+  return !1;
+}
+function _t(e, t, n, r) {
+  let i = Y(e.command);
+  if (i.length === 0) return null;
+  let a = e.startedAtMs == null ? null : Math.max(0, Math.floor((n - e.startedAtMs) / 1e3));
+  return (
+    t
+      .filter(
+        (e) =>
+          vt(i, e.command) &&
+          (a == null || r == null || e.ageSeconds == null || J(e.ageSeconds, a) <= r),
+      )
+      .sort((e, t) => bt(e, t, a))[0] ?? null
+  );
+}
+function vt(e, t) {
+  let n = Y(t);
+  return (
+    n === e ||
+    n.startsWith(`${e} `) ||
+    (n.includes(` `) && e.startsWith(`${n} `)) ||
+    n.endsWith(` ${e}`) ||
+    n.includes(` ${e} `) ||
+    yt(e, n)
+  );
+}
+function yt(e, t) {
+  let n = e.split(/\s+/u),
+    r = t.split(/\s+/u);
+  return n.length === r.length
+    ? n.every((e, t) => {
+        let n = r[t];
+        return n == null ? !1 : e === n ? !0 : t === 0 ? !1 : X(e) === X(n);
+      })
+    : !1;
+}
+function bt(e, t, n) {
+  if (n != null) {
+    let r = J(e.ageSeconds, n),
+      i = J(t.ageSeconds, n);
+    if (r !== i) return r - i;
+  }
+  return e.depth === t.depth ? e.pid - t.pid : e.depth - t.depth;
+}
+function J(e, t) {
+  return e == null ? 2 ** 53 - 1 : Math.abs(e - t);
+}
+function Y(e) {
+  let t = e.trim();
+  if (t.length === 0) return ``;
+  let n = /^"([^"]+)"(.*)$/u.exec(t);
+  if (n != null) return `${X(n[1])}${n[2]}`.trim().toLowerCase();
+  let r = /^(\S+)(.*)$/u.exec(t);
+  return r == null ? t.toLowerCase() : `${X(r[1])}${r[2]}`.trim().toLowerCase();
+}
+function X(e) {
+  let t = e.replaceAll(`\\`, `/`),
+    n = t.lastIndexOf(`/`);
+  return (n < 0 ? t : t.slice(n + 1)).replace(/\.(?:bat|cmd|com|exe)$/iu, ``);
+}
+var xt,
+  St,
+  Ct = e(() => {
+    (g(),
+      S(),
+      ke(),
+      le(),
+      s(),
+      E(),
+      (xt = 60),
+      (St = c(r, ({ get: e }) => {
+        let t = [];
+        for (let n of e(N))
+          for (let r of e(k, n))
+            t.push({ cwd: e(x, r), hostId: n, id: r, title: e(ce, r), turns: e(C, r) ?? [] });
+        return t;
+      })));
+  });
+function wt(e, t, n) {
+  e.set(Z, Dt(e.get(Z), t, n));
+}
+function Tt(e, t) {
+  e.set(Z, Ot(e.get(Z), t));
+}
+function Et(e) {
+  e.set(Z, kt(e.get(Z)));
+}
+function Dt(e, t, n) {
+  return new Map(e).set(t, n);
+}
+function Ot(e, t) {
+  let n = new Map(e);
+  return (n.delete(t), n);
+}
+function kt(e) {
+  return new Map(Array.from(e).filter(([, e]) => e.status !== `stopped`));
+}
+var Z,
+  At = e(() => {
+    (g(), s(), (Z = a(r, () => new Map())));
+  });
+function jt(e, t, n) {
+  let r = [],
+    i = new Set();
+  for (let a of e) {
+    let e = ft(a, t, n);
+    if (e == null) continue;
+    let o = Ft({ metrics: e, process: a }, n);
+    (o != null && o < Bt) || i.has(e.pid) || (i.add(e.pid), r.push({ metrics: e, process: a }));
+  }
+  return r;
+}
+function Mt(e, t) {
+  if (t.size === 0) return e;
+  let n = e.slice(),
+    r = [];
+  for (let i of t.values())
+    zt(e, i.row) || r.push({ row: i.row, rowIndex: i.rowIndex ?? n.length });
+  r.sort((e, t) => e.rowIndex - t.rowIndex);
+  for (let e of r) n.splice(Math.min(e.rowIndex, n.length), 0, e.row);
+  return n;
+}
+function Nt(e, t, n) {
+  if (t.size === 0) return t;
+  let r = new Map(e.map((e) => [e.process.id, e])),
+    i = new Map();
+  for (let [a, o] of t) It(o, r.get(a) ?? Rt(e, o.row), n) || i.set(a, o);
+  return i;
+}
+function Pt(e, t) {
+  return Q(e, t)?.sortRow ?? e;
+}
+function Q(e, t) {
+  let n = t.get(e.process.id);
+  if (n != null) return n;
+  for (let n of t.values()) if (K(e.process, n.row.process)) return n;
+}
+function Ft(e, t) {
+  return e.metrics?.ageSeconds == null
+    ? e.process.startedAtMs == null
+      ? null
+      : Math.max(0, Math.floor((t - e.process.startedAtMs) / 1e3))
+    : e.metrics.ageSeconds;
+}
+function It(e, t, n) {
+  return e.status === `starting`
+    ? e.expiresAtMs != null && e.expiresAtMs <= n
+      ? !0
+      : t == null
+        ? !1
+        : Lt(e, t, n)
+    : !1;
+}
+function Lt(e, t, n) {
+  let r = e.row.process.startedAtMs,
+    i = t.metrics?.ageSeconds;
+  return r == null || i == null ? !0 : n - i * 1e3 >= r - Vt;
+}
+function Rt(e, t) {
+  return e.find((e) => K(e.process, t.process)) ?? null;
+}
+function zt(e, t) {
+  return Rt(e, t) != null;
+}
+var Bt,
+  Vt,
+  Ht = e(() => {
+    (Ct(), (Bt = 3), (Vt = 1e3));
+  }),
+  Ut,
+  Wt,
+  $,
+  Gt = e(() => {
+    (g(), s(), (Ut = a(r, !0)), (Wt = a(r, !1)), ($ = n(r, (e) => !1)));
+  });
+export {
+  Ue as A,
+  Ct as C,
+  Ke as D,
+  ot as E,
+  Ae as F,
+  L as I,
+  ke as L,
+  He as M,
+  B as N,
+  qe as O,
+  Re as P,
+  dt as S,
+  ct as T,
+  wt as _,
+  Q as a,
+  lt as b,
+  Ft as c,
+  Ht as d,
+  It as f,
+  Z as g,
+  At as h,
+  Ut as i,
+  ze as j,
+  Ge as k,
+  Mt as l,
+  Et as m,
+  Wt as n,
+  jt as o,
+  Tt as p,
+  $ as r,
+  Pt as s,
+  Gt as t,
+  Nt as u,
+  St as v,
+  K as w,
+  ut as x,
+  ft as y,
+};
+//# sourceMappingURL=app-initial~app-main~remote-conversation-page~hotkey-window-thread-page~thread-app-shell-ch~ou5otpha.js.map

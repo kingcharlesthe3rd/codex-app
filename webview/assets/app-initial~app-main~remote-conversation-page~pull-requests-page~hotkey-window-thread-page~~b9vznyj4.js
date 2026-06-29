@@ -1,0 +1,438 @@
+import { n as e, s as t } from "./rolldown-runtime.js";
+import {
+  Ol as n,
+  kl as r,
+  xl as i,
+} from "./app-initial~app-main~remote-conversation-page~pull-requests-page~new-thread-panel-page~proj~i4yy32ef.js";
+import {
+  Jp as a,
+  Xp as o,
+  Yp as s,
+  Zp as c,
+  am as l,
+  im as u,
+  nm as d,
+  rm as f,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~plug~fjtgnfyk.js";
+import {
+  cC as p,
+  oC as m,
+} from "./app-initial~app-main~onboarding-page~select-workspace-page.js";
+import {
+  ft as h,
+  mt as g,
+} from "./app-initial~app-main~remote-conversation-page~pull-requests-page~onboarding-page~hotkey-win~fzw0jvy4.js";
+var _,
+  v,
+  y,
+  b,
+  x,
+  S,
+  C,
+  w,
+  T,
+  E,
+  D,
+  O,
+  k,
+  A,
+  j,
+  M,
+  N,
+  P,
+  F,
+  I,
+  L,
+  R = e(() => {
+    ((_ = `_footer_z984f_2`),
+      (v = `_homeExternalFooter_z984f_2`),
+      (y = `_externalFooterItem_z984f_2`),
+      (b = `_externalFooterItemCategoryLabel_z984f_2`),
+      (x = `_externalFooterItemValue_z984f_2`),
+      (S = `_externalFooterItemValueContent_z984f_2`),
+      (C = `_externalFooterItemValueOverflowing_z984f_2`),
+      (w = `_externalFooterItemText_z984f_2`),
+      (T = `_externalFooterItemTextWithCategoryLabel_z984f_2`),
+      (E = `_externalFooterItemChevron_z984f_2`),
+      (D = `_defaultExternalFooterOnly_z984f_2`),
+      (O = `_runLocationEnvironmentSuffix_z984f_2`),
+      (k = `_homeExternalFooterOnly_z984f_2`),
+      (A = `_projectClearAvailable_z984f_2`),
+      (j = `_homeProjectButton_z984f_2`),
+      (M = `_labelSm_z984f_2`),
+      (N = `_labelXs_z984f_2`),
+      (P = `_projectClearButton_z984f_2`),
+      (F = `_secondaryLabel_z984f_2`),
+      (I = `_secondaryChevron_z984f_2`),
+      (L = {
+        footer: _,
+        homeExternalFooter: v,
+        externalFooterItem: y,
+        externalFooterItemCategoryLabel: b,
+        externalFooterItemValue: x,
+        externalFooterItemValueContent: S,
+        externalFooterItemValueOverflowing: C,
+        externalFooterItemText: w,
+        externalFooterItemTextWithCategoryLabel: T,
+        externalFooterItemChevron: E,
+        defaultExternalFooterOnly: D,
+        runLocationEnvironmentSuffix: O,
+        homeExternalFooterOnly: k,
+        projectClearAvailable: A,
+        homeProjectButton: j,
+        labelSm: M,
+        labelXs: N,
+        projectClearButton: P,
+        secondaryLabel: F,
+        secondaryChevron: I,
+      }));
+  });
+function z(e) {
+  let t = (0, V.c)(10),
+    n,
+    r,
+    i;
+  t[0] === e
+    ? ((n = t[1]), (r = t[2]), (i = t[3]))
+    : (({ className: n, responsive: i, ...r } = e), (t[0] = e), (t[1] = n), (t[2] = r), (t[3] = i));
+  let a = (i === void 0 ? !0 : i) && L.footer,
+    o;
+  t[4] !== n || t[5] !== a
+    ? ((o = u(`select-none`, a, n)), (t[4] = n), (t[5] = a), (t[6] = o))
+    : (o = t[6]);
+  let s;
+  return (
+    t[7] !== r || t[8] !== o
+      ? ((s = (0, H.jsx)(`div`, { className: o, ...r })), (t[7] = r), (t[8] = o), (t[9] = s))
+      : (s = t[9]),
+    s
+  );
+}
+function B(e) {
+  let t = (0, V.c)(10),
+    n,
+    r,
+    i;
+  t[0] === e
+    ? ((n = t[1]), (r = t[2]), (i = t[3]))
+    : (({ className: n, collapse: r, ...i } = e), (t[0] = e), (t[1] = n), (t[2] = r), (t[3] = i));
+  let a;
+  if (t[4] !== n || t[5] !== r) {
+    let e;
+    bb0: switch (r) {
+      case `none`:
+        e = void 0;
+        break bb0;
+      case `sm`:
+        e = L.labelSm;
+        break bb0;
+      case `xs`:
+        e = L.labelXs;
+        break bb0;
+      case `secondary`:
+        e = u(L.labelSm, L.secondaryLabel);
+    }
+    ((a = u(e, n)), (t[4] = n), (t[5] = r), (t[6] = a));
+  } else a = t[6];
+  let o;
+  return (
+    t[7] !== i || t[8] !== a
+      ? ((o = (0, H.jsx)(`span`, { className: a, ...i })), (t[7] = i), (t[8] = a), (t[9] = o))
+      : (o = t[9]),
+    o
+  );
+}
+var V,
+  H,
+  U = e(() => {
+    ((V = n()), l(), R(), (H = i()));
+  }),
+  W,
+  G,
+  K = e(() => {
+    (t(r()),
+      (W = i()),
+      (G = (e) =>
+        (0, W.jsx)(`svg`, {
+          width: 16,
+          height: 16,
+          viewBox: `0 0 16 16`,
+          fill: `none`,
+          xmlns: `http://www.w3.org/2000/svg`,
+          ...e,
+          children: (0, W.jsx)(`path`, {
+            fillRule: `evenodd`,
+            clipRule: `evenodd`,
+            d: `M8 1.47461C11.6037 1.47461 14.5254 4.39634 14.5254 8C14.5254 11.6037 11.6037 14.5254 8 14.5254C4.39634 14.5254 1.47461 11.6037 1.47461 8C1.47461 4.39634 4.39634 1.47461 8 1.47461ZM10.0918 5.9082C9.88683 5.70329 9.55463 5.7024 9.34961 5.90723L8 7.25684L6.65039 5.90723C6.44535 5.70239 6.11219 5.70227 5.90723 5.90723C5.70232 6.11219 5.70241 6.44537 5.90723 6.65039L7.25684 8L5.90723 9.34961C5.70241 9.55463 5.70232 9.88781 5.90723 10.0928C6.11219 10.2977 6.44535 10.2976 6.65039 10.0928L8 8.74316L9.34961 10.0928C9.55463 10.2976 9.88683 10.2967 10.0918 10.0918C10.2968 9.88683 10.2976 9.55465 10.0928 9.34961L8.74316 8L10.0928 6.65039C10.2976 6.44535 10.2968 6.11317 10.0918 5.9082Z`,
+            fill: `currentColor`,
+          }),
+        })));
+  });
+function q(e) {
+  let t = (0, X.c)(22),
+    n,
+    r,
+    i,
+    o,
+    s,
+    c,
+    l,
+    d;
+  t[0] === e
+    ? ((n = t[1]),
+      (r = t[2]),
+      (i = t[3]),
+      (o = t[4]),
+      (s = t[5]),
+      (c = t[6]),
+      (l = t[7]),
+      (d = t[8]))
+    : (({
+        categoryLabel: r,
+        className: i,
+        collapse: o,
+        icon: s,
+        indicator: c,
+        value: l,
+        valueClassName: d,
+        ...n
+      } = e),
+      (t[0] = e),
+      (t[1] = n),
+      (t[2] = r),
+      (t[3] = i),
+      (t[4] = o),
+      (t[5] = s),
+      (t[6] = c),
+      (t[7] = l),
+      (t[8] = d));
+  let f;
+  t[9] === i ? (f = t[10]) : ((f = u(L.externalFooterItem, `min-w-0`, i)), (t[9] = i), (t[10] = f));
+  let p;
+  t[11] !== r || t[12] !== o || t[13] !== s || t[14] !== c || t[15] !== l || t[16] !== d
+    ? ((p = (0, Q.jsx)(Y, {
+        categoryLabel: r,
+        collapse: o,
+        icon: s,
+        indicator: c,
+        value: l,
+        valueClassName: d,
+      })),
+      (t[11] = r),
+      (t[12] = o),
+      (t[13] = s),
+      (t[14] = c),
+      (t[15] = l),
+      (t[16] = d),
+      (t[17] = p))
+    : (p = t[17]);
+  let m;
+  return (
+    t[18] !== n || t[19] !== f || t[20] !== p
+      ? ((m = (0, Q.jsx)(a, {
+          className: f,
+          color: `ghost`,
+          size: `composerSm`,
+          ...n,
+          children: p,
+        })),
+        (t[18] = n),
+        (t[19] = f),
+        (t[20] = p),
+        (t[21] = m))
+      : (m = t[21]),
+    m
+  );
+}
+function J(e) {
+  let t = (0, X.c)(11),
+    { categoryLabel: n, className: r, collapse: i, icon: a, value: o, valueClassName: s } = e,
+    c;
+  t[0] === r
+    ? (c = t[1])
+    : ((c = u(L.externalFooterItem, `flex min-w-0 items-center gap-1`, r)), (t[0] = r), (t[1] = c));
+  let l;
+  t[2] !== n || t[3] !== i || t[4] !== a || t[5] !== o || t[6] !== s
+    ? ((l = (0, Q.jsx)(Y, {
+        categoryLabel: n,
+        collapse: i,
+        icon: a,
+        indicator: `none`,
+        value: o,
+        valueClassName: s,
+      })),
+      (t[2] = n),
+      (t[3] = i),
+      (t[4] = a),
+      (t[5] = o),
+      (t[6] = s),
+      (t[7] = l))
+    : (l = t[7]);
+  let d;
+  return (
+    t[8] !== c || t[9] !== l
+      ? ((d = (0, Q.jsx)(`div`, { className: c, children: l })),
+        (t[8] = c),
+        (t[9] = l),
+        (t[10] = d))
+      : (d = t[10]),
+    d
+  );
+}
+function Y(e) {
+  let t = (0, X.c)(26),
+    { categoryLabel: n, collapse: r, icon: i, indicator: a, value: s, valueClassName: c } = e,
+    l = p(`2700454473`) ? `icon-xs` : `icon-2xs`,
+    [f, m] = (0, Z.useState)(null),
+    [h, _] = (0, Z.useState)(null),
+    v;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((v = (e, t) => {
+        m(t.clientWidth);
+      }),
+      (t[0] = v))
+    : (v = t[0]);
+  let y = g(v),
+    b;
+  t[1] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((b = (e, t) => {
+        _(t.scrollWidth);
+      }),
+      (t[1] = b))
+    : (b = t[1]);
+  let x = g(b),
+    S = f != null && h != null && h > f,
+    C;
+  bb0: switch (a) {
+    case `none`:
+      C = null;
+      break bb0;
+    case `pending`: {
+      let e;
+      (t[2] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, Q.jsx)(o, {
+            className: `icon-xs shrink-0 text-token-input-placeholder-foreground`,
+          })),
+          (t[2] = e))
+        : (e = t[2]),
+        (C = e));
+      break bb0;
+    }
+    case `chevron`: {
+      let e;
+      t[3] === l
+        ? (e = t[4])
+        : ((e = u(
+            L.externalFooterItemChevron,
+            l,
+            `shrink-0 text-token-input-placeholder-foreground`,
+          )),
+          (t[3] = l),
+          (t[4] = e));
+      let n;
+      (t[5] === e ? (n = t[6]) : ((n = (0, Q.jsx)(d, { className: e })), (t[5] = e), (t[6] = n)),
+        (C = n));
+      break bb0;
+    }
+    case `collapsible-chevron`: {
+      let e;
+      t[7] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = u(L.secondaryChevron, L.externalFooterItemChevron, `inline-flex`)), (t[7] = e))
+        : (e = t[7]);
+      let n;
+      t[8] === l
+        ? (n = t[9])
+        : ((n = u(l, `shrink-0 text-token-input-placeholder-foreground`)), (t[8] = l), (t[9] = n));
+      let r;
+      (t[10] === n
+        ? (r = t[11])
+        : ((r = (0, Q.jsx)(`span`, { className: e, children: (0, Q.jsx)(d, { className: n }) })),
+          (t[10] = n),
+          (t[11] = r)),
+        (C = r));
+    }
+  }
+  let w;
+  t[12] === i
+    ? (w = t[13])
+    : ((w =
+        i == null ? null : (0, Q.jsx)(`span`, { className: `inline-flex shrink-0`, children: i })),
+      (t[12] = i),
+      (t[13] = w));
+  let T;
+  t[14] !== n ||
+  t[15] !== r ||
+  t[16] !== s ||
+  t[17] !== c ||
+  t[18] !== x ||
+  t[19] !== S ||
+  t[20] !== y
+    ? ((T =
+        n != null || s != null
+          ? (0, Q.jsxs)(`span`, {
+              className: u(
+                L.externalFooterItemText,
+                n != null && L.externalFooterItemTextWithCategoryLabel,
+                `inline-flex min-w-0 items-baseline gap-1 text-left`,
+              ),
+              children: [
+                n == null
+                  ? null
+                  : (0, Q.jsx)(`span`, {
+                      className: u(
+                        L.externalFooterItemCategoryLabel,
+                        `hidden shrink-0 font-medium text-token-foreground`,
+                      ),
+                      children: n,
+                    }),
+                (0, Q.jsx)(B, {
+                  ref: y,
+                  className: u(
+                    L.externalFooterItemValue,
+                    `min-w-0 truncate font-normal whitespace-nowrap`,
+                    c,
+                  ),
+                  collapse: r,
+                  children: (0, Q.jsx)(`span`, {
+                    ref: x,
+                    className: u(
+                      L.externalFooterItemValueContent,
+                      `block max-w-full min-w-0 truncate`,
+                      S && L.externalFooterItemValueOverflowing,
+                    ),
+                    "data-tooltip-overflow-target": !0,
+                    children: s,
+                  }),
+                }),
+              ],
+            })
+          : null),
+      (t[14] = n),
+      (t[15] = r),
+      (t[16] = s),
+      (t[17] = c),
+      (t[18] = x),
+      (t[19] = S),
+      (t[20] = y),
+      (t[21] = T))
+    : (T = t[21]);
+  let E;
+  return (
+    t[22] !== w || t[23] !== T || t[24] !== C
+      ? ((E = (0, Q.jsxs)(Q.Fragment, { children: [w, T, C] })),
+        (t[22] = w),
+        (t[23] = T),
+        (t[24] = C),
+        (t[25] = E))
+      : (E = t[25]),
+    E
+  );
+}
+var X,
+  Z,
+  Q,
+  $ = e(() => {
+    ((X = n()), l(), (Z = t(r(), 1)), s(), c(), f(), h(), m(), U(), R(), (Q = i()));
+  });
+export { K as a, U as c, G as i, L as l, q as n, z as o, $ as r, B as s, J as t, R as u };
+//# sourceMappingURL=app-initial~app-main~remote-conversation-page~pull-requests-page~hotkey-window-thread-page~~b9vznyj4.js.map
