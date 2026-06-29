@@ -1,1 +1,2 @@
-import{t as e}from"./python-DwLVJSJV.js";export{e as default};
+import { t as e } from "./python.js";
+export { e as default };
