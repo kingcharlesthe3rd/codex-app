@@ -1,0 +1,12 @@
+import { l as e, t } from "./app-scope.js";
+import {
+  Mi as n,
+  ji as r,
+  pt as i,
+  xt as a,
+  yt as o,
+} from "./app-server-manager-signals.js";
+var s = e(t, (e, { get: t }) => (e == null ? null : r({ id: e, title: t(o, e), turns: t(a, e) }))),
+  c = e(t, (e, { get: t }) => (e == null ? null : (t(s, e) ?? n(e, t(a, t(i, e))))));
+export { c as n, s as t };
+//# sourceMappingURL=local-conversation-title-signals.js.map

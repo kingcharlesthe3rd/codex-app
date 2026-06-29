@@ -1,0 +1,56 @@
+import { f as e, t } from "./app-scope.js";
+import { Ki as n, Li as r, Vi as i, ki as a, qi as o } from "./src-4.js";
+import { As as s } from "./app-server-manager-signals.js";
+import { l as c, p as l } from "./mcp-capability-signals.js";
+var u = i({
+    items: a(
+      o([
+        i({ id: n().min(1), title: n().min(1), type: r(`group`) }),
+        i({ resourceUri: n().min(1), title: n().min(1), type: r(`resource`) }),
+      ]),
+    ),
+  }),
+  d = e(t, (e) => ({
+    queryFn: async () => {
+      let { thread: t } = await s(`start-thread-for-host`, { ephemeral: !0, hostId: e });
+      return t.id;
+    },
+    queryKey: [`mcp-capability-host-thread`, e],
+    staleTime: 1 / 0,
+  }));
+async function f(e, t, n, r) {
+  return l.parse(
+    await s(`read-mcp-resource`, { hostId: t, server: n, threadId: await h(e, t), uri: r }),
+  );
+}
+async function p(e, t, n, r) {
+  return Promise.all(
+    n.map(async ({ mentionSearchTool: n, server: i }) => {
+      try {
+        return {
+          items: u.parse((await m(e, t, i, n, r)).structuredContent).items,
+          mentionSearchTool: n,
+          server: i,
+        };
+      } catch {
+        return { items: [], mentionSearchTool: n, server: i };
+      }
+    }),
+  );
+}
+async function m(e, t, n, r, i) {
+  return c.parse(
+    await s(`call-mcp-tool`, {
+      arguments: i,
+      hostId: t,
+      server: n,
+      threadId: await h(e, t),
+      tool: r,
+    }),
+  );
+}
+async function h(e, t) {
+  return e.query.getOrFetch(d, t);
+}
+export { f as n, p as r, m as t };
+//# sourceMappingURL=mcp-capability-client.js.map

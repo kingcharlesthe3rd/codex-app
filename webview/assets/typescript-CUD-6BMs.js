@@ -1,1 +1,2 @@
-import{t as e}from"./typescript-siNqa6Da.js";export{e as default};
+import { t as e } from "./typescript.js";
+export { e as default };
