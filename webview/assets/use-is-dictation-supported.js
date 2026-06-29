@@ -1,0 +1,14 @@
+import { o as e, u as t } from "./statsig.js";
+import { n } from "./use-auth.js";
+function r(r) {
+  let i = n(r),
+    a = e(`4100906017`),
+    o = t();
+  return !navigator?.mediaDevices?.getUserMedia || typeof MediaRecorder > `u`
+    ? !1
+    : i == null || i.isLoading || o
+      ? null
+      : a && i.authMethod === `chatgpt`;
+}
+export { r as t };
+//# sourceMappingURL=use-is-dictation-supported.js.map

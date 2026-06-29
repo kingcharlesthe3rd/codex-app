@@ -1,0 +1,40 @@
+import { s as e } from "./chunk.js";
+import { n as t } from "./jsx-runtime.js";
+import { z as n } from "./app-scope.js";
+import { t as r } from "./composer-controller.js";
+var i = n(),
+  a = e(t(), 1);
+function o() {
+  return r(``, {
+    defaultTextKind: `prompt`,
+    enableFileMentions: !0,
+    enableSelectedTextLinks: !0,
+    enableSlashCommands: !1,
+    enableSkillMentions: !0,
+    enterBehavior: `enter`,
+    restoreMarkdownLinksAsTextLinks: !0,
+  });
+}
+function s(e) {
+  let t = (0, i.c)(3),
+    n = (0, a.useRef)(null),
+    r,
+    o;
+  (t[0] === e
+    ? ((r = t[1]), (o = t[2]))
+    : ((r = () => (
+        n.current != null && (clearTimeout(n.current), (n.current = null)),
+        () => {
+          n.current = window.setTimeout(() => {
+            ((n.current = null), e());
+          }, 0);
+        }
+      )),
+      (o = [e]),
+      (t[0] = e),
+      (t[1] = r),
+      (t[2] = o)),
+    (0, a.useEffect)(r, o));
+}
+export { s as n, o as t };
+//# sourceMappingURL=prompt-editor.js.map
