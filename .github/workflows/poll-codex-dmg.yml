@@ -1,0 +1,59 @@
+name: Poll Codex macOS app
+
+on:
+  workflow_dispatch:
+    inputs:
+      dmg_url:
+        description: "DMG URL to import. Leave blank for the Apple Silicon Codex app."
+        required: false
+        type: string
+  schedule:
+    - cron: "23 */6 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: codex-app-dmg-poll
+  cancel-in-progress: false
+
+jobs:
+  poll:
+    if: github.ref == 'refs/heads/main'
+    runs-on: macos-14
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Configure git author
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Poll and import DMG
+        id: import
+        env:
+          DMG_URL: ${{ github.event.inputs.dmg_url }}
+          DEFAULT_BRANCH: main
+          LATEST_BRANCH: latest
+        run: node scripts/import-codex-dmg.mjs
+
+      - name: Write job summary
+        if: always()
+        run: |
+          {
+            echo "### Codex app poll"
+            echo
+            echo "- changed: \`${{ steps.import.outputs.changed || 'unknown' }}\`"
+            echo "- branch: \`${{ steps.import.outputs.branch || 'none' }}\`"
+            echo "- sha256: \`${{ steps.import.outputs.sha256 || 'unknown' }}\`"
+          } >> "$GITHUB_STEP_SUMMARY"
