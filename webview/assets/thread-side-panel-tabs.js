@@ -1,0 +1,38 @@
+import { A_ as e } from "./app-initial~app-main~remote-conversation-page~plugin-detail-page~new-thread-panel-page~appg~ijdupmx5.js";
+import {
+  Br as t,
+  Lr as n,
+  Rr as r,
+} from "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~projects-index-page~app~ovcriy74.js";
+import {
+  $c as i,
+  Qc as a,
+  Xc as o,
+  Yc as s,
+  Zc as c,
+  al as l,
+  el as u,
+  il as d,
+  nl as f,
+  ol as p,
+  rl as m,
+  tl as h,
+} from "./app-initial~app-main~onboarding-page~profile.js";
+o();
+export {
+  e as THREAD_SIDE_PANEL_TAB,
+  n as closeThreadMcpAppSidePanelTab,
+  s as getBrowserTabIdForSidePanelOpen,
+  r as getThreadMcpAppSidePanelTabId,
+  c as openSessionSandboxSidePanel,
+  a as openThreadBranchReviewSidePanelTab,
+  i as openThreadBrowserSidePanelTab,
+  u as openThreadBrowserSidePanelTabWithPendingState,
+  h as openThreadBrowserSidePanelTabWithoutAnimation,
+  f as openThreadLastTurnReviewSidePanelTab,
+  t as openThreadMcpAppSidePanelTab,
+  m as openThreadReviewSidePanelTab,
+  d as openThreadTimelineSidePanel,
+  l as primeBrowserTabTransfers,
+  p as toggleThreadSidePanel,
+};

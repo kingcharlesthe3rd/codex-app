@@ -1,0 +1,86 @@
+import { n as e, s as t } from "./rolldown-runtime.js";
+import {
+  BP as n,
+  BV as r,
+  JV as i,
+  VP as a,
+  bF as o,
+  na as s,
+  qV as c,
+  ra as l,
+} from "./app-initial~app-main~remote-conversation-page~plugin-detail-page~new-thread-panel-page~appg~ijdupmx5.js";
+function u(e) {
+  let t = (0, d.c)(15),
+    { src: r, className: i, showFallbackWhileLoading: a } = e,
+    o = a === void 0 ? !0 : a,
+    [c, l] = (0, f.useState)(null),
+    [u, m] = (0, f.useState)(null),
+    h;
+  t[0] === i
+    ? (h = t[1])
+    : ((h = n(`relative flex shrink-0 items-center justify-center`, i)), (t[0] = i), (t[1] = h));
+  let g;
+  t[2] !== u || t[3] !== c || t[4] !== o || t[5] !== r
+    ? ((g =
+        u === r || (o && c !== r)
+          ? (0, p.jsx)(s, { "aria-hidden": !0, className: `h-full w-full` })
+          : null),
+      (t[2] = u),
+      (t[3] = c),
+      (t[4] = o),
+      (t[5] = r),
+      (t[6] = g))
+    : (g = t[6]);
+  let _;
+  t[7] !== u || t[8] !== c || t[9] !== r
+    ? ((_ =
+        u === r
+          ? null
+          : (0, p.jsx)(`img`, {
+              alt: ``,
+              className: n(
+                `absolute h-full w-full rounded-2xs object-contain`,
+                c === r ? `opacity-100` : `opacity-0`,
+              ),
+              decoding: `async`,
+              draggable: !1,
+              onError: () => {
+                m(r);
+              },
+              onLoad: () => {
+                l(r);
+              },
+              referrerPolicy: `no-referrer`,
+              src: r,
+            })),
+      (t[7] = u),
+      (t[8] = c),
+      (t[9] = r),
+      (t[10] = _))
+    : (_ = t[10]);
+  let v;
+  return (
+    t[11] !== h || t[12] !== g || t[13] !== _
+      ? ((v = (0, p.jsxs)(`span`, { className: h, children: [g, _] })),
+        (t[11] = h),
+        (t[12] = g),
+        (t[13] = _),
+        (t[14] = v))
+      : (v = t[14]),
+    v
+  );
+}
+var d,
+  f,
+  p,
+  m = e(() => {
+    ((d = c()), a(), (f = t(i(), 1)), l(), (p = r()));
+  });
+function h(e) {
+  return e?.some((e) => e.name === `workspace_dependencies` && e.enabled === !0) ?? !1;
+}
+var g = e(() => {
+  o();
+});
+export { m as i, h as n, u as r, g as t };
+//# sourceMappingURL=app-initial~app-main~remote-conversation-page~new-thread-panel-page~onboarding-page~appgen-~d8kqmdjz.js.map

@@ -1,0 +1,46 @@
+import { n as e } from "./rolldown-runtime.js";
+import {
+  $P as t,
+  AB as n,
+  QP as r,
+  UA as i,
+  WA as a,
+  _V as o,
+  aP as s,
+  gV as c,
+  oP as l,
+} from "./app-initial~app-main~remote-conversation-page~plugin-detail-page~new-thread-panel-page~appg~ijdupmx5.js";
+var u,
+  d,
+  f,
+  p = e(() => {
+    (n(),
+      a(),
+      t(),
+      l(),
+      (u = [`custom-avatars`]),
+      (d = o(r, () => ({
+        queryKey: u,
+        queryFn: () => i.customAvatars.load(),
+        enabled: !0,
+        networkMode: `always`,
+        refetchOnMount: !1,
+        refetchOnWindowFocus: !1,
+        staleTime: s.INFINITE,
+      }))),
+      (f = c(r, (e, { get: t, scope: n }) => ({
+        queryKey: [...u, `selected`, e],
+        queryFn: async () => (
+          await n.query.invalidate(d, { exact: !0, refetchType: `none` }),
+          n.query.fetch(d)
+        ),
+        enabled: e.startsWith(`custom:`) && t(d).data?.avatars.some(({ id: t }) => t === e) !== !0,
+        gcTime: 0,
+        networkMode: `always`,
+        refetchOnWindowFocus: !1,
+        retry: !1,
+        staleTime: s.INFINITE,
+      }))));
+  });
+export { f as i, d as n, p as r, u as t };
+//# sourceMappingURL=custom-avatars-query.js.map

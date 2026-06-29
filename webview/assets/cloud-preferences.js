@@ -1,0 +1,95 @@
+import { n as e } from "./rolldown-runtime.js";
+import {
+  AV as t,
+  IA as n,
+  IV as r,
+  MV as i,
+  PA as a,
+  aP as o,
+  oP as s,
+  qV as c,
+  zV as l,
+} from "./app-initial~app-main~remote-conversation-page~plugin-detail-page~new-thread-panel-page~appg~ijdupmx5.js";
+function u() {
+  let e = (0, y.c)(1),
+    t;
+  return (
+    e[0] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((t = { queryKey: b, queryFn: d, retry: !1, staleTime: o.FIVE_MINUTES }), (e[0] = t))
+      : (t = e[0]),
+    r(t)
+  );
+}
+function d() {
+  return a.safeGet(`/wham/settings/user`);
+}
+function f() {
+  let e = (0, y.c)(1),
+    t;
+  return (
+    e[0] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((t = { queryKey: x, queryFn: p, retry: !1, staleTime: o.FIVE_MINUTES }), (e[0] = t))
+      : (t = e[0]),
+    r(t)
+  );
+}
+function p() {
+  return a.safeGet(`/wham/settings/configs/user-preferences`);
+}
+function m() {
+  let e = (0, y.c)(2),
+    t = l(),
+    n;
+  return (
+    e[0] === t
+      ? (n = e[1])
+      : ((n = {
+          mutationFn: h,
+          onSuccess: (e) => {
+            t.setQueryData(b, e);
+          },
+        }),
+        (e[0] = t),
+        (e[1] = n)),
+    i(n)
+  );
+}
+function h(e) {
+  return a.safePatch(`/wham/settings/user`, { requestBody: e });
+}
+function g(e, t, n) {
+  let r = (e.match(/{/g) ?? []).length;
+  if (r !== (e.match(/}/g) ?? []).length) return `bracket-mismatch`;
+  if (r === 0) return `missing-pattern`;
+  let i = n.map((e) => e.value);
+  if ((e.match(/{([^}]+)}/g) ?? []).some((e) => !i.includes(e))) return `invalid-pattern`;
+  let a = v(e, n, (e) => `x`.repeat(e.char_count));
+  return a.length > t
+    ? `too-long`
+    : a.startsWith(`/`)
+      ? `leading-slash`
+      : /^[a-zA-Z0-9./\-_]+$/.test(a)
+        ? null
+        : `invalid-characters`;
+}
+function _(e, t) {
+  return v(e, t, (e) => e.example);
+}
+function v(e, t, n) {
+  let r = e;
+  for (let e of t) r = r.replaceAll(e.value, n(e));
+  return r;
+}
+var y,
+  b,
+  x,
+  S = e(() => {
+    ((y = c()),
+      t(),
+      s(),
+      n(),
+      (b = [`cloud-user-preferences`]),
+      (x = [`cloud-preferences-config`]));
+  });
+export { u as a, f as i, g as n, m as o, S as r, _ as t };
+//# sourceMappingURL=cloud-preferences.js.map

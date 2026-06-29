@@ -1,0 +1,409 @@
+import { n as e, s as t } from "./rolldown-runtime.js";
+import {
+  AP as n,
+  BP as r,
+  BV as i,
+  JV as a,
+  SP as o,
+  SV as s,
+  VP as c,
+  bP as l,
+  qV as u,
+  wP as d,
+  wV as f,
+  yP as p,
+} from "./app-initial~app-main~remote-conversation-page~plugin-detail-page~new-thread-panel-page~appg~ijdupmx5.js";
+import { n as m, t as h } from "./codex-avatar.js";
+function g(e) {
+  let t = (0, y.c)(23),
+    {
+      ariaLabel: n,
+      assetRef: i,
+      className: a,
+      notificationBadge: o,
+      onContextMenu: s,
+      resizeHandle: c,
+      spritesheetUrl: l,
+      state: u,
+      style: d,
+      transientState: f,
+    } = e,
+    p = u === void 0 ? `idle` : u,
+    [m, g] = (0, b.useState)(!1),
+    v = f ?? (m ? `jumping` : p),
+    S = o != null,
+    C = S || c != null,
+    w;
+  n != null && (w = C ? `group` : `img`);
+  let T;
+  t[0] === a
+    ? (T = t[1])
+    : ((T = r(
+        `codex-avatar-button relative flex cursor-interaction items-center justify-center active:cursor-grabbing`,
+        a,
+      )),
+      (t[0] = a),
+      (t[1] = T));
+  let E = n == null && !C ? !0 : void 0,
+    D,
+    O;
+  t[2] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((D = () => {
+        g(!0);
+      }),
+      (O = () => {
+        g(!1);
+      }),
+      (t[2] = D),
+      (t[3] = O))
+    : ((D = t[2]), (O = t[3]));
+  let k;
+  t[4] !== i || t[5] !== v || t[6] !== l
+    ? ((k = (0, x.jsx)(h, {
+        assetRef: i,
+        className: `relative z-10`,
+        spritesheetUrl: l,
+        state: v,
+      })),
+      (t[4] = i),
+      (t[5] = v),
+      (t[6] = l),
+      (t[7] = k))
+    : (k = t[7]);
+  let A;
+  t[8] !== S || t[9] !== o
+    ? ((A = S ? (0, x.jsx)(_, { notificationBadge: o }) : null),
+      (t[8] = S),
+      (t[9] = o),
+      (t[10] = A))
+    : (A = t[10]);
+  let j;
+  t[11] === c
+    ? (j = t[12])
+    : ((j =
+        c == null
+          ? null
+          : (0, x.jsx)(`div`, {
+              className: `group absolute right-0 bottom-0 z-30 flex size-12 cursor-default items-end justify-end rounded-[8px] text-token-text-secondary hover:text-token-foreground`,
+              "data-testid": `avatar-overlay-resize-hover-target`,
+              children: (0, x.jsx)(`button`, {
+                type: `button`,
+                "aria-label": c.ariaLabel,
+                className: `no-drag codex-avatar-resize-handle flex size-5 cursor-nwse-resize touch-none items-center justify-center rounded-[6px] border border-token-border-default/80 bg-token-bg-primary p-1 opacity-0 shadow-lg shadow-black/20 backdrop-blur-sm group-hover:opacity-100 focus-visible:opacity-100 focus-visible:ring-2 focus-visible:ring-token-focus-border focus-visible:outline-none forced-colors:bg-[Canvas] forced-colors:backdrop-blur-none [@media(prefers-reduced-transparency:reduce)]:backdrop-blur-none`,
+                "data-testid": `avatar-overlay-resize-handle`,
+                onLostPointerCapture: c.onLostPointerCapture,
+                onPointerCancel: c.onPointerCancel,
+                onPointerDown: c.onPointerDown,
+                onPointerEnter: c.onPointerEnter,
+                onPointerLeave: c.onPointerLeave,
+                onPointerMove: c.onPointerMove,
+                onPointerUp: c.onPointerUp,
+                children: (0, x.jsx)(`svg`, {
+                  viewBox: `0 0 12 12`,
+                  className: `size-3`,
+                  "data-testid": `avatar-overlay-resize-icon`,
+                  children: (0, x.jsx)(`path`, {
+                    d: `M1.75 5V1.75H5M7 10.25h3.25V7M2 2l8 8`,
+                    fill: `none`,
+                    stroke: `currentColor`,
+                    strokeLinecap: `round`,
+                    strokeLinejoin: `round`,
+                    strokeWidth: `1.5`,
+                  }),
+                }),
+              }),
+            })),
+      (t[11] = c),
+      (t[12] = j));
+  let M;
+  return (
+    t[13] !== n ||
+    t[14] !== s ||
+    t[15] !== w ||
+    t[16] !== d ||
+    t[17] !== T ||
+    t[18] !== E ||
+    t[19] !== k ||
+    t[20] !== A ||
+    t[21] !== j
+      ? ((M = (0, x.jsxs)(`div`, {
+          className: T,
+          "data-avatar-mascot": `true`,
+          "data-testid": `avatar-mascot-button`,
+          "aria-hidden": E,
+          "aria-label": n,
+          role: w,
+          onContextMenu: s,
+          onPointerEnter: D,
+          onPointerLeave: O,
+          style: d,
+          children: [k, A, j],
+        })),
+        (t[13] = n),
+        (t[14] = s),
+        (t[15] = w),
+        (t[16] = d),
+        (t[17] = T),
+        (t[18] = E),
+        (t[19] = k),
+        (t[20] = A),
+        (t[21] = j),
+        (t[22] = M))
+      : (M = t[22]),
+    M
+  );
+}
+function _(e) {
+  let t = (0, y.c)(44),
+    { notificationBadge: i } = e,
+    [a, o] = f(w),
+    [s, c] = (0, b.useState)(null),
+    l = (0, b.useRef)(null),
+    u = (0, b.useRef)(!1),
+    p = d(),
+    m;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((m = (e) => {
+        e.button === 0 &&
+          (e.stopPropagation(),
+          e.currentTarget.setPointerCapture?.(e.pointerId),
+          (l.current = {
+            hasMoved: !1,
+            pointerId: e.pointerId,
+            startClientX: e.clientX,
+            startClientY: e.clientY,
+          }));
+      }),
+      (t[0] = m))
+    : (m = t[0]);
+  let h = m,
+    g;
+  t[1] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((g = (e) => {
+        let t = l.current;
+        if (t == null || t.pointerId !== e.pointerId) return;
+        e.stopPropagation();
+        let n = e.clientX - t.startClientX,
+          r = e.clientY - t.startClientY;
+        (!t.hasMoved && Math.abs(n) < S && Math.abs(r) < S) ||
+          (e.preventDefault(), (t.hasMoved = !0), c({ x: n, y: r }));
+      }),
+      (t[1] = g))
+    : (g = t[1]);
+  let _ = g,
+    T;
+  t[2] === o
+    ? (T = t[3])
+    : ((T = (e) => {
+        let t = l.current;
+        if (
+          !(t == null || t.pointerId !== e.pointerId) &&
+          (e.stopPropagation(),
+          (l.current = null),
+          e.currentTarget.hasPointerCapture?.(e.pointerId) &&
+            e.currentTarget.releasePointerCapture?.(e.pointerId),
+          t.hasMoved)
+        ) {
+          let t = e.currentTarget.closest(`[data-avatar-mascot='true']`)?.getBoundingClientRect();
+          (t != null && o(v({ avatarBounds: t, clientX: e.clientX, clientY: e.clientY })),
+            c(null),
+            e.preventDefault(),
+            (u.current = !0),
+            window.setTimeout(() => {
+              u.current = !1;
+            }, 0));
+        }
+      }),
+      (t[2] = o),
+      (t[3] = T));
+  let E = T,
+    D;
+  t[4] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((D = (e) => {
+        let t = l.current;
+        t == null ||
+          t.pointerId !== e.pointerId ||
+          (e.stopPropagation(),
+          (l.current = null),
+          c(null),
+          e.currentTarget.hasPointerCapture?.(e.pointerId) &&
+            e.currentTarget.releasePointerCapture?.(e.pointerId));
+      }),
+      (t[4] = D))
+    : (D = t[4]);
+  let O = D,
+    k;
+  t[5] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((k = (e) => {
+        let t = l.current;
+        t == null || t.pointerId !== e.pointerId || ((l.current = null), c(null));
+      }),
+      (t[5] = k))
+    : (k = t[5]);
+  let A = k,
+    j;
+  t[6] === i
+    ? (j = t[7])
+    : ((j = (e) => {
+        if ((e.stopPropagation(), u.current)) {
+          ((u.current = !1), e.preventDefault());
+          return;
+        }
+        i.onClick();
+      }),
+      (t[6] = i),
+      (t[7] = j));
+  let M = j,
+    N = C[a],
+    P = s == null ? void 0 : `${s.x}px ${s.y}px`,
+    F;
+  t[8] !== i.content || t[9] !== i.isGlassy || t[10] !== N || t[11] !== P
+    ? ((F = i.isGlassy
+        ? (0, x.jsx)(`div`, {
+            "aria-hidden": `true`,
+            className: r(
+              `pointer-events-none invisible absolute flex items-center justify-center rounded-full border border-transparent text-xs leading-none font-medium`,
+              N,
+              `size-6 p-0`,
+            ),
+            "data-avatar-overlay-native-corner-radius": `12`,
+            "data-avatar-overlay-native-surface-id": `mascot-badge`,
+            style: { translate: P },
+            children: i.content,
+          })
+        : null),
+      (t[8] = i.content),
+      (t[9] = i.isGlassy),
+      (t[10] = N),
+      (t[11] = P),
+      (t[12] = F))
+    : (F = t[12]);
+  let I;
+  t[13] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((I = { opacity: 1, scale: 1, y: 0 }), (t[13] = I))
+    : (I = t[13]);
+  let L = i.ariaLabel,
+    R =
+      i.isGlassy &&
+      !i.nativeMaterialAttached &&
+      `!border-white/85 !bg-white/65 !text-black shadow-[0_2px_6px_rgba(0,0,0,0.2)] backdrop-blur-xl hover:!bg-white/80 forced-colors:!border-[ButtonBorder] forced-colors:!bg-[ButtonFace] forced-colors:!text-[ButtonText] forced-colors:backdrop-blur-none [@media(prefers-reduced-transparency:reduce)]:!bg-white/95 [@media(prefers-reduced-transparency:reduce)]:backdrop-blur-none`,
+    z =
+      i.nativeMaterialAttached &&
+      `!border-transparent !bg-transparent !text-transparent !shadow-none backdrop-blur-none hover:!bg-transparent hover:!text-transparent`,
+    B;
+  t[14] !== N || t[15] !== R || t[16] !== z
+    ? ((B = r(
+        `no-drag absolute z-40 flex cursor-grab touch-none select-none items-center justify-center rounded-full border border-token-border/60 text-xs leading-none font-medium shadow-sm active:cursor-grabbing focus-visible:ring-2 focus-visible:ring-token-focus-border focus-visible:outline-none`,
+        N,
+        R,
+        z,
+        `size-6 p-0`,
+      )),
+      (t[14] = N),
+      (t[15] = R),
+      (t[16] = z),
+      (t[17] = B))
+    : (B = t[17]);
+  let V = p ? 1 : 0.7,
+    H = p ? 0 : 3,
+    U;
+  t[18] !== V || t[19] !== H
+    ? ((U = { opacity: 0, scale: V, y: H }), (t[18] = V), (t[19] = H), (t[20] = U))
+    : (U = t[20]);
+  let W;
+  t[21] !== i.backgroundColor || t[22] !== i.foregroundColor || t[23] !== P
+    ? ((W = { backgroundColor: i.backgroundColor, color: i.foregroundColor, translate: P }),
+      (t[21] = i.backgroundColor),
+      (t[22] = i.foregroundColor),
+      (t[23] = P),
+      (t[24] = W))
+    : (W = t[24]);
+  let G, K;
+  t[25] === p
+    ? ((G = t[26]), (K = t[27]))
+    : ((G = p ? { duration: 0 } : { damping: 20, mass: 0.7, stiffness: 420, type: `spring` }),
+      (K = p ? void 0 : { scale: 1.06 }),
+      (t[25] = p),
+      (t[26] = G),
+      (t[27] = K));
+  let q;
+  t[28] === p ? (q = t[29]) : ((q = p ? void 0 : { scale: 0.94 }), (t[28] = p), (t[29] = q));
+  let J;
+  t[30] !== M ||
+  t[31] !== E ||
+  t[32] !== i.ariaLabel ||
+  t[33] !== i.content ||
+  t[34] !== B ||
+  t[35] !== U ||
+  t[36] !== W ||
+  t[37] !== G ||
+  t[38] !== K ||
+  t[39] !== q
+    ? ((J = (0, x.jsx)(n.button, {
+        type: `button`,
+        animate: I,
+        "aria-label": L,
+        className: B,
+        "data-testid": `avatar-overlay-notification-badge`,
+        initial: U,
+        onClick: M,
+        onLostPointerCapture: A,
+        onPointerCancel: O,
+        onPointerDown: h,
+        onPointerMove: _,
+        onPointerUp: E,
+        style: W,
+        transition: G,
+        whileHover: K,
+        whileTap: q,
+        children: i.content,
+      })),
+      (t[30] = M),
+      (t[31] = E),
+      (t[32] = i.ariaLabel),
+      (t[33] = i.content),
+      (t[34] = B),
+      (t[35] = U),
+      (t[36] = W),
+      (t[37] = G),
+      (t[38] = K),
+      (t[39] = q),
+      (t[40] = J))
+    : (J = t[40]);
+  let Y;
+  return (
+    t[41] !== J || t[42] !== F
+      ? ((Y = (0, x.jsxs)(x.Fragment, { children: [F, J] })), (t[41] = J), (t[42] = F), (t[43] = Y))
+      : (Y = t[43]),
+    Y
+  );
+}
+function v({ avatarBounds: e, clientX: t, clientY: n }) {
+  return `${n < e.top + e.height / 2 ? `top` : `bottom`}-${t < e.left + e.width / 2 ? `start` : `end`}`;
+}
+var y,
+  b,
+  x,
+  S,
+  C,
+  w,
+  T = e(() => {
+    ((y = u()),
+      c(),
+      o(),
+      s(),
+      (b = t(a(), 1)),
+      p(),
+      m(),
+      (x = i()),
+      (S = 4),
+      (C = {
+        "top-start": `top-0 left-0`,
+        "top-end": `top-0 right-0`,
+        "bottom-start": `bottom-0 left-0`,
+        "bottom-end": `right-7 bottom-0`,
+      }),
+      (w = l(`avatar-mascot-notification-badge-corner`, `top-end`)));
+  });
+export { T as n, g as t };
+//# sourceMappingURL=avatar-mascot-button.js.map

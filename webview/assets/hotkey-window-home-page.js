@@ -1,0 +1,1228 @@
+import { n as e, s as t } from "./rolldown-runtime.js";
+import {
+  AB as n,
+  Al as r,
+  BP as i,
+  BV as a,
+  Cu as o,
+  DN as s,
+  Ev as c,
+  FB as l,
+  GN as u,
+  Gi as d,
+  Gj as f,
+  HE as p,
+  Hh as m,
+  IB as h,
+  JV as g,
+  Mu as _,
+  Nu as v,
+  OI as y,
+  ON as b,
+  Ov as ee,
+  PB as x,
+  RP as S,
+  Rf as te,
+  TM as C,
+  Tu as w,
+  UA as T,
+  UE as ne,
+  UF as E,
+  Uf as re,
+  Uh as D,
+  VE as O,
+  VN as k,
+  VP as A,
+  WA as j,
+  Zi as M,
+  Zj as ie,
+  _l as ae,
+  bF as N,
+  cP as P,
+  di as oe,
+  gi as se,
+  hM as F,
+  hi as ce,
+  iF as I,
+  lF as le,
+  lP as ue,
+  mv as de,
+  pI as fe,
+  pM as pe,
+  pi as me,
+  qV as L,
+  qi as R,
+  qj as he,
+  sF as z,
+  uP as ge,
+  vl as B,
+  wM as _e,
+  wl as ve,
+  zP as ye,
+} from "./app-initial~app-main~remote-conversation-page~plugin-detail-page~new-thread-panel-page~appg~ijdupmx5.js";
+import {
+  Cn as be,
+  On as xe,
+  Sn as V,
+  d as Se,
+  kn as H,
+  l as U,
+} from "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~projects-index-page~app~ovcriy74.js";
+import {
+  Ro as Ce,
+  _o as we,
+  as as Te,
+  ho as Ee,
+  ns as De,
+  qo as Oe,
+  us as ke,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~new-~kvpgbdy1.js";
+import {
+  nr as Ae,
+  od as je,
+  rr as Me,
+  sd as Ne,
+} from "./app-initial~app-main~onboarding-page~profile.js";
+import {
+  $r as Pe,
+  F as Fe,
+  I as Ie,
+  L as Le,
+  N as Re,
+  at as ze,
+  ei as Be,
+  en as Ve,
+  i as He,
+  n as Ue,
+  ni as We,
+  r as Ge,
+  ri as Ke,
+  st as qe,
+  t as Je,
+  ti as Ye,
+  tn as Xe,
+} from "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~appgen-library-page~hot~djo67r4n.js";
+import {
+  n as Ze,
+  t as Qe,
+} from "./app-initial~app-main~projects-index-page~hotkey-window-new-thread-page~hotkey-window-home-p~hswrsggc-D.js";
+import { n as $e, t as et } from "./worktree-environment-dropdown.js";
+import { n as tt, t as nt } from "./use-floating-window-pointer-interactivity.js";
+import { i as rt, n as it, r as at, t as ot } from "./composer-footer-branch-switcher.js";
+import { n as st, t as ct } from "./use-hotkey-window-dismiss-on-escape.js";
+function lt(e) {
+  let t = (0, W.c)(52),
+    {
+      canUseCloud: n,
+      composerMode: r,
+      setComposerMode: i,
+      showLabel: a,
+      disabledTooltipText: o,
+      showWorktree: c,
+    } = e,
+    l = a === void 0 ? !1 : a,
+    u = le(),
+    f;
+  t[0] !== r || t[1] !== c
+    ? ((f =
+        r === `cloud`
+          ? (0, G.jsx)(Ae, { className: `icon-2xs` })
+          : r === `worktree` && c
+            ? (0, G.jsx)(xe, { className: `icon-2xs` })
+            : (0, G.jsx)(V, { className: `icon-2xs` })),
+      (t[0] = r),
+      (t[1] = c),
+      (t[2] = f))
+    : (f = t[2]);
+  let p;
+  t[3] !== r || t[4] !== l || t[5] !== c
+    ? ((p = l
+        ? (0, G.jsx)(`span`, {
+            className: `max-w-40 truncate text-left whitespace-nowrap`,
+            children:
+              r === `cloud`
+                ? (0, G.jsx)(z, {
+                    id: `composer.footer.v2.cloudTab`,
+                    defaultMessage: `Cloud`,
+                    description: `Cloud mode label`,
+                  })
+                : r === `worktree` && c
+                  ? (0, G.jsx)(z, {
+                      id: `composer.mode.worktreeSegment`,
+                      defaultMessage: `Worktree`,
+                      description: `Worktree mode label for the segmented toggle`,
+                    })
+                  : (0, G.jsx)(z, {
+                      id: `composer.hotkeyWindow.modeDropdown.localProject`,
+                      defaultMessage: `Local project`,
+                      description: `Hotkey window overflow menu label for local project mode`,
+                    }),
+          })
+        : null),
+      (t[3] = r),
+      (t[4] = l),
+      (t[5] = c),
+      (t[6] = p))
+    : (p = t[6]);
+  let m;
+  t[7] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((m = (0, G.jsx)(S, { className: `icon-2xs text-token-input-placeholder-foreground` })),
+      (t[7] = m))
+    : (m = t[7]);
+  let h;
+  t[8] !== f || t[9] !== p
+    ? ((h = (0, G.jsxs)(G.Fragment, { children: [f, p, m] })), (t[8] = f), (t[9] = p), (t[10] = h))
+    : (h = t[10]);
+  let g = h;
+  if (o) {
+    let e;
+    t[11] === g
+      ? (e = t[12])
+      : ((e = (0, G.jsx)(`span`, {
+          children: (0, G.jsx)(s, {
+            size: `composerSm`,
+            color: `ghost`,
+            className: `gap-1 px-1.5`,
+            disabled: !0,
+            children: g,
+          }),
+        })),
+        (t[11] = g),
+        (t[12] = e));
+    let n;
+    return (
+      t[13] !== o || t[14] !== e
+        ? ((n = (0, G.jsx)(pe, { tooltipContent: o, children: e })),
+          (t[13] = o),
+          (t[14] = e),
+          (t[15] = n))
+        : (n = t[15]),
+      n
+    );
+  }
+  let _;
+  t[16] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((_ = (0, G.jsx)(z, {
+        id: `composer.hotkeyWindow.modeDropdown.tooltip`,
+        defaultMessage: `Select where to run the task`,
+        description: `Tooltip for the hotkey-window mode selector`,
+      })),
+      (t[16] = _))
+    : (_ = t[16]);
+  let v;
+  t[17] === g
+    ? (v = t[18])
+    : ((v = (0, G.jsx)(pe, {
+        tooltipContent: _,
+        children: (0, G.jsx)(s, {
+          size: `composerSm`,
+          color: `ghost`,
+          className: `gap-1 px-1.5`,
+          children: g,
+        }),
+      })),
+      (t[17] = g),
+      (t[18] = v));
+  let y = r === `local` ? _e : void 0,
+    b;
+  t[19] === i
+    ? (b = t[20])
+    : ((b = () => {
+        i(`local`);
+      }),
+      (t[19] = i),
+      (t[20] = b));
+  let ee;
+  t[21] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((ee = (0, G.jsx)(z, {
+        id: `composer.mode.local`,
+        defaultMessage: `Work locally`,
+        description: `Local mode label`,
+      })),
+      (t[21] = ee))
+    : (ee = t[21]);
+  let x;
+  t[22] !== y || t[23] !== b
+    ? ((x = (0, G.jsx)(R.Item, { LeftIcon: V, RightIcon: y, onSelect: b, children: ee })),
+      (t[22] = y),
+      (t[23] = b),
+      (t[24] = x))
+    : (x = t[24]);
+  let te = r === `cloud` ? _e : void 0,
+    C = !n,
+    w;
+  t[25] === i
+    ? (w = t[26])
+    : ((w = () => {
+        i(`cloud`);
+      }),
+      (t[25] = i),
+      (t[26] = w));
+  let T;
+  t[27] !== n || t[28] !== u
+    ? ((T = n
+        ? void 0
+        : u.formatMessage({
+            id: `composer.hotkeyWindow.modeDropdown.cloudUnavailable`,
+            defaultMessage: `Cloud is unavailable`,
+            description: `Tooltip for disabled hotkey-window Cloud mode`,
+          })),
+      (t[27] = n),
+      (t[28] = u),
+      (t[29] = T))
+    : (T = t[29]);
+  let ne;
+  t[30] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((ne = (0, G.jsx)(z, {
+        id: `composer.footer.v2.cloudTab`,
+        defaultMessage: `Cloud`,
+        description: `Cloud mode label`,
+      })),
+      (t[30] = ne))
+    : (ne = t[30]);
+  let E;
+  t[31] !== te || t[32] !== C || t[33] !== w || t[34] !== T
+    ? ((E = (0, G.jsx)(R.Item, {
+        LeftIcon: Ae,
+        RightIcon: te,
+        disabled: C,
+        onSelect: w,
+        tooltipText: T,
+        children: ne,
+      })),
+      (t[31] = te),
+      (t[32] = C),
+      (t[33] = w),
+      (t[34] = T),
+      (t[35] = E))
+    : (E = t[35]);
+  let re = r === `worktree` ? _e : void 0,
+    D;
+  t[36] === i
+    ? (D = t[37])
+    : ((D = () => {
+        i(`worktree`);
+      }),
+      (t[36] = i),
+      (t[37] = D));
+  let O = !c,
+    k;
+  t[38] !== u || t[39] !== c
+    ? ((k = c
+        ? void 0
+        : u.formatMessage({
+            id: `composer.hotkeyWindow.modeDropdown.localOnly`,
+            defaultMessage: `Initialize a git repo to run tasks in worktrees`,
+            description: `Tooltip for disabled hotkey-window worktree mode selector`,
+          })),
+      (t[38] = u),
+      (t[39] = c),
+      (t[40] = k))
+    : (k = t[40]);
+  let A;
+  t[41] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((A = (0, G.jsx)(z, {
+        id: `composer.mode.worktreeSegment`,
+        defaultMessage: `Worktree`,
+        description: `Worktree mode label for the segmented toggle`,
+      })),
+      (t[41] = A))
+    : (A = t[41]);
+  let j;
+  t[42] !== re || t[43] !== D || t[44] !== O || t[45] !== k
+    ? ((j = (0, G.jsx)(R.Item, {
+        LeftIcon: xe,
+        RightIcon: re,
+        onSelect: D,
+        disabled: O,
+        tooltipText: k,
+        children: A,
+      })),
+      (t[42] = re),
+      (t[43] = D),
+      (t[44] = O),
+      (t[45] = k),
+      (t[46] = j))
+    : (j = t[46]);
+  let M;
+  return (
+    t[47] !== x || t[48] !== E || t[49] !== j || t[50] !== v
+      ? ((M = (0, G.jsxs)(d, {
+          triggerButton: v,
+          contentWidth: `menuNarrow`,
+          children: [x, E, j],
+        })),
+        (t[47] = x),
+        (t[48] = E),
+        (t[49] = j),
+        (t[50] = v),
+        (t[51] = M))
+      : (M = t[51]),
+    M
+  );
+}
+var W,
+  G,
+  ut = e(() => {
+    ((W = L()), I(), b(), M(), F(), C(), ye(), Me(), be(), H(), (G = a()));
+  });
+function dt({ activeWorkspaceRoot: e, defaultToProjectless: t, prefillCwd: n }) {
+  return n ?? (t ? `~` : e);
+}
+function ft({ composerWorkspaceRoot: e, selectedRemoteProjectPath: t }) {
+  return t ?? (e === `~` ? null : e);
+}
+var pt = e(() => {
+  N();
+});
+function mt(e) {
+  let t = (0, ht.c)(22),
+    { composerMode: n, enabled: r, setComposerMode: i, showWorktree: a } = e,
+    o = le(),
+    s;
+  t[0] === o
+    ? (s = t[1])
+    : ((s = o.formatMessage({
+        id: `composer.mode.local`,
+        defaultMessage: `Work locally`,
+        description: `Local mode label`,
+      })),
+      (t[0] = o),
+      (t[1] = s));
+  let c;
+  t[2] === o
+    ? (c = t[3])
+    : ((c = o.formatMessage({
+        id: `composer.mode.localSlashCommand.description`,
+        defaultMessage: `Run this chat locally`,
+        description: `Description for the local mode slash command`,
+      })),
+      (t[2] = o),
+      (t[3] = c));
+  let l = r && n !== `local`,
+    u;
+  t[4] === i
+    ? (u = t[5])
+    : ((u = async () => {
+        i(`local`);
+      }),
+      (t[4] = i),
+      (t[5] = u));
+  let d = u,
+    f;
+  (t[6] !== s || t[7] !== c || t[8] !== l || t[9] !== d
+    ? ((f = {
+        id: `local`,
+        title: s,
+        description: c,
+        requiresEmptyComposer: !1,
+        Icon: V,
+        enabled: l,
+        onSelect: d,
+      }),
+      (t[6] = s),
+      (t[7] = c),
+      (t[8] = l),
+      (t[9] = d),
+      (t[10] = f))
+    : (f = t[10]),
+    Fe(f));
+  let p;
+  t[11] === o
+    ? (p = t[12])
+    : ((p = o.formatMessage({
+        id: `composer.mode.worktree`,
+        defaultMessage: `New worktree`,
+        description: `Worktree mode label`,
+      })),
+      (t[11] = o),
+      (t[12] = p));
+  let m;
+  t[13] === o
+    ? (m = t[14])
+    : ((m = o.formatMessage({
+        id: `composer.mode.worktreeSlashCommand.description`,
+        defaultMessage: `Run this chat in a new worktree`,
+        description: `Description for the worktree mode slash command`,
+      })),
+      (t[13] = o),
+      (t[14] = m));
+  let h = r && a && n !== `worktree`,
+    g;
+  t[15] === i
+    ? (g = t[16])
+    : ((g = async () => {
+        i(`worktree`);
+      }),
+      (t[15] = i),
+      (t[16] = g));
+  let _ = g,
+    v;
+  return (
+    t[17] !== _ || t[18] !== p || t[19] !== m || t[20] !== h
+      ? ((v = {
+          id: `worktree`,
+          title: p,
+          description: m,
+          requiresEmptyComposer: !1,
+          Icon: xe,
+          enabled: h,
+          onSelect: _,
+        }),
+        (t[17] = _),
+        (t[18] = p),
+        (t[19] = m),
+        (t[20] = h),
+        (t[21] = v))
+      : (v = t[21]),
+    Fe(v),
+    null
+  );
+}
+var ht,
+  gt = e(() => {
+    ((ht = L()), I(), Re(), be(), H());
+  });
+function _t(e) {
+  let t = (0, vt.c)(4),
+    { activationNonce: n, interactiveRegionRef: r, onInteractiveChange: i } = e,
+    a;
+  return (
+    t[0] !== n || t[1] !== r || t[2] !== i
+      ? ((a = {
+          activationNonce: n,
+          floatingElementSelectors: K,
+          includeInteractiveRegion: !0,
+          interactiveRegionRef: r,
+          onInteractiveChange: i,
+        }),
+        (t[0] = n),
+        (t[1] = r),
+        (t[2] = i),
+        (t[3] = a))
+      : (a = t[3]),
+    tt(a)
+  );
+}
+var vt,
+  K,
+  yt = e(() => {
+    ((vt = L()),
+      nt(),
+      (K = [
+        `[data-composer-overlay-floating-ui]`,
+        `[data-above-composer-portal] > *`,
+        `[data-radix-popper-content-wrapper] > *`,
+      ]));
+  }),
+  q,
+  bt,
+  J,
+  xt,
+  St,
+  Y = e(() => {
+    ((q = `_home_reiaa_1`),
+      (bt = `_homeShell_reiaa_20`),
+      (J = `_shellUnderlay_reiaa_21`),
+      (xt = `_composerSurface_reiaa_22`),
+      (St = { home: q, homeShell: bt, shellUnderlay: J, composerSurface: xt }));
+  });
+function X() {
+  let e = (0, At.c)(107),
+    t = l(ve);
+  st();
+  let n = le(),
+    r = c(),
+    a = ee(),
+    o = he(`505458`),
+    s = ie(),
+    { access: d } = Ke(),
+    { selectedRemoteProject: f } = w(),
+    m = (0, Z.useRef)(null),
+    g = (0, Z.useRef)(null),
+    _ = (0, Z.useRef)(null),
+    y = (0, Z.useRef)(null),
+    b = r.state,
+    S = b?.focusComposerNonce ?? null,
+    C = b?.prefillCwd ?? null,
+    { data: re, isLoading: O } = h(te),
+    k = u(E.hotkeyWindowProjectlessDefaultEnabled),
+    A = dt({
+      activeWorkspaceRoot: re?.roots[0] ?? null,
+      defaultToProjectless: k === !0,
+      prefillCwd: C,
+    }),
+    j = C == null ? f : null,
+    M = j == null && A === `~`,
+    N = j?.hostId ?? `local`,
+    P = p(N),
+    se = v(N),
+    F = ft({ composerWorkspaceRoot: A, selectedRemoteProjectPath: j?.remotePath ?? null }),
+    I = j == null && A == null && O,
+    ue = ae({ cwd: F, hostId: N, isLoading: I }),
+    { data: de, isLoading: pe } = D(F, P, `hotkey_window_home_page`),
+    L = de?.root ?? null,
+    R;
+  e[0] !== se || e[1] !== F || e[2] !== L || e[3] !== o
+    ? ((R = F != null && L != null && o && !fe(F, se)),
+      (e[0] = se),
+      (e[1] = F),
+      (e[2] = L),
+      (e[3] = o),
+      (e[4] = R))
+    : (R = e[4]);
+  let B = R,
+    _e = j == null && !O && !pe && L == null,
+    ye = M || _e,
+    be = {
+      fallbackMode: `local`,
+      isAvailabilityLoading: !ye && ((j == null && O) || pe || s),
+      isCloudAvailable: !ye,
+      isLocalAvailable: !0,
+      isWorktreeAvailable: B,
+    },
+    xe = x(Oe, ue),
+    V = h(Ce),
+    H = He(),
+    U = Pe({ ...be, composerMode: xe, cloudAccess: d }),
+    we = U === `worktree` && F != null,
+    Ee;
+  e[5] !== N || e[6] !== we
+    ? ((Ee = { enabled: we, hostId: N, source: `hotkey_window_worktree_source` }),
+      (e[5] = N),
+      (e[6] = we),
+      (e[7] = Ee))
+    : (Ee = e[7]);
+  let { gitRoot: De } = qe(F, Ee),
+    Ae = U === `worktree` ? F : null,
+    Me;
+  e[8] !== N || e[9] !== Ae
+    ? ((Me = { hostId: N, workspaceRoot: Ae }), (e[8] = N), (e[9] = Ae), (e[10] = Me))
+    : (Me = e[10]);
+  let {
+      environments: Ne,
+      isLoading: Fe,
+      error: Le,
+      resolvedConfigPath: Re,
+      updateSelection: ze,
+    } = Se(Me),
+    [Be, Ue] = (0, Z.useState)(!1),
+    [We, Ge] = (0, Z.useState)(null),
+    Xe;
+  e[11] === S
+    ? (Xe = e[12])
+    : ((Xe = { activationNonce: S, interactiveRegionRef: g, onInteractiveChange: Et }),
+      (e[11] = S),
+      (e[12] = Xe));
+  let Ze = _t(Xe),
+    $e;
+  (e[13] === Symbol.for(`react.memo_cache_sentinel`)
+    ? (($e = (e) => {
+        Ge(e.topInsetPx);
+      }),
+      (e[13] = $e))
+    : ($e = e[13]),
+    ge(`hotkey-window-home-composer-position-changed`, $e));
+  let tt;
+  e[14] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((tt = (e) => {
+        let t = m.current,
+          n = g.current;
+        if (!t || !n) return;
+        let r = kt(window.getComputedStyle(t).paddingBottom),
+          i = t.getBoundingClientRect(),
+          a = n.getBoundingClientRect(),
+          o = a.top;
+        if (e)
+          for (let e of jt)
+            for (let t of document.querySelectorAll(e))
+              o = Math.min(o, t.getBoundingClientRect().top);
+        let s = {
+            minimumComposerTopInsetPx: Math.max(0, Math.ceil(a.top - o)),
+            restingComposerTopInsetPx: Math.ceil(Math.max(0, i.height - a.height - r)),
+          },
+          c = y.current;
+        (c?.minimumComposerTopInsetPx === s.minimumComposerTopInsetPx &&
+          c.restingComposerTopInsetPx === s.restingComposerTopInsetPx) ||
+          ((y.current = s), T.hotkeyWindowHotkeys?.homeLayoutChanged(s));
+      }),
+      (e[14] = tt))
+    : (tt = e[14]);
+  let nt = tt,
+    rt;
+  (e[15] === S ? (rt = e[16]) : ((rt = [S]), (e[15] = S), (e[16] = rt)), (0, Z.useEffect)(Tt, rt));
+  let it, ct;
+  (e[17] === H
+    ? ((it = e[18]), (ct = e[19]))
+    : ((ct = () => {
+        let e = null,
+          t = () => {
+            e ??= window.requestAnimationFrame(() => {
+              ((e = null), nt(H));
+            });
+          },
+          n = typeof ResizeObserver > `u` ? null : new ResizeObserver(t);
+        return (
+          g.current != null && n?.observe(g.current),
+          t(),
+          () => {
+            (e != null && window.cancelAnimationFrame(e), n?.disconnect());
+          }
+        );
+      }),
+      (it = [H]),
+      (e[17] = H),
+      (e[18] = it),
+      (e[19] = ct)),
+    (0, Z.useLayoutEffect)(ct, it));
+  let W;
+  e[20] !== ue || e[21] !== t
+    ? ((W = (e) => {
+        Te(t, ue, e);
+      }),
+      (e[20] = ue),
+      (e[21] = t),
+      (e[22] = W))
+    : (W = e[22]);
+  let G = W,
+    ut;
+  e[23] === t
+    ? (ut = e[24])
+    : ((ut = (e) => {
+        ke(t, (t) => {
+          t.asyncThreadStartingState = e;
+        });
+      }),
+      (e[23] = t),
+      (e[24] = ut));
+  let pt = ut,
+    ht = wt,
+    gt;
+  e[25] !== r.hash || e[26] !== r.pathname || e[27] !== r.search || e[28] !== b || e[29] !== a
+    ? ((gt = (e) => {
+        let t = e ?? `~`,
+          n = { ...b, prefillCwd: t };
+        a({ pathname: r.pathname, search: r.search, hash: r.hash }, { replace: !0, state: n });
+      }),
+      (e[25] = r.hash),
+      (e[26] = r.pathname),
+      (e[27] = r.search),
+      (e[28] = b),
+      (e[29] = a),
+      (e[30] = gt))
+    : (gt = e[30]);
+  let vt = gt,
+    K;
+  e[31] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((K = (e) => {
+        _.current === e.pointerId &&
+          ((_.current = null),
+          e.currentTarget.hasPointerCapture?.(e.pointerId) &&
+            e.currentTarget.releasePointerCapture?.(e.pointerId),
+          T.hotkeyWindowHotkeys?.homeDragEnd());
+      }),
+      (e[31] = K))
+    : (K = e[31]);
+  let yt = K,
+    q;
+  e[32] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((q = (e) => {
+        e.button === 0 &&
+          (e.preventDefault(),
+          (_.current = e.pointerId),
+          e.currentTarget.setPointerCapture?.(e.pointerId),
+          T.hotkeyWindowHotkeys?.homeDragStart({
+            pointerWindowX: e.clientX,
+            pointerWindowY: e.clientY,
+          }));
+      }),
+      (e[32] = q))
+    : (q = e[32]);
+  let bt = q,
+    J;
+  e[33] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((J = (e) => {
+        _.current === e.pointerId && T.hotkeyWindowHotkeys?.homeDragMove();
+      }),
+      (e[33] = J))
+    : (J = e[33]);
+  let xt = J,
+    Y;
+  if (
+    e[34] !== U ||
+    e[35] !== F ||
+    e[36] !== j?.label ||
+    e[37] !== j?.remotePath ||
+    e[38] !== n ||
+    e[39] !== M
+  ) {
+    let t =
+      Ve(j?.remotePath ?? F, j?.label) ??
+      n.formatMessage({
+        id: `hotkeyWindow.home.placeholder.unknownProject`,
+        defaultMessage: `this project`,
+        description: `Fallback project name in the hotkey window composer placeholder`,
+      });
+    if (M) {
+      let t;
+      (e[41] === n
+        ? (t = e[42])
+        : ((t = n.formatMessage({
+            id: `hotkeyWindow.home.placeholder.projectless`,
+            defaultMessage: `Ask Codex anything locally`,
+            description: `Hotkey window placeholder for projectless local mode`,
+          })),
+          (e[41] = n),
+          (e[42] = t)),
+        (Y = t));
+    } else if (U === `cloud`) {
+      let t;
+      (e[43] === n
+        ? (t = e[44])
+        : ((t = n.formatMessage({
+            id: `hotkeyWindow.home.placeholder.cloud`,
+            defaultMessage: `Ask Codex anything in the cloud`,
+            description: `Hotkey window placeholder for cloud mode`,
+          })),
+          (e[43] = n),
+          (e[44] = t)),
+        (Y = t));
+    } else
+      Y =
+        U === `worktree`
+          ? n.formatMessage(
+              {
+                id: `hotkeyWindow.home.placeholder.worktree`,
+                defaultMessage: `Ask Codex anything in a worktree in {project}`,
+                description: `Hotkey window placeholder for worktree mode`,
+              },
+              { project: t },
+            )
+          : n.formatMessage(
+              {
+                id: `hotkeyWindow.home.placeholder.local`,
+                defaultMessage: `Ask Codex anything locally in {project}`,
+                description: `Hotkey window placeholder for local mode`,
+              },
+              { project: t },
+            );
+    ((e[34] = U),
+      (e[35] = F),
+      (e[36] = j?.label),
+      (e[37] = j?.remotePath),
+      (e[38] = n),
+      (e[39] = M),
+      (e[40] = Y));
+  } else Y = e[40];
+  let X;
+  if (I) {
+    let t;
+    (e[45] === n
+      ? (t = e[46])
+      : ((t = n.formatMessage({
+          id: `hotkeyWindow.home.taskMenu.startIn.loadingTooltip`,
+          defaultMessage: `Loading project`,
+          description: `Tooltip shown when the hotkey-window project is still loading`,
+        })),
+        (e[45] = n),
+        (e[46] = t)),
+      (X = t));
+  } else if (M) {
+    let t;
+    (e[47] === n
+      ? (t = e[48])
+      : ((t = n.formatMessage({
+          id: `hotkeyWindow.home.taskMenu.startIn.projectlessTooltip`,
+          defaultMessage: `Projectless chats run locally`,
+          description: `Tooltip shown when the hotkey-window start-in control is disabled for projectless chats`,
+        })),
+        (e[47] = n),
+        (e[48] = t)),
+      (X = t));
+  } else if (_e) {
+    let t;
+    (e[49] === n
+      ? (t = e[50])
+      : ((t = n.formatMessage({
+          id: `hotkeyWindow.home.taskMenu.startIn.disabledTooltip`,
+          defaultMessage: `Initialize a git repo to start in cloud or worktree mode`,
+          description: `Tooltip shown when the hotkey-window start-in control is disabled because the project is not a git repo`,
+        })),
+        (e[49] = n),
+        (e[50] = t)),
+      (X = t));
+  }
+  let Mt;
+  e[51] !== V ||
+  e[52] !== P ||
+  e[53] !== U ||
+  e[54] !== F ||
+  e[55] !== L ||
+  e[56] !== pt ||
+  e[57] !== De
+    ? ((Mt =
+        U === `worktree`
+          ? (0, Q.jsx)(at, {
+              startingState: V,
+              setStartingState: pt,
+              hostConfig: P,
+              gitRootOverride: De ?? F,
+              branchSource: `worktree`,
+            })
+          : L == null
+            ? null
+            : (0, Q.jsx)(ot, {
+                gitRoot: L,
+                hostConfig: P,
+                localConversationId: null,
+                shouldShow: !0,
+              })),
+      (e[51] = V),
+      (e[52] = P),
+      (e[53] = U),
+      (e[54] = F),
+      (e[55] = L),
+      (e[56] = pt),
+      (e[57] = De),
+      (e[58] = Mt))
+    : (Mt = e[58]);
+  let Nt = Mt,
+    Pt;
+  e[59] === n
+    ? (Pt = e[60])
+    : ((Pt = n.formatMessage({
+        id: `hotkeyWindow.home.taskMenu.label`,
+        defaultMessage: `Task settings`,
+        description: `Accessible label for the hotkey window task settings menu`,
+      })),
+      (e[59] = n),
+      (e[60] = Pt));
+  let Ft = Pt,
+    It,
+    Lt;
+  e[61] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((It = i(St.home, `relative h-full w-full overflow-hidden bg-transparent pb-1`)),
+      (Lt = (0, Q.jsx)(Ye, {})),
+      (e[61] = It),
+      (e[62] = Lt))
+    : ((It = e[61]), (Lt = e[62]));
+  let Rt = Ze && `no-drag`,
+    zt;
+  e[63] === Rt
+    ? (zt = e[64])
+    : ((zt = i(St.homeShell, `absolute inset-x-1 bottom-1 px-[15px] pb-[13px] pt-[17px]`, Rt)),
+      (e[63] = Rt),
+      (e[64] = zt));
+  let Bt;
+  e[65] === We
+    ? (Bt = e[66])
+    : ((Bt = We == null ? void 0 : { bottom: `auto`, top: We }), (e[65] = We), (e[66] = Bt));
+  let Vt;
+  e[67] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((Vt = (0, Q.jsx)(`div`, {
+        className: St.shellUnderlay,
+        "aria-hidden": `true`,
+        onLostPointerCapture: yt,
+        onPointerCancel: yt,
+        onPointerDown: bt,
+        onPointerMove: xt,
+        onPointerUp: yt,
+      })),
+      (e[67] = Vt))
+    : (Vt = e[67]);
+  let Ht = !M && !I,
+    Ut;
+  e[68] !== U || e[69] !== G || e[70] !== B || e[71] !== Ht
+    ? ((Ut = (0, Q.jsx)(mt, { composerMode: U, enabled: Ht, setComposerMode: G, showWorktree: B })),
+      (e[68] = U),
+      (e[69] = G),
+      (e[70] = B),
+      (e[71] = Ht),
+      (e[72] = Ut))
+    : (Ut = e[72]);
+  let $;
+  e[73] === Ft
+    ? ($ = e[74])
+    : (($ = (0, Q.jsx)(ce, {
+        asChild: !0,
+        children: (0, Q.jsx)(je, { label: Ft, size: `composer` }),
+      })),
+      (e[73] = Ft),
+      (e[74] = $));
+  let Wt;
+  e[75] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((Wt = (0, Q.jsx)(z, {
+        id: `hotkeyWindow.home.taskMenu.project`,
+        defaultMessage: `Project`,
+        description: `Label for the hotkey window project row`,
+      })),
+      (e[75] = Wt))
+    : (Wt = e[75]);
+  let Gt = M ? null : (j?.id ?? F ?? void 0),
+    Kt;
+  e[76] !== vt || e[77] !== Gt
+    ? ((Kt = (0, Q.jsx)(Ot, {
+        label: Wt,
+        control: (0, Q.jsx)(Qe, {
+          activeProjectIdOverride: Gt,
+          allowRemoteProjects: !1,
+          onWorkspaceRootSelected: vt,
+        }),
+      })),
+      (e[76] = vt),
+      (e[77] = Gt),
+      (e[78] = Kt))
+    : (Kt = e[78]);
+  let qt;
+  e[79] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((qt = (0, Q.jsx)(z, {
+        id: `hotkeyWindow.home.taskMenu.startIn`,
+        defaultMessage: `Start in`,
+        description: `Label for the hotkey window mode row on the home page`,
+      })),
+      (e[79] = qt))
+    : (qt = e[79]);
+  let Jt = be.isCloudAvailable && d === `enabled`,
+    Yt;
+  e[80] !== U || e[81] !== G || e[82] !== B || e[83] !== X || e[84] !== Jt
+    ? ((Yt = (0, Q.jsx)(Ot, {
+        label: qt,
+        control: (0, Q.jsx)(lt, {
+          canUseCloud: Jt,
+          composerMode: U,
+          setComposerMode: G,
+          showLabel: !0,
+          disabledTooltipText: X,
+          showWorktree: B,
+        }),
+      })),
+      (e[80] = U),
+      (e[81] = G),
+      (e[82] = B),
+      (e[83] = X),
+      (e[84] = Jt),
+      (e[85] = Yt))
+    : (Yt = e[85]);
+  let Xt;
+  e[86] !== U || e[87] !== Le || e[88] !== Fe || e[89] !== Re || e[90] !== ze || e[91] !== Ne
+    ? ((Xt =
+        U === `worktree`
+          ? (0, Q.jsx)(Ot, {
+              label: (0, Q.jsx)(z, {
+                id: `hotkeyWindow.home.taskMenu.environment`,
+                defaultMessage: `Environment`,
+                description: `Label for the hotkey window environment row`,
+              }),
+              control: (0, Q.jsx)(et, {
+                environments: Ne,
+                isLoading: Fe,
+                hasError: Le != null,
+                selectedConfigPath: Re,
+                onSelectConfigPath: ze,
+                onOpenSettings: Ct,
+              }),
+            })
+          : null),
+      (e[86] = U),
+      (e[87] = Le),
+      (e[88] = Fe),
+      (e[89] = Re),
+      (e[90] = ze),
+      (e[91] = Ne),
+      (e[92] = Xt))
+    : (Xt = e[92]);
+  let Zt;
+  e[93] === Nt
+    ? (Zt = e[94])
+    : ((Zt = Nt
+        ? (0, Q.jsx)(Ot, {
+            label: (0, Q.jsx)(z, {
+              id: `hotkeyWindow.home.taskMenu.branch`,
+              defaultMessage: `Branch`,
+              description: `Label for the hotkey window branch row`,
+            }),
+            control: Nt,
+          })
+        : null),
+      (e[93] = Nt),
+      (e[94] = Zt));
+  let Qt;
+  e[95] === U
+    ? (Qt = e[96])
+    : ((Qt =
+        U === `cloud`
+          ? null
+          : (0, Q.jsx)(Ie, { conversationId: null, hostId: ne, DropdownContainer: Dt })),
+      (e[95] = U),
+      (e[96] = Qt));
+  let $t;
+  e[97] !== Kt || e[98] !== Yt || e[99] !== Xt || e[100] !== Zt || e[101] !== Qt
+    ? (($t = (0, Q.jsx)(me, {
+        align: `center`,
+        side: `top`,
+        sideOffset: 10,
+        className: `no-drag w-auto min-w-[320px] rounded-3xl p-0`,
+        children: (0, Q.jsxs)(`div`, {
+          className: `flex flex-col gap-4 p-3`,
+          children: [Kt, Yt, Xt, Zt, Qt],
+        }),
+      })),
+      (e[97] = Kt),
+      (e[98] = Yt),
+      (e[99] = Xt),
+      (e[100] = Zt),
+      (e[101] = Qt),
+      (e[102] = $t))
+    : ($t = e[102]);
+  let en;
+  return (
+    e[103] !== Be || e[104] !== $ || e[105] !== $t
+      ? ((en = (0, Q.jsxs)(oe, { open: Be, onOpenChange: Ue, children: [$, $t] })),
+        (e[103] = Be),
+        (e[104] = $),
+        (e[105] = $t),
+        (e[106] = en))
+      : (en = e[106]),
+    (0, Q.jsxs)(`div`, {
+      ref: m,
+      className: It,
+      children: [
+        Lt,
+        (0, Q.jsxs)(`div`, {
+          ref: g,
+          className: zt,
+          style: Bt,
+          children: [
+            Vt,
+            Ut,
+            (0, Q.jsx)(`div`, {
+              className: `no-drag relative`,
+              children: (0, Q.jsx)(Je, {
+                showWorkspaceDropdownInFooter: !1,
+                showExternalFooter: !1,
+                surfaceClassName: St.composerSurface,
+                composerModeAvailability: be,
+                placeholderText: Y,
+                defaultCwd: M ? `~` : void 0,
+                hotkeyWindowHomeFooterControls: en,
+                onLocalConversationCreated: ht,
+              }),
+            }),
+          ],
+        }),
+      ],
+    })
+  );
+}
+function Ct() {
+  ue.dispatchMessage(`show-settings`, { section: `local-environments` });
+}
+function wt(e) {
+  T.hotkeyWindowHotkeys?.open({ path: y(e) });
+}
+function Tt() {
+  Ee();
+}
+function Et(e) {
+  T.hotkeyWindowHotkeys?.homePointerInteractionChanged({ isInteractive: e });
+}
+function Dt(e) {
+  let t = (0, At.c)(3),
+    { children: n } = e,
+    r;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((r = (0, Q.jsx)(z, {
+        id: `hotkeyWindow.home.taskMenu.permissions`,
+        defaultMessage: `Permissions`,
+        description: `Label for the hotkey window permissions row`,
+      })),
+      (t[0] = r))
+    : (r = t[0]);
+  let i;
+  return (
+    t[1] === n
+      ? (i = t[2])
+      : ((i = (0, Q.jsx)(Ot, { label: r, control: n })), (t[1] = n), (t[2] = i)),
+    i
+  );
+}
+function Ot(e) {
+  let t = (0, At.c)(7),
+    { label: n, control: r } = e,
+    i;
+  t[0] === n
+    ? (i = t[1])
+    : ((i = (0, Q.jsx)(`div`, {
+        className: `shrink-0 text-sm font-medium text-token-foreground`,
+        children: n,
+      })),
+      (t[0] = n),
+      (t[1] = i));
+  let a;
+  t[2] === r
+    ? (a = t[3])
+    : ((a = (0, Q.jsx)(`div`, { className: `min-w-0`, children: r })), (t[2] = r), (t[3] = a));
+  let o;
+  return (
+    t[4] !== i || t[5] !== a
+      ? ((o = (0, Q.jsxs)(`div`, {
+          className: `flex items-center justify-between gap-4`,
+          children: [i, a],
+        })),
+        (t[4] = i),
+        (t[5] = a),
+        (t[6] = o))
+      : (o = t[6]),
+    o
+  );
+}
+function kt(e) {
+  return Number.parseFloat(e) || 0;
+}
+var At, Z, Q, jt;
+e(() => {
+  ((At = L()),
+    A(),
+    n(),
+    N(),
+    (Z = t(g(), 1)),
+    I(),
+    de(),
+    We(),
+    Ne(),
+    se(),
+    rt(),
+    Ue(),
+    it(),
+    Be(),
+    B(),
+    De(),
+    we(),
+    ut(),
+    Ze(),
+    Le(),
+    Ge(),
+    $e(),
+    m(),
+    _(),
+    U(),
+    P(),
+    o(),
+    j(),
+    r(),
+    re(),
+    k(),
+    O(),
+    f(),
+    Xe(),
+    ze(),
+    pt(),
+    gt(),
+    ct(),
+    yt(),
+    Y(),
+    (Q = a()),
+    (jt = [`[data-composer-overlay-floating-ui]`, `[data-above-composer-portal] > *`]));
+})();
+export { X as HotkeyWindowHomePage };
+//# sourceMappingURL=hotkey-window-home-page.js.map

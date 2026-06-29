@@ -1,2 +1,42 @@
-import{n as e,s as t}from"./rolldown-runtime-Czos8NxU.js";import{$P as n,AB as r,FB as i,Iw as a,JV as o,QP as s,hb as c,kE as l,qV as u,ub as d}from"./app-initial~app-main~remote-conversation-page~plugin-detail-page~new-thread-panel-page~appg~ijdupmx5-CdYgxe-b.js";function f(e,t){let n=(0,p.c)(5),r=t===void 0?!0:t,o=i(s),l=(0,m.useRef)(null),u,d;n[0]!==r||n[1]!==e||n[2]!==o?(u=()=>{!r||l.current===e||(l.current=e,c(o,e,a.CODEX_ONBOARDING_WIZARD_ACTION_VIEWED))},d=[r,e,o],n[0]=r,n[1]=e,n[2]=o,n[3]=u,n[4]=d):(u=n[3],d=n[4]),(0,m.useEffect)(u,d)}var p,m,h=e((()=>{p=u(),l(),r(),m=t(o(),1),d(),n()}));export{f as n,h as t};
+import { n as e, s as t } from "./rolldown-runtime.js";
+import {
+  $P as n,
+  AB as r,
+  FB as i,
+  Iw as a,
+  JV as o,
+  QP as s,
+  hb as c,
+  kE as l,
+  qV as u,
+  ub as d,
+} from "./app-initial~app-main~remote-conversation-page~plugin-detail-page~new-thread-panel-page~appg~ijdupmx5.js";
+function f(e, t) {
+  let n = (0, p.c)(5),
+    r = t === void 0 ? !0 : t,
+    o = i(s),
+    l = (0, m.useRef)(null),
+    u,
+    d;
+  (n[0] !== r || n[1] !== e || n[2] !== o
+    ? ((u = () => {
+        !r ||
+          l.current === e ||
+          ((l.current = e), c(o, e, a.CODEX_ONBOARDING_WIZARD_ACTION_VIEWED));
+      }),
+      (d = [r, e, o]),
+      (n[0] = r),
+      (n[1] = e),
+      (n[2] = o),
+      (n[3] = u),
+      (n[4] = d))
+    : ((u = n[3]), (d = n[4])),
+    (0, m.useEffect)(u, d));
+}
+var p,
+  m,
+  h = e(() => {
+    ((p = u()), l(), r(), (m = t(o(), 1)), d(), n());
+  });
+export { f as n, h as t };
 //# sourceMappingURL=setup-codex-wizard-step-view-BS-WCe9O.js.map

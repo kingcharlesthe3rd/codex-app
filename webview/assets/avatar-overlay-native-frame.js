@@ -1,0 +1,3192 @@
+import { n as e, s as t } from "./rolldown-runtime.js";
+import {
+  $P as n,
+  AB as r,
+  AN as i,
+  AP as a,
+  BP as o,
+  BV as s,
+  DN as c,
+  FB as l,
+  JV as u,
+  MP as d,
+  ON as f,
+  QP as p,
+  RP as m,
+  SP as h,
+  TM as g,
+  VP as _,
+  az as v,
+  bF as y,
+  cM as b,
+  cP as x,
+  iF as S,
+  kN as C,
+  lF as w,
+  mP as T,
+  nz as E,
+  oz as D,
+  pP as O,
+  qV as k,
+  rF as A,
+  sF as j,
+  uM as M,
+  uP as N,
+  wM as P,
+  wP as ee,
+  zP as F,
+} from "./app-initial~app-main~remote-conversation-page~plugin-detail-page~new-thread-panel-page~appg~ijdupmx5.js";
+import { Xn as I, Yn as L } from "./app-initial~app-main~automations-page.js";
+import { n as te, t as R } from "./avatar-mascot-button.js";
+import {
+  O as z,
+  k as B,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~new-thread-panel-page~o~bj5tp28r.js";
+import {
+  cl as V,
+  sl as ne,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~new-~kvpgbdy1.js";
+import {
+  Fm as H,
+  Gm as re,
+  Km as U,
+  Lm as ie,
+  Mm as W,
+  Pm as G,
+  _m as ae,
+  gm as oe,
+  hm as se,
+  mm as K,
+  pm as ce,
+  ym as q,
+} from "./app-initial~app-main~onboarding-page~profile.js";
+import {
+  ai as le,
+  ci as ue,
+  ii as de,
+  li as fe,
+  oi as pe,
+  si as J,
+} from "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~appgen-library-page~hot~djo67r4n.js";
+import { n as Y, t as me } from "./global-dictation-orb.js";
+import {
+  _ as he,
+  c as ge,
+  d as _e,
+  f as ve,
+  g as ye,
+  h as be,
+  l as xe,
+  m as Se,
+  n as Ce,
+  o as we,
+  t as Te,
+  v as Ee,
+  y as De,
+} from "./avatar-overlay-pill-dismiss-button.js";
+var Oe,
+  ke,
+  Ae = e(() => {
+    (t(u()),
+      (Oe = s()),
+      (ke = (e) =>
+        (0, Oe.jsx)(`svg`, {
+          width: 28,
+          height: 28,
+          viewBox: `0 0 28 28`,
+          fill: `none`,
+          xmlns: `http://www.w3.org/2000/svg`,
+          ...e,
+          children: (0, Oe.jsx)(`path`, {
+            d: `M12.6961 20.1078C12.9614 20.1078 13.1788 20.0232 13.348 19.8539C13.5173 19.6846 13.602 19.4765 13.602 19.2294V16.3196H13.8216C15.2948 16.3196 16.5186 16.5484 17.4931 17.0059C18.4676 17.4634 19.2843 18.3098 19.9431 19.5451C20.0712 19.7922 20.2176 19.9477 20.3824 20.0118C20.5471 20.0758 20.7118 20.1078 20.8765 20.1078C21.0778 20.1078 21.2608 20.0232 21.4255 19.8539C21.5902 19.6846 21.6725 19.4353 21.6725 19.1059C21.6725 17.2301 21.3958 15.6105 20.8422 14.2471C20.2886 12.8837 19.433 11.8337 18.2755 11.0971C17.118 10.3605 15.6333 9.99216 13.8216 9.99216H13.602V7.09608C13.602 6.84902 13.5173 6.63399 13.348 6.45098C13.1788 6.26797 12.9569 6.17647 12.6824 6.17647C12.4993 6.17647 12.3346 6.21993 12.1882 6.30686C12.0418 6.39379 11.8725 6.52876 11.6804 6.71176L5.6549 12.3255C5.5085 12.4627 5.40784 12.6 5.35294 12.7373C5.29804 12.8745 5.27059 13.0118 5.27059 13.149C5.27059 13.2771 5.29804 13.4098 5.35294 13.5471C5.40784 13.6843 5.5085 13.8216 5.6549 13.9588L11.6804 19.6137C11.8542 19.7784 12.0212 19.902 12.1814 19.9843C12.3415 20.0667 12.5131 20.1078 12.6961 20.1078Z`,
+            fill: `currentColor`,
+          }),
+        })));
+  }),
+  X,
+  je,
+  Me = e(() => {
+    (t(u()),
+      (X = s()),
+      (je = (e) =>
+        (0, X.jsxs)(`svg`, {
+          width: 28,
+          height: 28,
+          viewBox: `0 0 28 28`,
+          fill: `none`,
+          xmlns: `http://www.w3.org/2000/svg`,
+          overflow: `visible`,
+          ...e,
+          children: [
+            (0, X.jsx)(`defs`, {
+              children: (0, X.jsxs)(`filter`, {
+                id: `activity-pill-spinner-inner-shadow`,
+                x: `-5.4%`,
+                y: `-5.4%`,
+                width: `110.7%`,
+                height: `110.7%`,
+                children: [
+                  (0, X.jsx)(`feGaussianBlur`, {
+                    stdDeviation: 1,
+                    in: `SourceAlpha`,
+                    result: `shadow-blur-1`,
+                  }),
+                  (0, X.jsx)(`feComposite`, {
+                    in: `shadow-blur-1`,
+                    in2: `SourceAlpha`,
+                    operator: `arithmetic`,
+                    k2: -1,
+                    k3: 1,
+                    result: `shadow-inner-1`,
+                  }),
+                  (0, X.jsx)(`feColorMatrix`, {
+                    in: `shadow-inner-1`,
+                    values: `0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.04 0`,
+                    result: `shadow-1`,
+                  }),
+                  (0, X.jsx)(`feGaussianBlur`, {
+                    stdDeviation: 1,
+                    in: `SourceAlpha`,
+                    result: `shadow-blur-2`,
+                  }),
+                  (0, X.jsx)(`feComposite`, {
+                    in: `shadow-blur-2`,
+                    in2: `SourceAlpha`,
+                    operator: `arithmetic`,
+                    k2: -1,
+                    k3: 1,
+                    result: `shadow-inner-2`,
+                  }),
+                  (0, X.jsx)(`feColorMatrix`, {
+                    in: `shadow-inner-2`,
+                    values: `0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.03 0`,
+                    result: `shadow-2`,
+                  }),
+                  (0, X.jsx)(`feGaussianBlur`, {
+                    stdDeviation: 1,
+                    in: `SourceAlpha`,
+                    result: `shadow-blur-3`,
+                  }),
+                  (0, X.jsx)(`feOffset`, { dy: 1, in: `shadow-blur-3`, result: `shadow-offset-3` }),
+                  (0, X.jsx)(`feComposite`, {
+                    in: `shadow-offset-3`,
+                    in2: `SourceAlpha`,
+                    operator: `arithmetic`,
+                    k2: -1,
+                    k3: 1,
+                    result: `shadow-inner-3`,
+                  }),
+                  (0, X.jsx)(`feColorMatrix`, {
+                    in: `shadow-inner-3`,
+                    values: `0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.02 0`,
+                    result: `shadow-3`,
+                  }),
+                  (0, X.jsxs)(`feMerge`, {
+                    children: [
+                      (0, X.jsx)(`feMergeNode`, { in: `shadow-1` }),
+                      (0, X.jsx)(`feMergeNode`, { in: `shadow-2` }),
+                      (0, X.jsx)(`feMergeNode`, { in: `shadow-3` }),
+                    ],
+                  }),
+                ],
+              }),
+            }),
+            (0, X.jsxs)(`g`, {
+              transform: `rotate(-1 14 14)`,
+              children: [
+                (0, X.jsx)(`path`, {
+                  d: `M14 0C21.732 0 28 6.268 28 14C28 21.732 21.732 28 14 28C6.268 28 0 21.732 0 14C0 6.268 6.268 0 14 0ZM14 4.375C8.684 4.375 4.375 8.684 4.375 14C4.375 19.316 8.684 23.625 14 23.625C19.316 23.625 23.625 19.316 23.625 14C23.625 8.684 19.316 4.375 14 4.375Z`,
+                  fill: `black`,
+                  fillOpacity: 0.05,
+                }),
+                (0, X.jsx)(`path`, {
+                  d: `M14 0C21.732 0 28 6.268 28 14C28 21.732 21.732 28 14 28C6.268 28 0 21.732 0 14C0 6.268 6.268 0 14 0ZM14 4.375C8.684 4.375 4.375 8.684 4.375 14C4.375 19.316 8.684 23.625 14 23.625C19.316 23.625 23.625 19.316 23.625 14C23.625 8.684 19.316 4.375 14 4.375Z`,
+                  fill: `black`,
+                  filter: `url(#activity-pill-spinner-inner-shadow)`,
+                }),
+                (0, X.jsx)(`path`, {
+                  d: `M14 0C21.732 0 28 6.268 28 14C28 21.732 21.732 28 14 28C10.218 28 6.786 26.5 4.266 24.063C3.797 23.662 3.5 23.066 3.5 22.4C3.5 21.192 4.479 20.213 5.688 20.213C6.269 20.213 6.797 20.439 7.189 20.809C8.935 22.547 11.342 23.625 14 23.625C19.316 23.625 23.625 19.316 23.625 14C23.625 8.69 19.325 4.385 14.018 4.375H14C12.792 4.375 11.813 3.396 11.813 2.188C11.813 0.979 12.792 0 14 0Z`,
+                  fill: `black`,
+                  fillOpacity: 0.498556,
+                }),
+              ],
+            }),
+          ],
+        })));
+  });
+function Ne({ intl: e, latestTurnItems: t, notification: n, notificationCount: r = 1 }) {
+  let i = ye(n),
+    a = e.formatMessage(i.labelMessage),
+    o = (t == null ? null : _e(t, e)) ?? n.body ?? e.formatMessage(i.fallbackBodyMessage),
+    s = n.waitingRequest == null ? o : Se(n.waitingRequest, e),
+    c = s.replace(/[.?!]+$/, ``),
+    l = n.waitingRequest?.kind === `patch` ? n.waitingRequest : null;
+  return {
+    actionAriaLabel: `${n.title}. ${s === a ? a : `${a}. ${c}`}. ${e.formatMessage(Z.openNotification)}`,
+    collapseNotificationAriaLabel: e.formatMessage(Z.collapseNotification, { title: n.title }),
+    dismissNotificationAriaLabel: e.formatMessage(Z.dismissNotification, { title: n.title }),
+    expandNotificationAriaLabel: e.formatMessage(Z.expandNotification, { title: n.title }),
+    expandNotificationStackAriaLabel: e.formatMessage(Z.expandNotificationStack, { count: r }),
+    notificationListAriaLabel: e.formatMessage(Z.notificationList),
+    patchSummary:
+      l == null
+        ? null
+        : {
+            additions:
+              l.additions > 0
+                ? e.formatMessage(Z.compactPatchAdditions, { count: l.additions })
+                : null,
+            deletions:
+              l.deletions > 0
+                ? e.formatMessage(Z.compactPatchDeletions, { count: l.deletions })
+                : null,
+            fileCount: e.formatMessage(Z.compactPatchFileCount, { count: l.fileCount }),
+          },
+    statusIconAriaLabel:
+      n.waitingRequest?.kind === `question` ? e.formatMessage(Z.questionStatusIcon) : a,
+    subtitle: o,
+  };
+}
+var Z,
+  Pe = e(() => {
+    (S(),
+      he(),
+      ve(),
+      be(),
+      (Z = A({
+        collapseNotification: {
+          id: `avatarOverlay.collapseNotification`,
+          defaultMessage: `Collapse {title}`,
+          description: `Accessible label for collapsing a floating avatar notification row`,
+        },
+        compactPatchAdditions: {
+          id: `avatarOverlay.compactPatchAdditions`,
+          defaultMessage: `+{count}`,
+          description: `Compact additions count for a patch request in the floating avatar notification tray`,
+        },
+        compactPatchDeletions: {
+          id: `avatarOverlay.compactPatchDeletions`,
+          defaultMessage: `-{count}`,
+          description: `Compact deletions count for a patch request in the floating avatar notification tray`,
+        },
+        compactPatchFileCount: {
+          id: `avatarOverlay.compactPatchFileCount`,
+          defaultMessage: `{count, plural, one {# file} other {# files}}`,
+          description: `Compact file count for a patch request in the floating avatar notification tray`,
+        },
+        dismissNotification: {
+          id: `avatarOverlay.dismissNotification`,
+          defaultMessage: `Dismiss {title}`,
+          description: `Accessible label for dismissing a notification in the floating avatar notification tray`,
+        },
+        expandNotification: {
+          id: `avatarOverlay.expandNotification`,
+          defaultMessage: `Expand {title}`,
+          description: `Accessible label for expanding a floating avatar notification row`,
+        },
+        expandNotificationStack: {
+          id: `avatarOverlay.expandNotificationStack`,
+          defaultMessage: `Expand activity stack, {count, plural, one {# item} other {# items}}`,
+          description: `Accessible label for expanding grouped floating avatar notifications`,
+        },
+        notificationList: {
+          id: `avatarOverlay.notificationList`,
+          defaultMessage: `Activity notifications`,
+          description: `Accessible label for the list of floating avatar activity notifications`,
+        },
+        openNotification: {
+          id: `avatarOverlay.openNotification`,
+          defaultMessage: `Open notification`,
+          description: `Accessible label for an actionable row in the floating avatar notification tray`,
+        },
+        questionStatusIcon: {
+          id: `avatarOverlay.questionStatusIcon`,
+          defaultMessage: `Question`,
+          description: `Accessible label for a floating avatar notification waiting on a question answer`,
+        },
+      })));
+  });
+function Fe(e) {
+  return e === `primary` ? `activity-primary` : `activity-secondary`;
+}
+var Ie,
+  Le = e(() => {
+    Ie = [`activity-primary`, `activity-secondary`, `activity-tertiary`];
+  });
+function Re(e) {
+  let t = (0, Ue.c)(25),
+    {
+      children: n,
+      className: r,
+      nativeMaterialAttached: i,
+      nativePresentationOwnsMotion: o,
+      nativeSurfaceId: s,
+      onFocusCapture: c,
+      onPointerEnter: l,
+      onPointerLeave: u,
+      onUpdate: d,
+      role: f,
+    } = e,
+    p;
+  t[0] === o ? (p = t[1]) : ((p = o ? void 0 : { opacity: 1 }), (t[0] = o), (t[1] = p));
+  let m;
+  t[2] === o ? (m = t[3]) : ((m = o ? !1 : { opacity: 0 }), (t[2] = o), (t[3] = m));
+  let h;
+  t[4] === o
+    ? (h = t[5])
+    : ((h = o ? { duration: 0 } : { duration: 0.18, ease: `easeOut` }), (t[4] = o), (t[5] = h));
+  let g;
+  t[6] !== r || t[7] !== i ? ((g = He(i, r)), (t[6] = r), (t[7] = i), (t[8] = g)) : (g = t[8]);
+  let _;
+  t[9] !== s || t[10] !== f
+    ? ((_ = s ?? Fe(f)), (t[9] = s), (t[10] = f), (t[11] = _))
+    : (_ = t[11]);
+  let v;
+  t[12] !== n || t[13] !== g || t[14] !== _
+    ? ((v = (0, We.jsx)(Ve, { className: g, cornerRadius: 27, nativeSurfaceId: _, children: n })),
+      (t[12] = n),
+      (t[13] = g),
+      (t[14] = _),
+      (t[15] = v))
+    : (v = t[15]);
+  let y;
+  return (
+    t[16] !== c ||
+    t[17] !== l ||
+    t[18] !== u ||
+    t[19] !== d ||
+    t[20] !== p ||
+    t[21] !== m ||
+    t[22] !== h ||
+    t[23] !== v
+      ? ((y = (0, We.jsx)(a.div, {
+          animate: p,
+          initial: m,
+          className: `group no-drag relative z-10 w-full text-left`,
+          "data-avatar-overlay-measure": `notification-tray-row`,
+          role: `listitem`,
+          transition: h,
+          onFocusCapture: c,
+          onPointerEnter: l,
+          onPointerLeave: u,
+          onUpdate: d,
+          children: v,
+        })),
+        (t[16] = c),
+        (t[17] = l),
+        (t[18] = u),
+        (t[19] = d),
+        (t[20] = p),
+        (t[21] = m),
+        (t[22] = h),
+        (t[23] = v),
+        (t[24] = y))
+      : (y = t[24]),
+    y
+  );
+}
+function ze(e) {
+  let t = (0, Ue.c)(17),
+    { nativeMaterialAttached: n, notificationCount: r } = e,
+    i = E[1],
+    a = E[2],
+    o;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((o = D({ height: 54, left: 0, top: 0, width: 345 }, i)), (t[0] = o))
+    : (o = t[0]);
+  let s = o,
+    c;
+  t[1] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((c = D({ height: 54, left: 0, top: 0, width: 345 }, a)), (t[1] = c))
+    : (c = t[1]);
+  let l = c,
+    u;
+  t[2] === r ? (u = t[3]) : ((u = v(r)), (t[2] = r), (t[3] = u));
+  let d;
+  t[4] === u ? (d = t[5]) : ((d = { height: u }), (t[4] = u), (t[5] = d));
+  let f;
+  t[6] !== n || t[7] !== r
+    ? ((f =
+        r > 2
+          ? (0, We.jsx)(`div`, {
+              className: He(n, `absolute rounded-[27px]`),
+              "data-avatar-overlay-native-corner-radius": 27,
+              "data-avatar-overlay-native-surface-id": `activity-tertiary`,
+              style: l,
+            })
+          : null),
+      (t[6] = n),
+      (t[7] = r),
+      (t[8] = f))
+    : (f = t[8]);
+  let p;
+  t[9] === n ? (p = t[10]) : ((p = He(n, `absolute rounded-[27px]`)), (t[9] = n), (t[10] = p));
+  let m;
+  t[11] === p
+    ? (m = t[12])
+    : ((m = (0, We.jsx)(`div`, {
+        className: p,
+        "data-avatar-overlay-native-corner-radius": 27,
+        "data-avatar-overlay-native-surface-id": `activity-secondary`,
+        style: s,
+      })),
+      (t[11] = p),
+      (t[12] = m));
+  let h;
+  return (
+    t[13] !== d || t[14] !== f || t[15] !== m
+      ? ((h = (0, We.jsxs)(`div`, {
+          "aria-hidden": `true`,
+          className: `absolute top-0 right-0 left-0`,
+          "data-avatar-overlay-measure": `notification-tray-row`,
+          style: d,
+          children: [f, m],
+        })),
+        (t[13] = d),
+        (t[14] = f),
+        (t[15] = m),
+        (t[16] = h))
+      : (h = t[16]),
+    h
+  );
+}
+function Be(e) {
+  let t = (0, Ue.c)(31),
+    {
+      children: n,
+      emptyWidth: r,
+      nativeMaterialAttached: i,
+      nativePresentationOwnsMotion: o,
+      onBlurCapture: s,
+      onFocusCapture: c,
+      onPointerDown: l,
+      onPointerEnter: u,
+      onPointerLeave: d,
+      onSubmit: f,
+      onUpdate: p,
+      width: m,
+    } = e,
+    h;
+  t[0] !== i || t[1] !== o || t[2] !== m
+    ? ((h = o ? void 0 : i ? { opacity: 1 } : { opacity: 1, width: m }),
+      (t[0] = i),
+      (t[1] = o),
+      (t[2] = m),
+      (t[3] = h))
+    : (h = t[3]);
+  let g;
+  t[4] === o ? (g = t[5]) : ((g = o ? void 0 : { opacity: 0 }), (t[4] = o), (t[5] = g));
+  let _;
+  t[6] !== r || t[7] !== i || t[8] !== o
+    ? ((_ = i || o ? !1 : { opacity: 0, width: r }), (t[6] = r), (t[7] = i), (t[8] = o), (t[9] = _))
+    : (_ = t[9]);
+  let v;
+  t[10] === o
+    ? (v = t[11])
+    : ((v = o
+        ? { duration: 0 }
+        : {
+            opacity: { duration: 0.18, ease: [0.16, 1, 0.3, 1] },
+            width: { bounce: 0.22, type: `spring`, visualDuration: 0.32 },
+          }),
+      (t[10] = o),
+      (t[11] = v));
+  let y;
+  t[12] === i
+    ? (y = t[13])
+    : ((y = He(
+        i,
+        `no-drag flex h-10 items-center gap-3 rounded-full py-1.5 pr-1.5 pl-[14px] text-token-foreground`,
+      )),
+      (t[12] = i),
+      (t[13] = y));
+  let b = i ? m : void 0,
+    x;
+  t[14] === b
+    ? (x = t[15])
+    : ((x = { maxWidth: `calc(100vw - 12px)`, width: b }), (t[14] = b), (t[15] = x));
+  let S;
+  return (
+    t[16] !== n ||
+    t[17] !== s ||
+    t[18] !== c ||
+    t[19] !== l ||
+    t[20] !== u ||
+    t[21] !== d ||
+    t[22] !== f ||
+    t[23] !== p ||
+    t[24] !== h ||
+    t[25] !== g ||
+    t[26] !== _ ||
+    t[27] !== v ||
+    t[28] !== y ||
+    t[29] !== x
+      ? ((S = (0, We.jsx)(a.form, {
+          animate: h,
+          exit: g,
+          initial: _,
+          transition: v,
+          className: y,
+          "data-avatar-overlay-hit-region": `notification-composer`,
+          "data-avatar-overlay-native-corner-radius": `20`,
+          "data-avatar-overlay-native-surface-id": `composer`,
+          style: x,
+          onBlurCapture: s,
+          onFocusCapture: c,
+          onPointerDown: l,
+          onPointerEnter: u,
+          onPointerLeave: d,
+          onSubmit: f,
+          onUpdate: p,
+          children: n,
+        })),
+        (t[16] = n),
+        (t[17] = s),
+        (t[18] = c),
+        (t[19] = l),
+        (t[20] = u),
+        (t[21] = d),
+        (t[22] = f),
+        (t[23] = p),
+        (t[24] = h),
+        (t[25] = g),
+        (t[26] = _),
+        (t[27] = v),
+        (t[28] = y),
+        (t[29] = x),
+        (t[30] = S))
+      : (S = t[30]),
+    S
+  );
+}
+function Ve(e) {
+  let t = (0, Ue.c)(12),
+    n,
+    r,
+    i,
+    a,
+    o;
+  t[0] === e
+    ? ((n = t[1]), (r = t[2]), (i = t[3]), (a = t[4]), (o = t[5]))
+    : (({ children: n, className: r, cornerRadius: i, nativeSurfaceId: a, ...o } = e),
+      (t[0] = e),
+      (t[1] = n),
+      (t[2] = r),
+      (t[3] = i),
+      (t[4] = a),
+      (t[5] = o));
+  let s;
+  return (
+    t[6] !== n || t[7] !== r || t[8] !== i || t[9] !== a || t[10] !== o
+      ? ((s = (0, We.jsx)(`div`, {
+          ...o,
+          className: r,
+          "data-avatar-overlay-native-corner-radius": i,
+          "data-avatar-overlay-native-surface-id": a,
+          children: n,
+        })),
+        (t[6] = n),
+        (t[7] = r),
+        (t[8] = i),
+        (t[9] = a),
+        (t[10] = o),
+        (t[11] = s))
+      : (s = t[11]),
+    s
+  );
+}
+function He(e, t) {
+  return o(
+    t,
+    `forced-colors:bg-[Canvas]`,
+    e ? `bg-transparent` : `bg-token-main-surface-primary shadow-lg`,
+  );
+}
+var Ue,
+  We,
+  Ge = e(() => {
+    ((Ue = k()), _(), h(), y(), Le(), (We = s()));
+  });
+function Ke({
+  activityCopies: e,
+  activityStackPresentation: t,
+  areActivityPillsVisible: n = !0,
+  avatar: r,
+  avatarMenuItems: i,
+  expandedNotificationIds: a = [],
+  globalDictationOrbEnabled: s = !1,
+  interactiveRegionRef: c,
+  isNotificationTrayOpen: l = !0,
+  layout: u,
+  mascotDragState: d,
+  mascotLayout: f = u.mascot,
+  mascotStyle: p,
+  mascotResizeHandle: h,
+  nativeMaterialAttached: g,
+  notificationStackContentExpanded: _,
+  notificationStackControlsVisible: v = !0,
+  notifications: y,
+  notificationStackItemCount: b = y.length,
+  notificationFollowUp: x,
+  pointerSurfaceId: S = null,
+  quickChatDictation: C,
+  onActivityStackScroll: T,
+  onActivateNotification: E,
+  onHideActivityPills: D,
+  onMascotLostPointerCapture: O,
+  onMascotPointerCancel: k,
+  onMascotPointerDown: A,
+  onMascotPointerMove: j,
+  onMascotPointerUp: M,
+  onNotificationExpansionChange: N,
+  onDismissNotification: P,
+  onRunNotificationControl: ee,
+  onRunNotificationAction: F,
+  onSubmitQuestionOption: I,
+  onQuickChatEditorActiveChange: L,
+  onQuickChatDraftChange: te,
+  onQuickChatVisibilityChange: B,
+  onSubmitQuickChat: V,
+  onTrayAnimationFrame: ne,
+  onShowActivityPills: H,
+  quickChatDraft: re,
+  quickChatVisible: U,
+  restrictedSurface: ie,
+  renderMode: W,
+}) {
+  let G = w(),
+    ae = W?.type === `native-surface` ? W.id : void 0,
+    oe = W?.type === `native-surface` || (W?.type === `native-root` && g),
+    se = W != null,
+    K = (0, Q.useRef)(!1),
+    ce = (0, Q.useRef)(!1),
+    q = (0, Q.useRef)(null),
+    [le, ue] = (0, Q.useState)(!1),
+    [de, fe] = (0, Q.useState)(!1),
+    pe = s && de,
+    J = U ?? le,
+    Y = W?.type === `native-root` && g && !pe,
+    me = ye(y[0]),
+    he = y.length > 0,
+    _e = ie?.phase ?? `inactive`,
+    ve = ge(ie?.isSessionActive ?? !1, _e !== `inactive`),
+    be = ve === `pet` ? f : { ...f, height: 121, width: 112 },
+    xe = n && he,
+    Se = xe || pe || J,
+    Ce = y.length > 1 && l,
+    we = _ ?? Ce,
+    Te = u.tray == null || W?.type === `native-root` ? void 0 : Math.max(0, u.tray.height),
+    Ee = () => {
+      (q.current != null && (window.clearTimeout(q.current), (q.current = null)),
+        U ?? ue(!0),
+        B?.(!0));
+    },
+    De = () => {
+      K.current ||
+        (q.current != null && window.clearTimeout(q.current),
+        (q.current = window.setTimeout(() => {
+          ((q.current = null),
+            !ce.current &&
+              c?.current?.querySelector(`[data-avatar-overlay-hit-region]:hover`) == null &&
+              (U ?? ue(!1), B?.(!1)));
+        }, vt)));
+    };
+  (0, Q.useEffect)(
+    () => (
+      (K.current = !1),
+      () => {
+        ((K.current = !0), q.current != null && window.clearTimeout(q.current));
+      }
+    ),
+    [],
+  );
+  let Oe;
+  v && xe && D != null
+    ? (Oe = {
+        ariaLabel: Ce
+          ? G.formatMessage({
+              id: `avatarOverlay.collapseNotificationStack`,
+              defaultMessage: `Collapse activity stack`,
+              description: `Accessible label for collapsing grouped floating avatar notifications`,
+            })
+          : G.formatMessage({
+              id: `avatarOverlay.hideActivity`,
+              defaultMessage: `Hide activity`,
+              description: `Accessible label for stashing floating avatar activity`,
+            }),
+        backgroundColor: `transparent`,
+        content: (0, $.jsx)(m, {
+          className: o(
+            `icon-sm [&_path]:[stroke-width:1.2px]`,
+            u.placement.startsWith(`bottom`) && `rotate-180`,
+          ),
+        }),
+        foregroundColor: `currentColor`,
+        isGlassy: !0,
+        isIconOnly: !0,
+        nativeMaterialAttached: g,
+        onClick: D,
+      })
+    : v &&
+      H != null &&
+      he &&
+      !n &&
+      (Oe = {
+        ariaLabel: G.formatMessage(
+          {
+            id: `avatarOverlay.showActivity`,
+            defaultMessage: `Show activity, {count, plural, one {# item} other {# items}}`,
+            description: `Accessible label for showing stashed floating avatar activity`,
+          },
+          { count: y.length },
+        ),
+        backgroundColor: me.badgeBackgroundColor,
+        content: y.length,
+        foregroundColor: me.badgeForegroundColor,
+        isGlassy: !0,
+        nativeMaterialAttached: g,
+        onClick: H,
+      });
+  let ke =
+    r == null
+      ? null
+      : (0, $.jsx)(R, {
+          ariaLabel: G.formatMessage(_t.mascotLabel, { petName: r.displayName }),
+          assetRef: r.assetRef,
+          notificationBadge: Oe,
+          spritesheetUrl: r.spritesheetUrl,
+          resizeHandle: h == null ? void 0 : { ariaLabel: G.formatMessage(_t.resizeMascot), ...h },
+          state: me.mascotState,
+          style: p,
+          transientState: d,
+        });
+  return (0, $.jsx)(`main`, {
+    className: `relative h-screen w-screen overflow-hidden bg-transparent`,
+    children: (0, $.jsxs)(`section`, {
+      ref: c,
+      "data-avatar-overlay-content-frame": `true`,
+      className: `relative h-full w-full`,
+      children: [
+        ae == null && J && u.tray != null
+          ? (0, $.jsx)(`div`, {
+              "aria-hidden": `true`,
+              className: `absolute`,
+              "data-avatar-overlay-hit-region": `tray-mascot-bridge`,
+              style: ft(u, f),
+              onPointerEnter: Ee,
+              onPointerLeave: De,
+            })
+          : null,
+        (0, $.jsx)(`div`, {
+          "aria-hidden": Y || void 0,
+          "data-avatar-overlay-hit-region": Se ? `notification-tray` : void 0,
+          className: o(
+            `absolute text-sm text-token-foreground`,
+            Se && !Y ? `cursor-interaction` : `pointer-events-none`,
+          ),
+          inert: Y,
+          style: {
+            height: u.tray?.height,
+            left: u.tray?.left,
+            top: u.tray?.top,
+            visibility: u.tray == null ? `hidden` : void 0,
+            width: u.tray?.width,
+          },
+          onPointerEnter: ae == null ? Ee : void 0,
+          onPointerLeave: ae == null ? De : void 0,
+          children: (0, $.jsxs)(`div`, {
+            className: o(`relative w-max`, g && ae == null && `overflow-hidden`),
+            "data-avatar-overlay-size": `notification-tray`,
+            style: { maxHeight: Te },
+            children: [
+              (0, $.jsx)(`div`, {
+                className: `h-0 overflow-hidden`,
+                "data-avatar-overlay-size": `notification-tray-header`,
+              }),
+              (0, $.jsx)(`div`, {
+                children: (0, $.jsx)(qe, {
+                  activityCopies: e,
+                  activityStackPresentation: t,
+                  areActivityPillsVisible: n,
+                  isQuickChatVisible: J,
+                  isNotificationTrayExpanded: we,
+                  isNotificationTrayVisiblyExpanded: Ce,
+                  isTrayAboveMascot: u.placement.startsWith(`top`),
+                  isGlobalDictationEnabled: s,
+                  isGlobalDictationVisible: pe,
+                  compositionSurfaceId: ae,
+                  nativeMaterialAttached: g,
+                  nativePresentationOwnsMotion: oe,
+                  usesStableBackingCanvases: se,
+                  notifications: y,
+                  notificationFollowUp: x,
+                  expandedNotificationIds: a,
+                  pointerSurfaceId: S,
+                  quickChatDictation: C,
+                  onActivityStackScroll: T,
+                  onActivateNotification: E,
+                  onGlobalDictationVisibilityChange: fe,
+                  trayMaxHeight: Te,
+                  onDismissNotification: b === 1 || l ? P : void 0,
+                  onNotificationExpansionChange: N,
+                  onRunNotificationControl: ee,
+                  onRunNotificationAction: F,
+                  onSubmitQuestionOption: I,
+                  onQuickChatEditorActiveChange: (e) => {
+                    ((ce.current = e), L?.(e), e ? Ee() : De());
+                  },
+                  onQuickChatDraftChange: te,
+                  onTrayAnimationFrame: ne,
+                  onQuickChatPointerEnter: Ee,
+                  onQuickChatPointerLeave: De,
+                  onSubmitQuickChat: V,
+                  quickChatDraft: re,
+                }),
+              }),
+            ],
+          }),
+        }),
+        ae == null && r != null
+          ? (0, $.jsx)(`div`, {
+              className: o(
+                `group absolute cursor-grab active:cursor-grabbing`,
+                ve === `hidden` && `pointer-events-none`,
+              ),
+              style: { height: be.height, left: be.left, top: be.top, width: be.width },
+              onLostPointerCapture: O,
+              onPointerCancel: k,
+              onPointerDown: A,
+              onPointerMove: j,
+              onPointerUp: M,
+              children: (0, $.jsx)(z, {
+                items: i,
+                children: (0, $.jsx)(`div`, {
+                  "data-avatar-overlay-hit-region": ve === `hidden` ? void 0 : `mascot`,
+                  className: `h-full w-full`,
+                  onPointerEnter: Ee,
+                  onPointerLeave: De,
+                  children: ke,
+                }),
+              }),
+            })
+          : null,
+      ],
+    }),
+  });
+}
+function qe(e) {
+  let t = (0, pt.c)(61),
+    {
+      activityCopies: n,
+      activityStackPresentation: r,
+      areActivityPillsVisible: i,
+      compositionSurfaceId: a,
+      expandedNotificationIds: s,
+      isQuickChatVisible: c,
+      isNotificationTrayExpanded: l,
+      isNotificationTrayVisiblyExpanded: u,
+      isTrayAboveMascot: f,
+      isGlobalDictationEnabled: p,
+      isGlobalDictationVisible: m,
+      notifications: h,
+      notificationFollowUp: g,
+      pointerSurfaceId: _,
+      quickChatDictation: v,
+      onActivityStackScroll: y,
+      onActivateNotification: b,
+      onGlobalDictationVisibilityChange: x,
+      nativeMaterialAttached: S,
+      nativePresentationOwnsMotion: C,
+      usesStableBackingCanvases: w,
+      onDismissNotification: T,
+      onNotificationExpansionChange: E,
+      onTrayAnimationFrame: D,
+      onQuickChatEditorActiveChange: O,
+      onQuickChatDraftChange: k,
+      onQuickChatPointerEnter: A,
+      onQuickChatPointerLeave: j,
+      onRunNotificationControl: M,
+      onRunNotificationAction: N,
+      onSubmitQuestionOption: P,
+      onSubmitQuickChat: ee,
+      trayMaxHeight: F,
+      quickChatDraft: I,
+    } = e,
+    L;
+  t[0] !== p || t[1] !== m || t[2] !== x || t[3] !== v
+    ? ((L = p
+        ? (0, $.jsx)(`div`, {
+            className: o(
+              `flex h-10 w-[345px] shrink-0 items-center justify-center`,
+              !m && `hidden`,
+            ),
+            "data-avatar-overlay-measure": `notification-tray-row`,
+            children: (0, $.jsx)(me, {
+              cleanupEnabled: v.cleanupEnabled,
+              streamingEnabled: v.streamingEnabled,
+              onVisibilityChange: x,
+            }),
+          })
+        : null),
+      (t[0] = p),
+      (t[1] = m),
+      (t[2] = x),
+      (t[3] = v),
+      (t[4] = L))
+    : (L = t[4]);
+  let te = L,
+    R = C && a == null ? `true` : void 0,
+    z = C && a == null && `invisible`,
+    B;
+  t[5] === z
+    ? (B = t[6])
+    : ((B = o(`absolute top-0 left-1/2 -translate-x-1/2`, z)), (t[5] = z), (t[6] = B));
+  let V = C && a == null ? !0 : void 0,
+    ne;
+  t[7] !== a ||
+  t[8] !== c ||
+  t[9] !== S ||
+  t[10] !== C ||
+  t[11] !== h ||
+  t[12] !== k ||
+  t[13] !== O ||
+  t[14] !== A ||
+  t[15] !== j ||
+  t[16] !== ee ||
+  t[17] !== D ||
+  t[18] !== v ||
+  t[19] !== I
+    ? ((ne =
+        c && (a == null || a === `composer`)
+          ? (0, $.jsx)(Ze, {
+              hasNotifications: h.length > 0,
+              nativeMaterialAttached: S,
+              nativePresentationOwnsMotion: C,
+              quickChatDictation: v,
+              onActiveChange: O,
+              onAnimationFrame: D,
+              onDraftChange: k,
+              onPointerEnter: A,
+              onPointerLeave: j,
+              onSubmitQuickChat: ee,
+              quickChatDraft: I,
+            })
+          : null),
+      (t[7] = a),
+      (t[8] = c),
+      (t[9] = S),
+      (t[10] = C),
+      (t[11] = h),
+      (t[12] = k),
+      (t[13] = O),
+      (t[14] = A),
+      (t[15] = j),
+      (t[16] = ee),
+      (t[17] = D),
+      (t[18] = v),
+      (t[19] = I),
+      (t[20] = ne))
+    : (ne = t[20]);
+  let H;
+  t[21] === ne ? (H = t[22]) : ((H = (0, $.jsx)(d, { children: ne })), (t[21] = ne), (t[22] = H));
+  let re;
+  t[23] !== R || t[24] !== B || t[25] !== V || t[26] !== H
+    ? ((re = (0, $.jsx)(`div`, {
+        className: `relative h-10 w-[344px] shrink-0`,
+        children: (0, $.jsx)(`div`, { "aria-hidden": R, className: B, inert: V, children: H }),
+      })),
+      (t[23] = R),
+      (t[24] = B),
+      (t[25] = V),
+      (t[26] = H),
+      (t[27] = re))
+    : (re = t[27]);
+  let U = re,
+    ie;
+  t[28] !== te || t[29] !== U
+    ? ((ie = (0, $.jsxs)($.Fragment, { children: [te, U] })),
+      (t[28] = te),
+      (t[29] = U),
+      (t[30] = ie))
+    : (ie = t[30]);
+  let W = ie,
+    G;
+  t[31] === F ? (G = t[32]) : ((G = { maxHeight: F }), (t[31] = F), (t[32] = G));
+  let ae = f ? W : null,
+    oe;
+  t[33] !== n ||
+  t[34] !== r ||
+  t[35] !== i ||
+  t[36] !== a ||
+  t[37] !== s ||
+  t[38] !== l ||
+  t[39] !== u ||
+  t[40] !== f ||
+  t[41] !== S ||
+  t[42] !== C ||
+  t[43] !== g ||
+  t[44] !== h ||
+  t[45] !== b ||
+  t[46] !== y ||
+  t[47] !== T ||
+  t[48] !== E ||
+  t[49] !== N ||
+  t[50] !== M ||
+  t[51] !== P ||
+  t[52] !== D ||
+  t[53] !== _ ||
+  t[54] !== w
+    ? ((oe = i
+        ? (0, $.jsx)(Je, {
+            activityCopies: n,
+            activityStackPresentation: r,
+            compositionSurfaceId: a,
+            isExpanded: l,
+            isVisiblyExpanded: u,
+            isTrayAboveMascot: f,
+            nativeMaterialAttached: S,
+            nativePresentationOwnsMotion: C,
+            usesStableBackingCanvases: w,
+            notifications: h,
+            notificationFollowUp: g,
+            expandedNotificationIds: s,
+            pointerSurfaceId: _,
+            onActivityStackScroll: y,
+            onActivateNotification: b,
+            onAnimationFrame: D,
+            onDismissNotification: T,
+            onNotificationExpansionChange: E,
+            onRunNotificationControl: M,
+            onRunNotificationAction: N,
+            onSubmitQuestionOption: P,
+          })
+        : null),
+      (t[33] = n),
+      (t[34] = r),
+      (t[35] = i),
+      (t[36] = a),
+      (t[37] = s),
+      (t[38] = l),
+      (t[39] = u),
+      (t[40] = f),
+      (t[41] = S),
+      (t[42] = C),
+      (t[43] = g),
+      (t[44] = h),
+      (t[45] = b),
+      (t[46] = y),
+      (t[47] = T),
+      (t[48] = E),
+      (t[49] = N),
+      (t[50] = M),
+      (t[51] = P),
+      (t[52] = D),
+      (t[53] = _),
+      (t[54] = w),
+      (t[55] = oe))
+    : (oe = t[55]);
+  let se = f ? null : W,
+    K;
+  return (
+    t[56] !== G || t[57] !== ae || t[58] !== oe || t[59] !== se
+      ? ((K = (0, $.jsxs)(`div`, {
+          className: `flex flex-col items-center gap-2`,
+          "data-avatar-overlay-size": `notification-tray-list`,
+          style: G,
+          children: [ae, oe, se],
+        })),
+        (t[56] = G),
+        (t[57] = ae),
+        (t[58] = oe),
+        (t[59] = se),
+        (t[60] = K))
+      : (K = t[60]),
+    K
+  );
+}
+function Je(e) {
+  let t = (0, pt.c)(78),
+    {
+      activityCopies: n,
+      activityStackPresentation: r,
+      compositionSurfaceId: i,
+      expandedNotificationIds: s,
+      isExpanded: c,
+      isVisiblyExpanded: l,
+      isTrayAboveMascot: u,
+      nativeMaterialAttached: d,
+      nativePresentationOwnsMotion: f,
+      usesStableBackingCanvases: p,
+      notifications: m,
+      notificationFollowUp: h,
+      pointerSurfaceId: g,
+      onActivityStackScroll: _,
+      onActivateNotification: v,
+      onAnimationFrame: y,
+      onDismissNotification: b,
+      onNotificationExpansionChange: x,
+      onRunNotificationControl: S,
+      onRunNotificationAction: C,
+      onSubmitQuestionOption: T,
+    } = e,
+    E = w();
+  if (m.length === 0) return null;
+  let D;
+  t[0] === f
+    ? (D = t[1])
+    : ((D = f ? { duration: 0 } : { duration: 0.18, ease: [0.16, 1, 0.3, 1] }),
+      (t[0] = f),
+      (t[1] = D));
+  let O = D;
+  if (r != null) {
+    let e = i != null || !p,
+      a;
+    return (
+      t[2] !== n ||
+      t[3] !== r ||
+      t[4] !== i ||
+      t[5] !== s ||
+      t[6] !== c ||
+      t[7] !== u ||
+      t[8] !== l ||
+      t[9] !== d ||
+      t[10] !== f ||
+      t[11] !== h ||
+      t[12] !== m ||
+      t[13] !== v ||
+      t[14] !== _ ||
+      t[15] !== y ||
+      t[16] !== b ||
+      t[17] !== x ||
+      t[18] !== C ||
+      t[19] !== S ||
+      t[20] !== T ||
+      t[21] !== g ||
+      t[22] !== O ||
+      t[23] !== e
+        ? ((a = (0, $.jsx)(Ye, {
+            activityCopies: n,
+            activityStackPresentation: r,
+            compositionSurfaceId: i,
+            expandedNotificationIds: s,
+            isExpanded: c,
+            isVisiblyExpanded: l,
+            isTrayAboveMascot: u,
+            nativeMaterialAttached: d,
+            nativePresentationOwnsMotion: f,
+            notifications: m,
+            notificationFollowUp: h,
+            pointerSurfaceId: g,
+            publishesFollowUpVisibility: e,
+            onActivityStackScroll: _,
+            onActivateNotification: v,
+            stackTransition: O,
+            onAnimationFrame: y,
+            onDismissNotification: b,
+            onNotificationExpansionChange: x,
+            onRunNotificationControl: S,
+            onRunNotificationAction: C,
+            onSubmitQuestionOption: T,
+          })),
+          (t[2] = n),
+          (t[3] = r),
+          (t[4] = i),
+          (t[5] = s),
+          (t[6] = c),
+          (t[7] = u),
+          (t[8] = l),
+          (t[9] = d),
+          (t[10] = f),
+          (t[11] = h),
+          (t[12] = m),
+          (t[13] = v),
+          (t[14] = _),
+          (t[15] = y),
+          (t[16] = b),
+          (t[17] = x),
+          (t[18] = C),
+          (t[19] = S),
+          (t[20] = T),
+          (t[21] = g),
+          (t[22] = O),
+          (t[23] = e),
+          (t[24] = a))
+        : (a = t[24]),
+      a
+    );
+  }
+  let k;
+  t[25] !== n?.[0]?.notificationListAriaLabel || t[26] !== E
+    ? ((k = n?.[0]?.notificationListAriaLabel ?? E.formatMessage(_t.notificationList)),
+      (t[25] = n?.[0]?.notificationListAriaLabel),
+      (t[26] = E),
+      (t[27] = k))
+    : (k = t[27]);
+  let A = c ? `flex flex-col gap-2` : `pb-2`,
+    j;
+  t[28] === A
+    ? (j = t[29])
+    : ((j = o(`relative w-[345px] max-w-full shrink-0`, A)), (t[28] = A), (t[29] = j));
+  let M;
+  t[30] !== i || t[31] !== c || t[32] !== d || t[33] !== m.length
+    ? ((M =
+        !c && m.length > 1 && i == null
+          ? (0, $.jsx)(ze, { nativeMaterialAttached: d, notificationCount: m.length })
+          : null),
+      (t[30] = i),
+      (t[31] = c),
+      (t[32] = d),
+      (t[33] = m.length),
+      (t[34] = M))
+    : (M = t[34]);
+  let N;
+  if (
+    t[35] !== n ||
+    t[36] !== i ||
+    t[37] !== s ||
+    t[38] !== c ||
+    t[39] !== d ||
+    t[40] !== f ||
+    t[41] !== h ||
+    t[42] !== m ||
+    t[43] !== v ||
+    t[44] !== y ||
+    t[45] !== b ||
+    t[46] !== x ||
+    t[47] !== C ||
+    t[48] !== S ||
+    t[49] !== T ||
+    t[50] !== g ||
+    t[51] !== O ||
+    t[52] !== p
+  ) {
+    let e;
+    (t[54] !== n ||
+    t[55] !== i ||
+    t[56] !== s ||
+    t[57] !== c ||
+    t[58] !== d ||
+    t[59] !== f ||
+    t[60] !== h ||
+    t[61] !== m.length ||
+    t[62] !== v ||
+    t[63] !== y ||
+    t[64] !== b ||
+    t[65] !== x ||
+    t[66] !== C ||
+    t[67] !== S ||
+    t[68] !== T ||
+    t[69] !== g ||
+    t[70] !== O ||
+    t[71] !== p
+      ? ((e = (e, t) => {
+          let r = Ie[t],
+            l = t === 0 ? `primary` : `secondary`,
+            u = !c && l === `secondary`,
+            _ = (f && i == null) || (p && i == null && u) || (i != null && i !== r);
+          if (u && !p) return null;
+          let w = `relative z-10`;
+          return (
+            l === `primary`
+              ? (w = `relative z-20`)
+              : u && (w = `pointer-events-none absolute top-0 right-0 left-0 z-10`),
+            (0, $.jsx)(
+              a.div,
+              {
+                layout: !f,
+                "aria-hidden": _ || u ? `true` : void 0,
+                "data-avatar-overlay-backing-canvas": u ? `true` : void 0,
+                className: o(w, _ && `invisible`),
+                inert: _ || void 0,
+                transition: O,
+                onUpdate: y,
+                children: (0, $.jsx)(Qe, {
+                  canExpandActivityStack: !c && l === `primary` && m.length > 1,
+                  copy: n?.[t],
+                  isNativeMeasurementPlaceholder: f && i == null,
+                  isPointerSurfaceHovered: g === r,
+                  nativeMaterialAttached: d,
+                  nativePresentationOwnsMotion: f,
+                  nativeSurfaceId: r,
+                  notification: e,
+                  notificationFollowUp: h,
+                  publishesFollowUpVisibility: i != null || !p,
+                  isExpanded: x == null ? void 0 : s.includes(e.id),
+                  onAnimationFrame: y,
+                  role: l,
+                  onActivateNotification: v,
+                  onDismissNotification: b,
+                  onExpansionChange: x,
+                  onRunNotificationControl: S,
+                  onRunNotificationAction: C,
+                  onSubmitQuestionOption: T,
+                }),
+              },
+              e.id,
+            )
+          );
+        }),
+        (t[54] = n),
+        (t[55] = i),
+        (t[56] = s),
+        (t[57] = c),
+        (t[58] = d),
+        (t[59] = f),
+        (t[60] = h),
+        (t[61] = m.length),
+        (t[62] = v),
+        (t[63] = y),
+        (t[64] = b),
+        (t[65] = x),
+        (t[66] = C),
+        (t[67] = S),
+        (t[68] = T),
+        (t[69] = g),
+        (t[70] = O),
+        (t[71] = p),
+        (t[72] = e))
+      : (e = t[72]),
+      (N = m.slice(0, Ie.length).map(e)),
+      (t[35] = n),
+      (t[36] = i),
+      (t[37] = s),
+      (t[38] = c),
+      (t[39] = d),
+      (t[40] = f),
+      (t[41] = h),
+      (t[42] = m),
+      (t[43] = v),
+      (t[44] = y),
+      (t[45] = b),
+      (t[46] = x),
+      (t[47] = C),
+      (t[48] = S),
+      (t[49] = T),
+      (t[50] = g),
+      (t[51] = O),
+      (t[52] = p),
+      (t[53] = N));
+  } else N = t[53];
+  let P;
+  return (
+    t[73] !== k || t[74] !== j || t[75] !== M || t[76] !== N
+      ? ((P = (0, $.jsxs)(`div`, {
+          "aria-label": k,
+          className: j,
+          role: `list`,
+          children: [M, N],
+        })),
+        (t[73] = k),
+        (t[74] = j),
+        (t[75] = M),
+        (t[76] = N),
+        (t[77] = P))
+      : (P = t[77]),
+    P
+  );
+}
+function Ye(e) {
+  let t = (0, pt.c)(68),
+    {
+      activityCopies: n,
+      activityStackPresentation: r,
+      compositionSurfaceId: i,
+      expandedNotificationIds: s,
+      isExpanded: c,
+      isVisiblyExpanded: l,
+      isTrayAboveMascot: u,
+      nativeMaterialAttached: d,
+      nativePresentationOwnsMotion: f,
+      notifications: p,
+      notificationFollowUp: m,
+      pointerSurfaceId: h,
+      publishesFollowUpVisibility: g,
+      onActivityStackScroll: _,
+      onActivateNotification: y,
+      onAnimationFrame: b,
+      onDismissNotification: x,
+      onNotificationExpansionChange: S,
+      onRunNotificationControl: C,
+      onRunNotificationAction: T,
+      onSubmitQuestionOption: E,
+      stackTransition: D,
+    } = e,
+    O = w(),
+    k,
+    A,
+    j,
+    M,
+    N,
+    P,
+    ee,
+    F,
+    I,
+    L,
+    te;
+  if (
+    t[0] !== n ||
+    t[1] !== r.slots ||
+    t[2] !== r.viewportRect ||
+    t[3] !== i ||
+    t[4] !== s ||
+    t[5] !== O ||
+    t[6] !== c ||
+    t[7] !== u ||
+    t[8] !== l ||
+    t[9] !== d ||
+    t[10] !== f ||
+    t[11] !== m ||
+    t[12] !== p ||
+    t[13] !== y ||
+    t[14] !== _ ||
+    t[15] !== b ||
+    t[16] !== x ||
+    t[17] !== S ||
+    t[18] !== T ||
+    t[19] !== C ||
+    t[20] !== E ||
+    t[21] !== h ||
+    t[22] !== g ||
+    t[23] !== D
+  ) {
+    let e = new Map(p.map(Xe)),
+      w =
+        p.length > 1 && (c || f)
+          ? r.viewportRect.height
+          : (r.slots[0]?.presentationRect.height ?? 0),
+      R;
+    t[35] !== r.slots[0]?.presentationRect || t[36] !== w || t[37] !== l || t[38] !== p.length
+      ? ((R = l ? w : v(p.length, r.slots[0]?.presentationRect.height)),
+        (t[35] = r.slots[0]?.presentationRect),
+        (t[36] = w),
+        (t[37] = l),
+        (t[38] = p.length),
+        (t[39] = R))
+      : (R = t[39]);
+    let z = R;
+    t[40] !== n?.[0]?.notificationListAriaLabel || t[41] !== O
+      ? ((F = n?.[0]?.notificationListAriaLabel ?? O.formatMessage(_t.notificationList)),
+        (t[40] = n?.[0]?.notificationListAriaLabel),
+        (t[41] = O),
+        (t[42] = F))
+      : (F = t[42]);
+    let B = i == null && `overflow-hidden`;
+    (t[43] === B
+      ? (I = t[44])
+      : ((I = o(`relative w-[345px] max-w-full shrink-0`, B)), (t[43] = B), (t[44] = I)),
+      (L = `notification-stack-visible-layout`),
+      (te = `list`),
+      t[45] === z ? (A = t[46]) : ((A = { height: z }), (t[45] = z), (t[46] = A)),
+      t[47] !== c || t[48] !== _
+        ? ((j =
+            c && _ != null
+              ? (e) => {
+                  (e.preventDefault(), _(e.deltaY));
+                }
+              : void 0),
+          (t[47] = c),
+          (t[48] = _),
+          (t[49] = j))
+        : (j = t[49]));
+    let V = u ? `bottom-0` : `top-0`;
+    (t[50] === V ? (k = t[51]) : ((k = o(`absolute inset-x-0`, V)), (t[50] = V), (t[51] = k)),
+      (M = `true`),
+      (N = `notification-stack-backing-layout`),
+      t[52] === w ? (P = t[53]) : ((P = { height: w }), (t[52] = w), (t[53] = P)),
+      (ee = r.slots.map((t) => {
+        let { itemId: l, presentationRect: u, slotId: _, zIndex: v } = t,
+          w = e.get(l);
+        if (w == null) return null;
+        let O = n?.[p.indexOf(w)],
+          k = !c && _ !== `activity-slot-0`;
+        if (i != null && i !== _) return null;
+        let A = f && i == null;
+        return (0, $.jsx)(
+          a.div,
+          {
+            layout: !f,
+            "aria-hidden": A || k ? `true` : void 0,
+            className: o(`absolute`, k && `pointer-events-none`, A && `invisible`),
+            inert: A || void 0,
+            style: {
+              left: u.left - r.viewportRect.left,
+              top: u.top - r.viewportRect.top,
+              width: u.width,
+              zIndex: v,
+            },
+            transition: D,
+            onUpdate: b,
+            children: (0, $.jsx)(Qe, {
+              canExpandActivityStack: !c && _ === `activity-slot-0` && p.length > 1,
+              copy: O,
+              isNativeMeasurementPlaceholder: f && i == null,
+              isPointerSurfaceHovered: h === _,
+              nativeMaterialAttached: d,
+              nativePresentationOwnsMotion: f,
+              nativeSurfaceId: _,
+              notification: w,
+              notificationFollowUp: m,
+              publishesFollowUpVisibility: g,
+              isExpanded: S == null ? void 0 : s.includes(w.id),
+              onAnimationFrame: b,
+              role: _ === `activity-slot-0` ? `primary` : `secondary`,
+              onActivateNotification: y,
+              onDismissNotification: x,
+              onExpansionChange: S,
+              onRunNotificationControl: C,
+              onRunNotificationAction: T,
+              onSubmitQuestionOption: E,
+            }),
+          },
+          `${_}:${l}`,
+        );
+      })),
+      (t[0] = n),
+      (t[1] = r.slots),
+      (t[2] = r.viewportRect),
+      (t[3] = i),
+      (t[4] = s),
+      (t[5] = O),
+      (t[6] = c),
+      (t[7] = u),
+      (t[8] = l),
+      (t[9] = d),
+      (t[10] = f),
+      (t[11] = m),
+      (t[12] = p),
+      (t[13] = y),
+      (t[14] = _),
+      (t[15] = b),
+      (t[16] = x),
+      (t[17] = S),
+      (t[18] = T),
+      (t[19] = C),
+      (t[20] = E),
+      (t[21] = h),
+      (t[22] = g),
+      (t[23] = D),
+      (t[24] = k),
+      (t[25] = A),
+      (t[26] = j),
+      (t[27] = M),
+      (t[28] = N),
+      (t[29] = P),
+      (t[30] = ee),
+      (t[31] = F),
+      (t[32] = I),
+      (t[33] = L),
+      (t[34] = te));
+  } else
+    ((k = t[24]),
+      (A = t[25]),
+      (j = t[26]),
+      (M = t[27]),
+      (N = t[28]),
+      (P = t[29]),
+      (ee = t[30]),
+      (F = t[31]),
+      (I = t[32]),
+      (L = t[33]),
+      (te = t[34]));
+  let R;
+  t[54] !== k || t[55] !== M || t[56] !== N || t[57] !== P || t[58] !== ee
+    ? ((R = (0, $.jsx)(`div`, {
+        className: k,
+        "data-avatar-overlay-backing-canvas": M,
+        "data-avatar-overlay-size": N,
+        style: P,
+        children: ee,
+      })),
+      (t[54] = k),
+      (t[55] = M),
+      (t[56] = N),
+      (t[57] = P),
+      (t[58] = ee),
+      (t[59] = R))
+    : (R = t[59]);
+  let z;
+  return (
+    t[60] !== A ||
+    t[61] !== j ||
+    t[62] !== R ||
+    t[63] !== F ||
+    t[64] !== I ||
+    t[65] !== L ||
+    t[66] !== te
+      ? ((z = (0, $.jsx)(`div`, {
+          "aria-label": F,
+          className: I,
+          "data-avatar-overlay-size": L,
+          role: te,
+          style: A,
+          onWheel: j,
+          children: R,
+        })),
+        (t[60] = A),
+        (t[61] = j),
+        (t[62] = R),
+        (t[63] = F),
+        (t[64] = I),
+        (t[65] = L),
+        (t[66] = te),
+        (t[67] = z))
+      : (z = t[67]),
+    z
+  );
+}
+function Xe(e) {
+  return [e.id, e];
+}
+function Ze({
+  hasNotifications: e,
+  nativeMaterialAttached: t,
+  nativePresentationOwnsMotion: n,
+  quickChatDictation: r,
+  onActiveChange: i,
+  onAnimationFrame: s,
+  onDraftChange: u,
+  onPointerEnter: d,
+  onPointerLeave: f,
+  onSubmitQuickChat: m,
+  quickChatDraft: h,
+}) {
+  let g = l(p),
+    _ = w(),
+    v = (0, Q.useRef)(null),
+    y = (0, Q.useRef)(!1),
+    [b, x] = (0, Q.useState)(!1),
+    [S, C] = (0, Q.useState)(``),
+    E = h ?? S,
+    [D, O] = (0, Q.useState)(null),
+    k = E.trim(),
+    A = e ? 160 : 85,
+    j = E.length === 0 ? A : 344,
+    P = (0, Q.useEffectEvent)(() => {
+      y.current && ((y.current = !1), i?.(!1));
+    }),
+    ee = () => {
+      s != null && window.requestAnimationFrame(s);
+    },
+    F = (e) => {
+      (h ?? C(e), u?.(e), ee(), O(null));
+    },
+    I = async (e) => {
+      if (!(e.length === 0 || b || m == null)) {
+        (x(!0), O(null));
+        try {
+          (await m(e), F(``));
+        } catch {
+          O(_.formatMessage(_t.quickChatError));
+        } finally {
+          x(!1);
+        }
+      }
+    },
+    L = r.supportState,
+    {
+      canRetryDictation: te,
+      isDictating: R,
+      isTranscribing: z,
+      retryDictation: B,
+      startDictation: V,
+      stopDictation: re,
+    } = q({
+      cleanupEnabled: r.cleanupEnabled,
+      enabled: L === !0,
+      onTranscriptInsert: (e) => {
+        let t = W(E, e);
+        t !== E && (F(t), v.current?.focus());
+      },
+      onTranscriptSend: (e) => {
+        let t = W(E, e);
+        (F(t), I(t.trim()));
+      },
+      getSurroundingText: () => E,
+      onStartError: (e) => {
+        (g.get(M).danger(ue(_, `start`, e).message),
+          T.error(`[AvatarOverlay] unable to start dictation`, {
+            safe: {},
+            sensitive: { error: e },
+          }));
+      },
+      onTranscribeError: (e) => {
+        (g.get(M).danger(ue(_, `transcription`, e).message),
+          T.error(`[AvatarOverlay] dictation failed`, { safe: {}, sensitive: { error: e } }));
+      },
+      onUnsupported: () => {
+        g.get(M).danger(
+          _.formatMessage({
+            id: `composer.dictation.unsupported`,
+            defaultMessage: `Dictation is not available on this device`,
+            description: `Toast text shown when dictation is not supported on the current device`,
+          }),
+        );
+      },
+      streamingEnabled: r.streamingEnabled,
+    }),
+    U = L !== !1 && (k.length === 0 || R || z || te);
+  ((0, Q.useLayoutEffect)(
+    () => (
+      s?.(),
+      () => {
+        s != null && window.requestAnimationFrame(s);
+      }
+    ),
+    [s],
+  ),
+    (0, Q.useEffect)(
+      () => () => {
+        P();
+      },
+      [],
+    ),
+    N(
+      `avatar-overlay-keyboard-interaction-ready`,
+      () => {
+        y.current && v.current?.focus();
+      },
+      [],
+    ));
+  let ie = async (e) => {
+    (e.preventDefault(), e.stopPropagation(), !(R || z) && (await I(k)));
+  };
+  return (0, $.jsxs)(Be, {
+    emptyWidth: A,
+    nativeMaterialAttached: t,
+    nativePresentationOwnsMotion: n,
+    width: j,
+    onFocusCapture: () => {
+      ((y.current = !0), i?.(!0));
+    },
+    onBlurCapture: (e) => {
+      let t = e.relatedTarget;
+      (t instanceof Node && e.currentTarget.contains(t)) || ((y.current = !1), i?.(!1));
+    },
+    onPointerDown: () => {
+      ((y.current = !0), i?.(!0));
+    },
+    onPointerEnter: d,
+    onPointerLeave: f,
+    onSubmit: (e) => {
+      ie(e);
+    },
+    onUpdate: s,
+    children: [
+      (0, $.jsx)(`input`, {
+        ref: v,
+        "aria-label": _.formatMessage(_t.quickChat),
+        className: o(
+          `min-w-0 flex-1 bg-transparent text-[14px] leading-[18px] font-medium outline-none`,
+          t
+            ? `text-[#1A1A1A] placeholder:text-[rgba(26,26,26,0.33)]`
+            : `text-token-foreground placeholder:text-token-text-secondary`,
+        ),
+        "data-avatar-overlay-composition-autofocus": `true`,
+        placeholder: e
+          ? _.formatMessage(_t.startNewTaskPlaceholder)
+          : _.formatMessage(_t.askPlaceholder),
+        value: E,
+        onChange: (e) => {
+          F(e.currentTarget.value);
+        },
+      }),
+      (0, $.jsx)(a.div, {
+        className: `shrink-0`,
+        layout: `position`,
+        transition: { duration: 0.18, ease: [0.16, 1, 0.3, 1] },
+        children: U
+          ? (0, $.jsx)(H, {
+              className: `size-7 shrink-0 !bg-[#636363] !text-white enabled:hover:!bg-[#636363] disabled:opacity-100 electron:!rounded-full`,
+              color: `secondary`,
+              idleIcon: (0, $.jsx)(de, { className: `icon-sm` }),
+              isDictating: R,
+              isVisible: !0,
+              isTranscribing: z,
+              canRetryDictation: te,
+              disabled: L !== !0 || b || z,
+              retryDictation: B,
+              shortcutLabel: null,
+              size: `icon`,
+              startDictation: V,
+              stopDictation: re,
+            })
+          : (0, $.jsx)(c, {
+              "aria-label": _.formatMessage(_t.sendQuickChat),
+              className: `size-7 shrink-0 !bg-[#636363] !text-white enabled:hover:!bg-[#636363] disabled:opacity-100 electron:!rounded-full`,
+              color: `secondary`,
+              disabled: k.length === 0 || b,
+              loading: b,
+              size: `icon`,
+              type: `submit`,
+              children: b ? null : (0, $.jsx)(ne, { className: `icon-sm` }),
+            }),
+      }),
+      D == null ? null : (0, $.jsx)(`span`, { className: `sr-only`, role: `alert`, children: D }),
+    ],
+  });
+}
+function Qe(e) {
+  let t = (0, pt.c)(154),
+    {
+      canExpandActivityStack: n,
+      copy: r,
+      isExpanded: i,
+      isNativeMeasurementPlaceholder: s,
+      isPointerSurfaceHovered: l,
+      nativeMaterialAttached: u,
+      nativePresentationOwnsMotion: f,
+      nativeSurfaceId: p,
+      notification: h,
+      notificationFollowUp: g,
+      publishesFollowUpVisibility: _,
+      onAnimationFrame: v,
+      role: y,
+      onActivateNotification: b,
+      onDismissNotification: x,
+      onExpansionChange: S,
+      onRunNotificationControl: C,
+      onRunNotificationAction: T,
+      onSubmitQuestionOption: E,
+    } = e,
+    D = w(),
+    O = ee(),
+    k;
+  t[0] !== D || t[1] !== h || t[2] !== r
+    ? ((k = r ?? Ne({ intl: D, notification: h })), (t[0] = D), (t[1] = h), (t[2] = r), (t[3] = k))
+    : (k = t[3]);
+  let A = k,
+    M = ye(h),
+    P = h.waitingRequest,
+    [F, I] = (0, Q.useState)(!1),
+    L = i ?? F,
+    [te, R] = (0, Q.useState)(!1),
+    z = (0, Q.useRef)(L),
+    [B, V] = (0, Q.useState)(void 0),
+    [H, U] = (0, Q.useState)(``),
+    [ie, W] = (0, Q.useState)(!1),
+    G = l || ie,
+    ae = (0, Q.useRef)(null),
+    oe = (0, Q.useRef)(void 0),
+    se = h.kind === `activity` && n && b != null,
+    K = se || (h.kind !== `activity` && (b != null || h.action != null)),
+    ce = h.controlTarget != null && C != null,
+    q = h.isLoading && ce,
+    le = te || L,
+    ue = P != null && `actions` in P && P.actions.length > 0,
+    de = ce && B !== void 0 && B === h.turnKey,
+    fe = g?.notificationId === h.id && g.turnKey === h.turnKey ? g : null,
+    J = g !== void 0,
+    Y = ce && (J ? fe != null : de),
+    me = fe?.submissionStatus === `error`,
+    he = fe?.submissionStatus === `submitting`,
+    ge = _ && Y,
+    _e = f && !s && ce,
+    ve = P != null || Y || (G && (q || P != null)),
+    be;
+  t[4] !== R || t[5] !== P
+    ? ((be = (e) => {
+        if ((oe.current?.(), (oe.current = void 0), e == null || P == null)) return;
+        let t = () => {
+          let t = Array.from(
+              e.querySelectorAll(`[data-avatar-overlay-overflow-content="true"]`),
+            ).some(ut),
+            n = e.querySelector(`[data-avatar-overlay-waiting-request-body="true"]`),
+            r = n != null && n.clientHeight > 0 && n.scrollHeight > n.clientHeight + gt;
+          R((e) => (z.current && e ? e : t || r));
+        };
+        (t(), (oe.current = Ee({ axis: `both`, target: e, onChange: t })));
+      }),
+      (t[4] = R),
+      (t[5] = P),
+      (t[6] = be))
+    : (be = t[6]);
+  let xe = be,
+    Se;
+  t[7] !== h || t[8] !== C
+    ? ((Se = (e) => {
+        C?.(h, { type: e });
+      }),
+      (t[7] = h),
+      (t[8] = C),
+      (t[9] = Se))
+    : (Se = t[9]);
+  let Ce = (0, Q.useEffectEvent)(Se),
+    we,
+    De;
+  (t[10] === L
+    ? ((we = t[11]), (De = t[12]))
+    : ((we = () => {
+        z.current = L;
+      }),
+      (De = [L]),
+      (t[10] = L),
+      (t[11] = we),
+      (t[12] = De)),
+    (0, Q.useLayoutEffect)(we, De));
+  let Oe;
+  t[13] !== J || t[14] !== Ce || t[15] !== ge
+    ? ((Oe = () => {
+        if (ge)
+          return (
+            J || Ce(`open-follow-up`),
+            () => {
+              Ce(`close-follow-up`);
+            }
+          );
+      }),
+      (t[13] = J),
+      (t[14] = Ce),
+      (t[15] = ge),
+      (t[16] = Oe))
+    : (Oe = t[16]);
+  let Ae;
+  (t[17] !== J || t[18] !== ge
+    ? ((Ae = [J, ge]), (t[17] = J), (t[18] = ge), (t[19] = Ae))
+    : (Ae = t[19]),
+    (0, Q.useEffect)(Oe, Ae));
+  let X, je;
+  (t[20] === de
+    ? ((X = t[21]), (je = t[22]))
+    : ((X = () => {
+        de && ae.current?.focus();
+      }),
+      (je = [de]),
+      (t[20] = de),
+      (t[21] = X),
+      (t[22] = je)),
+    N(`avatar-overlay-keyboard-interaction-ready`, X, je));
+  let Me = Re,
+    Z,
+    Pe,
+    Fe;
+  t[23] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((Z = () => {
+        W(!0);
+      }),
+      (Pe = () => {
+        W(!0);
+      }),
+      (Fe = () => {
+        W(!1);
+      }),
+      (t[23] = Z),
+      (t[24] = Pe),
+      (t[25] = Fe))
+    : ((Z = t[23]), (Pe = t[24]), (Fe = t[25]));
+  let Ie = K ? `button` : void 0,
+    Le = se ? A.expandNotificationStackAriaLabel : K ? A.actionAriaLabel : void 0,
+    ze = q ? `pr-[88px]` : P == null ? `pr-[58px]` : `pr-[13px]`,
+    Be = K ? `cursor-interaction` : `cursor-default`,
+    Ve;
+  t[26] !== ze || t[27] !== Be
+    ? ((Ve = o(
+        `block min-h-[54px] w-full min-w-0 px-[22px] py-[10px] text-left select-none focus:outline-none`,
+        ze,
+        Be,
+      )),
+      (t[26] = ze),
+      (t[27] = Be),
+      (t[28] = Ve))
+    : (Ve = t[28]);
+  let He = K ? 0 : void 0,
+    Ue,
+    We;
+  t[29] !== K || t[30] !== h || t[31] !== b || t[32] !== T
+    ? ((Ue = () => {
+        if (K) {
+          if (b != null) {
+            b(h.id);
+            return;
+          }
+          h.action != null && T?.(h);
+        }
+      }),
+      (We = (e) => {
+        if (!(!K || (e.key !== `Enter` && e.key !== ` `))) {
+          if ((e.preventDefault(), b != null)) {
+            b(h.id);
+            return;
+          }
+          T?.(h);
+        }
+      }),
+      (t[29] = K),
+      (t[30] = h),
+      (t[31] = b),
+      (t[32] = T),
+      (t[33] = Ue),
+      (t[34] = We))
+    : ((Ue = t[33]), (We = t[34]));
+  let Ge = h.kind !== `activity` && `font-bold`,
+    Ke = P != null && `pr-[38px]`,
+    qe = P != null && L ? `break-words whitespace-pre-wrap` : `truncate`,
+    Je = h.kind === `activity` && (u ? `text-[#5F6B7A]` : `text-token-text-secondary`),
+    Ye = h.kind !== `activity` && (u ? `text-[#1A1A1A]` : `text-token-foreground`),
+    Xe;
+  t[35] !== Ge || t[36] !== Ke || t[37] !== qe || t[38] !== Je || t[39] !== Ye
+    ? ((Xe = o(`text-[13px] leading-[17px]`, Ge, Ke, qe, Je, Ye)),
+      (t[35] = Ge),
+      (t[36] = Ke),
+      (t[37] = qe),
+      (t[38] = Je),
+      (t[39] = Ye),
+      (t[40] = Xe))
+    : (Xe = t[40]);
+  let Ze;
+  t[41] !== h.title || t[42] !== Xe
+    ? ((Ze = (0, $.jsx)(`div`, {
+        className: Xe,
+        "data-avatar-overlay-overflow-content": `true`,
+        children: h.title,
+      })),
+      (t[41] = h.title),
+      (t[42] = Xe),
+      (t[43] = Ze))
+    : (Ze = t[43]);
+  let Qe;
+  t[44] !== L || t[45] !== P
+    ? ((Qe = P == null ? void 0 : { maxHeight: L ? ht : mt }),
+      (t[44] = L),
+      (t[45] = P),
+      (t[46] = Qe))
+    : (Qe = t[46]);
+  let et = h.kind === `activity` && `hidden`,
+    tt = u ? `text-[#5F6B7A]` : `text-token-text-secondary`,
+    nt = P == null && `truncate`,
+    rt = P != null && (L ? `overflow-y-auto overscroll-contain` : `overflow-hidden`),
+    it;
+  t[47] !== et || t[48] !== tt || t[49] !== nt || t[50] !== rt
+    ? ((it = o(`text-[13px] leading-[17px]`, et, tt, nt, rt)),
+      (t[47] = et),
+      (t[48] = tt),
+      (t[49] = nt),
+      (t[50] = rt),
+      (t[51] = it))
+    : (it = t[51]);
+  let at;
+  t[52] === O
+    ? (at = t[53])
+    : ((at = O ? { duration: 0 } : { duration: 0.18, ease: [0.23, 1, 0.32, 1] }),
+      (t[52] = O),
+      (t[53] = at));
+  let ot;
+  t[54] !== A.patchSummary ||
+  t[55] !== A.subtitle ||
+  t[56] !== L ||
+  t[57] !== u ||
+  t[58] !== h ||
+  t[59] !== T ||
+  t[60] !== E ||
+  t[61] !== P
+    ? ((ot =
+        P == null
+          ? A.subtitle
+          : (0, $.jsx)($e, {
+              isExpanded: L,
+              nativeMaterialAttached: u,
+              patchSummaryCopy: A.patchSummary,
+              request: P,
+              onRunNotificationAction: (e) => {
+                T?.(h, e);
+              },
+              onSubmitQuestionOption: (e) => {
+                E?.(h, e);
+              },
+            })),
+      (t[54] = A.patchSummary),
+      (t[55] = A.subtitle),
+      (t[56] = L),
+      (t[57] = u),
+      (t[58] = h),
+      (t[59] = T),
+      (t[60] = E),
+      (t[61] = P),
+      (t[62] = ot))
+    : (ot = t[62]);
+  let st;
+  t[63] !== Qe || t[64] !== it || t[65] !== at || t[66] !== ot
+    ? ((st = (0, $.jsx)(a.div, {
+        animate: Qe,
+        className: it,
+        initial: !1,
+        "data-avatar-overlay-waiting-request-body": `true`,
+        transition: at,
+        children: ot,
+      })),
+      (t[63] = Qe),
+      (t[64] = it),
+      (t[65] = at),
+      (t[66] = ot),
+      (t[67] = st))
+    : (st = t[67]);
+  let ct;
+  t[68] !== xe ||
+  t[69] !== Ie ||
+  t[70] !== Le ||
+  t[71] !== Ve ||
+  t[72] !== He ||
+  t[73] !== Ue ||
+  t[74] !== We ||
+  t[75] !== Ze ||
+  t[76] !== st
+    ? ((ct = (0, $.jsxs)(a.div, {
+        ref: xe,
+        role: Ie,
+        "aria-label": Le,
+        className: Ve,
+        tabIndex: He,
+        onClick: Ue,
+        onKeyDown: We,
+        children: [Ze, st],
+      })),
+      (t[68] = xe),
+      (t[69] = Ie),
+      (t[70] = Le),
+      (t[71] = Ve),
+      (t[72] = He),
+      (t[73] = Ue),
+      (t[74] = We),
+      (t[75] = Ze),
+      (t[76] = st),
+      (t[77] = ct))
+    : (ct = t[77]);
+  let lt = A.statusIconAriaLabel,
+    ft = M.iconType,
+    vt = ve && `opacity-0`,
+    yt;
+  t[78] === vt
+    ? (yt = t[79])
+    : ((yt = o(`relative flex h-8 w-[31px] items-center justify-center`, vt)),
+      (t[78] = vt),
+      (t[79] = yt));
+  let xt = P?.kind === `question` ? (0, $.jsx)(pe, { className: M.iconClassName }) : dt(M),
+    St;
+  t[80] !== yt || t[81] !== xt
+    ? ((St = (0, $.jsx)(`span`, { className: yt, children: xt })),
+      (t[80] = yt),
+      (t[81] = xt),
+      (t[82] = St))
+    : (St = t[82]);
+  let Ct;
+  t[83] !== A.statusIconAriaLabel || t[84] !== M || t[85] !== St
+    ? ((Ct = (0, $.jsx)(`span`, {
+        role: `img`,
+        "aria-label": lt,
+        className: `pointer-events-none absolute top-3 right-[13px] flex h-8 w-[31px] items-center justify-center`,
+        "data-avatar-overlay-status": ft,
+        children: St,
+      })),
+      (t[83] = A.statusIconAriaLabel),
+      (t[84] = M),
+      (t[85] = St),
+      (t[86] = Ct))
+    : (Ct = t[86]);
+  let wt;
+  t[87] !== q ||
+  t[88] !== D ||
+  t[89] !== J ||
+  t[90] !== Y ||
+  t[91] !== G ||
+  t[92] !== _e ||
+  t[93] !== h ||
+  t[94] !== C ||
+  t[95] !== U ||
+  t[96] !== V
+    ? ((wt =
+        q && !Y
+          ? (0, $.jsxs)(`div`, {
+              className: o(
+                `absolute top-3 right-[13px] z-20 h-8 w-[31px]`,
+                G ? `pointer-events-auto opacity-100` : `pointer-events-none opacity-0`,
+              ),
+              children: [
+                (0, $.jsx)(c, {
+                  "aria-label": D.formatMessage(_t.replyNotification, { title: h.title }),
+                  className: o(
+                    bt,
+                    `right-[39.75px] before:bg-[color(display-p3_0.447_0.447_0.447_/_0.2)]`,
+                  ),
+                  color: `ghost`,
+                  size: `icon`,
+                  title: D.formatMessage(_t.replyNotification, { title: h.title }),
+                  onClick: () => {
+                    (U(``),
+                      V(h.turnKey),
+                      J && C?.(h, { type: `open-follow-up` }),
+                      _e &&
+                        window.requestAnimationFrame(() => {
+                          ae.current?.focus();
+                        }));
+                  },
+                  children: (0, $.jsx)(ke, {
+                    className: `relative size-7 text-[rgba(0,0,0,0.6)] mix-blend-darken`,
+                  }),
+                }),
+                (0, $.jsx)(c, {
+                  "aria-label": D.formatMessage(_t.stopNotification, { title: h.title }),
+                  className: o(
+                    bt,
+                    `left-1/2 -translate-x-1/2 before:bg-[color(display-p3_0.431_0.431_0.431_/_0.2)]`,
+                  ),
+                  color: `ghost`,
+                  size: `icon`,
+                  title: D.formatMessage(_t.stopNotification, { title: h.title }),
+                  onClick: () => {
+                    (U(``), V(void 0), C?.(h, { type: `stop` }));
+                  },
+                  children: (0, $.jsx)(re, {
+                    className: `relative size-6 rotate-[-1deg] text-[#515151] mix-blend-darken`,
+                  }),
+                }),
+              ],
+            })
+          : null),
+      (t[87] = q),
+      (t[88] = D),
+      (t[89] = J),
+      (t[90] = Y),
+      (t[91] = G),
+      (t[92] = _e),
+      (t[93] = h),
+      (t[94] = C),
+      (t[95] = U),
+      (t[96] = V),
+      (t[97] = wt))
+    : (wt = t[97]);
+  let Tt;
+  t[98] !== le ||
+  t[99] !== A.collapseNotificationAriaLabel ||
+  t[100] !== A.expandNotificationAriaLabel ||
+  t[101] !== ue ||
+  t[102] !== L ||
+  t[103] !== u ||
+  t[104] !== h.id ||
+  t[105] !== S ||
+  t[106] !== O ||
+  t[107] !== R ||
+  t[108] !== I ||
+  t[109] !== P
+    ? ((Tt =
+        P != null && (le || ue)
+          ? (0, $.jsx)(`div`, {
+              className: `absolute top-[10px] right-[10px] z-20`,
+              children: (0, $.jsx)(c, {
+                "aria-expanded": L,
+                "aria-label": L ? A.collapseNotificationAriaLabel : A.expandNotificationAriaLabel,
+                className: o(
+                  `size-8 !rounded-full`,
+                  u
+                    ? `!bg-[rgba(80,89,96,0.18)] !text-[#111111] enabled:hover:!bg-[rgba(80,89,96,0.24)]`
+                    : `!bg-[rgba(127,127,127,0.2)] !text-[#111111] enabled:hover:!bg-[rgba(127,127,127,0.28)]`,
+                ),
+                color: `ghost`,
+                disabled: !le,
+                size: `icon`,
+                onClick: () => {
+                  L && R(!0);
+                  let e = !L;
+                  ((z.current = e), S == null ? I(e) : S(h.id, e));
+                },
+                children: (0, $.jsx)(a.span, {
+                  animate: { rotate: L ? 0 : -90 },
+                  transition: O ? { duration: 0 } : { duration: 0.16, ease: [0.23, 1, 0.32, 1] },
+                  children: (0, $.jsx)(m, { className: `size-5` }),
+                }),
+              }),
+            })
+          : null),
+      (t[98] = le),
+      (t[99] = A.collapseNotificationAriaLabel),
+      (t[100] = A.expandNotificationAriaLabel),
+      (t[101] = ue),
+      (t[102] = L),
+      (t[103] = u),
+      (t[104] = h.id),
+      (t[105] = S),
+      (t[106] = O),
+      (t[107] = R),
+      (t[108] = I),
+      (t[109] = P),
+      (t[110] = Tt))
+    : (Tt = t[110]);
+  let Et;
+  t[111] !== H ||
+  t[112] !== me ||
+  t[113] !== D ||
+  t[114] !== J ||
+  t[115] !== Y ||
+  t[116] !== de ||
+  t[117] !== s ||
+  t[118] !== he ||
+  t[119] !== _e ||
+  t[120] !== u ||
+  t[121] !== h ||
+  t[122] !== v ||
+  t[123] !== C ||
+  t[124] !== O ||
+  t[125] !== U ||
+  t[126] !== V
+    ? ((Et =
+        Y || _e
+          ? (0, $.jsxs)(a.form, {
+              "aria-hidden": _e && !Y ? !0 : void 0,
+              animate: { height: me ? 56 : 40, marginBottom: 10, opacity: 1, y: 0 },
+              className: o(
+                `no-drag mx-[10px] grid grid-cols-[minmax(0,1fr)_auto] items-center gap-x-2 overflow-hidden rounded-[20px] py-1 pr-1 pl-3 shadow-sm`,
+                u ? `bg-white` : `bg-token-main-surface-primary`,
+              ),
+              exit: s ? void 0 : { height: 0, marginBottom: 0, opacity: 0, y: O ? 0 : -2 },
+              initial: s || _e ? !1 : { height: 0, marginBottom: 0, opacity: 0, y: O ? 0 : -2 },
+              transition:
+                s || O
+                  ? { duration: 0 }
+                  : {
+                      height: { duration: 0.22, ease: [0.23, 1, 0.32, 1] },
+                      marginBottom: { duration: 0.22, ease: [0.23, 1, 0.32, 1] },
+                      opacity: { duration: 0.12, ease: `easeOut` },
+                      y: { duration: 0.16, ease: `easeOut` },
+                    },
+              inert: _e && !Y ? !0 : void 0,
+              onUpdate: v,
+              onSubmit: (e) => {
+                e.preventDefault();
+                let t = H.trim();
+                t.length > 0 &&
+                  (J || (U(``), V(void 0)), C?.(h, { type: `submit-follow-up`, prompt: t }));
+              },
+              children: [
+                (0, $.jsx)(`input`, {
+                  ref: ae,
+                  "aria-label": D.formatMessage(
+                    {
+                      id: `avatarOverlay.notificationFollowUpInput`,
+                      defaultMessage: `Follow up on {title}`,
+                      description: `Accessible label for the floating avatar notification follow-up input`,
+                    },
+                    { title: h.title },
+                  ),
+                  autoFocus: de,
+                  className: o(
+                    `min-w-0 flex-1 bg-transparent text-[13px] leading-[17px] outline-none`,
+                    u
+                      ? `text-[#1A1A1A] placeholder:text-[rgba(26,26,26,0.45)]`
+                      : `text-token-foreground placeholder:text-token-text-secondary`,
+                  ),
+                  "data-avatar-overlay-composition-autofocus": de ? `true` : void 0,
+                  placeholder: D.formatMessage({
+                    id: `avatarOverlay.notificationFollowUpPlaceholder`,
+                    defaultMessage: `Follow up`,
+                    description: `Placeholder for the floating avatar notification follow-up input`,
+                  }),
+                  value: H,
+                  onChange: (e) => U(e.currentTarget.value),
+                  onKeyDown: (e) => {
+                    e.key === `Escape` &&
+                      (e.stopPropagation(),
+                      U(``),
+                      V(void 0),
+                      J && C?.(h, { type: `close-follow-up` }));
+                  },
+                }),
+                (0, $.jsx)(c, {
+                  "aria-label": D.formatMessage(
+                    {
+                      id: `avatarOverlay.sendNotificationFollowUp`,
+                      defaultMessage: `Send follow-up to {title}`,
+                      description: `Accessible label for submitting a follow-up from the floating avatar notification tray`,
+                    },
+                    { title: h.title },
+                  ),
+                  className: `size-8 shrink-0 !rounded-full !bg-[#636363] !text-white enabled:hover:!bg-[#636363]`,
+                  color: `secondary`,
+                  disabled: H.trim().length === 0 || he,
+                  loading: he,
+                  size: `icon`,
+                  type: `submit`,
+                  children: (0, $.jsx)(ne, { className: `icon-sm` }),
+                }),
+                me
+                  ? (0, $.jsx)(`div`, {
+                      className: `col-span-2 truncate pr-2 text-[11px] leading-3 text-token-error-foreground`,
+                      role: `alert`,
+                      children: (0, $.jsx)(j, {
+                        id: `avatarOverlay.notificationFollowUpError`,
+                        defaultMessage: `Unable to send reply`,
+                        description: `Compact error shown when a floating avatar notification follow-up fails`,
+                      }),
+                    })
+                  : null,
+              ],
+            })
+          : null),
+      (t[111] = H),
+      (t[112] = me),
+      (t[113] = D),
+      (t[114] = J),
+      (t[115] = Y),
+      (t[116] = de),
+      (t[117] = s),
+      (t[118] = he),
+      (t[119] = _e),
+      (t[120] = u),
+      (t[121] = h),
+      (t[122] = v),
+      (t[123] = C),
+      (t[124] = O),
+      (t[125] = U),
+      (t[126] = V),
+      (t[127] = Et))
+    : (Et = t[127]);
+  let Dt;
+  t[128] !== v || t[129] !== Et
+    ? ((Dt = (0, $.jsx)(d, { onExitComplete: v, children: Et })),
+      (t[128] = v),
+      (t[129] = Et),
+      (t[130] = Dt))
+    : (Dt = t[130]);
+  let Ot;
+  t[131] !== q ||
+  t[132] !== A.dismissNotificationAriaLabel ||
+  t[133] !== Y ||
+  t[134] !== G ||
+  t[135] !== h ||
+  t[136] !== x
+    ? ((Ot =
+        h.kind !== `activity` && x != null && !q && !Y
+          ? (0, $.jsx)(`div`, {
+              className: o(
+                `absolute -top-1 -left-1 z-20`,
+                G ? `pointer-events-auto opacity-100` : `pointer-events-none opacity-0`,
+              ),
+              "data-avatar-overlay-chromium-overflow": `true`,
+              children: (0, $.jsx)(Te, {
+                ariaLabel: A.dismissNotificationAriaLabel,
+                onClick: () => {
+                  x(h);
+                },
+              }),
+            })
+          : null),
+      (t[131] = q),
+      (t[132] = A.dismissNotificationAriaLabel),
+      (t[133] = Y),
+      (t[134] = G),
+      (t[135] = h),
+      (t[136] = x),
+      (t[137] = Ot))
+    : (Ot = t[137]);
+  let kt;
+  return (
+    t[138] !== Me ||
+    t[139] !== u ||
+    t[140] !== f ||
+    t[141] !== p ||
+    t[142] !== v ||
+    t[143] !== y ||
+    t[144] !== Z ||
+    t[145] !== Pe ||
+    t[146] !== Fe ||
+    t[147] !== ct ||
+    t[148] !== Ct ||
+    t[149] !== wt ||
+    t[150] !== Tt ||
+    t[151] !== Dt ||
+    t[152] !== Ot
+      ? ((kt = (0, $.jsxs)(Me, {
+          className: `relative flow-root min-h-[54px] rounded-[27px]`,
+          nativeMaterialAttached: u,
+          nativePresentationOwnsMotion: f,
+          nativeSurfaceId: p,
+          role: y,
+          onUpdate: v,
+          onFocusCapture: Z,
+          onPointerEnter: Pe,
+          onPointerLeave: Fe,
+          children: [ct, Ct, wt, Tt, Dt, Ot],
+        })),
+        (t[138] = Me),
+        (t[139] = u),
+        (t[140] = f),
+        (t[141] = p),
+        (t[142] = v),
+        (t[143] = y),
+        (t[144] = Z),
+        (t[145] = Pe),
+        (t[146] = Fe),
+        (t[147] = ct),
+        (t[148] = Ct),
+        (t[149] = wt),
+        (t[150] = Tt),
+        (t[151] = Dt),
+        (t[152] = Ot),
+        (t[153] = kt))
+      : (kt = t[153]),
+    kt
+  );
+}
+function $e(e) {
+  let t = (0, pt.c)(76),
+    {
+      isExpanded: n,
+      nativeMaterialAttached: r,
+      onRunNotificationAction: i,
+      onSubmitQuestionOption: a,
+      patchSummaryCopy: s,
+      request: c,
+    } = e,
+    l;
+  t[0] === i
+    ? (l = t[1])
+    : ((l = (e) => {
+        `questionOption` in e || i(e);
+      }),
+      (t[0] = i),
+      (t[1] = l));
+  let u = l;
+  switch (c.kind) {
+    case `question`: {
+      let e = n ? `break-words whitespace-pre-wrap` : `truncate`,
+        s;
+      t[2] === e ? (s = t[3]) : ((s = o(`min-w-0 pr-[38px]`, e)), (t[2] = e), (t[3] = s));
+      let l;
+      t[4] !== c.prompt || t[5] !== s
+        ? ((l = (0, $.jsx)(`div`, {
+            className: s,
+            "data-avatar-overlay-overflow-content": `true`,
+            children: c.prompt,
+          })),
+          (t[4] = c.prompt),
+          (t[5] = s),
+          (t[6] = l))
+        : (l = t[6]);
+      let u;
+      t[7] === c.options ? (u = t[8]) : ((u = c.options.map(et)), (t[7] = c.options), (t[8] = u));
+      let d;
+      t[9] !== i || t[10] !== a
+        ? ((d = (e) => {
+            if (`questionOption` in e) {
+              a?.(e.questionOption);
+              return;
+            }
+            i(e);
+          }),
+          (t[9] = i),
+          (t[10] = a),
+          (t[11] = d))
+        : (d = t[11]);
+      let f;
+      t[12] !== r || t[13] !== u || t[14] !== d
+        ? ((f = (0, $.jsx)(at, {
+            actions: u,
+            nativeMaterialAttached: r,
+            onRunNotificationAction: d,
+          })),
+          (t[12] = r),
+          (t[13] = u),
+          (t[14] = d),
+          (t[15] = f))
+        : (f = t[15]);
+      let p;
+      return (
+        t[16] !== l || t[17] !== f
+          ? ((p = (0, $.jsxs)(`div`, {
+              "data-avatar-overlay-compact-waiting-request": `question`,
+              children: [l, f],
+            })),
+            (t[16] = l),
+            (t[17] = f),
+            (t[18] = p))
+          : (p = t[18]),
+        p
+      );
+    }
+    case `patch`: {
+      let e;
+      t[19] !== n || t[20] !== s || t[21] !== c.files || t[22] !== c.summary
+        ? ((e = (0, $.jsx)(rt, { copy: s, files: c.files, isExpanded: n, summary: c.summary })),
+          (t[19] = n),
+          (t[20] = s),
+          (t[21] = c.files),
+          (t[22] = c.summary),
+          (t[23] = e))
+        : (e = t[23]);
+      let i;
+      t[24] !== r || t[25] !== c.actions || t[26] !== u
+        ? ((i = (0, $.jsx)(at, {
+            actions: c.actions,
+            nativeMaterialAttached: r,
+            onRunNotificationAction: u,
+          })),
+          (t[24] = r),
+          (t[25] = c.actions),
+          (t[26] = u),
+          (t[27] = i))
+        : (i = t[27]);
+      let a;
+      return (
+        t[28] !== e || t[29] !== i
+          ? ((a = (0, $.jsxs)(`div`, {
+              "data-avatar-overlay-compact-waiting-request": `patch`,
+              children: [e, i],
+            })),
+            (t[28] = e),
+            (t[29] = i),
+            (t[30] = a))
+          : (a = t[30]),
+        a
+      );
+    }
+    case `plan`: {
+      let e;
+      return (
+        t[31] !== n || t[32] !== r || t[33] !== c || t[34] !== u
+          ? ((e = (0, $.jsx)(tt, {
+              isExpanded: n,
+              nativeMaterialAttached: r,
+              onRunNotificationAction: u,
+              request: c,
+            })),
+            (t[31] = n),
+            (t[32] = r),
+            (t[33] = c),
+            (t[34] = u),
+            (t[35] = e))
+          : (e = t[35]),
+        e
+      );
+    }
+    case `exec`: {
+      let e;
+      t[36] !== n || t[37] !== c.summary
+        ? ((e = (0, $.jsx)(nt, { isExpanded: n, text: c.summary })),
+          (t[36] = n),
+          (t[37] = c.summary),
+          (t[38] = e))
+        : (e = t[38]);
+      let i;
+      t[39] !== r || t[40] !== c.actions || t[41] !== u
+        ? ((i = (0, $.jsx)(at, {
+            actions: c.actions,
+            nativeMaterialAttached: r,
+            onRunNotificationAction: u,
+          })),
+          (t[39] = r),
+          (t[40] = c.actions),
+          (t[41] = u),
+          (t[42] = i))
+        : (i = t[42]);
+      let a;
+      return (
+        t[43] !== e || t[44] !== i
+          ? ((a = (0, $.jsxs)(`div`, {
+              "data-avatar-overlay-compact-waiting-request": `exec`,
+              children: [e, i],
+            })),
+            (t[43] = e),
+            (t[44] = i),
+            (t[45] = a))
+          : (a = t[45]),
+        a
+      );
+    }
+    case `network`: {
+      let e;
+      t[46] !== n || t[47] !== c.target
+        ? ((e = (0, $.jsx)(nt, { isExpanded: n, text: c.target })),
+          (t[46] = n),
+          (t[47] = c.target),
+          (t[48] = e))
+        : (e = t[48]);
+      let i;
+      t[49] !== r || t[50] !== c.actions || t[51] !== u
+        ? ((i = (0, $.jsx)(at, {
+            actions: c.actions,
+            nativeMaterialAttached: r,
+            onRunNotificationAction: u,
+          })),
+          (t[49] = r),
+          (t[50] = c.actions),
+          (t[51] = u),
+          (t[52] = i))
+        : (i = t[52]);
+      let a;
+      return (
+        t[53] !== e || t[54] !== i
+          ? ((a = (0, $.jsxs)(`div`, {
+              "data-avatar-overlay-compact-waiting-request": `network`,
+              children: [e, i],
+            })),
+            (t[53] = e),
+            (t[54] = i),
+            (t[55] = a))
+          : (a = t[55]),
+        a
+      );
+    }
+    case `permission`: {
+      let e;
+      t[56] !== n || t[57] !== c.target
+        ? ((e = (0, $.jsx)(nt, { isExpanded: n, text: c.target })),
+          (t[56] = n),
+          (t[57] = c.target),
+          (t[58] = e))
+        : (e = t[58]);
+      let i;
+      t[59] !== r || t[60] !== c.actions || t[61] !== u
+        ? ((i = (0, $.jsx)(at, {
+            actions: c.actions,
+            nativeMaterialAttached: r,
+            onRunNotificationAction: u,
+          })),
+          (t[59] = r),
+          (t[60] = c.actions),
+          (t[61] = u),
+          (t[62] = i))
+        : (i = t[62]);
+      let a;
+      return (
+        t[63] !== e || t[64] !== i
+          ? ((a = (0, $.jsxs)(`div`, {
+              "data-avatar-overlay-compact-waiting-request": `permission`,
+              children: [e, i],
+            })),
+            (t[63] = e),
+            (t[64] = i),
+            (t[65] = a))
+          : (a = t[65]),
+        a
+      );
+    }
+    case `tool`: {
+      let e = c.summary ?? c.target,
+        i;
+      t[66] !== n || t[67] !== e
+        ? ((i = (0, $.jsx)(nt, { isExpanded: n, text: e })), (t[66] = n), (t[67] = e), (t[68] = i))
+        : (i = t[68]);
+      let a;
+      t[69] !== r || t[70] !== c.actions || t[71] !== u
+        ? ((a = (0, $.jsx)(at, {
+            actions: c.actions,
+            nativeMaterialAttached: r,
+            onRunNotificationAction: u,
+          })),
+          (t[69] = r),
+          (t[70] = c.actions),
+          (t[71] = u),
+          (t[72] = a))
+        : (a = t[72]);
+      let o;
+      return (
+        t[73] !== i || t[74] !== a
+          ? ((o = (0, $.jsxs)(`div`, {
+              "data-avatar-overlay-compact-waiting-request": `tool`,
+              children: [i, a],
+            })),
+            (t[73] = i),
+            (t[74] = a),
+            (t[75] = o))
+          : (o = t[75]),
+        o
+      );
+    }
+  }
+}
+function et(e, t) {
+  return { label: e.label, tone: t === 0 ? `primary` : `secondary`, questionOption: e };
+}
+function tt(e) {
+  let t = (0, pt.c)(11),
+    { isExpanded: n, nativeMaterialAttached: r, onRunNotificationAction: i, request: a } = e,
+    o;
+  t[0] !== n || t[1] !== a.summary
+    ? ((o = (0, $.jsx)(nt, { isExpanded: n, text: a.summary })),
+      (t[0] = n),
+      (t[1] = a.summary),
+      (t[2] = o))
+    : (o = t[2]);
+  let s;
+  t[3] !== r || t[4] !== i || t[5] !== a.actions
+    ? ((s = (0, $.jsx)(at, {
+        actions: a.actions,
+        nativeMaterialAttached: r,
+        onRunNotificationAction: i,
+      })),
+      (t[3] = r),
+      (t[4] = i),
+      (t[5] = a.actions),
+      (t[6] = s))
+    : (s = t[6]);
+  let c;
+  return (
+    t[7] !== a.kind || t[8] !== o || t[9] !== s
+      ? ((c = (0, $.jsxs)(`div`, {
+          "data-avatar-overlay-compact-waiting-request": a.kind,
+          children: [o, s],
+        })),
+        (t[7] = a.kind),
+        (t[8] = o),
+        (t[9] = s),
+        (t[10] = c))
+      : (c = t[10]),
+    c
+  );
+}
+function nt(e) {
+  let t = (0, pt.c)(5),
+    { isExpanded: n, text: r } = e,
+    i = n ? `break-words whitespace-pre-wrap` : `truncate whitespace-nowrap`,
+    a;
+  t[0] === i ? (a = t[1]) : ((a = o(`min-w-0 pr-[38px]`, i)), (t[0] = i), (t[1] = a));
+  let s;
+  return (
+    t[2] !== a || t[3] !== r
+      ? ((s = (0, $.jsx)(`div`, {
+          className: a,
+          "data-avatar-overlay-compact-waiting-summary-text": `true`,
+          "data-avatar-overlay-overflow-content": `true`,
+          children: r,
+        })),
+        (t[2] = a),
+        (t[3] = r),
+        (t[4] = s))
+      : (s = t[4]),
+    s
+  );
+}
+function rt(e) {
+  let t = (0, pt.c)(31),
+    { copy: n, files: r, isExpanded: i, summary: a } = e;
+  if (n == null) return null;
+  if (!i) {
+    let e;
+    t[0] === n.fileCount
+      ? (e = t[1])
+      : ((e = (0, $.jsx)(`span`, { children: n.fileCount })), (t[0] = n.fileCount), (t[1] = e));
+    let r;
+    t[2] === n.additions
+      ? (r = t[3])
+      : ((r =
+          n.additions == null
+            ? null
+            : (0, $.jsx)(`span`, {
+                className: `ml-1.5 text-token-charts-green`,
+                children: n.additions,
+              })),
+        (t[2] = n.additions),
+        (t[3] = r));
+    let i;
+    t[4] === n.deletions
+      ? (i = t[5])
+      : ((i =
+          n.deletions == null
+            ? null
+            : (0, $.jsx)(`span`, {
+                className: `ml-1.5 text-token-error-foreground`,
+                children: n.deletions,
+              })),
+        (t[4] = n.deletions),
+        (t[5] = i));
+    let o;
+    t[6] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((o = (0, $.jsx)(L, { className: `mx-1.5 text-token-text-tertiary` })), (t[6] = o))
+      : (o = t[6]);
+    let s;
+    t[7] === a ? (s = t[8]) : ((s = (0, $.jsx)(`span`, { children: a })), (t[7] = a), (t[8] = s));
+    let c;
+    return (
+      t[9] !== e || t[10] !== r || t[11] !== i || t[12] !== s
+        ? ((c = (0, $.jsxs)(`div`, {
+            className: `min-w-0 truncate pr-[38px] whitespace-nowrap`,
+            "data-avatar-overlay-compact-waiting-summary-text": `true`,
+            "data-avatar-overlay-overflow-content": `true`,
+            children: [e, r, i, o, s],
+          })),
+          (t[9] = e),
+          (t[10] = r),
+          (t[11] = i),
+          (t[12] = s),
+          (t[13] = c))
+        : (c = t[13]),
+      c
+    );
+  }
+  let o;
+  t[14] === n.fileCount
+    ? (o = t[15])
+    : ((o = (0, $.jsx)(`span`, { className: `text-[11px] leading-4`, children: n.fileCount })),
+      (t[14] = n.fileCount),
+      (t[15] = o));
+  let s;
+  t[16] === n.additions
+    ? (s = t[17])
+    : ((s =
+        n.additions == null
+          ? null
+          : (0, $.jsx)(`span`, {
+              className: `text-[11px] leading-4 text-token-charts-green`,
+              children: n.additions,
+            })),
+      (t[16] = n.additions),
+      (t[17] = s));
+  let c;
+  t[18] === n.deletions
+    ? (c = t[19])
+    : ((c =
+        n.deletions == null
+          ? null
+          : (0, $.jsx)(`span`, {
+              className: `text-[11px] leading-4 text-token-error-foreground`,
+              children: n.deletions,
+            })),
+      (t[18] = n.deletions),
+      (t[19] = c));
+  let l;
+  t[20] !== o || t[21] !== s || t[22] !== c
+    ? ((l = (0, $.jsxs)(`div`, {
+        className: `mt-0.5 flex min-w-0 flex-wrap items-center gap-x-1.5 gap-y-0.5`,
+        children: [o, s, c],
+      })),
+      (t[20] = o),
+      (t[21] = s),
+      (t[22] = c),
+      (t[23] = l))
+    : (l = t[23]);
+  let u;
+  t[24] === r ? (u = t[25]) : ((u = r.map(it)), (t[24] = r), (t[25] = u));
+  let d;
+  t[26] === u
+    ? (d = t[27])
+    : ((d = (0, $.jsx)(`div`, { className: `mt-0.5 min-w-0 space-y-0.5`, children: u })),
+      (t[26] = u),
+      (t[27] = d));
+  let f;
+  return (
+    t[28] !== l || t[29] !== d
+      ? ((f = (0, $.jsxs)(`div`, {
+          "data-avatar-overlay-compact-waiting-summary-text": `true`,
+          "data-avatar-overlay-overflow-content": `true`,
+          children: [l, d],
+        })),
+        (t[28] = l),
+        (t[29] = d),
+        (t[30] = f))
+      : (f = t[30]),
+    f
+  );
+}
+function it(e) {
+  return (0, $.jsx)(`div`, { className: `leading-4 break-words`, children: e }, e);
+}
+function at(e) {
+  let t = (0, pt.c)(4),
+    { actions: n, nativeMaterialAttached: r, onRunNotificationAction: i } = e,
+    a;
+  return (
+    t[0] !== n || t[1] !== r || t[2] !== i
+      ? ((a = (0, $.jsx)(`div`, {
+          className: `no-drag mt-1.5 flex min-w-0 flex-wrap items-center justify-end gap-2 overflow-visible pb-[3px]`,
+          children: [...n.filter(ct), ...n.filter(st)].map((e) =>
+            (0, $.jsx)(
+              c,
+              {
+                className: o(
+                  `max-w-full min-w-0 px-3 text-[13px] font-medium`,
+                  e.tone === `primary` &&
+                    `!bg-token-charts-blue !text-white enabled:hover:!bg-token-charts-blue/90`,
+                  e.tone === `secondary` &&
+                    r &&
+                    `!bg-[rgba(80,89,96,0.12)] !text-[#111111] enabled:hover:!bg-[rgba(80,89,96,0.18)]`,
+                ),
+                color: lt(e.tone),
+                size: `composer`,
+                "aria-label": e.ariaLabel ?? e.label,
+                title: e.ariaLabel ?? e.label,
+                onClick: (t) => {
+                  (t.stopPropagation(), i(e));
+                },
+                onPointerDown: ot,
+                children: (0, $.jsx)(`span`, { className: `truncate`, children: e.label }),
+              },
+              e.ariaLabel ?? e.label,
+            ),
+          ),
+        })),
+        (t[0] = n),
+        (t[1] = r),
+        (t[2] = i),
+        (t[3] = a))
+      : (a = t[3]),
+    a
+  );
+}
+function ot(e) {
+  e.stopPropagation();
+}
+function st(e) {
+  return e.tone === `primary`;
+}
+function ct(e) {
+  return e.tone !== `primary`;
+}
+function lt(e) {
+  switch (e) {
+    case `primary`:
+      return `primary`;
+    case `danger`:
+      return `danger`;
+    case `secondary`:
+      return `secondary`;
+  }
+}
+function ut(e) {
+  return e.clientWidth > 0 && e.scrollWidth > e.clientWidth + gt;
+}
+function dt(e) {
+  switch (e.iconType) {
+    case `check-circle`:
+      return (0, $.jsxs)($.Fragment, {
+        children: [
+          (0, $.jsx)(`span`, {
+            "aria-hidden": `true`,
+            className: `absolute size-[27.890625px] rounded-full bg-[color(display-p3_0.149_0.749_0.302_/_0.18)] mix-blend-darken`,
+          }),
+          (0, $.jsx)(P, {
+            "aria-hidden": `true`,
+            className: `relative size-[17px] shrink-0 scale-110 text-[color(display-p3_0.149_0.749_0.302)] mix-blend-darken [&_path]:stroke-current [&_path]:stroke-[0.65px] [&_path]:[paint-order:stroke_fill] [&_path]:[stroke-linecap:round] [&_path]:[stroke-linejoin:round]`,
+          }),
+        ],
+      });
+    case `clock`:
+      return (0, $.jsx)(se, { className: e.iconClassName });
+    case `spinner`:
+      return (0, $.jsx)(C, { Icon: je, className: `size-7` });
+    case `warning`:
+      return (0, $.jsx)(ce, { className: e.iconClassName });
+  }
+}
+function ft(e, t) {
+  let n = e.tray;
+  if (n == null) return {};
+  let r = Math.min(n.left, t.left) - yt,
+    i = e.placement.startsWith(`top`),
+    a = i ? n.top + n.height - yt : t.top + t.height - yt,
+    o = i ? t.top + yt : n.top + yt;
+  return {
+    height: Math.max(0, o - a),
+    left: r,
+    top: a,
+    width: Math.max(n.left + n.width, t.left + t.width) - r + yt,
+  };
+}
+var pt,
+  Q,
+  $,
+  mt,
+  ht,
+  gt,
+  _t,
+  vt,
+  yt,
+  bt,
+  xt = e(() => {
+    ((pt = k()),
+      _(),
+      h(),
+      r(),
+      y(),
+      (Q = t(u(), 1)),
+      S(),
+      te(),
+      I(),
+      f(),
+      B(),
+      i(),
+      b(),
+      ie(),
+      G(),
+      ae(),
+      Y(),
+      Ae(),
+      Me(),
+      V(),
+      g(),
+      F(),
+      oe(),
+      J(),
+      U(),
+      K(),
+      le(),
+      x(),
+      n(),
+      De(),
+      fe(),
+      O(),
+      Pe(),
+      xe(),
+      we(),
+      he(),
+      Ce(),
+      Ge(),
+      Le(),
+      ($ = s()),
+      (mt = 56),
+      (ht = 180),
+      (gt = 1),
+      (_t = A({
+        mascotLabel: {
+          id: `petOverlay.mascotLabel`,
+          defaultMessage: `{petName} pet`,
+          description: `Accessible label for the floating Codex pet`,
+        },
+        replyNotification: {
+          id: `avatarOverlay.replyNotification`,
+          defaultMessage: `Reply to {title}`,
+          description: `Accessible label for replying to a floating avatar notification`,
+        },
+        stopNotification: {
+          id: `avatarOverlay.stopNotification`,
+          defaultMessage: `Stop {title}`,
+          description: `Accessible label for stopping a running task from the floating avatar notification tray`,
+        },
+        quickChat: {
+          id: `avatarOverlay.quickChat`,
+          defaultMessage: `Quick Chat`,
+          description: `Accessible label for the floating pet Quick Chat input`,
+        },
+        sendQuickChat: {
+          id: `avatarOverlay.sendQuickChat`,
+          defaultMessage: `Send Quick Chat`,
+          description: `Accessible label for submitting a floating pet Quick Chat`,
+        },
+        askPlaceholder: {
+          id: `avatarOverlay.askPlaceholder`,
+          defaultMessage: `Ask`,
+          description: `Placeholder for Quick Chat when the floating pet is idle`,
+        },
+        startNewTaskPlaceholder: {
+          id: `avatarOverlay.startNewTaskPlaceholder`,
+          defaultMessage: `Start new task`,
+          description: `Placeholder for Quick Chat when the floating pet has activity`,
+        },
+        quickChatError: {
+          id: `avatarOverlay.quickChatError`,
+          defaultMessage: `Unable to start task`,
+          description: `Compact error shown when floating pet Quick Chat fails`,
+        },
+        resizeMascot: {
+          id: `avatarOverlay.resizeMascot`,
+          defaultMessage: `Resize pet`,
+          description: `Accessible label for the handle that resizes the floating Codex pet`,
+        },
+        notificationList: {
+          id: `avatarOverlay.notificationList`,
+          defaultMessage: `Activity notifications`,
+          description: `Accessible label for the list of floating avatar activity notifications`,
+        },
+      })),
+      (vt = 300),
+      (yt = 8),
+      (bt = `absolute top-1/2 size-7 shrink-0 -translate-y-1/2 !rounded-full !border-0 !bg-transparent !p-0 enabled:hover:!bg-transparent before:pointer-events-none before:absolute before:inset-0 before:rounded-full before:mix-blend-darken before:content-['']`));
+  });
+export { Pe as i, xt as n, Ne as r, Ke as t };
+//# sourceMappingURL=avatar-overlay-native-frame.js.map

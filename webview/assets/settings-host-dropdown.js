@@ -1,0 +1,249 @@
+import { n as e } from "./rolldown-runtime.js";
+import {
+  BP as t,
+  BV as n,
+  Gi as r,
+  TM as i,
+  UE as a,
+  VE as o,
+  VP as s,
+  Zi as c,
+  iF as l,
+  lF as u,
+  na as d,
+  qV as f,
+  qi as p,
+  ra as m,
+  sF as h,
+  wM as g,
+} from "./app-initial~app-main~remote-conversation-page~plugin-detail-page~new-thread-panel-page~appg~ijdupmx5.js";
+import { $r as _, ei as v } from "./app-initial~app-main~onboarding-page~profile.js";
+import {
+  H as y,
+  K as b,
+} from "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~appgen-library-page~hot~djo67r4n.js";
+import {
+  _ as x,
+  g as S,
+} from "./app-initial~app-main~projects-index-page~local-conversation-page.js";
+function C(e) {
+  let t = (0, E.c)(43),
+    {
+      connectedRemoteConnections: n,
+      disabled: i,
+      onSelectHost: o,
+      remoteConnectionHostIds: s,
+      selectedHostId: c,
+      align: l,
+      contentWidth: d,
+      localIcon: f,
+      localLabel: m,
+      showConnectedIndicator: v,
+      triggerClassName: b,
+      triggerColor: x,
+      useRemoteHostColors: S,
+    } = e,
+    C = i === void 0 ? !1 : i,
+    O = f === void 0 ? _ : f,
+    k = v === void 0 ? !1 : v,
+    A = S === void 0 ? !0 : S,
+    j = u(),
+    M;
+  t[0] !== n || t[1] !== c
+    ? ((M = n.find((e) => e.hostId === c) ?? null), (t[0] = n), (t[1] = c), (t[2] = M))
+    : (M = t[2]);
+  let N = M,
+    P;
+  t[3] !== j || t[4] !== m
+    ? ((P =
+        m ??
+        j.formatMessage({
+          id: `settings.hostDropdown.local`,
+          defaultMessage: `Local`,
+          description: `Label for the local host in settings connection dropdowns`,
+        })),
+      (t[3] = j),
+      (t[4] = m),
+      (t[5] = P))
+    : (P = t[5]);
+  let F = P,
+    I = N?.displayName ?? F,
+    L;
+  t[6] === F ? (L = t[7]) : ((L = { hostId: a, displayName: F }), (t[6] = F), (t[7] = L));
+  let R;
+  t[8] !== n || t[9] !== L ? ((R = [L, ...n]), (t[8] = n), (t[9] = L), (t[10] = R)) : (R = t[10]);
+  let z = R,
+    B = C ? `hidden` : void 0,
+    V;
+  t[11] !== O || t[12] !== s || t[13] !== N || t[14] !== A
+    ? ((V =
+        N == null
+          ? (0, D.jsx)(O, { className: `icon-xs shrink-0 text-token-foreground` })
+          : (0, D.jsx)(T, {
+              className: `icon-xs shrink-0`,
+              hostId: N.hostId,
+              hostIdsForColorAssignment: s,
+              useRemoteHostColors: A,
+            })),
+      (t[11] = O),
+      (t[12] = s),
+      (t[13] = N),
+      (t[14] = A),
+      (t[15] = V))
+    : (V = t[15]);
+  let H;
+  t[16] === I
+    ? (H = t[17])
+    : ((H = (0, D.jsx)(`span`, {
+        className: `truncate text-left text-token-foreground`,
+        children: I,
+      })),
+      (t[16] = I),
+      (t[17] = H));
+  let U;
+  t[18] !== N || t[19] !== k
+    ? ((U = N != null && k ? (0, D.jsx)(w, {}) : null), (t[18] = N), (t[19] = k), (t[20] = U))
+    : (U = t[20]);
+  let W;
+  t[21] !== C ||
+  t[22] !== V ||
+  t[23] !== H ||
+  t[24] !== U ||
+  t[25] !== B ||
+  t[26] !== b ||
+  t[27] !== x
+    ? ((W = (0, D.jsxs)(y, {
+        className: b,
+        color: x,
+        disabled: C,
+        chevronClassName: B,
+        children: [V, H, U],
+      })),
+      (t[21] = C),
+      (t[22] = V),
+      (t[23] = H),
+      (t[24] = U),
+      (t[25] = B),
+      (t[26] = b),
+      (t[27] = x),
+      (t[28] = W))
+    : (W = t[28]);
+  let G = W;
+  if (C) return G;
+  let K = l ?? `end`,
+    q = d ?? `menuWide`,
+    J;
+  t[29] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((J = (0, D.jsx)(p.Title, {
+        children: (0, D.jsx)(h, {
+          id: `settings.hostDropdown.title`,
+          defaultMessage: `Host`,
+          description: `Title for the Host dropdown shown in settings pages`,
+        }),
+      })),
+      (t[29] = J))
+    : (J = t[29]);
+  let Y;
+  t[30] !== O ||
+  t[31] !== z ||
+  t[32] !== o ||
+  t[33] !== s ||
+  t[34] !== c ||
+  t[35] !== k ||
+  t[36] !== A
+    ? ((Y = (0, D.jsx)(p.Section, {
+        className: `max-h-40 overflow-y-auto`,
+        children: z.map((e) =>
+          (0, D.jsx)(
+            p.Item,
+            {
+              RightIcon: e.hostId === c ? g : void 0,
+              onSelect: () => {
+                o(e.hostId);
+              },
+              children: (0, D.jsxs)(`span`, {
+                className: `flex min-w-0 items-center gap-2`,
+                children: [
+                  e.hostId === `local`
+                    ? (0, D.jsx)(O, { className: `icon-xs shrink-0` })
+                    : (0, D.jsx)(T, {
+                        className: `icon-xs shrink-0`,
+                        hostId: e.hostId,
+                        hostIdsForColorAssignment: s,
+                        useRemoteHostColors: A,
+                      }),
+                  (0, D.jsx)(`span`, { className: `truncate`, children: e.displayName }),
+                  e.hostId !== `local` && k ? (0, D.jsx)(w, {}) : null,
+                ],
+              }),
+            },
+            e.hostId,
+          ),
+        ),
+      })),
+      (t[30] = O),
+      (t[31] = z),
+      (t[32] = o),
+      (t[33] = s),
+      (t[34] = c),
+      (t[35] = k),
+      (t[36] = A),
+      (t[37] = Y))
+    : (Y = t[37]);
+  let X;
+  return (
+    t[38] !== K || t[39] !== q || t[40] !== Y || t[41] !== G
+      ? ((X = (0, D.jsxs)(r, { align: K, contentWidth: q, triggerButton: G, children: [J, Y] })),
+        (t[38] = K),
+        (t[39] = q),
+        (t[40] = Y),
+        (t[41] = G),
+        (t[42] = X))
+      : (X = t[42]),
+    X
+  );
+}
+function w() {
+  let e = (0, E.c)(1),
+    t;
+  return (
+    e[0] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((t = (0, D.jsx)(`span`, {
+          "aria-hidden": !0,
+          className: `block size-2 shrink-0 rounded-full bg-green-500`,
+        })),
+        (e[0] = t))
+      : (t = e[0]),
+    t
+  );
+}
+function T(e) {
+  let n = (0, E.c)(8),
+    { className: r, hostId: i, hostIdsForColorAssignment: a, useRemoteHostColors: o } = e;
+  if (!o) {
+    let e;
+    n[0] === r ? (e = n[1]) : ((e = t(r, `text-token-foreground`)), (n[0] = r), (n[1] = e));
+    let i;
+    return (
+      n[2] === e ? (i = n[3]) : ((i = (0, D.jsx)(d, { className: e })), (n[2] = e), (n[3] = i)), i
+    );
+  }
+  let s;
+  return (
+    n[4] !== r || n[5] !== i || n[6] !== a
+      ? ((s = (0, D.jsx)(S, { className: r, hostId: i, hostIdsForColorAssignment: a })),
+        (n[4] = r),
+        (n[5] = i),
+        (n[6] = a),
+        (n[7] = s))
+      : (s = n[7]),
+    s
+  );
+}
+var E,
+  D,
+  O = e(() => {
+    ((E = f()), s(), l(), c(), x(), i(), m(), v(), o(), b(), (D = n()));
+  });
+export { O as n, C as t };
+//# sourceMappingURL=settings-host-dropdown.js.map

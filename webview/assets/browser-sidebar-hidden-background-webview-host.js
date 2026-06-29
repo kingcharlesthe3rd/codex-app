@@ -1,0 +1,158 @@
+import { n as e, s as t } from "./rolldown-runtime.js";
+import {
+  AB as n,
+  BV as r,
+  DM as i,
+  D_ as a,
+  IB as o,
+  JV as s,
+  O_ as c,
+  kM as l,
+  qV as u,
+} from "./app-initial~app-main~remote-conversation-page~plugin-detail-page~new-thread-panel-page~appg~ijdupmx5.js";
+import {
+  Jl as d,
+  Qu as f,
+  Yl as p,
+  cc as m,
+  ed as h,
+  fc as g,
+  fu as _,
+  hu as v,
+  nd as y,
+  nu as b,
+  ql as x,
+  sd as S,
+  td as C,
+  tu as w,
+  vu as T,
+  yu as E,
+} from "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~projects-index-page~app~ovcriy74.js";
+import { Mu as D, Nu as O } from "./app-initial~app-main~onboarding-page~profile.js";
+function k(e) {
+  let t = (0, L.c)(13),
+    { conversationId: n, persistedTabsEnabled: r } = e,
+    i = o(x.activeTab$),
+    a = o(p.activeTab$),
+    s = o(x.tabs$),
+    c = o(h),
+    l = o(f),
+    u,
+    d;
+  t[0] === l
+    ? ((u = t[1]), (d = t[2]))
+    : ((u = (e) => l.on(`change`, e)), (d = () => l.get()), (t[0] = l), (t[1] = u), (t[2] = d));
+  let g = (0, R.useSyncExternalStore)(u, d, M),
+    _ = o(p.tabs$),
+    v = o(y),
+    b = o(C),
+    S,
+    T;
+  t[3] === b
+    ? ((S = t[4]), (T = t[5]))
+    : ((S = (e) => b.on(`change`, e)), (T = () => b.get()), (t[3] = b), (t[4] = S), (t[5] = T));
+  let E = (0, R.useSyncExternalStore)(S, T, j),
+    D = m(n, { bottom: i, right: a }, { bottom: c || g > 0, right: v || E > 0 }),
+    O;
+  (t[6] === n
+    ? (O = t[7])
+    : ((O = () => w.getBrowserUseBrowserTabIdsKey(n)), (t[6] = n), (t[7] = O)),
+    (0, R.useSyncExternalStore)(w.subscribe, O, A));
+  let k = P({ conversationId: n, mountedBrowserTabIds: D, panelTabs: [..._, ...s] });
+  if (k.length === 0) return null;
+  let F;
+  t[8] !== n || t[9] !== r
+    ? ((F = (e) =>
+        (0, z.jsx)(N, { browserTabId: e, conversationId: n, persistedTabsEnabled: r }, e)),
+      (t[8] = n),
+      (t[9] = r),
+      (t[10] = F))
+    : (F = t[10]);
+  let I = k.map(F),
+    B;
+  return (
+    t[11] === I
+      ? (B = t[12])
+      : ((B = (0, z.jsx)(z.Fragment, { children: I })), (t[11] = I), (t[12] = B)),
+    B
+  );
+}
+function A() {
+  return ``;
+}
+function j() {
+  return 0;
+}
+function M() {
+  return 0;
+}
+function N(e) {
+  let t = (0, L.c)(11),
+    { browserTabId: n, conversationId: r, persistedTabsEnabled: i } = e,
+    a = l(),
+    o = (0, R.useRef)(null),
+    s;
+  t[0] !== n || t[1] !== r ? ((s = I(r, n)), (t[0] = n), (t[1] = r), (t[2] = s)) : (s = t[2]);
+  let c = s;
+  if (c == null || !F(r, n)) return null;
+  let u;
+  return (
+    t[3] !== n ||
+    t[4] !== r ||
+    t[5] !== i ||
+    t[6] !== c.adoptedWebContentsId ||
+    t[7] !== c.adoptionLease ||
+    t[8] !== c.initialUrl ||
+    t[9] !== a
+      ? ((u = (0, z.jsx)(D, {
+          adoptionLease: c.adoptionLease,
+          adoptedWebContentsId: c.adoptedWebContentsId,
+          bounds: null,
+          browserTabId: n,
+          conversationId: r,
+          initialUrl: c.initialUrl,
+          isVisible: !1,
+          persistedTabsEnabled: i,
+          scale: 1,
+          shouldBootstrapWhenHidden: !0,
+          shouldPaint: !1,
+          webviewRef: o,
+          windowZoom: a,
+        })),
+        (t[3] = n),
+        (t[4] = r),
+        (t[5] = i),
+        (t[6] = c.adoptedWebContentsId),
+        (t[7] = c.adoptionLease),
+        (t[8] = c.initialUrl),
+        (t[9] = a),
+        (t[10] = u))
+      : (u = t[10]),
+    u
+  );
+}
+function P({ conversationId: e, mountedBrowserTabIds: t, panelTabs: n }) {
+  let r = new Set();
+  for (let i of n) {
+    let n = a(i, e) ?? null;
+    n == null || w.isBrowserUseTab(e, n) || t.includes(n) || (F(e, n) && r.add(n));
+  }
+  return Array.from(r);
+}
+function F(e, t) {
+  return w.isBrowserUseTab(e, t) ? !1 : I(e, t) != null;
+}
+function I(e, t) {
+  let n = v(e, t),
+    r = T(e, t),
+    i = _(e, t);
+  return n == null && (r == null || i == null)
+    ? null
+    : { adoptedWebContentsId: i, adoptionLease: r, initialUrl: n ?? `about:blank` };
+}
+var L, R, z;
+e(() => {
+  ((L = u()), n(), (R = t(s(), 1)), i(), d(), S(), g(), c(), b(), E(), O(), (z = r()));
+})();
+export { k as HiddenBackgroundBrowserWebviewHost };
+//# sourceMappingURL=browser-sidebar-hidden-background-webview-host.js.map

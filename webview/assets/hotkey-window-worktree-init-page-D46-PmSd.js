@@ -1,2 +1,82 @@
-import{n as e}from"./rolldown-runtime-Czos8NxU.js";import{AB as t,Av as n,BV as r,IB as i,NI as a,OI as o,PI as s,UA as c,WA as l,bF as u,iF as d,mv as f,qV as p,sF as m,yv as h}from"./app-initial~app-main~remote-conversation-page~plugin-detail-page~new-thread-panel-page~appg~ijdupmx5-CdYgxe-b.js";import{n as g,r as _}from"./app-initial~app-main~remote-conversation-page~hotkey-window-worktree-init-page~hotkey-windo~kjl2gxhu-Dg7uZJVh.js";import{n as v,r as y}from"./use-hotkey-window-detail-layout-CqbE5SNB.js";import{n as b,t as x}from"./worktree-init-v2-page-BAfwy1p_.js";function S(){let e=(0,w.c)(8),{pendingWorktreeId:t}=n(),{data:r}=i(g),c=r==null||r.configuredHotkey!=null,l;e[0]===c?l=e[1]:(l=s(c),e[0]=c,e[1]=l);let u=l,d;if(e[2]===t?d=e[3]:(d=t==null?null:{title:(0,T.jsx)(`span`,{className:`max-w-full truncate`,children:(0,T.jsx)(m,{id:`worktreeInitV2.title`,defaultMessage:`Creating worktree`,description:`Title for the worktree init v2 page`})}),mainWindowPath:a(t)},e[2]=t,e[3]=d),y(d),!t){let t;return e[4]===u?t=e[5]:(t=(0,T.jsx)(h,{to:u,replace:!0}),e[4]=u,e[5]=t),t}let f;return e[6]===u?f=e[7]:(f=(0,T.jsx)(x,{homePath:u,conversationPathBuilder:o,onConversationReady:C}),e[6]=u,e[7]=f),f}function C(e){c.hotkeyWindowHotkeys?.open({path:o(e)})}var w,T;e((()=>{w=p(),t(),u(),d(),f(),l(),b(),_(),v(),T=r()}))();export{S as HotkeyWindowWorktreeInitPage};
+import { n as e } from "./rolldown-runtime.js";
+import {
+  AB as t,
+  Av as n,
+  BV as r,
+  IB as i,
+  NI as a,
+  OI as o,
+  PI as s,
+  UA as c,
+  WA as l,
+  bF as u,
+  iF as d,
+  mv as f,
+  qV as p,
+  sF as m,
+  yv as h,
+} from "./app-initial~app-main~remote-conversation-page~plugin-detail-page~new-thread-panel-page~appg~ijdupmx5.js";
+import {
+  n as g,
+  r as _,
+} from "./app-initial~app-main~remote-conversation-page~hotkey-window-worktree-init-page~hotkey-windo~kjl2gxhu.js";
+import { n as v, r as y } from "./use-hotkey-window-detail-layout.js";
+import { n as b, t as x } from "./worktree-init-v2-page.js";
+function S() {
+  let e = (0, w.c)(8),
+    { pendingWorktreeId: t } = n(),
+    { data: r } = i(g),
+    c = r == null || r.configuredHotkey != null,
+    l;
+  e[0] === c ? (l = e[1]) : ((l = s(c)), (e[0] = c), (e[1] = l));
+  let u = l,
+    d;
+  if (
+    (e[2] === t
+      ? (d = e[3])
+      : ((d =
+          t == null
+            ? null
+            : {
+                title: (0, T.jsx)(`span`, {
+                  className: `max-w-full truncate`,
+                  children: (0, T.jsx)(m, {
+                    id: `worktreeInitV2.title`,
+                    defaultMessage: `Creating worktree`,
+                    description: `Title for the worktree init v2 page`,
+                  }),
+                }),
+                mainWindowPath: a(t),
+              }),
+        (e[2] = t),
+        (e[3] = d)),
+    y(d),
+    !t)
+  ) {
+    let t;
+    return (
+      e[4] === u
+        ? (t = e[5])
+        : ((t = (0, T.jsx)(h, { to: u, replace: !0 })), (e[4] = u), (e[5] = t)),
+      t
+    );
+  }
+  let f;
+  return (
+    e[6] === u
+      ? (f = e[7])
+      : ((f = (0, T.jsx)(x, { homePath: u, conversationPathBuilder: o, onConversationReady: C })),
+        (e[6] = u),
+        (e[7] = f)),
+    f
+  );
+}
+function C(e) {
+  c.hotkeyWindowHotkeys?.open({ path: o(e) });
+}
+var w, T;
+e(() => {
+  ((w = p()), t(), u(), d(), f(), l(), b(), _(), v(), (T = r()));
+})();
+export { S as HotkeyWindowWorktreeInitPage };
 //# sourceMappingURL=hotkey-window-worktree-init-page-D46-PmSd.js.map

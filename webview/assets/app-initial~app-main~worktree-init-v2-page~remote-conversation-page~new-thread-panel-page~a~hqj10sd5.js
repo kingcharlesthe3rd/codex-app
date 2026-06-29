@@ -1,0 +1,56 @@
+import { n as e, s as t } from "./rolldown-runtime.js";
+import {
+  BP as n,
+  BV as r,
+  JV as i,
+  VP as a,
+} from "./app-initial~app-main~remote-conversation-page~plugin-detail-page~new-thread-panel-page~appg~ijdupmx5.js";
+function o({
+  header: e,
+  banner: t,
+  children: r,
+  className: i,
+  bodyClassName: a,
+  containerRef: o,
+  tabIndex: l,
+  ...u
+}) {
+  return (0, c.jsxs)(`div`, {
+    ref: (0, s.useCallback)(
+      (e) => {
+        if (typeof o == `function`) {
+          o(e);
+          return;
+        }
+        o != null && (o.current = e);
+      },
+      [o],
+    ),
+    className: n(`relative flex h-full flex-col`, i),
+    tabIndex: l,
+    ...u,
+    children: [
+      (0, c.jsx)(`div`, { className: `sticky top-0 z-10`, children: e }),
+      (0, c.jsx)(`div`, {
+        className: n(`flex min-h-0 flex-1 flex-col`, a),
+        children: (0, c.jsxs)(`div`, {
+          className: `relative mx-auto flex min-h-0 w-full flex-1 flex-col`,
+          children: [t, (0, c.jsx)(`div`, { className: `min-h-0 flex-1`, children: r })],
+        }),
+      }),
+    ],
+  });
+}
+var s,
+  c,
+  l,
+  u,
+  d = e(() => {
+    (a(),
+      (s = t(i(), 1)),
+      (c = r()),
+      (l = `px-toolbar`),
+      (u = n(`mx-auto w-full max-w-(--thread-content-max-width)`, l)));
+  });
+export { o as n, d as r, u as t };
+//# sourceMappingURL=app-initial~app-main~worktree-init-v2-page~remote-conversation-page~new-thread-panel-page~a~hqj10sd5.js.map

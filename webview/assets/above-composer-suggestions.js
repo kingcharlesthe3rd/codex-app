@@ -1,0 +1,587 @@
+import { n as e, s as t } from "./rolldown-runtime.js";
+import {
+  AB as n,
+  Al as r,
+  BP as i,
+  BV as a,
+  DN as o,
+  FB as s,
+  JV as c,
+  MA as l,
+  NA as u,
+  ON as d,
+  OV as f,
+  Ol as p,
+  SV as m,
+  VP as h,
+  _o as g,
+  bo as _,
+  go as v,
+  ho as y,
+  iF as b,
+  lF as x,
+  qV as S,
+  sF as C,
+  vo as w,
+  wV as ee,
+  wl as te,
+  yF as T,
+  yo as E,
+} from "./app-initial~app-main~remote-conversation-page~plugin-detail-page~new-thread-panel-page~appg~ijdupmx5.js";
+import {
+  Fn as ne,
+  In as D,
+  Pn as O,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~new-~kvpgbdy1.js";
+import {
+  If as k,
+  Mf as A,
+  Nf as re,
+  zf as j,
+} from "./app-initial~app-main~onboarding-page~profile.js";
+import {
+  It as M,
+  Lt as N,
+  Rt as P,
+  nt as F,
+  tt as I,
+  zt as L,
+} from "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~appgen-library-page~hot~djo67r4n.js";
+function R(e) {
+  let t = (0, z.c)(31),
+    { actions: n, icon: r, layout: a, meta: o, suggestionId: s, title: c } = e,
+    l = (a === void 0 ? `inline` : a) === `stacked`,
+    u = l ? `py-2` : `py-1.5`,
+    d;
+  t[0] === u
+    ? (d = t[1])
+    : ((d = i(
+        `relative inline-flex max-w-full min-w-0 items-center justify-between gap-4 overflow-hidden rounded-3xl border border-token-border/80 bg-token-dropdown-background/90 pr-2 pl-3 text-token-foreground shadow-md backdrop-blur-sm`,
+        u,
+      )),
+      (t[0] = u),
+      (t[1] = d));
+  let f = l ? `items-start` : `items-center`,
+    p;
+  t[2] === f ? (p = t[3]) : ((p = i(`flex min-w-0 flex-1 gap-2`, f)), (t[2] = f), (t[3] = p));
+  let m;
+  t[4] === r
+    ? (m = t[5])
+    : ((m =
+        r == null
+          ? null
+          : (0, B.jsx)(`span`, {
+              className: `flex items-center justify-center text-token-foreground`,
+              children: r,
+            })),
+      (t[4] = r),
+      (t[5] = m));
+  let h = l ? `flex flex-col gap-1 text-sm` : `flex items-center gap-2`,
+    g;
+  t[6] === h ? (g = t[7]) : ((g = i(`min-w-0 flex-1`, h)), (t[6] = h), (t[7] = g));
+  let _ = l ? `min-w-0 leading-5 break-words` : `truncate leading-[18px]`,
+    v;
+  t[8] === _
+    ? (v = t[9])
+    : ((v = i(`text-sm font-medium text-token-foreground`, _)), (t[8] = _), (t[9] = v));
+  let y;
+  t[10] !== v || t[11] !== c
+    ? ((y = (0, B.jsx)(`span`, { className: v, children: c })),
+      (t[10] = v),
+      (t[11] = c),
+      (t[12] = y))
+    : (y = t[12]);
+  let b;
+  t[13] !== l || t[14] !== o
+    ? ((b = o
+        ? (0, B.jsx)(`span`, {
+            className: i(
+              `text-sm text-token-description-foreground`,
+              l ? `leading-4` : `hidden leading-none @[500px]:inline`,
+            ),
+            children: o,
+          })
+        : null),
+      (t[13] = l),
+      (t[14] = o),
+      (t[15] = b))
+    : (b = t[15]);
+  let x;
+  t[16] !== y || t[17] !== b || t[18] !== g
+    ? ((x = (0, B.jsxs)(`div`, { className: g, children: [y, b] })),
+      (t[16] = y),
+      (t[17] = b),
+      (t[18] = g),
+      (t[19] = x))
+    : (x = t[19]);
+  let S;
+  t[20] !== x || t[21] !== p || t[22] !== m
+    ? ((S = (0, B.jsxs)(`div`, { className: p, children: [m, x] })),
+      (t[20] = x),
+      (t[21] = p),
+      (t[22] = m),
+      (t[23] = S))
+    : (S = t[23]);
+  let C;
+  t[24] === n
+    ? (C = t[25])
+    : ((C = (0, B.jsx)(`div`, { className: `flex shrink-0 items-center gap-1`, children: n })),
+      (t[24] = n),
+      (t[25] = C));
+  let w;
+  return (
+    t[26] !== s || t[27] !== S || t[28] !== C || t[29] !== d
+      ? ((w = (0, B.jsx)(`div`, {
+          className: `pointer-events-auto flex w-full max-w-full justify-center`,
+          children: (0, B.jsxs)(`div`, {
+            className: d,
+            "data-codex-above-composer-suggestion": s,
+            children: [S, C],
+          }),
+        })),
+        (t[26] = s),
+        (t[27] = S),
+        (t[28] = C),
+        (t[29] = d),
+        (t[30] = w))
+      : (w = t[30]),
+    w
+  );
+}
+var z,
+  B,
+  V = e(() => {
+    ((z = S()), h(), (B = a()));
+  });
+function H({
+  intl: e,
+  artifactPluginSuggestionKind: t,
+  activateArtifactPlugin: n,
+  setDismissedSuggestionIds: r,
+}) {
+  if (t == null) return null;
+  let i = N(t),
+    { icon: a, pluginName: s, title: c } = U(e, t);
+  return {
+    id: i,
+    title: c,
+    icon: a,
+    meta: (0, W.jsx)(C, {
+      id: `composer.aboveSuggestion.artifact.shortcutWithAction`,
+      defaultMessage: `{shortcut}`,
+      description: `Keyboard shortcut hint shown before an artifact plugin suggestion button`,
+      values: {
+        shortcut: (0, W.jsx)(o, {
+          "aria-hidden": !0,
+          tabIndex: -1,
+          color: `outline`,
+          size: `composerSm`,
+          className: `pointer-events-none !h-auto rounded-md px-1 py-0.5 text-xs !leading-none`,
+          children: (0, W.jsx)(C, {
+            id: `composer.aboveSuggestion.artifact.shortcut`,
+            defaultMessage: `Shift + Tab`,
+            description: `Keyboard shortcut hint shown next to an artifact plugin suggestion button`,
+          }),
+        }),
+      },
+    }),
+    actionLabel: e.formatMessage(
+      {
+        id: `composer.aboveSuggestion.artifact.action`,
+        defaultMessage: `Use {pluginName}`,
+        description: `Primary button label for activating an artifact creation plugin from an above-composer suggestion`,
+      },
+      { pluginName: s },
+    ),
+    onAction: () => n(t),
+    onDismiss: () => r((e) => (e.includes(i) ? e : [...e, i])),
+  };
+}
+function U(e, t) {
+  switch (t) {
+    case `document`:
+      return {
+        icon: y,
+        pluginName: e.formatMessage({
+          id: `composer.aboveSuggestion.artifact.document.pluginName`,
+          defaultMessage: `Documents`,
+          description: `Documents plugin name in the above-composer artifact suggestion`,
+        }),
+        title: e.formatMessage({
+          id: `composer.aboveSuggestion.artifact.document.title`,
+          defaultMessage: `Create a document`,
+          description: `Title for the above-composer Documents plugin suggestion`,
+        }),
+      };
+    case `presentation`:
+      return {
+        icon: E,
+        pluginName: e.formatMessage({
+          id: `composer.aboveSuggestion.artifact.presentation.pluginName`,
+          defaultMessage: `Presentations`,
+          description: `Presentations plugin name in the above-composer artifact suggestion`,
+        }),
+        title: e.formatMessage({
+          id: `composer.aboveSuggestion.artifact.presentation.title`,
+          defaultMessage: `Create a presentation`,
+          description: `Title for the above-composer Presentations plugin suggestion`,
+        }),
+      };
+    case `spreadsheet`:
+      return {
+        icon: g,
+        pluginName: e.formatMessage({
+          id: `composer.aboveSuggestion.artifact.spreadsheet.pluginName`,
+          defaultMessage: `Spreadsheets`,
+          description: `Spreadsheets plugin name in the above-composer artifact suggestion`,
+        }),
+        title: e.formatMessage({
+          id: `composer.aboveSuggestion.artifact.spreadsheet.title`,
+          defaultMessage: `Create a spreadsheet`,
+          description: `Title for the above-composer Spreadsheets plugin suggestion`,
+        }),
+      };
+  }
+}
+var W,
+  ie = e(() => {
+    (b(), d(), _(), w(), v(), L(), (W = a()));
+  });
+function ae({
+  composerText: e,
+  hasPlanMode: t,
+  isPlanMode: n,
+  isDismissed: r,
+  showPlanKeywordSuggestion: i,
+}) {
+  return !i || !t || n || r ? !1 : G.test(e);
+}
+var G,
+  K,
+  q = e(() => {
+    ((G = /\bplan\b/i), (K = `keyword-plan-mode`));
+  });
+function oe({
+  intl: e,
+  shouldShowPlanSuggestion: t,
+  setSelectedCollaborationMode: n,
+  setDismissedSuggestionIds: r,
+}) {
+  return t
+    ? {
+        id: K,
+        title: e.formatMessage({
+          id: `composer.aboveSuggestion.plan.title`,
+          defaultMessage: `Create a plan`,
+          description: `Title for the above-composer plan keyword suggestion`,
+        }),
+        icon: I,
+        meta: (0, J.jsx)(C, {
+          id: `composer.aboveSuggestion.plan.shortcutWithAction`,
+          defaultMessage: `{shortcut}`,
+          description: `Keyboard shortcut hint shown before the above-composer plan suggestion button`,
+          values: {
+            shortcut: (0, J.jsx)(o, {
+              "aria-hidden": !0,
+              tabIndex: -1,
+              color: `outline`,
+              size: `composerSm`,
+              className: `pointer-events-none !h-auto rounded-md px-1 py-0.5 text-xs !leading-none`,
+              children: (0, J.jsx)(C, {
+                id: `composer.aboveSuggestion.plan.shortcut`,
+                defaultMessage: `Shift + Tab`,
+                description: `Keyboard shortcut hint shown next to the above-composer plan suggestion button`,
+              }),
+            }),
+          },
+        }),
+        actionLabel: e.formatMessage({
+          id: `composer.aboveSuggestion.plan.action`,
+          defaultMessage: `Use plan mode`,
+          description: `Primary button label for enabling plan mode from the above-composer suggestion`,
+        }),
+        onAction: () => {
+          n(`plan`);
+        },
+        onDismiss: () => {
+          r((e) => (e.includes(`keyword-plan-mode`) ? e : [...e, K]));
+        },
+      }
+    : null;
+}
+var J,
+  se = e(() => {
+    (b(), d(), q(), F(), (J = a()));
+  });
+function ce(e) {
+  return H(e) ?? oe(e);
+}
+var le = e(() => {
+  (ie(), se());
+});
+function ue(e) {
+  let t = (0, Y.c)(4),
+    { portalTarget: n, hideArtifactPluginSuggestions: r, showPlanKeywordSuggestion: i } = e;
+  if (n == null) return null;
+  let a;
+  return (
+    t[0] !== r || t[1] !== n || t[2] !== i
+      ? ((a = (0, Q.jsx)(de, {
+          portalTarget: n,
+          hideArtifactPluginSuggestions: r,
+          showPlanKeywordSuggestion: i,
+        })),
+        (t[0] = r),
+        (t[1] = n),
+        (t[2] = i),
+        (t[3] = a))
+      : (a = t[3]),
+    a
+  );
+}
+function de(e) {
+  let t = (0, Y.c)(32),
+    { portalTarget: n, hideArtifactPluginSuggestions: r, showPlanKeywordSuggestion: i } = e,
+    a = s(te),
+    o = x(),
+    c = ne(),
+    l;
+  t[0] === a ? (l = t[1]) : ((l = p(a)), (t[0] = a), (t[1] = l));
+  let u = l,
+    { activeMode: d, modes: m, setSelectedMode: h } = re(u),
+    g;
+  t[2] === m ? (g = t[3]) : ((g = m.some(fe)), (t[2] = m), (t[3] = g));
+  let _ = g,
+    v = d.mode === `plan`,
+    y = pe(u),
+    b;
+  t[4] === y
+    ? (b = t[5])
+    : ((b = f(
+        (e) => e(k)[y] ?? [],
+        (e, t, n) => {
+          t(k, (e) => {
+            let t = e[y] ?? [],
+              r = typeof n == `function` ? n(t) : n;
+            return r === t ? e : { ...e, [y]: r };
+          });
+        },
+      )),
+      (t[4] = y),
+      (t[5] = b));
+  let [S, C] = ee(b),
+    w;
+  t[6] === S ? (w = t[7]) : ((w = new Set(S)), (t[6] = S), (t[7] = w));
+  let T = w,
+    E;
+  t[8] === r ? (E = t[9]) : ((E = (e) => P(e.view.state.doc, r)), (t[8] = r), (t[9] = E));
+  let O = D(c, E),
+    A;
+  t[10] !== T || t[11] !== O
+    ? ((A = O != null && !T.has(N(O)) ? O : null), (t[10] = T), (t[11] = O), (t[12] = A))
+    : (A = t[12]);
+  let j = A,
+    F;
+  t[13] !== T || t[14] !== _ || t[15] !== v || t[16] !== i
+    ? ((F = (e) =>
+        ae({
+          composerText: e.view.state.doc.textContent,
+          hasPlanMode: _,
+          isPlanMode: v,
+          isDismissed: T.has(K),
+          showPlanKeywordSuggestion: i,
+        })),
+      (t[13] = T),
+      (t[14] = _),
+      (t[15] = v),
+      (t[16] = i),
+      (t[17] = F))
+    : (F = t[17]);
+  let I = D(c, F),
+    L;
+  t[18] === c ? (L = t[19]) : ((L = (e) => M(c, e)), (t[18] = c), (t[19] = L));
+  let R;
+  t[20] !== j || t[21] !== o || t[22] !== C || t[23] !== h || t[24] !== I || t[25] !== L
+    ? ((R = ce({
+        intl: o,
+        artifactPluginSuggestionKind: j,
+        activateArtifactPlugin: L,
+        shouldShowPlanSuggestion: I,
+        setSelectedCollaborationMode: h,
+        setDismissedSuggestionIds: C,
+      })),
+      (t[20] = j),
+      (t[21] = o),
+      (t[22] = C),
+      (t[23] = h),
+      (t[24] = I),
+      (t[25] = L),
+      (t[26] = R))
+    : (R = t[26]);
+  let z = R,
+    B;
+  t[27] !== n || t[28] !== z
+    ? ((B = z ? (0, Z.createPortal)((0, Q.jsx)(me, { suggestion: z }, z.id), n) : null),
+      (t[27] = n),
+      (t[28] = z),
+      (t[29] = B))
+    : (B = t[29]);
+  let V;
+  return (
+    t[30] === B
+      ? (V = t[31])
+      : ((V = (0, Q.jsx)(Q.Fragment, { children: B })), (t[30] = B), (t[31] = V)),
+    V
+  );
+}
+function fe(e) {
+  return e.mode === `plan`;
+}
+function pe(e) {
+  return e == null ? $ : `${e}`;
+}
+function me(e) {
+  let t = (0, Y.c)(28),
+    { suggestion: n } = e,
+    r = x(),
+    [i, a] = (0, X.useState)(!1),
+    s = n.icon,
+    c = n.actionDisabled === !0 || i,
+    u = n.dismissOnAction !== !1,
+    d;
+  t[0] === s
+    ? (d = t[1])
+    : ((d = s ? (0, Q.jsx)(s, { className: `icon-xs shrink-0` }) : null), (t[0] = s), (t[1] = d));
+  let f = d,
+    p;
+  t[2] !== c || t[3] !== u || t[4] !== n
+    ? ((p = (e) => {
+        if ((e.stopPropagation(), !c)) {
+          try {
+            let e = n.onAction();
+            if (e && typeof e.then == `function`) {
+              (a(!0),
+                e
+                  .then(() => {
+                    u && n.onDismiss();
+                  })
+                  .catch(he)
+                  .finally(() => {
+                    a(!1);
+                  }));
+              return;
+            }
+          } catch {
+            return;
+          }
+          u && n.onDismiss();
+        }
+      }),
+      (t[2] = c),
+      (t[3] = u),
+      (t[4] = n),
+      (t[5] = p))
+    : (p = t[5]);
+  let m = p,
+    h;
+  t[6] === n
+    ? (h = t[7])
+    : ((h = (e) => {
+        (e.stopPropagation(), n.onDismiss());
+      }),
+      (t[6] = n),
+      (t[7] = h));
+  let g = h,
+    _;
+  t[8] !== m || t[9] !== c || t[10] !== i || t[11] !== n.actionLabel
+    ? ((_ = (0, Q.jsx)(o, {
+        className: `px-2.5`,
+        color: `secondary`,
+        "data-codex-above-composer-suggestion-action": !0,
+        size: `default`,
+        disabled: c,
+        loading: i,
+        onClick: m,
+        children: n.actionLabel,
+      })),
+      (t[8] = m),
+      (t[9] = c),
+      (t[10] = i),
+      (t[11] = n.actionLabel),
+      (t[12] = _))
+    : (_ = t[12]);
+  let v;
+  t[13] === r
+    ? (v = t[14])
+    : ((v = r.formatMessage({
+        id: `composer.aboveSuggestion.dismiss`,
+        defaultMessage: `Dismiss suggestion`,
+        description: `Aria label for dismissing an above-composer suggestion`,
+      })),
+      (t[13] = r),
+      (t[14] = v));
+  let y;
+  t[15] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((y = (0, Q.jsx)(l, { className: `icon-xs` })), (t[15] = y))
+    : (y = t[15]);
+  let b;
+  t[16] !== g || t[17] !== v
+    ? ((b = (0, Q.jsx)(`button`, {
+        type: `button`,
+        className: `no-drag flex size-[22px] shrink-0 cursor-interaction items-center justify-center rounded-full border border-transparent text-token-description-foreground select-none hover:bg-token-list-hover-background focus:outline-none`,
+        "aria-label": v,
+        onClick: g,
+        children: y,
+      })),
+      (t[16] = g),
+      (t[17] = v),
+      (t[18] = b))
+    : (b = t[18]);
+  let S;
+  t[19] !== _ || t[20] !== b
+    ? ((S = (0, Q.jsxs)(Q.Fragment, { children: [_, b] })), (t[19] = _), (t[20] = b), (t[21] = S))
+    : (S = t[21]);
+  let C;
+  return (
+    t[22] !== f || t[23] !== n.id || t[24] !== n.meta || t[25] !== n.title || t[26] !== S
+      ? ((C = (0, Q.jsx)(R, {
+          actions: S,
+          icon: f,
+          meta: n.meta,
+          suggestionId: n.id,
+          title: n.title,
+        })),
+        (t[22] = f),
+        (t[23] = n.id),
+        (t[24] = n.meta),
+        (t[25] = n.title),
+        (t[26] = S),
+        (t[27] = C))
+      : (C = t[27]),
+    C
+  );
+}
+function he() {}
+var Y, X, Z, Q, $;
+e(() => {
+  ((Y = S()),
+    m(),
+    n(),
+    (X = t(c(), 1)),
+    (Z = t(T(), 1)),
+    b(),
+    L(),
+    d(),
+    j(),
+    u(),
+    r(),
+    V(),
+    le(),
+    q(),
+    O(),
+    A(),
+    (Q = a()),
+    ($ = `__new-thread__`));
+})();
+export { ue as AboveComposerSuggestions };
+//# sourceMappingURL=above-composer-suggestions.js.map

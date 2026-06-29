@@ -1,0 +1,913 @@
+import { n as e, s as t } from "./rolldown-runtime.js";
+import {
+  AB as n,
+  AN as r,
+  BP as i,
+  BV as a,
+  Gj as o,
+  JV as s,
+  MA as c,
+  NA as l,
+  PB as u,
+  VP as d,
+  cP as f,
+  iF as p,
+  kN as m,
+  lF as h,
+  lP as g,
+  qV as _,
+  qj as v,
+  uP as y,
+} from "./app-initial~app-main~remote-conversation-page~plugin-detail-page~new-thread-panel-page~appg~ijdupmx5.js";
+import {
+  $i as b,
+  Ji as x,
+  _a as S,
+  ga as C,
+  ma as w,
+  pa as T,
+  va as E,
+  ya as D,
+} from "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~projects-index-page~app~ovcriy74.js";
+import {
+  mr as O,
+  pr as k,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~new-~kvpgbdy1.js";
+function A({ altKey: e, code: t, key: n }) {
+  return !e || t == null ? n : (P?.[t] ?? M(t) ?? n);
+}
+function j(e) {
+  P = e;
+}
+function M(e) {
+  return /^Key[A-Z]$/.test(e)
+    ? e.slice(3).toLowerCase()
+    : /^Digit[0-9]$/.test(e)
+      ? e.slice(5)
+      : (N.get(e) ?? null);
+}
+var N,
+  P,
+  F = e(() => {
+    ((N = new Map([
+      [`Backquote`, "`"],
+      [`Minus`, `-`],
+      [`Equal`, `=`],
+      [`BracketLeft`, `[`],
+      [`BracketRight`, `]`],
+      [`Backslash`, `\\`],
+      [`Semicolon`, `;`],
+      [`Quote`, `'`],
+      [`Comma`, `,`],
+      [`Period`, `.`],
+      [`Slash`, `/`],
+      [`Space`, ` `],
+      [`NumpadMultiply`, `*`],
+      [`NumpadAdd`, `+`],
+      [`NumpadSubtract`, `-`],
+      [`NumpadDecimal`, `.`],
+      [`NumpadDivide`, `/`],
+    ])),
+      (P = null));
+  });
+function I(e, t) {
+  let n = e.split(`+`).filter(Boolean),
+    r = null,
+    i = !1,
+    a = !1,
+    o = !1,
+    s = !1;
+  for (let e of n)
+    switch (e) {
+      case `CmdOrCtrl`:
+        t ? (a = !0) : (i = !0);
+        break;
+      case `Command`:
+      case `Cmd`:
+        a = !0;
+        break;
+      case `Control`:
+      case `Ctrl`:
+        i = !0;
+        break;
+      case `Alt`:
+      case `Option`:
+        o = !0;
+        break;
+      case `Shift`:
+        s = !0;
+        break;
+      default:
+        r = e.toLowerCase();
+        break;
+    }
+  return { key: L(r ?? ``), requireCtrl: i, requireMeta: a, requireAlt: o, requireShift: s };
+}
+function L(e) {
+  switch (e) {
+    case `esc`:
+    case `escape`:
+      return `escape`;
+    case `up`:
+    case `arrowup`:
+      return `arrowup`;
+    case `down`:
+    case `arrowdown`:
+      return `arrowdown`;
+    case `left`:
+    case `arrowleft`:
+      return `arrowleft`;
+    case `right`:
+    case `arrowright`:
+      return `arrowright`;
+    case `space`:
+      return ` `;
+    case `plus`:
+      return `+`;
+    default:
+      return e;
+  }
+}
+function R(e, t) {
+  return e.target instanceof Element && e.target.closest(t) != null;
+}
+function z(e, t) {
+  return A(e).toLowerCase() === t.key || (t.key === `=` && t.requireShift && e.key === `+`);
+}
+function B(e, t) {
+  return !(
+    !t.key ||
+    !z(e, t) ||
+    e.ctrlKey !== t.requireCtrl ||
+    e.metaKey !== t.requireMeta ||
+    e.altKey !== t.requireAlt ||
+    e.shiftKey !== t.requireShift
+  );
+}
+function V(e, t) {
+  let n = E(t),
+    r = n[0];
+  return r == null || n.length !== 1 ? !1 : B(e, I(r, T()));
+}
+function H(e) {
+  return e.requireCtrl || e.requireMeta || e.requireAlt;
+}
+function ee(e) {
+  let t = (0, te.c)(27),
+    {
+      accelerator: n,
+      allowRepeat: r,
+      enabled: i,
+      onKeyDown: a,
+      onKeyUp: o,
+      capture: s,
+      ignoreWithin: c,
+      keyboardEventTarget: l,
+    } = e,
+    u = r === void 0 ? !1 : r,
+    d = i === void 0 ? !0 : i,
+    f = s === void 0 ? !0 : s,
+    p;
+  if (t[0] !== n) {
+    let e = T();
+    ((p = E(n).map((t) => I(t, e))), (t[0] = n), (t[1] = p));
+  } else p = t[1];
+  let m = p,
+    h = m.length > 1,
+    g = (0, U.useRef)(!1),
+    _ = (0, U.useRef)(null),
+    v = (0, U.useRef)(0),
+    y = (0, U.useRef)(null),
+    b = o != null,
+    x;
+  t[2] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((x = () => {
+        ((v.current = 0), y.current != null && (clearTimeout(y.current), (y.current = null)));
+      }),
+      (t[2] = x))
+    : (x = t[2]);
+  let C = x,
+    w;
+  t[3] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((w = () => {
+        ((g.current = !1), (_.current = null), C());
+      }),
+      (t[3] = w))
+    : (w = t[3]);
+  let D = w,
+    O;
+  t[4] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((O = () => {
+        (y.current != null && clearTimeout(y.current), (y.current = setTimeout(C, S)));
+      }),
+      (t[4] = O))
+    : (O = t[4]);
+  let k = O,
+    A;
+  t[5] !== u || t[6] !== d || t[7] !== c || t[8] !== h || t[9] !== a || t[10] !== m
+    ? ((A = (e) => {
+        if (!d || (!u && e.repeat) || R(e, ne) || (c && R(e, c))) return;
+        let t = m[v.current];
+        if (t != null && !(R(e, W) && (h || !H(t)))) {
+          if (!B(e, t)) {
+            if (!h) return;
+            C();
+            let t = m[0];
+            if (t == null || !B(e, t)) return;
+          }
+          if (!h) {
+            ((g.current = !0), (_.current = t), a(e));
+            return;
+          }
+          if ((e.preventDefault(), (v.current += 1), v.current < m.length)) {
+            k();
+            return;
+          }
+          ((g.current = !0), (_.current = m[m.length - 1] ?? null), C(), a(e));
+        }
+      }),
+      (t[5] = u),
+      (t[6] = d),
+      (t[7] = c),
+      (t[8] = h),
+      (t[9] = a),
+      (t[10] = m),
+      (t[11] = A))
+    : (A = t[11]);
+  let j = (0, U.useEffectEvent)(A),
+    M;
+  t[12] === o
+    ? (M = t[13])
+    : ((M = (e) => {
+        if (!g.current) return;
+        let t = _.current;
+        t != null && z(e, t) && ((g.current = !1), (_.current = null), o?.(e));
+      }),
+      (t[12] = o),
+      (t[13] = M));
+  let N = (0, U.useEffectEvent)(M),
+    P;
+  t[14] !== f || t[15] !== d || t[16] !== j || t[17] !== N || t[18] !== b || t[19] !== l
+    ? ((P = () => {
+        if (!d) {
+          D();
+          return;
+        }
+        let e = l ?? (typeof window > `u` ? null : window);
+        if (e == null) {
+          D();
+          return;
+        }
+        return (
+          e.addEventListener(`keydown`, j, { capture: f }),
+          b && e.addEventListener(`keyup`, N, { capture: f }),
+          () => {
+            (e.removeEventListener(`keydown`, j, { capture: f }),
+              b && e.removeEventListener(`keyup`, N, { capture: f }),
+              D());
+          }
+        );
+      }),
+      (t[14] = f),
+      (t[15] = d),
+      (t[16] = j),
+      (t[17] = N),
+      (t[18] = b),
+      (t[19] = l),
+      (t[20] = P))
+    : (P = t[20]);
+  let F;
+  (t[21] !== n || t[22] !== f || t[23] !== d || t[24] !== b || t[25] !== l
+    ? ((F = [n, f, d, b, l]),
+      (t[21] = n),
+      (t[22] = f),
+      (t[23] = d),
+      (t[24] = b),
+      (t[25] = l),
+      (t[26] = F))
+    : (F = t[26]),
+    (0, U.useEffect)(P, F));
+}
+var te,
+  U,
+  ne,
+  W,
+  re = e(() => {
+    ((te = _()),
+      (U = t(s(), 1)),
+      C(),
+      F(),
+      D(),
+      (ne = `[data-codex-shortcut-capture]`),
+      (W = `input,textarea,select,[contenteditable='true'],[data-codex-composer],[data-codex-terminal]`));
+  }),
+  ie,
+  ae,
+  oe = e(() => {
+    ((ie = `_fillOnMount_9hstz_1`),
+      (ae = { fillOnMount: ie, "progression-donut-fill": `_progression-donut-fill_9hstz_1` }));
+  });
+function se(e) {
+  return !Number.isFinite(e) || e < K ? K : e > q ? q : e;
+}
+function ce(e) {
+  let t = (0, le.c)(29),
+    {
+      className: n,
+      progressClassName: r,
+      animateOnMount: a,
+      animateOnMountDelayMs: o,
+      percent: s,
+      reducedMotion: c,
+      size: l,
+      strokeWidth: u,
+      transitionDurationMs: d,
+    } = e,
+    f = a === void 0 ? !1 : a,
+    p = o === void 0 ? 0 : o,
+    m = c === void 0 ? !1 : c,
+    h = l === void 0 ? ue : l,
+    g = u === void 0 ? 2 : u,
+    _ = d === void 0 ? de : d,
+    v = (h - g) / 2,
+    y = se(s),
+    b = q - y,
+    x = `0 0 ${h} ${h}`,
+    S;
+  t[0] === n ? (S = t[1]) : ((S = i(`shrink-0`, n)), (t[0] = n), (t[1] = S));
+  let C = h / 2,
+    w = h / 2,
+    T;
+  t[2] !== v || t[3] !== g || t[4] !== w || t[5] !== C
+    ? ((T = (0, G.jsx)(`circle`, {
+        cx: C,
+        cy: w,
+        r: v,
+        stroke: `currentColor`,
+        strokeWidth: g,
+        fill: `none`,
+        opacity: 0.16,
+      })),
+      (t[2] = v),
+      (t[3] = g),
+      (t[4] = w),
+      (t[5] = C),
+      (t[6] = T))
+    : (T = t[6]);
+  let E = h / 2,
+    D = h / 2,
+    O = y === K ? 0 : 1,
+    k = f && !m && ae.fillOnMount,
+    A;
+  t[7] !== r || t[8] !== k ? ((A = i(r, k)), (t[7] = r), (t[8] = k), (t[9] = A)) : (A = t[9]);
+  let j = f && !m ? `${p}ms` : void 0,
+    M = m ? `none` : `stroke-dashoffset ${_}ms ease-out, opacity ${_}ms ease-out`,
+    N;
+  t[10] !== j || t[11] !== M
+    ? ((N = { animationDelay: j, transition: M }), (t[10] = j), (t[11] = M), (t[12] = N))
+    : (N = t[12]);
+  let P = `rotate(-90 ${h / 2} ${h / 2})`,
+    F;
+  t[13] !== b ||
+  t[14] !== v ||
+  t[15] !== g ||
+  t[16] !== E ||
+  t[17] !== D ||
+  t[18] !== O ||
+  t[19] !== A ||
+  t[20] !== N ||
+  t[21] !== P
+    ? ((F = (0, G.jsx)(`circle`, {
+        cx: E,
+        cy: D,
+        r: v,
+        stroke: `currentColor`,
+        strokeWidth: g,
+        opacity: O,
+        strokeLinecap: `round`,
+        fill: `none`,
+        pathLength: q,
+        strokeDasharray: q,
+        strokeDashoffset: b,
+        className: A,
+        style: N,
+        transform: P,
+      })),
+      (t[13] = b),
+      (t[14] = v),
+      (t[15] = g),
+      (t[16] = E),
+      (t[17] = D),
+      (t[18] = O),
+      (t[19] = A),
+      (t[20] = N),
+      (t[21] = P),
+      (t[22] = F))
+    : (F = t[22]);
+  let I;
+  return (
+    t[23] !== h || t[24] !== T || t[25] !== F || t[26] !== x || t[27] !== S
+      ? ((I = (0, G.jsxs)(`svg`, {
+          "aria-hidden": `true`,
+          width: h,
+          height: h,
+          viewBox: x,
+          className: S,
+          children: [T, F],
+        })),
+        (t[23] = h),
+        (t[24] = T),
+        (t[25] = F),
+        (t[26] = x),
+        (t[27] = S),
+        (t[28] = I))
+      : (I = t[28]),
+    I
+  );
+}
+var le,
+  G,
+  ue,
+  de,
+  K,
+  q,
+  fe = e(() => {
+    ((le = _()), d(), oe(), (G = a()), (ue = 12), (de = 120), (K = 0), (q = 100));
+  });
+function pe(e) {
+  let t = (0, he.c)(9),
+    { ariaLabel: n, className: r, onRemove: a } = e,
+    o = r === void 0 ? `top-1 right-1` : r,
+    s;
+  t[0] === o
+    ? (s = t[1])
+    : ((s = i(
+        `absolute flex size-4 cursor-interaction items-center justify-center rounded-full bg-token-foreground text-token-dropdown-background shadow-sm`,
+        o,
+      )),
+      (t[0] = o),
+      (t[1] = s));
+  let l;
+  t[2] === a
+    ? (l = t[3])
+    : ((l = (e) => {
+        (e.preventDefault(), e.stopPropagation(), a());
+      }),
+      (t[2] = a),
+      (t[3] = l));
+  let u;
+  t[4] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((u = (0, J.jsx)(c, { className: `icon-xxs` })), (t[4] = u))
+    : (u = t[4]);
+  let d;
+  return (
+    t[5] !== n || t[6] !== s || t[7] !== l
+      ? ((d = (0, J.jsx)(`button`, {
+          type: `button`,
+          className: s,
+          onPointerDown: me,
+          onClick: l,
+          "aria-label": n,
+          children: u,
+        })),
+        (t[5] = n),
+        (t[6] = s),
+        (t[7] = l),
+        (t[8] = d))
+      : (d = t[8]),
+    d
+  );
+}
+function me(e) {
+  (e.preventDefault(), e.stopPropagation());
+}
+var he,
+  J,
+  ge = e(() => {
+    ((he = _()), d(), l(), (J = a()));
+  });
+function _e(e) {
+  let t = (0, ve.c)(46),
+    {
+      src: n,
+      filename: r,
+      alt: a,
+      onRemove: o,
+      loading: s,
+      loadingPercentage: c,
+      previewEnabled: l,
+      previewPortalContainer: u,
+      onPreviewCloseAutoFocus: d,
+      onPreviewOpenChange: f,
+      previewItems: p,
+      previewIndex: g,
+      compact: _,
+    } = e,
+    v = a === void 0 ? `Attachment image` : a,
+    y = s === void 0 ? !1 : s,
+    b = l === void 0 ? !0 : l,
+    x = g === void 0 ? 0 : g,
+    S = _ === void 0 ? !1 : _,
+    C = h(),
+    [w, T] = (0, Y.useState)(!1),
+    [E, D] = (0, Y.useState)(x),
+    O;
+  t[0] !== f || t[1] !== x
+    ? ((O = (e) => {
+        (e && D(x), T(e), f?.(e));
+      }),
+      (t[0] = f),
+      (t[1] = x),
+      (t[2] = O))
+    : (O = t[2]);
+  let A = O,
+    j;
+  t[3] !== v || t[4] !== n
+    ? ((j = { alt: v, src: n }), (t[3] = v), (t[4] = n), (t[5] = j))
+    : (j = t[5]);
+  let M = j,
+    N;
+  t[6] !== M || t[7] !== p ? ((N = p ?? [M]), (t[6] = M), (t[7] = p), (t[8] = N)) : (N = t[8]);
+  let P = N,
+    F = P[E] ?? M,
+    I = E > 0 ? E - 1 : null,
+    L = E + 1 < P.length ? E + 1 : null,
+    R;
+  if (
+    t[9] !== v ||
+    t[10] !== S ||
+    t[11] !== r ||
+    t[12] !== A ||
+    t[13] !== C ||
+    t[14] !== y ||
+    t[15] !== c ||
+    t[16] !== o ||
+    t[17] !== b ||
+    t[18] !== n
+  ) {
+    let e =
+        r ??
+        C.formatMessage({
+          id: `imageAttachment.defaultName`,
+          defaultMessage: `image`,
+          description: `Default filename label for image attachment`,
+        }),
+      a = y || c != null,
+      s = S ? `size-[54px]` : `size-20`,
+      l = b ? `cursor-interaction` : `cursor-default`,
+      u;
+    t[20] !== s || t[21] !== l
+      ? ((u = i(
+          `composer-attachment-surface border-token-border-heavy relative inline-flex flex-shrink-0 overflow-visible rounded-lg border focus:outline-none focus-visible:ring-1 focus-visible:ring-token-focus-border focus-visible:ring-inset`,
+          s,
+          l,
+        )),
+        (t[20] = s),
+        (t[21] = l),
+        (t[22] = u))
+      : (u = t[22]);
+    let d;
+    t[23] !== A || t[24] !== b
+      ? ((d = b
+          ? (e) => {
+              (e.key === `Enter` || e.key === ` `) && (e.preventDefault(), A(!0));
+            }
+          : void 0),
+        (t[23] = A),
+        (t[24] = b),
+        (t[25] = d))
+      : (d = t[25]);
+    let f;
+    t[26] !== v || t[27] !== n
+      ? ((f = (0, X.jsx)(`img`, { src: n, alt: v, className: `size-full object-cover` })),
+        (t[26] = v),
+        (t[27] = n),
+        (t[28] = f))
+      : (f = t[28]);
+    let p =
+        a &&
+        (0, X.jsx)(`span`, {
+          className: `absolute inset-0 flex items-center justify-center rounded-lg bg-black/5 text-white backdrop-blur-xs`,
+          role: `progressbar`,
+          "aria-label": C.formatMessage(
+            {
+              id: `imageAttachment.uploadingAriaLabel`,
+              defaultMessage: `Uploading {filename}`,
+              description: `Accessible label for image attachment upload progress`,
+            },
+            { filename: e },
+          ),
+          "aria-valuemin": 0,
+          "aria-valuemax": 100,
+          "aria-valuenow": c === 0 ? void 0 : c,
+          children:
+            c == null || c === 0
+              ? (0, X.jsx)(m, { className: `size-6 text-token-text-secondary` })
+              : (0, X.jsx)(ce, { className: `text-white`, percent: c, size: 24, strokeWidth: 2 }),
+        }),
+      h;
+    (t[29] !== f || t[30] !== p
+      ? ((h = (0, X.jsxs)(`span`, {
+          className: `composer-attachment-surface absolute inset-0 overflow-hidden rounded-lg`,
+          children: [f, p],
+        })),
+        (t[29] = f),
+        (t[30] = p),
+        (t[31] = h))
+      : (h = t[31]),
+      (R = (0, X.jsxs)(`div`, {
+        className: u,
+        role: b ? `button` : void 0,
+        "aria-label": b ? e : void 0,
+        tabIndex: b ? 0 : void 0,
+        onKeyDown: d,
+        children: [
+          h,
+          o &&
+            (0, X.jsx)(pe, {
+              ariaLabel: C.formatMessage(
+                {
+                  id: `imageAttachment.removeAriaLabel`,
+                  defaultMessage: `Remove {filename}`,
+                  description: `Aria label for the remove image attachment button`,
+                },
+                { filename: e },
+              ),
+              onRemove: o,
+            }),
+        ],
+      })),
+      (t[9] = v),
+      (t[10] = S),
+      (t[11] = r),
+      (t[12] = A),
+      (t[13] = C),
+      (t[14] = y),
+      (t[15] = c),
+      (t[16] = o),
+      (t[17] = b),
+      (t[18] = n),
+      (t[19] = R));
+  } else R = t[19];
+  let z = R;
+  if (!b) return z;
+  let B;
+  t[32] === I
+    ? (B = t[33])
+    : ((B =
+        I == null
+          ? void 0
+          : () => {
+              D(I);
+            }),
+      (t[32] = I),
+      (t[33] = B));
+  let V;
+  t[34] === L
+    ? (V = t[35])
+    : ((V =
+        L == null
+          ? void 0
+          : () => {
+              D(L);
+            }),
+      (t[34] = L),
+      (t[35] = V));
+  let H;
+  return (
+    t[36] !== F.alt ||
+    t[37] !== F.src ||
+    t[38] !== A ||
+    t[39] !== w ||
+    t[40] !== d ||
+    t[41] !== z ||
+    t[42] !== u ||
+    t[43] !== B ||
+    t[44] !== V
+      ? ((H = (0, X.jsx)(k, {
+          src: F.src,
+          alt: F.alt,
+          open: w,
+          onOpenChange: A,
+          downloadSrc: F.src,
+          imageDraggable: !1,
+          onCloseAutoFocus: d,
+          onPreviousImage: B,
+          onNextImage: V,
+          portalContainer: u,
+          triggerContent: z,
+        })),
+        (t[36] = F.alt),
+        (t[37] = F.src),
+        (t[38] = A),
+        (t[39] = w),
+        (t[40] = d),
+        (t[41] = z),
+        (t[42] = u),
+        (t[43] = B),
+        (t[44] = V),
+        (t[45] = H))
+      : (H = t[45]),
+    H
+  );
+}
+var ve,
+  Y,
+  X,
+  ye = e(() => {
+    ((ve = _()), d(), (Y = t(s(), 1)), p(), O(), fe(), r(), ge(), (X = a()));
+  });
+function be() {
+  return u(x, `composer.startDictation`);
+}
+function xe() {
+  let e = (0, Z.c)(2),
+    t = be();
+  if (t == null) return null;
+  let n;
+  return (e[0] === t ? (n = e[1]) : ((n = w(t)), (e[0] = t), (e[1] = n)), n);
+}
+function Se({ composerInput: e, focusedElement: t, isActiveComposer: n }) {
+  return n && (e.contains(t) || t?.closest(Ee) == null);
+}
+function Ce(e) {
+  let t = (0, Z.c)(31),
+    {
+      enabled: n,
+      isDictating: r,
+      isTranscribing: i,
+      startDictation: a,
+      stopDictation: o,
+      keyboardEventTarget: s,
+      shouldHandleDictation: c,
+      ignoreWithin: l,
+    } = e,
+    u = l === void 0 ? Te : l,
+    d = v(`1244621283`),
+    f = be(),
+    p = (0, Q.useRef)(null),
+    m = (0, Q.useRef)(!1),
+    h = (0, Q.useRef)(!1),
+    _;
+  t[0] === a
+    ? (_ = t[1])
+    : ((_ = () => {
+        ((h.current = !0),
+          a().finally(() => {
+            h.current = !1;
+          }));
+      }),
+      (t[0] = a),
+      (t[1] = _));
+  let b = _,
+    x;
+  t[2] !== n || t[3] !== u || t[4] !== i || t[5] !== s || t[6] !== c
+    ? ((x = () => (!n || i || (u != null && we(s, u)) ? !1 : c == null || c())),
+      (t[2] = n),
+      (t[3] = u),
+      (t[4] = i),
+      (t[5] = s),
+      (t[6] = c),
+      (t[7] = x))
+    : (x = t[7]);
+  let S = x,
+    C;
+  t[8] !== S || t[9] !== r || t[10] !== d || t[11] !== b
+    ? ((C = (e) => {
+        !d ||
+          !S() ||
+          ((p.current = e.sessionId),
+          g.dispatchMessage(`global-dictation-in-app-started`, { sessionId: e.sessionId }),
+          !(r || h.current) && b());
+      }),
+      (t[8] = S),
+      (t[9] = r),
+      (t[10] = d),
+      (t[11] = b),
+      (t[12] = C))
+    : (C = t[12]);
+  let w;
+  (t[13] === Symbol.for(`react.memo_cache_sentinel`) ? ((w = []), (t[13] = w)) : (w = t[13]),
+    y(`global-dictation-in-app-start`, C, w));
+  let T;
+  t[14] !== d || t[15] !== o
+    ? ((T = (e) => {
+        !d || p.current !== e.sessionId || ((p.current = null), o(`insert`));
+      }),
+      (t[14] = d),
+      (t[15] = o),
+      (t[16] = T))
+    : (T = t[16]);
+  let E;
+  (t[17] === Symbol.for(`react.memo_cache_sentinel`) ? ((E = []), (t[17] = E)) : (E = t[17]),
+    y(`global-dictation-in-app-stop`, T, E));
+  let D = f ?? ``,
+    O = n && f != null,
+    k = u ?? void 0,
+    A;
+  t[18] !== S || t[19] !== r || t[20] !== b
+    ? ((A = (e) => {
+        if ((e.preventDefault(), e.stopPropagation(), !S() || r || h.current)) {
+          m.current = !1;
+          return;
+        }
+        ((m.current = !0), b());
+      }),
+      (t[18] = S),
+      (t[19] = r),
+      (t[20] = b),
+      (t[21] = A))
+    : (A = t[21]);
+  let j;
+  t[22] === o
+    ? (j = t[23])
+    : ((j = (e) => {
+        (e.preventDefault(),
+          e.stopPropagation(),
+          !(!m.current || p.current != null) && ((m.current = !1), o(`insert`)));
+      }),
+      (t[22] = o),
+      (t[23] = j));
+  let M;
+  (t[24] !== s || t[25] !== k || t[26] !== A || t[27] !== j || t[28] !== D || t[29] !== O
+    ? ((M = {
+        accelerator: D,
+        enabled: O,
+        ignoreWithin: k,
+        keyboardEventTarget: s,
+        onKeyDown: A,
+        onKeyUp: j,
+      }),
+      (t[24] = s),
+      (t[25] = k),
+      (t[26] = A),
+      (t[27] = j),
+      (t[28] = D),
+      (t[29] = O),
+      (t[30] = M))
+    : (M = t[30]),
+    ee(M));
+}
+function we(e, t) {
+  let n = e?.document ?? (typeof window > `u` ? null : window.document);
+  if (n == null) return !1;
+  let r = n.defaultView,
+    i = n.activeElement;
+  return r != null && i instanceof r.Element && i.closest(t) != null;
+}
+var Z,
+  Q,
+  Te,
+  Ee,
+  De = e(() => {
+    ((Z = _()),
+      n(),
+      (Q = t(s(), 1)),
+      b(),
+      C(),
+      re(),
+      f(),
+      o(),
+      (Te = `[data-codex-terminal]`),
+      (Ee = `input,textarea,[contenteditable]:not([contenteditable='false' i])`));
+  }),
+  $,
+  Oe,
+  ke = e(() => {
+    (t(s()),
+      ($ = a()),
+      (Oe = (e) =>
+        (0, $.jsx)(`svg`, {
+          width: 24,
+          height: 24,
+          viewBox: `0 0 20 20`,
+          fill: `none`,
+          xmlns: `http://www.w3.org/2000/svg`,
+          ...e,
+          children: (0, $.jsx)(`path`, {
+            d: `M7.9165 11.0012C9.43621 11.0012 10.7056 12.0728 11.0112 13.5012H16.6665L16.8013 13.5149C17.104 13.577 17.3314 13.8452 17.3315 14.1663C17.3315 14.4874 17.1041 14.7554 16.8013 14.8176L16.6665 14.8313H11.0112C10.7058 16.2601 9.43643 17.3313 7.9165 17.3313C6.39667 17.3311 5.12714 16.26 4.82178 14.8313H3.3335C2.96623 14.8313 2.66846 14.5335 2.66846 14.1663C2.66863 13.7991 2.96634 13.5012 3.3335 13.5012H4.82178C5.12738 12.0728 6.3969 11.0014 7.9165 11.0012ZM7.9165 12.3313C6.90332 12.3315 6.08172 13.1531 6.08154 14.1663C6.08154 15.1796 6.90321 16.001 7.9165 16.0012C8.92995 16.0012 9.75146 15.1797 9.75146 14.1663C9.75129 13.153 8.92984 12.3313 7.9165 12.3313ZM12.0835 2.66821C13.6033 2.66821 14.8727 3.73958 15.1782 5.16821H16.6665L16.8013 5.18188C17.1041 5.24406 17.3315 5.51204 17.3315 5.83325C17.3315 6.15446 17.1041 6.42245 16.8013 6.48462L16.6665 6.49829H15.1782C14.8727 7.92693 13.6033 8.99829 12.0835 8.99829C10.5637 8.99829 9.2943 7.92693 8.98877 6.49829H3.3335C2.96623 6.49829 2.66846 6.20052 2.66846 5.83325C2.66846 5.46598 2.96623 5.16821 3.3335 5.16821H8.98877C9.2943 3.73958 10.5637 2.66821 12.0835 2.66821ZM12.0835 3.99829C11.0701 3.99829 10.2485 4.81981 10.2485 5.83325C10.2485 6.84669 11.0701 7.66821 12.0835 7.66821C13.0969 7.66821 13.9185 6.84669 13.9185 5.83325C13.9185 4.81981 13.0969 3.99829 12.0835 3.99829Z`,
+            fill: `currentColor`,
+          }),
+        })));
+  });
+export {
+  F as _,
+  Ce as a,
+  ye as c,
+  ce as d,
+  fe as f,
+  A as g,
+  ee as h,
+  Se as i,
+  pe as l,
+  V as m,
+  ke as n,
+  xe as o,
+  re as p,
+  De as r,
+  _e as s,
+  Oe as t,
+  ge as u,
+  j as v,
+};
+//# sourceMappingURL=app-initial~app-main~remote-conversation-page~new-thread-panel-page~onboarding-page~appgen-~o4yhvtva.js.map

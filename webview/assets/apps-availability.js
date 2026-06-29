@@ -1,0 +1,171 @@
+import { n as e } from "./rolldown-runtime.js";
+import {
+  $P as t,
+  AB as n,
+  AV as r,
+  FB as i,
+  Io as a,
+  MV as o,
+  Mo as s,
+  PB as c,
+  Pf as l,
+  QP as u,
+  Qf as d,
+  Sf as f,
+  VE as p,
+  Zf as m,
+  _f as h,
+  ak as g,
+  cM as _,
+  iF as v,
+  lF as y,
+  mP as b,
+  ok as x,
+  pP as S,
+  qV as C,
+  rF as w,
+  uM as T,
+  zV as E,
+} from "./app-initial~app-main~remote-conversation-page~plugin-detail-page~new-thread-panel-page~appg~ijdupmx5.js";
+function D(e) {
+  let t = (0, k.c)(28),
+    n = e?.hostId ?? `local`,
+    r = i(u),
+    { data: a } = c(l, n),
+    f = E(),
+    p = d(),
+    m = y(),
+    g;
+  t[0] === n ? (g = t[1]) : ((g = s(n)), (t[0] = n), (t[1] = g));
+  let _ = g,
+    v;
+  t[2] !== _ || t[3] !== p
+    ? ((v = async () => {
+        await Promise.all([p(_), p(h), p([`user-saved-config`])]);
+      }),
+      (t[2] = _),
+      (t[3] = p),
+      (t[4] = v))
+    : (v = t[4]);
+  let S = v,
+    C;
+  t[5] !== n ||
+  t[6] !== a?.configWriteTarget?.expectedVersion ||
+  t[7] !== a?.configWriteTarget?.filePath
+    ? ((C = async (e) => {
+        let { appId: t, enabled: r } = e;
+        await x(`batch-write-config-value`, {
+          hostId: n,
+          edits: O({ appId: t, enabled: r }),
+          filePath: a?.configWriteTarget?.filePath ?? null,
+          expectedVersion: a?.configWriteTarget?.expectedVersion ?? null,
+          reloadUserConfig: !0,
+        });
+      }),
+      (t[5] = n),
+      (t[6] = a?.configWriteTarget?.expectedVersion),
+      (t[7] = a?.configWriteTarget?.filePath),
+      (t[8] = C))
+    : (C = t[8]);
+  let w;
+  t[9] !== _ || t[10] !== f
+    ? ((w = async (e) => {
+        let { appId: t, enabled: n } = e;
+        await f.cancelQueries({ queryKey: _ });
+        let r = f.getQueryData(_);
+        return (
+          r &&
+            f.setQueryData(
+              _,
+              r.map((e) => (e.id !== t || e.isEnabled === n ? e : { ...e, isEnabled: n })),
+            ),
+          { previousApps: r }
+        );
+      }),
+      (t[9] = _),
+      (t[10] = f),
+      (t[11] = w))
+    : (w = t[11]);
+  let D, A;
+  t[12] !== _ || t[13] !== m || t[14] !== f || t[15] !== r
+    ? ((D = (e, t) => {
+        let { appId: n, appName: i, enabled: a } = t,
+          o = i ?? f.getQueryData(_)?.find((e) => e.id === n)?.name ?? n;
+        r.get(T).success(m.formatMessage(a ? j.enableSuccess : j.disableSuccess, { appName: o }));
+      }),
+      (A = (e, t, n) => {
+        (b.error(`Failed to update app enablement`, { safe: {}, sensitive: { error: e } }),
+          r.get(T).danger(m.formatMessage(j.updateError)),
+          n?.previousApps && f.setQueryData(_, n.previousApps));
+      }),
+      (t[12] = _),
+      (t[13] = m),
+      (t[14] = f),
+      (t[15] = r),
+      (t[16] = D),
+      (t[17] = A))
+    : ((D = t[16]), (A = t[17]));
+  let M;
+  t[18] !== S || t[19] !== C || t[20] !== w || t[21] !== D || t[22] !== A
+    ? ((M = { mutationFn: C, onMutate: w, onSuccess: D, onError: A, onSettled: S }),
+      (t[18] = S),
+      (t[19] = C),
+      (t[20] = w),
+      (t[21] = D),
+      (t[22] = A),
+      (t[23] = M))
+    : (M = t[23]);
+  let N = o(M),
+    P = N.isPending ? (N.variables?.appId ?? null) : null,
+    F;
+  return (
+    t[24] !== N.isPending || t[25] !== N.mutateAsync || t[26] !== P
+      ? ((F = { setAppEnabled: N.mutateAsync, isUpdating: N.isPending, updatingAppId: P }),
+        (t[24] = N.isPending),
+        (t[25] = N.mutateAsync),
+        (t[26] = P),
+        (t[27] = F))
+      : (F = t[27]),
+    F
+  );
+}
+function O({ appId: e, enabled: t }) {
+  return [{ keyPath: `${A}.${e}.enabled`, value: t, mergeStrategy: `upsert` }];
+}
+var k,
+  A,
+  j,
+  M = e(() => {
+    ((k = C()),
+      r(),
+      n(),
+      v(),
+      g(),
+      _(),
+      a(),
+      f(),
+      m(),
+      t(),
+      p(),
+      S(),
+      (A = `apps`),
+      (j = w({
+        enableSuccess: {
+          id: `apps.enable.success`,
+          defaultMessage: `{appName} app enabled`,
+          description: `Toast shown after successfully enabling an app`,
+        },
+        disableSuccess: {
+          id: `apps.disable.success`,
+          defaultMessage: `{appName} app disabled`,
+          description: `Toast shown after successfully disabling an app`,
+        },
+        updateError: {
+          id: `apps.update.error`,
+          defaultMessage: `Failed to update app`,
+          description: `Toast shown when enabling or disabling an app fails`,
+        },
+      })));
+  });
+export { D as n, M as t };
+//# sourceMappingURL=apps-availability.js.map

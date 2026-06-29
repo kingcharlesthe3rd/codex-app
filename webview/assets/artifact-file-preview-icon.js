@@ -1,0 +1,53 @@
+import { n as e } from "./rolldown-runtime.js";
+import {
+  BP as t,
+  BV as n,
+  VP as r,
+  qV as i,
+} from "./app-initial~app-main~remote-conversation-page~plugin-detail-page~new-thread-panel-page~appg~ijdupmx5.js";
+import {
+  ha as a,
+  pa as o,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~new-~kvpgbdy1.js";
+function s(e) {
+  let n = (0, c.c)(15),
+    { getImagePreviewSrc: r, iconClassName: i, imageClassName: a, path: s } = e,
+    u;
+  n[0] !== r || n[1] !== s
+    ? ((u = r?.(s) ?? null), (n[0] = r), (n[1] = s), (n[2] = u))
+    : (u = n[2]);
+  let d = u;
+  if (d != null) {
+    let e;
+    n[3] === a ? (e = n[4]) : ((e = t(`shrink-0 object-cover`, a)), (n[3] = a), (n[4] = e));
+    let r;
+    return (
+      n[5] !== d || n[6] !== e
+        ? ((r = (0, l.jsx)(`img`, { alt: ``, className: e, src: d })),
+          (n[5] = d),
+          (n[6] = e),
+          (n[7] = r))
+        : (r = n[7]),
+      r
+    );
+  }
+  let f;
+  n[8] === s ? (f = n[9]) : ((f = o(s)), (n[8] = s), (n[9] = f));
+  let p = f,
+    m;
+  n[10] === i ? (m = n[11]) : ((m = t(`shrink-0`, i)), (n[10] = i), (n[11] = m));
+  let h;
+  return (
+    n[12] !== p || n[13] !== m
+      ? ((h = (0, l.jsx)(p, { className: m })), (n[12] = p), (n[13] = m), (n[14] = h))
+      : (h = n[14]),
+    h
+  );
+}
+var c,
+  l,
+  u = e(() => {
+    ((c = i()), r(), a(), (l = n()));
+  });
+export { u as n, s as t };
+//# sourceMappingURL=artifact-file-preview-icon.js.map

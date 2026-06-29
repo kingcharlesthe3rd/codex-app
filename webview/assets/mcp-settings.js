@@ -1,0 +1,1377 @@
+import { n as e, s as t } from "./rolldown-runtime.js";
+import {
+  $t as n,
+  AB as r,
+  AV as i,
+  Af as a,
+  BP as o,
+  BV as s,
+  Ba as c,
+  DN as l,
+  Ft as u,
+  Hi as d,
+  IB as f,
+  JV as p,
+  Jo as m,
+  LB as h,
+  La as g,
+  Lj as _,
+  Mf as v,
+  Nf as y,
+  ON as b,
+  Op as x,
+  PB as S,
+  Qt as C,
+  Rj as w,
+  Sf as T,
+  VP as E,
+  Vi as D,
+  aM as O,
+  ak as k,
+  cP as A,
+  en as ee,
+  gf as te,
+  iF as j,
+  kt as M,
+  lF as N,
+  lP as ne,
+  mP as re,
+  oM as ie,
+  ok as ae,
+  pP as P,
+  qV as F,
+  rF as I,
+  sF as L,
+  tn as R,
+  uP as oe,
+  wf as se,
+  zV as ce,
+  za as z,
+  zp as le,
+} from "./app-initial~app-main~remote-conversation-page~plugin-detail-page~new-thread-panel-page~appg~ijdupmx5.js";
+import {
+  Fn as B,
+  J as V,
+  K as ue,
+  Pn as H,
+} from "./app-initial~app-main~automations-page.js";
+import {
+  Oo as de,
+  ko as fe,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~new-~kvpgbdy1.js";
+import {
+  Bu as pe,
+  Du as me,
+  Eu as he,
+  Hu as ge,
+  Ur as _e,
+  Wr as ve,
+  hd as ye,
+  md as U,
+} from "./app-initial~app-main~onboarding-page~profile.js";
+import {
+  G as be,
+  K as W,
+  W as xe,
+} from "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~appgen-library-page~hot~djo67r4n.js";
+import { t as Se } from "./app-initial~app-main~worktree-init-v2-page~page~remote-conversation-page~pull-requests-page~iwrno211.js";
+import {
+  g as Ce,
+  h as G,
+} from "./app-initial~app-main~pets-settings~appearance-settings~general-settings.js";
+import {
+  n as we,
+  t as K,
+} from "./app-initial~app-main~appgen-settings-page~plugin-detail-page~open-source-licenses-page~skil~dv11zlwm.js";
+import { n as Te, t as Ee } from "./tabs.js";
+import { n as De, t as Oe } from "./control-group.js";
+function q(e) {
+  let t = (0, ke.c)(55),
+    n = e.inputType === H.String,
+    r = e.inputType === H.Array,
+    i = e.inputType === H.Record,
+    a = N(),
+    s;
+  t[0] === a
+    ? (s = t[1])
+    : ((s = a.formatMessage({
+        id: `settings.editRow.headerPlaceholder`,
+        defaultMessage: `Key`,
+        description: `Placeholder for record key input`,
+      })),
+      (t[0] = a),
+      (t[1] = s));
+  let c = s,
+    u;
+  t[2] === a
+    ? (u = t[3])
+    : ((u = a.formatMessage({
+        id: `settings.editRow.valuePlaceholder`,
+        defaultMessage: `Value`,
+        description: `Placeholder for record value input`,
+      })),
+      (t[2] = a),
+      (t[3] = u));
+  let d = u,
+    f;
+  t[4] === a
+    ? (f = t[5])
+    : ((f = a.formatMessage({
+        id: `settings.editRow.removeEntry`,
+        defaultMessage: `Remove entry`,
+        description: `Label for removing an entry from a list`,
+      })),
+      (t[4] = a),
+      (t[5] = f));
+  let p = f,
+    m,
+    h;
+  if (t[6] !== c || t[7] !== e.inputType || t[8] !== e.placeHolderValue || t[9] !== d) {
+    if (((m = c), (h = d), e.inputType === H.Record)) {
+      let [t] = e.placeHolderValue;
+      ((m = t?.key ?? c), (h = t?.value ?? d));
+    }
+    ((t[6] = c),
+      (t[7] = e.inputType),
+      (t[8] = e.placeHolderValue),
+      (t[9] = d),
+      (t[10] = m),
+      (t[11] = h));
+  } else ((m = t[10]), (h = t[11]));
+  let g;
+  bb0: {
+    if (!r) {
+      let e;
+      (t[12] === Symbol.for(`react.memo_cache_sentinel`) ? ((e = []), (t[12] = e)) : (e = t[12]),
+        (g = e));
+      break bb0;
+    }
+    if (e.value.length > 0) {
+      g = e.value;
+      break bb0;
+    }
+    let n;
+    (t[13] === Symbol.for(`react.memo_cache_sentinel`) ? ((n = [``]), (t[13] = n)) : (n = t[13]),
+      (g = n));
+  }
+  let v = g,
+    y;
+  bb1: {
+    if (!i) {
+      let e;
+      (t[14] === Symbol.for(`react.memo_cache_sentinel`) ? ((e = []), (t[14] = e)) : (e = t[14]),
+        (y = e));
+      break bb1;
+    }
+    if (e.value.length > 0) {
+      y = e.value;
+      break bb1;
+    }
+    let n;
+    (t[15] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((n = [{ key: ``, value: `` }]), (t[15] = n))
+      : (n = t[15]),
+      (y = n));
+  }
+  let b = y;
+  if (n) {
+    let r;
+    t[16] === e.title
+      ? (r = t[17])
+      : ((r = (0, Y.jsx)(`p`, {
+          className: `text-base font-medium text-token-text-primary`,
+          children: e.title,
+        })),
+        (t[16] = e.title),
+        (t[17] = r));
+    let i = n && typeof e.placeHolderValue == `string` ? e.placeHolderValue : void 0,
+      a;
+    t[18] === e
+      ? (a = t[19])
+      : ((a = (t) => {
+          e.onEdit(t.target.value);
+        }),
+        (t[18] = e),
+        (t[19] = a));
+    let o;
+    t[20] !== e.disabled ||
+    t[21] !== e.inputAriaLabel ||
+    t[22] !== e.value ||
+    t[23] !== i ||
+    t[24] !== a
+      ? ((o = (0, Y.jsx)(J, {
+          "aria-label": e.inputAriaLabel,
+          className: `text-base`,
+          disabled: e.disabled,
+          value: e.value,
+          placeholder: i,
+          onChange: a,
+        })),
+        (t[20] = e.disabled),
+        (t[21] = e.inputAriaLabel),
+        (t[22] = e.value),
+        (t[23] = i),
+        (t[24] = a),
+        (t[25] = o))
+      : (o = t[25]);
+    let s;
+    return (
+      t[26] !== r || t[27] !== o
+        ? ((s = (0, Y.jsxs)(`div`, {
+            className: `flex flex-col gap-2 rounded-lg bg-token-input-background px-3 py-2`,
+            children: [r, o],
+          })),
+          (t[26] = r),
+          (t[27] = o),
+          (t[28] = s))
+        : (s = t[28]),
+      s
+    );
+  }
+  let x;
+  t[29] === e.title
+    ? (x = t[30])
+    : ((x = (0, Y.jsx)(`p`, {
+        className: `text-base font-medium text-token-text-primary`,
+        children: e.title,
+      })),
+      (t[29] = e.title),
+      (t[30] = x));
+  let S;
+  t[31] !== r ||
+  t[32] !== v ||
+  t[33] !== e ||
+  t[34] !== b ||
+  t[35] !== m ||
+  t[36] !== h ||
+  t[37] !== p
+    ? ((S = r
+        ? v.map((t, n) =>
+            (0, Y.jsxs)(
+              `div`,
+              {
+                className: `flex items-center gap-2`,
+                children: [
+                  (0, Y.jsx)(J, {
+                    "aria-label": e.inputAriaLabel,
+                    className: `text-base`,
+                    disabled: e.disabled,
+                    value: t,
+                    placeholder:
+                      r && e.placeHolderValue.length > 0
+                        ? (e.placeHolderValue[n] ?? e.placeHolderValue[0] ?? ``)
+                        : ``,
+                    onChange: (t) => {
+                      let r = [...v];
+                      ((r[n] = t.target.value), e.onEdit(r));
+                    },
+                  }),
+                  (0, Y.jsx)(l, {
+                    color: `ghost`,
+                    size: `icon`,
+                    disabled: e.disabled || (v.length <= 1 && t.trim().length === 0),
+                    "aria-label": p,
+                    onClick: () => {
+                      let t = e.value.filter((e, t) => t !== n);
+                      e.onEdit(t);
+                    },
+                    children: (0, Y.jsx)(U, { className: `icon-2xs` }),
+                  }),
+                ],
+              },
+              `list-${n}`,
+            ),
+          )
+        : b.map((t, n) =>
+            (0, Y.jsxs)(
+              `div`,
+              {
+                className: `grid grid-cols-[1fr_1fr_auto] items-center gap-2`,
+                children: [
+                  (0, Y.jsx)(J, {
+                    "aria-label": e.inputAriaLabel,
+                    className: `text-sm`,
+                    disabled: e.disabled,
+                    placeholder: m,
+                    value: t.key,
+                    onChange: (t) => {
+                      let r = [...b];
+                      ((r[n] = { ...r[n], key: t.target.value }), e.onEdit(r));
+                    },
+                  }),
+                  (0, Y.jsx)(J, {
+                    "aria-label": e.inputAriaLabel,
+                    className: `text-sm`,
+                    disabled: e.disabled,
+                    placeholder: h,
+                    value: t.value,
+                    onChange: (t) => {
+                      let r = [...b];
+                      ((r[n] = { ...r[n], value: t.target.value }), e.onEdit(r));
+                    },
+                  }),
+                  (0, Y.jsx)(l, {
+                    color: `ghost`,
+                    size: `icon`,
+                    disabled:
+                      e.disabled ||
+                      (b.length <= 1 && t.key.trim().length === 0 && t.value.trim().length === 0),
+                    "aria-label": p,
+                    onClick: () => {
+                      let t = e.value.filter((e, t) => t !== n);
+                      e.onEdit(t);
+                    },
+                    children: (0, Y.jsx)(U, { className: `icon-2xs` }),
+                  }),
+                ],
+              },
+              `record-${n}`,
+            ),
+          )),
+      (t[31] = r),
+      (t[32] = v),
+      (t[33] = e),
+      (t[34] = b),
+      (t[35] = m),
+      (t[36] = h),
+      (t[37] = p),
+      (t[38] = S))
+    : (S = t[38]);
+  let C;
+  t[39] === S
+    ? (C = t[40])
+    : ((C = (0, Y.jsx)(`div`, { className: `flex flex-col gap-2`, children: S })),
+      (t[39] = S),
+      (t[40] = C));
+  let w;
+  t[41] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((w = o(
+        `text-token-text-secondary/90 justify-center rounded-md border border-dashed text-base`,
+      )),
+      (t[41] = w))
+    : (w = t[41]);
+  let T;
+  t[42] !== r || t[43] !== e || t[44] !== b
+    ? ((T = () => {
+        if (r) {
+          let t = e.value,
+            n = t.length > 0 ? [...t, ``] : [``];
+          e.onEdit(n);
+          return;
+        }
+        let t = [...b, { key: ``, value: `` }];
+        e.onEdit(t);
+      }),
+      (t[42] = r),
+      (t[43] = e),
+      (t[44] = b),
+      (t[45] = T))
+    : (T = t[45]);
+  let E;
+  t[46] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((E = (0, Y.jsx)(_, { className: `icon-2xs` })), (t[46] = E))
+    : (E = t[46]);
+  let D = e.addLabel ? e.addLabel : null,
+    O;
+  t[47] !== e.disabled || t[48] !== D || t[49] !== T
+    ? ((O = (0, Y.jsxs)(l, {
+        color: `secondary`,
+        size: `toolbar`,
+        className: w,
+        disabled: e.disabled,
+        onClick: T,
+        children: [E, D],
+      })),
+      (t[47] = e.disabled),
+      (t[48] = D),
+      (t[49] = T),
+      (t[50] = O))
+    : (O = t[50]);
+  let k;
+  return (
+    t[51] !== O || t[52] !== x || t[53] !== C
+      ? ((k = (0, Y.jsxs)(`div`, {
+          className: `flex flex-col gap-3 rounded-lg bg-token-input-background px-3 py-2`,
+          children: [x, C, O],
+        })),
+        (t[51] = O),
+        (t[52] = x),
+        (t[53] = C),
+        (t[54] = k))
+      : (k = t[54]),
+    k
+  );
+}
+function J(e) {
+  let t = (0, ke.c)(8),
+    n,
+    r;
+  t[0] === e
+    ? ((n = t[1]), (r = t[2]))
+    : (({ className: n, ...r } = e), (t[0] = e), (t[1] = n), (t[2] = r));
+  let i;
+  t[3] === n
+    ? (i = t[4])
+    : ((i = o(
+        `bg-token-input-background text-token-input-foreground placeholder:text-token-input-placeholder-foreground w-full rounded-md border border-token-input-border px-2.5 py-1.5 outline-none focus:border-token-focus-border`,
+        n,
+      )),
+      (t[3] = n),
+      (t[4] = i));
+  let a;
+  return (
+    t[5] !== r || t[6] !== i
+      ? ((a = (0, Y.jsx)(`input`, { className: i, ...r })), (t[5] = r), (t[6] = i), (t[7] = a))
+      : (a = t[7]),
+    a
+  );
+}
+var ke,
+  Y,
+  Ae = e(() => {
+    ((ke = F()), E(), j(), b(), B(), w(), ye(), (Y = s()));
+  });
+function je(e) {
+  return e
+    ? e.trim().length === 0
+      ? e
+      : e === e.toLowerCase()
+        ? `${e[0]?.toUpperCase() ?? ``}${e.slice(1)}`
+        : e
+    : ``;
+}
+function Me({ config: e, initialKey: t, onSave: n, onCancel: r, onUninstall: i }) {
+  let a = (0, X.useMemo)(() => Pe(e, t), [e, t]),
+    [o, s] = (0, X.useState)(a),
+    [c, u] = (0, X.useState)(!1),
+    [d, f] = (0, X.useState)(null),
+    p = N(),
+    m = o.label.trim(),
+    h = !(0, Re.default)(o, a),
+    g =
+      o.transportType === `streamable_http`
+        ? o.http.url.trim().length === 0
+        : o.stdio.command.trim().length === 0,
+    _ = async () => {
+      if (!(m.length === 0 || g)) {
+        (f(null), u(!0));
+        try {
+          await n(Fe(o), o.label);
+        } catch (e) {
+          f(
+            Ne(
+              e,
+              p.formatMessage({
+                id: `settings.mcp.detail.saveError`,
+                defaultMessage: `Could not save MCP server`,
+                description: `Error shown when saving an MCP server fails`,
+              }),
+            ),
+          );
+        } finally {
+          u(!1);
+        }
+      }
+    },
+    v = e.name && e.name.trim().length > 0,
+    y = async () => {
+      if (i) {
+        (f(null), u(!0));
+        try {
+          await i(o.label);
+        } catch (e) {
+          f(
+            Ne(
+              e,
+              p.formatMessage({
+                id: `settings.mcp.detail.uninstallError`,
+                defaultMessage: `Could not uninstall MCP server`,
+                description: `Error shown when uninstalling an MCP server fails`,
+              }),
+            ),
+          );
+        } finally {
+          u(!1);
+        }
+      }
+    },
+    b = v
+      ? (0, Z.jsx)(L, {
+          id: `settings.mcp.detail.titleExisting`,
+          defaultMessage: `Update {name} MCP`,
+          description: `Title for the MCP server detail view when editing an existing server`,
+          values: { name: je(e.name) },
+        })
+      : (0, Z.jsx)(L, {
+          id: `settings.mcp.detail.titleNew`,
+          defaultMessage: `Connect to a custom MCP`,
+          description: `Title for the MCP server detail view when adding a new server`,
+        });
+  return (0, Z.jsx)(ue, {
+    backSlot: (0, Z.jsxs)(l, {
+      color: `ghost`,
+      size: `toolbar`,
+      onClick: () => {
+        r();
+      },
+      children: [
+        (0, Z.jsx)(de, { className: `icon-xs` }),
+        (0, Z.jsx)(L, {
+          id: `settings.mcp.detail.back`,
+          defaultMessage: `Back`,
+          description: `Button label to go back to MCP settings`,
+        }),
+      ],
+    }),
+    title: b,
+    subtitle: v
+      ? null
+      : (0, Z.jsxs)(`a`, {
+          className: `inline-flex items-center gap-1 text-sm text-token-text-secondary hover:text-token-text-primary`,
+          href: M,
+          target: `_blank`,
+          rel: `noreferrer`,
+          onClick: (e) => {
+            z({ event: e, href: M, initiator: `open_in_browser_bridge` });
+          },
+          "aria-label": p.formatMessage({
+            id: `settings.mcp.detail.docs`,
+            defaultMessage: `Open MCP documentation`,
+            description: `Aria label for MCP docs link in detail header`,
+          }),
+          children: [
+            (0, Z.jsx)(L, {
+              id: `settings.mcp.detail.docs.link`,
+              defaultMessage: `Docs`,
+              description: `Tooltip link label for MCP docs on add page`,
+            }),
+            (0, Z.jsx)(ee, { href: M, className: `icon-xxs` }),
+          ],
+        }),
+    action:
+      i && o.label.trim().length > 0
+        ? (0, Z.jsxs)(l, {
+            color: `danger`,
+            size: `toolbar`,
+            disabled: c,
+            onClick: () => {
+              y();
+            },
+            children: [
+              (0, Z.jsx)(U, { className: `icon-xs` }),
+              (0, Z.jsx)(L, {
+                id: `settings.mcp.detail.uninstall`,
+                defaultMessage: `Uninstall`,
+                description: `Button label to uninstall an MCP server`,
+              }),
+            ],
+          })
+        : null,
+    children: (0, Z.jsxs)(`div`, {
+      className: `relative`,
+      children: [
+        c ? (0, Z.jsx)(he, { overlay: !0 }) : null,
+        (0, Z.jsx)(K, {
+          children: (0, Z.jsxs)(K.Content, {
+            children: [
+              v
+                ? (0, Z.jsx)(`p`, {
+                    className: `text-sm text-token-text-secondary`,
+                    children: (0, Z.jsx)(L, {
+                      id: `settings.mcp.detail.switchTransportNotice`,
+                      defaultMessage: `If you would like to switch MCP server type, please uninstall first.`,
+                      description: `Notice explaining how to change MCP transport type`,
+                    }),
+                  })
+                : (0, Z.jsxs)(G, {
+                    children: [
+                      (0, Z.jsx)(q, {
+                        title: (0, Z.jsx)(L, {
+                          id: `settings.mcp.detail.name`,
+                          defaultMessage: `Name`,
+                          description: `Name for MCP server display name`,
+                        }),
+                        value: o.label,
+                        placeHolderValue: `MCP server name`,
+                        inputType: H.String,
+                        onEdit: (e) => {
+                          s((t) => ({ ...t, label: e }));
+                        },
+                      }),
+                      (0, Z.jsx)(Ee, {
+                        tabs: [
+                          {
+                            key: `stdio`,
+                            name: (0, Z.jsx)(L, {
+                              id: `settings.mcp.detail.transport.stdio`,
+                              defaultMessage: `STDIO`,
+                              description: `Label for stdio transport toggle`,
+                            }),
+                          },
+                          {
+                            key: `streamable_http`,
+                            name: (0, Z.jsx)(L, {
+                              id: `settings.mcp.detail.transport.http`,
+                              defaultMessage: `Streamable HTTP`,
+                              description: `Label for HTTP transport toggle`,
+                            }),
+                          },
+                        ],
+                        selectedKey: o.transportType,
+                        onSelect: (e) => {
+                          s((t) => ({ ...t, transportType: e }));
+                        },
+                      }),
+                    ],
+                  }),
+              (0, Z.jsx)(G, {
+                children:
+                  o.transportType === `stdio`
+                    ? (0, Z.jsxs)(Z.Fragment, {
+                        children: [
+                          (0, Z.jsx)(q, {
+                            title: (0, Z.jsx)(L, {
+                              id: `settings.mcp.detail.command`,
+                              defaultMessage: `Command to launch`,
+                              description: `Label for MCP stdio command`,
+                            }),
+                            value: o.stdio.command,
+                            placeHolderValue: `openai-dev-mcp serve-sqlite`,
+                            inputType: H.String,
+                            onEdit: (e) => {
+                              s((t) => ({ ...t, stdio: { ...t.stdio, command: e } }));
+                            },
+                          }),
+                          (0, Z.jsx)(q, {
+                            title: (0, Z.jsx)(L, {
+                              id: `settings.mcp.detail.args`,
+                              defaultMessage: `Arguments`,
+                              description: `Label for MCP stdio arguments`,
+                            }),
+                            value: o.stdio.args,
+                            placeHolderValue: [],
+                            inputType: H.Array,
+                            addLabel: (0, Z.jsx)(L, {
+                              id: `settings.mcp.detail.addArgument`,
+                              defaultMessage: `Add argument`,
+                              description: `Add button label for MCP stdio arguments`,
+                            }),
+                            onEdit: (e) => {
+                              s((t) => ({ ...t, stdio: { ...t.stdio, args: e } }));
+                            },
+                          }),
+                          (0, Z.jsx)(q, {
+                            title: (0, Z.jsx)(L, {
+                              id: `settings.mcp.detail.envVars`,
+                              defaultMessage: `Environment variables`,
+                              description: `Label for MCP stdio environment variables`,
+                            }),
+                            value: o.stdio.env,
+                            placeHolderValue: [],
+                            inputType: H.Record,
+                            addLabel: (0, Z.jsx)(L, {
+                              id: `settings.mcp.detail.addEnvVar`,
+                              defaultMessage: `Add environment variable`,
+                              description: `Add button label for MCP stdio environment variables`,
+                            }),
+                            onEdit: (e) => {
+                              s((t) => ({ ...t, stdio: { ...t.stdio, env: e } }));
+                            },
+                          }),
+                          (0, Z.jsx)(q, {
+                            title: (0, Z.jsx)(L, {
+                              id: `settings.mcp.detail.envVarPassthrough`,
+                              defaultMessage: `Environment variable passthrough`,
+                              description: `Label for MCP stdio env var passthrough`,
+                            }),
+                            value: o.stdio.envVars,
+                            placeHolderValue: [],
+                            inputType: H.Array,
+                            addLabel: (0, Z.jsx)(L, {
+                              id: `settings.mcp.detail.addEnvVarPassthrough`,
+                              defaultMessage: `Add variable`,
+                              description: `Add button label for MCP stdio env var passthrough`,
+                            }),
+                            onEdit: (e) => {
+                              s((t) => ({ ...t, stdio: { ...t.stdio, envVars: e } }));
+                            },
+                          }),
+                          (0, Z.jsx)(q, {
+                            title: (0, Z.jsx)(L, {
+                              id: `settings.mcp.detail.cwd`,
+                              defaultMessage: `Working directory`,
+                              description: `Label for MCP stdio working directory`,
+                            }),
+                            value: o.stdio.cwd,
+                            placeHolderValue: `~/code`,
+                            inputType: H.String,
+                            onEdit: (e) => {
+                              s((t) => ({ ...t, stdio: { ...t.stdio, cwd: e } }));
+                            },
+                          }),
+                        ],
+                      })
+                    : (0, Z.jsxs)(Z.Fragment, {
+                        children: [
+                          (0, Z.jsx)(q, {
+                            title: (0, Z.jsx)(L, {
+                              id: `settings.mcp.detail.http.url`,
+                              defaultMessage: `URL`,
+                              description: `Label for MCP HTTP URL`,
+                            }),
+                            value: o.http.url,
+                            placeHolderValue: `https://mcp.example.com/mcp`,
+                            inputType: H.String,
+                            onEdit: (e) => {
+                              s((t) => ({ ...t, http: { ...t.http, url: e } }));
+                            },
+                          }),
+                          (0, Z.jsx)(q, {
+                            title: (0, Z.jsx)(L, {
+                              id: `settings.mcp.detail.http.bearerToken`,
+                              defaultMessage: `Bearer token env var`,
+                              description: `Label for MCP HTTP bearer token env var`,
+                            }),
+                            value: o.http.bearerTokenEnvVar,
+                            placeHolderValue: `MCP_BEARER_TOKEN`,
+                            inputType: H.String,
+                            onEdit: (e) => {
+                              s((t) => ({ ...t, http: { ...t.http, bearerTokenEnvVar: e } }));
+                            },
+                          }),
+                          (0, Z.jsx)(q, {
+                            title: (0, Z.jsx)(L, {
+                              id: `settings.mcp.detail.http.headers`,
+                              defaultMessage: `Headers`,
+                              description: `Label for MCP HTTP headers`,
+                            }),
+                            value: o.http.httpHeaders,
+                            placeHolderValue: [],
+                            inputType: H.Record,
+                            addLabel: (0, Z.jsx)(L, {
+                              id: `settings.mcp.detail.http.addHeader`,
+                              defaultMessage: `Add header`,
+                              description: `Add button label for MCP HTTP headers`,
+                            }),
+                            onEdit: (e) => {
+                              s((t) => ({ ...t, http: { ...t.http, httpHeaders: e } }));
+                            },
+                          }),
+                          (0, Z.jsx)(q, {
+                            title: (0, Z.jsx)(L, {
+                              id: `settings.mcp.detail.http.envHeaders`,
+                              defaultMessage: `Headers from environment variables`,
+                              description: `Label for MCP HTTP env headers`,
+                            }),
+                            value: o.http.envHttpHeaders,
+                            placeHolderValue: [],
+                            inputType: H.Record,
+                            addLabel: (0, Z.jsx)(L, {
+                              id: `settings.mcp.detail.http.addEnvHeader`,
+                              defaultMessage: `Add variable`,
+                              description: `Add button label for MCP HTTP env headers`,
+                            }),
+                            onEdit: (e) => {
+                              s((t) => ({ ...t, http: { ...t.http, envHttpHeaders: e } }));
+                            },
+                          }),
+                        ],
+                      }),
+              }),
+              d == null
+                ? null
+                : (0, Z.jsx)(`p`, {
+                    role: `alert`,
+                    className: `rounded-md bg-token-input-validation-error-background/20 px-3 py-2 text-sm text-token-error-foreground`,
+                    children: d,
+                  }),
+              (0, Z.jsx)(`div`, {
+                className: `flex justify-end`,
+                children: (0, Z.jsx)(l, {
+                  color: `primary`,
+                  size: `toolbar`,
+                  disabled: m.length === 0 || !h || c || g,
+                  onClick: _,
+                  children: (0, Z.jsx)(L, {
+                    id: `settings.mcp.detail.save`,
+                    defaultMessage: `Save`,
+                    description: `Save button label on MCP server detail view`,
+                  }),
+                }),
+              }),
+            ],
+          }),
+        }),
+      ],
+    }),
+  });
+}
+function Ne(e, t) {
+  return e instanceof Error && e.message.trim().length > 0 ? e.message : t;
+}
+function Pe(e, t) {
+  let n = `command` in e ? `stdio` : `streamable_http`;
+  return {
+    base: {
+      enabled: e.enabled ?? void 0,
+      startup_timeout_sec: e.startup_timeout_sec ?? void 0,
+      startup_timeout_ms: e.startup_timeout_ms ?? void 0,
+      tool_timeout_sec: e.tool_timeout_sec ?? void 0,
+      enabled_tools: e.enabled_tools ?? void 0,
+      disabled_tools: e.disabled_tools ?? void 0,
+    },
+    label: t ?? e.name ?? ``,
+    transportType: n,
+    stdio: {
+      command: `command` in e ? e.command : ``,
+      args: `command` in e && e.args && e.args.length > 0 ? e.args : [],
+      env: `command` in e && e.env ? Ie(e.env) : [],
+      envVars: `command` in e && e.env_vars && e.env_vars.length > 0 ? e.env_vars : [],
+      cwd: `command` in e && e.cwd ? e.cwd : ``,
+    },
+    http: {
+      url: `url` in e ? e.url : ``,
+      bearerTokenEnvVar: `url` in e && e.bearer_token_env_var ? e.bearer_token_env_var : ``,
+      httpHeaders: `url` in e && e.http_headers ? Ie(e.http_headers) : [],
+      envHttpHeaders: `url` in e && e.env_http_headers ? Ie(e.env_http_headers) : [],
+    },
+  };
+}
+function Fe(e) {
+  let t = e.base;
+  if (e.transportType === `streamable_http`) {
+    let n = Le(e.http.httpHeaders),
+      r = Le(e.http.envHttpHeaders);
+    return {
+      ...t,
+      url: e.http.url,
+      bearer_token_env_var:
+        e.http.bearerTokenEnvVar.trim().length > 0 ? e.http.bearerTokenEnvVar.trim() : void 0,
+      http_headers: Object.keys(n).length > 0 ? n : void 0,
+      env_http_headers: Object.keys(r).length > 0 ? r : void 0,
+    };
+  }
+  let n = Le(e.stdio.env),
+    r = e.stdio.envVars.map((e) => e.trim()).filter((e) => e.length > 0),
+    i = e.stdio.args.map((e) => e.trim()).filter((e) => e.length > 0);
+  return {
+    ...t,
+    command: e.stdio.command,
+    args: i.length > 0 ? i : void 0,
+    env: Object.keys(n).length > 0 ? n : void 0,
+    env_vars: r.length > 0 ? r : void 0,
+    cwd: e.stdio.cwd.trim().length > 0 ? e.stdio.cwd.trim() : void 0,
+  };
+}
+function Ie(e) {
+  let t = Object.entries(e);
+  return t.length === 0 ? [{ key: ``, value: `` }] : t.map(([e, t]) => ({ key: e, value: t }));
+}
+function Le(e) {
+  let t = {};
+  return (
+    e.forEach(({ key: e, value: n }) => {
+      let r = e.trim(),
+        i = n.trim();
+      r.length === 0 || i.length === 0 || (t[r] = i);
+    }),
+    t
+  );
+}
+var Re,
+  X,
+  Z,
+  ze = e(() => {
+    ((Re = t(h(), 1)),
+      (X = t(p(), 1)),
+      j(),
+      b(),
+      g(),
+      R(),
+      Te(),
+      u(),
+      B(),
+      fe(),
+      ye(),
+      me(),
+      V(),
+      Ae(),
+      we(),
+      Ce(),
+      (Z = s()));
+  }),
+  Be,
+  Ve = e(() => {
+    (j(),
+      (Be = I({
+        servers: {
+          id: `settings.mcp.myServers`,
+          defaultMessage: `Servers`,
+          description: `Heading for the user's MCP servers list`,
+        },
+      })));
+  });
+function He() {
+  let { selectedHostId: e } = ge(),
+    { data: t } = a(null, { hostId: e }),
+    { data: n, isFetching: r } = S(se, e),
+    i = y({ hostId: e }),
+    o = v({ hostId: e }),
+    s = ce(),
+    u = N(),
+    d = f(le),
+    [p, m] = (0, Q.useState)({}),
+    [h, g] = (0, Q.useState)([]),
+    [_, b] = (0, Q.useState)({}),
+    [x, C] = (0, Q.useState)(null),
+    [w, T] = (0, Q.useState)(null),
+    E = t?.servers ?? {},
+    D = t?.serverOrigins ?? {},
+    k = t?.configWriteTarget ?? null,
+    A = Object.keys(E),
+    ee = (0, qe.default)(
+      A,
+      (e) => E[e]?.name?.trim() || e,
+      (e) => e,
+    ),
+    j = new Set(Object.entries(E).flatMap(([e, t]) => [e, t.name ?? e])),
+    M = h.includes(e),
+    ie = M ? (_[e] ?? []) : [],
+    P = (0, qe.default)(
+      (t == null ? [] : (n?.data ?? [])).filter((e) => !j.has(e.name) && !ie.includes(e.name)),
+      (e) => e.name,
+    ),
+    F = A.length > 0,
+    I = P.length > 0,
+    R = {};
+  n != null &&
+    (n.data.forEach((e) => {
+      R[e.name] = e.authStatus;
+    }),
+    Object.entries(E).forEach(([e, t]) => {
+      let n = R[e] ?? (t.name == null ? void 0 : R[t.name]);
+      n != null && (R[e] = n);
+    }));
+  let z = () => {
+      g((t) => (t.includes(e) ? t : [...t, e]));
+    },
+    B = () => {
+      (T(null), C(null));
+    },
+    V = () => {
+      if (k != null) return k.filePath;
+      throw Error(
+        u.formatMessage({
+          id: `settings.mcp.noWritableConfig`,
+          defaultMessage: `MCP server settings are unavailable`,
+          description: `Error shown when MCP settings cannot find a writable config.toml`,
+        }),
+      );
+    },
+    H = async (e, t) => {
+      try {
+        (await o.mutateAsync({ key: e, enabled: t }), z());
+      } catch {}
+    },
+    de = async (e, t) => {
+      let n = x ?? Ue(t, A, null);
+      try {
+        (await i.mutateAsync({ filePath: V(), key: n, value: e }), z(), B());
+      } catch (e) {
+        throw (
+          re.error(`Failed to save MCP server`, {
+            safe: { targetKey: n },
+            sensitive: { error: e },
+          }),
+          e
+        );
+      }
+    },
+    fe = async (t) => {
+      let n = x ?? Ue(t, A, null);
+      try {
+        (await i.mutateAsync({ filePath: V(), key: n, value: null }),
+          b((r) => ({ ...r, [e]: (0, Je.default)([...(r[e] ?? []), n, t, E[n]?.name ?? n]) })),
+          z(),
+          B());
+      } catch (e) {
+        throw (
+          re.error(`Failed to uninstall MCP server`, {
+            safe: { targetKey: n },
+            sensitive: { error: e },
+          }),
+          e
+        );
+      }
+    },
+    pe = async (t) => {
+      if (!r) {
+        let e = R[t];
+        if (e !== void 0 && e !== `notLoggedIn`) return;
+      }
+      let n = p[t];
+      if (n) {
+        c({ href: n, initiator: `open_in_browser_bridge`, openTarget: `external-browser` });
+        return;
+      }
+      m((e) => ({ ...e, [t]: null }));
+      try {
+        let { authorizationUrl: n } = await ae(`login-mcp-server`, { hostId: e, name: t });
+        n &&
+          (m((e) => ({ ...e, [t]: n })),
+          c({ href: n, initiator: `open_in_browser_bridge`, openTarget: `external-browser` }));
+      } catch (e) {
+        (re.error(`Failed to start login for MCP server`, {
+          safe: { serverName: t },
+          sensitive: { error: e },
+        }),
+          m((e) => {
+            let { [t]: n, ...r } = e;
+            return r;
+          }));
+      }
+    },
+    me = (0, Q.useEffectEvent)((e, t) => {
+      (m((n) => {
+        let r = n[e];
+        if (t || r == null) {
+          let { [e]: t, ...r } = n;
+          return r;
+        }
+        return n;
+      }),
+        t && (z(), s.invalidateQueries({ queryKey: te })));
+    }),
+    he = (0, Q.useRef)(!0);
+  if (
+    ((0, Q.useEffect)(() => {
+      if (he.current) {
+        he.current = !1;
+        return;
+      }
+      d?.hostId === e && me(d.name, d.success);
+    }, [d, e]),
+    oe(
+      `codex-app-server-initialized`,
+      (e) => {
+        (g((t) => t.filter((t) => t !== e.hostId)),
+          b((t) => {
+            let { [e.hostId]: n, ...r } = t;
+            return r;
+          }),
+          s.invalidateQueries({ queryKey: [...te, e.hostId] }));
+      },
+      [s],
+    ),
+    w)
+  )
+    return (0, $.jsx)(Me, {
+      config: w,
+      initialKey: x,
+      onCancel: B,
+      onSave: de,
+      onUninstall: x ? fe : void 0,
+    });
+  let ve = (0, $.jsx)(be, { slug: Ye }),
+    ye = (0, $.jsx)(xe, { slug: Ye }),
+    U = M
+      ? (0, $.jsxs)(l, {
+          color: `ghost`,
+          size: `toolbar`,
+          onClick: () => {
+            ne.dispatchMessage(`codex-app-server-restart`, { hostId: e });
+          },
+          children: [
+            (0, $.jsx)(O, { className: `icon-xs` }),
+            (0, $.jsx)(L, {
+              id: `settings.mcp.restartApp`,
+              defaultMessage: `Restart`,
+              description: `Button label to restart the codex electron app after MCP settings change`,
+            }),
+          ],
+        })
+      : null,
+    W = () => {
+      (C(null), T({ ...Xe, name: void 0 }));
+    };
+  return (0, $.jsxs)(ue, {
+    title: ve,
+    subtitle: ye,
+    action: U,
+    children: [
+      (0, $.jsxs)(K, {
+        children: [
+          (0, $.jsx)(K.Header, {
+            title: (0, $.jsx)(L, { ...Be.servers }),
+            actions: (F || I) && (0, $.jsx)(Ge, { onClick: W }),
+          }),
+          F || !I
+            ? (0, $.jsx)(K.Content, {
+                children: (0, $.jsx)(G, {
+                  children: F
+                    ? ee.map((e) =>
+                        (0, $.jsx)(
+                          We,
+                          {
+                            name: E[e]?.name ?? e,
+                            statusLoading: r,
+                            enabled: E[e]?.enabled !== !1,
+                            authStatus: R[e],
+                            onAuthenticateClicked: () => pe(e),
+                            onEnableClicked: E[e] ? (t) => H(e, t) : void 0,
+                            onSettingsClicked: E[e]
+                              ? async () => {
+                                  (C(e), T(E[e]));
+                                }
+                              : void 0,
+                            isReadOnly: D[e]?.name.type === `project`,
+                          },
+                          e,
+                        ),
+                      )
+                    : (0, $.jsx)(_e, {
+                        label: (0, $.jsx)(L, {
+                          id: `settings.mcp.empty`,
+                          defaultMessage: `No MCP servers connected`,
+                          description: `Empty state for MCP servers list`,
+                        }),
+                        control: (0, $.jsx)(Ge, { onClick: W }),
+                      }),
+                }),
+              })
+            : null,
+        ],
+      }),
+      I
+        ? (0, $.jsxs)(K, {
+            children: [
+              (0, $.jsx)(K.Header, {
+                title: (0, $.jsx)(L, {
+                  id: `settings.mcp.fromPlugins`,
+                  defaultMessage: `From plugins`,
+                  description: `Heading for MCP servers provided by installed plugins`,
+                }),
+              }),
+              (0, $.jsx)(K.Content, {
+                children: (0, $.jsx)(G, {
+                  children: P.map((e) =>
+                    (0, $.jsx)(
+                      We,
+                      {
+                        name: e.name,
+                        statusLoading: r,
+                        authStatus: e.authStatus,
+                        onAuthenticateClicked: () => pe(e.name),
+                      },
+                      `status-${e.name}`,
+                    ),
+                  ),
+                }),
+              }),
+            ],
+          })
+        : null,
+    ],
+  });
+}
+function Ue(e, t, n) {
+  let r =
+      e
+        ?.trim()
+        .replace(/\s+/gu, `_`)
+        .replace(/[^a-zA-Z0-9-_]+/gu, `-`)
+        .replace(/-+/gu, `-`) ?? ``,
+    i = r.length > 0 ? r.toLowerCase() : `custom-server`,
+    a = t.filter((e) => (n == null ? !0 : e !== n));
+  if (!a.includes(i)) return i;
+  let o = 2,
+    s = `${i}-${o}`;
+  for (; a.includes(s); ) ((o += 1), (s = `${i}-${o}`));
+  return s;
+}
+function We(e) {
+  let t = (0, Ke.c)(15),
+    {
+      name: n,
+      statusLoading: r,
+      onAuthenticateClicked: i,
+      authStatus: a,
+      onEnableClicked: o,
+      enabled: s,
+      onSettingsClicked: c,
+      isReadOnly: u,
+    } = e,
+    d = N(),
+    f = !r && i !== void 0 && a === `notLoggedIn`,
+    p = o !== void 0 || c !== void 0 || f,
+    m;
+  t[0] === n
+    ? (m = t[1])
+    : ((m = (0, $.jsx)(`span`, {
+        className: `flex min-w-0 flex-col gap-0.5 text-sm`,
+        children: (0, $.jsx)(`span`, {
+          className: `flex flex-wrap items-end gap-1`,
+          children: (0, $.jsx)(`span`, {
+            className: `font-medium text-token-text-primary`,
+            children: n,
+          }),
+        }),
+      })),
+      (t[0] = n),
+      (t[1] = m));
+  let h;
+  t[2] !== s ||
+  t[3] !== d ||
+  t[4] !== u ||
+  t[5] !== i ||
+  t[6] !== o ||
+  t[7] !== c ||
+  t[8] !== p ||
+  t[9] !== f ||
+  t[10] !== r
+    ? ((h = p
+        ? (0, $.jsxs)(Oe, {
+            children: [
+              f
+                ? (0, $.jsx)(l, {
+                    color: `outline`,
+                    disabled: !!r,
+                    size: `toolbar`,
+                    onClick: () => {
+                      i();
+                    },
+                    children: (0, $.jsx)(L, {
+                      id: `settings.mcp.server.login`,
+                      defaultMessage: `Authenticate`,
+                      description: `Button label to authenticate with an MCP server`,
+                    }),
+                  })
+                : null,
+              c
+                ? (0, $.jsx)(l, {
+                    color: `ghost`,
+                    size: `toolbar`,
+                    uniform: !0,
+                    disabled: u === !0,
+                    onClick: () => {
+                      c();
+                    },
+                    "aria-label": d.formatMessage({
+                      id: `settings.mcp.server.settings`,
+                      defaultMessage: `Settings`,
+                      description: `Button label to view MCP server settings`,
+                    }),
+                    children: (0, $.jsx)(D, { className: `icon-xs` }),
+                  })
+                : null,
+              o
+                ? (0, $.jsx)(C, {
+                    disabled: r === !0 || u === !0,
+                    checked: s === !0,
+                    onChange: (e) => {
+                      o(e);
+                    },
+                    ariaLabel: d.formatMessage({
+                      id: `settings.mcp.server.enable`,
+                      defaultMessage: `Enable`,
+                      description: `Toggle to enable an MCP server`,
+                    }),
+                  })
+                : null,
+            ],
+          })
+        : null),
+      (t[2] = s),
+      (t[3] = d),
+      (t[4] = u),
+      (t[5] = i),
+      (t[6] = o),
+      (t[7] = c),
+      (t[8] = p),
+      (t[9] = f),
+      (t[10] = r),
+      (t[11] = h))
+    : (h = t[11]);
+  let g;
+  return (
+    t[12] !== m || t[13] !== h
+      ? ((g = (0, $.jsx)(_e, { label: m, description: null, control: h })),
+        (t[12] = m),
+        (t[13] = h),
+        (t[14] = g))
+      : (g = t[14]),
+    g
+  );
+}
+function Ge(e) {
+  let t = (0, Ke.c)(6),
+    { onClick: n } = e,
+    r;
+  t[0] === n
+    ? (r = t[1])
+    : ((r = () => {
+        n?.();
+      }),
+      (t[0] = n),
+      (t[1] = r));
+  let i, a;
+  t[2] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((i = (0, $.jsx)(_, { className: `icon-xs` })),
+      (a = (0, $.jsx)(L, {
+        id: `settings.mcp.addServer`,
+        defaultMessage: `Add server`,
+        description: `Button to add a new MCP server`,
+      })),
+      (t[2] = i),
+      (t[3] = a))
+    : ((i = t[2]), (a = t[3]));
+  let o;
+  return (
+    t[4] === r
+      ? (o = t[5])
+      : ((o = (0, $.jsxs)(l, {
+          color: `secondary`,
+          size: `toolbar`,
+          onClick: r,
+          children: [i, a],
+        })),
+        (t[4] = r),
+        (t[5] = o)),
+    o
+  );
+}
+var Ke, qe, Je, Q, $, Ye, Xe;
+e(() => {
+  ((Ke = F()),
+    i(),
+    (qe = t(Se(), 1)),
+    (Je = t(m(), 1)),
+    r(),
+    (Q = t(p(), 1)),
+    j(),
+    x(),
+    k(),
+    b(),
+    g(),
+    n(),
+    w(),
+    ie(),
+    d(),
+    A(),
+    T(),
+    De(),
+    V(),
+    ze(),
+    Ve(),
+    we(),
+    pe(),
+    ve(),
+    W(),
+    Ce(),
+    P(),
+    ($ = s()),
+    (Ye = `mcp-settings`),
+    (Xe = { command: ``, args: [], env_vars: [], enabled: !0 }));
+})();
+export { He as McpSettings };
+//# sourceMappingURL=mcp-settings.js.map

@@ -1,0 +1,4057 @@
+import { n as e, s as t } from "./rolldown-runtime.js";
+import {
+  $P as n,
+  $p as r,
+  $r as i,
+  AB as a,
+  AN as o,
+  AV as s,
+  Ao as c,
+  BP as l,
+  BV as u,
+  Cj as d,
+  DF as f,
+  DN as p,
+  Dm as m,
+  Dp as h,
+  EF as g,
+  FB as _,
+  Ga as v,
+  Gu as y,
+  HE as b,
+  IA as x,
+  JV as S,
+  KE as C,
+  Ku as w,
+  MV as ee,
+  Mu as T,
+  Nu as te,
+  ON as ne,
+  Op as re,
+  Ov as ie,
+  PA as ae,
+  PB as E,
+  QP as oe,
+  Qr as se,
+  Tp as ce,
+  UA as le,
+  UI as ue,
+  Ui as de,
+  VE as D,
+  VP as O,
+  WA as fe,
+  Wa as pe,
+  Wi as me,
+  XR as he,
+  Xa as ge,
+  Za as _e,
+  _M as k,
+  ak as A,
+  bF as j,
+  cA as ve,
+  cM as M,
+  cP as ye,
+  ei as N,
+  em as be,
+  fI as P,
+  gM as xe,
+  gm as F,
+  gp as Se,
+  hM as Ce,
+  iF as I,
+  iO as we,
+  jm as L,
+  kN as Te,
+  kj as R,
+  ko as Ee,
+  lA as De,
+  lF as Oe,
+  lP as ke,
+  li as Ae,
+  mp as je,
+  mv as Me,
+  ni as Ne,
+  ok as Pe,
+  pI as Fe,
+  pM as Ie,
+  qE as z,
+  qV as B,
+  rF as Le,
+  rO as V,
+  ri as H,
+  rm as Re,
+  sF as U,
+  uM as ze,
+  ui as W,
+  wj as G,
+  wp as Be,
+  zV as Ve,
+} from "./app-initial~app-main~remote-conversation-page~plugin-detail-page~new-thread-panel-page~appg~ijdupmx5.js";
+import {
+  C as He,
+  Cn as Ue,
+  Kl as K,
+  On as q,
+  Qa as We,
+  Sn as Ge,
+  Wl as J,
+  Za as Ke,
+  b as qe,
+  kn as Je,
+  x as Ye,
+} from "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~projects-index-page~app~ovcriy74.js";
+import {
+  O as Xe,
+  k as Ze,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~new-thread-panel-page~o~bj5tp28r.js";
+import {
+  $ as Qe,
+  Ai as $e,
+  Q as et,
+  _t as tt,
+  gt as nt,
+  h as rt,
+  ji as it,
+  v as Y,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~new-~kvpgbdy1.js";
+import {
+  Al as at,
+  Bu as ot,
+  dc as st,
+  gm as ct,
+  hm as lt,
+  kl as ut,
+  mm as dt,
+  nr as ft,
+  pm as X,
+  rr as pt,
+  uc as mt,
+} from "./app-initial~app-main~onboarding-page~profile.js";
+import {
+  en as ht,
+  tn as gt,
+} from "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~appgen-library-page~hot~djo67r4n.js";
+import {
+  _ as _t,
+  g as vt,
+} from "./app-initial~app-main~projects-index-page~local-conversation-page.js";
+function yt(e) {
+  let t = (0, Ct.c)(4),
+    { statusState: n } = e;
+  if ((n.unreadCount ?? 0) > 0) {
+    let e = n.unreadCount ?? 0,
+      r;
+    return (
+      t[0] === e ? (r = t[1]) : ((r = (0, wt.jsx)(bt, { count: e })), (t[0] = e), (t[1] = r)), r
+    );
+  }
+  if (n.type === `loading`) {
+    let e;
+    return (
+      t[2] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, wt.jsx)(St, {})), (t[2] = e))
+        : (e = t[2]),
+      e
+    );
+  }
+  if (n.unread === !0) {
+    let e;
+    return (
+      t[3] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, wt.jsx)(xt, {})), (t[3] = e))
+        : (e = t[3]),
+      e
+    );
+  }
+  return null;
+}
+function bt(e) {
+  let t = (0, Ct.c)(3),
+    { count: n } = e,
+    r = n > 99 ? `99+` : n,
+    i;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((i = {
+        backgroundColor: `color-mix(in srgb, var(--vscode-textLink-foreground) 18%, transparent)`,
+        boxShadow: `inset 0 0 0 1px color-mix(in srgb, var(--vscode-textLink-foreground) 72%, transparent)`,
+        color: `var(--vscode-textLink-foreground)`,
+      }),
+      (t[0] = i))
+    : (i = t[0]);
+  let a;
+  return (
+    t[1] === r
+      ? (a = t[2])
+      : ((a = (0, wt.jsx)(`div`, {
+          className: `relative flex h-5 min-w-5 shrink-0 items-center justify-center`,
+          children: (0, wt.jsx)(`span`, {
+            className: `flex h-5 min-w-5 items-center justify-center rounded-full px-1.5 text-[11px] leading-none font-semibold`,
+            style: i,
+            children: r,
+          }),
+        })),
+        (t[1] = r),
+        (t[2] = a)),
+    a
+  );
+}
+function xt() {
+  let e = (0, Ct.c)(1),
+    t;
+  return (
+    e[0] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((t = (0, wt.jsx)(`div`, {
+          className: `relative flex size-5 shrink-0 items-center justify-center text-token-description-foreground`,
+          children: (0, wt.jsx)(`span`, {
+            className: `icon-xs relative scale-50`,
+            children: (0, wt.jsx)(`span`, {
+              className: `absolute inset-0 rounded-full`,
+              style: { backgroundColor: `var(--vscode-textLink-foreground)` },
+            }),
+          }),
+        })),
+        (e[0] = t))
+      : (t = e[0]),
+    t
+  );
+}
+function St() {
+  let e = (0, Ct.c)(1),
+    t;
+  return (
+    e[0] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((t = (0, wt.jsx)(`div`, {
+          className: `relative flex size-5 shrink-0 items-center justify-center text-token-foreground/70`,
+          children: (0, wt.jsx)(Te, { className: `icon-xs shrink-0`, animationDurationMs: 2e3 }),
+        })),
+        (e[0] = t))
+      : (t = e[0]),
+    t
+  );
+}
+var Ct,
+  wt,
+  Tt = e(() => {
+    ((Ct = B()), o(), (wt = u()));
+  });
+function Et(e) {
+  let t = (0, Dt.c)(10),
+    { onUndo: n, onOpenSettings: r } = e;
+  switch (`electron`) {
+    case `chrome-extension`:
+    case `extension`: {
+      let e;
+      return (
+        t[0] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, Ot.jsx)(U, {
+              id: `codex.archiveInfo.extension`,
+              defaultMessage: `View archived chats in your .codex folder.`,
+              description: `Info message shown after archiving a Codex conversation or task in the extension`,
+            })),
+            (t[0] = e))
+          : (e = t[0]),
+        e
+      );
+    }
+    case `browser`:
+    case `electron`: {
+      let e;
+      t[1] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, Ot.jsx)(U, {
+            id: `codex.archiveInfo.undoLink`,
+            defaultMessage: `Undo`,
+            description: `Link label to undo archiving a chat`,
+          })),
+          (t[1] = e))
+        : (e = t[1]);
+      let i;
+      t[2] === n
+        ? (i = t[3])
+        : ((i = (0, Ot.jsx)(
+            `button`,
+            {
+              className: `cursor-interaction text-token-link underline-offset-2 hover:underline`,
+              type: `button`,
+              onClick: n,
+              children: e,
+            },
+            `undo`,
+          )),
+          (t[2] = n),
+          (t[3] = i));
+      let a;
+      t[4] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((a = (0, Ot.jsx)(U, {
+            id: `codex.archiveInfo.settingsLink`,
+            defaultMessage: `Settings`,
+            description: `Link label to open the archived chats settings page`,
+          })),
+          (t[4] = a))
+        : (a = t[4]);
+      let o;
+      t[5] === r
+        ? (o = t[6])
+        : ((o = (0, Ot.jsx)(
+            `button`,
+            {
+              className: `cursor-interaction text-token-link underline-offset-2 hover:underline`,
+              type: `button`,
+              onClick: r,
+              children: a,
+            },
+            `settings`,
+          )),
+          (t[5] = r),
+          (t[6] = o));
+      let s;
+      return (
+        t[7] !== i || t[8] !== o
+          ? ((s = (0, Ot.jsx)(U, {
+              id: `codex.archiveInfo.electronWithUndo`,
+              defaultMessage: `{undoLink} or view archived chats in {settingsLink}`,
+              description: `Info message shown after archiving a Codex conversation or task in the electron app`,
+              values: { undoLink: i, settingsLink: o },
+            })),
+            (t[7] = i),
+            (t[8] = o),
+            (t[9] = s))
+          : (s = t[9]),
+        s
+      );
+    }
+  }
+}
+var Dt,
+  Ot,
+  kt = e(() => {
+    ((Dt = B()), I(), (Ot = u()));
+  });
+function At(e) {
+  let t = (0, Rt.c)(12),
+    { className: n, disableTooltip: r, hostId: i } = e,
+    a = r === void 0 ? !1 : r,
+    o = b(i),
+    s = z(),
+    c;
+  t[0] === n ? (c = t[1]) : ((c = l(`icon-2xs no-drag shrink-0`, n)), (t[0] = n), (t[1] = c));
+  let u;
+  t[2] === s ? (u = t[3]) : ((u = s.map(jt)), (t[2] = s), (t[3] = u));
+  let d;
+  t[4] !== i || t[5] !== c || t[6] !== u
+    ? ((d = (0, Z.jsx)(`span`, {
+        className: `inline-flex shrink-0`,
+        children: (0, Z.jsx)(vt, { className: c, hostId: i, hostIdsForColorAssignment: u }),
+      })),
+      (t[4] = i),
+      (t[5] = c),
+      (t[6] = u),
+      (t[7] = d))
+    : (d = t[7]);
+  let f;
+  return (
+    t[8] !== a || t[9] !== o.display_name || t[10] !== d
+      ? ((f = Lt({ disableTooltip: a, icon: d, tooltipContent: o.display_name })),
+        (t[8] = a),
+        (t[9] = o.display_name),
+        (t[10] = d),
+        (t[11] = f))
+      : (f = t[11]),
+    f
+  );
+}
+function jt(e) {
+  return e.hostId;
+}
+function Mt(e) {
+  let t = (0, Rt.c)(19),
+    { className: n, disableTooltip: r, hostId: i } = e,
+    a = r === void 0 ? !1 : r,
+    o = b(i),
+    s = z(),
+    c;
+  t[0] === n ? (c = t[1]) : ((c = l(`icon-2xs no-drag shrink-0`, n)), (t[0] = n), (t[1] = c));
+  let u;
+  t[2] === s ? (u = t[3]) : ((u = s.map(Nt)), (t[2] = s), (t[3] = u));
+  let d;
+  t[4] !== i || t[5] !== c || t[6] !== u
+    ? ((d = (0, Z.jsx)(vt, { className: c, hostId: i, hostIdsForColorAssignment: u })),
+      (t[4] = i),
+      (t[5] = c),
+      (t[6] = u),
+      (t[7] = d))
+    : (d = t[7]);
+  let f;
+  t[8] === n
+    ? (f = t[9])
+    : ((f = l(`icon-2xs text-token-description-foreground no-drag shrink-0`, n)),
+      (t[8] = n),
+      (t[9] = f));
+  let p;
+  t[10] === f ? (p = t[11]) : ((p = (0, Z.jsx)(q, { className: f })), (t[10] = f), (t[11] = p));
+  let m;
+  t[12] !== d || t[13] !== p
+    ? ((m = (0, Z.jsxs)(`span`, {
+        className: `inline-flex shrink-0 items-center gap-1.5`,
+        children: [d, p],
+      })),
+      (t[12] = d),
+      (t[13] = p),
+      (t[14] = m))
+    : (m = t[14]);
+  let h;
+  return (
+    t[15] !== a || t[16] !== o.display_name || t[17] !== m
+      ? ((h = Lt({ disableTooltip: a, icon: m, tooltipContent: o.display_name })),
+        (t[15] = a),
+        (t[16] = o.display_name),
+        (t[17] = m),
+        (t[18] = h))
+      : (h = t[18]),
+    h
+  );
+}
+function Nt(e) {
+  return e.hostId;
+}
+function Pt(e) {
+  let t = (0, Rt.c)(8),
+    { className: n, disableTooltip: r } = e,
+    i = r === void 0 ? !1 : r,
+    a;
+  t[0] === n
+    ? (a = t[1])
+    : ((a = l(`icon-2xs text-token-description-foreground no-drag shrink-0`, n)),
+      (t[0] = n),
+      (t[1] = a));
+  let o;
+  t[2] === a
+    ? (o = t[3])
+    : ((o = (0, Z.jsx)(`span`, {
+        className: `inline-flex shrink-0`,
+        children: (0, Z.jsx)(q, { className: a }),
+      })),
+      (t[2] = a),
+      (t[3] = o));
+  let s;
+  t[4] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((s = (0, Z.jsx)(U, {
+        id: `threadEnvIcon.worktreeTooltip`,
+        defaultMessage: `This conversation is running in a local git worktree.`,
+        description: `Tooltip content for worktree environment icon`,
+      })),
+      (t[4] = s))
+    : (s = t[4]);
+  let c;
+  return (
+    t[5] !== i || t[6] !== o
+      ? ((c = Lt({ disableTooltip: i, icon: o, tooltipContent: s })),
+        (t[5] = i),
+        (t[6] = o),
+        (t[7] = c))
+      : (c = t[7]),
+    c
+  );
+}
+function Ft(e) {
+  let t = (0, Rt.c)(8),
+    { className: n, disableTooltip: r } = e,
+    i = r === void 0 ? !1 : r,
+    a;
+  t[0] === n
+    ? (a = t[1])
+    : ((a = l(`icon-2xs translate-x-px text-token-description-foreground no-drag shrink-0`, n)),
+      (t[0] = n),
+      (t[1] = a));
+  let o;
+  t[2] === a
+    ? (o = t[3])
+    : ((o = (0, Z.jsx)(`span`, {
+        className: `inline-flex shrink-0`,
+        children: (0, Z.jsx)(ft, { className: a }),
+      })),
+      (t[2] = a),
+      (t[3] = o));
+  let s;
+  t[4] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((s = (0, Z.jsx)(U, {
+        id: `threadEnvIcon.cloudTooltip`,
+        defaultMessage: `This conversation is running in Codex Cloud.`,
+        description: `Tooltip content for cloud environment icon`,
+      })),
+      (t[4] = s))
+    : (s = t[4]);
+  let c;
+  return (
+    t[5] !== i || t[6] !== o
+      ? ((c = Lt({ disableTooltip: i, icon: o, tooltipContent: s })),
+        (t[5] = i),
+        (t[6] = o),
+        (t[7] = c))
+      : (c = t[7]),
+    c
+  );
+}
+function It(e) {
+  let t = (0, Rt.c)(8),
+    { className: n, disableTooltip: r } = e,
+    i = r === void 0 ? !1 : r,
+    a;
+  t[0] === n
+    ? (a = t[1])
+    : ((a = l(`icon-2xs text-token-description-foreground no-drag shrink-0`, n)),
+      (t[0] = n),
+      (t[1] = a));
+  let o;
+  t[2] === a
+    ? (o = t[3])
+    : ((o = (0, Z.jsx)(`span`, {
+        className: `inline-flex shrink-0`,
+        children: (0, Z.jsx)(Ge, { className: a }),
+      })),
+      (t[2] = a),
+      (t[3] = o));
+  let s;
+  t[4] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((s = (0, Z.jsx)(U, {
+        id: `threadEnvIcon.localTooltip`,
+        defaultMessage: `This conversation is running locally.`,
+        description: `Tooltip content for local environment icon`,
+      })),
+      (t[4] = s))
+    : (s = t[4]);
+  let c;
+  return (
+    t[5] !== i || t[6] !== o
+      ? ((c = Lt({ disableTooltip: i, icon: o, tooltipContent: s })),
+        (t[5] = i),
+        (t[6] = o),
+        (t[7] = c))
+      : (c = t[7]),
+    c
+  );
+}
+function Lt({ disableTooltip: e, icon: t, tooltipContent: n }) {
+  return e ? t : (0, Z.jsx)(Ie, { tooltipContent: n, children: t });
+}
+var Rt,
+  Z,
+  zt = e(() => {
+    ((Rt = B()), O(), I(), _t(), Ce(), pt(), Ue(), Je(), C(), D(), (Z = u()));
+  });
+function Bt(e) {
+  return e === `worktree` || e === `cloud` || e === `remote` || e === `remote-worktree`;
+}
+var Vt = e(() => {});
+function Ht(e) {
+  let t = (0, Wt.c)(4),
+    { envType: n } = e;
+  switch (n) {
+    case `worktree`: {
+      let e;
+      return (
+        t[0] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, Gt.jsx)(U, {
+              id: `codex.taskRowLayout.hoverCard.worktree`,
+              defaultMessage: `Worktree`,
+              description: `Environment label shown in a sidebar row hover card`,
+            })),
+            (t[0] = e))
+          : (e = t[0]),
+        e
+      );
+    }
+    case `cloud`: {
+      let e;
+      return (
+        t[1] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, Gt.jsx)(U, {
+              id: `codex.taskRowLayout.hoverCard.cloudTask`,
+              defaultMessage: `Cloud task`,
+              description: `Environment label shown in a sidebar row hover card`,
+            })),
+            (t[1] = e))
+          : (e = t[1]),
+        e
+      );
+    }
+    case `remote`: {
+      let e;
+      return (
+        t[2] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, Gt.jsx)(U, {
+              id: `codex.taskRowLayout.hoverCard.remote`,
+              defaultMessage: `Remote`,
+              description: `Environment label shown in a sidebar row hover card`,
+            })),
+            (t[2] = e))
+          : (e = t[2]),
+        e
+      );
+    }
+    case `remote-worktree`: {
+      let e;
+      return (
+        t[3] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, Gt.jsx)(U, {
+              id: `codex.taskRowLayout.hoverCard.remoteWorktree`,
+              defaultMessage: `Remote worktree`,
+              description: `Environment label shown in a sidebar row hover card`,
+            })),
+            (t[3] = e))
+          : (e = t[3]),
+        e
+      );
+    }
+  }
+}
+function Ut(e) {
+  let t = (0, Wt.c)(21),
+    { envTooltip: n, envType: r, className: i, hostId: a, disableTooltip: o } = e,
+    s = o === void 0 ? !1 : o,
+    c = Bt(r) ? r : null;
+  if (!c) return null;
+  let l = n != null && n !== ``,
+    u = s || l,
+    d;
+  bb0: switch (c) {
+    case `remote`: {
+      if (a == null) return null;
+      let e;
+      (t[0] !== i || t[1] !== u || t[2] !== a
+        ? ((e = (0, Gt.jsx)(At, { className: i, disableTooltip: u, hostId: a })),
+          (t[0] = i),
+          (t[1] = u),
+          (t[2] = a),
+          (t[3] = e))
+        : (e = t[3]),
+        (d = e));
+      break bb0;
+    }
+    case `remote-worktree`: {
+      if (a == null) return null;
+      let e;
+      (t[4] !== i || t[5] !== u || t[6] !== a
+        ? ((e = (0, Gt.jsx)(Mt, { className: i, disableTooltip: u, hostId: a })),
+          (t[4] = i),
+          (t[5] = u),
+          (t[6] = a),
+          (t[7] = e))
+        : (e = t[7]),
+        (d = e));
+      break bb0;
+    }
+    case `worktree`: {
+      let e;
+      (t[8] !== i || t[9] !== u
+        ? ((e = (0, Gt.jsx)(Pt, { className: i, disableTooltip: u })),
+          (t[8] = i),
+          (t[9] = u),
+          (t[10] = e))
+        : (e = t[10]),
+        (d = e));
+      break bb0;
+    }
+    case `cloud`: {
+      let e;
+      (t[11] !== i || t[12] !== u
+        ? ((e = (0, Gt.jsx)(Ft, { className: i, disableTooltip: u })),
+          (t[11] = i),
+          (t[12] = u),
+          (t[13] = e))
+        : (e = t[13]),
+        (d = e));
+    }
+  }
+  let f;
+  t[14] !== s || t[15] !== n || t[16] !== l || t[17] !== d
+    ? ((f = l && !s ? (0, Gt.jsx)(Ie, { tooltipContent: n, children: d }) : d),
+      (t[14] = s),
+      (t[15] = n),
+      (t[16] = l),
+      (t[17] = d),
+      (t[18] = f))
+    : (f = t[18]);
+  let p = f,
+    m;
+  return (
+    t[19] === p
+      ? (m = t[20])
+      : ((m = (0, Gt.jsx)(`span`, {
+          className: `flex shrink-0 items-center align-middle text-sm`,
+          children: p,
+        })),
+        (t[19] = p),
+        (t[20] = m)),
+    m
+  );
+}
+var Wt,
+  Gt,
+  Kt = e(() => {
+    ((Wt = B()), I(), Ce(), zt(), Vt(), (Gt = u()));
+  }),
+  qt,
+  Jt,
+  Yt = e(() => {
+    (t(S()),
+      (qt = u()),
+      (Jt = (e) =>
+        (0, qt.jsxs)(`svg`, {
+          width: 14,
+          height: 14,
+          viewBox: `0 0 14 14`,
+          fill: `none`,
+          xmlns: `http://www.w3.org/2000/svg`,
+          ...e,
+          children: [
+            (0, qt.jsx)(`path`, {
+              d: `M1.3812 8.27413V4.75577C1.3812 4.32969 1.38061 3.98381 1.40346 3.70408C1.42674 3.41945 1.47636 3.16514 1.59688 2.92852L1.67323 2.79173C1.86352 2.4815 2.13672 2.22875 2.46279 2.06261L2.5525 2.02062C2.76355 1.93013 2.98935 1.88955 3.23835 1.86919C3.51808 1.84634 3.86396 1.84693 4.29004 1.84693H4.74304C4.83633 1.84692 4.90121 1.84681 4.96508 1.85074L5.1305 1.86792C5.51249 1.92388 5.87119 2.09044 6.1612 2.34891L6.32089 2.50479C6.39392 2.57845 6.4179 2.6024 6.44114 2.62313L6.51367 2.6823C6.68734 2.81274 6.89613 2.89025 7.11427 2.9037L7.28351 2.90561H8.91989C9.28374 2.90561 9.57891 2.90537 9.81889 2.92215C10.0629 2.93924 10.2824 2.97524 10.4907 3.06403L10.6625 3.14738C11.0519 3.35977 11.3607 3.69801 11.5361 4.10936L11.5927 4.26715C11.6409 4.42714 11.6644 4.59509 11.6773 4.77677C11.6942 5.01512 11.6945 5.30802 11.6945 5.66813C11.6945 5.78286 11.6489 5.89296 11.5679 5.97415C11.4866 6.0554 11.3761 6.1014 11.2612 6.1014H2.24774V8.27413C2.24774 8.71449 2.24816 9.01893 2.26747 9.25519C2.28636 9.48629 2.32126 9.61398 2.36926 9.70819L2.41189 9.78517C2.51891 9.95962 2.67262 10.1015 2.85598 10.1949L2.93424 10.2286C3.02069 10.2595 3.1358 10.2825 3.30897 10.2967C3.54523 10.316 3.84967 10.3164 4.29004 10.3164H6.13002L6.21782 10.3253C6.41513 10.3658 6.56329 10.5404 6.56329 10.7497C6.56329 10.959 6.41513 11.1336 6.21782 11.1741L6.13002 11.183H4.29004C3.86396 11.183 3.51808 11.1836 3.23835 11.1607C2.98935 11.1403 2.76355 11.0998 2.5525 11.0093L2.46279 10.9673C2.13672 10.8011 1.86352 10.5484 1.67323 10.2382L1.59688 10.1014C1.47636 9.86476 1.42674 9.61044 1.40346 9.32581C1.38061 9.04609 1.3812 8.70021 1.3812 8.27413ZM2.24774 5.23485H10.826C10.8244 5.0787 10.8212 4.94989 10.8133 4.83848C10.8029 4.6911 10.7856 4.59201 10.7631 4.51718L10.7389 4.44911C10.6402 4.21783 10.4666 4.02778 10.2477 3.90831L10.151 3.86123C10.0685 3.82607 9.95714 3.8007 9.75844 3.78679C9.55573 3.77261 9.29595 3.77216 8.91989 3.77216H7.28351L7.06083 3.76834C6.673 3.74442 6.30198 3.60706 5.99323 3.37515L5.86471 3.27017C5.81684 3.2275 5.77151 3.18072 5.70566 3.1143L5.58477 2.99596C5.42152 2.85042 5.2196 2.75635 5.00453 2.72492L4.91228 2.71538C4.88114 2.71346 4.84701 2.71347 4.74304 2.71347H4.29004C3.84967 2.71347 3.54523 2.71389 3.30897 2.73319C3.1358 2.74735 3.02069 2.77037 2.93424 2.80127L2.85598 2.83499C2.67262 2.92843 2.51891 3.07028 2.41189 3.24472L2.36926 3.32171C2.32126 3.41592 2.28636 3.54361 2.26747 3.7747C2.24816 4.01096 2.24774 4.3154 2.24774 4.75577V5.23485Z`,
+              fill: `currentColor`,
+            }),
+            (0, qt.jsx)(`path`, {
+              d: `M9.51822 12.2436C9.51822 12.0609 9.37009 11.9127 9.18736 11.9127C9.00463 11.9127 8.8565 12.0609 8.8565 12.2436C8.8565 12.4263 9.00463 12.5745 9.18736 12.5745C9.37009 12.5745 9.51822 12.4263 9.51822 12.2436ZM9.51822 9.50914C9.51822 9.3264 9.37009 9.17828 9.18736 9.17828C9.00463 9.17828 8.8565 9.3264 8.8565 9.50914C8.8565 9.69187 9.00463 9.84 9.18736 9.84C9.37009 9.84 9.51822 9.69187 9.51822 9.50914ZM12.0249 9.50914C12.0249 9.32643 11.8767 9.17833 11.694 9.17828C11.5113 9.17828 11.3632 9.3264 11.3632 9.50914C11.3632 9.69187 11.5113 9.84 11.694 9.84C11.8767 9.83995 12.0249 9.69184 12.0249 9.50914ZM12.3886 9.50914C12.3886 9.85195 12.14 10.1361 11.8134 10.1928H11.8759V10.4205C11.8759 10.7727 11.5903 11.0582 11.2382 11.0582H9.64319C9.49192 11.0582 9.36921 11.1809 9.36921 11.3322V11.5739C9.6645 11.6539 9.88192 11.923 9.88192 12.2436C9.88192 12.6272 9.57095 12.9382 9.18736 12.9382C8.80377 12.9382 8.4928 12.6272 8.4928 12.2436C8.4928 11.923 8.71022 11.6539 9.00551 11.5739V10.1786C8.71025 10.0986 8.4928 9.82971 8.4928 9.50914C8.4928 9.12555 8.80377 8.81458 9.18736 8.81458C9.57095 8.81458 9.88192 9.12555 9.88192 9.50914C9.88192 9.82971 9.66447 10.0986 9.36921 10.1786V10.757C9.45227 10.7174 9.54503 10.6945 9.64319 10.6945H11.2382C11.3895 10.6945 11.5122 10.5718 11.5122 10.4205V10.1928H11.5747C11.248 10.1361 10.9995 9.85201 10.9995 9.50914C10.9995 9.12555 11.3104 8.81458 11.694 8.81458C12.0776 8.81462 12.3886 9.12558 12.3886 9.50914Z`,
+              fill: `currentColor`,
+            }),
+            (0, qt.jsx)(`path`, {
+              d: `M11.694 8.75989C12.1078 8.75994 12.4438 9.09507 12.444 9.50891C12.444 9.8398 12.2286 10.1186 11.9313 10.2179V10.421C11.931 10.8033 11.6203 11.1134 11.2379 11.1134H9.64319C9.52231 11.1134 9.42446 11.2113 9.42444 11.3322V11.5353C9.72159 11.6346 9.937 11.9125 9.93713 12.2433C9.93713 12.6573 9.6011 12.9933 9.18713 12.9933C8.77327 12.9932 8.43811 12.6572 8.43811 12.2433C8.43824 11.9122 8.65326 11.6334 8.95081 11.5343V10.2169C8.65342 10.1177 8.43811 9.84 8.43811 9.50891C8.43823 9.09512 8.77335 8.76001 9.18713 8.75989C9.60102 8.75989 9.93701 9.09505 9.93713 9.50891C9.93713 9.83972 9.72143 10.1165 9.42444 10.2159V10.6759C9.49314 10.6528 9.56654 10.6398 9.64319 10.6398H11.2379C11.3586 10.6398 11.4574 10.5417 11.4576 10.421V10.2179C11.1599 10.1188 10.9449 9.84013 10.9449 9.50891C10.9451 9.09507 11.2801 8.75992 11.694 8.75989ZM9.18713 11.9679C9.03498 11.968 8.91191 12.0911 8.91174 12.2433C8.91174 12.3956 9.03488 12.5195 9.18713 12.5197C9.33949 12.5197 9.4635 12.3956 9.4635 12.2433C9.46334 12.0911 9.33939 11.9679 9.18713 11.9679ZM9.18713 9.23352C9.03496 9.23364 8.91187 9.35673 8.91174 9.50891C8.91174 9.66119 9.03488 9.78516 9.18713 9.78528C9.33949 9.78528 9.4635 9.66127 9.4635 9.50891C9.46338 9.35666 9.33942 9.23352 9.18713 9.23352ZM11.694 9.23352C11.5417 9.23356 11.4187 9.35668 11.4186 9.50891C11.4186 9.66125 11.5416 9.78524 11.694 9.78528C11.8463 9.78524 11.9703 9.66123 11.9703 9.50891C11.9702 9.3567 11.8462 9.23356 11.694 9.23352Z`,
+              stroke: `currentColor`,
+              strokeWidth: 0.11,
+              strokeLinejoin: `round`,
+            }),
+          ],
+        })));
+  });
+function Xt(e) {
+  let t = (0, nn.c)(18),
+    {
+      projectIcon: n,
+      projectLabel: r,
+      repositoryLabel: i,
+      sections: a,
+      showUnreadDot: o,
+      timestampDateString: s,
+      threadTitle: c,
+      threadTitleValue: l,
+      onRenameThreadTitle: u,
+    } = e,
+    d = o === void 0 ? !1 : o,
+    f;
+  t[0] !== u || t[1] !== d || t[2] !== c || t[3] !== l || t[4] !== s
+    ? ((f =
+        c != null && c !== ``
+          ? (0, Q.jsxs)(`div`, {
+              className: `flex w-full min-w-0 items-center gap-3 pb-0.5`,
+              children: [
+                (0, Q.jsx)($t, { onRenameThreadTitle: u, title: c, titleValue: l }),
+                s != null && s !== ``
+                  ? (0, Q.jsxs)(`div`, {
+                      className: `flex shrink-0 items-center gap-1 text-xs leading-5 text-token-description-foreground`,
+                      children: [
+                        (0, Q.jsx)(rt, { dateString: s }),
+                        d
+                          ? (0, Q.jsx)(`span`, {
+                              "aria-hidden": !0,
+                              className: `h-1.5 w-1.5 rounded-full bg-token-charts-blue`,
+                            })
+                          : null,
+                      ],
+                    })
+                  : null,
+              ],
+            })
+          : null),
+      (t[0] = u),
+      (t[1] = d),
+      (t[2] = c),
+      (t[3] = l),
+      (t[4] = s),
+      (t[5] = f))
+    : (f = t[5]);
+  let p;
+  t[6] !== n || t[7] !== r
+    ? ((p =
+        r != null && r !== ``
+          ? (0, Q.jsx)(tn, { row: { id: `project`, icon: n ?? (0, Q.jsx)(de, {}), label: r } })
+          : null),
+      (t[6] = n),
+      (t[7] = r),
+      (t[8] = p))
+    : (p = t[8]);
+  let m;
+  t[9] === i
+    ? (m = t[10])
+    : ((m =
+        i != null && i !== ``
+          ? (0, Q.jsx)(tn, { row: { id: `repository`, icon: (0, Q.jsx)(Jt, {}), label: i } })
+          : null),
+      (t[9] = i),
+      (t[10] = m));
+  let h;
+  t[11] === a ? (h = t[12]) : ((h = a.map(Zt)), (t[11] = a), (t[12] = h));
+  let g;
+  return (
+    t[13] !== f || t[14] !== p || t[15] !== m || t[16] !== h
+      ? ((g = (0, Q.jsxs)(`div`, {
+          className: `flex w-fit max-w-[min(20rem,calc(100vw-16px))] min-w-56 flex-col gap-1 px-row-x py-1.5 text-token-foreground`,
+          children: [f, p, m, h],
+        })),
+        (t[13] = f),
+        (t[14] = p),
+        (t[15] = m),
+        (t[16] = h),
+        (t[17] = g))
+      : (g = t[17]),
+    g
+  );
+}
+function Zt(e) {
+  return (0, Q.jsx)(
+    `div`,
+    { className: `flex min-w-0 flex-col gap-1`, children: e.rows.map(Qt) },
+    e.id,
+  );
+}
+function Qt(e) {
+  return (0, Q.jsx)(tn, { row: e }, e.id);
+}
+function $t(e) {
+  let t = (0, nn.c)(22),
+    { onRenameThreadTitle: n, title: r, titleValue: i } = e,
+    a = Oe(),
+    [o, s] = (0, rn.useState)(!1),
+    [c, l] = (0, rn.useState)(i ?? ``),
+    u = n != null && i != null,
+    d;
+  t[0] !== n || t[1] !== i
+    ? ((d = (e) => {
+        let t = e.trim();
+        if ((s(!1), t.length === 0 || t === i)) {
+          l(i ?? ``);
+          return;
+        }
+        n?.(t);
+      }),
+      (t[0] = n),
+      (t[1] = i),
+      (t[2] = d))
+    : (d = t[2]);
+  let f = d;
+  if (!u) {
+    let e;
+    return (
+      t[3] === r
+        ? (e = t[4])
+        : ((e = (0, Q.jsx)(`div`, {
+            className: `w-0 min-w-0 flex-1 truncate text-base leading-6 font-medium text-token-foreground`,
+            children: r,
+          })),
+          (t[3] = r),
+          (t[4] = e)),
+      e
+    );
+  }
+  if (o) {
+    let e;
+    t[5] === f
+      ? (e = t[6])
+      : ((e = (e) => {
+          e.currentTarget.dataset.cancelRename !== `true` && f(e.currentTarget.value);
+        }),
+        (t[5] = f),
+        (t[6] = e));
+    let n;
+    t[7] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((n = (e) => {
+          l(e.target.value);
+        }),
+        (t[7] = n))
+      : (n = t[7]);
+    let r;
+    t[8] === i
+      ? (r = t[9])
+      : ((r = (e) => {
+          if (e.key === `Enter`) {
+            (e.preventDefault(), e.currentTarget.blur());
+            return;
+          }
+          e.key === `Escape` &&
+            (e.preventDefault(),
+            (e.currentTarget.dataset.cancelRename = `true`),
+            l(i ?? ``),
+            s(!1));
+        }),
+        (t[8] = i),
+        (t[9] = r));
+    let o;
+    t[10] === a
+      ? (o = t[11])
+      : ((o = a.formatMessage({
+          id: `codex.taskRowHoverCard.threadTitleAriaLabel`,
+          defaultMessage: `Chat title`,
+          description: `Accessible label for the inline chat title editor in the thread hover card`,
+        })),
+        (t[10] = a),
+        (t[11] = o));
+    let u;
+    return (
+      t[12] !== c || t[13] !== e || t[14] !== r || t[15] !== o
+        ? ((u = (0, Q.jsx)(`input`, {
+            autoFocus: !0,
+            size: 1,
+            className: `h-6 w-0 min-w-0 flex-1 rounded-md border border-token-focus-border bg-token-input-background px-1.5 text-base leading-6 font-medium text-token-input-foreground outline-none`,
+            value: c,
+            onBlur: e,
+            onChange: n,
+            onFocus: en,
+            onKeyDown: r,
+            "aria-label": o,
+          })),
+          (t[12] = c),
+          (t[13] = e),
+          (t[14] = r),
+          (t[15] = o),
+          (t[16] = u))
+        : (u = t[16]),
+      u
+    );
+  }
+  let p;
+  t[17] === i
+    ? (p = t[18])
+    : ((p = () => {
+        (l(i ?? ``), s(!0));
+      }),
+      (t[17] = i),
+      (t[18] = p));
+  let m;
+  return (
+    t[19] !== p || t[20] !== r
+      ? ((m = (0, Q.jsx)(`button`, {
+          type: `button`,
+          className: `w-0 min-w-0 flex-1 cursor-interaction truncate rounded-md text-left text-base leading-6 font-medium text-token-foreground hover:bg-token-list-hover-background focus-visible:bg-token-list-hover-background focus-visible:outline-none`,
+          onClick: p,
+          children: r,
+        })),
+        (t[19] = p),
+        (t[20] = r),
+        (t[21] = m))
+      : (m = t[21]),
+    m
+  );
+}
+function en(e) {
+  e.currentTarget.select();
+}
+function tn(e) {
+  let t = (0, nn.c)(29),
+    { row: n } = e,
+    r;
+  t[0] === n.icon
+    ? (r = t[1])
+    : ((r = (0, rn.cloneElement)(n.icon, { className: l(`icon-xs`, n.icon.props.className) })),
+      (t[0] = n.icon),
+      (t[1] = r));
+  let i = r,
+    a,
+    o,
+    s,
+    c;
+  if (
+    t[2] !== i ||
+    t[3] !== n.allowWrap ||
+    t[4] !== n.label ||
+    t[5] !== n.onClick ||
+    t[6] !== n.tone
+  ) {
+    c = Symbol.for(`react.early_return_sentinel`);
+    bb0: {
+      let e = l(
+          `flex min-w-0 gap-1.5 text-sm leading-5`,
+          n.allowWrap ? `items-start` : `h-5 items-center`,
+        ),
+        r;
+      t[11] === i
+        ? (r = t[12])
+        : ((r = (0, Q.jsx)(`span`, {
+            className: `flex h-5 w-4 shrink-0 items-center justify-center text-token-description-foreground`,
+            children: i,
+          })),
+          (t[11] = i),
+          (t[12] = r));
+      let u = n.allowWrap ? `whitespace-normal` : `overflow-hidden text-ellipsis whitespace-nowrap`,
+        d = n.tone === `danger` ? `text-token-editor-warning-foreground` : `text-token-foreground`,
+        f;
+      t[13] !== u || t[14] !== d
+        ? ((f = l(`block min-w-0 flex-1 leading-5`, u, d)), (t[13] = u), (t[14] = d), (t[15] = f))
+        : (f = t[15]);
+      let p;
+      t[16] !== n.label || t[17] !== f
+        ? ((p = (0, Q.jsx)(`span`, { className: f, children: n.label })),
+          (t[16] = n.label),
+          (t[17] = f),
+          (t[18] = p))
+        : (p = t[18]);
+      let m;
+      if (
+        (t[19] !== r || t[20] !== p
+          ? ((m = (0, Q.jsxs)(Q.Fragment, { children: [r, p] })),
+            (t[19] = r),
+            (t[20] = p),
+            (t[21] = m))
+          : (m = t[21]),
+        (a = m),
+        n.onClick == null)
+      ) {
+        c = (0, Q.jsx)(`div`, { className: e, children: a });
+        break bb0;
+      }
+      ((o = `button`),
+        (s = l(
+          e,
+          `w-full cursor-interaction rounded-md text-left hover:bg-token-list-hover-background focus-visible:bg-token-list-hover-background focus-visible:outline-none`,
+        )));
+    }
+    ((t[2] = i),
+      (t[3] = n.allowWrap),
+      (t[4] = n.label),
+      (t[5] = n.onClick),
+      (t[6] = n.tone),
+      (t[7] = a),
+      (t[8] = o),
+      (t[9] = s),
+      (t[10] = c));
+  } else ((a = t[7]), (o = t[8]), (s = t[9]), (c = t[10]));
+  if (c !== Symbol.for(`react.early_return_sentinel`)) return c;
+  let u;
+  t[22] === n
+    ? (u = t[23])
+    : ((u = (e) => {
+        (e.stopPropagation(), n.onClick?.(e));
+      }),
+      (t[22] = n),
+      (t[23] = u));
+  let d;
+  return (
+    t[24] !== a || t[25] !== o || t[26] !== s || t[27] !== u
+      ? ((d = (0, Q.jsx)(`button`, { type: o, className: s, onClick: u, children: a })),
+        (t[24] = a),
+        (t[25] = o),
+        (t[26] = s),
+        (t[27] = u),
+        (t[28] = d))
+      : (d = t[28]),
+    d
+  );
+}
+var nn,
+  rn,
+  Q,
+  an = e(() => {
+    ((nn = B()), O(), (rn = t(S(), 1)), I(), Y(), Yt(), me(), (Q = u()));
+  }),
+  on,
+  sn,
+  cn = e(() => {
+    (t(S()),
+      (on = u()),
+      (sn = (e) =>
+        (0, on.jsxs)(`svg`, {
+          width: 20,
+          height: 20,
+          viewBox: `0 0 20 20`,
+          fill: `none`,
+          xmlns: `http://www.w3.org/2000/svg`,
+          ...e,
+          children: [
+            (0, on.jsx)(`path`, {
+              d: `M11.8008 10.1816C12.1035 10.2438 12.3309 10.5119 12.3311 10.833C12.3311 11.1542 12.1036 11.4222 11.8008 11.4844L11.666 11.498H8.33301C7.96589 11.4979 7.66797 11.2002 7.66797 10.833C7.66814 10.466 7.966 10.1682 8.33301 10.168H11.666L11.8008 10.1816Z`,
+              fill: `currentColor`,
+            }),
+            (0, on.jsx)(`path`, {
+              fillRule: `evenodd`,
+              clipRule: `evenodd`,
+              d: `M15.417 2.66797C16.7045 2.66815 17.7489 3.71251 17.749 5V5.83301C17.749 6.33171 17.59 6.79271 17.3232 7.17188C17.3263 7.19763 17.3311 7.22343 17.3311 7.25V12.667C17.3311 13.3559 17.3317 13.9131 17.2949 14.3633C17.2622 14.7639 17.197 15.1246 17.0527 15.4609L16.9863 15.6035C16.7209 16.1245 16.3169 16.5602 15.8213 16.8643L15.6035 16.9863C15.2268 17.1782 14.8202 17.2575 14.3623 17.2949C13.9121 17.3317 13.3549 17.332 12.666 17.332H7.33301C6.64407 17.332 6.08689 17.3317 5.63672 17.2949C5.23627 17.2622 4.87521 17.1979 4.53906 17.0537L4.39648 16.9863C3.8754 16.7208 3.43882 16.3171 3.13477 15.8213L3.0127 15.6035C2.82089 15.227 2.74153 14.821 2.7041 14.3633C2.66732 13.9131 2.66797 13.3559 2.66797 12.667V7.25C2.66797 7.22312 2.67268 7.19694 2.67578 7.1709C2.4096 6.79197 2.25195 6.33115 2.25195 5.83301V5C2.25212 3.7124 3.29634 2.66797 4.58398 2.66797H15.417ZM16.001 8.08789C15.8141 8.13621 15.619 8.16501 15.417 8.16504H4.58398C4.38146 8.16504 4.18541 8.13644 3.99805 8.08789V12.667C3.99805 13.3778 3.99895 13.8714 4.03027 14.2549C4.06097 14.6303 4.11779 14.8421 4.19824 15L4.26855 15.126C4.44482 15.4134 4.69792 15.6478 5 15.8018L5.12988 15.8574C5.27361 15.9089 5.4633 15.9467 5.74512 15.9697C6.12858 16.0011 6.62215 16.002 7.33301 16.002H12.666C13.3767 16.002 13.8705 16.001 14.2539 15.9697C14.6292 15.9391 14.8411 15.8821 14.999 15.8018L15.126 15.7305C15.4132 15.5542 15.6479 15.3019 15.8018 15L15.8574 14.8691C15.9088 14.7255 15.9467 14.5363 15.9697 14.2549C16.0011 13.8714 16.001 13.3779 16.001 12.667V8.08789ZM4.58398 3.99805C4.03088 3.99805 3.5822 4.44693 3.58203 5V5.83301C3.58203 6.38621 4.03078 6.83496 4.58398 6.83496H15.417C15.97 6.83478 16.4189 6.3861 16.4189 5.83301V5C16.4188 4.44705 15.9699 3.99823 15.417 3.99805H4.58398Z`,
+              fill: `currentColor`,
+            }),
+          ],
+        })));
+  }),
+  ln,
+  un,
+  dn = e(() => {
+    ((ln = `_statusPillProgress_1a6wl_1`), (un = { statusPillProgress: ln }));
+  });
+function fn(e) {
+  let t = (0, En.c)(199),
+    {
+      title: n,
+      titleSuffix: r,
+      hoverCardContent: i,
+      chips: a,
+      statusPill: o,
+      iconBadges: s,
+      floatStatusIconsRight: c,
+      metaContent: u,
+      overlayMetaContent: d,
+      metaState: f,
+      hideInlineBadgesOnHover: p,
+      isActive: m,
+      onClick: h,
+      onDoubleClick: g,
+      onArchive: _,
+      archiveAriaLabel: v,
+      archiveConfirmLabel: y,
+      statusState: b,
+      statusIndicatorReplacesMeta: x,
+      hideStatusIndicator: S,
+      useStableTrailingRail: C,
+      envType: w,
+      envTooltip: ee,
+      disableEnvTooltip: T,
+      pulseEnvIcon: te,
+      envIconLocation: ne,
+      disabled: re,
+      allowActionsWhenDisabled: ie,
+      blurOnClick: ae,
+      idleIndicatorNode: E,
+      idleStatusIndicatorNode: oe,
+      indicatorRestNode: se,
+      indicatorHoverNode: ce,
+      reserveLeadingSlot: le,
+      additionalHoverActionCount: ue,
+      priorityIndicatorNode: de,
+      onContextMenu: D,
+      renderActions: O,
+      onHoverCardOpenChange: fe,
+      hoverCardSide: pe,
+      hoverCardAlign: me,
+      hoverCardSideOffset: he,
+      hoverCardAlignOffset: _e,
+      metaHidden: k,
+      variant: A,
+      hostId: j,
+      dataAttributes: ve,
+    } = e,
+    M;
+  t[0] === a ? (M = t[1]) : ((M = a === void 0 ? [] : a), (t[0] = a), (t[1] = M));
+  let ye = M,
+    N;
+  t[2] === s ? (N = t[3]) : ((N = s === void 0 ? [] : s), (t[2] = s), (t[3] = N));
+  let be = N,
+    P = c === void 0 ? !1 : c,
+    F = f === void 0 ? `default` : f,
+    Se = p === void 0 ? !1 : p,
+    Ce = m === void 0 ? !1 : m,
+    I = x === void 0 ? !1 : x,
+    we = S === void 0 ? !1 : S,
+    L = C === void 0 ? !1 : C,
+    Te = ne === void 0 ? `end` : ne,
+    R = re === void 0 ? !1 : re,
+    Ee = ie === void 0 ? !1 : ie,
+    De = ae === void 0 ? !1 : ae,
+    Oe = le === void 0 ? !1 : le,
+    ke = ue === void 0 ? 0 : ue,
+    Ae = pe === void 0 ? `right` : pe,
+    je = me === void 0 ? `start` : me,
+    Me = he === void 0 ? 2 : he,
+    Ne = _e === void 0 ? 0 : _e,
+    Pe = k === void 0 ? !1 : k,
+    Fe = A === void 0 ? `default` : A,
+    { type: z, unread: B } = b,
+    Le = B === void 0 ? !1 : B,
+    [V, H] = (0, Dn.useState)(!1),
+    Re;
+  t[4] !== P || t[5] !== be
+    ? ((Re = P ? [] : be), (t[4] = P), (t[5] = be), (t[6] = Re))
+    : (Re = t[6]);
+  let U = Re,
+    ze;
+  t[7] !== P || t[8] !== be
+    ? ((ze = P ? be : []), (t[7] = P), (t[8] = be), (t[9] = ze))
+    : (ze = t[9]);
+  let W = ze,
+    G = P ? E : null,
+    Be = R ? null : (_ ?? null),
+    Ve;
+  t[10] === Be
+    ? (Ve = t[11])
+    : ((Ve = Be == null ? null : () => H(!0)), (t[10] = Be), (t[11] = Ve));
+  let He = Ve,
+    Ue = Be != null,
+    K = d != null,
+    q = V && Ue,
+    We = !q,
+    Ge = ke + (Ue ? 1 : 0),
+    J =
+      O == null
+        ? `group-focus-within:hidden group-hover:hidden`
+        : `group-hover:hidden group-has-[:focus-visible]:hidden`,
+    Ke = o != null || (I && (z === `loading` || Le)),
+    qe = (P ? null : E) ?? se,
+    Je;
+  t[12] !== de || t[13] !== q || t[14] !== Ke || t[15] !== z
+    ? ((Je =
+        z === `error` && !q && de == null && !Ke
+          ? (0, $.jsx)(`div`, {
+              className: `relative flex size-5 shrink-0 items-center justify-center text-token-description-foreground`,
+              children: (0, $.jsx)(ge, {
+                className: `icon-xs shrink-0 text-token-error-foreground`,
+              }),
+            })
+          : null),
+      (t[12] = de),
+      (t[13] = q),
+      (t[14] = Ke),
+      (t[15] = z),
+      (t[16] = Je))
+    : (Je = t[16]);
+  let Ye = Je,
+    Xe = null;
+  if (We && (!Ke || (L && !K)) && (!V || O != null) && u != null) {
+    let e = L && !K && `shrink-0`,
+      n;
+    t[17] !== J || t[18] !== e
+      ? ((n = l(J, e)), (t[17] = J), (t[18] = e), (t[19] = n))
+      : (n = t[19]);
+    let r;
+    (t[20] !== u || t[21] !== F || t[22] !== n
+      ? ((r = (0, $.jsx)(Cn, { className: n, content: u, metaState: F })),
+        (t[20] = u),
+        (t[21] = F),
+        (t[22] = n),
+        (t[23] = r))
+      : (r = t[23]),
+      (Xe = r));
+  }
+  let Ze = de ?? (P ? null : Ye) ?? qe,
+    Qe = Oe || Ze != null || ce != null,
+    $e = Ze,
+    et = de != null || (!P && Ye != null) ? null : ce,
+    tt = z !== `loading` && !Le,
+    nt;
+  t[24] !== v || t[25] !== V || t[26] !== He || t[27] !== L
+    ? ((nt =
+        He != null && !V
+          ? (0, $.jsx)(Tn, { archiveAriaLabel: v, onArchive: He, useStableTrailingRail: L })
+          : null),
+      (t[24] = v),
+      (t[25] = V),
+      (t[26] = He),
+      (t[27] = L),
+      (t[28] = nt))
+    : (nt = t[28]);
+  let rt = nt,
+    it;
+  t[29] !== R || t[30] !== Qe || t[31] !== et || t[32] !== $e || t[33] !== tt
+    ? ((it = Qe
+        ? (0, $.jsx)(`div`, {
+            className: l(`w-4`, R && `pointer-events-none`),
+            children: (0, $.jsxs)(`div`, {
+              className: `relative flex items-center justify-center`,
+              children: [
+                $e
+                  ? (0, $.jsx)(`span`, {
+                      className: l(
+                        `flex items-center justify-center`,
+                        et &&
+                          (tt
+                            ? `group-focus-within:opacity-0 group-hover:opacity-0`
+                            : `group-hover:opacity-0`),
+                      ),
+                      children: $e,
+                    })
+                  : null,
+                et
+                  ? (0, $.jsx)(`span`, {
+                      className: l(
+                        `flex items-center justify-center opacity-0 pointer-events-none`,
+                        tt
+                          ? `group-focus-within:opacity-100 group-hover:opacity-100 group-focus-within:pointer-events-auto group-hover:pointer-events-auto`
+                          : `group-hover:opacity-100 group-hover:pointer-events-auto`,
+                        $e ? `absolute inset-0` : `relative`,
+                      ),
+                      children: et,
+                    })
+                  : null,
+              ],
+            }),
+          })
+        : null),
+      (t[29] = R),
+      (t[30] = Qe),
+      (t[31] = et),
+      (t[32] = $e),
+      (t[33] = tt),
+      (t[34] = it))
+    : (it = t[34]);
+  let Y = it,
+    at;
+  t[35] !== R ||
+  t[36] !== we ||
+  t[37] !== oe ||
+  t[38] !== q ||
+  t[39] !== o ||
+  t[40] !== b ||
+  t[41] !== z ||
+  t[42] !== Le
+    ? ((at = q
+        ? null
+        : o == null
+          ? !we && (z === `loading` || Le)
+            ? (0, $.jsx)(yt, { statusState: b })
+            : !we && z === `idle`
+              ? oe
+              : null
+          : (0, $.jsx)(_n, { ...o, onClick: R ? void 0 : o.onClick }, o.progress?.deadlineMs)),
+      (t[35] = R),
+      (t[36] = we),
+      (t[37] = oe),
+      (t[38] = q),
+      (t[39] = o),
+      (t[40] = b),
+      (t[41] = z),
+      (t[42] = Le),
+      (t[43] = at))
+    : (at = t[43]);
+  let ot = at,
+    st;
+  t[44] !== Ee ||
+  t[45] !== Be ||
+  t[46] !== rt ||
+  t[47] !== R ||
+  t[48] !== K ||
+  t[49] !== O ||
+  t[50] !== q ||
+  t[51] !== He ||
+  t[52] !== o?.onClick
+    ? ((st =
+        (R && !Ee) || K || q || (o?.onClick != null && !R)
+          ? null
+          : O
+            ? O({ archive: Be, requestArchive: He })
+            : rt),
+      (t[44] = Ee),
+      (t[45] = Be),
+      (t[46] = rt),
+      (t[47] = R),
+      (t[48] = K),
+      (t[49] = O),
+      (t[50] = q),
+      (t[51] = He),
+      (t[52] = o?.onClick),
+      (t[53] = st))
+    : (st = t[53]);
+  let ct = st,
+    lt = P && o == null,
+    ut;
+  t[54] !== ct ||
+  t[55] !== lt ||
+  t[56] !== K ||
+  t[57] !== Xe ||
+  t[58] !== J ||
+  t[59] !== ot ||
+  t[60] !== o ||
+  t[61] !== Ke ||
+  t[62] !== L
+    ? ((ut =
+        ot != null && !lt
+          ? (0, $.jsx)(`span`, {
+              "data-hover-card-open-immediately": !0,
+              className: l(
+                `flex shrink-0 items-center justify-center`,
+                o == null ? `size-5 -mr-1` : `-mr-0.5`,
+                L && Ke && Xe != null && `absolute right-0`,
+                K && `invisible`,
+                ct != null && J,
+              ),
+              children: ot,
+            })
+          : null),
+      (t[54] = ct),
+      (t[55] = lt),
+      (t[56] = K),
+      (t[57] = Xe),
+      (t[58] = J),
+      (t[59] = ot),
+      (t[60] = o),
+      (t[61] = Ke),
+      (t[62] = L),
+      (t[63] = ut))
+    : (ut = t[63]);
+  let dt = ut,
+    ft;
+  t[64] !== T || t[65] !== ee || t[66] !== w || t[67] !== j || t[68] !== te
+    ? ((ft =
+        w === `worktree` || w === `cloud` || w === `remote` || w === `remote-worktree`
+          ? (0, $.jsx)(Ut, {
+              className: te ? `animate-pulse` : void 0,
+              disableTooltip: T,
+              envTooltip: ee,
+              envType: w,
+              hostId: j,
+            })
+          : null),
+      (t[64] = T),
+      (t[65] = ee),
+      (t[66] = w),
+      (t[67] = j),
+      (t[68] = te),
+      (t[69] = ft))
+    : (ft = t[69]);
+  let X = ft,
+    pt;
+  t[70] === Symbol.for(`react.memo_cache_sentinel`) ? ((pt = []), (t[70] = pt)) : (pt = t[70]);
+  let mt = pt;
+  if (P && Te === `end`) {
+    if (w === `remote-worktree`) {
+      let e = te ? `animate-pulse` : void 0,
+        n;
+      t[71] !== T || t[72] !== j || t[73] !== e
+        ? ((n = (0, $.jsx)(
+            Ut,
+            { className: e, disableTooltip: T, envType: `remote`, hostId: j },
+            `remote`,
+          )),
+          (t[71] = T),
+          (t[72] = j),
+          (t[73] = e),
+          (t[74] = n))
+        : (n = t[74]);
+      let r = te ? `animate-pulse` : void 0,
+        i;
+      t[75] !== T || t[76] !== r
+        ? ((i = (0, $.jsx)(
+            Ut,
+            { className: r, disableTooltip: T, envType: `worktree` },
+            `worktree`,
+          )),
+          (t[75] = T),
+          (t[76] = r),
+          (t[77] = i))
+        : (i = t[77]);
+      let a;
+      (t[78] !== n || t[79] !== i
+        ? ((a = [n, i]), (t[78] = n), (t[79] = i), (t[80] = a))
+        : (a = t[80]),
+        (mt = a));
+    } else if (X != null) {
+      let e;
+      (t[81] === X ? (e = t[82]) : ((e = [X]), (t[81] = X), (t[82] = e)), (mt = e));
+    }
+  }
+  let ht = P ? Ye : null,
+    gt = P && o == null ? ot : null,
+    _t;
+  t[83] !== ht || t[84] !== W || t[85] !== G || t[86] !== gt
+    ? ((_t = [...W, ht, G, gt].filter(mn)),
+      (t[83] = ht),
+      (t[84] = W),
+      (t[85] = G),
+      (t[86] = gt),
+      (t[87] = _t))
+    : (_t = t[87]);
+  let vt = _t.length + mt.length,
+    bt = vt === 0 ? 0 : vt * Mn + (vt - 1) * Nn + Pn,
+    xt;
+  t[88] !== ct ||
+  t[89] !== R ||
+  t[90] !== K ||
+  t[91] !== q ||
+  t[92] !== mt ||
+  t[93] !== ht ||
+  t[94] !== W ||
+  t[95] !== G ||
+  t[96] !== vt ||
+  t[97] !== gt ||
+  t[98] !== J
+    ? ((xt =
+        !q && vt > 0
+          ? (0, $.jsx)(vn, {
+              iconBadges: W,
+              leadingIconNodes: mt,
+              trailingIconNodes: [ht, G, gt],
+              disabled: R,
+              className: l(jn, K && `invisible`, ct != null && J),
+            })
+          : null),
+      (t[88] = ct),
+      (t[89] = R),
+      (t[90] = K),
+      (t[91] = q),
+      (t[92] = mt),
+      (t[93] = ht),
+      (t[94] = W),
+      (t[95] = G),
+      (t[96] = vt),
+      (t[97] = gt),
+      (t[98] = J),
+      (t[99] = xt))
+    : (xt = t[99]);
+  let St = xt,
+    Ct = We && (K || Xe || (!lt && ot) || q),
+    wt;
+  ct != null &&
+    (O != null || !L || !Ct) &&
+    (Ge >= 3
+      ? (wt =
+          O == null
+            ? `group-focus-within:min-w-20 group-hover:min-w-20`
+            : `group-hover:min-w-20 group-has-[:focus-visible]:min-w-20`)
+      : Ge === 2
+        ? (wt =
+            O == null
+              ? `group-focus-within:min-w-12 group-hover:min-w-12`
+              : `group-hover:min-w-12 group-has-[:focus-visible]:min-w-12`)
+        : Ge === 1 &&
+          (wt =
+            O == null
+              ? `group-focus-within:min-w-5 group-hover:min-w-5`
+              : `group-hover:min-w-5 group-has-[:focus-visible]:min-w-5`));
+  let Tt;
+  t[100] !== V || t[101] !== R || t[102] !== h
+    ? ((Tt = (e) => {
+        R ||
+          V ||
+          e.defaultPrevented ||
+          (e.currentTarget === e.target &&
+            (e.key === `Enter` || e.key === ` `) &&
+            (e.preventDefault(), xe(), h()));
+      }),
+      (t[100] = V),
+      (t[101] = R),
+      (t[102] = h),
+      (t[103] = Tt))
+    : (Tt = t[103]);
+  let Et = Tt,
+    Dt;
+  t[104] !== De || t[105] !== V || t[106] !== R || t[107] !== h
+    ? ((Dt = (e) => {
+        if (!R) {
+          if (V) {
+            (e.preventDefault(), e.stopPropagation());
+            return;
+          }
+          e.defaultPrevented || (xe(), h(), De && e.currentTarget.blur());
+        }
+      }),
+      (t[104] = De),
+      (t[105] = V),
+      (t[106] = R),
+      (t[107] = h),
+      (t[108] = Dt))
+    : (Dt = t[108]);
+  let Ot = Dt,
+    kt;
+  t[109] !== V || t[110] !== R || t[111] !== g
+    ? ((kt = (e) => {
+        if (!R) {
+          if (V) {
+            (e.preventDefault(), e.stopPropagation());
+            return;
+          }
+          e.defaultPrevented || g?.(e);
+        }
+      }),
+      (t[109] = V),
+      (t[110] = R),
+      (t[111] = g),
+      (t[112] = kt))
+    : (kt = t[112]);
+  let At = kt,
+    jt = P
+      ? `pr-1 pl-[var(--padding-row-cell-x,var(--padding-row-x))]`
+      : `px-[var(--padding-row-cell-x,var(--padding-row-x))]`,
+    Mt = R && `opacity-60`,
+    Nt = Ce && `bg-token-list-hover-background`,
+    Pt = Fe === `tableRow` && `!h-9 bg-transparent !px-0 !py-0 hover:bg-transparent`,
+    Ft;
+  t[113] !== jt || t[114] !== Mt || t[115] !== Nt || t[116] !== Pt
+    ? ((Ft = l(
+        `group relative h-[var(--height-token-row)] cursor-interaction rounded-[var(--radius-token-row)] py-row-y text-sm hover:bg-token-list-hover-background focus-visible:outline-offset-[-2px]`,
+        jt,
+        Mt,
+        Nt,
+        Pt,
+      )),
+      (t[113] = jt),
+      (t[114] = Mt),
+      (t[115] = Nt),
+      (t[116] = Pt),
+      (t[117] = Ft))
+    : (Ft = t[117]);
+  let It = Ft,
+    Lt = i != null && i !== !1 && i !== ``,
+    Rt = typeof n == `string` || typeof n == `number` ? String(n) : void 0,
+    Z = r == null && `flex-1`,
+    zt;
+  t[118] === Z
+    ? (zt = t[119])
+    : ((zt = l(`min-w-0 truncate select-none`, Z)), (t[118] = Z), (t[119] = zt));
+  let Bt;
+  t[120] !== Rt || t[121] !== zt || t[122] !== n
+    ? ((Bt = (0, $.jsx)(
+        `span`,
+        { className: zt, "data-thread-title": !0, draggable: !1, children: n },
+        Rt,
+      )),
+      (t[120] = Rt),
+      (t[121] = zt),
+      (t[122] = n),
+      (t[123] = Bt))
+    : (Bt = t[123]);
+  let Vt = Bt,
+    Ht = R ? void 0 : D,
+    Wt;
+  t[124] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((Wt = () => {
+        H(!1);
+      }),
+      (t[124] = Wt))
+    : (Wt = t[124]);
+  let Gt = R ? -1 : 0,
+    Kt = R || void 0,
+    qt = Ce ? `page` : void 0,
+    Jt;
+  t[125] === ct
+    ? (Jt = t[126])
+    : ((Jt =
+        ct == null
+          ? null
+          : (0, $.jsx)(`div`, {
+              className: `contents`,
+              "data-hover-card-open-immediately": !0,
+              children: ct,
+            })),
+      (t[125] = ct),
+      (t[126] = Jt));
+  let Yt = Y != null && `ml-1.5`,
+    Xt;
+  t[127] === Yt
+    ? (Xt = t[128])
+    : ((Xt = l(`flex min-w-0 flex-1 items-center gap-2 pl-0.5`, Yt)), (t[127] = Yt), (t[128] = Xt));
+  let Zt = Te === `start` && X,
+    Qt = Ce ? `text-[var(--vscode-foreground)]` : `text-token-foreground`,
+    $t = Fe === `tableRow` && `-ml-0.5 h-9 items-center self-center leading-9`,
+    en;
+  t[129] !== Qt || t[130] !== $t
+    ? ((en = l(`flex min-w-0 flex-1 self-stretch items-center gap-2 text-base leading-5`, Qt, $t)),
+      (t[129] = Qt),
+      (t[130] = $t),
+      (t[131] = en))
+    : (en = t[131]);
+  let tn = Te === `middle` && X,
+    nn;
+  t[132] !== en || t[133] !== tn || t[134] !== Vt || t[135] !== r
+    ? ((nn = (0, $.jsxs)(`div`, {
+        className: en,
+        "data-thread-title-trigger": !0,
+        children: [Vt, r, tn],
+      })),
+      (t[132] = en),
+      (t[133] = tn),
+      (t[134] = Vt),
+      (t[135] = r),
+      (t[136] = nn))
+    : (nn = t[136]);
+  let rn = Te === `end` && !P && !q ? X : null,
+    Q = Se ? `group-hover:hidden` : void 0,
+    an;
+  t[137] !== ye || t[138] !== R || t[139] !== U || t[140] !== q || t[141] !== rn || t[142] !== Q
+    ? ((an = (0, $.jsx)(hn, {
+        chips: ye,
+        envIconNode: rn,
+        iconBadges: U,
+        hideInlineBadges: q,
+        disabled: R,
+        className: Q,
+      })),
+      (t[137] = ye),
+      (t[138] = R),
+      (t[139] = U),
+      (t[140] = q),
+      (t[141] = rn),
+      (t[142] = Q),
+      (t[143] = an))
+    : (an = t[143]);
+  let on;
+  t[144] !== Xt || t[145] !== Zt || t[146] !== nn || t[147] !== an
+    ? ((on = (0, $.jsxs)(`div`, { className: Xt, children: [Zt, nn, an] })),
+      (t[144] = Xt),
+      (t[145] = Zt),
+      (t[146] = nn),
+      (t[147] = an),
+      (t[148] = on))
+    : (on = t[148]);
+  let sn = L && `relative mr-[var(--task-row-trailing-inset)]`,
+    cn = Ct && `min-w-[26px]`,
+    ln;
+  t[149] !== wt || t[150] !== sn || t[151] !== cn
+    ? ((ln = l(`ml-[3px] flex items-center justify-end gap-1`, sn, cn, wt)),
+      (t[149] = wt),
+      (t[150] = sn),
+      (t[151] = cn),
+      (t[152] = ln))
+    : (ln = t[152]);
+  let un;
+  t[153] !== Be ||
+  t[154] !== y ||
+  t[155] !== K ||
+  t[156] !== Pe ||
+  t[157] !== Xe ||
+  t[158] !== d ||
+  t[159] !== q ||
+  t[160] !== dt ||
+  t[161] !== Ke ||
+  t[162] !== L
+    ? ((un = q
+        ? (0, $.jsx)(wn, {
+            label: y,
+            onConfirm: (e) => {
+              (e.stopPropagation(), H(!1), Be?.());
+            },
+          })
+        : (0, $.jsxs)($.Fragment, {
+            children: [
+              d,
+              Xe &&
+                (0, $.jsx)(`div`, {
+                  className: l(((L && Ke) || Pe || K) && `invisible`),
+                  children: Xe,
+                }),
+              dt,
+            ],
+          })),
+      (t[153] = Be),
+      (t[154] = y),
+      (t[155] = K),
+      (t[156] = Pe),
+      (t[157] = Xe),
+      (t[158] = d),
+      (t[159] = q),
+      (t[160] = dt),
+      (t[161] = Ke),
+      (t[162] = L),
+      (t[163] = un))
+    : (un = t[163]);
+  let dn;
+  t[164] !== ln || t[165] !== un
+    ? ((dn = (0, $.jsx)(`div`, { className: ln, children: un })),
+      (t[164] = ln),
+      (t[165] = un),
+      (t[166] = dn))
+    : (dn = t[166]);
+  let fn;
+  t[167] !== ct || t[168] !== bt || t[169] !== J
+    ? ((fn =
+        bt > 0
+          ? (0, $.jsx)(`div`, {
+              className: l(`shrink-0`, ct != null && J),
+              style: { width: `${bt}px` },
+            })
+          : null),
+      (t[167] = ct),
+      (t[168] = bt),
+      (t[169] = J),
+      (t[170] = fn))
+    : (fn = t[170]);
+  let gn;
+  t[171] !== Y || t[172] !== on || t[173] !== dn || t[174] !== fn
+    ? ((gn = (0, $.jsxs)(`div`, {
+        className: `flex h-full w-full items-center text-sm leading-4`,
+        children: [Y, on, dn, fn],
+      })),
+      (t[171] = Y),
+      (t[172] = on),
+      (t[173] = dn),
+      (t[174] = fn),
+      (t[175] = gn))
+    : (gn = t[175]);
+  let yn;
+  t[176] !== It ||
+  t[177] !== ve ||
+  t[178] !== Et ||
+  t[179] !== Ot ||
+  t[180] !== At ||
+  t[181] !== St ||
+  t[182] !== Ht ||
+  t[183] !== Gt ||
+  t[184] !== Kt ||
+  t[185] !== qt ||
+  t[186] !== Jt ||
+  t[187] !== gn
+    ? ((yn = (0, $.jsxs)(`div`, {
+        ...ve,
+        className: It,
+        onClick: Ot,
+        onDoubleClick: At,
+        onContextMenu: Ht,
+        onPointerLeave: Wt,
+        onKeyDown: Et,
+        role: `button`,
+        tabIndex: Gt,
+        "aria-disabled": Kt,
+        "aria-current": qt,
+        children: [Jt, St, gn],
+      })),
+      (t[176] = It),
+      (t[177] = ve),
+      (t[178] = Et),
+      (t[179] = Ot),
+      (t[180] = At),
+      (t[181] = St),
+      (t[182] = Ht),
+      (t[183] = Gt),
+      (t[184] = Kt),
+      (t[185] = qt),
+      (t[186] = Jt),
+      (t[187] = gn),
+      (t[188] = yn))
+    : (yn = t[188]);
+  let bn = yn;
+  if (!Lt) return bn;
+  let xn;
+  t[189] === fe
+    ? (xn = t[190])
+    : ((xn = (e) => {
+        fe?.(e);
+      }),
+      (t[189] = fe),
+      (t[190] = xn));
+  let Sn;
+  return (
+    t[191] !== je ||
+    t[192] !== Ne ||
+    t[193] !== i ||
+    t[194] !== Ae ||
+    t[195] !== Me ||
+    t[196] !== bn ||
+    t[197] !== xn
+      ? ((Sn = (0, $.jsx)(Ie, {
+          getDelayDuration: pn,
+          onOpenChange: xn,
+          side: Ae,
+          align: je,
+          alignOffset: Ne,
+          sideOffset: Me,
+          interactive: !0,
+          variant: `rich`,
+          tooltipContent: i,
+          children: bn,
+        })),
+        (t[191] = je),
+        (t[192] = Ne),
+        (t[193] = i),
+        (t[194] = Ae),
+        (t[195] = Me),
+        (t[196] = bn),
+        (t[197] = xn),
+        (t[198] = Sn))
+      : (Sn = t[198]),
+    Sn
+  );
+}
+function pn(e, t) {
+  return Sn(e.target) ? 0 : t;
+}
+function mn(e) {
+  return e != null;
+}
+function hn(e) {
+  let t = (0, En.c)(25),
+    { className: n, chips: r, envIconNode: i, iconBadges: a, hideInlineBadges: o, disabled: s } = e,
+    c;
+  t[0] === r ? (c = t[1]) : ((c = r === void 0 ? [] : r), (t[0] = r), (t[1] = c));
+  let u = c,
+    d;
+  t[2] === a ? (d = t[3]) : ((d = a === void 0 ? [] : a), (t[2] = a), (t[3] = d));
+  let f = d,
+    p = o === void 0 ? !1 : o,
+    m = s === void 0 ? !1 : s,
+    h;
+  t[4] === u ? (h = t[5]) : ((h = u.flatMap(gn)), (t[4] = u), (t[5] = h));
+  let g = h,
+    _;
+  if (t[6] !== m || t[7] !== f) {
+    let e;
+    (t[9] === m
+      ? (e = t[10])
+      : ((e = (e) => xn({ badge: e, disabled: m })), (t[9] = m), (t[10] = e)),
+      (_ = f.flatMap(e)),
+      (t[6] = m),
+      (t[7] = f),
+      (t[8] = _));
+  } else _ = t[8];
+  let v = _,
+    y;
+  t[11] !== g || t[12] !== p
+    ? ((y = p ? [] : g), (t[11] = g), (t[12] = p), (t[13] = y))
+    : (y = t[13]);
+  let b = y;
+  if (b.length === 0 && i == null && v.length === 0) return null;
+  let x;
+  t[14] === n
+    ? (x = t[15])
+    : ((x = l(`flex min-w-[24px] items-center justify-end gap-2`, n)), (t[14] = n), (t[15] = x));
+  let S;
+  t[16] === b
+    ? (S = t[17])
+    : ((S =
+        b.length > 0
+          ? (0, $.jsx)(`div`, { className: `flex items-center gap-1`, children: b })
+          : null),
+      (t[16] = b),
+      (t[17] = S));
+  let C;
+  t[18] !== i || t[19] !== v
+    ? ((C =
+        i != null || v.length > 0
+          ? (0, $.jsxs)(`div`, {
+              "data-hover-card-open-immediately": !0,
+              className: `flex items-center gap-1.5`,
+              children: [v, i],
+            })
+          : null),
+      (t[18] = i),
+      (t[19] = v),
+      (t[20] = C))
+    : (C = t[20]);
+  let w;
+  return (
+    t[21] !== x || t[22] !== S || t[23] !== C
+      ? ((w = (0, $.jsxs)(`div`, { className: x, children: [S, C] })),
+        (t[21] = x),
+        (t[22] = S),
+        (t[23] = C),
+        (t[24] = w))
+      : (w = t[24]),
+    w
+  );
+}
+function gn(e) {
+  let { id: t, label: n } = e;
+  return n == null
+    ? []
+    : [
+        (0, $.jsx)(
+          `span`,
+          {
+            className: `inline-flex max-w-[150px] items-center truncate rounded-full bg-token-charts-green/20 py-0.5 pr-2.5 pl-2 text-sm text-token-charts-green`,
+            children: n,
+          },
+          t,
+        ),
+      ];
+}
+function _n(e) {
+  let t = (0, En.c)(31),
+    { ariaLabel: n, label: r, hoverLabel: i, onClick: a, progress: o } = e,
+    s = a != null,
+    c;
+  t[0] === o?.nowMs
+    ? (c = t[1])
+    : ((c = () => o?.nowMs ?? Date.now()), (t[0] = o?.nowMs), (t[1] = c));
+  let [u] = (0, Dn.useState)(c),
+    d;
+  t[2] !== s || t[3] !== o || t[4] !== u
+    ? ((d =
+        o == null
+          ? null
+          : (0, $.jsx)(`span`, {
+              className: l(
+                `pointer-events-none absolute inset-0 bg-token-charts-blue/25`,
+                s &&
+                  `group-hover:bg-token-foreground/20 group-focus-visible/status-pill:bg-token-foreground/20`,
+                un.statusPillProgress,
+              ),
+              style: {
+                animationDelay: `${o.deadlineMs - u - o.durationMs}ms`,
+                animationDuration: `${o.durationMs}ms`,
+                animationPlayState: o.nowMs == null ? void 0 : `paused`,
+              },
+              "aria-hidden": !0,
+            })),
+      (t[2] = s),
+      (t[3] = o),
+      (t[4] = u),
+      (t[5] = d))
+    : (d = t[5]);
+  let f = s && `group-hover:invisible group-focus-visible/status-pill:invisible`,
+    p;
+  t[6] === f
+    ? (p = t[7])
+    : ((p = l(`relative col-start-1 row-start-1 min-w-0 truncate`, f)), (t[6] = f), (t[7] = p));
+  let m;
+  t[8] !== r || t[9] !== p
+    ? ((m = (0, $.jsx)(`span`, { className: p, children: r })), (t[8] = r), (t[9] = p), (t[10] = m))
+    : (m = t[10]);
+  let h;
+  t[11] !== i || t[12] !== s || t[13] !== r
+    ? ((h = s
+        ? (0, $.jsx)(`span`, {
+            className: `invisible relative col-start-1 row-start-1 min-w-0 truncate group-hover:visible group-focus-visible/status-pill:visible`,
+            children: i ?? r,
+          })
+        : null),
+      (t[11] = i),
+      (t[12] = s),
+      (t[13] = r),
+      (t[14] = h))
+    : (h = t[14]);
+  let g;
+  t[15] !== d || t[16] !== m || t[17] !== h
+    ? ((g = (0, $.jsxs)($.Fragment, { children: [d, m, h] })),
+      (t[15] = d),
+      (t[16] = m),
+      (t[17] = h),
+      (t[18] = g))
+    : (g = t[18]);
+  let _ = g,
+    v =
+      s &&
+      `group/status-pill cursor-interaction group-hover:bg-token-foreground/10 group-hover:text-token-foreground focus-visible:bg-token-foreground/10 focus-visible:text-token-foreground focus-visible:outline-token-focus-ring focus-visible:outline-2 focus-visible:outline-offset-2`,
+    y;
+  t[19] === v
+    ? (y = t[20])
+    : ((y = l(
+        `relative inline-grid max-w-[150px] shrink-0 items-center overflow-hidden rounded-full bg-token-charts-blue/15 py-0.5 pr-2.5 pl-2 text-sm text-token-charts-blue`,
+        v,
+      )),
+      (t[19] = v),
+      (t[20] = y));
+  let b = y;
+  if (!s) {
+    let e;
+    return (
+      t[21] !== b || t[22] !== _
+        ? ((e = (0, $.jsx)(`span`, { className: b, children: _ })),
+          (t[21] = b),
+          (t[22] = _),
+          (t[23] = e))
+        : (e = t[23]),
+      e
+    );
+  }
+  let x;
+  t[24] === a
+    ? (x = t[25])
+    : ((x = (e) => {
+        (e.stopPropagation(), a());
+      }),
+      (t[24] = a),
+      (t[25] = x));
+  let S;
+  return (
+    t[26] !== n || t[27] !== b || t[28] !== _ || t[29] !== x
+      ? ((S = (0, $.jsx)(`button`, {
+          className: b,
+          type: `button`,
+          "aria-label": n,
+          onClick: x,
+          children: _,
+        })),
+        (t[26] = n),
+        (t[27] = b),
+        (t[28] = _),
+        (t[29] = x),
+        (t[30] = S))
+      : (S = t[30]),
+    S
+  );
+}
+function vn(e) {
+  let t = (0, En.c)(22),
+    { className: n, disabled: r, iconBadges: i, leadingIconNodes: a, trailingIconNodes: o } = e,
+    s = r === void 0 ? !1 : r,
+    c,
+    u;
+  if (t[0] !== s || t[1] !== i || t[2] !== a || t[3] !== o) {
+    let e = i === void 0 ? [] : i,
+      n;
+    (t[6] === a ? (n = t[7]) : ((n = a === void 0 ? [] : a), (t[6] = a), (t[7] = n)), (c = n));
+    let r;
+    t[8] === s ? (r = t[9]) : ((r = (e) => xn({ badge: e, disabled: s })), (t[8] = s), (t[9] = r));
+    let l;
+    (t[10] === o ? (l = t[11]) : ((l = o ?? []), (t[10] = o), (t[11] = l)),
+      (u = [...e.flatMap(r), ...l].filter(bn)),
+      (t[0] = s),
+      (t[1] = i),
+      (t[2] = a),
+      (t[3] = o),
+      (t[4] = c),
+      (t[5] = u));
+  } else ((c = t[4]), (u = t[5]));
+  let d = u,
+    f;
+  t[12] !== c || t[13] !== d
+    ? ((f = [...c, ...d]), (t[12] = c), (t[13] = d), (t[14] = f))
+    : (f = t[14]);
+  let p = f;
+  if (p.length === 0) return null;
+  let m;
+  t[15] === n
+    ? (m = t[16])
+    : ((m = l(`flex shrink-0 items-center justify-end`, n)), (t[15] = n), (t[16] = m));
+  let h;
+  t[17] === p ? (h = t[18]) : ((h = p.map(yn)), (t[17] = p), (t[18] = h));
+  let g;
+  return (
+    t[19] !== m || t[20] !== h
+      ? ((g = (0, $.jsx)(`div`, {
+          "data-hover-card-open-immediately": !0,
+          className: m,
+          children: h,
+        })),
+        (t[19] = m),
+        (t[20] = h),
+        (t[21] = g))
+      : (g = t[21]),
+    g
+  );
+}
+function yn(e, t) {
+  return (0, $.jsx)(
+    `span`,
+    { className: `flex h-5 min-w-5 items-center justify-center`, children: e },
+    t,
+  );
+}
+function bn(e) {
+  return e != null;
+}
+function xn({ badge: e, disabled: t }) {
+  let { id: n, icon: r, ariaLabel: i, className: a, onClick: o, tooltipContent: s } = e;
+  if (!(0, Dn.isValidElement)(r)) return [];
+  let c = (0, Dn.cloneElement)(r, { className: l(On, r.props.className) }),
+    u =
+      o == null || t
+        ? (0, $.jsx)(
+            `span`,
+            {
+              className: l(`flex shrink-0 items-center text-token-description-foreground`, a),
+              children: c,
+            },
+            n,
+          )
+        : (0, $.jsx)(
+            `button`,
+            {
+              type: `button`,
+              className: l(
+                `focus-visible:outline-token-focus-ring flex shrink-0 items-center justify-center rounded-md text-token-description-foreground hover:text-token-foreground focus-visible:outline-2 focus-visible:outline-offset-2`,
+                a,
+              ),
+              "aria-label": i,
+              onClick: (e) => {
+                (e.stopPropagation(), o());
+              },
+              children: c,
+            },
+            n,
+          );
+  return s != null && s !== ``
+    ? [
+        (0, $.jsx)(
+          Ie,
+          {
+            tooltipContent: s,
+            children: (0, $.jsx)(`span`, {
+              className: l(`flex shrink-0 items-center`, a),
+              children: u,
+            }),
+          },
+          n,
+        ),
+      ]
+    : [u];
+}
+function Sn(e) {
+  return e instanceof Element && e.closest(Fn) != null;
+}
+function Cn(e) {
+  let t = (0, En.c)(6),
+    { className: n, content: r, metaState: i } = e;
+  if (r == null) return null;
+  let a = i === `loading` ? `loading-shimmer-pure-text min-w-[72px]` : `truncate`,
+    o;
+  t[0] !== n || t[1] !== a
+    ? ((o = l(
+        `text-token-description-foreground text-sm leading-4 empty:hidden tabular-nums overflow-visible`,
+        a,
+        `text-right`,
+        n,
+      )),
+      (t[0] = n),
+      (t[1] = a),
+      (t[2] = o))
+    : (o = t[2]);
+  let s;
+  return (
+    t[3] !== r || t[4] !== o
+      ? ((s = (0, $.jsx)(`div`, { className: o, children: r })), (t[3] = r), (t[4] = o), (t[5] = s))
+      : (s = t[5]),
+    s
+  );
+}
+function wn(e) {
+  let t = (0, En.c)(5),
+    { label: n, onConfirm: r } = e,
+    i;
+  t[0] === n
+    ? (i = t[1])
+    : ((i =
+        n ??
+        (0, $.jsx)(U, {
+          id: `codex.taskRowLayout.confirm`,
+          defaultMessage: `Confirm`,
+          description: `Confirmation button for archiving a task`,
+        })),
+      (t[0] = n),
+      (t[1] = i));
+  let a;
+  return (
+    t[2] !== r || t[3] !== i
+      ? ((a = (0, $.jsx)(p, {
+          size: `composerSm`,
+          color: `danger`,
+          className: `!h-auto !border-none !py-0`,
+          onClick: r,
+          children: i,
+        })),
+        (t[2] = r),
+        (t[3] = i),
+        (t[4] = a))
+      : (a = t[4]),
+    a
+  );
+}
+function Tn(e) {
+  let t = (0, En.c)(11),
+    { onArchive: n, archiveAriaLabel: r, useStableTrailingRail: i } = e,
+    a;
+  t[0] === i
+    ? (a = t[1])
+    : ((a = i ? { right: `var(--task-row-trailing-inset)` } : void 0), (t[0] = i), (t[1] = a));
+  let o;
+  t[2] === n
+    ? (o = t[3])
+    : ((o = (e) => {
+        (e.stopPropagation(), n());
+      }),
+      (t[2] = n),
+      (t[3] = o));
+  let s;
+  t[4] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((s = (0, $.jsx)(sn, { className: `icon-xs` })), (t[4] = s))
+    : (s = t[4]);
+  let c;
+  t[5] !== r || t[6] !== o
+    ? ((c = (0, $.jsx)(`button`, {
+        type: `button`,
+        className: `focus-visible:outline-token-focus-ring pointer-events-none flex h-5 w-5 items-center justify-center rounded-md opacity-0 group-focus-within:pointer-events-auto group-focus-within:opacity-100 group-hover:pointer-events-auto group-hover:opacity-50 hover:opacity-100 focus-visible:pointer-events-auto focus-visible:opacity-100 focus-visible:outline-2 focus-visible:outline-offset-2`,
+        onClick: o,
+        "aria-label": r,
+        children: s,
+      })),
+      (t[5] = r),
+      (t[6] = o),
+      (t[7] = c))
+    : (c = t[7]);
+  let l;
+  return (
+    t[8] !== a || t[9] !== c
+      ? ((l = (0, $.jsx)(`div`, { className: An, style: a, children: c })),
+        (t[8] = a),
+        (t[9] = c),
+        (t[10] = l))
+      : (l = t[10]),
+    l
+  );
+}
+var En,
+  Dn,
+  $,
+  On,
+  kn,
+  An,
+  jn,
+  Mn,
+  Nn,
+  Pn,
+  Fn,
+  In = e(() => {
+    ((En = B()),
+      O(),
+      (Dn = t(S(), 1)),
+      I(),
+      ne(),
+      Ce(),
+      k(),
+      cn(),
+      _e(),
+      Kt(),
+      Tt(),
+      dn(),
+      ($ = u()),
+      (On = `icon-2xs`),
+      (kn = `absolute right-0 top-0 z-10 flex h-full items-center justify-end gap-2 pr-0.5`),
+      (An = `${kn} mr-0.5 w-[52px]`),
+      (jn = `absolute right-0 top-0 z-10 flex h-full min-w-[52px] items-center justify-end gap-2 pr-1`),
+      (Mn = 20),
+      (Nn = 8),
+      (Pn = 4),
+      (Fn = `[data-hover-card-open-immediately]`));
+  });
+function Ln(e) {
+  let t = (0, Rn.c)(16),
+    { onActiveArchiveStart: n, onArchiveStart: r, onArchiveSuccess: i, onArchiveError: a } = e,
+    [o, s] = (0, zn.useState)(!1),
+    c = r != null || i != null || a != null,
+    l;
+  t[0] !== n || t[1] !== r || t[2] !== c
+    ? ((l = () => {
+        (c ? r?.() : s(!0), n?.());
+      }),
+      (t[0] = n),
+      (t[1] = r),
+      (t[2] = c),
+      (t[3] = l))
+    : (l = t[3]);
+  let u = l,
+    d;
+  t[4] === i
+    ? (d = t[5])
+    : ((d = () => {
+        i?.();
+      }),
+      (t[4] = i),
+      (t[5] = d));
+  let f = d,
+    p;
+  t[6] !== a || t[7] !== c
+    ? ((p = () => {
+        c ? a?.() : s(!1);
+      }),
+      (t[6] = a),
+      (t[7] = c),
+      (t[8] = p))
+    : (p = t[8]);
+  let m = p,
+    h = m,
+    g;
+  return (
+    t[9] !== o || t[10] !== u || t[11] !== h || t[12] !== f || t[13] !== m || t[14] !== c
+      ? ((g = {
+          archived: o,
+          usesExternalArchiveHandling: c,
+          beginArchive: u,
+          handleArchiveSuccess: f,
+          handleArchiveError: h,
+          restoreArchivedRow: m,
+        }),
+        (t[9] = o),
+        (t[10] = u),
+        (t[11] = h),
+        (t[12] = f),
+        (t[13] = m),
+        (t[14] = c),
+        (t[15] = g))
+      : (g = t[15]),
+    g
+  );
+}
+var Rn,
+  zn,
+  Bn = e(() => {
+    ((Rn = B()), (zn = t(S(), 1)));
+  });
+function Vn(e) {
+  let t = (0, Hn.c)(77),
+    {
+      task: n,
+      onClose: r,
+      onSelect: i,
+      isActive: a,
+      envIconLocation: o,
+      useStableTrailingRail: s,
+      statusIndicatorReplacesMeta: c,
+      hideStatusIndicator: l,
+      idleIndicatorNode: u,
+      indicatorRestNode: d,
+      indicatorHoverNode: f,
+      reserveLeadingSlot: p,
+      additionalHoverActionCount: m,
+      renderActions: h,
+      hideInlineBadgesOnHover: g,
+      metaHidden: v,
+      metaContent: y,
+      overlayMetaContent: b,
+      extraIconBadges: x,
+      floatStatusIconsRight: S,
+      hoverCardProjectLabel: C,
+      hoverCardProjectIcon: w,
+      hoverCardRepositoryLabel: T,
+      hoverCardSections: te,
+      contextMenuItems: ne,
+      variant: re,
+      onArchiveStart: E,
+      onArchiveSuccess: se,
+      onArchiveError: ce,
+      dataAttributes: le,
+    } = e,
+    ue = a === void 0 ? !1 : a,
+    de = o === void 0 ? `end` : o,
+    D = s === void 0 ? !1 : s,
+    O = c === void 0 ? !1 : c,
+    fe = l === void 0 ? !1 : l,
+    pe = p === void 0 ? !1 : p,
+    me = m === void 0 ? 0 : m,
+    he = g === void 0 ? !1 : g,
+    ge = v === void 0 ? !1 : v,
+    _e = S === void 0 ? !1 : S,
+    k = _(oe),
+    A = Oe(),
+    j = ie(),
+    ve = Ve(),
+    M,
+    ye,
+    N;
+  if (t[0] !== j || t[1] !== r || t[2] !== i || t[3] !== n) {
+    ye = () => {
+      (i?.(), r(), j(`/remote/${M}`));
+    };
+    let { id: e, title: a } = n;
+    ((N = a),
+      (M = e),
+      (t[0] = j),
+      (t[1] = r),
+      (t[2] = i),
+      (t[3] = n),
+      (t[4] = M),
+      (t[5] = ye),
+      (t[6] = N));
+  } else ((M = t[4]), (ye = t[5]), (N = t[6]));
+  let be = n.task_status_display?.latest_turn_status_display?.turn_status,
+    P = be === `in_progress` || be === `pending`,
+    xe = be === `failed`,
+    F = n.updated_at ?? n.created_at ?? null,
+    Se = F ? new Date(F * 1e3) : null,
+    Ce = P ? `loading` : xe ? `error` : `idle`,
+    I = y ?? (Se ? (0, Un.jsx)(rt, { dateString: Se.toISOString() }) : null),
+    L = Se ? `default` : P ? `loading` : `default`,
+    Te = !P && !!Se,
+    R;
+  t[7] !== ce || t[8] !== E || t[9] !== se
+    ? ((R = { onArchiveStart: E, onArchiveSuccess: se, onArchiveError: ce }),
+      (t[7] = ce),
+      (t[8] = E),
+      (t[9] = se),
+      (t[10] = R))
+    : (R = t[10]);
+  let {
+      archived: Ee,
+      usesExternalArchiveHandling: De,
+      beginArchive: ke,
+      handleArchiveSuccess: Ae,
+      handleArchiveError: je,
+      restoreArchivedRow: Me,
+    } = Ln(R),
+    Ne;
+  t[11] === M
+    ? (Ne = t[12])
+    : ((Ne = () =>
+        ae.safePost(`/wham/tasks/{task_id}/archive`, { parameters: { path: { task_id: M } } })),
+      (t[11] = M),
+      (t[12] = Ne));
+  let Pe;
+  t[13] !== Ae ||
+  t[14] !== M ||
+  t[15] !== A ||
+  t[16] !== j ||
+  t[17] !== ve ||
+  t[18] !== Me ||
+  t[19] !== k
+    ? ((Pe = () => {
+        Ae();
+        let e = k.get(ze).info(
+          (0, Un.jsx)(Et, {
+            onUndo: () => {
+              (e.close(),
+                ae
+                  .safePost(`/wham/tasks/{task_id}/recover`, {
+                    parameters: { path: { task_id: M } },
+                  })
+                  .then(() => {
+                    (Me(),
+                      ve.invalidateQueries({ queryKey: [`tasks`] }),
+                      ve.invalidateQueries({ queryKey: [`task`, M] }));
+                  })
+                  .catch(() => {
+                    k.get(ze).danger(
+                      A.formatMessage({
+                        id: `cloudTaskRow.unarchiveError`,
+                        defaultMessage: `Failed to unarchive task`,
+                        description: `Error message when undoing a cloud task archive`,
+                      }),
+                    );
+                  }));
+            },
+            onOpenSettings: () => {
+              j(`/settings/data-controls`);
+            },
+          }),
+          { id: `archive-task` },
+        );
+        (ve.invalidateQueries({ queryKey: [`tasks`] }),
+          ve.invalidateQueries({ queryKey: [`task`, M] }));
+      }),
+      (t[13] = Ae),
+      (t[14] = M),
+      (t[15] = A),
+      (t[16] = j),
+      (t[17] = ve),
+      (t[18] = Me),
+      (t[19] = k),
+      (t[20] = Pe))
+    : (Pe = t[20]);
+  let Fe;
+  t[21] !== je || t[22] !== A || t[23] !== k
+    ? ((Fe = () => {
+        (je(),
+          k
+            .get(ze)
+            .danger(
+              A.formatMessage({
+                id: `cloudTaskRow.archiveError`,
+                defaultMessage: `Failed to archive task`,
+                description: `Error message when archiving a Codex task`,
+              }),
+            ));
+      }),
+      (t[21] = je),
+      (t[22] = A),
+      (t[23] = k),
+      (t[24] = Fe))
+    : (Fe = t[24]);
+  let Ie;
+  t[25] !== Ne || t[26] !== Pe || t[27] !== Fe
+    ? ((Ie = { mutationFn: Ne, onSuccess: Pe, onError: Fe }),
+      (t[25] = Ne),
+      (t[26] = Pe),
+      (t[27] = Fe),
+      (t[28] = Ie))
+    : (Ie = t[28]);
+  let z = ee(Ie),
+    B;
+  t[29] !== z || t[30] !== ke
+    ? ((B = () => {
+        (ke(), z.mutate());
+      }),
+      (t[29] = z),
+      (t[30] = ke),
+      (t[31] = B))
+    : (B = t[31]);
+  let Le = B;
+  if (Ee && !De) return null;
+  let V;
+  t[32] === N
+    ? (V = t[33])
+    : ((V =
+        we(N ?? ``) ||
+        (0, Un.jsx)(U, {
+          id: `codex.taskRow.title`,
+          defaultMessage: `New chat`,
+          description: `Default title for a Codex thread that doesn't have a title`,
+        })),
+      (t[32] = N),
+      (t[33] = V));
+  let H = V,
+    Re =
+      C != null && C !== ``
+        ? (0, Un.jsx)(Xt, {
+            projectLabel: C,
+            projectIcon: w,
+            repositoryLabel: T,
+            sections: [
+              {
+                id: `environment`,
+                rows: [
+                  {
+                    id: `environment`,
+                    icon: (0, Un.jsx)(Ut, { envType: `cloud`, disableTooltip: !0 }),
+                    label: (0, Un.jsx)(Ht, { envType: `cloud` }),
+                  },
+                ],
+              },
+              ...(te ?? []),
+            ],
+            showUnreadDot: n.has_unread_turn,
+            timestampDateString: Se?.toISOString(),
+            threadTitle: H,
+          })
+        : null,
+    W;
+  t[34] !== Ce || t[35] !== n.has_unread_turn
+    ? ((W = { type: Ce, unread: n.has_unread_turn }),
+      (t[34] = Ce),
+      (t[35] = n.has_unread_turn),
+      (t[36] = W))
+    : (W = t[36]);
+  let G = (O || P) && y == null,
+    Be = Te ? Le : null,
+    He;
+  t[37] === A ? (He = t[38]) : ((He = A.formatMessage(Wn.archiveTask)), (t[37] = A), (t[38] = He));
+  let Ue;
+  t[39] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((Ue = (0, Un.jsx)(U, {
+        id: `codex.cloudTaskRow.confirmArchiveTask`,
+        defaultMessage: `Confirm`,
+        description: `Confirmation button for archiving a cloud task`,
+      })),
+      (t[39] = Ue))
+    : (Ue = t[39]);
+  let K = re === `tableRow` ? `bottom` : void 0,
+    q = re === `tableRow` ? `end` : void 0,
+    We = re === `tableRow` ? -36 : void 0,
+    Ge;
+  t[40] !== me ||
+  t[41] !== le ||
+  t[42] !== de ||
+  t[43] !== x ||
+  t[44] !== _e ||
+  t[45] !== he ||
+  t[46] !== fe ||
+  t[47] !== Re ||
+  t[48] !== u ||
+  t[49] !== f ||
+  t[50] !== d ||
+  t[51] !== ue ||
+  t[52] !== ge ||
+  t[53] !== L ||
+  t[54] !== ye ||
+  t[55] !== b ||
+  t[56] !== h ||
+  t[57] !== pe ||
+  t[58] !== W ||
+  t[59] !== G ||
+  t[60] !== Be ||
+  t[61] !== He ||
+  t[62] !== K ||
+  t[63] !== q ||
+  t[64] !== We ||
+  t[65] !== I ||
+  t[66] !== H ||
+  t[67] !== D ||
+  t[68] !== re
+    ? ((Ge = (0, Un.jsx)(fn, {
+        isActive: ue,
+        onClick: ye,
+        idleIndicatorNode: u,
+        indicatorRestNode: d,
+        indicatorHoverNode: f,
+        reserveLeadingSlot: pe,
+        additionalHoverActionCount: me,
+        variant: re,
+        statusState: W,
+        statusIndicatorReplacesMeta: G,
+        hideStatusIndicator: fe,
+        useStableTrailingRail: D,
+        envType: `cloud`,
+        envIconLocation: de,
+        title: H,
+        hoverCardContent: Re,
+        iconBadges: x,
+        floatStatusIconsRight: _e,
+        hideInlineBadgesOnHover: he,
+        metaHidden: ge,
+        metaContent: I,
+        overlayMetaContent: b,
+        metaState: L,
+        onArchive: Be,
+        archiveAriaLabel: He,
+        archiveConfirmLabel: Ue,
+        renderActions: h,
+        hoverCardSide: K,
+        hoverCardAlign: q,
+        hoverCardSideOffset: We,
+        dataAttributes: le,
+      })),
+      (t[40] = me),
+      (t[41] = le),
+      (t[42] = de),
+      (t[43] = x),
+      (t[44] = _e),
+      (t[45] = he),
+      (t[46] = fe),
+      (t[47] = Re),
+      (t[48] = u),
+      (t[49] = f),
+      (t[50] = d),
+      (t[51] = ue),
+      (t[52] = ge),
+      (t[53] = L),
+      (t[54] = ye),
+      (t[55] = b),
+      (t[56] = h),
+      (t[57] = pe),
+      (t[58] = W),
+      (t[59] = G),
+      (t[60] = Be),
+      (t[61] = He),
+      (t[62] = K),
+      (t[63] = q),
+      (t[64] = We),
+      (t[65] = I),
+      (t[66] = H),
+      (t[67] = D),
+      (t[68] = re),
+      (t[69] = Ge))
+    : (Ge = t[69]);
+  let J = Ge;
+  if (ne === void 0 || (ne.length === 0 && !Te)) return J;
+  let Ke;
+  t[70] !== Te || t[71] !== ne || t[72] !== Le
+    ? ((Ke = () => {
+        let e = [...ne];
+        return (Te && e.push({ id: `archive-task`, message: Wn.archiveTask, onSelect: Le }), e);
+      }),
+      (t[70] = Te),
+      (t[71] = ne),
+      (t[72] = Le),
+      (t[73] = Ke))
+    : (Ke = t[73]);
+  let qe = Ke,
+    Je;
+  return (
+    t[74] !== qe || t[75] !== J
+      ? ((Je = (0, Un.jsx)(Xe, { getItems: qe, children: J })),
+        (t[74] = qe),
+        (t[75] = J),
+        (t[76] = Je))
+      : (Je = t[76]),
+    Je
+  );
+}
+var Hn,
+  Un,
+  Wn,
+  Gn = e(() => {
+    ((Hn = B()),
+      s(),
+      a(),
+      I(),
+      Me(),
+      kt(),
+      Ze(),
+      Y(),
+      M(),
+      V(),
+      n(),
+      x(),
+      Kt(),
+      an(),
+      In(),
+      Bn(),
+      (Un = u()),
+      (Wn = Le({
+        archiveTask: {
+          id: `codex.cloudTaskRow.archiveTask`,
+          defaultMessage: `Archive task`,
+          description: `Label for archiving a cloud task`,
+        },
+      })));
+  });
+function Kn({ codexHome: e, worktreePath: t }) {
+  let n = qn(t, e);
+  return n == null ? d(t) : (n[Jn(n) - 1] ?? d(t));
+}
+function qn(e, t) {
+  let n = R(e).replace(/\/+$/, ``),
+    r = n.toLowerCase();
+  if (t != null) {
+    let e = R(P(t)).replace(/\/+$/, ``).toLowerCase();
+    if (r === e || r.startsWith(`${e}/`)) return n.slice(e.length).split(`/`).filter(Boolean);
+  }
+  let i = r.lastIndexOf(Yn);
+  return i === -1
+    ? null
+    : n
+        .slice(i + 17)
+        .split(`/`)
+        .filter(Boolean);
+}
+function Jn(e) {
+  return e.length >= 2 && /^[0-9a-f]{4,}$/i.test(e[0]) ? 2 : 1;
+}
+var Yn,
+  Xn = e(() => {
+    (j(), G(), (Yn = `.codex/worktrees/`));
+  });
+function Zn({
+  branchMismatchWarning: e,
+  branchName: t,
+  branchTooltipContent: n,
+  codexHome: r,
+  workspaceIcon: i,
+  workspacePath: a,
+}) {
+  let o = t?.trim() || null,
+    s = a != null && Fe(a, r) ? Kn({ codexHome: r, worktreePath: a }) : null,
+    c = [];
+  return (
+    o != null &&
+      c.push({
+        id: `branch`,
+        icon: (0, Qn.jsx)(Ee, {}),
+        label:
+          n == null
+            ? o
+            : (0, Qn.jsx)(Ie, {
+                tooltipContent: n,
+                children: (0, Qn.jsx)(`span`, { children: o }),
+              }),
+      }),
+    e != null &&
+      c.push({
+        allowWrap: !0,
+        id: `branch-mismatch`,
+        icon: (0, Qn.jsx)(X, { className: `text-token-editor-warning-foreground` }),
+        label: e,
+        tone: `danger`,
+      }),
+    s != null && c.push({ id: `worktree`, icon: i ?? (0, Qn.jsx)(q, {}), label: s }),
+    c.length > 0 ? c : void 0
+  );
+}
+var Qn,
+  $n = e(() => {
+    (j(), Ce(), c(), dt(), Je(), Xn(), (Qn = u()));
+  });
+function er(e) {
+  let t = (0, tr.c)(55),
+    {
+      task: n,
+      envIconLocation: r,
+      useStableTrailingRail: i,
+      statusIndicatorReplacesMeta: a,
+      hideStatusIndicator: o,
+      isActive: s,
+      hasAttention: c,
+      indicatorRestNode: l,
+      indicatorHoverNode: u,
+      reserveLeadingSlot: d,
+      additionalHoverActionCount: f,
+      renderActions: p,
+      variant: m,
+      hoverCardProjectLabel: h,
+      floatStatusIconsRight: g,
+      metaContent: _,
+      overlayMetaContent: v,
+      onClick: y,
+      onDoubleClick: b,
+      onArchive: x,
+      onContextMenu: S,
+      dataAttributes: C,
+    } = e,
+    w = r === void 0 ? `end` : r,
+    ee = i === void 0 ? !1 : i,
+    T = a === void 0 ? !1 : a,
+    ne = o === void 0 ? !1 : o,
+    re = s === void 0 ? !1 : s,
+    ae = c === void 0 ? !1 : c,
+    E = d === void 0 ? !1 : d,
+    oe = f === void 0 ? 0 : f,
+    se = g === void 0 ? !1 : g,
+    ce = Oe(),
+    le = ie(),
+    ue = te(n.hostId),
+    de = n.phase === `failed`,
+    D;
+  t[0] === n.phase ? (D = t[1]) : ((D = We(n.phase)), (t[0] = n.phase), (t[1] = D));
+  let O = D,
+    fe;
+  t[2] !== _ || t[3] !== n.createdAt
+    ? ((fe = _ ?? (0, nr.jsx)(rt, { dateString: new Date(n.createdAt).toISOString() })),
+      (t[2] = _),
+      (t[3] = n.createdAt),
+      (t[4] = fe))
+    : (fe = t[4]);
+  let pe = fe,
+    me;
+  t[5] !== ae || t[6] !== de || t[7] !== O
+    ? ((me = O
+        ? { type: `loading`, unread: ae }
+        : de
+          ? { type: `error`, unread: ae }
+          : { type: `idle`, unread: ae }),
+      (t[5] = ae),
+      (t[6] = de),
+      (t[7] = O),
+      (t[8] = me))
+    : (me = t[8]);
+  let he = me,
+    ge = n.startingState.type === `branch` ? n.startingState.branchName : null,
+    _e = n.worktreeGitRoot ?? n.worktreeWorkspaceRoot,
+    k;
+  t[9] !== ue || t[10] !== ge || t[11] !== _e
+    ? ((k = Zn({ branchName: ge, codexHome: ue, workspacePath: _e })),
+      (t[9] = ue),
+      (t[10] = ge),
+      (t[11] = _e),
+      (t[12] = k))
+    : (k = t[12]);
+  let A = k,
+    j;
+  t[13] !== de || t[14] !== n.label
+    ? ((j = de
+        ? (0, nr.jsx)(U, {
+            id: `recentTasks.worktreeInitFailedTitle`,
+            defaultMessage: `Worktree init failed`,
+            description: `Worktree row title when the init script fails`,
+          })
+        : we(n.label)),
+      (t[13] = de),
+      (t[14] = n.label),
+      (t[15] = j))
+    : (j = t[15]);
+  let ve = j,
+    M;
+  t[16] !== A || t[17] !== h || t[18] !== ve
+    ? ((M =
+        h != null && h !== ``
+          ? (0, nr.jsx)(Xt, {
+              projectLabel: h,
+              sections: [{ id: `environment`, rows: A ?? [] }],
+              threadTitle: ve,
+            })
+          : null),
+      (t[16] = A),
+      (t[17] = h),
+      (t[18] = ve),
+      (t[19] = M))
+    : (M = t[19]);
+  let ye = M,
+    N;
+  t[20] !== le || t[21] !== y || t[22] !== n.id
+    ? ((N = () => {
+        if (y) {
+          y();
+          return;
+        }
+        le(`/worktree-init-v2/${n.id}`);
+      }),
+      (t[20] = le),
+      (t[21] = y),
+      (t[22] = n.id),
+      (t[23] = N))
+    : (N = t[23]);
+  let be = N,
+    P = T && _ == null,
+    xe;
+  t[24] !== ce || t[25] !== x
+    ? ((xe = x ? ce.formatMessage(Ye.archiveThread) : void 0),
+      (t[24] = ce),
+      (t[25] = x),
+      (t[26] = xe))
+    : (xe = t[26]);
+  let F;
+  t[27] === x
+    ? (F = t[28])
+    : ((F = x
+        ? (0, nr.jsx)(U, {
+            id: `codex.localTaskRow.confirmArchiveTask`,
+            defaultMessage: `Confirm`,
+            description: `Confirmation button for archiving a local task`,
+          })
+        : void 0),
+      (t[27] = x),
+      (t[28] = F));
+  let Se;
+  return (
+    t[29] !== oe ||
+    t[30] !== C ||
+    t[31] !== w ||
+    t[32] !== se ||
+    t[33] !== be ||
+    t[34] !== ne ||
+    t[35] !== ye ||
+    t[36] !== u ||
+    t[37] !== l ||
+    t[38] !== re ||
+    t[39] !== O ||
+    t[40] !== x ||
+    t[41] !== S ||
+    t[42] !== b ||
+    t[43] !== v ||
+    t[44] !== p ||
+    t[45] !== E ||
+    t[46] !== he ||
+    t[47] !== P ||
+    t[48] !== xe ||
+    t[49] !== F ||
+    t[50] !== pe ||
+    t[51] !== ve ||
+    t[52] !== ee ||
+    t[53] !== m
+      ? ((Se = (0, nr.jsx)(fn, {
+          isActive: re,
+          title: ve,
+          hoverCardContent: ye,
+          metaContent: pe,
+          overlayMetaContent: v,
+          envType: `worktree`,
+          envIconLocation: w,
+          floatStatusIconsRight: se,
+          pulseEnvIcon: O,
+          statusIndicatorReplacesMeta: P,
+          hideStatusIndicator: ne,
+          useStableTrailingRail: ee,
+          indicatorRestNode: l,
+          indicatorHoverNode: u,
+          reserveLeadingSlot: E,
+          additionalHoverActionCount: oe,
+          variant: m,
+          renderActions: p,
+          statusState: he,
+          onArchive: x,
+          archiveAriaLabel: xe,
+          archiveConfirmLabel: F,
+          onClick: be,
+          onDoubleClick: b,
+          onContextMenu: S,
+          dataAttributes: C,
+        })),
+        (t[29] = oe),
+        (t[30] = C),
+        (t[31] = w),
+        (t[32] = se),
+        (t[33] = be),
+        (t[34] = ne),
+        (t[35] = ye),
+        (t[36] = u),
+        (t[37] = l),
+        (t[38] = re),
+        (t[39] = O),
+        (t[40] = x),
+        (t[41] = S),
+        (t[42] = b),
+        (t[43] = v),
+        (t[44] = p),
+        (t[45] = E),
+        (t[46] = he),
+        (t[47] = P),
+        (t[48] = xe),
+        (t[49] = F),
+        (t[50] = pe),
+        (t[51] = ve),
+        (t[52] = ee),
+        (t[53] = m),
+        (t[54] = Se))
+      : (Se = t[54]),
+    Se
+  );
+}
+var tr,
+  nr,
+  rr = e(() => {
+    ((tr = B()), I(), Me(), Y(), T(), V(), qe(), Ke(), an(), In(), $n(), (nr = u()));
+  });
+function ir(e) {
+  let t = (0, ar.c)(3),
+    { data: n } = w(he.PROJECT_APPEARANCES),
+    r;
+  return (
+    t[0] !== n || t[1] !== e
+      ? ((r = ue(n)[e] ?? null), (t[0] = n), (t[1] = e), (t[2] = r))
+      : (r = t[2]),
+    r
+  );
+}
+var ar,
+  or = e(() => {
+    ((ar = B()), j(), y());
+  }),
+  sr,
+  cr = e(() => {
+    sr = 6e4;
+  });
+function lr({ codexHome: e, cwd: t, hideRemoteHostEnvIcon: n, hostId: r, isGrouped: i }) {
+  let a = !n && r != null && r !== `local`,
+    o = Fe(t, e);
+  return a ? (o ? `remote-worktree` : `remote`) : o ? `worktree` : i ? `localGrouped` : void 0;
+}
+var ur = e(() => {
+  (j(), D());
+});
+function dr(e) {
+  let t = (0, pr.c)(48),
+    {
+      conversationId: n,
+      displayCwd: r,
+      hasAttachedHeartbeatAutomation: i,
+      heartbeatAutomationTooltipContent: a,
+      hideProjectMetadata: o,
+      hideRemoteHostEnvIcon: s,
+      hoverCardSections: c,
+      hoverCardHostConfig: l,
+      hoverCardProjectId: u,
+      hoverCardProjectLabel: d,
+      hoverCardRepositoryLabel: f,
+      hasUnreadTurn: p,
+      isAutomationRun: m,
+      isGrouped: _,
+      isProjectlessHoverCard: v,
+      projectFallbackIcon: y,
+      shouldFetchHoverBranch: x,
+      threadSummary: S,
+      threadTitle: C,
+    } = e,
+    ee = i === void 0 ? !1 : i,
+    T = o === void 0 ? !1 : o,
+    ne = s === void 0 ? !1 : s,
+    re = p === void 0 ? !1 : p,
+    ie = m === void 0 ? !1 : m,
+    ae = _ === void 0 ? !1 : _,
+    oe = v === void 0 ? !1 : v,
+    se = x === void 0 ? !1 : x,
+    ce = S === void 0 ? null : S,
+    le = Oe(),
+    ue = E(Se, n),
+    D = r ?? ue ?? ce?.cwd ?? null,
+    O = E(K, n) ?? ce?.title,
+    fe = E(je, n) ?? ce?.createdAt,
+    pe = E(Re, n) ?? ce?.recencyAt ?? ce?.updatedAt ?? fe,
+    me = E(Be, n) ?? ce?.gitInfo?.branch,
+    ge = E(h, n) ?? ce?.hostId ?? null,
+    _e = b(ge ?? `local`),
+    k = l ?? _e,
+    A = l?.id ?? ge,
+    j = te(A ?? `local`),
+    ve = E(L, n) ?? ce?.workspaceKind,
+    M = oe || ve === `projectless`,
+    { data: ye } = w(he.THREAD_PROJECT_ASSIGNMENTS),
+    N;
+  t[0] !== n || t[1] !== ye
+    ? ((N = g(ye)[n] ?? null), (t[0] = n), (t[1] = ye), (t[2] = N))
+    : (N = t[2]);
+  let be = T || oe ? null : (u ?? (M ? null : (N?.projectId ?? D))),
+    P = ir(be ?? ``),
+    { renameThread: xe } = He(),
+    F = lr({ codexHome: j, cwd: D, hideRemoteHostEnvIcon: ne, hostId: A, isGrouped: ae }),
+    Ce =
+      !M &&
+      D != null &&
+      (F == null || F === `worktree` || F === `remote-worktree` || F === `localGrouped`),
+    I;
+  t[3] === le
+    ? (I = t[4])
+    : ((I = le.formatMessage({
+        id: `sidebarElectron.threadHoverCardChatProject`,
+        defaultMessage: `Chat`,
+        description: `Fallback project label for a sidebar thread hover card when it does not belong to a project or workspace`,
+      })),
+      (t[3] = le),
+      (t[4] = I));
+  let we = I,
+    Te;
+  t[5] !== D || t[6] !== T || t[7] !== we || t[8] !== d || t[9] !== M
+    ? ((Te = T ? we : (ht(null, d) ?? (M ? we : (ht(D) ?? D ?? we)))),
+      (t[5] = D),
+      (t[6] = T),
+      (t[7] = we),
+      (t[8] = d),
+      (t[9] = M),
+      (t[10] = Te))
+    : (Te = t[10]);
+  let R = Te,
+    Ee = Ce && se,
+    De;
+  t[11] === Ee ? (De = t[12]) : ((De = { enabled: Ee, staleTime: 0 }), (t[11] = Ee), (t[12] = De));
+  let ke = at(D, k, `local_thread_hover_card`, De),
+    Me =
+      F === `remote` || F === `remote-worktree`
+        ? k.id === A
+          ? k.display_name
+          : null
+        : (D ?? null),
+    Ne =
+      me != null && ke.data != null && me !== ke.data
+        ? le.formatMessage({
+            id: `codex.localTaskRow.hoverCardBranchMismatch`,
+            defaultMessage: `Chat branch is based on what branch was active when last worked on this chat`,
+            description: `Tooltip shown when the checked out branch differs from the chat branch in the task hover card`,
+          })
+        : void 0,
+    Pe =
+      Ne == null
+        ? void 0
+        : le.formatMessage({
+            id: `codex.localTaskRow.hoverCardBranchMismatchWarning`,
+            defaultMessage: `Chat branch reflects active branch when last used; sending a message will update chat branch`,
+            description: `Warning text shown when the checked out branch differs from the chat branch in the task hover card`,
+          }),
+    Fe = Ce
+      ? Zn({
+          branchMismatchWarning: Pe,
+          branchName: me ?? ke.data ?? null,
+          branchTooltipContent: Ne,
+          codexHome: j,
+          workspaceIcon: F === `worktree` || F === `remote-worktree` ? void 0 : (0, mr.jsx)(de, {}),
+          workspacePath: D,
+        })
+      : void 0,
+    Ie;
+  t[13] !== ee || t[14] !== a || t[15] !== le || t[16] !== ie
+    ? ((Ie =
+        ie || ee
+          ? [
+              {
+                id: `automation`,
+                icon: (0, mr.jsx)(lt, { className: `shrink-0` }),
+                label:
+                  a ??
+                  le.formatMessage({
+                    id: `codex.localTaskRow.automation`,
+                    defaultMessage: `Scheduled task chat`,
+                    description: `Accessible label for the scheduled task thread icon`,
+                  }),
+              },
+            ]
+          : []),
+      (t[13] = ee),
+      (t[14] = a),
+      (t[15] = le),
+      (t[16] = ie),
+      (t[17] = Ie))
+    : (Ie = t[17]);
+  let z = Ie,
+    B =
+      (F === `remote` || F === `remote-worktree`) && k.id === A
+        ? [
+            {
+              id: `remote-host`,
+              icon: (0, mr.jsx)(Ut, { envType: `remote`, hostId: A ?? void 0, disableTooltip: !0 }),
+              label: k.display_name,
+            },
+          ]
+        : [],
+    Le =
+      B.length > 0
+        ? [...B, ...(Fe ?? [])]
+        : (Fe ??
+          (Bt(F)
+            ? [
+                {
+                  id: `environment`,
+                  icon: (0, mr.jsx)(Ut, { envType: F, hostId: A ?? void 0, disableTooltip: !0 }),
+                  label: Me ?? (0, mr.jsx)(Ht, { envType: F }),
+                },
+              ]
+            : [])),
+    V;
+  t[18] === Le ? (V = t[19]) : ((V = { id: `environment`, rows: Le }), (t[18] = Le), (t[19] = V));
+  let H;
+  t[20] === c ? (H = t[21]) : ((H = c ?? []), (t[20] = c), (t[21] = H));
+  let U;
+  t[22] === z ? (U = t[23]) : ((U = { id: `automation`, rows: z }), (t[22] = z), (t[23] = U));
+  let ze;
+  t[24] !== V || t[25] !== H || t[26] !== U
+    ? ((ze = [V, ...H, U].filter(fr)), (t[24] = V), (t[25] = H), (t[26] = U), (t[27] = ze))
+    : (ze = t[27]);
+  let W = ze,
+    G;
+  t[28] !== P || t[29] !== y || t[30] !== be
+    ? ((G = be == null ? (0, mr.jsx)(et, {}) : P == null ? y : (0, mr.jsx)(Ae, { appearance: P })),
+      (t[28] = P),
+      (t[29] = y),
+      (t[30] = be),
+      (t[31] = G))
+    : (G = t[31]);
+  let Ve = oe ? null : f,
+    Ue;
+  t[32] === pe
+    ? (Ue = t[33])
+    : ((Ue = pe == null ? void 0 : new Date(pe).toISOString()), (t[32] = pe), (t[33] = Ue));
+  let q = O ?? void 0,
+    We;
+  t[34] !== n || t[35] !== A || t[36] !== xe
+    ? ((We = (e) => {
+        xe({ conversationId: n, hostId: A ?? void 0, title: e });
+      }),
+      (t[34] = n),
+      (t[35] = A),
+      (t[36] = xe),
+      (t[37] = We))
+    : (We = t[37]);
+  let Ge;
+  return (
+    t[38] !== re ||
+    t[39] !== R ||
+    t[40] !== W ||
+    t[41] !== G ||
+    t[42] !== Ve ||
+    t[43] !== Ue ||
+    t[44] !== q ||
+    t[45] !== We ||
+    t[46] !== C
+      ? ((Ge = (0, mr.jsx)(Xt, {
+          projectLabel: R,
+          projectIcon: G,
+          repositoryLabel: Ve,
+          sections: W,
+          showUnreadDot: re,
+          timestampDateString: Ue,
+          threadTitle: C,
+          threadTitleValue: q,
+          onRenameThreadTitle: We,
+        })),
+        (t[38] = re),
+        (t[39] = R),
+        (t[40] = W),
+        (t[41] = G),
+        (t[42] = Ve),
+        (t[43] = Ue),
+        (t[44] = q),
+        (t[45] = We),
+        (t[46] = C),
+        (t[47] = Ge))
+      : (Ge = t[47]),
+    Ge
+  );
+}
+function fr(e) {
+  return e.rows.length > 0;
+}
+var pr,
+  mr,
+  hr = e(() => {
+    ((pr = B()),
+      a(),
+      j(),
+      I(),
+      re(),
+      Ce(),
+      ut(),
+      T(),
+      y(),
+      Qe(),
+      ct(),
+      me(),
+      J(),
+      qe(),
+      W(),
+      or(),
+      D(),
+      gt(),
+      ur(),
+      Kt(),
+      Vt(),
+      an(),
+      $n(),
+      (mr = u()));
+  });
+function gr(e) {
+  return (0, _r.jsx)(pe, { browser: !0, electron: !0, children: (0, _r.jsx)(dr, { ...e }) });
+}
+var _r,
+  vr = e(() => {
+    (v(), hr(), (_r = u()));
+  });
+function yr(e) {
+  let t = (0, xr.c)(134),
+    {
+      conversationId: n,
+      displayCwd: a,
+      onSelect: o,
+      onClick: s,
+      onBeforeNavigate: c,
+      onDoubleClick: l,
+      isActive: u,
+      isGrouped: d,
+      envIconLocation: p,
+      useStableTrailingRail: g,
+      statusIndicatorReplacesMeta: v,
+      hideStatusIndicator: y,
+      hideInlineBadgesOnHover: b,
+      idleIndicatorNode: x,
+      idleStatusIndicatorNode: S,
+      indicatorRestNode: C,
+      indicatorHoverNode: w,
+      reserveLeadingSlot: ee,
+      additionalHoverActionCount: T,
+      priorityIndicatorNode: ne,
+      onContextMenu: re,
+      renderActions: ie,
+      metaHidden: ae,
+      extraIconBadges: se,
+      floatStatusIconsRight: ue,
+      onArchiveStart: de,
+      onArchiveSuccess: D,
+      onArchiveError: O,
+      onActiveArchiveStart: fe,
+      variant: pe,
+      titleOverride: me,
+      titleSuffix: he,
+      hoverCardSections: ge,
+      hoverCardHostConfig: _e,
+      disableHoverCard: k,
+      forceLoadingIndicator: A,
+      attentionIndicatorOnly: j,
+      blurOnClick: M,
+      hasPendingChildApproval: ye,
+      hideRemoteHostEnvIcon: P,
+      disableEnvTooltip: xe,
+      disabled: Ce,
+      allowActionsWhenDisabled: I,
+      isAutomationRun: we,
+      isProjectlessHoverCard: L,
+      isUnread: Te,
+      hasAttachedHeartbeatAutomation: R,
+      heartbeatAutomationTooltipContent: Ee,
+      metaContent: De,
+      overlayMetaContent: Ae,
+      hoverCardProjectFallbackIcon: Me,
+      hoverCardProjectId: Fe,
+      hoverCardProjectLabel: Ie,
+      hoverCardRepositoryLabel: z,
+      threadSummary: B,
+      dataAttributes: Le,
+    } = e,
+    V = u === void 0 ? !1 : u,
+    H = d === void 0 ? !1 : d,
+    Re = g === void 0 ? !1 : g,
+    W = v === void 0 ? !1 : v,
+    G = y === void 0 ? !1 : y,
+    Be = b === void 0 ? !1 : b,
+    Ve = ee === void 0 ? !1 : ee,
+    He = T === void 0 ? 0 : T,
+    Ue = ae === void 0 ? !1 : ae,
+    q = ue === void 0 ? !1 : ue,
+    We = k === void 0 ? !1 : k,
+    Ge = A === void 0 ? !1 : A,
+    J = j === void 0 ? !1 : j,
+    Ke = M === void 0 ? !1 : M,
+    qe = ye === void 0 ? !1 : ye,
+    Je = P === void 0 ? !1 : P,
+    Ye = Ce === void 0 ? !1 : Ce,
+    Xe = I === void 0 ? !1 : I,
+    Ze = we === void 0 ? !1 : we,
+    Qe = L === void 0 ? !1 : L,
+    $e = R === void 0 ? !1 : R,
+    et = B === void 0 ? null : B,
+    nt = _(oe),
+    rt = tt(),
+    Y = Oe(),
+    at = E(ce, n),
+    ot = E(je, n) ?? et?.createdAt,
+    ct = E(Se, n),
+    ut = a ?? ct ?? et?.cwd ?? null,
+    dt = E(Ne, n) ?? et?.hasUnreadTurn,
+    ft = E(m, n),
+    X = E(h, n) ?? et?.hostId ?? null;
+  E(r, n) ?? et?.modelProvider;
+  let pt = te(X ?? `local`),
+    mt = E(i, n),
+    ht = E(be, n),
+    gt = X ?? `local`,
+    _t;
+  t[0] !== n || t[1] !== gt
+    ? ((_t = { conversationId: n, hostId: gt }), (t[0] = n), (t[1] = gt), (t[2] = _t))
+    : (_t = t[2]);
+  let vt = E(st, _t),
+    yt = E(N, n),
+    bt = E(F, n) ?? et?.source,
+    xt = E(K, n) ?? et?.title ?? null,
+    St = V ? fe : void 0,
+    Ct;
+  t[3] !== O || t[4] !== de || t[5] !== D || t[6] !== St
+    ? ((Ct = {
+        onActiveArchiveStart: St,
+        onArchiveStart: de,
+        onArchiveSuccess: D,
+        onArchiveError: O,
+      }),
+      (t[3] = O),
+      (t[4] = de),
+      (t[5] = D),
+      (t[6] = St),
+      (t[7] = Ct))
+    : (Ct = t[7]);
+  let {
+      archived: wt,
+      usesExternalArchiveHandling: Tt,
+      beginArchive: Dt,
+      handleArchiveSuccess: Ot,
+      handleArchiveError: kt,
+      restoreArchivedRow: At,
+    } = Ln(Ct),
+    jt = it(),
+    Mt;
+  t[8] === bt ? (Mt = t[9]) : ((Mt = ve(bt)), (t[8] = bt), (t[9] = Mt));
+  let Nt = jt && Mt?.parentThreadId != null,
+    Pt = yt;
+  (mt === `response` || (J && Pt === `loading`)) && (Pt = `idle`);
+  let Ft;
+  t[10] !== xt || t[11] !== me
+    ? ((Ft = (0, Cr.jsx)(br, { title: xt, titleOverride: me })),
+      (t[10] = xt),
+      (t[11] = me),
+      (t[12] = Ft))
+    : (Ft = t[12]);
+  let It = Ft,
+    [Lt, Rt] = (0, Sr.useState)(!1),
+    Z;
+  t[13] !== J ||
+  t[14] !== Ge ||
+  t[15] !== qe ||
+  t[16] !== dt ||
+  t[17] !== Nt ||
+  t[18] !== Te ||
+  t[19] !== mt ||
+  t[20] !== Pt ||
+  t[21] !== ft
+    ? ((Z = Ge
+        ? { type: `loading` }
+        : {
+            type: Pt,
+            unread: Nt ? !1 : (Te ?? dt === !0) || (J && ((ft ?? 0) > 0 || mt != null || qe)),
+            unreadCount: Nt || J ? 0 : (ft ?? 0),
+          }),
+      (t[13] = J),
+      (t[14] = Ge),
+      (t[15] = qe),
+      (t[16] = dt),
+      (t[17] = Nt),
+      (t[18] = Te),
+      (t[19] = mt),
+      (t[20] = Pt),
+      (t[21] = ft),
+      (t[22] = Z))
+    : (Z = t[22]);
+  let zt = Z,
+    Bt;
+  t[23] !== Dt ||
+  t[24] !== n ||
+  t[25] !== kt ||
+  t[26] !== Ot ||
+  t[27] !== X ||
+  t[28] !== Y ||
+  t[29] !== Nt ||
+  t[30] !== At ||
+  t[31] !== nt
+    ? ((Bt = () => {
+        (Dt(),
+          Pe(`archive-conversation`, {
+            conversationId: n,
+            hostId: X ?? void 0,
+            source: `recent_tasks_menu`,
+          })
+            .then(() => {
+              Ot();
+              let e = () => {
+                ke.dispatchHostMessage({
+                  type: `navigate-to-route`,
+                  path: `/settings/data-controls`,
+                });
+              };
+              if (!Nt) {
+                let t = nt.get(ze).info(
+                  (0, Cr.jsx)(Et, {
+                    onUndo: () => {
+                      (t.close(),
+                        Pe(`unarchive-conversation`, { hostId: X ?? `local`, conversationId: n })
+                          .then(() => {
+                            At();
+                          })
+                          .catch(() => {
+                            nt.get(ze).danger(
+                              Y.formatMessage({
+                                id: `localTaskRow.unarchiveError`,
+                                defaultMessage: `Failed to unarchive conversation`,
+                                description: `Error message when undoing a local conversation archive`,
+                              }),
+                            );
+                          }));
+                    },
+                    onOpenSettings: e,
+                  }),
+                  { duration: f / 1e3, id: `archive-thread` },
+                );
+              }
+            })
+            .catch(() => {
+              (kt(),
+                nt
+                  .get(ze)
+                  .danger(
+                    Y.formatMessage({
+                      id: `localTaskRow.archiveError`,
+                      defaultMessage: `Failed to archive conversation`,
+                      description: `Error message when archiving a local Codex conversation`,
+                    }),
+                  ));
+            }));
+      }),
+      (t[23] = Dt),
+      (t[24] = n),
+      (t[25] = kt),
+      (t[26] = Ot),
+      (t[27] = X),
+      (t[28] = Y),
+      (t[29] = Nt),
+      (t[30] = At),
+      (t[31] = nt),
+      (t[32] = Bt))
+    : (Bt = t[32]);
+  let Vt = Bt,
+    Ht;
+  t[33] !== qe || t[34] !== mt
+    ? ((Ht =
+        mt === `approval` || qe
+          ? {
+              id: `awaiting-approval`,
+              label: (0, Cr.jsx)(U, {
+                id: `codex.localTaskRow.awaitingApproval`,
+                defaultMessage: `Awaiting approval`,
+                description: `Chip indicating a local task is waiting for user approval`,
+              }),
+            }
+          : null),
+      (t[33] = qe),
+      (t[34] = mt),
+      (t[35] = Ht))
+    : (Ht = t[35]);
+  let Ut = Ht,
+    Wt;
+  t[36] === Ut ? (Wt = t[37]) : ((Wt = Ut == null ? [] : [Ut]), (t[36] = Ut), (t[37] = Wt));
+  let Gt = Wt,
+    Kt = ht?.type === `userInput` ? ht : null,
+    qt = Kt != null && vt?.requestId === Kt.item.requestId ? vt : null,
+    Jt = qt?.resolutionState.status === `scheduled` ? qt.resolutionState : null,
+    Yt = qt?.resolutionState.status === `scheduled` ? qt.requestId : null,
+    Xt;
+  t[38] !== J ||
+  t[39] !== n ||
+  t[40] !== X ||
+  t[41] !== Y ||
+  t[42] !== V ||
+  t[43] !== mt ||
+  t[44] !== Jt ||
+  t[45] !== Yt
+    ? ((Xt =
+        mt === `response` && !V && !J
+          ? {
+              ariaLabel: Jt == null ? void 0 : Y.formatMessage(wr.snoozeInputTimeout),
+              label: (0, Cr.jsx)(U, {
+                id: `codex.localTaskRow.needsInput`,
+                defaultMessage: `Needs input`,
+                description: `Status pill indicating an inactive local task needs user input`,
+              }),
+              hoverLabel: Jt == null ? void 0 : (0, Cr.jsx)(U, { ...wr.snoozeInputTimeout }),
+              onClick:
+                Yt == null
+                  ? void 0
+                  : () => {
+                      le.requestUserInputAutoResolution.snooze({
+                        conversationId: n,
+                        hostId: X ?? `local`,
+                        requestId: Yt,
+                      });
+                    },
+              progress: Jt == null ? void 0 : { deadlineMs: Jt.deadlineMs, durationMs: sr },
+            }
+          : void 0),
+      (t[38] = J),
+      (t[39] = n),
+      (t[40] = X),
+      (t[41] = Y),
+      (t[42] = V),
+      (t[43] = mt),
+      (t[44] = Jt),
+      (t[45] = Yt),
+      (t[46] = Xt))
+    : (Xt = t[46]);
+  let Zt = Xt,
+    Qt;
+  t[47] !== $e || t[48] !== Ee || t[49] !== Y || t[50] !== Ze
+    ? ((Qt =
+        Ze || $e
+          ? {
+              id: `automation`,
+              icon: (0, Cr.jsx)(lt, { className: `shrink-0` }),
+              ariaLabel: Ze
+                ? Y.formatMessage({
+                    id: `codex.localTaskRow.automation`,
+                    defaultMessage: `Scheduled task chat`,
+                    description: `Accessible label for the scheduled task thread icon`,
+                  })
+                : Y.formatMessage({
+                    id: `codex.localTaskRow.attachedHeartbeatAutomation`,
+                    defaultMessage: `Scheduled task attached`,
+                    description: `Accessible label for the scheduled task icon shown on a chat with an attached scheduled task`,
+                  }),
+              tooltipContent: $e ? Ee : null,
+            }
+          : null),
+      (t[47] = $e),
+      (t[48] = Ee),
+      (t[49] = Y),
+      (t[50] = Ze),
+      (t[51] = Qt))
+    : (Qt = t[51]);
+  let $t = Qt,
+    en = se;
+  if ($t != null) {
+    let e;
+    (t[52] !== $t || t[53] !== se
+      ? ((e = se == null ? [$t] : [...se, $t]), (t[52] = $t), (t[53] = se), (t[54] = e))
+      : (e = t[54]),
+      (en = e));
+  }
+  let tn;
+  t[55] !== pt || t[56] !== ut || t[57] !== Je || t[58] !== X || t[59] !== H
+    ? ((tn = lr({ codexHome: pt, cwd: ut, hideRemoteHostEnvIcon: Je, hostId: X, isGrouped: H })),
+      (t[55] = pt),
+      (t[56] = ut),
+      (t[57] = Je),
+      (t[58] = X),
+      (t[59] = H),
+      (t[60] = tn))
+    : (tn = t[60]);
+  let nn = tn,
+    rn = nn === `remote` || nn === `remote-worktree` ? null : ut,
+    Q;
+  t[61] !== n ||
+  t[62] !== We ||
+  t[63] !== a ||
+  t[64] !== $e ||
+  t[65] !== dt ||
+  t[66] !== Ee ||
+  t[67] !== Je ||
+  t[68] !== _e ||
+  t[69] !== Me ||
+  t[70] !== Fe ||
+  t[71] !== Ie ||
+  t[72] !== z ||
+  t[73] !== ge ||
+  t[74] !== Ze ||
+  t[75] !== H ||
+  t[76] !== Qe ||
+  t[77] !== Nt ||
+  t[78] !== Lt ||
+  t[79] !== et ||
+  t[80] !== It
+    ? ((Q = We
+        ? null
+        : gr({
+            conversationId: n,
+            displayCwd: a,
+            hasAttachedHeartbeatAutomation: $e,
+            heartbeatAutomationTooltipContent: Ee,
+            hideRemoteHostEnvIcon: Je,
+            hoverCardSections: ge,
+            hoverCardHostConfig: _e,
+            hoverCardProjectId: Fe,
+            hoverCardProjectLabel: Ie,
+            hoverCardRepositoryLabel: z,
+            threadSummary: et,
+            hasUnreadTurn: Nt ? !1 : dt === !0,
+            isAutomationRun: Ze,
+            isGrouped: H,
+            isProjectlessHoverCard: Qe,
+            projectFallbackIcon: Me,
+            shouldFetchHoverBranch: Lt,
+            threadTitle: It,
+          })),
+      (t[61] = n),
+      (t[62] = We),
+      (t[63] = a),
+      (t[64] = $e),
+      (t[65] = dt),
+      (t[66] = Ee),
+      (t[67] = Je),
+      (t[68] = _e),
+      (t[69] = Me),
+      (t[70] = Fe),
+      (t[71] = Ie),
+      (t[72] = z),
+      (t[73] = ge),
+      (t[74] = Ze),
+      (t[75] = H),
+      (t[76] = Qe),
+      (t[77] = Nt),
+      (t[78] = Lt),
+      (t[79] = et),
+      (t[80] = It),
+      (t[81] = Q))
+    : (Q = t[81]);
+  let an = Q;
+  if ((wt && !Tt) || (at !== !0 && et == null) || ot == null) return null;
+  let on = X ?? void 0,
+    sn;
+  t[82] !== n || t[83] !== rt || t[84] !== c || t[85] !== s || t[86] !== o
+    ? ((sn = () => {
+        (c?.(),
+          rt(n),
+          (0, Sr.startTransition)(() => {
+            (o?.(), s?.());
+          }));
+      }),
+      (t[82] = n),
+      (t[83] = rt),
+      (t[84] = c),
+      (t[85] = s),
+      (t[86] = o),
+      (t[87] = sn))
+    : (sn = t[87]);
+  let cn = en,
+    ln = pe === `tableRow` ? `bottom` : void 0,
+    un = pe === `tableRow` ? `end` : void 0,
+    dn = pe === `tableRow` ? -36 : void 0,
+    pn;
+  t[88] === Y
+    ? (pn = t[89])
+    : ((pn = Y.formatMessage({
+        id: `codex.localTaskRow.archiveTask`,
+        defaultMessage: `Archive chat`,
+        description: `Label for archiving a local thread`,
+      })),
+      (t[88] = Y),
+      (t[89] = pn));
+  let mn;
+  t[90] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((mn = (0, Cr.jsx)(U, {
+        id: `codex.localTaskRow.confirmArchiveTask`,
+        defaultMessage: `Confirm`,
+        description: `Confirmation button for archiving a local task`,
+      })),
+      (t[90] = mn))
+    : (mn = t[90]);
+  let hn;
+  return (
+    t[91] !== He ||
+    t[92] !== Xe ||
+    t[93] !== Ke ||
+    t[94] !== Gt ||
+    t[95] !== Le ||
+    t[96] !== xe ||
+    t[97] !== Ye ||
+    t[98] !== p ||
+    t[99] !== rn ||
+    t[100] !== nn ||
+    t[101] !== q ||
+    t[102] !== Vt ||
+    t[103] !== Be ||
+    t[104] !== G ||
+    t[105] !== an ||
+    t[106] !== en ||
+    t[107] !== x ||
+    t[108] !== S ||
+    t[109] !== w ||
+    t[110] !== C ||
+    t[111] !== V ||
+    t[112] !== De ||
+    t[113] !== Ue ||
+    t[114] !== re ||
+    t[115] !== l ||
+    t[116] !== Ae ||
+    t[117] !== ne ||
+    t[118] !== ie ||
+    t[119] !== Ve ||
+    t[120] !== W ||
+    t[121] !== Zt ||
+    t[122] !== zt ||
+    t[123] !== on ||
+    t[124] !== sn ||
+    t[125] !== ln ||
+    t[126] !== un ||
+    t[127] !== dn ||
+    t[128] !== pn ||
+    t[129] !== It ||
+    t[130] !== he ||
+    t[131] !== Re ||
+    t[132] !== pe
+      ? ((hn = (0, Cr.jsx)(fn, {
+          hostId: on,
+          isActive: V,
+          idleIndicatorNode: x,
+          idleStatusIndicatorNode: S,
+          indicatorRestNode: C,
+          indicatorHoverNode: w,
+          reserveLeadingSlot: Ve,
+          additionalHoverActionCount: He,
+          priorityIndicatorNode: ne,
+          variant: pe,
+          onContextMenu: re,
+          onClick: sn,
+          onDoubleClick: l,
+          disabled: Ye,
+          allowActionsWhenDisabled: Xe,
+          statusState: zt,
+          statusIndicatorReplacesMeta: W,
+          hideStatusIndicator: G,
+          useStableTrailingRail: Re,
+          envType: nn,
+          envIconLocation: p,
+          disableEnvTooltip: xe,
+          envTooltip: rn,
+          hoverCardContent: an,
+          blurOnClick: Ke,
+          title: It,
+          titleSuffix: he,
+          chips: Gt,
+          statusPill: Zt,
+          iconBadges: cn,
+          floatStatusIconsRight: q,
+          hideInlineBadgesOnHover: Be,
+          metaHidden: Ue,
+          metaContent: De,
+          overlayMetaContent: Ae,
+          onArchive: Vt,
+          onHoverCardOpenChange: Rt,
+          hoverCardSide: ln,
+          hoverCardAlign: un,
+          hoverCardSideOffset: dn,
+          dataAttributes: Le,
+          archiveAriaLabel: pn,
+          archiveConfirmLabel: mn,
+          renderActions: ie,
+        })),
+        (t[91] = He),
+        (t[92] = Xe),
+        (t[93] = Ke),
+        (t[94] = Gt),
+        (t[95] = Le),
+        (t[96] = xe),
+        (t[97] = Ye),
+        (t[98] = p),
+        (t[99] = rn),
+        (t[100] = nn),
+        (t[101] = q),
+        (t[102] = Vt),
+        (t[103] = Be),
+        (t[104] = G),
+        (t[105] = an),
+        (t[106] = en),
+        (t[107] = x),
+        (t[108] = S),
+        (t[109] = w),
+        (t[110] = C),
+        (t[111] = V),
+        (t[112] = De),
+        (t[113] = Ue),
+        (t[114] = re),
+        (t[115] = l),
+        (t[116] = Ae),
+        (t[117] = ne),
+        (t[118] = ie),
+        (t[119] = Ve),
+        (t[120] = W),
+        (t[121] = Zt),
+        (t[122] = zt),
+        (t[123] = on),
+        (t[124] = sn),
+        (t[125] = ln),
+        (t[126] = un),
+        (t[127] = dn),
+        (t[128] = pn),
+        (t[129] = It),
+        (t[130] = he),
+        (t[131] = Re),
+        (t[132] = pe),
+        (t[133] = hn))
+      : (hn = t[133]),
+    hn
+  );
+}
+function br(e) {
+  let t = (0, xr.c)(3),
+    { title: n, titleOverride: r } = e;
+  if (typeof r != `string` && r != null) return r;
+  if (n != null) return n;
+  let i;
+  t[0] === r ? (i = t[1]) : ((i = r?.trim() ?? ``), (t[0] = r), (t[1] = i));
+  let a = i;
+  if (a.length > 0) return a;
+  let o;
+  return (
+    t[2] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((o = (0, Cr.jsx)(U, {
+          id: `codex.taskRow.title`,
+          defaultMessage: `New chat`,
+          description: `Default title for a Codex thread that doesn't have a title`,
+        })),
+        (t[2] = o))
+      : (o = t[2]),
+    o
+  );
+}
+var xr,
+  Sr,
+  Cr,
+  wr,
+  Tr = e(() => {
+    ((xr = B()),
+      a(),
+      j(),
+      (Sr = t(S(), 1)),
+      I(),
+      re(),
+      mt(),
+      A(),
+      cr(),
+      De(),
+      kt(),
+      M(),
+      T(),
+      $e(),
+      ct(),
+      H(),
+      J(),
+      ye(),
+      fe(),
+      n(),
+      ot(),
+      D(),
+      nt(),
+      ur(),
+      vr(),
+      se(),
+      In(),
+      Bn(),
+      (Cr = u()),
+      (wr = Le({
+        snoozeInputTimeout: {
+          id: `codex.localTaskRow.snoozeInputTimeout`,
+          defaultMessage: `Snooze`,
+          description: `Button label for permanently disabling an input request timeout`,
+        },
+      })));
+  });
+export {
+  zt as C,
+  Pt as S,
+  Tt as T,
+  Ut as _,
+  or as a,
+  It as b,
+  rr as c,
+  Bn as d,
+  Ln as f,
+  cn as g,
+  sn as h,
+  cr as i,
+  Vn as l,
+  In as m,
+  Tr as n,
+  ir as o,
+  An as p,
+  sr as r,
+  er as s,
+  yr as t,
+  Gn as u,
+  Kt as v,
+  yt as w,
+  At as x,
+  Ft as y,
+};
+//# sourceMappingURL=app-initial~app-main~remote-conversation-page~projects-index-page~hotkey-window-thread-page~hc7acb17.js.map

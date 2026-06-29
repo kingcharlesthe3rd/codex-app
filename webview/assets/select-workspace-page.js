@@ -1,0 +1,1219 @@
+import { n as e, s as t } from "./rolldown-runtime.js";
+import {
+  $N as n,
+  $P as r,
+  AB as i,
+  AN as a,
+  AV as o,
+  BP as s,
+  BV as c,
+  Bw as l,
+  CS as u,
+  DN as d,
+  Da as f,
+  Du as p,
+  EV as ee,
+  Eu as m,
+  FB as h,
+  Gi as g,
+  IB as _,
+  JN as v,
+  JV as y,
+  Lj as te,
+  Mu as b,
+  NV as x,
+  ON as S,
+  Oj as C,
+  Ov as ne,
+  PB as re,
+  Pa as w,
+  Pu as T,
+  QP as E,
+  Rj as D,
+  Rw as ie,
+  SV as O,
+  Sj as k,
+  TS as A,
+  UE as ae,
+  Uf as oe,
+  Ui as j,
+  VE as se,
+  VP as M,
+  Wi as N,
+  Xf as ce,
+  Zi as P,
+  Zu as F,
+  aA as le,
+  bF as I,
+  bk as ue,
+  cP as de,
+  cr as fe,
+  da as pe,
+  eP as me,
+  fr as L,
+  iF as R,
+  id as he,
+  jj as ge,
+  kE as _e,
+  kN as ve,
+  lF as ye,
+  lP as be,
+  mv as z,
+  pI as B,
+  qV as V,
+  qi as H,
+  sA as xe,
+  sF as U,
+  uP as Se,
+  ua as Ce,
+  wV as we,
+  wj as Te,
+  zw as Ee,
+} from "./app-initial~app-main~remote-conversation-page~plugin-detail-page~new-thread-panel-page~appg~ijdupmx5.js";
+import {
+  ct as De,
+  in as Oe,
+  mt as W,
+  pt as G,
+  rn as ke,
+  st as Ae,
+  ut as je,
+} from "./app-initial~app-main~automations-page.js";
+import {
+  Ai as Me,
+  ji as Ne,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~new-~kvpgbdy1.js";
+import {
+  Kr as Pe,
+  Nr as Fe,
+  Pr as Ie,
+} from "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~appgen-library-page~hot~djo67r4n.js";
+import {
+  A as Le,
+  D as Re,
+  E as K,
+  O as ze,
+  j as Be,
+  k as Ve,
+} from "./app-initial~app-main~onboarding-page~appearance-settings~general-settings.js";
+var q,
+  He,
+  Ue = e(() => {
+    (t(y()),
+      (q = c()),
+      (He = (e) =>
+        (0, q.jsx)(`svg`, {
+          width: 20,
+          height: 20,
+          viewBox: `0 0 20 20`,
+          fill: `none`,
+          xmlns: `http://www.w3.org/2000/svg`,
+          ...e,
+          children: (0, q.jsx)(`path`, {
+            d: `M15.2041 17.5V15.665H13.3691C13.0019 15.665 12.7041 15.3673 12.7041 15C12.7041 14.6327 13.0019 14.335 13.3691 14.335H15.2041V12.5C15.2041 12.1327 15.5019 11.835 15.8691 11.835C16.2362 11.8352 16.5332 12.1329 16.5332 12.5V14.335H18.3691C18.7362 14.3352 19.0332 14.6329 19.0332 15C19.0332 15.3671 18.7362 15.6648 18.3691 15.665H16.5332V17.5C16.5332 17.8671 16.2362 18.1648 15.8691 18.165C15.5019 18.165 15.2041 17.8673 15.2041 17.5ZM2.12012 12.7002V7.29981C2.12012 6.64581 2.11922 6.1149 2.1543 5.68555C2.19002 5.24867 2.26619 4.85832 2.45117 4.49512L2.56836 4.28516C2.86045 3.80898 3.27979 3.42103 3.78028 3.16602L3.91797 3.10156C4.24192 2.96268 4.5885 2.90039 4.97071 2.86914C5.40006 2.83406 5.93096 2.83496 6.58496 2.83496H7.28028C7.42346 2.83496 7.52305 2.83479 7.6211 2.84082L7.875 2.86719C8.46133 2.95309 9.01189 3.20874 9.45703 3.60547L9.70215 3.84473C9.81425 3.95779 9.85105 3.99455 9.88672 4.02637L9.99805 4.11719C10.2646 4.31741 10.5851 4.43638 10.9199 4.45703L11.1797 4.45996H13.6914C14.2499 4.45996 14.703 4.45958 15.0713 4.48535C15.4458 4.51157 15.7828 4.56683 16.1025 4.70313L16.3662 4.83106C16.9638 5.15706 17.4378 5.67623 17.707 6.30762L17.7939 6.54981C17.868 6.79538 17.904 7.05317 17.9238 7.33203C17.9498 7.69789 17.9502 8.14747 17.9502 8.7002C17.9501 8.87631 17.8803 9.0453 17.7559 9.16992C17.6311 9.29464 17.4615 9.36524 17.2852 9.36524H3.4502V12.7002C3.4502 13.3761 3.45084 13.8434 3.48047 14.2061C3.50947 14.5608 3.56304 14.7568 3.63672 14.9014L3.70215 15.0195C3.86642 15.2873 4.10236 15.505 4.38379 15.6484L4.50391 15.7002C4.63661 15.7476 4.81329 15.783 5.0791 15.8047C5.44174 15.8343 5.90903 15.835 6.58496 15.835H9.40918L9.54395 15.8486C9.84681 15.9108 10.0742 16.1788 10.0742 16.5C10.0742 16.8212 9.84681 17.0892 9.54395 17.1514L9.40918 17.165H6.58496C5.93096 17.165 5.40006 17.1659 4.97071 17.1309C4.5885 17.0996 4.24192 17.0373 3.91797 16.8984L3.78028 16.834C3.27979 16.579 2.86045 16.191 2.56836 15.7148L2.45117 15.5049C2.26619 15.1417 2.19002 14.7513 2.1543 14.3145C2.11922 13.8851 2.12012 13.3542 2.12012 12.7002ZM3.4502 8.03516H16.6172C16.6146 7.79548 16.6098 7.59777 16.5977 7.42676C16.5816 7.20054 16.5552 7.04845 16.5205 6.9336L16.4834 6.8291C16.332 6.47411 16.0655 6.1824 15.7295 5.99903L15.5811 5.92676C15.4545 5.8728 15.2835 5.83385 14.9785 5.8125C14.6674 5.79073 14.2686 5.79004 13.6914 5.79004H11.1797L10.8379 5.78418C10.2426 5.74746 9.67313 5.53663 9.19922 5.18067L9.00196 5.01953C8.92848 4.95403 8.85889 4.88222 8.75781 4.78028L8.57227 4.59863C8.32169 4.37525 8.01175 4.23086 7.68164 4.18262L7.54004 4.16797C7.49225 4.16502 7.43987 4.16504 7.28028 4.16504H6.58496C5.90903 4.16504 5.44174 4.16569 5.0791 4.19531C4.81329 4.21705 4.63661 4.25237 4.50391 4.29981L4.38379 4.35156C4.10236 4.49499 3.86642 4.71271 3.70215 4.98047L3.63672 5.09863C3.56304 5.24324 3.50947 5.43924 3.48047 5.79395C3.45084 6.15659 3.4502 6.62388 3.4502 7.29981V8.03516Z`,
+            fill: `currentColor`,
+          }),
+        })));
+  });
+function We(e) {
+  let t = (0, Ge.c)(12),
+    {
+      children: n,
+      localProjectSourcesEnabled: r,
+      onOpenChange: i,
+      onStartFromScratch: a,
+      onUseExistingFolder: o,
+      open: s,
+      triggerButton: c,
+    } = e,
+    l = r === void 0 ? !1 : r,
+    u = (0, Ke.useRef)(!1),
+    d;
+  t[0] === a
+    ? (d = t[1])
+    : ((d = (e) => {
+        u.current && ((u.current = !1), e.preventDefault(), a());
+      }),
+      (t[0] = a),
+      (t[1] = d));
+  let f;
+  t[2] !== l || t[3] !== o
+    ? ((f = l
+        ? (0, J.jsx)(H.Item, {
+            LeftIcon: ke,
+            onSelect: () => {
+              u.current = !0;
+            },
+            children: (0, J.jsx)(U, {
+              id: `projectSetup.addProjectMenu.localProject`,
+              defaultMessage: `Local project`,
+              description: `Menu item that opens the local project creation flow`,
+            }),
+          })
+        : (0, J.jsxs)(J.Fragment, {
+            children: [
+              (0, J.jsx)(H.Item, {
+                LeftIcon: te,
+                onSelect: () => {
+                  u.current = !0;
+                },
+                children: (0, J.jsx)(U, {
+                  id: `projectSetup.addProjectMenu.startFromScratch`,
+                  defaultMessage: `Start from scratch`,
+                  description: `Menu item that creates a new local project folder`,
+                }),
+              }),
+              (0, J.jsx)(H.Item, {
+                LeftIcon: j,
+                onSelect: o,
+                children: (0, J.jsx)(U, {
+                  id: `projectSetup.addProjectMenu.useExistingFolder`,
+                  defaultMessage: `Use an existing folder`,
+                  description: `Menu item that opens the existing folder picker`,
+                }),
+              }),
+            ],
+          })),
+      (t[2] = l),
+      (t[3] = o),
+      (t[4] = f))
+    : (f = t[4]);
+  let p;
+  return (
+    t[5] !== n || t[6] !== i || t[7] !== s || t[8] !== d || t[9] !== f || t[10] !== c
+      ? ((p = (0, J.jsxs)(g, {
+          triggerButton: c,
+          contentWidth: `menu`,
+          onOpenChange: i,
+          onCloseAutoFocus: d,
+          open: s,
+          children: [f, n],
+        })),
+        (t[5] = n),
+        (t[6] = i),
+        (t[7] = s),
+        (t[8] = d),
+        (t[9] = f),
+        (t[10] = c),
+        (t[11] = p))
+      : (p = t[11]),
+    p
+  );
+}
+var Ge,
+  Ke,
+  J,
+  qe = e(() => {
+    ((Ge = V()), (Ke = t(y(), 1)), R(), P(), N(), Oe(), D(), (J = c()));
+  });
+function Je() {
+  let e = (0, X.c)(100),
+    t = h(E),
+    n = ne(),
+    r = ye(),
+    [i, a] = we(Ie),
+    o = ee(Fe),
+    { data: s, isFetching: c } = he(),
+    u = s === void 0 ? [] : s,
+    d = Ne(),
+    f;
+  e[0] === d ? (f = e[1]) : ((f = (e) => !xe(e, d)), (e[0] = d), (e[1] = f));
+  let p = u.filter(f).map(rt),
+    { data: g, isFetching: y } = _(ce),
+    { data: te, isFetching: b } = re(m, {
+      params: { dirs: (0, Z.default)(ut(p), nt).sort(tt) },
+      source: `onboarding_workspace_select`,
+    }),
+    { data: S, isFetching: C } = T(),
+    {
+      autoLaunchAction: w,
+      isRemoteHost: D,
+      setWorkspaceOnboardingAutoLaunchApplied: O,
+      workspaceOnboardingExperimentArm: k,
+    } = je(),
+    ae;
+  e[2] === Symbol.for(`react.memo_cache_sentinel`) ? ((ae = []), (e[2] = ae)) : (ae = e[2]);
+  let [oe, j] = (0, Q.useState)(ae),
+    se;
+  e[3] === Symbol.for(`react.memo_cache_sentinel`) ? ((se = {}), (e[3] = se)) : (se = e[3]);
+  let [M, N] = (0, Q.useState)(se),
+    [P, F] = (0, Q.useState)(!1),
+    [le, I] = (0, Q.useState)(null),
+    ue = (0, Q.useRef)(!1),
+    de;
+  e[4] === r
+    ? (de = e[5])
+    : ((de = r.formatMessage({
+        id: `electron.onboarding.workspace.skip.error.unknown`,
+        defaultMessage: `Unknown error`,
+        description: `Fallback error message when onboarding skip fails without details`,
+      })),
+      (e[4] = r),
+      (e[5] = de));
+  let fe = de,
+    me = (0, Q.useRef)(0),
+    L = g?.roots,
+    R = L != null && L.length > 0,
+    ge = dt({ tasks: p, gitOrigins: te?.origins, codexHome: S?.codexHome }),
+    _e = (0, Z.default)([...(L ?? []), ...ge, ...oe], et).sort($e),
+    ve;
+  e[6] === g?.labels
+    ? (ve = e[7])
+    : ((ve = (e) => {
+        let t = g?.labels?.[e]?.trim();
+        return t ? { root: e, label: t } : { root: e, label: ft(e) };
+      }),
+      (e[6] = g?.labels),
+      (e[7] = ve));
+  let z = _e.map(ve),
+    B = z.map(Qe),
+    V;
+  e[8] === M ? (V = e[9]) : ((V = (e) => !!M[e]), (e[8] = M), (e[9] = V));
+  let H = B.filter(V),
+    U =
+      B.length > 0 && H.length === B.length
+        ? !0
+        : H.length > 0 && H.length < B.length
+          ? `indeterminate`
+          : !1,
+    Ce;
+  (e[10] !== B || e[11] !== t || e[12] !== M || e[13] !== j || e[14] !== N || e[15] !== k
+    ? ((Ce = (e) => {
+        j((t) => (0, Z.default)([...t, e.root], Ze));
+        let n = { ...M, [e.root]: !0 };
+        N(n);
+        let r = B.includes(e.root);
+        A(t, l, {
+          action: `toggle_root`,
+          selectedWorkspacesCount: lt(n, B) + (r ? 0 : 1),
+          totalWorkspacesCount: r ? B.length : B.length + 1,
+          experimentArm: k,
+          checked: !0,
+        });
+      }),
+      (e[10] = B),
+      (e[11] = t),
+      (e[12] = M),
+      (e[13] = j),
+      (e[14] = N),
+      (e[15] = k),
+      (e[16] = Ce))
+    : (Ce = e[16]),
+    Se(`workspace-root-option-picked`, Ce));
+  let Te;
+  (e[17] !== B.length ||
+  e[18] !== t ||
+  e[19] !== F ||
+  e[20] !== o ||
+  e[21] !== a ||
+  e[22] !== I ||
+  e[23] !== fe ||
+  e[24] !== k
+    ? ((Te = (e) => {
+        if ((F(!1), e.success)) {
+          (A(t, Ee, {
+            selectedWorkspacesCount: 1,
+            totalWorkspacesCount: B.length,
+            autoNavigated: !1,
+            experimentArm: k,
+          }),
+            I(null),
+            o(Math.floor(Date.now() / 1e3)),
+            a(`auto`));
+          return;
+        }
+        I(e.error ?? fe);
+      }),
+      (e[17] = B.length),
+      (e[18] = t),
+      (e[19] = F),
+      (e[20] = o),
+      (e[21] = a),
+      (e[22] = I),
+      (e[23] = fe),
+      (e[24] = k),
+      (e[25] = Te))
+    : (Te = e[25]),
+    Se(`electron-onboarding-skip-workspace-result`, Te));
+  let De;
+  e[26] !== R || e[27] !== t || e[28] !== I || e[29] !== k
+    ? ((De = () => {
+        (I(null),
+          A(t, ie, { hasExistingWorkspaces: R, source: `onboarding_modal`, experimentArm: k }),
+          be.dispatchMessage(`electron-pick-workspace-root-option`, { allowMultiple: !1 }));
+      }),
+      (e[26] = R),
+      (e[27] = t),
+      (e[28] = I),
+      (e[29] = k),
+      (e[30] = De))
+    : (De = e[30]);
+  let Oe = De,
+    W;
+  e[31] !== P || e[32] !== F || e[33] !== I || e[34] !== k
+    ? ((W = () => {
+        if (P) return;
+        (I(null), F(!0));
+        let e = Ae(k);
+        be.dispatchMessage(
+          `electron-onboarding-skip-workspace`,
+          e == null ? {} : { projectName: e },
+        );
+      }),
+      (e[31] = P),
+      (e[32] = F),
+      (e[33] = I),
+      (e[34] = k),
+      (e[35] = W))
+    : (W = e[35]);
+  let G = W,
+    ke;
+  e[36] === G
+    ? (ke = e[37])
+    : ((ke = () => {
+        G();
+      }),
+      (e[36] = G),
+      (e[37] = ke));
+  let Me = (0, Q.useEffectEvent)(ke),
+    Pe;
+  e[38] !== B ||
+  e[39] !== t ||
+  e[40] !== M ||
+  e[41] !== j ||
+  e[42] !== N ||
+  e[43] !== I ||
+  e[44] !== k
+    ? ((Pe = (e, n) => {
+        (I(null), j((t) => (0, Z.default)([...t, e], Xe)));
+        let r = { ...M, [e]: n };
+        (N(r),
+          A(t, l, {
+            action: `toggle_root`,
+            checked: n,
+            selectedWorkspacesCount: lt(r, B),
+            totalWorkspacesCount: B.length,
+            experimentArm: k,
+          }));
+      }),
+      (e[38] = B),
+      (e[39] = t),
+      (e[40] = M),
+      (e[41] = j),
+      (e[42] = N),
+      (e[43] = I),
+      (e[44] = k),
+      (e[45] = Pe))
+    : (Pe = e[45]);
+  let Re = Pe,
+    K;
+  e[46] !== B || e[47] !== t || e[48] !== M || e[49] !== N || e[50] !== I || e[51] !== k
+    ? ((K = (e) => {
+        I(null);
+        let n = { ...M };
+        for (let t of B) n[t] = e;
+        (N(n),
+          A(t, l, {
+            action: `select_all`,
+            checked: e,
+            selectedWorkspacesCount: lt(n, B),
+            totalWorkspacesCount: B.length,
+            experimentArm: k,
+          }));
+      }),
+      (e[46] = B),
+      (e[47] = t),
+      (e[48] = M),
+      (e[49] = N),
+      (e[50] = I),
+      (e[51] = k),
+      (e[52] = K))
+    : (K = e[52]);
+  let ze = K,
+    Be;
+  e[53] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((Be = { queryKey: [v, `paths-exist`] }), (e[53] = Be))
+    : (Be = e[53]);
+  let Ve = x(Be),
+    q = c || y || b || C || Ve > 0,
+    He = z.length > 0,
+    Ue = H.length > 0,
+    We = R || ge.length > 0,
+    Ge = !We && !q && !He,
+    Ke = (0, Q.useRef)(!1),
+    J;
+  e[54] !== Me || e[55] !== q || e[56] !== w || e[57] !== O
+    ? ((J = () => {
+        ue.current ||
+          q ||
+          w !== `select_workspace_skip_to_playground` ||
+          ((ue.current = !0), O(!0), Me());
+      }),
+      (e[54] = Me),
+      (e[55] = q),
+      (e[56] = w),
+      (e[57] = O),
+      (e[58] = J))
+    : (J = e[58]);
+  let qe;
+  (e[59] !== q || e[60] !== w || e[61] !== O
+    ? ((qe = [q, w, O]), (e[59] = q), (e[60] = w), (e[61] = O), (e[62] = qe))
+    : (qe = e[62]),
+    (0, Q.useEffect)(J, qe));
+  let Je;
+  e[63] !== n ||
+  e[64] !== i ||
+  e[65] !== B.length ||
+  e[66] !== L ||
+  e[67] !== t ||
+  e[68] !== o ||
+  e[69] !== a ||
+  e[70] !== k
+    ? ((Je = (e, r) => {
+        A(t, Ee, {
+          selectedWorkspacesCount: e.length,
+          totalWorkspacesCount: B.length,
+          autoNavigated: r,
+          experimentArm: k,
+        });
+        let s = e;
+        (o(Math.floor(Date.now() / 1e3)),
+          i === `workspace` && L != null && (s = (0, Z.default)([...L, ...e], Ye)),
+          be.dispatchMessage(`electron-update-workspace-root-options`, { roots: s }),
+          a(`auto`),
+          (me.current += 1),
+          pe.select(t, { path: e[0], projectId: e[0] }),
+          n(`/`, { replace: !0, state: { focusComposerNonce: me.current } }));
+      }),
+      (e[63] = n),
+      (e[64] = i),
+      (e[65] = B.length),
+      (e[66] = L),
+      (e[67] = t),
+      (e[68] = o),
+      (e[69] = a),
+      (e[70] = k),
+      (e[71] = Je))
+    : (Je = e[71]);
+  let Y = Je,
+    at,
+    st;
+  (e[72] !== Y || e[73] !== We || e[74] !== q || e[75] !== H
+    ? ((at = () => {
+        We || Ke.current || q || (H.length !== 0 && ((Ke.current = !0), Y(H, !0)));
+      }),
+      (st = [Y, We, q, H]),
+      (e[72] = Y),
+      (e[73] = We),
+      (e[74] = q),
+      (e[75] = H),
+      (e[76] = at),
+      (e[77] = st))
+    : ((at = e[76]), (st = e[77])),
+    (0, Q.useEffect)(at, st));
+  let ct;
+  e[78] !== Y || e[79] !== H || e[80] !== I
+    ? ((ct = () => {
+        (I(null), Y(H, !1));
+      }),
+      (e[78] = Y),
+      (e[79] = H),
+      (e[80] = I),
+      (e[81] = ct))
+    : (ct = e[81]);
+  let pt = ct,
+    mt;
+  return (
+    e[82] !== z ||
+    e[83] !== pt ||
+    e[84] !== Oe ||
+    e[85] !== G ||
+    e[86] !== ze ||
+    e[87] !== Re ||
+    e[88] !== He ||
+    e[89] !== Ue ||
+    e[90] !== r ||
+    e[91] !== q ||
+    e[92] !== D ||
+    e[93] !== P ||
+    e[94] !== U ||
+    e[95] !== H ||
+    e[96] !== Ge ||
+    e[97] !== le ||
+    e[98] !== k
+      ? ((mt = (0, $.jsx)(Le, {
+          children: Ge
+            ? (0, $.jsx)(it, {
+                workspaceOnboardingExperimentArm: k,
+                isRemoteHost: D,
+                handleOpenFolder: Oe,
+                handleSkip: G,
+                isSkipPending: P,
+                skipErrorMessage: le,
+              })
+            : (0, $.jsx)(ot, {
+                isLoadingRoots: q,
+                hasAvailableRoots: He,
+                availableOptions: z,
+                selectedRoots: H,
+                selectAllState: U === `indeterminate` ? !1 : U,
+                handleToggleSelectAll: ze,
+                handleToggleWorkspace: Re,
+                intl: r,
+                handleOpenFolder: Oe,
+                hasSelectedRoots: Ue,
+                isRemoteHost: D,
+                handleSkip: G,
+                isSkipPending: P,
+                skipErrorMessage: le,
+                handleContinue: pt,
+                workspaceOnboardingExperimentArm: k,
+              }),
+        })),
+        (e[82] = z),
+        (e[83] = pt),
+        (e[84] = Oe),
+        (e[85] = G),
+        (e[86] = ze),
+        (e[87] = Re),
+        (e[88] = He),
+        (e[89] = Ue),
+        (e[90] = r),
+        (e[91] = q),
+        (e[92] = D),
+        (e[93] = P),
+        (e[94] = U),
+        (e[95] = H),
+        (e[96] = Ge),
+        (e[97] = le),
+        (e[98] = k),
+        (e[99] = mt))
+      : (mt = e[99]),
+    mt
+  );
+}
+function Ye(e) {
+  return C(e);
+}
+function Xe(e) {
+  return C(e);
+}
+function Ze(e) {
+  return C(e);
+}
+function Qe(e) {
+  return e.root;
+}
+function $e(e, t) {
+  return e.localeCompare(t);
+}
+function et(e) {
+  return C(e);
+}
+function tt(e, t) {
+  return e.localeCompare(t);
+}
+function nt(e) {
+  return C(e);
+}
+function rt(e) {
+  return { kind: `local`, key: f(e.id), at: e.createdAt, conversation: e };
+}
+function Y(e) {
+  let t = (0, X.c)(7),
+    { children: n, showIcon: r } = e,
+    i;
+  t[0] === r
+    ? (i = t[1])
+    : ((i = r ? (0, $.jsx)(He, { className: `h-10 w-10`, "aria-hidden": `true` }) : null),
+      (t[0] = r),
+      (t[1] = i));
+  let a, o;
+  t[2] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((a = (0, $.jsx)(U, {
+        id: `electron.onboarding.workspace.title`,
+        defaultMessage: `Select a project`,
+        description: `Title on the desktop onboarding workspace selection page`,
+      })),
+      (o = (0, $.jsx)(U, {
+        id: `electron.onboarding.workspace.subtitle`,
+        defaultMessage: `Codex will be able to edit files and run commands in selected folders.`,
+        description: `Subtitle on the desktop onboarding workspace selection page`,
+      })),
+      (t[2] = a),
+      (t[3] = o))
+    : ((a = t[2]), (o = t[3]));
+  let s;
+  return (
+    t[4] !== n || t[5] !== i
+      ? ((s = (0, $.jsx)(Ve, {
+          className: `max-w-[330px]`,
+          icon: i,
+          textClassName: `gap-6`,
+          title: a,
+          subtitle: o,
+          children: n,
+        })),
+        (t[4] = n),
+        (t[5] = i),
+        (t[6] = s))
+      : (s = t[6]),
+    s
+  );
+}
+function it(e) {
+  let t = (0, X.c)(14),
+    {
+      workspaceOnboardingExperimentArm: n,
+      isRemoteHost: r,
+      handleOpenFolder: i,
+      handleSkip: a,
+      isSkipPending: o,
+      skipErrorMessage: s,
+    } = e,
+    c = W(n) ? `outline` : `primary`,
+    l;
+  t[0] !== i || t[1] !== a || t[2] !== r || t[3] !== c
+    ? ((l = (0, $.jsx)(at, {
+        className: `w-full justify-center py-2.5`,
+        color: c,
+        isRemoteHost: r,
+        onStartFromScratch: a,
+        onUseExistingFolder: i,
+      })),
+      (t[0] = i),
+      (t[1] = a),
+      (t[2] = r),
+      (t[3] = c),
+      (t[4] = l))
+    : (l = t[4]);
+  let u;
+  t[5] !== a || t[6] !== r || t[7] !== o || t[8] !== s || t[9] !== n
+    ? ((u = r
+        ? null
+        : (0, $.jsx)(st, {
+            handleSkip: a,
+            isSkipPending: o,
+            skipErrorMessage: s,
+            workspaceOnboardingExperimentArm: n,
+          })),
+      (t[5] = a),
+      (t[6] = r),
+      (t[7] = o),
+      (t[8] = s),
+      (t[9] = n),
+      (t[10] = u))
+    : (u = t[10]);
+  let d;
+  return (
+    t[11] !== l || t[12] !== u
+      ? ((d = (0, $.jsx)(Y, {
+          showIcon: !0,
+          children: (0, $.jsxs)(`div`, {
+            className: `flex w-full flex-col gap-3`,
+            children: [l, u],
+          }),
+        })),
+        (t[11] = l),
+        (t[12] = u),
+        (t[13] = d))
+      : (d = t[13]),
+    d
+  );
+}
+function at(e) {
+  let t = (0, X.c)(10),
+    {
+      className: n,
+      color: r,
+      isRemoteHost: i,
+      onStartFromScratch: a,
+      onUseExistingFolder: o,
+      size: s,
+    } = e,
+    c = i ? o : void 0,
+    l;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((l = (0, $.jsx)(U, {
+        id: `electron.onboarding.workspace.openFolder`,
+        defaultMessage: `Add project`,
+        description: `Button label to add a workspace during desktop onboarding`,
+      })),
+      (t[0] = l))
+    : (l = t[0]);
+  let u;
+  t[1] !== n || t[2] !== r || t[3] !== s || t[4] !== c
+    ? ((u = (0, $.jsx)(d, { className: n, color: r, size: s, onClick: c, children: l })),
+      (t[1] = n),
+      (t[2] = r),
+      (t[3] = s),
+      (t[4] = c),
+      (t[5] = u))
+    : (u = t[5]);
+  let f = u;
+  if (i) return f;
+  let p;
+  return (
+    t[6] !== a || t[7] !== o || t[8] !== f
+      ? ((p = (0, $.jsx)(We, { triggerButton: f, onStartFromScratch: a, onUseExistingFolder: o })),
+        (t[6] = a),
+        (t[7] = o),
+        (t[8] = f),
+        (t[9] = p))
+      : (p = t[9]),
+    p
+  );
+}
+function ot(e) {
+  let t = (0, X.c)(40),
+    {
+      isLoadingRoots: n,
+      hasAvailableRoots: r,
+      availableOptions: i,
+      selectedRoots: a,
+      selectAllState: o,
+      handleToggleSelectAll: c,
+      handleToggleWorkspace: l,
+      intl: u,
+      handleOpenFolder: f,
+      handleContinue: p,
+      hasSelectedRoots: ee,
+      isRemoteHost: m,
+      handleSkip: h,
+      isSkipPending: g,
+      skipErrorMessage: _,
+      workspaceOnboardingExperimentArm: v,
+    } = e,
+    y;
+  t[0] === a ? (y = t[1]) : ((y = new Set(a)), (t[0] = a), (t[1] = y));
+  let te = y,
+    b;
+  t[2] === n
+    ? (b = t[3])
+    : ((b = n
+        ? (0, $.jsxs)(`div`, {
+            className: `bg-token-surface-primary flex w-full items-center justify-center gap-2 rounded-2xl border border-token-border px-5 py-6`,
+            children: [
+              (0, $.jsx)(ve, { className: `h-4 w-4 text-token-foreground` }),
+              (0, $.jsx)(`span`, {
+                className: `text-sm text-token-description-foreground`,
+                children: (0, $.jsx)(U, {
+                  id: `electron.onboarding.workspace.loading`,
+                  defaultMessage: `Loading projects…`,
+                  description: `Loading state while onboarding workspace options are fetched`,
+                }),
+              }),
+            ],
+          })
+        : null),
+      (t[2] = n),
+      (t[3] = b));
+  let x;
+  t[4] !== i ||
+  t[5] !== c ||
+  t[6] !== l ||
+  t[7] !== r ||
+  t[8] !== u ||
+  t[9] !== n ||
+  t[10] !== m ||
+  t[11] !== o ||
+  t[12] !== te
+    ? ((x = r
+        ? (0, $.jsxs)(Re, {
+            className: s(n && `pointer-events-none opacity-50`),
+            ariaLabel: u.formatMessage({
+              id: `electron.onboarding.workspace.listLabel`,
+              defaultMessage: `Available projects`,
+              description: `Aria label for the available workspaces list during onboarding`,
+            }),
+            children: [
+              (0, $.jsx)(ze, {
+                checkboxId: `workspace-root-select-all`,
+                checkboxClassName: K,
+                checked: o,
+                disabled: n,
+                onCheckedChange: (e) => {
+                  c(e);
+                },
+                label: (0, $.jsx)(U, {
+                  id: `electron.onboarding.workspace.selectAll`,
+                  defaultMessage: `Select all`,
+                  description: `Checkbox label for selecting all workspaces during onboarding`,
+                }),
+              }),
+              i.map((e, t) =>
+                (0, $.jsx)(
+                  ct,
+                  {
+                    index: t,
+                    isDisabled: n,
+                    isSelected: te.has(e.root),
+                    skipExistenceCheck: m,
+                    option: e,
+                    onToggle: l,
+                  },
+                  e.root,
+                ),
+              ),
+            ],
+          })
+        : (0, $.jsx)(`div`, {
+            className: `text-center text-sm text-token-description-foreground`,
+            children: (0, $.jsx)(U, {
+              id: `electron.onboarding.workspace.empty`,
+              defaultMessage: `Add a project to continue.`,
+              description: `Empty state shown when no workspaces are selected during onboarding`,
+            }),
+          })),
+      (t[4] = i),
+      (t[5] = c),
+      (t[6] = l),
+      (t[7] = r),
+      (t[8] = u),
+      (t[9] = n),
+      (t[10] = m),
+      (t[11] = o),
+      (t[12] = te),
+      (t[13] = x))
+    : (x = t[13]);
+  let S;
+  t[14] !== b || t[15] !== x
+    ? ((S = (0, $.jsxs)(`div`, { className: `flex w-full flex-col gap-2`, children: [b, x] })),
+      (t[14] = b),
+      (t[15] = x),
+      (t[16] = S))
+    : (S = t[16]);
+  let C;
+  t[17] !== f || t[18] !== h || t[19] !== m
+    ? ((C = (0, $.jsx)(at, {
+        className: `flex-1 justify-center border-token-button-border bg-transparent text-base leading-6 font-medium whitespace-nowrap enabled:hover:bg-token-foreground/5`,
+        color: `outline`,
+        size: `large`,
+        isRemoteHost: m,
+        onStartFromScratch: h,
+        onUseExistingFolder: f,
+      })),
+      (t[17] = f),
+      (t[18] = h),
+      (t[19] = m),
+      (t[20] = C))
+    : (C = t[20]);
+  let ne = !ee || n,
+    re;
+  t[21] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((re = (0, $.jsx)(U, {
+        id: `electron.onboarding.workspace.continue`,
+        defaultMessage: `Continue`,
+        description: `Button label to continue after selecting workspaces during onboarding`,
+      })),
+      (t[21] = re))
+    : (re = t[21]);
+  let w;
+  t[22] !== p || t[23] !== ne
+    ? ((w = (0, $.jsx)(d, {
+        className: `flex-1 justify-center text-base leading-6 font-medium`,
+        color: `primary`,
+        size: `large`,
+        disabled: ne,
+        onClick: p,
+        children: re,
+      })),
+      (t[22] = p),
+      (t[23] = ne),
+      (t[24] = w))
+    : (w = t[24]);
+  let T;
+  t[25] !== C || t[26] !== w
+    ? ((T = (0, $.jsxs)(`div`, { className: `flex w-full items-center gap-4`, children: [C, w] })),
+      (t[25] = C),
+      (t[26] = w),
+      (t[27] = T))
+    : (T = t[27]);
+  let E;
+  t[28] !== h || t[29] !== m || t[30] !== g || t[31] !== _ || t[32] !== v
+    ? ((E = m
+        ? null
+        : (0, $.jsx)(st, {
+            handleSkip: h,
+            isSkipPending: g,
+            skipErrorMessage: _,
+            workspaceOnboardingExperimentArm: v,
+          })),
+      (t[28] = h),
+      (t[29] = m),
+      (t[30] = g),
+      (t[31] = _),
+      (t[32] = v),
+      (t[33] = E))
+    : (E = t[33]);
+  let D;
+  t[34] !== E || t[35] !== T
+    ? ((D = (0, $.jsxs)(`div`, { className: `flex w-full flex-col gap-3`, children: [T, E] })),
+      (t[34] = E),
+      (t[35] = T),
+      (t[36] = D))
+    : (D = t[36]);
+  let ie;
+  return (
+    t[37] !== D || t[38] !== S
+      ? ((ie = (0, $.jsx)(Y, {
+          showIcon: !1,
+          children: (0, $.jsxs)(`div`, {
+            className: `flex w-full flex-col gap-4`,
+            children: [S, D],
+          }),
+        })),
+        (t[37] = D),
+        (t[38] = S),
+        (t[39] = ie))
+      : (ie = t[39]),
+    ie
+  );
+}
+function st(e) {
+  let t = (0, X.c)(14),
+    {
+      handleSkip: n,
+      isSkipPending: r,
+      skipErrorMessage: i,
+      workspaceOnboardingExperimentArm: a,
+    } = e,
+    o;
+  t[0] === a ? (o = t[1]) : ((o = W(a)), (t[0] = a), (t[1] = o));
+  let s = o,
+    c;
+  t[2] === i
+    ? (c = t[3])
+    : ((c =
+        i == null
+          ? null
+          : (0, $.jsx)(`div`, {
+              className: `text-center text-sm text-token-error-foreground`,
+              children: (0, $.jsx)(U, {
+                id: `electron.onboarding.workspace.skip.error`,
+                defaultMessage: `Couldn't create a new project: {message}`,
+                description: `Error shown when creating a new project fails during onboarding`,
+                values: { message: i },
+              }),
+            })),
+      (t[2] = i),
+      (t[3] = c));
+  let l;
+  t[4] !== r || t[5] !== s
+    ? ((l = r
+        ? s
+          ? (0, $.jsx)(U, {
+              id: `electron.onboarding.workspace.skipping.playground`,
+              defaultMessage: `Opening playground…`,
+              description: `Button label shown while opening Playground during onboarding workspace flow`,
+            })
+          : (0, $.jsx)(U, {
+              id: `electron.onboarding.workspace.skipping`,
+              defaultMessage: `Creating a new project…`,
+              description: `Button label shown while creating a new project during onboarding`,
+            })
+        : s
+          ? (0, $.jsx)(U, {
+              id: `electron.onboarding.workspace.skip.playground`,
+              defaultMessage: `Continue to playground`,
+              description: `Button label to continue to Playground during onboarding`,
+            })
+          : (0, $.jsx)(U, {
+              id: `electron.onboarding.workspace.skip`,
+              defaultMessage: `Skip`,
+              description: `Button label to skip workspace selection during onboarding`,
+            })),
+      (t[4] = r),
+      (t[5] = s),
+      (t[6] = l))
+    : (l = t[6]);
+  let u;
+  t[7] !== n || t[8] !== r || t[9] !== l
+    ? ((u = (0, $.jsx)(d, {
+        className: `w-full justify-center text-base leading-6 font-medium`,
+        color: `ghost`,
+        size: `large`,
+        disabled: r,
+        onClick: n,
+        children: l,
+      })),
+      (t[7] = n),
+      (t[8] = r),
+      (t[9] = l),
+      (t[10] = u))
+    : (u = t[10]);
+  let f;
+  return (
+    t[11] !== c || t[12] !== u
+      ? ((f = (0, $.jsxs)(`div`, {
+          className: `flex w-full flex-col items-center gap-2`,
+          children: [c, u],
+        })),
+        (t[11] = c),
+        (t[12] = u),
+        (t[13] = f))
+      : (f = t[13]),
+    f
+  );
+}
+function ct(e) {
+  let t = (0, X.c)(21),
+    { index: n, isDisabled: r, isSelected: i, skipExistenceCheck: a, option: o, onToggle: s } = e,
+    c = o.root,
+    l;
+  t[0] === c ? (l = t[1]) : ((l = ge(c)), (t[0] = c), (t[1] = l));
+  let u = l,
+    d = C(c).replace(/\/+$/, ``),
+    f,
+    p;
+  t[2] === c
+    ? ((f = t[3]), (p = t[4]))
+    : ((f = { hostId: ae, paths: [c] }),
+      (p = { existingPaths: [c] }),
+      (t[2] = c),
+      (t[3] = f),
+      (t[4] = p));
+  let ee = !a,
+    m;
+  t[5] === ee ? (m = t[6]) : ((m = { enabled: ee }), (t[5] = ee), (t[6] = m));
+  let h;
+  t[7] !== f || t[8] !== p || t[9] !== m
+    ? ((h = { params: f, placeholderData: p, queryConfig: m }),
+      (t[7] = f),
+      (t[8] = p),
+      (t[9] = m),
+      (t[10] = h))
+    : (h = t[10]);
+  let { data: g } = me(`paths-exist`, h);
+  if (!(a || (g?.existingPaths ?? []).some((e) => C(e).replace(/\/+$/, ``) === d))) return null;
+  let _ = `workspace-root-${n}`,
+    v;
+  t[11] !== s || t[12] !== c
+    ? ((v = (e) => {
+        s(c, e);
+      }),
+      (t[11] = s),
+      (t[12] = c),
+      (t[13] = v))
+    : (v = t[13]);
+  let y;
+  return (
+    t[14] !== _ || t[15] !== u || t[16] !== r || t[17] !== i || t[18] !== o.label || t[19] !== v
+      ? ((y = (0, $.jsx)(ze, {
+          checkboxId: _,
+          checkboxClassName: K,
+          checked: i,
+          disabled: r,
+          onCheckedChange: v,
+          label: o.label,
+          description: u,
+        })),
+        (t[14] = _),
+        (t[15] = u),
+        (t[16] = r),
+        (t[17] = i),
+        (t[18] = o.label),
+        (t[19] = v),
+        (t[20] = y))
+      : (y = t[20]),
+    y
+  );
+}
+function lt(e, t) {
+  let n = 0;
+  for (let r of t) e[r] && (n += 1);
+  return n;
+}
+function ut(e) {
+  let t = [];
+  return (
+    (e ?? []).forEach((e) => {
+      switch (e.kind) {
+        case `local`: {
+          let n = e.conversation.cwd;
+          n && t.push(n);
+          return;
+        }
+        case `pending-worktree`: {
+          let n =
+            e.pendingWorktree.startConversationParamsInput?.cwd ??
+            e.pendingWorktree.sourceWorkspaceRoot;
+          n && t.push(n);
+          return;
+        }
+        case `remote`:
+          return;
+      }
+    }),
+    t
+  );
+}
+function dt({ tasks: e, gitOrigins: t, codexHome: n }) {
+  let r = ut(e);
+  if (r.length === 0) return [];
+  let i = t ?? [];
+  return (0, Z.default)(
+    r
+      .map((e) => {
+        let t = fe(e, i);
+        return !t?.root || !B(t.root, n)
+          ? e
+          : (i.reduce(
+              (e, r) =>
+                !t.originUrl || r.originUrl !== t.originUrl || B(r.root, n)
+                  ? e
+                  : e
+                    ? r.root.length > e.length
+                      ? r.root
+                      : e
+                    : r.root,
+              null,
+            ) ?? t.root);
+      })
+      .filter((e) => !!e),
+    (e) => C(e).replace(/\/+$/, ``),
+  );
+}
+function ft(e) {
+  return k(e);
+}
+var X, Z, Q, $;
+e(() => {
+  ((X = V()),
+    _e(),
+    o(),
+    M(),
+    O(),
+    (Z = t(ue(), 1)),
+    i(),
+    I(),
+    (Q = t(y(), 1)),
+    R(),
+    z(),
+    F(),
+    le(),
+    S(),
+    a(),
+    p(),
+    b(),
+    Me(),
+    Ue(),
+    Ce(),
+    de(),
+    Pe(),
+    u(),
+    qe(),
+    r(),
+    oe(),
+    se(),
+    L(),
+    w(),
+    Te(),
+    n(),
+    Be(),
+    De(),
+    G(),
+    ($ = c()));
+})();
+export { Je as SelectWorkspacePage };
+//# sourceMappingURL=select-workspace-page.js.map

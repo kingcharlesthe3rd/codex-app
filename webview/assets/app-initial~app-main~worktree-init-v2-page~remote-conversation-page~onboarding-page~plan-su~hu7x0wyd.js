@@ -1,0 +1,225 @@
+import { n as e, s as t } from "./rolldown-runtime.js";
+import {
+  BP as n,
+  BV as r,
+  Gj as i,
+  JV as a,
+  Uj as o,
+  VP as s,
+  Yj as c,
+  iF as l,
+  qV as u,
+  sF as d,
+} from "./app-initial~app-main~remote-conversation-page~plugin-detail-page~new-thread-panel-page~appg~ijdupmx5.js";
+var f,
+  p,
+  m,
+  h,
+  g,
+  _,
+  v,
+  y = e(() => {
+    ((f = `_cadencedShimmer_18j3y_1`),
+      (p = `_cadencedShimmerSweep_18j3y_12`),
+      (m = `_cadencedShimmerHighlight_18j3y_37`),
+      (h = `_cadencedShimmerActive_18j3y_46`),
+      (g = `_cadencedLoadingShimmerSweep_18j3y_1`),
+      (_ = `_cadencedLoadingShimmerHighlight_18j3y_1`),
+      (v = {
+        cadencedShimmer: f,
+        cadencedShimmerSweep: p,
+        cadencedShimmerHighlight: m,
+        cadencedShimmerActive: h,
+        cadencedLoadingShimmerSweep: g,
+        cadencedLoadingShimmerHighlight: _,
+      }));
+  });
+function b(e) {
+  let t = (0, C.c)(13),
+    n,
+    r,
+    i,
+    a;
+  if (
+    (t[0] === e
+      ? ((n = t[1]), (r = t[2]), (i = t[3]), (a = t[4]))
+      : (({ active: a, className: r, children: n, ...i } = e),
+        (t[0] = e),
+        (t[1] = n),
+        (t[2] = r),
+        (t[3] = i),
+        (t[4] = a)),
+    !(a === void 0 || a))
+  ) {
+    let e;
+    return (
+      t[5] !== n || t[6] !== r || t[7] !== i
+        ? ((e = (0, T.jsx)(`span`, { className: r, ...i, children: n })),
+          (t[5] = n),
+          (t[6] = r),
+          (t[7] = i),
+          (t[8] = e))
+        : (e = t[8]),
+      e
+    );
+  }
+  let o;
+  return (
+    t[9] !== n || t[10] !== r || t[11] !== i
+      ? ((o = (0, T.jsx)(x, { className: r, ...i, children: n })),
+        (t[9] = n),
+        (t[10] = r),
+        (t[11] = i),
+        (t[12] = o))
+      : (o = t[12]),
+    o
+  );
+}
+function x(e) {
+  let t = (0, C.c)(21),
+    r,
+    i,
+    a;
+  t[0] === e
+    ? ((r = t[1]), (i = t[2]), (a = t[3]))
+    : (({ className: i, children: r, ...a } = e), (t[0] = e), (t[1] = r), (t[2] = i), (t[3] = a));
+  let s = c(),
+    l = (0, w.useRef)(null),
+    u;
+  if (t[4] !== s) {
+    let e = o(s, `1585730870`);
+    ((u = e.get(`shimmer_variant`, null) === k || e.groupName === k), (t[4] = s), (t[5] = u));
+  } else u = t[5];
+  let d = u,
+    f,
+    p;
+  (t[6] === d
+    ? ((f = t[7]), (p = t[8]))
+    : ((f = () => {
+        if (!d || window.matchMedia(`(prefers-reduced-motion: reduce)`).matches) return;
+        let e = l.current;
+        if (e == null) return;
+        let t,
+          n = () => {
+            t != null && (window.clearTimeout(t), (t = void 0));
+          },
+          r = () => {
+            (n(),
+              e.classList.remove(v.cadencedShimmerActive),
+              e.classList.add(v.cadencedShimmerActive),
+              (t = window.setTimeout(() => {
+                (e.classList.remove(v.cadencedShimmerActive), (t = void 0));
+              }, E)));
+          },
+          i,
+          a = window.setTimeout(() => {
+            (r(), (i = window.setInterval(r, D)));
+          }, O);
+        return () => {
+          (n(),
+            window.clearTimeout(a),
+            i != null && window.clearInterval(i),
+            e.classList.remove(v.cadencedShimmerActive));
+        };
+      }),
+      (p = [d]),
+      (t[6] = d),
+      (t[7] = f),
+      (t[8] = p)),
+    (0, w.useEffect)(f, p));
+  let m = d ? l : void 0,
+    h = d && v.cadencedShimmer,
+    g;
+  t[9] !== i || t[10] !== h
+    ? ((g = n(`loading-shimmer-pure-text`, h, i)), (t[9] = i), (t[10] = h), (t[11] = g))
+    : (g = t[11]);
+  let _;
+  t[12] !== r || t[13] !== d
+    ? ((_ = d
+        ? (0, T.jsx)(`span`, {
+            "aria-hidden": !0,
+            className: v.cadencedShimmerSweep,
+            children: (0, T.jsx)(`span`, { className: v.cadencedShimmerHighlight, children: r }),
+          })
+        : null),
+      (t[12] = r),
+      (t[13] = d),
+      (t[14] = _))
+    : (_ = t[14]);
+  let y;
+  return (
+    t[15] !== r || t[16] !== a || t[17] !== m || t[18] !== g || t[19] !== _
+      ? ((y = (0, T.jsxs)(`span`, { ref: m, className: g, ...a, children: [r, _] })),
+        (t[15] = r),
+        (t[16] = a),
+        (t[17] = m),
+        (t[18] = g),
+        (t[19] = _),
+        (t[20] = y))
+      : (y = t[20]),
+    y
+  );
+}
+function S(e) {
+  let t = (0, C.c)(12),
+    r,
+    i,
+    a;
+  t[0] === e
+    ? ((r = t[1]), (i = t[2]), (a = t[3]))
+    : (({ className: r, message: i, ...a } = e), (t[0] = e), (t[1] = r), (t[2] = i), (t[3] = a));
+  let o;
+  t[4] === r
+    ? (o = t[5])
+    : ((o = n(
+        `text-size-chat leading-[calc(var(--codex-chat-font-size)_+_8px)] select-none truncate`,
+        r,
+      )),
+      (t[4] = r),
+      (t[5] = o));
+  let s;
+  t[6] === i
+    ? (s = t[7])
+    : ((s =
+        i ??
+        (0, T.jsx)(d, {
+          id: `thinkingShimmer.default`,
+          defaultMessage: `Thinking`,
+          description: `Default placeholder shown while the assistant is thinking`,
+        })),
+      (t[6] = i),
+      (t[7] = s));
+  let c;
+  return (
+    t[8] !== a || t[9] !== o || t[10] !== s
+      ? ((c = (0, T.jsx)(b, { className: o, ...a, children: s })),
+        (t[8] = a),
+        (t[9] = o),
+        (t[10] = s),
+        (t[11] = c))
+      : (c = t[11]),
+    c
+  );
+}
+var C,
+  w,
+  T,
+  E,
+  D,
+  O,
+  k,
+  A = e(() => {
+    ((C = u()),
+      s(),
+      (w = t(a(), 1)),
+      l(),
+      i(),
+      y(),
+      (T = r()),
+      (E = 1e3),
+      (D = 4e3),
+      (O = 600),
+      (k = `cadenced_legacy`));
+  });
+export { S as n, A as r, b as t };
+//# sourceMappingURL=app-initial~app-main~worktree-init-v2-page~remote-conversation-page~onboarding-page~plan-su~hu7x0wyd.js.map

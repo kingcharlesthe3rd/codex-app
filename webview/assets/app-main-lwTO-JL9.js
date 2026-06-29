@@ -1,2 +1,126 @@
-import{n as e,s as t}from"./rolldown-runtime-Czos8NxU.js";import{BV as n,GA as r,JV as i,WA as a,cP as o,lP as s,mP as c,pP as l}from"./app-initial~app-main~remote-conversation-page~plugin-detail-page~new-thread-panel-page~appg~ijdupmx5-CdYgxe-b.js";import{So as u,Xd as d,bo as f,wo as p,xo as m}from"./app-initial~app-main~remote-conversation-page~new-thread-panel-page~projects-index-page~app~ovcriy74-KTK3czaX.js";import{Ln as h,Rn as g,c as _,i as v,n as y,r as b,s as x,t as S}from"./app-initial~app-main~automations-page-bHJfYUGr.js";import{t as C}from"./app-K22tSs_z.js";import{Ja as w,do as T,qa as E,uo as D}from"./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~new-~kvpgbdy1-mhRp2VYQ.js";import{A as O,j as k}from"./app-initial~app-main~worktree-init-v2-page~appgen-publication-terms-route~remote-conversati~oykv7gy7-B4ar2dlW.js";import{n as A,t as j}from"./app-initial~app-main~register-app-actions-CgjL-zeV.js";async function M(){await N(),await r(),c.info(`[statsig-refresh-diagnostics] React root render requested`,{safe:{windowType:`electron`}}),U.render((0,L.jsx)(F.StrictMode,{children:(0,L.jsx)(E,{name:`App`,fallback:(0,L.jsx)(h,{}),children:(0,L.jsx)(x,{})})}))}async function N(){}function P(){let e=navigator,t=e.userAgentData?.platform?.toLowerCase()??e.platform?.toLowerCase()??e.userAgent.toLowerCase();return t.includes(`win`)?`win32`:t.includes(`mac`)||t.includes(`darwin`)?`darwin`:t.includes(`linux`)?`linux`:`unknown`}var F,I,L,R,z,B,V,H,U;e((()=>{if(F=t(i(),1),I=d(),j(),u(),w(),g(),m(),O(),_(),o(),b(),a(),T(),S(),l(),C(),L=n(),R=p(),z=new URL(window.location.href).searchParams,B=P(),k(v),A(y),document.documentElement.dataset.codexWindowType=`electron`,document.documentElement.dataset.windowType=`electron`,document.documentElement.dataset.codexOs=B,document.documentElement.dataset.codexWindowChrome=f(`electron`,B),z.get(`mcpAppSandboxDevtools`)===`1`&&(document.documentElement.dataset.mcpAppSandboxDevtools=`true`),R&&document.documentElement.classList.add(`compact-window`),D(),window.addEventListener(`error`,e=>{let t=e?.error?.stack??e?.error?.message??e?.message??`Unknown error`;s.dispatchMessage(`log-message`,{level:`error`,message:`[desktop-notifications][global-error] ${String(t)}`})}),window.addEventListener(`unhandledrejection`,e=>{let t=e.reason,n=typeof t==`object`&&t?t.stack??t.message??JSON.stringify(t):String(t);s.dispatchMessage(`log-message`,{level:`error`,message:`[desktop-notifications][unhandled-rejection] ${n}`})}),V=document.getElementById(`root`),!V)throw Error(`Root container not found`);H=window,H.__codexRoot||=(0,I.createRoot)(V),U=H.__codexRoot,M()}))();
+import { n as e, s as t } from "./rolldown-runtime.js";
+import {
+  BV as n,
+  GA as r,
+  JV as i,
+  WA as a,
+  cP as o,
+  lP as s,
+  mP as c,
+  pP as l,
+} from "./app-initial~app-main~remote-conversation-page~plugin-detail-page~new-thread-panel-page~appg~ijdupmx5.js";
+import {
+  So as u,
+  Xd as d,
+  bo as f,
+  wo as p,
+  xo as m,
+} from "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~projects-index-page~app~ovcriy74.js";
+import {
+  Ln as h,
+  Rn as g,
+  c as _,
+  i as v,
+  n as y,
+  r as b,
+  s as x,
+  t as S,
+} from "./app-initial~app-main~automations-page.js";
+import { t as C } from "./app.js";
+import {
+  Ja as w,
+  do as T,
+  qa as E,
+  uo as D,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~new-~kvpgbdy1.js";
+import {
+  A as O,
+  j as k,
+} from "./app-initial~app-main~worktree-init-v2-page~appgen-publication-terms-route~remote-conversati~oykv7gy7.js";
+import { n as A, t as j } from "./app-initial~app-main~register-app-actions-CgjL-zeV.js";
+async function M() {
+  (await N(),
+    await r(),
+    c.info(`[statsig-refresh-diagnostics] React root render requested`, {
+      safe: { windowType: `electron` },
+    }),
+    U.render(
+      (0, L.jsx)(F.StrictMode, {
+        children: (0, L.jsx)(E, {
+          name: `App`,
+          fallback: (0, L.jsx)(h, {}),
+          children: (0, L.jsx)(x, {}),
+        }),
+      }),
+    ));
+}
+async function N() {}
+function P() {
+  let e = navigator,
+    t =
+      e.userAgentData?.platform?.toLowerCase() ??
+      e.platform?.toLowerCase() ??
+      e.userAgent.toLowerCase();
+  return t.includes(`win`)
+    ? `win32`
+    : t.includes(`mac`) || t.includes(`darwin`)
+      ? `darwin`
+      : t.includes(`linux`)
+        ? `linux`
+        : `unknown`;
+}
+var F, I, L, R, z, B, V, H, U;
+e(() => {
+  if (
+    ((F = t(i(), 1)),
+    (I = d()),
+    j(),
+    u(),
+    w(),
+    g(),
+    m(),
+    O(),
+    _(),
+    o(),
+    b(),
+    a(),
+    T(),
+    S(),
+    l(),
+    C(),
+    (L = n()),
+    (R = p()),
+    (z = new URL(window.location.href).searchParams),
+    (B = P()),
+    k(v),
+    A(y),
+    (document.documentElement.dataset.codexWindowType = `electron`),
+    (document.documentElement.dataset.windowType = `electron`),
+    (document.documentElement.dataset.codexOs = B),
+    (document.documentElement.dataset.codexWindowChrome = f(`electron`, B)),
+    z.get(`mcpAppSandboxDevtools`) === `1` &&
+      (document.documentElement.dataset.mcpAppSandboxDevtools = `true`),
+    R && document.documentElement.classList.add(`compact-window`),
+    D(),
+    window.addEventListener(`error`, (e) => {
+      let t = e?.error?.stack ?? e?.error?.message ?? e?.message ?? `Unknown error`;
+      s.dispatchMessage(`log-message`, {
+        level: `error`,
+        message: `[desktop-notifications][global-error] ${String(t)}`,
+      });
+    }),
+    window.addEventListener(`unhandledrejection`, (e) => {
+      let t = e.reason,
+        n = typeof t == `object` && t ? (t.stack ?? t.message ?? JSON.stringify(t)) : String(t);
+      s.dispatchMessage(`log-message`, {
+        level: `error`,
+        message: `[desktop-notifications][unhandled-rejection] ${n}`,
+      });
+    }),
+    (V = document.getElementById(`root`)),
+    !V)
+  )
+    throw Error(`Root container not found`);
+  ((H = window), (H.__codexRoot ||= (0, I.createRoot)(V)), (U = H.__codexRoot), M());
+})();
 //# sourceMappingURL=app-main-lwTO-JL9.js.map

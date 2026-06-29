@@ -1,0 +1,138 @@
+import { n as e } from "./rolldown-runtime.js";
+import {
+  BP as t,
+  BV as n,
+  VP as r,
+  qV as i,
+} from "./app-initial~app-main~remote-conversation-page~plugin-detail-page~new-thread-panel-page~appg~ijdupmx5.js";
+import { n as a, t as o } from "./page-search-input.js";
+function s(e) {
+  let n = (0, l.c)(29),
+    {
+      children: r,
+      contentClassName: i,
+      controls: a,
+      headerVariant: s,
+      scrollContainerRef: c,
+      search: d,
+      subtitle: f,
+      title: p,
+      titleRef: m,
+    } = e,
+    h = s === `inset` ? `gap-2 px-2` : `gap-1`,
+    g;
+  n[0] === h ? (g = n[1]) : ((g = t(`flex flex-col`, h)), (n[0] = h), (n[1] = g));
+  let _;
+  n[2] !== p || n[3] !== m
+    ? ((_ = (0, u.jsx)(`h1`, {
+        ref: m,
+        className: `heading-xl font-normal text-token-foreground`,
+        children: p,
+      })),
+      (n[2] = p),
+      (n[3] = m),
+      (n[4] = _))
+    : (_ = n[4]);
+  let v;
+  n[5] === f
+    ? (v = n[6])
+    : ((v = (0, u.jsx)(`div`, {
+        className: `text-lg leading-6 text-token-text-secondary`,
+        children: f,
+      })),
+      (n[5] = f),
+      (n[6] = v));
+  let y;
+  n[7] !== g || n[8] !== _ || n[9] !== v
+    ? ((y = (0, u.jsx)(`div`, {
+        className: `mx-auto w-full max-w-[var(--thread-content-max-width)] px-panel pt-panel pb-4`,
+        children: (0, u.jsxs)(`div`, { className: g, children: [_, v] }),
+      })),
+      (n[7] = g),
+      (n[8] = _),
+      (n[9] = v),
+      (n[10] = y))
+    : (y = n[10]);
+  let b;
+  n[11] === d.className
+    ? (b = n[12])
+    : ((b = t(`w-full min-w-0`, d.className)), (n[11] = d.className), (n[12] = b));
+  let x;
+  n[13] !== d || n[14] !== b
+    ? ((x = (0, u.jsx)(`div`, {
+        className: `sticky top-0 z-30 bg-token-main-surface-primary after:pointer-events-none after:absolute after:top-full after:right-0 after:left-0 after:h-8 after:bg-linear-to-b after:from-token-main-surface-primary after:to-transparent after:content-['']`,
+        children: (0, u.jsx)(`div`, {
+          className: `mx-auto w-full max-w-[var(--thread-content-max-width)] px-panel pb-2`,
+          children: (0, u.jsx)(o, { ...d, className: b, variant: `composer` }),
+        }),
+      })),
+      (n[13] = d),
+      (n[14] = b),
+      (n[15] = x))
+    : (x = n[15]);
+  let S;
+  n[16] === i
+    ? (S = n[17])
+    : ((S = t(
+        `mx-auto flex min-h-0 w-full max-w-[var(--thread-content-max-width)] flex-1 flex-col px-panel pt-5 pb-panel`,
+        i,
+      )),
+      (n[16] = i),
+      (n[17] = S));
+  let C;
+  n[18] !== r || n[19] !== a || n[20] !== S
+    ? ((C = (0, u.jsxs)(`div`, { className: S, children: [a, r] })),
+      (n[18] = r),
+      (n[19] = a),
+      (n[20] = S),
+      (n[21] = C))
+    : (C = n[21]);
+  let w;
+  n[22] !== y || n[23] !== x || n[24] !== C
+    ? ((w = (0, u.jsxs)(`div`, {
+        className: `flex min-h-full w-full flex-col`,
+        children: [y, x, C],
+      })),
+      (n[22] = y),
+      (n[23] = x),
+      (n[24] = C),
+      (n[25] = w))
+    : (w = n[25]);
+  let T;
+  return (
+    n[26] !== c || n[27] !== w
+      ? ((T = (0, u.jsx)(`div`, {
+          ref: c,
+          className: `relative h-full min-h-0 flex-1 overflow-y-auto [scrollbar-gutter:stable]`,
+          children: w,
+        })),
+        (n[26] = c),
+        (n[27] = w),
+        (n[28] = T))
+      : (T = n[28]),
+    T
+  );
+}
+function c(e) {
+  let t = (0, l.c)(2),
+    { children: n } = e,
+    r;
+  return (
+    t[0] === n
+      ? (r = t[1])
+      : ((r = (0, u.jsx)(`div`, {
+          className: `flex items-center justify-between gap-4 px-3 pb-2`,
+          children: n,
+        })),
+        (t[0] = n),
+        (t[1] = r)),
+    r
+  );
+}
+var l,
+  u,
+  d = e(() => {
+    ((l = i()), r(), a(), (u = n()));
+  });
+export { s as n, d as r, c as t };
+//# sourceMappingURL=searchable-page-layout.js.map
