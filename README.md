@@ -2,6 +2,13 @@
 
 This repository tracks unpacked releases of the Codex macOS desktop app.
 
+## Notice
+
+This repository is provided for educational and research use only. It is not
+affiliated with or endorsed by OpenAI, and it should not be used to redistribute
+the Codex desktop app or bypass any applicable licenses, terms, or access
+controls.
+
 The `main` branch contains the polling workflow and helper scripts. Version
 branches start from this initial README commit, then add the unpacked Electron
 application contents for a specific downloaded DMG.
