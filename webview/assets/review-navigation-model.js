@@ -1,0 +1,1863 @@
+import { s as e } from "./chunk.js";
+import {
+  O as t,
+  _ as n,
+  c as r,
+  g as i,
+  l as a,
+  m as o,
+  p as s,
+  t as c,
+} from "./app-scope-CWE-zIhQ.js";
+import { Mt as l, jt as u } from "./use-host-config.js";
+import {
+  $n as d,
+  An as f,
+  Fn as p,
+  Hi as m,
+  In as h,
+  Nn as g,
+  Un as ee,
+  Wn as _,
+  Xn as v,
+  Zn as te,
+  jn as y,
+} from "./thread-context-inputs.js";
+import { u as b } from "./vscode-api.js";
+import { t as ne } from "./isEqual.js";
+import { Rr as re, _n as ie } from "./src-3.js";
+import { M as ae, a as oe } from "./app-shell-state.js";
+import { A as se, I as x, L as ce, M as le, T as ue } from "./rpc-1.js";
+import { f as S, h as de, t as fe } from "./persisted-signal.js";
+import { r as pe } from "./diff-view-mode.js";
+import { r as me } from "./app-shell-tab-controller.js";
+import { t as he } from "./store.js";
+import { i as ge, t as _e } from "./parse-diff.js";
+import { t as ve } from "./sumBy.js";
+import { a as C, n as w, r as T } from "./thread-context.js";
+import { n as ye, r as be, t as xe } from "./project-context-signal.js";
+function E(e) {
+  return e === `staged` || e === `unstaged`;
+}
+var D = fe(`diff-filter`, `unstaged`);
+function Se(e, t = {}) {
+  return he.prepareInput(e, t);
+}
+var Ce = `⁣`;
+function we(e) {
+  let t = new Set();
+  for (let { displayPath: n } of e) {
+    let e = n.split(`/`);
+    for (let n = 1; n < e.length; n += 1) t.add(e.slice(0, n).join(`/`));
+  }
+  if (!e.some((e) => t.has(e.displayPath))) return e;
+  let n = new Set(e.map((e) => e.displayPath));
+  return e.map((e) => {
+    if (!t.has(e.displayPath)) return e;
+    let r = `${e.displayPath}${Ce}`;
+    for (; n.has(r) || t.has(r); ) r = `${r}${Ce}`;
+    return (n.add(r), { ...e, displayPath: r });
+  });
+}
+var O = new Map(),
+  Te = 16,
+  Ee = `load-failed`,
+  De = 15e3,
+  Oe = `timed-out`;
+function ke({
+  baseBranch: e,
+  changeKind: t,
+  commitSha: n = null,
+  cwd: r,
+  hostConfig: i,
+  hideWhitespace: a,
+  path: o,
+  previousPath: s,
+  signal: c,
+  source: l,
+}) {
+  return c?.aborted
+    ? Promise.reject(m())
+    : new Promise((u, d) => {
+        let f = `${v(i)}:${r}:${l}:${e ?? ``}:${n ?? ``}:${a}`,
+          p = O.get(f) ?? {
+            abortControllers: null,
+            baseBranch: e,
+            commitSha: n,
+            cwd: r,
+            flushTimeoutId: null,
+            hideWhitespace: a,
+            hostConfig: i,
+            paths: new Map(),
+            requestKey: f,
+            source: l,
+          },
+          h = {
+            changeKind: t,
+            disposeAbortListener: () => {},
+            previousPath: s ?? null,
+            reject: d,
+            resolve: u,
+          };
+        h.disposeAbortListener = je({
+          abortPathRequest: () => {
+            Me({ path: o, pendingRequest: p, pathRequest: h });
+          },
+          signal: c,
+        });
+        let g = p.paths.get(o);
+        (g != null && (g.disposeAbortListener(), g.reject(m())),
+          p.paths.set(o, h),
+          !O.has(f) &&
+            (O.set(f, p),
+            (p.flushTimeoutId = setTimeout(() => {
+              ((p.flushTimeoutId = null), Ne(f));
+            }, Te))));
+      });
+}
+function Ae(e) {
+  return [
+    e.filter((e) => e.changeKind !== `untracked`),
+    e.filter((e) => e.changeKind === `untracked`),
+  ].filter((e) => e.length > 0);
+}
+function je({ abortPathRequest: e, signal: t }) {
+  return t == null
+    ? () => {}
+    : (t.addEventListener(`abort`, e, { once: !0 }),
+      () => {
+        t.removeEventListener(`abort`, e);
+      });
+}
+function Me({ path: e, pathRequest: t, pendingRequest: n }) {
+  if (
+    n.paths.get(e) === t &&
+    (t.disposeAbortListener(), n.paths.delete(e), t.reject(m()), !(n.paths.size > 0))
+  ) {
+    if (n.abortControllers != null) {
+      for (let e of n.abortControllers) e.abort();
+      return;
+    }
+    (n.flushTimeoutId != null && (clearTimeout(n.flushTimeoutId), (n.flushTimeoutId = null)),
+      O.delete(n.requestKey));
+  }
+}
+async function Ne(e) {
+  let t = O.get(e);
+  if (t == null || (O.delete(e), t.paths.size === 0)) return;
+  let n = new Set();
+  t.abortControllers = n;
+  try {
+    let e = Ae(
+      [...t.paths.entries()].map(([e, t]) => ({
+        path: e,
+        changeKind: t.changeKind,
+        ...(t.previousPath == null ? {} : { previousPath: t.previousPath }),
+      })),
+    );
+    await Promise.allSettled(
+      e.map(async (e) => {
+        let r = new AbortController(),
+          i = null;
+        n.add(r);
+        try {
+          Pe({
+            diffs: (
+              await Promise.race([
+                d(`git`).request({
+                  method: `review-diff`,
+                  params: {
+                    ...Ie({
+                      cwd: t.cwd,
+                      hideWhitespace: t.hideWhitespace,
+                      source: t.source,
+                      baseBranch: t.baseBranch,
+                      commitSha: t.commitSha,
+                    }),
+                    files: e,
+                    hostConfig: t.hostConfig,
+                    operationSource: `review_model`,
+                  },
+                  signal: r.signal,
+                }),
+                new Promise((e, t) => {
+                  i = setTimeout(() => {
+                    (t(Error(Oe)), r.abort());
+                  }, De);
+                }),
+              ])
+            ).diffs,
+            files: e,
+            hideWhitespace: t.hideWhitespace,
+            pendingRequest: t,
+          });
+        } catch (n) {
+          Fe({ error: n instanceof Error ? n : Error(String(n)), files: e, pendingRequest: t });
+        } finally {
+          (i != null && clearTimeout(i), n.delete(r));
+        }
+      }),
+    );
+  } finally {
+    for (let [, e] of t.paths) e.disposeAbortListener();
+    ((t.abortControllers = null), t.paths.clear());
+  }
+}
+function Pe({ diffs: e, files: t, hideWhitespace: n, pendingRequest: r }) {
+  for (let i of t) {
+    let t = r.paths.get(i.path),
+      a = e[i.path];
+    if (t != null) {
+      if (a?.type === `success` && (a.diff.trim().length > 0 || n)) {
+        t.resolve(a);
+        continue;
+      }
+      t.reject(Error(Ee));
+    }
+  }
+}
+function Fe({ error: e, files: t, pendingRequest: n }) {
+  for (let r of t) n.paths.get(r.path)?.reject(e);
+}
+function Ie({ baseBranch: e, commitSha: t, cwd: n, hideWhitespace: r, source: i }) {
+  return {
+    cwd: ie(n),
+    ...(r ? { hideWhitespace: r } : {}),
+    source: i,
+    ...(i === `branch` && e != null ? { baseBranch: e } : {}),
+    ...(i === `commit` && t != null ? { commitSha: t } : {}),
+  };
+}
+var Le = e(re(), 1);
+function Re({ cwd: e, path: t }) {
+  if (e == null || !le(t)) return t;
+  let n = x(Le.default.relative(ce(``, e), t));
+  return n === `` ? se(t) : n;
+}
+function ze({ gitRoot: e, gitPath: t }) {
+  let n = x(t);
+  return e == null ? n : x(ce(e, n));
+}
+var Be = i(S, null);
+function Ve(e, t) {
+  (e.set(Be, null), e.set(D, t));
+}
+var He = e(ne(), 1),
+  Ue = new WeakMap(),
+  We = i(S, null),
+  Ge = i(S, null),
+  k = i(S, null),
+  Ke = r(S, ({ get: e }) => e(Ge)),
+  qe = n(c, (e) => null),
+  Je = r(S, ({ get: e, scope: t }) => e(qe, de(t.value))),
+  Ye = 3,
+  Xe = 300,
+  Ze = 1e3,
+  Qe = 30,
+  $e = Error(`Review summary failed`),
+  et = i(S, !1),
+  A = be,
+  tt = o(S, ({ get: e }) => te(e(Ge), e(C), e(T), `review_model`, { watchForGitInit: !0 })),
+  nt = r(S, ({ get: e }) => e(tt).data?.root ?? e(Ge)),
+  rt = s(c, (e) =>
+    y(
+      `base-branch`,
+      { commonDir: e.commonDir, root: e.root },
+      { operationSource: `review_model`, root: e.root },
+      v(e.hostConfig),
+      e.hostConfig,
+    ),
+  ),
+  j = r(S, ({ get: e }) => {
+    let t = e(A),
+      n = t.data ?? null;
+    return n == null ? _(t) : e(rt, { commonDir: n.commonDir, hostConfig: e(T), root: n.root });
+  }),
+  it = ye,
+  at = o(S, ({ get: e }) => {
+    let t = e(T),
+      n = e(C),
+      r = e(A).data ?? null;
+    return y(
+      `recent-branches`,
+      r,
+      r == null ? null : { limit: Qe, operationSource: `review_model`, root: r.root },
+      n,
+      t,
+    );
+  }),
+  M = r(S, ({ get: e }) => At(e(j).data ?? null, e(Je))),
+  ot = o(S, ({ get: e }) => {
+    let t = e(T),
+      n = e(C),
+      r = e(A).data ?? null,
+      i = e(M);
+    return y(
+      `branch-commits`,
+      r,
+      r == null
+        ? null
+        : {
+            ...(i == null ? {} : { baseBranch: i }),
+            operationSource: `review_model`,
+            root: r.root,
+          },
+      n,
+      t,
+      { staleTime: b.FIVE_SECONDS },
+    );
+  }),
+  st = s(c, (e) =>
+    y(
+      `index-info`,
+      { commonDir: e.commonDir, root: e.root },
+      { cwd: ie(e.cwd), operationSource: `review_model` },
+      v(e.hostConfig),
+      e.hostConfig,
+      { refetchOnWindowFocus: `always`, staleTime: b.FIVE_SECONDS },
+    ),
+  ),
+  ct = r(S, ({ get: e }) => {
+    let t = e(_t),
+      n = e(w);
+    if (!t || n == null) return ee();
+    let r = e(A),
+      i = r.data ?? null;
+    return i == null
+      ? _(r)
+      : e(st, { commonDir: i.commonDir, cwd: n, hostConfig: e(T), root: i.root });
+  }),
+  lt = s(c, (e) =>
+    y(
+      `review-summary`,
+      { commonDir: e.commonDir, root: e.root },
+      {
+        ...yt({
+          cwd: e.cwd,
+          hideWhitespace: e.hideWhitespace,
+          source: e.source,
+          baseBranch: e.baseBranch,
+          commitSha: e.commitSha,
+        }),
+        includeUntrackedFiles: e.includeUntrackedFiles,
+      },
+      v(e.hostConfig),
+      e.hostConfig,
+      {
+        enabled: e.enabled,
+        refetchInterval: (e) => (e.state.data?.type === `error` ? Ze : !1),
+        refetchIntervalInBackground: !0,
+        refetchOnWindowFocus: `always`,
+        staleTime: b.FIVE_SECONDS,
+      },
+    ),
+  ),
+  ut = s(c, (e) =>
+    y(
+      `branch-diff-stats`,
+      { commonDir: e.commonDir, root: e.root },
+      {
+        cwd: ie(e.cwd),
+        ...(e.baseBranch == null ? {} : { baseBranch: e.baseBranch }),
+        ...(e.hideWhitespace ? { hideWhitespace: !0 } : {}),
+        includeUntrackedFiles: e.includeUntrackedFiles,
+        operationSource: `review_model`,
+      },
+      v(e.hostConfig),
+      e.hostConfig,
+      { enabled: e.enabled, staleTime: b.FIVE_SECONDS },
+    ),
+  ),
+  dt = r(S, ({ get: e }) => {
+    let t = e(A),
+      n = t.data ?? null,
+      r = e(w),
+      i = e(j),
+      a = i.data == null && i.isFetching;
+    if (n == null) return _(t);
+    if (r == null || e(P) === `cloud`) return ee();
+    let o = {
+        baseBranch: e(M),
+        commonDir: n.commonDir,
+        cwd: r,
+        enabled: !a,
+        hideWhitespace: e(pe),
+        hostConfig: e(T),
+        includeUntrackedFiles: !0,
+        root: n.root,
+      },
+      s = e(ut, { ...o, includeUntrackedFiles: !1 }),
+      c = e(ut, o),
+      l = s.data != null && s.data.fileCount > 0 ? s.data : void 0;
+    return ft(
+      s,
+      c,
+      ((c.isFetching && !s.isFetching) || c.isError ? l : (c.data ?? l)) ??
+        (c.isPending ? void 0 : null),
+    );
+  }),
+  N = r(S, ({ get: e }) => {
+    let t = e(A),
+      n = t.data ?? null,
+      r = e(vt),
+      i = e(j),
+      a = r === `branch` && i.data == null && i.isFetching,
+      o = ht({
+        baseBranch: e(M),
+        commitSha: e(k),
+        cwd: e(w),
+        enabled: e(F) && !a,
+        hideWhitespace: e(pe),
+        hostConfig: e(T),
+        metadata: n,
+        source: r,
+      });
+    if (o == null) return n == null ? _(t) : ee();
+    if (r !== `branch` && r !== `unstaged`) return e(lt, o);
+    let s = e(lt, { ...o, includeUntrackedFiles: !1 }),
+      c = e(lt, o),
+      l =
+        c.isPending && (s.data?.type !== `success` || s.data.files.length === 0) ? void 0 : s.data;
+    return ft(
+      s,
+      c,
+      !((c.isPending && !s.isPending) || c.isError) && c.data?.type === `success` ? c.data : l,
+      c.data?.type === `error` ? $e : null,
+    );
+  });
+function ft(e, t, n, r = null) {
+  let i = e.isFetching || t.isFetching,
+    a = e.isPending || (!e.isError && n === void 0 && t.isPending);
+  return {
+    ...e,
+    data: n,
+    dataUpdatedAt: Math.max(e.dataUpdatedAt, t.dataUpdatedAt),
+    error: e.error ?? t.error ?? r,
+    isError: e.isError || t.isError || r != null,
+    isFetching: i,
+    isLoading: a && i,
+    isPending: a,
+    refetch: async (n) => {
+      let [, r] = await Promise.all([e.refetch(n), t.refetch(n)]);
+      return r;
+    },
+  };
+}
+var pt = r(S, ({ get: e }) => {
+  let t = e(N).data;
+  if (t?.type !== `success`) return null;
+  let n = e(A).data?.root ?? null,
+    r = new Map();
+  for (let e of t.files) {
+    let t = ze({ gitRoot: n, gitPath: e.path });
+    r.has(t) || r.set(t, e);
+  }
+  return r;
+});
+function mt(e, t = e.get(vt)) {
+  let n = e.get(j),
+    r = t === `branch` && n.data == null && n.isFetching,
+    i = ht({
+      baseBranch: e.get(M),
+      commitSha: e.get(k),
+      cwd: e.get(w),
+      enabled: e.get(F) && !r,
+      hideWhitespace: e.get(pe),
+      hostConfig: e.get(T),
+      metadata: e.get(A).data ?? null,
+      source: t,
+    });
+  return i == null ? null : e.query.snapshot(lt, i);
+}
+function ht({
+  baseBranch: e,
+  commitSha: t,
+  cwd: n,
+  enabled: r,
+  hideWhitespace: i,
+  hostConfig: a,
+  metadata: o,
+  source: s,
+}) {
+  return o == null || n == null || s == null
+    ? null
+    : {
+        baseBranch: e,
+        commitSha: t,
+        commonDir: o.commonDir,
+        cwd: n,
+        enabled: r,
+        hideWhitespace: i,
+        hostConfig: a,
+        root: o.root,
+        source: s,
+      };
+}
+var P = r(S, ({ get: e, scope: t }) =>
+    t.value.routeKind === `remote-thread` ? `cloud` : e(xe).isCodexWorktree ? `worktree` : `local`,
+  ),
+  gt = r(S, ({ get: e }) => e(F) && e(D) === `branch`),
+  _t = r(S, ({ get: e }) => e(F) && E(e(D))),
+  F = r(S, ({ get: e }) => {
+    let t = e(D);
+    return (
+      e(w) != null && e(P) !== `cloud` && t !== `last-turn` && (t !== `commit` || e(k) != null)
+    );
+  }),
+  vt = r(S, ({ get: e }) => {
+    let t = e(D);
+    return t === `last-turn` || (t === `commit` && e(k) == null) ? null : t;
+  });
+function yt({ cwd: e, hideWhitespace: t, source: n, baseBranch: r, commitSha: i }) {
+  return {
+    cwd: ie(e),
+    ...(t ? { hideWhitespace: t } : {}),
+    operationSource: `review_model`,
+    source: n,
+    ...(n === `branch` && r != null ? { baseBranch: r } : {}),
+    ...(n === `commit` && i != null ? { commitSha: i } : {}),
+  };
+}
+var bt = s(S, (e, { get: t }) => {
+    let n = t(A).data,
+      r = t(N).data,
+      i = t(pt)?.get(e) ?? null,
+      a = t(w),
+      o = t(M),
+      s = t(k),
+      c = t(T),
+      l = t(C),
+      u = t(pe),
+      d =
+        n != null && r?.type === `success` && i != null && a != null
+          ? [
+              ...f({
+                metadata: n,
+                method: `review-diff`,
+                params: {
+                  ...yt({
+                    cwd: a,
+                    hideWhitespace: u,
+                    source: r.source,
+                    baseBranch: o,
+                    commitSha: s,
+                  }),
+                  files: [
+                    {
+                      path: e,
+                      changeKind: i.changeKind,
+                      ...(i.previousPath == null ? {} : { previousPath: i.previousPath }),
+                    },
+                  ],
+                },
+                hostKey: l,
+              }),
+              i.revision,
+            ]
+          : [`git`, `disabled`, `review-diff`, e];
+    return {
+      queryKey: d,
+      queryFn: async ({ signal: t }) => {
+        if (r?.type !== `success` || i == null || a == null)
+          throw Error(`Missing review diff metadata`);
+        return ke({
+          baseBranch: o,
+          commitSha: s,
+          changeKind: i.changeKind,
+          cwd: a,
+          hideWhitespace: u,
+          hostConfig: c,
+          path: e,
+          previousPath: i.previousPath,
+          signal: t,
+          source: r.source,
+        });
+      },
+      enabled: t(F) && n != null && r?.type === `success` && i != null && a != null,
+      refetchOnWindowFocus: `always`,
+      retry: Rt,
+      retryDelay: zt,
+      staleTime: b.FIVE_SECONDS,
+      placeholderData: (e, t) => {
+        if (!(t == null || !Bt(d, t.queryKey))) return e;
+      },
+    };
+  }),
+  xt = r(S, ({ get: e }) => Lt(e(We)));
+async function St(e) {
+  let t = e.get(A).data;
+  if (e.get(F) && t != null) {
+    try {
+      await p({
+        clearUntrackedPathsCache: !0,
+        hostConfig: e.get(T),
+        operationSource: `review_model`,
+        root: t.root,
+      });
+    } catch {}
+    await kt(e, t);
+  }
+}
+async function Ct(e, t) {
+  await e.get(bt, t).refetch();
+}
+async function wt(e, { queueIfRefreshing: n = !1 } = {}) {
+  let r = e.get(A).data,
+    i = Ue.get(e);
+  if (r == null) return;
+  if (i != null) {
+    if (!n) return;
+    try {
+      await i;
+    } catch {}
+  }
+  let a = Tt(e, r);
+  Ue.set(e, a);
+  try {
+    await a;
+  } catch (e) {
+    if (!(e instanceof t)) throw e;
+  } finally {
+    Ue.get(e) === a && Ue.delete(e);
+  }
+}
+async function Tt(e, t) {
+  e.set(et, !0);
+  try {
+    try {
+      await p({
+        clearUntrackedPathsCache: !0,
+        hostConfig: e.get(T),
+        operationSource: `review_model`,
+        root: t.root,
+      });
+    } catch {}
+    await Promise.all([g(e.queryClient, t.commonDir, { hostKey: e.get(C) }), It(e)]);
+  } finally {
+    e.set(et, !1);
+  }
+}
+async function Et(e, t) {
+  let n = e.get(A).data,
+    r = e.get(w),
+    i = Dt({ cwd: r, gitRoot: n?.root ?? null, paths: t });
+  if (!(!e.get(F) || n == null || r == null || i.length === 0)) {
+    try {
+      await p({
+        clearUntrackedPathsCache: !1,
+        hostConfig: e.get(T),
+        operationSource: `review_model`,
+        paths: i,
+        root: n.root,
+      });
+    } catch {}
+    await kt(e, n);
+  }
+}
+function Dt({ cwd: e, gitRoot: t, paths: n }) {
+  if (e == null || t == null) return [];
+  let r = ce(``, t);
+  return [
+    ...new Set(
+      n.flatMap((t) => {
+        if (t === ``) return [];
+        let n = Le.default.relative(r, ce(e, t));
+        return n === `` || n === `..` || n.startsWith(`../`) ? [] : [n];
+      }),
+    ),
+  ];
+}
+function Ot(e) {
+  return e?.local == null ? null : e.remote == null ? e.local : `${e.remote}/${e.local}`;
+}
+async function kt(e, t) {
+  await Promise.all([h(e.queryClient, t, { hostKey: e.get(C) }), It(e)]);
+}
+function At(e, t = null) {
+  return t ?? Ot(e);
+}
+async function jt(e) {
+  e.get(_t) && (await e.get(ct).refetch());
+}
+function Mt(e, t, n) {
+  (e.set(We, t), e.set(Ge, n));
+}
+function Nt(e, t, n) {
+  e.set(qe, t, n);
+}
+function Pt(e, t) {
+  (e.set(k, t), Ve(e, `commit`));
+}
+function Ft(e) {
+  return e.watch((t) => {
+    if (t.get(D) === `commit`) {
+      let e = t.get(k);
+      if (e == null) {
+        Ve(t, `branch`);
+        return;
+      }
+      let n = t.get(ot).data?.commits;
+      if (!(n == null || n.some((t) => t.sha === e))) {
+        (t.set(k, null), Ve(t, `branch`));
+        return;
+      }
+    }
+    let n = t.get(vt);
+    (n === `branch` && t.get(M),
+      t.get(A).data != null && (t.get(We) != null || (t.get(F) && n != null)) && St(e));
+  });
+}
+async function It(e) {
+  let t = mt(e);
+  t == null || t.getOptions().enabled === !1 || (await t.getOrFetch());
+}
+function Lt(e) {
+  return e == null || e.trim() === ``
+    ? { diff: null, diffText: null, diffBytes: null, diffError: null }
+    : { diff: _e(e), diffText: e, diffBytes: new TextEncoder().encode(e).length, diffError: null };
+}
+function Rt(e, t) {
+  return t.name !== `AbortError` && e < Ye;
+}
+function zt(e) {
+  return Math.min(Xe * 2 ** e, 2e3);
+}
+function Bt(e, t) {
+  return e.length > 0 && e.length === t.length && (0, He.default)(e.slice(0, -1), t.slice(0, -1));
+}
+var Vt = e(ve(), 1);
+function Ht() {
+  return { full: new Map(), trimmed: new Map() };
+}
+function Ut() {
+  return { staged: Ht(), unstaged: Ht(), version: 0 };
+}
+function Wt(e) {
+  return new Set([
+    ...e.staged.trimmed.keys(),
+    ...e.staged.full.keys(),
+    ...e.unstaged.trimmed.keys(),
+    ...e.unstaged.full.keys(),
+  ]);
+}
+var Gt = i(S, Ut()),
+  Kt = r(S, ({ get: e }) => Wt(e(Gt)));
+function qt(e) {
+  e.set(Gt, Ut());
+}
+async function Jt(e, t) {
+  let n = e.get(w);
+  if (e.get(P) === `cloud` || n == null) return;
+  let r = Array.from(new Set(t.filter(Boolean)));
+  r.length !== 0 &&
+    e.set(Gt, (e) => {
+      let t = {
+        staged: { trimmed: new Map(e.staged.trimmed), full: new Map(e.staged.full) },
+        unstaged: { trimmed: new Map(e.unstaged.trimmed), full: new Map(e.unstaged.full) },
+        version: e.version + 1,
+      };
+      for (let e of r)
+        (t.staged.trimmed.delete(e),
+          t.staged.full.delete(e),
+          t.unstaged.trimmed.delete(e),
+          t.unstaged.full.delete(e));
+      return t;
+    });
+}
+function Yt({ reviewSummary: e, selectedDiff: t, shouldFetchReviewSummary: n }) {
+  if (n && e?.type === `success`) return Xt(e);
+  let r = t.diff ?? [];
+  return Qt(
+    (0, Vt.default)(r, (e) => e.additions),
+    (0, Vt.default)(r, (e) => e.deletions),
+    r.length,
+    t.diffText?.length ?? 0,
+  );
+}
+function Xt(e) {
+  return Qt(
+    (0, Vt.default)(e.files, (e) => e.additions ?? 0),
+    (0, Vt.default)(e.files, (e) => e.deletions ?? 0),
+    e.files.length,
+  );
+}
+function Zt(e) {
+  return e == null ? null : Qt(e.additions, e.deletions, e.fileCount);
+}
+function Qt(e, t, n, r = 0) {
+  return { additions: e, bytesEstimate: r, deletions: t, fileCount: n, lineCount: e + t };
+}
+function $t({ reviewSummary: e, selectedDiff: t, shouldFetchReviewSummary: n }) {
+  return n ? e?.type === `success` && e.files.length > 0 : (t.diff?.length ?? 0) > 0;
+}
+var en = r(S, ({ get: e }) =>
+    e(P) === `cloud` || e(D) === `last-turn`
+      ? e(xt)
+      : { diff: null, diffText: null, diffBytes: null, diffError: null },
+  ),
+  tn = r(S, ({ get: e }) => (e(P) === `cloud` || e(D) === `last-turn` ? (e(Ke) ?? e(w)) : e(w))),
+  nn = r(S, ({ get: e }) => {
+    if (e(P) === `cloud` || e(D) === `last-turn`)
+      return { isFetchingGitChanges: !1, isPendingGitChanges: !1 };
+    let t = e(N);
+    return { isFetchingGitChanges: t.isFetching, isPendingGitChanges: e(F) && t.isPending };
+  }),
+  I = r(S, ({ get: e }) => {
+    let t = e(D),
+      n = e(nn),
+      r = e(Kt),
+      i = e(P),
+      a = r.size > 0;
+    return i !== `cloud` && E(t)
+      ? {
+          diff: null,
+          diffText: null,
+          diffBytes: null,
+          diffError: null,
+          fullDiff: null,
+          hasOptimisticDiffs: a,
+          isFetchingGitChanges: n.isFetchingGitChanges,
+          isPendingGitChanges: n.isPendingGitChanges,
+        }
+      : {
+          ...e(en),
+          fullDiff: null,
+          hasOptimisticDiffs: !1,
+          isFetchingGitChanges: n.isFetchingGitChanges,
+          isPendingGitChanges: n.isPendingGitChanges,
+        };
+  }),
+  rn = r(S, ({ get: e }) => {
+    if (e(P) === `cloud`) return { isLoading: !1, metrics: null };
+    if (e(D) === `branch`) {
+      let t = e(N),
+        n = t.data;
+      if (n?.type === `success`) return { isLoading: !1, metrics: Xt(n) };
+      if (e(F) && !t.isError && (t.isFetching || t.isPending))
+        return { isLoading: !0, metrics: null };
+    }
+    let t = e(dt),
+      n = Zt(t.data);
+    return n == null ? { isLoading: t.isFetching, metrics: null } : { isLoading: !1, metrics: n };
+  }),
+  an = r(S, ({ get: e }) => e(D) !== `branch` && (e(rn).metrics?.fileCount ?? 0) > 0),
+  on = r(S, ({ get: e }) => {
+    if (e(P) !== `cloud` && e(D) === `branch`) {
+      let t = e(rn);
+      if (t.metrics != null) return t.metrics;
+    }
+    let t = e(F);
+    return Yt({
+      reviewSummary: e(N).data,
+      selectedDiff: t ? { diff: null, diffText: null } : e(I),
+      shouldFetchReviewSummary: t,
+    });
+  }),
+  sn = r(S, ({ get: e }) => {
+    if (e(P) === `cloud` || !E(e(D))) return { stagedFileCount: void 0, unstagedFileCount: void 0 };
+    let t = e(N).data;
+    return t?.type === `success`
+      ? {
+          stagedFileCount: t.stageCounts.stagedFileCount,
+          unstagedFileCount: t.stageCounts.unstagedFileCount + t.stageCounts.untrackedFileCount,
+        }
+      : { stagedFileCount: 0, unstagedFileCount: 0 };
+  }),
+  cn = r(S, ({ get: e }) =>
+    $t({ reviewSummary: e(N).data, selectedDiff: e(I), shouldFetchReviewSummary: e(F) }),
+  ),
+  ln = r(S, ({ get: e }) => {
+    let t = e(A);
+    return e(P) !== `cloud` && !t.isLoading && t.data?.root == null;
+  }),
+  un = r(S, ({ get: e, scope: t }) => {
+    let n = e(D),
+      r = e(A);
+    return (
+      t.value.routeKind !== `remote-thread` &&
+      E(n) &&
+      r.data?.root != null &&
+      (e(P) === `local` || e(P) === `worktree`)
+    );
+  }),
+  dn = r(S, ({ get: e }) => {
+    let t = e(I);
+    if (e(F)) {
+      let n = e(N).data;
+      return n?.type === `success` && n.files.length > 0 && !(e(un) && t.hasOptimisticDiffs);
+    }
+    return t.diffText != null && t.diffText.trim().length > 0 && !(e(un) && t.hasOptimisticDiffs);
+  }),
+  fn = r(S, ({ get: e }) => e(A).data?.commonDir != null && !e(et)),
+  pn = r(S, ({ get: e, scope: t }) => {
+    let n = e(I);
+    return t.value.routeKind !== `remote-thread` && n.isPendingGitChanges && !e(cn);
+  }),
+  mn = r(S, ({ get: e }) => e(I).diffError?.type === `diff-too-large`);
+function hn({ reviewSummaryFetching: e, reviewSummaryUpdatedAt: t, shouldFetchReviewSummary: n }) {
+  return !n || e ? !1 : t !== 0;
+}
+var gn = r(S, ({ get: e }) => {
+    let t = e(F),
+      n = e(Gt),
+      r = Wt(n);
+    if (!t || (r.size === 0 && n.version === 0)) return !1;
+    let i = e(N);
+    return hn({
+      reviewSummaryFetching: i.isFetching,
+      reviewSummaryUpdatedAt: i.dataUpdatedAt,
+      shouldFetchReviewSummary: t,
+    });
+  }),
+  L = r(S, ({ get: e }) => {
+    if (e(F)) return Sn({ cwd: e(w), gitRoot: e(A).data?.root ?? null, reviewSummary: e(N).data });
+    let t = e(P) === `cloud` || e(D) === `last-turn` ? e(nt) : (e(A).data?.root ?? null);
+    return Tn(e(I).diff, t);
+  }),
+  _n = a(S, (e, { get: t }) => {
+    if (t(F)) {
+      let n = t(A).data?.root ?? null,
+        r = t(pt)?.get(e) ?? null;
+      if (r == null) return null;
+      let i = t(bt, e);
+      return wn({
+        cwd: t(w),
+        gitRoot: n,
+        reviewDiffEntry: i.data,
+        reviewDiffError: i.isError ? i.error : null,
+        reviewDiffIsFetching: i.isFetching,
+        reviewDiffIsPlaceholderData: i.isPlaceholderData,
+        reviewFile: r,
+      });
+    }
+    let n = x(u(e, t(w) ?? void 0));
+    return t(L).find((t) => t.path === e || t.gitPath === n) ?? null;
+  }),
+  vn = r(S, ({ get: e }) => En(e(L))),
+  yn = r(S, ({ get: e }) => Dn({ diffBytes: e(I).diffBytes, fileEntries: e(L) })),
+  bn = r(S, ({ get: e }) =>
+    ge({ fileCount: e(L).length, totalChangedBytes: e(yn), totalChangedLines: e(vn) }),
+  ),
+  xn = r(S, ({ get: e }) => {
+    let t = e(L);
+    return !e(F) || e(bn) ? t : t.map((t) => e(_n, t.path) ?? t);
+  });
+function Sn({ cwd: e, gitRoot: t, reviewSummary: n }) {
+  return n?.type === `success`
+    ? Cn(n.files.map((n) => wn({ cwd: e, gitRoot: t, reviewDiffIsFetching: !0, reviewFile: n })))
+    : [];
+}
+function Cn(e) {
+  let t = we(e),
+    n = new Map(t.map((t, n) => [t.displayPath, e[n]])),
+    r = Se(
+      t.map((e) => e.displayPath),
+      { flattenEmptyDirectories: !0 },
+    ),
+    i = [];
+  for (let e of r.paths) {
+    let t = n.get(e);
+    t != null && i.push(t);
+  }
+  return i;
+}
+function wn({
+  cwd: e,
+  gitRoot: t,
+  reviewDiffEntry: n,
+  reviewDiffError: r,
+  reviewDiffIsFetching: i,
+  reviewDiffIsPlaceholderData: a = !1,
+  reviewFile: o,
+}) {
+  let s = x(o.path),
+    c = ze({ gitRoot: t, gitPath: s }),
+    l = n?.type === `success` ? n.diff : ``,
+    u = l.trim().length > 0,
+    d = u ? (_e(l)[0] ?? null) : null,
+    f = `loading`;
+  return (
+    d == null
+      ? n?.type === `success`
+        ? (f = `loaded`)
+        : !i && (r != null || n?.type === `error` || u) && (f = `error`)
+      : (f = `loaded`),
+    {
+      canApplyPatchActions: !i && n?.type === `success`,
+      displayPath: Re({ cwd: e, path: c }),
+      diff: d,
+      diffRevision: n?.type === `success` && !a ? o.revision : null,
+      diffLoadStatus: f,
+      gitPath: s,
+      path: c,
+      summary: o,
+    }
+  );
+}
+function Tn(e, t) {
+  return Cn(
+    e?.map((e) => {
+      let n = x(e.metadata.name);
+      return {
+        canApplyPatchActions: !0,
+        displayPath: n,
+        diff: e,
+        diffRevision: null,
+        diffLoadStatus: `loaded`,
+        gitPath: n,
+        path: ze({ gitRoot: t, gitPath: n }),
+        summary: null,
+      };
+    }) ?? [],
+  );
+}
+function En(e) {
+  return e.reduce(
+    (e, t) =>
+      e +
+      (t.summary?.additions ?? t.diff?.additions ?? 0) +
+      (t.summary?.deletions ?? t.diff?.deletions ?? 0),
+    0,
+  );
+}
+function Dn({ diffBytes: e, fileEntries: t }) {
+  return e ?? t.reduce((e, t) => e + (t.diff?.changedBytes ?? 0), 0);
+}
+var On = `codex-thread-find-match`,
+  kn = `codex-thread-find-active`,
+  An = `data-content-search-match-id`,
+  jn = `codex-thread-find-shadow-style`,
+  Mn = `
+mark.codex-thread-find-match {
+  background-color: var(--vscode-charts-yellow);
+  color: var(--color-token-foreground);
+  border-radius: var(--radius-2xs);
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  word-spacing: inherit;
+  vertical-align: baseline;
+}
+
+mark.codex-thread-find-active {
+  background-color: var(--vscode-charts-orange);
+}
+`;
+function Nn(e, t) {
+  return `${e}:${t}`;
+}
+function Pn(e) {
+  return `conversation:${e.turnKey}:${e.unitId}:${e.start}`;
+}
+function Fn(e) {
+  return `diff:${e.path}:${e.hunkId}:${e.start}`;
+}
+function In({ element: e, matchId: t }) {
+  e.setAttribute(An, t);
+}
+function Ln({ container: e, matchId: t, includeShadowRoots: n }) {
+  let r = Zn(t);
+  for (let t of Wn(e, { includeShadowRoots: n })) {
+    let e = t.querySelector(`[${An}="${r}"]`);
+    if (e != null) return e;
+  }
+  return null;
+}
+function Rn({ container: e, lineNumber: t, side: n, includeShadowRoots: r }) {
+  let i = Zn(`${t}`),
+    a = n === `additions` ? `[data-additions]` : n === `deletions` ? `[data-deletions]` : null;
+  for (let t of Wn(e, { includeShadowRoots: r })) {
+    if (a != null) {
+      let e =
+        Bn({ root: t, selector: `${a}[data-line="${i}"]` }) ??
+        Bn({ root: t, selector: `${a} [data-line="${i}"]` }) ??
+        Bn({ root: t, selector: `[data-line="${i}"] ${a}` });
+      if (e != null) return e;
+      if (zn(t)) continue;
+    }
+    let e = Bn({ root: t, selector: `[data-line="${i}"]` });
+    if (e != null) return e;
+  }
+  return null;
+}
+function zn(e) {
+  return e instanceof HTMLElement &&
+    (e.matches(`[data-additions]`) || e.matches(`[data-deletions]`))
+    ? !0
+    : e.querySelector(`[data-additions], [data-deletions]`) != null;
+}
+function Bn({ root: e, selector: t }) {
+  return e instanceof HTMLElement && e.matches(t) ? e : (e.querySelector(t) ?? null);
+}
+function Vn(e, t) {
+  Wn(e, t).forEach((e) => {
+    e.querySelectorAll(`mark.${On}`).forEach((e) => {
+      let t = e.parentNode;
+      if (t != null) {
+        for (; e.firstChild; ) t.insertBefore(e.firstChild, e);
+        t.removeChild(e);
+      }
+    });
+  });
+}
+function Hn({ target: e, query: t, maxMatches: n, includeShadowRoots: r }) {
+  if (n <= 0) return { matches: [], isCapped: !1 };
+  let i = t.trim();
+  if (i.length === 0) return { matches: [], isCapped: !1 };
+  let a = [],
+    o = Wn(e, { includeShadowRoots: r }),
+    s = !1;
+  for (let e of o) {
+    let t = n - a.length;
+    if (t <= 0) {
+      s = !0;
+      break;
+    }
+    let r = qn({ root: e, query: i, maxMatches: t });
+    if ((a.push(...r.matches), r.isCapped)) {
+      s = !0;
+      break;
+    }
+  }
+  return { matches: a, isCapped: s };
+}
+function Un(e) {
+  for (let t of e) if (!Yn(t)) return !0;
+  return !1;
+}
+function Wn(e, t) {
+  let n = [e];
+  if (!t.includeShadowRoots) return n;
+  let r = [e];
+  for (; r.length > 0; ) {
+    let e = r.pop();
+    if (e == null) continue;
+    let t = document.createTreeWalker(e, NodeFilter.SHOW_ELEMENT),
+      i = t.currentNode;
+    for (; i != null; )
+      (i instanceof HTMLElement &&
+        i.shadowRoot != null &&
+        (Gn(i.shadowRoot), n.push(i.shadowRoot), r.push(i.shadowRoot)),
+        (i = t.nextNode()));
+  }
+  return n;
+}
+function Gn(e) {
+  if (e.getElementById(jn) != null) return;
+  let t = document.createElement(`style`);
+  ((t.id = jn), (t.textContent = Mn), e.append(t));
+}
+function Kn(e) {
+  let t = document.createTreeWalker(e, NodeFilter.SHOW_TEXT, {
+      acceptNode(e) {
+        if (!(e instanceof Text)) return NodeFilter.FILTER_REJECT;
+        let t = e.parentElement;
+        return t == null ||
+          t.closest(`script, style, textarea, [contenteditable='true'], [data-thread-find-skip]`) !=
+            null ||
+          t.matches(
+            `[data-column-number], [data-line-number-content], [data-line-num], [data-line-old-num], [data-line-new-num]`,
+          )
+          ? NodeFilter.FILTER_REJECT
+          : NodeFilter.FILTER_ACCEPT;
+      },
+    }),
+    n = [],
+    r = t.nextNode();
+  for (; r != null; ) (r instanceof Text && n.push(r), (r = t.nextNode()));
+  return n;
+}
+function qn({ root: e, query: t, maxMatches: n }) {
+  if (n <= 0) return { matches: [], isCapped: !1 };
+  let r = Kn(e);
+  if (r.length === 0) return { matches: [], isCapped: !1 };
+  let i = [],
+    a = 0;
+  r.forEach((e) => {
+    let t = e.textContent ?? ``,
+      n = a + t.length;
+    (i.push({ node: e, start: a, end: n }), (a = n));
+  });
+  let o = i
+      .map((e) => e.node.textContent ?? ``)
+      .join(``)
+      .toLowerCase(),
+    s = t.toLowerCase(),
+    c = [],
+    l = 0;
+  for (; l < o.length && c.length < n; ) {
+    let e = o.indexOf(s, l);
+    if (e === -1) break;
+    (c.push({ start: e, end: e + t.length }), (l = e + t.length));
+  }
+  let u = c.length === n && o.indexOf(s, l) !== -1,
+    d = [];
+  for (let e = c.length - 1; e >= 0; --e) {
+    let t = c[e],
+      n = Jn(i, t.start),
+      r = Jn(i, t.end - 1);
+    if (n == null || r == null) continue;
+    let a = document.createRange();
+    (a.setStart(n.node, t.start - n.start), a.setEnd(r.node, t.end - r.start));
+    let o = document.createElement(`mark`);
+    o.className = On;
+    let s = a.extractContents();
+    (o.append(s), a.insertNode(o), d.push(o));
+  }
+  return { matches: d.reverse(), isCapped: u };
+}
+function Jn(e, t) {
+  for (let n of e) if (t >= n.start && t < n.end) return { node: n.node, start: n.start };
+  return null;
+}
+function Yn(e) {
+  if (e.type === `characterData`) {
+    let t = e.target.parentElement;
+    return t == null ? !1 : Xn(t);
+  }
+  if (e.type !== `childList`) return !1;
+  if (Xn(e.target)) return !0;
+  let t = [...e.addedNodes, ...e.removedNodes],
+    n = !1;
+  for (let e of t)
+    if (!(e instanceof Text)) {
+      if (Xn(e)) {
+        n = !0;
+        continue;
+      }
+      return !1;
+    }
+  return n;
+}
+function Xn(e) {
+  return e instanceof HTMLElement
+    ? e.classList.contains(`codex-thread-find-active`)
+      ? !0
+      : e.classList.contains(On)
+    : !1;
+}
+function Zn(e) {
+  return typeof CSS < `u` && typeof CSS.escape == `function`
+    ? CSS.escape(e)
+    : e.replace(/\\/g, `\\\\`).replace(/"/g, `\\"`);
+}
+var Qn = 24;
+function $n(e, t, n) {
+  let r = Math.max(0, t - Qn),
+    i = Math.min(e.length, n + Qn);
+  return { before: e.slice(r, t), match: e.slice(t, n), after: e.slice(n, i) };
+}
+function er(e, t, n) {
+  let r = t.toLowerCase(),
+    i = e.toLowerCase(),
+    a = [],
+    o = 0,
+    s = !1,
+    c = 0;
+  for (; c < i.length; ) {
+    let e = i.indexOf(r, c);
+    if (e === -1) break;
+    let l = e + t.length;
+    ((o += 1), a.length < n ? a.push({ start: e, end: l }) : (s = !0), (c = l));
+  }
+  return { offsets: a, totalMatches: o, isCapped: s };
+}
+function tr(e, t) {
+  return e == null || t == null ? null : (e.matches[t] ?? null);
+}
+function nr(e, t) {
+  let { query: n, routeContextId: r, stateDomain: i, result: a } = e;
+  return n.length === 0 || i !== t || a == null || a.domain !== t || a.contextId !== r ? null : a;
+}
+var rr = 150,
+  ir = { activeMatchOrdinal: 0, matches: 0, query: `` },
+  ar = [`conversation`, `diff`],
+  or = n(S, (e) => null),
+  R = i(S, null),
+  z = i(S, null),
+  sr = i(S, `conversation`),
+  cr = r(S, ({ get: e }) =>
+    e(ae) === `right-panel` && e(oe) && e(me.activeTab$)?.tabId === `diff` ? `diff` : e(sr),
+  ),
+  B = i(S, !1),
+  V = i(S, `conversation`),
+  H = i(S, ``),
+  U = i(S, null),
+  W = i(S, !1),
+  G = i(S, null),
+  lr = i(S, null),
+  ur = i(S, null),
+  dr = i(S, ir),
+  fr = i(S, null),
+  pr = r(S, ({ get: e }) => e(H).trim().length > 0),
+  mr = r(S, ({ get: e }) =>
+    nr(
+      {
+        query: e(H).trim(),
+        routeContextId: e(U)?.contextId ?? `unavailable`,
+        stateDomain: e(V),
+        result: e(U),
+      },
+      `conversation`,
+    ),
+  ),
+  K = r(S, ({ get: e }) =>
+    nr(
+      {
+        query: e(H).trim(),
+        routeContextId: e(U)?.contextId ?? `unavailable`,
+        stateDomain: e(V),
+        result: e(U),
+      },
+      `diff`,
+    ),
+  ),
+  hr = r(S, ({ get: e }) => tr(e(U), e(G)));
+function gr(e) {
+  e.set(B, !0);
+}
+function _r(e, t, n) {
+  (e.set(sr, t), n != null && n !== Fr(e) && (q(e), e.set(R, n), Nr(e)));
+}
+function vr(e) {
+  (q(e), e.set(B, !1), e.set(H, ``), e.set(U, null), e.set(W, !1), e.set(G, null));
+}
+function yr(e, t) {
+  (q(e), e.set(V, t), e.set(U, null), e.set(W, !1), e.set(G, null));
+}
+function br(e, t) {
+  let n = e.get(ur);
+  (n?.conversationId === t?.conversationId && n?.browserTabId === t?.browserTabId) ||
+    (e.set(ur, t), e.set(dr, ir), t == null && e.get(V) === `browser` && yr(e, `conversation`));
+}
+function xr(e, t) {
+  (q(e),
+    e.set(H, t),
+    e.set(U, null),
+    e.set(W, !1),
+    e.set(G, null),
+    e.set(dr, { activeMatchOrdinal: 0, matches: 0, query: t }));
+}
+function Sr(e, t) {
+  e.set(fr, t);
+}
+function Cr(e) {
+  e.set(fr, null);
+}
+function wr(e, t) {
+  (e.set(dr, t), e.get(V) === `browser` && (e.set(H, t.query), e.set(W, !1)));
+}
+function Tr({ hasBrowserTarget: e }) {
+  return e ? [...ar, `browser`] : [...ar];
+}
+function Er({ currentDomain: e, hasBrowserTarget: t }) {
+  let n = Tr({ hasBrowserTarget: t });
+  return n[(n.indexOf(e) + 1) % n.length] ?? `conversation`;
+}
+function Dr(e, t) {
+  if (t.trim().length === 0) {
+    (q(e), e.set(H, t), e.set(U, null), e.set(W, !1), e.set(G, null));
+    return;
+  }
+  (e.set(H, t), e.set(W, !0));
+}
+function Or(e, t) {
+  let n = e.get(U);
+  if (t == null || n == null || n.matches.length === 0) {
+    e.set(G, null);
+    return;
+  }
+  let r = Pr(t, n.matches.length);
+  if (e.get(G) === r) {
+    J(e)?.ensureVisibleActiveMatch();
+    return;
+  }
+  e.set(G, r);
+}
+function kr(e) {
+  let t = e.get(U);
+  t == null || t.matches.length === 0 || Or(e, (e.get(G) ?? -1) + 1);
+}
+function Ar(e) {
+  let t = e.get(U);
+  t == null || t.matches.length === 0 || Or(e, (e.get(G) ?? 0) - 1);
+}
+function jr(e, t) {
+  let n = e.get(H).trim();
+  if (n.length === 0) return;
+  let r = e.get(U);
+  if (!(r != null && r.query === n && r.domain === e.get(V))) {
+    J(e)?.runSearch({ selectFirstMatch: !0 });
+    return;
+  }
+  if (t?.shift) {
+    Ar(e);
+    return;
+  }
+  kr(e);
+}
+function Mr(
+  e,
+  t = { conversationSource: null, diffSource: null },
+  {
+    orchestrationId: n = t.conversationSource?.contextId ??
+      t.diffSource?.contextId ??
+      `unavailable`,
+    isDefault: r = !0,
+  } = {},
+) {
+  let i = 1,
+    a = 0,
+    o = null,
+    s = null,
+    c = null,
+    l = !1,
+    u = null,
+    d = () => {
+      c != null && (window.clearTimeout(c), (c = null));
+    },
+    f = () => {
+      (s?.abort(), (s = null));
+    },
+    p = () => {
+      (o?.abort(), (o = null), (a += 1), f());
+    },
+    m = async ({ selectFirstMatch: n }) => {
+      if (l || J(e) !== g) return;
+      d();
+      let r = e.get(H).trim();
+      if (r.length === 0) {
+        e.set(W, !1);
+        return;
+      }
+      o?.abort();
+      let s = new AbortController();
+      ((o = s), (a += 1));
+      let c = a,
+        u = e.get(V),
+        f = Rr({ domain: u, conversationSource: t.conversationSource, diffSource: t.diffSource }),
+        p = f?.contextId ?? `unavailable`;
+      e.set(W, !0);
+      try {
+        let t = { domain: u, contextId: p, query: r },
+          o;
+        if (f == null) ((o = Lr(t, i)), (i += 1));
+        else {
+          let e = i;
+          ((i += 1), (o = { ...(await f.search(t, { signal: s.signal })), runId: e }));
+        }
+        if (c !== a || l) return;
+        let d = e.get(G),
+          m = d != null && d >= 0 && d < o.matches.length,
+          h = n && o.matches.length > 0 ? 0 : o.matches.length > 0 ? (m ? d : 0) : null;
+        (e.set(U, o), e.set(G, h), e.set(W, !1));
+      } catch {
+        if (s.signal.aborted || c !== a || l) return;
+        (e.set(U, null), e.set(G, null), e.set(W, !1));
+      }
+    },
+    h = async () => {
+      if (J(e) !== g) return;
+      let n = e.get(U),
+        r = e.get(G);
+      if (n == null || r == null) return;
+      f();
+      let i = new AbortController();
+      s = i;
+      try {
+        await Ir(t, n, r, i.signal);
+      } finally {
+        s === i && (s = null);
+      }
+    },
+    g = {
+      clearDebouncedSearch: d,
+      ensureVisibleActiveMatch: h,
+      preserveScrollBeforeResultClear: () => {
+        f();
+        let n = e.get(U),
+          r = tr(n, e.get(G));
+        (n == null
+          ? null
+          : Rr({
+              domain: n.domain,
+              conversationSource: t.conversationSource,
+              diffSource: t.diffSource,
+            })
+        )?.preserveScrollBeforeResultClear?.(r?.location ?? null);
+      },
+      runSearch: m,
+    };
+  (e.set(or, n, g), r && e.set(z, n));
+  let ee = () => {
+      if ((d(), p(), Fr(e) !== n)) return;
+      let t = e.get(B),
+        r = e.get(H).trim();
+      if (!t || r.length === 0 || e.get(V) === `browser`) {
+        e.set(W, !1);
+        return;
+      }
+      c = window.setTimeout(() => {
+        m({ selectFirstMatch: !1 });
+      }, rr);
+    },
+    _ = e.watch((e) => {
+      (e.get(B), e.get(H), e.get(V), e.get(R), e.get(z), ee());
+    }),
+    v = e.watch((e) => {
+      let t = e.get(U),
+        n = e.get(G);
+      if (t == null || n == null) {
+        u = null;
+        return;
+      }
+      let r = `${t.runId}:${n}`;
+      r !== u && ((u = r), h());
+    });
+  return () => {
+    l = !0;
+    let t = e.get(R) === n;
+    (t && q(e),
+      e.get(or, n) === g && e.set(or, n, null),
+      e.get(z) === n && e.set(z, null),
+      e.get(R) === n && e.set(R, null),
+      t && Nr(e),
+      _(),
+      v(),
+      d(),
+      o?.abort(),
+      f());
+  };
+}
+function Nr(e) {
+  (e.set(U, null),
+    e.set(G, null),
+    e.set(W, J(e) != null && e.get(B) && e.get(H).trim().length > 0));
+}
+function Pr(e, t) {
+  if (t <= 0) return 0;
+  let n = e % t;
+  return n < 0 ? n + t : n;
+}
+function q(e) {
+  e.get(U) != null && J(e)?.preserveScrollBeforeResultClear();
+}
+function J(e) {
+  let t = Fr(e);
+  return t == null ? null : e.get(or, t);
+}
+function Fr(e) {
+  return e.get(R) ?? e.get(z);
+}
+async function Ir(e, t, n, r) {
+  let i = t.matches[n];
+  if (i == null) return;
+  let a = Rr({
+    domain: i.location.domain,
+    conversationSource: e.conversationSource,
+    diffSource: e.diffSource,
+  });
+  a != null && (await a.ensureVisible(i.location, { signal: r }));
+}
+function Lr(e, t) {
+  return {
+    runId: t,
+    domain: e.domain,
+    contextId: e.contextId,
+    query: e.query,
+    matches: [],
+    totalMatches: 0,
+    isCapped: !1,
+  };
+}
+function Rr({ domain: e, conversationSource: t, diffSource: n }) {
+  switch (e) {
+    case `conversation`:
+      return t;
+    case `diff`:
+      return n;
+    case `browser`:
+      return null;
+  }
+}
+function zr(e) {
+  if (e == null || e.domain !== `diff`) return { active: !1, totalMatches: 0, matchingPaths: [] };
+  let t = new Set();
+  for (let n of e.matches) {
+    let e = n.location;
+    e.domain === `diff` && t.add(e.path);
+  }
+  return { active: e.query.length > 0, totalMatches: e.totalMatches, matchingPaths: Array.from(t) };
+}
+var Y = r(S, ({ get: e }) => zr(e(K))),
+  Br = r(S, ({ get: e }) => tr(e(K), e(G))),
+  X = 20,
+  Vr = 200,
+  Hr = 50,
+  Ur = 600,
+  Z = i(S, void 0),
+  Q = i(S, void 0),
+  $ = i(S, ``),
+  Wr = i(S, { count: X, key: `` }),
+  Gr = r(S, ({ get: e }) => ii(e(L), e($))),
+  Kr = r(S, ({ get: e }) => {
+    let t = e(Gr),
+      n = e(Y);
+    if (!n.active) return t;
+    if (n.matchingPaths.length === 0) return [];
+    let r = new Set(n.matchingPaths);
+    return t.filter((e) => r.has(e.path));
+  }),
+  qr = r(S, ({ get: e }) => e(bn) && e(Y).active && e(Kr).length > 0),
+  Jr = r(S, ({ get: e }) => {
+    if (!e(qr)) return X;
+    let t = e(Wr),
+      n = e(K),
+      r = e($).trim().toLowerCase(),
+      i = `${n?.query ?? ``}|${r}|${e(Y).active}`;
+    return t.key === i ? t.count : X;
+  }),
+  Yr = r(S, ({ get: e }) => {
+    let t = e(Kr);
+    if (!e(qr)) return t;
+    let n = e(Jr),
+      r = e(Z);
+    if (r != null) {
+      let e = t.findIndex((e) => e.path === r);
+      e >= n && (n = Math.ceil((e + 1) / X) * X);
+    }
+    return t.slice(0, n);
+  }),
+  Xr = r(S, ({ get: e }) => e(Kr)),
+  Zr = r(S, ({ get: e }) => {
+    let t = e(Z),
+      n = e(Q)?.comment,
+      r = e(bn),
+      i = e(r ? Xr : Gr),
+      a = n == null ? t : (li(i, n.position.path)?.path ?? t);
+    if (!r) return a;
+    if (i.length !== 0) return a != null && i.some((e) => e.path === a) ? a : i[0]?.path;
+  }),
+  Qr = r(S, ({ get: e }) => e(Kr).length);
+function $r(e, t) {
+  (e.set(Q, void 0), e.set(Z, t));
+}
+function ei(e, t) {
+  ($r(e, t),
+    Dr(e, ``),
+    ni(e, ``),
+    requestAnimationFrame(() => {
+      oi(e, t, Vr);
+    }));
+}
+function ti(e, t) {
+  ($r(e, t.position.path), Dr(e, ``), ni(e, ``));
+  let n = { comment: t };
+  (e.set(Q, n),
+    requestAnimationFrame(() => {
+      si(e, n, Vr);
+    }));
+}
+function ni(e, t) {
+  e.set($, t);
+}
+function ri(e) {
+  let t = e.get(Qr),
+    n = e.get(K),
+    r = e.get($).trim().toLowerCase(),
+    i = `${n?.query ?? ``}|${r}|${e.get(Y).active}`,
+    a = Math.min(t, Math.max(X, e.get(Yr).length + X));
+  e.set(Wr, (e) => (e.key === i && e.count === a ? e : { count: a, key: i }));
+}
+function ii(e, t) {
+  let n = t.trim().toLowerCase();
+  return n.length === 0 ? e : e.filter((e) => e.displayPath.toLowerCase().includes(n));
+}
+function ai(e) {
+  for (let t of document.querySelectorAll(ue.reviewFile))
+    if (t.getAttribute(`data-review-path`) === e) return t;
+  return null;
+}
+function oi(e, t, n) {
+  if (e.get(Z) !== t) return;
+  let r = ai(t);
+  if (r == null) {
+    n > 1 &&
+      window.setTimeout(() => {
+        oi(e, t, n - 1);
+      }, Hr);
+    return;
+  }
+  r.scrollIntoView({ behavior: `auto`, block: `start` });
+}
+function si(e, t, n, r) {
+  if (e.get(Q) !== t) return;
+  let i = ci(e, t.comment);
+  if (i?.lineElement == null) {
+    if (
+      (i != null &&
+        i.path !== r &&
+        i.fileElement.scrollIntoView({ behavior: `auto`, block: `start` }),
+      n > 1)
+    ) {
+      window.setTimeout(() => {
+        si(e, t, n - 1, i?.path ?? r);
+      }, Hr);
+      return;
+    }
+    e.set(Q, void 0);
+    return;
+  }
+  (i.lineElement.scrollIntoView({ behavior: `auto`, block: `center` }),
+    window.setTimeout(() => {
+      if (e.get(Q) !== t) return;
+      let i = ci(e, t.comment);
+      if (i?.lineElement == null) {
+        if (n > 1) {
+          si(e, t, n - 1, r);
+          return;
+        }
+        e.set(Q, void 0);
+        return;
+      }
+      (i.lineElement.scrollIntoView({ behavior: `auto`, block: `center` }),
+        e.set(Z, i.path),
+        e.set(Q, void 0));
+    }, Ur));
+}
+function ci(e, t) {
+  let n = li(e.get(L), t.position.path),
+    r = n == null ? null : ai(n.path);
+  if (r == null) return null;
+  let i = Rn({
+      container: r,
+      includeShadowRoots: !0,
+      lineNumber: t.position.line,
+      side: t.position.side === `left` ? `deletions` : `additions`,
+    }),
+    a = r.getAttribute(`data-review-path`);
+  return a == null ? null : { fileElement: r, lineElement: i, path: a };
+}
+function li(e, t) {
+  let n = x(t),
+    r;
+  for (let i of e) {
+    if (i.path === n || i.gitPath === n) return i;
+    r == null && l(t, i.gitPath) && (r = i);
+  }
+  return r;
+}
+export {
+  Ln as $,
+  E as $t,
+  H as A,
+  Et as At,
+  yr as B,
+  N as Bt,
+  ur as C,
+  j as Ct,
+  pr as D,
+  xt as Dt,
+  V as E,
+  A as Et,
+  Ar as F,
+  bt as Ft,
+  $n as G,
+  gt as Gt,
+  Mr as H,
+  Pt as Ht,
+  Sr as I,
+  M as It,
+  Vn as J,
+  Ft as Jt,
+  er as K,
+  F as Kt,
+  xr as L,
+  et as Lt,
+  Er as M,
+  wt as Mt,
+  kr as N,
+  P as Nt,
+  W as O,
+  Ct as Ot,
+  gr as P,
+  ot as Pt,
+  Rn as Q,
+  we as Qt,
+  br as R,
+  at as Rt,
+  fr as S,
+  I as St,
+  lr as T,
+  Ot as Tt,
+  jr as U,
+  Mt as Ut,
+  Dr as V,
+  vt as Vt,
+  wr as W,
+  Nt as Wt,
+  Nn as X,
+  Ve as Xt,
+  Pn as Y,
+  Be as Yt,
+  Fn as Z,
+  ze as Zt,
+  mr as _,
+  pn as _t,
+  Zr as a,
+  _n as at,
+  hr as b,
+  sn as bt,
+  Qr as c,
+  qt as ct,
+  ni as d,
+  fn as dt,
+  D as en,
+  Hn as et,
+  Br as f,
+  an as ft,
+  vr as g,
+  ln as gt,
+  Cr as h,
+  mn as ht,
+  $r as i,
+  L as it,
+  U as j,
+  jt,
+  B as k,
+  St as kt,
+  qr as l,
+  rn as lt,
+  ir as m,
+  gn as mt,
+  ti as n,
+  Un as nt,
+  $ as o,
+  bn as ot,
+  Y as p,
+  cn as pt,
+  kn as q,
+  _t as qt,
+  ei as r,
+  xn as rt,
+  Xr as s,
+  Jt as st,
+  ri as t,
+  In as tt,
+  Yr as u,
+  dn as ut,
+  K as v,
+  un as vt,
+  cr as w,
+  it as wt,
+  dr as x,
+  tn as xt,
+  G as y,
+  on as yt,
+  _r as z,
+  k as zt,
+};
+//# sourceMappingURL=review-navigation-model.js.map

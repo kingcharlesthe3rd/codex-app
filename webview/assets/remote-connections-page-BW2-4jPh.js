@@ -1,2 +1,45 @@
-import{t as e}from"./jsx-runtime-DXKlqYIQ.js";import{Z as t}from"./app-scope-CWE-zIhQ.js";import"./use-host-config-Dpd_LQBD.js";import"./thread-context-inputs-D5uMjcUB.js";import"./vscode-api-C493k1u5.js";import"./isEqual-DoHfXEc2.js";import"./src-DE8g9pdX.js";import"./lib-BWT6A3Q0.js";import"./rpc-BkQcoUFd.js";import"./statsig-C09DmQ8J.js";import"./request-CbVO4wKj.js";import"./markdown-to-search-text-D4gbAqkt.js";import"./marked.esm-CESG9QWl.js";import"./product-logger-ibAP2Yp2.js";import{a as n}from"./chunk-LFPYN7LY-h_ROgi7V.js";import"./parse-directives-CBLh72Bj.js";import"./platform-BGCLi31Q.js";import"./persisted-signal-CesmP9gH.js";import"./invalidate-queries-and-broadcast-C1rtXaa3.js";import"./config-queries-DIDRuwSL.js";import"./selectable-remote-connections-signal-COirnFNU.js";import{n as r}from"./remote-connection-visibility-D8HC2WMz.js";var i=t(),a=e();function o(){let e=(0,i.c)(2);if(!r()){let t;return e[0]===Symbol.for(`react.memo_cache_sentinel`)?(t=(0,a.jsx)(n,{to:`/`,replace:!0}),e[0]=t):t=e[0],t}let t;return e[1]===Symbol.for(`react.memo_cache_sentinel`)?(t=(0,a.jsx)(n,{to:`/settings/connections`,replace:!0}),e[1]=t):t=e[1],t}export{o as RemoteConnectionsPage};
+import { t as e } from "./jsx-runtime.js";
+import { Z as t } from "./app-scope-CWE-zIhQ.js";
+import "./use-host-config.js";
+import "./thread-context-inputs.js";
+import "./vscode-api.js";
+import "./isEqual.js";
+import "./src-3.js";
+import "./lib-1.js";
+import "./rpc-1.js";
+import "./statsig.js";
+import "./request.js";
+import "./markdown-to-search-text.js";
+import "./marked.esm.js";
+import "./product-logger.js";
+import { a as n } from "./chunk-13.js";
+import "./parse-directives.js";
+import "./platform.js";
+import "./persisted-signal.js";
+import "./invalidate-queries-and-broadcast.js";
+import "./config-queries.js";
+import "./selectable-remote-connections-signal.js";
+import { n as r } from "./remote-connection-visibility.js";
+var i = t(),
+  a = e();
+function o() {
+  let e = (0, i.c)(2);
+  if (!r()) {
+    let t;
+    return (
+      e[0] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((t = (0, a.jsx)(n, { to: `/`, replace: !0 })), (e[0] = t))
+        : (t = e[0]),
+      t
+    );
+  }
+  let t;
+  return (
+    e[1] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((t = (0, a.jsx)(n, { to: `/settings/connections`, replace: !0 })), (e[1] = t))
+      : (t = e[1]),
+    t
+  );
+}
+export { o as RemoteConnectionsPage };
 //# sourceMappingURL=remote-connections-page-BW2-4jPh.js.map

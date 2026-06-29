@@ -1,0 +1,55 @@
+import { Yt as e } from "./use-host-config.js";
+import { Gi as t } from "./src-3.js";
+function n({
+  agentMode: n,
+  permissionProfileId: r,
+  workspaceRoots: i,
+  config: a,
+  configOverrides: o,
+  input: s,
+  commentAttachments: c,
+  collaborationMode: l,
+  responsesapiClientMetadata: u,
+  serviceTier: d,
+  cwd: f,
+  fileAttachments: p,
+  addedFiles: m,
+  memoryPreferences: h,
+  threadSource: g,
+  threadStartKind: _,
+  workspaceKind: v = `project`,
+  projectlessOutputDirectory: y,
+  projectAssignment: b,
+  additionalDeveloperInstructions: x,
+}) {
+  if (v === `projectless` && y == null)
+    throw Error(`Projectless conversations require an output directory`);
+  let S = e([...p, ...m]),
+    C = t(n, i, a);
+  return (
+    r != null &&
+      ((C.activePermissionProfile = { id: r, extends: null }), (C.runtimeWorkspaceRoots = i)),
+    {
+      input: s,
+      commentAttachments: c,
+      workspaceRoots: i,
+      collaborationMode: l,
+      ...(u === void 0 ? {} : { responsesapiClientMetadata: u }),
+      serviceTier: d,
+      permissions: C,
+      approvalsReviewer: C.approvalsReviewer,
+      cwd: f,
+      attachments: S,
+      workspaceKind: v,
+      ...(b === void 0 ? {} : { projectAssignment: b }),
+      ...(g === void 0 ? {} : { threadSource: g }),
+      ...(_ === void 0 ? {} : { threadStartKind: _ }),
+      ...(o === void 0 ? {} : { config: o }),
+      ...(v === `projectless` ? { projectlessOutputDirectory: y } : {}),
+      ...(h === void 0 ? {} : { memoryPreferences: h }),
+      ...(x === void 0 ? {} : { additionalDeveloperInstructions: x }),
+    }
+  );
+}
+export { n as t };
+//# sourceMappingURL=build-start-conversation-params.js.map

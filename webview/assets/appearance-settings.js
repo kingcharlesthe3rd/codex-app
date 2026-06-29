@@ -1,0 +1,156 @@
+import { t as e } from "./jsx-runtime.js";
+import { Z as t } from "./app-scope-CWE-zIhQ.js";
+import "./use-host-config.js";
+import "./thread-context-inputs.js";
+import "./vscode-api.js";
+import "./isEqual.js";
+import "./src-3.js";
+import "./react-dom.js";
+import "./lib-1.js";
+import "./proxy.js";
+import "./app-shell-state.js";
+import "./button.js";
+import "./setting-storage.js";
+import "./reduced-motion-preference.js";
+import "./use-reduced-motion-1.js";
+import "./spinner.js";
+import "./Combination.js";
+import "./window-zoom-context.js";
+import "./check-md.js";
+import "./chevron-right.js";
+import "./use-stable-callback.js";
+import "./tooltip-B.js";
+import "./toast-signal.js";
+import "./arrow-up.js";
+import "./x.js";
+import "./plus.js";
+import "./rpc-1.js";
+import "./statsig.js";
+import "./request.js";
+import "./chevron.js";
+import "./markdown-to-search-text.js";
+import "./shiki-highlight-provider-gate.js";
+import "./marked.esm.js";
+import "./product-logger.js";
+import "./parse-directives.js";
+import "./platform.js";
+import "./persisted-signal.js";
+import "./app-server-manager-hooks.js";
+import "./invalidate-queries-and-broadcast.js";
+import "./config-queries.js";
+import "./selectable-remote-connections-signal.js";
+import "./remote-connection-visibility.js";
+import "./sidebar-signals.js";
+import "./use-auth.js";
+import "./use-global-state.js";
+import "./model-queries.js";
+import "./use-model-settings.js";
+import "./config.js";
+import "./use-codex-home.js";
+import "./use-os-info.js";
+import "./link-external.js";
+import "./open-config-toml-button.js";
+import "./open-workspace-file.js";
+import "./mcp-capability-signals.js";
+import "./send-open-file-request.js";
+import "./mime-types.js";
+import "./use-webview-execution-target.js";
+import "./remote-projects.js";
+import "./use-service-tier-settings.js";
+import "./_baseEach.js";
+import "./_baseOrderBy.js";
+import "./use-permissions-mode.js";
+import "./thread-detail-level.js";
+import "./permissions-mode-defaults.js";
+import "./apps.js";
+import "./projectless-thread.js";
+import "./use-platform.js";
+import "./experimental-features-queries.js";
+import "./use-is-plugins-enabled.js";
+import "./browser-sidebar-availability.js";
+import "./use-plugins.js";
+import "./uniq.js";
+import "./use-is-dark.js";
+import "./info.js";
+import "./check-circle-filled.js";
+import "./file.js";
+import "./diff-view-mode.js";
+import "./file-diff.js";
+import "./git-availability-query.js";
+import "./terminal.js";
+import "./app-identity-CNx-Ii8s.js";
+import "./with-window.js";
+import "./use-resolved-theme-variant.js";
+import "./sidebar-thread-keys.js";
+import "./locale-resolver.js";
+import "./folder.js";
+import "./json-2.js";
+import "./settings.cog.js";
+import "./skills.js";
+import "./command-menu-state.js";
+import "./modal-controller-state.js";
+import "./dialog-layout.js";
+import "./open-project-setup-dialog.js";
+import "./local-projects.js";
+import "./select-project.js";
+import "./sidebar-project-group-signals.js";
+import "./sidebar-project-groups.js";
+import "./_defineProperty.js";
+import "./run-command.js";
+import "./use-register-command.js";
+import "./use-skills.js";
+import "./electron-menu-shortcuts.js";
+import "./command-keybindings.js";
+import "./checkbox.js";
+import "./minus.js";
+import "./links.js";
+import "./gpu-tearing-debug-settings.js";
+import "./x-circle.js";
+import "./folders.js";
+import "./dropdown.js";
+import "./format-relative-date-time.js";
+import "./popover.js";
+import "./sortBy.js";
+import "./laptop.js";
+import "./service-tier-icons.js";
+import "./trash-DL-ar7Ww.js";
+import "./use-enter-behavior.js";
+import "./toggle.js";
+import "./alert-1.js";
+import "./copy.js";
+import "./permissions-mode-visibility.js";
+import "./service-tier-copy.js";
+import { i as n } from "./settings-shared.js";
+import { t as r } from "./settings-content-layout.js";
+import "./extension-info.js";
+import "./sun.js";
+import "./settings-row.js";
+import "./settings-surface.js";
+import "./external-agent-import-step.js";
+import "./scroll-to-bottom-buton.js";
+import "./onboarding-shell.js";
+import "./hooks.js";
+import "./settings-group.js";
+import "./hotkey-window-state.js";
+import "./segmented-toggle.js";
+import "./statsig-url-config.js";
+import "./open-in-targets-query.js";
+import { n as i } from "./general-settings-1.js";
+var a = t(),
+  o = e();
+function s() {
+  let e = (0, a.c)(1),
+    t;
+  return (
+    e[0] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((t = (0, o.jsx)(r, {
+          title: (0, o.jsx)(n, { slug: `appearance` }),
+          children: (0, o.jsx)(i, {}),
+        })),
+        (e[0] = t))
+      : (t = e[0]),
+    t
+  );
+}
+export { s as AppearanceSettings };
+//# sourceMappingURL=appearance-settings.js.map

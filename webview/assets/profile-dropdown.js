@@ -1,0 +1,1131 @@
+import { s as e } from "./chunk.js";
+import { n as t, t as n } from "./jsx-runtime.js";
+import { Z as r, a as i, g as a, o, s, t as c } from "./app-scope-CWE-zIhQ.js";
+import { Bt as l, r as u } from "./use-host-config.js";
+import { Qi as d, cn as f, k as p } from "./thread-context-inputs.js";
+import { f as m, o as h } from "./vscode-api.js";
+import { ai as g } from "./src-3.js";
+import { l as _, s as v } from "./lib-1.js";
+import { t as y } from "./clsx.js";
+import { t as b } from "./button.js";
+import { t as ee } from "./tooltip-B.js";
+import { r as te } from "./toast-signal.js";
+import { l as ne, o as x } from "./statsig.js";
+import { Pn as re, t as ie } from "./product-logger.js";
+import { m as ae, p as oe } from "./chunk-13.js";
+import { t as se } from "./use-auth.js";
+import { t as ce } from "./link-external.js";
+import { b as S, c as le, p as ue, t as de } from "./codex-api-C.js";
+import { t as fe } from "./use-collaboration-mode.js";
+import { n as pe, t as C } from "./skus.js";
+import { n as me } from "./app-identity-CNx-Ii8s.js";
+import { t as w } from "./with-window.js";
+import { t as he } from "./settings.cog.js";
+import { t as ge } from "./codex.js";
+import { t as _e } from "./openai-blossom.js";
+import { t as ve } from "./copy-to-clipboard.js";
+import { r as ye } from "./modal-controller-state.js";
+import { d as T, i as E, l as be, n as xe, r as Se } from "./dialog-layout.js";
+import { t as Ce } from "./settings-sections.js";
+import { n as we, t as Te } from "./upgrade-plan-dialog-launcher.js";
+import { a as Ee } from "./command-keybindings.js";
+import { p as De } from "./usage-queries.js";
+import { a as Oe } from "./links.js";
+import { t as ke } from "./use-codex-pricing-url.js";
+import { m as D, o as O } from "./rate-limit-status.js";
+import { c as Ae } from "./plan-management-state.js";
+import { c as je, d as Me, o as Ne, t as Pe } from "./use-rate-limit.js";
+import { i as k, r as Fe, t as Ie } from "./dropdown.js";
+import { t as Le } from "./use-active-conversation-id.js";
+import { t as Re } from "./avatar.js";
+import { t as ze } from "./building.js";
+import { t as Be } from "./keyboard.js";
+import { t as Ve } from "./log-out.js";
+import { t as He } from "./rate-limit-reset-modal.js";
+import { t as Ue } from "./rate-limit-summary.js";
+import { t as We } from "./referral-invite-modal.js";
+import { n as Ge, r as Ke } from "./profile-queries.js";
+import { t as qe } from "./profile-visibility.js";
+import { t as Je } from "./use-usage-settings-access.js";
+var Ye = e(t()),
+  A = n(),
+  j = (e) =>
+    (0, A.jsx)(`svg`, {
+      width: 16,
+      height: 16,
+      viewBox: `0 0 16 16`,
+      fill: `none`,
+      xmlns: `http://www.w3.org/2000/svg`,
+      ...e,
+      children: (0, A.jsx)(`path`, {
+        fillRule: `evenodd`,
+        clipRule: `evenodd`,
+        d: `M12.0368 1.69459C13.4379 1.22769 14.7711 2.56142 14.304 3.96256L11.2337 13.1735C10.7213 14.7106 8.59383 14.8331 7.90871 13.3649L6.3423 10.0079C6.28804 9.89173 6.20464 9.79237 6.1009 9.71959L5.99074 9.65631L2.63449 8.08913C1.16665 7.40386 1.28853 5.27746 2.82512 4.76491L12.0368 1.69459ZM13.3884 2.9985C12.9661 3.64157 12.2113 4.53879 11.997 4.75319L7.2673 9.48288C7.28051 9.50799 7.2951 9.53284 7.30715 9.55866L8.87199 12.9149C9.15031 13.5114 10.0151 13.4618 10.2236 12.8376L13.0814 4.26334L13.3501 3.40084C13.4001 3.25067 13.41 3.11459 13.3884 2.9985ZM12.9978 2.60944C12.8823 2.58865 12.7466 2.5989 12.5978 2.6485L11.7353 2.91725L3.16183 5.77506C2.53754 5.98334 2.48745 6.84731 3.08371 7.12584L6.44074 8.69225L6.51496 8.73053L11.2446 4.00084C11.4589 3.78664 12.3548 3.0319 12.9978 2.60944Z`,
+        fill: `currentColor`,
+      }),
+    }),
+  Xe = (e) =>
+    (0, A.jsx)(`svg`, {
+      width: 20,
+      height: 20,
+      viewBox: `0 0 20 20`,
+      fill: `none`,
+      xmlns: `http://www.w3.org/2000/svg`,
+      ...e,
+      children: (0, A.jsx)(`path`, {
+        d: `M17.665 10C17.665 10.6877 17.1785 11.2454 16.5488 11.3945L16.4219 11.4189C14.7098 11.6665 13.6129 12.1305 12.877 12.8623C12.1414 13.5938 11.6742 14.6843 11.4238 16.3887C11.3197 17.0973 10.7182 17.665 9.96484 17.665C9.27085 17.665 8.68836 17.1772 8.53613 16.5215C8.12392 14.7459 7.6623 13.619 6.95703 12.8652C6.31314 12.1772 5.39414 11.7268 3.88672 11.4688L3.57715 11.4199C2.88869 11.319 2.33496 10.734 2.33496 10C2.33496 9.26603 2.88869 8.681 3.57715 8.58008L3.88672 8.53125C5.39414 8.27321 6.31314 7.82277 6.95703 7.13477C7.6623 6.38104 8.12392 5.25413 8.53613 3.47852L8.56934 3.35742C8.76133 2.76356 9.31424 2.33496 9.96484 2.33496C10.7182 2.33497 11.3197 2.9027 11.4238 3.61133L11.5283 4.22266C11.7954 5.58295 12.2334 6.49773 12.877 7.1377C13.6129 7.86952 14.7098 8.33351 16.4219 8.58105C17.1119 8.68101 17.665 9.26667 17.665 10Z`,
+        fill: `currentColor`,
+      }),
+    }),
+  Ze = a(c, !1);
+function Qe(e) {
+  return e?.structure?.toLowerCase() === `personal`;
+}
+function M({ currentAccount: e, accounts: t }) {
+  return Qe(e) ? (t == null ? !0 : t.some((e) => !Qe(e))) : !1;
+}
+function $e({ authMethod: e, plan: t, currentAccount: n, accounts: r }) {
+  return e !== `chatgpt` || (t !== C.FREE && t !== C.GO) || n == null || r == null
+    ? !1
+    : !M({ currentAccount: n, accounts: r });
+}
+var et = r(),
+  tt = `1038162578`,
+  nt = `3648137593`;
+function rt(e) {
+  let t = (0, et.c)(203),
+    { triggerButton: n } = e,
+    r = o(c),
+    a = s(Ze),
+    ne;
+  t[0] === r
+    ? (ne = t[1])
+    : ((ne = (e) => {
+        r.set(Ze, e);
+      }),
+      (t[0] = r),
+      (t[1] = ne));
+  let x = ne,
+    S = ae(),
+    {
+      accountId: de,
+      email: C,
+      userId: T,
+      authMethod: E,
+      planAtLogin: be,
+      requiresAuth: xe,
+      isCopilotApiAvailable: Se,
+      openAIAuth: D,
+      setAuthMethod: O,
+    } = se(),
+    { data: We } = le(),
+    { data: j, isError: Qe } = ue(),
+    M = E === `chatgpt`,
+    rt = E === `copilot`,
+    lt = E === `apikey`,
+    ut = E === `amazonBedrock`,
+    dt = M || lt,
+    ft;
+  t[2] === M ? (ft = t[3]) : ((ft = { queryConfig: { enabled: M } }), (t[2] = M), (t[3] = ft));
+  let { data: pt } = h(`account-info`, ft),
+    N = j?.plan_type ?? pt?.plan ?? be,
+    mt;
+  t[4] !== M || t[5] !== N ? ((mt = M && pe(N)), (t[4] = M), (t[5] = N), (t[6] = mt)) : (mt = t[6]);
+  let ht = mt,
+    gt = We?.accounts,
+    _t;
+  t[7] !== j || t[8] !== E || t[9] !== N || t[10] !== gt
+    ? ((_t = $e({ authMethod: E, plan: N, currentAccount: j, accounts: gt })),
+      (t[7] = j),
+      (t[8] = E),
+      (t[9] = N),
+      (t[10] = gt),
+      (t[11] = _t))
+    : (_t = t[11]);
+  let vt = _t,
+    yt;
+  t[12] === N ? (yt = t[13]) : ((yt = Ae(N)?.pricePlan ?? null), (t[12] = N), (t[13] = yt));
+  let bt = yt,
+    xt = !dt && D != null,
+    St = !rt && Se,
+    Ct = !dt && D == null && xe,
+    wt = xe || !1,
+    Tt = qe(),
+    Et;
+  t[14] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((Et = { logExposure: !1 }), (t[14] = Et))
+    : (Et = t[14]);
+  let Dt = ke(Et),
+    P = Le(),
+    Ot = oe(`/remote/:taskId`),
+    kt;
+  t[15] !== P || t[16] !== Ot
+    ? ((kt = P ?? (Ot?.params.taskId == null ? null : g(Ot.params.taskId))),
+      (t[15] = P),
+      (t[16] = Ot),
+      (t[17] = kt))
+    : (kt = t[17]);
+  let At = kt,
+    jt = i(p, P),
+    Mt;
+  t[18] !== jt || t[19] !== P
+    ? ((Mt = P == null ? void 0 : { workspaceRoot: jt }), (t[18] = jt), (t[19] = P), (t[20] = Mt))
+    : (Mt = t[20]);
+  let F = Mt,
+    { activeMode: Nt } = fe(At),
+    Pt = Nt?.settings.model ?? null,
+    Ft = i(Ee, `settings`),
+    It = _(),
+    { data: I } = s(f),
+    Lt = Ne(I),
+    Rt = je(I),
+    zt;
+  t[21] === I?.plan_type
+    ? (zt = t[22])
+    : ((zt = Ae(I?.plan_type)?.pricePlan ?? null), (t[21] = I?.plan_type), (t[22] = zt));
+  let Bt = zt,
+    Vt = Pe(Lt, { activeLimitName: Rt, selectedModel: Pt }),
+    Ht = Me(I, { activeLimitName: Rt, selectedModel: Pt }),
+    Ut = I?.rate_limit_reset_credits?.available_count ?? 0,
+    { isUsageSettingsVisible: Wt, isUsageSettingsAccessLoading: Gt } = Je(),
+    Kt = a && ht && Wt && !Gt,
+    qt = j?.id ?? de ?? pt?.accountId ?? null,
+    Jt;
+  t[23] !== Kt || t[24] !== qt
+    ? ((Jt = { accountId: qt, enabled: Kt }), (t[23] = Kt), (t[24] = qt), (t[25] = Jt))
+    : (Jt = t[25]);
+  let { data: Yt, isFetching: Xt } = De(Jt),
+    Zt = st(Yt === void 0 ? null : Yt),
+    L = Zt != null,
+    Qt = ht && Xt && !L,
+    R = Vt;
+  ht && ((R = []), Zt != null && (R = [Zt]));
+  let $t = ht ? null : Rt,
+    z = ht ? 0 : Ut,
+    B = Qt || R.some(at) || z > 0,
+    en = Te(),
+    tn = we(),
+    nn = Ge(),
+    rn = de ?? pt?.accountId ?? null,
+    an = a && Tt && nn,
+    on = T ?? pt?.userId ?? null,
+    sn;
+  (t[26] !== rn || t[27] !== an || t[28] !== on
+    ? ((sn = { accountId: rn, enabled: an, userId: on }),
+      (t[26] = rn),
+      (t[27] = an),
+      (t[28] = on),
+      (t[29] = sn))
+    : (sn = t[29]),
+    Ke(sn));
+  let cn;
+  t[30] === j?.structure
+    ? (cn = t[31])
+    : ((cn = function () {
+        return j?.structure?.toLowerCase() === `personal`;
+      }),
+      (t[30] = j?.structure),
+      (t[31] = cn));
+  let V = cn,
+    ln;
+  t[32] === j?.structure
+    ? (ln = t[33])
+    : ((ln = function () {
+        return j?.structure?.toLowerCase() === `workspace`;
+      }),
+      (t[32] = j?.structure),
+      (t[33] = ln));
+  let un = ln,
+    H = null;
+  V() ? (H = tt) : un() && (H = nt);
+  let dn;
+  t[34] !== j?.name || t[35] !== V
+    ? ((dn = V()
+        ? (0, A.jsx)(v, {
+            id: `codex.profileDropdown.personalAccountTitle`,
+            defaultMessage: `Personal account`,
+            description: `Label for a personal account`,
+          })
+        : (j?.name ??
+          (0, A.jsx)(v, {
+            id: `codex.profileDropdown.defaultAccountTitle`,
+            defaultMessage: `Default account`,
+            description: `Fallback label when a non-personal account has no display name`,
+          }))),
+      (t[34] = j?.name),
+      (t[35] = V),
+      (t[36] = dn))
+    : (dn = t[36]);
+  let fn = dn,
+    U = j?.profile_picture_url ?? null,
+    [pn, mn] = (0, Ye.useState)(null),
+    hn;
+  t[37] !== It || t[38] !== r || t[39] !== T
+    ? ((hn = async () => {
+        if (T != null)
+          try {
+            (await ve(T),
+              r
+                .get(te)
+                .success(
+                  It.formatMessage({
+                    id: `codex.profileDropdown.copyUserIdSuccess`,
+                    defaultMessage: `Copied user ID`,
+                    description: `Toast shown after copying the ChatGPT user ID from the profile dropdown`,
+                  }),
+                ));
+          } catch {
+            r.get(te).danger(
+              It.formatMessage({
+                id: `codex.profileDropdown.copyUserIdError`,
+                defaultMessage: `Failed to copy user ID`,
+                description: `Toast shown when copying the ChatGPT user ID from the profile dropdown fails`,
+              }),
+            );
+          }
+      }),
+      (t[37] = It),
+      (t[38] = r),
+      (t[39] = T),
+      (t[40] = hn))
+    : (hn = t[40]);
+  let gn = hn,
+    _n;
+  t[41] === x
+    ? (_n = t[42])
+    : ((_n = () => {
+        (x(!1), m.dispatchMessage(`open-in-browser`, { url: Oe }));
+      }),
+      (t[41] = x),
+      (t[42] = _n));
+  let vn = _n,
+    yn;
+  t[43] === x
+    ? (yn = t[44])
+    : ((yn = () => {
+        (x(!1), m.dispatchHostMessage({ type: `navigate-to-route`, path: `/settings/usage` }));
+      }),
+      (t[43] = x),
+      (t[44] = yn));
+  let bn = yn,
+    xn;
+  t[45] !== r || t[46] !== x || t[47] !== z
+    ? ((xn = () => {
+        (x(!1),
+          ye(r, He, { initialAvailableCount: z, isRateLimitReached: !1, onResetComplete: it }));
+      }),
+      (t[45] = r),
+      (t[46] = x),
+      (t[47] = z),
+      (t[48] = xn))
+    : (xn = t[48]);
+  let Sn = xn,
+    Cn;
+  t[49] !== S || t[50] !== r
+    ? ((Cn = async () => {
+        (await d(r, `use-copilot-auth-if-available`, !1),
+          await l(`logout`, { hostId: u }),
+          S(`/login`));
+      }),
+      (t[49] = S),
+      (t[50] = r),
+      (t[51] = Cn))
+    : (Cn = t[51]);
+  let wn = Cn,
+    Tn;
+  t[52] !== U || t[53] !== pn
+    ? ((Tn = function (e) {
+        return U && U !== pn
+          ? (0, A.jsx)(`img`, {
+              src: U,
+              alt: ``,
+              className: y(`rounded-full`, e.className),
+              onError: () => {
+                mn(U);
+              },
+            })
+          : (0, A.jsx)(he, { className: e.className });
+      }),
+      (t[52] = U),
+      (t[53] = pn),
+      (t[54] = Tn))
+    : (Tn = t[54]);
+  let En = Tn,
+    W;
+  if (
+    t[55] !== En ||
+    t[56] !== fn ||
+    t[57] !== Qe ||
+    t[58] !== bt ||
+    t[59] !== C ||
+    t[60] !== Dt ||
+    t[61] !== gn ||
+    t[62] !== ut ||
+    t[63] !== lt ||
+    t[64] !== M ||
+    t[65] !== rt ||
+    t[66] !== S ||
+    t[67] !== D ||
+    t[68] !== en ||
+    t[69] !== r ||
+    t[70] !== O ||
+    t[71] !== x ||
+    t[72] !== Ct ||
+    t[73] !== St ||
+    t[74] !== xt ||
+    t[75] !== vt
+  ) {
+    if (((W = []), M)) {
+      if (C) {
+        let e;
+        t[77] === gn
+          ? (e = t[78])
+          : ((e = () => {
+              gn();
+            }),
+            (t[77] = gn),
+            (t[78] = e));
+        let n;
+        t[79] === C
+          ? (n = t[80])
+          : ((n = (0, A.jsx)(k, { LeftIcon: Re, disabled: !0, children: C })),
+            (t[79] = C),
+            (t[80] = n));
+        let r;
+        (t[81] !== e || t[82] !== n
+          ? ((r = (0, A.jsx)(`div`, { onClick: e, children: n }, `email`)),
+            (t[81] = e),
+            (t[82] = n),
+            (t[83] = r))
+          : (r = t[83]),
+          W.push(r));
+      }
+      if (!Qe) {
+        let e;
+        (t[84] !== En || t[85] !== fn
+          ? ((e = (0, A.jsx)(k, { LeftIcon: En, disabled: !0, children: fn }, `account`)),
+            (t[84] = En),
+            (t[85] = fn),
+            (t[86] = e))
+          : (e = t[86]),
+          W.push(e));
+      }
+      if (vt) {
+        let e;
+        t[87] !== bt || t[88] !== Dt || t[89] !== en || t[90] !== r || t[91] !== x
+          ? ((e = () => {
+              (x(!1),
+                en({
+                  scope: r,
+                  currentPlan: bt,
+                  getPricingUrl: Dt,
+                  source: `profile_dropdown_upgrade_cta`,
+                }));
+            }),
+            (t[87] = bt),
+            (t[88] = Dt),
+            (t[89] = en),
+            (t[90] = r),
+            (t[91] = x),
+            (t[92] = e))
+          : (e = t[92]);
+        let n;
+        t[93] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((n = (0, A.jsx)(v, {
+              id: `codex.profileDropdown.getPlus`,
+              defaultMessage: `Upgrade for higher limits`,
+              description: `Menu item in the profile dropdown to upgrade a free account for higher limits`,
+            })),
+            (t[93] = n))
+          : (n = t[93]);
+        let i;
+        (t[94] === e
+          ? (i = t[95])
+          : ((i = (0, A.jsx)(
+              k,
+              { LeftIcon: Xe, RightIcon: ce, onClick: e, children: n },
+              `upgrade-account`,
+            )),
+            (t[94] = e),
+            (t[95] = i)),
+          W.push(i));
+      }
+    } else if (lt) {
+      let e;
+      (t[96] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, A.jsx)(
+            k,
+            {
+              LeftIcon: Re,
+              disabled: !0,
+              children: (0, A.jsx)(v, {
+                id: `codex.profileDropdown.apiKeyAuth`,
+                defaultMessage: `Logged in with API key`,
+                description: `Label indicating the user is authenticated with an API key`,
+              }),
+            },
+            `api-key-auth`,
+          )),
+          (t[96] = e))
+        : (e = t[96]),
+        W.push(e));
+    } else if (ut) {
+      let e;
+      (t[97] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, A.jsx)(
+            k,
+            {
+              LeftIcon: Re,
+              disabled: !0,
+              children: (0, A.jsx)(v, {
+                id: `codex.profileDropdown.amazonBedrockAuth`,
+                defaultMessage: `Logged in with Amazon Bedrock`,
+                description: `Label indicating the user is authenticated with Amazon Bedrock`,
+              }),
+            },
+            `amazon-bedrock-auth`,
+          )),
+          (t[97] = e))
+        : (e = t[97]),
+        W.push(e));
+    }
+    if (rt) {
+      let e;
+      (t[98] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, A.jsx)(
+            k,
+            {
+              LeftIcon: Re,
+              disabled: !0,
+              children: (0, A.jsx)(v, {
+                id: `codex.profileDropdown.copilotAuth`,
+                defaultMessage: `Logged in with Copilot`,
+                description: `Label indicating the user is authenticated with Copilot`,
+              }),
+            },
+            `copilot-auth`,
+          )),
+          (t[98] = e))
+        : (e = t[98]),
+        W.push(e));
+    }
+    if (xt) {
+      let e;
+      t[99] !== D || t[100] !== r || t[101] !== O || t[102] !== x
+        ? ((e = () => {
+            (x(!1), d(r, `use-copilot-auth-if-available`, !1), O(D));
+          }),
+          (t[99] = D),
+          (t[100] = r),
+          (t[101] = O),
+          (t[102] = x),
+          (t[103] = e))
+        : (e = t[103]);
+      let n;
+      t[104] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((n = (0, A.jsx)(v, {
+            id: `codex.profileDropdown.switchToOpenAIAccount`,
+            defaultMessage: `Use OpenAI account`,
+            description: `Label showing the option to switch to OpenAI authentication`,
+          })),
+          (t[104] = n))
+        : (n = t[104]);
+      let i;
+      (t[105] === e
+        ? (i = t[106])
+        : ((i = (0, A.jsx)(k, { onClick: e, LeftIcon: Ve, children: n }, `switch-to-openai`)),
+          (t[105] = e),
+          (t[106] = i)),
+        W.push(i));
+    } else if (St) {
+      let e;
+      t[107] !== r || t[108] !== O || t[109] !== x
+        ? ((e = () => {
+            (x(!1), d(r, `use-copilot-auth-if-available`, !0), O(`copilot`));
+          }),
+          (t[107] = r),
+          (t[108] = O),
+          (t[109] = x),
+          (t[110] = e))
+        : (e = t[110]);
+      let n;
+      t[111] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((n = (0, A.jsx)(v, {
+            id: `codex.profileDropdown.switchToCopilotAccount`,
+            defaultMessage: `Use Copilot account`,
+            description: `Label showing the option to switch to Copilot authentication`,
+          })),
+          (t[111] = n))
+        : (n = t[111]);
+      let i;
+      (t[112] === e
+        ? (i = t[113])
+        : ((i = (0, A.jsx)(k, { onClick: e, LeftIcon: Ve, children: n }, `switch-to-copilot`)),
+          (t[112] = e),
+          (t[113] = i)),
+        W.push(i));
+    }
+    if (Ct) {
+      let e;
+      t[114] !== S || t[115] !== x
+        ? ((e = () => {
+            (x(!1), S(`/login`));
+          }),
+          (t[114] = S),
+          (t[115] = x),
+          (t[116] = e))
+        : (e = t[116]);
+      let n;
+      t[117] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((n = (0, A.jsx)(v, {
+            id: `codex.profileDropdown.signInWithOpenAI`,
+            defaultMessage: `Sign in with ChatGPT`,
+            description: `Profile menu item to sign in with ChatGPT`,
+          })),
+          (t[117] = n))
+        : (n = t[117]);
+      let r;
+      (t[118] === e
+        ? (r = t[119])
+        : ((r = (0, A.jsx)(k, { onClick: e, LeftIcon: _e, children: n }, `sign-in-openai`)),
+          (t[118] = e),
+          (t[119] = r)),
+        W.push(r));
+    }
+    ((t[55] = En),
+      (t[56] = fn),
+      (t[57] = Qe),
+      (t[58] = bt),
+      (t[59] = C),
+      (t[60] = Dt),
+      (t[61] = gn),
+      (t[62] = ut),
+      (t[63] = lt),
+      (t[64] = M),
+      (t[65] = rt),
+      (t[66] = S),
+      (t[67] = D),
+      (t[68] = en),
+      (t[69] = r),
+      (t[70] = O),
+      (t[71] = x),
+      (t[72] = Ct),
+      (t[73] = St),
+      (t[74] = xt),
+      (t[75] = vt),
+      (t[76] = W));
+  } else W = t[76];
+  let Dn;
+  t[120] === n
+    ? (Dn = t[121])
+    : ((Dn =
+        n ??
+        (0, A.jsx)(ee, {
+          tooltipContent: (0, A.jsx)(v, {
+            id: `codex.header.settingsTooltip`,
+            defaultMessage: `Settings`,
+            description: `Tooltip text for opening settings`,
+          }),
+          children: (0, A.jsx)(b, {
+            color: `ghost`,
+            size: `icon`,
+            children: (0, A.jsx)(he, { className: `icon-xs` }),
+          }),
+        })),
+      (t[120] = n),
+      (t[121] = Dn));
+  let G;
+  t[122] === W.length
+    ? (G = t[123])
+    : ((G = W.length > 0 && (0, A.jsx)(Fe.Separator, {})), (t[122] = W.length), (t[123] = G));
+  let K;
+  t[124] !== Tt || t[125] !== S || t[126] !== r || t[127] !== x || t[128] !== F
+    ? ((K =
+        Tt &&
+        (0, A.jsx)(k, {
+          LeftIcon: Re,
+          onClick: () => {
+            (ie(r, re, { source: `profile_dropdown` }),
+              x(!1),
+              S(`/settings/profile`, { state: F }));
+          },
+          children: (0, A.jsx)(v, {
+            id: `codex.profileDropdown.profile`,
+            defaultMessage: `Profile`,
+            description: `Menu item to open the Codex profile page`,
+          }),
+        })),
+      (t[124] = Tt),
+      (t[125] = S),
+      (t[126] = r),
+      (t[127] = x),
+      (t[128] = F),
+      (t[129] = K))
+    : (K = t[129]);
+  let q;
+  t[130] !== S || t[131] !== x || t[132] !== F
+    ? ((q = () => {
+        (x(!1), S(`/settings/${Ce}`, { state: F }));
+      }),
+      (t[130] = S),
+      (t[131] = x),
+      (t[132] = F),
+      (t[133] = q))
+    : (q = t[133]);
+  let On;
+  t[134] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((On = (0, A.jsx)(v, {
+        id: `codex.profileDropdown.settingsPage`,
+        defaultMessage: `Settings`,
+        description: `Menu item to open Codex settings page`,
+      })),
+      (t[134] = On))
+    : (On = t[134]);
+  let J;
+  t[135] !== Ft || t[136] !== q
+    ? ((J = (0, A.jsx)(k, { LeftIcon: he, keyboardShortcut: Ft, onClick: q, children: On })),
+      (t[135] = Ft),
+      (t[136] = q),
+      (t[137] = J))
+    : (J = t[137]);
+  let Y;
+  t[138] !== K || t[139] !== J
+    ? ((Y = (0, A.jsxs)(w, { browser: !0, electron: !0, children: [K, J] })),
+      (t[138] = K),
+      (t[139] = J),
+      (t[140] = Y))
+    : (Y = t[140]);
+  let X;
+  t[141] === x
+    ? (X = t[142])
+    : ((X = () => {
+        (x(!1), m.dispatchMessage(`show-settings`, { section: Ce }));
+      }),
+      (t[141] = x),
+      (t[142] = X));
+  let kn;
+  t[143] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((kn = (0, A.jsx)(v, {
+        id: `codex.profileDropdown.codexSettings`,
+        defaultMessage: `{appName} settings`,
+        description: `Menu item to view Codex settings`,
+        values: { appName: me },
+      })),
+      (t[143] = kn))
+    : (kn = t[143]);
+  let Z;
+  t[144] === X
+    ? (Z = t[145])
+    : ((Z = (0, A.jsx)(w, {
+        extension: !0,
+        children: (0, A.jsx)(k, { LeftIcon: ge, onClick: X, children: kn }),
+      })),
+      (t[144] = X),
+      (t[145] = Z));
+  let Q;
+  t[146] !== M || t[147] !== un || t[148] !== vn
+    ? ((Q =
+        M && un()
+          ? (0, A.jsx)(k, {
+              LeftIcon: ze,
+              RightIcon: ce,
+              onClick: vn,
+              children: (0, A.jsx)(v, {
+                id: `codex.profileDropdown.workspaceSettings`,
+                defaultMessage: `Workspace settings`,
+                description: `Menu item to open ChatGPT workspace settings`,
+              }),
+            })
+          : null),
+      (t[146] = M),
+      (t[147] = un),
+      (t[148] = vn),
+      (t[149] = Q))
+    : (Q = t[149]);
+  let An;
+  t[150] === x
+    ? (An = t[151])
+    : ((An = () => {
+        (x(!1), m.dispatchMessage(`open-keyboard-shortcuts`, {}));
+      }),
+      (t[150] = x),
+      (t[151] = An));
+  let jn;
+  t[152] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((jn = (0, A.jsx)(v, {
+        id: `codex.profileDropdown.keyboardShortcuts`,
+        defaultMessage: `Keyboard shortcuts`,
+        description: `Menu item to open keyboard shortcuts filtered to this extension`,
+      })),
+      (t[152] = jn))
+    : (jn = t[152]);
+  let Mn;
+  t[153] === An
+    ? (Mn = t[154])
+    : ((Mn = (0, A.jsx)(w, {
+        extension: !0,
+        children: (0, A.jsx)(k, { LeftIcon: Be, onClick: An, children: jn }),
+      })),
+      (t[153] = An),
+      (t[154] = Mn));
+  let Nn;
+  t[155] !== V || t[156] !== M || t[157] !== H
+    ? ((Nn = M && H != null ? (0, A.jsx)(ot, { isPersonalAccount: V(), layer: H }) : null),
+      (t[155] = V),
+      (t[156] = M),
+      (t[157] = H),
+      (t[158] = Nn))
+    : (Nn = t[158]);
+  let Pn;
+  t[159] === Nn
+    ? (Pn = t[160])
+    : ((Pn = (0, A.jsx)(w, { electron: !0, children: Nn })), (t[159] = Nn), (t[160] = Pn));
+  let Fn;
+  t[161] === B
+    ? (Fn = t[162])
+    : ((Fn = B ? (0, A.jsx)(Fe.Separator, {}) : null), (t[161] = B), (t[162] = Fn));
+  let In;
+  t[163] === Fn
+    ? (In = t[164])
+    : ((In = (0, A.jsx)(w, { electron: !0, children: Fn })), (t[163] = Fn), (t[164] = In));
+  let Ln;
+  t[165] !== L ||
+  t[166] !== Sn ||
+  t[167] !== bn ||
+  t[168] !== I?.plan_type ||
+  t[169] !== Bt ||
+  t[170] !== r ||
+  t[171] !== Pt ||
+  t[172] !== B ||
+  t[173] !== Qt ||
+  t[174] !== Ht ||
+  t[175] !== tn ||
+  t[176] !== $t ||
+  t[177] !== z ||
+  t[178] !== R
+    ? ((Ln = B
+        ? (0, A.jsx)(Ue, {
+            rateLimits: R,
+            activeLimitName: $t,
+            planType: I?.plan_type,
+            suppressUpsell: L ? !1 : Ht,
+            selectedModel: Pt,
+            availableRateLimitResetCount: z,
+            onRateLimitResetClick: Sn,
+            isLoading: Qt,
+            layout: `compact`,
+            showLearnMore: !L,
+            onRequestLimitIncreaseClick: L ? bn : void 0,
+            onPlanUpgradeClick:
+              Bt == null
+                ? void 0
+                : (e) => {
+                    tn({
+                      scope: r,
+                      currentPlan: Bt,
+                      defaultTab: `personal`,
+                      source: `profile_dropdown_rate_limit_summary`,
+                    }) && e.preventDefault();
+                  },
+          })
+        : null),
+      (t[165] = L),
+      (t[166] = Sn),
+      (t[167] = bn),
+      (t[168] = I?.plan_type),
+      (t[169] = Bt),
+      (t[170] = r),
+      (t[171] = Pt),
+      (t[172] = B),
+      (t[173] = Qt),
+      (t[174] = Ht),
+      (t[175] = tn),
+      (t[176] = $t),
+      (t[177] = z),
+      (t[178] = R),
+      (t[179] = Ln))
+    : (Ln = t[179]);
+  let Rn;
+  t[180] === Ln
+    ? (Rn = t[181])
+    : ((Rn = (0, A.jsx)(w, { electron: !0, children: Ln })), (t[180] = Ln), (t[181] = Rn));
+  let zn;
+  t[182] !== wn || t[183] !== r || t[184] !== x || t[185] !== wt
+    ? ((zn =
+        wt &&
+        (0, A.jsx)(k, {
+          onClick: () => {
+            (x(!1), ye(r, ct, { onConfirm: wn }));
+          },
+          LeftIcon: Ve,
+          children: (0, A.jsx)(v, {
+            id: `codex.profileDropdown.logOut`,
+            defaultMessage: `Log out`,
+            description: `Menu item to log out of ChatGPT`,
+          }),
+        })),
+      (t[182] = wn),
+      (t[183] = r),
+      (t[184] = x),
+      (t[185] = wt),
+      (t[186] = zn))
+    : (zn = t[186]);
+  let $;
+  t[187] !== W ||
+  t[188] !== G ||
+  t[189] !== Y ||
+  t[190] !== Z ||
+  t[191] !== Q ||
+  t[192] !== Mn ||
+  t[193] !== Pn ||
+  t[194] !== In ||
+  t[195] !== Rn ||
+  t[196] !== zn
+    ? (($ = (0, A.jsxs)(`div`, {
+        className: `flex w-full min-w-0 flex-col gap-0`,
+        children: [W, G, Y, Z, Q, Mn, Pn, In, Rn, zn],
+      })),
+      (t[187] = W),
+      (t[188] = G),
+      (t[189] = Y),
+      (t[190] = Z),
+      (t[191] = Q),
+      (t[192] = Mn),
+      (t[193] = Pn),
+      (t[194] = In),
+      (t[195] = Rn),
+      (t[196] = zn),
+      (t[197] = $))
+    : ($ = t[197]);
+  let Bn;
+  return (
+    t[198] !== a || t[199] !== x || t[200] !== Dn || t[201] !== $
+      ? ((Bn = (0, A.jsx)(Ie, {
+          open: a,
+          onOpenChange: x,
+          contentWidth: `panel`,
+          triggerButton: Dn,
+          children: $,
+        })),
+        (t[198] = a),
+        (t[199] = x),
+        (t[200] = Dn),
+        (t[201] = $),
+        (t[202] = Bn))
+      : (Bn = t[202]),
+    Bn
+  );
+}
+function it() {}
+function at(e) {
+  return !!e.snapshot?.primary?.windowDurationMins || !!e.snapshot?.secondary?.windowDurationMins;
+}
+function ot(e) {
+  let t = (0, et.c)(17),
+    { isPersonalAccount: n, layer: r } = e,
+    i = o(c),
+    a = x(`1823918333`),
+    s = x(`3502353992`),
+    l = ne(r),
+    u;
+  t[0] === l ? (u = t[1]) : ((u = l.get(`enabled`, !1)), (t[0] = l), (t[1] = u));
+  let d = u,
+    f = a && d,
+    p;
+  t[2] === f ? (p = t[3]) : ((p = { enabled: f }), (t[2] = f), (t[3] = p));
+  let { data: m } = S(p);
+  if (!a || !d || m == null) return null;
+  let h =
+      s &&
+      m.remaining_referrals === 0 &&
+      (m.ineligible_reason_code === `user_limit_reached` ||
+        m.ineligible_reason_code === `workspace_limit_reached`),
+    g = h && m.ineligible_reason_code === `workspace_limit_reached`;
+  if (!m.should_show && !h) return null;
+  let _;
+  t[4] !== m.grant_action ||
+  t[5] !== m.grant_amount ||
+  t[6] !== m.remaining_referrals ||
+  t[7] !== h ||
+  t[8] !== g ||
+  t[9] !== n ||
+  t[10] !== i
+    ? ((_ = () => {
+        (i.set(Ze, !1),
+          ye(i, We, {
+            grantAmount: m.grant_amount,
+            hasReachedReferralLimit: h,
+            hasReachedWorkspaceReferralLimit: g,
+            isPersonalAccount: n,
+            referralBeaconType: `rate_limit_reached`,
+            referralGrantType: m.grant_action,
+            referralKey: de,
+            remainingReferrals: m.remaining_referrals,
+          }));
+      }),
+      (t[4] = m.grant_action),
+      (t[5] = m.grant_amount),
+      (t[6] = m.remaining_referrals),
+      (t[7] = h),
+      (t[8] = g),
+      (t[9] = n),
+      (t[10] = i),
+      (t[11] = _))
+    : (_ = t[11]);
+  let y;
+  t[12] === n
+    ? (y = t[13])
+    : ((y = n
+        ? (0, A.jsx)(v, {
+            id: `codex.profileDropdown.inviteFriend`,
+            defaultMessage: `Invite a friend`,
+            description: `Menu item to invite a friend through a persistent referral`,
+          })
+        : (0, A.jsx)(v, {
+            id: `codex.profileDropdown.inviteCoworker`,
+            defaultMessage: `Invite a coworker`,
+            description: `Menu item to invite a coworker through a persistent referral`,
+          })),
+      (t[12] = n),
+      (t[13] = y));
+  let b;
+  return (
+    t[14] !== _ || t[15] !== y
+      ? ((b = (0, A.jsx)(k, {
+          LeftIcon: j,
+          leftIconClassName: `icon-xs`,
+          onClick: _,
+          children: y,
+        })),
+        (t[14] = _),
+        (t[15] = y),
+        (t[16] = b))
+      : (b = t[16]),
+    b
+  );
+}
+function st(e) {
+  let t = O(e);
+  return t == null
+    ? null
+    : {
+        limitName: null,
+        snapshot: {
+          limitId: null,
+          limitName: null,
+          primary: { usedPercent: t.usedPercent, windowDurationMins: D, resetsAt: null },
+          secondary: null,
+          credits: null,
+          individualLimit: null,
+          planType: null,
+          rateLimitReachedType: null,
+        },
+      };
+}
+function ct(e) {
+  let t = (0, et.c)(20),
+    { onClose: n, onConfirm: r } = e,
+    i;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((i = (0, A.jsx)(v, {
+        id: `codex.profileDropdown.logOutConfirmation.title`,
+        defaultMessage: `Log out?`,
+        description: `Title for the confirmation dialog shown before logging out from the profile dropdown`,
+      })),
+      (t[0] = i))
+    : (i = t[0]);
+  let a = i,
+    o;
+  t[1] !== n || t[2] !== r
+    ? ((o = () => {
+        (n(), r());
+      }),
+      (t[1] = n),
+      (t[2] = r),
+      (t[3] = o))
+    : (o = t[3]);
+  let s = o,
+    c;
+  t[4] === s
+    ? (c = t[5])
+    : ((c = (e) => {
+        (e.preventDefault(), s());
+      }),
+      (t[4] = s),
+      (t[5] = c));
+  let l;
+  t[6] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((l = (0, A.jsx)(T, { asChild: !0, children: (0, A.jsx)(`span`, { children: a }) })),
+      (t[6] = l))
+    : (l = t[6]);
+  let u;
+  t[7] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((u = (0, A.jsx)(E, {
+        className: `pr-8`,
+        title: l,
+        subtitle: (0, A.jsx)(v, {
+          id: `codex.profileDropdown.logOutConfirmation.subtitle`,
+          defaultMessage: `You’ll need to sign in again to keep using {appName}`,
+          description: `Subtitle for the confirmation dialog shown before logging out from the profile dropdown`,
+          values: { appName: me },
+        }),
+      })),
+      (t[7] = u))
+    : (u = t[7]);
+  let d;
+  t[8] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((d = (0, A.jsx)(v, {
+        id: `codex.profileDropdown.logOutConfirmation.cancel`,
+        defaultMessage: `Cancel`,
+        description: `Cancel button label for the log out confirmation dialog`,
+      })),
+      (t[8] = d))
+    : (d = t[8]);
+  let f;
+  t[9] === n
+    ? (f = t[10])
+    : ((f = (0, A.jsx)(b, { color: `ghost`, type: `button`, onClick: n, children: d })),
+      (t[9] = n),
+      (t[10] = f));
+  let p;
+  t[11] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((p = (0, A.jsx)(b, {
+        color: `danger`,
+        type: `submit`,
+        children: (0, A.jsx)(v, {
+          id: `codex.profileDropdown.logOutConfirmation.confirm`,
+          defaultMessage: `Log out`,
+          description: `Confirm button label for logging out from the profile dropdown`,
+        }),
+      })),
+      (t[11] = p))
+    : (p = t[11]);
+  let m;
+  t[12] === f
+    ? (m = t[13])
+    : ((m = (0, A.jsxs)(Se, { className: `gap-2`, children: [f, p] })), (t[12] = f), (t[13] = m));
+  let h;
+  t[14] !== c || t[15] !== m
+    ? ((h = (0, A.jsxs)(xe, {
+        as: `form`,
+        className: `gap-5 px-6 py-6`,
+        onSubmit: c,
+        children: [u, m],
+      })),
+      (t[14] = c),
+      (t[15] = m),
+      (t[16] = h))
+    : (h = t[16]);
+  let g;
+  return (
+    t[17] !== n || t[18] !== h
+      ? ((g = (0, A.jsx)(be, { open: !0, onOpenChange: n, size: `narrow`, children: h })),
+        (t[17] = n),
+        (t[18] = h),
+        (t[19] = g))
+      : (g = t[19]),
+    g
+  );
+}
+export { $e as n, Xe as r, rt as t };
+//# sourceMappingURL=profile-dropdown.js.map

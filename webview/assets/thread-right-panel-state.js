@@ -1,0 +1,9 @@
+import { o as e, r as t } from "./thread-panel-state.js";
+function n(t, n) {
+  return e(t, `right`, n);
+}
+function r(e) {
+  t(e, `right`);
+}
+export { n, r as t };
+//# sourceMappingURL=thread-right-panel-state.js.map

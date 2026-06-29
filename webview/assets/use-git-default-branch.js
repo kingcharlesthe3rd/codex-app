@@ -1,0 +1,33 @@
+import { Z as e, a as t } from "./app-scope-CWE-zIhQ.js";
+import { Hn as n } from "./thread-context-inputs.js";
+import { t as r } from "./git-query-signal.js";
+var i = r({
+    method: `default-branch`,
+    getParams: (e) => ({ operationSource: e.operationSource, root: e.root }),
+    getOptions: (e) => ({
+      refetchOnWindowFocus: e.refetchOnWindowFocus,
+      select: (e) => e.branch,
+      ...(e.staleTime == null ? {} : { staleTime: e.staleTime }),
+    }),
+  }).fromCwd$,
+  a = e();
+function o(e, r, o, s) {
+  let c = (0, a.c)(7),
+    l = e ?? null,
+    u;
+  c[0] === s ? (u = c[1]) : ((u = n(s, null)), (c[0] = s), (c[1] = u));
+  let d;
+  return (
+    c[2] !== r || c[3] !== o || c[4] !== l || c[5] !== u
+      ? ((d = { cwd: l, hostConfig: r, operationSource: o, ...u }),
+        (c[2] = r),
+        (c[3] = o),
+        (c[4] = l),
+        (c[5] = u),
+        (c[6] = d))
+      : (d = c[6]),
+    t(i, d)
+  );
+}
+export { i as n, o as t };
+//# sourceMappingURL=use-git-default-branch.js.map

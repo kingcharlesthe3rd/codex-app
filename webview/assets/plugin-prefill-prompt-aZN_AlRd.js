@@ -1,2 +1,0 @@
-import{l as e}from"./parse-directives-CBLh72Bj.js";import{b as t}from"./mention-item-BfKdFcO-.js";function n(e){return e?.map(e=>e.trim()).find(e=>e.length>0)??null}function r({defaultPrompt:n,pluginDisplayName:r,pluginId:i}){return`${`[@${r}](${e(t(i))})`} ${n?.trim()??``}`}export{n,r as t};
-//# sourceMappingURL=plugin-prefill-prompt-aZN_AlRd.js.map
