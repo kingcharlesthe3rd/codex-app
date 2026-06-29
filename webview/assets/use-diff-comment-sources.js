@@ -1,0 +1,239 @@
+import { Qr as e, ia as t, na as n, sa as r, ta as i } from "./src-2.js";
+import {
+  C as a,
+  E as o,
+  Fa as s,
+  _t as c,
+  g as l,
+  ka as u,
+  kn as d,
+  qo as f,
+  ur as p,
+} from "./app-server-manager-signals.js";
+import { L as m, P as h, h as g, lt as _, z as v } from "./vscode-api.js";
+import { n as y } from "./gh-pull-request-status-query-Do-O_y_F.js";
+var b = /^(?:<sub>\s*)*\[(p\d)\](?:\s*<\/sub>)*\s*(.*)$/i;
+function x(e) {
+  if (typeof e == `number` && Number.isFinite(e)) return e;
+  if (typeof e == `string`) {
+    let t = e.trim();
+    if (t.length === 0) return;
+    let n = Number(t);
+    if (Number.isFinite(n)) return n;
+  }
+}
+function S(e) {
+  let t = x(e);
+  return t == null ? void 0 : Math.trunc(t);
+}
+var C = t((e) => x(e), i().finite()).optional(),
+  w = t((e) => S(e), i().int()).optional(),
+  T = n({
+    title: r().trim().min(1),
+    body: r().trim().min(1),
+    file: r().trim().min(1),
+    priority: w,
+    confidence: C,
+    start: w,
+    end: w,
+  });
+function E(e) {
+  let t = e.match(b);
+  return t ? { priority: t[1].toUpperCase(), rest: t[2].trim() } : { priority: null, rest: e };
+}
+function D(e, t) {
+  return t != null && E(e).priority == null ? `[P${t}] ${e}` : e;
+}
+function O({ body: e, title: t }) {
+  let n = t.trim(),
+    r = e.trim();
+  return n.length === 0 ? r : r.length === 0 ? n : `${n}\n\n${r}`;
+}
+function k(e, t) {
+  let n = T.safeParse(e ?? {});
+  if (!n.success) return null;
+  let { title: r, body: i, file: a, priority: o, start: c, end: l } = n.data,
+    u = Math.max(1, c ?? 1),
+    d = Math.max(1, l ?? u),
+    f = d < u ? u : d,
+    p = O({ title: D(r, o), body: i });
+  return p.length === 0
+    ? null
+    : {
+        content: [{ content_type: `text`, text: p }],
+        position: {
+          side: `right`,
+          path: s(a, t ?? void 0),
+          line: f,
+          ...(f === u ? {} : { start_line: u }),
+        },
+      };
+}
+function A(e, t) {
+  let n = [];
+  for (let r of p(e, { lineStartNames: [d] })) {
+    if (r.name !== `code-comment`) continue;
+    let e = k(r.attributes, t);
+    e != null && n.push(e);
+  }
+  return n;
+}
+function j({ current: e, incoming: t }) {
+  if (t.length === 0) return e;
+  let n = new Set(e.map(u)),
+    r = [...e],
+    i = !1;
+  for (let e of t) {
+    let t = u(e);
+    n.has(t) || (n.add(t), r.push(e), (i = !0));
+  }
+  return i ? r : e;
+}
+function M({ comments: e, conversationId: t, setDiffComments: n }) {
+  e.length !== 0 &&
+    n((n) => {
+      let r = { ...n },
+        i = r[t] ?? [],
+        a = j({ current: i, incoming: e });
+      return a.length === i.length ? n : ((r[t] = a), r);
+    });
+}
+function N({ cache: e, storedModelComments: t, turns: n }) {
+  if (n == null || n.length === 0) return t;
+  let r = new Set(t.map(u)),
+    i = [...t],
+    a = !1;
+  for (let t of n)
+    if (t.status === `completed`)
+      for (let n of P(t, e)) {
+        let e = u(n);
+        r.has(e) || (r.add(e), i.push(n), (a = !0));
+      }
+  return a ? i : t;
+}
+function P(e, t) {
+  let n = t?.get(e);
+  if (n?.items === e.items) return n.comments;
+  let r = [];
+  for (let t of e.items)
+    t.type !== `agentMessage` ||
+      t.phase === `commentary` ||
+      r.push(...A(t.text, e.params.cwd ?? null));
+  return (t?.set(e, { comments: r, items: e.items }), r);
+}
+var F = _(),
+  I = [],
+  L = v(g, (e) => {
+    let t = new WeakMap(),
+      n = I;
+    return m(g, ({ get: r }) => {
+      let i = N({ cache: t, storedModelComments: I, turns: r(c, e) });
+      return (B(n, i) || (n = i), n);
+    });
+  });
+function R(e, t) {
+  let n = (0, F.c)(10),
+    [r, i] = f(`diff_comments`),
+    [a] = f(`diff_comments_from_model`),
+    o = h(L, t),
+    s = r?.[e] ?? I,
+    c = a?.[e] ?? I,
+    l;
+  n[0] !== c || n[1] !== o
+    ? ((l = z({ storedModelComments: c, turnModelComments: o })),
+      (n[0] = c),
+      (n[1] = o),
+      (n[2] = l))
+    : (l = n[2]);
+  let u = l,
+    d;
+  n[3] !== e || n[4] !== i
+    ? ((d = (t) => {
+        i((n) => {
+          let r = { ...n },
+            i = r[e] ?? [],
+            a = typeof t == `function` ? t(i) : t;
+          return a.length === 0 ? (r[e] === void 0 || delete r[e], r) : ((r[e] = a), r);
+        });
+      }),
+      (n[3] = e),
+      (n[4] = i),
+      (n[5] = d))
+    : (d = n[5]);
+  let p = d,
+    m;
+  return (
+    n[6] !== s || n[7] !== u || n[8] !== p
+      ? ((m = { comments: s, modelComments: u, setComments: p }),
+        (n[6] = s),
+        (n[7] = u),
+        (n[8] = p),
+        (n[9] = m))
+      : (m = n[9]),
+    m
+  );
+}
+function z({ storedModelComments: e, turnModelComments: t }) {
+  if (t.length === 0) return e;
+  let n = new Set(e.map(u)),
+    r = [...e],
+    i = !1;
+  for (let e of t) {
+    let t = u(e);
+    n.has(t) || (n.add(t), r.push(e), (i = !0));
+  }
+  return i ? r : e;
+}
+function B(e, t) {
+  return e.length === t.length
+    ? e.every((e, n) => {
+        let r = t[n];
+        return r != null && u(e) === u(r);
+      })
+    : !1;
+}
+function V(t) {
+  let n = (0, F.c)(11),
+    { conversationId: r, enablePullRequestComments: i, localConversationId: s } = t,
+    c = i === void 0 ? !0 : i,
+    { comments: u, modelComments: d, setComments: f } = R(r, s),
+    p = String(r),
+    m;
+  n[0] === p ? (m = n[1]) : ((m = e(p)), (n[0] = p), (n[1] = m));
+  let g = m,
+    _ = h(a, g) ?? ``,
+    v = h(l, g),
+    b = h(o, g) ?? void 0,
+    x;
+  n[2] !== _ || n[3] !== v || n[4] !== b
+    ? ((x = { cwd: v, headBranch: _, hostId: b, operationSource: `diff_comment_sources` }),
+      (n[2] = _),
+      (n[3] = v),
+      (n[4] = b),
+      (n[5] = x))
+    : (x = n[5]);
+  let S = h(y, x),
+    C = c && S.type === `success` ? S.data.commentAttachments : void 0,
+    w;
+  return (
+    n[6] !== u || n[7] !== d || n[8] !== f || n[9] !== C
+      ? ((w = {
+          commentProps: {
+            enableComments: !0,
+            comments: u,
+            modelComments: d,
+            onCommentsChange: f,
+            readonlyComments: C,
+          },
+        }),
+        (n[6] = u),
+        (n[7] = d),
+        (n[8] = f),
+        (n[9] = C),
+        (n[10] = w))
+      : (w = n[10]),
+    w
+  );
+}
+export { M as i, R as n, A as r, V as t };
+//# sourceMappingURL=use-diff-comment-sources.js.map

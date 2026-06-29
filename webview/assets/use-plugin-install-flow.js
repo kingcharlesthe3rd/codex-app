@@ -1,0 +1,3654 @@
+import { s as e } from "./chunk-Bj-mKKzh.js";
+import { Bi as t, Pr as n, jr as r, na as i, sa as a } from "./src-2.js";
+import {
+  Ks as o,
+  Pi as s,
+  fs as c,
+  is as l,
+  po as u,
+  qo as d,
+  qs as f,
+  yr as p,
+} from "./app-server-manager-signals.js";
+import { n as m, t as h } from "./jsx-runtime.js";
+import { t as g } from "./clsx.js";
+import {
+  A as _,
+  F as v,
+  P as y,
+  R as b,
+  _ as x,
+  f as S,
+  g as C,
+  h as w,
+  lt as T,
+  n as E,
+  o as ee,
+  r as D,
+  u as O,
+  v as k,
+} from "./vscode-api.js";
+import { c as te, o as A, r as j } from "./lib-2.js";
+import { f as M } from "./chunk-12.js";
+import { t as N } from "./queryOptions.js";
+import { o as P, p as F } from "./statsig.js";
+import { t as I } from "./request.js";
+import { t as L } from "./invalidate-queries-and-broadcast.js";
+import { c as R, w as z } from "./config-queries.js";
+import { r as B } from "./remote-connection-visibility.js";
+import { t as V } from "./use-auth-CI-WraL2.js";
+import { p as ne } from "./codex-api.js";
+import { c as H, l as re, y as ie } from "./apps-queries.js";
+import { t as ae } from "./connector-logo.js";
+import { r as oe } from "./toast-signal.js";
+import { t as se } from "./tooltip.js";
+import { t as ce } from "./button.js";
+import { r as le, t as ue } from "./spinner.js";
+import { t as de } from "./use-codex-home.js";
+import { t as fe } from "./apps.js";
+import { t as pe } from "./chats-K.js";
+import { t as me } from "./x.js";
+import { t as he } from "./plugin-install-store.js";
+import { t as ge } from "./use-platform.js";
+import { i as _e, n as ve, r as ye } from "./use-is-plugins-enabled.js";
+import { d as be, f as xe, n as U, o as Se, p as Ce, s as we } from "./use-plugins.js";
+import { t as W } from "./info.js";
+import { t as Te } from "./settings.cog.js";
+import { t as Ee } from "./openai-blossom.js";
+import { n as G, t as De } from "./filesystem-media-src.js";
+import { d as Oe, l as ke, n as Ae } from "./dialog-layout.js";
+import { t as je } from "./use-skills.js";
+import { t as Me } from "./check-md.js";
+import { n as Ne, r as Pe } from "./plugin-config-edits.js";
+import { n as Fe } from "./plugin-prefill-prompt.js";
+import {
+  i as Ie,
+  n as Le,
+  o as K,
+  r as Re,
+  t as ze,
+} from "./bundled-plugin-auto-install-preference.js";
+import { t as Be } from "./upgrade-plan-dialog-launcher.js";
+import { m as Ve } from "./links.js";
+import { t as He } from "./use-codex-pricing-url.js";
+import { c as Ue } from "./plan-management-state.js";
+import { t as q } from "./badge-Bpp-zYoJ.js";
+import { r as J, t as We } from "./dropdown.js";
+import { t as Ge } from "./chevron.js";
+import { n as Ke, t as qe } from "./check-plugin-availability.js";
+import { r as Je } from "./plugin-detail-queries.js";
+import { t as Y } from "./toggle.js";
+import { t as Ye } from "./lock.js";
+import { t as Xe } from "./connected-apps.js";
+import { t as Ze } from "./regenerate.js";
+import { i as Qe, n as $e } from "./app-connect-oauth.js";
+import { o as X, r as et } from "./computer-use-app-approvals-query.js";
+import { t as tt } from "./hooks-settings-queries-B.js";
+var Z = T();
+function nt() {
+  let e = (0, Z.c)(3),
+    [t] = d(`remote_control_connections_state`),
+    n = B(),
+    r;
+  return (
+    e[0] !== t || e[1] !== n
+      ? ((r = rt({ remoteControlConnectionsState: t, slingshotEnabled: n })),
+        (e[0] = t),
+        (e[1] = n),
+        (e[2] = r))
+      : (r = e[2]),
+    r
+  );
+}
+function rt({ remoteControlConnectionsState: e, slingshotEnabled: t }) {
+  return t && (e?.available ?? !0) && e?.accessRequired !== !0;
+}
+function it({
+  selectedConnectionsTab: e,
+  showControlOtherDevices: t,
+  showControlThisMacTab: n,
+  showRemoteControlConnectionsSection: r,
+  showRemoteSshConnections: i,
+  showTabbedSshPage: a,
+}) {
+  return r
+    ? e === `control-this-mac` && !n
+      ? t
+        ? `access-other-devices`
+        : `ssh`
+      : e === `access-other-devices` && !t
+        ? n
+          ? `control-this-mac`
+          : `ssh`
+        : e === `ssh` && !a
+          ? t
+            ? `access-other-devices`
+            : `control-this-mac`
+          : e
+    : i
+      ? `ssh`
+      : `access-other-devices`;
+}
+var at = e(m(), 1);
+function ot(e, t) {
+  let n = (0, Z.c)(5),
+    r = (0, at.useEffectEvent)(e),
+    i;
+  n[0] !== t || n[1] !== r
+    ? ((i = () => {
+        if (t == null) return;
+        let e = window.setInterval(() => {
+          r();
+        }, t);
+        return () => {
+          window.clearInterval(e);
+        };
+      }),
+      (n[0] = t),
+      (n[1] = r),
+      (n[2] = i))
+    : (i = n[2]);
+  let a;
+  (n[3] === t ? (a = n[4]) : ((a = [t]), (n[3] = t), (n[4] = a)), (0, at.useEffect)(i, a));
+}
+var st = b(
+    w,
+    (e, { get: t }) =>
+      t(F, `2296472986`) &&
+      rt({
+        remoteControlConnectionsState: l(t, `remote_control_connections_state`),
+        slingshotEnabled: t(F, `1042620455`),
+      }) &&
+      t(R, { hostId: e }).data?.requirements?.computerUse?.allowLockedComputerUse !== !1,
+  ),
+  Q = h(),
+  ct = (e) =>
+    (0, Q.jsxs)(`svg`, {
+      width: 18,
+      height: 18,
+      viewBox: `0 0 18 18`,
+      fill: `none`,
+      xmlns: `http://www.w3.org/2000/svg`,
+      ...e,
+      children: [
+        (0, Q.jsx)(`path`, {
+          fillRule: `evenodd`,
+          clipRule: `evenodd`,
+          d: `M12.6673 9.45374C13.7358 9.45407 14.5577 10.3579 14.5579 11.4156V11.8239C15.1086 11.929 15.5247 12.4134 15.5247 12.9948V15.0504C15.5245 15.7084 14.9913 16.2418 14.3333 16.2418H11.0003C10.3423 16.2418 9.8081 15.7084 9.80789 15.0504V12.9948C9.80789 12.4134 10.2248 11.9291 10.7757 11.8239V11.4156C10.7759 10.3577 11.5984 9.45374 12.6673 9.45374ZM11.0003 12.8531C10.9221 12.8532 10.8587 12.9165 10.8587 12.9948V15.0504C10.8589 15.1285 10.9222 15.192 11.0003 15.192H14.3333C14.4114 15.192 14.4747 15.1285 14.4749 15.0504V12.9948C14.4749 12.9165 14.4115 12.8531 14.3333 12.8531H11.0003ZM12.6673 10.5045C12.2277 10.5045 11.8267 10.887 11.8264 11.4156V11.8024H13.5081V11.4156C13.5079 10.8873 13.1066 10.5049 12.6673 10.5045Z`,
+          fill: `currentColor`,
+        }),
+        (0, Q.jsx)(`path`, {
+          d: `M8.2659 9.84534C8.55342 9.80818 8.81657 10.011 8.85379 10.2985C8.89088 10.5859 8.68813 10.8491 8.40067 10.8864C6.26147 11.1628 4.57997 12.9025 4.39188 15.068C4.36673 15.3568 4.11136 15.5706 3.82254 15.5455C3.53398 15.5202 3.32001 15.2658 3.345 14.9772C3.57594 12.3179 5.63935 10.1848 8.2659 9.84534Z`,
+          fill: `currentColor`,
+        }),
+        (0, Q.jsx)(`path`, {
+          fillRule: `evenodd`,
+          clipRule: `evenodd`,
+          d: `M9.00028 2.31116C10.757 2.3113 12.1809 3.73602 12.1809 5.4928C12.1809 7.2495 10.757 8.67332 9.00028 8.67346C7.24346 8.67346 5.81872 7.24959 5.81863 5.4928C5.81863 3.73593 7.24341 2.31116 9.00028 2.31116ZM9.00028 3.36194C7.82331 3.36194 6.86942 4.31583 6.86942 5.4928C6.8695 6.66969 7.82336 7.62366 9.00028 7.62366C10.1771 7.62351 11.131 6.6696 11.1311 5.4928C11.1311 4.31592 10.1771 3.36208 9.00028 3.36194Z`,
+          fill: `currentColor`,
+        }),
+      ],
+    });
+function lt(e) {
+  let t = (0, Z.c)(3),
+    { ariaLabel: n, icon: r } = e,
+    i;
+  return (
+    t[0] !== n || t[1] !== r
+      ? ((i = (0, Q.jsx)(`span`, {
+          role: `img`,
+          "aria-label": n,
+          className: `flex h-7 w-7 items-center justify-center rounded-md text-token-description-foreground`,
+          children: r,
+        })),
+        (t[0] = n),
+        (t[1] = r),
+        (t[2] = i))
+      : (i = t[2]),
+    i
+  );
+}
+function ut(e) {
+  let t = (0, Z.c)(49),
+    {
+      icon: n,
+      title: r,
+      description: i,
+      contentClassName: a,
+      descriptionClassName: o,
+      badges: s,
+      actions: c,
+      actionsPlacement: l,
+      onClick: u,
+      iconContainer: d,
+      iconContainerVariant: f,
+      className: p,
+    } = e,
+    m = l === void 0 ? `top` : l,
+    h = d === void 0 ? !0 : d,
+    _ = f === void 0 ? `filled` : f,
+    v;
+  t[0] === u
+    ? (v = t[1])
+    : ((v = (e) => {
+        u &&
+          e.target === e.currentTarget &&
+          (e.key === `Enter` || e.key === ` `) &&
+          (e.preventDefault(), u());
+      }),
+      (t[0] = u),
+      (t[1] = v));
+  let y = v,
+    b = m === `center` && !!c,
+    x;
+  t[2] === c
+    ? (x = t[3])
+    : ((x = c ? (0, Q.jsx)(`div`, { className: `flex shrink-0 items-center`, children: c }) : null),
+      (t[2] = c),
+      (t[3] = x));
+  let S = x,
+    C = u ? `cursor-interaction` : null,
+    w;
+  t[4] !== p || t[5] !== C
+    ? ((w = g(
+        `border-token-border/40 flex flex-col gap-2.5 rounded-2xl border p-2.5 transition-colors hover:bg-token-foreground/5`,
+        C,
+        p,
+      )),
+      (t[4] = p),
+      (t[5] = C),
+      (t[6] = w))
+    : (w = t[6]);
+  let T = u ? `button` : void 0,
+    E = u ? 0 : -1,
+    ee;
+  t[7] !== n || t[8] !== h || t[9] !== _
+    ? ((ee = n
+        ? h
+          ? (0, Q.jsx)(`span`, {
+              className: g(
+                `flex h-10 w-10 shrink-0 items-center justify-center rounded-lg`,
+                _ === `outline`
+                  ? `border border-token-border-default bg-transparent`
+                  : `bg-token-bg-primary`,
+              ),
+              children: n,
+            })
+          : (0, Q.jsx)(`span`, { className: `shrink-0`, children: n })
+        : null),
+      (t[7] = n),
+      (t[8] = h),
+      (t[9] = _),
+      (t[10] = ee))
+    : (ee = t[10]);
+  let D = b ? `items-center gap-3` : null,
+    O;
+  t[11] === D ? (O = t[12]) : ((O = g(`flex min-w-0 flex-1`, D)), (t[11] = D), (t[12] = O));
+  let k;
+  t[13] === a
+    ? (k = t[14])
+    : ((k = g(`flex min-w-0 flex-1 flex-col justify-center gap-0.5`, a)), (t[13] = a), (t[14] = k));
+  let te = b ? null : `justify-between`,
+    A;
+  t[15] === te
+    ? (A = t[16])
+    : ((A = g(`flex min-w-0 items-center gap-2`, te)), (t[15] = te), (t[16] = A));
+  let j;
+  t[17] === r
+    ? (j = t[18])
+    : ((j = (0, Q.jsx)(`div`, {
+        className: `truncate font-medium text-token-foreground`,
+        children: r,
+      })),
+      (t[17] = r),
+      (t[18] = j));
+  let M;
+  t[19] === s
+    ? (M = t[20])
+    : ((M = s?.length
+        ? (0, Q.jsx)(`div`, { className: `flex shrink-0 items-center gap-1`, children: s.map(dt) })
+        : null),
+      (t[19] = s),
+      (t[20] = M));
+  let N;
+  t[21] !== j || t[22] !== M
+    ? ((N = (0, Q.jsxs)(`div`, { className: `flex min-w-0 items-center gap-2`, children: [j, M] })),
+      (t[21] = j),
+      (t[22] = M),
+      (t[23] = N))
+    : (N = t[23]);
+  let P = b ? null : S,
+    F;
+  t[24] !== A || t[25] !== N || t[26] !== P
+    ? ((F = (0, Q.jsxs)(`div`, { className: A, children: [N, P] })),
+      (t[24] = A),
+      (t[25] = N),
+      (t[26] = P),
+      (t[27] = F))
+    : (F = t[27]);
+  let I;
+  t[28] !== i || t[29] !== o
+    ? ((I = i
+        ? (0, Q.jsx)(`div`, {
+            className: g(`text-token-text-secondary text-sm leading-relaxed`, o ?? `line-clamp-3`),
+            children: i,
+          })
+        : null),
+      (t[28] = i),
+      (t[29] = o),
+      (t[30] = I))
+    : (I = t[30]);
+  let L;
+  t[31] !== k || t[32] !== F || t[33] !== I
+    ? ((L = (0, Q.jsxs)(`div`, { className: k, children: [F, I] })),
+      (t[31] = k),
+      (t[32] = F),
+      (t[33] = I),
+      (t[34] = L))
+    : (L = t[34]);
+  let R = b ? S : null,
+    z;
+  t[35] !== O || t[36] !== L || t[37] !== R
+    ? ((z = (0, Q.jsxs)(`div`, { className: O, children: [L, R] })),
+      (t[35] = O),
+      (t[36] = L),
+      (t[37] = R),
+      (t[38] = z))
+    : (z = t[38]);
+  let B;
+  t[39] !== ee || t[40] !== z
+    ? ((B = (0, Q.jsxs)(`div`, { className: `flex items-center gap-3`, children: [ee, z] })),
+      (t[39] = ee),
+      (t[40] = z),
+      (t[41] = B))
+    : (B = t[41]);
+  let V;
+  return (
+    t[42] !== y || t[43] !== u || t[44] !== B || t[45] !== w || t[46] !== T || t[47] !== E
+      ? ((V = (0, Q.jsx)(`div`, {
+          className: w,
+          role: T,
+          tabIndex: E,
+          onClick: u,
+          onKeyDown: y,
+          children: B,
+        })),
+        (t[42] = y),
+        (t[43] = u),
+        (t[44] = B),
+        (t[45] = w),
+        (t[46] = T),
+        (t[47] = E),
+        (t[48] = V))
+      : (V = t[48]),
+    V
+  );
+}
+function dt(e, t) {
+  return typeof e == `string`
+    ? (0, Q.jsx)(
+        q,
+        {
+          className: `border border-token-border-default bg-transparent px-1.5 py-0.5 text-xs font-medium text-token-text-secondary`,
+          children: e,
+        },
+        e,
+      )
+    : (0, Q.jsx)(`span`, { className: `flex items-center`, children: e }, t);
+}
+var ft = (e) =>
+    (0, Q.jsx)(`svg`, {
+      width: 20,
+      height: 20,
+      viewBox: `0 0 20 20`,
+      fill: `none`,
+      xmlns: `http://www.w3.org/2000/svg`,
+      ...e,
+      children: (0, Q.jsx)(`path`, {
+        d: `M13.3333 4.16663L6.66663 15.8333`,
+        stroke: `currentColor`,
+        strokeWidth: 1.33,
+        strokeLinecap: `round`,
+      }),
+    }),
+  $ = j({
+    noDescription: {
+      id: `skills.appsPage.apps.noDescription`,
+      defaultMessage: `No description`,
+      description: `Fallback description for apps without description text on the Skills & Apps page`,
+    },
+    manageOnChatGpt: {
+      id: `skills.appsPage.apps.manageOnChatGpt`,
+      defaultMessage: `Manage on ChatGPT`,
+      description: `Button label to manage an installed app on ChatGPT from the Skills & Apps page`,
+    },
+    disableToggleTooltip: {
+      id: `skills.appsPage.apps.disableToggle`,
+      defaultMessage: `Disable app`,
+      description: `Tooltip label for disabling an app from the Skills & Apps page`,
+    },
+    enableToggleTooltip: {
+      id: `skills.appsPage.apps.enableToggleTooltip`,
+      defaultMessage: `Enable app`,
+      description: `Tooltip label for enabling an app from the Skills & Apps page`,
+    },
+    enableToggleAria: {
+      id: `skills.appsPage.apps.enableToggle`,
+      defaultMessage: `Enable app`,
+      description: `Accessible label for toggling whether an installed app is enabled from the Skills & Apps page`,
+    },
+    connectingApp: {
+      id: `skills.appsPage.apps.connecting`,
+      defaultMessage: `Continue connecting app`,
+      description: `Accessible label for the button shown while an app OAuth flow is still finishing on the Skills & Apps page`,
+    },
+    connectApp: {
+      id: `skills.appsPage.apps.connect`,
+      defaultMessage: `Connect`,
+      description: `Button label to connect an app from the Skills & Apps page`,
+    },
+    enabledStatus: {
+      id: `skills.appsPage.apps.enabledStatus`,
+      defaultMessage: `App enabled`,
+      description: `Status label for an installed app that is enabled`,
+    },
+    disabledStatus: {
+      id: `skills.appsPage.apps.disabledStatus`,
+      defaultMessage: `App disabled`,
+      description: `Status label for an installed app that is disabled`,
+    },
+    connectedTo: {
+      id: `skills.appsPage.apps.connectedTo`,
+      defaultMessage: `Connected to {email}`,
+      description: `Tooltip shown for an app with the connected account email`,
+    },
+  });
+function pt(e) {
+  let t = (0, Z.c)(45),
+    {
+      app: n,
+      cardIcon: r,
+      cardIconContainer: i,
+      cardIconContainerVariant: a,
+      badges: o,
+      blockedStatusLabel: s,
+      className: c,
+      connectedAccountEmail: l,
+      installBlockedReason: u,
+      installedStateAction: d,
+      installActionDisabled: f,
+      installActionLabel: p,
+      manageAction: m,
+      isConnectingApp: h,
+      showInstallAction: _,
+      updatingAppId: v,
+      onInstallApp: y,
+      onOpenAppTools: b,
+      onOpenAppUrl: x,
+      onSetAppEnabled: S,
+    } = e,
+    C = i === void 0 ? !0 : i,
+    w = l === void 0 ? null : l,
+    T = u === void 0 ? null : u,
+    E = d === void 0 ? `check` : d,
+    ee = f === void 0 ? !1 : f,
+    D = m === void 0 ? `button` : m,
+    O = _ === void 0 ? !0 : _,
+    k = te(),
+    j;
+  t[0] !== p || t[1] !== k
+    ? ((j = p ?? k.formatMessage($.connectApp)), (t[0] = p), (t[1] = k), (t[2] = j))
+    : (j = t[2]);
+  let M = j,
+    N = n.isEnabled,
+    P = T === `disabled-by-admin` && !n.isAccessible,
+    F = v === n.id,
+    I;
+  t[3] !== w || t[4] !== k
+    ? ((I = w == null ? null : k.formatMessage($.connectedTo, { email: w })),
+      (t[3] = w),
+      (t[4] = k),
+      (t[5] = I))
+    : (I = t[5]);
+  let L = I,
+    R;
+  t[6] !== o || t[7] !== L
+    ? ((R =
+        L == null
+          ? o
+          : [
+              (0, Q.jsxs)(
+                `span`,
+                {
+                  className: `inline-flex items-center gap-1`,
+                  children: [
+                    o,
+                    (0, Q.jsx)(se, {
+                      tooltipContent: L,
+                      children: (0, Q.jsx)(`button`, {
+                        type: `button`,
+                        className: `inline-flex shrink-0 cursor-interaction items-center justify-center text-token-description-foreground hover:text-token-foreground`,
+                        "aria-label": L,
+                        onClick: vt,
+                        children: (0, Q.jsx)(W, { className: `icon-2xs` }),
+                      }),
+                    }),
+                  ],
+                },
+                `connected-account-badge`,
+              ),
+            ]),
+      (t[6] = o),
+      (t[7] = L),
+      (t[8] = R))
+    : (R = t[8]);
+  let z = R,
+    B;
+  t[9] === c
+    ? (B = t[10])
+    : ((B = g(`group justify-center border-none`, c)), (t[9] = c), (t[10] = B));
+  let V;
+  t[11] !== n || t[12] !== r
+    ? ((V =
+        r ??
+        (0, Q.jsx)(ae, {
+          alt: n.name,
+          appInfo: n,
+          className: `icon-md`,
+          fallback: (0, Q.jsx)(Xe, { className: `icon-sm text-token-text-secondary` }),
+        })),
+      (t[11] = n),
+      (t[12] = r),
+      (t[13] = V))
+    : (V = t[13]);
+  let ne;
+  t[14] === n.description
+    ? (ne = t[15])
+    : ((ne = n.description ?? (0, Q.jsx)(A, { ...$.noDescription })),
+      (t[14] = n.description),
+      (t[15] = ne));
+  let H;
+  t[16] !== n || t[17] !== b
+    ? ((H =
+        b == null
+          ? void 0
+          : () => {
+              b(n);
+            }),
+      (t[16] = n),
+      (t[17] = b),
+      (t[18] = H))
+    : (H = t[18]);
+  let re;
+  t[19] !== n ||
+  t[20] !== s ||
+  t[21] !== M ||
+  t[22] !== ee ||
+  t[23] !== E ||
+  t[24] !== k ||
+  t[25] !== h ||
+  t[26] !== N ||
+  t[27] !== P ||
+  t[28] !== F ||
+  t[29] !== D ||
+  t[30] !== y ||
+  t[31] !== x ||
+  t[32] !== S ||
+  t[33] !== O
+    ? ((re =
+        P && s != null
+          ? (0, Q.jsx)(`span`, {
+              className: `inline-flex items-center gap-1 text-right text-sm text-token-text-secondary`,
+              children: s,
+            })
+          : n.isAccessible && E === `toggle`
+            ? (0, Q.jsxs)(`div`, {
+                className: `flex items-center gap-2`,
+                children: [
+                  D === `menu`
+                    ? (0, Q.jsx)(`div`, {
+                        onClick: _t,
+                        onKeyDown: gt,
+                        children: N
+                          ? (0, Q.jsxs)(We, {
+                              align: `end`,
+                              contentWidth: `xs`,
+                              triggerButton: (0, Q.jsxs)(ce, {
+                                className: `gap-1.5`,
+                                color: `outline`,
+                                size: `toolbar`,
+                                disabled: h || F,
+                                children: [
+                                  (0, Q.jsx)(`span`, {
+                                    className: `size-1.5 shrink-0 rounded-full bg-token-charts-green`,
+                                  }),
+                                  (0, Q.jsx)(A, {
+                                    id: `skills.appsPage.apps.connected`,
+                                    defaultMessage: `Connected`,
+                                    description: `Button label shown for an app that is connected`,
+                                  }),
+                                  (0, Q.jsx)(Ge, {
+                                    className: `icon-2xs shrink-0 text-token-description-foreground`,
+                                  }),
+                                ],
+                              }),
+                              children: [
+                                (0, Q.jsx)(J.Item, {
+                                  LeftIcon: Ze,
+                                  onSelect: () => {
+                                    y(n);
+                                  },
+                                  children: (0, Q.jsx)(A, {
+                                    id: `skills.appsPage.apps.reconnect`,
+                                    defaultMessage: `Reconnect`,
+                                    description: `Menu item label for reconnecting an app`,
+                                  }),
+                                }),
+                                (0, Q.jsx)(J.Item, {
+                                  LeftIcon: me,
+                                  className: `!text-token-charts-red`,
+                                  leftIconClassName: `icon-xs text-token-charts-red`,
+                                  onSelect: () => {
+                                    x?.(ie(n));
+                                  },
+                                  children: (0, Q.jsx)(A, {
+                                    id: `skills.appsPage.apps.disconnect`,
+                                    defaultMessage: `Disconnect`,
+                                    description: `Menu item label for disconnecting an app`,
+                                  }),
+                                }),
+                              ],
+                            })
+                          : (0, Q.jsx)(ce, {
+                              className: `shrink-0`,
+                              color: `outline`,
+                              size: `toolbar`,
+                              loading: F,
+                              onClick: () => {
+                                S?.({ appId: n.id, enabled: !0 });
+                              },
+                              children: M,
+                            }),
+                      })
+                    : (0, Q.jsx)(`div`, {
+                        className: `invisible opacity-0 group-focus-within:visible group-focus-within:opacity-100 group-hover:visible group-hover:opacity-100`,
+                        children: (0, Q.jsx)(se, {
+                          tooltipContent: (0, Q.jsx)(A, { ...$.manageOnChatGpt }),
+                          children: (0, Q.jsx)(ce, {
+                            color: `ghost`,
+                            size: `icon`,
+                            "aria-label": k.formatMessage($.manageOnChatGpt),
+                            onClick: (e) => {
+                              (e.stopPropagation(), x?.(ie(n)));
+                            },
+                            children: (0, Q.jsx)(Te, { className: `icon-sm` }),
+                          }),
+                        }),
+                      }),
+                  D === `menu`
+                    ? null
+                    : (0, Q.jsx)(se, {
+                        tooltipContent: N
+                          ? (0, Q.jsx)(A, { ...$.disableToggleTooltip })
+                          : (0, Q.jsx)(A, { ...$.enableToggleTooltip }),
+                        children: (0, Q.jsx)(`div`, {
+                          onClick: ht,
+                          onKeyDown: mt,
+                          children: (0, Q.jsx)(Y, {
+                            checked: N,
+                            disabled: F,
+                            onChange: (e) => {
+                              S?.({ appId: n.id, enabled: e });
+                            },
+                            ariaLabel: k.formatMessage($.enableToggleAria),
+                          }),
+                        }),
+                      }),
+                ],
+              })
+            : n.isAccessible
+              ? (0, Q.jsx)(lt, {
+                  ariaLabel: k.formatMessage(N ? $.enabledStatus : $.disabledStatus),
+                  icon: N
+                    ? (0, Q.jsx)(Me, { className: `icon-sm` })
+                    : (0, Q.jsx)(ft, { className: `icon-sm` }),
+                })
+              : O
+                ? (0, Q.jsx)(se, {
+                    tooltipContent: P
+                      ? (0, Q.jsx)(A, {
+                          id: `plugins.install.disabledByAdmin`,
+                          defaultMessage: `Disabled by admin`,
+                          description: `Tooltip shown when plugin install is unavailable because all included connectors are disabled by admin`,
+                        })
+                      : h
+                        ? (0, Q.jsx)(A, { ...$.connectingApp })
+                        : M,
+                    children: (0, Q.jsx)(`div`, {
+                      children: (0, Q.jsx)(ce, {
+                        className: `shrink-0`,
+                        color: `outline`,
+                        size: `toolbar`,
+                        disabled: P || ee,
+                        "aria-label": h ? k.formatMessage($.connectingApp) : M,
+                        onClick: (e) => {
+                          (e.stopPropagation(), !P && y(n));
+                        },
+                        children: h ? (0, Q.jsx)(ue, { className: `icon-xxs` }) : M,
+                      }),
+                    }),
+                  })
+                : null),
+      (t[19] = n),
+      (t[20] = s),
+      (t[21] = M),
+      (t[22] = ee),
+      (t[23] = E),
+      (t[24] = k),
+      (t[25] = h),
+      (t[26] = N),
+      (t[27] = P),
+      (t[28] = F),
+      (t[29] = D),
+      (t[30] = y),
+      (t[31] = x),
+      (t[32] = S),
+      (t[33] = O),
+      (t[34] = re))
+    : (re = t[34]);
+  let oe;
+  return (
+    t[35] !== n.name ||
+    t[36] !== z ||
+    t[37] !== C ||
+    t[38] !== a ||
+    t[39] !== B ||
+    t[40] !== V ||
+    t[41] !== ne ||
+    t[42] !== H ||
+    t[43] !== re
+      ? ((oe = (0, Q.jsx)(ut, {
+          className: B,
+          actionsPlacement: `center`,
+          iconContainer: C,
+          iconContainerVariant: a,
+          icon: V,
+          title: n.name,
+          badges: z,
+          description: ne,
+          descriptionClassName: `line-clamp-1`,
+          onClick: H,
+          actions: re,
+        })),
+        (t[35] = n.name),
+        (t[36] = z),
+        (t[37] = C),
+        (t[38] = a),
+        (t[39] = B),
+        (t[40] = V),
+        (t[41] = ne),
+        (t[42] = H),
+        (t[43] = re),
+        (t[44] = oe))
+      : (oe = t[44]),
+    oe
+  );
+}
+function mt(e) {
+  e.stopPropagation();
+}
+function ht(e) {
+  e.stopPropagation();
+}
+function gt(e) {
+  e.stopPropagation();
+}
+function _t(e) {
+  e.stopPropagation();
+}
+function vt(e) {
+  e.stopPropagation();
+}
+function yt({ browserExtensionId: e }) {
+  return N({
+    queryKey:
+      e == null
+        ? [`chrome-extension-installed-read`, `missing`]
+        : D(`chrome-extension-installed-read`, { extensionId: e }),
+    queryFn: async () =>
+      e == null
+        ? { installed: !1 }
+        : E(`chrome-extension-installed-read`, { params: { extensionId: e } }),
+    staleTime: O.FIVE_SECONDS,
+  });
+}
+function bt(e) {
+  return e?.installed === !0;
+}
+function xt(e) {
+  let t = (0, Z.c)(10),
+    { browserExtensionId: n } = e,
+    r = n != null,
+    i;
+  t[0] === n ? (i = t[1]) : ((i = yt({ browserExtensionId: n })), (t[0] = n), (t[1] = i));
+  let a;
+  t[2] !== r || t[3] !== i
+    ? ((a = { enabled: r, refetchOnWindowFocus: !0, staleTime: O.FIVE_SECONDS, ...i }),
+      (t[2] = r),
+      (t[3] = i),
+      (t[4] = a))
+    : (a = t[4]);
+  let { data: o, isLoading: s } = k(a),
+    c;
+  t[5] === o ? (c = t[6]) : ((c = bt(o)), (t[5] = o), (t[6] = c));
+  let l = n != null && s,
+    u;
+  return (
+    t[7] !== c || t[8] !== l
+      ? ((u = { isConnected: c, isLoading: l }), (t[7] = c), (t[8] = l), (t[9] = u))
+      : (u = t[9]),
+    u
+  );
+}
+var St = `assets/google-chrome.png`,
+  Ct = `scripts/extension-id.json`,
+  wt = `https://chromewebstore.google.com/detail/codex/`,
+  Tt = t([`chrome`, `chrome-dev`, `chrome-internal`]),
+  Et = i({ extensionId: a().trim().min(1) });
+async function Dt({ codexHome: e, hostId: t, plugin: n, queryClient: r }) {
+  try {
+    let i = jt(e, n);
+    if (i == null) return [];
+    let a = { hostId: t, path: i };
+    return await r.fetchQuery({
+      queryFn: async () => {
+        let t = await E(`read-file`, { params: a });
+        return [
+          Nt({
+            codexHome: e,
+            extensionId: Et.parse(JSON.parse(t.contents)).extensionId,
+            plugin: n,
+          }),
+        ];
+      },
+      queryKey: Ft(a),
+      retry: !1,
+      staleTime: O.INFINITE,
+    });
+  } catch (e) {
+    return (
+      C.warning(`Failed to read plugin browser extension setup`, {
+        safe: {},
+        sensitive: { error: e, pluginId: n.plugin.id },
+      }),
+      []
+    );
+  }
+}
+function Ot(e) {
+  let t = (0, Z.c)(17),
+    { enabled: n, hostId: r, plugin: i } = e,
+    a = de(r),
+    o,
+    s,
+    c,
+    l;
+  t[0] !== a || t[1] !== n || t[2] !== r || t[3] !== i
+    ? ((o = jt(a, i)),
+      (l = k),
+      (s = n && o != null),
+      (c =
+        o == null ? [`plugins`, `browser-extension-setup`, `missing`] : Ft({ hostId: r, path: o })),
+      (t[0] = a),
+      (t[1] = n),
+      (t[2] = r),
+      (t[3] = i),
+      (t[4] = o),
+      (t[5] = s),
+      (t[6] = c),
+      (t[7] = l))
+    : ((o = t[4]), (s = t[5]), (c = t[6]), (l = t[7]));
+  let u;
+  t[8] !== a || t[9] !== o || t[10] !== r || t[11] !== i
+    ? ((u = async () => {
+        if (o == null || i == null) return [];
+        let e = await E(`read-file`, { params: { hostId: r, path: o } });
+        return [
+          Nt({
+            codexHome: a,
+            extensionId: Et.parse(JSON.parse(e.contents)).extensionId,
+            plugin: i,
+          }),
+        ];
+      }),
+      (t[8] = a),
+      (t[9] = o),
+      (t[10] = r),
+      (t[11] = i),
+      (t[12] = u))
+    : (u = t[12]);
+  let d;
+  t[13] !== s || t[14] !== c || t[15] !== u
+    ? ((d = { enabled: s, queryKey: c, queryFn: u, retry: !1, staleTime: O.INFINITE }),
+      (t[13] = s),
+      (t[14] = c),
+      (t[15] = u),
+      (t[16] = d))
+    : (d = t[16]);
+  let { data: f } = l(d);
+  return f;
+}
+async function kt({
+  authPolicy: e,
+  codexHome: t,
+  hostId: n,
+  plugin: r,
+  queryClient: i,
+  windowType: a,
+}) {
+  if (e !== `ON_INSTALL` || a !== `electron` || Mt(r) == null) return [];
+  let o = await Dt({
+    codexHome: t ?? (await E(`codex-home`, { params: { hostId: n } })).codexHome,
+    hostId: n,
+    plugin: await At({ hostId: n, plugin: r }),
+    queryClient: i,
+  });
+  return (
+    await Promise.all(
+      o.map(async (e) => ({
+        browserExtension: e,
+        needsSetup: !bt(await i.fetchQuery({ ...yt({ browserExtensionId: e.id }), staleTime: 0 })),
+      })),
+    )
+  )
+    .filter(({ needsSetup: e }) => e)
+    .map(({ browserExtension: e }) => e);
+}
+async function At({ hostId: e, plugin: t }) {
+  try {
+    return U((await c(`read-plugin`, { hostId: e, ...Se(t) })).plugin);
+  } catch (e) {
+    return (
+      C.warning(`Failed to read installed plugin browser extension setup`, {
+        safe: {},
+        sensitive: { error: e, pluginId: t.plugin.id },
+      }),
+      t
+    );
+  }
+}
+function jt(e, t) {
+  return e == null || t?.plugin.source.type !== `local` || Mt(t) == null
+    ? null
+    : u(
+        r({
+          codexHome: e,
+          localVersion: t.plugin.localVersion,
+          marketplaceName: t.marketplaceName,
+          pluginName: t.plugin.name,
+        }),
+        Ct,
+      );
+}
+function Mt(e) {
+  let t = Tt.safeParse(e.plugin.name);
+  return !t.success || !e.plugin.id.startsWith(`${t.data}@`) ? null : t.data;
+}
+function Nt({ codexHome: e, extensionId: t, plugin: n }) {
+  return {
+    iconUrl:
+      Pt(
+        e == null || n.plugin.source.type !== `local`
+          ? null
+          : u(
+              r({
+                codexHome: e,
+                localVersion: n.plugin.localVersion,
+                marketplaceName: n.marketplaceName,
+                pluginName: n.plugin.name,
+              }),
+              St,
+            ),
+      ) ?? Pt(n.logoPath),
+    id: t,
+    name: `Codex Chrome Extension`,
+    url: `${wt}${t}`,
+  };
+}
+function Pt(e) {
+  let t = e?.trim();
+  if (t == null || t.length === 0) return null;
+  let r = t.toLowerCase();
+  return r.startsWith(`app:`) ||
+    r.startsWith(`data:`) ||
+    r.startsWith(`http:`) ||
+    r.startsWith(`https:`) ||
+    r.startsWith(`/@fs`)
+    ? t
+    : n(t)
+      ? window.location.protocol === `http:` || window.location.protocol === `https:`
+        ? G(t)
+        : De(t)
+      : null;
+}
+function Ft({ hostId: e, path: t }) {
+  return [`plugins`, `browser-extension-setup`, e, t];
+}
+var It = j({
+    codexChromeDescription: {
+      id: `plugins.installModal.browserExtension.description`,
+      defaultMessage: `Install this extension in Chrome to let Codex connect to your browser`,
+      description: `Description for the required Chrome browser extension in the plugin finish setup modal`,
+    },
+  }),
+  Lt = new Map([
+    [`gmail`, `gmail`],
+    [`google-calendar`, `google-calendar`],
+    [`google-drive`, `google-drive`],
+    [`connector_gmail`, `gmail`],
+    [`connector_google_calendar`, `google-calendar`],
+    [`connector_google_drive`, `google-drive`],
+  ]);
+function Rt(e) {
+  return Lt.get(e) ?? null;
+}
+function zt(e, t) {
+  return t === `connector-unavailable` && Rt(e) != null;
+}
+function Bt(e) {
+  let t = (0, Z.c)(9),
+    { upsellId: n } = e;
+  switch (n) {
+    case `gmail`: {
+      let e;
+      t[0] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, Q.jsx)(Ut, {
+            description: (0, Q.jsx)(A, {
+              id: `plugins.installModal.googleUpgrade.gmail.draftReplies.description`,
+              defaultMessage: `Codex can read the thread, understand the ask, and draft a useful response`,
+              description: `Description for the Gmail drafting benefit in the Google plugin upgrade install modal`,
+            }),
+            title: (0, Q.jsx)(A, {
+              id: `plugins.installModal.googleUpgrade.gmail.draftReplies.title`,
+              defaultMessage: `Draft replies with the right context`,
+              description: `Title for the Gmail drafting benefit in the Google plugin upgrade install modal`,
+            }),
+          })),
+          (t[0] = e))
+        : (e = t[0]);
+      let n;
+      t[1] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((n = (0, Q.jsx)(Ut, {
+            description: (0, Q.jsx)(A, {
+              id: `plugins.installModal.googleUpgrade.gmail.emailTasks.description`,
+              defaultMessage: `Pull out action items, deadlines, owners, and next steps from messy threads`,
+              description: `Description for the Gmail task extraction benefit in the Google plugin upgrade install modal`,
+            }),
+            title: (0, Q.jsx)(A, {
+              id: `plugins.installModal.googleUpgrade.gmail.emailTasks.title`,
+              defaultMessage: `Turn emails into tasks`,
+              description: `Title for the Gmail task extraction benefit in the Google plugin upgrade install modal`,
+            }),
+          })),
+          (t[1] = n))
+        : (n = t[1]);
+      let r;
+      return (
+        t[2] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((r = (0, Q.jsxs)(Ht, {
+              children: [
+                e,
+                n,
+                (0, Q.jsx)(Ut, {
+                  description: (0, Q.jsx)(A, {
+                    id: `plugins.installModal.googleUpgrade.gmail.findEmail.description`,
+                    defaultMessage: `Search Gmail conversationally: "Find the vendor email with the updated contract from last month"`,
+                    description: `Description for the Gmail search benefit in the Google plugin upgrade install modal`,
+                  }),
+                  title: (0, Q.jsx)(A, {
+                    id: `plugins.installModal.googleUpgrade.gmail.findEmail.title`,
+                    defaultMessage: `Find the email you're thinking of`,
+                    description: `Title for the Gmail search benefit in the Google plugin upgrade install modal`,
+                  }),
+                }),
+              ],
+            })),
+            (t[2] = r))
+          : (r = t[2]),
+        r
+      );
+    }
+    case `google-calendar`: {
+      let e;
+      t[3] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, Q.jsx)(Ut, {
+            description: (0, Q.jsx)(A, {
+              id: `plugins.installModal.googleUpgrade.googleCalendar.schedule.description`,
+              defaultMessage: `Pull together agenda, context, and questions before a call`,
+              description: `Description for the Google Calendar scheduling benefit in the Google plugin upgrade install modal`,
+            }),
+            title: (0, Q.jsx)(A, {
+              id: `plugins.installModal.googleUpgrade.googleCalendar.schedule.title`,
+              defaultMessage: `Prepare for meetings`,
+              description: `Title for the Google Calendar scheduling benefit in the Google plugin upgrade install modal`,
+            }),
+          })),
+          (t[3] = e))
+        : (e = t[3]);
+      let n;
+      t[4] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((n = (0, Q.jsx)(Ut, {
+            description: (0, Q.jsx)(A, {
+              id: `plugins.installModal.googleUpgrade.googleCalendar.upcoming.description`,
+              defaultMessage: `See meetings, conflicts, and focus time at a glance`,
+              description: `Description for the Google Calendar planning benefit in the Google plugin upgrade install modal`,
+            }),
+            title: (0, Q.jsx)(A, {
+              id: `plugins.installModal.googleUpgrade.googleCalendar.upcoming.title`,
+              defaultMessage: `Summarize your day`,
+              description: `Title for the Google Calendar planning benefit in the Google plugin upgrade install modal`,
+            }),
+          })),
+          (t[4] = n))
+        : (n = t[4]);
+      let r;
+      return (
+        t[5] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((r = (0, Q.jsxs)(Ht, {
+              children: [
+                e,
+                n,
+                (0, Q.jsx)(Ut, {
+                  description: (0, Q.jsx)(A, {
+                    id: `plugins.installModal.googleUpgrade.googleCalendar.changes.description`,
+                    defaultMessage: `Turn events into reminders, notes, and next steps`,
+                    description: `Description for the Google Calendar editing benefit in the Google plugin upgrade install modal`,
+                  }),
+                  title: (0, Q.jsx)(A, {
+                    id: `plugins.installModal.googleUpgrade.googleCalendar.changes.title`,
+                    defaultMessage: `Organize follow-ups`,
+                    description: `Title for the Google Calendar editing benefit in the Google plugin upgrade install modal`,
+                  }),
+                }),
+              ],
+            })),
+            (t[5] = r))
+          : (r = t[5]),
+        r
+      );
+    }
+    case `google-drive`: {
+      let e;
+      t[6] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, Q.jsx)(Ut, {
+            description: (0, Q.jsx)(A, {
+              id: `plugins.installModal.googleUpgrade.googleDrive.find.description`,
+              defaultMessage: `Search by project, topic, people, or recent context`,
+              description: `Description for the Google Drive search benefit in the Google plugin upgrade install modal`,
+            }),
+            title: (0, Q.jsx)(A, {
+              id: `plugins.installModal.googleUpgrade.googleDrive.find.title`,
+              defaultMessage: `Find files faster`,
+              description: `Title for the Google Drive search benefit in the Google plugin upgrade install modal`,
+            }),
+          })),
+          (t[6] = e))
+        : (e = t[6]);
+      let n;
+      t[7] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((n = (0, Q.jsx)(Ut, {
+            description: (0, Q.jsx)(A, {
+              id: `plugins.installModal.googleUpgrade.googleDrive.context.description`,
+              defaultMessage: `Understand what matters without opening every file`,
+              description: `Description for the Google Drive context benefit in the Google plugin upgrade install modal`,
+            }),
+            title: (0, Q.jsx)(A, {
+              id: `plugins.installModal.googleUpgrade.googleDrive.context.title`,
+              defaultMessage: `Summarize docs and folders`,
+              description: `Title for the Google Drive context benefit in the Google plugin upgrade install modal`,
+            }),
+          })),
+          (t[7] = n))
+        : (n = t[7]);
+      let r;
+      return (
+        t[8] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((r = (0, Q.jsxs)(Ht, {
+              children: [
+                e,
+                n,
+                (0, Q.jsx)(Ut, {
+                  description: (0, Q.jsx)(A, {
+                    id: `plugins.installModal.googleUpgrade.googleDrive.update.description`,
+                    defaultMessage: `Use existing files to create briefs, replies, and plans`,
+                    description: `Description for the Google Drive file editing benefit in the Google plugin upgrade install modal`,
+                  }),
+                  title: (0, Q.jsx)(A, {
+                    id: `plugins.installModal.googleUpgrade.googleDrive.update.title`,
+                    defaultMessage: `Draft from Drive context`,
+                    description: `Title for the Google Drive file editing benefit in the Google plugin upgrade install modal`,
+                  }),
+                }),
+              ],
+            })),
+            (t[8] = r))
+          : (r = t[8]),
+        r
+      );
+    }
+  }
+}
+function Vt() {
+  let e = (0, Z.c)(1),
+    t;
+  return (
+    e[0] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((t = (0, Q.jsxs)(q, {
+          className: `gap-1 !bg-token-charts-purple/10 px-1.5 py-1 text-xs font-medium !text-token-charts-purple`,
+          children: [
+            (0, Q.jsx)(Ye, { className: `icon-xs` }),
+            (0, Q.jsx)(A, {
+              id: `plugins.googleUpgrade.badge`,
+              defaultMessage: `Upgrade to unlock`,
+              description: `Badge label shown on Google plugins that need a paid plan`,
+            }),
+          ],
+        })),
+        (e[0] = t))
+      : (t = e[0]),
+    t
+  );
+}
+function Ht(e) {
+  let t = (0, Z.c)(2),
+    { children: n } = e,
+    r;
+  return (
+    t[0] === n
+      ? (r = t[1])
+      : ((r = (0, Q.jsx)(`div`, { className: `flex flex-col gap-3 py-1`, children: n })),
+        (t[0] = n),
+        (t[1] = r)),
+    r
+  );
+}
+function Ut(e) {
+  let t = (0, Z.c)(8),
+    { description: n, title: r } = e,
+    i;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((i = (0, Q.jsx)(Me, { className: `icon-sm mt-0.5 shrink-0 text-token-text-secondary` })),
+      (t[0] = i))
+    : (i = t[0]);
+  let a;
+  t[1] === r
+    ? (a = t[2])
+    : ((a = (0, Q.jsx)(`div`, { className: `font-semibold text-token-text-primary`, children: r })),
+      (t[1] = r),
+      (t[2] = a));
+  let o;
+  t[3] === n
+    ? (o = t[4])
+    : ((o = (0, Q.jsx)(`div`, { className: `text-token-text-secondary`, children: n })),
+      (t[3] = n),
+      (t[4] = o));
+  let s;
+  return (
+    t[5] !== a || t[6] !== o
+      ? ((s = (0, Q.jsxs)(`div`, {
+          className: `flex gap-2 text-sm`,
+          children: [
+            i,
+            (0, Q.jsxs)(`div`, { className: `flex min-w-0 flex-col`, children: [a, o] }),
+          ],
+        })),
+        (t[5] = a),
+        (t[6] = o),
+        (t[7] = s))
+      : (s = t[7]),
+    s
+  );
+}
+var Wt = `OAI-Product-Sku`,
+  Gt = `CODEX`,
+  Kt = /\[([^\]]+)\]\(([^)]+)\)/g,
+  qt = 480,
+  Jt = `min(720px, calc(100vh - 2rem))`,
+  Yt = [0, 1, 2],
+  Xt = 400;
+function Zt(e) {
+  let t = (0, Z.c)(143),
+    {
+      hostId: n,
+      isInstalling: r,
+      onConnectRequiredApp: i,
+      onInstall: a,
+      onOpenChange: o,
+      onRequiredAppConnected: s,
+      onRequiredAppOAuthStarted: c,
+      onTryInChat: l,
+      onViewDetails: u,
+      session: d,
+    } = e,
+    f = r === void 0 ? !1 : r,
+    p = v(w),
+    [m, h] = (0, at.useState)(null),
+    [g, _] = (0, at.useState)(null),
+    { platform: b } = ge(),
+    { authMethod: x, planAtLogin: S } = V(),
+    { data: C } = ne(),
+    T = x === `chatgpt`,
+    E;
+  t[0] === T ? (E = t[1]) : ((E = { queryConfig: { enabled: T } }), (t[0] = T), (t[1] = E));
+  let { data: D } = ee(`account-info`, E),
+    te = C?.plan_type ?? D?.plan ?? S,
+    j;
+  t[2] === te ? (j = t[3]) : ((j = Ue(te)?.pricePlan ?? null), (t[2] = te), (t[3] = j));
+  let M = j,
+    N;
+  t[4] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((N = { logExposure: !0 }), (t[4] = N))
+    : (N = t[4]);
+  let P = He(N),
+    F = Be(),
+    I = y(st, n),
+    L = d.kind === `closed` ? null : d.plugin,
+    R;
+  t[5] !== d.kind || t[6] !== d.requiredApps
+    ? ((R = d.kind === `needsApps` ? d.requiredApps.map(rn) : void 0),
+      (t[5] = d.kind),
+      (t[6] = d.requiredApps),
+      (t[7] = R))
+    : (R = t[7]);
+  let z = R,
+    B;
+  t[8] !== n || t[9] !== z || t[10] !== d.kind || t[11] !== d.plugin
+    ? ((B = d.kind === `details` ? { hostId: n, ...Se(d.plugin) } : { hostId: n, pluginApps: z }),
+      (t[8] = n),
+      (t[9] = z),
+      (t[10] = d.kind),
+      (t[11] = d.plugin),
+      (t[12] = B))
+    : (B = t[12]);
+  let { blockedReasonsByConnectorId: H, blockedReason: re, isLoading: ie } = Ke(B),
+    ae = L != null && qe(L.plugin),
+    oe = d.kind === `details` ? re : null,
+    le = d.kind === `details` && ie,
+    ue = ae ? `disabled-by-admin` : oe,
+    de = ue != null,
+    fe = ue === `disabled-by-admin`,
+    pe = L?.marketplacePath ?? null,
+    me;
+  t[13] === L ? (me = t[14]) : ((me = L == null ? null : we(L)), (t[13] = L), (t[14] = me));
+  let he = L?.remoteMarketplaceName ?? null,
+    _e = L != null,
+    ve;
+  t[15] !== n || t[16] !== he || t[17] !== _e || t[18] !== pe || t[19] !== me
+    ? ((ve = {
+        hostId: n,
+        marketplacePath: pe,
+        pluginName: me,
+        remoteMarketplaceName: he,
+        enabled: _e,
+      }),
+      (t[15] = n),
+      (t[16] = he),
+      (t[17] = _e),
+      (t[18] = pe),
+      (t[19] = me),
+      (t[20] = ve))
+    : (ve = t[20]);
+  let { plugin: ye } = Je(ve),
+    xe = ye?.apps,
+    U,
+    Ce,
+    W,
+    Te,
+    Ee,
+    G,
+    De,
+    Oe;
+  t[21] !== H || t[22] !== xe || t[23] !== d.kind || t[24] !== d.plugin
+    ? ((U = xe?.filter((e) => H[e.id] !== `disabled-by-admin`)),
+      (W = d.kind === `details` && d.plugin.plugin.authPolicy === `ON_INSTALL`),
+      (Ce = U != null && U.length > 0),
+      (Oe = k),
+      (Te = `plugins`),
+      (Ee = `install-modal`),
+      (G = `disclosure`),
+      (De = U?.map(nn)),
+      (t[21] = H),
+      (t[22] = xe),
+      (t[23] = d.kind),
+      (t[24] = d.plugin),
+      (t[25] = U),
+      (t[26] = Ce),
+      (t[27] = W),
+      (t[28] = Te),
+      (t[29] = Ee),
+      (t[30] = G),
+      (t[31] = De),
+      (t[32] = Oe))
+    : ((U = t[25]),
+      (Ce = t[26]),
+      (W = t[27]),
+      (Te = t[28]),
+      (Ee = t[29]),
+      (G = t[30]),
+      (De = t[31]),
+      (Oe = t[32]));
+  let je;
+  t[33] !== Te || t[34] !== Ee || t[35] !== G || t[36] !== De
+    ? ((je = [Te, Ee, G, De]), (t[33] = Te), (t[34] = Ee), (t[35] = G), (t[36] = De), (t[37] = je))
+    : (je = t[37]);
+  let Me = W && Ce && !ie,
+    Ne;
+  t[38] === U
+    ? (Ne = t[39])
+    : ((Ne = async () => {
+        if (U == null) throw Error(`plugin detail apps are required`);
+        let e = await Promise.all(U.map(tn));
+        return { blurbs: Ln(e.flatMap(en)), personalizationToggles: e.flatMap($t) };
+      }),
+      (t[38] = U),
+      (t[39] = Ne));
+  let Pe;
+  t[40] !== je || t[41] !== Me || t[42] !== Ne
+    ? ((Pe = { queryKey: je, enabled: Me, staleTime: O.FIVE_MINUTES, queryFn: Ne }),
+      (t[40] = je),
+      (t[41] = Me),
+      (t[42] = Ne),
+      (t[43] = Pe))
+    : (Pe = t[43]);
+  let { data: Fe, isLoading: Ie } = Oe(Pe),
+    ze;
+  t[44] !== f || t[45] !== o
+    ? ((ze = (e) => {
+        (!e && f) || (e || (h(null), _(null)), o(e));
+      }),
+      (t[44] = f),
+      (t[45] = o),
+      (t[46] = ze))
+    : (ze = t[46]);
+  let Ve = ze;
+  if (d.kind === `closed`) return null;
+  if (d.kind === `connectApp`) {
+    let e;
+    t[47] === d.app ? (e = t[48]) : ((e = Mn(d.app)), (t[47] = d.app), (t[48] = e));
+    let n;
+    t[49] !== s || t[50] !== d.app.appId
+      ? ((n = async () => {
+          await s(d.app.appId);
+        }),
+        (t[49] = s),
+        (t[50] = d.app.appId),
+        (t[51] = n))
+      : (n = t[51]);
+    let r;
+    return (
+      t[52] !== o || t[53] !== c || t[54] !== e || t[55] !== n
+        ? ((r = (0, Q.jsx)(Le, { app: e, onOpenChange: o, onConnected: n, onOAuthStarted: c })),
+          (t[52] = o),
+          (t[53] = c),
+          (t[54] = e),
+          (t[55] = n),
+          (t[56] = r))
+        : (r = t[56]),
+      r
+    );
+  }
+  if (d.kind === `installing`) {
+    let e;
+    return (
+      t[57] !== Ve || t[58] !== d.plugin
+        ? ((e = (0, Q.jsx)(an, { onOpenChange: Ve, plugin: d.plugin })),
+          (t[57] = Ve),
+          (t[58] = d.plugin),
+          (t[59] = e))
+        : (e = t[59]),
+      e
+    );
+  }
+  let q = d.kind === `needsApps` ? `needsApps` : `details`,
+    J = d.plugin,
+    We,
+    Ge,
+    Y,
+    Xe;
+  if (
+    t[60] !== I ||
+    t[61] !== Fe?.personalizationToggles ||
+    t[62] !== g ||
+    t[63] !== m ||
+    t[64] !== q ||
+    t[65] !== b ||
+    t[66] !== J.plugin.id ||
+    t[67] !== W
+  ) {
+    We = m?.pluginId === J.plugin.id ? m.modes : {};
+    let e;
+    (t[72] !== I || t[73] !== q || t[74] !== b || t[75] !== J.plugin.id
+      ? ((e = q === `details` && b === `macOS` && I && be(J.plugin.id)),
+        (t[72] = I),
+        (t[73] = q),
+        (t[74] = b),
+        (t[75] = J.plugin.id),
+        (t[76] = e))
+      : (e = t[76]),
+      (Y = e),
+      (Ge = g?.pluginId === J.plugin.id ? g.enabled : !0),
+      (Xe = Rn({
+        draftModes: We,
+        personalizationToggles: W ? Fe?.personalizationToggles : void 0,
+      })),
+      (t[60] = I),
+      (t[61] = Fe?.personalizationToggles),
+      (t[62] = g),
+      (t[63] = m),
+      (t[64] = q),
+      (t[65] = b),
+      (t[66] = J.plugin.id),
+      (t[67] = W),
+      (t[68] = We),
+      (t[69] = Ge),
+      (t[70] = Y),
+      (t[71] = Xe));
+  } else ((We = t[68]), (Ge = t[69]), (Y = t[70]), (Xe = t[71]));
+  let Ze = Xe,
+    Qe = W && Ce && (ie || Ie),
+    $e;
+  t[77] !== ue || t[78] !== J.plugin.name
+    ? (($e = zt(J.plugin.name, ue)), (t[77] = ue), (t[78] = J.plugin.name), (t[79] = $e))
+    : ($e = t[79]);
+  let X = $e,
+    et;
+  t[80] !== J.plugin.name || t[81] !== X
+    ? ((et = X ? Rt(J.plugin.name) : null), (t[80] = J.plugin.name), (t[81] = X), (t[82] = et))
+    : (et = t[82]);
+  let tt = et,
+    nt = !f,
+    rt;
+  t[83] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((rt = { "aria-describedby": void 0, style: { maxHeight: Jt, width: qt } }), (t[83] = rt))
+    : (rt = t[83]);
+  let it = q === `needsApps` ? `top-5 right-5 text-token-text-secondary` : void 0,
+    ot = q === `needsApps` ? `gap-0 overflow-hidden p-0` : `gap-6 overflow-hidden px-6 pt-8 pb-6`,
+    lt;
+  t[84] === q
+    ? (lt = t[85])
+    : ((lt = q === `needsApps` ? { maxHeight: Jt, padding: 0 } : { maxHeight: Jt }),
+      (t[84] = q),
+      (t[85] = lt));
+  let ut;
+  t[86] !== q || t[87] !== J || t[88] !== X
+    ? ((ut = q === `details` ? (0, Q.jsx)(sn, { plugin: J, showUpgradeBadge: X }) : null),
+      (t[86] = q),
+      (t[87] = J),
+      (t[88] = X),
+      (t[89] = ut))
+    : (ut = t[89]);
+  let dt;
+  t[90] !== H ||
+  t[91] !== We ||
+  t[92] !== Ze ||
+  t[93] !== Fe ||
+  t[94] !== Ve ||
+  t[95] !== n ||
+  t[96] !== Ge ||
+  t[97] !== ie ||
+  t[98] !== Qe ||
+  t[99] !== i ||
+  t[100] !== l ||
+  t[101] !== u ||
+  t[102] !== q ||
+  t[103] !== J ||
+  t[104] !== ye ||
+  t[105] !== xe ||
+  t[106] !== tt ||
+  t[107] !== d.kind ||
+  t[108] !== d.requiredApps ||
+  t[109] !== d.requiredBrowserExtensions ||
+  t[110] !== W ||
+  t[111] !== Y
+    ? ((dt =
+        q === `needsApps`
+          ? (0, Q.jsx)(ln, {
+              appInstallBlockedReasonsById: H,
+              appOrder: xe?.map(Qt),
+              isAppBlockedReasonLoading: ie,
+              onConnectRequiredApp: i,
+              onOpenChange: Ve,
+              onTryInChat: l,
+              onViewDetails: u,
+              plugin: J,
+              requiredApps: d.kind === `needsApps` ? d.requiredApps : [],
+              requiredBrowserExtensions: d.kind === `needsApps` ? d.requiredBrowserExtensions : [],
+            })
+          : q === `details`
+            ? (0, Q.jsx)(Re, {
+                className: `relative grid min-h-0 flex-1 overflow-hidden`,
+                fadeClassName: `inset-x-0`,
+                scrollClassName: `min-h-0 overflow-y-auto group-data-[can-scroll-down=true]:pb-7`,
+                children:
+                  tt == null
+                    ? (0, Q.jsx)(fn, {
+                        appPersonalizationModes: Ze,
+                        disclosureData: W ? Fe : void 0,
+                        hostId: n,
+                        installLockedComputerUse: Ge,
+                        isLoadingDisclosureData: Qe,
+                        onAppPersonalizationModeChange: (e) => {
+                          let { appId: t, mode: n } = e;
+                          h({ modes: { ...We, [t]: n }, pluginId: J.plugin.id });
+                        },
+                        onInstallLockedComputerUseChange: (e) => {
+                          _({ enabled: e, pluginId: J.plugin.id });
+                        },
+                        plugin: J,
+                        pluginDetail: ye,
+                        shouldShowInstallDisclosure: W,
+                        showLockedComputerUseInstall: Y,
+                      })
+                    : (0, Q.jsx)(Bt, { upsellId: tt }),
+              })
+            : null),
+      (t[90] = H),
+      (t[91] = We),
+      (t[92] = Ze),
+      (t[93] = Fe),
+      (t[94] = Ve),
+      (t[95] = n),
+      (t[96] = Ge),
+      (t[97] = ie),
+      (t[98] = Qe),
+      (t[99] = i),
+      (t[100] = l),
+      (t[101] = u),
+      (t[102] = q),
+      (t[103] = J),
+      (t[104] = ye),
+      (t[105] = xe),
+      (t[106] = tt),
+      (t[107] = d.kind),
+      (t[108] = d.requiredApps),
+      (t[109] = d.requiredBrowserExtensions),
+      (t[110] = W),
+      (t[111] = Y),
+      (t[112] = dt))
+    : (dt = t[112]);
+  let ft;
+  t[113] !== Ze ||
+  t[114] !== M ||
+  t[115] !== ue ||
+  t[116] !== P ||
+  t[117] !== Ge ||
+  t[118] !== le ||
+  t[119] !== fe ||
+  t[120] !== f ||
+  t[121] !== Qe ||
+  t[122] !== de ||
+  t[123] !== a ||
+  t[124] !== F ||
+  t[125] !== q ||
+  t[126] !== J ||
+  t[127] !== p ||
+  t[128] !== X ||
+  t[129] !== Y
+    ? ((ft =
+        q === `details`
+          ? (0, Q.jsx)(se, {
+              tooltipContent:
+                ue === `connector-unavailable` && !X
+                  ? (0, Q.jsx)(A, {
+                      id: `plugins.install.connectorUnavailable`,
+                      defaultMessage: `App unavailable`,
+                      description: `Tooltip shown when plugin install is unavailable because the plugin's apps are not available in the current app directory`,
+                    })
+                  : null,
+              disabled: ue !== `connector-unavailable` || X,
+              children: (0, Q.jsx)(`div`, {
+                className: `flex w-full`,
+                children: (0, Q.jsx)(ce, {
+                  color: `primary`,
+                  size: `large`,
+                  className: `w-full justify-center`,
+                  disabled: (!X && de) || le || (!X && Qe),
+                  loading: f,
+                  onClick: () => {
+                    if (X) {
+                      F({
+                        scope: p,
+                        currentPlan: M,
+                        getPricingUrl: P,
+                        source: `plugin_install_modal_upgrade_cta`,
+                      });
+                      return;
+                    }
+                    a(Ze, Y ? Ge : void 0);
+                  },
+                  children: f
+                    ? (0, Q.jsx)(A, {
+                        id: `plugins.installModal.installing`,
+                        defaultMessage: `Installing {pluginName}`,
+                        description: `Button label in the plugin install modal while installation is in progress`,
+                        values: { pluginName: K(J) },
+                      })
+                    : fe
+                      ? (0, Q.jsxs)(Q.Fragment, {
+                          children: [
+                            (0, Q.jsx)(ct, { className: `icon-sm` }),
+                            (0, Q.jsx)(A, {
+                              id: `plugins.detail.disabledByAdminButton`,
+                              defaultMessage: `Disabled by admin`,
+                              description: `Install button label shown when plugin install is unavailable because all included connectors are disabled by admin`,
+                            }),
+                          ],
+                        })
+                      : X
+                        ? (0, Q.jsxs)(Q.Fragment, {
+                            children: [
+                              (0, Q.jsx)(Ye, { className: `icon-sm` }),
+                              (0, Q.jsx)(A, {
+                                id: `plugins.installModal.upgradeToUnlock`,
+                                defaultMessage: `Upgrade to unlock`,
+                                description: `Button label for upgrading when a Google plugin needs a paid plan`,
+                              }),
+                            ],
+                          })
+                        : (0, Q.jsx)(A, {
+                            id: `plugins.installModal.install`,
+                            defaultMessage: `Install {pluginName}`,
+                            description: `Install button label in the plugin install modal`,
+                            values: { pluginName: K(J) },
+                          }),
+                }),
+              }),
+            })
+          : null),
+      (t[113] = Ze),
+      (t[114] = M),
+      (t[115] = ue),
+      (t[116] = P),
+      (t[117] = Ge),
+      (t[118] = le),
+      (t[119] = fe),
+      (t[120] = f),
+      (t[121] = Qe),
+      (t[122] = de),
+      (t[123] = a),
+      (t[124] = F),
+      (t[125] = q),
+      (t[126] = J),
+      (t[127] = p),
+      (t[128] = X),
+      (t[129] = Y),
+      (t[130] = ft))
+    : (ft = t[130]);
+  let $;
+  t[131] !== ot || t[132] !== lt || t[133] !== ut || t[134] !== dt || t[135] !== ft
+    ? (($ = (0, Q.jsxs)(Ae, { className: ot, style: lt, children: [ut, dt, ft] })),
+      (t[131] = ot),
+      (t[132] = lt),
+      (t[133] = ut),
+      (t[134] = dt),
+      (t[135] = ft),
+      (t[136] = $))
+    : ($ = t[136]);
+  let pt;
+  return (
+    t[137] !== Ve || t[138] !== f || t[139] !== nt || t[140] !== it || t[141] !== $
+      ? ((pt = (0, Q.jsx)(ke, {
+          open: !0,
+          onOpenChange: Ve,
+          shouldIgnoreClickOutside: f,
+          showDialogClose: nt,
+          size: `default`,
+          contentClassName: `h-fit max-w-[calc(100vw-2rem)] overflow-hidden`,
+          contentProps: rt,
+          dialogCloseClassName: it,
+          children: $,
+        })),
+        (t[137] = Ve),
+        (t[138] = f),
+        (t[139] = nt),
+        (t[140] = it),
+        (t[141] = $),
+        (t[142] = pt))
+      : (pt = t[142]),
+    pt
+  );
+}
+function Qt(e) {
+  return e.id;
+}
+function $t(e) {
+  let { app: t, connectorTos: n } = e;
+  return n.personalization_toggle_blurb == null
+    ? []
+    : [
+        {
+          appId: t.id,
+          appName: t.name,
+          blurb: n.personalization_toggle_blurb,
+          defaultMode: n.personalization_default ?? `NO_PERSONALIZATION`,
+        },
+      ];
+}
+function en(e) {
+  let { connectorTos: t } = e;
+  return t.blurbs;
+}
+async function tn(e) {
+  return {
+    app: e,
+    connectorTos: await I.safeGet(`/aip/connectors/{connector_id}/tos`, {
+      parameters: { path: { connector_id: e.id } },
+      additionalHeaders: { [Wt]: Gt },
+    }),
+  };
+}
+function nn(e) {
+  return e.id;
+}
+function rn(e) {
+  return {
+    description: e.description,
+    id: e.appId,
+    installUrl: e.installUrl,
+    name: e.name,
+    needsAuth: !0,
+  };
+}
+function an(e) {
+  let t = (0, Z.c)(22),
+    { onOpenChange: n, plugin: r } = e,
+    i;
+  t[0] === r.plugin.interface?.developerName
+    ? (i = t[1])
+    : ((i = r.plugin.interface?.developerName?.trim()),
+      (t[0] = r.plugin.interface?.developerName),
+      (t[1] = i));
+  let a = i,
+    o = le(),
+    [s, c] = (0, at.useState)(0),
+    l;
+  (t[2] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((l = () => {
+        c(on);
+      }),
+      (t[2] = l))
+    : (l = t[2]),
+    ot(l, o ? null : Xt));
+  let u;
+  t[3] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((u = { "aria-describedby": void 0, style: { maxHeight: Jt, width: qt } }), (t[3] = u))
+    : (u = t[3]);
+  let d = o ? 0 : s,
+    f;
+  t[4] !== r || t[5] !== d
+    ? ((f = (0, Q.jsx)(cn, { activeDotIndex: d, plugin: r })), (t[4] = r), (t[5] = d), (t[6] = f))
+    : (f = t[6]);
+  let p;
+  t[7] === r ? (p = t[8]) : ((p = K(r)), (t[7] = r), (t[8] = p));
+  let m;
+  t[9] === p
+    ? (m = t[10])
+    : ((m = (0, Q.jsx)(Oe, {
+        className: `text-xl leading-7 font-semibold text-token-text-primary`,
+        children: (0, Q.jsx)(A, {
+          id: `plugins.installModal.adding.title`,
+          defaultMessage: `Adding {pluginName}…`,
+          description: `Title shown in the plugin install loading modal`,
+          values: { pluginName: p },
+        }),
+      })),
+      (t[9] = p),
+      (t[10] = m));
+  let h;
+  t[11] === a
+    ? (h = t[12])
+    : ((h = a
+        ? (0, Q.jsx)(`div`, {
+            className: `text-sm leading-5 text-token-text-secondary`,
+            children: (0, Q.jsx)(A, {
+              id: `plugins.installModal.developedBy`,
+              defaultMessage: `Developed by {developerName}`,
+              description: `Developer subtitle shown in the plugin install modal`,
+              values: { developerName: a },
+            }),
+          })
+        : null),
+      (t[11] = a),
+      (t[12] = h));
+  let g;
+  t[13] !== m || t[14] !== h
+    ? ((g = (0, Q.jsxs)(`div`, {
+        className: `flex flex-col items-center gap-1 text-center`,
+        children: [m, h],
+      })),
+      (t[13] = m),
+      (t[14] = h),
+      (t[15] = g))
+    : (g = t[15]);
+  let _;
+  t[16] !== f || t[17] !== g
+    ? ((_ = (0, Q.jsx)(Ae, {
+        className: `h-[200px] gap-0 p-6`,
+        children: (0, Q.jsxs)(`div`, {
+          className: `flex h-full flex-col items-center justify-center gap-4`,
+          children: [f, g],
+        }),
+      })),
+      (t[16] = f),
+      (t[17] = g),
+      (t[18] = _))
+    : (_ = t[18]);
+  let v;
+  return (
+    t[19] !== n || t[20] !== _
+      ? ((v = (0, Q.jsx)(ke, {
+          open: !0,
+          onOpenChange: n,
+          shouldIgnoreClickOutside: !0,
+          showDialogClose: !1,
+          size: `default`,
+          contentClassName: `h-fit max-w-[calc(100vw-2rem)] overflow-hidden`,
+          contentProps: u,
+          children: _,
+        })),
+        (t[19] = n),
+        (t[20] = _),
+        (t[21] = v))
+      : (v = t[21]),
+    v
+  );
+}
+function on(e) {
+  return (e + 1) % Yt.length;
+}
+function sn(e) {
+  let t = (0, Z.c)(19),
+    { plugin: n, showUpgradeBadge: r } = e,
+    i;
+  t[0] === n.plugin.interface?.developerName
+    ? (i = t[1])
+    : ((i = n.plugin.interface?.developerName?.trim()),
+      (t[0] = n.plugin.interface?.developerName),
+      (t[1] = i));
+  let a = i,
+    o;
+  t[2] === n ? (o = t[3]) : ((o = (0, Q.jsx)(cn, { plugin: n })), (t[2] = n), (t[3] = o));
+  let s;
+  t[4] === n ? (s = t[5]) : ((s = K(n)), (t[4] = n), (t[5] = s));
+  let c;
+  t[6] === s
+    ? (c = t[7])
+    : ((c = (0, Q.jsx)(Oe, {
+        asChild: !0,
+        children: (0, Q.jsx)(`div`, {
+          className: `heading-dialog font-semibold`,
+          children: (0, Q.jsx)(A, {
+            id: `plugins.installModal.title`,
+            defaultMessage: `Install {pluginName}`,
+            description: `Title shown in the plugin install modal before installation starts`,
+            values: { pluginName: s },
+          }),
+        }),
+      })),
+      (t[6] = s),
+      (t[7] = c));
+  let l;
+  t[8] === a
+    ? (l = t[9])
+    : ((l = a
+        ? (0, Q.jsx)(`div`, {
+            className: `text-sm text-token-text-secondary`,
+            children: (0, Q.jsx)(A, {
+              id: `plugins.installModal.developedBy`,
+              defaultMessage: `Developed by {developerName}`,
+              description: `Developer subtitle shown in the plugin install modal`,
+              values: { developerName: a },
+            }),
+          })
+        : null),
+      (t[8] = a),
+      (t[9] = l));
+  let u;
+  t[10] === r ? (u = t[11]) : ((u = r ? (0, Q.jsx)(Vt, {}) : null), (t[10] = r), (t[11] = u));
+  let d;
+  t[12] !== c || t[13] !== l || t[14] !== u
+    ? ((d = (0, Q.jsxs)(`div`, {
+        className: `flex flex-col items-center gap-1 text-center`,
+        children: [c, l, u],
+      })),
+      (t[12] = c),
+      (t[13] = l),
+      (t[14] = u),
+      (t[15] = d))
+    : (d = t[15]);
+  let f;
+  return (
+    t[16] !== o || t[17] !== d
+      ? ((f = (0, Q.jsxs)(`div`, {
+          className: `flex flex-col items-center gap-4`,
+          children: [o, d],
+        })),
+        (t[16] = o),
+        (t[17] = d),
+        (t[18] = f))
+      : (f = t[18]),
+    f
+  );
+}
+function cn(e) {
+  let t = (0, Z.c)(14),
+    { activeDotIndex: n, plugin: r } = e,
+    i;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((i = (0, Q.jsx)(`span`, {
+        className: `flex size-14 shrink-0 items-center justify-center rounded-xl bg-black text-white shadow-sm`,
+        children: (0, Q.jsx)(Ee, { className: `size-12` }),
+      })),
+      (t[0] = i))
+    : (i = t[0]);
+  let a;
+  t[1] === n
+    ? (a = t[2])
+    : ((a = Yt.map((e) =>
+        (0, Q.jsx)(
+          `span`,
+          {
+            className: g(
+              `size-1.5 rounded-full`,
+              n === e ? `bg-token-text-primary` : `bg-token-border-default`,
+            ),
+          },
+          e,
+        ),
+      )),
+      (t[1] = n),
+      (t[2] = a));
+  let o;
+  t[3] === a
+    ? (o = t[4])
+    : ((o = (0, Q.jsx)(`span`, { className: `flex items-center gap-1`, children: a })),
+      (t[3] = a),
+      (t[4] = o));
+  let s;
+  t[5] === r ? (s = t[6]) : ((s = K(r)), (t[5] = r), (t[6] = s));
+  let c;
+  t[7] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((c = (0, Q.jsx)(fe, { className: `icon-md text-token-text-secondary` })), (t[7] = c))
+    : (c = t[7]);
+  let l;
+  t[8] !== r.logoPath || t[9] !== s
+    ? ((l = (0, Q.jsx)(`span`, {
+        className: `bg-token-surface-tertiary flex size-14 shrink-0 items-center justify-center overflow-hidden rounded-xl border border-token-border-default shadow-sm`,
+        children: (0, Q.jsx)(ae, {
+          alt: s,
+          className: `size-full object-contain`,
+          logoUrl: r.logoPath,
+          fallback: c,
+        }),
+      })),
+      (t[8] = r.logoPath),
+      (t[9] = s),
+      (t[10] = l))
+    : (l = t[10]);
+  let u;
+  return (
+    t[11] !== o || t[12] !== l
+      ? ((u = (0, Q.jsxs)(`div`, { className: `flex items-center gap-3`, children: [i, o, l] })),
+        (t[11] = o),
+        (t[12] = l),
+        (t[13] = u))
+      : (u = t[13]),
+    u
+  );
+}
+function ln(e) {
+  let t = (0, Z.c)(22),
+    {
+      appInstallBlockedReasonsById: n,
+      appOrder: r,
+      isAppBlockedReasonLoading: i,
+      onConnectRequiredApp: a,
+      onOpenChange: o,
+      onTryInChat: s,
+      onViewDetails: c,
+      plugin: l,
+      requiredApps: u,
+      requiredBrowserExtensions: d,
+    } = e,
+    f;
+  t[0] === l ? (f = t[1]) : ((f = (0, Q.jsx)(un, { plugin: l })), (t[0] = l), (t[1] = f));
+  let p;
+  t[2] !== n || t[3] !== r || t[4] !== i || t[5] !== a || t[6] !== u
+    ? ((p = (0, Q.jsx)(Cn, {
+        appInstallBlockedReasonsById: n,
+        appOrder: r,
+        isAppBlockedReasonLoading: i,
+        onConnectRequiredApp: a,
+        requiredApps: u,
+      })),
+      (t[2] = n),
+      (t[3] = r),
+      (t[4] = i),
+      (t[5] = a),
+      (t[6] = u),
+      (t[7] = p))
+    : (p = t[7]);
+  let m;
+  t[8] === d
+    ? (m = t[9])
+    : ((m = (0, Q.jsx)(Tn, { requiredBrowserExtensions: d })), (t[8] = d), (t[9] = m));
+  let h;
+  t[10] !== p || t[11] !== m
+    ? ((h = (0, Q.jsxs)(Re, {
+        className: `relative grid min-h-0 flex-1 px-6`,
+        fadeClassName: `inset-x-6`,
+        scrollClassName: `min-h-0 overflow-y-auto group-data-[can-scroll-down=true]:pb-6`,
+        children: [p, m],
+      })),
+      (t[10] = p),
+      (t[11] = m),
+      (t[12] = h))
+    : (h = t[12]);
+  let g;
+  t[13] !== o || t[14] !== s || t[15] !== c || t[16] !== l
+    ? ((g = (0, Q.jsx)(dn, { onOpenChange: o, onTryInChat: s, onViewDetails: c, plugin: l })),
+      (t[13] = o),
+      (t[14] = s),
+      (t[15] = c),
+      (t[16] = l),
+      (t[17] = g))
+    : (g = t[17]);
+  let _;
+  return (
+    t[18] !== f || t[19] !== h || t[20] !== g
+      ? ((_ = (0, Q.jsxs)(`div`, {
+          className: `flex max-h-full flex-col overflow-hidden`,
+          children: [f, h, g],
+        })),
+        (t[18] = f),
+        (t[19] = h),
+        (t[20] = g),
+        (t[21] = _))
+      : (_ = t[21]),
+    _
+  );
+}
+function un(e) {
+  let t = (0, Z.c)(18),
+    { plugin: n } = e,
+    r;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((r = (0, Q.jsx)(`span`, {
+        className: `flex size-[60px] shrink-0 items-center justify-center rounded-2xl bg-black text-white shadow-sm`,
+        children: (0, Q.jsx)(Ee, { className: `size-12` }),
+      })),
+      (t[0] = r))
+    : (r = t[0]);
+  let i;
+  t[1] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((i = (0, Q.jsxs)(`span`, {
+        className: `flex items-center gap-2`,
+        children: [
+          (0, Q.jsx)(`span`, { className: `size-1.5 rounded-full bg-token-border-default` }),
+          (0, Q.jsx)(`span`, { className: `size-1.5 rounded-full bg-token-border-default` }),
+          (0, Q.jsx)(`span`, { className: `size-1.5 rounded-full bg-token-border-default` }),
+        ],
+      })),
+      (t[1] = i))
+    : (i = t[1]);
+  let a;
+  t[2] === n ? (a = t[3]) : ((a = K(n)), (t[2] = n), (t[3] = a));
+  let o;
+  t[4] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((o = (0, Q.jsx)(fe, { className: `icon-md text-token-text-secondary` })), (t[4] = o))
+    : (o = t[4]);
+  let s;
+  t[5] !== n.logoPath || t[6] !== a
+    ? ((s = (0, Q.jsxs)(`div`, {
+        className: `flex items-center gap-4`,
+        children: [
+          r,
+          i,
+          (0, Q.jsx)(`span`, {
+            className: `flex size-[60px] shrink-0 items-center justify-center overflow-hidden rounded-2xl bg-token-bg-primary shadow-sm`,
+            children: (0, Q.jsx)(ae, {
+              alt: a,
+              className: `size-full object-contain`,
+              logoUrl: n.logoPath,
+              fallback: o,
+            }),
+          }),
+        ],
+      })),
+      (t[5] = n.logoPath),
+      (t[6] = a),
+      (t[7] = s))
+    : (s = t[7]);
+  let c;
+  t[8] === n ? (c = t[9]) : ((c = K(n)), (t[8] = n), (t[9] = c));
+  let l;
+  t[10] === c
+    ? (l = t[11])
+    : ((l = (0, Q.jsx)(Oe, {
+        asChild: !0,
+        children: (0, Q.jsx)(`div`, {
+          className: `text-lg leading-6 font-semibold text-token-text-primary`,
+          children: (0, Q.jsx)(A, {
+            id: `plugins.installModal.needsApps.title`,
+            defaultMessage: `Connect your apps to {pluginName}`,
+            description: `Title shown after plugin install when app connections are available`,
+            values: { pluginName: c },
+          }),
+        }),
+      })),
+      (t[10] = c),
+      (t[11] = l));
+  let u;
+  t[12] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((u = (0, Q.jsx)(`div`, {
+        className: `max-w-[432px] text-sm leading-5 text-token-text-secondary`,
+        children: (0, Q.jsx)(A, {
+          id: `plugins.installModal.needsApps.subtitle`,
+          defaultMessage: `Get more relevant help from the apps you already use. You can always do this later.`,
+          description: `Subtitle shown after plugin install when app connections are available`,
+        }),
+      })),
+      (t[12] = u))
+    : (u = t[12]);
+  let d;
+  t[13] === l
+    ? (d = t[14])
+    : ((d = (0, Q.jsxs)(`div`, {
+        className: `flex flex-col items-center gap-1 text-center`,
+        children: [l, u],
+      })),
+      (t[13] = l),
+      (t[14] = d));
+  let f;
+  return (
+    t[15] !== s || t[16] !== d
+      ? ((f = (0, Q.jsxs)(`div`, {
+          className: `flex shrink-0 flex-col items-center gap-4 px-6 pt-9 pb-4`,
+          children: [s, d],
+        })),
+        (t[15] = s),
+        (t[16] = d),
+        (t[17] = f))
+      : (f = t[17]),
+    f
+  );
+}
+function dn(e) {
+  let t = (0, Z.c)(14),
+    { onOpenChange: n, onTryInChat: r, onViewDetails: i, plugin: a } = e,
+    o = a.plugin.interface?.defaultPrompt,
+    s;
+  t[0] === o ? (s = t[1]) : ((s = Fe(o)), (t[0] = o), (t[1] = s));
+  let c = s;
+  if (r == null && i == null) return null;
+  let l;
+  t[2] !== n || t[3] !== i || t[4] !== a
+    ? ((l =
+        i == null
+          ? null
+          : (0, Q.jsx)(ce, {
+              color: `outline`,
+              size: `default`,
+              className: `h-9 rounded-xl px-3 py-2 text-sm leading-5`,
+              style: { borderRadius: 12 },
+              onClick: () => {
+                (n(!1), i(a));
+              },
+              children: (0, Q.jsx)(A, {
+                id: `plugins.installModal.needsApps.viewDetails`,
+                defaultMessage: `View details`,
+                description: `Button label to close the plugin onboarding modal and view plugin details`,
+              }),
+            })),
+      (t[2] = n),
+      (t[3] = i),
+      (t[4] = a),
+      (t[5] = l))
+    : (l = t[5]);
+  let u;
+  t[6] !== c || t[7] !== n || t[8] !== r || t[9] !== a
+    ? ((u =
+        r == null
+          ? null
+          : (0, Q.jsxs)(ce, {
+              color: `primary`,
+              size: `default`,
+              className: `h-9 rounded-xl px-3 py-2 text-sm leading-5`,
+              style: { borderRadius: 12 },
+              onClick: () => {
+                (n(!1), r(a, c));
+              },
+              children: [
+                (0, Q.jsx)(pe, { className: `icon-sm` }),
+                (0, Q.jsx)(A, {
+                  id: `plugins.installModal.needsApps.tryInChat`,
+                  defaultMessage: `Try {pluginName} in chat`,
+                  description: `Button label to close the plugin onboarding modal and try the plugin in chat`,
+                  values: { pluginName: K(a) },
+                }),
+              ],
+            })),
+      (t[6] = c),
+      (t[7] = n),
+      (t[8] = r),
+      (t[9] = a),
+      (t[10] = u))
+    : (u = t[10]);
+  let d;
+  return (
+    t[11] !== l || t[12] !== u
+      ? ((d = (0, Q.jsxs)(`div`, {
+          className: `flex h-[84px] shrink-0 items-center justify-end gap-2 bg-token-dropdown-background px-6 py-6`,
+          children: [l, u],
+        })),
+        (t[11] = l),
+        (t[12] = u),
+        (t[13] = d))
+      : (d = t[13]),
+    d
+  );
+}
+function fn(e) {
+  let t = (0, Z.c)(37),
+    {
+      appPersonalizationModes: n,
+      disclosureData: r,
+      hostId: i,
+      installLockedComputerUse: a,
+      isLoadingDisclosureData: o,
+      onAppPersonalizationModeChange: s,
+      onInstallLockedComputerUseChange: c,
+      plugin: l,
+      pluginDetail: u,
+      shouldShowInstallDisclosure: d,
+      showLockedComputerUseInstall: f,
+    } = e,
+    p;
+  t[0] === l ? (p = t[1]) : ((p = zn(l)), (t[0] = l), (t[1] = p));
+  let m = p,
+    h;
+  t[2] === l.plugin.interface?.capabilities
+    ? (h = t[3])
+    : ((h = l.plugin.interface?.capabilities ?? []),
+      (t[2] = l.plugin.interface?.capabilities),
+      (t[3] = h));
+  let g = h,
+    _ = r != null && (r.blurbs.length > 0 || r.personalizationToggles.length > 0),
+    v = !d || !_,
+    y;
+  t[4] !== l || t[5] !== v
+    ? ((y = v ? (0, Q.jsx)(Nn, { plugin: l }) : null), (t[4] = l), (t[5] = v), (t[6] = y))
+    : (y = t[6]);
+  let b;
+  t[7] !== m || t[8] !== v
+    ? ((b =
+        v && m
+          ? (0, Q.jsxs)(Fn, {
+              children: [
+                (0, Q.jsx)(`div`, {
+                  className: `text-sm font-medium text-token-text-primary`,
+                  children: (0, Q.jsx)(A, {
+                    id: `plugins.installModal.about`,
+                    defaultMessage: `About`,
+                    description: `Section title for the plugin description in the plugin install modal`,
+                  }),
+                }),
+                (0, Q.jsx)(`div`, { className: `text-sm text-token-text-secondary`, children: m }),
+              ],
+            })
+          : null),
+      (t[7] = m),
+      (t[8] = v),
+      (t[9] = b))
+    : (b = t[9]);
+  let x;
+  t[10] !== i || t[11] !== l || t[12] !== u || t[13] !== v
+    ? ((x = v && u != null ? (0, Q.jsx)(mn, { hostId: i, plugin: l, pluginDetail: u }) : null),
+      (t[10] = i),
+      (t[11] = l),
+      (t[12] = u),
+      (t[13] = v),
+      (t[14] = x))
+    : (x = t[14]);
+  let S;
+  t[15] !== a || t[16] !== c || t[17] !== u || t[18] !== v || t[19] !== f
+    ? ((S = v && u != null && f ? (0, Q.jsx)(bn, { enabled: a, onChange: c }) : null),
+      (t[15] = a),
+      (t[16] = c),
+      (t[17] = u),
+      (t[18] = v),
+      (t[19] = f),
+      (t[20] = S))
+    : (S = t[20]);
+  let C;
+  t[21] !== g || t[22] !== v
+    ? ((C =
+        v && g.length > 0
+          ? (0, Q.jsxs)(Fn, {
+              children: [
+                (0, Q.jsx)(`div`, {
+                  className: `text-sm font-medium text-token-text-primary`,
+                  children: (0, Q.jsx)(A, {
+                    id: `plugins.installModal.capabilities`,
+                    defaultMessage: `Capabilities`,
+                    description: `Section title for the capability list in the plugin install modal`,
+                  }),
+                }),
+                (0, Q.jsx)(`div`, { className: `flex flex-wrap gap-2`, children: g.map(pn) }),
+              ],
+            })
+          : null),
+      (t[21] = g),
+      (t[22] = v),
+      (t[23] = C))
+    : (C = t[23]);
+  let w;
+  t[24] !== n || t[25] !== r || t[26] !== o || t[27] !== s || t[28] !== d
+    ? ((w = d
+        ? (0, Q.jsx)(Sn, {
+            appPersonalizationModes: n,
+            disclosureData: r,
+            isLoadingDisclosureData: o,
+            onAppPersonalizationModeChange: s,
+          })
+        : null),
+      (t[24] = n),
+      (t[25] = r),
+      (t[26] = o),
+      (t[27] = s),
+      (t[28] = d),
+      (t[29] = w))
+    : (w = t[29]);
+  let T;
+  return (
+    t[30] !== y || t[31] !== b || t[32] !== x || t[33] !== S || t[34] !== C || t[35] !== w
+      ? ((T = (0, Q.jsxs)(`div`, {
+          className: `rounded-2xl border border-token-border-default px-4 py-2`,
+          children: [y, b, x, S, C, w],
+        })),
+        (t[30] = y),
+        (t[31] = b),
+        (t[32] = x),
+        (t[33] = S),
+        (t[34] = C),
+        (t[35] = w),
+        (t[36] = T))
+      : (T = t[36]),
+    T
+  );
+}
+function pn(e) {
+  return (0, Q.jsx)(
+    q,
+    {
+      className: `border border-token-border-default bg-transparent px-1.5 py-0.5 text-xs font-medium text-token-text-secondary`,
+      children: e,
+    },
+    e,
+  );
+}
+function mn(e) {
+  let t = (0, Z.c)(20),
+    { hostId: n, plugin: r, pluginDetail: i } = e,
+    a;
+  t[0] !== n || t[1] !== r
+    ? ((a = { enabled: !0, hostId: n, plugin: r }), (t[0] = n), (t[1] = r), (t[2] = a))
+    : (a = t[2]);
+  let o = Ot(a),
+    s = i.apps,
+    c,
+    l,
+    u,
+    d,
+    f;
+  if (t[3] !== o || t[4] !== i.apps || t[5] !== i.mcpServers || t[6] !== i.skills) {
+    f = Symbol.for(`react.early_return_sentinel`);
+    bb0: {
+      let e = [
+        {
+          id: `apps`,
+          items: s.map(yn),
+          title: (0, Q.jsx)(A, {
+            id: `plugins.installModal.includes.apps`,
+            defaultMessage: `Apps`,
+            description: `Label for bundled apps in the plugin install modal`,
+          }),
+        },
+        {
+          id: `browserExtensions`,
+          items: (o ?? []).map(vn),
+          title: (0, Q.jsx)(A, {
+            id: `plugins.installModal.includes.browserExtensions`,
+            defaultMessage: `Browser extensions`,
+            description: `Label for bundled browser extensions in the plugin install modal`,
+          }),
+        },
+        {
+          id: `skills`,
+          items: i.skills.map(_n),
+          title: (0, Q.jsx)(A, {
+            id: `plugins.installModal.includes.skills`,
+            defaultMessage: `Skills`,
+            description: `Label for bundled skills in the plugin install modal`,
+          }),
+        },
+        {
+          id: `mcpServers`,
+          items: i.mcpServers,
+          title: (0, Q.jsx)(A, {
+            id: `plugins.installModal.includes.mcpServers`,
+            defaultMessage: `MCP servers`,
+            description: `Label for bundled MCP servers in the plugin install modal`,
+          }),
+        },
+      ].filter(gn);
+      if (e.length === 0) {
+        f = null;
+        break bb0;
+      }
+      ((c = Fn),
+        t[12] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((d = (0, Q.jsx)(`div`, {
+              className: `text-sm font-medium text-token-text-primary`,
+              children: (0, Q.jsx)(A, {
+                id: `plugins.installModal.includes`,
+                defaultMessage: `Includes`,
+                description: `Section title for bundled apps, skills, and MCP servers in the plugin install modal`,
+              }),
+            })),
+            (t[12] = d))
+          : (d = t[12]),
+        (l = `flex flex-col gap-3`),
+        (u = e.map(hn)));
+    }
+    ((t[3] = o),
+      (t[4] = i.apps),
+      (t[5] = i.mcpServers),
+      (t[6] = i.skills),
+      (t[7] = c),
+      (t[8] = l),
+      (t[9] = u),
+      (t[10] = d),
+      (t[11] = f));
+  } else ((c = t[7]), (l = t[8]), (u = t[9]), (d = t[10]), (f = t[11]));
+  if (f !== Symbol.for(`react.early_return_sentinel`)) return f;
+  let p;
+  t[13] !== l || t[14] !== u
+    ? ((p = (0, Q.jsx)(`div`, { className: l, children: u })),
+      (t[13] = l),
+      (t[14] = u),
+      (t[15] = p))
+    : (p = t[15]);
+  let m;
+  return (
+    t[16] !== c || t[17] !== d || t[18] !== p
+      ? ((m = (0, Q.jsxs)(c, { children: [d, p] })),
+        (t[16] = c),
+        (t[17] = d),
+        (t[18] = p),
+        (t[19] = m))
+      : (m = t[19]),
+    m
+  );
+}
+function hn(e) {
+  return (0, Q.jsxs)(
+    `div`,
+    {
+      className: `flex flex-col gap-2`,
+      children: [
+        (0, Q.jsx)(`div`, {
+          className: `text-xs font-medium tracking-wide text-token-text-secondary uppercase`,
+          children: e.title,
+        }),
+        (0, Q.jsx)(`div`, {
+          className: `flex flex-wrap gap-2`,
+          children: e.items.map((t) =>
+            (0, Q.jsx)(
+              q,
+              {
+                className: `border border-token-border-default bg-transparent px-1.5 py-0.5 text-xs font-medium text-token-text-secondary`,
+                children: t,
+              },
+              `${e.id}-${t}`,
+            ),
+          ),
+        }),
+      ],
+    },
+    e.id,
+  );
+}
+function gn(e) {
+  return e.items.length > 0;
+}
+function _n(e) {
+  return Bn(e);
+}
+function vn(e) {
+  return e.name;
+}
+function yn(e) {
+  return e.name;
+}
+function bn(e) {
+  let t = (0, Z.c)(8),
+    { enabled: n, onChange: r } = e,
+    i = te(),
+    a;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((a = (0, Q.jsx)(`div`, {
+        className: `text-sm font-medium text-token-text-primary`,
+        children: (0, Q.jsx)(A, {
+          id: `plugins.installModal.lockedComputerUse.title`,
+          defaultMessage: `Locked Computer Use`,
+          description: `Title for the Locked Computer Use install option in the plugin install modal`,
+        }),
+      })),
+      (t[0] = a))
+    : (a = t[0]);
+  let o;
+  t[1] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((o = (0, Q.jsxs)(`div`, {
+        className: `flex flex-col gap-1`,
+        children: [
+          a,
+          (0, Q.jsx)(`div`, {
+            className: `text-sm text-token-text-secondary`,
+            children: (0, Q.jsx)(A, {
+              id: `plugins.installModal.lockedComputerUse.description`,
+              defaultMessage: `Let Codex use your Mac when it's locked. <a>Learn more</a>`,
+              description: `Description for the Locked Computer Use install option in the plugin install modal`,
+              values: { a: xn },
+            }),
+          }),
+        ],
+      })),
+      (t[1] = o))
+    : (o = t[1]);
+  let s;
+  t[2] === i
+    ? (s = t[3])
+    : ((s = i.formatMessage({
+        id: `plugins.installModal.lockedComputerUse.toggle`,
+        defaultMessage: `Install Locked Computer Use`,
+        description: `Accessible label for the Locked Computer Use install option in the plugin install modal`,
+      })),
+      (t[2] = i),
+      (t[3] = s));
+  let c;
+  return (
+    t[4] !== n || t[5] !== r || t[6] !== s
+      ? ((c = (0, Q.jsx)(Fn, {
+          children: (0, Q.jsxs)(`div`, {
+            className: `flex items-center justify-between gap-4`,
+            children: [o, (0, Q.jsx)(Y, { checked: n, ariaLabel: s, onChange: r })],
+          }),
+        })),
+        (t[4] = n),
+        (t[5] = r),
+        (t[6] = s),
+        (t[7] = c))
+      : (c = t[7]),
+    c
+  );
+}
+function xn(e) {
+  return (0, Q.jsx)(`a`, {
+    className: `inline-flex text-token-text-link-foreground`,
+    href: Ve,
+    target: `_blank`,
+    rel: `noreferrer`,
+    children: e,
+  });
+}
+function Sn(e) {
+  let t = (0, Z.c)(6),
+    {
+      appPersonalizationModes: n,
+      disclosureData: r,
+      isLoadingDisclosureData: i,
+      onAppPersonalizationModeChange: a,
+    } = e;
+  if (i) {
+    let e;
+    return (
+      t[0] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, Q.jsx)(Fn, { children: (0, Q.jsx)(On, {}) })), (t[0] = e))
+        : (e = t[0]),
+      e
+    );
+  }
+  if (r == null || (r.blurbs.length === 0 && r.personalizationToggles.length === 0)) return null;
+  let o;
+  return (
+    t[1] !== n || t[2] !== r.blurbs || t[3] !== r.personalizationToggles || t[4] !== a
+      ? ((o = (0, Q.jsx)(Fn, {
+          children: (0, Q.jsx)(An, {
+            appPersonalizationModes: n,
+            blurbs: r.blurbs,
+            onAppPersonalizationModeChange: a,
+            personalizationToggles: r.personalizationToggles,
+          }),
+        })),
+        (t[1] = n),
+        (t[2] = r.blurbs),
+        (t[3] = r.personalizationToggles),
+        (t[4] = a),
+        (t[5] = o))
+      : (o = t[5]),
+    o
+  );
+}
+function Cn(e) {
+  let t = (0, Z.c)(23),
+    {
+      appInstallBlockedReasonsById: n,
+      appOrder: r,
+      isAppBlockedReasonLoading: i,
+      onConnectRequiredApp: a,
+      requiredApps: o,
+    } = e,
+    s = te(),
+    c;
+  t[0] === r ? (c = t[1]) : ((c = new Map(r?.map(wn))), (t[0] = r), (t[1] = c));
+  let l = c,
+    u,
+    d,
+    f;
+  if (t[2] !== n || t[3] !== l || t[4] !== s || t[5] !== i || t[6] !== a || t[7] !== o) {
+    f = Symbol.for(`react.early_return_sentinel`);
+    bb0: {
+      let e;
+      t[11] === n
+        ? (e = t[12])
+        : ((e = (e) => n[e.appId] !== `disabled-by-admin`), (t[11] = n), (t[12] = e));
+      let r = o.filter(e),
+        c;
+      if (
+        (t[13] === l
+          ? (c = t[14])
+          : ((c = (e, t) => (l.get(e.appId) ?? 2 ** 53 - 1) - (l.get(t.appId) ?? 2 ** 53 - 1)),
+            (t[13] = l),
+            (t[14] = c)),
+        r.sort(c),
+        r.length === 0)
+      ) {
+        f = null;
+        break bb0;
+      }
+      u = `flex flex-col`;
+      let p;
+      (t[15] !== n || t[16] !== s || t[17] !== i || t[18] !== a
+        ? ((p = (e) => {
+            let t = n[e.appId];
+            return (0, Q.jsx)(
+              pt,
+              {
+                app: Mn(e),
+                cardIconContainerVariant: `outline`,
+                className: `min-h-[72px] px-0 py-3 hover:!bg-transparent`,
+                installActionDisabled: i || t != null || e.status !== `pending`,
+                installActionLabel: jn(e.status, s),
+                isConnectingApp: e.status === `launching` || e.status === `waitingForCallback`,
+                updatingAppId: null,
+                onInstallApp: () => a(e.appId),
+              },
+              e.appId,
+            );
+          }),
+          (t[15] = n),
+          (t[16] = s),
+          (t[17] = i),
+          (t[18] = a),
+          (t[19] = p))
+        : (p = t[19]),
+        (d = r.map(p)));
+    }
+    ((t[2] = n),
+      (t[3] = l),
+      (t[4] = s),
+      (t[5] = i),
+      (t[6] = a),
+      (t[7] = o),
+      (t[8] = u),
+      (t[9] = d),
+      (t[10] = f));
+  } else ((u = t[8]), (d = t[9]), (f = t[10]));
+  if (f !== Symbol.for(`react.early_return_sentinel`)) return f;
+  let p;
+  return (
+    t[20] !== u || t[21] !== d
+      ? ((p = (0, Q.jsx)(`div`, { className: u, children: d })),
+        (t[20] = u),
+        (t[21] = d),
+        (t[22] = p))
+      : (p = t[22]),
+    p
+  );
+}
+function wn(e, t) {
+  return [e, t];
+}
+function Tn(e) {
+  let t = (0, Z.c)(4),
+    { requiredBrowserExtensions: n } = e;
+  if (n.length === 0) return null;
+  let r;
+  t[0] === n ? (r = t[1]) : ((r = n.map(En)), (t[0] = n), (t[1] = r));
+  let i;
+  return (
+    t[2] === r
+      ? (i = t[3])
+      : ((i = (0, Q.jsx)(`div`, { className: `flex flex-col`, children: r })),
+        (t[2] = r),
+        (t[3] = i)),
+    i
+  );
+}
+function En(e) {
+  return (0, Q.jsxs)(
+    `div`,
+    {
+      className: `flex min-h-[72px] items-center justify-between gap-4 py-3`,
+      children: [
+        (0, Q.jsxs)(`div`, {
+          className: `flex min-w-0 flex-1 items-center gap-4`,
+          children: [
+            (0, Q.jsx)(`span`, {
+              className: `flex size-12 shrink-0 items-center justify-center overflow-hidden rounded-xl border border-token-border-default bg-token-bg-primary`,
+              children: (0, Q.jsx)(ae, {
+                alt: e.name,
+                className: `size-8 object-contain`,
+                fallback: (0, Q.jsx)(fe, { className: `icon-md text-token-text-secondary` }),
+                logoUrl: e.iconUrl,
+              }),
+            }),
+            (0, Q.jsxs)(`div`, {
+              className: `min-w-0 flex-1`,
+              children: [
+                (0, Q.jsx)(`div`, {
+                  className: `truncate text-sm leading-6 font-medium text-token-text-primary`,
+                  children: e.name,
+                }),
+                (0, Q.jsx)(`div`, {
+                  className: `truncate text-sm leading-5 text-token-text-tertiary`,
+                  children: (0, Q.jsx)(A, { ...It.codexChromeDescription }),
+                }),
+              ],
+            }),
+          ],
+        }),
+        (0, Q.jsx)(ce, {
+          color: `outline`,
+          size: `toolbar`,
+          className: `h-9 min-w-20 shrink-0 justify-center rounded-xl px-3 text-sm`,
+          onClick: () => {
+            S.dispatchMessage(`open-in-browser`, { url: e.url });
+          },
+          children: (0, Q.jsx)(A, {
+            id: `plugins.installModal.openBrowserExtension`,
+            defaultMessage: `Open`,
+            description: `Button label to open a browser extension setup URL`,
+          }),
+        }),
+      ],
+    },
+    e.id,
+  );
+}
+function Dn(e) {
+  let t = (0, Z.c)(10),
+    { children: n, url: r } = e,
+    i;
+  t[0] === r ? (i = t[1]) : ((i = r?.trim()), (t[0] = r), (t[1] = i));
+  let a = i;
+  if (!a) {
+    let e;
+    return (
+      t[2] === n
+        ? (e = t[3])
+        : ((e = (0, Q.jsx)(Q.Fragment, { children: n })), (t[2] = n), (t[3] = e)),
+      e
+    );
+  }
+  let o;
+  t[4] === a
+    ? (o = t[5])
+    : ((o = (e) => {
+        (e.preventDefault(), S.dispatchMessage(`open-in-browser`, { url: a }));
+      }),
+      (t[4] = a),
+      (t[5] = o));
+  let s;
+  return (
+    t[6] !== n || t[7] !== a || t[8] !== o
+      ? ((s = (0, Q.jsx)(`a`, {
+          href: a,
+          className: `underline underline-offset-2 hover:no-underline`,
+          onClick: o,
+          children: n,
+        })),
+        (t[6] = n),
+        (t[7] = a),
+        (t[8] = o),
+        (t[9] = s))
+      : (s = t[9]),
+    s
+  );
+}
+function On() {
+  let e = (0, Z.c)(1),
+    t;
+  return (
+    e[0] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((t = (0, Q.jsx)(`div`, { children: Array.from({ length: 3 }).map(kn) })), (e[0] = t))
+      : (t = e[0]),
+    t
+  );
+}
+function kn(e, t) {
+  return (0, Q.jsxs)(
+    `div`,
+    {
+      className: `flex flex-col gap-1 border-t border-token-border-default py-2.5 first:border-none first:pt-0 last:pb-0`,
+      children: [
+        (0, Q.jsx)(`div`, { className: `h-3 w-36 rounded bg-token-border-default` }),
+        (0, Q.jsx)(`div`, { className: `h-2.5 w-full rounded bg-token-border-default` }),
+        (0, Q.jsx)(`div`, { className: `h-2.5 w-4/5 rounded bg-token-border-default` }),
+      ],
+    },
+    t,
+  );
+}
+function An(e) {
+  let t = (0, Z.c)(17),
+    {
+      appPersonalizationModes: n,
+      blurbs: r,
+      onAppPersonalizationModeChange: i,
+      personalizationToggles: a,
+    } = e,
+    o = te(),
+    s;
+  if (t[0] !== n || t[1] !== o || t[2] !== i || t[3] !== a) {
+    let e;
+    (t[5] !== n || t[6] !== o || t[7] !== i
+      ? ((e = (e) =>
+          (0, Q.jsxs)(
+            `div`,
+            {
+              className: `flex items-start justify-between gap-4 border-t border-token-border-default py-2.5 first:border-none first:pt-0 last:pb-0`,
+              children: [
+                (0, Q.jsxs)(`div`, {
+                  className: `min-w-0 flex-1`,
+                  children: [
+                    (0, Q.jsx)(`div`, {
+                      className: `font-medium text-token-text-primary`,
+                      children: e.blurb.title,
+                    }),
+                    (0, Q.jsx)(`div`, { children: In(e.blurb.description) }),
+                  ],
+                }),
+                (0, Q.jsx)(Y, {
+                  checked: n[e.appId] === `PERSONALIZE_ALWAYS`,
+                  ariaLabel: o.formatMessage(
+                    {
+                      id: `plugins.installModal.personalizationToggle`,
+                      defaultMessage: `Allow ChatGPT to use reference memories and chats for {appName}`,
+                      description: `Accessible label for the personalization toggle in the plugin install modal`,
+                    },
+                    { appName: e.appName },
+                  ),
+                  onChange: (t) => {
+                    i({ appId: e.appId, mode: t ? `PERSONALIZE_ALWAYS` : `NO_PERSONALIZATION` });
+                  },
+                }),
+              ],
+            },
+            e.appId,
+          )),
+        (t[5] = n),
+        (t[6] = o),
+        (t[7] = i),
+        (t[8] = e))
+      : (e = t[8]),
+      (s = a.map(e)),
+      (t[0] = n),
+      (t[1] = o),
+      (t[2] = i),
+      (t[3] = a),
+      (t[4] = s));
+  } else s = t[4];
+  let c;
+  if (t[9] !== r || t[10] !== a.length) {
+    let e;
+    (t[12] === a.length
+      ? (e = t[13])
+      : ((e = (e, t) =>
+          (0, Q.jsxs)(
+            `div`,
+            {
+              className:
+                a.length > 0 || t > 0
+                  ? `flex flex-col gap-1 border-t border-token-border-default py-2.5 last:pb-0`
+                  : `flex flex-col gap-1 py-2.5 first:pt-0 last:pb-0`,
+              children: [
+                (0, Q.jsx)(`div`, {
+                  className: `font-medium text-token-text-primary`,
+                  children: e.title,
+                }),
+                (0, Q.jsx)(`div`, { children: In(e.description) }),
+              ],
+            },
+            `${e.title}-${t}`,
+          )),
+        (t[12] = a.length),
+        (t[13] = e)),
+      (c = r.map(e)),
+      (t[9] = r),
+      (t[10] = a.length),
+      (t[11] = c));
+  } else c = t[11];
+  let l;
+  return (
+    t[14] !== s || t[15] !== c
+      ? ((l = (0, Q.jsxs)(`div`, {
+          className: `text-sm text-token-text-secondary`,
+          children: [s, c],
+        })),
+        (t[14] = s),
+        (t[15] = c),
+        (t[16] = l))
+      : (l = t[16]),
+    l
+  );
+}
+function jn(e, t) {
+  switch (e) {
+    case `connected`:
+      return t.formatMessage({
+        id: `plugins.installModal.requiredApps.connected`,
+        defaultMessage: `Connected`,
+        description: `Button label shown for a required app that is already connected`,
+      });
+    case `launching`:
+    case `waitingForCallback`:
+      return t.formatMessage({
+        id: `plugins.installModal.requiredApps.connecting`,
+        defaultMessage: `Opened link`,
+        description: `Button label shown after the required app connection flow has been opened`,
+      });
+    case `pending`:
+      return t.formatMessage({
+        id: `plugins.installModal.requiredApps.connect`,
+        defaultMessage: `Connect`,
+        description: `Button label shown for a required app that still needs to be connected`,
+      });
+  }
+}
+function Mn(e) {
+  return {
+    appMetadata: null,
+    branding: null,
+    description: e.description,
+    distributionChannel: null,
+    id: e.appId,
+    installUrl: e.installUrl,
+    isAccessible: !1,
+    isEnabled: !1,
+    labels: null,
+    logoUrl: e.logoUrl,
+    logoUrlDark: null,
+    name: e.name,
+    pluginDisplayNames: [],
+  };
+}
+function Nn(e) {
+  let t = (0, Z.c)(14),
+    { plugin: n } = e,
+    r;
+  t[0] === n ? (r = t[1]) : ((r = K(n)), (t[0] = n), (t[1] = r));
+  let i;
+  t[2] === r
+    ? (i = t[3])
+    : ((i = (0, Q.jsx)(`div`, {
+        className: `text-sm font-medium text-token-text-primary`,
+        children: r,
+      })),
+      (t[2] = r),
+      (t[3] = i));
+  let a;
+  t[4] === n.marketplaceName
+    ? (a = t[5])
+    : ((a =
+        n.marketplaceName.length > 0
+          ? (0, Q.jsx)(q, {
+              className: `border border-token-border-default bg-transparent px-1.5 py-0.5 text-xs font-medium text-token-text-secondary`,
+              children: n.marketplaceName,
+            })
+          : null),
+      (t[4] = n.marketplaceName),
+      (t[5] = a));
+  let o;
+  t[6] !== i || t[7] !== a
+    ? ((o = (0, Q.jsxs)(`div`, {
+        className: `flex flex-wrap items-center gap-2`,
+        children: [i, a],
+      })),
+      (t[6] = i),
+      (t[7] = a),
+      (t[8] = o))
+    : (o = t[8]);
+  let s;
+  t[9] === n ? (s = t[10]) : ((s = (0, Q.jsx)(Pn, { plugin: n })), (t[9] = n), (t[10] = s));
+  let c;
+  return (
+    t[11] !== o || t[12] !== s
+      ? ((c = (0, Q.jsxs)(Fn, { children: [o, s] })), (t[11] = o), (t[12] = s), (t[13] = c))
+      : (c = t[13]),
+    c
+  );
+}
+function Pn(e) {
+  let t = (0, Z.c)(11),
+    { plugin: n } = e,
+    r;
+  t[0] === n.plugin.interface?.developerName
+    ? (r = t[1])
+    : ((r = n.plugin.interface?.developerName?.trim()),
+      (t[0] = n.plugin.interface?.developerName),
+      (t[1] = r));
+  let i = r,
+    a;
+  t[2] === n.plugin.interface?.category
+    ? (a = t[3])
+    : ((a = n.plugin.interface?.category?.trim()),
+      (t[2] = n.plugin.interface?.category),
+      (t[3] = a));
+  let o = a;
+  if (i == null && o == null) return null;
+  let s;
+  t[4] === i
+    ? (s = t[5])
+    : ((s = i
+        ? (0, Q.jsx)(`div`, {
+            children: (0, Q.jsx)(A, {
+              id: `plugins.installModal.metadata.developer`,
+              defaultMessage: `By {developerName}`,
+              description: `Developer metadata shown in the plugin install modal`,
+              values: { developerName: i },
+            }),
+          })
+        : null),
+      (t[4] = i),
+      (t[5] = s));
+  let c;
+  t[6] === o
+    ? (c = t[7])
+    : ((c = o
+        ? (0, Q.jsx)(`div`, {
+            children: (0, Q.jsx)(A, {
+              id: `plugins.installModal.metadata.category`,
+              defaultMessage: `Category: {category}`,
+              description: `Category metadata shown in the plugin install modal`,
+              values: { category: o },
+            }),
+          })
+        : null),
+      (t[6] = o),
+      (t[7] = c));
+  let l;
+  return (
+    t[8] !== s || t[9] !== c
+      ? ((l = (0, Q.jsxs)(`div`, {
+          className: `flex flex-col gap-1 text-sm text-token-text-secondary`,
+          children: [s, c],
+        })),
+        (t[8] = s),
+        (t[9] = c),
+        (t[10] = l))
+      : (l = t[10]),
+    l
+  );
+}
+function Fn(e) {
+  let t = (0, Z.c)(2),
+    { children: n } = e,
+    r;
+  return (
+    t[0] === n
+      ? (r = t[1])
+      : ((r = (0, Q.jsx)(`div`, {
+          className: `flex flex-col gap-2 border-b border-token-border-default py-3 last:border-none`,
+          children: n,
+        })),
+        (t[0] = n),
+        (t[1] = r)),
+    r
+  );
+}
+function In(e) {
+  let t = [],
+    n = 0,
+    r;
+  for (; (r = Kt.exec(e)) != null; ) {
+    r.index > n && t.push(e.slice(n, r.index));
+    let [i, a, o] = r,
+      s = o.trim();
+    if (s.length === 0) {
+      (t.push(a), (n = r.index + i.length));
+      continue;
+    }
+    (t.push((0, Q.jsx)(Dn, { url: s, children: a }, `${s}-${r.index}`)), (n = r.index + i.length));
+  }
+  return (n < e.length && t.push(e.slice(n)), t.length === 0 ? e : t.length === 1 ? t[0] : t);
+}
+function Ln(e) {
+  let t = new Set();
+  return e.flatMap((e) => {
+    let n = `${e.title}\u0000${e.description}`;
+    return t.has(n) ? [] : (t.add(n), [{ description: e.description, title: e.title }]);
+  });
+}
+function Rn({ draftModes: e, personalizationToggles: t }) {
+  let n = { ...e };
+  if (t == null) return n;
+  for (let e of t) n[e.appId] ??= e.defaultMode;
+  return n;
+}
+function zn(e) {
+  return (
+    e.plugin.interface?.longDescription?.trim() ||
+    e.plugin.interface?.shortDescription?.trim() ||
+    e.description?.trim() ||
+    null
+  );
+}
+function Bn(e) {
+  return e.interface?.displayName?.trim() || p(e.name.split(`:`).pop() || e.name);
+}
+function Vn({ forceReloadPlugins: e, hostId: t }) {
+  let n = v(w),
+    r = te(),
+    i = M(),
+    a = _(),
+    l = de(t),
+    u = n.query.snapshot(et),
+    p = L(),
+    [, m] = d(`composer_prefill`),
+    h = P(`2761268526`),
+    { data: g } = y(z, t),
+    { clearPendingAppConnect: b, isAppConnectPending: T, markAppConnectOAuthPending: E } = $e(),
+    {
+      closePluginInstallAppConnect: ee,
+      closePluginInstall: D,
+      markPluginInstallStarted: O,
+      markRequiredAppStatus: k,
+      openPluginInstallDetails: A,
+      openPluginInstall: j,
+      openRequiredAppConnect: N,
+      session: F,
+      setPluginInstallNeedsApps: I,
+    } = he(),
+    { data: R = [], hardRefetchAppsList: B } = H({
+      enabled: F.kind === `needsApps` || F.kind === `connectApp`,
+      hostId: t,
+    }),
+    V = re({ apps: R, enabled: F.kind === `needsApps` || F.kind === `connectApp` }) ?? R,
+    ne =
+      F.kind === `needsApps` || F.kind === `connectApp` ? F.requiredApps.map((e) => e.app) : void 0,
+    ie = F.kind === `details` || F.kind === `installing` ? F.plugin : null,
+    { blockedReasonsByConnectorId: ae } = Ke({ hostId: t, pluginApps: ne }),
+    { blockedReason: se, isLoading: ce } = Ke(
+      ie == null ? { hostId: t } : { hostId: t, ...Se(ie) },
+    ),
+    le = _e({ hostId: t }),
+    ue = ve({ hostId: t }),
+    fe = ye({ hostId: t }),
+    pe = le.available,
+    me = ue.available,
+    ge = fe.available,
+    [U, we] = (0, at.useState)(!1),
+    W = x({
+      mutationFn: async (e) => {
+        let n = await c(`install-plugin`, { hostId: t, ...Se(e) });
+        return (
+          await Ie({ hostId: t, marketplacePath: e.marketplacePath, pluginName: e.plugin.name }), n
+        );
+      },
+    }),
+    Te = U || W.isPending,
+    Ee = Te || F.kind === `installing`,
+    G = Hn({ apps: V, appInstallBlockedReasonsById: ae, isAppConnectPending: T, session: F }),
+    De =
+      G.kind === `needsApps` &&
+      G.requiredBrowserExtensions.length === 0 &&
+      G.requiredApps.length > 0 &&
+      G.requiredApps.every((e) => e.status === `connected`),
+    Oe = (0, at.useEffectEvent)((t) => {
+      D();
+      let i = t.postInstallComposerPrefill?.trim();
+      (i && m({ text: i }),
+        n
+          .get(oe)
+          .success(
+            r.formatMessage(
+              {
+                id: `plugins.install.ready`,
+                defaultMessage: `{pluginName} is ready.`,
+                description: `Toast shown when all required apps are connected for a plugin install flow`,
+              },
+              { pluginName: K(t.plugin) },
+            ),
+          ),
+        e().catch((e) => {
+          C.error(`Failed to refresh plugins after plugin app setup`, {
+            safe: {},
+            sensitive: { error: e },
+          });
+        }));
+    });
+  (0, at.useEffect)(() => {
+    !De || G.kind !== `needsApps` || Oe(G);
+  }, [De, G]);
+  let ke = (e) =>
+      !((!pe && be(e.plugin.id)) || (!me && Ce(e.plugin.id)) || (!ge && xe(e.plugin.id))),
+    Ae = (e) => {
+      n.get(oe).success(
+        r.formatMessage(
+          {
+            id: `plugins.install.success`,
+            defaultMessage: `{pluginName} plugin added`,
+            description: `Toast shown after a plugin is added`,
+          },
+          { pluginName: K(e) },
+        ),
+      );
+    },
+    Me = async ({ installLockedComputerUse: i = !1, options: d, plugin: h }) => {
+      if (Te || ce || !ke(h)) {
+        D();
+        return;
+      }
+      we(!0);
+      try {
+        if (qe(h.plugin) || se === `disabled-by-admin`) {
+          A(h, d);
+          return;
+        }
+        let _;
+        try {
+          ((_ = await W.mutateAsync(h)),
+            d.origin === `setup_codex` &&
+              s(
+                n,
+                f.CODEX_ONBOARDING_WIZARD_PHASE_PLUGIN_INSTALL,
+                o.CODEX_ONBOARDING_WIZARD_ACTION_COMPLETED,
+              ));
+        } catch (e) {
+          (C.error(`Failed to install plugin`, { safe: {}, sensitive: { error: e } }),
+            n
+              .get(oe)
+              .danger(
+                r.formatMessage({
+                  id: `plugins.install.error`,
+                  defaultMessage: `Failed to install plugin`,
+                  description: `Toast shown when installing a plugin fails`,
+                }),
+              ),
+            D());
+          return;
+        }
+        let v = Pe(h.plugin.id);
+        if (
+          (v != null &&
+            (await ze(n, v, !1),
+            await c(`batch-write-config-value`, {
+              hostId: t,
+              edits: Ne({ pluginId: h.plugin.id, enabled: !0 }),
+              filePath: g?.configWriteTarget?.filePath ?? null,
+              expectedVersion: null,
+              reloadUserConfig: !0,
+            })),
+          i && be(h.plugin.id))
+        ) {
+          let e = !1;
+          try {
+            let t = await X(!0);
+            (u.setData((e) => ({
+              computerIconDataURL: e?.computerIconDataURL ?? null,
+              enabled: t,
+              lockIconDataURL: e?.lockIconDataURL ?? null,
+            })),
+              (e = t !== !0));
+          } catch (t) {
+            (C.error(`Failed to enable Locked Computer Use after install`, {
+              safe: {},
+              sensitive: { error: t },
+            }),
+              (e = !0));
+          }
+          e &&
+            n
+              .get(oe)
+              .danger(
+                r.formatMessage({
+                  id: `plugins.install.lockedComputerUseError`,
+                  defaultMessage: `Installed Computer Use, but failed to enable Locked Computer Use`,
+                  description: `Toast shown when Computer Use installs but Locked Computer Use cannot be enabled`,
+                }),
+              );
+        }
+        try {
+          await e();
+        } catch (e) {
+          (C.error(`Failed to refresh plugins after install`, {
+            safe: {},
+            sensitive: { error: e },
+          }),
+            n
+              .get(oe)
+              .danger(
+                r.formatMessage(
+                  {
+                    id: `plugins.install.refreshError`,
+                    defaultMessage: `Installed {pluginName}, but failed to refresh the plugin list`,
+                    description: `Toast shown when a plugin installs successfully but the plugin list refresh fails`,
+                  },
+                  { pluginName: K(h) },
+                ),
+              ));
+        }
+        await Promise.all([p(je), p(tt)]);
+        let y = await kt({
+          authPolicy: _.authPolicy,
+          codexHome: l,
+          hostId: t,
+          plugin: h,
+          queryClient: a,
+          windowType: `electron`,
+        });
+        if (
+          (Ae(h), _.authPolicy === `ON_USE` || (_.appsNeedingAuth.length === 0 && y.length === 0))
+        ) {
+          let e = d.postInstallComposerPrefill?.trim();
+          (e && m({ text: e }), D());
+          return;
+        }
+        I({
+          apps: _.appsNeedingAuth,
+          browserExtensions: y,
+          connectingAppId:
+            _.authPolicy === `ON_INSTALL` && _.appsNeedingAuth.length === 1 && y.length === 0
+              ? _.appsNeedingAuth[0].id
+              : void 0,
+          options: d,
+          plugin: h,
+        });
+      } finally {
+        we(!1);
+      }
+    },
+    Fe = (0, at.useEffectEvent)((e) => {
+      (O(e.plugin.plugin.id),
+        Me({
+          options: { origin: e.origin, postInstallComposerPrefill: e.postInstallComposerPrefill },
+          plugin: e.plugin,
+        }));
+    });
+  return (
+    (0, at.useEffect)(() => {
+      F.kind !== `installing` || F.installStarted || ce || Fe(F);
+    }, [ce, F]),
+    {
+      closePluginInstall: () => {
+        if (!Ee) {
+          if ((W.reset(), F.kind === `connectApp`)) {
+            ee();
+            return;
+          }
+          D();
+        }
+      },
+      connectRequiredApp: async (e) => {
+        if (G.kind !== `needsApps`) return;
+        let t = G.requiredApps.find((t) => t.appId === e);
+        if (
+          t == null ||
+          ae[e] != null ||
+          t.status === `connected` ||
+          t.status === `launching` ||
+          t.status === `waitingForCallback`
+        )
+          return;
+        let n = t.installUrl?.trim();
+        if (!h && n) {
+          S.dispatchMessage(`open-in-browser`, { url: n });
+          return;
+        }
+        (b({ appId: e }), N(e));
+      },
+      handleRequiredAppConnected: async (e) => {
+        k({ appId: e, status: `connected` });
+        try {
+          await Qe({ hostId: t, queryClient: a, refreshAppsList: B });
+        } catch (e) {
+          C.error(`Failed to refresh apps after plugin app connect`, {
+            safe: {},
+            sensitive: { error: e },
+          });
+        }
+      },
+      handleRequiredAppOAuthStarted: ({ app: e, redirectUrl: n }) => {
+        (k({ appId: e.id, status: `waitingForCallback` }),
+          E({
+            app: e,
+            hostId: t,
+            redirectUrl: n,
+            returnTo: `${i.pathname}${i.search}${i.hash}`,
+            resumeTarget: { kind: `plugin-install` },
+          }));
+      },
+      installPlugin: async (e = {}, t = !1) => {
+        F.kind === `details` &&
+          (await Me({
+            installLockedComputerUse: t,
+            options: { origin: F.origin, postInstallComposerPrefill: F.postInstallComposerPrefill },
+            plugin: F.plugin,
+          }));
+      },
+      isInstalling: Ee,
+      openPluginInstall: (e, t = {}) => {
+        Ee || !ke(e) || (W.reset(), j(e, t));
+      },
+      session: G,
+    }
+  );
+}
+function Hn({ apps: e, isAppConnectPending: t, appInstallBlockedReasonsById: n, session: r }) {
+  if (r.kind === `closed`) return r;
+  if (r.kind === `details`)
+    return {
+      kind: `details`,
+      postInstallComposerPrefill: r.postInstallComposerPrefill,
+      plugin: r.plugin,
+    };
+  if (r.kind === `installing`) return { kind: `installing`, plugin: r.plugin };
+  let i = new Map();
+  e.forEach((e) => {
+    i.set(e.id, e);
+  });
+  let a = r.requiredApps.map((e) =>
+    Un({ appInstallBlockedReasonsById: n, appsById: i, isAppConnectPending: t, requiredApp: e }),
+  );
+  if (r.kind === `connectApp`) {
+    let e =
+      a.find((e) => e.appId === r.app.id) ??
+      Un({
+        appInstallBlockedReasonsById: n,
+        appsById: i,
+        isAppConnectPending: t,
+        requiredApp: { app: r.app, status: `pending` },
+      });
+    return { kind: `connectApp`, plugin: r.plugin, app: e };
+  }
+  return {
+    kind: `needsApps`,
+    postInstallComposerPrefill: r.postInstallComposerPrefill,
+    plugin: r.plugin,
+    requiredBrowserExtensions: r.requiredBrowserExtensions,
+    requiredApps: a,
+  };
+}
+function Un({
+  appInstallBlockedReasonsById: e,
+  appsById: t,
+  isAppConnectPending: n,
+  requiredApp: r,
+}) {
+  let i = t.get(r.app.id),
+    a = r.status;
+  return (
+    i?.isAccessible === !0 || e[r.app.id] === `disabled-by-admin`
+      ? (a = `connected`)
+      : r.status === `waitingForCallback` && !n(r.app.id) && (a = `pending`),
+    {
+      appId: r.app.id,
+      description: i?.description ?? r.app.description,
+      installUrl: i?.installUrl ?? r.app.installUrl,
+      logoUrl: i?.logoUrl ?? null,
+      name: i?.name ?? r.app.name,
+      status: a,
+    }
+  );
+}
+export {
+  zt as a,
+  xt as c,
+  lt as d,
+  ct as f,
+  nt as g,
+  it as h,
+  Rt as i,
+  pt as l,
+  ot as m,
+  Zt as n,
+  It as o,
+  st as p,
+  Vt as r,
+  Ot as s,
+  Vn as t,
+  ut as u,
+};
+//# sourceMappingURL=use-plugin-install-flow.js.map

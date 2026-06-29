@@ -1,10 +1,1823 @@
-import{s as e}from"./chunk-Bj-mKKzh.js";import{Kn as t,Zn as n,na as r,sa as i}from"./src-BOCweS1p.js";import{Qs as a,Uo as o,ec as s,fs as c}from"./app-server-manager-signals-Yn0WSnoY.js";import{n as l,t as u}from"./jsx-runtime-CiQ1k8xo.js";import"./react-dom-CvzHKZGB.js";import"./Combination-9DfZp13g.js";import"./katex-C2KDRoso.js";import"./marked.esm-BR-H6018.js";import{A as d,F as f,I as p,P as m,_ as h,h as g,lt as _,n as v,s as y,u as b,v as x}from"./vscode-api-DjORcpSo.js";import{c as S,o as C}from"./lib-MoKmYgcO.js";import{f as w}from"./chunk-LFPYN7LY-PMGLV5Go.js";import"./known-app-icon-BEI7OXDu.js";import"./branch-CGmrzqEi.js";import"./github-mark-Dzuhu9C1.js";import"./google-drive-CC-Egn92.js";import"./notion-CpBap5Le.js";import{h as T}from"./persisted-signal-CweW-bgN.js";import{n as E}from"./rpc-CJwVeoy_.js";import{c as ee,o as D}from"./statsig-BP9zNYqZ.js";import"./request-CBZ5m5yv.js";import{t as O}from"./app-server-manager-hooks-Ps3s58Nc.js";import"./invalidate-queries-and-broadcast-CivBKbpC.js";import{t as k}from"./thread-context-inputs-C9hcxtXy.js";import{c as A,d as te,f as j,g as ne,n as re,p as ie,r as M,s as ae,y as oe}from"./config-queries-Br8rhpJn.js";import"./selectable-remote-connections-signal-db9FavQq.js";import"./remote-connection-visibility-h0xR_JfY.js";import"./sidebar-signals-b2zJ93fs.js";import"./use-is-copilot-api-available-Cju6TzB2.js";import"./use-global-state-baOKTuK6.js";import"./use-auth-CI-WraL2.js";import"./_baseEach-Cu7b3gdA.js";import"./_baseOrderBy-DVNd69uu.js";import"./apps-queries-D95oCTjw.js";import"./startCase-CrZakAL6.js";import{n as N,r as P}from"./experimental-features-queries-DhyNRplU.js";import"./use-is-dark-DM2fOM7F.js";import{r as se}from"./toast-signal-ifUptee5.js";import"./window-zoom-context-CSPQZGcc.js";import"./tooltip-BBqUFIYI.js";import"./route-scope-CLteRG86.js";import"./mention-item-C-utQkFh.js";import{t as ce}from"./button-Bi7lGVi1.js";import"./setting-storage-CwKZnsvR.js";import"./reduced-motion-preference-Bd5_3c7y.js";import"./spinner-BAEL5-Nn.js";import{t as le}from"./use-codex-home-_jJnkmXS.js";import"./os-info-Dm-v1Nm8.js";import"./use-os-info-DcufBSKF.js";import{t as F}from"./link-external-oqLWmWWX.js";import{r as I,t as ue}from"./open-config-toml-button-COilP6Y2.js";import{t as L}from"./open-workspace-file-CJcJ-CWR.js";import"./mcp-capability-signals-DbHrUOCV.js";import"./send-open-file-request-Dau-We3b.js";import"./mime-types-BQYoZWvU.js";import"./remote-projects-B8AFbAx_.js";import"./proxy-BMi4zsAT.js";import"./apps-DBd5dYzG.js";import{t as de}from"./x-DypUcSQe.js";import"./projectless-thread-JZqZP2Qh.js";import"./platform-BHmTRipH.js";import"./use-platform-D2c1wBYs.js";import"./use-is-plugins-enabled-CJvW81OO.js";import"./browser-sidebar-availability-BiPWLG3p.js";import"./use-plugins-C_eNkElf.js";import"./terminal-BhTF7d-4.js";import"./info-BZhCV0tI.js";import"./error-boundary-B3_nESUp.js";import{t as fe}from"./download-ybCZozA4.js";import{t as R}from"./with-window-BoZr9BJk.js";import"./window-app-action-helpers-DI4Gzpr9.js";import"./use-native-apps.electron-JZTsXfme.js";import"./get-file-icon-EMOLzufn.js";import"./code-Dj-8G3VY.js";import"./json-BLvcDNH-.js";import"./folder-BPWd3kCZ.js";import"./image-square-CPvM9CIk.js";import"./notebook-Y9bM-BJu.js";import"./settings.cog-_MjPuK5w.js";import"./skills-DzhgVcoJ.js";import"./mcp-BZLb22Sx.js";import"./get-skill-icon-XTFV6Q07.js";import"./bug-B9mPGL-U.js";import"./chrome-Dr4QYrem.js";import"./codex--dd_3IvO.js";import"./openai-blossom-De60JQ7P.js";import"./pencil-DCLVkFGW.js";import"./filesystem-media-src-CX8seCKH.js";import"./inline-mentions-C7OnU--w.js";import"./workspace-file-context-menu-CMzxJuts.js";import"./use-stable-callback-CvFJzJNa.js";import"./use-register-command-yA_5KLgb.js";import"./run-command-DkMaJ35-.js";import"./modal-controller-state-pkzvzyfU.js";import"./dialog-layout-CJEsoqFP.js";import"./open-project-setup-dialog-C6DkzR3p.js";import"./local-projects-8Dp63JZk.js";import"./use-skills-BVPQeZVw.js";import{t as pe}from"./check-md-BzLzXDM7.js";import"./chevron-right-CqaqXhBx.js";import"./context-menu-BUuRdK_6.js";import"./external-markdown-link-p5PFMQlq.js";import"./_defineProperty-gHHvEeRN.js";import"./arrow-left-Cy8P3y0C.js";import"./checkbox-BAYeIfAk.js";import"./minus-DprbeJgq.js";import{l as z}from"./links-CnGTBd1G.js";import"./badge-Bpp-zYoJ.js";import"./chat-C1CD_vcD.js";import{t as me}from"./search-C0nm-Ej1.js";import{r as B,t as he}from"./dropdown-BuwnWUZ3.js";import"./globe-oc2o98t5.js";import"./chevron-AEenlp4G.js";import{t as ge}from"./warning-Dwu3uMFH.js";import{n as _e}from"./markdown-cYFj0Hke.js";import"./code-snippet-Cobxpv-y.js";import"./copy-d11cB-0i.js";import"./copy-button-BnCzhh_Q.js";import"./plus-d3DP-DMx.js";import"./image-preview-dialog-De61lojh.js";import{t as V}from"./alert-DOYuEqDa.js";import"./sortBy-pYogFIIk.js";import"./use-connected-remote-connections-z8xPLzPt.js";import{t as ve}from"./toggle-Cl52yCxI.js";import{t as ye}from"./lock-CqRxeatR.js";import{t as be}from"./arrow-top-right-C3w7Bbw4.js";import{i as H,t as xe}from"./settings-shared-S83eyY-Y.js";import{t as U}from"./settings-host-context-B04SlyCx.js";import{t as W}from"./settings-content-layout-Dm8iYKt_.js";import{t as Se}from"./alert-tipXLgmQ.js";import{a as Ce,i as we,r as Te,s as G,t as Ee}from"./primary-runtime-install-action-D2euWXfp.js";import{a as De,n as Oe}from"./primary-runtime-query-keys-DFc6IPb8.js";import{a as ke,i as Ae,n as je,r as Me}from"./primary-runtime-install-state-B0daRQaC.js";import{n as K}from"./settings-row-xI_5tNBH.js";import{n as Ne,t as q}from"./settings-group-sezdm9FP.js";import{n as Pe,t as Fe}from"./primary-runtime-install-status-message-DcPj1Taa.js";import{t as Ie}from"./open-in-targets-query-CMo2LSd5.js";import{n as Le,r as J}from"./agent-settings.search-YNuEzgyM.js";var Y=_(),X=e(l(),1);async function Re({filePath:e,keyPath:t,value:n}){let r=Be(t,n);if(r==null)throw Error(`Unsupported config key for project config write.`);await ze({filePath:e,field:r})}async function ze({filePath:e,field:t}){let n=``;try{n=(await v(`read-file`,{params:{path:e}})).contents}catch(e){if(!We(e))throw Error(`Failed to read project config.`)}let r=Ve(n,t.name,t.value);if(r!==n)try{await v(`local-environment-config-save`,{params:{configPath:e,raw:r}})}catch{throw Error(`Failed to save project config.`)}}function Be(e,t){return e===`approval_policy`&&typeof t==`string`?{name:`approval_policy`,value:t}:e===`sandbox_mode`&&typeof t==`string`?{name:`sandbox_mode`,value:t}:e===`sandbox_workspace_write.network_access`&&typeof t==`boolean`?{name:`network_access`,value:t}:null}function Ve(e,t,n){return t===`network_access`?Z(e,n===!0):He(e,t,String(n))}function He(e,t,n){let r=e.length>0?e.split(`
-`):[],i=null,a=!1;for(let[e,o]of r.entries()){let s=Ue(o);if(s!=null){i=s;continue}if(i==null&&RegExp(`^\\s*${t}\\s*=`).test(o)){r[e]=`${t} = "${n}"`,a=!0;break}}if(!a){let e=r.findIndex(e=>Ue(e)!=null),i=e===-1?r.length:e;r.splice(i,0,`${t} = "${n}"`)}return Q(r.join(`
-`))}function Z(e,t){let n=e.length>0?e.split(`
-`):[],r=!1,i=n.length,a=!1;for(let[e,o]of n.entries()){let s=Ue(o);if(s!=null){if(r){i=e;break}s===`sandbox_workspace_write`&&(r=!0);continue}if(r&&/^\s*network_access\s*=/.test(o)){n[e]=`network_access = ${t?`true`:`false`}`,a=!0;break}}if(r&&!a)return n.splice(i,0,`network_access = ${t?`true`:`false`}`),Q(n.join(`
-`));if(a)return Q(n.join(`
-`));let o=e.length>0&&!e.endsWith(`
-`)?`${e}\n`:e;return`${o}${o.trim().length===0?``:`
-`}[sandbox_workspace_write]\nnetwork_access = ${t?`true`:`false`}\n`}function Q(e){return e.endsWith(`
-`)?e:`${e}\n`}function Ue(e){let t=e.match(/^\s*\[([^\]]+)\]\s*(?:#.*)?$/);return t?.[1]==null?null:t[1].trim()}function We(e){if(!(e instanceof Error))return!1;let t=e.message.trim().toLowerCase();return t===`enoent`||t.includes(`no such file`)||t.includes(`not found`)}function Ge(e){return e.stage===`beta`?e.name!==`memories`&&e.name!==`multi_agent`&&e.name!==`plugins`&&e.name!==`plugin`&&e.name!==`remote_control`&&e.name!==`realtime_conversation`&&e.name!==`chronicle`&&e.name!==`workspace_dependencies`:!1}var $=u();function Ke(e){let t=(0,Y.c)(26),{hostId:n}=e,r=S(),[i,a]=(0,X.useState)(!1),{data:o,isLoading:s}=m(N,n),c=o===void 0?[]:o,l;t[0]===n?l=t[1]:(l={hostId:n},t[0]=n,t[1]=l);let u=P(l),d=c.filter(Ye),f=c.some(Je),p=c.find(qe),h;t[2]===u?h=t[3]:(h=e=>({key:e.name,label:e.displayName??e.name,description:e.description??void 0,enabled:e.enabled,onChange:t=>{u.mutate({featureName:e.name,enabled:t},{onSuccess:()=>{a(!0)}})}}),t[2]=u,t[3]=h);let g=[...f?[{key:`plugins`,label:r.formatMessage({id:`settings.general.experimentalFeatures.plugins.label`,defaultMessage:`Plugins`,description:`Label for the plugins experimental feature toggle`}),description:p?.description??r.formatMessage({id:`settings.general.experimentalFeatures.plugins.description`,defaultMessage:`Enable the plugins experience in Codex`,description:`Description for the plugins experimental feature toggle`}),enabled:p?.enabled??!0,onChange:e=>{u.mutate({featureName:`plugins`,enabled:e},{onSuccess:()=>{a(!0)}})}}]:[],...d.map(h)],_=g.length>0,v=q,y;t[4]===Symbol.for(`react.memo_cache_sentinel`)?(y=(0,$.jsx)(C,{id:`settings.general.experimentalFeatures`,defaultMessage:`Experimental features (Beta)`,description:`Heading for beta experimental features settings group`}),t[4]=y):y=t[4];let b;t[5]===i?b=t[6]:(b=i?(0,$.jsx)(`div`,{className:`mb-2 block font-medium text-token-error-foreground`,children:(0,$.jsx)(C,{id:`settings.general.experimentalFeatures.restartNote`,defaultMessage:`Restart Codex to apply experimental feature changes`,description:`Notice shown after changing an experimental feature to indicate restart is required`})}):void 0,t[5]=i,t[6]=b);let x;t[7]===b?x=t[8]:(x=(0,$.jsx)(q.Header,{title:y,subtitle:b}),t[7]=b,t[8]=x);let w=q,T=Ne,E;t[9]===s?E=t[10]:(E=s?(0,$.jsx)(K,{label:(0,$.jsx)(C,{id:`settings.general.experimentalFeatures.loading`,defaultMessage:`Loading experimental features…`,description:`Loading label for beta experimental features settings group`}),control:(0,$.jsx)(`span`,{className:`h-5 w-8`})}):null,t[9]=s,t[10]=E);let ee;t[11]!==_||t[12]!==s?(ee=!s&&!_?(0,$.jsx)(K,{label:(0,$.jsx)(C,{id:`settings.general.experimentalFeatures.empty`,defaultMessage:`No beta experimental features available`,description:`Empty label for beta experimental features settings group`}),control:(0,$.jsx)(`span`,{className:`h-5 w-8`})}):null,t[11]=_,t[12]=s,t[13]=ee):ee=t[13];let D=g.map(e=>(0,$.jsx)(K,{label:e.label,description:e.description,control:(0,$.jsx)(ve,{checked:e.enabled,disabled:u.isPending,onChange:e.onChange,ariaLabel:r.formatMessage({id:`settings.general.experimentalFeatures.toggle`,defaultMessage:`Toggle {featureName}`,description:`Aria label for toggling a beta experimental feature`},{featureName:e.label})})},e.key)),O;t[14]!==T||t[15]!==D||t[16]!==E||t[17]!==ee?(O=(0,$.jsxs)(T,{children:[E,ee,D]}),t[14]=T,t[15]=D,t[16]=E,t[17]=ee,t[18]=O):O=t[18];let k;t[19]!==O||t[20]!==w.Content?(k=(0,$.jsx)(w.Content,{children:O}),t[19]=O,t[20]=w.Content,t[21]=k):k=t[21];let A;return t[22]!==v||t[23]!==k||t[24]!==x?(A=(0,$.jsxs)(v,{children:[x,k]}),t[22]=v,t[23]=k,t[24]=x,t[25]=A):A=t[25],A}function qe(e){return e.name===`plugins`}function Je(e){return e.name===`apps`&&e.enabled}function Ye(e){return Ge(e)}var Xe=r({workspaceRoot:i().min(1).nullable().optional()}).passthrough();function Ze(e){let t=Xe.safeParse(e);return!t.success||!Object.hasOwn(t.data,`workspaceRoot`)?{hasValue:!1,workspaceRoot:null}:{hasValue:!0,workspaceRoot:t.data.workspaceRoot??null}}var Qe=[{value:`untrusted`,label:J.untrusted,description:`Always ask before taking action`},{value:`on-failure`,label:J.onFailure,description:`Ask only when a command fails`},{value:`on-request`,label:J.onRequest,description:`Ask when escalation is requested`},{value:`never`,label:J.never,description:`Run without asking for approval`}],$e=[{value:`read-only`,label:J.readOnly,description:`Can read files, but cannot edit them`},{value:`workspace-write`,label:J.workspaceWrite,description:`Can edit files, but only in this workspace`},{value:`danger-full-access`,label:J.fullAccess,description:`Can edit files outside this workspace`}];function et(){let e=(0,Y.c)(37),{selectedHostId:t}=U(),n=o(t),r=O(t),i=D(G),a=D(`2106641128`),s;e[0]===Symbol.for(`react.memo_cache_sentinel`)?(s=(0,$.jsx)(H,{slug:`agent`}),e[0]=s):s=e[0];let c;e[1]===Symbol.for(`react.memo_cache_sentinel`)?(c=(0,$.jsx)(C,{id:`settings.agent.configuration.subtitle.summary`,defaultMessage:`Configure approval policy and sandbox settings <a>Learn more</a>`,description:`Summary text for the configuration settings subtitle`,values:{a:tt}}),e[1]=c):c=e[1];let l;e[2]===Symbol.for(`react.memo_cache_sentinel`)?(l=(0,$.jsx)(q.Header,{title:(0,$.jsx)(C,{...J.customConfig})}),e[2]=l):l=e[2];let u;if(e[3]!==r||e[4]!==t){let n;e[6]!==r.length||e[7]!==t?(n=(e,n)=>(0,$.jsx)(Se,{fullWidth:!0,icon:V,level:e.level,className:n===r.length-1?`mb-3`:`mb-2`,children:(0,$.jsx)(`div`,{className:`flex min-w-0 flex-col gap-2`,children:(0,$.jsxs)(`div`,{className:`flex min-w-0 items-start justify-between gap-2`,children:[(0,$.jsxs)(`div`,{className:`flex min-w-0 flex-col gap-1`,children:[(0,$.jsx)(`div`,{className:`min-w-0 text-sm text-token-text-primary`,children:(0,$.jsx)(_e,{cwd:null,className:`[&>p]:my-0`,textStyle:{kind:`small`},children:e.summary})}),e.details!=null&&e.details.length>0?(0,$.jsx)(`div`,{className:`min-w-0 text-sm text-token-text-secondary`,children:(0,$.jsx)(_e,{cwd:null,className:`[&>p]:my-0`,textStyle:{kind:`small`},children:e.details})}):null,e.path==null?null:(0,$.jsx)(`div`,{className:`min-w-0 text-sm text-token-text-secondary`,children:(0,$.jsx)(C,{id:`settings.agent.configuration.notice.fileContext`,defaultMessage:`File: {path}{location}`,description:`File path and optional location for a config or rules warning shown in settings`,values:{path:(0,$.jsx)(`code`,{children:e.path}),location:e.range==null?``:(0,$.jsx)(C,{id:`settings.agent.configuration.notice.fileLocationSuffix`,defaultMessage:` (line {line}, column {column})`,description:`Suffix showing the line and column for a config warning in settings`,values:{line:e.range.start.line,column:e.range.start.column}})}})})]}),e.path==null?null:(0,$.jsx)(ce,{color:`secondary`,size:`toolbar`,className:`inline-flex w-fit shrink-0`,onClick:()=>{e.path!=null&&I({hostId:t,path:e.path,...e.range==null?{}:{range:e.range}})},children:(0,$.jsx)(C,{id:`settings.agent.configuration.notice.openFile`,defaultMessage:`Open file`,description:`Button label to open the file associated with a config or rules warning`})})]})})},`${n}:${e.kind}:${e.summary}:${e.path??``}`),e[6]=r.length,e[7]=t,e[8]=n):n=e[8],u=r.map(n),e[3]=r,e[4]=t,e[5]=u}else u=e[5];let d;e[9]===t?d=e[10]:(d=(0,$.jsx)(R,{electron:!0,children:(0,$.jsx)(at,{hostId:t})}),e[9]=t,e[10]=d);let f,p;e[11]===Symbol.for(`react.memo_cache_sentinel`)?(f=(0,$.jsx)(C,{id:`settings.agent.configuration.configToml`,defaultMessage:`config.toml`,description:`Label for config.toml open button`}),p=(0,$.jsx)(C,{id:`settings.agent.configuration.configToml.description`,defaultMessage:`Edit your config to customize agent behavior`,description:`Description for config.toml open row`}),e[11]=f,e[12]=p):(f=e[11],p=e[12]);let m,h;e[13]===Symbol.for(`react.memo_cache_sentinel`)?(m=(0,$.jsx)(`span`,{className:`block`}),h=(0,$.jsx)(C,{id:`settings.agent.configuration.configToml.restartNote`,defaultMessage:`Restart Codex after editing to apply changes`,description:`Note that config.toml changes require a restart`}),e[13]=m,e[14]=h):(m=e[13],h=e[14]);let g;e[15]===Symbol.for(`react.memo_cache_sentinel`)?(g=(0,$.jsxs)($.Fragment,{children:[p,` `,m,h,` `,(0,$.jsxs)(`a`,{className:`inline-flex items-center gap-1 text-token-text-secondary hover:text-token-text-primary`,href:z,target:`_blank`,rel:`noreferrer`,children:[(0,$.jsx)(C,{id:`settings.agent.configuration.configToml.docs`,defaultMessage:`Docs`,description:`Link label for config documentation`}),(0,$.jsx)(F,{className:`icon-xxs`})]})]}),e[15]=g):g=e[15];let _;e[16]===t?_=e[17]:(_=(0,$.jsx)(R,{extension:!0,children:(0,$.jsx)(Ne,{children:(0,$.jsx)(K,{label:f,description:g,control:(0,$.jsx)(ue,{hostId:t})})})}),e[16]=t,e[17]=_);let v;e[18]!==_||e[19]!==u||e[20]!==d?(v=(0,$.jsxs)(q,{id:Le.customConfig,className:`gap-2`,children:[l,(0,$.jsxs)(q.Content,{children:[u,d,_]})]}),e[18]=_,e[19]=u,e[20]=d,e[21]=v):v=e[21];let y;e[22]!==a||e[23]!==t?(y=a?(0,$.jsx)(Ke,{hostId:t}):null,e[22]=a,e[23]=t,e[24]=y):y=e[24];let b;e[25]===y?b=e[26]:(b=(0,$.jsx)(R,{electron:!0,children:y}),e[25]=y,e[26]=b);let x;e[27]!==i||e[28]!==n||e[29]!==t?(x=i&&n.kind===`local`?(0,$.jsx)(nt,{hostId:t}):null,e[27]=i,e[28]=n,e[29]=t,e[30]=x):x=e[30];let S;e[31]===x?S=e[32]:(S=(0,$.jsx)(R,{electron:!0,children:x}),e[31]=x,e[32]=S);let w;return e[33]!==v||e[34]!==b||e[35]!==S?(w=(0,$.jsx)($.Fragment,{children:(0,$.jsxs)(W,{title:s,subtitle:c,children:[v,b,S]})}),e[33]=v,e[34]=b,e[35]=S,e[36]=w):w=e[36],w}function tt(e){return(0,$.jsx)(`a`,{className:`inline-flex text-token-text-link-foreground`,href:z,target:`_blank`,rel:`noreferrer`,children:e})}function nt(e){let t=(0,Y.c)(2),{hostId:n}=e,r=E.primaryRuntime;if(r==null)return null;let i;return t[0]===n?i=t[1]:(i=(0,$.jsx)(rt,{hostId:n,primaryRuntime:r}),t[0]=n,t[1]=i),i}function rt(e){let t=(0,Y.c)(96),{hostId:r,primaryRuntime:i}=e,o=f(g),c=S(),l=ee(),{data:u,isLoading:d}=m(N,r),_;t[0]===r?_=t[1]:(_={hostId:r},t[0]=r,t[1]=_);let v=P(_),y;t[2]===u?y=t[3]:(y=u?.find(it),t[2]=u,t[3]=y);let w=y,E=w?.enabled===!0,D;t[4]!==r||t[5]!==i?(D=()=>i.diagnoseDependencies({hostId:r}),t[4]=r,t[5]=i,t[6]=D):D=t[6];let O;t[7]===r?O=t[8]:(O=Oe(r),t[7]=r,t[8]=O);let k;t[9]!==D||t[10]!==O?(k={queryFn:D,queryKey:O,staleTime:b.FIVE_SECONDS},t[9]=D,t[10]=O,t[11]=k):k=t[11];let A=x(k),te;t[12]!==r||t[13]!==i?(te={mutationFn:()=>i.diagnoseDependencies({hostId:r})},t[12]=r,t[13]=i,t[14]=te):te=t[14];let j=h(te),ne;t[15]!==i||t[16]!==l?(ne={mutationFn:async e=>{let{release:t}=e;return await De(l),i.runUpdateNow({release:t})}},t[15]=i,t[16]=l,t[17]=ne):ne=t[17];let re=h(ne),ie;t[18]!==r||t[19]!==i||t[20]!==l?(ie={mutationFn:async e=>{let{release:t}=e;return await De(l),i.resetDependencies({hostId:r,release:t})}},t[18]=r,t[19]=i,t[20]=l,t[21]=ie):ie=t[21];let M=h(ie),ae;t[22]===r?ae=t[23]:(ae={mutationFn:()=>ke({hostId:r})},t[22]=r,t[23]=ae);let oe=h(ae),le=p(Ae),F=p(Me),I=le?.hostId===r?le:null,ue;t[24]===o?ue=t[25]:(ue=o.get(se),t[24]=o,t[25]=ue);let L=ue,R=d||v.isPending||j.isPending||re.isPending||M.isPending||oe.isPending,pe;t[26]===I?pe=t[27]:(pe=je(I),t[26]=I,t[27]=pe);let z=pe,B=A.data?.bundleVersion==null||A.data.bundleVersion.length===0?null:A.data.bundleVersion,he;t[28]!==j||t[29]!==A||t[30]!==c||t[31]!==o||t[32]!==L?(he=()=>{let e=Date.now();j.mutateAsync().then(t=>{if(T(o,a,Te({diagnostics:t,durationMs:Date.now()-e})),A.refetch(),t.installed){L.success(c.formatMessage({id:`settings.agent.dependencies.diagnose.ok`,defaultMessage:`Codex dependencies look healthy`,description:`Toast shown when dependency diagnostics find no problems`}));return}L.warning(c.formatMessage({id:`settings.agent.dependencies.diagnose.problem`,defaultMessage:`Codex dependencies may need repair. Send /feedback if this keeps happening`,description:`Toast shown when dependency diagnostics find problems`}))}).catch(()=>{T(o,a,we({durationMs:Date.now()-e})),L.danger(c.formatMessage({id:`settings.agent.dependencies.diagnose.failed`,defaultMessage:`Couldn’t diagnose Codex dependencies`,description:`Toast shown when dependency diagnostics fail`}))})},t[28]=j,t[29]=A,t[30]=c,t[31]=o,t[32]=L,t[33]=he):he=t[33];let ge=he,_e;t[34]!==A||t[35]!==c||t[36]!==F||t[37]!==M||t[38]!==o||t[39]!==L?(_e=()=>{let e=Date.now();M.mutateAsync({release:F}).then(t=>{T(o,s,Ce({bundleVersion:t.bundleVersion,durationMs:Date.now()-e,status:t.status})),A.refetch(),L.success(c.formatMessage({id:`settings.agent.dependencies.reset.installed`,defaultMessage:`Codex dependencies were reinstalled`,description:`Toast shown when dependency reset and reinstall succeeds`}))}).catch(t=>{if(Ee(t)){o.set(Ae,null),A.refetch(),T(o,s,Ce({bundleVersion:null,durationMs:Date.now()-e,status:`canceled`})),L.info(c.formatMessage({id:`settings.agent.dependencies.reset.canceled`,defaultMessage:`Codex dependency download canceled`,description:`Toast shown when dependency reset and reinstall is canceled`}),{id:`install-primary-runtime`});return}T(o,s,Ce({bundleVersion:null,durationMs:Date.now()-e,status:`failed`})),L.danger(c.formatMessage({id:`settings.agent.dependencies.reset.failed`,defaultMessage:`Couldn’t reinstall Codex dependencies`,description:`Toast shown when dependency reset fails`}))})},t[34]=A,t[35]=c,t[36]=F,t[37]=M,t[38]=o,t[39]=L,t[40]=_e):_e=t[40];let V=_e,ye;t[41]!==oe||t[42]!==A||t[43]!==c||t[44]!==o||t[45]!==L?(ye=()=>{oe.mutateAsync().then(e=>{let{canceled:t}=e;if(o.set(Ae,null),A.refetch(),!t){L.info(c.formatMessage({id:`settings.agent.dependencies.cancel.noop`,defaultMessage:`No Codex dependency download is running`,description:`Toast shown when canceling a Codex dependency download but no download is running`}));return}L.info(c.formatMessage({id:`settings.agent.dependencies.cancel.canceled`,defaultMessage:`Canceling Codex dependency download`,description:`Toast shown after requesting cancellation of a Codex dependency download`}),{id:`install-primary-runtime`})}).catch(()=>{L.danger(c.formatMessage({id:`settings.agent.dependencies.cancel.failed`,defaultMessage:`Couldn’t cancel Codex dependency download`,description:`Toast shown when canceling a Codex dependency download fails`}))})},t[41]=oe,t[42]=A,t[43]=c,t[44]=o,t[45]=L,t[46]=ye):ye=t[46];let be=ye,H;t[47]===Symbol.for(`react.memo_cache_sentinel`)?(H=(0,$.jsx)(q.Header,{title:(0,$.jsx)(C,{id:`settings.agent.dependencies.sectionTitle`,defaultMessage:`Workspace Dependencies`,description:`Heading for the Codex dependencies settings section`})}),t[47]=H):H=t[47];let xe;t[48]===Symbol.for(`react.memo_cache_sentinel`)?(xe=(0,$.jsx)(C,{id:`settings.agent.dependencies.bundleVersion.label`,defaultMessage:`Current version`,description:`Label for the installed Codex dependency bundle version`}),t[48]=xe):xe=t[48];let U;t[49]===A.data?.problems.length?U=t[50]:(U=A.data?.problems.length?(0,$.jsx)(C,{id:`settings.agent.dependencies.bundleVersion.problemDescription`,defaultMessage:`Run diagnostics or reinstall if tool calls fail`,description:`Description shown when dependency diagnostics have problems`}):null,t[49]=A.data?.problems.length,t[50]=U);let W;t[51]!==B||t[52]!==A.isLoading||t[53]!==z||t[54]!==I?(W=z?Pe(I,Fe(I)):A.isLoading?(0,$.jsx)(C,{id:`settings.agent.dependencies.bundleVersion.loading`,defaultMessage:`Checking…`,description:`Status while loading the current dependency bundle version`}):B??(0,$.jsx)(C,{id:`settings.agent.dependencies.bundleVersion.notInstalled`,defaultMessage:`Not installed`,description:`Status when dependency bundle version is unavailable`}),t[51]=B,t[52]=A.isLoading,t[53]=z,t[54]=I,t[55]=W):W=t[55];let Se;t[56]===W?Se=t[57]:(Se=(0,$.jsx)(`span`,{className:`text-sm text-token-text-secondary`,children:W}),t[56]=W,t[57]=Se);let G;t[58]!==U||t[59]!==Se?(G=(0,$.jsx)(K,{label:xe,description:U,control:Se}),t[58]=U,t[59]=Se,t[60]=G):G=t[60];let Ie,Le;t[61]===Symbol.for(`react.memo_cache_sentinel`)?(Ie=(0,$.jsx)(C,{id:`settings.agent.dependencies.enabled.label`,defaultMessage:`Codex dependencies`,description:`Label for the Codex dependencies enabled toggle`}),Le=(0,$.jsx)(C,{id:`settings.agent.dependencies.enabled.description`,defaultMessage:`Allow Codex to install and expose bundled Node.js and Python tools`,description:`Description for the Codex dependencies enabled toggle`}),t[61]=Ie,t[62]=Le):(Ie=t[61],Le=t[62]);let J=d||v.isPending||w==null,X;t[63]!==F||t[64]!==re||t[65]!==v?(X=e=>{v.mutate({enabled:e,featureName:n},{onSuccess:()=>{e&&re.mutate({release:F})}})},t[63]=F,t[64]=re,t[65]=v,t[66]=X):X=t[66];let Re;t[67]===c?Re=t[68]:(Re=c.formatMessage({id:`settings.agent.dependencies.enabled.ariaLabel`,defaultMessage:`Enable Codex dependencies`,description:`Aria label for the Codex dependencies enabled toggle`}),t[67]=c,t[68]=Re);let ze;t[69]!==E||t[70]!==J||t[71]!==X||t[72]!==Re?(ze=(0,$.jsx)(K,{label:Ie,description:Le,control:(0,$.jsx)(ve,{checked:E,disabled:J,onChange:X,ariaLabel:Re})}),t[69]=E,t[70]=J,t[71]=X,t[72]=Re,t[73]=ze):ze=t[73];let Be,Ve;t[74]===Symbol.for(`react.memo_cache_sentinel`)?(Be=(0,$.jsx)(C,{id:`settings.agent.dependencies.diagnose.label`,defaultMessage:`Diagnose issues in Codex Workspace`,description:`Label for dependency diagnostics in settings`}),Ve=(0,$.jsx)(C,{id:`settings.agent.dependencies.diagnose.description`,defaultMessage:`Checks the current bundle and records diagnostic logs`,description:`Description for dependency diagnostics in settings`}),t[74]=Be,t[75]=Ve):(Be=t[74],Ve=t[75]);let He,Z;t[76]===Symbol.for(`react.memo_cache_sentinel`)?(He=(0,$.jsx)(me,{className:`icon-2xs`}),Z=(0,$.jsx)(C,{id:`settings.agent.dependencies.diagnose.button`,defaultMessage:`Diagnose`,description:`Button label for dependency diagnostics`}),t[76]=He,t[77]=Z):(He=t[76],Z=t[77]);let Q;t[78]!==j.isPending||t[79]!==ge||t[80]!==M.isPending?(Q=(0,$.jsx)(K,{label:Be,description:Ve,control:(0,$.jsxs)(ce,{color:`secondary`,size:`toolbar`,loading:j.isPending,disabled:M.isPending,onClick:ge,children:[He,Z]})}),t[78]=j.isPending,t[79]=ge,t[80]=M.isPending,t[81]=Q):Q=t[81];let Ue,We;t[82]===Symbol.for(`react.memo_cache_sentinel`)?(Ue=(0,$.jsx)(C,{id:`settings.agent.dependencies.reset.label`,defaultMessage:`Reset and install Workspace`,description:`Label for resetting and reinstalling dependencies in settings`}),We=(0,$.jsx)(C,{id:`settings.agent.dependencies.reset.description`,defaultMessage:`Deletes the local bundle, downloads it again, and reloads tools`,description:`Description for resetting and reinstalling dependencies in settings`}),t[82]=Ue,t[83]=We):(Ue=t[82],We=t[83]);let Ge=z?oe.isPending:M.isPending,Ke=!E||(z?oe.isPending:R),qe=z?be:V,Je;t[84]===z?Je=t[85]:(Je=z?(0,$.jsxs)($.Fragment,{children:[(0,$.jsx)(de,{className:`icon-2xs`}),(0,$.jsx)(C,{id:`settings.agent.dependencies.cancel.button`,defaultMessage:`Cancel download`,description:`Button label for canceling dependency download`})]}):(0,$.jsxs)($.Fragment,{children:[(0,$.jsx)(fe,{className:`icon-2xs`}),(0,$.jsx)(C,{id:`settings.agent.dependencies.reset.button`,defaultMessage:`Reinstall`,description:`Button label for resetting and reinstalling dependencies`})]}),t[84]=z,t[85]=Je);let Ye;t[86]!==Ge||t[87]!==Ke||t[88]!==qe||t[89]!==Je?(Ye=(0,$.jsx)(K,{label:Ue,description:We,control:(0,$.jsx)(ce,{color:`danger`,size:`toolbar`,loading:Ge,disabled:Ke,onClick:qe,children:Je})}),t[86]=Ge,t[87]=Ke,t[88]=qe,t[89]=Je,t[90]=Ye):Ye=t[90];let Xe;return t[91]!==G||t[92]!==ze||t[93]!==Q||t[94]!==Ye?(Xe=(0,$.jsxs)(q,{className:`gap-2`,children:[H,(0,$.jsx)(q.Content,{children:(0,$.jsxs)(Ne,{children:[G,ze,Q,Ye]})})]}),t[91]=G,t[92]=ze,t[93]=Q,t[94]=Ye,t[95]=Xe):Xe=t[95],Xe}function it(e){return e.name===n}function at({hostId:e}){let n=S(),r=w(),i=d(),[a,o]=(0,X.useState)(null),[s,l]=(0,X.useState)(null),[u,f]=(0,X.useState)({}),{data:h}=p(k),g=Ze(r.state),_=g.hasValue?e===`local`?g.workspaceRoot:null:e===`local`?h?.roots?.[0]??null:null,v=le(e),{data:b,isPending:x}=oe(_,{hostId:e,cwdMode:e===`local`?`fallback-to-workspace`:`preserve-null`}),{data:T,isPending:E}=m(A,{hostId:e}),ee=y(`open-file`),D=b?.config??null,O=b?.layers??null,N=b?.origins??null,P=T?.requirements??null,se=ct(O,n),F=O?.find(e=>e.name.type===`user`)??null,I=O?.find(e=>ie(e.name))??null,ue=v==null?null:`${v}/config.toml`,de=F==null?ue:j(F.name),fe={key:`user`,kind:`user`,label:n.formatMessage(J.userConfig),tooltipText:de??`~/.codex/config.toml`,filePath:de,expectedVersion:F?.version??null,workspaceRoot:null,layer:F},R=I==null?null:{key:`managed`,kind:`managed`,label:n.formatMessage(J.adminConfig),tooltipText:n.formatMessage({id:`settings.agent.configuration.scope.managedDescription`,defaultMessage:`Managed by admin policy`,description:`Tooltip text for the admin config scope in configuration settings`}),filePath:j(I.name),expectedVersion:I.version,workspaceRoot:null,layer:I},z=[...se,fe,...R==null?[]:[R]],me=se.length>0,_e=_==null?z[0]?.key??null:`project:${_}`,V=z.find(e=>e.key===a)??z.find(e=>e.key===_e)??z[0]??null,{data:ye}=m(Ie,{cwd:V?.workspaceRoot==null?_==null?null:t(_):t(V.workspaceRoot),hostId:e}),H=dt(V?.layer?.config??null),U=gt(D?.approval_policy??null)??`on-request`,W=D?.sandbox_mode==null?`read-only`:D.sandbox_mode,Se=H.sandboxMode==null&&W===`workspace-write`,Ce=H.sandboxMode===`workspace-write`||Se,we=H.approvalPolicy??U,Te=H.sandboxMode??W,G=mt(we),Ee=ht(Te),De=H.networkAccess??D?.sandbox_workspace_write?.network_access??!1,Oe=N==null?null:ne(N,`approval_policy`,[`approvalPolicy`]),ke=N==null?null:ne(N,`sandbox_mode`),Ae=N==null?null:ne(N,`sandbox_workspace_write`,[`network_access`]),je=V?.kind===`project`?V.layer?.disabledReason??null:null,Me=ft(V,n),Pe=Qe.filter(e=>P?.allowedApprovalPolicies==null||P.allowedApprovalPolicies.length===0?!0:P.allowedApprovalPolicies.includes(e.value)),Fe=$e.filter(e=>P?.allowedSandboxModes==null||P.allowedSandboxModes.length===0?!0:P.allowedSandboxModes.includes(e.value));async function Y(t,n,r){if(!(V==null||V.filePath==null)&&s==null){l(t),f(e=>({...e,[t]:void 0}));try{if(V.kind===`project`)await Re({filePath:V.filePath,keyPath:n,value:r});else{let t=V.kind===`user`?await te(i,e):null;await c(`write-config-value`,{hostId:e,keyPath:n,value:r,mergeStrategy:`upsert`,filePath:t?t.filePath:V.filePath,expectedVersion:t==null?V.expectedVersion:t.expectedVersion})}await i.invalidateQueries({queryKey:[...M,e]}),await Promise.all([i.invalidateQueries({queryKey:[...re,e]}),i.invalidateQueries({queryKey:[...ae,e]})])}catch(e){f(n=>({...n,[t]:e instanceof Error?e.message:`Unable to save`}))}finally{l(null)}}}let ze=x||E,Be=pt({intl:n,scopeLockReason:Me,origin:Oe,selectedScope:V,hasOptions:Pe.length>0,restrictedMessage:n.formatMessage({id:`settings.agent.configuration.approval.restricted`,defaultMessage:`Approval policy is restricted by this installation.`,description:`Restriction message for approval policy in configuration settings`})}),Ve=pt({intl:n,scopeLockReason:Me,origin:ke,selectedScope:V,hasOptions:Fe.length>0,restrictedMessage:n.formatMessage({id:`settings.agent.configuration.sandbox.restricted`,defaultMessage:`Sandbox mode is restricted by this installation.`,description:`Restriction message for sandbox mode in configuration settings`})}),He=pt({intl:n,scopeLockReason:Me,origin:Ae,selectedScope:V,hasOptions:!0,restrictedMessage:``}),Z=ze||s!=null||je!=null,Q=e=>{o(e),f({})};return(0,$.jsxs)(q,{children:[(0,$.jsx)(q.Header,{title:(0,$.jsxs)(he,{align:`start`,contentWidth:`menuWide`,disabled:z.length===0,triggerButton:(0,$.jsx)(xe,{disabled:z.length===0,contentClassName:`truncate`,children:V?.label??n.formatMessage({id:`settings.agent.configuration.scope.loading`,defaultMessage:`Loading…`,description:`Fallback label while config scope options are loading`})}),children:[me?(0,$.jsxs)($.Fragment,{children:[(0,$.jsxs)(B.Section,{children:[(0,$.jsx)(B.SectionLabel,{children:(0,$.jsx)(C,{...J.projectConfig})}),se.map(e=>(0,$.jsx)(ot,{scopeOption:e,selected:V?.key===e.key,onSelect:()=>{Q(e.key)}},e.key))]}),(0,$.jsx)(B.Separator,{})]}):null,(0,$.jsxs)(B.Section,{children:[(0,$.jsx)(B.SectionLabel,{children:(0,$.jsx)(C,{...J.globalConfig})}),(0,$.jsx)(ot,{scopeOption:fe,selected:V?.key===fe.key,onSelect:()=>{Q(fe.key)}}),R==null?null:(0,$.jsx)(ot,{scopeOption:R,selected:V?.key===R.key,onSelect:()=>{Q(R.key)}})]})]}),actions:(0,$.jsxs)(ce,{color:`ghost`,size:`toolbar`,disabled:V?.filePath==null,onClick:()=>{V?.filePath!=null&&L({path:V.filePath,cwd:V.workspaceRoot==null?null:t(V.workspaceRoot),hostId:e,target:ye?.preferredTarget,openFile:ee.mutate})},children:[(0,$.jsx)(C,{id:`settings.agent.configuration.scope.open`,defaultMessage:`Open config.toml`,description:`Button label to open the selected config file`}),(0,$.jsx)(be,{className:`icon-2xs`})]})}),(0,$.jsx)(q.Content,{children:(0,$.jsxs)(Ne,{children:[je==null?null:(0,$.jsxs)(`div`,{className:`flex items-start gap-2 p-3`,children:[(0,$.jsx)(ge,{className:`icon-xs mt-0.5 shrink-0 text-token-editor-warning-foreground`}),(0,$.jsx)(`div`,{className:`text-sm text-token-text-secondary`,children:je})]}),(0,$.jsx)(K,{id:Le.approvalPolicy,label:(0,$.jsx)(C,{...J.approvalPolicy}),description:(0,$.jsx)(st,{error:u.approval,lockReason:Be,children:(0,$.jsx)(C,{id:`settings.agent.configuration.approval.definition`,defaultMessage:`Choose when Codex asks for approval`,description:`Definition for approval policy in configuration settings`})}),control:(0,$.jsx)(he,{align:`end`,contentWidth:`panelWide`,disabled:Z||Be!=null,triggerButton:(0,$.jsx)(xe,{disabled:Z||Be!=null,contentClassName:`truncate`,children:G==null?we:n.formatMessage(G.label)}),children:Pe.map(e=>(0,$.jsx)(B.Item,{RightIcon:e.value===we?pe:void 0,subTextAllowWrap:!0,onSelect:()=>{Y(`approval`,`approval_policy`,e.value)},SubText:(0,$.jsx)(`div`,{className:`pt-1 text-sm text-token-text-secondary`,children:e.description}),children:(0,$.jsx)(`span`,{className:`text-sm`,children:n.formatMessage(e.label)})},e.value))})}),(0,$.jsx)(K,{id:Le.sandboxSettings,label:(0,$.jsx)(C,{...J.sandboxSettings}),description:(0,$.jsx)(st,{error:u.sandbox,lockReason:Ve,children:(0,$.jsx)(C,{id:`settings.agent.configuration.sandbox.definition`,defaultMessage:`Choose how much Codex can do when running commands`,description:`Definition for sandbox settings in configuration settings`})}),control:(0,$.jsx)(he,{align:`end`,contentWidth:`panelWide`,disabled:Z||Ve!=null,triggerButton:(0,$.jsx)(xe,{disabled:Z||Ve!=null,contentClassName:`truncate`,children:Ee==null?Te:n.formatMessage(Ee.label)}),children:Fe.map(e=>(0,$.jsx)(B.Item,{RightIcon:e.value===Te?pe:void 0,subTextAllowWrap:!0,onSelect:()=>{Y(`sandbox`,`sandbox_mode`,e.value)},SubText:(0,$.jsx)(`div`,{className:`pt-1 text-sm text-token-text-secondary`,children:e.description}),children:(0,$.jsx)(`span`,{className:`text-sm`,children:n.formatMessage(e.label)})},e.value))})}),Ce?(0,$.jsx)(K,{label:(0,$.jsx)(C,{id:`settings.agent.configuration.network.label`,defaultMessage:`Allow network access`,description:`Label for network access in configuration settings`}),description:(0,$.jsx)(st,{error:u.network,lockReason:He,children:(0,$.jsx)(C,{id:`settings.agent.configuration.network.definition`,defaultMessage:`Allow network access when the sandbox is set to workspace write`,description:`Definition for network access in configuration settings`})}),control:(0,$.jsx)(ve,{checked:De,disabled:Z||He!=null,onChange:e=>{Y(`network`,`sandbox_workspace_write.network_access`,e)},ariaLabel:n.formatMessage({id:`settings.agent.configuration.network.ariaLabel`,defaultMessage:`Allow network access`,description:`Aria label for network access toggle in configuration settings`})})}):null]})})]})}function ot(e){let t=(0,Y.c)(7),{onSelect:n,scopeOption:r,selected:i}=e,a=i?pe:void 0,o;t[0]===r.label?o=t[1]:(o=(0,$.jsx)(`span`,{className:`truncate text-sm`,children:r.label}),t[0]=r.label,t[1]=o);let s;return t[2]!==n||t[3]!==r.tooltipText||t[4]!==a||t[5]!==o?(s=(0,$.jsx)(B.Item,{RightIcon:a,tooltipText:r.tooltipText,tooltipSide:`right`,onSelect:n,children:o}),t[2]=n,t[3]=r.tooltipText,t[4]=a,t[5]=o,t[6]=s):s=t[6],s}function st(e){let t=(0,Y.c)(10),{children:n,error:r,lockReason:i}=e,a;t[0]===n?a=t[1]:(a=(0,$.jsx)(`div`,{children:n}),t[0]=n,t[1]=a);let o;t[2]===i?o=t[3]:(o=i==null?null:(0,$.jsxs)(`div`,{className:`inline-flex items-center gap-1 text-sm text-token-editor-warning-foreground`,children:[(0,$.jsx)(ye,{className:`icon-2xs`}),(0,$.jsx)(`span`,{children:i})]}),t[2]=i,t[3]=o);let s;t[4]===r?s=t[5]:(s=r==null?null:(0,$.jsx)(`div`,{className:`text-sm text-token-error-foreground`,children:r}),t[4]=r,t[5]=s);let c;return t[6]!==a||t[7]!==o||t[8]!==s?(c=(0,$.jsxs)(`div`,{className:`flex flex-col gap-1`,children:[a,o,s]}),t[6]=a,t[7]=o,t[8]=s,t[9]=c):c=t[9],c}function ct(e,t){if(e==null)return[];let n=[];for(let r of e){if(r.name.type!==`project`)continue;let e=lt(r.name.dotCodexFolder);n.push({key:`project:${e??r.name.dotCodexFolder}`,kind:`project`,label:t.formatMessage({id:`settings.agent.configuration.scope.project`,defaultMessage:`{repoName}`,description:`Label for a project config scope in configuration settings`},{repoName:ut(e??r.name.dotCodexFolder)}),tooltipText:j(r.name)??r.name.dotCodexFolder,filePath:j(r.name),expectedVersion:r.version,workspaceRoot:e,layer:r})}return n}function lt(e){return e.endsWith(`/.codex`)||e.endsWith(`\\.codex`)?e.slice(0,-7):null}function ut(e){return e.split(/[/\\]/).at(-1)||e}function dt(e){if(typeof e!=`object`||!e||Array.isArray(e))return{approvalPolicy:null,sandboxMode:null,networkAccess:null};let t=e.approval_policy,n=e.sandbox_mode,r=e.sandbox_workspace_write;return{approvalPolicy:gt(t??null),sandboxMode:n===`read-only`||n===`workspace-write`||n===`danger-full-access`?n:null,networkAccess:typeof r==`object`&&r&&!Array.isArray(r)&&typeof r.network_access==`boolean`?r.network_access:null}}function ft(e,t){return e==null?t.formatMessage({id:`settings.agent.configuration.scope.unavailable`,defaultMessage:`Config scope unavailable.`,description:`Message shown when no config scope is available in configuration settings`}):e.filePath==null?t.formatMessage({id:`settings.agent.configuration.scope.readOnly`,defaultMessage:`This config source cannot be edited here.`,description:`Message shown when the selected config scope cannot be edited`}):null}function pt({intl:e,scopeLockReason:t,origin:n,selectedScope:r,hasOptions:i,restrictedMessage:a}){return t??(i?r?.kind!==`managed`&&n!=null&&ie(n.name)?e.formatMessage({id:`settings.agent.configuration.control.managed`,defaultMessage:`This value is managed by admin policy.`,description:`Message shown when a configuration control is managed by admin policy`}):null:a)}function mt(e){return Qe.find(t=>t.value===e)??null}function ht(e){return $e.find(t=>t.value===e)??null}function gt(e){return e===`untrusted`||e===`on-failure`||e===`on-request`||e===`never`?e:null}export{et as AgentSettings};
+import { s as e } from "./chunk-Bj-mKKzh.js";
+import { Kn as t, Zn as n, na as r, sa as i } from "./src-2.js";
+import { Qs as a, Uo as o, ec as s, fs as c } from "./app-server-manager-signals.js";
+import { n as l, t as u } from "./jsx-runtime.js";
+import "./react-dom.js";
+import "./Combination.js";
+import "./katex-1.js";
+import "./marked.esm-BR-H6018.js";
+import {
+  A as d,
+  F as f,
+  I as p,
+  P as m,
+  _ as h,
+  h as g,
+  lt as _,
+  n as v,
+  s as y,
+  u as b,
+  v as x,
+} from "./vscode-api.js";
+import { c as S, o as C } from "./lib-2.js";
+import { f as w } from "./chunk-12.js";
+import "./known-app-icon.js";
+import "./branch.js";
+import "./github-mark.js";
+import "./google-drive-CC-Egn92.js";
+import "./notion.js";
+import { h as T } from "./persisted-signal-CweW-bgN.js";
+import { n as E } from "./rpc-1.js";
+import { c as ee, o as D } from "./statsig.js";
+import "./request.js";
+import { t as O } from "./app-server-manager-hooks.js";
+import "./invalidate-queries-and-broadcast.js";
+import { t as k } from "./thread-context-inputs.js";
+import {
+  c as A,
+  d as te,
+  f as j,
+  g as ne,
+  n as re,
+  p as ie,
+  r as M,
+  s as ae,
+  y as oe,
+} from "./config-queries.js";
+import "./selectable-remote-connections-signal.js";
+import "./remote-connection-visibility.js";
+import "./sidebar-signals.js";
+import "./use-is-copilot-api-available.js";
+import "./use-global-state.js";
+import "./use-auth-CI-WraL2.js";
+import "./_baseEach.js";
+import "./_baseOrderBy.js";
+import "./apps-queries.js";
+import "./startCase.js";
+import { n as N, r as P } from "./experimental-features-queries.js";
+import "./use-is-dark.js";
+import { r as se } from "./toast-signal.js";
+import "./window-zoom-context.js";
+import "./tooltip.js";
+import "./route-scope.js";
+import "./mention-item-C.js";
+import { t as ce } from "./button.js";
+import "./setting-storage.js";
+import "./reduced-motion-preference.js";
+import "./spinner.js";
+import { t as le } from "./use-codex-home.js";
+import "./os-info-Dm-v1Nm8.js";
+import "./use-os-info.js";
+import { t as F } from "./link-external.js";
+import { r as I, t as ue } from "./open-config-toml-button.js";
+import { t as L } from "./open-workspace-file-CJcJ-CWR.js";
+import "./mcp-capability-signals.js";
+import "./send-open-file-request-Dau-We3b.js";
+import "./mime-types.js";
+import "./remote-projects.js";
+import "./proxy.js";
+import "./apps.js";
+import { t as de } from "./x.js";
+import "./projectless-thread.js";
+import "./platform.js";
+import "./use-platform.js";
+import "./use-is-plugins-enabled.js";
+import "./browser-sidebar-availability.js";
+import "./use-plugins.js";
+import "./terminal.js";
+import "./info.js";
+import "./error-boundary.js";
+import { t as fe } from "./download.js";
+import { t as R } from "./with-window.js";
+import "./window-app-action-helpers.js";
+import "./use-native-apps.electron.js";
+import "./get-file-icon.js";
+import "./code-Dj-8G3VY.js";
+import "./json-2.js";
+import "./folder.js";
+import "./image-square.js";
+import "./notebook-Y9bM-BJu.js";
+import "./settings.cog.js";
+import "./skills.js";
+import "./mcp.js";
+import "./get-skill-icon.js";
+import "./bug.js";
+import "./chrome.js";
+import "./codex.js";
+import "./openai-blossom.js";
+import "./pencil.js";
+import "./filesystem-media-src.js";
+import "./inline-mentions.js";
+import "./workspace-file-context-menu.js";
+import "./use-stable-callback.js";
+import "./use-register-command.js";
+import "./run-command.js";
+import "./modal-controller-state.js";
+import "./dialog-layout.js";
+import "./open-project-setup-dialog.js";
+import "./local-projects.js";
+import "./use-skills.js";
+import { t as pe } from "./check-md.js";
+import "./chevron-right.js";
+import "./context-menu.js";
+import "./external-markdown-link.js";
+import "./_defineProperty.js";
+import "./arrow-left.js";
+import "./checkbox.js";
+import "./minus.js";
+import { l as z } from "./links.js";
+import "./badge-Bpp-zYoJ.js";
+import "./chat.js";
+import { t as me } from "./search-C0nm-Ej1.js";
+import { r as B, t as he } from "./dropdown.js";
+import "./globe.js";
+import "./chevron.js";
+import { t as ge } from "./warning.js";
+import { n as _e } from "./markdown-2.js";
+import "./code-snippet.js";
+import "./copy.js";
+import "./copy-button.js";
+import "./plus-d3DP-DMx.js";
+import "./image-preview-dialog.js";
+import { t as V } from "./alert-1.js";
+import "./sortBy.js";
+import "./use-connected-remote-connections.js";
+import { t as ve } from "./toggle.js";
+import { t as ye } from "./lock.js";
+import { t as be } from "./arrow-top-right.js";
+import { i as H, t as xe } from "./settings-shared.js";
+import { t as U } from "./settings-host-context.js";
+import { t as W } from "./settings-content-layout.js";
+import { t as Se } from "./alert-2.js";
+import { a as Ce, i as we, r as Te, s as G, t as Ee } from "./primary-runtime-install-action.js";
+import { a as De, n as Oe } from "./primary-runtime-query-keys.js";
+import { a as ke, i as Ae, n as je, r as Me } from "./primary-runtime-install-state.js";
+import { n as K } from "./settings-row.js";
+import { n as Ne, t as q } from "./settings-group.js";
+import { n as Pe, t as Fe } from "./primary-runtime-install-status-message.js";
+import { t as Ie } from "./open-in-targets-query.js";
+import { n as Le, r as J } from "./agent-settings.search.js";
+var Y = _(),
+  X = e(l(), 1);
+async function Re({ filePath: e, keyPath: t, value: n }) {
+  let r = Be(t, n);
+  if (r == null) throw Error(`Unsupported config key for project config write.`);
+  await ze({ filePath: e, field: r });
+}
+async function ze({ filePath: e, field: t }) {
+  let n = ``;
+  try {
+    n = (await v(`read-file`, { params: { path: e } })).contents;
+  } catch (e) {
+    if (!We(e)) throw Error(`Failed to read project config.`);
+  }
+  let r = Ve(n, t.name, t.value);
+  if (r !== n)
+    try {
+      await v(`local-environment-config-save`, { params: { configPath: e, raw: r } });
+    } catch {
+      throw Error(`Failed to save project config.`);
+    }
+}
+function Be(e, t) {
+  return e === `approval_policy` && typeof t == `string`
+    ? { name: `approval_policy`, value: t }
+    : e === `sandbox_mode` && typeof t == `string`
+      ? { name: `sandbox_mode`, value: t }
+      : e === `sandbox_workspace_write.network_access` && typeof t == `boolean`
+        ? { name: `network_access`, value: t }
+        : null;
+}
+function Ve(e, t, n) {
+  return t === `network_access` ? Z(e, n === !0) : He(e, t, String(n));
+}
+function He(e, t, n) {
+  let r =
+      e.length > 0
+        ? e.split(`
+`)
+        : [],
+    i = null,
+    a = !1;
+  for (let [e, o] of r.entries()) {
+    let s = Ue(o);
+    if (s != null) {
+      i = s;
+      continue;
+    }
+    if (i == null && RegExp(`^\\s*${t}\\s*=`).test(o)) {
+      ((r[e] = `${t} = "${n}"`), (a = !0));
+      break;
+    }
+  }
+  if (!a) {
+    let e = r.findIndex((e) => Ue(e) != null),
+      i = e === -1 ? r.length : e;
+    r.splice(i, 0, `${t} = "${n}"`);
+  }
+  return Q(
+    r.join(`
+`),
+  );
+}
+function Z(e, t) {
+  let n =
+      e.length > 0
+        ? e.split(`
+`)
+        : [],
+    r = !1,
+    i = n.length,
+    a = !1;
+  for (let [e, o] of n.entries()) {
+    let s = Ue(o);
+    if (s != null) {
+      if (r) {
+        i = e;
+        break;
+      }
+      s === `sandbox_workspace_write` && (r = !0);
+      continue;
+    }
+    if (r && /^\s*network_access\s*=/.test(o)) {
+      ((n[e] = `network_access = ${t ? `true` : `false`}`), (a = !0));
+      break;
+    }
+  }
+  if (r && !a)
+    return (
+      n.splice(i, 0, `network_access = ${t ? `true` : `false`}`),
+      Q(
+        n.join(`
+`),
+      )
+    );
+  if (a)
+    return Q(
+      n.join(`
+`),
+    );
+  let o =
+    e.length > 0 &&
+    !e.endsWith(`
+`)
+      ? `${e}\n`
+      : e;
+  return `${o}${
+    o.trim().length === 0
+      ? ``
+      : `
+`
+  }[sandbox_workspace_write]\nnetwork_access = ${t ? `true` : `false`}\n`;
+}
+function Q(e) {
+  return e.endsWith(`
+`)
+    ? e
+    : `${e}\n`;
+}
+function Ue(e) {
+  let t = e.match(/^\s*\[([^\]]+)\]\s*(?:#.*)?$/);
+  return t?.[1] == null ? null : t[1].trim();
+}
+function We(e) {
+  if (!(e instanceof Error)) return !1;
+  let t = e.message.trim().toLowerCase();
+  return t === `enoent` || t.includes(`no such file`) || t.includes(`not found`);
+}
+function Ge(e) {
+  return e.stage === `beta`
+    ? e.name !== `memories` &&
+        e.name !== `multi_agent` &&
+        e.name !== `plugins` &&
+        e.name !== `plugin` &&
+        e.name !== `remote_control` &&
+        e.name !== `realtime_conversation` &&
+        e.name !== `chronicle` &&
+        e.name !== `workspace_dependencies`
+    : !1;
+}
+var $ = u();
+function Ke(e) {
+  let t = (0, Y.c)(26),
+    { hostId: n } = e,
+    r = S(),
+    [i, a] = (0, X.useState)(!1),
+    { data: o, isLoading: s } = m(N, n),
+    c = o === void 0 ? [] : o,
+    l;
+  t[0] === n ? (l = t[1]) : ((l = { hostId: n }), (t[0] = n), (t[1] = l));
+  let u = P(l),
+    d = c.filter(Ye),
+    f = c.some(Je),
+    p = c.find(qe),
+    h;
+  t[2] === u
+    ? (h = t[3])
+    : ((h = (e) => ({
+        key: e.name,
+        label: e.displayName ?? e.name,
+        description: e.description ?? void 0,
+        enabled: e.enabled,
+        onChange: (t) => {
+          u.mutate(
+            { featureName: e.name, enabled: t },
+            {
+              onSuccess: () => {
+                a(!0);
+              },
+            },
+          );
+        },
+      })),
+      (t[2] = u),
+      (t[3] = h));
+  let g = [
+      ...(f
+        ? [
+            {
+              key: `plugins`,
+              label: r.formatMessage({
+                id: `settings.general.experimentalFeatures.plugins.label`,
+                defaultMessage: `Plugins`,
+                description: `Label for the plugins experimental feature toggle`,
+              }),
+              description:
+                p?.description ??
+                r.formatMessage({
+                  id: `settings.general.experimentalFeatures.plugins.description`,
+                  defaultMessage: `Enable the plugins experience in Codex`,
+                  description: `Description for the plugins experimental feature toggle`,
+                }),
+              enabled: p?.enabled ?? !0,
+              onChange: (e) => {
+                u.mutate(
+                  { featureName: `plugins`, enabled: e },
+                  {
+                    onSuccess: () => {
+                      a(!0);
+                    },
+                  },
+                );
+              },
+            },
+          ]
+        : []),
+      ...d.map(h),
+    ],
+    _ = g.length > 0,
+    v = q,
+    y;
+  t[4] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((y = (0, $.jsx)(C, {
+        id: `settings.general.experimentalFeatures`,
+        defaultMessage: `Experimental features (Beta)`,
+        description: `Heading for beta experimental features settings group`,
+      })),
+      (t[4] = y))
+    : (y = t[4]);
+  let b;
+  t[5] === i
+    ? (b = t[6])
+    : ((b = i
+        ? (0, $.jsx)(`div`, {
+            className: `mb-2 block font-medium text-token-error-foreground`,
+            children: (0, $.jsx)(C, {
+              id: `settings.general.experimentalFeatures.restartNote`,
+              defaultMessage: `Restart Codex to apply experimental feature changes`,
+              description: `Notice shown after changing an experimental feature to indicate restart is required`,
+            }),
+          })
+        : void 0),
+      (t[5] = i),
+      (t[6] = b));
+  let x;
+  t[7] === b
+    ? (x = t[8])
+    : ((x = (0, $.jsx)(q.Header, { title: y, subtitle: b })), (t[7] = b), (t[8] = x));
+  let w = q,
+    T = Ne,
+    E;
+  t[9] === s
+    ? (E = t[10])
+    : ((E = s
+        ? (0, $.jsx)(K, {
+            label: (0, $.jsx)(C, {
+              id: `settings.general.experimentalFeatures.loading`,
+              defaultMessage: `Loading experimental features…`,
+              description: `Loading label for beta experimental features settings group`,
+            }),
+            control: (0, $.jsx)(`span`, { className: `h-5 w-8` }),
+          })
+        : null),
+      (t[9] = s),
+      (t[10] = E));
+  let ee;
+  t[11] !== _ || t[12] !== s
+    ? ((ee =
+        !s && !_
+          ? (0, $.jsx)(K, {
+              label: (0, $.jsx)(C, {
+                id: `settings.general.experimentalFeatures.empty`,
+                defaultMessage: `No beta experimental features available`,
+                description: `Empty label for beta experimental features settings group`,
+              }),
+              control: (0, $.jsx)(`span`, { className: `h-5 w-8` }),
+            })
+          : null),
+      (t[11] = _),
+      (t[12] = s),
+      (t[13] = ee))
+    : (ee = t[13]);
+  let D = g.map((e) =>
+      (0, $.jsx)(
+        K,
+        {
+          label: e.label,
+          description: e.description,
+          control: (0, $.jsx)(ve, {
+            checked: e.enabled,
+            disabled: u.isPending,
+            onChange: e.onChange,
+            ariaLabel: r.formatMessage(
+              {
+                id: `settings.general.experimentalFeatures.toggle`,
+                defaultMessage: `Toggle {featureName}`,
+                description: `Aria label for toggling a beta experimental feature`,
+              },
+              { featureName: e.label },
+            ),
+          }),
+        },
+        e.key,
+      ),
+    ),
+    O;
+  t[14] !== T || t[15] !== D || t[16] !== E || t[17] !== ee
+    ? ((O = (0, $.jsxs)(T, { children: [E, ee, D] })),
+      (t[14] = T),
+      (t[15] = D),
+      (t[16] = E),
+      (t[17] = ee),
+      (t[18] = O))
+    : (O = t[18]);
+  let k;
+  t[19] !== O || t[20] !== w.Content
+    ? ((k = (0, $.jsx)(w.Content, { children: O })), (t[19] = O), (t[20] = w.Content), (t[21] = k))
+    : (k = t[21]);
+  let A;
+  return (
+    t[22] !== v || t[23] !== k || t[24] !== x
+      ? ((A = (0, $.jsxs)(v, { children: [x, k] })),
+        (t[22] = v),
+        (t[23] = k),
+        (t[24] = x),
+        (t[25] = A))
+      : (A = t[25]),
+    A
+  );
+}
+function qe(e) {
+  return e.name === `plugins`;
+}
+function Je(e) {
+  return e.name === `apps` && e.enabled;
+}
+function Ye(e) {
+  return Ge(e);
+}
+var Xe = r({ workspaceRoot: i().min(1).nullable().optional() }).passthrough();
+function Ze(e) {
+  let t = Xe.safeParse(e);
+  return !t.success || !Object.hasOwn(t.data, `workspaceRoot`)
+    ? { hasValue: !1, workspaceRoot: null }
+    : { hasValue: !0, workspaceRoot: t.data.workspaceRoot ?? null };
+}
+var Qe = [
+    { value: `untrusted`, label: J.untrusted, description: `Always ask before taking action` },
+    { value: `on-failure`, label: J.onFailure, description: `Ask only when a command fails` },
+    { value: `on-request`, label: J.onRequest, description: `Ask when escalation is requested` },
+    { value: `never`, label: J.never, description: `Run without asking for approval` },
+  ],
+  $e = [
+    { value: `read-only`, label: J.readOnly, description: `Can read files, but cannot edit them` },
+    {
+      value: `workspace-write`,
+      label: J.workspaceWrite,
+      description: `Can edit files, but only in this workspace`,
+    },
+    {
+      value: `danger-full-access`,
+      label: J.fullAccess,
+      description: `Can edit files outside this workspace`,
+    },
+  ];
+function et() {
+  let e = (0, Y.c)(37),
+    { selectedHostId: t } = U(),
+    n = o(t),
+    r = O(t),
+    i = D(G),
+    a = D(`2106641128`),
+    s;
+  e[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((s = (0, $.jsx)(H, { slug: `agent` })), (e[0] = s))
+    : (s = e[0]);
+  let c;
+  e[1] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((c = (0, $.jsx)(C, {
+        id: `settings.agent.configuration.subtitle.summary`,
+        defaultMessage: `Configure approval policy and sandbox settings <a>Learn more</a>`,
+        description: `Summary text for the configuration settings subtitle`,
+        values: { a: tt },
+      })),
+      (e[1] = c))
+    : (c = e[1]);
+  let l;
+  e[2] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((l = (0, $.jsx)(q.Header, { title: (0, $.jsx)(C, { ...J.customConfig }) })), (e[2] = l))
+    : (l = e[2]);
+  let u;
+  if (e[3] !== r || e[4] !== t) {
+    let n;
+    (e[6] !== r.length || e[7] !== t
+      ? ((n = (e, n) =>
+          (0, $.jsx)(
+            Se,
+            {
+              fullWidth: !0,
+              icon: V,
+              level: e.level,
+              className: n === r.length - 1 ? `mb-3` : `mb-2`,
+              children: (0, $.jsx)(`div`, {
+                className: `flex min-w-0 flex-col gap-2`,
+                children: (0, $.jsxs)(`div`, {
+                  className: `flex min-w-0 items-start justify-between gap-2`,
+                  children: [
+                    (0, $.jsxs)(`div`, {
+                      className: `flex min-w-0 flex-col gap-1`,
+                      children: [
+                        (0, $.jsx)(`div`, {
+                          className: `min-w-0 text-sm text-token-text-primary`,
+                          children: (0, $.jsx)(_e, {
+                            cwd: null,
+                            className: `[&>p]:my-0`,
+                            textStyle: { kind: `small` },
+                            children: e.summary,
+                          }),
+                        }),
+                        e.details != null && e.details.length > 0
+                          ? (0, $.jsx)(`div`, {
+                              className: `min-w-0 text-sm text-token-text-secondary`,
+                              children: (0, $.jsx)(_e, {
+                                cwd: null,
+                                className: `[&>p]:my-0`,
+                                textStyle: { kind: `small` },
+                                children: e.details,
+                              }),
+                            })
+                          : null,
+                        e.path == null
+                          ? null
+                          : (0, $.jsx)(`div`, {
+                              className: `min-w-0 text-sm text-token-text-secondary`,
+                              children: (0, $.jsx)(C, {
+                                id: `settings.agent.configuration.notice.fileContext`,
+                                defaultMessage: `File: {path}{location}`,
+                                description: `File path and optional location for a config or rules warning shown in settings`,
+                                values: {
+                                  path: (0, $.jsx)(`code`, { children: e.path }),
+                                  location:
+                                    e.range == null
+                                      ? ``
+                                      : (0, $.jsx)(C, {
+                                          id: `settings.agent.configuration.notice.fileLocationSuffix`,
+                                          defaultMessage: ` (line {line}, column {column})`,
+                                          description: `Suffix showing the line and column for a config warning in settings`,
+                                          values: {
+                                            line: e.range.start.line,
+                                            column: e.range.start.column,
+                                          },
+                                        }),
+                                },
+                              }),
+                            }),
+                      ],
+                    }),
+                    e.path == null
+                      ? null
+                      : (0, $.jsx)(ce, {
+                          color: `secondary`,
+                          size: `toolbar`,
+                          className: `inline-flex w-fit shrink-0`,
+                          onClick: () => {
+                            e.path != null &&
+                              I({
+                                hostId: t,
+                                path: e.path,
+                                ...(e.range == null ? {} : { range: e.range }),
+                              });
+                          },
+                          children: (0, $.jsx)(C, {
+                            id: `settings.agent.configuration.notice.openFile`,
+                            defaultMessage: `Open file`,
+                            description: `Button label to open the file associated with a config or rules warning`,
+                          }),
+                        }),
+                  ],
+                }),
+              }),
+            },
+            `${n}:${e.kind}:${e.summary}:${e.path ?? ``}`,
+          )),
+        (e[6] = r.length),
+        (e[7] = t),
+        (e[8] = n))
+      : (n = e[8]),
+      (u = r.map(n)),
+      (e[3] = r),
+      (e[4] = t),
+      (e[5] = u));
+  } else u = e[5];
+  let d;
+  e[9] === t
+    ? (d = e[10])
+    : ((d = (0, $.jsx)(R, { electron: !0, children: (0, $.jsx)(at, { hostId: t }) })),
+      (e[9] = t),
+      (e[10] = d));
+  let f, p;
+  e[11] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((f = (0, $.jsx)(C, {
+        id: `settings.agent.configuration.configToml`,
+        defaultMessage: `config.toml`,
+        description: `Label for config.toml open button`,
+      })),
+      (p = (0, $.jsx)(C, {
+        id: `settings.agent.configuration.configToml.description`,
+        defaultMessage: `Edit your config to customize agent behavior`,
+        description: `Description for config.toml open row`,
+      })),
+      (e[11] = f),
+      (e[12] = p))
+    : ((f = e[11]), (p = e[12]));
+  let m, h;
+  e[13] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((m = (0, $.jsx)(`span`, { className: `block` })),
+      (h = (0, $.jsx)(C, {
+        id: `settings.agent.configuration.configToml.restartNote`,
+        defaultMessage: `Restart Codex after editing to apply changes`,
+        description: `Note that config.toml changes require a restart`,
+      })),
+      (e[13] = m),
+      (e[14] = h))
+    : ((m = e[13]), (h = e[14]));
+  let g;
+  e[15] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((g = (0, $.jsxs)($.Fragment, {
+        children: [
+          p,
+          ` `,
+          m,
+          h,
+          ` `,
+          (0, $.jsxs)(`a`, {
+            className: `inline-flex items-center gap-1 text-token-text-secondary hover:text-token-text-primary`,
+            href: z,
+            target: `_blank`,
+            rel: `noreferrer`,
+            children: [
+              (0, $.jsx)(C, {
+                id: `settings.agent.configuration.configToml.docs`,
+                defaultMessage: `Docs`,
+                description: `Link label for config documentation`,
+              }),
+              (0, $.jsx)(F, { className: `icon-xxs` }),
+            ],
+          }),
+        ],
+      })),
+      (e[15] = g))
+    : (g = e[15]);
+  let _;
+  e[16] === t
+    ? (_ = e[17])
+    : ((_ = (0, $.jsx)(R, {
+        extension: !0,
+        children: (0, $.jsx)(Ne, {
+          children: (0, $.jsx)(K, {
+            label: f,
+            description: g,
+            control: (0, $.jsx)(ue, { hostId: t }),
+          }),
+        }),
+      })),
+      (e[16] = t),
+      (e[17] = _));
+  let v;
+  e[18] !== _ || e[19] !== u || e[20] !== d
+    ? ((v = (0, $.jsxs)(q, {
+        id: Le.customConfig,
+        className: `gap-2`,
+        children: [l, (0, $.jsxs)(q.Content, { children: [u, d, _] })],
+      })),
+      (e[18] = _),
+      (e[19] = u),
+      (e[20] = d),
+      (e[21] = v))
+    : (v = e[21]);
+  let y;
+  e[22] !== a || e[23] !== t
+    ? ((y = a ? (0, $.jsx)(Ke, { hostId: t }) : null), (e[22] = a), (e[23] = t), (e[24] = y))
+    : (y = e[24]);
+  let b;
+  e[25] === y
+    ? (b = e[26])
+    : ((b = (0, $.jsx)(R, { electron: !0, children: y })), (e[25] = y), (e[26] = b));
+  let x;
+  e[27] !== i || e[28] !== n || e[29] !== t
+    ? ((x = i && n.kind === `local` ? (0, $.jsx)(nt, { hostId: t }) : null),
+      (e[27] = i),
+      (e[28] = n),
+      (e[29] = t),
+      (e[30] = x))
+    : (x = e[30]);
+  let S;
+  e[31] === x
+    ? (S = e[32])
+    : ((S = (0, $.jsx)(R, { electron: !0, children: x })), (e[31] = x), (e[32] = S));
+  let w;
+  return (
+    e[33] !== v || e[34] !== b || e[35] !== S
+      ? ((w = (0, $.jsx)($.Fragment, {
+          children: (0, $.jsxs)(W, { title: s, subtitle: c, children: [v, b, S] }),
+        })),
+        (e[33] = v),
+        (e[34] = b),
+        (e[35] = S),
+        (e[36] = w))
+      : (w = e[36]),
+    w
+  );
+}
+function tt(e) {
+  return (0, $.jsx)(`a`, {
+    className: `inline-flex text-token-text-link-foreground`,
+    href: z,
+    target: `_blank`,
+    rel: `noreferrer`,
+    children: e,
+  });
+}
+function nt(e) {
+  let t = (0, Y.c)(2),
+    { hostId: n } = e,
+    r = E.primaryRuntime;
+  if (r == null) return null;
+  let i;
+  return (
+    t[0] === n
+      ? (i = t[1])
+      : ((i = (0, $.jsx)(rt, { hostId: n, primaryRuntime: r })), (t[0] = n), (t[1] = i)),
+    i
+  );
+}
+function rt(e) {
+  let t = (0, Y.c)(96),
+    { hostId: r, primaryRuntime: i } = e,
+    o = f(g),
+    c = S(),
+    l = ee(),
+    { data: u, isLoading: d } = m(N, r),
+    _;
+  t[0] === r ? (_ = t[1]) : ((_ = { hostId: r }), (t[0] = r), (t[1] = _));
+  let v = P(_),
+    y;
+  t[2] === u ? (y = t[3]) : ((y = u?.find(it)), (t[2] = u), (t[3] = y));
+  let w = y,
+    E = w?.enabled === !0,
+    D;
+  t[4] !== r || t[5] !== i
+    ? ((D = () => i.diagnoseDependencies({ hostId: r })), (t[4] = r), (t[5] = i), (t[6] = D))
+    : (D = t[6]);
+  let O;
+  t[7] === r ? (O = t[8]) : ((O = Oe(r)), (t[7] = r), (t[8] = O));
+  let k;
+  t[9] !== D || t[10] !== O
+    ? ((k = { queryFn: D, queryKey: O, staleTime: b.FIVE_SECONDS }),
+      (t[9] = D),
+      (t[10] = O),
+      (t[11] = k))
+    : (k = t[11]);
+  let A = x(k),
+    te;
+  t[12] !== r || t[13] !== i
+    ? ((te = { mutationFn: () => i.diagnoseDependencies({ hostId: r }) }),
+      (t[12] = r),
+      (t[13] = i),
+      (t[14] = te))
+    : (te = t[14]);
+  let j = h(te),
+    ne;
+  t[15] !== i || t[16] !== l
+    ? ((ne = {
+        mutationFn: async (e) => {
+          let { release: t } = e;
+          return (await De(l), i.runUpdateNow({ release: t }));
+        },
+      }),
+      (t[15] = i),
+      (t[16] = l),
+      (t[17] = ne))
+    : (ne = t[17]);
+  let re = h(ne),
+    ie;
+  t[18] !== r || t[19] !== i || t[20] !== l
+    ? ((ie = {
+        mutationFn: async (e) => {
+          let { release: t } = e;
+          return (await De(l), i.resetDependencies({ hostId: r, release: t }));
+        },
+      }),
+      (t[18] = r),
+      (t[19] = i),
+      (t[20] = l),
+      (t[21] = ie))
+    : (ie = t[21]);
+  let M = h(ie),
+    ae;
+  t[22] === r
+    ? (ae = t[23])
+    : ((ae = { mutationFn: () => ke({ hostId: r }) }), (t[22] = r), (t[23] = ae));
+  let oe = h(ae),
+    le = p(Ae),
+    F = p(Me),
+    I = le?.hostId === r ? le : null,
+    ue;
+  t[24] === o ? (ue = t[25]) : ((ue = o.get(se)), (t[24] = o), (t[25] = ue));
+  let L = ue,
+    R = d || v.isPending || j.isPending || re.isPending || M.isPending || oe.isPending,
+    pe;
+  t[26] === I ? (pe = t[27]) : ((pe = je(I)), (t[26] = I), (t[27] = pe));
+  let z = pe,
+    B =
+      A.data?.bundleVersion == null || A.data.bundleVersion.length === 0
+        ? null
+        : A.data.bundleVersion,
+    he;
+  t[28] !== j || t[29] !== A || t[30] !== c || t[31] !== o || t[32] !== L
+    ? ((he = () => {
+        let e = Date.now();
+        j.mutateAsync()
+          .then((t) => {
+            if (
+              (T(o, a, Te({ diagnostics: t, durationMs: Date.now() - e })),
+              A.refetch(),
+              t.installed)
+            ) {
+              L.success(
+                c.formatMessage({
+                  id: `settings.agent.dependencies.diagnose.ok`,
+                  defaultMessage: `Codex dependencies look healthy`,
+                  description: `Toast shown when dependency diagnostics find no problems`,
+                }),
+              );
+              return;
+            }
+            L.warning(
+              c.formatMessage({
+                id: `settings.agent.dependencies.diagnose.problem`,
+                defaultMessage: `Codex dependencies may need repair. Send /feedback if this keeps happening`,
+                description: `Toast shown when dependency diagnostics find problems`,
+              }),
+            );
+          })
+          .catch(() => {
+            (T(o, a, we({ durationMs: Date.now() - e })),
+              L.danger(
+                c.formatMessage({
+                  id: `settings.agent.dependencies.diagnose.failed`,
+                  defaultMessage: `Couldn’t diagnose Codex dependencies`,
+                  description: `Toast shown when dependency diagnostics fail`,
+                }),
+              ));
+          });
+      }),
+      (t[28] = j),
+      (t[29] = A),
+      (t[30] = c),
+      (t[31] = o),
+      (t[32] = L),
+      (t[33] = he))
+    : (he = t[33]);
+  let ge = he,
+    _e;
+  t[34] !== A || t[35] !== c || t[36] !== F || t[37] !== M || t[38] !== o || t[39] !== L
+    ? ((_e = () => {
+        let e = Date.now();
+        M.mutateAsync({ release: F })
+          .then((t) => {
+            (T(
+              o,
+              s,
+              Ce({ bundleVersion: t.bundleVersion, durationMs: Date.now() - e, status: t.status }),
+            ),
+              A.refetch(),
+              L.success(
+                c.formatMessage({
+                  id: `settings.agent.dependencies.reset.installed`,
+                  defaultMessage: `Codex dependencies were reinstalled`,
+                  description: `Toast shown when dependency reset and reinstall succeeds`,
+                }),
+              ));
+          })
+          .catch((t) => {
+            if (Ee(t)) {
+              (o.set(Ae, null),
+                A.refetch(),
+                T(
+                  o,
+                  s,
+                  Ce({ bundleVersion: null, durationMs: Date.now() - e, status: `canceled` }),
+                ),
+                L.info(
+                  c.formatMessage({
+                    id: `settings.agent.dependencies.reset.canceled`,
+                    defaultMessage: `Codex dependency download canceled`,
+                    description: `Toast shown when dependency reset and reinstall is canceled`,
+                  }),
+                  { id: `install-primary-runtime` },
+                ));
+              return;
+            }
+            (T(o, s, Ce({ bundleVersion: null, durationMs: Date.now() - e, status: `failed` })),
+              L.danger(
+                c.formatMessage({
+                  id: `settings.agent.dependencies.reset.failed`,
+                  defaultMessage: `Couldn’t reinstall Codex dependencies`,
+                  description: `Toast shown when dependency reset fails`,
+                }),
+              ));
+          });
+      }),
+      (t[34] = A),
+      (t[35] = c),
+      (t[36] = F),
+      (t[37] = M),
+      (t[38] = o),
+      (t[39] = L),
+      (t[40] = _e))
+    : (_e = t[40]);
+  let V = _e,
+    ye;
+  t[41] !== oe || t[42] !== A || t[43] !== c || t[44] !== o || t[45] !== L
+    ? ((ye = () => {
+        oe.mutateAsync()
+          .then((e) => {
+            let { canceled: t } = e;
+            if ((o.set(Ae, null), A.refetch(), !t)) {
+              L.info(
+                c.formatMessage({
+                  id: `settings.agent.dependencies.cancel.noop`,
+                  defaultMessage: `No Codex dependency download is running`,
+                  description: `Toast shown when canceling a Codex dependency download but no download is running`,
+                }),
+              );
+              return;
+            }
+            L.info(
+              c.formatMessage({
+                id: `settings.agent.dependencies.cancel.canceled`,
+                defaultMessage: `Canceling Codex dependency download`,
+                description: `Toast shown after requesting cancellation of a Codex dependency download`,
+              }),
+              { id: `install-primary-runtime` },
+            );
+          })
+          .catch(() => {
+            L.danger(
+              c.formatMessage({
+                id: `settings.agent.dependencies.cancel.failed`,
+                defaultMessage: `Couldn’t cancel Codex dependency download`,
+                description: `Toast shown when canceling a Codex dependency download fails`,
+              }),
+            );
+          });
+      }),
+      (t[41] = oe),
+      (t[42] = A),
+      (t[43] = c),
+      (t[44] = o),
+      (t[45] = L),
+      (t[46] = ye))
+    : (ye = t[46]);
+  let be = ye,
+    H;
+  t[47] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((H = (0, $.jsx)(q.Header, {
+        title: (0, $.jsx)(C, {
+          id: `settings.agent.dependencies.sectionTitle`,
+          defaultMessage: `Workspace Dependencies`,
+          description: `Heading for the Codex dependencies settings section`,
+        }),
+      })),
+      (t[47] = H))
+    : (H = t[47]);
+  let xe;
+  t[48] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((xe = (0, $.jsx)(C, {
+        id: `settings.agent.dependencies.bundleVersion.label`,
+        defaultMessage: `Current version`,
+        description: `Label for the installed Codex dependency bundle version`,
+      })),
+      (t[48] = xe))
+    : (xe = t[48]);
+  let U;
+  t[49] === A.data?.problems.length
+    ? (U = t[50])
+    : ((U = A.data?.problems.length
+        ? (0, $.jsx)(C, {
+            id: `settings.agent.dependencies.bundleVersion.problemDescription`,
+            defaultMessage: `Run diagnostics or reinstall if tool calls fail`,
+            description: `Description shown when dependency diagnostics have problems`,
+          })
+        : null),
+      (t[49] = A.data?.problems.length),
+      (t[50] = U));
+  let W;
+  t[51] !== B || t[52] !== A.isLoading || t[53] !== z || t[54] !== I
+    ? ((W = z
+        ? Pe(I, Fe(I))
+        : A.isLoading
+          ? (0, $.jsx)(C, {
+              id: `settings.agent.dependencies.bundleVersion.loading`,
+              defaultMessage: `Checking…`,
+              description: `Status while loading the current dependency bundle version`,
+            })
+          : (B ??
+            (0, $.jsx)(C, {
+              id: `settings.agent.dependencies.bundleVersion.notInstalled`,
+              defaultMessage: `Not installed`,
+              description: `Status when dependency bundle version is unavailable`,
+            }))),
+      (t[51] = B),
+      (t[52] = A.isLoading),
+      (t[53] = z),
+      (t[54] = I),
+      (t[55] = W))
+    : (W = t[55]);
+  let Se;
+  t[56] === W
+    ? (Se = t[57])
+    : ((Se = (0, $.jsx)(`span`, { className: `text-sm text-token-text-secondary`, children: W })),
+      (t[56] = W),
+      (t[57] = Se));
+  let G;
+  t[58] !== U || t[59] !== Se
+    ? ((G = (0, $.jsx)(K, { label: xe, description: U, control: Se })),
+      (t[58] = U),
+      (t[59] = Se),
+      (t[60] = G))
+    : (G = t[60]);
+  let Ie, Le;
+  t[61] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((Ie = (0, $.jsx)(C, {
+        id: `settings.agent.dependencies.enabled.label`,
+        defaultMessage: `Codex dependencies`,
+        description: `Label for the Codex dependencies enabled toggle`,
+      })),
+      (Le = (0, $.jsx)(C, {
+        id: `settings.agent.dependencies.enabled.description`,
+        defaultMessage: `Allow Codex to install and expose bundled Node.js and Python tools`,
+        description: `Description for the Codex dependencies enabled toggle`,
+      })),
+      (t[61] = Ie),
+      (t[62] = Le))
+    : ((Ie = t[61]), (Le = t[62]));
+  let J = d || v.isPending || w == null,
+    X;
+  t[63] !== F || t[64] !== re || t[65] !== v
+    ? ((X = (e) => {
+        v.mutate(
+          { enabled: e, featureName: n },
+          {
+            onSuccess: () => {
+              e && re.mutate({ release: F });
+            },
+          },
+        );
+      }),
+      (t[63] = F),
+      (t[64] = re),
+      (t[65] = v),
+      (t[66] = X))
+    : (X = t[66]);
+  let Re;
+  t[67] === c
+    ? (Re = t[68])
+    : ((Re = c.formatMessage({
+        id: `settings.agent.dependencies.enabled.ariaLabel`,
+        defaultMessage: `Enable Codex dependencies`,
+        description: `Aria label for the Codex dependencies enabled toggle`,
+      })),
+      (t[67] = c),
+      (t[68] = Re));
+  let ze;
+  t[69] !== E || t[70] !== J || t[71] !== X || t[72] !== Re
+    ? ((ze = (0, $.jsx)(K, {
+        label: Ie,
+        description: Le,
+        control: (0, $.jsx)(ve, { checked: E, disabled: J, onChange: X, ariaLabel: Re }),
+      })),
+      (t[69] = E),
+      (t[70] = J),
+      (t[71] = X),
+      (t[72] = Re),
+      (t[73] = ze))
+    : (ze = t[73]);
+  let Be, Ve;
+  t[74] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((Be = (0, $.jsx)(C, {
+        id: `settings.agent.dependencies.diagnose.label`,
+        defaultMessage: `Diagnose issues in Codex Workspace`,
+        description: `Label for dependency diagnostics in settings`,
+      })),
+      (Ve = (0, $.jsx)(C, {
+        id: `settings.agent.dependencies.diagnose.description`,
+        defaultMessage: `Checks the current bundle and records diagnostic logs`,
+        description: `Description for dependency diagnostics in settings`,
+      })),
+      (t[74] = Be),
+      (t[75] = Ve))
+    : ((Be = t[74]), (Ve = t[75]));
+  let He, Z;
+  t[76] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((He = (0, $.jsx)(me, { className: `icon-2xs` })),
+      (Z = (0, $.jsx)(C, {
+        id: `settings.agent.dependencies.diagnose.button`,
+        defaultMessage: `Diagnose`,
+        description: `Button label for dependency diagnostics`,
+      })),
+      (t[76] = He),
+      (t[77] = Z))
+    : ((He = t[76]), (Z = t[77]));
+  let Q;
+  t[78] !== j.isPending || t[79] !== ge || t[80] !== M.isPending
+    ? ((Q = (0, $.jsx)(K, {
+        label: Be,
+        description: Ve,
+        control: (0, $.jsxs)(ce, {
+          color: `secondary`,
+          size: `toolbar`,
+          loading: j.isPending,
+          disabled: M.isPending,
+          onClick: ge,
+          children: [He, Z],
+        }),
+      })),
+      (t[78] = j.isPending),
+      (t[79] = ge),
+      (t[80] = M.isPending),
+      (t[81] = Q))
+    : (Q = t[81]);
+  let Ue, We;
+  t[82] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((Ue = (0, $.jsx)(C, {
+        id: `settings.agent.dependencies.reset.label`,
+        defaultMessage: `Reset and install Workspace`,
+        description: `Label for resetting and reinstalling dependencies in settings`,
+      })),
+      (We = (0, $.jsx)(C, {
+        id: `settings.agent.dependencies.reset.description`,
+        defaultMessage: `Deletes the local bundle, downloads it again, and reloads tools`,
+        description: `Description for resetting and reinstalling dependencies in settings`,
+      })),
+      (t[82] = Ue),
+      (t[83] = We))
+    : ((Ue = t[82]), (We = t[83]));
+  let Ge = z ? oe.isPending : M.isPending,
+    Ke = !E || (z ? oe.isPending : R),
+    qe = z ? be : V,
+    Je;
+  t[84] === z
+    ? (Je = t[85])
+    : ((Je = z
+        ? (0, $.jsxs)($.Fragment, {
+            children: [
+              (0, $.jsx)(de, { className: `icon-2xs` }),
+              (0, $.jsx)(C, {
+                id: `settings.agent.dependencies.cancel.button`,
+                defaultMessage: `Cancel download`,
+                description: `Button label for canceling dependency download`,
+              }),
+            ],
+          })
+        : (0, $.jsxs)($.Fragment, {
+            children: [
+              (0, $.jsx)(fe, { className: `icon-2xs` }),
+              (0, $.jsx)(C, {
+                id: `settings.agent.dependencies.reset.button`,
+                defaultMessage: `Reinstall`,
+                description: `Button label for resetting and reinstalling dependencies`,
+              }),
+            ],
+          })),
+      (t[84] = z),
+      (t[85] = Je));
+  let Ye;
+  t[86] !== Ge || t[87] !== Ke || t[88] !== qe || t[89] !== Je
+    ? ((Ye = (0, $.jsx)(K, {
+        label: Ue,
+        description: We,
+        control: (0, $.jsx)(ce, {
+          color: `danger`,
+          size: `toolbar`,
+          loading: Ge,
+          disabled: Ke,
+          onClick: qe,
+          children: Je,
+        }),
+      })),
+      (t[86] = Ge),
+      (t[87] = Ke),
+      (t[88] = qe),
+      (t[89] = Je),
+      (t[90] = Ye))
+    : (Ye = t[90]);
+  let Xe;
+  return (
+    t[91] !== G || t[92] !== ze || t[93] !== Q || t[94] !== Ye
+      ? ((Xe = (0, $.jsxs)(q, {
+          className: `gap-2`,
+          children: [
+            H,
+            (0, $.jsx)(q.Content, { children: (0, $.jsxs)(Ne, { children: [G, ze, Q, Ye] }) }),
+          ],
+        })),
+        (t[91] = G),
+        (t[92] = ze),
+        (t[93] = Q),
+        (t[94] = Ye),
+        (t[95] = Xe))
+      : (Xe = t[95]),
+    Xe
+  );
+}
+function it(e) {
+  return e.name === n;
+}
+function at({ hostId: e }) {
+  let n = S(),
+    r = w(),
+    i = d(),
+    [a, o] = (0, X.useState)(null),
+    [s, l] = (0, X.useState)(null),
+    [u, f] = (0, X.useState)({}),
+    { data: h } = p(k),
+    g = Ze(r.state),
+    _ = g.hasValue
+      ? e === `local`
+        ? g.workspaceRoot
+        : null
+      : e === `local`
+        ? (h?.roots?.[0] ?? null)
+        : null,
+    v = le(e),
+    { data: b, isPending: x } = oe(_, {
+      hostId: e,
+      cwdMode: e === `local` ? `fallback-to-workspace` : `preserve-null`,
+    }),
+    { data: T, isPending: E } = m(A, { hostId: e }),
+    ee = y(`open-file`),
+    D = b?.config ?? null,
+    O = b?.layers ?? null,
+    N = b?.origins ?? null,
+    P = T?.requirements ?? null,
+    se = ct(O, n),
+    F = O?.find((e) => e.name.type === `user`) ?? null,
+    I = O?.find((e) => ie(e.name)) ?? null,
+    ue = v == null ? null : `${v}/config.toml`,
+    de = F == null ? ue : j(F.name),
+    fe = {
+      key: `user`,
+      kind: `user`,
+      label: n.formatMessage(J.userConfig),
+      tooltipText: de ?? `~/.codex/config.toml`,
+      filePath: de,
+      expectedVersion: F?.version ?? null,
+      workspaceRoot: null,
+      layer: F,
+    },
+    R =
+      I == null
+        ? null
+        : {
+            key: `managed`,
+            kind: `managed`,
+            label: n.formatMessage(J.adminConfig),
+            tooltipText: n.formatMessage({
+              id: `settings.agent.configuration.scope.managedDescription`,
+              defaultMessage: `Managed by admin policy`,
+              description: `Tooltip text for the admin config scope in configuration settings`,
+            }),
+            filePath: j(I.name),
+            expectedVersion: I.version,
+            workspaceRoot: null,
+            layer: I,
+          },
+    z = [...se, fe, ...(R == null ? [] : [R])],
+    me = se.length > 0,
+    _e = _ == null ? (z[0]?.key ?? null) : `project:${_}`,
+    V = z.find((e) => e.key === a) ?? z.find((e) => e.key === _e) ?? z[0] ?? null,
+    { data: ye } = m(Ie, {
+      cwd: V?.workspaceRoot == null ? (_ == null ? null : t(_)) : t(V.workspaceRoot),
+      hostId: e,
+    }),
+    H = dt(V?.layer?.config ?? null),
+    U = gt(D?.approval_policy ?? null) ?? `on-request`,
+    W = D?.sandbox_mode == null ? `read-only` : D.sandbox_mode,
+    Se = H.sandboxMode == null && W === `workspace-write`,
+    Ce = H.sandboxMode === `workspace-write` || Se,
+    we = H.approvalPolicy ?? U,
+    Te = H.sandboxMode ?? W,
+    G = mt(we),
+    Ee = ht(Te),
+    De = H.networkAccess ?? D?.sandbox_workspace_write?.network_access ?? !1,
+    Oe = N == null ? null : ne(N, `approval_policy`, [`approvalPolicy`]),
+    ke = N == null ? null : ne(N, `sandbox_mode`),
+    Ae = N == null ? null : ne(N, `sandbox_workspace_write`, [`network_access`]),
+    je = V?.kind === `project` ? (V.layer?.disabledReason ?? null) : null,
+    Me = ft(V, n),
+    Pe = Qe.filter((e) =>
+      P?.allowedApprovalPolicies == null || P.allowedApprovalPolicies.length === 0
+        ? !0
+        : P.allowedApprovalPolicies.includes(e.value),
+    ),
+    Fe = $e.filter((e) =>
+      P?.allowedSandboxModes == null || P.allowedSandboxModes.length === 0
+        ? !0
+        : P.allowedSandboxModes.includes(e.value),
+    );
+  async function Y(t, n, r) {
+    if (!(V == null || V.filePath == null) && s == null) {
+      (l(t), f((e) => ({ ...e, [t]: void 0 })));
+      try {
+        if (V.kind === `project`) await Re({ filePath: V.filePath, keyPath: n, value: r });
+        else {
+          let t = V.kind === `user` ? await te(i, e) : null;
+          await c(`write-config-value`, {
+            hostId: e,
+            keyPath: n,
+            value: r,
+            mergeStrategy: `upsert`,
+            filePath: t ? t.filePath : V.filePath,
+            expectedVersion: t == null ? V.expectedVersion : t.expectedVersion,
+          });
+        }
+        (await i.invalidateQueries({ queryKey: [...M, e] }),
+          await Promise.all([
+            i.invalidateQueries({ queryKey: [...re, e] }),
+            i.invalidateQueries({ queryKey: [...ae, e] }),
+          ]));
+      } catch (e) {
+        f((n) => ({ ...n, [t]: e instanceof Error ? e.message : `Unable to save` }));
+      } finally {
+        l(null);
+      }
+    }
+  }
+  let ze = x || E,
+    Be = pt({
+      intl: n,
+      scopeLockReason: Me,
+      origin: Oe,
+      selectedScope: V,
+      hasOptions: Pe.length > 0,
+      restrictedMessage: n.formatMessage({
+        id: `settings.agent.configuration.approval.restricted`,
+        defaultMessage: `Approval policy is restricted by this installation.`,
+        description: `Restriction message for approval policy in configuration settings`,
+      }),
+    }),
+    Ve = pt({
+      intl: n,
+      scopeLockReason: Me,
+      origin: ke,
+      selectedScope: V,
+      hasOptions: Fe.length > 0,
+      restrictedMessage: n.formatMessage({
+        id: `settings.agent.configuration.sandbox.restricted`,
+        defaultMessage: `Sandbox mode is restricted by this installation.`,
+        description: `Restriction message for sandbox mode in configuration settings`,
+      }),
+    }),
+    He = pt({
+      intl: n,
+      scopeLockReason: Me,
+      origin: Ae,
+      selectedScope: V,
+      hasOptions: !0,
+      restrictedMessage: ``,
+    }),
+    Z = ze || s != null || je != null,
+    Q = (e) => {
+      (o(e), f({}));
+    };
+  return (0, $.jsxs)(q, {
+    children: [
+      (0, $.jsx)(q.Header, {
+        title: (0, $.jsxs)(he, {
+          align: `start`,
+          contentWidth: `menuWide`,
+          disabled: z.length === 0,
+          triggerButton: (0, $.jsx)(xe, {
+            disabled: z.length === 0,
+            contentClassName: `truncate`,
+            children:
+              V?.label ??
+              n.formatMessage({
+                id: `settings.agent.configuration.scope.loading`,
+                defaultMessage: `Loading…`,
+                description: `Fallback label while config scope options are loading`,
+              }),
+          }),
+          children: [
+            me
+              ? (0, $.jsxs)($.Fragment, {
+                  children: [
+                    (0, $.jsxs)(B.Section, {
+                      children: [
+                        (0, $.jsx)(B.SectionLabel, {
+                          children: (0, $.jsx)(C, { ...J.projectConfig }),
+                        }),
+                        se.map((e) =>
+                          (0, $.jsx)(
+                            ot,
+                            {
+                              scopeOption: e,
+                              selected: V?.key === e.key,
+                              onSelect: () => {
+                                Q(e.key);
+                              },
+                            },
+                            e.key,
+                          ),
+                        ),
+                      ],
+                    }),
+                    (0, $.jsx)(B.Separator, {}),
+                  ],
+                })
+              : null,
+            (0, $.jsxs)(B.Section, {
+              children: [
+                (0, $.jsx)(B.SectionLabel, { children: (0, $.jsx)(C, { ...J.globalConfig }) }),
+                (0, $.jsx)(ot, {
+                  scopeOption: fe,
+                  selected: V?.key === fe.key,
+                  onSelect: () => {
+                    Q(fe.key);
+                  },
+                }),
+                R == null
+                  ? null
+                  : (0, $.jsx)(ot, {
+                      scopeOption: R,
+                      selected: V?.key === R.key,
+                      onSelect: () => {
+                        Q(R.key);
+                      },
+                    }),
+              ],
+            }),
+          ],
+        }),
+        actions: (0, $.jsxs)(ce, {
+          color: `ghost`,
+          size: `toolbar`,
+          disabled: V?.filePath == null,
+          onClick: () => {
+            V?.filePath != null &&
+              L({
+                path: V.filePath,
+                cwd: V.workspaceRoot == null ? null : t(V.workspaceRoot),
+                hostId: e,
+                target: ye?.preferredTarget,
+                openFile: ee.mutate,
+              });
+          },
+          children: [
+            (0, $.jsx)(C, {
+              id: `settings.agent.configuration.scope.open`,
+              defaultMessage: `Open config.toml`,
+              description: `Button label to open the selected config file`,
+            }),
+            (0, $.jsx)(be, { className: `icon-2xs` }),
+          ],
+        }),
+      }),
+      (0, $.jsx)(q.Content, {
+        children: (0, $.jsxs)(Ne, {
+          children: [
+            je == null
+              ? null
+              : (0, $.jsxs)(`div`, {
+                  className: `flex items-start gap-2 p-3`,
+                  children: [
+                    (0, $.jsx)(ge, {
+                      className: `icon-xs mt-0.5 shrink-0 text-token-editor-warning-foreground`,
+                    }),
+                    (0, $.jsx)(`div`, {
+                      className: `text-sm text-token-text-secondary`,
+                      children: je,
+                    }),
+                  ],
+                }),
+            (0, $.jsx)(K, {
+              id: Le.approvalPolicy,
+              label: (0, $.jsx)(C, { ...J.approvalPolicy }),
+              description: (0, $.jsx)(st, {
+                error: u.approval,
+                lockReason: Be,
+                children: (0, $.jsx)(C, {
+                  id: `settings.agent.configuration.approval.definition`,
+                  defaultMessage: `Choose when Codex asks for approval`,
+                  description: `Definition for approval policy in configuration settings`,
+                }),
+              }),
+              control: (0, $.jsx)(he, {
+                align: `end`,
+                contentWidth: `panelWide`,
+                disabled: Z || Be != null,
+                triggerButton: (0, $.jsx)(xe, {
+                  disabled: Z || Be != null,
+                  contentClassName: `truncate`,
+                  children: G == null ? we : n.formatMessage(G.label),
+                }),
+                children: Pe.map((e) =>
+                  (0, $.jsx)(
+                    B.Item,
+                    {
+                      RightIcon: e.value === we ? pe : void 0,
+                      subTextAllowWrap: !0,
+                      onSelect: () => {
+                        Y(`approval`, `approval_policy`, e.value);
+                      },
+                      SubText: (0, $.jsx)(`div`, {
+                        className: `pt-1 text-sm text-token-text-secondary`,
+                        children: e.description,
+                      }),
+                      children: (0, $.jsx)(`span`, {
+                        className: `text-sm`,
+                        children: n.formatMessage(e.label),
+                      }),
+                    },
+                    e.value,
+                  ),
+                ),
+              }),
+            }),
+            (0, $.jsx)(K, {
+              id: Le.sandboxSettings,
+              label: (0, $.jsx)(C, { ...J.sandboxSettings }),
+              description: (0, $.jsx)(st, {
+                error: u.sandbox,
+                lockReason: Ve,
+                children: (0, $.jsx)(C, {
+                  id: `settings.agent.configuration.sandbox.definition`,
+                  defaultMessage: `Choose how much Codex can do when running commands`,
+                  description: `Definition for sandbox settings in configuration settings`,
+                }),
+              }),
+              control: (0, $.jsx)(he, {
+                align: `end`,
+                contentWidth: `panelWide`,
+                disabled: Z || Ve != null,
+                triggerButton: (0, $.jsx)(xe, {
+                  disabled: Z || Ve != null,
+                  contentClassName: `truncate`,
+                  children: Ee == null ? Te : n.formatMessage(Ee.label),
+                }),
+                children: Fe.map((e) =>
+                  (0, $.jsx)(
+                    B.Item,
+                    {
+                      RightIcon: e.value === Te ? pe : void 0,
+                      subTextAllowWrap: !0,
+                      onSelect: () => {
+                        Y(`sandbox`, `sandbox_mode`, e.value);
+                      },
+                      SubText: (0, $.jsx)(`div`, {
+                        className: `pt-1 text-sm text-token-text-secondary`,
+                        children: e.description,
+                      }),
+                      children: (0, $.jsx)(`span`, {
+                        className: `text-sm`,
+                        children: n.formatMessage(e.label),
+                      }),
+                    },
+                    e.value,
+                  ),
+                ),
+              }),
+            }),
+            Ce
+              ? (0, $.jsx)(K, {
+                  label: (0, $.jsx)(C, {
+                    id: `settings.agent.configuration.network.label`,
+                    defaultMessage: `Allow network access`,
+                    description: `Label for network access in configuration settings`,
+                  }),
+                  description: (0, $.jsx)(st, {
+                    error: u.network,
+                    lockReason: He,
+                    children: (0, $.jsx)(C, {
+                      id: `settings.agent.configuration.network.definition`,
+                      defaultMessage: `Allow network access when the sandbox is set to workspace write`,
+                      description: `Definition for network access in configuration settings`,
+                    }),
+                  }),
+                  control: (0, $.jsx)(ve, {
+                    checked: De,
+                    disabled: Z || He != null,
+                    onChange: (e) => {
+                      Y(`network`, `sandbox_workspace_write.network_access`, e);
+                    },
+                    ariaLabel: n.formatMessage({
+                      id: `settings.agent.configuration.network.ariaLabel`,
+                      defaultMessage: `Allow network access`,
+                      description: `Aria label for network access toggle in configuration settings`,
+                    }),
+                  }),
+                })
+              : null,
+          ],
+        }),
+      }),
+    ],
+  });
+}
+function ot(e) {
+  let t = (0, Y.c)(7),
+    { onSelect: n, scopeOption: r, selected: i } = e,
+    a = i ? pe : void 0,
+    o;
+  t[0] === r.label
+    ? (o = t[1])
+    : ((o = (0, $.jsx)(`span`, { className: `truncate text-sm`, children: r.label })),
+      (t[0] = r.label),
+      (t[1] = o));
+  let s;
+  return (
+    t[2] !== n || t[3] !== r.tooltipText || t[4] !== a || t[5] !== o
+      ? ((s = (0, $.jsx)(B.Item, {
+          RightIcon: a,
+          tooltipText: r.tooltipText,
+          tooltipSide: `right`,
+          onSelect: n,
+          children: o,
+        })),
+        (t[2] = n),
+        (t[3] = r.tooltipText),
+        (t[4] = a),
+        (t[5] = o),
+        (t[6] = s))
+      : (s = t[6]),
+    s
+  );
+}
+function st(e) {
+  let t = (0, Y.c)(10),
+    { children: n, error: r, lockReason: i } = e,
+    a;
+  t[0] === n ? (a = t[1]) : ((a = (0, $.jsx)(`div`, { children: n })), (t[0] = n), (t[1] = a));
+  let o;
+  t[2] === i
+    ? (o = t[3])
+    : ((o =
+        i == null
+          ? null
+          : (0, $.jsxs)(`div`, {
+              className: `inline-flex items-center gap-1 text-sm text-token-editor-warning-foreground`,
+              children: [
+                (0, $.jsx)(ye, { className: `icon-2xs` }),
+                (0, $.jsx)(`span`, { children: i }),
+              ],
+            })),
+      (t[2] = i),
+      (t[3] = o));
+  let s;
+  t[4] === r
+    ? (s = t[5])
+    : ((s =
+        r == null
+          ? null
+          : (0, $.jsx)(`div`, { className: `text-sm text-token-error-foreground`, children: r })),
+      (t[4] = r),
+      (t[5] = s));
+  let c;
+  return (
+    t[6] !== a || t[7] !== o || t[8] !== s
+      ? ((c = (0, $.jsxs)(`div`, { className: `flex flex-col gap-1`, children: [a, o, s] })),
+        (t[6] = a),
+        (t[7] = o),
+        (t[8] = s),
+        (t[9] = c))
+      : (c = t[9]),
+    c
+  );
+}
+function ct(e, t) {
+  if (e == null) return [];
+  let n = [];
+  for (let r of e) {
+    if (r.name.type !== `project`) continue;
+    let e = lt(r.name.dotCodexFolder);
+    n.push({
+      key: `project:${e ?? r.name.dotCodexFolder}`,
+      kind: `project`,
+      label: t.formatMessage(
+        {
+          id: `settings.agent.configuration.scope.project`,
+          defaultMessage: `{repoName}`,
+          description: `Label for a project config scope in configuration settings`,
+        },
+        { repoName: ut(e ?? r.name.dotCodexFolder) },
+      ),
+      tooltipText: j(r.name) ?? r.name.dotCodexFolder,
+      filePath: j(r.name),
+      expectedVersion: r.version,
+      workspaceRoot: e,
+      layer: r,
+    });
+  }
+  return n;
+}
+function lt(e) {
+  return e.endsWith(`/.codex`) || e.endsWith(`\\.codex`) ? e.slice(0, -7) : null;
+}
+function ut(e) {
+  return e.split(/[/\\]/).at(-1) || e;
+}
+function dt(e) {
+  if (typeof e != `object` || !e || Array.isArray(e))
+    return { approvalPolicy: null, sandboxMode: null, networkAccess: null };
+  let t = e.approval_policy,
+    n = e.sandbox_mode,
+    r = e.sandbox_workspace_write;
+  return {
+    approvalPolicy: gt(t ?? null),
+    sandboxMode:
+      n === `read-only` || n === `workspace-write` || n === `danger-full-access` ? n : null,
+    networkAccess:
+      typeof r == `object` && r && !Array.isArray(r) && typeof r.network_access == `boolean`
+        ? r.network_access
+        : null,
+  };
+}
+function ft(e, t) {
+  return e == null
+    ? t.formatMessage({
+        id: `settings.agent.configuration.scope.unavailable`,
+        defaultMessage: `Config scope unavailable.`,
+        description: `Message shown when no config scope is available in configuration settings`,
+      })
+    : e.filePath == null
+      ? t.formatMessage({
+          id: `settings.agent.configuration.scope.readOnly`,
+          defaultMessage: `This config source cannot be edited here.`,
+          description: `Message shown when the selected config scope cannot be edited`,
+        })
+      : null;
+}
+function pt({
+  intl: e,
+  scopeLockReason: t,
+  origin: n,
+  selectedScope: r,
+  hasOptions: i,
+  restrictedMessage: a,
+}) {
+  return (
+    t ??
+    (i
+      ? r?.kind !== `managed` && n != null && ie(n.name)
+        ? e.formatMessage({
+            id: `settings.agent.configuration.control.managed`,
+            defaultMessage: `This value is managed by admin policy.`,
+            description: `Message shown when a configuration control is managed by admin policy`,
+          })
+        : null
+      : a)
+  );
+}
+function mt(e) {
+  return Qe.find((t) => t.value === e) ?? null;
+}
+function ht(e) {
+  return $e.find((t) => t.value === e) ?? null;
+}
+function gt(e) {
+  return e === `untrusted` || e === `on-failure` || e === `on-request` || e === `never` ? e : null;
+}
+export { et as AgentSettings };
 //# sourceMappingURL=agent-settings-DBk-B-2n.js.map

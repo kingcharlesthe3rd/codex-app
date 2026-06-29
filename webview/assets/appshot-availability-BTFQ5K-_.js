@@ -1,2 +1,0 @@
-import{v as e}from"./app-server-manager-signals-Yn0WSnoY.js";import{L as t,R as n,h as r}from"./vscode-api-DjORcpSo.js";import{p as i}from"./statsig-BP9zNYqZ.js";import{c as a}from"./config-queries-Br8rhpJn.js";import{n as o}from"./platform-BHmTRipH.js";var s=n(r,(e,{get:t})=>{if(t(o)!==`macOS`||!t(i,`1304276663`))return!1;let{data:n}=t(a,{hostId:e});return n!=null&&n.requirements?.allowAppshots!==!1}),c=t(r,({get:t})=>t(s,t(e)));export{s as n,c as t};
-//# sourceMappingURL=appshot-availability-BTFQ5K-_.js.map

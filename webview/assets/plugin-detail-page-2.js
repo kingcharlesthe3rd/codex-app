@@ -1,0 +1,6650 @@
+import { s as e } from "./chunk-Bj-mKKzh.js";
+import {
+  $ as t,
+  Br as n,
+  Dr as r,
+  aa as i,
+  ft as a,
+  ht as o,
+  la as s,
+  na as c,
+  pt as l,
+  sa as u,
+  vn as d,
+} from "./src-2.js";
+import {
+  Uo as f,
+  Wo as p,
+  fs as m,
+  ho as h,
+  qo as g,
+  ti as _,
+  yr as v,
+} from "./app-server-manager-signals.js";
+import { n as y, t as b } from "./jsx-runtime.js";
+import { t as x } from "./clsx.js";
+import {
+  A as S,
+  F as C,
+  I as w,
+  P as T,
+  _ as E,
+  f as D,
+  g as O,
+  h as k,
+  lt as A,
+  o as j,
+  p as ee,
+  r as te,
+  s as ne,
+  u as M,
+  v as N,
+} from "./vscode-api.js";
+import { c as P, o as F, r as I } from "./lib-2.js";
+import { a as L, f as R, g as z, m as re } from "./chunk-12.js";
+import { n as ie } from "./known-app-icon.js";
+import { g as ae } from "./persisted-signal-CweW-bgN.js";
+import { a as B, d as V, o as oe } from "./statsig.js";
+import { t as H } from "./invalidate-queries-and-broadcast.js";
+import { t as se, u as U } from "./thread-context-inputs.js";
+import { S as W, b as ce } from "./config-queries.js";
+import { t as le } from "./use-auth-CI-WraL2.js";
+import { p as ue } from "./codex-api.js";
+import { c as de, o as fe, s as pe, y as me } from "./apps-queries.js";
+import { t as he } from "./connector-logo.js";
+import { r as ge } from "./toast-signal.js";
+import { t as _e } from "./tooltip.js";
+import { E as ve, r as ye } from "./mention-item-C.js";
+import { i as be, r as xe } from "./skill-utils.js";
+import { t as G } from "./button.js";
+import { t as K } from "./spinner.js";
+import { t as Se } from "./use-codex-home.js";
+import { t as Ce } from "./link-external.js";
+import { t as we } from "./open-workspace-file-CJcJ-CWR.js";
+import { t as Te } from "./proxy.js";
+import { t as Ee } from "./app-shell.js";
+import { t as De } from "./use-reduced-motion.js";
+import { t as Oe } from "./apps.js";
+import { t as ke } from "./chats-K.js";
+import { t as Ae } from "./x.js";
+import { t as je } from "./use-is-plugins-enabled.js";
+import {
+  c as Me,
+  l as Ne,
+  m as Pe,
+  n as Fe,
+  o as Ie,
+  s as Le,
+  t as Re,
+  u as ze,
+} from "./use-plugins.js";
+import { n as Be, t as Ve } from "./recommended-skill-statsig-overrides.js";
+import { t as He } from "./with-window.js";
+import {
+  a as Ue,
+  c as We,
+  i as Ge,
+  l as Ke,
+  r as qe,
+  s as Je,
+} from "./plugin-detail-route-utils.js";
+import {
+  d as Ye,
+  f as q,
+  l as Xe,
+  n as Ze,
+  o as Qe,
+  s as $e,
+  t as et,
+  u as tt,
+} from "./use-plugin-install-flow.js";
+import { t as nt } from "./gradient.js";
+import { t as rt } from "./settings.cog.js";
+import { t as it } from "./skills.js";
+import { t as at } from "./mcp.js";
+import { t as ot } from "./get-skill-icon.js";
+import { c as st } from "./inline-mentions.js";
+import { t as ct } from "./copy-to-clipboard.js";
+import { r as lt } from "./modal-controller-state.js";
+import {
+  a as ut,
+  d as dt,
+  i as ft,
+  l as pt,
+  n as mt,
+  r as ht,
+  t as J,
+  u as gt,
+} from "./dialog-layout.js";
+import { n as _t, t as vt } from "./use-skills.js";
+import { t as yt } from "./check-md.js";
+import { n as bt } from "./use-start-new-conversation.js";
+import { n as xt, t as St } from "./plugin-prefill-prompt.js";
+import { n as Ct } from "./bundled-plugin-auto-install-preference.js";
+import { t as wt } from "./loading-page.js";
+import { n as Tt } from "./use-resize-observer.js";
+import { t as Et } from "./arrow-left.js";
+import { g as Dt, n as Ot, y as kt } from "./links.js";
+import { t as At } from "./badge-Bpp-zYoJ.js";
+import { r as jt, t as Mt } from "./dropdown.js";
+import { t as Nt } from "./trash.js";
+import { t as Pt } from "./chevron.js";
+import { t as Ft } from "./warning.js";
+import { n as It } from "./markdown-2.js";
+import { t as Lt } from "./plus-d3DP-DMx.js";
+import {
+  a as Rt,
+  i as zt,
+  n as Bt,
+  o as Vt,
+  r as Ht,
+  t as Ut,
+} from "./check-plugin-availability.js";
+import { r as Wt, t as Gt } from "./plugin-detail-queries.js";
+import { t as Kt } from "./plugins-page-selectors.js";
+import { t as qt } from "./building.js";
+import { t as Jt } from "./empty-state-puzzle-piece.js";
+import { t as Yt } from "./toggle.js";
+import { t as Xt } from "./lock.js";
+import { t as Zt } from "./connected-apps.js";
+import { i as Qt } from "./app-connect-oauth.js";
+import { a as $t, r as en } from "./hooks-settings-queries-B.js";
+import { c as tn, s as nn } from "./hooks-settings-model-B-xhl-k2.js";
+import { t as rn } from "./hooks-settings-navigation.js";
+import { r as an } from "./hooks-settings-route.js";
+import { t as on } from "./settings-host-context.js";
+import { t as sn } from "./link.js";
+import { t as cn } from "./more-menu-trigger.js";
+import { t as ln } from "./large-empty-state-DZ-ohQvY.js";
+import { t as un } from "./use-app-connect-flow.js";
+import { n as dn, r as fn } from "./plugins-availability.js";
+import { t as pn } from "./use-recommended-skills.js";
+import { n as mn } from "./settings-row.js";
+import { n as hn, t as gn } from "./settings-group.js";
+import { t as _n } from "./hooks.js";
+import { t as vn } from "./share.js";
+import { t as yn } from "./members.js";
+import {
+  a as bn,
+  c as xn,
+  i as Sn,
+  l as Cn,
+  n as wn,
+  o as Tn,
+  r as En,
+  s as Dn,
+  t as On,
+  u as kn,
+} from "./use-workspace-users.js";
+import { t as An } from "./toolbar-breadcrumb.js";
+import { t as jn } from "./sectioned-page.js";
+import { t as Mn } from "./use-home-directory.js";
+import { t as Nn } from "./apps-availability-B3y9-r1p.js";
+import { t as Pn } from "./team.js";
+import { t as Fn } from "./plugin-uninstall-dialog.js";
+var Y = A(),
+  In = [[`plugins`], [`plugins`, `detail`]],
+  Ln = [`plugins`, `shares`];
+async function Rn({ hostId: e, ...t }) {
+  let { plugin: n } = await m(`read-plugin`, { hostId: e ?? `local`, ...t });
+  return n.summary.shareContext;
+}
+function zn(e) {
+  let t = (0, Y.c)(11),
+    n;
+  t[0] === e ? (n = t[1]) : ((n = e === void 0 ? {} : e), (t[0] = e), (t[1] = n));
+  let { enabled: r, hostId: i } = n,
+    a = r === void 0 ? !0 : r,
+    o = i ?? `local`,
+    s;
+  t[2] === o ? (s = t[3]) : ((s = { hostId: o }), (t[2] = o), (t[3] = s));
+  let c = je(s),
+    l,
+    u;
+  t[4] === o
+    ? ((l = t[5]), (u = t[6]))
+    : ((l = [...Ln, o]),
+      (u = async () => (await m(`list-plugin-shares`, { hostId: o })).data),
+      (t[4] = o),
+      (t[5] = l),
+      (t[6] = u));
+  let d = a && c,
+    f;
+  return (
+    t[7] !== l || t[8] !== u || t[9] !== d
+      ? ((f = { queryKey: l, queryFn: u, enabled: d, staleTime: M.FIVE_MINUTES }),
+        (t[7] = l),
+        (t[8] = u),
+        (t[9] = d),
+        (t[10] = f))
+      : (f = t[10]),
+    N(f)
+  );
+}
+function Bn(e) {
+  let t = (0, Y.c)(9),
+    n;
+  t[0] === e ? (n = t[1]) : ((n = e === void 0 ? {} : e), (t[0] = e), (t[1] = n));
+  let { hostId: r } = n,
+    i = r ?? `local`,
+    a = H(),
+    o;
+  t[2] === i
+    ? (o = t[3])
+    : ((o = async (e) => {
+        let { remotePluginId: t, targets: n } = e;
+        return (
+          await m(`update-plugin-share-targets`, {
+            hostId: i,
+            remotePluginId: t,
+            discoverability: n.some(Vn) ? `UNLISTED` : `PRIVATE`,
+            shareTargets: Kn(n),
+          })
+        ).principals.map(Un);
+      }),
+      (t[2] = i),
+      (t[3] = o));
+  let s;
+  t[4] === a
+    ? (s = t[5])
+    : ((s = () => {
+        qn(a);
+      }),
+      (t[4] = a),
+      (t[5] = s));
+  let c;
+  return (
+    t[6] !== o || t[7] !== s
+      ? ((c = { mutationFn: o, onSuccess: s }), (t[6] = o), (t[7] = s), (t[8] = c))
+      : (c = t[8]),
+    E(c)
+  );
+}
+function Vn(e) {
+  return e.principal_type === `workspace`;
+}
+function Hn(e) {
+  return e?.sharePrincipals?.map(Un) ?? null;
+}
+function Un(e) {
+  return {
+    principal_id: e.principalId,
+    principal_type: e.principalType,
+    role: e.role,
+    name: e.name,
+  };
+}
+function Wn(e) {
+  let t = (0, Y.c)(9),
+    n;
+  t[0] === e ? (n = t[1]) : ((n = e === void 0 ? {} : e), (t[0] = e), (t[1] = n));
+  let { hostId: r } = n,
+    i = r ?? `local`,
+    a = H(),
+    o;
+  t[2] === i
+    ? (o = t[3])
+    : ((o = (e) => m(`save-plugin-share`, { hostId: i, ...e })), (t[2] = i), (t[3] = o));
+  let s;
+  t[4] === a
+    ? (s = t[5])
+    : ((s = () => {
+        qn(a);
+      }),
+      (t[4] = a),
+      (t[5] = s));
+  let c;
+  return (
+    t[6] !== o || t[7] !== s
+      ? ((c = { mutationFn: o, onSuccess: s }), (t[6] = o), (t[7] = s), (t[8] = c))
+      : (c = t[8]),
+    E(c)
+  );
+}
+function Gn(e) {
+  let t = (0, Y.c)(9),
+    n;
+  t[0] === e ? (n = t[1]) : ((n = e === void 0 ? {} : e), (t[0] = e), (t[1] = n));
+  let { hostId: r } = n,
+    i = r ?? `local`,
+    a = H(),
+    o;
+  t[2] === i
+    ? (o = t[3])
+    : ((o = (e) => m(`delete-plugin-share`, { hostId: i, ...e })), (t[2] = i), (t[3] = o));
+  let s;
+  t[4] === a
+    ? (s = t[5])
+    : ((s = () => {
+        qn(a);
+      }),
+      (t[4] = a),
+      (t[5] = s));
+  let c;
+  return (
+    t[6] !== o || t[7] !== s
+      ? ((c = { mutationFn: o, onSuccess: s }), (t[6] = o), (t[7] = s), (t[8] = c))
+      : (c = t[8]),
+    E(c)
+  );
+}
+function Kn(e) {
+  return e.flatMap((e) =>
+    e.principal_type === `workspace`
+      ? []
+      : [{ principalId: e.principal_id, principalType: e.principal_type, role: e.role }],
+  );
+}
+function qn(e) {
+  for (let t of In) e(t);
+}
+var X = b();
+function Jn(e) {
+  let t = (0, Y.c)(53),
+    {
+      icon: n,
+      iconClassName: r,
+      iconBackgroundClassName: i,
+      title: a,
+      titleText: o,
+      titleClassName: s,
+      description: c,
+      descriptionText: l,
+      descriptionClassName: u,
+      children: d,
+      isOpen: f,
+      onOpenChange: p,
+      footer: m,
+      loading: h,
+      error: g,
+      className: _,
+      loadingMessage: v,
+      errorMessage: y,
+      closeLabel: b,
+      scrollFade: S,
+      footerSectionClassName: C,
+    } = e,
+    w = S === void 0 ? !0 : S,
+    T;
+  t[0] === _ ? (T = t[1]) : ((T = x(`!p-0`, _)), (t[0] = _), (t[1] = T));
+  let E;
+  t[2] === o
+    ? (E = t[3])
+    : ((E = o == null ? null : (0, X.jsx)(dt, { className: `sr-only`, children: o })),
+      (t[2] = o),
+      (t[3] = E));
+  let D;
+  t[4] === l
+    ? (D = t[5])
+    : ((D = l == null ? null : (0, X.jsx)(gt, { className: `sr-only`, children: l })),
+      (t[4] = l),
+      (t[5] = D));
+  let O;
+  t[6] === r ? (O = t[7]) : ((O = x(`h-12 w-12 rounded-xl !p-0`, r)), (t[6] = r), (t[7] = O));
+  let k;
+  t[8] === i ? (k = t[9]) : ((k = x(`bg-transparent`, i)), (t[8] = i), (t[9] = k));
+  let A;
+  t[10] === s ? (A = t[11]) : ((A = x(`text-token-foreground`, s)), (t[10] = s), (t[11] = A));
+  let j;
+  t[12] === u ? (j = t[13]) : ((j = x(`text-token-text-secondary`, u)), (t[12] = u), (t[13] = j));
+  let ee;
+  t[14] !== c ||
+  t[15] !== n ||
+  t[16] !== O ||
+  t[17] !== k ||
+  t[18] !== A ||
+  t[19] !== j ||
+  t[20] !== a
+    ? ((ee = (0, X.jsx)(ut, {
+        children: (0, X.jsx)(ft, {
+          icon: n,
+          iconClassName: O,
+          iconBackgroundClassName: k,
+          title: a,
+          subtitle: c,
+          titleClassName: A,
+          subtitleClassName: j,
+        }),
+      })),
+      (t[14] = c),
+      (t[15] = n),
+      (t[16] = O),
+      (t[17] = k),
+      (t[18] = A),
+      (t[19] = j),
+      (t[20] = a),
+      (t[21] = ee))
+    : (ee = t[21]);
+  let te = w ? `vertical-scroll-fade-mask` : null,
+    ne;
+  t[22] === te
+    ? (ne = t[23])
+    : ((ne = x(`h-full overflow-y-auto opacity-80`, te)), (t[22] = te), (t[23] = ne));
+  let M;
+  t[24] !== d || t[25] !== g || t[26] !== y || t[27] !== h || t[28] !== v
+    ? ((M = h
+        ? (0, X.jsx)(`div`, { className: `text-token-text-secondary`, children: v })
+        : g
+          ? (0, X.jsx)(`div`, { className: `text-token-text-secondary`, children: y ?? g })
+          : d),
+      (t[24] = d),
+      (t[25] = g),
+      (t[26] = y),
+      (t[27] = h),
+      (t[28] = v),
+      (t[29] = M))
+    : (M = t[29]);
+  let N;
+  t[30] !== ne || t[31] !== M
+    ? ((N = (0, X.jsx)(ut, {
+        className: `min-h-0 flex-1`,
+        children: (0, X.jsx)(`div`, { className: ne, children: M }),
+      })),
+      (t[30] = ne),
+      (t[31] = M),
+      (t[32] = N))
+    : (N = t[32]);
+  let P;
+  t[33] !== b || t[34] !== m || t[35] !== p
+    ? ((P =
+        m || (0, X.jsx)(G, { color: `ghost`, size: `toolbar`, onClick: () => p(!1), children: b })),
+      (t[33] = b),
+      (t[34] = m),
+      (t[35] = p),
+      (t[36] = P))
+    : (P = t[36]);
+  let F;
+  t[37] === P
+    ? (F = t[38])
+    : ((F = (0, X.jsx)(ht, { className: J, children: P })), (t[37] = P), (t[38] = F));
+  let I;
+  t[39] !== C || t[40] !== F
+    ? ((I = (0, X.jsx)(ut, { className: C, children: F })), (t[39] = C), (t[40] = F), (t[41] = I))
+    : (I = t[41]);
+  let L;
+  t[42] !== N || t[43] !== I || t[44] !== E || t[45] !== D || t[46] !== ee
+    ? ((L = (0, X.jsxs)(mt, { size: `full`, children: [E, D, ee, N, I] })),
+      (t[42] = N),
+      (t[43] = I),
+      (t[44] = E),
+      (t[45] = D),
+      (t[46] = ee),
+      (t[47] = L))
+    : (L = t[47]);
+  let R;
+  return (
+    t[48] !== f || t[49] !== p || t[50] !== L || t[51] !== T
+      ? ((R = (0, X.jsx)(pt, {
+          contentClassName: T,
+          open: f,
+          onOpenChange: p,
+          size: `editor`,
+          children: L,
+        })),
+        (t[48] = f),
+        (t[49] = p),
+        (t[50] = L),
+        (t[51] = T),
+        (t[52] = R))
+      : (R = t[52]),
+    R
+  );
+}
+function Yn(e) {
+  if (
+    !e.startsWith(`---
+`)
+  )
+    return e;
+  let t = e.indexOf(
+    `
+---`,
+    4,
+  );
+  if (t === -1) return e;
+  let n = e.slice(t + 4);
+  return n.startsWith(`
+`)
+    ? n.slice(1)
+    : n;
+}
+function Xn(e) {
+  let t = (0, Y.c)(28),
+    { hostId: n, path: r, remotePluginSkill: i, expectedTitle: a, enabled: o } = e,
+    s = o === void 0 ? !0 : o,
+    c = s && r != null,
+    l = s && r == null && i != null,
+    u = r ?? ``,
+    d;
+  t[0] !== n || t[1] !== u
+    ? ((d = { path: u, hostId: n }), (t[0] = n), (t[1] = u), (t[2] = d))
+    : (d = t[2]);
+  let f;
+  t[3] === c ? (f = t[4]) : ((f = { enabled: c }), (t[3] = c), (t[4] = f));
+  let p;
+  t[5] !== d || t[6] !== f
+    ? ((p = { params: d, queryConfig: f }), (t[5] = d), (t[6] = f), (t[7] = p))
+    : (p = t[7]);
+  let h = j(`read-file`, p),
+    g = i?.remoteMarketplaceName,
+    _ = i?.remotePluginId,
+    v = i?.skillName,
+    y;
+  t[8] !== n || t[9] !== g || t[10] !== _ || t[11] !== v
+    ? ((y = [`plugin-skill-markdown`, n, g, _, v]),
+      (t[8] = n),
+      (t[9] = g),
+      (t[10] = _),
+      (t[11] = v),
+      (t[12] = y))
+    : (y = t[12]);
+  let b;
+  t[13] !== n || t[14] !== i
+    ? ((b = async () => {
+        if (i == null) throw Error(`remote plugin skill markdown query requires a skill`);
+        return m(`read-plugin-skill`, { hostId: n, ...i });
+      }),
+      (t[13] = n),
+      (t[14] = i),
+      (t[15] = b))
+    : (b = t[15]);
+  let x;
+  t[16] !== l || t[17] !== b || t[18] !== y
+    ? ((x = { queryKey: y, queryFn: b, enabled: l, staleTime: M.FIVE_MINUTES }),
+      (t[16] = l),
+      (t[17] = b),
+      (t[18] = y),
+      (t[19] = x))
+    : (x = t[19]);
+  let S = N(x),
+    C = r == null ? S : h,
+    w = C.data?.contents ?? ``,
+    T;
+  t[20] !== a || t[21] !== w || t[22] !== r
+    ? ((T = Zn(
+        Yn(
+          w.replace(
+            /\r\n/g,
+            `
+`,
+          ),
+        ),
+        { path: r, expectedTitle: a },
+      )),
+      (t[20] = a),
+      (t[21] = w),
+      (t[22] = r),
+      (t[23] = T))
+    : (T = t[23]);
+  let E = T,
+    D = C.error,
+    O = D ? String(D.message ?? D) : null,
+    k;
+  return (
+    t[24] !== O || t[25] !== E || t[26] !== C.isFetching
+      ? ((k = { markdown: E, isFetching: C.isFetching, error: O }),
+        (t[24] = O),
+        (t[25] = E),
+        (t[26] = C.isFetching),
+        (t[27] = k))
+      : (k = t[27]),
+    k
+  );
+}
+function Zn(e, { path: t, expectedTitle: n }) {
+  if (Qn({ path: t, expectedTitle: n }).length === 0) return e;
+  let r = e.split(`
+`),
+    i = 0;
+  for (; i < r.length && r[i].trim() === ``; ) i += 1;
+  if (i >= r.length) return e;
+  let a = r[i].trim();
+  if (!/^#\s+/.test(a)) return e;
+  for (i += 1; i < r.length && r[i].trim() === ``; ) i += 1;
+  return r.slice(i).join(`
+`);
+}
+function Qn({ path: e, expectedTitle: t }) {
+  let n = new Set();
+  t && n.add(er(t));
+  let r = $n(e);
+  return (r && n.add(er(r)), Array.from(n));
+}
+function $n(e) {
+  if (!e) return null;
+  let t = h(e).replace(/\/+$/, ``).split(`/`).filter(Boolean),
+    n = t[t.length - 1];
+  if (!n) return null;
+  if (n.toLowerCase() === `skill.md` && t.length > 1) return v(t[t.length - 2]);
+  let r = n.replace(/\.[^/.]+$/, ``);
+  return r ? v(r) : null;
+}
+function er(e) {
+  return e
+    .replace(/^#+\s*/, ``)
+    .replace(/\s*#+\s*$/, ``)
+    .replace(/[\\`*_~]/g, ``)
+    .replace(/^\$/, ``)
+    .replace(/\s+/g, ` `)
+    .trim()
+    .toLowerCase();
+}
+var tr = `font-semibold`;
+function nr(e) {
+  let t = (0, Y.c)(14),
+    {
+      icon: n,
+      title: r,
+      titleText: i,
+      titleClassName: a,
+      description: o,
+      isOpen: s,
+      onOpenChange: c,
+      footer: l,
+      children: u,
+    } = e,
+    d;
+  t[0] === n
+    ? (d = t[1])
+    : ((d = n == null ? null : (0, X.jsx)(rr, { icon: n })), (t[0] = n), (t[1] = d));
+  let f = typeof o == `string` ? o : void 0,
+    p;
+  t[2] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((p = (0, X.jsx)(F, {
+        id: `common.close`,
+        defaultMessage: `Close`,
+        description: `Close button label`,
+      })),
+      (t[2] = p))
+    : (p = t[2]);
+  let m;
+  return (
+    t[3] !== u ||
+    t[4] !== o ||
+    t[5] !== l ||
+    t[6] !== s ||
+    t[7] !== c ||
+    t[8] !== d ||
+    t[9] !== f ||
+    t[10] !== r ||
+    t[11] !== a ||
+    t[12] !== i
+      ? ((m = (0, X.jsx)(Jn, {
+          icon: d,
+          iconClassName: `h-auto w-auto rounded-none border-0 !p-0`,
+          iconBackgroundClassName: `bg-transparent`,
+          title: r,
+          titleText: i,
+          titleClassName: a,
+          description: o,
+          descriptionText: f,
+          descriptionClassName: `text-lg`,
+          isOpen: s,
+          onOpenChange: c,
+          closeLabel: p,
+          scrollFade: !1,
+          footer: l,
+          children: u,
+        })),
+        (t[3] = u),
+        (t[4] = o),
+        (t[5] = l),
+        (t[6] = s),
+        (t[7] = c),
+        (t[8] = d),
+        (t[9] = f),
+        (t[10] = r),
+        (t[11] = a),
+        (t[12] = i),
+        (t[13] = m))
+      : (m = t[13]),
+    m
+  );
+}
+function rr(e) {
+  let t = (0, Y.c)(2),
+    { icon: n } = e,
+    r;
+  return (
+    t[0] === n
+      ? (r = t[1])
+      : ((r = (0, X.jsx)(`span`, {
+          className: `flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-token-border-default text-token-text-secondary`,
+          children: n,
+        })),
+        (t[0] = n),
+        (t[1] = r)),
+    r
+  );
+}
+function ir(e) {
+  let t = (0, Y.c)(8),
+    { badge: n, kind: r, title: i } = e,
+    a;
+  t[0] === i
+    ? (a = t[1])
+    : ((a = (0, X.jsx)(`div`, { className: `min-w-0 truncate`, children: i })),
+      (t[0] = i),
+      (t[1] = a));
+  let o;
+  t[2] === r
+    ? (o = t[3])
+    : ((o = (0, X.jsx)(`div`, {
+        className: `heading-dialog shrink-0 font-normal text-token-text-secondary`,
+        children: r,
+      })),
+      (t[2] = r),
+      (t[3] = o));
+  let s;
+  return (
+    t[4] !== n || t[5] !== a || t[6] !== o
+      ? ((s = (0, X.jsxs)(`div`, {
+          className: `flex min-w-0 items-center gap-2`,
+          children: [a, n, o],
+        })),
+        (t[4] = n),
+        (t[5] = a),
+        (t[6] = o),
+        (t[7] = s))
+      : (s = t[7]),
+    s
+  );
+}
+function ar(e) {
+  let t = (0, Y.c)(15),
+    { children: n, className: r, surfaceClassName: i, scrollClassName: a } = e,
+    o;
+  t[0] === r
+    ? (o = t[1])
+    : ((o = x(`flex h-full min-h-0 flex-col pt-4`, r)), (t[0] = r), (t[1] = o));
+  let s;
+  t[2] === i
+    ? (s = t[3])
+    : ((s = x(
+        `flex min-h-0 flex-1 flex-col overflow-hidden rounded-xl border border-token-border-default/70 bg-token-bg-primary/40`,
+        i,
+      )),
+      (t[2] = i),
+      (t[3] = s));
+  let c;
+  t[4] === a ? (c = t[5]) : ((c = x(`h-full min-h-0 overflow-y-auto`, a)), (t[4] = a), (t[5] = c));
+  let l;
+  t[6] !== n || t[7] !== c
+    ? ((l = (0, X.jsx)(`div`, { className: c, children: n })), (t[6] = n), (t[7] = c), (t[8] = l))
+    : (l = t[8]);
+  let u;
+  t[9] !== s || t[10] !== l
+    ? ((u = (0, X.jsx)(`div`, { className: s, children: l })), (t[9] = s), (t[10] = l), (t[11] = u))
+    : (u = t[11]);
+  let d;
+  return (
+    t[12] !== o || t[13] !== u
+      ? ((d = (0, X.jsx)(`div`, { className: o, children: u })),
+        (t[12] = o),
+        (t[13] = u),
+        (t[14] = d))
+      : (d = t[14]),
+    d
+  );
+}
+function or(e) {
+  let t = (0, Y.c)(10),
+    { hostId: n, isOpen: r, remotePluginSkill: i, skillPath: a, titleText: o } = e,
+    s = a != null || i != null,
+    c = r && s,
+    l;
+  t[0] !== n || t[1] !== i || t[2] !== a || t[3] !== c || t[4] !== o
+    ? ((l = { hostId: n, path: a, remotePluginSkill: i, expectedTitle: o, enabled: c }),
+      (t[0] = n),
+      (t[1] = i),
+      (t[2] = a),
+      (t[3] = c),
+      (t[4] = o),
+      (t[5] = l))
+    : (l = t[5]);
+  let { markdown: u, isFetching: d, error: f } = Xn(l),
+    p = f != null || (r && !s),
+    m;
+  return (
+    t[6] !== p || t[7] !== d || t[8] !== u
+      ? ((m = (0, X.jsx)(ar, {
+          scrollClassName: `p-4`,
+          children: d
+            ? (0, X.jsxs)(`div`, {
+                className: `flex items-center gap-2 text-sm text-token-text-secondary`,
+                children: [
+                  (0, X.jsx)(K, { className: `icon-xs` }),
+                  (0, X.jsx)(F, {
+                    id: `skills.card.loadingContents`,
+                    defaultMessage: `Loading skill contents...`,
+                    description: `Loading label when fetching a skill file preview`,
+                  }),
+                ],
+              })
+            : p
+              ? (0, X.jsx)(`div`, {
+                  className: `text-sm text-token-text-secondary`,
+                  children: (0, X.jsx)(F, {
+                    id: `skills.card.contentsError`,
+                    defaultMessage: `Unable to load skill contents.`,
+                    description: `Error message when a skill file preview fails`,
+                  }),
+                })
+              : (0, X.jsx)(It, {
+                  className: `text-sm`,
+                  components: { h1: sr, h2: cr },
+                  cwd: null,
+                  children: u,
+                }),
+        })),
+        (t[6] = p),
+        (t[7] = d),
+        (t[8] = u),
+        (t[9] = m))
+      : (m = t[9]),
+    m
+  );
+}
+function sr(e) {
+  let t = (0, Y.c)(10),
+    n,
+    r,
+    i;
+  t[0] === e
+    ? ((n = t[1]), (r = t[2]), (i = t[3]))
+    : (({ children: n, className: r, ...i } = e), (t[0] = e), (t[1] = n), (t[2] = r), (t[3] = i));
+  let a;
+  t[4] === r ? (a = t[5]) : ((a = x(tr, `heading-base mt-4 mb-2`, r)), (t[4] = r), (t[5] = a));
+  let o;
+  return (
+    t[6] !== n || t[7] !== i || t[8] !== a
+      ? ((o = (0, X.jsx)(`h1`, { ...i, className: a, children: n })),
+        (t[6] = n),
+        (t[7] = i),
+        (t[8] = a),
+        (t[9] = o))
+      : (o = t[9]),
+    o
+  );
+}
+function cr(e) {
+  let t = (0, Y.c)(10),
+    n,
+    r,
+    i;
+  t[0] === e
+    ? ((n = t[1]), (r = t[2]), (i = t[3]))
+    : (({ children: n, className: r, ...i } = e), (t[0] = e), (t[1] = n), (t[2] = r), (t[3] = i));
+  let a;
+  t[4] === r ? (a = t[5]) : ((a = x(tr, `text-sm mt-3 mb-1.5`, r)), (t[4] = r), (t[5] = a));
+  let o;
+  return (
+    t[6] !== n || t[7] !== i || t[8] !== a
+      ? ((o = (0, X.jsx)(`h2`, { ...i, className: a, children: n })),
+        (t[6] = n),
+        (t[7] = i),
+        (t[8] = a),
+        (t[9] = o))
+      : (o = t[9]),
+    o
+  );
+}
+var Z = e(y(), 1),
+  lr = I({
+    disableApp: {
+      id: `skills.appsPage.toolsDialog.disableApp`,
+      defaultMessage: `Disable app`,
+      description: `Tooltip label for disabling an app from the app tools modal`,
+    },
+    enableApp: {
+      id: `skills.appsPage.toolsDialog.enableApp`,
+      defaultMessage: `Enable app`,
+      description: `Tooltip label for enabling an app from the app tools modal`,
+    },
+    moreActions: {
+      id: `skills.appsPage.toolsDialog.moreActions`,
+      defaultMessage: `More actions`,
+      description: `Aria label for the more actions menu in the app tools modal`,
+    },
+    open: {
+      id: `skills.appsPage.toolsDialog.open`,
+      defaultMessage: `Manage on ChatGPT`,
+      description: `Menu item label to open app management from the app tools modal`,
+    },
+    tryInChat: {
+      id: `skills.appsPage.toolsDialog.tryInChat`,
+      defaultMessage: `Try in chat`,
+      description: `Footer action label to start a chat with the selected app`,
+    },
+    tryInChatDisabled: {
+      id: `skills.appsPage.toolsDialog.tryInChatDisabled`,
+      defaultMessage: `Enable and connect this app to try it in chat`,
+      description: `Tooltip shown when the selected app cannot be used in chat yet`,
+    },
+    disabledBadge: {
+      id: `skills.appsPage.toolsDialog.disabledBadge`,
+      defaultMessage: `Disabled`,
+      description: `Badge shown when the selected app is disabled in the app tools modal`,
+    },
+    subtitle: {
+      id: `skills.appsPage.toolsDialog.subtitle`,
+      defaultMessage: `Available tools for this app`,
+      description: `Fallback subtitle in the app tools dialog when the app has no description`,
+    },
+  });
+function ur(e) {
+  let t = (0, Y.c)(78),
+    {
+      app: n,
+      errorMessage: r,
+      isLoading: i,
+      onOpenChange: a,
+      onOpenAppUrl: o,
+      onSetAppEnabled: s,
+      showEnableToggle: c,
+      onTryInChat: l,
+      tools: u,
+      updatingAppId: d,
+    } = e,
+    f = c === void 0 ? !0 : c,
+    p = P(),
+    [m, h] = (0, Z.useState)(!1),
+    g,
+    _,
+    v,
+    y,
+    b,
+    x,
+    S,
+    C,
+    w,
+    T;
+  if (
+    t[0] !== n ||
+    t[1] !== p ||
+    t[2] !== m ||
+    t[3] !== o ||
+    t[4] !== a ||
+    t[5] !== s ||
+    t[6] !== l ||
+    t[7] !== f ||
+    t[8] !== u ||
+    t[9] !== d
+  ) {
+    T = hr(u);
+    let e;
+    t[20] === n ? (e = t[21]) : ((e = n == null ? null : me(n)), (t[20] = n), (t[21] = e));
+    let r = e,
+      i,
+      c,
+      E;
+    if (
+      t[22] !== n ||
+      t[23] !== p ||
+      t[24] !== m ||
+      t[25] !== r ||
+      t[26] !== o ||
+      t[27] !== s ||
+      t[28] !== f ||
+      t[29] !== d
+    ) {
+      let e = n == null ? null : ie(n),
+        a = n != null && d === n.id;
+      i = n?.isAccessible === !0 && n.isEnabled === !0;
+      let l = n?.isEnabled ? lr.disableApp : lr.enableApp,
+        u;
+      (t[35] !== n?.description || t[36] !== p
+        ? ((u = n?.description ?? p.formatMessage(lr.subtitle)),
+          (t[35] = n?.description),
+          (t[36] = p),
+          (t[37] = u))
+        : (u = t[37]),
+        (c = u));
+      let v = n?.name ?? ``,
+        y;
+      t[38] === n
+        ? (y = t[39])
+        : ((y =
+            n != null && n.isAccessible && !n.isEnabled
+              ? (0, X.jsx)(At, {
+                  className: `border border-token-border-default bg-transparent px-1.5 py-0.5 text-xs font-medium text-token-text-secondary`,
+                  children: (0, X.jsx)(F, { ...lr.disabledBadge }),
+                })
+              : null),
+          (t[38] = n),
+          (t[39] = y));
+      let b;
+      t[40] !== v || t[41] !== y
+        ? ((b = (0, X.jsx)(ir, { kind: `App`, title: v, badge: y })),
+          (t[40] = v),
+          (t[41] = y),
+          (t[42] = b))
+        : (b = t[42]);
+      let x = b,
+        S;
+      t[43] === x
+        ? (S = t[44])
+        : ((S = (0, X.jsx)(`div`, { className: `min-w-0 flex-1`, children: x })),
+          (t[43] = x),
+          (t[44] = S));
+      let C;
+      t[45] !== n ||
+      t[46] !== p ||
+      t[47] !== m ||
+      t[48] !== a ||
+      t[49] !== r ||
+      t[50] !== o ||
+      t[51] !== s ||
+      t[52] !== f ||
+      t[53] !== l
+        ? ((C =
+            n == null
+              ? null
+              : (0, X.jsxs)(`div`, {
+                  className: `flex shrink-0 items-center gap-2`,
+                  children: [
+                    f && n.isAccessible
+                      ? (0, X.jsx)(_e, {
+                          open: m,
+                          tooltipContent: (0, X.jsx)(F, { ...l }),
+                          children: (0, X.jsx)(`div`, {
+                            onPointerEnter: () => {
+                              h(!0);
+                            },
+                            onPointerLeave: () => {
+                              h(!1);
+                            },
+                            children: (0, X.jsx)(Yt, {
+                              checked: n.isEnabled,
+                              disabled: a,
+                              ariaLabel: p.formatMessage(l),
+                              onChange: (e) => {
+                                s({ appId: n.id, enabled: e });
+                              },
+                            }),
+                          }),
+                        })
+                      : null,
+                    (0, X.jsx)(Mt, {
+                      align: `end`,
+                      contentWidth: `icon`,
+                      triggerButton: (0, X.jsx)(cn, {
+                        label: p.formatMessage(lr.moreActions),
+                        size: `toolbar`,
+                      }),
+                      children: (0, X.jsx)(jt.Item, {
+                        disabled: r == null,
+                        onSelect: () => {
+                          o(r);
+                        },
+                        children: (0, X.jsx)(F, { ...lr.open }),
+                      }),
+                    }),
+                  ],
+                })),
+          (t[45] = n),
+          (t[46] = p),
+          (t[47] = m),
+          (t[48] = a),
+          (t[49] = r),
+          (t[50] = o),
+          (t[51] = s),
+          (t[52] = f),
+          (t[53] = l),
+          (t[54] = C))
+        : (C = t[54]);
+      let w;
+      (t[55] !== S || t[56] !== C
+        ? ((w = (0, X.jsxs)(`div`, {
+            className: `flex w-full items-center justify-between gap-2`,
+            children: [S, C],
+          })),
+          (t[55] = S),
+          (t[56] = C),
+          (t[57] = w))
+        : (w = t[57]),
+        (E = w),
+        (g = nr),
+        (_ =
+          n == null
+            ? null
+            : (0, X.jsx)(he, {
+                alt: n.name,
+                className: `icon-md`,
+                logoUrl: n.logoUrl,
+                logoDarkUrl: n.logoUrlDark,
+                fallback:
+                  e == null
+                    ? (0, X.jsx)(Zt, { className: `icon-sm text-token-text-secondary` })
+                    : (0, Z.createElement)(e),
+              })),
+        (t[22] = n),
+        (t[23] = p),
+        (t[24] = m),
+        (t[25] = r),
+        (t[26] = o),
+        (t[27] = s),
+        (t[28] = f),
+        (t[29] = d),
+        (t[30] = g),
+        (t[31] = i),
+        (t[32] = c),
+        (t[33] = _),
+        (t[34] = E));
+    } else ((g = t[30]), (i = t[31]), (c = t[32]), (_ = t[33]), (E = t[34]));
+    ((v = E),
+      (y = n?.name),
+      (b = c),
+      (x = n != null),
+      (S = a),
+      t[58] !== n || t[59] !== i || t[60] !== l
+        ? ((C =
+            n == null
+              ? null
+              : (0, X.jsx)(`div`, {
+                  className: `flex w-full items-center justify-end gap-2`,
+                  children: (0, X.jsx)(_e, {
+                    tooltipContent: i ? null : (0, X.jsx)(F, { ...lr.tryInChatDisabled }),
+                    children: (0, X.jsx)(`div`, {
+                      children: (0, X.jsxs)(G, {
+                        color: `primary`,
+                        size: `toolbar`,
+                        disabled: !i,
+                        onClick: () => {
+                          i && l(n);
+                        },
+                        children: [
+                          (0, X.jsx)(ke, { className: `icon-xs` }),
+                          (0, X.jsx)(F, { ...lr.tryInChat }),
+                        ],
+                      }),
+                    }),
+                  }),
+                })),
+          (t[58] = n),
+          (t[59] = i),
+          (t[60] = l),
+          (t[61] = C))
+        : (C = t[61]),
+      (w =
+        n == null
+          ? null
+          : (0, X.jsx)(`div`, {
+              className: `text-base text-token-text-secondary`,
+              children: (0, X.jsx)(F, {
+                id: `skills.appsPage.toolsDialog.summary`,
+                defaultMessage: `The {appName} app contains {totalActions} actions ({actionTypes})`,
+                description: `Summary shown above the app action sections in the app tools dialog`,
+                values: {
+                  appName: n.name,
+                  totalActions: u.length,
+                  actionTypes: T.map(dr).join(`, `),
+                },
+              }),
+            })),
+      (t[0] = n),
+      (t[1] = p),
+      (t[2] = m),
+      (t[3] = o),
+      (t[4] = a),
+      (t[5] = s),
+      (t[6] = l),
+      (t[7] = f),
+      (t[8] = u),
+      (t[9] = d),
+      (t[10] = g),
+      (t[11] = _),
+      (t[12] = v),
+      (t[13] = y),
+      (t[14] = b),
+      (t[15] = x),
+      (t[16] = S),
+      (t[17] = C),
+      (t[18] = w),
+      (t[19] = T));
+  } else
+    ((g = t[10]),
+      (_ = t[11]),
+      (v = t[12]),
+      (y = t[13]),
+      (b = t[14]),
+      (x = t[15]),
+      (S = t[16]),
+      (C = t[17]),
+      (w = t[18]),
+      (T = t[19]));
+  let E;
+  t[62] !== r || t[63] !== i || t[64] !== T || t[65] !== u
+    ? ((E = (0, X.jsx)(ar, {
+        surfaceClassName: `bg-transparent`,
+        children: i
+          ? (0, X.jsx)(`div`, {
+              className: `flex h-full min-h-32 items-center justify-center text-base text-token-text-secondary`,
+              children: (0, X.jsx)(F, {
+                id: `skills.appsPage.toolsDialog.loading`,
+                defaultMessage: `Loading tools…`,
+                description: `Loading label in the app tools dialog`,
+              }),
+            })
+          : r == null
+            ? u.length === 0
+              ? (0, X.jsx)(`div`, {
+                  className: `flex h-full min-h-32 items-center justify-center text-base text-token-text-secondary`,
+                  children: (0, X.jsx)(F, {
+                    id: `skills.appsPage.toolsDialog.empty`,
+                    defaultMessage: `No tools available for this app.`,
+                    description: `Empty state when no tools are available for the selected app`,
+                  }),
+                })
+              : (0, X.jsx)(fr, { toolSections: T })
+            : (0, X.jsx)(`div`, {
+                className: `flex h-full min-h-32 items-center justify-center text-base text-token-text-secondary`,
+                children: (0, X.jsxs)(`div`, {
+                  children: [
+                    (0, X.jsx)(`div`, {
+                      children: (0, X.jsx)(F, {
+                        id: `skills.appsPage.toolsDialog.error`,
+                        defaultMessage: `Unable to load tools for this app.`,
+                        description: `Error state shown when connector actions could not be loaded for the selected app`,
+                      }),
+                    }),
+                    (0, X.jsx)(`div`, { children: r }),
+                  ],
+                }),
+              }),
+      })),
+      (t[62] = r),
+      (t[63] = i),
+      (t[64] = T),
+      (t[65] = u),
+      (t[66] = E))
+    : (E = t[66]);
+  let D;
+  return (
+    t[67] !== g ||
+    t[68] !== E ||
+    t[69] !== _ ||
+    t[70] !== v ||
+    t[71] !== y ||
+    t[72] !== b ||
+    t[73] !== x ||
+    t[74] !== S ||
+    t[75] !== C ||
+    t[76] !== w
+      ? ((D = (0, X.jsxs)(g, {
+          icon: _,
+          title: v,
+          titleText: y,
+          description: b,
+          isOpen: x,
+          onOpenChange: S,
+          footer: C,
+          children: [w, E],
+        })),
+        (t[67] = g),
+        (t[68] = E),
+        (t[69] = _),
+        (t[70] = v),
+        (t[71] = y),
+        (t[72] = b),
+        (t[73] = x),
+        (t[74] = S),
+        (t[75] = C),
+        (t[76] = w),
+        (t[77] = D))
+      : (D = t[77]),
+    D
+  );
+}
+function dr(e) {
+  return `${e.tools.length} ${e.title.toLowerCase()}`;
+}
+function fr(e) {
+  let t = (0, Y.c)(8),
+    { toolSections: n } = e,
+    r;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`) ? ((r = {}), (t[0] = r)) : (r = t[0]);
+  let [i, a] = (0, Z.useState)(r),
+    o;
+  if (t[1] !== i || t[2] !== n) {
+    let e;
+    (t[4] === i
+      ? (e = t[5])
+      : ((e = (e) => {
+          let t = i[e.title] === !0;
+          return (0, X.jsxs)(
+            `div`,
+            {
+              className: `border-b border-token-border-default/70 last:border-b-0`,
+              children: [
+                (0, X.jsxs)(`button`, {
+                  type: `button`,
+                  className: `sticky top-0 z-10 flex w-full items-center justify-between bg-token-bg-secondary p-2.5 text-left text-base text-token-foreground`,
+                  "aria-expanded": !t,
+                  onClick: () => {
+                    a((n) => ({ ...n, [e.title]: !t }));
+                  },
+                  children: [
+                    (0, X.jsxs)(`span`, {
+                      children: [
+                        e.title,
+                        (0, X.jsx)(`span`, {
+                          className: `ml-2 text-token-input-placeholder-foreground`,
+                          children: e.tools.length,
+                        }),
+                      ],
+                    }),
+                    (0, X.jsx)(Pt, {
+                      className: t
+                        ? `icon-xs shrink-0 -rotate-90 text-token-input-placeholder-foreground transition-transform`
+                        : `icon-xs shrink-0 text-token-input-placeholder-foreground transition-transform`,
+                    }),
+                  ],
+                }),
+                t
+                  ? null
+                  : (0, X.jsx)(`div`, {
+                      className: `divide-y divide-token-border-default/70`,
+                      children: e.tools.map(pr),
+                    }),
+              ],
+            },
+            e.title,
+          );
+        }),
+        (t[4] = i),
+        (t[5] = e)),
+      (o = n.map(e)),
+      (t[1] = i),
+      (t[2] = n),
+      (t[3] = o));
+  } else o = t[3];
+  let s;
+  return (
+    t[6] === o
+      ? (s = t[7])
+      : ((s = (0, X.jsx)(`div`, { className: `flex flex-col`, children: o })),
+        (t[6] = o),
+        (t[7] = s)),
+    s
+  );
+}
+function pr(e) {
+  return (0, X.jsxs)(
+    `div`,
+    {
+      className: `grid grid-cols-[minmax(0,220px)_minmax(0,1fr)] gap-x-3 p-2.5`,
+      children: [
+        (0, X.jsx)(`div`, {
+          className: `min-w-0 text-token-foreground`,
+          children: (0, X.jsx)(mr, { name: e.name }),
+        }),
+        (0, X.jsx)(`div`, {
+          className: `text-base text-token-text-secondary`,
+          children: (0, X.jsx)(It, { className: `text-base`, cwd: null, children: e.description }),
+        }),
+      ],
+    },
+    e.name,
+  );
+}
+function mr(e) {
+  let t = (0, Y.c)(5),
+    { name: n } = e,
+    r;
+  t[0] === n
+    ? (r = t[1])
+    : ((r = (0, X.jsx)(`div`, { className: `truncate text-base`, children: n })),
+      (t[0] = n),
+      (t[1] = r));
+  let i;
+  return (
+    t[2] !== n || t[3] !== r
+      ? ((i = (0, X.jsx)(_e, { tooltipContent: n, openWhen: `trigger-overflows`, children: r })),
+        (t[2] = n),
+        (t[3] = r),
+        (t[4] = i))
+      : (i = t[4]),
+    i
+  );
+}
+function hr(e) {
+  let t = e.filter((e) => e.accessBadges.includes(`READ`));
+  return [
+    { title: `Write`, tools: e.filter((e) => !e.accessBadges.includes(`READ`)) },
+    { title: `Read`, tools: t },
+  ].flatMap((e) => (e.tools.length === 0 ? [] : [e]));
+}
+var gr = { repo: 0, user: 1, system: 2, admin: 3 };
+function _r({
+  currentBrowseTab: e,
+  hasSearchQuery: t,
+  isPluginSharingEnabled: n,
+  selectedCategoryId: r,
+  selectedPluginMarketplaceFilterValue: i,
+}) {
+  let a = n && t;
+  return {
+    marketplaceFilterValue: a ? null : i,
+    selectedPluginCategoryId: e === `skills` || a ? null : r,
+    showPluginSearchResults: a,
+    showPluginSections: !a,
+  };
+}
+function vr(e) {
+  let t = e.reduce((e, t) => {
+    let n = e.get(t.name);
+    if (n == null) return (e.set(t.name, { skill: t }), e);
+    let r = gr[t.scope],
+      i = gr[n.skill.scope];
+    return ((r < i || (r === i && t.path.localeCompare(n.skill.path) < 0)) && (n.skill = t), e);
+  }, new Map());
+  return Array.from(t.values())
+    .map(({ skill: e }) => ({ skill: e }))
+    .sort((e, t) => e.skill.name.localeCompare(t.skill.name));
+}
+function yr(e) {
+  if (typeof e != `object` || !e) return { initialTab: `plugins` };
+  let t = Reflect.get(e, `initialTab`),
+    n =
+      t === `plugins` || t === `skills` || t === `apps` || t === `marketplace` || t === `mcps`
+        ? t
+        : `plugins`,
+    r = Reflect.get(e, `connectAppId`),
+    i = typeof r == `string` ? r.trim() : ``,
+    a = Reflect.get(e, `initialMode`),
+    o = a === `browse` || a === `manage` ? a : void 0,
+    s = Reflect.get(e, `initialHostId`),
+    c = typeof s == `string` ? s.trim() : ``;
+  return i.length === 0
+    ? { initialHostId: c.length > 0 ? c : void 0, initialMode: o, initialTab: n }
+    : { connectAppId: i, initialHostId: c.length > 0 ? c : void 0, initialMode: o, initialTab: n };
+}
+function br({ skillPath: e, roots: t }) {
+  let n = null;
+  for (let r of t) e.startsWith(r) && (n == null || r.length > n.length) && (n = r);
+  return n;
+}
+function xr(e, t) {
+  return t === `skills`
+    ? {
+        headerCopy: {
+          learnMoreUrl: kt,
+          subtitle: e.formatMessage({
+            id: `skills.appsPage.subheading.skills`,
+            defaultMessage: `Teach Codex reusable workflows with Skills.`,
+            description: `Subheading shown above the Skills tab on the Skills & Apps page`,
+          }),
+          title: e.formatMessage({
+            id: `skills.appsPage.heading.skills`,
+            defaultMessage: `Skills`,
+            description: `Header title for the Skills tab on the Skills & Apps page`,
+          }),
+        },
+        searchLabel: e.formatMessage({
+          id: `skills.appsPage.search.skills.label`,
+          defaultMessage: `Search skills`,
+          description: `Accessible label for the skills search input on the Skills & Apps page`,
+        }),
+        searchPlaceholder: e.formatMessage({
+          id: `skills.appsPage.search.skills`,
+          defaultMessage: `Search skills`,
+          description: `Placeholder text for searching skills on the Skills & Apps page`,
+        }),
+        sections: [
+          {
+            id: `skills-installed`,
+            title: e.formatMessage({
+              id: `skills.appsPage.section.installedSkills`,
+              defaultMessage: `My Skills`,
+              description: `Heading for the installed skills section`,
+            }),
+          },
+          {
+            id: `skills-recommended`,
+            title: e.formatMessage({
+              id: `skills.appsPage.section.recommendedSkills`,
+              defaultMessage: `Recommended`,
+              description: `Heading for the recommended skills section`,
+            }),
+          },
+        ],
+      }
+    : t === `apps`
+      ? {
+          headerCopy: {
+            learnMoreUrl: Ot,
+            subtitle: e.formatMessage({
+              id: `skills.appsPage.subheading.apps`,
+              defaultMessage: `Connect Codex to external tools and services with Apps.`,
+              description: `Subheading shown above the Apps tab on the Skills & Apps page`,
+            }),
+            title: e.formatMessage({
+              id: `skills.appsPage.heading.apps`,
+              defaultMessage: `Apps`,
+              description: `Header title for the Apps tab on the Skills & Apps page`,
+            }),
+          },
+          searchLabel: e.formatMessage({
+            id: `skills.appsPage.search.apps.label`,
+            defaultMessage: `Search apps`,
+            description: `Accessible label for the apps search input on the Skills & Apps page`,
+          }),
+          searchPlaceholder: e.formatMessage({
+            id: `skills.appsPage.search.apps`,
+            defaultMessage: `Search apps`,
+            description: `Placeholder text for searching apps on the Skills & Apps page`,
+          }),
+          sections: [
+            {
+              id: `apps-installed`,
+              title: e.formatMessage({
+                id: `skills.appsPage.section.installedApps`,
+                defaultMessage: `My Apps`,
+                description: `Section heading for installed apps on the Skills & Apps page`,
+              }),
+            },
+            {
+              id: `apps-recommended`,
+              title: e.formatMessage({
+                id: `skills.appsPage.section.discover`,
+                defaultMessage: `Recommended`,
+                description: `Section heading for discoverable apps on the Skills & Apps page`,
+              }),
+            },
+          ],
+        }
+      : t === `mcps`
+        ? {
+            headerCopy: {
+              learnMoreUrl: Ot,
+              subtitle: e.formatMessage({
+                id: `skills.appsPage.subheading.mcps`,
+                defaultMessage: `Manage MCP server connections and availability.`,
+                description: `Subheading shown above the MCPs tab on the Skills & Apps page`,
+              }),
+              title: e.formatMessage({
+                id: `skills.appsPage.heading.mcps`,
+                defaultMessage: `MCPs`,
+                description: `Header title for the MCPs tab on the Skills & Apps page`,
+              }),
+            },
+            searchLabel: e.formatMessage({
+              id: `skills.appsPage.search.mcps.label`,
+              defaultMessage: `Search MCP servers`,
+              description: `Accessible label for the MCP search input on the Skills & Apps page`,
+            }),
+            searchPlaceholder: e.formatMessage({
+              id: `skills.appsPage.search.mcps`,
+              defaultMessage: `Search MCP servers`,
+              description: `Placeholder text for searching MCP servers on the Skills & Apps page`,
+            }),
+            sections: [
+              {
+                id: `mcps-installed`,
+                title: e.formatMessage({
+                  id: `skills.appsPage.section.installedMcps`,
+                  defaultMessage: `My MCPs`,
+                  description: `Section heading for installed MCP servers on the Skills & Apps page`,
+                }),
+              },
+            ],
+          }
+        : t === `marketplace`
+          ? {
+              headerCopy: {
+                learnMoreUrl: Dt,
+                subtitle: e.formatMessage({
+                  id: `skills.appsPage.subheading.marketplace`,
+                  defaultMessage: `Manage the plugin marketplaces Codex can discover`,
+                  description: `Subheading shown above the Marketplace tab on the Skills & Apps page`,
+                }),
+                title: e.formatMessage({
+                  id: `skills.appsPage.heading.marketplace`,
+                  defaultMessage: `Marketplace`,
+                  description: `Header title for the Marketplace tab on the Skills & Apps page`,
+                }),
+              },
+              searchLabel: e.formatMessage({
+                id: `skills.appsPage.search.marketplace.label`,
+                defaultMessage: `Search marketplaces`,
+                description: `Accessible label for the marketplace search input on the Skills & Apps page`,
+              }),
+              searchPlaceholder: e.formatMessage({
+                id: `skills.appsPage.search.marketplace`,
+                defaultMessage: `Search marketplaces`,
+                description: `Placeholder text for searching marketplaces on the Skills & Apps page`,
+              }),
+              sections: [
+                {
+                  id: `marketplace-installed`,
+                  title: e.formatMessage({
+                    id: `skills.appsPage.section.marketplaces`,
+                    defaultMessage: `Marketplaces`,
+                    description: `Section heading for marketplaces on the Skills & Apps page`,
+                  }),
+                },
+              ],
+            }
+          : {
+              headerCopy: {
+                learnMoreUrl: Dt,
+                subtitle: e.formatMessage({
+                  id: `skills.appsPage.subheading.plugins`,
+                  defaultMessage: `Plugins make Codex work your way.`,
+                  description: `Subheading shown above the Plugins tab on the Skills & Apps page`,
+                }),
+                title: e.formatMessage({
+                  id: `skills.appsPage.heading.plugins`,
+                  defaultMessage: `Plugins`,
+                  description: `Header title for the Plugins tab on the Skills & Apps page`,
+                }),
+              },
+              searchLabel: e.formatMessage({
+                id: `skills.appsPage.search.plugins.label`,
+                defaultMessage: `Search plugins`,
+                description: `Accessible label for the plugins search input on the Skills & Apps page`,
+              }),
+              searchPlaceholder: e.formatMessage({
+                id: `skills.appsPage.search.plugins`,
+                defaultMessage: `Search plugins`,
+                description: `Placeholder text for searching plugins on the Skills & Apps page`,
+              }),
+              sections: [],
+            };
+}
+function Sr(e) {
+  let t = e
+    .replace(/[\\/]+$/, ``)
+    .split(/[\\/]/)
+    .filter(Boolean);
+  if (t.length === 0) return null;
+  let n = t[t.length - 1];
+  return n.toLowerCase() === `skill.md` && t.length > 1
+    ? t[t.length - 2]
+    : n.toLowerCase().endsWith(`.md`)
+      ? n.slice(0, -3)
+      : n;
+}
+var Cr = [`Imagegen`, `Sora`, `PDF`, `Doc`, `Spreadsheet`, `Playwright`],
+  wr = new Set(Cr.map((e) => e.toLowerCase())),
+  Tr = new Map(Cr.map((e, t) => [e.toLowerCase(), t]));
+function Er(e) {
+  return e.trim().toLowerCase();
+}
+function Dr(e) {
+  let t = Er(e);
+  if (t.length === 0) return [];
+  let n = t.replace(/[^a-z0-9]+/g, ``);
+  return n === t ? [t] : [t, n];
+}
+function Or(e) {
+  let t = new Set();
+  for (let n of e) if (n != null) for (let e of Dr(n)) t.add(e);
+  return t;
+}
+function kr(e) {
+  return Or([Sr(e.path), e.name, v(e.name), xe(e)]);
+}
+function Ar(e) {
+  return Or([e.id, e.name, v(e.name)]);
+}
+function jr(e) {
+  let t = new Set();
+  for (let { skill: n } of e) for (let e of kr(n)) t.add(e);
+  return t;
+}
+function Mr({ installedSkillMatchKeys: e, skill: t }) {
+  for (let n of Ar(t)) if (e.has(n)) return !0;
+  return !1;
+}
+function Nr(e, t) {
+  return e.length === 0 ? !0 : t.join(` `).toLowerCase().includes(e);
+}
+function Pr({ skills: e, query: t }) {
+  return e.filter(({ skill: e }) => Nr(t, [e.name, xe(e), ve(e)]));
+}
+function Fr({ skills: e, query: t }) {
+  return e.filter((e) => Nr(t, [e.name, e.description, e.shortDescription ?? ``]));
+}
+function Ir(e) {
+  return [
+    ...e.filter((e) => {
+      let t = Er(e.name),
+        n = Er(v(e.name));
+      return wr.has(t) || wr.has(n);
+    }),
+  ].sort((e, t) => (Tr.get(Er(v(e.name))) ?? 2 ** 53 - 1) - (Tr.get(Er(v(t.name))) ?? 2 ** 53 - 1));
+}
+function Lr({ apps: e, query: t }) {
+  return e.filter((e) => Nr(t, [e.name, e.description ?? ``]));
+}
+function Rr(e) {
+  let t = e.displayName?.trim();
+  return t != null && t.length > 0 ? Kt(t) : Kt(e.name);
+}
+function zr(e) {
+  let t = e?.marketplaces;
+  if (!Wr(t)) return new Set();
+  let n = new Set();
+  for (let [e, r] of Object.entries(t))
+    Wr(r) &&
+      r.source_type === `git` &&
+      typeof r.source == `string` &&
+      r.source.length > 0 &&
+      n.add(e);
+  return n;
+}
+function Br(e) {
+  let t = e?.marketplaces;
+  return Wr(t) ? new Set(Object.keys(t)) : new Set();
+}
+function Vr(e, t) {
+  return !e.isBuiltIn && t.has(e.name);
+}
+function Hr(e, t) {
+  return !e.isBuiltIn && t.has(e.name);
+}
+function Ur({ configuredMarketplaceNames: e, marketplaces: t, query: n }) {
+  return t.filter((t) => (Vr(t, e) ? Nr(n, [Rr(t), t.name, t.path ?? ``]) : !1));
+}
+function Wr(e) {
+  return typeof e == `object` && !!e && !Array.isArray(e);
+}
+function Gr(e) {
+  return e.reduce(
+    (e, t) => (t.isAccessible ? e.installedApps.push(t) : e.discoverApps.push(t), e),
+    { installedApps: [], discoverApps: [] },
+  );
+}
+var Kr = e(n(), 1);
+function qr(e) {
+  let t = (0, Y.c)(6),
+    n = Se(e === void 0 ? p : e),
+    r = n != null,
+    i;
+  t[0] === n
+    ? (i = t[1])
+    : ((i = n == null ? null : Kr.default.join(n, `vendor_imports`, `skills`)),
+      (t[0] = n),
+      (t[1] = i));
+  let a = n == null ? null : `${n}/skills/.system/skill-creator/SKILL.md`,
+    o;
+  return (
+    t[2] !== r || t[3] !== i || t[4] !== a
+      ? ((o = {
+          canInstallRecommendedSkills: r,
+          defaultRecommendedRepoRoot: i,
+          skillCreatorPath: a,
+        }),
+        (t[2] = r),
+        (t[3] = i),
+        (t[4] = a),
+        (t[5] = o))
+      : (o = t[5]),
+    o
+  );
+}
+function Jr(e) {
+  let t = (0, Y.c)(21),
+    n = e === void 0 ? p : e,
+    r = H(),
+    [, i] = g(`skills_refresh_nonce`),
+    a;
+  t[0] === n ? (a = t[1]) : ((a = { hostId: n }), (t[0] = n), (t[1] = a));
+  let o = T(U, a),
+    s;
+  t[2] === o.data?.roots
+    ? (s = t[3])
+    : ((s = o.data?.roots ?? []), (t[2] = o.data?.roots), (t[3] = s));
+  let c = s,
+    { skills: l, isFetching: u, isLoading: d, forceReload: f } = _t(c, n),
+    m,
+    h,
+    _;
+  t[4] !== f || t[5] !== l
+    ? ((m = vr(l)),
+      (h = f),
+      (_ = jr(m)),
+      (t[4] = f),
+      (t[5] = l),
+      (t[6] = m),
+      (t[7] = h),
+      (t[8] = _))
+    : ((m = t[6]), (h = t[7]), (_ = t[8]));
+  let v = o.isFetching || u,
+    y = o.isLoading || d,
+    b;
+  t[9] !== f || t[10] !== r || t[11] !== i
+    ? ((b = () => {
+        Zr({ forceReload: f, invalidateQueriesAndBroadcast: r, setSkillsRefreshNonce: i });
+      }),
+      (t[9] = f),
+      (t[10] = r),
+      (t[11] = i),
+      (t[12] = b))
+    : (b = t[12]);
+  let x;
+  return (
+    t[13] !== m ||
+    t[14] !== h ||
+    t[15] !== _ ||
+    t[16] !== v ||
+    t[17] !== y ||
+    t[18] !== b ||
+    t[19] !== c
+      ? ((x = {
+          forceReloadSkills: h,
+          installedSkillMatchKeys: _,
+          isFetching: v,
+          isLoading: y,
+          markSkillsUpdated: b,
+          skills: m,
+          workspaceRoots: c,
+        }),
+        (t[13] = m),
+        (t[14] = h),
+        (t[15] = _),
+        (t[16] = v),
+        (t[17] = y),
+        (t[18] = b),
+        (t[19] = c),
+        (t[20] = x))
+      : (x = t[20]),
+    x
+  );
+}
+function Yr(e, t) {
+  let n = (0, Y.c)(10),
+    r;
+  n[0] === t ? (r = n[1]) : ((r = { hostId: t }), (n[0] = t), (n[1] = r));
+  let { data: i, errorMessage: a, isLoading: o, refresh: s } = pn(r),
+    c = i?.repoRoot ?? e,
+    l;
+  n[2] === i?.skills ? (l = n[3]) : ((l = i?.skills ?? []), (n[2] = i?.skills), (n[3] = l));
+  let u;
+  return (
+    n[4] !== a || n[5] !== o || n[6] !== s || n[7] !== c || n[8] !== l
+      ? ((u = { errorMessage: a, isLoading: o, refresh: s, repoRoot: c, skills: l }),
+        (n[4] = a),
+        (n[5] = o),
+        (n[6] = s),
+        (n[7] = c),
+        (n[8] = l),
+        (n[9] = u))
+      : (u = n[9]),
+    u
+  );
+}
+function Xr(e) {
+  let t = (0, Y.c)(18),
+    { forceReloadSkills: n, hostId: r, onInstalled: i } = e,
+    a = C(k),
+    o = H(),
+    [, s] = g(`skills_refresh_nonce`),
+    c = Se(r) != null,
+    l = Be(),
+    [u, d] = (0, Z.useState)(null),
+    [f, p] = (0, Z.useState)(null),
+    m;
+  t[0] !== n || t[1] !== f || t[2] !== o || t[3] !== i || t[4] !== a || t[5] !== s
+    ? ((m = (e) => {
+        e.success &&
+          (o(te(`recommended-skills`)),
+          Zr({ forceReload: n, invalidateQueriesAndBroadcast: o, setSkillsRefreshNonce: s }),
+          i?.(),
+          a
+            .get(ge)
+            .success(
+              (0, X.jsx)(F, {
+                id: `skills.recommended.installSuccess`,
+                defaultMessage: `{skillName} skill installed`,
+                description: `Toast shown after successfully installing a recommended skill`,
+                values: {
+                  skillName: (0, X.jsx)(`span`, { className: `font-medium`, children: f }),
+                },
+              }),
+            ));
+      }),
+      (t[0] = n),
+      (t[1] = f),
+      (t[2] = o),
+      (t[3] = i),
+      (t[4] = a),
+      (t[5] = s),
+      (t[6] = m))
+    : (m = t[6]);
+  let h;
+  t[7] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((h = () => {
+        (d(null), p(null));
+      }),
+      (t[7] = h))
+    : (h = t[7]);
+  let _;
+  t[8] === m ? (_ = t[9]) : ((_ = { onSuccess: m, onSettled: h }), (t[8] = m), (t[9] = _));
+  let v = ne(`install-recommended-skill`, _),
+    y;
+  t[10] !== c || t[11] !== r || t[12] !== v || t[13] !== l
+    ? ((y = (e, t) => {
+        c &&
+          (d(e.id),
+          p(e.name),
+          v.mutate({
+            hostId: r,
+            skillId: e.id,
+            repoPath: e.repoPath,
+            installRoot: t,
+            skillStatsigOverride: Ve(l, e.id),
+          }));
+      }),
+      (t[10] = c),
+      (t[11] = r),
+      (t[12] = v),
+      (t[13] = l),
+      (t[14] = y))
+    : (y = t[14]);
+  let b;
+  return (
+    t[15] !== u || t[16] !== y
+      ? ((b = { installRecommendedSkill: y, installingSkillId: u }),
+        (t[15] = u),
+        (t[16] = y),
+        (t[17] = b))
+      : (b = t[17]),
+    b
+  );
+}
+function Zr({ forceReload: e, invalidateQueriesAndBroadcast: t, setSkillsRefreshNonce: n }) {
+  (t(vt), e(), n((e) => (e ?? 0) + 1));
+}
+var Qr = `330064871`,
+  $r = c({ remote_plugin_id: u().min(1).optional(), share_url: u().min(1) }),
+  ei = c({ plugins: i(u(), s()).optional() }).catch({ plugins: {} });
+function ti() {
+  let e = (0, Y.c)(5),
+    { value: t } = B(Qr),
+    n = V(),
+    r;
+  e[0] === t ? (r = e[1]) : ((r = ni(t)), (e[0] = t), (e[1] = r));
+  let i = r,
+    a;
+  return (
+    e[2] !== i || e[3] !== n
+      ? ((a = { config: i, isLoading: n }), (e[2] = i), (e[3] = n), (e[4] = a))
+      : (a = e[4]),
+    a
+  );
+}
+function ni(e) {
+  let t = ei.parse(e),
+    n = new Map(),
+    r = new Map();
+  for (let [e, i] of Object.entries(t.plugins ?? {})) {
+    let t = $r.safeParse(i);
+    if (!t.success) continue;
+    if (oi(e)) {
+      r.set(e, t.data.share_url);
+      continue;
+    }
+    if (!si(e)) continue;
+    let a = t.data.remote_plugin_id;
+    a == null ||
+      !l(a) ||
+      (n.set(a, e),
+      o(a) && n.set(a.startsWith(`plugins~`) ? a.slice(8) : `plugins~${a}`, e),
+      r.set(e, t.data.share_url));
+  }
+  return { pluginIdByRemotePluginId: n, shareUrlByPluginId: r };
+}
+function ri(e, t) {
+  return e.pluginIdByRemotePluginId.get(t) ?? null;
+}
+function ii(e, t) {
+  return e.shareUrlByPluginId.get(t) ?? null;
+}
+function ai({
+  config: e,
+  marketplaceName: n,
+  pluginId: r,
+  isOpenAICuratedRemoteMarketplaceEnabled: i,
+}) {
+  if (oi(r)) return ii(e, r);
+  if (n === `openai-curated-remote`) {
+    let n = r.lastIndexOf(`@`);
+    return n <= 0 ? null : ii(e, `${r.slice(0, n + 1)}${t}`);
+  }
+  return i ? null : ii(e, r);
+}
+function oi(e) {
+  let t = a(e);
+  return t != null && r(t);
+}
+function si(e) {
+  let n = e.lastIndexOf(`@`);
+  return n <= 0 ? !1 : e.slice(n + 1) === t;
+}
+function ci(e) {
+  let t = (0, Y.c)(21),
+    {
+      disableMenuLabel: n,
+      enableButtonLabel: r,
+      enabledStatusAriaLabel: i,
+      isEnabled: a,
+      isUninstalling: o,
+      isUpdating: s,
+      menuLabel: c,
+      onDisable: l,
+      onEnable: u,
+      onUninstall: d,
+      uninstallMenuLabel: f,
+    } = e,
+    [p, m] = (0, Z.useState)(!1),
+    h = d != null || (a && l != null),
+    g;
+  t[0] !== n ||
+  t[1] !== i ||
+  t[2] !== h ||
+  t[3] !== a ||
+  t[4] !== p ||
+  t[5] !== o ||
+  t[6] !== c ||
+  t[7] !== l ||
+  t[8] !== d ||
+  t[9] !== f
+    ? ((g = h
+        ? (0, X.jsx)(`div`, {
+            className: p
+              ? `visible opacity-100`
+              : `invisible opacity-0 group-hover:visible group-hover:opacity-100`,
+            children: (0, X.jsxs)(Mt, {
+              align: `end`,
+              contentWidth: `icon`,
+              open: p,
+              onOpenChange: m,
+              triggerButton: (0, X.jsx)(cn, {
+                label: c ?? i,
+                className: x(
+                  `!cursor-interaction px-1`,
+                  p ? `opacity-100` : `opacity-50 hover:opacity-100 focus-visible:opacity-100`,
+                ),
+                iconClassName: `icon-sm text-token-description-foreground`,
+                size: `icon`,
+                uniform: !1,
+              }),
+              children: [
+                a && l
+                  ? (0, X.jsx)(jt.Item, {
+                      LeftIcon: Ae,
+                      leftIconClassName: `icon-xs`,
+                      onSelect: l,
+                      children: n,
+                    })
+                  : null,
+                d
+                  ? (0, X.jsx)(jt.Item, {
+                      LeftIcon: Nt,
+                      leftIconClassName: `icon-xs`,
+                      disabled: o,
+                      onSelect: d,
+                      children: f,
+                    })
+                  : null,
+              ],
+            }),
+          })
+        : null),
+      (t[0] = n),
+      (t[1] = i),
+      (t[2] = h),
+      (t[3] = a),
+      (t[4] = p),
+      (t[5] = o),
+      (t[6] = c),
+      (t[7] = l),
+      (t[8] = d),
+      (t[9] = f),
+      (t[10] = g))
+    : (g = t[10]);
+  let _;
+  t[11] !== r || t[12] !== i || t[13] !== a || t[14] !== o || t[15] !== s || t[16] !== u
+    ? ((_ =
+        !a && u
+          ? (0, X.jsx)(G, {
+              color: `outline`,
+              size: `toolbar`,
+              disabled: s || o,
+              onClick: (e) => {
+                (e.stopPropagation(), u());
+              },
+              children: r,
+            })
+          : a
+            ? (0, X.jsx)(Ye, {
+                ariaLabel: i,
+                icon: (0, X.jsx)(yt, { className: `icon-sm opacity-60` }),
+              })
+            : (0, X.jsx)(`span`, { "aria-hidden": !0, className: `h-7 w-7 shrink-0` })),
+      (t[11] = r),
+      (t[12] = i),
+      (t[13] = a),
+      (t[14] = o),
+      (t[15] = s),
+      (t[16] = u),
+      (t[17] = _))
+    : (_ = t[17]);
+  let v;
+  return (
+    t[18] !== g || t[19] !== _
+      ? ((v = (0, X.jsxs)(`div`, { className: `flex items-center gap-2`, children: [g, _] })),
+        (t[18] = g),
+        (t[19] = _),
+        (t[20] = v))
+      : (v = t[20]),
+    v
+  );
+}
+function li({
+  cardIcon: e,
+  cardIconContainer: t = !0,
+  cardIconContainerVariant: n,
+  cardTitle: r,
+  cardDescription: i,
+  cardBadges: a,
+  cardActions: o,
+  cardClassName: s,
+  cardContentClassName: c,
+  modalTitle: l,
+  modalTitleText: u,
+  modalTitleClassName: d,
+  modalDescription: f,
+  modalBody: p,
+  modalFooter: m,
+}) {
+  let [h, g] = (0, Z.useState)(!1),
+    _ = (0, Z.useRef)(!1),
+    v = () => {
+      if (_.current) {
+        _.current = !1;
+        return;
+      }
+      g(!0);
+    };
+  return (0, X.jsxs)(X.Fragment, {
+    children: [
+      (0, X.jsx)(tt, {
+        className: x(`!cursor-interaction`, s),
+        contentClassName: c,
+        icon: e,
+        iconContainer: t,
+        iconContainerVariant: n,
+        title: r,
+        description: i,
+        descriptionClassName: `line-clamp-1`,
+        badges: a,
+        actions:
+          typeof o == `function`
+            ? o({
+                ignoreNextPreview: () => {
+                  _.current = !0;
+                },
+                openPreview: v,
+              })
+            : o,
+        actionsPlacement: `center`,
+        onClick: v,
+      }),
+      (0, X.jsx)(nr, {
+        icon: e,
+        title: l,
+        titleText: u,
+        titleClassName: d,
+        description: f,
+        isOpen: h,
+        onOpenChange: g,
+        footer:
+          typeof m == `function`
+            ? m({
+                closePreview: () => {
+                  g(!1);
+                },
+              })
+            : m,
+        children: typeof p == `function` ? p({ isOpen: h }) : p,
+      }),
+    ],
+  });
+}
+function ui({
+  size: e,
+  hasLargeIcon: t,
+  smallClassName: n = `icon-md`,
+  largeFallbackClassName: r = `h-5 w-5`,
+}) {
+  return e === `large` ? (t ? `h-full w-full` : r) : n;
+}
+var di = I({
+  disableSkill: {
+    id: `skills.card.disableSkill`,
+    defaultMessage: `Disable skill`,
+    description: `Label for the disable skill toggle on skill cards`,
+  },
+  enableSkill: {
+    id: `skills.card.enableSkill`,
+    defaultMessage: `Enable skill`,
+    description: `Label for the enable skill toggle on skill cards`,
+  },
+  enabledStatus: {
+    id: `skills.card.enabledStatus`,
+    defaultMessage: `Skill enabled`,
+    description: `Status label for an installed skill that is enabled`,
+  },
+  disabledStatus: {
+    id: `skills.card.disabledStatus`,
+    defaultMessage: `Skill disabled`,
+    description: `Status label for an installed skill that is disabled`,
+  },
+  enableButton: {
+    id: `skills.card.enableButton`,
+    defaultMessage: `Enable`,
+    description: `Button label for enabling a disabled skill from a skill card`,
+  },
+  uninstallSkill: {
+    id: `skills.card.uninstallSkill`,
+    defaultMessage: `Uninstall skill`,
+    description: `Tooltip label for uninstalling a skill from a skill card`,
+  },
+});
+function fi(e) {
+  let t = (0, Y.c)(137),
+    {
+      actionLabel: n,
+      cardIcon: r,
+      cardIconContainer: i,
+      cardIconContainerVariant: a,
+      cardClassName: o,
+      hostId: s,
+      skill: c,
+      displayName: l,
+      installedStateAction: u,
+      showModalUninstall: d,
+      scopeBadges: p,
+      repoRoot: h,
+      onSkillsUpdated: g,
+    } = e,
+    _ = i === void 0 ? !0 : i,
+    v = u === void 0 ? `check` : u,
+    y = d === void 0 ? !0 : d,
+    b = C(k),
+    w = P(),
+    T = bt(),
+    D = S(),
+    A = ne(`open-file`),
+    [j, ee] = (0, Z.useState)(null),
+    [M, N] = (0, Z.useState)(!1),
+    I = f(s).kind !== `local`,
+    L = l ?? c.name,
+    R;
+  t[0] !== g || t[1] !== D
+    ? ((R = () => {
+        (g?.(), D.invalidateQueries({ queryKey: te(`recommended-skills`) }));
+      }),
+      (t[0] = g),
+      (t[1] = D),
+      (t[2] = R))
+    : (R = t[2]);
+  let z;
+  t[3] !== L || t[4] !== b
+    ? ((z = () => {
+        b.get(ge).success(
+          (0, X.jsx)(F, {
+            id: `skills.card.removeSuccess`,
+            defaultMessage: `{skillName} skill uninstalled`,
+            description: `Toast shown after successfully uninstalling a skill`,
+            values: { skillName: (0, X.jsx)(`span`, { className: `font-medium`, children: L }) },
+          }),
+        );
+      }),
+      (t[3] = L),
+      (t[4] = b),
+      (t[5] = z))
+    : (z = t[5]);
+  let re;
+  t[6] !== w || t[7] !== b
+    ? ((re = () => {
+        b.get(ge).danger(
+          w.formatMessage({
+            id: `skills.card.removeFailed`,
+            defaultMessage: `Failed to uninstall skill`,
+            description: `Toast message shown when uninstalling a skill fails`,
+          }),
+        );
+      }),
+      (t[6] = w),
+      (t[7] = b),
+      (t[8] = re))
+    : (re = t[8]);
+  let ie;
+  t[9] !== R || t[10] !== z || t[11] !== re
+    ? ((ie = { onSettled: R, onSuccess: z, onError: re }),
+      (t[9] = R),
+      (t[10] = z),
+      (t[11] = re),
+      (t[12] = ie))
+    : (ie = t[12]);
+  let B = ne(`remove-skill`, ie),
+    V;
+  t[13] !== s || t[14] !== c.name || t[15] !== c.path
+    ? ((V = (e) =>
+        m(
+          `write-skill-config`,
+          c.name.includes(`:`)
+            ? { hostId: s, name: c.name, enabled: e }
+            : { hostId: s, path: c.path, enabled: e },
+        )),
+      (t[13] = s),
+      (t[14] = c.name),
+      (t[15] = c.path),
+      (t[16] = V))
+    : (V = t[16]);
+  let oe;
+  t[17] !== L || t[18] !== g || t[19] !== b
+    ? ((oe = (e, t) => {
+        g?.();
+        let n = t
+          ? (0, X.jsx)(F, {
+              id: `skills.card.enableSuccess`,
+              defaultMessage: `{skillName} skill enabled`,
+              description: `Toast shown after successfully enabling a skill`,
+              values: { skillName: (0, X.jsx)(`span`, { className: `font-medium`, children: L }) },
+            })
+          : (0, X.jsx)(F, {
+              id: `skills.card.disableSuccess`,
+              defaultMessage: `{skillName} skill disabled`,
+              description: `Toast shown after successfully disabling a skill`,
+              values: { skillName: (0, X.jsx)(`span`, { className: `font-medium`, children: L }) },
+            });
+        b.get(ge).success(n);
+      }),
+      (t[17] = L),
+      (t[18] = g),
+      (t[19] = b),
+      (t[20] = oe))
+    : (oe = t[20]);
+  let H;
+  t[21] !== w || t[22] !== b
+    ? ((H = (e) => {
+        (ee(null),
+          O.error(`Failed to update skill enabled state`, { safe: {}, sensitive: { error: e } }),
+          b
+            .get(ge)
+            .danger(
+              w.formatMessage({
+                id: `skills.card.toggleEnabledError`,
+                defaultMessage: `Failed to update skill`,
+                description: `Toast message shown when enabling or disabling a skill fails`,
+              }),
+            ));
+      }),
+      (t[21] = w),
+      (t[22] = b),
+      (t[23] = H))
+    : (H = t[23]);
+  let se;
+  t[24] !== H || t[25] !== V || t[26] !== oe
+    ? ((se = { mutationFn: V, onSuccess: oe, onError: H }),
+      (t[24] = H),
+      (t[25] = V),
+      (t[26] = oe),
+      (t[27] = se))
+    : (se = t[27]);
+  let U = E(se),
+    W = j != null && (U.isPending || c.enabled !== j) ? j : c.enabled,
+    ce;
+  t[28] === c ? (ce = t[29]) : ((ce = ve(c)), (t[28] = c), (t[29] = ce));
+  let le = ce,
+    ue;
+  t[30] === W
+    ? (ue = t[31])
+    : ((ue = W
+        ? null
+        : (0, X.jsx)(At, {
+            className: `border border-token-border-default bg-transparent px-1.5 py-0.5 text-xs font-medium text-token-text-secondary`,
+            children: (0, X.jsx)(F, {
+              id: `skills.card.disabledBadge`,
+              defaultMessage: `Disabled`,
+              description: `Label shown next to the skill name when a skill is disabled`,
+            }),
+          })),
+      (t[30] = W),
+      (t[31] = ue));
+  let de;
+  t[32] !== L || t[33] !== ue
+    ? ((de = (0, X.jsx)(ir, { kind: `Skill`, title: L, badge: ue })),
+      (t[32] = L),
+      (t[33] = ue),
+      (t[34] = de))
+    : (de = t[34]);
+  let fe = de,
+    pe;
+  t[35] !== r || t[36] !== c
+    ? ((pe = r ?? (0, X.jsx)(hi, { skill: c, size: c.interface?.iconLarge ? `large` : `small` })),
+      (t[35] = r),
+      (t[36] = c),
+      (t[37] = pe))
+    : (pe = t[37]);
+  let me = pe,
+    he = !I && c.scope !== `admin`,
+    ye = B.isPending && B.variables?.skillPath === c.path,
+    xe = U.isPending,
+    G = !W,
+    K;
+  t[38] !== A.mutate || t[39] !== c.path
+    ? ((K = () => {
+        we({ path: c.path, cwd: null, openFile: A.mutate });
+      }),
+      (t[38] = A.mutate),
+      (t[39] = c.path),
+      (t[40] = K))
+    : (K = t[40]);
+  let Se = K,
+    Ce;
+  t[41] !== h || t[42] !== b || t[43] !== c || t[44] !== T
+    ? ((Ce = () => {
+        ae(b, { eventName: `codex_skill_try_clicked` });
+        let e = { prefillPrompt: be(c) };
+        (c.scope === `repo` && h && (e.prefillCwd = h), T({ ...e, startInSidebar: !0 }));
+      }),
+      (t[41] = h),
+      (t[42] = b),
+      (t[43] = c),
+      (t[44] = T),
+      (t[45] = Ce))
+    : (Ce = t[45]);
+  let Te = Ce,
+    Ee = W ? di.disableSkill : di.enableSkill,
+    De;
+  t[46] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((De = (0, X.jsx)(F, {
+        id: `skills.card.open`,
+        defaultMessage: `Open`,
+        description: `Button label to open a skill's files`,
+      })),
+      (t[46] = De))
+    : (De = t[46]);
+  let Oe;
+  t[47] !== Se || t[48] !== I
+    ? ((Oe = (0, X.jsx)(jt.Item, { disabled: I, onSelect: Se, children: De })),
+      (t[47] = Se),
+      (t[48] = I),
+      (t[49] = Oe))
+    : (Oe = t[49]);
+  let ke = Oe,
+    Ae;
+  t[50] === fe
+    ? (Ae = t[51])
+    : ((Ae = (0, X.jsx)(`div`, { className: `min-w-0 flex-1`, children: fe })),
+      (t[50] = fe),
+      (t[51] = Ae));
+  let je;
+  t[52] === Ee ? (je = t[53]) : ((je = (0, X.jsx)(F, { ...Ee })), (t[52] = Ee), (t[53] = je));
+  let Me, Ne;
+  t[54] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((Me = () => {
+        N(!0);
+      }),
+      (Ne = () => {
+        N(!1);
+      }),
+      (t[54] = Me),
+      (t[55] = Ne))
+    : ((Me = t[54]), (Ne = t[55]));
+  let Pe;
+  t[56] !== w || t[57] !== Ee
+    ? ((Pe = w.formatMessage(Ee)), (t[56] = w), (t[57] = Ee), (t[58] = Pe))
+    : (Pe = t[58]);
+  let Fe;
+  t[59] === U
+    ? (Fe = t[60])
+    : ((Fe = (e) => {
+        (ee(e), U.mutate(e));
+      }),
+      (t[59] = U),
+      (t[60] = Fe));
+  let Ie;
+  t[61] !== W || t[62] !== xe || t[63] !== Pe || t[64] !== Fe
+    ? ((Ie = (0, X.jsx)(`div`, {
+        onPointerEnter: Me,
+        onPointerLeave: Ne,
+        children: (0, X.jsx)(Yt, { checked: W, disabled: xe, ariaLabel: Pe, onChange: Fe }),
+      })),
+      (t[61] = W),
+      (t[62] = xe),
+      (t[63] = Pe),
+      (t[64] = Fe),
+      (t[65] = Ie))
+    : (Ie = t[65]);
+  let Le;
+  t[66] !== M || t[67] !== je || t[68] !== Ie
+    ? ((Le = (0, X.jsx)(_e, { open: M, tooltipContent: je, children: Ie })),
+      (t[66] = M),
+      (t[67] = je),
+      (t[68] = Ie),
+      (t[69] = Le))
+    : (Le = t[69]);
+  let Re;
+  t[70] === w
+    ? (Re = t[71])
+    : ((Re = w.formatMessage({
+        id: `skills.card.moreActions`,
+        defaultMessage: `More actions`,
+        description: `Aria label for the more actions menu in the skill preview modal`,
+      })),
+      (t[70] = w),
+      (t[71] = Re));
+  let ze;
+  t[72] === Re
+    ? (ze = t[73])
+    : ((ze = (0, X.jsx)(cn, { label: Re, size: `toolbar` })), (t[72] = Re), (t[73] = ze));
+  let Be;
+  t[74] !== ke || t[75] !== ze
+    ? ((Be = (0, X.jsx)(Mt, {
+        align: `end`,
+        contentWidth: `icon`,
+        triggerButton: ze,
+        children: ke,
+      })),
+      (t[74] = ke),
+      (t[75] = ze),
+      (t[76] = Be))
+    : (Be = t[76]);
+  let Ve;
+  t[77] !== Le || t[78] !== Be
+    ? ((Ve = (0, X.jsxs)(`div`, {
+        className: `flex shrink-0 items-center gap-2`,
+        children: [Le, Be],
+      })),
+      (t[77] = Le),
+      (t[78] = Be),
+      (t[79] = Ve))
+    : (Ve = t[79]);
+  let He;
+  t[80] !== Ae || t[81] !== Ve
+    ? ((He = (0, X.jsxs)(`div`, {
+        className: `flex w-full items-center justify-between gap-2`,
+        children: [Ae, Ve],
+      })),
+      (t[80] = Ae),
+      (t[81] = Ve),
+      (t[82] = He))
+    : (He = t[82]);
+  let Ue = He,
+    We = W ? di.disableSkill : di.enableSkill,
+    Ge;
+  t[83] !== W || t[84] !== U
+    ? ((Ge = W
+        ? () => {
+            (ee(!1), U.mutate(!1));
+          }
+        : void 0),
+      (t[83] = W),
+      (t[84] = U),
+      (t[85] = Ge))
+    : (Ge = t[85]);
+  let Ke = Ge,
+    qe;
+  t[86] !== G || t[87] !== U
+    ? ((qe = G
+        ? () => {
+            (ee(!0), U.mutate(!0));
+          }
+        : void 0),
+      (t[86] = G),
+      (t[87] = U),
+      (t[88] = qe))
+    : (qe = t[88]);
+  let Je = qe,
+    Ye;
+  t[89] !== he || t[90] !== s || t[91] !== B || t[92] !== c.path
+    ? ((Ye = he
+        ? () => {
+            B.mutate({ hostId: s, skillPath: c.path });
+          }
+        : void 0),
+      (t[89] = he),
+      (t[90] = s),
+      (t[91] = B),
+      (t[92] = c.path),
+      (t[93] = Ye))
+    : (Ye = t[93]);
+  let q = Ye,
+    Xe;
+  t[94] !== n ||
+  t[95] !== W ||
+  t[96] !== Ke ||
+  t[97] !== Je ||
+  t[98] !== Se ||
+  t[99] !== q ||
+  t[100] !== v ||
+  t[101] !== w ||
+  t[102] !== I ||
+  t[103] !== ye ||
+  t[104] !== xe ||
+  t[105] !== We ||
+  t[106] !== U
+    ? ((Xe =
+        v === `toggle`
+          ? (e) => {
+              let { ignoreNextPreview: t, openPreview: r } = e;
+              return (0, X.jsxs)(`div`, {
+                className: `flex items-center gap-2`,
+                children: [
+                  n
+                    ? (0, X.jsx)(`div`, {
+                        className: `text-sm text-token-text-secondary`,
+                        children: n,
+                      })
+                    : null,
+                  (0, X.jsx)(`div`, {
+                    className: `invisible opacity-0 transition-opacity group-hover:visible group-hover:opacity-100`,
+                    children: (0, X.jsxs)(Mt, {
+                      align: `end`,
+                      contentWidth: `icon`,
+                      triggerButton: (0, X.jsx)(cn, {
+                        label: w.formatMessage({
+                          id: `skills.card.moreActions`,
+                          defaultMessage: `More actions`,
+                          description: `Aria label for the more actions menu in the skill preview modal`,
+                        }),
+                        size: `toolbar`,
+                      }),
+                      children: [
+                        (0, X.jsx)(jt.Item, {
+                          disabled: I,
+                          onSelect: () => {
+                            (t(), Se());
+                          },
+                          children: (0, X.jsx)(F, {
+                            id: `skills.card.open`,
+                            defaultMessage: `Open`,
+                            description: `Button label to open a skill's files`,
+                          }),
+                        }),
+                        (0, X.jsx)(jt.Item, {
+                          onSelect: () => {
+                            r();
+                          },
+                          children: (0, X.jsx)(F, {
+                            id: `skills.card.details`,
+                            defaultMessage: `Details`,
+                            description: `Dropdown item label to open the skill details modal`,
+                          }),
+                        }),
+                      ],
+                    }),
+                  }),
+                  (0, X.jsx)(_e, {
+                    tooltipContent: (0, X.jsx)(F, { ...We }),
+                    children: (0, X.jsx)(Yt, {
+                      checked: W,
+                      disabled: xe,
+                      ariaLabel: w.formatMessage(We),
+                      onClick: pi,
+                      onChange: (e) => {
+                        (ee(e), U.mutate(e));
+                      },
+                    }),
+                  }),
+                ],
+              });
+            }
+          : v === `menu`
+            ? (0, X.jsx)(ci, {
+                disableMenuLabel: (0, X.jsx)(F, {
+                  id: `skills.card.disableMenuItem`,
+                  defaultMessage: `Disable`,
+                  description: `Menu item label for disabling a skill from a skill card`,
+                }),
+                enableButtonLabel: (0, X.jsx)(F, { ...di.enableButton }),
+                enabledStatusAriaLabel: w.formatMessage(di.enabledStatus),
+                isEnabled: W,
+                isUninstalling: ye,
+                isUpdating: xe,
+                menuLabel: w.formatMessage({
+                  id: `skills.card.actionsMenu`,
+                  defaultMessage: `Skill actions`,
+                  description: `Aria label for the skill card actions menu trigger`,
+                }),
+                onDisable: Ke,
+                onEnable: Je,
+                onUninstall: q,
+                uninstallMenuLabel: (0, X.jsx)(F, {
+                  id: `skills.card.uninstallMenuItem`,
+                  defaultMessage: `Uninstall`,
+                  description: `Menu item label for uninstalling a skill from a skill card`,
+                }),
+              })
+            : (0, X.jsx)(ci, {
+                enabledStatusAriaLabel: w.formatMessage(di.enabledStatus),
+                isEnabled: W,
+                isUninstalling: ye,
+                isUpdating: xe,
+              })),
+      (t[94] = n),
+      (t[95] = W),
+      (t[96] = Ke),
+      (t[97] = Je),
+      (t[98] = Se),
+      (t[99] = q),
+      (t[100] = v),
+      (t[101] = w),
+      (t[102] = I),
+      (t[103] = ye),
+      (t[104] = xe),
+      (t[105] = We),
+      (t[106] = U),
+      (t[107] = Xe))
+    : (Xe = t[107]);
+  let Ze = Xe,
+    Qe;
+  t[108] === o
+    ? (Qe = t[109])
+    : ((Qe = x(`group justify-center border-none`, o)), (t[108] = o), (t[109] = Qe));
+  let $e = G ? `opacity-60` : void 0,
+    et;
+  t[110] !== L || t[111] !== s || t[112] !== c.path
+    ? ((et = (e) => {
+        let { isOpen: t } = e;
+        return (0, X.jsx)(or, { hostId: s, isOpen: t, skillPath: c.path, titleText: L });
+      }),
+      (t[110] = L),
+      (t[111] = s),
+      (t[112] = c.path),
+      (t[113] = et))
+    : (et = t[113]);
+  let tt;
+  t[114] !== he ||
+  t[115] !== W ||
+  t[116] !== Te ||
+  t[117] !== s ||
+  t[118] !== ye ||
+  t[119] !== xe ||
+  t[120] !== B ||
+  t[121] !== y ||
+  t[122] !== c.path
+    ? ((tt = (e) => {
+        let { closePreview: t } = e;
+        return (0, X.jsx)(mi, {
+          canRemoveSkill: he && y,
+          isRemoving: ye,
+          isUpdatingEnabled: xe,
+          effectiveSkillEnabled: W,
+          onUninstall: () => {
+            (B.mutate({ hostId: s, skillPath: c.path }), t());
+          },
+          onTryInThread: Te,
+        });
+      }),
+      (t[114] = he),
+      (t[115] = W),
+      (t[116] = Te),
+      (t[117] = s),
+      (t[118] = ye),
+      (t[119] = xe),
+      (t[120] = B),
+      (t[121] = y),
+      (t[122] = c.path),
+      (t[123] = tt))
+    : (tt = t[123]);
+  let nt;
+  return (
+    t[124] !== Ze ||
+    t[125] !== _ ||
+    t[126] !== a ||
+    t[127] !== le ||
+    t[128] !== L ||
+    t[129] !== Ue ||
+    t[130] !== p ||
+    t[131] !== me ||
+    t[132] !== Qe ||
+    t[133] !== $e ||
+    t[134] !== et ||
+    t[135] !== tt
+      ? ((nt = (0, X.jsx)(li, {
+          cardIcon: me,
+          cardIconContainer: _,
+          cardIconContainerVariant: a,
+          cardTitle: L,
+          cardDescription: le,
+          cardBadges: p,
+          cardActions: Ze,
+          cardClassName: Qe,
+          cardContentClassName: $e,
+          modalTitle: Ue,
+          modalTitleText: L,
+          modalTitleClassName: `w-full`,
+          modalDescription: le,
+          modalBody: et,
+          modalFooter: tt,
+        })),
+        (t[124] = Ze),
+        (t[125] = _),
+        (t[126] = a),
+        (t[127] = le),
+        (t[128] = L),
+        (t[129] = Ue),
+        (t[130] = p),
+        (t[131] = me),
+        (t[132] = Qe),
+        (t[133] = $e),
+        (t[134] = et),
+        (t[135] = tt),
+        (t[136] = nt))
+      : (nt = t[136]),
+    nt
+  );
+}
+function pi(e) {
+  e.stopPropagation();
+}
+function mi(e) {
+  let t = (0, Y.c)(14),
+    {
+      canRemoveSkill: n,
+      isRemoving: r,
+      isUpdatingEnabled: i,
+      effectiveSkillEnabled: a,
+      onUninstall: o,
+      onTryInThread: s,
+    } = e,
+    c;
+  t[0] !== n || t[1] !== r || t[2] !== o
+    ? ((c = n
+        ? (0, X.jsx)(G, {
+            color: `danger`,
+            size: `toolbar`,
+            className: `border-transparent bg-token-charts-red text-token-charts-red enabled:hover:bg-token-charts-red enabled:hover:text-white data-[state=open]:bg-token-charts-red`,
+            disabled: r,
+            onClick: o,
+            children: (0, X.jsx)(F, {
+              id: `skills.card.uninstall`,
+              defaultMessage: `Uninstall`,
+              description: `Button label to remove a skill`,
+            }),
+          })
+        : null),
+      (t[0] = n),
+      (t[1] = r),
+      (t[2] = o),
+      (t[3] = c))
+    : (c = t[3]);
+  let l;
+  t[4] === c
+    ? (l = t[5])
+    : ((l = (0, X.jsx)(`div`, { className: `flex items-center gap-2`, children: c })),
+      (t[4] = c),
+      (t[5] = l));
+  let u = !a || i,
+    d,
+    f;
+  t[6] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((d = (0, X.jsx)(ke, { className: `icon-xs` })),
+      (f = (0, X.jsx)(F, {
+        id: `skills.card.try`,
+        defaultMessage: `Try in chat`,
+        description: `Button label to start a new thread with a skill`,
+      })),
+      (t[6] = d),
+      (t[7] = f))
+    : ((d = t[6]), (f = t[7]));
+  let p;
+  t[8] !== s || t[9] !== u
+    ? ((p = (0, X.jsx)(`div`, {
+        className: `flex items-center gap-2`,
+        children: (0, X.jsxs)(G, {
+          color: `primary`,
+          size: `toolbar`,
+          disabled: u,
+          onClick: s,
+          children: [d, f],
+        }),
+      })),
+      (t[8] = s),
+      (t[9] = u),
+      (t[10] = p))
+    : (p = t[10]);
+  let m;
+  return (
+    t[11] !== l || t[12] !== p
+      ? ((m = (0, X.jsxs)(`div`, {
+          className: `flex w-full items-center justify-between gap-2`,
+          children: [l, p],
+        })),
+        (t[11] = l),
+        (t[12] = p),
+        (t[13] = m))
+      : (m = t[13]),
+    m
+  );
+}
+function hi(e) {
+  let t = (0, Y.c)(9),
+    { skill: n, size: r } = e,
+    i = r === void 0 ? `small` : r,
+    a = !!n.interface?.iconLarge,
+    o;
+  t[0] !== i || t[1] !== n
+    ? ((o = ot(n, { size: i })), (t[0] = i), (t[1] = n), (t[2] = o))
+    : (o = t[2]);
+  let s = o,
+    c;
+  t[3] !== a || t[4] !== i
+    ? ((c = ui({ size: i, hasLargeIcon: a, largeFallbackClassName: `h-5 w-5` })),
+      (t[3] = a),
+      (t[4] = i),
+      (t[5] = c))
+    : (c = t[5]);
+  let l = `${c} text-token-text-secondary`,
+    u;
+  return (
+    t[6] !== s || t[7] !== l
+      ? ((u = (0, X.jsx)(s, { className: l })), (t[6] = s), (t[7] = l), (t[8] = u))
+      : (u = t[8]),
+    u
+  );
+}
+function gi(e) {
+  let t = (0, Y.c)(30),
+    {
+      brandColor: n,
+      clampToTwoLines: r,
+      disabled: i,
+      displayName: a,
+      fallbackName: o,
+      iconSmall: s,
+      prompt: c,
+      tabIndex: l,
+      onActivate: u,
+    } = e,
+    d = r === void 0 ? !1 : r,
+    f = i === void 0 ? !1 : i,
+    p = l === void 0 ? 0 : l,
+    m = f ? `cursor-not-allowed opacity-50` : `cursor-interaction hover:bg-token-bg-primary`,
+    h;
+  t[0] === m
+    ? (h = t[1])
+    : ((h = x(
+        `max-w-[77%] rounded-[16px] bg-token-bg-primary/75 py-2 pr-1.5 pl-2 [&_.contain-inline-size]:[contain:initial]`,
+        m,
+      )),
+      (t[0] = m),
+      (t[1] = h));
+  let g = f ? void 0 : u,
+    _;
+  t[2] !== f || t[3] !== u
+    ? ((_ = f
+        ? void 0
+        : (e) => {
+            (e.key !== `Enter` && e.key !== ` `) || (e.preventDefault(), u());
+          }),
+      (t[2] = f),
+      (t[3] = u),
+      (t[4] = _))
+    : (_ = t[4]);
+  let v = f ? -1 : p,
+    y = d && `line-clamp-2`,
+    b;
+  t[5] === y
+    ? (b = t[6])
+    : ((b = x(`min-w-0 flex-1 text-pretty break-words`, y)), (t[5] = y), (t[6] = b));
+  let S;
+  t[7] !== n || t[8] !== a || t[9] !== o || t[10] !== s
+    ? ((S = (0, X.jsx)(st, {
+        brandColor: n,
+        displayName: a,
+        fallbackIcon: Oe,
+        fallbackName: o,
+        iconSmall: s,
+      })),
+      (t[7] = n),
+      (t[8] = a),
+      (t[9] = o),
+      (t[10] = s),
+      (t[11] = S))
+    : (S = t[11]);
+  let C;
+  t[12] === c
+    ? (C = t[13])
+    : ((C =
+        c == null
+          ? null
+          : (0, X.jsxs)(X.Fragment, { children: [` `, (0, X.jsx)(`span`, { children: c })] })),
+      (t[12] = c),
+      (t[13] = C));
+  let w;
+  t[14] !== b || t[15] !== S || t[16] !== C
+    ? ((w = (0, X.jsxs)(`div`, { className: b, children: [S, C] })),
+      (t[14] = b),
+      (t[15] = S),
+      (t[16] = C),
+      (t[17] = w))
+    : (w = t[17]);
+  let T;
+  t[18] === f
+    ? (T = t[19])
+    : ((T = f
+        ? null
+        : (0, X.jsx)(`span`, {
+            className: `flex size-7 shrink-0 items-center justify-center rounded-full bg-token-foreground/10 text-token-text-primary`,
+            children: (0, X.jsx)(Et, { "aria-hidden": !0, className: `icon-2xs -scale-x-100` }),
+          })),
+      (t[18] = f),
+      (t[19] = T));
+  let E;
+  t[20] !== w || t[21] !== T
+    ? ((E = (0, X.jsxs)(`div`, { className: `flex items-center gap-1.5`, children: [w, T] })),
+      (t[20] = w),
+      (t[21] = T),
+      (t[22] = E))
+    : (E = t[22]);
+  let D;
+  return (
+    t[23] !== f || t[24] !== E || t[25] !== h || t[26] !== g || t[27] !== _ || t[28] !== v
+      ? ((D = (0, X.jsx)(`div`, {
+          "aria-disabled": f,
+          className: h,
+          onClick: g,
+          onKeyDown: _,
+          role: `button`,
+          tabIndex: v,
+          children: E,
+        })),
+        (t[23] = f),
+        (t[24] = E),
+        (t[25] = h),
+        (t[26] = g),
+        (t[27] = _),
+        (t[28] = v),
+        (t[29] = D))
+      : (D = t[29]),
+    D
+  );
+}
+var Q = I({
+    capabilities: {
+      id: `plugins.detail.information.capabilities`,
+      defaultMessage: `Capabilities`,
+      description: `Label for plugin capabilities on the detail page`,
+    },
+    category: {
+      id: `plugins.detail.information.category`,
+      defaultMessage: `Category`,
+      description: `Label for plugin category on the detail page`,
+    },
+    developer: {
+      id: `plugins.detail.information.developer`,
+      defaultMessage: `Developer`,
+      description: `Label for plugin developer on the detail page`,
+    },
+    information: {
+      id: `plugins.detail.information`,
+      defaultMessage: `Information`,
+      description: `Section title for plugin information on the detail page`,
+    },
+    setupSection: {
+      id: `plugins.detail.setup`,
+      defaultMessage: `Setup`,
+      description: `Section title for browser extensions that need to be set up on the plugin detail page`,
+    },
+    disabledByAdminBadge: {
+      id: `plugins.detail.includes.disabledByAdminBadge`,
+      defaultMessage: `Disabled by admin`,
+      description: `Right-aligned muted label shown on an included app row when the app is disabled by admin on the plugin detail page`,
+    },
+    mcpServerDisable: {
+      id: `plugins.detail.mcp.disable`,
+      defaultMessage: `Disable MCP server`,
+      description: `Tooltip label for disabling an MCP server from the plugin detail page`,
+    },
+    mcpServerEnable: {
+      id: `plugins.detail.mcp.enable`,
+      defaultMessage: `Enable MCP server`,
+      description: `Tooltip label for enabling an MCP server from the plugin detail page`,
+    },
+    mcpServerSettings: {
+      id: `plugins.detail.mcp.settings`,
+      defaultMessage: `Open MCP settings`,
+      description: `Tooltip label for the settings button on an MCP server card in plugin detail`,
+    },
+    mcpServerSetup: {
+      id: `plugins.detail.mcp.setup`,
+      defaultMessage: `Set up in MCP settings`,
+      description: `Tooltip label for the settings button when an MCP server still needs to be configured`,
+    },
+    mcpServerToggleAria: {
+      id: `plugins.detail.mcp.toggleAria`,
+      defaultMessage: `Toggle MCP server enabled state`,
+      description: `Accessible label for the MCP server enablement toggle on the plugin detail page`,
+    },
+    hooksSettings: {
+      id: `plugins.detail.hooks.settings`,
+      defaultMessage: `Manage in settings`,
+      description: `Tooltip label for opening Hooks settings from the plugin detail page`,
+    },
+    hooksTitle: {
+      id: `plugins.detail.includes.hooks.title`,
+      defaultMessage: `Hooks`,
+      description: `Title for included hooks on the plugin detail page`,
+    },
+    missing: {
+      id: `plugins.detail.missing`,
+      defaultMessage: `Plugin not found`,
+      description: `Not found title on the plugin detail page`,
+    },
+    missingDescription: {
+      id: `plugins.detail.missingDescription`,
+      defaultMessage: `This plugin could not be loaded from its marketplace entry.`,
+      description: `Not found description on the plugin detail page`,
+    },
+    privacyPolicy: {
+      id: `plugins.detail.information.privacyPolicy`,
+      defaultMessage: `Privacy Policy`,
+      description: `Label for plugin privacy policy on the detail page`,
+    },
+    website: {
+      id: `plugins.detail.information.website`,
+      defaultMessage: `Website`,
+      description: `Label for plugin website on the detail page`,
+    },
+    errorTitle: {
+      id: `plugins.detail.errorTitle`,
+      defaultMessage: `Failed to load plugin`,
+      description: `Error title shown on the plugin detail page`,
+    },
+    termsOfService: {
+      id: `plugins.detail.information.termsOfService`,
+      defaultMessage: `Terms of Service`,
+      description: `Label for plugin terms of service on the detail page`,
+    },
+  }),
+  _i = `relative isolate min-h-14 rounded-lg px-0 py-2 before:absolute before:inset-y-0 before:-inset-x-2 before:-z-10 before:rounded-lg before:content-[''] hover:before:bg-token-list-hover-background/30`,
+  vi = x(_i, `border-none hover:!bg-transparent`),
+  yi = `flex h-10 w-10 items-center justify-center rounded-lg border border-token-border-default bg-transparent`,
+  bi = new Map();
+function xi(e) {
+  let t = (0, Y.c)(8),
+    n = P(),
+    r;
+  t[0] === n
+    ? (r = t[1])
+    : ((r = n.formatMessage({
+        id: `plugins.detail.sectionsNav`,
+        defaultMessage: `Plugin sections`,
+        description: `Accessible label for the section navigation on the plugin detail page`,
+      })),
+      (t[0] = n),
+      (t[1] = r));
+  let i;
+  t[2] === Symbol.for(`react.memo_cache_sentinel`) ? ((i = []), (t[2] = i)) : (i = t[2]);
+  let a;
+  t[3] === e
+    ? (a = t[4])
+    : ((a =
+        e.state === `loading`
+          ? (0, X.jsx)(wt, { fillParent: !0, debugName: `PluginDetailView` })
+          : e.state === `error`
+            ? (0, X.jsx)(Mi, {
+                title: (0, X.jsx)(F, { ...Q.errorTitle }),
+                description: e.errorMessage ?? void 0,
+              })
+            : e.state === `missing`
+              ? (0, X.jsx)(Mi, {
+                  title: (0, X.jsx)(F, { ...Q.missing }),
+                  description: e.description ?? (0, X.jsx)(F, { ...Q.missingDescription }),
+                })
+              : (0, X.jsx)(Si, { ...e })),
+      (t[3] = e),
+      (t[4] = a));
+  let o;
+  return (
+    t[5] !== r || t[6] !== a
+      ? ((o = (0, X.jsx)(jn, {
+          ariaLabel: r,
+          contentInnerClassName: `flex min-h-full flex-col gap-6 electron:px-toolbar electron:pt-panel electron:pb-panel extension:px-20`,
+          disableScrollFade: !0,
+          showNav: !1,
+          sections: i,
+          children: a,
+        })),
+        (t[5] = r),
+        (t[6] = a),
+        (t[7] = o))
+      : (o = t[7]),
+    o
+  );
+}
+function Si(e) {
+  let t = (0, Y.c)(86),
+    {
+      appInstallBlockedReasonsById: n,
+      actions: r,
+      apps: i,
+      browserExtensions: a,
+      connectedAccountEmailByAppId: o,
+      hostId: s,
+      hooksNeedingReviewCount: c,
+      installedSkills: l,
+      installBlockedReason: u,
+      isPromptInstallBlocked: d,
+      isAppConnectPending: f,
+      updatingAppId: p,
+      isUpdatingEnabled: m,
+      isUninstalling: h,
+      onActivatePrompt: g,
+      onInstallApp: _,
+      onOpenAppTools: v,
+      onOpenAppUrl: y,
+      onOpenHooksSettings: b,
+      onTrustAllHooks: x,
+      onSetAppEnabled: S,
+      onSkillsUpdated: C,
+      mcpServers: w,
+      onOpenMcpSettings: T,
+      onToggleMcpServerEnabled: E,
+      plugin: D,
+      unavailableSkills: O,
+      workspaceRoots: k,
+    } = e,
+    A;
+  t[0] === a ? (A = t[1]) : ((A = a === void 0 ? [] : a), (t[0] = a), (t[1] = A));
+  let j = A,
+    ee = o === void 0 ? bi : o,
+    te = c === void 0 ? 0 : c,
+    ne;
+  t[2] === D ? (ne = t[3]) : ((ne = Li(D)), (t[2] = D), (t[3] = ne));
+  let M = ne,
+    N;
+  t[4] === D ? (N = t[5]) : ((N = Vi(D)), (t[4] = D), (t[5] = N));
+  let P = N,
+    I;
+  t[6] === D ? (I = t[7]) : ((I = Hi(D)), (t[6] = D), (t[7] = I));
+  let L = I,
+    R,
+    z,
+    re,
+    ie,
+    ae;
+  if (
+    t[8] !== r ||
+    t[9] !== i[0] ||
+    t[10] !== j ||
+    t[11] !== M ||
+    t[12] !== u ||
+    t[13] !== d ||
+    t[14] !== h ||
+    t[15] !== m ||
+    t[16] !== g ||
+    t[17] !== D ||
+    t[18] !== P
+  ) {
+    let e = (D.summary.interface?.defaultPrompt ?? []).map(Ti).filter(wi),
+      n = D.summary.interface?.logo ?? D.summary.interface?.logoUrl,
+      a = D.apps.length === 1 ? i[0] : void 0,
+      o;
+    t[24] === D ? (o = t[25]) : ((o = Fe(D)), (t[24] = D), (t[25] = o));
+    let s = o;
+    R = n ?? a?.logoUrl ?? a?.logoUrlDark ?? s.logoPath;
+    let c =
+        D.summary.interface?.composerIcon ??
+        D.summary.interface?.composerIconUrl ??
+        R ??
+        s.composerIconPath,
+      l = m || h;
+    ((z = D.summary.installed && j.length > 0), (ie = `flex flex-col gap-6`));
+    let f = n == null ? a?.logoUrlDark : null,
+      p;
+    t[26] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((p = (0, X.jsx)(Zt, { className: `icon-lg text-token-text-secondary` })), (t[26] = p))
+      : (p = t[26]);
+    let _;
+    t[27] !== M || t[28] !== R || t[29] !== f
+      ? ((_ = (0, X.jsx)(`span`, {
+          className: `flex size-16 shrink-0 items-center justify-center overflow-hidden rounded-2xl border border-token-border-default bg-transparent p-0`,
+          children: (0, X.jsx)(he, {
+            alt: M,
+            className: `size-full object-contain`,
+            logoDarkUrl: f,
+            logoUrl: R,
+            fallback: p,
+          }),
+        })),
+        (t[27] = M),
+        (t[28] = R),
+        (t[29] = f),
+        (t[30] = _))
+      : (_ = t[30]);
+    let v;
+    t[31] === r
+      ? (v = t[32])
+      : ((v =
+          r == null
+            ? null
+            : (0, X.jsx)(`div`, {
+                className: `ml-auto flex max-w-full shrink-0 justify-end`,
+                children: r,
+              })),
+        (t[31] = r),
+        (t[32] = v));
+    let y;
+    t[33] !== _ || t[34] !== v
+      ? ((y = (0, X.jsxs)(`div`, {
+          className: `flex min-w-0 flex-wrap items-start gap-4`,
+          children: [_, v],
+        })),
+        (t[33] = _),
+        (t[34] = v),
+        (t[35] = y))
+      : (y = t[35]);
+    let b;
+    t[36] === M
+      ? (b = t[37])
+      : ((b = (0, X.jsx)(`div`, {
+          className: `heading-xl min-w-0 flex-1 font-semibold break-words text-token-foreground`,
+          children: M,
+        })),
+        (t[36] = M),
+        (t[37] = b));
+    let x;
+    t[38] === P
+      ? (x = t[39])
+      : ((x = P
+          ? (0, X.jsx)(`div`, { className: `text-[15px] text-token-text-secondary`, children: P })
+          : null),
+        (t[38] = P),
+        (t[39] = x));
+    let S;
+    (t[40] !== b || t[41] !== x
+      ? ((S = (0, X.jsxs)(`div`, {
+          className: `flex min-w-0 flex-1 flex-col gap-1 self-stretch`,
+          children: [b, x],
+        })),
+        (t[40] = b),
+        (t[41] = x),
+        (t[42] = S))
+      : (S = t[42]),
+      t[43] !== y || t[44] !== S
+        ? ((ae = (0, X.jsxs)(`div`, {
+            className: `flex min-w-0 flex-1 flex-col gap-4`,
+            children: [y, S],
+          })),
+          (t[43] = y),
+          (t[44] = S),
+          (t[45] = ae))
+        : (ae = t[45]),
+      (re =
+        e.length > 0
+          ? (0, X.jsxs)(`div`, {
+              className: `relative flex justify-center overflow-hidden rounded-2xl px-4 py-12 sm:px-8`,
+              children: [
+                (0, X.jsx)(`img`, {
+                  src: nt,
+                  alt: ``,
+                  "aria-hidden": !0,
+                  className: `pointer-events-none absolute inset-0 h-full w-full object-cover`,
+                }),
+                (0, X.jsx)(`div`, { className: `absolute inset-0 bg-token-bg-primary/70` }),
+                (0, X.jsx)(`div`, {
+                  className: `relative flex w-full max-w-[640px] flex-col items-center gap-4`,
+                  children: e.map((e, t) =>
+                    (0, X.jsx)(
+                      `div`,
+                      {
+                        className: `flex w-full justify-center`,
+                        children: (0, X.jsx)(_e, {
+                          tooltipContent:
+                            u === `connector-unavailable`
+                              ? (0, X.jsx)(F, {
+                                  id: `plugins.install.connectorUnavailable`,
+                                  defaultMessage: `App unavailable`,
+                                  description: `Tooltip shown when plugin install is unavailable because the plugin's apps are not available in the current app directory`,
+                                })
+                              : (0, X.jsx)(F, {
+                                  id: `plugins.install.disabledByAdmin`,
+                                  defaultMessage: `Disabled by admin`,
+                                  description: `Tooltip shown when plugin install is unavailable because all included connectors are disabled by admin`,
+                                }),
+                          disabled: !d,
+                          children: (0, X.jsx)(gi, {
+                            brandColor: D.summary.interface?.brandColor ?? void 0,
+                            disabled: d,
+                            displayName: M,
+                            fallbackName: D.summary.id,
+                            iconSmall: c ?? ``,
+                            prompt: e,
+                            tabIndex: l ? -1 : 0,
+                            onActivate: () => g(e),
+                          }),
+                        }),
+                      },
+                      `${e}-${t}`,
+                    ),
+                  ),
+                }),
+              ],
+            })
+          : null),
+      (t[8] = r),
+      (t[9] = i[0]),
+      (t[10] = j),
+      (t[11] = M),
+      (t[12] = u),
+      (t[13] = d),
+      (t[14] = h),
+      (t[15] = m),
+      (t[16] = g),
+      (t[17] = D),
+      (t[18] = P),
+      (t[19] = R),
+      (t[20] = z),
+      (t[21] = re),
+      (t[22] = ie),
+      (t[23] = ae));
+  } else ((R = t[19]), (z = t[20]), (re = t[21]), (ie = t[22]), (ae = t[23]));
+  let B;
+  t[46] === L
+    ? (B = t[47])
+    : ((B = L
+        ? (0, X.jsx)(`div`, {
+            id: `plugin-description`,
+            className: `max-w-4xl text-[15px] text-token-text-secondary`,
+            children: L,
+          })
+        : null),
+      (t[46] = L),
+      (t[47] = B));
+  let V;
+  t[48] !== re || t[49] !== B || t[50] !== ie || t[51] !== ae
+    ? ((V = (0, X.jsxs)(`section`, { className: ie, children: [ae, re, B] })),
+      (t[48] = re),
+      (t[49] = B),
+      (t[50] = ie),
+      (t[51] = ae),
+      (t[52] = V))
+    : (V = t[52]);
+  let oe;
+  t[53] !== j || t[54] !== z
+    ? ((oe = z
+        ? (0, X.jsx)(`section`, {
+            id: `plugin-setup`,
+            children: (0, X.jsxs)(gn, {
+              children: [
+                (0, X.jsx)(gn.Header, { title: (0, X.jsx)(F, { ...Q.setupSection }) }),
+                (0, X.jsx)(gn.Content, {
+                  children: (0, X.jsx)(hn, { className: `overflow-hidden`, children: j.map(Ci) }),
+                }),
+              ],
+            }),
+          })
+        : null),
+      (t[53] = j),
+      (t[54] = z),
+      (t[55] = oe))
+    : (oe = t[55]);
+  let H;
+  t[56] !== n ||
+  t[57] !== i ||
+  t[58] !== ee ||
+  t[59] !== te ||
+  t[60] !== s ||
+  t[61] !== l ||
+  t[62] !== f ||
+  t[63] !== R ||
+  t[64] !== w ||
+  t[65] !== _ ||
+  t[66] !== v ||
+  t[67] !== y ||
+  t[68] !== b ||
+  t[69] !== T ||
+  t[70] !== S ||
+  t[71] !== C ||
+  t[72] !== E ||
+  t[73] !== x ||
+  t[74] !== D ||
+  t[75] !== O ||
+  t[76] !== p ||
+  t[77] !== k
+    ? ((H =
+        i.length > 0 || w.length > 0 || l.length > 0 || O.length > 0 || D.hooks.length > 0
+          ? (0, X.jsx)(Oi, {
+              appInstallBlockedReasonsById: n,
+              apps: i,
+              connectedAccountEmailByAppId: ee,
+              hostId: s,
+              installedSkills: l,
+              isAppConnectPending: f,
+              mcpServers: w,
+              onInstallApp: _,
+              onOpenHooksSettings: b,
+              onTrustAllHooks: x,
+              hooksNeedingReviewCount: te,
+              onOpenMcpSettings: T,
+              onOpenAppTools: v,
+              onOpenAppUrl: y,
+              onSetAppEnabled: S,
+              plugin: D,
+              pluginLogoUrl: R,
+              onSkillsUpdated: C,
+              onToggleMcpServerEnabled: E,
+              unavailableSkills: O,
+              updatingAppId: p,
+              workspaceRoots: k,
+            })
+          : null),
+      (t[56] = n),
+      (t[57] = i),
+      (t[58] = ee),
+      (t[59] = te),
+      (t[60] = s),
+      (t[61] = l),
+      (t[62] = f),
+      (t[63] = R),
+      (t[64] = w),
+      (t[65] = _),
+      (t[66] = v),
+      (t[67] = y),
+      (t[68] = b),
+      (t[69] = T),
+      (t[70] = S),
+      (t[71] = C),
+      (t[72] = E),
+      (t[73] = x),
+      (t[74] = D),
+      (t[75] = O),
+      (t[76] = p),
+      (t[77] = k),
+      (t[78] = H))
+    : (H = t[78]);
+  let se;
+  t[79] === D ? (se = t[80]) : ((se = (0, X.jsx)(Ei, { plugin: D })), (t[79] = D), (t[80] = se));
+  let U;
+  return (
+    t[81] !== V || t[82] !== oe || t[83] !== H || t[84] !== se
+      ? ((U = (0, X.jsxs)(X.Fragment, { children: [V, oe, H, se] })),
+        (t[81] = V),
+        (t[82] = oe),
+        (t[83] = H),
+        (t[84] = se),
+        (t[85] = U))
+      : (U = t[85]),
+    U
+  );
+}
+function Ci(e) {
+  return (0, X.jsx)(
+    mn,
+    {
+      icon: (0, X.jsx)(he, {
+        alt: e.name,
+        className: `size-10`,
+        fallback: (0, X.jsx)(Zt, { className: `icon-lg text-token-text-secondary` }),
+        logoUrl: e.iconUrl,
+      }),
+      label: e.name,
+      description: (0, X.jsx)(F, { ...Qe.codexChromeDescription }),
+      control: (0, X.jsx)(G, {
+        color: `primary`,
+        size: `medium`,
+        className: `min-w-24 shrink-0 justify-center`,
+        onClick: () => {
+          D.dispatchMessage(`open-in-browser`, { url: e.url });
+        },
+        children: (0, X.jsx)(F, {
+          id: `plugins.detail.setup.openBrowserExtension`,
+          defaultMessage: `Open`,
+          description: `Button label for opening a browser extension setup URL from the plugin detail page`,
+        }),
+      }),
+    },
+    e.id,
+  );
+}
+function wi(e) {
+  return e.length > 0;
+}
+function Ti(e) {
+  return e.trim();
+}
+function Ei(e) {
+  let t = (0, Y.c)(21),
+    { plugin: n } = e,
+    r = n.summary.interface;
+  if (r == null) return null;
+  let i;
+  t[0] === r.category ? (i = t[1]) : ((i = r.category?.trim()), (t[0] = r.category), (t[1] = i));
+  let a = i,
+    o;
+  t[2] === r.developerName
+    ? (o = t[3])
+    : ((o = r.developerName?.trim()), (t[2] = r.developerName), (t[3] = o));
+  let s = o,
+    c;
+  t[4] === r.capabilities
+    ? (c = t[5])
+    : ((c = r.capabilities?.join(`, `)), (t[4] = r.capabilities), (t[5] = c));
+  let l = c,
+    u = !!a || !!s || !!l,
+    d = !!r.websiteUrl || !!r.privacyPolicyUrl || !!r.termsOfServiceUrl;
+  if (!u && !d) return null;
+  let f;
+  t[6] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((f = (0, X.jsx)(gn.Header, {
+        className: `mb-1.5 !h-7`,
+        title: (0, X.jsx)(`span`, {
+          className: `text-lg leading-7`,
+          children: (0, X.jsx)(F, { ...Q.information }),
+        }),
+      })),
+      (t[6] = f))
+    : (f = t[6]);
+  let p;
+  t[7] !== l || t[8] !== a || t[9] !== s || t[10] !== u
+    ? ((p = u
+        ? (0, X.jsxs)(`div`, {
+            className: `flex flex-col gap-4`,
+            children: [
+              a
+                ? (0, X.jsxs)(`div`, {
+                    className: `flex flex-col gap-0.5`,
+                    children: [
+                      (0, X.jsx)(`div`, {
+                        className: `text-sm leading-relaxed text-token-text-secondary`,
+                        children: (0, X.jsx)(F, { ...Q.category }),
+                      }),
+                      (0, X.jsx)(`div`, {
+                        className: `font-medium text-token-foreground`,
+                        children: a,
+                      }),
+                    ],
+                  })
+                : null,
+              s
+                ? (0, X.jsxs)(`div`, {
+                    className: `flex flex-col gap-0.5`,
+                    children: [
+                      (0, X.jsx)(`div`, {
+                        className: `text-sm leading-relaxed text-token-text-secondary`,
+                        children: (0, X.jsx)(F, { ...Q.developer }),
+                      }),
+                      (0, X.jsx)(`div`, {
+                        className: `font-medium text-token-foreground`,
+                        children: s,
+                      }),
+                    ],
+                  })
+                : null,
+              l
+                ? (0, X.jsxs)(`div`, {
+                    className: `flex flex-col gap-0.5`,
+                    children: [
+                      (0, X.jsx)(`div`, {
+                        className: `text-sm leading-relaxed text-token-text-secondary`,
+                        children: (0, X.jsx)(F, { ...Q.capabilities }),
+                      }),
+                      (0, X.jsx)(`div`, {
+                        className: `font-medium text-token-foreground`,
+                        children: l,
+                      }),
+                    ],
+                  })
+                : null,
+            ],
+          })
+        : null),
+      (t[7] = l),
+      (t[8] = a),
+      (t[9] = s),
+      (t[10] = u),
+      (t[11] = p))
+    : (p = t[11]);
+  let m;
+  t[12] !== d ||
+  t[13] !== u ||
+  t[14] !== r.privacyPolicyUrl ||
+  t[15] !== r.termsOfServiceUrl ||
+  t[16] !== r.websiteUrl
+    ? ((m = d
+        ? (0, X.jsxs)(`div`, {
+            className: x(`flex flex-col gap-1`, !u && `sm:col-start-2`),
+            children: [
+              (0, X.jsx)(`div`, {
+                className: `text-sm leading-relaxed text-token-text-secondary`,
+                children: (0, X.jsx)(F, {
+                  id: `plugins.detail.information.links`,
+                  defaultMessage: `Links`,
+                  description: `Label for plugin external links on the detail page`,
+                }),
+              }),
+              r.websiteUrl
+                ? (0, X.jsx)(Ii, { href: r.websiteUrl, children: (0, X.jsx)(F, { ...Q.website }) })
+                : null,
+              r.privacyPolicyUrl
+                ? (0, X.jsx)(Ii, {
+                    href: r.privacyPolicyUrl,
+                    children: (0, X.jsx)(F, { ...Q.privacyPolicy }),
+                  })
+                : null,
+              r.termsOfServiceUrl
+                ? (0, X.jsx)(Ii, {
+                    href: r.termsOfServiceUrl,
+                    children: (0, X.jsx)(F, { ...Q.termsOfService }),
+                  })
+                : null,
+            ],
+          })
+        : null),
+      (t[12] = d),
+      (t[13] = u),
+      (t[14] = r.privacyPolicyUrl),
+      (t[15] = r.termsOfServiceUrl),
+      (t[16] = r.websiteUrl),
+      (t[17] = m))
+    : (m = t[17]);
+  let h;
+  return (
+    t[18] !== p || t[19] !== m
+      ? ((h = (0, X.jsx)(`section`, {
+          id: `plugin-information`,
+          children: (0, X.jsxs)(gn, {
+            children: [
+              f,
+              (0, X.jsx)(gn.Content, {
+                children: (0, X.jsxs)(`div`, {
+                  className: `grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-8`,
+                  children: [p, m],
+                }),
+              }),
+            ],
+          }),
+        })),
+        (t[18] = p),
+        (t[19] = m),
+        (t[20] = h))
+      : (h = t[20]),
+    h
+  );
+}
+function Di(e) {
+  let t = (0, Y.c)(37),
+    { enabled: n, installed: r, logoUrl: i, name: a, onOpenSettings: o, onToggleEnabled: s } = e,
+    c = P(),
+    l = r && !n && `opacity-60`,
+    u;
+  t[0] === l ? (u = t[1]) : ((u = x(_i, l)), (t[0] = l), (t[1] = u));
+  let d;
+  t[2] === a ? (d = t[3]) : ((d = Bi(a)), (t[2] = a), (t[3] = d));
+  let f;
+  t[4] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((f = (0, X.jsx)(at, { className: `icon-sm text-token-text-secondary` })), (t[4] = f))
+    : (f = t[4]);
+  let p;
+  t[5] !== i || t[6] !== d
+    ? ((p = (0, X.jsx)(`span`, {
+        className: yi,
+        children: (0, X.jsx)(he, { alt: d, className: `icon-md`, logoUrl: i, fallback: f }),
+      })),
+      (t[5] = i),
+      (t[6] = d),
+      (t[7] = p))
+    : (p = t[7]);
+  let m;
+  t[8] === a ? (m = t[9]) : ((m = Bi(a)), (t[8] = a), (t[9] = m));
+  let h;
+  t[10] === m
+    ? (h = t[11])
+    : ((h = (0, X.jsx)(`span`, { className: `text-base`, children: m })), (t[10] = m), (t[11] = h));
+  let g;
+  t[12] === r
+    ? (g = t[13])
+    : ((g = r ? (0, X.jsx)(F, { ...Q.mcpServerSettings }) : (0, X.jsx)(F, { ...Q.mcpServerSetup })),
+      (t[12] = r),
+      (t[13] = g));
+  let _;
+  t[14] !== r || t[15] !== c
+    ? ((_ = r ? c.formatMessage(Q.mcpServerSettings) : c.formatMessage(Q.mcpServerSetup)),
+      (t[14] = r),
+      (t[15] = c),
+      (t[16] = _))
+    : (_ = t[16]);
+  let v;
+  t[17] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((v = (0, X.jsx)(rt, { className: `icon-sm` })), (t[17] = v))
+    : (v = t[17]);
+  let y;
+  t[18] !== o || t[19] !== _
+    ? ((y = (0, X.jsx)(`button`, {
+        type: `button`,
+        className: `flex size-8 cursor-interaction items-center justify-center rounded-md bg-transparent`,
+        "aria-label": _,
+        onClick: o,
+        children: v,
+      })),
+      (t[18] = o),
+      (t[19] = _),
+      (t[20] = y))
+    : (y = t[20]);
+  let b;
+  t[21] !== y || t[22] !== g
+    ? ((b = (0, X.jsx)(_e, { tooltipContent: g, children: y })),
+      (t[21] = y),
+      (t[22] = g),
+      (t[23] = b))
+    : (b = t[23]);
+  let S;
+  t[24] !== n || t[25] !== r || t[26] !== c || t[27] !== s
+    ? ((S = r
+        ? (0, X.jsx)(_e, {
+            tooltipContent: n
+              ? (0, X.jsx)(F, { ...Q.mcpServerDisable })
+              : (0, X.jsx)(F, { ...Q.mcpServerEnable }),
+            children: (0, X.jsx)(Yt, {
+              checked: n,
+              ariaLabel: c.formatMessage(Q.mcpServerToggleAria),
+              onChange: s,
+            }),
+          })
+        : null),
+      (t[24] = n),
+      (t[25] = r),
+      (t[26] = c),
+      (t[27] = s),
+      (t[28] = S))
+    : (S = t[28]);
+  let C;
+  t[29] !== b || t[30] !== S
+    ? ((C = (0, X.jsxs)(X.Fragment, { children: [b, S] })), (t[29] = b), (t[30] = S), (t[31] = C))
+    : (C = t[31]);
+  let w;
+  return (
+    t[32] !== C || t[33] !== u || t[34] !== p || t[35] !== h
+      ? ((w = (0, X.jsx)(mn, { className: u, icon: p, label: h, control: C })),
+        (t[32] = C),
+        (t[33] = u),
+        (t[34] = p),
+        (t[35] = h),
+        (t[36] = w))
+      : (w = t[36]),
+    w
+  );
+}
+function Oi(e) {
+  let t = (0, Y.c)(43),
+    {
+      appInstallBlockedReasonsById: n,
+      apps: r,
+      connectedAccountEmailByAppId: i,
+      hooksNeedingReviewCount: a,
+      hostId: o,
+      installedSkills: s,
+      isAppConnectPending: c,
+      mcpServers: l,
+      onInstallApp: u,
+      onOpenHooksSettings: d,
+      onTrustAllHooks: f,
+      onOpenMcpSettings: p,
+      onOpenAppTools: m,
+      onOpenAppUrl: h,
+      onSetAppEnabled: g,
+      plugin: _,
+      pluginLogoUrl: v,
+      onSkillsUpdated: y,
+      onToggleMcpServerEnabled: b,
+      unavailableSkills: S,
+      updatingAppId: C,
+      workspaceRoots: w,
+    } = e,
+    T = s.length + S.length,
+    E = a > 0 && f != null,
+    D;
+  t[0] !== n ||
+  t[1] !== r ||
+  t[2] !== i ||
+  t[3] !== c ||
+  t[4] !== u ||
+  t[5] !== m ||
+  t[6] !== h ||
+  t[7] !== g ||
+  t[8] !== _.summary ||
+  t[9] !== C
+    ? ((D =
+        r.length > 0
+          ? (0, X.jsxs)(`div`, {
+              className: `flex flex-col`,
+              children: [
+                (0, X.jsx)(ki, {
+                  count: r.length,
+                  title: (0, X.jsx)(F, {
+                    id: `plugins.detail.includes.connectors.title`,
+                    defaultMessage: `Apps`,
+                    description: `Title for included apps on the plugin detail page`,
+                  }),
+                }),
+                r.map((e) => {
+                  let t = n[e.id] === `disabled-by-admin`;
+                  return (0, X.jsx)(
+                    Xe,
+                    {
+                      app: e,
+                      blockedStatusLabel: t
+                        ? (0, X.jsxs)(X.Fragment, {
+                            children: [
+                              (0, X.jsx)(q, { className: `icon-sm shrink-0` }),
+                              (0, X.jsx)(F, { ...Q.disabledByAdminBadge }),
+                            ],
+                          })
+                        : void 0,
+                      className: x(vi, t && `opacity-60`),
+                      cardIconContainerVariant: `outline`,
+                      installBlockedReason: t ? `disabled-by-admin` : null,
+                      isConnectingApp: c(e.id),
+                      connectedAccountEmail: i.get(e.id),
+                      installedStateAction: _.summary.installed ? `toggle` : `check`,
+                      manageAction: `menu`,
+                      showInstallAction: _.summary.installed,
+                      updatingAppId: C,
+                      onInstallApp: u,
+                      onOpenAppTools: m,
+                      onOpenAppUrl: h,
+                      onSetAppEnabled: g,
+                    },
+                    `app-${e.id}`,
+                  );
+                }),
+              ],
+            })
+          : null),
+      (t[0] = n),
+      (t[1] = r),
+      (t[2] = i),
+      (t[3] = c),
+      (t[4] = u),
+      (t[5] = m),
+      (t[6] = h),
+      (t[7] = g),
+      (t[8] = _.summary),
+      (t[9] = C),
+      (t[10] = D))
+    : (D = t[10]);
+  let O;
+  t[11] !== o ||
+  t[12] !== s ||
+  t[13] !== y ||
+  t[14] !== _ ||
+  t[15] !== T ||
+  t[16] !== S ||
+  t[17] !== w
+    ? ((O =
+        T > 0
+          ? (0, X.jsxs)(`div`, {
+              className: `flex flex-col`,
+              children: [
+                (0, X.jsx)(ki, {
+                  count: T,
+                  title: (0, X.jsx)(F, {
+                    id: `plugins.detail.includes.skills.title`,
+                    defaultMessage: `Skills`,
+                    description: `Title for included skills on the plugin detail page`,
+                  }),
+                }),
+                s.map((e) =>
+                  (0, X.jsx)(
+                    fi,
+                    {
+                      cardIcon: (0, X.jsx)(it, { className: `icon-sm text-token-text-secondary` }),
+                      cardClassName: vi,
+                      cardIconContainerVariant: `outline`,
+                      displayName: zi(e),
+                      hostId: o,
+                      installedStateAction: `toggle`,
+                      showModalUninstall: !1,
+                      onSkillsUpdated: y,
+                      repoRoot: e.scope === `repo` ? br({ roots: w, skillPath: e.path }) : null,
+                      scopeBadges: [],
+                      skill: e,
+                    },
+                    `installed-skill-${e.path}`,
+                  ),
+                ),
+                S.map((e) =>
+                  (0, X.jsx)(
+                    Ni,
+                    { hostId: o, remotePluginSkill: Ri(_, e.name), skill: e },
+                    `skill-${e.path ?? e.name}`,
+                  ),
+                ),
+              ],
+            })
+          : null),
+      (t[11] = o),
+      (t[12] = s),
+      (t[13] = y),
+      (t[14] = _),
+      (t[15] = T),
+      (t[16] = S),
+      (t[17] = w),
+      (t[18] = O))
+    : (O = t[18]);
+  let k;
+  t[19] !== c ||
+  t[20] !== l ||
+  t[21] !== u ||
+  t[22] !== m ||
+  t[23] !== h ||
+  t[24] !== p ||
+  t[25] !== g ||
+  t[26] !== b ||
+  t[27] !== _.summary ||
+  t[28] !== v ||
+  t[29] !== C
+    ? ((k =
+        l.length > 0
+          ? (0, X.jsxs)(`div`, {
+              className: `flex flex-col`,
+              children: [
+                (0, X.jsx)(ki, {
+                  count: l.length,
+                  title: (0, X.jsx)(F, {
+                    id: `plugins.detail.includes.mcpServers.title`,
+                    defaultMessage: `MCP servers`,
+                    description: `Title for included MCP servers on the plugin detail page`,
+                  }),
+                }),
+                l.map((e) =>
+                  e.kind === `app`
+                    ? (0, X.jsx)(
+                        Xe,
+                        {
+                          app: e.app,
+                          cardIconContainerVariant: `outline`,
+                          className: vi,
+                          isConnectingApp: c(e.app.id),
+                          installedStateAction: _.summary.installed ? `toggle` : `check`,
+                          manageAction: `menu`,
+                          showInstallAction: _.summary.installed,
+                          updatingAppId: C,
+                          onInstallApp: u,
+                          onOpenAppTools: m,
+                          onOpenAppUrl: h,
+                          onSetAppEnabled: g,
+                        },
+                        `mcp-app-${e.app.id}`,
+                      )
+                    : (0, X.jsx)(
+                        Di,
+                        {
+                          enabled: e.enabled,
+                          installed: e.installed,
+                          logoUrl: v,
+                          name: e.name,
+                          onOpenSettings: p,
+                          onToggleEnabled: (t) => {
+                            e.configKey != null && b(e.configKey, t);
+                          },
+                        },
+                        `mcp-config-${e.name}`,
+                      ),
+                ),
+              ],
+            })
+          : null),
+      (t[19] = c),
+      (t[20] = l),
+      (t[21] = u),
+      (t[22] = m),
+      (t[23] = h),
+      (t[24] = p),
+      (t[25] = g),
+      (t[26] = b),
+      (t[27] = _.summary),
+      (t[28] = v),
+      (t[29] = C),
+      (t[30] = k))
+    : (k = t[30]);
+  let A;
+  t[31] !== a ||
+  t[32] !== d ||
+  t[33] !== f ||
+  t[34] !== _.hooks.length ||
+  t[35] !== _.summary ||
+  t[36] !== E
+    ? ((A =
+        _.hooks.length > 0
+          ? (0, X.jsxs)(`div`, {
+              className: `flex flex-col`,
+              children: [
+                (0, X.jsx)(ki, { count: void 0, title: (0, X.jsx)(F, { ...Q.hooksTitle }) }),
+                (0, X.jsx)(ji, {
+                  hooksNeedingReviewCount: a,
+                  installed: _.summary.installed,
+                  onOpenHooksSettings: d,
+                  onTrustAllHooks: f,
+                  shouldShowReviewActions: E,
+                }),
+              ],
+            })
+          : null),
+      (t[31] = a),
+      (t[32] = d),
+      (t[33] = f),
+      (t[34] = _.hooks.length),
+      (t[35] = _.summary),
+      (t[36] = E),
+      (t[37] = A))
+    : (A = t[37]);
+  let j;
+  return (
+    t[38] !== D || t[39] !== O || t[40] !== k || t[41] !== A
+      ? ((j = (0, X.jsxs)(`div`, {
+          id: `plugin-includes`,
+          className: `flex flex-col gap-6`,
+          children: [D, O, k, A],
+        })),
+        (t[38] = D),
+        (t[39] = O),
+        (t[40] = k),
+        (t[41] = A),
+        (t[42] = j))
+      : (j = t[42]),
+    j
+  );
+}
+function ki(e) {
+  let t = (0, Y.c)(5),
+    { count: n, title: r } = e,
+    i;
+  t[0] === n
+    ? (i = t[1])
+    : ((i =
+        n == null
+          ? null
+          : (0, X.jsx)(`span`, { className: `font-normal text-token-text-tertiary`, children: n })),
+      (t[0] = n),
+      (t[1] = i));
+  let a;
+  return (
+    t[2] !== i || t[3] !== r
+      ? ((a = (0, X.jsx)(gn.Header, {
+          className: `mb-1.5 !h-7`,
+          title: (0, X.jsxs)(`span`, {
+            className: `inline-flex items-baseline gap-1.5 text-lg leading-7`,
+            children: [r, i],
+          }),
+        })),
+        (t[2] = i),
+        (t[3] = r),
+        (t[4] = a))
+      : (a = t[4]),
+    a
+  );
+}
+function Ai(e) {
+  let t = (0, Y.c)(7),
+    { children: n } = e,
+    r = P(),
+    i;
+  t[0] === r
+    ? (i = t[1])
+    : ((i = r.formatMessage({
+        id: `plugins.detail.includes.moreActions`,
+        defaultMessage: `More actions`,
+        description: `Accessible label for an included resource actions menu on the plugin detail page`,
+      })),
+      (t[0] = r),
+      (t[1] = i));
+  let a;
+  t[2] === i
+    ? (a = t[3])
+    : ((a = (0, X.jsx)(cn, {
+        className: `px-1 text-token-text-tertiary`,
+        iconClassName: `icon-sm`,
+        label: i,
+        size: `icon`,
+        uniform: !1,
+      })),
+      (t[2] = i),
+      (t[3] = a));
+  let o;
+  return (
+    t[4] !== n || t[5] !== a
+      ? ((o = (0, X.jsx)(Mt, {
+          align: `end`,
+          contentWidth: `icon`,
+          triggerButton: a,
+          children: n,
+        })),
+        (t[4] = n),
+        (t[5] = a),
+        (t[6] = o))
+      : (o = t[6]),
+    o
+  );
+}
+function ji(e) {
+  let t = (0, Y.c)(30),
+    {
+      hooksNeedingReviewCount: n,
+      installed: r,
+      onOpenHooksSettings: i,
+      onTrustAllHooks: a,
+      shouldShowReviewActions: o,
+    } = e,
+    s = P(),
+    c = null;
+  if (r && o) {
+    let e;
+    t[0] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((e = (0, X.jsx)(F, {
+          id: `plugins.detail.includes.hooks.trustAll`,
+          defaultMessage: `Trust all`,
+          description: `Button label to trust every hook from a plugin detail page that needs review`,
+        })),
+        (t[0] = e))
+      : (e = t[0]);
+    let n;
+    t[1] === a
+      ? (n = t[2])
+      : ((n = (0, X.jsx)(G, { color: `secondary`, onClick: a, children: e })),
+        (t[1] = a),
+        (t[2] = n));
+    let r;
+    t[3] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((r = (0, X.jsx)(F, {
+          id: `plugins.detail.includes.hooks.review`,
+          defaultMessage: `Review`,
+          description: `Button label to open hooks settings from a plugin detail page when hooks need review`,
+        })),
+        (t[3] = r))
+      : (r = t[3]);
+    let o;
+    t[4] === i
+      ? (o = t[5])
+      : ((o = (0, X.jsx)(G, { color: `secondary`, onClick: i, children: r })),
+        (t[4] = i),
+        (t[5] = o));
+    let s;
+    (t[6] !== n || t[7] !== o
+      ? ((s = (0, X.jsxs)(X.Fragment, { children: [n, o] })), (t[6] = n), (t[7] = o), (t[8] = s))
+      : (s = t[8]),
+      (c = s));
+  } else if (r) {
+    let e;
+    t[9] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((e = (0, X.jsx)(F, { ...Q.hooksSettings })), (t[9] = e))
+      : (e = t[9]);
+    let n;
+    t[10] === s ? (n = t[11]) : ((n = s.formatMessage(Q.hooksSettings)), (t[10] = s), (t[11] = n));
+    let r;
+    t[12] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((r = (0, X.jsx)(rt, { className: `icon-sm` })), (t[12] = r))
+      : (r = t[12]);
+    let a;
+    (t[13] !== i || t[14] !== n
+      ? ((a = (0, X.jsx)(_e, {
+          tooltipContent: e,
+          children: (0, X.jsx)(`button`, {
+            type: `button`,
+            className: `flex size-8 cursor-interaction items-center justify-center rounded-md bg-transparent`,
+            "aria-label": n,
+            onClick: i,
+            children: r,
+          }),
+        })),
+        (t[13] = i),
+        (t[14] = n),
+        (t[15] = a))
+      : (a = t[15]),
+      (c = a));
+  }
+  let l = o && `bg-token-editor-warning-background/20`,
+    u;
+  t[16] === l ? (u = t[17]) : ((u = x(_i, l)), (t[16] = l), (t[17] = u));
+  let d;
+  t[18] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((d = (0, X.jsx)(`span`, {
+        className: yi,
+        children: (0, X.jsx)(_n, { className: `icon-sm text-token-text-secondary` }),
+      })),
+      (t[18] = d))
+    : (d = t[18]);
+  let f;
+  t[19] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((f = (0, X.jsx)(`span`, {
+        className: `text-base`,
+        children: (0, X.jsx)(F, { ...Q.hooksTitle }),
+      })),
+      (t[19] = f))
+    : (f = t[19]);
+  let p;
+  t[20] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((p = (0, X.jsx)(F, {
+        id: `plugins.detail.includes.hooks.description`,
+        defaultMessage: `Run deterministic scripts during the Codex lifecycle`,
+        description: `Description for included hooks on the plugin detail page`,
+      })),
+      (t[20] = p))
+    : (p = t[20]);
+  let m;
+  t[21] !== n || t[22] !== o
+    ? ((m = o
+        ? (0, X.jsxs)(`span`, {
+            className: `flex items-center gap-1 text-token-text-primary`,
+            children: [
+              (0, X.jsx)(Ft, {
+                className: `icon-2xs shrink-0 text-token-editor-warning-foreground`,
+              }),
+              (0, X.jsx)(F, {
+                id: `plugins.detail.includes.hooks.needsReview`,
+                defaultMessage: `{count, plural, one {# hook needs review before it can run} other {# hooks need review before they can run}}`,
+                description: `Warning shown when hooks from a plugin detail page need review before they can run`,
+                values: { count: n },
+              }),
+            ],
+          })
+        : null),
+      (t[21] = n),
+      (t[22] = o),
+      (t[23] = m))
+    : (m = t[23]);
+  let h;
+  t[24] === m
+    ? (h = t[25])
+    : ((h = (0, X.jsxs)(`div`, { className: `flex flex-col gap-1`, children: [p, m] })),
+      (t[24] = m),
+      (t[25] = h));
+  let g;
+  return (
+    t[26] !== c || t[27] !== u || t[28] !== h
+      ? ((g = (0, X.jsx)(mn, { className: u, icon: d, label: f, description: h, control: c })),
+        (t[26] = c),
+        (t[27] = u),
+        (t[28] = h),
+        (t[29] = g))
+      : (g = t[29]),
+    g
+  );
+}
+function Mi(e) {
+  let t = (0, Y.c)(4),
+    { description: n, title: r } = e,
+    i;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((i = (0, X.jsx)(Jt, {
+        "aria-hidden": !0,
+        className: `h-20 w-auto text-token-input-placeholder-foreground`,
+      })),
+      (t[0] = i))
+    : (i = t[0]);
+  let a;
+  return (
+    t[1] !== n || t[2] !== r
+      ? ((a = (0, X.jsx)(`div`, {
+          className: `flex min-h-0 flex-1 items-center justify-center py-8`,
+          children: (0, X.jsx)(ln, { title: r, description: n, illustration: i }),
+        })),
+        (t[1] = n),
+        (t[2] = r),
+        (t[3] = a))
+      : (a = t[3]),
+    a
+  );
+}
+function Ni(e) {
+  let t = (0, Y.c)(17),
+    { hostId: n, remotePluginSkill: r, skill: i } = e,
+    a;
+  t[0] === i ? (a = t[1]) : ((a = zi(i)), (t[0] = i), (t[1] = a));
+  let o = a,
+    s;
+  t[2] === i ? (s = t[3]) : ((s = ve(i)), (t[2] = i), (t[3] = s));
+  let c = s,
+    l;
+  t[4] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((l = (0, X.jsx)(it, { className: `icon-sm text-token-text-secondary` })), (t[4] = l))
+    : (l = t[4]);
+  let u;
+  t[5] === o
+    ? (u = t[6])
+    : ((u = (0, X.jsx)(ir, { kind: `Skill`, title: o })), (t[5] = o), (t[6] = u));
+  let d;
+  t[7] !== n || t[8] !== r || t[9] !== i.path || t[10] !== o
+    ? ((d = (e) => {
+        let { isOpen: t } = e;
+        return (0, X.jsx)(or, {
+          hostId: n,
+          isOpen: t,
+          remotePluginSkill: r,
+          skillPath: i.path,
+          titleText: o,
+        });
+      }),
+      (t[7] = n),
+      (t[8] = r),
+      (t[9] = i.path),
+      (t[10] = o),
+      (t[11] = d))
+    : (d = t[11]);
+  let f;
+  return (
+    t[12] !== c || t[13] !== u || t[14] !== d || t[15] !== o
+      ? ((f = (0, X.jsx)(li, {
+          cardIcon: l,
+          cardIconContainerVariant: `outline`,
+          cardTitle: o,
+          cardDescription: c,
+          cardActions: Fi,
+          cardClassName: vi,
+          modalTitle: u,
+          modalTitleText: o,
+          modalTitleClassName: `w-full`,
+          modalDescription: c,
+          modalBody: d,
+          modalFooter: Pi,
+        })),
+        (t[12] = c),
+        (t[13] = u),
+        (t[14] = d),
+        (t[15] = o),
+        (t[16] = f))
+      : (f = t[16]),
+    f
+  );
+}
+function Pi(e) {
+  let { closePreview: t } = e;
+  return (0, X.jsx)(`div`, {
+    className: `flex w-full justify-end`,
+    children: (0, X.jsx)(G, {
+      color: `primary`,
+      size: `toolbar`,
+      onClick: t,
+      children: (0, X.jsx)(F, {
+        id: `common.close`,
+        defaultMessage: `Close`,
+        description: `Close button label`,
+      }),
+    }),
+  });
+}
+function Fi(e) {
+  let { openPreview: t } = e;
+  return (0, X.jsx)(Ai, {
+    children: (0, X.jsx)(jt.Item, {
+      onSelect: t,
+      children: (0, X.jsx)(F, {
+        id: `plugins.detail.includes.skills.details`,
+        defaultMessage: `Details`,
+        description: `Menu item label to open included skill details on the plugin detail page`,
+      }),
+    }),
+  });
+}
+function Ii(e) {
+  let t = (0, Y.c)(7),
+    { children: n, href: r } = e,
+    i;
+  t[0] === r
+    ? (i = t[1])
+    : ((i = (e) => {
+        (e.preventDefault(), D.dispatchMessage(`open-in-browser`, { url: r }));
+      }),
+      (t[0] = r),
+      (t[1] = i));
+  let a;
+  t[2] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((a = (0, X.jsx)(Ce, { "aria-hidden": !0, className: `icon-xs` })), (t[2] = a))
+    : (a = t[2]);
+  let o;
+  return (
+    t[3] !== n || t[4] !== r || t[5] !== i
+      ? ((o = (0, X.jsxs)(`a`, {
+          className: `inline-flex cursor-interaction items-center gap-1 text-token-link`,
+          href: r,
+          onClick: i,
+          children: [n, a],
+        })),
+        (t[3] = n),
+        (t[4] = r),
+        (t[5] = i),
+        (t[6] = o))
+      : (o = t[6]),
+    o
+  );
+}
+function Li(e) {
+  return e.summary.interface?.displayName ?? e.summary.name;
+}
+function Ri(e, t) {
+  return e.summary.source.type === `remote`
+    ? { remoteMarketplaceName: e.marketplaceName, remotePluginId: Ne(e.summary), skillName: t }
+    : null;
+}
+function zi(e) {
+  return e.interface?.displayName?.trim() || v(e.name.split(`:`).pop() || e.name);
+}
+function Bi(e) {
+  return e.length === 0 ? e : `${e[0].toUpperCase()}${e.slice(1)}`;
+}
+function Vi(e) {
+  return e.summary.interface?.shortDescription ?? e.description ?? null;
+}
+function Hi(e) {
+  let t =
+    e.summary.interface?.longDescription ??
+    e.description ??
+    e.summary.interface?.shortDescription ??
+    null;
+  return t === Vi(e) ? null : t;
+}
+var Ui = 2.4,
+  Wi = 0.16,
+  Gi = 0.35,
+  Ki = 0.32,
+  qi = 18,
+  Ji = Gi + Wi,
+  Yi = [
+    [0, 1],
+    ...Array.from({ length: 4 }, (e, t) => {
+      let n = Ji + Ui * t;
+      return [
+        [n, 1 - t],
+        [n + Ki, -t],
+      ];
+    }).flat(),
+  ],
+  Xi = Yi.at(-1)?.[0] ?? 0,
+  Zi = Yi.map(([e]) => e / Xi),
+  Qi = Yi.map(([, e]) => e * qi),
+  $i = { type: `spring`, duration: Gi, bounce: 0.02 },
+  ea = `border-token-border no-drag cursor-interaction flex max-w-full items-center gap-1 overflow-hidden rounded-lg border bg-token-foreground px-4 py-1.5 text-base leading-[18px] text-token-dropdown-background whitespace-nowrap select-none focus:outline-none enabled:hover:bg-token-foreground/80 data-[state=open]:bg-token-foreground/80 disabled:cursor-not-allowed disabled:opacity-40`,
+  ta = I({
+    preparingPlugin: {
+      id: `plugins.detail.shareDialog.preparingPlugin`,
+      defaultMessage: `Preparing your plugin`,
+      description: `First animated status label while a plugin share link is being created`,
+    },
+    uploadingPlugin: {
+      id: `plugins.detail.shareDialog.uploadingPlugin`,
+      defaultMessage: `Uploading`,
+      description: `Second animated status label while a plugin share link is being created`,
+    },
+    generatingPluginLink: {
+      id: `plugins.detail.shareDialog.generatingPluginLink`,
+      defaultMessage: `Generating a link`,
+      description: `Third animated status label while a plugin share link is being created`,
+    },
+    finalizingPluginDetails: {
+      id: `plugins.detail.shareDialog.finalizingPluginDetails`,
+      defaultMessage: `Finalizing details`,
+      description: `Fourth animated status label while a plugin share link is being created`,
+    },
+  }),
+  na = [
+    ta.preparingPlugin,
+    ta.uploadingPlugin,
+    ta.generatingPluginLink,
+    ta.finalizingPluginDetails,
+  ];
+function ra(e) {
+  let t = (0, Y.c)(28),
+    { state: n } = e,
+    r = De(),
+    i;
+  t[0] === n
+    ? (i = t[1])
+    : ((i = { state: n, value: `auto`, shouldAnimate: !1 }), (t[0] = n), (t[1] = i));
+  let [a, o] = (0, Z.useState)(i),
+    s;
+  t[2] === n
+    ? (s = t[3])
+    : ((s = (e) => {
+        let t = Math.ceil(e.contentRect.width);
+        t <= 0 ||
+          o((e) =>
+            e.state === n && e.value === t
+              ? e
+              : { state: n, value: t, shouldAnimate: e.value !== `auto` && e.state !== n },
+          );
+      }),
+      (t[2] = n),
+      (t[3] = s));
+  let c = Tt(s),
+    l;
+  t[4] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((l = x(ea, `justify-center`)), (t[4] = l))
+    : (l = t[4]);
+  let u;
+  t[5] === n
+    ? (u = t[6])
+    : ((u = (0, X.jsx)(`span`, { className: l, children: (0, X.jsx)(ia, { state: n }) })),
+      (t[5] = n),
+      (t[6] = u));
+  let d;
+  t[7] !== c || t[8] !== u
+    ? ((d = (0, X.jsx)(`div`, {
+        ref: c,
+        "aria-hidden": !0,
+        className: `pointer-events-none invisible fixed top-0 left-0 min-w-max`,
+        children: u,
+      })),
+      (t[7] = c),
+      (t[8] = u),
+      (t[9] = d))
+    : (d = t[9]);
+  let f;
+  t[10] === a.value ? (f = t[11]) : ((f = { width: a.value }), (t[10] = a.value), (t[11] = f));
+  let p = n === `progress` ? `justify-start` : `justify-center`,
+    m;
+  t[12] === p ? (m = t[13]) : ((m = x(ea, p)), (t[12] = p), (t[13] = m));
+  let h;
+  t[14] !== a.shouldAnimate || t[15] !== a.value || t[16] !== r
+    ? ((h = r || a.value === `auto` || !a.shouldAnimate ? { duration: 0 } : $i),
+      (t[14] = a.shouldAnimate),
+      (t[15] = a.value),
+      (t[16] = r),
+      (t[17] = h))
+    : (h = t[17]);
+  let g;
+  t[18] === n ? (g = t[19]) : ((g = (0, X.jsx)(ia, { state: n })), (t[18] = n), (t[19] = g));
+  let _;
+  t[20] !== g || t[21] !== f || t[22] !== m || t[23] !== h
+    ? ((_ = (0, X.jsx)(Te.button, {
+        animate: f,
+        className: m,
+        initial: !1,
+        transition: h,
+        type: `submit`,
+        children: g,
+      })),
+      (t[20] = g),
+      (t[21] = f),
+      (t[22] = m),
+      (t[23] = h),
+      (t[24] = _))
+    : (_ = t[24]);
+  let v;
+  return (
+    t[25] !== _ || t[26] !== d
+      ? ((v = (0, X.jsxs)(X.Fragment, { children: [d, _] })), (t[25] = _), (t[26] = d), (t[27] = v))
+      : (v = t[27]),
+    v
+  );
+}
+function ia(e) {
+  let t = (0, Y.c)(7),
+    { state: n } = e,
+    r;
+  t[0] === n
+    ? (r = t[1])
+    : ((r =
+        n === `creating` || n === `progress`
+          ? (0, X.jsx)(K, { className: `icon-xs` })
+          : n === `copied`
+            ? (0, X.jsx)(yt, { "aria-hidden": !0, className: `icon-xs` })
+            : (0, X.jsx)(sn, { "aria-hidden": !0, className: `icon-xs` })),
+      (t[0] = n),
+      (t[1] = r));
+  let i;
+  t[2] === n
+    ? (i = t[3])
+    : ((i = (0, X.jsx)(`span`, {
+        className: `inline-block`,
+        children:
+          n === `copied`
+            ? (0, X.jsx)(F, {
+                id: `plugins.detail.shareDialog.copied`,
+                defaultMessage: `Copied`,
+                description: `Button label after copying a plugin share link`,
+              })
+            : n === `progress`
+              ? (0, X.jsx)(aa, {})
+              : (0, X.jsx)(F, {
+                  id: `plugins.detail.shareDialog.copyLink`,
+                  defaultMessage: `Copy link`,
+                  description: `Button label for copying a plugin share link`,
+                }),
+      })),
+      (t[2] = n),
+      (t[3] = i));
+  let a;
+  return (
+    t[4] !== r || t[5] !== i
+      ? ((a = (0, X.jsxs)(X.Fragment, { children: [r, i] })), (t[4] = r), (t[5] = i), (t[6] = a))
+      : (a = t[6]),
+    a
+  );
+}
+function aa() {
+  let e = (0, Y.c)(5);
+  if (De()) {
+    let t;
+    return (
+      e[0] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((t = (0, X.jsx)(F, { ...na[0] })), (e[0] = t))
+        : (t = e[0]),
+      t
+    );
+  }
+  let t;
+  e[1] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((t = (0, X.jsx)(`span`, { className: `sr-only`, children: (0, X.jsx)(F, { ...na[0] }) })),
+      (e[1] = t))
+    : (t = e[1]);
+  let n;
+  e[2] === Symbol.for(`react.memo_cache_sentinel`) ? ((n = na.map(sa)), (e[2] = n)) : (n = e[2]);
+  let r;
+  e[3] === Symbol.for(`react.memo_cache_sentinel`) ? ((r = { y: Qi }), (e[3] = r)) : (r = e[3]);
+  let i;
+  return (
+    e[4] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((i = (0, X.jsxs)(X.Fragment, {
+          children: [
+            t,
+            (0, X.jsxs)(`span`, {
+              "aria-hidden": !0,
+              className: `inline-grid h-[18px] overflow-hidden leading-[18px]`,
+              children: [
+                n,
+                (0, X.jsx)(Te.span, {
+                  animate: r,
+                  className: `col-start-1 row-start-1 flex flex-col`,
+                  initial: { y: qi },
+                  transition: { duration: Xi, ease: `easeInOut`, times: Zi },
+                  children: na.map(oa),
+                }),
+              ],
+            }),
+          ],
+        })),
+        (e[4] = i))
+      : (i = e[4]),
+    i
+  );
+}
+function oa(e) {
+  return (0, X.jsx)(
+    `span`,
+    { className: `h-[18px] whitespace-nowrap`, children: (0, X.jsx)(F, { ...e }) },
+    e.id,
+  );
+}
+function sa(e) {
+  return (0, X.jsx)(
+    `span`,
+    {
+      className: `invisible col-start-1 row-start-1 whitespace-nowrap`,
+      children: (0, X.jsx)(F, { ...e }),
+    },
+    `${e.id}-measure`,
+  );
+}
+var ca = 2e3,
+  la = 1e3;
+function ua({
+  initialSharePrincipals: e = [],
+  onClose: t,
+  onCopyLink: n,
+  onSaveShareTargets: r,
+  onStopSharing: i,
+  pluginDisplayName: a,
+  shouldShowCopyLinkCreationProgress: o,
+}) {
+  let s = P(),
+    { accountId: c } = le(),
+    { data: l } = ue(),
+    u = oe(`2248542797`),
+    [d, f] = (0, Z.useState)(!1),
+    [p, m] = (0, Z.useState)(!1),
+    [h, g] = (0, Z.useState)(`idle`),
+    _ = (0, Z.useRef)(null),
+    v = (0, Z.useRef)(null),
+    [y, b] = (0, Z.useState)(``),
+    [x, S] = (0, Z.useState)([]),
+    [C, w] = (0, Z.useState)(`reader`),
+    T = da(e),
+    [E, D] = (0, Z.useState)(T),
+    [O, k] = (0, Z.useState)(T),
+    A = ba(e),
+    [j, ee] = (0, Z.useState)(() => fa(e)),
+    { data: te } = On(y),
+    { data: ne } = wn(y),
+    M = Tn({
+      currentAccountUserId: l?.account_user_id,
+      existingAccountUserIds: j.flatMap((e) => (e.type === `user` ? [e.id] : [])),
+      selectedAccountUserIds: x.flatMap((e) => (e.kind === `user` ? [e.user.account_user_id] : [])),
+      workspaceUsers: ne,
+    }),
+    N = va({
+      existingGroupIds: j.flatMap((e) => (e.type === `group` ? [e.id] : [])),
+      selectedGroupIds: x.flatMap((e) => (e.kind === `group` ? [e.group.id] : [])),
+      workspaceGroups: te,
+    }),
+    I =
+      N == null && M == null
+        ? void 0
+        : [
+            {
+              id: `groups`,
+              label: (0, X.jsx)(F, {
+                id: `plugins.detail.shareDialog.groups`,
+                defaultMessage: `Groups`,
+                description: `Section heading for group invite results in the plugin share dialog`,
+              }),
+              options: N?.map((e) => ha(e, s)) ?? [],
+            },
+            {
+              id: `people`,
+              label: (0, X.jsx)(F, {
+                id: `plugins.detail.shareDialog.people`,
+                defaultMessage: `People`,
+                description: `Section heading for people invite results in the plugin share dialog`,
+              }),
+              options: M?.map(ma) ?? [],
+            },
+          ],
+    L = O !== E,
+    R = x.length > 0,
+    z = h === `creating` || h === `progress` || d || p;
+  (0, Z.useEffect)(
+    () => () => {
+      (_.current != null && clearTimeout(_.current), v.current != null && clearTimeout(v.current));
+    },
+    [],
+  );
+  let re = async (e, t) => {
+      if (z) return !1;
+      let n =
+        t === `workspace`
+          ? (A ??
+            (c == null ? null : { principal_type: `workspace`, principal_id: c, role: `reader` }))
+          : null;
+      if (t === `workspace` && n == null) return !1;
+      f(!0);
+      try {
+        let t = await r(ya(e, n)),
+          i = da(t);
+        return (ee(fa(t)), D(i), k(i), g(`idle`), !0);
+      } catch {
+        return !1;
+      } finally {
+        f(!1);
+      }
+    },
+    ie = async () => {
+      if (z) return;
+      if (x.length > 0) {
+        (await re([...j, ...x.map((e) => pa(e, C))], O)) && (S([]), b(``), w(`reader`));
+        return;
+      }
+      let e = o?.() === !0,
+        t = h === `copied`;
+      (t && _.current != null && (clearTimeout(_.current), (_.current = null)),
+        e &&
+          (g(`creating`),
+          (v.current = setTimeout(() => {
+            (g(`progress`), (v.current = null));
+          }, la))));
+      let r = await n();
+      if ((v.current != null && (clearTimeout(v.current), (v.current = null)), r)) {
+        (g(`copied`),
+          _.current != null && clearTimeout(_.current),
+          (_.current = setTimeout(() => {
+            g(`idle`);
+          }, ca)));
+        return;
+      }
+      if (e) {
+        g(`idle`);
+        return;
+      }
+      t &&
+        (_.current = setTimeout(() => {
+          g(`idle`);
+        }, ca));
+    },
+    ae = async () => {
+      if (!(i == null || z)) {
+        m(!0);
+        try {
+          await i();
+        } catch {
+          return;
+        } finally {
+          m(!1);
+        }
+        t();
+      }
+    },
+    B = (0, X.jsx)(F, {
+      id: `plugins.detail.shareDialog.title`,
+      defaultMessage: `Share {name}`,
+      description: `Title for the plugin sharing dialog`,
+      values: { name: a },
+    });
+  return (0, X.jsx)(pt, {
+    open: !0,
+    contentClassName: `!overflow-visible`,
+    contentProps: { "aria-describedby": void 0 },
+    onOpenChange: (e) => {
+      e || t();
+    },
+    children: (0, X.jsxs)(mt, {
+      as: `form`,
+      onSubmit: (e) => {
+        (e.preventDefault(), ie());
+      },
+      children: [
+        (0, X.jsxs)(`div`, {
+          className: `flex w-full flex-col`,
+          children: [
+            (0, X.jsx)(dt, { className: `sr-only`, children: B }),
+            (0, X.jsx)(ft, { title: B }),
+          ],
+        }),
+        (0, X.jsx)(ut, {
+          children: (0, X.jsx)(bn, {
+            ariaLabel: s.formatMessage({
+              id: `plugins.detail.shareDialog.workspaceShareTargetSearch`,
+              defaultMessage: `Add people or groups`,
+              description: `Accessible label for searching workspace users and groups in the plugin share dialog`,
+            }),
+            emptyMessage: (0, X.jsx)(F, {
+              id: `plugins.detail.shareDialog.noWorkspaceShareTargets`,
+              defaultMessage: `No matching people or groups`,
+              description: `Empty state shown when no workspace users or groups match the plugin share dialog autocomplete query`,
+            }),
+            optionSections: I,
+            placeholder: s.formatMessage({
+              id: `plugins.detail.shareDialog.workspaceShareTargetPlaceholder`,
+              defaultMessage: `Add people or groups`,
+              description: `Placeholder for the plugin share dialog workspace user and group autocomplete`,
+            }),
+            query: y,
+            selectedOptions: x.map((e) => ga(e, s)),
+            trailingContent:
+              x.length === 0
+                ? null
+                : (0, X.jsx)(Oa, { isEditorRoleEnabled: u, role: C, onRoleChange: w }),
+            onQueryChange: b,
+            onRemoveOption: (e) => {
+              S((t) => {
+                let n = t.filter((t) => _a(t) !== _a(e.target));
+                return (n.length === 0 && w(`reader`), n);
+              });
+            },
+            onSelectOption: (e) => {
+              S((t) => [...t, e.target]);
+            },
+            getRemoveLabel: (e) =>
+              s.formatMessage(
+                {
+                  id: `plugins.detail.shareDialog.removeSelectedUser`,
+                  defaultMessage: `Remove {name}`,
+                  description: `Accessible label for removing a selected workspace share target from the plugin share dialog`,
+                },
+                { name: e.chipLabel ?? e.label },
+              ),
+          }),
+        }),
+        (0, X.jsx)(ut, {
+          children: (0, X.jsxs)(`div`, {
+            className: `flex flex-col gap-3`,
+            children: [
+              (0, X.jsx)(`div`, {
+                className: `text-base font-medium`,
+                children: (0, X.jsx)(F, {
+                  id: `plugins.detail.shareDialog.whoHasAccess`,
+                  defaultMessage: `Who has access`,
+                  description: `Heading for the access section in the plugin sharing dialog`,
+                }),
+              }),
+              (0, X.jsx)(xa, {
+                shareAccess: O,
+                onShareAccessChange: (e) => {
+                  k(e);
+                },
+              }),
+              (0, X.jsx)(`div`, {
+                className: `flex flex-col gap-3`,
+                children:
+                  j.length === 0
+                    ? (0, X.jsx)(`div`, {
+                        className: `text-sm text-token-description-foreground`,
+                        children: (0, X.jsx)(F, {
+                          id: `plugins.detail.shareDialog.noInvitedShareTargets`,
+                          defaultMessage: `No people or groups invited yet`,
+                          description: `Empty state shown when no people or groups have been invited to a plugin yet`,
+                        }),
+                      })
+                    : j.map((e) =>
+                        (0, X.jsx)(
+                          Ta,
+                          {
+                            isEditorRoleEnabled: u,
+                            principal: e,
+                            onRoleChange: (t) => {
+                              re(
+                                j.map((n) =>
+                                  n.type === e.type && n.id === e.id ? { ...n, role: t } : n,
+                                ),
+                                O,
+                              );
+                            },
+                            onRemoveAccess: () => {
+                              re(
+                                j.filter((t) => t.type !== e.type || t.id !== e.id),
+                                O,
+                              );
+                            },
+                          },
+                          `${e.type}:${e.id}`,
+                        ),
+                      ),
+              }),
+            ],
+          }),
+        }),
+        (0, X.jsx)(ut, {
+          children: (0, X.jsxs)(`div`, {
+            className: `mt-1 flex justify-end gap-2`,
+            children: [
+              i == null
+                ? null
+                : (0, X.jsx)(G, {
+                    className: `mr-auto -ml-4 enabled:hover:underline`,
+                    color: `ghostMuted`,
+                    disabled: z,
+                    loading: p,
+                    size: `medium`,
+                    onClick: () => {
+                      ae();
+                    },
+                    children: (0, X.jsx)(F, {
+                      id: `plugins.detail.stopSharing`,
+                      defaultMessage: `Stop sharing`,
+                      description: `Button label for stopping plugin sharing`,
+                    }),
+                  }),
+              (0, X.jsx)(Cn, {
+                actions: {
+                  invite: { type: `submit` },
+                  share: {
+                    onClick: () => {
+                      re(j, O);
+                    },
+                  },
+                },
+                cancelAction: R
+                  ? {
+                      onClick: (e) => {
+                        (e.preventDefault(), S([]), b(``), w(`reader`), g(`idle`));
+                      },
+                    }
+                  : {
+                      onClick: (e) => {
+                        (e.preventDefault(), k(E), g(`idle`));
+                      },
+                    },
+                disabled: z,
+                hasPendingAccessChange: L,
+                hasPendingInvitees: R,
+                idleActions: d
+                  ? (0, X.jsxs)(G, {
+                      color: `primary`,
+                      disabled: !0,
+                      size: `medium`,
+                      children: [
+                        (0, X.jsx)(K, { className: `icon-xs` }),
+                        (0, X.jsx)(F, {
+                          id: `plugins.detail.shareDialog.saving`,
+                          defaultMessage: `Saving`,
+                          description: `Button label shown while plugin share settings are being saved`,
+                        }),
+                      ],
+                    })
+                  : (0, X.jsx)(ra, { state: h }),
+                isSaving: d,
+                size: `medium`,
+                spinnerClassName: `icon-xs`,
+              }),
+            ],
+          }),
+        }),
+      ],
+    }),
+  });
+}
+function da(e) {
+  return e.some((e) => e.principal_type === `workspace`) ? `workspace` : `invited`;
+}
+function fa(e) {
+  let t = e.flatMap((e) =>
+    e.principal_type === `workspace`
+      ? []
+      : [
+          {
+            email: null,
+            id: e.principal_id,
+            name: e.name,
+            role: e.role ?? `reader`,
+            type: e.principal_type,
+          },
+        ],
+  );
+  return [...t.filter((e) => e.role === `owner`), ...t.filter((e) => e.role !== `owner`)];
+}
+function pa(e, t) {
+  switch (e.kind) {
+    case `group`:
+      return { email: null, id: e.group.id, name: e.group.name, role: t, type: `group` };
+    case `user`:
+      return {
+        email: e.user.email ?? null,
+        id: e.user.account_user_id,
+        name: xn(e.user),
+        role: t,
+        type: `user`,
+      };
+  }
+}
+function ma(e) {
+  return { ...Dn(e), target: { kind: `user`, user: e } };
+}
+function ha(e, t) {
+  return {
+    chipLabel: e.name,
+    Icon: Pn,
+    id: `group:${e.id}`,
+    label: e.name,
+    secondaryLabel: t.formatMessage(
+      {
+        id: `shareDialog.workspaceGroupMemberCount`,
+        defaultMessage: `{count, plural, one {# member} other {# members}}`,
+        description: `Member count shown for a workspace group invite result`,
+      },
+      { count: e.num_members },
+    ),
+    target: { kind: `group`, group: e },
+  };
+}
+function ga(e, t) {
+  switch (e.kind) {
+    case `group`:
+      return ha(e.group, t);
+    case `user`:
+      return ma(e.user);
+  }
+}
+function _a(e) {
+  switch (e.kind) {
+    case `group`:
+      return `group:${e.group.id}`;
+    case `user`:
+      return `user:${e.user.account_user_id}`;
+  }
+}
+function va({ existingGroupIds: e, selectedGroupIds: t, workspaceGroups: n }) {
+  let r = new Set(e),
+    i = new Set(t);
+  return n?.filter((e) => !r.has(e.id) && !i.has(e.id));
+}
+function ya(e, t) {
+  return [
+    ...e.flatMap((e) =>
+      e.role === `owner` ? [] : [{ principal_type: e.type, principal_id: e.id, role: e.role }],
+    ),
+    ...(t == null ? [] : [t]),
+  ];
+}
+function ba(e) {
+  let t = e.find((e) => e.principal_type === `workspace`);
+  return t == null
+    ? null
+    : {
+        principal_type: t.principal_type,
+        principal_id: t.principal_id,
+        role: t.role === `editor` ? `editor` : `reader`,
+      };
+}
+function xa(e) {
+  let t = (0, Y.c)(4),
+    { shareAccess: n, onShareAccessChange: r } = e,
+    i;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((i = [`invited`, `workspace`].map(Ca)), (t[0] = i))
+    : (i = t[0]);
+  let a;
+  return (
+    t[1] !== r || t[2] !== n
+      ? ((a = (0, X.jsx)(kn, { options: i, value: n, renderLabel: Sa, onChange: r })),
+        (t[1] = r),
+        (t[2] = n),
+        (t[3] = a))
+      : (a = t[3]),
+    a
+  );
+}
+function Sa(e) {
+  return (0, X.jsx)(wa, { shareAccess: e });
+}
+function Ca(e) {
+  return { Icon: Ma(e), value: e };
+}
+function wa(e) {
+  let t = (0, Y.c)(2),
+    { shareAccess: n } = e;
+  switch (n) {
+    case `invited`: {
+      let e;
+      return (
+        t[0] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, X.jsx)(F, {
+              id: `plugins.detail.shareDialog.access.invited`,
+              defaultMessage: `Only those invited`,
+              description: `Private access option for a shared plugin`,
+            })),
+            (t[0] = e))
+          : (e = t[0]),
+        e
+      );
+    }
+    case `workspace`: {
+      let e;
+      return (
+        t[1] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, X.jsx)(F, {
+              id: `plugins.detail.shareDialog.access.workspace`,
+              defaultMessage: `Anyone in this workspace with the link`,
+              description: `Workspace-wide access option for a shared plugin`,
+            })),
+            (t[1] = e))
+          : (e = t[1]),
+        e
+      );
+    }
+  }
+}
+function Ta(e) {
+  let t = (0, Y.c)(9),
+    { isEditorRoleEnabled: n, principal: r, onRoleChange: i, onRemoveAccess: a } = e,
+    o;
+  t[0] !== n || t[1] !== a || t[2] !== i || t[3] !== r.role
+    ? ((o =
+        r.role === `owner`
+          ? (0, X.jsx)(ja, { role: r.role })
+          : (0, X.jsx)(Ea, {
+              isEditorRoleEnabled: n,
+              role: r.role,
+              onRoleChange: i,
+              onRemoveAccess: a,
+            })),
+      (t[0] = n),
+      (t[1] = a),
+      (t[2] = i),
+      (t[3] = r.role),
+      (t[4] = o))
+    : (o = t[4]);
+  let s;
+  return (
+    t[5] !== r.email || t[6] !== r.name || t[7] !== o
+      ? ((s = (0, X.jsx)(En, { label: r.name, secondaryLabel: r.email, trailingContent: o })),
+        (t[5] = r.email),
+        (t[6] = r.name),
+        (t[7] = o),
+        (t[8] = s))
+      : (s = t[8]),
+    s
+  );
+}
+function Ea(e) {
+  let t = (0, Y.c)(8),
+    { isEditorRoleEnabled: n, role: r, onRoleChange: i, onRemoveAccess: a } = e,
+    o;
+  t[0] === n ? (o = t[1]) : ((o = Aa(n)), (t[0] = n), (t[1] = o));
+  let s;
+  t[2] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((s = (0, X.jsx)(F, {
+        id: `plugins.detail.shareDialog.permission.remove`,
+        defaultMessage: `Remove access`,
+        description: `Menu item for removing plugin access`,
+      })),
+      (t[2] = s))
+    : (s = t[2]);
+  let c;
+  return (
+    t[3] !== a || t[4] !== i || t[5] !== r || t[6] !== o
+      ? ((c = (0, X.jsx)(Sn, {
+          options: o,
+          removeLabel: s,
+          value: r,
+          renderLabel: Da,
+          onChange: i,
+          onRemoveAccess: a,
+        })),
+        (t[3] = a),
+        (t[4] = i),
+        (t[5] = r),
+        (t[6] = o),
+        (t[7] = c))
+      : (c = t[7]),
+    c
+  );
+}
+function Da(e) {
+  return (0, X.jsx)(ja, { role: e });
+}
+function Oa(e) {
+  let t = (0, Y.c)(6),
+    { isEditorRoleEnabled: n, role: r, onRoleChange: i } = e,
+    a;
+  t[0] === n ? (a = t[1]) : ((a = Aa(n)), (t[0] = n), (t[1] = a));
+  let o;
+  return (
+    t[2] !== i || t[3] !== r || t[4] !== a
+      ? ((o = (0, X.jsx)(Sn, {
+          options: a,
+          triggerButtonClassName: `flex shrink-0 cursor-interaction items-center gap-1 text-base text-token-foreground`,
+          value: r,
+          renderLabel: ka,
+          onChange: i,
+        })),
+        (t[2] = i),
+        (t[3] = r),
+        (t[4] = a),
+        (t[5] = o))
+      : (o = t[5]),
+    o
+  );
+}
+function ka(e) {
+  return (0, X.jsx)(ja, { role: e });
+}
+function Aa(e) {
+  return [`reader`, `editor`].map((t) =>
+    t === `editor` && !e
+      ? { disabled: !0, tooltipText: (0, X.jsx)(F, { ...Na.editorComingSoon }), value: t }
+      : { value: t },
+  );
+}
+function ja(e) {
+  let t = (0, Y.c)(3),
+    { role: n } = e;
+  switch (n) {
+    case `reader`: {
+      let e;
+      return (
+        t[0] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, X.jsx)(F, {
+              id: `plugins.detail.shareDialog.permission.viewer`,
+              defaultMessage: `Can view`,
+              description: `Viewer permission label in the plugin sharing dialog`,
+            })),
+            (t[0] = e))
+          : (e = t[0]),
+        e
+      );
+    }
+    case `editor`: {
+      let e;
+      return (
+        t[1] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, X.jsx)(F, {
+              id: `plugins.detail.shareDialog.permission.chat`,
+              defaultMessage: `Can edit`,
+              description: `Editor permission label in the plugin sharing dialog`,
+            })),
+            (t[1] = e))
+          : (e = t[1]),
+        e
+      );
+    }
+    case `owner`: {
+      let e;
+      return (
+        t[2] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, X.jsx)(F, {
+              id: `plugins.detail.shareDialog.permission.owner`,
+              defaultMessage: `Owner`,
+              description: `Owner permission label in the plugin sharing dialog`,
+            })),
+            (t[2] = e))
+          : (e = t[2]),
+        e
+      );
+    }
+  }
+}
+function Ma(e) {
+  switch (e) {
+    case `invited`:
+      return Xt;
+    case `workspace`:
+      return qt;
+  }
+}
+var Na = I({
+  editorComingSoon: {
+    id: `plugins.detail.shareDialog.permission.editorComingSoon`,
+    defaultMessage: `Coming soon`,
+    description: `Tooltip shown when plugin editor sharing is not yet available`,
+  },
+});
+function Pa({ initialShare: e, saveShare: t }) {
+  let n = e,
+    r = null,
+    i = async () =>
+      n?.shareUrl == null
+        ? ((r ??= t(n?.remotePluginId ?? null)
+            .then((e) => ((n = { ...e, sharePrincipals: n?.sharePrincipals ?? null }), e))
+            .finally(() => {
+              r = null;
+            })),
+          r)
+        : { remotePluginId: n.remotePluginId, shareUrl: n.shareUrl };
+  return {
+    getCurrentShare: () => n,
+    getOrCreateShare: i,
+    saveShareTargets: async (e, t) => {
+      let r = await i(),
+        a = await t(r.remotePluginId, e);
+      return ((n = { ...r, sharePrincipals: a }), a);
+    },
+  };
+}
+var $ = I({
+    pageTitleFallback: {
+      id: `plugins.detail.pageTitleFallback`,
+      defaultMessage: `Plugin`,
+      description: `Fallback plugin title on the plugin detail page`,
+    },
+    pluginsRoot: {
+      id: `plugins.detail.breadcrumb.root`,
+      defaultMessage: `Plugins`,
+      description: `Back button label on the plugin detail page`,
+    },
+    manageRoot: {
+      id: `plugins.detail.breadcrumb.manage`,
+      defaultMessage: `Manage`,
+      description: `Back button label on the plugin detail page when opened from manage`,
+    },
+    addPlugin: {
+      id: `plugins.detail.addToCodex`,
+      defaultMessage: `Add plugin`,
+      description: `Primary install action on the plugin detail page`,
+    },
+    addingPlugin: {
+      id: `plugins.detail.addingToCodex`,
+      defaultMessage: `Adding plugin`,
+      description: `Primary install action on the plugin detail page while installation is in progress`,
+    },
+    disabledByAdminButton: {
+      id: `plugins.detail.disabledByAdminButton`,
+      defaultMessage: `Disabled by admin`,
+      description: `Install button label shown when plugin install is unavailable because all included connectors are disabled by admin`,
+    },
+    connectorUnavailable: {
+      id: `plugins.install.connectorUnavailable`,
+      defaultMessage: `App unavailable`,
+      description: `Tooltip shown when plugin install is unavailable because the plugin's apps are not available in the current app directory`,
+    },
+    uninstall: {
+      id: `plugins.detail.uninstall`,
+      defaultMessage: `Uninstall`,
+      description: `Remove action on the plugin detail page`,
+    },
+    enableInCodex: {
+      id: `plugins.detail.enableInCodex`,
+      defaultMessage: `Enable in Codex`,
+      description: `Enable action on the plugin detail page`,
+    },
+    tryInCodex: {
+      id: `plugins.detail.tryInCodex`,
+      defaultMessage: `Try in chat`,
+      description: `Try action on the plugin detail page`,
+    },
+    shareLink: {
+      id: `plugins.detail.shareLink`,
+      defaultMessage: `Share`,
+      description: `Button label for copying a plugin detail share link`,
+    },
+    copiedLink: {
+      id: `plugins.detail.copiedLink`,
+      defaultMessage: `Copied`,
+      description: `Button label after copying a plugin detail deep link`,
+    },
+    shareNotSharedTooltip: {
+      id: `plugins.detail.shareNotSharedTooltip`,
+      defaultMessage: `Not shared`,
+      description: `Tooltip for a personal plugin that has not been shared`,
+    },
+    shareSharedTooltip: {
+      id: `plugins.detail.shareSharedTooltip`,
+      defaultMessage: `Shared`,
+      description: `Tooltip for a personal plugin that is shared while access details are loading`,
+    },
+    shareInvitedTooltip: {
+      id: `plugins.detail.shareInvitedTooltip`,
+      defaultMessage: `Only those invited`,
+      description: `Tooltip for a personal plugin shared with invited people`,
+    },
+    shareWorkspaceTooltip: {
+      id: `plugins.detail.shareWorkspaceTooltip`,
+      defaultMessage: `Anyone at workspace with the link`,
+      description: `Tooltip for a personal plugin shared with the workspace`,
+    },
+    shareCreatedPluginsOnlyTooltip: {
+      id: `plugins.detail.shareCreatedPluginsOnlyTooltip`,
+      defaultMessage: `Only plugins you created can be shared`,
+      description: `Tooltip for a disabled Share button on plugins that are not personal creations`,
+    },
+    shareLocalCopyRequiredTooltip: {
+      id: `plugins.detail.shareLocalCopyRequiredTooltip`,
+      defaultMessage: `Sharing can only be edited when you have a local copy`,
+      description: `Tooltip for a disabled Share button on a personal plugin that no longer has a local copy`,
+    },
+    missingFromCurrentMarketplaces: {
+      id: `plugins.detail.missingFromCurrentMarketplaces`,
+      defaultMessage: `This plugin is not available in your current plugin marketplaces`,
+      description: `Not found description for a plugin detail deep link whose plugin id is not present in the loaded marketplaces`,
+    },
+  }),
+  Fa = 2e3,
+  Ia = 15e3;
+function La({
+  hostId: e,
+  pluginName: t,
+  marketplacePath: n,
+  remoteMarketplaceName: r,
+  onBack: i,
+  onBeforeOpenInstall: a,
+} = {}) {
+  let o = C(k),
+    s = R(),
+    c = P(),
+    { accountId: u, userId: f } = le(),
+    { pluginId: p } = z(),
+    m = re(),
+    h = bt(),
+    { setSelectedHostId: g } = on(),
+    v = H(),
+    [y, b] = (0, Z.useState)(!1),
+    [x, E] = (0, Z.useState)(null),
+    [D, O] = (0, Z.useState)(null),
+    A = We(s.search),
+    j = Ge(s.state),
+    te = Ue(s.state),
+    ne = Ke(s.state),
+    M = s.key,
+    [N, I] = (0, Z.useState)(j == null ? M : null),
+    ie = N === M,
+    ae = (0, Z.useRef)(null),
+    B = (0, Z.useRef)(null),
+    V = e ?? A?.hostId ?? `local`,
+    U = je({ hostId: V }),
+    ue = oe(`4218407052`),
+    me = p == null || p.length === 0 ? null : p,
+    { config: he, isLoading: ve } = ti(),
+    be = me == null ? null : ue ? me : (ri(he, me) ?? me),
+    xe = !ue && me != null && l(me) && ve,
+    K = xe ? null : be,
+    {
+      directMarketplacePath: Se,
+      directPluginName: Ce,
+      directRemoteMarketplaceName: we,
+    } = qe({
+      explicitMarketplacePath: n,
+      explicitPluginName: t,
+      explicitRemoteMarketplaceName: r,
+      routeParams: A,
+    }),
+    Te = K != null && l(K) ? K : null,
+    De = K != null && (Ce == null || (Se == null && we == null)),
+    {
+      errorMessage: Oe,
+      isFetching: ke,
+      isLoading: Ae,
+      availablePlugins: Ne,
+      refetch: Ie,
+    } = Pe(V, void 0, { enabled: De }),
+    Re =
+      De && K != null
+        ? Je({ fallbackRequestedPluginId: me, plugins: Ne, requestedPluginId: K })
+        : null,
+    Be = Te != null && !ke && !Ae && Re == null,
+    Ve = Re == null ? null : Le(Re),
+    Ye = Se ?? Re?.marketplacePath ?? null,
+    q = Ce ?? Ve ?? (Be ? Te : null),
+    Xe = we ?? Re?.remoteMarketplaceName ?? (Be ? `chatgpt-workspace` : null),
+    Qe = K != null && D === K,
+    tt = De && Te == null && K != null && Oe == null && !Ae && Re == null && !Qe,
+    nt = (0, Z.useEffectEvent)(async (e) => {
+      let { availablePlugins: t } = await Ie();
+      return t.some((t) => t.plugin.id === e);
+    }),
+    { data: rt } = w(se),
+    it = rt?.roots[0] ?? null,
+    at = S(),
+    { data: ot = [], hardRefetchAppsList: st } = de({ hostId: V }),
+    { markSkillsUpdated: ut, skills: dt, workspaceRoots: ft } = Jr(V),
+    { data: pt } = ce(ft[0] ?? null, { hostId: V, useActiveWorkspaceRoot: !1 }),
+    {
+      errorMessage: mt,
+      isLoading: ht,
+      plugin: J,
+      refetch: gt,
+    } = Wt({ hostId: V, marketplacePath: Ye, pluginName: q, remoteMarketplaceName: Xe }),
+    { data: _t } = T(en, { hostId: V, cwds: nn(J, ft, V === `local` ? it : null) }),
+    vt = T($t, V),
+    yt = tn(_t?.data, J),
+    {
+      closePluginInstall: wt,
+      connectRequiredApp: Tt,
+      handleRequiredAppConnected: Et,
+      handleRequiredAppOAuthStarted: Dt,
+      installPlugin: Ot,
+      isInstalling: kt,
+      openPluginInstall: At,
+      session: jt,
+    } = et({
+      forceReloadPlugins: async () => {
+        await Ya({
+          hostId: V,
+          invalidateQueriesAndBroadcast: v,
+          ...Ja({ marketplacePath: Ye, plugin: J, pluginName: q, remoteMarketplaceName: Xe }),
+        });
+      },
+      hostId: V,
+    }),
+    Mt = (0, Z.useEffectEvent)(async () => {
+      await Ya({
+        hostId: V,
+        invalidateQueriesAndBroadcast: v,
+        ...Ja({ marketplacePath: Ye, plugin: J, pluginName: q, remoteMarketplaceName: Xe }),
+        refetchPluginDetail: gt,
+      });
+    });
+  (0, Z.useEffect)(() => {
+    if (j == null || q == null || (Ye == null && Xe == null)) return;
+    let e = !1;
+    return (
+      Mt()
+        .finally(() => {
+          e || I(M);
+        })
+        .catch(() => void 0),
+      () => {
+        e = !0;
+      }
+    );
+  }, [Ye, M, j, q, Xe]);
+  let Nt = oe(`1269116100`),
+    Pt = Mn(V),
+    Ft = Nt && J != null ? Rt(Pt, J.marketplacePath, J.summary.source) : null,
+    { data: It, mutateAsync: Lt, reset: Gt, variables: Kt } = Wn({ hostId: V }),
+    { mutateAsync: Jt } = Gn({ hostId: V }),
+    { mutateAsync: Yt } = Bn({ hostId: V });
+  (0, Z.useEffect)(() => {
+    if (!tt || K == null) return;
+    let e = !1,
+      t = null,
+      n = Date.now() + Ia,
+      r = async () => {
+        let i = await nt(K).catch(() => !1);
+        if (!e) {
+          if (i || Date.now() >= n) {
+            i || O(K);
+            return;
+          }
+          t = setTimeout(() => {
+            r();
+          }, Fa);
+        }
+      };
+    return (
+      r(),
+      () => {
+        ((e = !0), t != null && clearTimeout(t));
+      }
+    );
+  }, [K, tt]);
+  let { setAppEnabled: Xt, updatingAppId: Zt } = Nn({ hostId: V }),
+    sn = x == null ? null : (ot.find((e) => e.id === x) ?? null),
+    cn = pe(x),
+    ln = W({ hostId: V }),
+    { pendingPluginId: pn, setPluginEnabled: mn } = fn({ hostId: V }),
+    { pendingUninstallPluginId: hn, uninstallPlugin: gn } = dn({ hostId: V }),
+    {
+      blockedReasonsByConnectorId: _n,
+      blockedReason: bn,
+      isLoading: xn,
+    } = Bt(J == null ? { hostId: V } : { hostId: V, pluginApps: J.apps }),
+    Sn = J != null && !J.summary.installed ? bn : null,
+    Cn = J != null && !J.summary.installed && xn,
+    wn = J != null && Ut(J.summary) ? `disabled-by-admin` : Sn,
+    Tn = wn != null,
+    {
+      clearConnectingApp: En,
+      connectingApp: Dn,
+      handleAppConnectOAuthStarted: On,
+      handleConnectApp: kn,
+      handleOpenAppUrl: jn,
+      isAppConnectPending: Pn,
+    } = un({ hostId: V }),
+    Y = J?.summary.shareContext ?? null,
+    In = Kt?.pluginPath === Ft ? It : void 0,
+    Ln = Y?.remotePluginId ?? In?.remotePluginId,
+    Rn = Hn(Y),
+    zn =
+      Nt &&
+      J != null &&
+      J.summary.source.type === `local` &&
+      Pt != null &&
+      !Vt(Pt, J.marketplacePath) &&
+      !ze(J.marketplaceName),
+    Vn = Ft != null,
+    Un = !Vn && Ka(Y, u, f),
+    Kn = Ln != null,
+    qn = Rn?.some((e) => e.principal_type === `workspace`) === !0,
+    Jn = Rn != null && Rn.length > 0,
+    Yn = qn ? qt : Jn || Kn ? yn : vn,
+    Xn = zn
+      ? (0, X.jsx)(F, {
+          id: `plugins.detail.importedExternalMarketplaceShareTooltip`,
+          defaultMessage: `Plugins from imported marketplaces can't be shared`,
+          description: `Tooltip for a disabled Share button on imported external marketplace plugins`,
+        })
+      : Vn
+        ? qn
+          ? (0, X.jsx)(F, { ...$.shareWorkspaceTooltip })
+          : Jn
+            ? (0, X.jsx)(F, { ...$.shareInvitedTooltip })
+            : Kn
+              ? (0, X.jsx)(F, { ...$.shareSharedTooltip })
+              : (0, X.jsx)(F, { ...$.shareNotSharedTooltip })
+        : Un
+          ? (0, X.jsx)(F, { ...$.shareLocalCopyRequiredTooltip })
+          : (0, X.jsx)(F, { ...$.shareCreatedPluginsOnlyTooltip }),
+    Zn =
+      J == null
+        ? null
+        : ai({
+            config: he,
+            marketplaceName: J.marketplaceName,
+            pluginId: J.summary.id,
+            isOpenAICuratedRemoteMarketplaceEnabled: ue,
+          }),
+    Qn = async (e) => {
+      if (e == null) return !1;
+      try {
+        return await ct(e);
+      } catch {
+        return !1;
+      }
+    },
+    $n = () => Qn(Zn),
+    er = (e) => {
+      o.get(ge).danger(
+        c.formatMessage({
+          id: `plugins.detail.copyShareLinkError`,
+          defaultMessage: `Couldn't copy share link`,
+          description: `Error shown when copying a plugin share link fails`,
+        }),
+        e == null ? void 0 : { description: d(e) },
+      );
+    },
+    tr = async () => {
+      if (Ln != null)
+        try {
+          (await Jt({ remotePluginId: Ln }),
+            Gt(),
+            await Ya({
+              hostId: V,
+              invalidateQueriesAndBroadcast: v,
+              ...Ja({ marketplacePath: Ye, plugin: J, pluginName: q, remoteMarketplaceName: Xe }),
+              refetchPluginDetail: gt,
+            }));
+        } catch (e) {
+          throw (
+            o
+              .get(ge)
+              .danger(
+                c.formatMessage({
+                  id: `plugins.detail.stopSharingError`,
+                  defaultMessage: `Couldn't stop sharing plugin`,
+                  description: `Error shown when stopping plugin sharing fails`,
+                }),
+              ),
+            e
+          );
+        }
+    },
+    nr = (e) => {
+      if (Ft == null) return;
+      if (Ln != null && Rn == null) {
+        o.get(ge).danger(
+          c.formatMessage({
+            id: `plugins.detail.loadSharingError`,
+            defaultMessage: `Couldn't load plugin sharing`,
+            description: `Error shown when plugin sharing settings cannot load`,
+          }),
+        );
+        return;
+      }
+      let t = Ln == null ? [] : (Rn ?? []),
+        n = Pa({
+          initialShare:
+            Ln == null
+              ? null
+              : {
+                  remotePluginId: Ln,
+                  sharePrincipals: Rn,
+                  shareUrl: Y?.shareUrl ?? In?.shareUrl ?? null,
+                },
+          saveShare: (e) => Lt({ pluginPath: Ft, remotePluginId: e, discoverability: `PRIVATE` }),
+        });
+      lt(o, ua, {
+        initialSharePrincipals: t,
+        pluginDisplayName: Ga(e),
+        shouldShowCopyLinkCreationProgress: () => n.getCurrentShare()?.shareUrl == null,
+        onCopyLink: async () => {
+          try {
+            let e = await n.getOrCreateShare();
+            if (e.shareUrl.length > 0 && (await ct(e.shareUrl))) return !0;
+          } catch (e) {
+            return (er(e), !1);
+          }
+          return (er(), !1);
+        },
+        onSaveShareTargets: async (t) => {
+          try {
+            let r = await n.saveShareTargets(t, (e, t) => Yt({ remotePluginId: e, targets: t }));
+            return (
+              await Ya({
+                hostId: V,
+                invalidateQueriesAndBroadcast: v,
+                ...Ja({ marketplacePath: Ye, plugin: e, pluginName: q, remoteMarketplaceName: Xe }),
+                refetchPluginDetail: gt,
+              }),
+              r
+            );
+          } catch (e) {
+            throw (
+              o
+                .get(ge)
+                .danger(
+                  c.formatMessage({
+                    id: `plugins.detail.updateSharingError`,
+                    defaultMessage: `Couldn't update plugin sharing`,
+                    description: `Error shown when updating plugin sharing fails`,
+                  }),
+                  { description: d(e) },
+                ),
+              e
+            );
+          }
+        },
+        onStopSharing: Ln == null ? void 0 : tr,
+      });
+    },
+    rr = (0, Z.useEffectEvent)((e) => {
+      nr(e);
+    });
+  ((0, Z.useEffect)(() => {
+    j !== `share` ||
+      ae.current === M ||
+      !ie ||
+      J == null ||
+      Ft == null ||
+      ((ae.current = M), rr(J));
+  }, [ie, J, M, j, Ft]),
+    ee(
+      `copy-deeplink`,
+      () => {
+        Qn(Zn);
+      },
+      [Zn],
+    ));
+  let ir = J == null ? (0, X.jsx)(F, { ...$.pageTitleFallback }) : Ga(J),
+    ar = J == null ? [] : Ht({ directoryApps: ot, pluginApps: J.apps }),
+    or = $e({
+      enabled: J?.summary.installed === !0 && J.summary.authPolicy === `ON_INSTALL`,
+      hostId: V,
+      plugin: J == null ? null : Fe(J),
+    }),
+    sr =
+      J == null
+        ? { installedSkills: [], unavailableSkills: [] }
+        : zt({ installedSkills: dt, pluginSkills: J.skills }),
+    cr =
+      J == null
+        ? []
+        : Va({ apps: ot, configuredServers: pt?.servers ?? {}, pluginServerNames: J.mcpServers }),
+    lr = fe(ar.filter((e) => e.isAccessible).map((e) => e.id)),
+    dr = J != null && hn === J.summary.id,
+    fr = J != null && pn === J.summary.id,
+    pr = Tn || Cn,
+    mr = (0, Z.useEffectEvent)((e) => {
+      (a?.(), At(Fe(e)));
+    });
+  if (
+    ((0, Z.useEffect)(() => {
+      !ne ||
+        J == null ||
+        J.summary.installed ||
+        pr ||
+        B.current === s.key ||
+        ((B.current = s.key), mr(J));
+    }, [pr, s.key, J, ne]),
+    !U)
+  )
+    return (0, X.jsx)(L, { replace: !0, to: `/skills` });
+  let hr = mt ?? (Be ? null : Oe),
+    gr = Ra({
+      errorMessage: hr,
+      isLoading: ht || xe || (De && !Qe && (ke || Ae || tt)),
+      marketplacePath: Ye,
+      plugin: J,
+      pluginName: q,
+      remoteMarketplaceName: Xe,
+    }),
+    _r = De && K != null && Qe && Re == null,
+    vr = A?.source === `manage`,
+    yr = () => {
+      if (i != null) {
+        i();
+        return;
+      }
+      if (vr) {
+        m(`/skills`, { state: { initialHostId: V, initialMode: `manage`, initialTab: `plugins` } });
+        return;
+      }
+      if (te) {
+        m(-1);
+        return;
+      }
+      m(`/skills`, { state: { initialHostId: V, initialTab: `plugins` } });
+    },
+    br = (e) => {
+      (a?.(), At(Fe(e)));
+    },
+    xr = async (e) => {
+      try {
+        (await gn({
+          marketplaceName: e.marketplaceName,
+          pluginDisplayName: Ga(e),
+          pluginId: e.summary.id,
+          pluginName: e.summary.name,
+          requestPluginId: Me(Fe(e)),
+        }),
+          b(!1),
+          await Ya({
+            hostId: V,
+            invalidateQueriesAndBroadcast: v,
+            ...Ja({ marketplacePath: Ye, plugin: e, pluginName: q, remoteMarketplaceName: Xe }),
+            refetchPluginDetail: gt,
+          }));
+      } finally {
+        b(!1);
+      }
+    },
+    Sr = async (e) => {
+      (await mn({ enabled: !0, pluginDisplayName: Ga(e), pluginId: e.summary.id }),
+        await Ya({
+          hostId: V,
+          invalidateQueriesAndBroadcast: v,
+          ...Ja({ marketplacePath: Ye, plugin: e, pluginName: q, remoteMarketplaceName: Xe }),
+          refetchPluginDetail: gt,
+        }));
+    },
+    Cr = (e, t) => {
+      h({
+        prefillPrompt: St({ defaultPrompt: t, pluginDisplayName: Ga(e), pluginId: e.summary.id }),
+        prefillCwd: it != null && it !== `/` ? it : void 0,
+        startInSidebar: !0,
+      });
+    },
+    wr = async (e) => {
+      if (Ut(e.summary)) return !1;
+      if (!e.summary.installed) return (pr || br(e), !1);
+      if (!e.summary.enabled)
+        try {
+          await Sr(e);
+        } catch {
+          return !1;
+        }
+      return !0;
+    },
+    Tr = (e, t) => {
+      (async () => {
+        (await wr(e)) && Cr(e, t);
+      })();
+    },
+    Er = async (e, t) => {
+      await ln.mutateAsync({ key: e, enabled: t });
+    },
+    Dr = Nt && !Vn && Zn == null,
+    Or =
+      gr === `ready` &&
+      J != null &&
+      (!J.summary.installed || wn !== `disabled-by-admin`) &&
+      (Vn || Dr || Zn != null)
+        ? (0, X.jsxs)(X.Fragment, {
+            children: [
+              Vn || Dr
+                ? (0, X.jsx)(_e, {
+                    tooltipContent: Xn,
+                    children: (0, X.jsxs)(G, {
+                      color: `secondary`,
+                      disabled: Dr,
+                      size: `toolbar`,
+                      onClick: Vn
+                        ? () => {
+                            nr(J);
+                          }
+                        : void 0,
+                      children: [
+                        (0, X.jsx)(Yn, { "aria-hidden": !0, className: `icon-xs` }),
+                        (0, X.jsx)(F, {
+                          id: `plugins.detail.share`,
+                          defaultMessage: `Share`,
+                          description: `Button label for sharing a personal plugin`,
+                        }),
+                      ],
+                    }),
+                  })
+                : null,
+              Zn == null ? null : (0, X.jsx)(Ba, { onCopyLink: $n }),
+            ],
+          })
+        : null,
+    kr =
+      gr === `ready` && J != null
+        ? (0, X.jsx)(za, {
+            blockedReason: wn,
+            isInstallBlocked: Tn,
+            isInstallBlockedLoading: Cn,
+            isInstalling: kt,
+            isUninstalling: dr,
+            isUpdatingEnabled: fr,
+            plugin: J,
+            shareActions: null,
+            onInstall: () => {
+              Tr(J, null);
+            },
+            onEnable: () => {
+              Sr(J);
+            },
+            onTryInChat: () => {
+              Tr(J, xt(J.summary.interface?.defaultPrompt));
+            },
+            onUninstall: () => {
+              b(!0);
+            },
+          })
+        : null,
+    Ar = (0, X.jsxs)(`div`, {
+      className: `draggable grid w-full min-w-0 items-center gap-2 md:grid-cols-[1fr_auto] electron:h-toolbar extension:py-row-y`,
+      children: [
+        (0, X.jsx)(An, {
+          ancestors: [
+            {
+              id: `plugins`,
+              label: (0, X.jsx)(F, { ...(vr ? $.manageRoot : $.pluginsRoot) }),
+              onClick: yr,
+            },
+          ],
+          current: ir,
+        }),
+        Or == null
+          ? null
+          : (0, X.jsx)(`div`, { className: `flex items-center justify-end`, children: Or }),
+      ],
+    });
+  return (0, X.jsxs)(`div`, {
+    className: `flex h-full min-h-0 flex-col text-base`,
+    children: [
+      (0, X.jsx)(He, { extension: !0, children: Ar }),
+      (0, X.jsx)(He, { electron: !0, children: (0, X.jsx)(Ee.Header, { children: Ar }) }),
+      (0, X.jsx)(`div`, {
+        className: `flex min-h-0 flex-1 flex-col overflow-hidden`,
+        children:
+          gr === `ready` && J != null
+            ? (0, X.jsx)(xi, {
+                actions: kr,
+                apps: ar,
+                appInstallBlockedReasonsById: _n,
+                browserExtensions: or,
+                connectedAccountEmailByAppId: lr,
+                installedSkills: sr.installedSkills,
+                hostId: V,
+                installBlockedReason: wn,
+                isPromptInstallBlocked: pr,
+                isAppConnectPending: Pn,
+                updatingAppId: Zt,
+                isUpdatingEnabled: fr,
+                isUninstalling: dr,
+                onActivatePrompt: (e) => {
+                  Tr(J, e);
+                },
+                onInstallApp: async (e) => {
+                  await kn(e);
+                },
+                onOpenAppTools: (e) => {
+                  E(e.id);
+                },
+                onOpenHooksSettings: () => {
+                  rn({
+                    hostId: V,
+                    navigate: m,
+                    section: an({ hostId: V, pluginId: J.summary.id, source: `plugin` }),
+                    setSelectedHostId: g,
+                  });
+                },
+                onTrustAllHooks: () => {
+                  vt.mutate(yt.map((e) => ({ key: e.key, trustedHash: e.currentHash })));
+                },
+                onOpenAppUrl: jn,
+                onSetAppEnabled: Xt,
+                onSkillsUpdated: ut,
+                mcpServers: cr,
+                onOpenMcpSettings: () => {
+                  m(`/settings/mcp-settings`);
+                },
+                onToggleMcpServerEnabled: (e, t) => {
+                  Er(e, t);
+                },
+                plugin: J,
+                hooksNeedingReviewCount: yt.length,
+                state: `ready`,
+                unavailableSkills: sr.unavailableSkills,
+                workspaceRoots: ft,
+              })
+            : gr === `error`
+              ? (0, X.jsx)(xi, { errorMessage: hr, state: `error` })
+              : gr === `loading`
+                ? (0, X.jsx)(xi, { state: `loading` })
+                : (0, X.jsx)(xi, {
+                    state: `missing`,
+                    description: _r
+                      ? (0, X.jsx)(F, { ...$.missingFromCurrentMarketplaces })
+                      : void 0,
+                  }),
+      }),
+      (0, X.jsx)(Ze, {
+        hostId: V,
+        isInstalling: kt,
+        onConnectRequiredApp: Tt,
+        onInstall: Ot,
+        onRequiredAppConnected: Et,
+        onRequiredAppOAuthStarted: Dt,
+        onTryInChat:
+          J == null
+            ? void 0
+            : (e, t) => {
+                Cr(J, t);
+              },
+        onOpenChange: (e) => {
+          e || wt();
+        },
+        session: jt,
+      }),
+      (0, X.jsx)(Ct, {
+        app: Dn,
+        onOpenChange: (e) => {
+          e || En();
+        },
+        onOAuthStarted: On,
+        onConnected: async () => {
+          await Promise.all([
+            Qt({ hostId: V, queryClient: at, refreshAppsList: st }),
+            Ya({
+              hostId: V,
+              invalidateQueriesAndBroadcast: v,
+              ...Ja({ marketplacePath: Ye, plugin: J, pluginName: q, remoteMarketplaceName: Xe }),
+              refetchPluginDetail: gt,
+            }),
+          ]);
+        },
+      }),
+      (0, X.jsx)(ur, {
+        app: sn,
+        errorMessage: cn.error?.message ?? null,
+        isLoading: cn.isLoading,
+        onOpenChange: (e) => {
+          e || E(null);
+        },
+        onOpenAppUrl: jn,
+        onSetAppEnabled: Xt,
+        showEnableToggle: J?.summary.installed === !0,
+        onTryInChat: (e) => {
+          h({
+            prefillPrompt: `[@${e.name}](${_(ye(e.id))})`,
+            prefillCwd: it != null && it !== `/` ? it : void 0,
+            startInSidebar: !0,
+          });
+        },
+        tools: cn.data ?? [],
+        updatingAppId: Zt,
+      }),
+      J == null
+        ? null
+        : (0, X.jsx)(Fn, {
+            dialogMode: `detail`,
+            isDisabling: fr,
+            isUninstalling: dr,
+            open: y,
+            pluginDisplayName: Ga(J),
+            onOpenChange: b,
+            onConfirm: async () => {
+              await xr(J);
+            },
+          }),
+    ],
+  });
+}
+function Ra({
+  errorMessage: e,
+  isLoading: t,
+  marketplacePath: n,
+  plugin: r,
+  pluginName: i,
+  remoteMarketplaceName: a,
+}) {
+  return t
+    ? `loading`
+    : e == null
+      ? (n == null && a == null) || i == null || r == null
+        ? `missing`
+        : `ready`
+      : `error`;
+}
+function za(e) {
+  let t = (0, Y.c)(53),
+    {
+      blockedReason: n,
+      isInstallBlocked: r,
+      isInstallBlockedLoading: i,
+      isInstalling: a,
+      isUninstalling: o,
+      isUpdatingEnabled: s,
+      plugin: c,
+      shareActions: l,
+      onInstall: u,
+      onEnable: d,
+      onTryInChat: f,
+      onUninstall: p,
+    } = e,
+    m = P(),
+    h = n === `disabled-by-admin`;
+  if (!c.summary.installed) {
+    let e;
+    t[0] === n
+      ? (e = t[1])
+      : ((e = n === `connector-unavailable` ? (0, X.jsx)(F, { ...$.connectorUnavailable }) : null),
+        (t[0] = n),
+        (t[1] = e));
+    let o = !r || n !== `connector-unavailable`,
+      s = r || i,
+      c;
+    t[2] === h
+      ? (c = t[3])
+      : ((c = h ? (0, X.jsx)(q, { className: `icon-sm` }) : null), (t[2] = h), (t[3] = c));
+    let d;
+    t[4] !== h || t[5] !== a
+      ? ((d = !a && !h ? (0, X.jsx)(Lt, { className: `icon-xs` }) : null),
+        (t[4] = h),
+        (t[5] = a),
+        (t[6] = d))
+      : (d = t[6]);
+    let f;
+    t[7] !== h || t[8] !== a
+      ? ((f = a
+          ? (0, X.jsx)(F, { ...$.addingPlugin })
+          : h
+            ? (0, X.jsx)(F, { ...$.disabledByAdminButton })
+            : (0, X.jsx)(F, { ...$.addPlugin })),
+        (t[7] = h),
+        (t[8] = a),
+        (t[9] = f))
+      : (f = t[9]);
+    let p;
+    t[10] !== a || t[11] !== u || t[12] !== s || t[13] !== c || t[14] !== d || t[15] !== f
+      ? ((p = (0, X.jsxs)(G, {
+          color: `primary`,
+          size: `toolbar`,
+          disabled: s,
+          loading: a,
+          onClick: u,
+          children: [c, d, f],
+        })),
+        (t[10] = a),
+        (t[11] = u),
+        (t[12] = s),
+        (t[13] = c),
+        (t[14] = d),
+        (t[15] = f),
+        (t[16] = p))
+      : (p = t[16]);
+    let m;
+    t[17] !== e || t[18] !== o || t[19] !== p
+      ? ((m = (0, X.jsx)(_e, { tooltipContent: e, disabled: o, children: p })),
+        (t[17] = e),
+        (t[18] = o),
+        (t[19] = p),
+        (t[20] = m))
+      : (m = t[20]);
+    let g;
+    return (
+      t[21] !== l || t[22] !== m
+        ? ((g = (0, X.jsxs)(`div`, {
+            className: `flex flex-wrap items-center justify-end gap-2`,
+            children: [l, m],
+          })),
+          (t[21] = l),
+          (t[22] = m),
+          (t[23] = g))
+        : (g = t[23]),
+      g
+    );
+  }
+  let g;
+  t[24] === m
+    ? (g = t[25])
+    : ((g = m.formatMessage({
+        id: `plugins.detail.moreActions`,
+        defaultMessage: `More actions`,
+        description: `Aria label for the plugin detail page overflow menu`,
+      })),
+      (t[24] = m),
+      (t[25] = g));
+  let _;
+  t[26] === g ? (_ = t[27]) : ((_ = (0, X.jsx)(cn, { label: g })), (t[26] = g), (t[27] = _));
+  let v = s || o,
+    y;
+  t[28] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((y = (0, X.jsx)(`span`, {
+        className: `text-token-error-foreground`,
+        children: (0, X.jsx)(F, { ...$.uninstall }),
+      })),
+      (t[28] = y))
+    : (y = t[28]);
+  let b;
+  t[29] !== p || t[30] !== v
+    ? ((b = (0, X.jsx)(jt.Item, { disabled: v, onSelect: p, children: y })),
+      (t[29] = p),
+      (t[30] = v),
+      (t[31] = b))
+    : (b = t[31]);
+  let x;
+  t[32] !== _ || t[33] !== b
+    ? ((x = (0, X.jsx)(Mt, { align: `end`, contentWidth: `sm`, triggerButton: _, children: b })),
+      (t[32] = _),
+      (t[33] = b),
+      (t[34] = x))
+    : (x = t[34]);
+  let S = x;
+  if (h) {
+    let e;
+    t[35] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((e = (0, X.jsxs)(G, {
+          color: `primary`,
+          size: `toolbar`,
+          disabled: !0,
+          children: [
+            (0, X.jsx)(q, { className: `icon-sm` }),
+            (0, X.jsx)(F, { ...$.disabledByAdminButton }),
+          ],
+        })),
+        (t[35] = e))
+      : (e = t[35]);
+    let n;
+    return (
+      t[36] === S
+        ? (n = t[37])
+        : ((n = (0, X.jsxs)(`div`, {
+            className: `flex flex-wrap items-center justify-end gap-2`,
+            children: [S, e],
+          })),
+          (t[36] = S),
+          (t[37] = n)),
+      n
+    );
+  }
+  let C = c.summary.enabled ? f : d,
+    w;
+  t[38] !== s || t[39] !== c.summary.enabled
+    ? ((w = !s && c.summary.enabled ? (0, X.jsx)(ke, { className: `icon-xs` }) : null),
+      (t[38] = s),
+      (t[39] = c.summary.enabled),
+      (t[40] = w))
+    : (w = t[40]);
+  let T;
+  t[41] === c.summary.enabled
+    ? (T = t[42])
+    : ((T = c.summary.enabled
+        ? (0, X.jsx)(F, { ...$.tryInCodex })
+        : (0, X.jsx)(F, { ...$.enableInCodex })),
+      (t[41] = c.summary.enabled),
+      (t[42] = T));
+  let E;
+  t[43] !== o || t[44] !== s || t[45] !== C || t[46] !== w || t[47] !== T
+    ? ((E = (0, X.jsxs)(G, {
+        color: `primary`,
+        size: `toolbar`,
+        disabled: o,
+        loading: s,
+        onClick: C,
+        children: [w, T],
+      })),
+      (t[43] = o),
+      (t[44] = s),
+      (t[45] = C),
+      (t[46] = w),
+      (t[47] = T),
+      (t[48] = E))
+    : (E = t[48]);
+  let D;
+  return (
+    t[49] !== S || t[50] !== l || t[51] !== E
+      ? ((D = (0, X.jsxs)(`div`, {
+          className: `flex flex-wrap items-center justify-end gap-2`,
+          children: [S, l, E],
+        })),
+        (t[49] = S),
+        (t[50] = l),
+        (t[51] = E),
+        (t[52] = D))
+      : (D = t[52]),
+    D
+  );
+}
+function Ba(e) {
+  let t = (0, Y.c)(12),
+    { onCopyLink: n } = e,
+    [r, i] = (0, Z.useState)(!1),
+    a = (0, Z.useRef)(null),
+    o,
+    s;
+  (t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((o = () => () => {
+        a.current != null && clearTimeout(a.current);
+      }),
+      (s = []),
+      (t[0] = o),
+      (t[1] = s))
+    : ((o = t[0]), (s = t[1])),
+    (0, Z.useEffect)(o, s));
+  let c;
+  t[2] === n
+    ? (c = t[3])
+    : ((c = () => {
+        n().then((e) => {
+          e &&
+            (i(!0),
+            a.current != null && clearTimeout(a.current),
+            (a.current = setTimeout(() => {
+              i(!1);
+            }, 2e3)));
+        });
+      }),
+      (t[2] = n),
+      (t[3] = c));
+  let l = c,
+    u;
+  t[4] === r
+    ? (u = t[5])
+    : ((u = r
+        ? (0, X.jsx)(yt, { "aria-hidden": !0, className: `icon-xs` })
+        : (0, X.jsx)(vn, { "aria-hidden": !0, className: `icon-xs` })),
+      (t[4] = r),
+      (t[5] = u));
+  let d = r ? $.copiedLink : $.shareLink,
+    f;
+  t[6] === d ? (f = t[7]) : ((f = (0, X.jsx)(F, { ...d })), (t[6] = d), (t[7] = f));
+  let p;
+  return (
+    t[8] !== l || t[9] !== u || t[10] !== f
+      ? ((p = (0, X.jsxs)(G, {
+          color: `secondary`,
+          size: `toolbar`,
+          onClick: l,
+          children: [u, f],
+        })),
+        (t[8] = l),
+        (t[9] = u),
+        (t[10] = f),
+        (t[11] = p))
+      : (p = t[11]),
+    p
+  );
+}
+function Va({ apps: e, configuredServers: t, pluginServerNames: n }) {
+  return n.map((n) => {
+    let r = Ha(e, n);
+    if (r != null) return { kind: `app`, app: r };
+    let i = Ua(t, n),
+      a = i == null ? null : t[i];
+    return {
+      configKey: i,
+      kind: `config`,
+      enabled: a?.enabled !== !1,
+      installed: a != null,
+      name: n,
+    };
+  });
+}
+function Ha(e, t) {
+  let n = Wa(t);
+  return (
+    e.find((e) =>
+      [
+        e.id,
+        e.name,
+        ...e.pluginDisplayNames,
+        ...Object.keys(e.labels ?? {}),
+        ...Object.values(e.labels ?? {}),
+      ].some((e) => Wa(e) === n),
+    ) ?? null
+  );
+}
+function Ua(e, t) {
+  let n = Wa(t);
+  return Object.entries(e).find(([e, t]) => [e, t.name].some((e) => Wa(e) === n))?.[0] ?? null;
+}
+function Wa(e) {
+  return (e ?? ``)
+    .trim()
+    .toLowerCase()
+    .replace(/^connector[_-]/, ``)
+    .replace(/^mcp[_-]/, ``)
+    .replace(/[\s_-]+/g, ``);
+}
+function Ga(e) {
+  return e.summary.interface?.displayName ?? e.summary.name;
+}
+function Ka(e, t, n) {
+  return e == null
+    ? !1
+    : e.creatorAccountUserId != null && qa(e.creatorAccountUserId, t, n)
+      ? !0
+      : e.sharePrincipals?.some(
+          (e) => e.principalType === `user` && e.role === `owner` && qa(e.principalId, t, n),
+        ) === !0;
+}
+function qa(e, t, n) {
+  return e === t || e === n;
+}
+function Ja({ marketplacePath: e, plugin: t, pluginName: n, remoteMarketplaceName: r }) {
+  if (t == null) return { marketplacePath: e, pluginName: n, remoteMarketplaceName: r };
+  let i = Ie(Fe(t));
+  return `marketplacePath` in i
+    ? { marketplacePath: i.marketplacePath, pluginName: i.pluginName, remoteMarketplaceName: null }
+    : {
+        marketplacePath: null,
+        pluginName: i.pluginName,
+        remoteMarketplaceName: i.remoteMarketplaceName,
+      };
+}
+async function Ya({
+  hostId: e,
+  invalidateQueriesAndBroadcast: t,
+  marketplacePath: n,
+  pluginName: r,
+  remoteMarketplaceName: i,
+  refetchPluginDetail: a,
+}) {
+  (await Promise.all([
+    t(Re),
+    t(Gt({ hostId: e, marketplacePath: n, pluginName: r, remoteMarketplaceName: i })),
+  ]),
+    await a?.());
+}
+export {
+  br as A,
+  Pr as C,
+  _r as D,
+  Ir as E,
+  Hn as F,
+  zn as I,
+  Wn as L,
+  or as M,
+  ir as N,
+  yr as O,
+  Rn as P,
+  Bn as R,
+  Lr as S,
+  Fr as T,
+  Rr as _,
+  fi as a,
+  Mr as b,
+  ci as c,
+  Xr as d,
+  Jr as f,
+  Br as g,
+  zr as h,
+  gi as i,
+  ur as j,
+  xr as k,
+  ai as l,
+  qr as m,
+  Pa as n,
+  ui as o,
+  Yr as p,
+  ua as r,
+  li as s,
+  La as t,
+  ti as u,
+  Vr as v,
+  Ur as w,
+  Gr as x,
+  Hr as y,
+};
+//# sourceMappingURL=plugin-detail-page-2.js.map

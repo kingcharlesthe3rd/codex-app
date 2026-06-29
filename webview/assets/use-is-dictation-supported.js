@@ -1,0 +1,3740 @@
+import { s as e } from "./chunk-Bj-mKKzh.js";
+import { Br as t, Fr as n, Pr as r, Rr as i, m as a } from "./src-2.js";
+import { Wo as o, uo as s } from "./app-server-manager-signals.js";
+import { n as c, t as l } from "./jsx-runtime.js";
+import { t as u } from "./clsx.js";
+import {
+  A as d,
+  F as f,
+  I as p,
+  P as m,
+  a as h,
+  d as g,
+  f as _,
+  g as v,
+  h as y,
+  lt as b,
+  m as x,
+  n as S,
+  o as C,
+  p as w,
+  r as T,
+  u as E,
+} from "./vscode-api.js";
+import { c as ee, o as D } from "./lib-2.js";
+import { g as O, t as k } from "./persisted-signal-CweW-bgN.js";
+import { n as A } from "./rpc-1.js";
+import { d as j, o as M } from "./statsig.js";
+import { n as N } from "./use-auth-CI-WraL2.js";
+import { t as P } from "./use-debounced-value.js";
+import { r as F } from "./toast-signal.js";
+import { t as I } from "./tooltip.js";
+import { _ as L } from "./mention-item-C.js";
+import { t as te } from "./use-collaboration-mode.js";
+import { t as ne } from "./button.js";
+import { t as R } from "./spinner.js";
+import { t as z } from "./mime-types.js";
+import { t as B } from "./composer-footer.js";
+import { t as V } from "./apps.js";
+import { t as H } from "./x.js";
+import { t as re } from "./use-is-plugins-enabled.js";
+import { m as ie } from "./use-plugins.js";
+import { t as U } from "./app-intl-signal-B.js";
+import { t as ae } from "./with-window.js";
+import { a as oe, i as se } from "./use-native-apps.electron.js";
+import { n as ce } from "./json-2.js";
+import { t as le } from "./folder.js";
+import { t as ue } from "./image-square.js";
+import { t as W } from "./use-stable-callback.js";
+import { r as G } from "./modal-controller-state.js";
+import {
+  a as K,
+  d as q,
+  i as de,
+  l as fe,
+  n as pe,
+  r as me,
+  u as J,
+} from "./dialog-layout.js";
+import { t as he } from "./check-md.js";
+import { n as Y } from "./electron-menu-shortcuts.js";
+import { i as ge } from "./command-keybindings.js";
+import { t as _e } from "./badge-Bpp-zYoJ.js";
+import { r as X, t as ve } from "./dropdown.js";
+import { t as ye } from "./plus-d3DP-DMx.js";
+import { t as be } from "./image-preview-dialog.js";
+import { t as xe } from "./stop.js";
+import { i as Se } from "./plugins-page-selectors.js";
+import { t as Ce } from "./arrow-up.js";
+import { n as we } from "./appshot-availability.js";
+import { r as Te, t as Ee } from "./attachment-remove-button-IK_O-aB4.js";
+import { t as De } from "./appshot-logo.js";
+import { t as Oe } from "./toggle.js";
+import { t as ke } from "./regenerate.js";
+import { t as Ae } from "./appshot-window.js";
+import { t as je } from "./undo.js";
+import { t as Me } from "./plan.js";
+import { t as Ne } from "./use-composer-controller.js";
+import { i as Pe, n as Fe, r as Ie, t as Le } from "./use-recording-waveform.js";
+import { t as Re } from "./use-hotkey.js";
+var Z = e(c()),
+  Q = l(),
+  ze = (e) =>
+    (0, Q.jsxs)(`svg`, {
+      width: 20,
+      height: 20,
+      viewBox: `0 0 20 20`,
+      fill: `none`,
+      xmlns: `http://www.w3.org/2000/svg`,
+      ...e,
+      children: [
+        (0, Q.jsx)(`path`, {
+          d: `M9.96861 1.91681C10.3002 1.91681 10.569 2.18564 10.569 2.51722C10.5688 2.84865 10.3001 3.11764 9.96861 3.11764C6.14529 3.11779 3.04595 6.21713 3.04579 10.0404C3.04597 13.8637 6.14531 16.964 9.96861 16.9641C13.792 16.9641 16.8921 13.8638 16.8923 10.0404C16.8925 9.709 17.1612 9.44003 17.4927 9.44003C17.8241 9.44019 18.093 9.7091 18.0931 10.0404C18.0929 14.527 14.4552 18.165 9.96861 18.165C5.48215 18.1648 1.84515 14.5269 1.84497 10.0404C1.84513 5.55398 5.48214 1.91697 9.96861 1.91681Z`,
+          fill: `currentColor`,
+        }),
+        (0, Q.jsx)(`path`, {
+          d: `M8.73428 5.4417C9.05275 5.34987 9.38553 5.53321 9.47752 5.85167C9.56932 6.17 9.38575 6.50275 9.06755 6.59491C7.60672 7.01688 6.53899 8.36477 6.53894 9.96021C6.53907 11.8943 8.10685 13.4629 10.0409 13.4631C11.6106 13.463 12.9407 12.429 13.385 11.0041C13.4838 10.6877 13.8206 10.5114 14.1371 10.61C14.4536 10.7087 14.6308 11.0455 14.5321 11.3621C13.9357 13.2742 12.1509 14.663 10.0409 14.663C7.44369 14.6628 5.33824 12.5574 5.33812 9.96021C5.33816 7.81571 6.77345 6.00809 8.73428 5.4417Z`,
+          fill: `currentColor`,
+        }),
+        (0, Q.jsx)(`path`, {
+          fillRule: `evenodd`,
+          clipRule: `evenodd`,
+          d: `M13.8656 1.99087C14.3948 1.60393 15.1805 1.97721 15.1739 2.67063L15.1528 4.83776L17.319 4.8166L17.4539 4.82541C18.1023 4.92002 18.4014 5.73603 17.9115 6.22638L15.5046 8.63331C15.3075 8.83039 15.04 8.94171 14.7613 8.94189H12.2063L10.3936 10.7555C10.1591 10.9899 9.77811 10.9899 9.54364 10.7555C9.30989 10.521 9.30952 10.1407 9.54364 9.90643L11.0486 8.40144V5.22922C11.0486 4.95027 11.1591 4.68234 11.3563 4.48509L13.7633 2.07816L13.8656 1.99087ZM12.2495 5.29005V7.74107H14.6978L16.4136 6.02536L13.9414 6.05004L13.9643 3.57434L12.2495 5.29005Z`,
+          fill: `currentColor`,
+        }),
+      ],
+    }),
+  Be = h(y, `computer-use-frontmost-window`, {
+    enabled: !1,
+    refetchOnWindowFocus: !1,
+    staleTime: E.INFINITE,
+  }),
+  Ve = new Map(),
+  He = /^Window:\s*"(.*)",\s*App:/,
+  Ue = !1;
+async function We(
+  e,
+  {
+    getAnimationDestinationFrame: t,
+    getAttachmentGen: n,
+    onAddAppshotContext: r,
+    onCaptureAnimationDuration: i,
+    onCaptureSettled: a,
+    onCaptureStarted: o,
+    source: s,
+    target: c,
+  },
+) {
+  let l = () => {
+      e.get(F).danger(
+        e
+          .get(U)
+          .formatMessage({
+            id: `composer.appshotCapture.attach.error`,
+            defaultMessage: `Unable to attach appshot`,
+            description: `Toast shown when attaching an appshot fails`,
+          }),
+      );
+    },
+    u = crypto.randomUUID(),
+    d = Ge(t, c);
+  if (d == null) {
+    l();
+    return;
+  }
+  (v.info(`Appshot capture request created`, {
+    safe: { requestId: u, source: s },
+    sensitive: { bundleIdentifier: c.bundleIdentifier, name: c.name },
+  }),
+    qe(),
+    O(e, { eventName: `codex_appshot_capture_started`, metadata: { source: s } }),
+    Ve.set(u, {
+      scope: e,
+      attachmentGen: n(),
+      bundleIdentifier: c.bundleIdentifier,
+      filename: Qe(c),
+      getAttachmentGen: n,
+      imageDataUrl: null,
+      imagePath: null,
+      onAddAppshotContext: r,
+      onAttachError: l,
+      onCaptureSettled: a,
+      requestId: u,
+      source: s,
+      startedAt: performance.now(),
+      target: c,
+      text: null,
+      transitionSnapshotHeight: null,
+    }),
+    o?.(u));
+  let { transitionSnapshotScale: f, ...p } = Ge(t, c) ?? d;
+  try {
+    let e = performance.now();
+    v.info(`Appshot capture start request sent`, {
+      safe: { requestId: u, source: s },
+      sensitive: { bundleIdentifier: c.bundleIdentifier, name: c.name },
+    });
+    let t = await S(`computer-use-start-capture`, {
+      params: { animationDestination: p, bundleIdentifier: c.bundleIdentifier, requestId: u },
+    });
+    if (
+      (v.info(`Appshot capture start request finished`, {
+        safe: {
+          requestId: u,
+          source: s,
+          elapsedMs: Math.round(performance.now() - e),
+          hasResponse: t != null,
+        },
+        sensitive: {},
+      }),
+      t == null)
+    ) {
+      (i?.(u, null),
+        Xe(u, { status: `failed`, failureReason: `start_response_missing` })?.onAttachError());
+      return;
+    }
+    let n = Ve.get(u),
+      r = t.transitionSnapshotHeight == null ? null : t.transitionSnapshotHeight / f;
+    (n != null && Ve.set(u, { ...n, transitionSnapshotHeight: r }),
+      i?.(u, { ...t, transitionSnapshotHeight: r }));
+  } catch (e) {
+    (v.warning(`Appshot capture start request failed`, {
+      safe: { requestId: u, source: s },
+      sensitive: { error: e },
+    }),
+      i?.(u, null),
+      Xe(u, { status: `failed`, failureReason: `start_request_failed` })?.onAttachError());
+  }
+}
+function Ge(e, t) {
+  let n = e(t);
+  if (n == null || !Ke(n)) return;
+  let {
+    backgroundColor: r,
+    cornerRadius: i,
+    primaryTextColor: a,
+    transitionSnapshotScale: o = 1,
+    ...s
+  } = n;
+  return {
+    backgroundColor: r,
+    cornerRadius: i,
+    primaryTextColor: a,
+    transitionSnapshotScale: o,
+    viewportFrame: s,
+  };
+}
+function Ke(e) {
+  return e.width > 0 && e.height > 0 && e.cornerRadius >= 0;
+}
+function qe() {
+  Ue || ((Ue = !0), window.addEventListener(`message`, Je));
+}
+function Je(e) {
+  let t = x(e);
+  if (t?.type !== `computer-use-capture-updated`) return;
+  let n = Ve.get(t.requestId);
+  if (n == null) return;
+  if (
+    (v.info(`Appshot capture update received`, {
+      safe: {
+        requestId: t.requestId,
+        source: n.source,
+        updateType: t.update.type,
+        elapsedMs: Math.round(performance.now() - n.startedAt),
+      },
+      sensitive: {},
+    }),
+    n.attachmentGen !== n.getAttachmentGen())
+  ) {
+    Xe(t.requestId, { status: `discarded` });
+    return;
+  }
+  if (t.update.type === `failed`) {
+    (Xe(t.requestId, { status: `failed`, failureReason: t.update.failureReason }),
+      n.onAttachError());
+    return;
+  }
+  if (t.update.type === `metadata`) {
+    Ve.set(t.requestId, { ...n, bundleIdentifier: t.update.app.bundleIdentifier });
+    return;
+  }
+  if (t.update.type === `axText`) {
+    Ve.set(t.requestId, { ...n, text: t.update.text });
+    return;
+  }
+  if (t.update.type === `screenshot`) {
+    (n.source === `hotkey` &&
+      n.imageDataUrl == null &&
+      t.update.screenshotDataURL != null &&
+      _.dispatchMessage(`open-current-main-window`, { stealFocus: !0 }),
+      Ve.set(t.requestId, {
+        ...n,
+        imageDataUrl: t.update.screenshotDataURL ?? n.imageDataUrl,
+        imagePath: t.update.screenshotPath ?? n.imagePath,
+      }));
+    return;
+  }
+  if (n.imageDataUrl == null) {
+    (Xe(t.requestId, { status: `failed`, failureReason: `completed_without_screenshot` }),
+      n.onAttachError());
+    return;
+  }
+  let r = n.target.appIconDataUrl ?? n.target.iconSmallDataURL;
+  (Te(n.scope, n.bundleIdentifier, n.filename, r),
+    n.onAddAppshotContext(
+      {
+        appName: n.target.name,
+        windowTitle: Ye(n),
+        bundleIdentifier: n.bundleIdentifier,
+        axTree: n.text ?? ``,
+        imagePath: null,
+        imageName: n.filename,
+        imageDataUrl: n.imageDataUrl,
+        transitionSnapshotDataUrl: t.update.transitionSnapshotDataURL ?? null,
+        transitionSnapshotHeight: n.transitionSnapshotHeight,
+        appIconDataUrl: r,
+      },
+      t.requestId,
+    ),
+    Xe(t.requestId, { status: `success` }));
+}
+function Ye(e) {
+  let t = e.text?.match(He)?.[1]?.trim();
+  if (t != null && t.length > 0) return t;
+  let n = e.target.windowTitle?.trim();
+  return n != null && n.length > 0 ? n : null;
+}
+function Xe(e, t) {
+  let n = Ze(e, t.status);
+  if (n == null) return null;
+  let r = Math.round(performance.now() - n.startedAt);
+  return (
+    O(n.scope, {
+      eventName: `codex_appshot_capture_finished`,
+      metadata: {
+        source: n.source,
+        status: t.status,
+        ...(t.status === `failed` ? { failure_reason: t.failureReason } : {}),
+        duration_ms: r,
+        had_screenshot: n.imageDataUrl != null,
+        had_ax_text: n.text != null,
+      },
+    }),
+    v.info(`Appshot capture settled`, {
+      safe: {
+        requestId: e,
+        source: n.source,
+        status: t.status,
+        failureReason: t.status === `failed` ? t.failureReason : void 0,
+        elapsedMs: r,
+        hadScreenshot: n.imageDataUrl != null,
+        hadAxText: n.text != null,
+      },
+      sensitive: {},
+    }),
+    n
+  );
+}
+function Ze(e, t) {
+  let n = Ve.get(e);
+  return n == null ? null : (Ve.delete(e), n.onCaptureSettled?.(e, t === `success`), n);
+}
+function Qe(e) {
+  let t = e.name.replace(/[/:]/g, `-`).replace(/\s+/g, ` `).trim(),
+    n = new Date().toISOString().replaceAll(`:`, `-`);
+  return `${t || `App`} Appshot ${n}.png`;
+}
+var $ = b();
+function $e(e) {
+  let t = (0, $.c)(19),
+    { onClose: n, onContinue: r } = e,
+    i;
+  t[0] !== n || t[1] !== r
+    ? ((i = (e) => {
+        (e.preventDefault(), n(), r());
+      }),
+      (t[0] = n),
+      (t[1] = r),
+      (t[2] = i))
+    : (i = t[2]);
+  let a;
+  t[3] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((a = (0, Q.jsx)(q, {
+        className: `sr-only`,
+        children: (0, Q.jsx)(D, {
+          id: `composer.appshotCapture.firstUse.title`,
+          defaultMessage: `Enable Appshots`,
+          description: `Title for the first-use appshot explainer dialog`,
+        }),
+      })),
+      (t[3] = a))
+    : (a = t[3]);
+  let o;
+  t[4] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((o = (0, Q.jsx)(J, {
+        className: `sr-only`,
+        children: (0, Q.jsx)(D, {
+          id: `composer.appshotCapture.firstUse.description`,
+          defaultMessage: `Appshots let you attach your current window to Codex. Appshots include all window text, even what’s scrolled out of view.`,
+          description: `Description in the first-use appshot explainer dialog`,
+        }),
+      })),
+      (t[4] = o))
+    : (o = t[4]);
+  let s;
+  t[5] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((s = (0, Q.jsx)(`div`, {
+        className: `mb-6 flex justify-start`,
+        children: (0, Q.jsx)(`img`, {
+          alt: ``,
+          "aria-hidden": !0,
+          className: `h-[77px] w-[88px] object-contain`,
+          src: De,
+        }),
+      })),
+      (t[5] = s))
+    : (s = t[5]);
+  let c;
+  t[6] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((c = (0, Q.jsxs)(K, {
+        children: [
+          s,
+          (0, Q.jsx)(de, {
+            title: (0, Q.jsx)(D, {
+              id: `composer.appshotCapture.firstUse.title`,
+              defaultMessage: `Enable Appshots`,
+              description: `Title for the first-use appshot explainer dialog`,
+            }),
+            subtitle: (0, Q.jsx)(D, {
+              id: `composer.appshotCapture.firstUse.description`,
+              defaultMessage: `Appshots let you attach your current window to Codex. Appshots include all window text, even what’s scrolled out of view.`,
+              description: `Description in the first-use appshot explainer dialog`,
+            }),
+          }),
+        ],
+      })),
+      (t[6] = c))
+    : (c = t[6]);
+  let l;
+  t[7] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((l = (0, Q.jsx)(D, {
+        id: `composer.appshotCapture.firstUse.cancel`,
+        defaultMessage: `Cancel`,
+        description: `Cancel button label in the first-use appshot explainer dialog`,
+      })),
+      (t[7] = l))
+    : (l = t[7]);
+  let u;
+  t[8] === n
+    ? (u = t[9])
+    : ((u = (0, Q.jsx)(ne, { color: `ghost`, type: `button`, onClick: n, children: l })),
+      (t[8] = n),
+      (t[9] = u));
+  let d;
+  t[10] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((d = (0, Q.jsx)(ne, {
+        type: `submit`,
+        children: (0, Q.jsx)(D, {
+          id: `composer.appshotCapture.firstUse.continue`,
+          defaultMessage: `Enable`,
+          description: `Enable button label in the first-use appshot explainer dialog`,
+        }),
+      })),
+      (t[10] = d))
+    : (d = t[10]);
+  let f;
+  t[11] === u
+    ? (f = t[12])
+    : ((f = (0, Q.jsx)(K, { children: (0, Q.jsxs)(me, { children: [u, d] }) })),
+      (t[11] = u),
+      (t[12] = f));
+  let p;
+  t[13] !== i || t[14] !== f
+    ? ((p = (0, Q.jsxs)(pe, { as: `form`, onSubmit: i, children: [a, o, c, f] })),
+      (t[13] = i),
+      (t[14] = f),
+      (t[15] = p))
+    : (p = t[15]);
+  let m;
+  return (
+    t[16] !== n || t[17] !== p
+      ? ((m = (0, Q.jsx)(fe, { open: !0, onOpenChange: n, size: `compact`, children: p })),
+        (t[16] = n),
+        (t[17] = p),
+        (t[18] = m))
+      : (m = t[18]),
+    m
+  );
+}
+var et = k(`has-accepted-appshot-intro`, !1);
+function tt(e, t) {
+  if (e.get(et)) {
+    t();
+    return;
+  }
+  (_.dispatchMessage(`open-current-main-window`, { stealFocus: !0 }),
+    G(e, $e, {
+      onContinue: () => {
+        (e.set(et, !0), t());
+      },
+    }));
+}
+function nt(e) {
+  let t = (0, $.c)(18),
+    {
+      disabled: n,
+      executionTargetHostId: r,
+      getAnimationDestinationFrame: i,
+      getAttachmentGen: a,
+      handleSelectAndClose: o,
+      onAddAppshotContext: s,
+      onCaptureAnimationDuration: c,
+      onCaptureSettled: l,
+      onCaptureStarted: u,
+    } = e,
+    d = f(y),
+    h = m(we, r),
+    { data: g, isFetching: _ } = p(Be),
+    v = _ ? null : (g ?? null);
+  if (!h) return null;
+  let b = n || v == null,
+    x;
+  t[0] !== i ||
+  t[1] !== a ||
+  t[2] !== o ||
+  t[3] !== s ||
+  t[4] !== c ||
+  t[5] !== l ||
+  t[6] !== u ||
+  t[7] !== d ||
+  t[8] !== v
+    ? ((x = () => {
+        v != null &&
+          (o(),
+          tt(d, () => {
+            We(d, {
+              getAnimationDestinationFrame: i,
+              getAttachmentGen: a,
+              onAddAppshotContext: s,
+              onCaptureAnimationDuration: c,
+              onCaptureSettled: l,
+              onCaptureStarted: u,
+              source: `add_context_menu`,
+              target: v,
+            });
+          }));
+      }),
+      (t[0] = i),
+      (t[1] = a),
+      (t[2] = o),
+      (t[3] = s),
+      (t[4] = c),
+      (t[5] = l),
+      (t[6] = u),
+      (t[7] = d),
+      (t[8] = v),
+      (t[9] = x))
+    : (x = t[9]);
+  let S, C;
+  t[10] === v
+    ? ((S = t[11]), (C = t[12]))
+    : ((S = (0, Q.jsx)(X.ItemIcon, {
+        size: `xs`,
+        children:
+          v?.iconSmallDataURL == null
+            ? (0, Q.jsx)(Ae, { "aria-hidden": !0, className: `size-4` })
+            : (0, Q.jsx)(`img`, {
+                src: v.iconSmallDataURL,
+                alt: ``,
+                "aria-hidden": !0,
+                className: `size-4 rounded-[3px]`,
+              }),
+      })),
+      (C =
+        v == null
+          ? (0, Q.jsx)(D, {
+              id: `composer.appshotCapture.attach`,
+              defaultMessage: `Attach appshot`,
+              description: `Dropdown item label to attach an appshot`,
+            })
+          : (0, Q.jsx)(D, {
+              id: `composer.appshotCapture.attachApp`,
+              defaultMessage: `Attach {appName}`,
+              description: `Dropdown item label to attach an appshot from the current app`,
+              values: { appName: v.name },
+            })),
+      (t[10] = v),
+      (t[11] = S),
+      (t[12] = C));
+  let w;
+  return (
+    t[13] !== b || t[14] !== x || t[15] !== S || t[16] !== C
+      ? ((w = (0, Q.jsxs)(X.Item, { disabled: b, onSelect: x, children: [S, C] })),
+        (t[13] = b),
+        (t[14] = x),
+        (t[15] = S),
+        (t[16] = C),
+        (t[17] = w))
+      : (w = t[17]),
+    w
+  );
+}
+var rt = e(t(), 1),
+  it = [];
+function at(e) {
+  let t = (0, $.c)(90),
+    { hostId: n, initialDirectoryPath: i } = e,
+    a = ee(),
+    o = d(),
+    s = e.mode !== `file`,
+    c = e.mode === `file` ? e.selectedFilePaths : null,
+    l;
+  t[0] === c ? (l = t[1]) : ((l = new Set(c)), (t[0] = c), (t[1] = l));
+  let f = l,
+    p;
+  t[2] === i ? (p = t[3]) : ((p = i?.trim() ?? ``), (t[2] = i), (t[3] = p));
+  let [m, h] = (0, Z.useState)(p),
+    [g, _] = (0, Z.useState)(!1),
+    [v, y] = (0, Z.useState)(``),
+    b = P(v, 300),
+    x,
+    w,
+    O,
+    k;
+  if (t[4] !== m || t[5] !== g || t[6] !== v) {
+    k = v.trim();
+    let e;
+    (t[11] === m ? (e = t[12]) : ((e = m.trim() || null), (t[11] = m), (t[12] = e)),
+      (w = e),
+      (x = !0),
+      (O = g && !r(k)),
+      (t[4] = m),
+      (t[5] = g),
+      (t[6] = v),
+      (t[7] = x),
+      (t[8] = w),
+      (t[9] = O),
+      (t[10] = k));
+  } else ((x = t[7]), (w = t[8]), (O = t[9]), (k = t[10]));
+  if (O) ((w = null), (x = !1));
+  else if (g) {
+    let e;
+    t[13] === b ? (e = t[14]) : ((e = b.trim()), (t[13] = b), (t[14] = e));
+    let n = e;
+    w = n === k ? n : w;
+  }
+  let A;
+  t[15] !== w || t[16] !== n || t[17] !== s
+    ? ((A = { hostId: n, directoryPath: w, directoriesOnly: s }),
+      (t[15] = w),
+      (t[16] = n),
+      (t[17] = s),
+      (t[18] = A))
+    : (A = t[18]);
+  let j = w ?? ``,
+    M;
+  t[19] !== n || t[20] !== j ? ((M = [n, j]), (t[19] = n), (t[20] = j), (t[21] = M)) : (M = t[21]);
+  let N;
+  t[22] !== x || t[23] !== M
+    ? ((N = { cacheKey: M, enabled: x, staleTime: 0 }), (t[22] = x), (t[23] = M), (t[24] = N))
+    : (N = t[24]);
+  let F;
+  t[25] !== A || t[26] !== N
+    ? ((F = { params: A, queryConfig: N }), (t[25] = A), (t[26] = N), (t[27] = F))
+    : (F = t[27]);
+  let { data: I, error: L, isLoading: te } = C(`remote-workspace-directory-entries`, F),
+    R = w || I?.directoryPath || ``,
+    z = x && I?.directoryPath === R ? I.entries : it,
+    B = R;
+  (s && (B = e.selectedPath || R), s && g && (B = v));
+  let V;
+  t[28] !== x ||
+  t[29] !== I ||
+  t[30] !== R ||
+  t[31] !== z ||
+  t[32] !== B ||
+  t[33] !== s ||
+  t[34] !== g ||
+  t[35] !== e.selectedPath
+    ? ((V = st(B)),
+      x &&
+        I?.directoryPath === R &&
+        (!g || B === R) &&
+        (V =
+          s && z.some((t) => t.type === `directory` && t.path === e.selectedPath)
+            ? R
+            : I.parentPath),
+      (t[28] = x),
+      (t[29] = I),
+      (t[30] = R),
+      (t[31] = z),
+      (t[32] = B),
+      (t[33] = s),
+      (t[34] = g),
+      (t[35] = e.selectedPath),
+      (t[36] = V))
+    : (V = t[36]);
+  let H = te || !x || V == null,
+    re;
+  t[37] === a
+    ? (re = t[38])
+    : ((re = a.formatMessage({
+        id: `remoteCwdPicker.up`,
+        defaultMessage: `Enclosing folder`,
+        description: `Button label for moving the remote cwd picker to the parent directory`,
+      })),
+      (t[37] = a),
+      (t[38] = re));
+  let ie = re,
+    U;
+  t[39] !== a || t[40] !== s
+    ? ((U = s
+        ? a.formatMessage({
+            id: `remoteCwdPicker.selectedPath`,
+            defaultMessage: `Selected folder path`,
+            description: `Accessible label for the input showing the selected remote folder path`,
+          })
+        : a.formatMessage({
+            id: `remoteCwdPicker.currentPath`,
+            defaultMessage: `Current folder path`,
+            description: `Accessible label for the disabled input showing the current remote folder path in file picker mode`,
+          })),
+      (t[39] = a),
+      (t[40] = s),
+      (t[41] = U))
+    : (U = t[41]);
+  let ae = U,
+    oe;
+  t[42] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((oe = (e) => {
+        (_(!1), y(``), h(e));
+      }),
+      (t[42] = oe))
+    : (oe = t[42]);
+  let se = oe,
+    ce;
+  t[43] === e
+    ? (ce = t[44])
+    : ((ce = (t) => {
+        if (e.mode === `file`) return;
+        let n = t.trim();
+        if ((e.setSelectedPath(n), r(n))) {
+          (h(n), _(!1), y(``));
+          return;
+        }
+        (_(!0), y(n));
+      }),
+      (t[43] = e),
+      (t[44] = ce));
+  let le = ce,
+    ue,
+    W;
+  (t[45] !== z || t[46] !== n || t[47] !== s || t[48] !== o
+    ? ((ue = () => {
+        if (z.length === 0) return;
+        let e = z.filter(ot);
+        e.length !== 0 &&
+          Promise.all(
+            e.map((e) =>
+              o.prefetchQuery({
+                queryKey: T(
+                  `remote-workspace-directory-entries`,
+                  { hostId: n, directoryPath: e.path, directoriesOnly: s },
+                  [n, e.path.trim()],
+                ),
+                queryFn: () =>
+                  S(`remote-workspace-directory-entries`, {
+                    params: { hostId: n, directoryPath: e.path, directoriesOnly: s },
+                  }),
+                staleTime: E.INFINITE,
+              }),
+            ),
+          );
+      }),
+      (W = [z, n, s, o]),
+      (t[45] = z),
+      (t[46] = n),
+      (t[47] = s),
+      (t[48] = o),
+      (t[49] = ue),
+      (t[50] = W))
+    : ((ue = t[49]), (W = t[50])),
+    (0, Z.useEffect)(ue, W));
+  let G;
+  t[51] !== V || t[52] !== e
+    ? ((G = () => {
+        V != null && (se(V), e.mode !== `file` && e.setSelectedPath(V));
+      }),
+      (t[51] = V),
+      (t[52] = e),
+      (t[53] = G))
+    : (G = t[53]);
+  let K;
+  t[54] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((K = (0, Q.jsx)(je, { className: `icon-2xs` })), (t[54] = K))
+    : (K = t[54]);
+  let q;
+  t[55] !== ie || t[56] !== H || t[57] !== G
+    ? ((q = (0, Q.jsx)(ne, {
+        className: `shrink-0`,
+        color: `ghost`,
+        size: `composerSm`,
+        uniform: !0,
+        type: `button`,
+        "aria-label": ie,
+        disabled: H,
+        onClick: G,
+        children: K,
+      })),
+      (t[55] = ie),
+      (t[56] = H),
+      (t[57] = G),
+      (t[58] = q))
+    : (q = t[58]);
+  let de = !s,
+    fe = !s,
+    pe;
+  t[59] === le
+    ? (pe = t[60])
+    : ((pe = (e) => {
+        le(e.currentTarget.value);
+      }),
+      (t[59] = le),
+      (t[60] = pe));
+  let me;
+  t[61] === e
+    ? (me = t[62])
+    : ((me = (t) => {
+        if (e.mode === `file`) return;
+        let n = t.target.value;
+        (e.setSelectedPath(n), _(!0), y(n));
+      }),
+      (t[61] = e),
+      (t[62] = me));
+  let J;
+  t[63] === le
+    ? (J = t[64])
+    : ((J = (e) => {
+        e.key === `Enter` && (e.preventDefault(), le(e.currentTarget.value));
+      }),
+      (t[63] = le),
+      (t[64] = J));
+  let he;
+  t[65] !== B ||
+  t[66] !== ae ||
+  t[67] !== de ||
+  t[68] !== fe ||
+  t[69] !== pe ||
+  t[70] !== me ||
+  t[71] !== J
+    ? ((he = (0, Q.jsx)(`input`, {
+        "aria-label": ae,
+        className: `w-full min-w-0 flex-1 rounded-md border border-token-input-border bg-token-input-background px-2.5 py-1.5 text-sm text-token-input-foreground outline-none disabled:bg-token-foreground/5 disabled:text-token-text-secondary disabled:opacity-100`,
+        disabled: de,
+        readOnly: fe,
+        spellCheck: !1,
+        title: B,
+        value: B,
+        onBlur: pe,
+        onChange: me,
+        onKeyDown: J,
+      })),
+      (t[65] = B),
+      (t[66] = ae),
+      (t[67] = de),
+      (t[68] = fe),
+      (t[69] = pe),
+      (t[70] = me),
+      (t[71] = J),
+      (t[72] = he))
+    : (he = t[72]);
+  let Y;
+  t[73] !== q || t[74] !== he
+    ? ((Y = (0, Q.jsxs)(`div`, {
+        className: `mt-1 mb-2 flex min-w-0 items-center gap-1`,
+        children: [q, he],
+      })),
+      (t[73] = q),
+      (t[74] = he),
+      (t[75] = Y))
+    : (Y = t[75]);
+  let ge;
+  t[76] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((ge = u(
+        `min-h-0 flex-1`,
+        `bg-token-input-background border-token-input-border flex overflow-y-auto rounded-lg border`,
+      )),
+      (t[76] = ge))
+    : (ge = t[76]);
+  let _e;
+  t[77] !== x ||
+  t[78] !== I ||
+  t[79] !== R ||
+  t[80] !== z ||
+  t[81] !== L ||
+  t[82] !== s ||
+  t[83] !== te ||
+  t[84] !== e ||
+  t[85] !== f
+    ? ((_e = (0, Q.jsx)(`div`, {
+        className: ge,
+        children: x
+          ? te && I == null
+            ? (0, Q.jsx)(`div`, {
+                className: `flex w-full items-center justify-center px-4 text-sm text-token-description-foreground`,
+                children: (0, Q.jsx)(D, {
+                  id: `remoteCwdPicker.loading`,
+                  defaultMessage: `Loading folder contents…`,
+                  description: `Message shown while the remote cwd picker is loading the current folder contents`,
+                }),
+              })
+            : L || I == null
+              ? (0, Q.jsx)(`div`, {
+                  className: `flex w-full items-center justify-center px-4 text-sm text-token-description-foreground`,
+                  children: (0, Q.jsx)(D, {
+                    id: `remoteCwdPicker.loadError`,
+                    defaultMessage: `Unable to load this folder`,
+                    description: `Message shown when the remote cwd picker cannot load the current folder contents`,
+                  }),
+                })
+              : z.length === 0
+                ? (0, Q.jsx)(`div`, {
+                    className: `flex w-full items-center justify-center px-4 text-sm text-token-description-foreground`,
+                    children: s
+                      ? (0, Q.jsx)(D, {
+                          id: `remoteCwdPicker.empty`,
+                          defaultMessage: `No folders found in this directory.`,
+                          description: `Message shown when the current remote directory has no folders to choose from`,
+                        })
+                      : (0, Q.jsx)(D, {
+                          id: `remoteCwdPicker.emptyFiles`,
+                          defaultMessage: `No files or folders found in this directory`,
+                          description: `Message shown when the current remote directory has no files or folders to choose from`,
+                        }),
+                  })
+                : (0, Q.jsx)(`div`, {
+                    className: `flex w-full flex-col py-1`,
+                    children: z.map((t) => {
+                      if (t.type === `directory`)
+                        return (0, Q.jsx)(
+                          ct,
+                          {
+                            entry: t,
+                            isSelected: e.mode !== `file` && t.path === e.selectedPath,
+                            disabled: te,
+                            onOpen: () => {
+                              se(t.path);
+                            },
+                            onSelect: () => {
+                              if (e.mode === `file`) {
+                                se(t.path);
+                                return;
+                              }
+                              (se(R), e.setSelectedPath(t.path));
+                            },
+                          },
+                          t.path,
+                        );
+                      if (e.mode !== `file`) return null;
+                      let n = f.has(t.path);
+                      return (0, Q.jsx)(
+                        lt,
+                        {
+                          entry: t,
+                          isSelected: n,
+                          disabled: te,
+                          onSelect: () => {
+                            e.setSelectedFilePaths(
+                              n
+                                ? e.selectedFilePaths.filter((e) => e !== t.path)
+                                : [...e.selectedFilePaths, t.path],
+                            );
+                          },
+                        },
+                        t.path,
+                      );
+                    }),
+                  })
+          : (0, Q.jsx)(`div`, {
+              className: `flex w-full items-center justify-center px-4 text-sm text-token-description-foreground`,
+              children: (0, Q.jsx)(D, {
+                id: `remoteCwdPicker.enterFolderPath`,
+                defaultMessage: `Enter a folder path to browse`,
+                description: `Message shown when the remote cwd picker path input is empty`,
+              }),
+            }),
+      })),
+      (t[77] = x),
+      (t[78] = I),
+      (t[79] = R),
+      (t[80] = z),
+      (t[81] = L),
+      (t[82] = s),
+      (t[83] = te),
+      (t[84] = e),
+      (t[85] = f),
+      (t[86] = _e))
+    : (_e = t[86]);
+  let X;
+  return (
+    t[87] !== Y || t[88] !== _e
+      ? ((X = (0, Q.jsx)(`div`, {
+          className: `flex h-70 min-h-56 flex-col gap-3`,
+          children: (0, Q.jsxs)(`div`, {
+            className: `flex min-h-0 min-w-0 flex-1 flex-col`,
+            children: [Y, _e],
+          }),
+        })),
+        (t[87] = Y),
+        (t[88] = _e),
+        (t[89] = X))
+      : (X = t[89]),
+    X
+  );
+}
+function ot(e) {
+  return e.type === `directory`;
+}
+function st(e) {
+  if (e.length === 0) return null;
+  let t = n(e),
+    r = t ? i(e) : e,
+    a = rt.default.posix.dirname(r),
+    o = n(r) && /^[A-Za-z]:$/.test(a) ? `${a}/` : a;
+  return o === `.` || o === r ? null : t && e.includes(`\\`) ? o.replaceAll(`/`, `\\`) : o;
+}
+function ct(e) {
+  let t = (0, $.c)(13),
+    { entry: n, isSelected: r, disabled: i, onOpen: a, onSelect: o } = e,
+    s = !i && `hover:bg-token-foreground/5`,
+    c = i && `cursor-not-allowed opacity-50`,
+    l = r && `bg-token-foreground/10`,
+    d;
+  t[0] !== s || t[1] !== c || t[2] !== l
+    ? ((d = u(
+        `flex w-full min-w-0 self-stretch items-center gap-2 px-3 py-1.5 text-left text-sm`,
+        s,
+        c,
+        l,
+      )),
+      (t[0] = s),
+      (t[1] = c),
+      (t[2] = l),
+      (t[3] = d))
+    : (d = t[3]);
+  let f = i ? void 0 : o,
+    p;
+  t[4] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((p = (0, Q.jsx)(le, { className: `icon-xs shrink-0 text-token-description-foreground` })),
+      (t[4] = p))
+    : (p = t[4]);
+  let m;
+  t[5] === n.name
+    ? (m = t[6])
+    : ((m = (0, Q.jsx)(`span`, { className: `truncate`, children: n.name })),
+      (t[5] = n.name),
+      (t[6] = m));
+  let h;
+  return (
+    t[7] !== i || t[8] !== a || t[9] !== d || t[10] !== f || t[11] !== m
+      ? ((h = (0, Q.jsxs)(`button`, {
+          type: `button`,
+          className: d,
+          disabled: i,
+          onClick: f,
+          onDoubleClick: a,
+          children: [p, m],
+        })),
+        (t[7] = i),
+        (t[8] = a),
+        (t[9] = d),
+        (t[10] = f),
+        (t[11] = m),
+        (t[12] = h))
+      : (h = t[12]),
+    h
+  );
+}
+function lt(e) {
+  let t = (0, $.c)(16),
+    { entry: n, isSelected: r, disabled: i, onSelect: a } = e,
+    o = !i && `hover:bg-token-foreground/5`,
+    s = i && `cursor-not-allowed opacity-50`,
+    c = r && `bg-token-foreground/10`,
+    l;
+  t[0] !== o || t[1] !== s || t[2] !== c
+    ? ((l = u(
+        `flex w-full min-w-0 self-stretch items-center gap-2 px-3 py-1.5 text-left text-sm`,
+        o,
+        s,
+        c,
+      )),
+      (t[0] = o),
+      (t[1] = s),
+      (t[2] = c),
+      (t[3] = l))
+    : (l = t[3]);
+  let d = i ? void 0 : a,
+    f;
+  t[4] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((f = (0, Q.jsx)(ce, { className: `icon-xs shrink-0 text-token-description-foreground` })),
+      (t[4] = f))
+    : (f = t[4]);
+  let p;
+  t[5] === n.name
+    ? (p = t[6])
+    : ((p = (0, Q.jsx)(`span`, { className: `min-w-0 flex-1 truncate`, children: n.name })),
+      (t[5] = n.name),
+      (t[6] = p));
+  let m;
+  t[7] === r
+    ? (m = t[8])
+    : ((m = r ? (0, Q.jsx)(he, { className: `icon-xs shrink-0` }) : null), (t[7] = r), (t[8] = m));
+  let h;
+  return (
+    t[9] !== i || t[10] !== r || t[11] !== l || t[12] !== d || t[13] !== p || t[14] !== m
+      ? ((h = (0, Q.jsxs)(`button`, {
+          type: `button`,
+          className: l,
+          "aria-pressed": r,
+          disabled: i,
+          onClick: d,
+          children: [f, p, m],
+        })),
+        (t[9] = i),
+        (t[10] = r),
+        (t[11] = l),
+        (t[12] = d),
+        (t[13] = p),
+        (t[14] = m),
+        (t[15] = h))
+      : (h = t[15]),
+    h
+  );
+}
+var ut = (e) =>
+    (0, Q.jsx)(`svg`, {
+      width: 20,
+      height: 20,
+      viewBox: `0 0 20 20`,
+      fill: `none`,
+      xmlns: `http://www.w3.org/2000/svg`,
+      ...e,
+      children: (0, Q.jsx)(`path`, {
+        d: `M10.6878 9.46029L10.8421 9.49545L17.2913 11.43L17.4642 11.4974C18.2215 11.8649 18.2705 12.9544 17.5492 13.388L17.3822 13.4701L14.5872 14.5872L13.4701 17.3822C13.1135 18.2734 11.8913 18.2756 11.4974 17.4642L11.43 17.2913L9.49544 10.8421C9.26342 10.0687 9.92452 9.34418 10.6878 9.46029ZM12.4984 16.2288L13.3929 13.9954L13.4388 13.8949C13.5579 13.6675 13.7549 13.4891 13.9954 13.3929L16.2288 12.4984L10.9007 10.9007L12.4984 16.2288ZM5.90365 12.9749C6.16329 12.7153 6.58436 12.7154 6.84408 12.9749C7.10378 13.2346 7.10378 13.6557 6.84408 13.9154L5.0765 15.6829C4.8168 15.9426 4.39577 15.9426 4.13607 15.6829C3.87654 15.4232 3.87643 15.0022 4.13607 14.7425L5.90365 12.9749ZM2.83724 7.3265L5.25228 7.97299L5.37826 8.02084C5.65484 8.1591 5.80597 8.47712 5.72298 8.78744C5.63984 9.09774 5.34997 9.298 5.04134 9.27963L4.90853 9.25814L2.49349 8.61068L2.36752 8.56283C2.09082 8.42452 1.93961 8.10666 2.02279 7.79623C2.10599 7.4859 2.39574 7.28652 2.70443 7.30502L2.83724 7.3265ZM14.847 4.05111C15.1051 3.88059 15.4556 3.90894 15.6829 4.13607C15.9426 4.39577 15.9426 4.8168 15.6829 5.0765L13.9154 6.84408C13.6557 7.10378 13.2346 7.10378 12.9749 6.84408C12.7154 6.58437 12.7153 6.16329 12.9749 5.90365L14.7425 4.13607L14.847 4.05111ZM7.79623 2.02279C8.15098 1.92773 8.51562 2.13874 8.61068 2.49349L9.25814 4.90853L9.27962 5.04135C9.298 5.34998 9.09774 5.63984 8.78744 5.72299C8.47713 5.80592 8.15908 5.65484 8.02084 5.37826L7.97298 5.25228L7.3265 2.83724L7.30502 2.70443C7.28652 2.39577 7.48595 2.10603 7.79623 2.02279Z`,
+        fill: `currentColor`,
+      }),
+    }),
+  dt = (e) =>
+    (0, Q.jsx)(`svg`, {
+      width: 21,
+      height: 21,
+      viewBox: `0 0 21 21`,
+      fill: `none`,
+      xmlns: `http://www.w3.org/2000/svg`,
+      ...e,
+      children: (0, Q.jsx)(`path`, {
+        d: `M4.43945 12.8041V7.68261C4.43945 7.30642 4.74446 7.00141 5.12066 7.00141C5.49685 7.00141 5.80186 7.30642 5.80186 7.68261V12.8041C5.80186 15.2565 7.78984 17.2445 10.2422 17.2445C12.6945 17.2445 14.6825 15.2565 14.6825 12.8041V5.9751C14.6823 4.46587 13.4589 3.24247 11.9497 3.24229C10.4403 3.24229 9.21606 4.46576 9.21588 5.9751V12.8041C9.21588 13.3708 9.67553 13.8304 10.2422 13.8304C10.8088 13.8304 11.2685 13.3708 11.2685 12.8041V7.68261C11.2685 7.30642 11.5735 7.00141 11.9497 7.00141C12.3257 7.00159 12.6309 7.30653 12.6309 7.68261V12.8041C12.6309 14.1232 11.5612 15.1929 10.2422 15.1929C8.92314 15.1929 7.85347 14.1232 7.85347 12.8041V5.9751C7.85365 3.71337 9.68791 1.87988 11.9497 1.87988C14.2113 1.88006 16.0447 3.71348 16.0449 5.9751V12.8041C16.0449 16.0089 13.4469 18.6069 10.2422 18.6069C7.03745 18.6069 4.43945 16.0089 4.43945 12.8041Z`,
+        fill: `currentColor`,
+      }),
+    });
+function ft(e) {
+  let t = (0, $.c)(33),
+    { hostId: n, handleSelectAndClose: r } = e,
+    i = ee(),
+    a = Ne(),
+    o;
+  t[0] === n ? (o = t[1]) : ((o = { hostId: n }), (t[0] = n), (t[1] = o));
+  let s = re(o),
+    { availablePlugins: c } = ie(n),
+    l,
+    u,
+    d,
+    f,
+    p,
+    m,
+    h,
+    g,
+    _,
+    v;
+  if (t[2] !== c || t[3] !== a || t[4] !== r || t[5] !== i || t[6] !== s) {
+    u = Symbol.for(`react.early_return_sentinel`);
+    bb0: {
+      let e = L(i);
+      if (!s) {
+        u = null;
+        break bb0;
+      }
+      let n = Se(c);
+      if (n.length === 0) {
+        u = null;
+        break bb0;
+      }
+      (t[17] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((v = (0, Q.jsx)(X.Separator, {})), (t[17] = v))
+        : (v = t[17]),
+        (l = X.FlyoutSubmenuItem),
+        (p = !0),
+        (m = V),
+        t[18] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((h = (0, Q.jsx)(D, {
+              id: `composer.pluginsDropdown`,
+              defaultMessage: `Plugins`,
+              description: `Dropdown item label for enabled plugins in the add context menu`,
+            })),
+            (t[18] = h))
+          : (h = t[18]),
+        (g = `min-w-[160px]`),
+        (_ = (0, Q.jsx)(X.Title, {
+          className: `text-token-muted-foreground text-xs`,
+          children: (0, Q.jsx)(D, {
+            id: `composer.pluginsDropdown.installedCount`,
+            defaultMessage: `{count, plural, one {# installed plugin} other {# installed plugins}}`,
+            description: `Label at the top of the plugins submenu showing how many enabled installed plugins are available`,
+            values: { count: n.length },
+          }),
+        })),
+        (d = `max-h-80 overflow-y-auto`),
+        (f = n.map((t) => {
+          let n = oe(t, e),
+            i = se(t, e);
+          return (0, Q.jsx)(
+            X.Item,
+            {
+              LeftIcon: i,
+              leftIconClassName: `size-4 rounded-xs`,
+              onSelect: () => {
+                (a.insertMentionAtSelection(n), r());
+              },
+              children: n.displayName,
+            },
+            n.path,
+          );
+        })));
+    }
+    ((t[2] = c),
+      (t[3] = a),
+      (t[4] = r),
+      (t[5] = i),
+      (t[6] = s),
+      (t[7] = l),
+      (t[8] = u),
+      (t[9] = d),
+      (t[10] = f),
+      (t[11] = p),
+      (t[12] = m),
+      (t[13] = h),
+      (t[14] = g),
+      (t[15] = _),
+      (t[16] = v));
+  } else
+    ((l = t[7]),
+      (u = t[8]),
+      (d = t[9]),
+      (f = t[10]),
+      (p = t[11]),
+      (m = t[12]),
+      (h = t[13]),
+      (g = t[14]),
+      (_ = t[15]),
+      (v = t[16]));
+  if (u !== Symbol.for(`react.early_return_sentinel`)) return u;
+  let y;
+  t[19] !== d || t[20] !== f
+    ? ((y = (0, Q.jsx)(`div`, { className: d, children: f })),
+      (t[19] = d),
+      (t[20] = f),
+      (t[21] = y))
+    : (y = t[21]);
+  let b;
+  t[22] !== l ||
+  t[23] !== y ||
+  t[24] !== p ||
+  t[25] !== m ||
+  t[26] !== h ||
+  t[27] !== g ||
+  t[28] !== _
+    ? ((b = (0, Q.jsxs)(l, {
+        alignToParentBottom: p,
+        LeftIcon: m,
+        label: h,
+        contentClassName: g,
+        children: [_, y],
+      })),
+      (t[22] = l),
+      (t[23] = y),
+      (t[24] = p),
+      (t[25] = m),
+      (t[26] = h),
+      (t[27] = g),
+      (t[28] = _),
+      (t[29] = b))
+    : (b = t[29]);
+  let x;
+  return (
+    t[30] !== b || t[31] !== v
+      ? ((x = (0, Q.jsxs)(Q.Fragment, { children: [v, b] })), (t[30] = b), (t[31] = v), (t[32] = x))
+      : (x = t[32]),
+    x
+  );
+}
+function pt() {
+  let e = (0, $.c)(6),
+    [t, n] = (0, Z.useState)(!1),
+    [r, i] = (0, Z.useState)(!1),
+    a = (0, Z.useRef)(null),
+    o = (0, Z.useRef)(!1),
+    s;
+  e[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((s = () => {
+        (i(!0), (o.current = !0), a.current?.blur(), n(!1));
+      }),
+      (e[0] = s))
+    : (s = e[0]);
+  let c = s,
+    l = t || r ? !1 : void 0,
+    u,
+    d;
+  e[1] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((u = () => {
+        if (o.current) {
+          o.current = !1;
+          return;
+        }
+        i(!1);
+      }),
+      (d = () => {
+        ((o.current = !1), i(!1));
+      }),
+      (e[1] = u),
+      (e[2] = d))
+    : ((u = e[1]), (d = e[2]));
+  let f;
+  return (
+    e[3] !== t || e[4] !== l
+      ? ((f = {
+          isOpen: t,
+          setIsOpen: n,
+          tooltipOpen: l,
+          triggerRef: a,
+          onTriggerBlur: u,
+          onTriggerPointerLeave: d,
+          handleSelectAndClose: c,
+        }),
+        (e[3] = t),
+        (e[4] = l),
+        (e[5] = f))
+      : (f = e[5]),
+    f
+  );
+}
+function mt() {
+  let e = ee();
+  return async ({
+    imagesOnly: t,
+    pickerTitle: n = e.formatMessage({
+      id: `composer.filePicker.selectFiles`,
+      defaultMessage: `Select files`,
+      description: `Title for the multi-file picker dialog`,
+    }),
+  } = {}) =>
+    (await S(`pick-files`, { params: { ...(t ? { imagesOnly: !0 } : {}), pickerTitle: n } }))
+      .files ?? [];
+}
+var ht = e(z(), 1),
+  gt = (0, Z.memo)(function (e) {
+    let t = (0, $.c)(98),
+      {
+        onAddImageDataUrls: n,
+        onAddAppshotContext: r,
+        onAppshotCaptureAnimationDuration: i,
+        onAppshotCaptureSettled: a,
+        onAppshotCaptureStarted: o,
+        getAppshotCaptureAnimationDestinationFrame: s,
+        getAttachmentGen: c,
+        setFileAttachments: l,
+        onAddLocalFileAttachments: u,
+        conversationId: d,
+        executionTargetCwd: h,
+        executionTargetHostId: g,
+        isAutoContextOn: _,
+        setIsAutoContextOn: v,
+        ideContextStatus: b,
+        hasGoal: x,
+        isGoalActionAvailable: S,
+        onClearGoal: C,
+        onOpenGoalEditor: w,
+        supportsFileAttachments: T,
+        supportsRemoteFileAttachments: E,
+        disabled: O,
+      } = e,
+      k = T === void 0 ? !0 : T,
+      A = E === void 0 ? !1 : E,
+      j = O === void 0 ? !1 : O,
+      M = f(y),
+      N = ee(),
+      P = m(we, g),
+      L = mt(),
+      te = (0, Z.useRef)(!1),
+      R = (0, Z.useRef)(!1),
+      [z, B] = (0, Z.useState)(!1),
+      V;
+    t[0] === Symbol.for(`react.memo_cache_sentinel`) ? ((V = []), (t[0] = V)) : (V = t[0]);
+    let [H, re] = (0, Z.useState)(V),
+      {
+        isOpen: ie,
+        setIsOpen: U,
+        tooltipOpen: ae,
+        triggerRef: oe,
+        onTriggerBlur: se,
+        onTriggerPointerLeave: ce,
+        handleSelectAndClose: le,
+      } = pt(),
+      { isFetching: ue, refetch: W } = p(Be),
+      G = A && g !== `local`,
+      q = P && s != null,
+      J;
+    t[1] !== N || t[2] !== G || t[3] !== k
+      ? ((J = k
+          ? N.formatMessage({
+              id: `composer.addContextDropdown.ariaLabel`,
+              defaultMessage: `Add files and more`,
+              description: `Accessible label for the add context dropdown trigger button`,
+            })
+          : G
+            ? N.formatMessage({
+                id: `composer.addContextDropdown.ariaLabel.remoteFiles`,
+                defaultMessage: `Add photos, remote files, and more`,
+                description: `Accessible label for the add context dropdown trigger button in remote threads`,
+              })
+            : N.formatMessage({
+                id: `composer.addContextDropdown.ariaLabel.imagesOnly`,
+                defaultMessage: `Add photos and more`,
+                description: `Accessible label for the add context dropdown trigger button in remote projects`,
+              })),
+        (t[1] = N),
+        (t[2] = G),
+        (t[3] = k),
+        (t[4] = J))
+      : (J = t[4]);
+    let he = J,
+      Y;
+    t[5] !== N || t[6] !== k
+      ? ((Y = k
+          ? N.formatMessage({
+              id: `composer.filePicker.selectFiles`,
+              defaultMessage: `Select files`,
+              description: `Title for the multi-file picker dialog`,
+            })
+          : N.formatMessage({
+              id: `composer.filePicker.selectPhotos`,
+              defaultMessage: `Select photos`,
+              description: `Title for the remote-project image picker dialog`,
+            })),
+        (t[5] = N),
+        (t[6] = k),
+        (t[7] = Y))
+      : (Y = t[7]);
+    let ge = Y,
+      X;
+    t[8] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((X = function () {
+          (B(!1), re([]));
+        }),
+        (t[8] = X))
+      : (X = t[8]);
+    let be = X,
+      xe,
+      Se;
+    if (t[9] !== j || t[10] !== ue || t[11] !== W || t[12] !== U || t[13] !== q) {
+      ((xe = function (t) {
+        (!t && te.current) || (U(t), t && e());
+      }),
+        (Se = function () {
+          e();
+        }));
+      function e() {
+        j || !q || ue || W();
+      }
+      ((t[9] = j), (t[10] = ue), (t[11] = W), (t[12] = U), (t[13] = q), (t[14] = xe), (t[15] = Se));
+    } else ((xe = t[14]), (Se = t[15]));
+    let Ce, Te;
+    if (
+      t[16] !== ge ||
+      t[17] !== j ||
+      t[18] !== g ||
+      t[19] !== c ||
+      t[20] !== N ||
+      t[21] !== n ||
+      t[22] !== u ||
+      t[23] !== L ||
+      t[24] !== M ||
+      t[25] !== H ||
+      t[26] !== l ||
+      t[27] !== G ||
+      t[28] !== k
+    ) {
+      Ce = async function () {
+        if (!j)
+          try {
+            let e = c(),
+              t = await L({ imagesOnly: !k, pickerTitle: ge });
+            if (t.length === 0) return;
+            let { images: i, others: a } = bt(t),
+              o = [];
+            if ((i.length > 0 && (o = await r(i)), c() !== e)) return;
+            (o.length > 0 && n(o),
+              k && a.length > 0 && (g !== `local` && u != null ? u(a) : l((e) => [...e, ...a])));
+          } catch {
+            M.get(F).danger(
+              N.formatMessage({
+                id: `composer.addContext.openFilePickerError`,
+                defaultMessage: `Unable to open file picker`,
+                description: `Toast shown when the host file picker fails to open for attachments`,
+              }),
+            );
+          }
+      };
+      let e;
+      (t[31] !== H || t[32] !== l || t[33] !== G
+        ? ((e = function () {
+            !G || H.length === 0 || (l((e) => [...e, ...H.map(Ct)]), be());
+          }),
+          (t[31] = H),
+          (t[32] = l),
+          (t[33] = G),
+          (t[34] = e))
+        : (e = t[34]),
+        (Te = e));
+      async function r(e) {
+        return (await Promise.all(e.map(wt))).filter(Tt);
+      }
+      ((t[16] = ge),
+        (t[17] = j),
+        (t[18] = g),
+        (t[19] = c),
+        (t[20] = N),
+        (t[21] = n),
+        (t[22] = u),
+        (t[23] = L),
+        (t[24] = M),
+        (t[25] = H),
+        (t[26] = l),
+        (t[27] = G),
+        (t[28] = k),
+        (t[29] = Ce),
+        (t[30] = Te));
+    } else ((Ce = t[29]), (Te = t[30]));
+    let Ee;
+    t[35] === w
+      ? (Ee = t[36])
+      : ((Ee = (e) => {
+          R.current && ((R.current = !1), e.preventDefault(), w());
+        }),
+        (t[35] = w),
+        (t[36] = Ee));
+    let De;
+    t[37] !== G || t[38] !== k
+      ? ((De = k
+          ? (0, Q.jsx)(D, {
+              id: `composer.addContextDropdown.tooltipText`,
+              defaultMessage: `Add files and more`,
+              description: `Tooltip text for the add context dropdown trigger button`,
+            })
+          : G
+            ? (0, Q.jsx)(D, {
+                id: `composer.addContextDropdown.tooltipText.remoteFiles`,
+                defaultMessage: `Add photos, remote files, and more`,
+                description: `Tooltip text for the add context dropdown trigger button in remote threads`,
+              })
+            : (0, Q.jsx)(D, {
+                id: `composer.addContextDropdown.tooltipText.imagesOnly`,
+                defaultMessage: `Add photos and more`,
+                description: `Tooltip text for the add context dropdown trigger button in remote projects`,
+              })),
+        (t[37] = G),
+        (t[38] = k),
+        (t[39] = De))
+      : (De = t[39]);
+    let Oe;
+    t[40] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((Oe = (0, Q.jsx)(_e, {
+          className: `px-1 py-0 text-xs leading-none`,
+          children: (0, Q.jsx)(D, {
+            id: `composer.addContextDropdown.tooltipSlash`,
+            defaultMessage: `/`,
+            description: `Slash badge shown in the add context tooltip`,
+          }),
+        })),
+        (t[40] = Oe))
+      : (Oe = t[40]);
+    let ke;
+    t[41] === De
+      ? (ke = t[42])
+      : ((ke = (0, Q.jsxs)(`div`, { className: `flex items-center gap-1`, children: [De, Oe] })),
+        (t[41] = De),
+        (t[42] = ke));
+    let Ae;
+    t[43] === Se
+      ? (Ae = t[44])
+      : ((Ae = (e) => {
+          e.currentTarget.matches(`:hover`) || Se();
+        }),
+        (t[43] = Se),
+        (t[44] = Ae));
+    let je;
+    t[45] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((je = (0, Q.jsx)(ye, { className: `icon-sm` })), (t[45] = je))
+      : (je = t[45]);
+    let Me;
+    t[46] !== he || t[47] !== j || t[48] !== se || t[49] !== ce || t[50] !== Se || t[51] !== Ae
+      ? ((Me = (0, Q.jsx)(ne, {
+          size: `composer`,
+          color: `ghost`,
+          uniform: !0,
+          "aria-label": he,
+          disabled: j,
+          onPointerEnter: Se,
+          onFocus: Ae,
+          onPointerLeave: ce,
+          onBlur: se,
+          children: je,
+        })),
+        (t[46] = he),
+        (t[47] = j),
+        (t[48] = se),
+        (t[49] = ce),
+        (t[50] = Se),
+        (t[51] = Ae),
+        (t[52] = Me))
+      : (Me = t[52]);
+    let Ne;
+    t[53] !== ke || t[54] !== Me || t[55] !== ae || t[56] !== oe
+      ? ((Ne = (0, Q.jsx)(I, {
+          open: ae,
+          triggerRef: oe,
+          tooltipContent: ke,
+          side: `top`,
+          align: `center`,
+          sideOffset: 4,
+          children: Me,
+        })),
+        (t[53] = ke),
+        (t[54] = Me),
+        (t[55] = ae),
+        (t[56] = oe),
+        (t[57] = Ne))
+      : (Ne = t[57]);
+    let Pe;
+    t[58] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((Pe = () => {
+          (re([]), B(!0));
+        }),
+        (t[58] = Pe))
+      : (Pe = t[58]);
+    let Fe;
+    t[59] !== d ||
+    t[60] !== j ||
+    t[61] !== g ||
+    t[62] !== s ||
+    t[63] !== c ||
+    t[64] !== Ce ||
+    t[65] !== le ||
+    t[66] !== x ||
+    t[67] !== b ||
+    t[68] !== _ ||
+    t[69] !== S ||
+    t[70] !== r ||
+    t[71] !== i ||
+    t[72] !== a ||
+    t[73] !== o ||
+    t[74] !== C ||
+    t[75] !== v ||
+    t[76] !== U ||
+    t[77] !== q ||
+    t[78] !== G ||
+    t[79] !== k
+      ? ((Fe = (0, Q.jsx)(_t, {
+          conversationId: d,
+          disabled: j,
+          getAttachmentGen: c,
+          handleAddFiles: Ce,
+          handleSelectAndClose: le,
+          hasGoal: x,
+          hostId: g,
+          ideContextStatus: b,
+          isAutoContextOn: _,
+          isGoalActionAvailable: S,
+          onAddAppshotContext: r,
+          onClearGoal: C,
+          onOpenRemoteFilePicker: Pe,
+          getAppshotCaptureAnimationDestinationFrame: s,
+          onAppshotCaptureAnimationDuration: i,
+          onAppshotCaptureSettled: a,
+          onAppshotCaptureStarted: o,
+          setIsAutoContextOn: v,
+          setIsDropdownOpen: U,
+          shouldShowAppshotCapture: q,
+          shouldOpenGoalEditorOnCloseRef: R,
+          shouldShowRemoteFileAttachments: G,
+          supportsFileAttachments: k,
+          togglingSwitchRef: te,
+        })),
+        (t[59] = d),
+        (t[60] = j),
+        (t[61] = g),
+        (t[62] = s),
+        (t[63] = c),
+        (t[64] = Ce),
+        (t[65] = le),
+        (t[66] = x),
+        (t[67] = b),
+        (t[68] = _),
+        (t[69] = S),
+        (t[70] = r),
+        (t[71] = i),
+        (t[72] = a),
+        (t[73] = o),
+        (t[74] = C),
+        (t[75] = v),
+        (t[76] = U),
+        (t[77] = q),
+        (t[78] = G),
+        (t[79] = k),
+        (t[80] = Fe))
+      : (Fe = t[80]);
+    let Ie;
+    t[81] !== j || t[82] !== xe || t[83] !== ie || t[84] !== Ne || t[85] !== Fe || t[86] !== Ee
+      ? ((Ie = (0, Q.jsx)(ve, {
+          open: ie,
+          disabled: j,
+          onOpenChange: xe,
+          side: `top`,
+          align: `start`,
+          alignOffset: -8,
+          contentWidth: `icon`,
+          onCloseAutoFocus: Ee,
+          triggerButton: Ne,
+          children: Fe,
+        })),
+        (t[81] = j),
+        (t[82] = xe),
+        (t[83] = ie),
+        (t[84] = Ne),
+        (t[85] = Fe),
+        (t[86] = Ee),
+        (t[87] = Ie))
+      : (Ie = t[87]);
+    let Le;
+    t[88] !== h || t[89] !== g || t[90] !== Te || t[91] !== z || t[92] !== H || t[93] !== G
+      ? ((Le = G
+          ? (0, Q.jsx)(fe, {
+              open: z,
+              onOpenChange: (e) => {
+                e || be();
+              },
+              size: `wide`,
+              children: (0, Q.jsxs)(pe, {
+                as: `form`,
+                onSubmit: (e) => {
+                  (e.preventDefault(), Te());
+                },
+                children: [
+                  (0, Q.jsx)(K, {
+                    children: (0, Q.jsx)(de, {
+                      title: (0, Q.jsx)(D, {
+                        id: `composer.remoteFilePicker.title`,
+                        defaultMessage: `Add remote files`,
+                        description: `Title for the remote file picker dialog`,
+                      }),
+                    }),
+                  }),
+                  (0, Q.jsx)(K, {
+                    children: (0, Q.jsx)(at, {
+                      mode: `file`,
+                      hostId: g,
+                      initialDirectoryPath: h,
+                      selectedFilePaths: H,
+                      setSelectedFilePaths: re,
+                    }),
+                  }),
+                  (0, Q.jsx)(K, {
+                    children: (0, Q.jsxs)(me, {
+                      children: [
+                        (0, Q.jsx)(ne, {
+                          color: `ghost`,
+                          type: `button`,
+                          onClick: be,
+                          children: (0, Q.jsx)(D, {
+                            id: `composer.remoteFilePicker.cancel`,
+                            defaultMessage: `Cancel`,
+                            description: `Cancel button label for the remote file picker dialog`,
+                          }),
+                        }),
+                        (0, Q.jsx)(ne, {
+                          color: `primary`,
+                          type: `submit`,
+                          disabled: H.length === 0,
+                          children: (0, Q.jsx)(D, {
+                            id: `composer.remoteFilePicker.add`,
+                            defaultMessage: `Add files`,
+                            description: `Confirm button label for the remote file picker dialog`,
+                          }),
+                        }),
+                      ],
+                    }),
+                  }),
+                ],
+              }),
+            })
+          : null),
+        (t[88] = h),
+        (t[89] = g),
+        (t[90] = Te),
+        (t[91] = z),
+        (t[92] = H),
+        (t[93] = G),
+        (t[94] = Le))
+      : (Le = t[94]);
+    let Re;
+    return (
+      t[95] !== Ie || t[96] !== Le
+        ? ((Re = (0, Q.jsxs)(Q.Fragment, { children: [Ie, Le] })),
+          (t[95] = Ie),
+          (t[96] = Le),
+          (t[97] = Re))
+        : (Re = t[97]),
+      Re
+    );
+  });
+function _t(e) {
+  let t = (0, $.c)(102),
+    {
+      conversationId: n,
+      disabled: r,
+      getAttachmentGen: i,
+      handleAddFiles: a,
+      handleSelectAndClose: o,
+      hasGoal: s,
+      hostId: c,
+      ideContextStatus: l,
+      isAutoContextOn: u,
+      isGoalActionAvailable: d,
+      onAddAppshotContext: f,
+      onClearGoal: p,
+      onOpenRemoteFilePicker: m,
+      getAppshotCaptureAnimationDestinationFrame: h,
+      onAppshotCaptureAnimationDuration: g,
+      onAppshotCaptureSettled: _,
+      onAppshotCaptureStarted: v,
+      setIsAutoContextOn: y,
+      setIsDropdownOpen: b,
+      shouldShowAppshotCapture: x,
+      shouldOpenGoalEditorOnCloseRef: S,
+      shouldShowRemoteFileAttachments: C,
+      supportsFileAttachments: w,
+      togglingSwitchRef: T,
+    } = e,
+    E = ee(),
+    { activeMode: O, modes: k, setSelectedMode: A, isLoading: j } = te(n),
+    M = l === `connected`,
+    N = O.mode === `plan`,
+    P;
+  t[0] === k ? (P = t[1]) : ((P = k.some(yt)), (t[0] = k), (t[1] = P));
+  let F = P,
+    I;
+  t[2] === k ? (I = t[3]) : ((I = k.some(vt)), (t[2] = k), (t[3] = I));
+  let L = I,
+    ne;
+  t[4] === E
+    ? (ne = t[5])
+    : ((ne = E.formatMessage({
+        id: `composer.includeIdeContextDropdown.ariaLabel`,
+        defaultMessage: `Include IDE context`,
+        description: `Aria label for the include IDE context switch in the add context dropdown`,
+      })),
+      (t[4] = E),
+      (t[5] = ne));
+  let R = ne,
+    z;
+  t[6] === E
+    ? (z = t[7])
+    : ((z = E.formatMessage({
+        id: `composer.planModeDropdown.ariaLabel`,
+        defaultMessage: `Plan mode`,
+        description: `Aria label for the plan mode switch in the add context dropdown`,
+      })),
+      (t[6] = E),
+      (t[7] = z));
+  let B = z,
+    V;
+  t[8] === E
+    ? (V = t[9])
+    : ((V = E.formatMessage({
+        id: `composer.goalDropdown.ariaLabel`,
+        defaultMessage: `Goal`,
+        description: `Aria label for the goal switch in the add context dropdown`,
+      })),
+      (t[8] = E),
+      (t[9] = V));
+  let H = V,
+    re;
+  t[10] !== r || t[11] !== y
+    ? ((re = function (e) {
+        r || y(e);
+      }),
+      (t[10] = r),
+      (t[11] = y),
+      (t[12] = re))
+    : (re = t[12]);
+  let ie = re,
+    U;
+  t[13] !== r || t[14] !== L || t[15] !== F || t[16] !== A
+    ? ((U = function (e) {
+        if (!r && F) {
+          if (e) {
+            A(`plan`);
+            return;
+          }
+          if (L) {
+            A(`default`);
+            return;
+          }
+          A(null);
+        }
+      }),
+      (t[13] = r),
+      (t[14] = L),
+      (t[15] = F),
+      (t[16] = A),
+      (t[17] = U))
+    : (U = t[17]);
+  let oe = U,
+    se;
+  t[18] !== r || t[19] !== o || t[20] !== p || t[21] !== b || t[22] !== S
+    ? ((se = function (e) {
+        if (!r) {
+          if (e) {
+            ((S.current = !0), o());
+            return;
+          }
+          (p(), b(!0));
+        }
+      }),
+      (t[18] = r),
+      (t[19] = o),
+      (t[20] = p),
+      (t[21] = b),
+      (t[22] = S),
+      (t[23] = se))
+    : (se = t[23]);
+  let ce = se,
+    le = w ? dt : ue,
+    W;
+  t[24] !== r || t[25] !== a || t[26] !== o
+    ? ((W = () => {
+        r || (o(), a());
+      }),
+      (t[24] = r),
+      (t[25] = a),
+      (t[26] = o),
+      (t[27] = W))
+    : (W = t[27]);
+  let G;
+  t[28] === w
+    ? (G = t[29])
+    : ((G = w
+        ? (0, Q.jsx)(D, {
+            id: `composer.addPhotosAndFiles`,
+            defaultMessage: `Add photos & files`,
+            description: `Dropdown item label to add photos and files to the composer`,
+          })
+        : (0, Q.jsx)(D, {
+            id: `composer.addPhotos`,
+            defaultMessage: `Add photos`,
+            description: `Dropdown item label to add photos to the composer`,
+          })),
+      (t[28] = w),
+      (t[29] = G));
+  let K;
+  t[30] !== W || t[31] !== G || t[32] !== le
+    ? ((K = (0, Q.jsx)(X.Item, {
+        LeftIcon: le,
+        leftIconClassName: `icon-xs`,
+        onSelect: W,
+        children: G,
+      })),
+      (t[30] = W),
+      (t[31] = G),
+      (t[32] = le),
+      (t[33] = K))
+    : (K = t[33]);
+  let q;
+  t[34] !== r ||
+  t[35] !== h ||
+  t[36] !== i ||
+  t[37] !== o ||
+  t[38] !== c ||
+  t[39] !== f ||
+  t[40] !== g ||
+  t[41] !== _ ||
+  t[42] !== v ||
+  t[43] !== x
+    ? ((q =
+        x && h != null
+          ? (0, Q.jsx)(ae, {
+              electron: !0,
+              children: (0, Q.jsx)(nt, {
+                disabled: r,
+                executionTargetHostId: c,
+                getAnimationDestinationFrame: h,
+                onAddAppshotContext: f,
+                onCaptureAnimationDuration: g,
+                onCaptureSettled: _,
+                onCaptureStarted: v,
+                getAttachmentGen: i,
+                handleSelectAndClose: o,
+              }),
+            })
+          : null),
+      (t[34] = r),
+      (t[35] = h),
+      (t[36] = i),
+      (t[37] = o),
+      (t[38] = c),
+      (t[39] = f),
+      (t[40] = g),
+      (t[41] = _),
+      (t[42] = v),
+      (t[43] = x),
+      (t[44] = q))
+    : (q = t[44]);
+  let de;
+  t[45] !== r || t[46] !== o || t[47] !== m || t[48] !== C
+    ? ((de = C
+        ? (0, Q.jsx)(X.Item, {
+            LeftIcon: dt,
+            leftIconClassName: `icon-xs`,
+            onSelect: () => {
+              r || (o(), m());
+            },
+            children: (0, Q.jsx)(D, {
+              id: `composer.addRemoteFiles`,
+              defaultMessage: `Add remote files`,
+              description: `Dropdown item label to add remote files to the composer`,
+            }),
+          })
+        : null),
+      (t[45] = r),
+      (t[46] = o),
+      (t[47] = m),
+      (t[48] = C),
+      (t[49] = de))
+    : (de = t[49]);
+  let fe;
+  t[50] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((fe = (0, Q.jsx)(X.Separator, {})), (t[50] = fe))
+    : (fe = t[50]);
+  let pe;
+  t[51] !== r ||
+  t[52] !== o ||
+  t[53] !== R ||
+  t[54] !== u ||
+  t[55] !== M ||
+  t[56] !== b ||
+  t[57] !== T ||
+  t[58] !== ie
+    ? ((pe = M
+        ? (0, Q.jsx)(X.Item, {
+            LeftIcon: ut,
+            leftIconClassName: `icon-sm`,
+            onSelect: () => {
+              T.current || (ie(!u), o());
+            },
+            children: (0, Q.jsxs)(`div`, {
+              className: `flex w-full items-center justify-between gap-2`,
+              children: [
+                (0, Q.jsx)(D, {
+                  id: `composer.includeIdeContextDropdown`,
+                  defaultMessage: `Include IDE context`,
+                  description: `Dropdown item label to include IDE context in the composer`,
+                }),
+                (0, Q.jsx)(Oe, {
+                  ariaLabel: R,
+                  size: `sm`,
+                  checked: u,
+                  disabled: r,
+                  onPointerDownCapture: (e) => {
+                    ((T.current = !0), e.stopPropagation());
+                  },
+                  onPointerUpCapture: (e) => {
+                    (e.stopPropagation(),
+                      window.setTimeout(() => {
+                        T.current = !1;
+                      }, 0));
+                  },
+                  onChange: (e) => {
+                    (ie(e),
+                      b(!0),
+                      window.setTimeout(() => {
+                        T.current = !1;
+                      }, 0));
+                  },
+                }),
+              ],
+            }),
+          })
+        : null),
+      (t[51] = r),
+      (t[52] = o),
+      (t[53] = R),
+      (t[54] = u),
+      (t[55] = M),
+      (t[56] = b),
+      (t[57] = T),
+      (t[58] = ie),
+      (t[59] = pe))
+    : (pe = t[59]);
+  let me;
+  t[60] !== oe || t[61] !== o || t[62] !== N || t[63] !== T
+    ? ((me = () => {
+        T.current || (oe(!N), o());
+      }),
+      (t[60] = oe),
+      (t[61] = o),
+      (t[62] = N),
+      (t[63] = T),
+      (t[64] = me))
+    : (me = t[64]);
+  let J;
+  t[65] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((J = (0, Q.jsx)(`div`, {
+        className: `flex items-center gap-2`,
+        children: (0, Q.jsx)(D, {
+          id: `composer.planModeDropdown`,
+          defaultMessage: `Plan mode`,
+          description: `Dropdown item label for plan mode in the add context menu`,
+        }),
+      })),
+      (t[65] = J))
+    : (J = t[65]);
+  let he = r || j || !F,
+    Y,
+    ge;
+  t[66] === T
+    ? ((Y = t[67]), (ge = t[68]))
+    : ((Y = (e) => {
+        ((T.current = !0), e.stopPropagation());
+      }),
+      (ge = (e) => {
+        (e.stopPropagation(),
+          window.setTimeout(() => {
+            T.current = !1;
+          }, 0));
+      }),
+      (t[66] = T),
+      (t[67] = Y),
+      (t[68] = ge));
+  let _e;
+  t[69] !== oe || t[70] !== b || t[71] !== T
+    ? ((_e = (e) => {
+        (oe(e),
+          b(!0),
+          window.setTimeout(() => {
+            T.current = !1;
+          }, 0));
+      }),
+      (t[69] = oe),
+      (t[70] = b),
+      (t[71] = T),
+      (t[72] = _e))
+    : (_e = t[72]);
+  let ve;
+  t[73] !== N || t[74] !== B || t[75] !== he || t[76] !== Y || t[77] !== ge || t[78] !== _e
+    ? ((ve = (0, Q.jsxs)(`div`, {
+        className: `flex w-full items-center justify-between gap-2`,
+        children: [
+          J,
+          (0, Q.jsx)(Oe, {
+            ariaLabel: B,
+            size: `sm`,
+            checked: N,
+            disabled: he,
+            onPointerDownCapture: Y,
+            onPointerUpCapture: ge,
+            onChange: _e,
+          }),
+        ],
+      })),
+      (t[73] = N),
+      (t[74] = B),
+      (t[75] = he),
+      (t[76] = Y),
+      (t[77] = ge),
+      (t[78] = _e),
+      (t[79] = ve))
+    : (ve = t[79]);
+  let ye;
+  t[80] !== me || t[81] !== ve
+    ? ((ye = (0, Q.jsx)(X.Item, {
+        LeftIcon: Me,
+        leftIconClassName: `icon-xs`,
+        onSelect: me,
+        children: ve,
+      })),
+      (t[80] = me),
+      (t[81] = ve),
+      (t[82] = ye))
+    : (ye = t[82]);
+  let be;
+  t[83] !== r || t[84] !== H || t[85] !== ce || t[86] !== s || t[87] !== d || t[88] !== T
+    ? ((be = d
+        ? (0, Q.jsx)(X.Item, {
+            LeftIcon: ze,
+            leftIconClassName: `icon-xs`,
+            onSelect: () => {
+              T.current || ce(!s);
+            },
+            children: (0, Q.jsxs)(`div`, {
+              className: `flex w-full items-center justify-between gap-2`,
+              children: [
+                (0, Q.jsx)(D, {
+                  id: `composer.goalDropdown`,
+                  defaultMessage: `Pursue goal`,
+                  description: `Dropdown item label for the goal switch in the add context menu`,
+                }),
+                (0, Q.jsx)(Oe, {
+                  ariaLabel: H,
+                  size: `sm`,
+                  checked: s,
+                  disabled: r,
+                  onPointerDownCapture: (e) => {
+                    ((T.current = !0), e.stopPropagation());
+                  },
+                  onPointerUpCapture: (e) => {
+                    (e.stopPropagation(),
+                      window.setTimeout(() => {
+                        T.current = !1;
+                      }, 0));
+                  },
+                  onChange: (e) => {
+                    (ce(e),
+                      window.setTimeout(() => {
+                        T.current = !1;
+                      }, 0));
+                  },
+                }),
+              ],
+            }),
+          })
+        : null),
+      (t[83] = r),
+      (t[84] = H),
+      (t[85] = ce),
+      (t[86] = s),
+      (t[87] = d),
+      (t[88] = T),
+      (t[89] = be))
+    : (be = t[89]);
+  let xe;
+  t[90] !== r || t[91] !== o || t[92] !== c
+    ? ((xe = r ? null : (0, Q.jsx)(ft, { hostId: c, handleSelectAndClose: o })),
+      (t[90] = r),
+      (t[91] = o),
+      (t[92] = c),
+      (t[93] = xe))
+    : (xe = t[93]);
+  let Se;
+  return (
+    t[94] !== K ||
+    t[95] !== q ||
+    t[96] !== de ||
+    t[97] !== pe ||
+    t[98] !== ye ||
+    t[99] !== be ||
+    t[100] !== xe
+      ? ((Se = (0, Q.jsxs)(Q.Fragment, { children: [K, q, de, fe, pe, ye, be, xe] })),
+        (t[94] = K),
+        (t[95] = q),
+        (t[96] = de),
+        (t[97] = pe),
+        (t[98] = ye),
+        (t[99] = be),
+        (t[100] = xe),
+        (t[101] = Se))
+      : (Se = t[101]),
+    Se
+  );
+}
+function vt(e) {
+  return e.mode === `default`;
+}
+function yt(e) {
+  return e.mode === `plan`;
+}
+function bt(e) {
+  let t = [],
+    n = [];
+  for (let r of e) xt(r) ? t.push(r) : n.push(r);
+  return { images: t, others: n };
+}
+function xt(e) {
+  return a(e.fsPath || e.path || e.label);
+}
+function St({ contentsBase64: e, fsPath: t }) {
+  let n = (0, ht.lookup)(t);
+  return typeof n == `string` ? `data:${n};base64,${e}` : null;
+}
+function Ct(e) {
+  return { label: s(e), path: e, fsPath: e };
+}
+async function wt(e) {
+  try {
+    let t = await S(`read-file-binary`, { params: { path: e.fsPath, hostId: o } });
+    if (!t.contentsBase64) return null;
+    let n = St({ contentsBase64: t.contentsBase64, fsPath: e.fsPath });
+    return n ? { dataUrl: n, localPath: e.fsPath, filename: e.label } : null;
+  } catch {
+    return null;
+  }
+}
+function Tt(e) {
+  return e != null;
+}
+var Et = (e) =>
+  (0, Q.jsx)(`svg`, {
+    width: 24,
+    height: 24,
+    viewBox: `0 0 20 20`,
+    fill: `none`,
+    xmlns: `http://www.w3.org/2000/svg`,
+    ...e,
+    children: (0, Q.jsx)(`path`, {
+      d: `M7.9165 11.0012C9.43621 11.0012 10.7056 12.0728 11.0112 13.5012H16.6665L16.8013 13.5149C17.104 13.577 17.3314 13.8452 17.3315 14.1663C17.3315 14.4874 17.1041 14.7554 16.8013 14.8176L16.6665 14.8313H11.0112C10.7058 16.2601 9.43643 17.3313 7.9165 17.3313C6.39667 17.3311 5.12714 16.26 4.82178 14.8313H3.3335C2.96623 14.8313 2.66846 14.5335 2.66846 14.1663C2.66863 13.7991 2.96634 13.5012 3.3335 13.5012H4.82178C5.12738 12.0728 6.3969 11.0014 7.9165 11.0012ZM7.9165 12.3313C6.90332 12.3315 6.08172 13.1531 6.08154 14.1663C6.08154 15.1796 6.90321 16.001 7.9165 16.0012C8.92995 16.0012 9.75146 15.1797 9.75146 14.1663C9.75129 13.153 8.92984 12.3313 7.9165 12.3313ZM12.0835 2.66821C13.6033 2.66821 14.8727 3.73958 15.1782 5.16821H16.6665L16.8013 5.18188C17.1041 5.24406 17.3315 5.51204 17.3315 5.83325C17.3315 6.15446 17.1041 6.42245 16.8013 6.48462L16.6665 6.49829H15.1782C14.8727 7.92693 13.6033 8.99829 12.0835 8.99829C10.5637 8.99829 9.2943 7.92693 8.98877 6.49829H3.3335C2.96623 6.49829 2.66846 6.20052 2.66846 5.83325C2.66846 5.46598 2.96623 5.16821 3.3335 5.16821H8.98877C9.2943 3.73958 10.5637 2.66821 12.0835 2.66821ZM12.0835 3.99829C11.0701 3.99829 10.2485 4.81981 10.2485 5.83325C10.2485 6.84669 11.0701 7.66821 12.0835 7.66821C13.0969 7.66821 13.9185 6.84669 13.9185 5.83325C13.9185 4.81981 13.0969 3.99829 12.0835 3.99829Z`,
+      fill: `currentColor`,
+    }),
+  });
+function Dt(e) {
+  let t = (0, $.c)(44),
+    {
+      src: n,
+      filename: r,
+      alt: i,
+      onRemove: a,
+      loading: o,
+      previewEnabled: s,
+      previewPortalContainer: c,
+      onPreviewCloseAutoFocus: l,
+      onPreviewOpenChange: d,
+      previewItems: f,
+      previewIndex: p,
+      compact: m,
+    } = e,
+    h = i === void 0 ? `Attachment image` : i,
+    g = o === void 0 ? !1 : o,
+    _ = s === void 0 ? !0 : s,
+    v = p === void 0 ? 0 : p,
+    y = m === void 0 ? !1 : m,
+    b = ee(),
+    [x, S] = (0, Z.useState)(!1),
+    [C, w] = (0, Z.useState)(v),
+    T;
+  t[0] !== d || t[1] !== v
+    ? ((T = (e) => {
+        (e && w(v), S(e), d?.(e));
+      }),
+      (t[0] = d),
+      (t[1] = v),
+      (t[2] = T))
+    : (T = t[2]);
+  let E = T,
+    D;
+  t[3] !== h || t[4] !== n
+    ? ((D = { alt: h, src: n }), (t[3] = h), (t[4] = n), (t[5] = D))
+    : (D = t[5]);
+  let O = D,
+    k;
+  t[6] !== O || t[7] !== f ? ((k = f ?? [O]), (t[6] = O), (t[7] = f), (t[8] = k)) : (k = t[8]);
+  let A = k,
+    j = A[C] ?? O,
+    M = C > 0 ? C - 1 : null,
+    N = C + 1 < A.length ? C + 1 : null,
+    P;
+  if (
+    t[9] !== h ||
+    t[10] !== y ||
+    t[11] !== r ||
+    t[12] !== E ||
+    t[13] !== b ||
+    t[14] !== g ||
+    t[15] !== a ||
+    t[16] !== _ ||
+    t[17] !== n
+  ) {
+    let e =
+        r ??
+        b.formatMessage({
+          id: `imageAttachment.defaultName`,
+          defaultMessage: `image`,
+          description: `Default filename label for image attachment`,
+        }),
+      i = y ? `size-[54px]` : `size-20`,
+      o = _ ? `cursor-interaction` : `cursor-default`,
+      s;
+    t[19] !== i || t[20] !== o
+      ? ((s = u(
+          `border-token-border-heavy relative inline-flex flex-shrink-0 overflow-visible rounded-lg border focus:outline-none focus-visible:ring-1 focus-visible:ring-token-focus-border focus-visible:ring-inset`,
+          i,
+          o,
+        )),
+        (t[19] = i),
+        (t[20] = o),
+        (t[21] = s))
+      : (s = t[21]);
+    let c;
+    t[22] !== E || t[23] !== _
+      ? ((c = _
+          ? (e) => {
+              (e.key === `Enter` || e.key === ` `) && (e.preventDefault(), E(!0));
+            }
+          : void 0),
+        (t[22] = E),
+        (t[23] = _),
+        (t[24] = c))
+      : (c = t[24]);
+    let l;
+    t[25] !== h || t[26] !== n
+      ? ((l = (0, Q.jsx)(`span`, {
+          className: `absolute inset-0 overflow-hidden rounded-lg`,
+          children: (0, Q.jsx)(`img`, { src: n, alt: h, className: `size-full object-cover` }),
+        })),
+        (t[25] = h),
+        (t[26] = n),
+        (t[27] = l))
+      : (l = t[27]);
+    let d;
+    (t[28] === g
+      ? (d = t[29])
+      : ((d =
+          g &&
+          (0, Q.jsx)(`span`, {
+            className: `absolute inset-0 flex items-center justify-center rounded-lg bg-black/20`,
+            children: (0, Q.jsx)(`span`, {
+              className: `h-3 w-3 animate-spin rounded-full border-2 border-white/60 border-t-transparent`,
+            }),
+          })),
+        (t[28] = g),
+        (t[29] = d)),
+      (P = (0, Q.jsxs)(`div`, {
+        className: s,
+        role: _ ? `button` : void 0,
+        "aria-label": _ ? e : void 0,
+        tabIndex: _ ? 0 : void 0,
+        onKeyDown: c,
+        children: [
+          l,
+          d,
+          a &&
+            (0, Q.jsx)(Ee, {
+              ariaLabel: b.formatMessage(
+                {
+                  id: `imageAttachment.removeAriaLabel`,
+                  defaultMessage: `Remove {filename}`,
+                  description: `Aria label for the remove image attachment button`,
+                },
+                { filename: e },
+              ),
+              onRemove: a,
+            }),
+        ],
+      })),
+      (t[9] = h),
+      (t[10] = y),
+      (t[11] = r),
+      (t[12] = E),
+      (t[13] = b),
+      (t[14] = g),
+      (t[15] = a),
+      (t[16] = _),
+      (t[17] = n),
+      (t[18] = P));
+  } else P = t[18];
+  let F = P;
+  if (!_) return F;
+  let I;
+  t[30] === M
+    ? (I = t[31])
+    : ((I =
+        M == null
+          ? void 0
+          : () => {
+              w(M);
+            }),
+      (t[30] = M),
+      (t[31] = I));
+  let L;
+  t[32] === N
+    ? (L = t[33])
+    : ((L =
+        N == null
+          ? void 0
+          : () => {
+              w(N);
+            }),
+      (t[32] = N),
+      (t[33] = L));
+  let te;
+  return (
+    t[34] !== j.alt ||
+    t[35] !== j.src ||
+    t[36] !== E ||
+    t[37] !== x ||
+    t[38] !== l ||
+    t[39] !== F ||
+    t[40] !== c ||
+    t[41] !== I ||
+    t[42] !== L
+      ? ((te = (0, Q.jsx)(be, {
+          src: j.src,
+          alt: j.alt,
+          open: x,
+          onOpenChange: E,
+          downloadSrc: j.src,
+          imageDraggable: !1,
+          onCloseAutoFocus: l,
+          onPreviousImage: I,
+          onNextImage: L,
+          portalContainer: c,
+          triggerContent: F,
+        })),
+        (t[34] = j.alt),
+        (t[35] = j.src),
+        (t[36] = E),
+        (t[37] = x),
+        (t[38] = l),
+        (t[39] = F),
+        (t[40] = c),
+        (t[41] = I),
+        (t[42] = L),
+        (t[43] = te))
+      : (te = t[43]),
+    te
+  );
+}
+var Ot = (e) =>
+    (0, Q.jsxs)(`svg`, {
+      width: 20,
+      height: 20,
+      viewBox: `0 0 20 20`,
+      fill: `currentColor`,
+      xmlns: `http://www.w3.org/2000/svg`,
+      ...e,
+      children: [
+        (0, Q.jsx)(`path`, {
+          d: `M15.7806 10.1963C16.1326 10.3011 16.3336 10.6714 16.2288 11.0234L16.1487 11.2725C15.3429 13.6262 13.2236 15.3697 10.6644 15.6299L10.6653 16.835H12.0833L12.2171 16.8486C12.5202 16.9106 12.7484 17.1786 12.7484 17.5C12.7484 17.8214 12.5202 18.0894 12.2171 18.1514L12.0833 18.165H7.91632C7.5492 18.1649 7.25128 17.8672 7.25128 17.5C7.25128 17.1328 7.5492 16.8351 7.91632 16.835H9.33527L9.33429 15.6299C6.775 15.3697 4.6558 13.6262 3.84992 11.2725L3.76984 11.0234L3.74445 10.8906C3.71751 10.5825 3.91011 10.2879 4.21808 10.1963C4.52615 10.1047 4.84769 10.2466 4.99347 10.5195L5.04523 10.6436L5.10871 10.8418C5.8047 12.8745 7.73211 14.335 9.99933 14.335C12.3396 14.3349 14.3179 12.7789 14.9534 10.6436L15.0052 10.5195C15.151 10.2466 15.4725 10.1046 15.7806 10.1963ZM12.2513 5.41699C12.2513 4.17354 11.2437 3.16521 10.0003 3.16504C8.75675 3.16504 7.74835 4.17343 7.74835 5.41699V9.16699C7.74853 10.4104 8.75685 11.418 10.0003 11.418C11.2436 11.4178 12.2511 10.4103 12.2513 9.16699V5.41699ZM13.5814 9.16699C13.5812 11.1448 11.9781 12.7479 10.0003 12.748C8.02232 12.748 6.41845 11.1449 6.41828 9.16699V5.41699C6.41828 3.43889 8.02221 1.83496 10.0003 1.83496C11.9783 1.83514 13.5814 3.439 13.5814 5.41699V9.16699Z`,
+        }),
+        (0, Q.jsx)(`path`, {
+          d: `M3.75 3.25L16.75 16.25`,
+          fill: `none`,
+          stroke: `currentColor`,
+          strokeLinecap: `round`,
+          strokeWidth: 1.5,
+        }),
+      ],
+    }),
+  kt = (e) =>
+    (0, Q.jsx)(`svg`, {
+      width: 20,
+      height: 20,
+      viewBox: `0 0 20 20`,
+      fill: `currentColor`,
+      xmlns: `http://www.w3.org/2000/svg`,
+      ...e,
+      children: (0, Q.jsx)(`path`, {
+        d: `M15.7806 10.1963C16.1326 10.3011 16.3336 10.6714 16.2288 11.0234L16.1487 11.2725C15.3429 13.6262 13.2236 15.3697 10.6644 15.6299L10.6653 16.835H12.0833L12.2171 16.8486C12.5202 16.9106 12.7484 17.1786 12.7484 17.5C12.7484 17.8214 12.5202 18.0894 12.2171 18.1514L12.0833 18.165H7.91632C7.5492 18.1649 7.25128 17.8672 7.25128 17.5C7.25128 17.1328 7.5492 16.8351 7.91632 16.835H9.33527L9.33429 15.6299C6.775 15.3697 4.6558 13.6262 3.84992 11.2725L3.76984 11.0234L3.74445 10.8906C3.71751 10.5825 3.91011 10.2879 4.21808 10.1963C4.52615 10.1047 4.84769 10.2466 4.99347 10.5195L5.04523 10.6436L5.10871 10.8418C5.8047 12.8745 7.73211 14.335 9.99933 14.335C12.3396 14.3349 14.3179 12.7789 14.9534 10.6436L15.0052 10.5195C15.151 10.2466 15.4725 10.1046 15.7806 10.1963ZM12.2513 5.41699C12.2513 4.17354 11.2437 3.16521 10.0003 3.16504C8.75675 3.16504 7.74835 4.17343 7.74835 5.41699V9.16699C7.74853 10.4104 8.75685 11.418 10.0003 11.418C11.2436 11.4178 12.2511 10.4103 12.2513 9.16699V5.41699ZM13.5814 9.16699C13.5812 11.1448 11.9781 12.7479 10.0003 12.748C8.02232 12.748 6.41845 11.1449 6.41828 9.16699V5.41699C6.41828 3.43889 8.02221 1.83496 10.0003 1.83496C11.9783 1.83514 13.5814 3.439 13.5814 5.41699V9.16699Z`,
+      }),
+    }),
+  At = (e) =>
+    (0, Q.jsx)(`svg`, {
+      width: 20,
+      height: 20,
+      viewBox: `0 0 20 20`,
+      fill: `currentColor`,
+      xmlns: `http://www.w3.org/2000/svg`,
+      ...e,
+      children: (0, Q.jsx)(`path`, {
+        d: `M4.5 7.25H7L11.42 3.5C11.85 3.13 12.5 3.44 12.5 4V16C12.5 16.56 11.85 16.87 11.42 16.5L7 12.75H4.5C3.67 12.75 3 12.08 3 11.25V8.75C3 7.92 3.67 7.25 4.5 7.25ZM14.22 7.72C14.48 7.46 14.9 7.46 15.16 7.72L16.5 9.06L17.84 7.72C18.1 7.46 18.52 7.46 18.78 7.72C19.04 7.98 19.04 8.4 18.78 8.66L17.44 10L18.78 11.34C19.04 11.6 19.04 12.02 18.78 12.28C18.52 12.54 18.1 12.54 17.84 12.28L16.5 10.94L15.16 12.28C14.9 12.54 14.48 12.54 14.22 12.28C13.96 12.02 13.96 11.6 14.22 11.34L15.56 10L14.22 8.66C13.96 8.4 13.96 7.98 14.22 7.72Z`,
+      }),
+    }),
+  jt = (e) =>
+    (0, Q.jsx)(`svg`, {
+      width: 20,
+      height: 20,
+      viewBox: `0 0 20 20`,
+      fill: `currentColor`,
+      xmlns: `http://www.w3.org/2000/svg`,
+      ...e,
+      children: (0, Q.jsx)(`path`, {
+        d: `M4.5 7.25H7L11.42 3.5C11.85 3.13 12.5 3.44 12.5 4V16C12.5 16.56 11.85 16.87 11.42 16.5L7 12.75H4.5C3.67 12.75 3 12.08 3 11.25V8.75C3 7.92 3.67 7.25 4.5 7.25ZM14.32 6.43C14.58 6.17 15 6.17 15.26 6.43C17.23 8.4 17.23 11.6 15.26 13.57C15 13.83 14.58 13.83 14.32 13.57C14.06 13.31 14.06 12.89 14.32 12.63C15.77 11.18 15.77 8.82 14.32 7.37C14.06 7.11 14.06 6.69 14.32 6.43Z`,
+      }),
+    }),
+  Mt = 150;
+function Nt(e) {
+  let t = (0, $.c)(29),
+    {
+      recordingDurationMs: n,
+      waveformCanvasRef: r,
+      stopAction: i,
+      primaryAction: a,
+      leadingAccessory: s,
+      noBottomMargin: c,
+      tooltipPortalContainer: l,
+    } = e,
+    d = c !== void 0 && c ? `mb-0` : `mb-2`,
+    f;
+  t[0] === d ? (f = t[1]) : ((f = u(`flex items-center gap-2 px-2`, d)), (t[0] = d), (t[1] = f));
+  let p;
+  t[2] === s
+    ? (p = t[3])
+    : ((p =
+        s === void 0
+          ? (0, Q.jsx)(gt, {
+              onAddImageDataUrls: Bt,
+              onAddAppshotContext: zt,
+              getAttachmentGen: Rt,
+              setFileAttachments: Lt,
+              conversationId: null,
+              executionTargetCwd: null,
+              executionTargetHostId: o,
+              isAutoContextOn: !1,
+              setIsAutoContextOn: It,
+              ideContextStatus: `no-connection`,
+              hasGoal: !1,
+              isGoalActionAvailable: !1,
+              onClearGoal: Ft,
+              onOpenGoalEditor: Pt,
+              disabled: !0,
+            })
+          : s),
+      (t[2] = s),
+      (t[3] = p));
+  let m;
+  t[4] === r
+    ? (m = t[5])
+    : ((m = (0, Q.jsx)(`div`, {
+        className: `flex h-token-button-composer min-w-0 flex-1 items-center`,
+        children: (0, Q.jsx)(`canvas`, {
+          ref: r,
+          className: `h-token-button-composer w-full text-token-foreground`,
+        }),
+      })),
+      (t[4] = r),
+      (t[5] = m));
+  let h;
+  t[6] === n ? (h = t[7]) : ((h = Pe(n)), (t[6] = n), (t[7] = h));
+  let g;
+  t[8] === h
+    ? (g = t[9])
+    : ((g = (0, Q.jsx)(`span`, {
+        className: `text-sm text-token-foreground/70 tabular-nums`,
+        children: h,
+      })),
+      (t[8] = h),
+      (t[9] = g));
+  let _;
+  t[10] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((_ = (0, Q.jsx)(xe, { className: `icon-2xs` })), (t[10] = _))
+    : (_ = t[10]);
+  let v;
+  t[11] !== i.ariaLabel || t[12] !== i.disabled || t[13] !== i.onClick
+    ? ((v = (0, Q.jsx)(ne, {
+        size: `composer`,
+        color: `secondary`,
+        uniform: !0,
+        "aria-label": i.ariaLabel,
+        onClick: i.onClick,
+        disabled: i.disabled,
+        children: _,
+      })),
+      (t[11] = i.ariaLabel),
+      (t[12] = i.disabled),
+      (t[13] = i.onClick),
+      (t[14] = v))
+    : (v = t[14]);
+  let y;
+  t[15] !== i.tooltipContent || t[16] !== v || t[17] !== l
+    ? ((y = (0, Q.jsx)(I, {
+        tooltipContent: i.tooltipContent,
+        sideOffset: 4,
+        portalContainer: l,
+        children: v,
+      })),
+      (t[15] = i.tooltipContent),
+      (t[16] = v),
+      (t[17] = l),
+      (t[18] = y))
+    : (y = t[18]);
+  let b;
+  t[19] !== a || t[20] !== l
+    ? ((b =
+        a == null
+          ? null
+          : (0, Q.jsx)(I, {
+              tooltipContent: a.tooltipContent,
+              sideOffset: 4,
+              portalContainer: l,
+              children: (0, Q.jsx)(`button`, {
+                type: `button`,
+                className: u(
+                  `bg-token-foreground focus-visible:outline-token-button-background cursor-interaction size-token-button-composer flex items-center justify-center rounded-full p-0.5 transition-opacity focus-visible:outline-2`,
+                  a.disabled && `cursor-default opacity-50`,
+                ),
+                "aria-label": a.ariaLabel,
+                onClick: a.onClick,
+                disabled: a.disabled,
+                children: a.icon,
+              }),
+            })),
+      (t[19] = a),
+      (t[20] = l),
+      (t[21] = b))
+    : (b = t[21]);
+  let x;
+  return (
+    t[22] !== y || t[23] !== b || t[24] !== f || t[25] !== p || t[26] !== m || t[27] !== g
+      ? ((x = (0, Q.jsxs)(B, { className: f, children: [p, m, g, y, b] })),
+        (t[22] = y),
+        (t[23] = b),
+        (t[24] = f),
+        (t[25] = p),
+        (t[26] = m),
+        (t[27] = g),
+        (t[28] = x))
+      : (x = t[28]),
+    x
+  );
+}
+function Pt() {}
+function Ft() {}
+function It() {}
+function Lt() {}
+function Rt() {
+  return 0;
+}
+function zt() {}
+function Bt() {}
+function Vt(e) {
+  let t = (0, $.c)(27),
+    {
+      isTranscribing: n,
+      recordingDurationMs: r,
+      waveformCanvasRef: i,
+      stopDictation: a,
+      leadingAccessory: o,
+      noBottomMargin: s,
+      tooltipPortalContainer: c,
+    } = e,
+    l = s === void 0 ? !1 : s,
+    u = ee(),
+    d;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((d = (0, Q.jsx)(D, {
+        id: `composer.dictation.cancel.tooltip`,
+        defaultMessage: `Stop dictation`,
+        description: `Tooltip for the dictation stop button`,
+      })),
+      (t[0] = d))
+    : (d = t[0]);
+  let f;
+  t[1] === u
+    ? (f = t[2])
+    : ((f = u.formatMessage({
+        id: `composer.dictation.cancel.aria`,
+        defaultMessage: `Stop dictation`,
+        description: `Aria label for the dictation stop button`,
+      })),
+      (t[1] = u),
+      (t[2] = f));
+  let p;
+  t[3] === a ? (p = t[4]) : ((p = () => a(`insert`)), (t[3] = a), (t[4] = p));
+  let m;
+  t[5] !== n || t[6] !== f || t[7] !== p
+    ? ((m = { tooltipContent: d, ariaLabel: f, onClick: p, disabled: n }),
+      (t[5] = n),
+      (t[6] = f),
+      (t[7] = p),
+      (t[8] = m))
+    : (m = t[8]);
+  let h;
+  t[9] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((h = (0, Q.jsx)(D, {
+        id: `composer.dictation.submit.tooltip`,
+        defaultMessage: `Transcribe and send`,
+        description: `Tooltip for the dictation send button`,
+      })),
+      (t[9] = h))
+    : (h = t[9]);
+  let g;
+  t[10] === u
+    ? (g = t[11])
+    : ((g = u.formatMessage({
+        id: `composer.dictation.submit.aria`,
+        defaultMessage: `Transcribe and send`,
+        description: `Aria label for the dictation send button`,
+      })),
+      (t[10] = u),
+      (t[11] = g));
+  let _;
+  t[12] === a ? (_ = t[13]) : ((_ = () => a(`send`)), (t[12] = a), (t[13] = _));
+  let v;
+  t[14] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((v = (0, Q.jsx)(Ce, { className: `icon-sm text-token-dropdown-background` })), (t[14] = v))
+    : (v = t[14]);
+  let y;
+  t[15] !== n || t[16] !== g || t[17] !== _
+    ? ((y = { tooltipContent: h, ariaLabel: g, onClick: _, disabled: n, icon: v }),
+      (t[15] = n),
+      (t[16] = g),
+      (t[17] = _),
+      (t[18] = y))
+    : (y = t[18]);
+  let b;
+  return (
+    t[19] !== o ||
+    t[20] !== l ||
+    t[21] !== r ||
+    t[22] !== y ||
+    t[23] !== m ||
+    t[24] !== c ||
+    t[25] !== i
+      ? ((b = (0, Q.jsx)(Nt, {
+          recordingDurationMs: r,
+          waveformCanvasRef: i,
+          leadingAccessory: o,
+          noBottomMargin: l,
+          tooltipPortalContainer: c,
+          stopAction: m,
+          primaryAction: y,
+        })),
+        (t[19] = o),
+        (t[20] = l),
+        (t[21] = r),
+        (t[22] = y),
+        (t[23] = m),
+        (t[24] = c),
+        (t[25] = i),
+        (t[26] = b))
+      : (b = t[26]),
+    b
+  );
+}
+function Ht(e) {
+  let t = (0, $.c)(40),
+    {
+      isMicrophoneMuted: n,
+      isMuted: r,
+      phase: i,
+      sendAction: a,
+      toggleMicrophoneMute: s,
+      toggleMute: c,
+      waveformCanvasRef: l,
+      stopRealtime: d,
+      noBottomMargin: f,
+      tooltipPortalContainer: p,
+    } = e,
+    m = f === void 0 ? !1 : f,
+    h = ee(),
+    g,
+    _,
+    v,
+    y = null,
+    b;
+  bb0: switch (i) {
+    case `starting`: {
+      let e;
+      (t[0] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, Q.jsx)(D, {
+            id: `composer.realtime.cancel.label`,
+            defaultMessage: `Cancel`,
+            description: `Label for the button that cancels realtime voice startup`,
+          })),
+          (t[0] = e))
+        : (e = t[0]),
+        (g = e));
+      let n;
+      (t[1] === h
+        ? (n = t[2])
+        : ((n = h.formatMessage({
+            id: `composer.realtime.cancel.aria`,
+            defaultMessage: `Cancel realtime voice`,
+            description: `Aria label for the button that cancels realtime voice startup in the composer`,
+          })),
+          (t[1] = h),
+          (t[2] = n)),
+        (_ = n));
+      let r;
+      (t[3] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((r = (0, Q.jsx)(D, {
+            id: `composer.realtime.cancel.tooltip`,
+            defaultMessage: `Cancel realtime voice`,
+            description: `Tooltip for the button that cancels realtime voice startup in the composer`,
+          })),
+          (t[3] = r))
+        : (r = t[3]),
+        (v = r));
+      let i;
+      (t[4] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((i = (0, Q.jsx)(H, { className: `icon-2xs` })), (t[4] = i))
+        : (i = t[4]),
+        (y = i),
+        (b = `bg-token-foreground text-token-dropdown-background enabled:hover:bg-token-foreground/80`));
+      break bb0;
+    }
+    case `active`: {
+      let e;
+      (t[5] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, Q.jsx)(D, {
+            id: `composer.realtime.end.label`,
+            defaultMessage: `End`,
+            description: `Label for the button that ends realtime voice`,
+          })),
+          (t[5] = e))
+        : (e = t[5]),
+        (g = e));
+      let n;
+      (t[6] === h
+        ? (n = t[7])
+        : ((n = h.formatMessage({
+            id: `composer.realtime.end.aria`,
+            defaultMessage: `End realtime voice`,
+            description: `Aria label for the button that ends realtime voice mode in the composer`,
+          })),
+          (t[6] = h),
+          (t[7] = n)),
+        (_ = n));
+      let r;
+      (t[8] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((r = (0, Q.jsx)(D, {
+            id: `composer.realtime.end.tooltip`,
+            defaultMessage: `End realtime voice`,
+            description: `Tooltip for the button that ends realtime voice mode in the composer`,
+          })),
+          (t[8] = r))
+        : (r = t[8]),
+        (v = r));
+      let i;
+      (t[9] === l
+        ? (i = t[10])
+        : ((i = (0, Q.jsx)(`canvas`, {
+            ref: l,
+            className: `h-3 w-7 shrink-0 text-white`,
+            "aria-hidden": `true`,
+          })),
+          (t[9] = l),
+          (t[10] = i)),
+        (y = i),
+        (b = `bg-token-charts-blue text-white enabled:hover:bg-token-charts-blue/90 enabled:active:bg-token-charts-blue/80`));
+      break bb0;
+    }
+    case `stopping`: {
+      let e;
+      (t[11] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, Q.jsx)(D, {
+            id: `composer.realtime.ending.label`,
+            defaultMessage: `Ending…`,
+            description: `Label for the button while realtime voice is ending`,
+          })),
+          (t[11] = e))
+        : (e = t[11]),
+        (g = e));
+      let n;
+      (t[12] === h
+        ? (n = t[13])
+        : ((n = h.formatMessage({
+            id: `composer.realtime.ending.aria`,
+            defaultMessage: `Ending realtime voice`,
+            description: `Aria label for the button while realtime voice mode is ending in the composer`,
+          })),
+          (t[12] = h),
+          (t[13] = n)),
+        (_ = n));
+      let r;
+      (t[14] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((r = (0, Q.jsx)(D, {
+            id: `composer.realtime.ending.tooltip`,
+            defaultMessage: `Ending realtime voice…`,
+            description: `Tooltip for the button while realtime voice mode is ending in the composer`,
+          })),
+          (t[14] = r))
+        : (r = t[14]),
+        (v = r));
+      let i;
+      (t[15] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((i = (0, Q.jsx)(R, { className: `icon-2xs` })), (t[15] = i))
+        : (i = t[15]),
+        (y = i),
+        (b = `bg-token-foreground text-token-dropdown-background`));
+    }
+  }
+  let x = m ? `mb-0` : `mb-2`,
+    S;
+  t[16] === x
+    ? (S = t[17])
+    : ((S = u(`flex items-center gap-2 px-2`, x)), (t[16] = x), (t[17] = S));
+  let C, w;
+  t[18] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((C = (0, Q.jsx)(gt, {
+        onAddImageDataUrls: Yt,
+        onAddAppshotContext: Jt,
+        getAttachmentGen: qt,
+        setFileAttachments: Kt,
+        conversationId: null,
+        executionTargetCwd: null,
+        executionTargetHostId: o,
+        isAutoContextOn: !1,
+        setIsAutoContextOn: Gt,
+        ideContextStatus: `no-connection`,
+        hasGoal: !1,
+        isGoalActionAvailable: !1,
+        onClearGoal: Wt,
+        onOpenGoalEditor: Ut,
+        disabled: !0,
+      })),
+      (w = (0, Q.jsx)(`div`, { className: `min-w-0 flex-1` })),
+      (t[18] = C),
+      (t[19] = w))
+    : ((C = t[18]), (w = t[19]));
+  let T;
+  t[20] !== _ ||
+  t[21] !== b ||
+  t[22] !== y ||
+  t[23] !== g ||
+  t[24] !== v ||
+  t[25] !== h ||
+  t[26] !== n ||
+  t[27] !== r ||
+  t[28] !== i ||
+  t[29] !== a ||
+  t[30] !== d ||
+  t[31] !== s ||
+  t[32] !== c ||
+  t[33] !== p
+    ? ((T =
+        a ??
+        (0, Q.jsxs)(Q.Fragment, {
+          children: [
+            (0, Q.jsx)(I, {
+              tooltipContent: n
+                ? (0, Q.jsx)(D, {
+                    id: `composer.realtime.unmuteMicrophone.tooltip`,
+                    defaultMessage: `Unmute microphone`,
+                    description: `Tooltip for the button that unmutes the user's microphone in realtime voice mode`,
+                  })
+                : (0, Q.jsx)(D, {
+                    id: `composer.realtime.muteMicrophone.tooltip`,
+                    defaultMessage: `Mute microphone`,
+                    description: `Tooltip for the button that mutes the user's microphone in realtime voice mode`,
+                  }),
+              sideOffset: 4,
+              portalContainer: p,
+              children: (0, Q.jsx)(ne, {
+                size: `composer`,
+                color: `secondary`,
+                uniform: !0,
+                "aria-label": n
+                  ? h.formatMessage({
+                      id: `composer.realtime.unmuteMicrophone.aria`,
+                      defaultMessage: `Unmute microphone`,
+                      description: `Aria label for the button that unmutes the user's microphone in realtime voice mode`,
+                    })
+                  : h.formatMessage({
+                      id: `composer.realtime.muteMicrophone.aria`,
+                      defaultMessage: `Mute microphone`,
+                      description: `Aria label for the button that mutes the user's microphone in realtime voice mode`,
+                    }),
+                "aria-pressed": n,
+                disabled: i !== `active`,
+                onClick: s,
+                children: n
+                  ? (0, Q.jsx)(Ot, { className: `icon-2xs` })
+                  : (0, Q.jsx)(kt, { className: `icon-2xs` }),
+              }),
+            }),
+            (0, Q.jsx)(I, {
+              tooltipContent: r
+                ? (0, Q.jsx)(D, {
+                    id: `composer.realtime.unmute.tooltip`,
+                    defaultMessage: `Unmute realtime voice`,
+                    description: `Tooltip for the button that unmutes realtime voice mode in the composer`,
+                  })
+                : (0, Q.jsx)(D, {
+                    id: `composer.realtime.mute.tooltip`,
+                    defaultMessage: `Mute realtime voice`,
+                    description: `Tooltip for the button that mutes realtime voice mode in the composer`,
+                  }),
+              sideOffset: 4,
+              portalContainer: p,
+              children: (0, Q.jsx)(ne, {
+                size: `composer`,
+                color: `secondary`,
+                uniform: !0,
+                "aria-label": r
+                  ? h.formatMessage({
+                      id: `composer.realtime.unmute.aria`,
+                      defaultMessage: `Unmute realtime voice`,
+                      description: `Aria label for the button that unmutes realtime voice mode in the composer`,
+                    })
+                  : h.formatMessage({
+                      id: `composer.realtime.mute.aria`,
+                      defaultMessage: `Mute realtime voice`,
+                      description: `Aria label for the button that mutes realtime voice mode in the composer`,
+                    }),
+                "aria-pressed": r,
+                disabled: i !== `active`,
+                onClick: c,
+                children: r
+                  ? (0, Q.jsx)(At, { className: `icon-2xs` })
+                  : (0, Q.jsx)(jt, { className: `icon-2xs` }),
+              }),
+            }),
+            (0, Q.jsx)(I, {
+              tooltipContent: v,
+              sideOffset: 4,
+              portalContainer: p,
+              children: (0, Q.jsxs)(`button`, {
+                type: `button`,
+                className: u(
+                  `focus-visible:outline-token-button-background cursor-interaction flex h-token-button-composer min-w-14 items-center justify-center gap-1 rounded-full px-2 text-sm font-semibold leading-[18px] whitespace-nowrap focus-visible:outline-2 disabled:cursor-default`,
+                  b,
+                ),
+                "aria-label": _,
+                disabled: i === `stopping`,
+                onClick: d,
+                children: [y, g],
+              }),
+            }),
+          ],
+        })),
+      (t[20] = _),
+      (t[21] = b),
+      (t[22] = y),
+      (t[23] = g),
+      (t[24] = v),
+      (t[25] = h),
+      (t[26] = n),
+      (t[27] = r),
+      (t[28] = i),
+      (t[29] = a),
+      (t[30] = d),
+      (t[31] = s),
+      (t[32] = c),
+      (t[33] = p),
+      (t[34] = T))
+    : (T = t[34]);
+  let E;
+  t[35] === T
+    ? (E = t[36])
+    : ((E = (0, Q.jsx)(`div`, { className: `flex shrink-0 items-center gap-2`, children: T })),
+      (t[35] = T),
+      (t[36] = E));
+  let O;
+  return (
+    t[37] !== S || t[38] !== E
+      ? ((O = (0, Q.jsxs)(B, { className: S, children: [C, w, E] })),
+        (t[37] = S),
+        (t[38] = E),
+        (t[39] = O))
+      : (O = t[39]),
+    O
+  );
+}
+function Ut() {}
+function Wt() {}
+function Gt() {}
+function Kt() {}
+function qt() {
+  return 0;
+}
+function Jt() {}
+function Yt() {}
+function Xt(e) {
+  let t = (0, $.c)(38),
+    {
+      isVisible: n,
+      isTranscribing: r,
+      canRetryDictation: i,
+      disabled: a,
+      retryDictation: o,
+      shortcutLabel: s,
+      startDictation: c,
+      stopDictation: l,
+      tooltipPortalContainer: u,
+    } = e,
+    d = a === void 0 ? !1 : a,
+    f = ee(),
+    p = (0, Z.useRef)(null),
+    m = (0, Z.useRef)(!1),
+    h = (0, Z.useRef)(!1),
+    g = (0, Z.useRef)(!1),
+    _ = (0, Z.useRef)(!1),
+    v,
+    y;
+  if (
+    (t[0] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((v = () => () => {
+          p.current != null && (window.clearTimeout(p.current), (p.current = null));
+        }),
+        (y = []),
+        (t[0] = v),
+        (t[1] = y))
+      : ((v = t[0]), (y = t[1])),
+    (0, Z.useEffect)(v, y),
+    !n)
+  )
+    return null;
+  let b = i && !r,
+    x;
+  t[2] !== f || t[3] !== b
+    ? ((x = b
+        ? f.formatMessage({
+            id: `composer.dictation.retry.aria`,
+            defaultMessage: `Retry dictation`,
+            description: `Aria label for the button that retries composer dictation transcription`,
+          })
+        : f.formatMessage({
+            id: `composer.dictation.aria`,
+            defaultMessage: `Dictate`,
+            description: `Aria label for dictation button`,
+          })),
+      (t[2] = f),
+      (t[3] = b),
+      (t[4] = x))
+    : (x = t[4]);
+  let S = x,
+    C;
+  t[5] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((C = () => {
+        p.current != null && (window.clearTimeout(p.current), (p.current = null));
+      }),
+      (t[5] = C))
+    : (C = t[5]);
+  let w = C,
+    T;
+  t[6] === l
+    ? (T = t[7])
+    : ((T = () => {
+        if ((w(), !(!m.current || l == null))) {
+          if (((m.current = !1), (_.current = !0), h.current)) {
+            g.current = !0;
+            return;
+          }
+          l(`insert`);
+        }
+      }),
+      (t[6] = l),
+      (t[7] = T));
+  let E = T,
+    O;
+  t[8] === b
+    ? (O = t[9])
+    : ((O = (0, Q.jsx)(`span`, {
+        className: `text-token-foreground`,
+        children: b
+          ? (0, Q.jsx)(D, {
+              id: `composer.dictation.retry.tooltip`,
+              defaultMessage: `Retry dictation`,
+              description: `Tooltip for the button that retries composer dictation transcription`,
+            })
+          : (0, Q.jsx)(D, {
+              id: `composer.dictation.tooltip`,
+              defaultMessage: `Click to dictate or hold`,
+              description: `Tooltip for the dictation button`,
+            }),
+      })),
+      (t[8] = b),
+      (t[9] = O));
+  let k = b ? null : s,
+    A;
+  t[10] !== d || t[11] !== b || t[12] !== c || t[13] !== l
+    ? ((A = (e) => {
+        d ||
+          b ||
+          l == null ||
+          e.button !== 0 ||
+          (e.currentTarget.setPointerCapture?.(e.pointerId),
+          w(),
+          (_.current = !1),
+          (p.current = window.setTimeout(() => {
+            ((p.current = null),
+              (m.current = !0),
+              (h.current = !0),
+              (g.current = !1),
+              c().finally(() => {
+                ((h.current = !1), g.current && ((g.current = !1), l(`insert`)));
+              }));
+          }, Mt)));
+      }),
+      (t[10] = d),
+      (t[11] = b),
+      (t[12] = c),
+      (t[13] = l),
+      (t[14] = A))
+    : (A = t[14]);
+  let j, M;
+  t[15] === E
+    ? ((j = t[16]), (M = t[17]))
+    : ((j = (e) => {
+        if (e.button === 0) {
+          if (
+            (e.currentTarget.hasPointerCapture?.(e.pointerId) &&
+              e.currentTarget.releasePointerCapture?.(e.pointerId),
+            p.current != null)
+          ) {
+            w();
+            return;
+          }
+          E();
+        }
+      }),
+      (M = (e) => {
+        (e.currentTarget.hasPointerCapture?.(e.pointerId) &&
+          e.currentTarget.releasePointerCapture?.(e.pointerId),
+          E());
+      }),
+      (t[15] = E),
+      (t[16] = j),
+      (t[17] = M));
+  let N;
+  t[18] !== b || t[19] !== o || t[20] !== c
+    ? ((N = () => {
+        if (_.current) {
+          _.current = !1;
+          return;
+        }
+        if (b) {
+          o();
+          return;
+        }
+        c();
+      }),
+      (t[18] = b),
+      (t[19] = o),
+      (t[20] = c),
+      (t[21] = N))
+    : (N = t[21]);
+  let P;
+  t[22] !== b || t[23] !== r
+    ? ((P = r
+        ? (0, Q.jsx)(R, { className: `icon-xs` })
+        : b
+          ? (0, Q.jsx)(ke, { className: `icon-xs` })
+          : (0, Q.jsx)(kt, { className: `icon-xs` })),
+      (t[22] = b),
+      (t[23] = r),
+      (t[24] = P))
+    : (P = t[24]);
+  let F;
+  t[25] !== S ||
+  t[26] !== d ||
+  t[27] !== j ||
+  t[28] !== M ||
+  t[29] !== N ||
+  t[30] !== P ||
+  t[31] !== A
+    ? ((F = (0, Q.jsx)(ne, {
+        size: `composer`,
+        color: `ghost`,
+        uniform: !0,
+        disabled: d,
+        "aria-label": S,
+        onPointerDown: A,
+        onPointerUp: j,
+        onPointerCancel: M,
+        onClick: N,
+        children: P,
+      })),
+      (t[25] = S),
+      (t[26] = d),
+      (t[27] = j),
+      (t[28] = M),
+      (t[29] = N),
+      (t[30] = P),
+      (t[31] = A),
+      (t[32] = F))
+    : (F = t[32]);
+  let L;
+  return (
+    t[33] !== F || t[34] !== O || t[35] !== k || t[36] !== u
+      ? ((L = (0, Q.jsx)(I, {
+          tooltipContent: O,
+          shortcut: k,
+          sideOffset: 4,
+          portalContainer: u,
+          children: F,
+        })),
+        (t[33] = F),
+        (t[34] = O),
+        (t[35] = k),
+        (t[36] = u),
+        (t[37] = L))
+      : (L = t[37]),
+    L
+  );
+}
+var Zt = 250;
+function Qt({
+  enabled: e,
+  onTranscriptInsert: t,
+  onTranscriptSend: n,
+  onStartError: r,
+  onTranscribeError: i,
+  onUnsupported: a,
+  getSurroundingText: o,
+}) {
+  let s = M(`1025755912`),
+    [c, l] = (0, Z.useState)(!1),
+    [u, d] = (0, Z.useState)(!1),
+    [f, p] = (0, Z.useState)(!1),
+    m = (0, Z.useRef)(null),
+    h = (0, Z.useRef)(null),
+    _ = (0, Z.useRef)([]),
+    y = (0, Z.useRef)(null),
+    b = (0, Z.useRef)(null),
+    x = (0, Z.useRef)(!0),
+    S = (0, Z.useRef)(e),
+    C = (0, Z.useRef)(null),
+    w = (0, Z.useRef)({
+      onTranscriptInsert: t,
+      onTranscriptSend: n,
+      onStartError: r,
+      onTranscribeError: i,
+      onUnsupported: a,
+      getSurroundingText: o,
+    }),
+    {
+      recordingDurationMs: T,
+      waveformCanvasRef: E,
+      startWaveformCapture: ee,
+      stopWaveformCapture: D,
+      resetWaveformDisplay: O,
+    } = Le();
+  ((w.current = {
+    onTranscriptInsert: t,
+    onTranscriptSend: n,
+    onStartError: r,
+    onTranscribeError: i,
+    onUnsupported: a,
+    getSurroundingText: o,
+  }),
+    (S.current = e));
+  let k = async ({ action: e, audio: t, handlers: n }) => {
+      x.current && d(!0);
+      try {
+        let r = await Ie({
+          transcript: await Fe(t),
+          surroundingText: n.getSurroundingText?.() ?? null,
+          cleanupEnabled: s,
+        });
+        ((b.current = null), x.current && p(!1));
+        let i = r.trim();
+        i.length > 0 &&
+          (g.getInstance().dispatchMessage(`global-dictation-record-history-item`, { text: i }),
+          e === `send` ? n.onTranscriptSend(i) : n.onTranscriptInsert(i));
+      } catch (r) {
+        (v.error(`[Composer] dictation failed`, { safe: {}, sensitive: { error: r } }),
+          x.current && ((b.current = { action: e, audio: t, handlers: n }), p(!0)),
+          n.onTranscribeError(r));
+      } finally {
+        x.current && d(!1);
+      }
+    },
+    j = async () => {
+      let e = y.current ?? `insert`,
+        t = w.current;
+      y.current = null;
+      let n = Math.max(T, C.current == null ? 0 : performance.now() - C.current);
+      C.current = null;
+      let r = m.current,
+        i = _.current;
+      ((_.current = []),
+        r && ((r.ondataavailable = null), (r.onstop = null)),
+        (m.current = null),
+        D());
+      let a = h.current;
+      if (
+        (a &&
+          a.getTracks().forEach((e) => {
+            e.stop();
+          }),
+        (h.current = null),
+        x.current && (l(!1), O()),
+        e === `abort` || i.length === 0 || n < Zt)
+      )
+        return;
+      let o = r?.mimeType || i[0]?.type || `audio/webm`;
+      await k({ action: e, audio: new Blob(i, { type: o }), handlers: t });
+    },
+    N = W(async () => {
+      if (c || u) return;
+      let e = b.current;
+      e != null && (await k(e));
+    }),
+    P = W((e) => {
+      if (y.current != null) {
+        y.current = e === `send` ? `send` : y.current;
+        return;
+      }
+      y.current = e;
+      let t = m.current;
+      if (!t) {
+        j();
+        return;
+      }
+      if (t.state === `inactive`) {
+        j();
+        return;
+      }
+      t.stop();
+    }),
+    F = W(() => {
+      P(`abort`);
+    });
+  return (
+    (0, Z.useEffect)(
+      () => (
+        (x.current = !0),
+        () => {
+          x.current = !1;
+          let e = m.current;
+          e == null || e.state === `inactive` || (y.current ?? ((y.current = `insert`), e.stop()));
+        }
+      ),
+      [],
+    ),
+    {
+      abortDictation: F,
+      isDictating: c,
+      isTranscribing: u,
+      canRetryDictation: f,
+      recordingDurationMs: T,
+      waveformCanvasRef: E,
+      retryDictation: N,
+      startDictation: W(async () => {
+        if (!(c || u)) {
+          if (!e) {
+            w.current.onUnsupported();
+            return;
+          }
+          y.current = null;
+          try {
+            ((b.current = null),
+              p(!1),
+              D(),
+              A.systemPermissions?.requestMicrophoneAccess().catch(() => {}));
+            let e = await navigator.mediaDevices.getUserMedia({ audio: { channelCount: 1 } });
+            if (!x.current || !S.current) {
+              e.getTracks().forEach((e) => {
+                e.stop();
+              });
+              return;
+            }
+            ((C.current = performance.now()), (h.current = e), ee(e));
+            let t = new MediaRecorder(e);
+            ((m.current = t),
+              (_.current = []),
+              (t.ondataavailable = (e) => {
+                e.data.size > 0 && _.current.push(e.data);
+              }),
+              (t.onstop = () => {
+                j();
+              }),
+              t.start(),
+              l(!0));
+          } catch (e) {
+            (v.error(`[Composer] unable to start dictation`, { safe: {}, sensitive: { error: e } }),
+              x.current && w.current.onStartError(e));
+            let t = m.current;
+            (t && ((t.ondataavailable = null), (t.onstop = null)), (m.current = null), D(), O());
+            let n = h.current;
+            (n &&
+              n.getTracks().forEach((e) => {
+                e.stop();
+              }),
+              (h.current = null),
+              (_.current = []),
+              (C.current = null));
+          }
+        }
+      }),
+      stopDictation: P,
+    }
+  );
+}
+var $t = `[data-codex-terminal]`;
+function en() {
+  return m(ge, `composer.startDictation`);
+}
+function tn() {
+  let e = (0, $.c)(2),
+    t = en();
+  if (t == null) return null;
+  let n;
+  return (e[0] === t ? (n = e[1]) : ((n = Y(t)), (e[0] = t), (e[1] = n)), n);
+}
+function nn(e) {
+  let t = (0, $.c)(31),
+    {
+      enabled: n,
+      isDictating: r,
+      isTranscribing: i,
+      startDictation: a,
+      stopDictation: o,
+      keyboardEventTarget: s,
+      shouldHandleDictation: c,
+      ignoreWithin: l,
+    } = e,
+    u = l === void 0 ? $t : l,
+    d = M(`1244621283`),
+    f = en(),
+    p = (0, Z.useRef)(null),
+    m = (0, Z.useRef)(!1),
+    h = (0, Z.useRef)(!1),
+    g;
+  t[0] === a
+    ? (g = t[1])
+    : ((g = () => {
+        ((h.current = !0),
+          a().finally(() => {
+            h.current = !1;
+          }));
+      }),
+      (t[0] = a),
+      (t[1] = g));
+  let v = g,
+    y;
+  t[2] !== n || t[3] !== u || t[4] !== i || t[5] !== s || t[6] !== c
+    ? ((y = () => (!n || i || (u != null && rn(s, u)) ? !1 : c == null || c())),
+      (t[2] = n),
+      (t[3] = u),
+      (t[4] = i),
+      (t[5] = s),
+      (t[6] = c),
+      (t[7] = y))
+    : (y = t[7]);
+  let b = y,
+    x;
+  t[8] !== b || t[9] !== r || t[10] !== d || t[11] !== v
+    ? ((x = (e) => {
+        !d ||
+          !b() ||
+          ((p.current = e.sessionId),
+          _.dispatchMessage(`global-dictation-in-app-started`, { sessionId: e.sessionId }),
+          !(r || h.current) && v());
+      }),
+      (t[8] = b),
+      (t[9] = r),
+      (t[10] = d),
+      (t[11] = v),
+      (t[12] = x))
+    : (x = t[12]);
+  let S;
+  (t[13] === Symbol.for(`react.memo_cache_sentinel`) ? ((S = []), (t[13] = S)) : (S = t[13]),
+    w(`global-dictation-in-app-start`, x, S));
+  let C;
+  t[14] !== d || t[15] !== o
+    ? ((C = (e) => {
+        !d || p.current !== e.sessionId || ((p.current = null), o(`insert`));
+      }),
+      (t[14] = d),
+      (t[15] = o),
+      (t[16] = C))
+    : (C = t[16]);
+  let T;
+  (t[17] === Symbol.for(`react.memo_cache_sentinel`) ? ((T = []), (t[17] = T)) : (T = t[17]),
+    w(`global-dictation-in-app-stop`, C, T));
+  let E = f ?? ``,
+    ee = n && f != null,
+    D = u ?? void 0,
+    O;
+  t[18] !== b || t[19] !== r || t[20] !== v
+    ? ((O = (e) => {
+        if ((e.preventDefault(), e.stopPropagation(), !b() || r || h.current)) {
+          m.current = !1;
+          return;
+        }
+        ((m.current = !0), v());
+      }),
+      (t[18] = b),
+      (t[19] = r),
+      (t[20] = v),
+      (t[21] = O))
+    : (O = t[21]);
+  let k;
+  t[22] === o
+    ? (k = t[23])
+    : ((k = (e) => {
+        (e.preventDefault(),
+          e.stopPropagation(),
+          !(!m.current || p.current != null) && ((m.current = !1), o(`insert`)));
+      }),
+      (t[22] = o),
+      (t[23] = k));
+  let A;
+  (t[24] !== s || t[25] !== D || t[26] !== O || t[27] !== k || t[28] !== E || t[29] !== ee
+    ? ((A = {
+        accelerator: E,
+        enabled: ee,
+        ignoreWithin: D,
+        keyboardEventTarget: s,
+        onKeyDown: O,
+        onKeyUp: k,
+      }),
+      (t[24] = s),
+      (t[25] = D),
+      (t[26] = O),
+      (t[27] = k),
+      (t[28] = E),
+      (t[29] = ee),
+      (t[30] = A))
+    : (A = t[30]),
+    Re(A));
+}
+function rn(e, t) {
+  let n = e?.document ?? (typeof window > `u` ? null : window.document);
+  if (n == null) return !1;
+  let r = n.defaultView,
+    i = n.activeElement;
+  return r != null && i instanceof r.Element && i.closest(t) != null;
+}
+function an(e) {
+  let t = N(e),
+    n = M(`4100906017`),
+    r = j();
+  return !navigator?.mediaDevices?.getUserMedia || typeof MediaRecorder > `u`
+    ? !1
+    : t == null || t.isLoading || r
+      ? null
+      : n && t.authMethod === `chatgpt`;
+}
+export {
+  Be as _,
+  Xt as a,
+  kt as c,
+  gt as d,
+  pt as f,
+  We as g,
+  tt as h,
+  Qt as i,
+  Dt as l,
+  at as m,
+  nn as n,
+  Vt as o,
+  ut as p,
+  tn as r,
+  Ht as s,
+  an as t,
+  Et as u,
+  ze as v,
+};
+//# sourceMappingURL=use-is-dictation-supported.js.map
