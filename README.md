@@ -50,3 +50,23 @@ Manual runs can override the DMG URL, for example to import the Intel build:
 ```text
 https://persistent.oaistatic.com/codex-app-prod/Codex-latest-x64.dmg
 ```
+
+## Diffing
+
+For bundled JavaScript, minifier identifier churn can hide the meaningful
+changes. The identifier-insensitive diff helper builds normalized temporary
+trees and compares those instead:
+
+```sh
+node scripts/diff-ignore-identifiers.mjs \
+  --exclude-postprocess-json \
+  --output=/tmp/codex-app-id-diff.patch \
+  origin/v26.608.12217 origin/latest
+```
+
+The normalized patch is for review only: JavaScript-family files have identifier
+names replaced before diffing, while non-JS files are included unchanged unless
+`--js-only` is passed. By default identifier placeholders reset on each line so
+one inserted minifier name does not renumber the rest of a bundle; pass
+`--mode=all` for a more aggressive pass that treats every identifier as the same
+token.
