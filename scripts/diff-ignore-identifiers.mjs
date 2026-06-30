@@ -60,20 +60,22 @@ function usage() {
   node scripts/diff-ignore-identifiers.mjs [options] <old-ref> <new-ref> [-- <pathspec>...]
 
 Options:
-  --output=FILE                  Write the normalized diff to FILE.
+  --output=FILE                  Write the identifier-insensitive diff to FILE.
   --mode=line                    Rename identifiers to ID0, ID1, ... per line. Default.
   --mode=ordered                 Rename identifiers to ID0, ID1, ... by first use per file.
   --mode=all                     Rename every identifier to ID.
   --extensions=.js,.mjs          Comma-separated extensions to normalize.
   --exclude-postprocess-json     Exclude .codex-app-postprocess.json.
   --js-only                      Omit non-JS-like files from the normalized trees.
+  --normalized-output            Show normalized placeholders in hunk lines.
   --keep-temp                    Keep temporary normalized trees for inspection.
   -h, --help                     Show this help.
 
 The output is a diff of normalized temporary trees. JavaScript-family files keep
 keywords, literals, punctuation, and line structure, but identifier names are
 replaced before diffing. The default line mode resets placeholders at each line
-so early minifier-name drift does not renumber the rest of the file. Non-JS
+so early minifier-name drift does not renumber the rest of the file. Hunk lines
+are rendered from the original files unless --normalized-output is set. Non-JS
 files are included as raw content unless --js-only is set.`);
 }
 
@@ -86,6 +88,7 @@ function parseArgs(argv) {
     jsOnly: false,
     keepTemp: false,
     mode: "line",
+    normalizedOutput: false,
     output: "",
     pathspecs: [],
     refs: [],
@@ -104,6 +107,8 @@ function parseArgs(argv) {
       options.jsOnly = true;
     } else if (arg === "--keep-temp") {
       options.keepTemp = true;
+    } else if (arg === "--normalized-output") {
+      options.normalizedOutput = true;
     } else if (arg.startsWith("--output=")) {
       options.output = arg.slice("--output=".length);
     } else if (arg.startsWith("--mode=")) {
@@ -472,7 +477,7 @@ async function readBlob(ref, filePath) {
   return result.stdout;
 }
 
-async function writeNormalizedFile(ref, sourceRoot, targetRoot, filePath, options) {
+async function writeNormalizedFile(ref, targetRoot, originalRoot, filePath, options) {
   const buffer = await readBlob(ref, filePath);
   const shouldNormalize = isNormalizable(filePath, options.extensions) && !isProbablyBinary(buffer);
 
@@ -481,8 +486,11 @@ async function writeNormalizedFile(ref, sourceRoot, targetRoot, filePath, option
   }
 
   const target = safeOutputPath(targetRoot, filePath);
+  const originalTarget = safeOutputPath(originalRoot, filePath);
 
   await fs.mkdir(path.dirname(target), { recursive: true });
+  await fs.mkdir(path.dirname(originalTarget), { recursive: true });
+  await fs.writeFile(originalTarget, buffer);
 
   if (shouldNormalize) {
     await fs.writeFile(
@@ -494,6 +502,142 @@ async function writeNormalizedFile(ref, sourceRoot, targetRoot, filePath, option
   }
 
   await fs.writeFile(target, buffer);
+}
+
+function splitLines(text) {
+  return text.replace(/\r\n/g, "\n").replace(/\r/g, "\n").split("\n");
+}
+
+function lineAt(lines, lineNumber, fallback) {
+  if (lineNumber <= 0) return fallback;
+
+  return lines[lineNumber - 1] ?? fallback;
+}
+
+function filePathFromPatchPath(patchPath) {
+  if (patchPath === "/dev/null") return "";
+
+  for (const prefix of ["a/old/", "b/old/", "a/new/", "b/new/", "old/", "new/"]) {
+    if (patchPath.startsWith(prefix)) {
+      return patchPath.slice(prefix.length);
+    }
+  }
+
+  return patchPath.replace(/^[ab]\//, "");
+}
+
+async function readOriginalLines(root, filePath, cache) {
+  if (!filePath) return [];
+
+  const key = `${root}\0${filePath}`;
+
+  if (cache.has(key)) {
+    return cache.get(key);
+  }
+
+  const file = safeOutputPath(root, filePath);
+  const text = await fs.readFile(file, "utf8").catch(() => "");
+  const lines = splitLines(text);
+
+  cache.set(key, lines);
+  return lines;
+}
+
+async function originalLine(root, filePath, lineNumber, cache, fallback) {
+  const lines = await readOriginalLines(root, filePath, cache);
+
+  return lineAt(lines, lineNumber, fallback);
+}
+
+function parseHunkHeader(line) {
+  const match = line.match(/^@@ -(\d+)(?:,\d+)? \+(\d+)(?:,\d+)? @@/);
+
+  if (!match) return null;
+
+  return {
+    oldLine: Number(match[1]),
+    newLine: Number(match[2]),
+  };
+}
+
+function parsePatchFilePath(line) {
+  const match = line.match(/^[+-]{3} (.+)$/);
+
+  return match ? filePathFromPatchPath(match[1]) : "";
+}
+
+async function renderOriginalHunkLines(patch, oldRoot, newRoot) {
+  const lines = patch.split("\n");
+  const rendered = [];
+  const cache = new Map();
+  let oldFile = "";
+  let newFile = "";
+  let oldLine = 0;
+  let newLine = 0;
+  let inHunk = false;
+
+  for (const line of lines) {
+    if (line.startsWith("diff --git ")) {
+      inHunk = false;
+      rendered.push(line);
+      continue;
+    }
+
+    if (line.startsWith("--- ")) {
+      oldFile = parsePatchFilePath(line);
+      inHunk = false;
+      rendered.push(line);
+      continue;
+    }
+
+    if (line.startsWith("+++ ")) {
+      newFile = parsePatchFilePath(line);
+      inHunk = false;
+      rendered.push(line);
+      continue;
+    }
+
+    if (line.startsWith("@@ ")) {
+      const hunk = parseHunkHeader(line);
+
+      if (hunk) {
+        oldLine = hunk.oldLine;
+        newLine = hunk.newLine;
+        inHunk = true;
+      }
+
+      rendered.push(line);
+      continue;
+    }
+
+    if (!inHunk || line.startsWith("\\ No newline")) {
+      rendered.push(line);
+      continue;
+    }
+
+    if (line.startsWith("-")) {
+      rendered.push(`-${await originalLine(oldRoot, oldFile, oldLine, cache, line.slice(1))}`);
+      oldLine += 1;
+      continue;
+    }
+
+    if (line.startsWith("+")) {
+      rendered.push(`+${await originalLine(newRoot, newFile, newLine, cache, line.slice(1))}`);
+      newLine += 1;
+      continue;
+    }
+
+    if (line.startsWith(" ")) {
+      rendered.push(` ${await originalLine(oldRoot, oldFile, oldLine, cache, line.slice(1))}`);
+      oldLine += 1;
+      newLine += 1;
+      continue;
+    }
+
+    rendered.push(line);
+  }
+
+  return rendered.join("\n");
 }
 
 function cleanPatchPaths(text) {
@@ -529,7 +673,7 @@ function cleanPatchPaths(text) {
     .join("\n");
 }
 
-async function buildNormalizedTree(ref, files, sourceRoot, targetRoot, options) {
+async function buildNormalizedTree(ref, files, targetRoot, originalRoot, options) {
   let index = 0;
 
   for (const filePath of files) {
@@ -539,7 +683,7 @@ async function buildNormalizedTree(ref, files, sourceRoot, targetRoot, options) 
       console.error(`${ref}: normalized ${index}/${files.length} files`);
     }
 
-    await writeNormalizedFile(ref, sourceRoot, targetRoot, filePath, options);
+    await writeNormalizedFile(ref, targetRoot, originalRoot, filePath, options);
   }
 }
 
@@ -560,16 +704,20 @@ async function main() {
   const tempRoot = await fs.mkdtemp(path.join(os.tmpdir(), "codex-id-diff."));
   const oldRoot = path.join(tempRoot, "old");
   const newRoot = path.join(tempRoot, "new");
+  const oldOriginalRoot = path.join(tempRoot, "old-original");
+  const newOriginalRoot = path.join(tempRoot, "new-original");
 
   await fs.mkdir(oldRoot, { recursive: true });
   await fs.mkdir(newRoot, { recursive: true });
+  await fs.mkdir(oldOriginalRoot, { recursive: true });
+  await fs.mkdir(newOriginalRoot, { recursive: true });
 
   try {
     const oldFiles = await listFiles(oldRef, options);
     const newFiles = await listFiles(newRef, options);
 
-    await buildNormalizedTree(oldRef, oldFiles, oldRef, oldRoot, options);
-    await buildNormalizedTree(newRef, newFiles, newRef, newRoot, options);
+    await buildNormalizedTree(oldRef, oldFiles, oldRoot, oldOriginalRoot, options);
+    await buildNormalizedTree(newRef, newFiles, newRoot, newOriginalRoot, options);
 
     const diff = await run("git", [
       "-c",
@@ -582,7 +730,11 @@ async function main() {
       "old",
       "new",
     ], { cwd: tempRoot, allowedExitCodes: [0, 1] });
-    const output = cleanPatchPaths(diff.stdout.toString("utf8"));
+    const rawPatch = diff.stdout.toString("utf8");
+    const renderedPatch = options.normalizedOutput
+      ? rawPatch
+      : await renderOriginalHunkLines(rawPatch, oldOriginalRoot, newOriginalRoot);
+    const output = cleanPatchPaths(renderedPatch);
 
     if (options.output) {
       await fs.writeFile(options.output, output, "utf8");
