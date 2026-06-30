@@ -1,0 +1,164 @@
+const __vite__mapDeps = (
+  i,
+  m = __vite__mapDeps,
+  d = m.f ||
+    (m.f = [
+      "./avatar-overlay-native-page.js",
+      "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~projects-index-page~app~iy8s9c2d.js",
+      "./rolldown-runtime.js",
+      "./app-initial~app-main~remote-conversation-page~hotkey-window-thread-page~automations-page~th~bnlvjk3w.js",
+      "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~new-thread-panel-page~o~kg2pu5rs.js",
+      "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~new-thread-panel-page~o~ko8xg8gw.js",
+      "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~new-~ozr5a6hk.js",
+      "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~new-thread-panel-page~o~ko8xg8gw.css",
+      "./app-initial~app-main~worktree-init-v2-page~appgen-settings-page~page~appgen-page~remote-con~di269h6j.js",
+      "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~new-~o4ivuipr.js",
+      "./app-initial~app-main~worktree-init-v2-page~appgen-settings-page~appgen-publication-terms-ro~g0k1g2bt.js",
+      "./app-initial~app-main~worktree-init-v2-page~appgen-publication-terms-route~remote-conversati~miz7p5nt.js",
+      "./app-initial~app-main~remote-conversation-page~pull-requests-page~plugin-detail-page~new-thr~ny8xzqbh.js",
+      "./app-initial~app-main~worktree-init-v2-page~appgen-page~remote-conversation-page~pull-reques~l0drf339-C.js",
+      "./app-initial~app-main~remote-conversation-page~pull-requests-page~new-thread-panel-page~proj~jolrh1c9.js",
+      "./app-initial~app-main~worktree-init-v2-page~appgen-publication-terms-route~remote-conversati~cldi24d6-B1D9-E0F.js",
+      "./app-initial~app-main~worktree-init-v2-page~appgen-page~remote-conversation-page~pull-reques~nkffpfmw-D.js",
+      "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~new-thread-panel-page~o~kg2pu5rs.css",
+      "./app-initial~app-main~onboarding-page-CgNc-Bk2.js",
+      "./app-initial~app-main~onboarding-page~mermaid-diagram~xychartDiagram-PRI3JC2R~timeline-defin~dcen2xty.js",
+      "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~onboarding-page~hotkey-~h422e2ym.js",
+      "./app-initial~app-main~agent-settings.js",
+      "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~onboarding-page~appgen-~n1rtl5kd.js",
+      "./app-initial~app-main~remote-conversation-page~onboarding-page~settings-page~hotkey-window-t~hw2afr7f.js",
+      "./app-initial~app-main~remote-conversation-page~onboarding-page~hotkey-window-thread-page~bro~cpd0gmdw.js",
+      "./app-initial~app-main~onboarding-page.css",
+      "./app-initial~app-main~automations-page.js",
+      "./app-initial~app-main~remote-conversation-page~projects-index-page.js",
+      "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~appgen-library-page~hot~djo67r4n.js",
+      "./app-initial~app-main~projects-index-page~local-conversation-page.js",
+      "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~settings-page~appgen-li~oiv69xe5.js",
+      "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~appgen-library-page~hot~fjhbmao5.js",
+      "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~appgen-library-page~hot~fjhbmao5.css",
+      "./app-initial~app-main~pets-settings~appearance-settings~general-settings.js",
+      "./app-initial~app-main~remote-conversation-page~onboarding-page~hotkey-window-thread-page~app~c482ypdv.js",
+      "./app-initial~app-main~pets-settings~appearance-settings~general-settings.css",
+      "./app-initial~app-main~local-conversation-page-D.js",
+      "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~onboarding-page~appgen-~mhwq036p.js",
+      "./app-initial~app-main~onboarding-page~select-workspace-page.js",
+      "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~settings-page~appgen-li~h99fup20.js",
+      "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~appgen-library-page~hot~mubih9a1.js",
+      "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~appgen-library-page~hot~djo67r4n.css",
+      "./app-initial~app-main~remote-conversation-page~pull-requests-page~projects-index-page~hotkey~ek7ayrmo.js",
+      "./app-initial~app-main~remote-conversation-page~projects-index-page~hotkey-window-thread-page~n4ikpxgm.js",
+      "./app-initial~app-main~appgen-page~remote-conversation-page~projects-index-page~appgen-librar~clc2xu64.js",
+      "./app-initial~app-main~remote-conversation-page~projects-index-page.css",
+      "./app-initial~app-main~page.js",
+      "./app-initial~app-main~home-ambient-suggestions-content.js",
+      "./app-initial~app-main~appgen-publication-terms-route~plugin-detail-page~skills-settings~plug~bpqstr7s.js",
+      "./app-initial~app-main~login-route~codex-mobile-page~remote-connections-settings-CsI-U3JO.js",
+      "./app-initial~app-main~appgen-settings-page~appgen-page~appgen-library-page.js",
+      "./app-initial~app-main~hotkey-window-thread-page~automations-page~local-conversation-page.js",
+      "./app-initial~app-main~pets-settings.js",
+      "./app-initial~app-main~pet-install-modal-host~avatar-overlay-page~avatar-overlay-native-page~~s9e72i2g.js",
+      "./app-initial~app-main~debug-window-page~agent-settings~debug-modal.js",
+      "./app-initial~app-main~remote-conversation-page~pull-requests-page~hotkey-window-thread-page~~b9vznyj4.js",
+      "./app-initial~app-main~remote-conversation-page~hotkey-window-thread-page~keyboard-shortcuts-~n7jwlpf0.js",
+      "./app-initial~app-main~remote-conversation-page~hotkey-window-thread-page~thread-app-shell-ch~ecjwgenq.js",
+      "./app-initial~app-main~remote-conversation-page~local-conversation-page.js",
+      "./app-initial~app-main~remote-conversation-page~hotkey-window-detail-layout~local-conversation-page.js",
+      "./app-initial~app-main~personalization-settings~appearance-settings~general-settings.js",
+      "./app-initial~app-main~remote-conversation-page~hotkey-window-worktree-init-page~hotkey-windo~kjl2gxhu.js",
+      "./app-initial~app-main~appgen-library-page.js",
+      "./app-initial~app-main~select-workspace-page-DMB-jExv.js",
+      "./app-initial~app-main~remote-conversation-page~projects-index-page~hotkey-window-thread-page~o5l7nhuo.js",
+      "./app-initial~app-main~new-thread-panel-page.js",
+      "./app-initial~app-main~first-run~new-thread-panel-page.js",
+      "./app-initial~app-main~onboarding-page~pending-request-item-panel~home-ambient-suggestions-content.js",
+      "./app-initial~app-main~onboarding-page~pending-request-item-panel.js",
+      "./app-initial~app-main~remote-conversation-page~thread-app-shell-chrome~local-conversation-page.js",
+      "./app-initial~app-main~onboarding-page~profile.js",
+      "./app-initial~app-main~settings-page~open-source-licenses-page~skills-settings~plugins-settin~cxbtmbfc.js",
+      "./app-initial~app-main~remote-conversation-page~appgen-library-page~local-conversation-page.js",
+      "./app-initial~app-main~appgen-page~remote-conversation-page~projects-index-page~appgen-librar~i4jkvfhy.js",
+      "./app-initial~app-main~worktree-init-v2-page~hotkey-window-worktree-init-page~local-conversation-page.js",
+      "./app-initial~app-main~automations-page.css",
+      "./avatar-overlay-native-frame.js",
+      "./avatar-mascot-button.js",
+      "./codex-avatar.js",
+      "./codex-avatar.css",
+      "./avatar-overlay-pill-dismiss-button.js",
+      "./permission-request-model.js",
+      "./global-dictation-orb.js",
+      "./global-dictation-orb.css",
+      "./avatar-overlay-debug-state.js",
+      "./use-avatar-overlay-selection.js",
+      "./custom-avatars-query.js",
+      "./use-avatar-options.js",
+      "./use-floating-window-pointer-interactivity.js",
+      "./avatar-overlay-page.js",
+    ]),
+) => i.map((i) => d[i]);
+import { n as e, s as t } from "./rolldown-runtime.js";
+import {
+  _c as n,
+  ar as r,
+  gc as i,
+  ir as a,
+  lc as o,
+} from "./app-initial~app-main~remote-conversation-page~hotkey-window-thread-page~automations-page~th~bnlvjk3w.js";
+import {
+  ry as s,
+  ty as c,
+} from "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~projects-index-page~app~iy8s9c2d.js";
+function l() {
+  let e = (0, u.c)(2),
+    t = s(`3563904085`),
+    n;
+  return (
+    e[0] === t
+      ? (n = e[1])
+      : ((n = t ? (0, f.jsx)(p, {}) : (0, f.jsx)(m, {})), (e[0] = t), (e[1] = n)),
+    n
+  );
+}
+var u, d, f, p, m;
+e(() => {
+  ((u = i()),
+    (d = t(n(), 1)),
+    c(),
+    (f = o()),
+    r(),
+    (p = (0, d.lazy)(async () => ({
+      default: (
+        await a(
+          async () => {
+            let { AvatarOverlayNativePage: e } = await import(`./avatar-overlay-native-page.js`);
+            return { AvatarOverlayNativePage: e };
+          },
+          __vite__mapDeps([
+            0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23,
+            24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45,
+            46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67,
+            68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88,
+          ]),
+          import.meta.url,
+        )
+      ).AvatarOverlayNativePage,
+    }))),
+    (m = (0, d.lazy)(async () => ({
+      default: (
+        await a(
+          async () => {
+            let { AvatarOverlayPage: e } = await import(`./avatar-overlay-page.js`);
+            return { AvatarOverlayPage: e };
+          },
+          __vite__mapDeps([
+            89, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23,
+            24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45,
+            46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67,
+            68, 69, 70, 71, 72, 73, 74, 75, 77, 78, 79, 84, 85, 80, 81, 86, 87, 88,
+          ]),
+          import.meta.url,
+        )
+      ).AvatarOverlayPage,
+    }))));
+})();
+export { l as AvatarOverlayFeatureGatePage };
+//# sourceMappingURL=avatar-overlay-featuregate-page.js.map
