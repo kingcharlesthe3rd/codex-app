@@ -1,59 +1,15 @@
 #!/usr/bin/env node
+import { createHash } from "node:crypto";
 import { spawn } from "node:child_process";
 import fs from "node:fs/promises";
 import os from "node:os";
 import path from "node:path";
+import { parse } from "@babel/parser";
+import traverseModule from "@babel/traverse";
 
+const traverse = traverseModule.default ?? traverseModule;
 const defaultExtensions = new Set([".cjs", ".js", ".jsx", ".mjs", ".ts", ".tsx"]);
-const keywords = new Set([
-  "as",
-  "async",
-  "await",
-  "break",
-  "case",
-  "catch",
-  "class",
-  "const",
-  "continue",
-  "debugger",
-  "default",
-  "delete",
-  "do",
-  "else",
-  "enum",
-  "export",
-  "extends",
-  "false",
-  "finally",
-  "for",
-  "from",
-  "function",
-  "get",
-  "if",
-  "import",
-  "in",
-  "instanceof",
-  "let",
-  "new",
-  "null",
-  "of",
-  "return",
-  "set",
-  "static",
-  "super",
-  "switch",
-  "this",
-  "throw",
-  "true",
-  "try",
-  "typeof",
-  "undefined",
-  "var",
-  "void",
-  "while",
-  "with",
-  "yield",
-]);
+const maxHashableBindingBytes = 8000;
 
 function usage() {
   console.log(`Usage:
@@ -61,33 +17,36 @@ function usage() {
 
 Options:
   --output=FILE                  Write the identifier-insensitive diff to FILE.
-  --mode=line                    Rename identifiers to ID0, ID1, ... per line. Default.
-  --mode=ordered                 Rename identifiers to ID0, ID1, ... by first use per file.
-  --mode=all                     Rename every identifier to ID.
+  --mode=hash                    Rename bindings using fixed-point content hashes. Default.
+  --mode=line                    Rename unresolved identifiers to ID0, ID1, ... per line.
+  --mode=ordered                 Rename unresolved identifiers to ID0, ID1, ... per file.
+  --mode=all                     Rename every identifier/property to ID/PROP.
   --extensions=.js,.mjs          Comma-separated extensions to normalize.
+  --exclude-added-deleted-files  Omit files not present at the same path on both sides.
   --exclude-postprocess-json     Exclude .codex-app-postprocess.json.
   --js-only                      Omit non-JS-like files from the normalized trees.
   --normalized-output            Show normalized placeholders in hunk lines.
   --keep-temp                    Keep temporary normalized trees for inspection.
   -h, --help                     Show this help.
 
-The output is a diff of normalized temporary trees. JavaScript-family files keep
-keywords, literals, punctuation, and line structure, but identifier names are
-replaced before diffing. The default line mode resets placeholders at each line
-so early minifier-name drift does not renumber the rest of the file. Hunk lines
-are rendered from the original files unless --normalized-output is set. Non-JS
-files are included as raw content unless --js-only is set.`);
+The output is a diff of normalized temporary trees. JavaScript-family files are
+parsed with Babel. Simple bindings are renamed to stable content hashes of their
+initializer/body with external references canonicalized to structural
+placeholders; unresolved bindings fall back to structural placeholders. Hunk
+lines are rendered from the original files unless --normalized-output is set.
+Non-JS files are included as raw content unless --js-only is passed.`);
 }
 
 function parseArgs(argv) {
   const options = {
     excludePostprocessJson: false,
+    excludeAddedDeletedFiles: false,
     excludePathspecs: [],
     extensions: new Set(defaultExtensions),
     includePathspecs: [],
     jsOnly: false,
     keepTemp: false,
-    mode: "line",
+    mode: "hash",
     normalizedOutput: false,
     output: "",
     pathspecs: [],
@@ -101,6 +60,8 @@ function parseArgs(argv) {
   for (const arg of args) {
     if (arg === "-h" || arg === "--help") {
       options.help = true;
+    } else if (arg === "--exclude-added-deleted-files") {
+      options.excludeAddedDeletedFiles = true;
     } else if (arg === "--exclude-postprocess-json") {
       options.excludePostprocessJson = true;
     } else if (arg === "--js-only") {
@@ -129,8 +90,8 @@ function parseArgs(argv) {
     }
   }
 
-  if (!["all", "line", "ordered"].includes(options.mode)) {
-    throw new Error("--mode must be all, line, or ordered.");
+  if (!["all", "hash", "line", "ordered"].includes(options.mode)) {
+    throw new Error("--mode must be all, hash, line, or ordered.");
   }
 
   if (options.excludePostprocessJson) {
@@ -226,338 +187,420 @@ async function captureText(command, args, options = {}) {
   return result.stdout.toString("utf8");
 }
 
-function isIdentifierStart(character) {
-  return character === "$" ||
-    character === "_" ||
-    /[A-Za-z]/.test(character) ||
-    character.codePointAt(0) > 0x7f;
+function parserPlugins(filePath) {
+  const extension = path.extname(filePath).toLowerCase();
+  const plugins = [
+    "decorators-legacy",
+    "explicitResourceManagement",
+    "importAttributes",
+  ];
+
+  if (extension === ".jsx" || extension === ".tsx") {
+    plugins.push("jsx");
+  }
+
+  if (extension === ".ts" || extension === ".tsx") {
+    plugins.push("typescript");
+  }
+
+  return plugins;
 }
 
-function isIdentifierPart(character) {
-  return isIdentifierStart(character) || /[0-9]/.test(character);
+function parseJavaScript(source, filePath) {
+  return parse(source, {
+    allowAwaitOutsideFunction: true,
+    allowNewTargetOutsideFunction: true,
+    allowReturnOutsideFunction: true,
+    allowSuperOutsideMethod: true,
+    attachComment: false,
+    errorRecovery: true,
+    plugins: parserPlugins(filePath),
+    sourceType: "unambiguous",
+  });
 }
 
-function isWordToken(token) {
-  return /^[A-Za-z_$#]/.test(token);
+function hashText(text, prefix) {
+  return `${prefix}_${createHash("sha256").update(text).digest("hex").slice(0, 16)}`;
 }
 
-function readQuoted(source, start) {
-  const quote = source[start];
-  let index = start + 1;
+function propertyNameHash(name) {
+  return hashText(name, "PROP");
+}
 
-  while (index < source.length) {
-    const character = source[index];
+function globalNameHash(name) {
+  return hashText(name, "GLOBAL");
+}
 
-    if (character === "\\") {
-      index += 2;
-      continue;
-    }
+function bindingHash(text) {
+  return hashText(text, "H");
+}
 
-    index += 1;
+function offsetLineStarts(source) {
+  const starts = [0];
 
-    if (character === quote) {
-      break;
+  for (let index = 0; index < source.length; index += 1) {
+    if (source[index] === "\n") {
+      starts.push(index + 1);
     }
   }
 
-  return { token: source.slice(start, index), next: index };
+  return starts;
 }
 
-function skipTemplateLiteral(source, start) {
-  let index = start + 1;
+function lineForOffset(lineStarts, offset) {
+  let low = 0;
+  let high = lineStarts.length - 1;
 
-  while (index < source.length) {
-    const character = source[index];
+  while (low <= high) {
+    const mid = Math.floor((low + high) / 2);
 
-    if (character === "\\") {
-      index += 2;
-      continue;
-    }
-
-    if (character === "`") {
-      return index + 1;
-    }
-
-    if (character === "$" && source[index + 1] === "{") {
-      index = findBalancedBraceEnd(source, index + 2);
-      continue;
-    }
-
-    index += 1;
-  }
-
-  return index;
-}
-
-function findBalancedBraceEnd(source, start) {
-  let index = start;
-  let depth = 1;
-
-  while (index < source.length) {
-    const character = source[index];
-
-    if (character === "'" || character === "\"") {
-      index = readQuoted(source, index).next;
-      continue;
-    }
-
-    if (character === "`") {
-      index = skipTemplateLiteral(source, index);
-      continue;
-    }
-
-    if (character === "/" && source[index + 1] === "/") {
-      index += 2;
-      while (index < source.length && source[index] !== "\n") {
-        index += 1;
-      }
-      continue;
-    }
-
-    if (character === "/" && source[index + 1] === "*") {
-      index += 2;
-      while (index < source.length && !(source[index] === "*" && source[index + 1] === "/")) {
-        index += 1;
-      }
-      index = Math.min(source.length, index + 2);
-      continue;
-    }
-
-    if (character === "{") {
-      depth += 1;
-    } else if (character === "}") {
-      depth -= 1;
-
-      if (depth === 0) {
-        return index + 1;
-      }
-    }
-
-    index += 1;
-  }
-
-  return index;
-}
-
-function stripFinalNewline(text) {
-  return text.endsWith("\n") ? text.slice(0, -1) : text;
-}
-
-function readTemplateLiteral(source, start, options) {
-  const output = ["`"];
-  let index = start + 1;
-
-  while (index < source.length) {
-    const character = source[index];
-
-    if (character === "\\") {
-      output.push(source.slice(index, Math.min(source.length, index + 2)));
-      index += 2;
-      continue;
-    }
-
-    if (character === "`") {
-      output.push("`");
-      index += 1;
-      break;
-    }
-
-    if (character === "$" && source[index + 1] === "{") {
-      const expressionStart = index + 2;
-      const expressionEnd = findBalancedBraceEnd(source, expressionStart);
-      const expression = source.slice(expressionStart, Math.max(expressionStart, expressionEnd - 1));
-
-      output.push("${", stripFinalNewline(normalizeJavaScript(expression, options)), "}");
-      index = expressionEnd;
-      continue;
-    }
-
-    output.push(character);
-    index += 1;
-  }
-
-  return { token: output.join(""), next: index };
-}
-
-function readNumber(source, start) {
-  const match = source.slice(start).match(
-    /^(?:0[xX][0-9A-Fa-f_]+n?|0[bB][01_]+n?|0[oO][0-7_]+n?|\d[\d_]*(?:\.[\d_]*)?(?:[eE][+-]?[\d_]+)?n?)/,
-  );
-  const index = match ? start + match[0].length : start + 1;
-
-  return { token: source.slice(start, index), next: index };
-}
-
-function readIdentifier(source, start) {
-  let index = start + 1;
-
-  while (index < source.length && isIdentifierPart(source[index])) {
-    index += 1;
-  }
-
-  return { token: source.slice(start, index), next: index };
-}
-
-function normalizeJavaScript(source, options) {
-  let identifiers = new Map();
-  const output = [];
-  let lastWord = false;
-  let index = 0;
-
-  function endsWith(value) {
-    return output.length > 0 && output.at(-1).endsWith(value);
-  }
-
-  function append(value) {
-    if (value) output.push(value);
-  }
-
-  function removeTrailingSpace() {
-    if (!endsWith(" ")) return;
-
-    const last = output.at(-1);
-    const trimmed = last.slice(0, -1);
-
-    if (trimmed) {
-      output[output.length - 1] = trimmed;
+    if (lineStarts[mid] <= offset) {
+      low = mid + 1;
     } else {
-      output.pop();
+      high = mid - 1;
     }
   }
 
-  function rename(identifier) {
-    if (keywords.has(identifier)) return identifier;
-    if (options.mode === "all") return "ID";
-    if (!identifiers.has(identifier)) {
-      identifiers.set(identifier, `ID${identifiers.size}`);
-    }
+  return high + 1;
+}
 
-    return identifiers.get(identifier);
+function isPropertyName(path) {
+  const parent = path.parentPath;
+
+  if (!parent) return false;
+
+  if (
+    parent.isMemberExpression({ property: path.node }) ||
+    parent.isOptionalMemberExpression?.({ property: path.node })
+  ) {
+    return !parent.node.computed;
   }
 
-  function resetLocalIdentifiers() {
-    if (options.mode === "line") {
-      identifiers = new Map();
-    }
+  if (
+    parent.isObjectProperty?.({ key: path.node }) ||
+    parent.isObjectMethod?.({ key: path.node }) ||
+    parent.isClassMethod?.({ key: path.node }) ||
+    parent.isClassProperty?.({ key: path.node }) ||
+    parent.isClassPrivateProperty?.({ key: path.node }) ||
+    parent.isClassPrivateMethod?.({ key: path.node })
+  ) {
+    return !parent.node.computed && !parent.node.shorthand;
   }
 
-  function emit(token) {
-    const word = isWordToken(token);
+  return false;
+}
 
-    if (lastWord && word && output.length > 0 && !endsWith("\n") && !endsWith(" ")) {
-      append(" ");
-    }
+function shouldNormalizeIdentifier(path) {
+  if (!path.node || path.node.start == null || path.node.end == null) return false;
 
-    append(token);
-    lastWord = word;
+  if (path.parentPath?.isImportSpecifier?.({ imported: path.node })) return false;
+  if (path.parentPath?.isExportSpecifier?.({ exported: path.node })) return false;
+
+  return path.isIdentifier();
+}
+
+function bindingForIdentifier(path) {
+  const name = path.node.name;
+
+  if (path.isBindingIdentifier()) {
+    return path.scope.getBinding(name) ?? path.scope.parent?.getBinding(name) ?? null;
   }
 
-  function emitNewlines(count) {
-    if (count === 0) return;
-
-    removeTrailingSpace();
-
-    if (!endsWith("\n")) {
-      append("\n");
-    }
-
-    append("\n".repeat(Math.max(0, count - 1)));
-    resetLocalIdentifiers();
-    lastWord = false;
+  if (path.isReferencedIdentifier()) {
+    return path.scope.getBinding(name) ?? null;
   }
 
-  while (index < source.length) {
-    const character = source[index];
+  return null;
+}
 
-    if (/\s/.test(character)) {
-      const start = index;
+function collectAllBindings(ast) {
+  const bindings = new Set();
 
-      while (index < source.length && /\s/.test(source[index])) {
-        index += 1;
+  traverse(ast, {
+    Scopable(path) {
+      for (const binding of Object.values(path.scope?.bindings ?? {})) {
+        if (binding?.path) {
+          bindings.add(binding);
+        }
       }
+    },
+  });
 
-      const newlines = source.slice(start, index).match(/\n/g)?.length || 0;
+  return [...bindings];
+}
 
-      if (newlines > 0) {
-        emitNewlines(newlines);
-      } else if (output.length > 0 && !endsWith("\n") && !endsWith(" ")) {
-        append(" ");
-      }
+function bindingValuePath(binding) {
+  const path = binding.path;
+  const parent = path.parentPath;
 
-      continue;
-    }
-
-    if (character === "/" && source[index + 1] === "/") {
-      index += 2;
-      while (index < source.length && source[index] !== "\n") {
-        index += 1;
-      }
-      continue;
-    }
-
-    if (character === "/" && source[index + 1] === "*") {
-      const start = index;
-
-      index += 2;
-      while (index < source.length && !(source[index] === "*" && source[index + 1] === "/")) {
-        index += 1;
-      }
-
-      if (index < source.length) index += 2;
-
-      emitNewlines(source.slice(start, index).match(/\n/g)?.length || 0);
-      continue;
-    }
-
-    if (character === "`") {
-      const { token, next } = readTemplateLiteral(source, index, options);
-
-      emit(token);
-      index = next;
-      continue;
-    }
-
-    if (character === "'" || character === "\"") {
-      const { token, next } = readQuoted(source, index);
-
-      emit(token);
-      index = next;
-      continue;
-    }
-
-    if (/[0-9]/.test(character)) {
-      const { token, next } = readNumber(source, index);
-
-      emit(token);
-      index = next;
-      continue;
-    }
-
-    if (character === "#" && isIdentifierStart(source[index + 1] || "")) {
-      const { token, next } = readIdentifier(source, index + 1);
-
-      emit(`#${rename(token)}`);
-      index = next;
-      continue;
-    }
-
-    if (isIdentifierStart(character)) {
-      const { token, next } = readIdentifier(source, index);
-
-      emit(rename(token));
-      index = next;
-      continue;
-    }
-
-    emit(character);
-    index += 1;
+  if (parent?.isVariableDeclarator?.({ id: path.node })) {
+    const init = parent.get("init");
+    return init?.node ? init : null;
   }
 
-  if (!endsWith("\n")) {
-    append("\n");
+  if (
+    parent?.isFunctionDeclaration?.({ id: path.node }) ||
+    parent?.isFunctionExpression?.({ id: path.node }) ||
+    parent?.isClassDeclaration?.({ id: path.node }) ||
+    parent?.isClassExpression?.({ id: path.node })
+  ) {
+    return parent;
   }
+
+  if (path.isFunctionDeclaration?.() || path.isClassDeclaration?.()) {
+    return path;
+  }
+
+  return null;
+}
+
+function importBindingHash(binding) {
+  const parent = binding.path.parentPath;
+  const declaration = parent?.parentPath;
+
+  if (!declaration?.isImportDeclaration?.()) return "";
+
+  const source = declaration.node.source.value;
+
+  if (parent.isImportDefaultSpecifier()) return bindingHash(`import:${source}:default`);
+  if (parent.isImportNamespaceSpecifier()) return bindingHash(`import:${source}:*`);
+  if (parent.isImportSpecifier()) {
+    const imported = parent.node.imported?.name ?? parent.node.imported?.value ?? "";
+
+    return bindingHash(`import:${source}:${imported}`);
+  }
+
+  return "";
+}
+
+function collectBindingsInside(path, candidateBinding) {
+  const bindings = new Set([candidateBinding]);
+
+  path.traverse({
+    Scopable(childPath) {
+      for (const binding of Object.values(childPath.scope?.bindings ?? {})) {
+        if (binding?.path) {
+          bindings.add(binding);
+        }
+      }
+    },
+  });
+
+  return bindings;
+}
+
+function addReplacement(replacements, start, end, value) {
+  if (start == null || end == null || start >= end) return;
+  replacements.push({ end, start, value });
+}
+
+function applyReplacements(source, replacements) {
+  if (replacements.length === 0) return source;
+
+  const deduped = new Map();
+
+  for (const replacement of replacements) {
+    deduped.set(`${replacement.start}:${replacement.end}`, replacement);
+  }
+
+  const sorted = [...deduped.values()].sort((left, right) => left.start - right.start);
+  const output = [];
+  let offset = 0;
+
+  for (const replacement of sorted) {
+    if (replacement.start < offset) continue;
+
+    output.push(source.slice(offset, replacement.start), replacement.value);
+    offset = replacement.end;
+  }
+
+  output.push(source.slice(offset));
 
   return output.join("");
+}
+
+function normalizeBindingText(source, valuePath, candidateBinding) {
+  const localBindings = collectBindingsInside(valuePath, candidateBinding);
+  const externalBindings = new Map();
+  const localNames = new Map();
+  const localProperties = new Map();
+  const replacements = [];
+
+  function localName(binding) {
+    if (!localNames.has(binding)) {
+      localNames.set(binding, `LOCAL_${localNames.size}`);
+    }
+
+    return localNames.get(binding);
+  }
+
+  function externalName(binding) {
+    if (!externalBindings.has(binding)) {
+      externalBindings.set(binding, `EXT_${externalBindings.size}`);
+    }
+
+    return externalBindings.get(binding);
+  }
+
+  function localProperty(name) {
+    if (!localProperties.has(name)) {
+      localProperties.set(name, `PROP_${localProperties.size}`);
+    }
+
+    return localProperties.get(name);
+  }
+
+  valuePath.traverse({
+    Identifier(path) {
+      if (!shouldNormalizeIdentifier(path)) return;
+
+      if (isPropertyName(path)) {
+        addReplacement(replacements, path.node.start, path.node.end, localProperty(path.node.name));
+        return;
+      }
+
+      const binding = bindingForIdentifier(path);
+      let value;
+
+      if (!binding) {
+        value = globalNameHash(path.node.name);
+      } else if (binding === candidateBinding) {
+        value = "SELF";
+      } else if (localBindings.has(binding)) {
+        value = localName(binding);
+      } else {
+        value = externalName(binding);
+      }
+
+      addReplacement(replacements, path.node.start, path.node.end, value);
+    },
+  });
+
+  const original = source.slice(valuePath.node.start, valuePath.node.end);
+  const shifted = replacements.map((replacement) => ({
+    ...replacement,
+    end: replacement.end - valuePath.node.start,
+    start: replacement.start - valuePath.node.start,
+  }));
+
+  return {
+    text: applyReplacements(original, shifted),
+  };
+}
+
+function computeBindingHashes(ast, source) {
+  const bindings = collectAllBindings(ast);
+  const infos = [];
+  const hashes = new Map();
+
+  for (const binding of bindings) {
+    const imported = importBindingHash(binding);
+
+    if (imported) {
+      hashes.set(binding, imported);
+      continue;
+    }
+
+    const valuePath = bindingValuePath(binding);
+
+    if (
+      valuePath?.node?.start != null &&
+      valuePath.node.end != null &&
+      valuePath.node.end - valuePath.node.start <= maxHashableBindingBytes
+    ) {
+      infos.push({ binding, valuePath });
+    }
+  }
+
+  for (const info of infos) {
+    const normalized = normalizeBindingText(source, info.valuePath, info.binding);
+    const nextHash = bindingHash(normalized.text);
+
+    hashes.set(info.binding, nextHash);
+  }
+
+  return hashes;
+}
+
+function createFallbackRenamer(mode, lineStarts) {
+  const ordered = new Map();
+  const lineMaps = new Map();
+  const propertyLineMaps = new Map();
+
+  function renameFrom(map, key, prefix) {
+    if (!map.has(key)) {
+      map.set(key, `${prefix}${map.size}`);
+    }
+
+    return map.get(key);
+  }
+
+  function lineMap(container, line) {
+    if (!container.has(line)) {
+      container.set(line, new Map());
+    }
+
+    return container.get(line);
+  }
+
+  return {
+    bindingName(binding, node) {
+      if (mode === "all") return "ID";
+      if (mode === "ordered") return renameFrom(ordered, binding ?? `global:${node.name}`, "ID");
+
+      const line = lineForOffset(lineStarts, node.start);
+      return renameFrom(lineMap(lineMaps, line), binding ?? `global:${node.name}`, "ID");
+    },
+
+    propertyName(name, node) {
+      if (mode === "all") return "PROP";
+      if (mode === "ordered") return propertyNameHash(name);
+
+      const line = lineForOffset(lineStarts, node.start);
+      return renameFrom(lineMap(propertyLineMaps, line), name, "PROP");
+    },
+  };
+}
+
+function normalizeJavaScript(source, filePath, options) {
+  let ast;
+
+  try {
+    ast = parseJavaScript(source, filePath);
+  } catch (error) {
+    console.warn(`${filePath}: Babel parse failed; leaving file unnormalized: ${error.message}`);
+    return source;
+  }
+
+  const lineStarts = offsetLineStarts(source);
+  const bindingHashes = options.mode === "hash" ? computeBindingHashes(ast, source) : new Map();
+  const fallback = createFallbackRenamer(options.mode, lineStarts);
+  const replacements = [];
+
+  traverse(ast, {
+    Identifier(path) {
+      if (!shouldNormalizeIdentifier(path)) return;
+
+      if (isPropertyName(path)) {
+        addReplacement(
+          replacements,
+          path.node.start,
+          path.node.end,
+          fallback.propertyName(path.node.name, path.node),
+        );
+        return;
+      }
+
+      const binding = bindingForIdentifier(path);
+      const value = path.isBindingIdentifier() && bindingHashes.has(binding)
+        ? bindingHashes.get(binding)
+        : fallback.bindingName(binding, path.node);
+
+      addReplacement(replacements, path.node.start, path.node.end, value);
+    },
+  });
+
+  return applyReplacements(source, replacements);
 }
 
 function isProbablyBinary(buffer) {
@@ -619,7 +662,7 @@ async function writeNormalizedFile(ref, targetRoot, originalRoot, filePath, opti
   if (shouldNormalize) {
     await fs.writeFile(
       target,
-      normalizeJavaScript(buffer.toString("utf8"), options),
+      normalizeJavaScript(buffer.toString("utf8"), filePath, options),
       "utf8",
     );
     return;
@@ -764,6 +807,56 @@ async function renderOriginalHunkLines(patch, oldRoot, newRoot) {
   return rendered.join("\n");
 }
 
+function splitPatchSections(patch) {
+  const lines = patch.split("\n");
+  const sections = [];
+  let current = [];
+
+  for (const line of lines) {
+    if (line.startsWith("diff --git ") && current.length > 0) {
+      sections.push(current.join("\n"));
+      current = [];
+    }
+
+    current.push(line);
+  }
+
+  if (current.length > 0 && current.some((line) => line.length > 0)) {
+    sections.push(current.join("\n"));
+  }
+
+  return sections;
+}
+
+function parseSectionFilePaths(section) {
+  let oldFile = "";
+  let newFile = "";
+
+  for (const line of section.split("\n")) {
+    if (line.startsWith("--- ")) {
+      oldFile = parsePatchFilePath(line);
+    } else if (line.startsWith("+++ ")) {
+      newFile = parsePatchFilePath(line);
+    }
+  }
+
+  return { oldFile, newFile };
+}
+
+function filterAddedDeletedFileSections(patch, oldFileSet, newFileSet) {
+  return splitPatchSections(patch)
+    .filter((section) => {
+      const { oldFile, newFile } = parseSectionFilePaths(section);
+
+      return oldFile &&
+        newFile &&
+        oldFile === newFile &&
+        oldFileSet.has(oldFile) &&
+        newFileSet.has(newFile);
+    })
+    .join("\n");
+}
+
 function cleanPatchPaths(text) {
   function cleanGitPathPrefixes(line) {
     return line
@@ -854,7 +947,13 @@ async function main() {
       "old",
       "new",
     ], { cwd: tempRoot, allowedExitCodes: [0, 1] });
-    const rawPatch = diff.stdout.toString("utf8");
+    const rawPatch = options.excludeAddedDeletedFiles
+      ? filterAddedDeletedFileSections(
+        diff.stdout.toString("utf8"),
+        new Set(oldFiles),
+        new Set(newFiles),
+      )
+      : diff.stdout.toString("utf8");
     const renderedPatch = options.normalizedOutput
       ? rawPatch
       : await renderOriginalHunkLines(rawPatch, oldOriginalRoot, newOriginalRoot);

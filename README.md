@@ -55,20 +55,32 @@ https://persistent.oaistatic.com/codex-app-prod/Codex-latest-x64.dmg
 
 For bundled JavaScript, minifier identifier churn can hide the meaningful
 changes. The identifier-insensitive diff helper builds normalized temporary
-trees and compares those instead:
+trees and compares those instead. Install the helper dependencies first:
+
+```sh
+npm ci
+```
 
 ```sh
 node scripts/diff-ignore-identifiers.mjs \
   --exclude-postprocess-json \
+  --exclude-added-deleted-files \
   --output=/tmp/codex-app-id-diff.patch \
   origin/v26.608.12217 origin/latest
 ```
 
 The generated patch is for review only: JavaScript-family files have identifier
-names replaced before matching, including inside template literal substitutions,
-but the emitted hunk lines are rendered from the original files so `+` and `-`
-lines still show the real identifiers. Non-JS files are included unchanged
-unless `--js-only` is passed. By default identifier placeholders reset on each
-line so one inserted minifier name does not renumber the rest of a bundle; pass
-`--mode=all` for a more aggressive pass that treats every identifier as the same
-token. Use `--normalized-output` to inspect the placeholder diff directly.
+names replaced before matching, but the emitted hunk lines are rendered from
+the original files so `+` and `-` lines still show the real identifiers. Non-JS
+files are included unchanged unless `--js-only` is passed.
+
+By default the helper parses JavaScript with Babel and uses `--mode=hash`:
+simple bindings are renamed to fixed-point content hashes derived from their
+initializer or body. References to bindings outside that initializer/body are
+canonicalized as structural external placeholders, so callers do not light up
+only because a callee's minified name or body hash changed. Bindings that cannot
+be safely content-hashed fall back to line-local structural placeholders. Use
+`--mode=line`, `--mode=ordered`, or `--mode=all` for simpler parser-based
+placeholder strategies. Use `--normalized-output` to inspect the placeholder
+diff directly. Pass `--exclude-added-deleted-files` to hide files that are not
+present at the same path on both sides of the comparison.

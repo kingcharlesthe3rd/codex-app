@@ -5,6 +5,7 @@ import path from "node:path";
 const root = path.resolve(process.argv[2] ?? process.cwd());
 const renamedAt = new Date().toISOString();
 const textFileByteLimit = 20 * 1024 * 1024;
+const reportFileName = ".codex-app-postprocess.json";
 const hashedAssetSuffixes = [
   ".js.map",
   ".mjs.map",
@@ -61,19 +62,65 @@ function parseHashedAssetName(fileName) {
   if (!extension) return null;
 
   const stem = fileName.slice(0, -extension.length);
-  const match = stem.match(/^(.*?)([-.])([A-Za-z0-9_]{6,32})$/);
-  if (!match) return null;
 
-  const [, baseName, , hashToken] = match;
+  for (const match of stem.matchAll(/[-.]/g)) {
+    const separator = match[0];
+    const baseName = stem.slice(0, match.index);
+    const hashSuffix = stem.slice(match.index + 1);
 
-  if (!/[0-9]/.test(hashToken)) return null;
-  if (!baseName || baseName.endsWith("-") || baseName.endsWith(".")) return null;
+    if (!isLikelyHashSuffix(hashSuffix, separator, extension)) continue;
+    if (!baseName || baseName.endsWith("-") || baseName.endsWith(".")) continue;
 
-  return {
-    baseName,
-    extension,
-    targetName: `${baseName}${extension}`,
-  };
+    return {
+      baseName,
+      extension,
+      targetName: `${baseName}${extension}`,
+    };
+  }
+
+  return null;
+}
+
+function isLikelyHashSuffix(hashSuffix, separator, extension) {
+  if (separator === ".") {
+    return isLikelyHashToken(hashSuffix, separator, extension);
+  }
+
+  const parts = hashSuffix.split("-").filter(Boolean);
+  if (parts.length === 0) return false;
+  if (parts.some((part) => !/^[A-Za-z0-9_]{1,32}$/.test(part))) return false;
+
+  const [firstPart, ...remainingParts] = parts;
+  const compactHash = parts.join("");
+  if (!isLikelyHashToken(firstPart, separator, extension, {
+    allowShortMixedCase: remainingParts.length > 0,
+  })) {
+    return false;
+  }
+
+  return isLikelyHashToken(compactHash, separator, extension, {
+    allowShortMixedCase: remainingParts.length > 0,
+  });
+}
+
+function isLikelyHashToken(hashToken, separator, extension, options = {}) {
+  const minimumLength = options.allowShortMixedCase ? 5 : 6;
+  if (!/^[A-Za-z0-9_]+$/.test(hashToken)) return false;
+  if (hashToken.length < minimumLength || hashToken.length > 32) return false;
+
+  if (/[0-9_]/.test(hashToken)) return true;
+
+  if (extension === ".wasm" && separator === ".") {
+    return /^[a-z]{10}$/.test(hashToken);
+  }
+
+  if (separator === "-") {
+    return (
+      /[A-Z]/.test(hashToken) && /[a-z]/.test(hashToken)
+    ) || /^[A-Z]{7,12}$/.test(hashToken);
+  }
+
+  return false;
 }
 
 function groupCandidates(candidates) {
@@ -212,7 +259,32 @@ async function rewriteReferences(replacementMap) {
   return changedFiles;
 }
 
+async function readExistingReport() {
+  const reportPath = path.join(root, reportFileName);
+
+  try {
+    return JSON.parse(await fs.readFile(reportPath, "utf8"));
+  } catch (error) {
+    if (error && error.code === "ENOENT") {
+      return null;
+    }
+
+    return null;
+  }
+}
+
+function combineUniqueBy(items, key) {
+  const combined = new Map();
+
+  for (const item of items) {
+    combined.set(key(item), item);
+  }
+
+  return [...combined.values()];
+}
+
 async function main() {
+  const existingReport = await readExistingReport();
   const files = await walk(root);
   const candidates = [];
 
@@ -243,15 +315,21 @@ async function main() {
 
   const report = {
     renamedAt,
-    renames: renames.map((rename) => ({
-      from: toPosix(path.relative(root, rename.from)),
-      to: toPosix(path.relative(root, rename.to)),
-    })),
-    referenceUpdates,
+    renames: combineUniqueBy([
+      ...(existingReport?.renames ?? []),
+      ...renames.map((rename) => ({
+        from: toPosix(path.relative(root, rename.from)),
+        to: toPosix(path.relative(root, rename.to)),
+      })),
+    ], (rename) => `${rename.from}\0${rename.to}`),
+    referenceUpdates: combineUniqueBy([
+      ...(existingReport?.referenceUpdates ?? []),
+      ...referenceUpdates,
+    ], (filePath) => filePath),
   };
 
   await fs.writeFile(
-    path.join(root, ".codex-app-postprocess.json"),
+    path.join(root, reportFileName),
     `${JSON.stringify(report, null, 2)}\n`,
   );
 

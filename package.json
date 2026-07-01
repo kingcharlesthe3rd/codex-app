@@ -1,0 +1,13 @@
+{
+  "name": "codex-app",
+  "version": "1.0.0",
+  "description": "Automation helpers for tracking Codex desktop app releases",
+  "scripts": {
+    "test": "node --check scripts/diff-ignore-identifiers.mjs && node --check scripts/import-codex-dmg.mjs && node --check scripts/postprocess-normalize-assets.mjs"
+  },
+  "dependencies": {
+    "@babel/parser": "^8.0.0",
+    "@babel/traverse": "^8.0.0"
+  },
+  "private": true
+}
