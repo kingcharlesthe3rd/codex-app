@@ -1,0 +1,16 @@
+{
+  "app": {
+    "name": "Codex",
+    "version": "26.623.81905",
+    "bundleVersion": "4598",
+    "branch": "v26.623.81905"
+  },
+  "source": {
+    "url": "https://persistent.oaistatic.com/codex-app-prod/Codex.dmg",
+    "sha256": "55540dbbf13b5aecb17eccbddc6a2b927af4b7b1fbc32f64c4c3a205960ea3fa",
+    "downloadedAt": "2026-07-01T04:56:58Z"
+  },
+  "import": {
+    "layout": "app.asar contents and app.asar.unpacked contents merged at repository root"
+  }
+}

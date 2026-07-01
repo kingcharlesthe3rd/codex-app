@@ -1,0 +1,1 @@
+import{n as e,t}from"./home-announcements-LuuZU5Vv.js";e();export{t as HomeAnnouncements};
