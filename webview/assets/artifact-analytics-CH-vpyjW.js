@@ -1,2 +1,91 @@
-import{n as e}from"./rolldown-runtime-Czos8NxU.js";import{FS as t,IS as n,LS as r,MS as i,NS as a,PS as o,RS as s,hS as c,jS as l,pS as u,yE as d}from"./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~plug~kmtatxxf-IUI8plS9.js";function f(e,t,{annotationModeEnabled:n,startSource:r}){c(e,a,{...g(t),annotationModeEnabled:n,startSource:v(r)})}function p(e,t){c(e,s,{...g(t)})}function m(e,t){c(e,l,{...g(t)})}function h(e,t,{annotationModeEnabled:r,annotationTargetKind:i,submitMode:a,submitSource:o}){c(e,n,{...g(t),annotationModeEnabled:r,annotationTargetKind:i,submitMode:y(a),submitSource:b(o)})}function g({artifactTabId:e,artifactType:t,importKind:n,threadId:r}){return{artifactKind:_(t),artifactImportKind:n,artifactTabId:e??void 0,threadId:r??void 0}}function _(e){switch(e){case`document`:return r.CODEX_ARTIFACT_KIND_DOCUMENT;case`notebook`:return r.CODEX_ARTIFACT_KIND_NOTEBOOK;case`pdf`:return r.CODEX_ARTIFACT_KIND_PDF;case`slides`:return r.CODEX_ARTIFACT_KIND_PRESENTATION;case`spreadsheet`:return r.CODEX_ARTIFACT_KIND_SPREADSHEET}}function v(e){switch(e){case`annotation_mode_pointer`:return i.CODEX_ARTIFACT_ANNOTATION_START_SOURCE_ANNOTATION_MODE_POINTER;case`ask_codex_button`:return i.CODEX_ARTIFACT_ANNOTATION_START_SOURCE_ASK_CODEX_BUTTON;case`ask_codex_shortcut`:return i.CODEX_ARTIFACT_ANNOTATION_START_SOURCE_ASK_CODEX_SHORTCUT}}function y(e){switch(e){case`direct`:return o.CODEX_ARTIFACT_ANNOTATION_SUBMIT_MODE_DIRECT;case`saved`:return o.CODEX_ARTIFACT_ANNOTATION_SUBMIT_MODE_SAVED}}function b(e){switch(e){case`button`:return t.CODEX_ARTIFACT_ANNOTATION_SUBMIT_SOURCE_BUTTON;case`dictation`:return t.CODEX_ARTIFACT_ANNOTATION_SUBMIT_SOURCE_DICTATION;case`keyboard`:return t.CODEX_ARTIFACT_ANNOTATION_SUBMIT_SOURCE_KEYBOARD}}var x=e((()=>{d(),u()}));export{p as a,h as i,m as n,f as r,x as t};
+import { n as e } from "./rolldown-runtime.js";
+import {
+  FS as t,
+  IS as n,
+  LS as r,
+  MS as i,
+  NS as a,
+  PS as o,
+  RS as s,
+  hS as c,
+  jS as l,
+  pS as u,
+  yE as d,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~plug~kmtatxxf.js";
+function f(e, t, { annotationModeEnabled: n, startSource: r }) {
+  c(e, a, { ...g(t), annotationModeEnabled: n, startSource: v(r) });
+}
+function p(e, t) {
+  c(e, s, { ...g(t) });
+}
+function m(e, t) {
+  c(e, l, { ...g(t) });
+}
+function h(
+  e,
+  t,
+  { annotationModeEnabled: r, annotationTargetKind: i, submitMode: a, submitSource: o },
+) {
+  c(e, n, {
+    ...g(t),
+    annotationModeEnabled: r,
+    annotationTargetKind: i,
+    submitMode: y(a),
+    submitSource: b(o),
+  });
+}
+function g({ artifactTabId: e, artifactType: t, importKind: n, threadId: r }) {
+  return {
+    artifactKind: _(t),
+    artifactImportKind: n,
+    artifactTabId: e ?? void 0,
+    threadId: r ?? void 0,
+  };
+}
+function _(e) {
+  switch (e) {
+    case `document`:
+      return r.CODEX_ARTIFACT_KIND_DOCUMENT;
+    case `notebook`:
+      return r.CODEX_ARTIFACT_KIND_NOTEBOOK;
+    case `pdf`:
+      return r.CODEX_ARTIFACT_KIND_PDF;
+    case `slides`:
+      return r.CODEX_ARTIFACT_KIND_PRESENTATION;
+    case `spreadsheet`:
+      return r.CODEX_ARTIFACT_KIND_SPREADSHEET;
+  }
+}
+function v(e) {
+  switch (e) {
+    case `annotation_mode_pointer`:
+      return i.CODEX_ARTIFACT_ANNOTATION_START_SOURCE_ANNOTATION_MODE_POINTER;
+    case `ask_codex_button`:
+      return i.CODEX_ARTIFACT_ANNOTATION_START_SOURCE_ASK_CODEX_BUTTON;
+    case `ask_codex_shortcut`:
+      return i.CODEX_ARTIFACT_ANNOTATION_START_SOURCE_ASK_CODEX_SHORTCUT;
+  }
+}
+function y(e) {
+  switch (e) {
+    case `direct`:
+      return o.CODEX_ARTIFACT_ANNOTATION_SUBMIT_MODE_DIRECT;
+    case `saved`:
+      return o.CODEX_ARTIFACT_ANNOTATION_SUBMIT_MODE_SAVED;
+  }
+}
+function b(e) {
+  switch (e) {
+    case `button`:
+      return t.CODEX_ARTIFACT_ANNOTATION_SUBMIT_SOURCE_BUTTON;
+    case `dictation`:
+      return t.CODEX_ARTIFACT_ANNOTATION_SUBMIT_SOURCE_DICTATION;
+    case `keyboard`:
+      return t.CODEX_ARTIFACT_ANNOTATION_SUBMIT_SOURCE_KEYBOARD;
+  }
+}
+var x = e(() => {
+  (d(), u());
+});
+export { p as a, h as i, m as n, f as r, x as t };
 //# sourceMappingURL=artifact-analytics-CH-vpyjW.js.map

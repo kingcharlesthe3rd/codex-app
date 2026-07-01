@@ -1,0 +1,212 @@
+import { n as e } from "./rolldown-runtime.js";
+import {
+  $N as t,
+  Jw as n,
+  Kw as r,
+  MA as i,
+  NA as a,
+  QN as o,
+  Xw as s,
+  Yw as c,
+  Zw as l,
+  yE as u,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~plug~kmtatxxf.js";
+function d() {
+  return m.size > 0;
+}
+function f({ hostId: e }) {
+  let t = i.primaryRuntime;
+  return t == null
+    ? Promise.reject(Error(`Primary runtime is unavailable`))
+    : Promise.resolve(t.cancelInstall({ hostId: e }));
+}
+function p({ hostId: e, request: t, release: n }) {
+  let r = JSON.stringify({ hostId: e, release: n }),
+    a = m.get(r);
+  if (a != null) return a;
+  let o = h.then(() => {
+    let r = i.primaryRuntime;
+    if (r == null) throw Error(`Primary runtime is unavailable`);
+    return r[t]({ hostId: e, release: n });
+  });
+  return (
+    m.set(r, o),
+    (h = o.then(
+      () => void 0,
+      () => void 0,
+    )),
+    o
+      .finally(() => {
+        m.delete(r);
+      })
+      .catch(() => void 0),
+    o
+  );
+}
+var m,
+  h,
+  g = e(() => {
+    (a(), (m = new Map()), (h = Promise.resolve()));
+  }),
+  _,
+  v,
+  y = e(() => {
+    ((_ = `3026692602`), (v = `3502101112`));
+  });
+function b({ bundleVersion: e, durationMs: t, release: n, status: r }) {
+  return { durationMs: t, release: w(n), status: T(r), ...D(e) };
+}
+function x({ diagnostics: e, durationMs: t }) {
+  return {
+    durationMs: t,
+    problemCount: e.problems.length,
+    status: e.installed
+      ? r.CODEX_PRIMARY_RUNTIME_DEPENDENCIES_DIAGNOSE_STATUS_OK
+      : r.CODEX_PRIMARY_RUNTIME_DEPENDENCIES_DIAGNOSE_STATUS_PROBLEM,
+    ...D(e.bundleVersion),
+  };
+}
+function S({ durationMs: e }) {
+  return { durationMs: e, status: r.CODEX_PRIMARY_RUNTIME_DEPENDENCIES_DIAGNOSE_STATUS_FAILED };
+}
+function C({ bundleVersion: e, durationMs: t, status: n }) {
+  return { durationMs: t, status: E(n), ...D(e) };
+}
+function w(e) {
+  switch (e) {
+    case `latest`:
+      return l.CODEX_PRIMARY_RUNTIME_RELEASE_LATEST;
+    case `latest-alpha`:
+      return l.CODEX_PRIMARY_RUNTIME_RELEASE_LATEST_ALPHA;
+  }
+}
+function T(e) {
+  switch (e) {
+    case `already-current`:
+      return s.CODEX_PRIMARY_RUNTIME_INSTALL_RESULT_STATUS_ALREADY_CURRENT;
+    case `canceled`:
+      return s.CODEX_PRIMARY_RUNTIME_INSTALL_RESULT_STATUS_CANCELED;
+    case `failed`:
+      return s.CODEX_PRIMARY_RUNTIME_INSTALL_RESULT_STATUS_FAILED;
+    case `installed`:
+      return s.CODEX_PRIMARY_RUNTIME_INSTALL_RESULT_STATUS_INSTALLED;
+  }
+}
+function E(e) {
+  switch (e) {
+    case `already-current`:
+      return n.CODEX_PRIMARY_RUNTIME_DEPENDENCIES_RESET_STATUS_ALREADY_CURRENT;
+    case `canceled`:
+      return n.CODEX_PRIMARY_RUNTIME_DEPENDENCIES_RESET_STATUS_CANCELED;
+    case `failed`:
+      return n.CODEX_PRIMARY_RUNTIME_DEPENDENCIES_RESET_STATUS_FAILED;
+    case `installed`:
+      return n.CODEX_PRIMARY_RUNTIME_DEPENDENCIES_RESET_STATUS_INSTALLED;
+  }
+}
+function D(e) {
+  return e == null || e.length === 0 ? {} : { bundleVersion: e };
+}
+var O = e(() => {
+  u();
+});
+async function k({ formatMessage: e, hostId: n, productLogger: r, release: i, toast: a }) {
+  let o = Date.now(),
+    s = a.info(
+      e({
+        id: `codex.command.installPrimaryRuntime.installing`,
+        defaultMessage: `Installing Codex runtime…`,
+        description: `Toast shown while the Codex runtime installer is running`,
+      }),
+      { duration: 120, hasCloseButton: !1, id: `install-primary-runtime` },
+    );
+  try {
+    let t = await p({ hostId: n, release: i, request: `install` });
+    if (
+      (r.logProductEvent(
+        c,
+        b({
+          bundleVersion: t.bundleVersion,
+          durationMs: Date.now() - o,
+          release: i,
+          status: t.status,
+        }),
+      ),
+      t.status === `already-current`)
+    ) {
+      a.info(
+        e({
+          id: `codex.command.installPrimaryRuntime.alreadyDownloaded`,
+          defaultMessage: `Latest Codex runtime is already downloaded`,
+          description: `Toast shown when the Codex runtime installer exits because the latest runtime is already downloaded`,
+        }),
+        { id: `install-primary-runtime` },
+      );
+      return;
+    }
+    a.success(
+      e({
+        id: `codex.command.installPrimaryRuntime.installed`,
+        defaultMessage: `Codex runtime installed`,
+        description: `Toast shown when the Codex runtime finishes installing`,
+      }),
+      { id: `install-primary-runtime` },
+    );
+  } catch (n) {
+    if (A(n)) {
+      (r.logProductEvent(
+        c,
+        b({ bundleVersion: null, durationMs: Date.now() - o, release: i, status: `canceled` }),
+      ),
+        a.info(
+          e({
+            id: `codex.command.installPrimaryRuntime.canceled`,
+            defaultMessage: `Codex runtime install canceled`,
+            description: `Toast shown when the Codex runtime installer is canceled`,
+          }),
+          { id: `install-primary-runtime` },
+        ));
+      return;
+    }
+    (t.error(`Error installing primary runtime`, { safe: { release: i }, sensitive: { error: n } }),
+      r.logProductEvent(
+        c,
+        b({ bundleVersion: null, durationMs: Date.now() - o, release: i, status: `failed` }),
+      ),
+      a.danger(
+        e({
+          id: `codex.command.installPrimaryRuntime.failed`,
+          defaultMessage: `Couldn’t install Codex runtime`,
+          description: `Toast shown when the Codex runtime installer fails`,
+        }),
+        { id: `install-primary-runtime` },
+      ));
+  } finally {
+    s.close();
+  }
+}
+function A(e) {
+  return e instanceof Error || e instanceof DOMException
+    ? e.name === `AbortError` || e.message.toLowerCase().includes(`aborted`)
+    : !1;
+}
+var j = e(() => {
+  (u(), o(), O(), g());
+});
+export {
+  S as a,
+  v as c,
+  f as d,
+  d as f,
+  x as i,
+  _ as l,
+  p as m,
+  A as n,
+  C as o,
+  g as p,
+  k as r,
+  O as s,
+  j as t,
+  y as u,
+};
+//# sourceMappingURL=app-initial~app-main~agent-settings.js.map

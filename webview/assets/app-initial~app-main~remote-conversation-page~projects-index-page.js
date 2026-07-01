@@ -1,0 +1,15499 @@
+import { n as e, s as t } from "./rolldown-runtime.js";
+import {
+  $N as n,
+  $i as r,
+  $k as i,
+  $n as a,
+  AV as o,
+  Ar as s,
+  BN as c,
+  BP as l,
+  Bn as u,
+  CA as d,
+  CI as f,
+  CP as p,
+  CV as m,
+  Cd as h,
+  Cn as g,
+  Cu as _,
+  Dd as v,
+  Dj as y,
+  Dn as b,
+  Dr as x,
+  EA as S,
+  EB as C,
+  Ed as w,
+  Ej as T,
+  En as E,
+  Er as D,
+  Fi as O,
+  Fn as k,
+  Fw as A,
+  GP as j,
+  Gi as M,
+  Gp as N,
+  Gr as P,
+  Gt as F,
+  HP as I,
+  Hf as L,
+  Hi as R,
+  Hr as z,
+  IE as B,
+  IP as ee,
+  Ii as te,
+  In as V,
+  Iu as H,
+  JD as U,
+  JN as W,
+  Jk as G,
+  Jp as ne,
+  Jt as K,
+  Kt as q,
+  LE as J,
+  LP as Y,
+  La as re,
+  Li as ie,
+  Ln as ae,
+  Lu as oe,
+  MA as se,
+  ME as ce,
+  Mj as le,
+  Mr as ue,
+  NA as de,
+  NE as fe,
+  On as pe,
+  Oz as me,
+  PN as he,
+  PR as ge,
+  Pf as _e,
+  Pj as ve,
+  Pr as ye,
+  QN as be,
+  Qi as xe,
+  Qj as Se,
+  Qk as Ce,
+  Qn as we,
+  Qt as Te,
+  Qu as Ee,
+  RE as De,
+  RN as Oe,
+  RV as X,
+  Ra as ke,
+  Ri as Ae,
+  Rn as je,
+  SA as Me,
+  SP as Ne,
+  Sd as Pe,
+  Sm as Fe,
+  Sn as Ie,
+  Sr as Le,
+  TB as Re,
+  TI as ze,
+  TP as Be,
+  Td as Ve,
+  Tn as He,
+  Tr as Ue,
+  Uf as We,
+  Ui as Ge,
+  Up as Ke,
+  Ur as qe,
+  Ut as Je,
+  VP as Ye,
+  Vi as Xe,
+  Vr as Ze,
+  Wp as Qe,
+  Wt as $e,
+  XF as et,
+  XO as tt,
+  Xf as nt,
+  Xr as rt,
+  Xt as it,
+  YO as at,
+  Yj as ot,
+  Yr as st,
+  Yt as ct,
+  ZF as lt,
+  Zr as ut,
+  Zu as dt,
+  _F as ft,
+  _M as pt,
+  _N as mt,
+  _V as ht,
+  _p as gt,
+  _r as _t,
+  aM as vt,
+  ad as yt,
+  al as bt,
+  an as xt,
+  ap as St,
+  ar as Ct,
+  av as wt,
+  bB as Tt,
+  bd as Et,
+  br as Dt,
+  cd as Ot,
+  cl as kt,
+  cm as At,
+  dE as jt,
+  dF as Mt,
+  eM as Nt,
+  ei as Pt,
+  em as Ft,
+  er as It,
+  es as Lt,
+  fE as Rt,
+  fF as zt,
+  fM as Bt,
+  fN as Vt,
+  fd as Ht,
+  fj as Ut,
+  fm as Wt,
+  gM as Gt,
+  gN as Kt,
+  gP as qt,
+  gV as Jt,
+  gd as Yt,
+  gi as Xt,
+  gl as Zt,
+  gp as Qt,
+  gu as $t,
+  gw as en,
+  gx as tn,
+  hN as nn,
+  hS as rn,
+  hd as an,
+  hi as on,
+  hm as sn,
+  hp as cn,
+  hx as ln,
+  iF as un,
+  iM as dn,
+  ij as fn,
+  in as pn,
+  ip as mn,
+  jE as hn,
+  jV as gn,
+  kf as _n,
+  kn as vn,
+  lL as yn,
+  lM as bn,
+  lV as xn,
+  lr as Sn,
+  mM as Cn,
+  mN as wn,
+  mP as Tn,
+  mi as En,
+  ml as Dn,
+  mu as On,
+  nM as kn,
+  nV as An,
+  nd as jn,
+  nn as Mn,
+  nr as Nn,
+  oM as Pn,
+  oP as Fn,
+  oa as In,
+  od as Ln,
+  oi as Rn,
+  on as zn,
+  or as Bn,
+  pI as Vn,
+  pN as Hn,
+  pS as Un,
+  pV as Wn,
+  pd as Gn,
+  pi as Kn,
+  pj as qn,
+  pm as Jn,
+  px as Yn,
+  qD as Xn,
+  qN as Zn,
+  qP as Qn,
+  qi as $n,
+  qj as er,
+  qt as tr,
+  rF as nr,
+  rM as rr,
+  rm as ir,
+  rn as ar,
+  rr as or,
+  sa as sr,
+  sd as cr,
+  si as lr,
+  sj as ur,
+  sm as dr,
+  sp as fr,
+  tM as pr,
+  tV as mr,
+  td as hr,
+  ti as gr,
+  ts as _r,
+  uF as vr,
+  uM as yr,
+  ud as br,
+  ur as xr,
+  vN as Sr,
+  vV as Cr,
+  vj as wr,
+  vm as Tr,
+  vp as Er,
+  vr as Dr,
+  vv as Or,
+  wA as kr,
+  wB as Z,
+  wI as Ar,
+  wP as Q,
+  wR as jr,
+  wd as Mr,
+  wn as Nr,
+  wr as Pr,
+  wu as Fr,
+  xV as Ir,
+  xm as Lr,
+  xn as Rr,
+  xr as zr,
+  yE as Br,
+  yN as Vr,
+  yp as Hr,
+  yr as Ur,
+  zE as Wr,
+  zV as Gr,
+  zi as Kr,
+  zn as qr,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~plug~kmtatxxf.js";
+import {
+  $E as Jr,
+  $d as Yr,
+  Ah as Xr,
+  Ai as Zr,
+  Ao as Qr,
+  By as $r,
+  Fm as ei,
+  Fn as ti,
+  Fo as ni,
+  Fr as ri,
+  GE as ii,
+  H_ as ai,
+  Hy as oi,
+  In as si,
+  Io as ci,
+  JE as li,
+  KE as ui,
+  Kl as di,
+  Lo as fi,
+  Mr as pi,
+  No as mi,
+  Nr as hi,
+  Po as gi,
+  Pr as _i,
+  QD as vi,
+  Qd as yi,
+  Ql as bi,
+  Rw as xi,
+  SD as Si,
+  Tp as Ci,
+  V_ as wi,
+  X_ as Ti,
+  Xl as Ei,
+  YE as Di,
+  Y_ as Oi,
+  ZD as ki,
+  ZE as Ai,
+  Zh as ji,
+  Zl as Mi,
+  _C as Ni,
+  _c as Pi,
+  aO as Fi,
+  a_ as Ii,
+  ad as Li,
+  af as Ri,
+  al as zi,
+  bD as Bi,
+  cO as Vi,
+  cl as Hi,
+  dc as Ui,
+  dd as Wi,
+  dl as Gi,
+  dy as Ki,
+  eD as qi,
+  ef as Ji,
+  eu as Yi,
+  fc as Xi,
+  fd as Zi,
+  fs as Qi,
+  fy as $i,
+  gC as ea,
+  hC as ta,
+  hp as na,
+  hr as ra,
+  iD as ia,
+  if as aa,
+  il as oa,
+  ip as sa,
+  ji as ca,
+  jo as la,
+  kh as ua,
+  ll as da,
+  mp as fa,
+  mr as pa,
+  nD as ma,
+  nf as ha,
+  nl as ga,
+  nu as _a,
+  oO as va,
+  o_ as ya,
+  od as ba,
+  ol as xa,
+  ps as Sa,
+  qh as Ca,
+  ql as wa,
+  rD as Ta,
+  rl as Ea,
+  sO as Da,
+  sl as Oa,
+  sp as ka,
+  tD as Aa,
+  tf as ja,
+  tl as Ma,
+  tu as Na,
+  vc as Pa,
+  wp as Fa,
+  xD as Ia,
+  yD as La,
+  zw as Ra,
+  zy as za,
+} from "./app-initial~app-main~onboarding-page.js";
+import {
+  C as Ba,
+  S as Va,
+  _ as Ha,
+  a as Ua,
+  b as Wa,
+  d as Ga,
+  g as Ka,
+  h as qa,
+  i as Ja,
+  m as Ya,
+  n as Xa,
+  t as Za,
+  u as Qa,
+  v as $a,
+  x as eo,
+  y as to,
+} from "./app-initial~app-main~projects-index-page~local-conversation-page.js";
+import {
+  m as no,
+  p as ro,
+} from "./app-initial~app-main~worktree-init-v2-page~appgen-publication-terms-route~remote-conversati~oykv7gy7.js";
+import {
+  j as io,
+  k as ao,
+  n as oo,
+  r as so,
+  t as co,
+} from "./app-initial~app-main~worktree-init-v2-page~appgen-page~remote-conversation-page~plugin-deta~hb9r3lcf.js";
+import {
+  b as lo,
+  y as uo,
+} from "./app-initial~app-main~worktree-init-v2-page~appgen-settings-page~page~appgen-page~remote-con~di269h6j.js";
+import {
+  v as fo,
+  y as po,
+} from "./app-initial~app-main~worktree-init-v2-page~appgen-publication-terms-route~remote-conversati~coa484up.js";
+import {
+  d as mo,
+  u as ho,
+} from "./app-initial~app-main~login-route~codex-mobile-page~remote-connections-settings.js";
+import {
+  a as go,
+  n as _o,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~new-thread-panel-page~o~e4skp3hr.js";
+import {
+  n as vo,
+  t as yo,
+} from "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~onboarding-page~setting~fboddtaw.js";
+import {
+  C as bo,
+  D as xo,
+  E as So,
+  S as Co,
+  T as wo,
+  _ as To,
+  a as Eo,
+  c as Do,
+  d as Oo,
+  f as ko,
+  g as Ao,
+  h as jo,
+  i as Mo,
+  l as No,
+  m as Po,
+  n as Fo,
+  o as Io,
+  r as Lo,
+  s as Ro,
+  t as zo,
+  w as Bo,
+} from "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~projects-index-page~app~ovcriy74.js";
+import {
+  A as Vo,
+  C as Ho,
+  D as Uo,
+  E as Wo,
+  G as Go,
+  J as Ko,
+  L as qo,
+  N as Jo,
+  O as Yo,
+  P as Xo,
+  T as Zo,
+  Y as Qo,
+  _ as $o,
+  d as es,
+  f as ts,
+  g as ns,
+  h as rs,
+  j as is,
+  k as as,
+  m as os,
+  p as ss,
+  q as cs,
+  u as ls,
+  w as us,
+  y as ds,
+} from "./app-initial~app-main~projects-index-page~hotkey-window-new-thread-page~hotkey-window-home-p~hswrsggc.js";
+import {
+  n as fs,
+  t as ps,
+} from "./app-initial~app-main~remote-conversation-page~onboarding-page~projects-index-page~hotkey-wi~abrx06l0.js";
+import {
+  i as ms,
+  r as hs,
+} from "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~projects-index-page~app~edtlcz4n.js";
+import {
+  r as gs,
+  t as _s,
+} from "./app-initial~app-main~remote-conversation-page~pull-requests-page~new-thread-panel-page~proj~i4yy32ef.js";
+function vs(e, t, n) {
+  let r = { ...e };
+  return (
+    t.top + e.y <= n.top
+      ? (r.y = n.top - t.top)
+      : t.bottom + e.y >= n.top + n.height && (r.y = n.top + n.height - t.bottom),
+    t.left + e.x <= n.left
+      ? (r.x = n.left - t.left)
+      : t.right + e.x >= n.left + n.width && (r.x = n.left + n.width - t.right),
+    r
+  );
+}
+var ys,
+  bs,
+  xs,
+  Ss = e(() => {
+    (ia(),
+      (ys = (e) => {
+        let { transform: t } = e;
+        return { ...t, y: 0 };
+      }),
+      (bs = (e) => {
+        let { draggingNodeRect: t, transform: n, scrollableAncestorRects: r } = e,
+          i = r[0];
+        return !t || !i ? n : vs(n, t, i);
+      }),
+      (xs = (e) => {
+        let { transform: t } = e;
+        return { ...t, x: 0 };
+      }));
+  });
+function Cs(e) {
+  switch (e) {
+    case `hot`:
+      return Rt.CODEX_THREAD_SWITCH_KIND_HOT;
+    case `cold`:
+      return Rt.CODEX_THREAD_SWITCH_KIND_COLD;
+  }
+}
+var ws,
+  Ts,
+  Es = e(() => {
+    (Br(),
+      Un(),
+      (ws = class {
+        pendingThreadSwitch = null;
+        constructor(e = () => performance.now()) {
+          this.now = e;
+        }
+        start(...[e, t]) {
+          switch (e) {
+            case `thread_switch_completed`:
+              this.pendingThreadSwitch = { defaults: t, startedAtMs: this.now() };
+              return;
+          }
+        }
+        complete(e, ...[t, n]) {
+          switch (t) {
+            case `thread_switch_completed`: {
+              let t = this.pendingThreadSwitch;
+              if (t == null || t.defaults.conversationId !== n.conversationId) return;
+              ((this.pendingThreadSwitch = null),
+                rn(e, jt, {
+                  durationMs: Math.max(0, Math.round(this.now() - t.startedAtMs)),
+                  switchKind: Cs(t.defaults.needsResume ? `cold` : `hot`),
+                  turnCount: n.turnCount,
+                }));
+              return;
+            }
+          }
+        }
+      }),
+      (Ts = new ws()));
+  });
+function Ds(e, t, n, r) {
+  let i = Ae(t);
+  if (i != null) {
+    n(i);
+    return;
+  }
+  let a = e.get(u, t);
+  if (a?.kind === `pending-worktree`) {
+    r(aa(a.pendingWorktree.id, a.pendingWorktree.clientThreadId));
+    return;
+  }
+  r(Xe(t));
+}
+function Os(e, t) {
+  let n = Ae(t);
+  n != null &&
+    Ts.start(`thread_switch_completed`, { conversationId: n, needsResume: e.get(mn, n) });
+}
+function ks(e, t, n = null) {
+  (e.get(dt) === t && e.get(Ee) === n) || (e.get(dt) !== t && Os(e, t), yt(e, t, n));
+}
+var As = e(() => {
+  (Hr(), Es(), hr(), vn(), R(), Ri());
+});
+function js(e) {
+  let t = (0, Ns.c)(60),
+    n,
+    r,
+    i,
+    a,
+    o,
+    s,
+    c,
+    l,
+    u,
+    d,
+    f,
+    p,
+    m,
+    h,
+    g;
+  t[0] === e
+    ? ((n = t[1]),
+      (r = t[2]),
+      (i = t[3]),
+      (a = t[4]),
+      (o = t[5]),
+      (s = t[6]),
+      (c = t[7]),
+      (l = t[8]),
+      (u = t[9]),
+      (d = t[10]),
+      (f = t[11]),
+      (p = t[12]),
+      (m = t[13]),
+      (h = t[14]),
+      (g = t[15]))
+    : (({
+        icon: a,
+        label: s,
+        hideLabel: i,
+        fullWidth: u,
+        hoverBackground: d,
+        onClick: c,
+        isActive: f,
+        disabled: p,
+        className: r,
+        weightClassName: g,
+        iconClassName: m,
+        trailing: h,
+        interactiveTrailing: o,
+        badge: n,
+        ...l
+      } = e),
+      (t[0] = e),
+      (t[1] = n),
+      (t[2] = r),
+      (t[3] = i),
+      (t[4] = a),
+      (t[5] = o),
+      (t[6] = s),
+      (t[7] = c),
+      (t[8] = l),
+      (t[9] = u),
+      (t[10] = d),
+      (t[11] = f),
+      (t[12] = p),
+      (t[13] = m),
+      (t[14] = h),
+      (t[15] = g));
+  let _ = u === void 0 ? !0 : u,
+    v = d === void 0 ? !0 : d,
+    y = f === void 0 ? !1 : f,
+    b = p === void 0 ? !1 : p,
+    x = m === void 0 ? `icon-xs` : m,
+    S = typeof n == `number`,
+    C = _ ? `flex w-full` : `inline-flex w-auto`,
+    w = y ? `bg-token-list-hover-background` : v && `hover:bg-token-list-hover-background`,
+    T = S && `pr-10`,
+    E;
+  t[16] !== r || t[17] !== C || t[18] !== w || t[19] !== T || t[20] !== g
+    ? ((E = Q(
+        `focus-visible:outline-token-border relative h-[var(--height-token-row)] px-[var(--padding-row-cell-x,var(--padding-row-x))] py-row-y cursor-interaction shrink-0 items-center overflow-hidden rounded-[var(--radius-token-row)] text-left text-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 disabled:cursor-not-allowed disabled:opacity-50 gap-2`,
+        C,
+        w,
+        T,
+        g,
+        r,
+      )),
+      (t[16] = r),
+      (t[17] = C),
+      (t[18] = w),
+      (t[19] = T),
+      (t[20] = g),
+      (t[21] = E))
+    : (E = t[21]);
+  let D = E,
+    O = _ && `flex-1`,
+    k = i !== void 0 && `min-h-6`,
+    A = y ? `text-token-list-active-selection-foreground` : `text-token-foreground`,
+    j;
+  t[22] !== O || t[23] !== k || t[24] !== A
+    ? ((j = Q(`flex min-w-0 items-center text-base gap-2`, O, k, A)),
+      (t[22] = O),
+      (t[23] = k),
+      (t[24] = A),
+      (t[25] = j))
+    : (j = t[25]);
+  let M;
+  t[26] !== a || t[27] !== x || t[28] !== y
+    ? ((M = (0, Ps.isValidElement)(a)
+        ? a
+        : (0, Ps.createElement)(a, {
+            className: Q(x, y && `text-token-list-active-selection-icon-foreground`),
+          })),
+      (t[26] = a),
+      (t[27] = x),
+      (t[28] = y),
+      (t[29] = M))
+    : (M = t[29]);
+  let N;
+  t[30] !== i || t[31] !== s
+    ? ((N = i ? null : (0, Fs.jsx)(`span`, { className: `truncate`, children: s })),
+      (t[30] = i),
+      (t[31] = s),
+      (t[32] = N))
+    : (N = t[32]);
+  let P;
+  t[33] !== j || t[34] !== M || t[35] !== N
+    ? ((P = (0, Fs.jsxs)(`div`, { className: j, children: [M, N] })),
+      (t[33] = j),
+      (t[34] = M),
+      (t[35] = N),
+      (t[36] = P))
+    : (P = t[36]);
+  let F = P,
+    I;
+  t[37] !== n || t[38] !== S
+    ? ((I = S
+        ? (0, Fs.jsx)(ki, {
+            className: `disambiguated-digits absolute top-1/2 right-[var(--padding-row-cell-x,var(--padding-row-x))] -translate-y-1/2`,
+            children: n,
+          })
+        : null),
+      (t[37] = n),
+      (t[38] = S),
+      (t[39] = I))
+    : (I = t[39]);
+  let L = I;
+  if (o != null) {
+    let e = y ? `page` : void 0,
+      n = l,
+      r;
+    t[40] !== F || t[41] !== b || t[42] !== c || t[43] !== e || t[44] !== n
+      ? ((r = (0, Fs.jsx)(`button`, {
+          type: `button`,
+          className: `flex min-w-0 flex-1 cursor-interaction items-center text-left focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-token-border disabled:cursor-not-allowed`,
+          onClick: c,
+          "aria-current": e,
+          disabled: b,
+          ...n,
+          children: F,
+        })),
+        (t[40] = F),
+        (t[41] = b),
+        (t[42] = c),
+        (t[43] = e),
+        (t[44] = n),
+        (t[45] = r))
+      : (r = t[45]);
+    let i;
+    return (
+      t[46] !== L || t[47] !== D || t[48] !== o || t[49] !== r
+        ? ((i = (0, Fs.jsxs)(`div`, { className: D, children: [r, o, L] })),
+          (t[46] = L),
+          (t[47] = D),
+          (t[48] = o),
+          (t[49] = r),
+          (t[50] = i))
+        : (i = t[50]),
+      i
+    );
+  }
+  let R = y ? `page` : void 0,
+    z = l,
+    B;
+  return (
+    t[51] !== L ||
+    t[52] !== D ||
+    t[53] !== F ||
+    t[54] !== b ||
+    t[55] !== c ||
+    t[56] !== R ||
+    t[57] !== z ||
+    t[58] !== h
+      ? ((B = (0, Fs.jsxs)(`button`, {
+          type: `button`,
+          className: D,
+          onClick: c,
+          "aria-current": R,
+          disabled: b,
+          ...z,
+          children: [F, h, L],
+        })),
+        (t[51] = L),
+        (t[52] = D),
+        (t[53] = F),
+        (t[54] = b),
+        (t[55] = c),
+        (t[56] = R),
+        (t[57] = z),
+        (t[58] = h),
+        (t[59] = B))
+      : (B = t[59]),
+    B
+  );
+}
+function Ms(e) {
+  let t = (0, Ns.c)(18),
+    {
+      children: n,
+      className: r,
+      collapsed: i,
+      title: a,
+      titleActions: o,
+      titleActionsOnHover: s,
+      titleTrailing: c,
+      titleRowClassName: l,
+      titleClassName: u,
+    } = e,
+    d = s === void 0 ? !1 : s,
+    f = i == null && `gap-1`,
+    p;
+  t[0] !== r || t[1] !== f
+    ? ((p = Q(`flex flex-col`, f, r)), (t[0] = r), (t[1] = f), (t[2] = p))
+    : (p = t[2]);
+  let m;
+  t[3] !== a || t[4] !== o || t[5] !== d || t[6] !== u || t[7] !== l || t[8] !== c
+    ? ((m = a
+        ? (0, Fs.jsxs)(`div`, {
+            className: Q(
+              `group/nav-section-title flex items-center justify-between gap-2`,
+              l ?? `pr-0.5 pl-2`,
+            ),
+            children: [
+              (0, Fs.jsx)(`div`, {
+                className: Q(
+                  `min-w-0 flex-1`,
+                  u ?? `text-base text-token-input-placeholder-foreground opacity-75`,
+                ),
+                children: a,
+              }),
+              o != null || c != null
+                ? (0, Fs.jsxs)(`div`, {
+                    className: `flex shrink-0 items-center gap-1`,
+                    children: [
+                      o == null
+                        ? null
+                        : (0, Fs.jsx)(`div`, {
+                            className: Q(
+                              `shrink-0`,
+                              d &&
+                                `pointer-events-none opacity-0 group-focus-within/nav-section-title:pointer-events-auto group-focus-within/nav-section-title:opacity-100 group-hover/nav-section-title:pointer-events-auto group-hover/nav-section-title:opacity-100 has-[[data-state=open]]:pointer-events-auto has-[[data-state=open]]:opacity-100`,
+                            ),
+                            children: o,
+                          }),
+                      c == null ? null : (0, Fs.jsx)(`div`, { className: `shrink-0`, children: c }),
+                    ],
+                  })
+                : null,
+            ],
+          })
+        : null),
+      (t[3] = a),
+      (t[4] = o),
+      (t[5] = d),
+      (t[6] = u),
+      (t[7] = l),
+      (t[8] = c),
+      (t[9] = m))
+    : (m = t[9]);
+  let h;
+  t[10] !== n || t[11] !== i || t[12] !== a
+    ? ((h =
+        i == null
+          ? (0, Fs.jsx)(`div`, { className: `flex flex-col gap-px`, children: n })
+          : (0, Fs.jsx)(qt, {
+              initial: !1,
+              children: i
+                ? null
+                : (0, Fs.jsx)(Tn.div, {
+                    initial: { height: 0, opacity: 0 },
+                    animate: { height: `auto`, opacity: 1, transitionEnd: { overflow: `visible` } },
+                    exit: { height: 0, opacity: 0, overflow: `hidden` },
+                    transition: rt,
+                    className: `overflow-hidden`,
+                    children: (0, Fs.jsx)(`div`, {
+                      className: Q(`flex flex-col gap-px`, !!a && `pt-1`),
+                      children: n,
+                    }),
+                  }),
+            })),
+      (t[10] = n),
+      (t[11] = i),
+      (t[12] = a),
+      (t[13] = h))
+    : (h = t[13]);
+  let g;
+  return (
+    t[14] !== p || t[15] !== m || t[16] !== h
+      ? ((g = (0, Fs.jsxs)(`div`, { className: p, children: [m, h] })),
+        (t[14] = p),
+        (t[15] = m),
+        (t[16] = h),
+        (t[17] = g))
+      : (g = t[17]),
+    g
+  );
+}
+var Ns,
+  Ps,
+  Fs,
+  Is = e(() => {
+    ((Ns = X()), Be(), Fn(), (Ps = t(Gr(), 1)), vi(), ut(), (Fs = gn()));
+  });
+function Ls(e, t, n) {
+  if (n.projectKind === `remote`) {
+    oo(e, t, {
+      activeProject: { projectId: n.projectId, projectKind: `remote` },
+      sidebarMode: `codex`,
+    });
+    return;
+  }
+  let r = e.query.getData(_n)?.roots?.[0] ?? null;
+  oo(e, t, {
+    activeProject: n,
+    prefillCwd: lr.getThreadStartCwd(n),
+    pendingLocalProjectPreviousWorkspaceRoot: r,
+    sidebarMode: `codex`,
+  });
+}
+var Rs = e(() => {
+  (co(), Rn(), _e());
+});
+function zs() {
+  let e = (0, Bs.c)(3),
+    t = Re(ee),
+    n = Cr(),
+    r;
+  return (
+    e[0] !== t || e[1] !== n
+      ? ((r = (e) => {
+          Ls(t, n, e);
+        }),
+        (e[0] = t),
+        (e[1] = n),
+        (e[2] = r))
+      : (r = e[2]),
+    Pn(r)
+  );
+}
+var Bs,
+  Vs = e(() => {
+    ((Bs = X()), Wn(), Tt(), Y(), Rs(), vt());
+  }),
+  Hs,
+  Us,
+  Ws = e(() => {
+    (Tt(),
+      Y(),
+      Gt(),
+      (Hs = xn(ee, `hidden`)),
+      (Us = pt(`has-seen-remote-connections-home-announcement`, !1)));
+  });
+function Gs({
+  organizeMode: e,
+  visibleGroupIds: t,
+  collapsedGroups: n,
+  previouslyExpandedGroupIds: r,
+}) {
+  let i = t.filter((e) => !n[e]);
+  if (e === `recent`) return null;
+  if (i.length > 1) return `collapse-all`;
+  let a = new Set(t),
+    o = r.filter((e) => a.has(e));
+  return i.length === 0 && o.length > 0 ? `reopen-previous` : null;
+}
+function Ks({ action: e, collapsedGroups: t, visibleGroupIds: n, previouslyExpandedGroupIds: r }) {
+  switch (e) {
+    case `collapse-all`: {
+      let e = { ...t };
+      for (let t of n) e[t] = !0;
+      return { collapsedGroups: e, previouslyExpandedGroupIds: n.filter((e) => !t[e]) };
+    }
+    case `reopen-previous`: {
+      let e = { ...t },
+        i = new Set(n);
+      for (let t of r) i.has(t) && delete e[t];
+      return { collapsedGroups: e, previouslyExpandedGroupIds: [] };
+    }
+  }
+}
+var qs = e(() => {});
+function Js(e) {
+  e.set(Hs, `hidden`);
+}
+function Ys(e, { localProjectSourcesEnabled: t = !1 } = {}) {
+  if ((oc(e), Js(e), t)) {
+    F(e);
+    return;
+  }
+  $e(e);
+}
+function Xs(e) {
+  (oc(e), Js(e), K());
+}
+function Zs(e) {
+  (oc(e), Js(e), q({ setActive: !0 }));
+}
+function Qs(e, t, n) {
+  (rn(e, en, { item: n ? `plugins` : `skills` }),
+    t(`/skills`, {
+      state: { pluginDirectoryEntrypoint: A.CODEX_PLUGIN_DIRECTORY_ENTRYPOINT_SIDEBAR },
+    }));
+}
+function $s(e, t) {
+  (rn(e, en, { item: `library` }), t(`/library`));
+}
+function ec(e, t) {
+  (rn(e, en, { item: `pull_requests` }), t(`/pull-requests`));
+}
+function tc(e, t) {
+  (rn(e, en, { item: `automations` }), t(`/automations`));
+}
+function nc(e, t) {
+  (rn(e, en, { item: `sites` }), t(`/sites`));
+}
+function rc(e, t) {
+  (rn(e, en, { item: `toggle_recent` }), Ht(e, t));
+}
+function ic(
+  e,
+  { action: t, collapsedGroups: n, previouslyExpandedGroupIds: r, visibleGroupIds: i },
+) {
+  let a = Ks({ action: t, collapsedGroups: n, visibleGroupIds: i, previouslyExpandedGroupIds: r });
+  br(e, a.collapsedGroups, a.previouslyExpandedGroupIds, i);
+}
+function ac(
+  e,
+  {
+    canStartProjectlessChat: t,
+    currentThreadKey: n,
+    localProjectActionsEnabled: r,
+    sidebarMode: i,
+    projectless: a = !1,
+    startNewConversation: o,
+    startNewConversationInProject: s,
+  },
+) {
+  rn(e, en, { item: `new_thread` });
+  let c = Ae(n),
+    l = c == null ? null : e.get(Fe, c);
+  if (a) {
+    o({ activeProject: null });
+    return;
+  }
+  let u =
+    n == null
+      ? null
+      : (e
+          .get(zn, {
+            threadKeys: e.get(je),
+            enabled: !0,
+            threadProjectAssignments: Yn(e.get, ge.THREAD_PROJECT_ASSIGNMENTS),
+            projectlessThreadIds: Yn(e.get, ge.PROJECTLESS_THREAD_IDS),
+          })
+          .groups.find((e) => e.threadKeys.includes(n)) ?? null);
+  if ((u?.projectKind === `remote` && u.hostId != null) || (r && u?.projectKind === `local`)) {
+    s(u);
+    return;
+  }
+  if (i === `chatgpt`) {
+    o({ sidebarMode: `chatgpt` });
+    return;
+  }
+  if (t && l === `projectless`) {
+    o({ activeProject: null });
+    return;
+  }
+  o();
+}
+function oc(e) {
+  rn(e, en, { item: `add_workspace` });
+}
+var sc = e(() => {
+    (Br(), un(), Hr(), ln(), Un(), Je(), Ws(), qs(), ct(), hr(), vn(), R());
+  }),
+  cc,
+  lc = e(() => {
+    (I(),
+      (cc = Ye({
+        deletePermissionRequired: {
+          id: `chatgptConversations.sidebar.project.deletePermissionRequired`,
+          defaultMessage: `You don't have permission to delete this project`,
+          description: `Tooltip shown when a user cannot delete a ChatGPT project`,
+        },
+        disabledByAdmin: {
+          id: `chatgptConversations.sidebar.projectCrudDisabledByAdmin`,
+          defaultMessage: `Your admin has disabled this feature`,
+          description: `Tooltip shown when a ChatGPT project action is disabled by a workspace administrator`,
+        },
+        editPermissionRequired: {
+          id: `chatgptConversations.sidebar.project.editPermissionRequired`,
+          defaultMessage: `You don't have permission to edit this project`,
+          description: `Tooltip shown when a user cannot edit a ChatGPT project`,
+        },
+      })));
+  });
+function uc(e) {
+  let t = (0, pc.c)(75),
+    {
+      localProjectsEnabled: n,
+      showRemoteProjectItem: r,
+      showRemoteProjectCoachmark: i,
+      chatGptProjectCrudStatus: a,
+      onDismissRemoteProjectCoachmark: o,
+      triggerButton: s,
+      onCreateLocalProject: c,
+      onUseExistingFolder: l,
+      onSelectRemote: u,
+      onCreateChatGptProject: d,
+    } = e,
+    f = i === void 0 ? !1 : i,
+    p = Qn(),
+    m = a === `allowed`,
+    h = d != null && m,
+    g;
+  t[0] !== n || t[1] !== f || t[2] !== r || t[3] !== h
+    ? ((g = fc({ cloudEnabled: h, localEnabled: n, remoteEnabled: r, remotePreferred: f })),
+      (t[0] = n),
+      (t[1] = f),
+      (t[2] = r),
+      (t[3] = h),
+      (t[4] = g))
+    : (g = t[4]);
+  let _ = g,
+    [v, y] = (0, mc.useState)(!1),
+    [b, S] = (0, mc.useState)(_),
+    C;
+  t[5] !== _ || t[6] !== o || t[7] !== f
+    ? ((C = (e) => {
+        (e ? S(_) : f && o?.(), y(e));
+      }),
+      (t[5] = _),
+      (t[6] = o),
+      (t[7] = f),
+      (t[8] = C))
+    : (C = t[8]);
+  let w = C,
+    T;
+  t[9] !== m ||
+  t[10] !== w ||
+  t[11] !== n ||
+  t[12] !== d ||
+  t[13] !== c ||
+  t[14] !== u ||
+  t[15] !== b ||
+  t[16] !== r
+    ? ((T = () => {
+        if (b == null || (b === `cloud` && !m)) return;
+        let e = { cloud: m ? d : void 0, local: n ? c : void 0, remote: r ? u : void 0 }[b];
+        e != null && (w(!1), e());
+      }),
+      (t[9] = m),
+      (t[10] = w),
+      (t[11] = n),
+      (t[12] = d),
+      (t[13] = c),
+      (t[14] = u),
+      (t[15] = b),
+      (t[16] = r),
+      (t[17] = T))
+    : (T = t[17]);
+  let E = T,
+    O;
+  t[18] !== w || t[19] !== l
+    ? ((O = () => {
+        l != null && (w(!1), l());
+      }),
+      (t[18] = w),
+      (t[19] = l),
+      (t[20] = O))
+    : (O = t[20]);
+  let k = O,
+    A;
+  t[21] === p
+    ? (A = t[22])
+    : ((A = p.formatMessage({
+        id: `projectSetup.createProject.close`,
+        defaultMessage: `Close`,
+        description: `Accessible label for closing the project type dialog`,
+      })),
+      (t[21] = p),
+      (t[22] = A));
+  let M;
+  t[23] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((M = (0, hc.jsx)(on, { className: `sr-only`, children: (0, hc.jsx)(j, { ...gc.title }) })),
+      (t[23] = M))
+    : (M = t[23]);
+  let N;
+  t[24] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((N = (0, hc.jsx)(En, {
+        className: `sr-only`,
+        children: (0, hc.jsx)(j, { ...gc.description }),
+      })),
+      (t[24] = N))
+    : (N = t[24]);
+  let P;
+  t[25] === E
+    ? (P = t[26])
+    : ((P = (e) => {
+        (e.preventDefault(), E());
+      }),
+      (t[25] = E),
+      (t[26] = P));
+  let F;
+  t[27] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((F = (0, hc.jsx)(x, {
+        children: (0, hc.jsx)(D, {
+          title: (0, hc.jsx)(j, { ...gc.title }),
+          titleClassName: `font-normal`,
+          titleSize: `lg`,
+        }),
+      })),
+      (t[27] = F))
+    : (F = t[27]);
+  let I;
+  t[28] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((I = (0, hc.jsx)(`div`, {
+        id: `project-type-label`,
+        className: `text-base font-medium text-token-foreground`,
+        children: (0, hc.jsx)(j, {
+          id: `projectSetup.createProject.typeLabel`,
+          defaultMessage: `Project type`,
+          description: `Label above the project type choices`,
+        }),
+      })),
+      (t[28] = I))
+    : (I = t[28]);
+  let L;
+  t[29] !== a || t[30] !== m || t[31] !== d || t[32] !== b
+    ? ((L =
+        d == null
+          ? null
+          : (0, hc.jsx)(dc, {
+              description:
+                a === `disabled_by_admin`
+                  ? (0, hc.jsx)(j, { ...cc.disabledByAdmin })
+                  : (0, hc.jsx)(j, {
+                      id: `projectSetup.createProject.cloudDescription`,
+                      defaultMessage: `Work through ideas and tasks without setup`,
+                      description: `Description for the Cloud project type`,
+                    }),
+              disabled: !m,
+              Icon: fa,
+              label: (0, hc.jsx)(j, {
+                id: `projectSetup.createProject.cloudLabel`,
+                defaultMessage: `Cloud`,
+                description: `Label for the Cloud project type`,
+              }),
+              onSelect: S,
+              selected: b === `cloud`,
+              type: `cloud`,
+            })),
+      (t[29] = a),
+      (t[30] = m),
+      (t[31] = d),
+      (t[32] = b),
+      (t[33] = L))
+    : (L = t[33]);
+  let R;
+  t[34] !== n || t[35] !== b
+    ? ((R = n
+        ? (0, hc.jsx)(dc, {
+            description: (0, hc.jsx)(j, {
+              id: `projectSetup.createProject.localDescription`,
+              defaultMessage: `Edit, run, and test files on your computer`,
+              description: `Description for the Local project type`,
+            }),
+            Icon: _i,
+            label: (0, hc.jsx)(j, {
+              id: `projectSetup.createProject.localLabel`,
+              defaultMessage: `Local`,
+              description: `Label for the Local project type`,
+            }),
+            onSelect: S,
+            selected: b === `local`,
+            type: `local`,
+          })
+        : null),
+      (t[34] = n),
+      (t[35] = b),
+      (t[36] = R))
+    : (R = t[36]);
+  let z;
+  t[37] !== b || t[38] !== r
+    ? ((z = r
+        ? (0, hc.jsx)(dc, {
+            description: (0, hc.jsx)(j, {
+              id: `projectSetup.createProject.remoteDescription`,
+              defaultMessage: `Choose a folder on a connected machine`,
+              description: `Description for the Remote project type`,
+            }),
+            Icon: Pt,
+            label: (0, hc.jsx)(j, {
+              id: `projectSetup.createProject.remoteLabel`,
+              defaultMessage: `Remote`,
+              description: `Label for the Remote project type`,
+            }),
+            onSelect: S,
+            selected: b === `remote`,
+            type: `remote`,
+          })
+        : null),
+      (t[37] = b),
+      (t[38] = r),
+      (t[39] = z))
+    : (z = t[39]);
+  let B;
+  t[40] !== L || t[41] !== R || t[42] !== z
+    ? ((B = (0, hc.jsxs)(x, {
+        className: `gap-3`,
+        children: [
+          I,
+          (0, hc.jsxs)(`div`, {
+            "aria-labelledby": `project-type-label`,
+            className: `grid grid-cols-2 gap-3`,
+            role: `radiogroup`,
+            children: [L, R, z],
+          }),
+        ],
+      })),
+      (t[40] = L),
+      (t[41] = R),
+      (t[42] = z),
+      (t[43] = B))
+    : (B = t[43]);
+  let ee;
+  t[44] !== k || t[45] !== l || t[46] !== b
+    ? ((ee =
+        b === `local` && l != null
+          ? (0, hc.jsx)(Vt, {
+              color: `secondary`,
+              size: `medium`,
+              type: `button`,
+              onClick: k,
+              children: (0, hc.jsx)(j, {
+                id: `projectSetup.addProjectMenu.useExistingFolder`,
+                defaultMessage: `Use an existing folder`,
+                description: `Menu item that opens the existing folder picker`,
+              }),
+            })
+          : null),
+      (t[44] = k),
+      (t[45] = l),
+      (t[46] = b),
+      (t[47] = ee))
+    : (ee = t[47]);
+  let te = b == null || (b === `cloud` && !m),
+    V;
+  t[48] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((V = (0, hc.jsx)(j, {
+        id: `projectSetup.createProject.next`,
+        defaultMessage: `Next`,
+        description: `Button that opens the selected project creation flow`,
+      })),
+      (t[48] = V))
+    : (V = t[48]);
+  let H;
+  t[49] === te
+    ? (H = t[50])
+    : ((H = (0, hc.jsx)(Vt, {
+        color: `primary`,
+        disabled: te,
+        size: `medium`,
+        type: `submit`,
+        children: V,
+      })),
+      (t[49] = te),
+      (t[50] = H));
+  let U;
+  t[51] !== ee || t[52] !== H
+    ? ((U = (0, hc.jsx)(x, {
+        children: (0, hc.jsxs)(Ue, { expandSingleButton: !1, children: [ee, H] }),
+      })),
+      (t[51] = ee),
+      (t[52] = H),
+      (t[53] = U))
+    : (U = t[53]);
+  let W;
+  t[54] !== P || t[55] !== B || t[56] !== U
+    ? ((W = (0, hc.jsxs)(Pr, {
+        as: `form`,
+        className: `gap-7 p-7`,
+        onSubmit: P,
+        children: [F, B, U],
+      })),
+      (t[54] = P),
+      (t[55] = B),
+      (t[56] = U),
+      (t[57] = W))
+    : (W = t[57]);
+  let G;
+  t[58] !== w || t[59] !== v || t[60] !== W || t[61] !== A || t[62] !== s
+    ? ((G = (0, hc.jsxs)(Kn, {
+        open: v,
+        onOpenChange: w,
+        triggerContent: s,
+        size: `xwide`,
+        dialogCloseLabel: A,
+        children: [M, N, W],
+      })),
+      (t[58] = w),
+      (t[59] = v),
+      (t[60] = W),
+      (t[61] = A),
+      (t[62] = s),
+      (t[63] = G))
+    : (G = t[63]);
+  let ne = G;
+  if (!f) return ne;
+  let K, q;
+  t[64] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((K = (0, hc.jsx)(j, {
+        id: `sidebarElectron.addRemoteProjectCoachmark.badge`,
+        defaultMessage: `Remote`,
+        description: `Badge shown in the add remote project coachmark anchored to the sidebar add project button`,
+      })),
+      (q = (0, hc.jsx)(j, {
+        id: `sidebarElectron.addRemoteProjectCoachmark.body`,
+        defaultMessage: `Choose Remote to select the repo on your connected machine`,
+        description: `Body copy shown in the add remote project coachmark anchored to the sidebar add project button`,
+      })),
+      (t[64] = K),
+      (t[65] = q))
+    : ((K = t[64]), (q = t[65]));
+  let J;
+  t[66] === p
+    ? (J = t[67])
+    : ((J = p.formatMessage({
+        id: `sidebarElectron.addRemoteProjectCoachmark.dismiss`,
+        defaultMessage: `Dismiss`,
+        description: `Accessible label for dismissing the add remote project coachmark anchored to the sidebar add project button`,
+      })),
+      (t[66] = p),
+      (t[67] = J));
+  let Y;
+  t[68] === o
+    ? (Y = t[69])
+    : ((Y = () => {
+        o?.();
+      }),
+      (t[68] = o),
+      (t[69] = Y));
+  let re;
+  t[70] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((re = (0, hc.jsx)(j, {
+        id: `sidebarElectron.addRemoteProjectCoachmark.title`,
+        defaultMessage: `Add your remote project here`,
+        description: `Title shown in the add remote project coachmark anchored to the sidebar add project button`,
+      })),
+      (t[70] = re))
+    : (re = t[70]);
+  let ie;
+  return (
+    t[71] !== ne || t[72] !== J || t[73] !== Y
+      ? ((ie = (0, hc.jsx)(Oi, {
+          badge: K,
+          description: q,
+          dismissLabel: J,
+          onDismiss: Y,
+          open: !0,
+          side: `right`,
+          sideOffset: 16,
+          title: re,
+          children: ne,
+        })),
+        (t[71] = ne),
+        (t[72] = J),
+        (t[73] = Y),
+        (t[74] = ie))
+      : (ie = t[74]),
+    ie
+  );
+}
+function dc(e) {
+  let t = (0, pc.c)(33),
+    { description: n, disabled: r, Icon: i, label: a, onSelect: o, selected: s, type: c } = e,
+    l = r === void 0 ? !1 : r,
+    u = !l && s,
+    d = !l && !s,
+    f;
+  t[0] !== l || t[1] !== u || t[2] !== d
+    ? ((f = Q(
+        `flex min-h-36 cursor-interaction flex-col justify-between rounded-2xl border p-4 text-left outline-none focus-visible:ring-2 focus-visible:ring-token-focus-border disabled:cursor-default`,
+        {
+          "border-transparent bg-token-foreground/5": u,
+          "border-token-border hover:bg-token-foreground/3": d,
+          "border-token-border opacity-50": l,
+        },
+      )),
+      (t[0] = l),
+      (t[1] = u),
+      (t[2] = d),
+      (t[3] = f))
+    : (f = t[3]);
+  let p;
+  t[4] !== o || t[5] !== c
+    ? ((p = () => {
+        o(c);
+      }),
+      (t[4] = o),
+      (t[5] = c),
+      (t[6] = p))
+    : (p = t[6]);
+  let m;
+  t[7] === i
+    ? (m = t[8])
+    : ((m = (0, hc.jsx)(i, { className: `icon-base shrink-0 text-token-description-foreground` })),
+      (t[7] = i),
+      (t[8] = m));
+  let h = s ? `border-token-text-link-foreground` : `border-token-border-medium`,
+    g;
+  t[9] === h
+    ? (g = t[10])
+    : ((g = Q(`flex h-5 w-5 shrink-0 items-center justify-center rounded-full border`, h)),
+      (t[9] = h),
+      (t[10] = g));
+  let _;
+  t[11] === s
+    ? (_ = t[12])
+    : ((_ = s
+        ? (0, hc.jsx)(`span`, { className: `h-3 w-3 rounded-full bg-token-text-link-foreground` })
+        : null),
+      (t[11] = s),
+      (t[12] = _));
+  let v;
+  t[13] !== g || t[14] !== _
+    ? ((v = (0, hc.jsx)(`span`, { "aria-hidden": !0, className: g, children: _ })),
+      (t[13] = g),
+      (t[14] = _),
+      (t[15] = v))
+    : (v = t[15]);
+  let y;
+  t[16] !== v || t[17] !== m
+    ? ((y = (0, hc.jsxs)(`div`, {
+        className: `flex w-full items-start justify-between gap-3`,
+        children: [m, v],
+      })),
+      (t[16] = v),
+      (t[17] = m),
+      (t[18] = y))
+    : (y = t[18]);
+  let b;
+  t[19] === a
+    ? (b = t[20])
+    : ((b = (0, hc.jsx)(`span`, {
+        className: `text-base font-medium text-token-foreground`,
+        children: a,
+      })),
+      (t[19] = a),
+      (t[20] = b));
+  let x;
+  t[21] === n
+    ? (x = t[22])
+    : ((x = (0, hc.jsx)(`span`, {
+        className: `text-base leading-snug text-token-description-foreground`,
+        children: n,
+      })),
+      (t[21] = n),
+      (t[22] = x));
+  let S;
+  t[23] !== b || t[24] !== x
+    ? ((S = (0, hc.jsxs)(`div`, { className: `mt-6 flex flex-col gap-1`, children: [b, x] })),
+      (t[23] = b),
+      (t[24] = x),
+      (t[25] = S))
+    : (S = t[25]);
+  let C;
+  return (
+    t[26] !== l || t[27] !== s || t[28] !== y || t[29] !== S || t[30] !== f || t[31] !== p
+      ? ((C = (0, hc.jsxs)(`button`, {
+          "aria-checked": s,
+          className: f,
+          disabled: l,
+          onClick: p,
+          role: `radio`,
+          type: `button`,
+          children: [y, S],
+        })),
+        (t[26] = l),
+        (t[27] = s),
+        (t[28] = y),
+        (t[29] = S),
+        (t[30] = f),
+        (t[31] = p),
+        (t[32] = C))
+      : (C = t[32]),
+    C
+  );
+}
+function fc({ cloudEnabled: e, localEnabled: t, remoteEnabled: n, remotePreferred: r }) {
+  return n && r ? `remote` : e ? `cloud` : t ? `local` : n ? `remote` : null;
+}
+var pc,
+  mc,
+  hc,
+  gc,
+  _c = e(() => {
+    ((pc = X()),
+      Be(),
+      (mc = t(Gr(), 1)),
+      I(),
+      Hn(),
+      Xt(),
+      s(),
+      Ti(),
+      na(),
+      gr(),
+      ri(),
+      lc(),
+      (hc = gn()),
+      (gc = Ye({
+        title: {
+          id: `projectSetup.createProject.title`,
+          defaultMessage: `Create project`,
+          description: `Title for choosing which type of project to create`,
+        },
+        description: {
+          id: `projectSetup.createProject.description`,
+          defaultMessage: `Choose the type of project to create`,
+          description: `Accessible description for the project type dialog`,
+        },
+      })));
+  });
+function vc({
+  chatGptProjectCreationEnabled: e,
+  canCreateChatGptProjectDirectly: t,
+  directLocalProjectCreationEnabled: n,
+  localProjectsEnabled: r,
+  remoteProjectsEnabled: i,
+}) {
+  return t
+    ? `direct-chatgpt`
+    : n && r && !i && !e
+      ? `direct-local`
+      : r || i || e
+        ? `project-type-dialog`
+        : null;
+}
+var yc = e(() => {});
+function bc({ activeRect: e, containerRect: t }) {
+  let n = (e.left + e.right) / 2,
+    r = (e.top + e.bottom) / 2;
+  return n >= t.left && n <= t.right && r >= t.top && r <= t.bottom;
+}
+function xc({ sourceContainerId: e, homeContainerId: t, threadId: n, targetContainerId: r }) {
+  return (
+    n != null &&
+    (e === r ||
+      r === `pinned` ||
+      r.startsWith(`project:`) ||
+      (r === `cloud` && e === `pinned` && t === r) ||
+      (r === `chats` && (e?.startsWith(`project:`) === !0 || (e === `pinned` && t === r))))
+  );
+}
+function Sc({
+  threadTargets: e,
+  containerTargets: t,
+  isActiveAtRectCenter: n,
+  isTargetAncestorOf: r,
+}) {
+  let i = e.filter(n),
+    a = t.filter(n),
+    o = a.filter((e) => !a.some((t) => e !== t && r(e, t))),
+    s = o.filter((e) => i.some((t) => r(t, e)));
+  return s.length > 0 ? s : i.length > 0 ? i : o;
+}
+var Cc = e(() => {});
+function wc({ containerId: e, pendingThreadDrops: t, threadKeys: n, threadKeysInDisplayOrder: r }) {
+  let i = n;
+  for (let n of t) {
+    let t = i.indexOf(n.threadKey) === -1 ? i : i.filter((e) => e !== n.threadKey);
+    if (e !== n.targetContainerId) {
+      i = t;
+      continue;
+    }
+    let r = n.beforeThreadId == null ? 0 : t.findIndex((e) => Kr(e) === n.beforeThreadId),
+      a = r === -1 ? t.length : r;
+    i = [...t.slice(0, a), n.threadKey, ...t.slice(a)];
+  }
+  if (i === n || r == null) return i;
+  let a = new Set(i);
+  return r.filter((e) => a.has(e));
+}
+function Tc(e) {
+  let t = (0, Ec.c)(14),
+    n = (0, Dc.useContext)(Oc),
+    r = (0, Dc.useContext)(Ac),
+    i = `sidebar-thread-container:${e}`,
+    a = n == null && !(r && e === `pinned`),
+    o;
+  t[0] === e
+    ? (o = t[1])
+    : ((o = { kind: `sidebar-thread-container`, containerId: e }), (t[0] = e), (t[1] = o));
+  let s;
+  t[2] !== i || t[3] !== a || t[4] !== o
+    ? ((s = { id: i, disabled: a, data: o }), (t[2] = i), (t[3] = a), (t[4] = o), (t[5] = s))
+    : (s = t[5]);
+  let { isOver: c, setNodeRef: l } = qi(s),
+    u;
+  t[6] !== e || t[7] !== r || t[8] !== n
+    ? ((u = r
+        ? e === `pinned`
+        : n != null &&
+          n.sourceContainerId !== e &&
+          xc({
+            sourceContainerId: n.sourceContainerId,
+            homeContainerId: n.homeContainerId,
+            threadId: n.threadId,
+            targetContainerId: e,
+          })),
+      (t[6] = e),
+      (t[7] = r),
+      (t[8] = n),
+      (t[9] = u))
+    : (u = t[9]);
+  let d;
+  return (
+    t[10] !== c || t[11] !== l || t[12] !== u
+      ? ((d = { isExternalThreadDropTarget: u, isOver: c, setNodeRef: l }),
+        (t[10] = c),
+        (t[11] = l),
+        (t[12] = u),
+        (t[13] = d))
+      : (d = t[13]),
+    d
+  );
+}
+var Ec,
+  Dc,
+  Oc,
+  kc,
+  Ac,
+  jc = e(() => {
+    ((Ec = X()),
+      Ai(),
+      (Dc = t(Gr(), 1)),
+      Cc(),
+      R(),
+      (Oc = (0, Dc.createContext)(null)),
+      (kc = (0, Dc.createContext)([])),
+      (Ac = (0, Dc.createContext)(!1)));
+  });
+function Mc(e) {
+  let t = (0, Gc.c)(37),
+    { children: n, homeContainerIdByThreadId: r, onProjectDrop: i, onThreadDrop: a } = e,
+    o = Cn(),
+    s;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((s = { activationConstraint: { distance: 6 } }), (t[0] = s))
+    : (s = t[0]);
+  let c = ma(Aa(li, s)),
+    [l, u] = (0, Kc.useState)(null),
+    [d, f] = (0, Kc.useState)(null),
+    p;
+  t[1] === Symbol.for(`react.memo_cache_sentinel`) ? ((p = []), (t[1] = p)) : (p = t[1]);
+  let [m, h] = (0, Kc.useState)(p),
+    [g, _] = (0, Kc.useState)(!1),
+    v;
+  t[2] === r
+    ? (v = t[3])
+    : ((v = (e) => {
+        let t = Wc(e.active.data.current);
+        if (t?.kind === `sidebar-group`) {
+          (_(t.projectId != null), t.controller.handleDragStart?.(e));
+          return;
+        }
+        if (t?.kind !== `sidebar-item`) return;
+        if (t.thread == null) {
+          t.controller?.handleDragStart?.(e);
+          return;
+        }
+        let n = Kr(t.thread.threadKey);
+        (f(t.thread.dragOverlay),
+          u({
+            sourceContainerId: t.thread.containerId,
+            homeContainerId: n == null ? null : (r.get(n) ?? null),
+            threadId: n,
+            threadKey: t.thread.threadKey,
+          }));
+      }),
+      (t[2] = r),
+      (t[3] = v));
+  let y = v,
+    b = Pc,
+    x;
+  t[4] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((x = (e) => {
+        let t = Wc(e.active.data.current);
+        if (t?.kind === `sidebar-group`) {
+          (t.controller.handleDragCancel?.(e), _(!1));
+          return;
+        }
+        t?.kind === `sidebar-item` &&
+          (t.controller?.handleDragCancel?.(e), t.thread != null && (f(null), u(null)));
+      }),
+      (t[4] = x))
+    : (x = t[4]);
+  let S = x,
+    C;
+  t[5] !== r || t[6] !== i || t[7] !== a
+    ? ((C = (e) => {
+        let t = Wc(e.active.data.current);
+        if (t?.kind === `sidebar-group`) {
+          _(!1);
+          let n = Wc(e.over?.data.current);
+          if (
+            t.projectId != null &&
+            n?.kind === `sidebar-thread-container` &&
+            n.containerId === `pinned`
+          ) {
+            (t.controller.handleDragCancel?.(e),
+              i?.({ projectId: t.projectId, targetContainerId: n.containerId }));
+            return;
+          }
+          t.controller.handleDragEnd(e);
+          return;
+        }
+        if (t?.kind !== `sidebar-item`) return;
+        if (t.thread == null) {
+          t.controller?.handleDragEnd(e);
+          return;
+        }
+        f(null);
+        let n = Wc(e.over?.data.current);
+        if (n == null) {
+          (u(null), t.controller?.handleDragCancel?.(e));
+          return;
+        }
+        if (t.controller != null && n.kind === `sidebar-item` && n.controller === t.controller) {
+          (u(null), t.controller.handleDragEnd(e));
+          return;
+        }
+        let o = n.kind === `sidebar-thread-container` ? n.containerId : null;
+        if (t.thread.containerId === o) {
+          (u(null), t.controller?.handleDragCancel?.(e));
+          return;
+        }
+        t.controller?.handleDragCancel?.(e);
+        let s = Kr(t.thread.threadKey);
+        if (o == null || s == null) {
+          u(null);
+          return;
+        }
+        let c = t.thread.containerId,
+          l = {
+            sourceContainerId: c,
+            homeContainerId: r.get(s) ?? null,
+            threadId: s,
+            threadKey: t.thread.threadKey,
+            targetContainerId: o,
+            beforeThreadId: null,
+          };
+        (u(null),
+          h((e) => [...e.filter((e) => e.threadId !== s), l]),
+          Promise.resolve()
+            .then(() =>
+              a({ threadId: s, sourceContainerId: c, targetContainerId: o, beforeThreadId: null }),
+            )
+            .catch(Nc)
+            .finally(() => {
+              h((e) => e.filter((e) => e !== l));
+            }));
+      }),
+      (t[5] = r),
+      (t[6] = i),
+      (t[7] = a),
+      (t[8] = C))
+    : (C = t[8]);
+  let w = C,
+    T;
+  t[9] === r ? (T = t[10]) : ((T = (e) => Xc(e, r)), (t[9] = r), (t[10] = T));
+  let E;
+  t[11] === Symbol.for(`react.memo_cache_sentinel`) ? ((E = [xs]), (t[11] = E)) : (E = t[11]);
+  let D;
+  t[12] !== n || t[13] !== g || t[14] !== l
+    ? ((D = typeof n == `function` ? n({ isDraggingProject: g, isDraggingThread: l != null }) : n),
+      (t[12] = n),
+      (t[13] = g),
+      (t[14] = l),
+      (t[15] = D))
+    : (D = t[15]);
+  let O;
+  t[16] !== d || t[17] !== o
+    ? ((O =
+        d == null
+          ? null
+          : (0, Jc.jsx)(`div`, {
+              "aria-hidden": !0,
+              inert: !0,
+              style: {
+                height: `calc(100% / ${o})`,
+                transform: `scale(${o})`,
+                transformOrigin: `top left`,
+                width: `calc(100% / ${o})`,
+              },
+              children: (0, Jc.jsx)(`div`, {
+                className: `bg-token-sidebar overflow-hidden rounded-full shadow-lg`,
+                children: d,
+              }),
+            })),
+      (t[16] = d),
+      (t[17] = o),
+      (t[18] = O))
+    : (O = t[18]);
+  let k;
+  t[19] === O
+    ? (k = t[20])
+    : ((k = (0, qc.createPortal)(
+        (0, Jc.jsx)(ui, {
+          adjustScale: !1,
+          className: `pointer-events-none`,
+          dropAnimation: null,
+          zIndex: xi,
+          children: O,
+        }),
+        document.body,
+      )),
+      (t[19] = O),
+      (t[20] = k));
+  let A;
+  t[21] !== w || t[22] !== y || t[23] !== c || t[24] !== k || t[25] !== T || t[26] !== D
+    ? ((A = (0, Jc.jsxs)(ii, {
+        sensors: c,
+        collisionDetection: T,
+        modifiers: E,
+        onDragStart: y,
+        onDragOver: b,
+        onDragCancel: S,
+        onDragEnd: w,
+        children: [D, k],
+      })),
+      (t[21] = w),
+      (t[22] = y),
+      (t[23] = c),
+      (t[24] = k),
+      (t[25] = T),
+      (t[26] = D),
+      (t[27] = A))
+    : (A = t[27]);
+  let j;
+  t[28] !== g || t[29] !== A
+    ? ((j = (0, Jc.jsx)(Ac.Provider, { value: g, children: A })),
+      (t[28] = g),
+      (t[29] = A),
+      (t[30] = j))
+    : (j = t[30]);
+  let M;
+  t[31] !== m || t[32] !== j
+    ? ((M = (0, Jc.jsx)(kc.Provider, { value: m, children: j })),
+      (t[31] = m),
+      (t[32] = j),
+      (t[33] = M))
+    : (M = t[33]);
+  let N;
+  return (
+    t[34] !== M || t[35] !== l
+      ? ((N = (0, Jc.jsx)(Oc.Provider, { value: l, children: M })),
+        (t[34] = M),
+        (t[35] = l),
+        (t[36] = N))
+      : (N = t[36]),
+    N
+  );
+}
+function Nc(e) {
+  n.error(`Failed to move sidebar thread`, { safe: {}, sensitive: { error: e } });
+}
+function Pc(e) {
+  let t = Wc(e.active.data.current);
+  if (t?.kind === `sidebar-group`) {
+    t.controller.handleDragOver?.(e);
+    return;
+  }
+  t?.kind === `sidebar-item` && t.controller?.handleDragOver?.(e);
+}
+function Fc(e) {
+  let t = (0, Gc.c)(6),
+    { containerId: n, controller: r, children: i } = e,
+    a;
+  t[0] !== n || t[1] !== r
+    ? ((a = { containerId: n, controller: r }), (t[0] = n), (t[1] = r), (t[2] = a))
+    : (a = t[2]);
+  let o;
+  return (
+    t[3] !== i || t[4] !== a
+      ? ((o = (0, Jc.jsx)(Yc.Provider, { value: a, children: i })),
+        (t[3] = i),
+        (t[4] = a),
+        (t[5] = o))
+      : (o = t[5]),
+    o
+  );
+}
+function Ic(e) {
+  let t = (0, Gc.c)(13),
+    { containerId: n, className: r, activeNode: i, children: a } = e,
+    { isExternalThreadDropTarget: o, isOver: s, setNodeRef: c } = Tc(n),
+    l;
+  t[0] === n ? (l = t[1]) : ((l = { containerId: n }), (t[0] = n), (t[1] = l));
+  let u =
+      o &&
+      s &&
+      `cursor-grabbing rounded-md bg-token-list-hover-background [&>*]:pointer-events-none`,
+    d;
+  t[2] !== r || t[3] !== u ? ((d = Q(r, u)), (t[2] = r), (t[3] = u), (t[4] = d)) : (d = t[4]);
+  let f = o && s ? i : null,
+    p;
+  t[5] !== a || t[6] !== c || t[7] !== d || t[8] !== f
+    ? ((p = (0, Jc.jsxs)(`div`, { ref: c, className: d, children: [a, f] })),
+      (t[5] = a),
+      (t[6] = c),
+      (t[7] = d),
+      (t[8] = f),
+      (t[9] = p))
+    : (p = t[9]);
+  let m;
+  return (
+    t[10] !== l || t[11] !== p
+      ? ((m = (0, Jc.jsx)(Yc.Provider, { value: l, children: p })),
+        (t[10] = l),
+        (t[11] = p),
+        (t[12] = m))
+      : (m = t[12]),
+    m
+  );
+}
+function Lc(e) {
+  let t = (0, Gc.c)(12),
+    { threadKey: n, className: r, children: i } = e,
+    a = (0, Kc.useContext)(Yc),
+    o = (0, Kc.useContext)(Oc),
+    s = Uc(n, a?.containerId ?? null);
+  if (a?.controller == null || s == null) {
+    let e = o != null && `pointer-events-none`,
+      n;
+    t[0] !== r || t[1] !== e ? ((n = Q(r, e)), (t[0] = r), (t[1] = e), (t[2] = n)) : (n = t[2]);
+    let a;
+    return (
+      t[3] !== i || t[4] !== n
+        ? ((a = (0, Jc.jsx)(`div`, {
+            className: n,
+            role: `listitem`,
+            onPointerDown: Rc,
+            children: i,
+          })),
+          (t[3] = i),
+          (t[4] = n),
+          (t[5] = a))
+        : (a = t[5]),
+      a
+    );
+  }
+  let c;
+  return (
+    t[6] !== i || t[7] !== r || t[8] !== a.containerId || t[9] !== a.controller || t[10] !== s
+      ? ((c = (0, Jc.jsx)(Vc, {
+          threadKey: s,
+          containerId: a.containerId,
+          controller: a.controller,
+          className: r,
+          children: i,
+        })),
+        (t[6] = i),
+        (t[7] = r),
+        (t[8] = a.containerId),
+        (t[9] = a.controller),
+        (t[10] = s),
+        (t[11] = c))
+      : (c = t[11]),
+    c
+  );
+}
+function Rc(e) {
+  e.stopPropagation();
+}
+function zc(e) {
+  let t = (0, Gc.c)(12),
+    { threadKey: n, className: r, children: i } = e,
+    a = (0, Kc.useContext)(Yc),
+    o = (0, Kc.useContext)(Oc);
+  if (Kr(n) == null) {
+    let e = o != null && `pointer-events-none`,
+      n;
+    t[0] !== r || t[1] !== e ? ((n = Q(r, e)), (t[0] = r), (t[1] = e), (t[2] = n)) : (n = t[2]);
+    let a;
+    return (
+      t[3] !== i || t[4] !== n
+        ? ((a = (0, Jc.jsx)(`div`, {
+            className: n,
+            role: `listitem`,
+            onPointerDown: Bc,
+            children: i,
+          })),
+          (t[3] = i),
+          (t[4] = n),
+          (t[5] = a))
+        : (a = t[5]),
+      a
+    );
+  }
+  let s = a?.containerId ?? null,
+    c;
+  return (
+    t[6] !== i || t[7] !== r || t[8] !== s || t[9] !== o || t[10] !== n
+      ? ((c = (0, Jc.jsx)(Hc, {
+          className: r,
+          threadKey: n,
+          containerId: s,
+          threadDragState: o,
+          children: i,
+        })),
+        (t[6] = i),
+        (t[7] = r),
+        (t[8] = s),
+        (t[9] = o),
+        (t[10] = n),
+        (t[11] = c))
+      : (c = t[11]),
+    c
+  );
+}
+function Bc(e) {
+  e.stopPropagation();
+}
+function Vc(e) {
+  let t = (0, Gc.c)(22),
+    { threadKey: n, containerId: r, controller: i, className: a, children: o } = e,
+    s = (0, Kc.useContext)(Oc),
+    c = (0, Kc.useContext)(kc),
+    l;
+  t[0] === n ? (l = t[1]) : ((l = (e) => e.threadKey === n), (t[0] = n), (t[1] = l));
+  let u = c.some(l),
+    {
+      attributes: d,
+      listeners: f,
+      setNodeRef: p,
+      transform: m,
+      transition: h,
+      isDragging: g,
+    } = ja({
+      id: n,
+      disabled: u,
+      data: {
+        kind: `sidebar-item`,
+        controller: i,
+        thread: { containerId: r, dragOverlay: o, threadKey: n },
+      },
+    }),
+    _ = g && `opacity-60`,
+    v = s != null && !g && `pointer-events-none`,
+    y;
+  t[2] !== a || t[3] !== _ || t[4] !== v
+    ? ((y = Q(a, _, v)), (t[2] = a), (t[3] = _), (t[4] = v), (t[5] = y))
+    : (y = t[5]);
+  let b;
+  t[6] === m ? (b = t[7]) : ((b = Ta.Translate.toString(m)), (t[6] = m), (t[7] = b));
+  let x;
+  t[8] !== b || t[9] !== h
+    ? ((x = { transform: b, transition: h }), (t[8] = b), (t[9] = h), (t[10] = x))
+    : (x = t[10]);
+  let S = g ? `dragging` : `idle`,
+    C = Q(u && `cursor-interaction`, !u && `cursor-grab active:cursor-grabbing`),
+    w;
+  t[11] !== d || t[12] !== o || t[13] !== f || t[14] !== S || t[15] !== C
+    ? ((w = (0, Jc.jsx)(`div`, { className: C, ...d, ...f, children: o }, S)),
+      (t[11] = d),
+      (t[12] = o),
+      (t[13] = f),
+      (t[14] = S),
+      (t[15] = C),
+      (t[16] = w))
+    : (w = t[16]);
+  let T;
+  return (
+    t[17] !== p || t[18] !== w || t[19] !== y || t[20] !== x
+      ? ((T = (0, Jc.jsx)(`div`, {
+          ref: p,
+          className: y,
+          style: x,
+          role: `listitem`,
+          children: w,
+        })),
+        (t[17] = p),
+        (t[18] = w),
+        (t[19] = y),
+        (t[20] = x),
+        (t[21] = T))
+      : (T = t[21]),
+    T
+  );
+}
+function Hc(e) {
+  let t = (0, Gc.c)(22),
+    { className: n, threadKey: r, containerId: i, threadDragState: a, children: o } = e,
+    s = (0, Kc.useContext)(kc),
+    c;
+  t[0] === r ? (c = t[1]) : ((c = (e) => e.threadKey === r), (t[0] = r), (t[1] = c));
+  let l = s.some(c),
+    {
+      attributes: u,
+      listeners: d,
+      setNodeRef: f,
+      transform: p,
+      isDragging: m,
+    } = Jr({
+      id: r,
+      disabled: l,
+      data: { kind: `sidebar-item`, thread: { containerId: i, dragOverlay: o, threadKey: r } },
+    }),
+    h = m && `opacity-60`,
+    g = a != null && !m && `pointer-events-none`,
+    _;
+  t[2] !== n || t[3] !== h || t[4] !== g
+    ? ((_ = Q(n, h, g)), (t[2] = n), (t[3] = h), (t[4] = g), (t[5] = _))
+    : (_ = t[5]);
+  let v;
+  t[6] !== m || t[7] !== p
+    ? ((v = Ta.Translate.toString(m ? null : p)), (t[6] = m), (t[7] = p), (t[8] = v))
+    : (v = t[8]);
+  let y;
+  t[9] === v ? (y = t[10]) : ((y = { transform: v }), (t[9] = v), (t[10] = y));
+  let b = m ? `dragging` : `idle`,
+    x = Q(l && `cursor-interaction`, !l && `cursor-grab active:cursor-grabbing`),
+    S;
+  t[11] !== u || t[12] !== o || t[13] !== d || t[14] !== b || t[15] !== x
+    ? ((S = (0, Jc.jsx)(`div`, { className: x, ...u, ...d, children: o }, b)),
+      (t[11] = u),
+      (t[12] = o),
+      (t[13] = d),
+      (t[14] = b),
+      (t[15] = x),
+      (t[16] = S))
+    : (S = t[16]);
+  let C;
+  return (
+    t[17] !== f || t[18] !== S || t[19] !== _ || t[20] !== y
+      ? ((C = (0, Jc.jsx)(`div`, {
+          ref: f,
+          className: _,
+          style: y,
+          role: `listitem`,
+          children: S,
+        })),
+        (t[17] = f),
+        (t[18] = S),
+        (t[19] = _),
+        (t[20] = y),
+        (t[21] = C))
+      : (C = t[21]),
+    C
+  );
+}
+function Uc(e, t) {
+  let n = Z(Vo, e);
+  switch (Ge(e)?.kind) {
+    case `local`:
+    case `remote`:
+      return e;
+    case `pending-worktree`:
+      return t === `pinned` && n ? e : null;
+    case void 0:
+      return null;
+  }
+}
+function Wc(e) {
+  if (typeof e != `object` || !e) return null;
+  switch (Reflect.get(e, `kind`)) {
+    case `sidebar-item`:
+    case `sidebar-thread-container`:
+    case `sidebar-group`:
+      return e;
+    default:
+      return null;
+  }
+}
+var Gc,
+  Kc,
+  qc,
+  Jc,
+  Yc,
+  Xc,
+  Zc = e(() => {
+    ((Gc = X()),
+      Ai(),
+      Ss(),
+      Ji(),
+      ia(),
+      Be(),
+      Tt(),
+      (Kc = t(Gr(), 1)),
+      (qc = t(nr(), 1)),
+      Bt(),
+      Cc(),
+      jc(),
+      R(),
+      ds(),
+      Ra(),
+      be(),
+      (Jc = gn()),
+      (Yc = (0, Kc.createContext)(null)),
+      (Xc = (e, t) => {
+        let n = Wc(e.active.data.current);
+        if (n?.kind === `sidebar-group`) {
+          let t = e.droppableContainers.filter((e) => {
+            let t = Wc(e.data.current);
+            return (
+              t?.kind === `sidebar-group` ||
+              (n.projectId != null &&
+                t?.kind === `sidebar-thread-container` &&
+                t.containerId === `pinned`)
+            );
+          });
+          return Di({ ...e, droppableContainers: t });
+        }
+        if (n?.kind !== `sidebar-item`) return Di(e);
+        if (n.thread == null)
+          return Di({
+            ...e,
+            droppableContainers: e.droppableContainers.filter((e) => {
+              let t = Wc(e.data.current);
+              return (
+                n.controller != null && t?.kind === `sidebar-item` && t.controller === n.controller
+              );
+            }),
+          });
+        let r = n.thread,
+          i = Kr(r.threadKey),
+          a = e.droppableContainers.filter((e) => {
+            let a = Wc(e.data.current);
+            switch (a?.kind) {
+              case `sidebar-item`:
+                return n.controller != null && a.controller === n.controller;
+              case `sidebar-thread-container`:
+                return xc({
+                  sourceContainerId: r.containerId,
+                  homeContainerId: i == null ? null : (t.get(i) ?? null),
+                  threadId: i,
+                  targetContainerId: a.containerId,
+                });
+              case `sidebar-group`:
+              case void 0:
+                return !1;
+            }
+          }),
+          o = a.filter((e) => Wc(e.data.current)?.kind === `sidebar-item`),
+          s = a.filter((e) => Wc(e.data.current)?.kind === `sidebar-thread-container`);
+        return s.length > 0
+          ? Di({
+              ...e,
+              droppableContainers: Sc({
+                threadTargets: o,
+                containerTargets: s,
+                isActiveAtRectCenter: (t) => {
+                  let n = e.droppableRects.get(t.id);
+                  return n != null && bc({ activeRect: e.collisionRect, containerRect: n });
+                },
+                isTargetAncestorOf: (e, t) => {
+                  let n = e.node.current,
+                    r = t.node.current;
+                  return n != null && r != null && n.contains(r);
+                },
+              }),
+            })
+          : Di({ ...e, droppableContainers: a });
+      }));
+  });
+function Qc(e) {
+  let t = (0, nl.c)(4),
+    { statusState: n } = e;
+  if ((n.unreadCount ?? 0) > 0) {
+    let e = n.unreadCount ?? 0,
+      r;
+    return (
+      t[0] === e ? (r = t[1]) : ((r = (0, rl.jsx)($c, { count: e })), (t[0] = e), (t[1] = r)), r
+    );
+  }
+  if (n.type === `loading`) {
+    let e;
+    return (
+      t[2] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, rl.jsx)(tl, {})), (t[2] = e))
+        : (e = t[2]),
+      e
+    );
+  }
+  if (n.unread === !0) {
+    let e;
+    return (
+      t[3] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, rl.jsx)(el, {})), (t[3] = e))
+        : (e = t[3]),
+      e
+    );
+  }
+  return null;
+}
+function $c(e) {
+  let t = (0, nl.c)(3),
+    { count: n } = e,
+    r = n > 99 ? `99+` : n,
+    i;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((i = {
+        backgroundColor: `color-mix(in srgb, var(--vscode-textLink-foreground) 18%, transparent)`,
+        boxShadow: `inset 0 0 0 1px color-mix(in srgb, var(--vscode-textLink-foreground) 72%, transparent)`,
+        color: `var(--vscode-textLink-foreground)`,
+      }),
+      (t[0] = i))
+    : (i = t[0]);
+  let a;
+  return (
+    t[1] === r
+      ? (a = t[2])
+      : ((a = (0, rl.jsx)(`div`, {
+          className: `relative flex h-5 min-w-5 shrink-0 items-center justify-center`,
+          children: (0, rl.jsx)(`span`, {
+            className: `flex h-5 min-w-5 items-center justify-center rounded-full px-1.5 text-[11px] leading-none font-semibold`,
+            style: i,
+            children: r,
+          }),
+        })),
+        (t[1] = r),
+        (t[2] = a)),
+    a
+  );
+}
+function el() {
+  let e = (0, nl.c)(1),
+    t;
+  return (
+    e[0] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((t = (0, rl.jsx)(`div`, {
+          className: `relative flex size-5 shrink-0 items-center justify-center text-token-description-foreground`,
+          children: (0, rl.jsx)(`span`, {
+            className: `icon-xs relative scale-50`,
+            children: (0, rl.jsx)(`span`, {
+              className: `absolute inset-0 rounded-full`,
+              style: { backgroundColor: `var(--vscode-textLink-foreground)` },
+            }),
+          }),
+        })),
+        (e[0] = t))
+      : (t = e[0]),
+    t
+  );
+}
+function tl() {
+  let e = (0, nl.c)(1),
+    t;
+  return (
+    e[0] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((t = (0, rl.jsx)(`div`, {
+          className: `relative flex size-5 shrink-0 items-center justify-center text-token-foreground/70`,
+          children: (0, rl.jsx)(wn, { className: `icon-xs shrink-0`, animationDurationMs: 2e3 }),
+        })),
+        (e[0] = t))
+      : (t = e[0]),
+    t
+  );
+}
+var nl,
+  rl,
+  il = e(() => {
+    ((nl = X()), nn(), (rl = gn()));
+  });
+function al(e, t) {
+  return ll(e, (e) => ({
+    ...e,
+    [t.projectId]: wo({
+      order: t.preserveStoredOrder ? (e[t.projectId] ?? null) : null,
+      tasks: t.tasks,
+      visibleThreadIds: t.visibleThreadIds,
+      nextVisibleThreadIds: t.nextVisibleThreadIds,
+    }),
+  }));
+}
+function ol(e, t) {
+  return ll(e, (e) => {
+    let n = e;
+    for (let [r, i] of Object.entries(e)) {
+      if (r === t.projectId) continue;
+      let a = i.threadIds.filter((e) => e !== t.threadId);
+      a.length !== i.threadIds.length &&
+        (n === e && (n = { ...e }), (n[r] = { ...i, threadIds: a }));
+    }
+    let r = n[t.projectId] ?? null,
+      i = Bo({ order: r, tasks: t.tasks, threadId: t.threadId, beforeThreadId: t.beforeThreadId });
+    return r != null && Hi(r.threadIds, i.threadIds) ? n : { ...n, [t.projectId]: i };
+  });
+}
+function sl(e, t) {
+  return ll(e, (e) => {
+    let n = e;
+    for (let [r, i] of Object.entries(e)) {
+      let a = i.threadIds.filter((e) => e !== t);
+      a.length !== i.threadIds.length &&
+        (n === e && (n = { ...e }), (n[r] = { ...i, threadIds: a }));
+    }
+    return n;
+  });
+}
+function cl(e, t) {
+  return ll(e, (e) => {
+    let n = e;
+    for (let [r, i] of Object.entries(e))
+      i.sortKey !== t &&
+        (n === e && (n = { ...e }),
+        t == null ? (n[r] = { threadIds: i.threadIds }) : (n[r] = { ...i, sortKey: t }));
+    return n;
+  });
+}
+function ll(e, t) {
+  let n = async () => {
+      let { value: n } = await he(`get-global-state`, {
+          params: { key: ge.SIDEBAR_PROJECT_THREAD_ORDERS },
+        }),
+        r = ft(n),
+        i = t(r);
+      i !== r && (await tn(e, ge.SIDEBAR_PROJECT_THREAD_ORDERS, i));
+    },
+    r = ul.then(n, n);
+  return ((ul = r.catch(() => {})), r);
+}
+var ul,
+  dl = e(() => {
+    (un(), ln(), bo(), da(), Oe(), (ul = Promise.resolve()));
+  });
+function fl(e, t) {
+  (Ao(e, t), hl(e, t === `updated_at` ? `updated_at` : null));
+}
+function pl(e, { tasks: t, visibleThreadIds: n, nextVisibleThreadIds: r }) {
+  let i = e.get(No) === `manual` ? (e.get(So) ?? null) : null;
+  (e.set(So, wo({ order: i, tasks: t, visibleThreadIds: n, nextVisibleThreadIds: r })),
+    fl(e, `manual`));
+}
+function ml(e, t) {
+  let n = e.get(No) === `manual`;
+  return (fl(e, `manual`), _l(al(e, { ...t, preserveStoredOrder: n })));
+}
+function hl(e, t) {
+  return _l(cl(e, t));
+}
+async function gl(e, { pinnedThreadIds: t, nextPinnedThreadIds: n }) {
+  (t.length === n.length && t.every((e, t) => e === n[t])) ||
+    (e.query.snapshot(ga).setData({ threadIds: n }), await fi(n));
+}
+function _l(e) {
+  return e.catch((e) => {
+    n.error(`Failed to save sidebar project thread order`, {
+      safe: {},
+      sensitive: { error: jr(e) },
+    });
+  });
+}
+var vl = e(() => {
+  (un(), Ma(), ci(), xo(), ko(), bo(), dl(), be());
+});
+function yl(e) {
+  let t = (0, bl.c)(74),
+    { mode: n, sectionKind: r, sidebarMode: i } = e,
+    a = Re(ee),
+    o = Qn(),
+    s = C(cs),
+    { chatSortMode: c, projectSortMode: l } = C(Oo),
+    u = C(No),
+    d;
+  t[0] !== c || t[1] !== u || t[2] !== l || t[3] !== r || t[4] !== i
+    ? ((d = u),
+      i === `chatgpt` && (d = r === `projects` ? l : c),
+      (t[0] = c),
+      (t[1] = u),
+      (t[2] = l),
+      (t[3] = r),
+      (t[4] = i),
+      (t[5] = d))
+    : (d = t[5]);
+  let f;
+  bb0: switch (r) {
+    case `projects`: {
+      let e;
+      (t[6] === o
+        ? (e = t[7])
+        : ((e = o.formatMessage({
+            id: `sidebarElectron.flatProjectSidebar.projectOptionsLabel`,
+            defaultMessage: `Project sidebar options`,
+            description: `Tooltip and aria label for project sidebar organization and sorting options`,
+          })),
+          (t[6] = o),
+          (t[7] = e)),
+        (f = e));
+      break bb0;
+    }
+    case `connections`: {
+      let e;
+      (t[8] === o
+        ? (e = t[9])
+        : ((e = o.formatMessage({
+            id: `sidebarElectron.flatProjectSidebar.connectionOptionsLabel`,
+            defaultMessage: `Connection sidebar options`,
+            description: `Tooltip and aria label for connection sidebar organization and sorting options`,
+          })),
+          (t[8] = o),
+          (t[9] = e)),
+        (f = e));
+      break bb0;
+    }
+    case `chats`: {
+      let e;
+      (t[10] === o
+        ? (e = t[11])
+        : ((e = o.formatMessage({
+            id: `sidebarElectron.flatProjectSidebar.chatOptionsLabel`,
+            defaultMessage: `Chat sidebar options`,
+            description: `Tooltip and aria label for chat sidebar organization and sorting options`,
+          })),
+          (t[10] = o),
+          (t[11] = e)),
+        (f = e));
+    }
+  }
+  let p;
+  t[12] !== a || t[13] !== r || t[14] !== i
+    ? ((p = (e) => {
+        if (i === `codex`) {
+          fl(a, e);
+          return;
+        }
+        if (r === `chats`) {
+          e !== `manual` && jo(a, e);
+          return;
+        }
+        To(a, e);
+      }),
+      (t[12] = a),
+      (t[13] = r),
+      (t[14] = i),
+      (t[15] = p))
+    : (p = t[15]);
+  let m = p,
+    h;
+  t[16] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((h = (0, xl.jsx)(j, {
+        id: `sidebarElectron.sortMenu.priority`,
+        defaultMessage: `Priority`,
+        description: `Sort option that prioritizes chats needing attention`,
+      })),
+      (t[16] = h))
+    : (h = t[16]);
+  let g;
+  t[17] === o
+    ? (g = t[18])
+    : ((g = o.formatMessage({
+        id: `sidebarElectron.sortMenu.priorityDescription`,
+        defaultMessage: `Needs input and unread chats first`,
+        description: `Description of priority sidebar thread sorting`,
+      })),
+      (t[17] = o),
+      (t[18] = g));
+  let _;
+  t[19] === g
+    ? (_ = t[20])
+    : ((_ = { label: h, tooltipText: g, value: `priority` }), (t[19] = g), (t[20] = _));
+  let v;
+  t[21] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((v = {
+        label: (0, xl.jsx)(j, {
+          id: `sidebarElectron.sortMenu.updated`,
+          defaultMessage: `Last updated`,
+          description: `Sort option to show threads by last updated time`,
+        }),
+        value: `updated_at`,
+      }),
+      (t[21] = v))
+    : (v = t[21]);
+  let y;
+  t[22] !== r || t[23] !== i
+    ? ((y =
+        r === `projects` || (i === `codex` && r === `chats`)
+          ? [
+              {
+                label: (0, xl.jsx)(j, {
+                  id: `sidebarElectron.sortMenu.manual`,
+                  defaultMessage: `Manual order`,
+                  description: `Sort option to keep sidebar threads in a manually arranged order`,
+                }),
+                value: `manual`,
+              },
+            ]
+          : []),
+      (t[22] = r),
+      (t[23] = i),
+      (t[24] = y))
+    : (y = t[24]);
+  let b;
+  t[25] !== _ || t[26] !== y
+    ? ((b = [_, v, ...y]), (t[25] = _), (t[26] = y), (t[27] = b))
+    : (b = t[27]);
+  let x = b,
+    S;
+  t[28] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((S = (0, xl.jsx)(Ki, { className: `icon-xs` })), (t[28] = S))
+    : (S = t[28]);
+  let w;
+  t[29] === f
+    ? (w = t[30])
+    : ((w = (0, xl.jsx)(Vt, {
+        className: `h-6 w-6 rounded-md !p-1 opacity-75 hover:opacity-100`,
+        color: `ghostActive`,
+        size: `icon`,
+        "aria-label": f,
+        children: S,
+      })),
+      (t[29] = f),
+      (t[30] = w));
+  let T;
+  t[31] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((T = (0, xl.jsx)(P.SectionLabel, {
+        children: (0, xl.jsx)(j, {
+          id: `sidebarElectron.flatProjectSidebar.organize`,
+          defaultMessage: `Organize`,
+          description: `Section header for flat sidebar organization options`,
+        }),
+      })),
+      (t[31] = T))
+    : (T = t[31]);
+  let E = n === `project`,
+    D;
+  t[32] === a
+    ? (D = t[33])
+    : ((D = () => {
+        Po(a, `project`);
+      }),
+      (t[32] = a),
+      (t[33] = D));
+  let O = n !== `project` && `invisible`,
+    k;
+  t[34] === O ? (k = t[35]) : ((k = Q(O)), (t[34] = O), (t[35] = k));
+  let A;
+  t[36] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((A = (0, xl.jsx)(bn, {})), (t[36] = A))
+    : (A = t[36]);
+  let M;
+  t[37] === k
+    ? (M = t[38])
+    : ((M = (0, xl.jsx)(P.ItemIcon, { className: k, size: `xs`, children: A })),
+      (t[37] = k),
+      (t[38] = M));
+  let N;
+  t[39] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((N = (0, xl.jsx)(j, {
+        id: `sidebarElectron.flatProjectSidebar.byProject`,
+        defaultMessage: `By project`,
+        description: `Menu item that organizes flat sidebar chats by project`,
+      })),
+      (t[39] = N))
+    : (N = t[39]);
+  let F;
+  t[40] !== E || t[41] !== D || t[42] !== M
+    ? ((F = (0, xl.jsxs)(P.Item, {
+        role: `menuitemradio`,
+        "aria-checked": E,
+        onSelect: D,
+        children: [M, N],
+      })),
+      (t[40] = E),
+      (t[41] = D),
+      (t[42] = M),
+      (t[43] = F))
+    : (F = t[43]);
+  let I;
+  t[44] !== s || t[45] !== n || t[46] !== a || t[47] !== i
+    ? ((I =
+        s && i === `codex`
+          ? (0, xl.jsx)(xe, {
+              electron: !0,
+              extension: !0,
+              children: (0, xl.jsxs)(P.Item, {
+                role: `menuitemradio`,
+                "aria-checked": n === `connection`,
+                onSelect: () => {
+                  Po(a, `connection`);
+                },
+                children: [
+                  (0, xl.jsx)(P.ItemIcon, {
+                    className: Q(n !== `connection` && `invisible`),
+                    size: `xs`,
+                    children: (0, xl.jsx)(bn, {}),
+                  }),
+                  (0, xl.jsx)(j, {
+                    id: `sidebarElectron.groupByMenu.connection`,
+                    defaultMessage: `By connection`,
+                    description: `Option to group sidebar projects by connected remote host`,
+                  }),
+                ],
+              }),
+            })
+          : null),
+      (t[44] = s),
+      (t[45] = n),
+      (t[46] = a),
+      (t[47] = i),
+      (t[48] = I))
+    : (I = t[48]);
+  let L = n === `list`,
+    R;
+  t[49] === a
+    ? (R = t[50])
+    : ((R = () => {
+        Po(a, `list`);
+      }),
+      (t[49] = a),
+      (t[50] = R));
+  let z = n !== `list` && `invisible`,
+    B;
+  t[51] === z ? (B = t[52]) : ((B = Q(z)), (t[51] = z), (t[52] = B));
+  let te;
+  t[53] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((te = (0, xl.jsx)(bn, {})), (t[53] = te))
+    : (te = t[53]);
+  let V;
+  t[54] === B
+    ? (V = t[55])
+    : ((V = (0, xl.jsx)(P.ItemIcon, { className: B, size: `xs`, children: te })),
+      (t[54] = B),
+      (t[55] = V));
+  let H;
+  t[56] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((H = (0, xl.jsx)(j, {
+        id: `sidebarElectron.flatProjectSidebar.inOneList`,
+        defaultMessage: `In one list`,
+        description: `Menu item that organizes flat sidebar chats in one list`,
+      })),
+      (t[56] = H))
+    : (H = t[56]);
+  let U;
+  t[57] !== L || t[58] !== R || t[59] !== V
+    ? ((U = (0, xl.jsxs)(P.Item, {
+        role: `menuitemradio`,
+        "aria-checked": L,
+        onSelect: R,
+        children: [V, H],
+      })),
+      (t[57] = L),
+      (t[58] = R),
+      (t[59] = V),
+      (t[60] = U))
+    : (U = t[60]);
+  let W;
+  t[61] !== F || t[62] !== I || t[63] !== U
+    ? ((W = (0, xl.jsxs)(P.Section, { children: [T, F, I, U] })),
+      (t[61] = F),
+      (t[62] = I),
+      (t[63] = U),
+      (t[64] = W))
+    : (W = t[64]);
+  let G;
+  t[65] !== r || t[66] !== m || t[67] !== d || t[68] !== x
+    ? ((G =
+        r === `connections`
+          ? null
+          : (0, xl.jsxs)(xl.Fragment, {
+              children: [
+                (0, xl.jsx)(P.Separator, {}),
+                (0, xl.jsxs)(P.Section, {
+                  children: [
+                    (0, xl.jsx)(P.SectionLabel, {
+                      children: (0, xl.jsx)(j, {
+                        id: `sidebarElectron.sortMenu.title`,
+                        defaultMessage: `Sort by`,
+                        description: `Header for sidebar thread sort dropdown`,
+                      }),
+                    }),
+                    x.map((e) =>
+                      (0, xl.jsxs)(
+                        P.Item,
+                        {
+                          role: `menuitemradio`,
+                          "aria-checked": d === e.value,
+                          tooltipText: e.tooltipText,
+                          onSelect: () => {
+                            m(e.value);
+                          },
+                          children: [
+                            (0, xl.jsx)(P.ItemIcon, {
+                              className: Q(d !== e.value && `invisible`),
+                              size: `xs`,
+                              children: (0, xl.jsx)(bn, {}),
+                            }),
+                            e.label,
+                          ],
+                        },
+                        e.value,
+                      ),
+                    ),
+                  ],
+                }),
+              ],
+            })),
+      (t[65] = r),
+      (t[66] = m),
+      (t[67] = d),
+      (t[68] = x),
+      (t[69] = G))
+    : (G = t[69]);
+  let ne;
+  return (
+    t[70] !== W || t[71] !== G || t[72] !== w
+      ? ((ne = (0, xl.jsxs)(qe, {
+          align: `end`,
+          contentWidth: `sidebar`,
+          triggerButton: w,
+          children: [W, G],
+        })),
+        (t[70] = W),
+        (t[71] = G),
+        (t[72] = w),
+        (t[73] = ne))
+      : (ne = t[73]),
+    ne
+  );
+}
+var bl,
+  xl,
+  Sl = e(() => {
+    ((bl = X()), Be(), Tt(), I(), Hn(), st(), r(), yr(), $i(), Y(), ko(), Ko(), vl(), (xl = gn()));
+  });
+function Cl(e) {
+  let t = (0, wl.c)(10),
+    { Icon: n, newChatMessage: r, onStartChat: i, showShortcut: a, shortcutCommandId: o } = e,
+    s = n === void 0 ? os : n,
+    c = a === void 0 ? !0 : a,
+    l = Z(Ca, o === void 0 ? `newThread` : o),
+    u = c ? l : null,
+    d;
+  t[0] === s
+    ? (d = t[1])
+    : ((d = (0, Tl.jsx)(s, { className: `icon-xs` })), (t[0] = s), (t[1] = d));
+  let f;
+  t[2] !== r || t[3] !== i || t[4] !== d
+    ? ((f = (0, Tl.jsx)(Vt, {
+        className: `h-6 w-6 rounded-md !p-1 text-token-foreground opacity-75 hover:opacity-100`,
+        color: `ghostActive`,
+        size: `icon`,
+        "aria-label": r,
+        onClick: i,
+        children: d,
+      })),
+      (t[2] = r),
+      (t[3] = i),
+      (t[4] = d),
+      (t[5] = f))
+    : (f = t[5]);
+  let p;
+  return (
+    t[6] !== r || t[7] !== u || t[8] !== f
+      ? ((p = (0, Tl.jsx)(Se, { tooltipContent: r, shortcut: u, children: f })),
+        (t[6] = r),
+        (t[7] = u),
+        (t[8] = f),
+        (t[9] = p))
+      : (p = t[9]),
+    p
+  );
+}
+var wl,
+  Tl,
+  El = e(() => {
+    ((wl = X()), Tt(), ji(), Hn(), Nt(), rs(), (Tl = gn()));
+  });
+function Dl(e) {
+  let t = (0, Ol.c)(19),
+    { mode: n, sidebarMode: r } = e,
+    i = Re(ee),
+    a = Qn(),
+    o = C(Go),
+    s = C(Qo),
+    c = C(dt),
+    l = so(),
+    u = zs(),
+    d;
+  t[0] !== o || t[1] !== c || t[2] !== s || t[3] !== i || t[4] !== r || t[5] !== l || t[6] !== u
+    ? ((d = () => {
+        ac(i, {
+          canStartProjectlessChat: o,
+          currentThreadKey: c,
+          localProjectActionsEnabled: s,
+          projectless: r === `codex`,
+          sidebarMode: r,
+          startNewConversation: l,
+          startNewConversationInProject: u,
+        });
+      }),
+      (t[0] = o),
+      (t[1] = c),
+      (t[2] = s),
+      (t[3] = i),
+      (t[4] = r),
+      (t[5] = l),
+      (t[6] = u),
+      (t[7] = d))
+    : (d = t[7]);
+  let f = d,
+    p;
+  t[8] !== n || t[9] !== r
+    ? ((p = (0, kl.jsx)(yl, { mode: n, sectionKind: `chats`, sidebarMode: r })),
+      (t[8] = n),
+      (t[9] = r),
+      (t[10] = p))
+    : (p = t[10]);
+  let m;
+  t[11] !== o || t[12] !== f || t[13] !== a || t[14] !== r
+    ? ((m =
+        o || r === `chatgpt`
+          ? (0, kl.jsx)(Cl, {
+              newChatMessage: a.formatMessage({
+                id: `sidebarElectron.newThread`,
+                defaultMessage: `New chat`,
+                description: `Starts a new chat from the sidebar`,
+              }),
+              onStartChat: f,
+            })
+          : null),
+      (t[11] = o),
+      (t[12] = f),
+      (t[13] = a),
+      (t[14] = r),
+      (t[15] = m))
+    : (m = t[15]);
+  let h;
+  return (
+    t[16] !== p || t[17] !== m
+      ? ((h = (0, kl.jsxs)(`div`, { className: `flex items-center gap-1`, children: [p, m] })),
+        (t[16] = p),
+        (t[17] = m),
+        (t[18] = h))
+      : (h = t[18]),
+    h
+  );
+}
+var Ol,
+  kl,
+  Al = e(() => {
+    ((Ol = X()), Tt(), I(), co(), Vs(), Y(), sc(), Sl(), El(), Ko(), hr(), (kl = gn()));
+  });
+function jl(e) {
+  let t = (0, Ml.c)(12),
+    { collapsed: n, showCollapsedChevron: r, onToggle: i, children: a } = e,
+    o = r === void 0 ? !1 : r,
+    s = !n,
+    c;
+  t[0] === a
+    ? (c = t[1])
+    : ((c = (0, Nl.jsx)(`span`, { className: `min-w-0 truncate`, children: a })),
+      (t[0] = a),
+      (t[1] = c));
+  let l = n && o ? `opacity-100` : `opacity-0`,
+    u = n ? `-rotate-90` : `rotate-0`,
+    d;
+  t[2] !== l || t[3] !== u
+    ? ((d = Q(
+        `icon-2xs shrink-0 transition-transform group-hover/section-toggle:opacity-100 group-focus-visible/section-toggle:opacity-100`,
+        l,
+        u,
+      )),
+      (t[2] = l),
+      (t[3] = u),
+      (t[4] = d))
+    : (d = t[4]);
+  let f;
+  t[5] === d
+    ? (f = t[6])
+    : ((f = (0, Nl.jsx)(Ne, { "aria-hidden": `true`, className: d })), (t[5] = d), (t[6] = f));
+  let p;
+  return (
+    t[7] !== i || t[8] !== s || t[9] !== c || t[10] !== f
+      ? ((p = (0, Nl.jsxs)(`button`, {
+          ...fn.sidebarSectionToggle,
+          type: `button`,
+          className: `group/section-toggle flex min-w-0 flex-1 cursor-interaction items-center gap-1 rounded-md py-0.5 pr-1 text-left focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2`,
+          "aria-expanded": s,
+          onClick: i,
+          children: [c, f],
+        })),
+        (t[7] = i),
+        (t[8] = s),
+        (t[9] = c),
+        (t[10] = f),
+        (t[11] = p))
+      : (p = t[11]),
+    p
+  );
+}
+var Ml,
+  Nl,
+  Pl = e(() => {
+    ((Ml = X()), Be(), ur(), p(), (Nl = gn()));
+  });
+function Fl(e) {
+  let t = (0, Il.c)(18),
+    { visibleThreadKeys: n, onVisibleThreadOrderChange: r } = e,
+    [i, a] = (0, Ll.useState)(null),
+    [o, s] = (0, Ll.useState)(null),
+    c;
+  t[0] !== o || t[1] !== n
+    ? ((c = Oa({ visibleThreadKeys: n, pendingVisibleThreadOrder: o })),
+      (t[0] = o),
+      (t[1] = n),
+      (t[2] = c))
+    : (c = t[2]);
+  let l = c,
+    u;
+  t[3] !== l || t[4] !== r
+    ? ((u = (e) => {
+        r != null &&
+          a(
+            xa({
+              visibleThreadKeys: l,
+              activeThreadKey: Gi(e.active.id),
+              overThreadKey: Gi(e.over?.id),
+            }),
+          );
+      }),
+      (t[3] = l),
+      (t[4] = r),
+      (t[5] = u))
+    : (u = t[5]);
+  let d = u,
+    f;
+  t[6] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((f = () => {
+        a(null);
+      }),
+      (t[6] = f))
+    : (f = t[6]);
+  let p = f,
+    m;
+  t[7] !== l || t[8] !== r || t[9] !== n
+    ? ((m = (e) => {
+        let t = Gi(e.active.id),
+          i = Gi(e.over?.id);
+        if ((a(null), r == null || t == null || i == null || t === i)) return;
+        let o = l.indexOf(t),
+          c = l.indexOf(i);
+        if (o === -1 || c === -1) return;
+        let u = Yr(l, o, c),
+          d = { previousVisibleThreadKeys: l, nextVisibleThreadKeys: u };
+        (s(d),
+          r({ visibleThreadKeys: n, nextVisibleThreadKeys: u }).finally(() => {
+            s((e) => (e === d ? null : e));
+          }));
+      }),
+      (t[7] = l),
+      (t[8] = r),
+      (t[9] = n),
+      (t[10] = m))
+    : (m = t[10]);
+  let h = m,
+    g;
+  t[11] !== h || t[12] !== d
+    ? ((g = { handleDragOver: d, handleDragCancel: p, handleDragEnd: h }),
+      (t[11] = h),
+      (t[12] = d),
+      (t[13] = g))
+    : (g = t[13]);
+  let _;
+  return (
+    t[14] !== l || t[15] !== i || t[16] !== g
+      ? ((_ = { controller: g, displayedVisibleThreadKeys: l, dropIndicatorTarget: i }),
+        (t[14] = l),
+        (t[15] = i),
+        (t[16] = g),
+        (t[17] = _))
+      : (_ = t[17]),
+    _
+  );
+}
+var Il,
+  Ll,
+  Rl = e(() => {
+    ((Il = X()), Ji(), (Ll = t(Gr(), 1)), da());
+  });
+function zl() {
+  let e = (0, Bl.c)(1),
+    t;
+  return (
+    e[0] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((t = (0, Vl.jsx)(`div`, {
+          "aria-hidden": !0,
+          className: `relative h-0 before:absolute before:inset-x-2 before:top-0 before:h-0 before:border-t before:border-token-border/80 before:content-['']`,
+          role: `presentation`,
+        })),
+        (e[0] = t))
+      : (t = e[0]),
+    t
+  );
+}
+var Bl,
+  Vl,
+  Hl = e(() => {
+    ((Bl = X()), (Vl = gn()));
+  });
+function Ul(e) {
+  let t = (0, ql.c)(69),
+    {
+      items: n,
+      getKey: r,
+      renderRow: i,
+      className: a,
+      ariaLabel: o,
+      emptyState: s,
+      emptyStateClassName: c,
+      itemClassName: l,
+      itemWrapper: u,
+      maxItems: d,
+      expanded: f,
+      revealAllOnExpand: p,
+      paginationControlsAlignment: m,
+      forcedVisibleItemKey: h,
+      onExpandedChange: g,
+      variant: _,
+      renderBeforeItem: v,
+      afterItemsNode: y,
+    } = e,
+    b = f === void 0 ? !1 : f,
+    x = p === void 0 ? !1 : p,
+    S = m === void 0 ? `nested` : m,
+    C = _ === void 0 ? `default` : _,
+    w = Vr(),
+    [T, E] = (0, Jl.useState)(Kl),
+    [D, O] = (0, Jl.useState)(1),
+    k = (0, Jl.useRef)(null),
+    A;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((A = (e) => {
+        E((t) => {
+          if (t.has(e)) return t;
+          let n = new Set(t);
+          return (n.add(e), n);
+        });
+      }),
+      (t[0] = A))
+    : (A = t[0]);
+  let M = A,
+    N;
+  t[1] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((N = (e) => {
+        E((t) => {
+          if (!t.has(e)) return t;
+          let n = new Set(t);
+          return (n.delete(e), n);
+        });
+      }),
+      (t[1] = N))
+    : (N = t[1]);
+  let P = N,
+    F = Gl,
+    I;
+  t[2] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((I = { onArchiveStart: M, onArchiveSuccess: F, onArchiveError: P }), (t[2] = I))
+    : (I = t[2]);
+  let L = I,
+    R;
+  if (t[3] !== r || t[4] !== T || t[5] !== n) {
+    let e;
+    (t[7] !== r || t[8] !== T
+      ? ((e = (e) => !T.has(r(e))), (t[7] = r), (t[8] = T), (t[9] = e))
+      : (e = t[9]),
+      (R = n.filter(e)),
+      (t[3] = r),
+      (t[4] = T),
+      (t[5] = n),
+      (t[6] = R));
+  } else R = t[6];
+  let z = R,
+    B = z.length;
+  d != null && (!b || !x) && (B = d + (b ? Xl * D : 0));
+  let ee, te, V, H, U, W, G, ne, K, q;
+  if (
+    t[10] !== o ||
+    t[11] !== a ||
+    t[12] !== h ||
+    t[13] !== r ||
+    t[14] !== T ||
+    t[15] !== l ||
+    t[16] !== u ||
+    t[17] !== S ||
+    t[18] !== v ||
+    t[19] !== i ||
+    t[20] !== w ||
+    t[21] !== z ||
+    t[22] !== C ||
+    t[23] !== B
+  ) {
+    let e = z.slice(0, B),
+      n;
+    t[34] !== h || t[35] !== r
+      ? ((n = (e) => r(e) === h), (t[34] = h), (t[35] = r), (t[36] = n))
+      : (n = t[36]);
+    let s = z.slice(B).find(n),
+      c = s == null ? e : [...e, s];
+    te = c.length < z.length;
+    let d;
+    (t[37] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((d = () => {
+          queueMicrotask(() => {
+            let e = k.current;
+            e != null && !e.contains(document.activeElement) && e.querySelector(`button`)?.focus();
+          });
+        }),
+        (t[37] = d))
+      : (d = t[37]),
+      (H = d));
+    let f = S === `nested` && `-ml-[9px]`,
+      p;
+    (t[38] === f
+      ? (p = t[39])
+      : ((p = Q(`text-token-description-foreground hover:text-token-foreground`, f)),
+        (t[38] = f),
+        (t[39] = p)),
+      (V = p),
+      t[40] === a ? (G = t[41]) : ((G = Q(`flex flex-col`, a)), (t[40] = a), (t[41] = G)),
+      (ne = `list`),
+      (K = o),
+      (ee = qt),
+      (q = !1),
+      (U = T),
+      (W = c.map((e, t) => {
+        let n = r(e),
+          a = i(e, L),
+          o = w
+            ? a
+            : (0, Yl.jsx)(Tn.div, {
+                initial: !1,
+                animate: { height: `auto`, opacity: 1, transitionEnd: { overflow: `visible` } },
+                exit: `exit`,
+                variants: {
+                  exit: (e) =>
+                    e.has(n)
+                      ? { height: 0, opacity: 0, overflow: `hidden` }
+                      : { display: `none`, transition: { duration: 0 } },
+                },
+                transition: rt,
+                className: `overflow-hidden`,
+                children: a,
+              }),
+          s = v?.(e),
+          d = t === c.length - 1,
+          f = Q(
+            l,
+            C === `default` && `after:block after:h-px after:content-[''] last:after:hidden`,
+            d && `after:!hidden`,
+          );
+        return u == null
+          ? (0, Yl.jsxs)(
+              Jl.Fragment,
+              {
+                children: [s, (0, Yl.jsx)(`div`, { className: f, role: `listitem`, children: o })],
+              },
+              n,
+            )
+          : (0, Yl.jsxs)(
+              Jl.Fragment,
+              {
+                children: [
+                  s,
+                  (0, Yl.jsx)(u, { className: f, isLastVisibleItem: d, item: e, children: o }),
+                ],
+              },
+              n,
+            );
+      })),
+      (t[10] = o),
+      (t[11] = a),
+      (t[12] = h),
+      (t[13] = r),
+      (t[14] = T),
+      (t[15] = l),
+      (t[16] = u),
+      (t[17] = S),
+      (t[18] = v),
+      (t[19] = i),
+      (t[20] = w),
+      (t[21] = z),
+      (t[22] = C),
+      (t[23] = B),
+      (t[24] = ee),
+      (t[25] = te),
+      (t[26] = V),
+      (t[27] = H),
+      (t[28] = U),
+      (t[29] = W),
+      (t[30] = G),
+      (t[31] = ne),
+      (t[32] = K),
+      (t[33] = q));
+  } else
+    ((ee = t[24]),
+      (te = t[25]),
+      (V = t[26]),
+      (H = t[27]),
+      (U = t[28]),
+      (W = t[29]),
+      (G = t[30]),
+      (ne = t[31]),
+      (K = t[32]),
+      (q = t[33]));
+  let J;
+  t[42] !== ee || t[43] !== U || t[44] !== W || t[45] !== q
+    ? ((J = (0, Yl.jsx)(ee, { initial: q, custom: U, children: W })),
+      (t[42] = ee),
+      (t[43] = U),
+      (t[44] = W),
+      (t[45] = q),
+      (t[46] = J))
+    : (J = t[46]);
+  let Y;
+  t[47] !== s || t[48] !== c || t[49] !== n.length
+    ? ((Y = n.length === 0 && s ? (0, Yl.jsx)(`div`, { className: c, children: s }) : null),
+      (t[47] = s),
+      (t[48] = c),
+      (t[49] = n.length),
+      (t[50] = Y))
+    : (Y = t[50]);
+  let re;
+  t[51] !== b ||
+  t[52] !== te ||
+  t[53] !== d ||
+  t[54] !== g ||
+  t[55] !== V ||
+  t[56] !== S ||
+  t[57] !== H ||
+  t[58] !== z.length ||
+  t[59] !== C
+    ? ((re =
+        d != null && z.length > d && (b || te) && g != null
+          ? (0, Yl.jsxs)(`div`, {
+              ref: k,
+              className: Q(
+                `flex gap-1 py-1`,
+                S === `nested` && (C === `tableRow` ? `pl-[40px]` : `px-8`),
+                C === `default` && `after:block after:h-px after:content-[''] last:after:hidden`,
+              ),
+              role: `listitem`,
+              children: [
+                te
+                  ? (0, Yl.jsx)(Vt, {
+                      className: V,
+                      color: `ghostMuted`,
+                      size: `default`,
+                      onClick: () => {
+                        if (!b) {
+                          (O(1), g(!0), H());
+                          return;
+                        }
+                        (O(Wl), H());
+                      },
+                      children: (0, Yl.jsx)(j, {
+                        id: `sidebarElectron.showMore`,
+                        defaultMessage: `Show more`,
+                        description: `Button label for expanding a task list in the sidebar`,
+                      }),
+                    })
+                  : null,
+                b
+                  ? (0, Yl.jsx)(Vt, {
+                      className: V,
+                      color: `ghostMuted`,
+                      size: `default`,
+                      onClick: () => {
+                        (O(1), g(!1), H());
+                      },
+                      children: (0, Yl.jsx)(j, {
+                        id: `sidebarElectron.showLess`,
+                        defaultMessage: `Show less`,
+                        description: `Button label for collapsing a task list in the sidebar`,
+                      }),
+                    })
+                  : null,
+              ],
+            })
+          : null),
+      (t[51] = b),
+      (t[52] = te),
+      (t[53] = d),
+      (t[54] = g),
+      (t[55] = V),
+      (t[56] = S),
+      (t[57] = H),
+      (t[58] = z.length),
+      (t[59] = C),
+      (t[60] = re))
+    : (re = t[60]);
+  let ie;
+  return (
+    t[61] !== y ||
+    t[62] !== G ||
+    t[63] !== ne ||
+    t[64] !== K ||
+    t[65] !== J ||
+    t[66] !== Y ||
+    t[67] !== re
+      ? ((ie = (0, Yl.jsxs)(`div`, {
+          className: G,
+          role: ne,
+          "aria-label": K,
+          children: [J, y, Y, re],
+        })),
+        (t[61] = y),
+        (t[62] = G),
+        (t[63] = ne),
+        (t[64] = K),
+        (t[65] = J),
+        (t[66] = Y),
+        (t[67] = re),
+        (t[68] = ie))
+      : (ie = t[68]),
+    ie
+  );
+}
+function Wl(e) {
+  return e + 1;
+}
+function Gl(e) {}
+function Kl() {
+  return new Set();
+}
+var ql,
+  Jl,
+  Yl,
+  Xl,
+  Zl = e(() => {
+    ((ql = X()), Be(), Fn(), (Jl = t(Gr(), 1)), I(), Hn(), Sr(), ut(), (Yl = gn()), (Xl = 10));
+  });
+function Ql(e) {
+  let t = (0, $l.c)(10),
+    { onUndo: n, onOpenSettings: r } = e;
+  switch (`electron`) {
+    case `chrome-extension`:
+    case `extension`: {
+      let e;
+      return (
+        t[0] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, eu.jsx)(j, {
+              id: `codex.archiveInfo.extension`,
+              defaultMessage: `View archived chats in your .codex folder.`,
+              description: `Info message shown after archiving a Codex conversation or task in the extension`,
+            })),
+            (t[0] = e))
+          : (e = t[0]),
+        e
+      );
+    }
+    case `browser`:
+    case `electron`: {
+      let e;
+      t[1] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, eu.jsx)(j, {
+            id: `codex.archiveInfo.undoLink`,
+            defaultMessage: `Undo`,
+            description: `Link label to undo archiving a chat`,
+          })),
+          (t[1] = e))
+        : (e = t[1]);
+      let i;
+      t[2] === n
+        ? (i = t[3])
+        : ((i = (0, eu.jsx)(
+            `button`,
+            {
+              className: `cursor-interaction text-token-link underline-offset-2 hover:underline`,
+              type: `button`,
+              onClick: n,
+              children: e,
+            },
+            `undo`,
+          )),
+          (t[2] = n),
+          (t[3] = i));
+      let a;
+      t[4] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((a = (0, eu.jsx)(j, {
+            id: `codex.archiveInfo.settingsLink`,
+            defaultMessage: `Settings`,
+            description: `Link label to open the archived chats settings page`,
+          })),
+          (t[4] = a))
+        : (a = t[4]);
+      let o;
+      t[5] === r
+        ? (o = t[6])
+        : ((o = (0, eu.jsx)(
+            `button`,
+            {
+              className: `cursor-interaction text-token-link underline-offset-2 hover:underline`,
+              type: `button`,
+              onClick: r,
+              children: a,
+            },
+            `settings`,
+          )),
+          (t[5] = r),
+          (t[6] = o));
+      let s;
+      return (
+        t[7] !== i || t[8] !== o
+          ? ((s = (0, eu.jsx)(j, {
+              id: `codex.archiveInfo.electronWithUndo`,
+              defaultMessage: `{undoLink} or view archived chats in {settingsLink}`,
+              description: `Info message shown after archiving a Codex conversation or task in the electron app`,
+              values: { undoLink: i, settingsLink: o },
+            })),
+            (t[7] = i),
+            (t[8] = o),
+            (t[9] = s))
+          : (s = t[9]),
+        s
+      );
+    }
+  }
+}
+var $l,
+  eu,
+  tu = e(() => {
+    (($l = X()), I(), (eu = gn()));
+  });
+function nu(e) {
+  let t = (0, uu.c)(12),
+    { className: n, disableTooltip: r, hostId: i } = e,
+    a = r === void 0 ? !1 : r,
+    o = ce(i),
+    s = J(),
+    c;
+  t[0] === n ? (c = t[1]) : ((c = Q(`icon-2xs no-drag shrink-0`, n)), (t[0] = n), (t[1] = c));
+  let l;
+  t[2] === s ? (l = t[3]) : ((l = s.map(ru)), (t[2] = s), (t[3] = l));
+  let u;
+  t[4] !== i || t[5] !== c || t[6] !== l
+    ? ((u = (0, du.jsx)(`span`, {
+        className: `inline-flex shrink-0`,
+        children: (0, du.jsx)(Ka, { className: c, hostId: i, hostIdsForColorAssignment: l }),
+      })),
+      (t[4] = i),
+      (t[5] = c),
+      (t[6] = l),
+      (t[7] = u))
+    : (u = t[7]);
+  let d;
+  return (
+    t[8] !== a || t[9] !== o.display_name || t[10] !== u
+      ? ((d = lu({ disableTooltip: a, icon: u, tooltipContent: o.display_name })),
+        (t[8] = a),
+        (t[9] = o.display_name),
+        (t[10] = u),
+        (t[11] = d))
+      : (d = t[11]),
+    d
+  );
+}
+function ru(e) {
+  return e.hostId;
+}
+function iu(e) {
+  let t = (0, uu.c)(19),
+    { className: n, disableTooltip: r, hostId: i } = e,
+    a = r === void 0 ? !1 : r,
+    o = ce(i),
+    s = J(),
+    c;
+  t[0] === n ? (c = t[1]) : ((c = Q(`icon-2xs no-drag shrink-0`, n)), (t[0] = n), (t[1] = c));
+  let l;
+  t[2] === s ? (l = t[3]) : ((l = s.map(au)), (t[2] = s), (t[3] = l));
+  let u;
+  t[4] !== i || t[5] !== c || t[6] !== l
+    ? ((u = (0, du.jsx)(Ka, { className: c, hostId: i, hostIdsForColorAssignment: l })),
+      (t[4] = i),
+      (t[5] = c),
+      (t[6] = l),
+      (t[7] = u))
+    : (u = t[7]);
+  let d;
+  t[8] === n
+    ? (d = t[9])
+    : ((d = Q(`icon-2xs text-token-description-foreground no-drag shrink-0`, n)),
+      (t[8] = n),
+      (t[9] = d));
+  let f;
+  t[10] === d ? (f = t[11]) : ((f = (0, du.jsx)(Wi, { className: d })), (t[10] = d), (t[11] = f));
+  let p;
+  t[12] !== u || t[13] !== f
+    ? ((p = (0, du.jsxs)(`span`, {
+        className: `inline-flex shrink-0 items-center gap-1.5`,
+        children: [u, f],
+      })),
+      (t[12] = u),
+      (t[13] = f),
+      (t[14] = p))
+    : (p = t[14]);
+  let m;
+  return (
+    t[15] !== a || t[16] !== o.display_name || t[17] !== p
+      ? ((m = lu({ disableTooltip: a, icon: p, tooltipContent: o.display_name })),
+        (t[15] = a),
+        (t[16] = o.display_name),
+        (t[17] = p),
+        (t[18] = m))
+      : (m = t[18]),
+    m
+  );
+}
+function au(e) {
+  return e.hostId;
+}
+function ou(e) {
+  let t = (0, uu.c)(8),
+    { className: n, disableTooltip: r } = e,
+    i = r === void 0 ? !1 : r,
+    a;
+  t[0] === n
+    ? (a = t[1])
+    : ((a = Q(`icon-2xs text-token-description-foreground no-drag shrink-0`, n)),
+      (t[0] = n),
+      (t[1] = a));
+  let o;
+  t[2] === a
+    ? (o = t[3])
+    : ((o = (0, du.jsx)(`span`, {
+        className: `inline-flex shrink-0`,
+        children: (0, du.jsx)(Wi, { className: a }),
+      })),
+      (t[2] = a),
+      (t[3] = o));
+  let s;
+  t[4] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((s = (0, du.jsx)(j, {
+        id: `threadEnvIcon.worktreeTooltip`,
+        defaultMessage: `This conversation is running in a local git worktree.`,
+        description: `Tooltip content for worktree environment icon`,
+      })),
+      (t[4] = s))
+    : (s = t[4]);
+  let c;
+  return (
+    t[5] !== i || t[6] !== o
+      ? ((c = lu({ disableTooltip: i, icon: o, tooltipContent: s })),
+        (t[5] = i),
+        (t[6] = o),
+        (t[7] = c))
+      : (c = t[7]),
+    c
+  );
+}
+function su(e) {
+  let t = (0, uu.c)(8),
+    { className: n, disableTooltip: r } = e,
+    i = r === void 0 ? !1 : r,
+    a;
+  t[0] === n
+    ? (a = t[1])
+    : ((a = Q(`icon-2xs translate-x-px text-token-description-foreground no-drag shrink-0`, n)),
+      (t[0] = n),
+      (t[1] = a));
+  let o;
+  t[2] === a
+    ? (o = t[3])
+    : ((o = (0, du.jsx)(`span`, {
+        className: `inline-flex shrink-0`,
+        children: (0, du.jsx)(ti, { className: a }),
+      })),
+      (t[2] = a),
+      (t[3] = o));
+  let s;
+  t[4] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((s = (0, du.jsx)(j, {
+        id: `threadEnvIcon.cloudTooltip`,
+        defaultMessage: `This conversation is running in Codex Cloud.`,
+        description: `Tooltip content for cloud environment icon`,
+      })),
+      (t[4] = s))
+    : (s = t[4]);
+  let c;
+  return (
+    t[5] !== i || t[6] !== o
+      ? ((c = lu({ disableTooltip: i, icon: o, tooltipContent: s })),
+        (t[5] = i),
+        (t[6] = o),
+        (t[7] = c))
+      : (c = t[7]),
+    c
+  );
+}
+function cu(e) {
+  let t = (0, uu.c)(8),
+    { className: n, disableTooltip: r } = e,
+    i = r === void 0 ? !1 : r,
+    a;
+  t[0] === n
+    ? (a = t[1])
+    : ((a = Q(`icon-2xs text-token-description-foreground no-drag shrink-0`, n)),
+      (t[0] = n),
+      (t[1] = a));
+  let o;
+  t[2] === a
+    ? (o = t[3])
+    : ((o = (0, du.jsx)(`span`, {
+        className: `inline-flex shrink-0`,
+        children: (0, du.jsx)(Li, { className: a }),
+      })),
+      (t[2] = a),
+      (t[3] = o));
+  let s;
+  t[4] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((s = (0, du.jsx)(j, {
+        id: `threadEnvIcon.localTooltip`,
+        defaultMessage: `This conversation is running locally.`,
+        description: `Tooltip content for local environment icon`,
+      })),
+      (t[4] = s))
+    : (s = t[4]);
+  let c;
+  return (
+    t[5] !== i || t[6] !== o
+      ? ((c = lu({ disableTooltip: i, icon: o, tooltipContent: s })),
+        (t[5] = i),
+        (t[6] = o),
+        (t[7] = c))
+      : (c = t[7]),
+    c
+  );
+}
+function lu({ disableTooltip: e, icon: t, tooltipContent: n }) {
+  return e ? t : (0, du.jsx)(Se, { tooltipContent: n, children: t });
+}
+var uu,
+  du,
+  fu = e(() => {
+    ((uu = X()), Be(), I(), Ha(), Nt(), si(), ba(), Zi(), B(), hn(), (du = gn()));
+  });
+function pu(e) {
+  return e === `worktree` || e === `cloud` || e === `remote` || e === `remote-worktree`;
+}
+var mu = e(() => {});
+function hu(e) {
+  let t = (0, _u.c)(4),
+    { envType: n } = e;
+  switch (n) {
+    case `worktree`: {
+      let e;
+      return (
+        t[0] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, vu.jsx)(j, {
+              id: `codex.taskRowLayout.hoverCard.worktree`,
+              defaultMessage: `Worktree`,
+              description: `Environment label shown in a sidebar row hover card`,
+            })),
+            (t[0] = e))
+          : (e = t[0]),
+        e
+      );
+    }
+    case `cloud`: {
+      let e;
+      return (
+        t[1] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, vu.jsx)(j, {
+              id: `codex.taskRowLayout.hoverCard.cloudTask`,
+              defaultMessage: `Cloud task`,
+              description: `Environment label shown in a sidebar row hover card`,
+            })),
+            (t[1] = e))
+          : (e = t[1]),
+        e
+      );
+    }
+    case `remote`: {
+      let e;
+      return (
+        t[2] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, vu.jsx)(j, {
+              id: `codex.taskRowLayout.hoverCard.remote`,
+              defaultMessage: `Remote`,
+              description: `Environment label shown in a sidebar row hover card`,
+            })),
+            (t[2] = e))
+          : (e = t[2]),
+        e
+      );
+    }
+    case `remote-worktree`: {
+      let e;
+      return (
+        t[3] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, vu.jsx)(j, {
+              id: `codex.taskRowLayout.hoverCard.remoteWorktree`,
+              defaultMessage: `Remote worktree`,
+              description: `Environment label shown in a sidebar row hover card`,
+            })),
+            (t[3] = e))
+          : (e = t[3]),
+        e
+      );
+    }
+  }
+}
+function gu(e) {
+  let t = (0, _u.c)(21),
+    { envTooltip: n, envType: r, className: i, hostId: a, disableTooltip: o } = e,
+    s = o === void 0 ? !1 : o,
+    c = pu(r) ? r : null;
+  if (!c) return null;
+  let l = n != null && n !== ``,
+    u = s || l,
+    d;
+  bb0: switch (c) {
+    case `remote`: {
+      if (a == null) return null;
+      let e;
+      (t[0] !== i || t[1] !== u || t[2] !== a
+        ? ((e = (0, vu.jsx)(nu, { className: i, disableTooltip: u, hostId: a })),
+          (t[0] = i),
+          (t[1] = u),
+          (t[2] = a),
+          (t[3] = e))
+        : (e = t[3]),
+        (d = e));
+      break bb0;
+    }
+    case `remote-worktree`: {
+      if (a == null) return null;
+      let e;
+      (t[4] !== i || t[5] !== u || t[6] !== a
+        ? ((e = (0, vu.jsx)(iu, { className: i, disableTooltip: u, hostId: a })),
+          (t[4] = i),
+          (t[5] = u),
+          (t[6] = a),
+          (t[7] = e))
+        : (e = t[7]),
+        (d = e));
+      break bb0;
+    }
+    case `worktree`: {
+      let e;
+      (t[8] !== i || t[9] !== u
+        ? ((e = (0, vu.jsx)(ou, { className: i, disableTooltip: u })),
+          (t[8] = i),
+          (t[9] = u),
+          (t[10] = e))
+        : (e = t[10]),
+        (d = e));
+      break bb0;
+    }
+    case `cloud`: {
+      let e;
+      (t[11] !== i || t[12] !== u
+        ? ((e = (0, vu.jsx)(su, { className: i, disableTooltip: u })),
+          (t[11] = i),
+          (t[12] = u),
+          (t[13] = e))
+        : (e = t[13]),
+        (d = e));
+    }
+  }
+  let f;
+  t[14] !== s || t[15] !== n || t[16] !== l || t[17] !== d
+    ? ((f = l && !s ? (0, vu.jsx)(Se, { tooltipContent: n, children: d }) : d),
+      (t[14] = s),
+      (t[15] = n),
+      (t[16] = l),
+      (t[17] = d),
+      (t[18] = f))
+    : (f = t[18]);
+  let p = f,
+    m;
+  return (
+    t[19] === p
+      ? (m = t[20])
+      : ((m = (0, vu.jsx)(`span`, {
+          className: `flex shrink-0 items-center align-middle text-sm`,
+          children: p,
+        })),
+        (t[19] = p),
+        (t[20] = m)),
+    m
+  );
+}
+var _u,
+  vu,
+  yu = e(() => {
+    ((_u = X()), I(), Nt(), fu(), mu(), (vu = gn()));
+  }),
+  bu,
+  xu,
+  Su = e(() => {
+    (t(Gr()),
+      (bu = gn()),
+      (xu = (e) =>
+        (0, bu.jsxs)(`svg`, {
+          width: 14,
+          height: 14,
+          viewBox: `0 0 14 14`,
+          fill: `none`,
+          xmlns: `http://www.w3.org/2000/svg`,
+          ...e,
+          children: [
+            (0, bu.jsx)(`path`, {
+              d: `M1.3812 8.27413V4.75577C1.3812 4.32969 1.38061 3.98381 1.40346 3.70408C1.42674 3.41945 1.47636 3.16514 1.59688 2.92852L1.67323 2.79173C1.86352 2.4815 2.13672 2.22875 2.46279 2.06261L2.5525 2.02062C2.76355 1.93013 2.98935 1.88955 3.23835 1.86919C3.51808 1.84634 3.86396 1.84693 4.29004 1.84693H4.74304C4.83633 1.84692 4.90121 1.84681 4.96508 1.85074L5.1305 1.86792C5.51249 1.92388 5.87119 2.09044 6.1612 2.34891L6.32089 2.50479C6.39392 2.57845 6.4179 2.6024 6.44114 2.62313L6.51367 2.6823C6.68734 2.81274 6.89613 2.89025 7.11427 2.9037L7.28351 2.90561H8.91989C9.28374 2.90561 9.57891 2.90537 9.81889 2.92215C10.0629 2.93924 10.2824 2.97524 10.4907 3.06403L10.6625 3.14738C11.0519 3.35977 11.3607 3.69801 11.5361 4.10936L11.5927 4.26715C11.6409 4.42714 11.6644 4.59509 11.6773 4.77677C11.6942 5.01512 11.6945 5.30802 11.6945 5.66813C11.6945 5.78286 11.6489 5.89296 11.5679 5.97415C11.4866 6.0554 11.3761 6.1014 11.2612 6.1014H2.24774V8.27413C2.24774 8.71449 2.24816 9.01893 2.26747 9.25519C2.28636 9.48629 2.32126 9.61398 2.36926 9.70819L2.41189 9.78517C2.51891 9.95962 2.67262 10.1015 2.85598 10.1949L2.93424 10.2286C3.02069 10.2595 3.1358 10.2825 3.30897 10.2967C3.54523 10.316 3.84967 10.3164 4.29004 10.3164H6.13002L6.21782 10.3253C6.41513 10.3658 6.56329 10.5404 6.56329 10.7497C6.56329 10.959 6.41513 11.1336 6.21782 11.1741L6.13002 11.183H4.29004C3.86396 11.183 3.51808 11.1836 3.23835 11.1607C2.98935 11.1403 2.76355 11.0998 2.5525 11.0093L2.46279 10.9673C2.13672 10.8011 1.86352 10.5484 1.67323 10.2382L1.59688 10.1014C1.47636 9.86476 1.42674 9.61044 1.40346 9.32581C1.38061 9.04609 1.3812 8.70021 1.3812 8.27413ZM2.24774 5.23485H10.826C10.8244 5.0787 10.8212 4.94989 10.8133 4.83848C10.8029 4.6911 10.7856 4.59201 10.7631 4.51718L10.7389 4.44911C10.6402 4.21783 10.4666 4.02778 10.2477 3.90831L10.151 3.86123C10.0685 3.82607 9.95714 3.8007 9.75844 3.78679C9.55573 3.77261 9.29595 3.77216 8.91989 3.77216H7.28351L7.06083 3.76834C6.673 3.74442 6.30198 3.60706 5.99323 3.37515L5.86471 3.27017C5.81684 3.2275 5.77151 3.18072 5.70566 3.1143L5.58477 2.99596C5.42152 2.85042 5.2196 2.75635 5.00453 2.72492L4.91228 2.71538C4.88114 2.71346 4.84701 2.71347 4.74304 2.71347H4.29004C3.84967 2.71347 3.54523 2.71389 3.30897 2.73319C3.1358 2.74735 3.02069 2.77037 2.93424 2.80127L2.85598 2.83499C2.67262 2.92843 2.51891 3.07028 2.41189 3.24472L2.36926 3.32171C2.32126 3.41592 2.28636 3.54361 2.26747 3.7747C2.24816 4.01096 2.24774 4.3154 2.24774 4.75577V5.23485Z`,
+              fill: `currentColor`,
+            }),
+            (0, bu.jsx)(`path`, {
+              d: `M9.51822 12.2436C9.51822 12.0609 9.37009 11.9127 9.18736 11.9127C9.00463 11.9127 8.8565 12.0609 8.8565 12.2436C8.8565 12.4263 9.00463 12.5745 9.18736 12.5745C9.37009 12.5745 9.51822 12.4263 9.51822 12.2436ZM9.51822 9.50914C9.51822 9.3264 9.37009 9.17828 9.18736 9.17828C9.00463 9.17828 8.8565 9.3264 8.8565 9.50914C8.8565 9.69187 9.00463 9.84 9.18736 9.84C9.37009 9.84 9.51822 9.69187 9.51822 9.50914ZM12.0249 9.50914C12.0249 9.32643 11.8767 9.17833 11.694 9.17828C11.5113 9.17828 11.3632 9.3264 11.3632 9.50914C11.3632 9.69187 11.5113 9.84 11.694 9.84C11.8767 9.83995 12.0249 9.69184 12.0249 9.50914ZM12.3886 9.50914C12.3886 9.85195 12.14 10.1361 11.8134 10.1928H11.8759V10.4205C11.8759 10.7727 11.5903 11.0582 11.2382 11.0582H9.64319C9.49192 11.0582 9.36921 11.1809 9.36921 11.3322V11.5739C9.6645 11.6539 9.88192 11.923 9.88192 12.2436C9.88192 12.6272 9.57095 12.9382 9.18736 12.9382C8.80377 12.9382 8.4928 12.6272 8.4928 12.2436C8.4928 11.923 8.71022 11.6539 9.00551 11.5739V10.1786C8.71025 10.0986 8.4928 9.82971 8.4928 9.50914C8.4928 9.12555 8.80377 8.81458 9.18736 8.81458C9.57095 8.81458 9.88192 9.12555 9.88192 9.50914C9.88192 9.82971 9.66447 10.0986 9.36921 10.1786V10.757C9.45227 10.7174 9.54503 10.6945 9.64319 10.6945H11.2382C11.3895 10.6945 11.5122 10.5718 11.5122 10.4205V10.1928H11.5747C11.248 10.1361 10.9995 9.85201 10.9995 9.50914C10.9995 9.12555 11.3104 8.81458 11.694 8.81458C12.0776 8.81462 12.3886 9.12558 12.3886 9.50914Z`,
+              fill: `currentColor`,
+            }),
+            (0, bu.jsx)(`path`, {
+              d: `M11.694 8.75989C12.1078 8.75994 12.4438 9.09507 12.444 9.50891C12.444 9.8398 12.2286 10.1186 11.9313 10.2179V10.421C11.931 10.8033 11.6203 11.1134 11.2379 11.1134H9.64319C9.52231 11.1134 9.42446 11.2113 9.42444 11.3322V11.5353C9.72159 11.6346 9.937 11.9125 9.93713 12.2433C9.93713 12.6573 9.6011 12.9933 9.18713 12.9933C8.77327 12.9932 8.43811 12.6572 8.43811 12.2433C8.43824 11.9122 8.65326 11.6334 8.95081 11.5343V10.2169C8.65342 10.1177 8.43811 9.84 8.43811 9.50891C8.43823 9.09512 8.77335 8.76001 9.18713 8.75989C9.60102 8.75989 9.93701 9.09505 9.93713 9.50891C9.93713 9.83972 9.72143 10.1165 9.42444 10.2159V10.6759C9.49314 10.6528 9.56654 10.6398 9.64319 10.6398H11.2379C11.3586 10.6398 11.4574 10.5417 11.4576 10.421V10.2179C11.1599 10.1188 10.9449 9.84013 10.9449 9.50891C10.9451 9.09507 11.2801 8.75992 11.694 8.75989ZM9.18713 11.9679C9.03498 11.968 8.91191 12.0911 8.91174 12.2433C8.91174 12.3956 9.03488 12.5195 9.18713 12.5197C9.33949 12.5197 9.4635 12.3956 9.4635 12.2433C9.46334 12.0911 9.33939 11.9679 9.18713 11.9679ZM9.18713 9.23352C9.03496 9.23364 8.91187 9.35673 8.91174 9.50891C8.91174 9.66119 9.03488 9.78516 9.18713 9.78528C9.33949 9.78528 9.4635 9.66127 9.4635 9.50891C9.46338 9.35666 9.33942 9.23352 9.18713 9.23352ZM11.694 9.23352C11.5417 9.23356 11.4187 9.35668 11.4186 9.50891C11.4186 9.66125 11.5416 9.78524 11.694 9.78528C11.8463 9.78524 11.9703 9.66123 11.9703 9.50891C11.9702 9.3567 11.8462 9.23356 11.694 9.23352Z`,
+              stroke: `currentColor`,
+              strokeWidth: 0.11,
+              strokeLinejoin: `round`,
+            }),
+          ],
+        })));
+  });
+function Cu(e) {
+  let t = (0, ku.c)(18),
+    {
+      projectIcon: n,
+      projectLabel: r,
+      repositoryLabel: i,
+      sections: a,
+      showUnreadDot: o,
+      timestampDateString: s,
+      threadTitle: c,
+      threadTitleValue: l,
+      onRenameThreadTitle: u,
+    } = e,
+    d = o === void 0 ? !1 : o,
+    f;
+  t[0] !== u || t[1] !== d || t[2] !== c || t[3] !== l || t[4] !== s
+    ? ((f =
+        c != null && c !== ``
+          ? (0, ju.jsxs)(`div`, {
+              className: `flex w-full min-w-0 items-center gap-3 pb-0.5`,
+              children: [
+                (0, ju.jsx)(Eu, { onRenameThreadTitle: u, title: c, titleValue: l }),
+                s != null && s !== ``
+                  ? (0, ju.jsxs)(`div`, {
+                      className: `flex shrink-0 items-center gap-1 text-xs leading-5 text-token-description-foreground`,
+                      children: [
+                        (0, ju.jsx)(sa, { dateString: s }),
+                        d
+                          ? (0, ju.jsx)(`span`, {
+                              "aria-hidden": !0,
+                              className: `h-1.5 w-1.5 rounded-full bg-token-charts-blue`,
+                            })
+                          : null,
+                      ],
+                    })
+                  : null,
+              ],
+            })
+          : null),
+      (t[0] = u),
+      (t[1] = d),
+      (t[2] = c),
+      (t[3] = l),
+      (t[4] = s),
+      (t[5] = f))
+    : (f = t[5]);
+  let p;
+  t[6] !== n || t[7] !== r
+    ? ((p =
+        r != null && r !== ``
+          ? (0, ju.jsx)(Ou, { row: { id: `project`, icon: n ?? (0, ju.jsx)(Ze, {}), label: r } })
+          : null),
+      (t[6] = n),
+      (t[7] = r),
+      (t[8] = p))
+    : (p = t[8]);
+  let m;
+  t[9] === i
+    ? (m = t[10])
+    : ((m =
+        i != null && i !== ``
+          ? (0, ju.jsx)(Ou, { row: { id: `repository`, icon: (0, ju.jsx)(xu, {}), label: i } })
+          : null),
+      (t[9] = i),
+      (t[10] = m));
+  let h;
+  t[11] === a ? (h = t[12]) : ((h = a.map(wu)), (t[11] = a), (t[12] = h));
+  let g;
+  return (
+    t[13] !== f || t[14] !== p || t[15] !== m || t[16] !== h
+      ? ((g = (0, ju.jsxs)(`div`, {
+          className: `flex w-fit max-w-[min(20rem,calc(100vw-16px))] min-w-56 flex-col gap-1 px-row-x py-1.5 text-token-foreground`,
+          children: [f, p, m, h],
+        })),
+        (t[13] = f),
+        (t[14] = p),
+        (t[15] = m),
+        (t[16] = h),
+        (t[17] = g))
+      : (g = t[17]),
+    g
+  );
+}
+function wu(e) {
+  return (0, ju.jsx)(
+    `div`,
+    { className: `flex min-w-0 flex-col gap-1`, children: e.rows.map(Tu) },
+    e.id,
+  );
+}
+function Tu(e) {
+  return (0, ju.jsx)(Ou, { row: e }, e.id);
+}
+function Eu(e) {
+  let t = (0, ku.c)(22),
+    { onRenameThreadTitle: n, title: r, titleValue: i } = e,
+    a = Qn(),
+    [o, s] = (0, Au.useState)(!1),
+    [c, l] = (0, Au.useState)(i ?? ``),
+    u = n != null && i != null,
+    d;
+  t[0] !== n || t[1] !== i
+    ? ((d = (e) => {
+        let t = e.trim();
+        if ((s(!1), t.length === 0 || t === i)) {
+          l(i ?? ``);
+          return;
+        }
+        n?.(t);
+      }),
+      (t[0] = n),
+      (t[1] = i),
+      (t[2] = d))
+    : (d = t[2]);
+  let f = d;
+  if (!u) {
+    let e;
+    return (
+      t[3] === r
+        ? (e = t[4])
+        : ((e = (0, ju.jsx)(`div`, {
+            className: `w-0 min-w-0 flex-1 truncate text-base leading-6 font-medium text-token-foreground`,
+            children: r,
+          })),
+          (t[3] = r),
+          (t[4] = e)),
+      e
+    );
+  }
+  if (o) {
+    let e;
+    t[5] === f
+      ? (e = t[6])
+      : ((e = (e) => {
+          e.currentTarget.dataset.cancelRename !== `true` && f(e.currentTarget.value);
+        }),
+        (t[5] = f),
+        (t[6] = e));
+    let n;
+    t[7] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((n = (e) => {
+          l(e.target.value);
+        }),
+        (t[7] = n))
+      : (n = t[7]);
+    let r;
+    t[8] === i
+      ? (r = t[9])
+      : ((r = (e) => {
+          if (e.key === `Enter`) {
+            (e.preventDefault(), e.currentTarget.blur());
+            return;
+          }
+          e.key === `Escape` &&
+            (e.preventDefault(),
+            (e.currentTarget.dataset.cancelRename = `true`),
+            l(i ?? ``),
+            s(!1));
+        }),
+        (t[8] = i),
+        (t[9] = r));
+    let o;
+    t[10] === a
+      ? (o = t[11])
+      : ((o = a.formatMessage({
+          id: `codex.taskRowHoverCard.threadTitleAriaLabel`,
+          defaultMessage: `Chat title`,
+          description: `Accessible label for the inline chat title editor in the thread hover card`,
+        })),
+        (t[10] = a),
+        (t[11] = o));
+    let u;
+    return (
+      t[12] !== c || t[13] !== e || t[14] !== r || t[15] !== o
+        ? ((u = (0, ju.jsx)(`input`, {
+            autoFocus: !0,
+            size: 1,
+            className: `h-6 w-0 min-w-0 flex-1 rounded-md border border-token-focus-border bg-token-input-background px-1.5 text-base leading-6 font-medium text-token-input-foreground outline-none`,
+            value: c,
+            onBlur: e,
+            onChange: n,
+            onFocus: Du,
+            onKeyDown: r,
+            "aria-label": o,
+          })),
+          (t[12] = c),
+          (t[13] = e),
+          (t[14] = r),
+          (t[15] = o),
+          (t[16] = u))
+        : (u = t[16]),
+      u
+    );
+  }
+  let p;
+  t[17] === i
+    ? (p = t[18])
+    : ((p = () => {
+        (l(i ?? ``), s(!0));
+      }),
+      (t[17] = i),
+      (t[18] = p));
+  let m;
+  return (
+    t[19] !== p || t[20] !== r
+      ? ((m = (0, ju.jsx)(`button`, {
+          type: `button`,
+          className: `w-0 min-w-0 flex-1 cursor-interaction truncate rounded-md text-left text-base leading-6 font-medium text-token-foreground hover:bg-token-list-hover-background focus-visible:bg-token-list-hover-background focus-visible:outline-none`,
+          onClick: p,
+          children: r,
+        })),
+        (t[19] = p),
+        (t[20] = r),
+        (t[21] = m))
+      : (m = t[21]),
+    m
+  );
+}
+function Du(e) {
+  e.currentTarget.select();
+}
+function Ou(e) {
+  let t = (0, ku.c)(29),
+    { row: n } = e,
+    r;
+  t[0] === n.icon
+    ? (r = t[1])
+    : ((r = (0, Au.cloneElement)(n.icon, { className: Q(`icon-xs`, n.icon.props.className) })),
+      (t[0] = n.icon),
+      (t[1] = r));
+  let i = r,
+    a,
+    o,
+    s,
+    c;
+  if (
+    t[2] !== i ||
+    t[3] !== n.allowWrap ||
+    t[4] !== n.label ||
+    t[5] !== n.onClick ||
+    t[6] !== n.tone
+  ) {
+    c = Symbol.for(`react.early_return_sentinel`);
+    bb0: {
+      let e = Q(
+          `flex min-w-0 gap-1.5 text-sm leading-5`,
+          n.allowWrap ? `items-start` : `h-5 items-center`,
+        ),
+        r;
+      t[11] === i
+        ? (r = t[12])
+        : ((r = (0, ju.jsx)(`span`, {
+            className: `flex h-5 w-4 shrink-0 items-center justify-center text-token-description-foreground`,
+            children: i,
+          })),
+          (t[11] = i),
+          (t[12] = r));
+      let l = n.allowWrap ? `whitespace-normal` : `overflow-hidden text-ellipsis whitespace-nowrap`,
+        u = n.tone === `danger` ? `text-token-editor-warning-foreground` : `text-token-foreground`,
+        d;
+      t[13] !== l || t[14] !== u
+        ? ((d = Q(`block min-w-0 flex-1 leading-5`, l, u)), (t[13] = l), (t[14] = u), (t[15] = d))
+        : (d = t[15]);
+      let f;
+      t[16] !== n.label || t[17] !== d
+        ? ((f = (0, ju.jsx)(`span`, { className: d, children: n.label })),
+          (t[16] = n.label),
+          (t[17] = d),
+          (t[18] = f))
+        : (f = t[18]);
+      let p;
+      if (
+        (t[19] !== r || t[20] !== f
+          ? ((p = (0, ju.jsxs)(ju.Fragment, { children: [r, f] })),
+            (t[19] = r),
+            (t[20] = f),
+            (t[21] = p))
+          : (p = t[21]),
+        (a = p),
+        n.onClick == null)
+      ) {
+        c = (0, ju.jsx)(`div`, { className: e, children: a });
+        break bb0;
+      }
+      ((o = `button`),
+        (s = Q(
+          e,
+          `w-full cursor-interaction rounded-md text-left hover:bg-token-list-hover-background focus-visible:bg-token-list-hover-background focus-visible:outline-none`,
+        )));
+    }
+    ((t[2] = i),
+      (t[3] = n.allowWrap),
+      (t[4] = n.label),
+      (t[5] = n.onClick),
+      (t[6] = n.tone),
+      (t[7] = a),
+      (t[8] = o),
+      (t[9] = s),
+      (t[10] = c));
+  } else ((a = t[7]), (o = t[8]), (s = t[9]), (c = t[10]));
+  if (c !== Symbol.for(`react.early_return_sentinel`)) return c;
+  let l;
+  t[22] === n
+    ? (l = t[23])
+    : ((l = (e) => {
+        (e.stopPropagation(), n.onClick?.(e));
+      }),
+      (t[22] = n),
+      (t[23] = l));
+  let u;
+  return (
+    t[24] !== a || t[25] !== o || t[26] !== s || t[27] !== l
+      ? ((u = (0, ju.jsx)(`button`, { type: o, className: s, onClick: l, children: a })),
+        (t[24] = a),
+        (t[25] = o),
+        (t[26] = s),
+        (t[27] = l),
+        (t[28] = u))
+      : (u = t[28]),
+    u
+  );
+}
+var ku,
+  Au,
+  ju,
+  Mu = e(() => {
+    ((ku = X()), Be(), (Au = t(Gr(), 1)), I(), ka(), Su(), z(), (ju = gn()));
+  }),
+  Nu,
+  Pu,
+  Fu = e(() => {
+    (t(Gr()),
+      (Nu = gn()),
+      (Pu = (e) =>
+        (0, Nu.jsxs)(`svg`, {
+          width: 20,
+          height: 20,
+          viewBox: `0 0 20 20`,
+          fill: `none`,
+          xmlns: `http://www.w3.org/2000/svg`,
+          ...e,
+          children: [
+            (0, Nu.jsx)(`path`, {
+              d: `M11.8008 10.1816C12.1035 10.2438 12.3309 10.5119 12.3311 10.833C12.3311 11.1542 12.1036 11.4222 11.8008 11.4844L11.666 11.498H8.33301C7.96589 11.4979 7.66797 11.2002 7.66797 10.833C7.66814 10.466 7.966 10.1682 8.33301 10.168H11.666L11.8008 10.1816Z`,
+              fill: `currentColor`,
+            }),
+            (0, Nu.jsx)(`path`, {
+              fillRule: `evenodd`,
+              clipRule: `evenodd`,
+              d: `M15.417 2.66797C16.7045 2.66815 17.7489 3.71251 17.749 5V5.83301C17.749 6.33171 17.59 6.79271 17.3232 7.17188C17.3263 7.19763 17.3311 7.22343 17.3311 7.25V12.667C17.3311 13.3559 17.3317 13.9131 17.2949 14.3633C17.2622 14.7639 17.197 15.1246 17.0527 15.4609L16.9863 15.6035C16.7209 16.1245 16.3169 16.5602 15.8213 16.8643L15.6035 16.9863C15.2268 17.1782 14.8202 17.2575 14.3623 17.2949C13.9121 17.3317 13.3549 17.332 12.666 17.332H7.33301C6.64407 17.332 6.08689 17.3317 5.63672 17.2949C5.23627 17.2622 4.87521 17.1979 4.53906 17.0537L4.39648 16.9863C3.8754 16.7208 3.43882 16.3171 3.13477 15.8213L3.0127 15.6035C2.82089 15.227 2.74153 14.821 2.7041 14.3633C2.66732 13.9131 2.66797 13.3559 2.66797 12.667V7.25C2.66797 7.22312 2.67268 7.19694 2.67578 7.1709C2.4096 6.79197 2.25195 6.33115 2.25195 5.83301V5C2.25212 3.7124 3.29634 2.66797 4.58398 2.66797H15.417ZM16.001 8.08789C15.8141 8.13621 15.619 8.16501 15.417 8.16504H4.58398C4.38146 8.16504 4.18541 8.13644 3.99805 8.08789V12.667C3.99805 13.3778 3.99895 13.8714 4.03027 14.2549C4.06097 14.6303 4.11779 14.8421 4.19824 15L4.26855 15.126C4.44482 15.4134 4.69792 15.6478 5 15.8018L5.12988 15.8574C5.27361 15.9089 5.4633 15.9467 5.74512 15.9697C6.12858 16.0011 6.62215 16.002 7.33301 16.002H12.666C13.3767 16.002 13.8705 16.001 14.2539 15.9697C14.6292 15.9391 14.8411 15.8821 14.999 15.8018L15.126 15.7305C15.4132 15.5542 15.6479 15.3019 15.8018 15L15.8574 14.8691C15.9088 14.7255 15.9467 14.5363 15.9697 14.2549C16.0011 13.8714 16.001 13.3779 16.001 12.667V8.08789ZM4.58398 3.99805C4.03088 3.99805 3.5822 4.44693 3.58203 5V5.83301C3.58203 6.38621 4.03078 6.83496 4.58398 6.83496H15.417C15.97 6.83478 16.4189 6.3861 16.4189 5.83301V5C16.4188 4.44705 15.9699 3.99823 15.417 3.99805H4.58398Z`,
+              fill: `currentColor`,
+            }),
+          ],
+        })));
+  }),
+  Iu,
+  Lu,
+  Ru = e(() => {
+    ((Iu = `_statusPillProgress_1a6wl_1`), (Lu = { statusPillProgress: Iu }));
+  });
+function zu(e) {
+  let t = (0, $u.c)(199),
+    {
+      title: n,
+      titleSuffix: r,
+      hoverCardContent: i,
+      chips: a,
+      statusPill: o,
+      iconBadges: s,
+      floatStatusIconsRight: c,
+      metaContent: l,
+      overlayMetaContent: u,
+      metaState: d,
+      hideInlineBadgesOnHover: f,
+      isActive: p,
+      onClick: m,
+      onDoubleClick: h,
+      onArchive: g,
+      archiveAriaLabel: _,
+      archiveConfirmLabel: v,
+      statusState: y,
+      statusIndicatorReplacesMeta: b,
+      hideStatusIndicator: x,
+      useStableTrailingRail: S,
+      envType: C,
+      envTooltip: w,
+      disableEnvTooltip: T,
+      pulseEnvIcon: E,
+      envIconLocation: D,
+      disabled: O,
+      allowActionsWhenDisabled: k,
+      blurOnClick: A,
+      idleIndicatorNode: j,
+      idleStatusIndicatorNode: M,
+      indicatorRestNode: N,
+      indicatorHoverNode: P,
+      reserveLeadingSlot: F,
+      additionalHoverActionCount: I,
+      priorityIndicatorNode: L,
+      onContextMenu: R,
+      renderActions: z,
+      onHoverCardOpenChange: B,
+      hoverCardSide: ee,
+      hoverCardAlign: te,
+      hoverCardSideOffset: V,
+      hoverCardAlignOffset: H,
+      metaHidden: U,
+      variant: W,
+      hostId: G,
+      dataAttributes: ne,
+    } = e,
+    K;
+  t[0] === a ? (K = t[1]) : ((K = a === void 0 ? [] : a), (t[0] = a), (t[1] = K));
+  let q = K,
+    J;
+  t[2] === s ? (J = t[3]) : ((J = s === void 0 ? [] : s), (t[2] = s), (t[3] = J));
+  let Y = J,
+    re = c === void 0 ? !1 : c,
+    ie = d === void 0 ? `default` : d,
+    ae = f === void 0 ? !1 : f,
+    oe = p === void 0 ? !1 : p,
+    se = b === void 0 ? !1 : b,
+    ce = x === void 0 ? !1 : x,
+    le = S === void 0 ? !1 : S,
+    ue = D === void 0 ? `end` : D,
+    de = O === void 0 ? !1 : O,
+    fe = k === void 0 ? !1 : k,
+    pe = A === void 0 ? !1 : A,
+    me = F === void 0 ? !1 : F,
+    he = I === void 0 ? 0 : I,
+    ge = ee === void 0 ? `right` : ee,
+    _e = te === void 0 ? `start` : te,
+    ve = V === void 0 ? 2 : V,
+    ye = H === void 0 ? 0 : H,
+    be = U === void 0 ? !1 : U,
+    xe = W === void 0 ? `default` : W,
+    { type: Ce, unread: we } = y,
+    Te = we === void 0 ? !1 : we,
+    [Ee, De] = (0, ed.useState)(!1),
+    Oe;
+  t[4] !== re || t[5] !== Y
+    ? ((Oe = re ? [] : Y), (t[4] = re), (t[5] = Y), (t[6] = Oe))
+    : (Oe = t[6]);
+  let X = Oe,
+    ke;
+  t[7] !== re || t[8] !== Y
+    ? ((ke = re ? Y : []), (t[7] = re), (t[8] = Y), (t[9] = ke))
+    : (ke = t[9]);
+  let Ae = ke,
+    je = re ? j : null,
+    Me = de ? null : (g ?? null),
+    Ne;
+  t[10] === Me
+    ? (Ne = t[11])
+    : ((Ne = Me == null ? null : () => De(!0)), (t[10] = Me), (t[11] = Ne));
+  let Pe = Ne,
+    Fe = Me != null,
+    Ie = u != null,
+    Le = Ee && Fe,
+    Re = !Le,
+    ze = he + (Fe ? 1 : 0),
+    Be =
+      z == null
+        ? `group-focus-within:hidden group-hover:hidden`
+        : `group-hover:hidden group-has-[:focus-visible]:hidden`,
+    Ve = o != null || (se && (Ce === `loading` || Te)),
+    He = (re ? null : j) ?? N,
+    Ue;
+  t[12] !== L || t[13] !== Le || t[14] !== Ve || t[15] !== Ce
+    ? ((Ue =
+        Ce === `error` && !Le && L == null && !Ve
+          ? (0, td.jsx)(`div`, {
+              className: `relative flex size-5 shrink-0 items-center justify-center text-token-description-foreground`,
+              children: (0, td.jsx)(uo, {
+                className: `icon-xs shrink-0 text-token-error-foreground`,
+              }),
+            })
+          : null),
+      (t[12] = L),
+      (t[13] = Le),
+      (t[14] = Ve),
+      (t[15] = Ce),
+      (t[16] = Ue))
+    : (Ue = t[16]);
+  let We = Ue,
+    Ge = null;
+  if (Re && (!Ve || (le && !Ie)) && (!Ee || z != null) && l != null) {
+    let e = le && !Ie && `shrink-0`,
+      n;
+    t[17] !== Be || t[18] !== e
+      ? ((n = Q(Be, e)), (t[17] = Be), (t[18] = e), (t[19] = n))
+      : (n = t[19]);
+    let r;
+    (t[20] !== l || t[21] !== ie || t[22] !== n
+      ? ((r = (0, td.jsx)(Xu, { className: n, content: l, metaState: ie })),
+        (t[20] = l),
+        (t[21] = ie),
+        (t[22] = n),
+        (t[23] = r))
+      : (r = t[23]),
+      (Ge = r));
+  }
+  let Ke = L ?? (re ? null : We) ?? He,
+    qe = me || Ke != null || P != null,
+    Je = Ke,
+    Ye = L != null || (!re && We != null) ? null : P,
+    Xe = Ce !== `loading` && !Te,
+    Ze;
+  t[24] !== _ || t[25] !== Ee || t[26] !== Pe || t[27] !== le
+    ? ((Ze =
+        Pe != null && !Ee
+          ? (0, td.jsx)(Qu, { archiveAriaLabel: _, onArchive: Pe, useStableTrailingRail: le })
+          : null),
+      (t[24] = _),
+      (t[25] = Ee),
+      (t[26] = Pe),
+      (t[27] = le),
+      (t[28] = Ze))
+    : (Ze = t[28]);
+  let Qe = Ze,
+    $e;
+  t[29] !== de || t[30] !== qe || t[31] !== Ye || t[32] !== Je || t[33] !== Xe
+    ? (($e = qe
+        ? (0, td.jsx)(`div`, {
+            className: Q(`w-4`, de && `pointer-events-none`),
+            children: (0, td.jsxs)(`div`, {
+              className: `relative flex items-center justify-center`,
+              children: [
+                Je
+                  ? (0, td.jsx)(`span`, {
+                      className: Q(
+                        `flex items-center justify-center`,
+                        Ye &&
+                          (Xe
+                            ? `group-focus-within:opacity-0 group-hover:opacity-0`
+                            : `group-hover:opacity-0`),
+                      ),
+                      children: Je,
+                    })
+                  : null,
+                Ye
+                  ? (0, td.jsx)(`span`, {
+                      className: Q(
+                        `flex items-center justify-center opacity-0 pointer-events-none`,
+                        Xe
+                          ? `group-focus-within:opacity-100 group-hover:opacity-100 group-focus-within:pointer-events-auto group-hover:pointer-events-auto`
+                          : `group-hover:opacity-100 group-hover:pointer-events-auto`,
+                        Je ? `absolute inset-0` : `relative`,
+                      ),
+                      children: Ye,
+                    })
+                  : null,
+              ],
+            }),
+          })
+        : null),
+      (t[29] = de),
+      (t[30] = qe),
+      (t[31] = Ye),
+      (t[32] = Je),
+      (t[33] = Xe),
+      (t[34] = $e))
+    : ($e = t[34]);
+  let et = $e,
+    tt;
+  t[35] !== de ||
+  t[36] !== ce ||
+  t[37] !== M ||
+  t[38] !== Le ||
+  t[39] !== o ||
+  t[40] !== y ||
+  t[41] !== Ce ||
+  t[42] !== Te
+    ? ((tt = Le
+        ? null
+        : o == null
+          ? !ce && (Ce === `loading` || Te)
+            ? (0, td.jsx)(Qc, { statusState: y })
+            : !ce && Ce === `idle`
+              ? M
+              : null
+          : (0, td.jsx)(Wu, { ...o, onClick: de ? void 0 : o.onClick }, o.progress?.deadlineMs)),
+      (t[35] = de),
+      (t[36] = ce),
+      (t[37] = M),
+      (t[38] = Le),
+      (t[39] = o),
+      (t[40] = y),
+      (t[41] = Ce),
+      (t[42] = Te),
+      (t[43] = tt))
+    : (tt = t[43]);
+  let nt = tt,
+    rt;
+  t[44] !== fe ||
+  t[45] !== Me ||
+  t[46] !== Qe ||
+  t[47] !== de ||
+  t[48] !== Ie ||
+  t[49] !== z ||
+  t[50] !== Le ||
+  t[51] !== Pe ||
+  t[52] !== o?.onClick
+    ? ((rt =
+        (de && !fe) || Ie || Le || (o?.onClick != null && !de)
+          ? null
+          : z
+            ? z({ archive: Me, requestArchive: Pe })
+            : Qe),
+      (t[44] = fe),
+      (t[45] = Me),
+      (t[46] = Qe),
+      (t[47] = de),
+      (t[48] = Ie),
+      (t[49] = z),
+      (t[50] = Le),
+      (t[51] = Pe),
+      (t[52] = o?.onClick),
+      (t[53] = rt))
+    : (rt = t[53]);
+  let it = rt,
+    at = re && o == null,
+    ot;
+  t[54] !== it ||
+  t[55] !== at ||
+  t[56] !== Ie ||
+  t[57] !== Ge ||
+  t[58] !== Be ||
+  t[59] !== nt ||
+  t[60] !== o ||
+  t[61] !== Ve ||
+  t[62] !== le
+    ? ((ot =
+        nt != null && !at
+          ? (0, td.jsx)(`span`, {
+              "data-hover-card-open-immediately": !0,
+              className: Q(
+                `flex shrink-0 items-center justify-center`,
+                o == null ? `size-5 -mr-1` : `-mr-0.5`,
+                le && Ve && Ge != null && `absolute right-0`,
+                Ie && `invisible`,
+                it != null && Be,
+              ),
+              children: nt,
+            })
+          : null),
+      (t[54] = it),
+      (t[55] = at),
+      (t[56] = Ie),
+      (t[57] = Ge),
+      (t[58] = Be),
+      (t[59] = nt),
+      (t[60] = o),
+      (t[61] = Ve),
+      (t[62] = le),
+      (t[63] = ot))
+    : (ot = t[63]);
+  let st = ot,
+    ct;
+  t[64] !== T || t[65] !== w || t[66] !== C || t[67] !== G || t[68] !== E
+    ? ((ct =
+        C === `worktree` || C === `cloud` || C === `remote` || C === `remote-worktree`
+          ? (0, td.jsx)(gu, {
+              className: E ? `animate-pulse` : void 0,
+              disableTooltip: T,
+              envTooltip: w,
+              envType: C,
+              hostId: G,
+            })
+          : null),
+      (t[64] = T),
+      (t[65] = w),
+      (t[66] = C),
+      (t[67] = G),
+      (t[68] = E),
+      (t[69] = ct))
+    : (ct = t[69]);
+  let lt = ct,
+    ut;
+  t[70] === Symbol.for(`react.memo_cache_sentinel`) ? ((ut = []), (t[70] = ut)) : (ut = t[70]);
+  let dt = ut;
+  if (re && ue === `end`) {
+    if (C === `remote-worktree`) {
+      let e = E ? `animate-pulse` : void 0,
+        n;
+      t[71] !== T || t[72] !== G || t[73] !== e
+        ? ((n = (0, td.jsx)(
+            gu,
+            { className: e, disableTooltip: T, envType: `remote`, hostId: G },
+            `remote`,
+          )),
+          (t[71] = T),
+          (t[72] = G),
+          (t[73] = e),
+          (t[74] = n))
+        : (n = t[74]);
+      let r = E ? `animate-pulse` : void 0,
+        i;
+      t[75] !== T || t[76] !== r
+        ? ((i = (0, td.jsx)(
+            gu,
+            { className: r, disableTooltip: T, envType: `worktree` },
+            `worktree`,
+          )),
+          (t[75] = T),
+          (t[76] = r),
+          (t[77] = i))
+        : (i = t[77]);
+      let a;
+      (t[78] !== n || t[79] !== i
+        ? ((a = [n, i]), (t[78] = n), (t[79] = i), (t[80] = a))
+        : (a = t[80]),
+        (dt = a));
+    } else if (lt != null) {
+      let e;
+      (t[81] === lt ? (e = t[82]) : ((e = [lt]), (t[81] = lt), (t[82] = e)), (dt = e));
+    }
+  }
+  let ft = re ? We : null,
+    pt = re && o == null ? nt : null,
+    mt;
+  t[83] !== ft || t[84] !== Ae || t[85] !== je || t[86] !== pt
+    ? ((mt = [...Ae, ft, je, pt].filter(Vu)),
+      (t[83] = ft),
+      (t[84] = Ae),
+      (t[85] = je),
+      (t[86] = pt),
+      (t[87] = mt))
+    : (mt = t[87]);
+  let ht = mt.length + dt.length,
+    gt = ht === 0 ? 0 : ht * od + (ht - 1) * sd + cd,
+    _t;
+  t[88] !== it ||
+  t[89] !== de ||
+  t[90] !== Ie ||
+  t[91] !== Le ||
+  t[92] !== dt ||
+  t[93] !== ft ||
+  t[94] !== Ae ||
+  t[95] !== je ||
+  t[96] !== ht ||
+  t[97] !== pt ||
+  t[98] !== Be
+    ? ((_t =
+        !Le && ht > 0
+          ? (0, td.jsx)(Gu, {
+              iconBadges: Ae,
+              leadingIconNodes: dt,
+              trailingIconNodes: [ft, je, pt],
+              disabled: de,
+              className: Q(ad, Ie && `invisible`, it != null && Be),
+            })
+          : null),
+      (t[88] = it),
+      (t[89] = de),
+      (t[90] = Ie),
+      (t[91] = Le),
+      (t[92] = dt),
+      (t[93] = ft),
+      (t[94] = Ae),
+      (t[95] = je),
+      (t[96] = ht),
+      (t[97] = pt),
+      (t[98] = Be),
+      (t[99] = _t))
+    : (_t = t[99]);
+  let vt = _t,
+    yt = Re && (Ie || Ge || (!at && nt) || Le),
+    bt;
+  it != null &&
+    (z != null || !le || !yt) &&
+    (ze >= 3
+      ? (bt =
+          z == null
+            ? `group-focus-within:min-w-20 group-hover:min-w-20`
+            : `group-hover:min-w-20 group-has-[:focus-visible]:min-w-20`)
+      : ze === 2
+        ? (bt =
+            z == null
+              ? `group-focus-within:min-w-12 group-hover:min-w-12`
+              : `group-hover:min-w-12 group-has-[:focus-visible]:min-w-12`)
+        : ze === 1 &&
+          (bt =
+            z == null
+              ? `group-focus-within:min-w-5 group-hover:min-w-5`
+              : `group-hover:min-w-5 group-has-[:focus-visible]:min-w-5`));
+  let xt;
+  t[100] !== Ee || t[101] !== de || t[102] !== m
+    ? ((xt = (e) => {
+        de ||
+          Ee ||
+          e.defaultPrevented ||
+          (e.currentTarget === e.target &&
+            (e.key === `Enter` || e.key === ` `) &&
+            (e.preventDefault(), pr(), m()));
+      }),
+      (t[100] = Ee),
+      (t[101] = de),
+      (t[102] = m),
+      (t[103] = xt))
+    : (xt = t[103]);
+  let St = xt,
+    Ct;
+  t[104] !== pe || t[105] !== Ee || t[106] !== de || t[107] !== m
+    ? ((Ct = (e) => {
+        if (!de) {
+          if (Ee) {
+            (e.preventDefault(), e.stopPropagation());
+            return;
+          }
+          e.defaultPrevented || (pr(), m(), pe && e.currentTarget.blur());
+        }
+      }),
+      (t[104] = pe),
+      (t[105] = Ee),
+      (t[106] = de),
+      (t[107] = m),
+      (t[108] = Ct))
+    : (Ct = t[108]);
+  let wt = Ct,
+    Tt;
+  t[109] !== Ee || t[110] !== de || t[111] !== h
+    ? ((Tt = (e) => {
+        if (!de) {
+          if (Ee) {
+            (e.preventDefault(), e.stopPropagation());
+            return;
+          }
+          e.defaultPrevented || h?.(e);
+        }
+      }),
+      (t[109] = Ee),
+      (t[110] = de),
+      (t[111] = h),
+      (t[112] = Tt))
+    : (Tt = t[112]);
+  let Et = Tt,
+    Dt = re
+      ? `pr-1 pl-[var(--padding-row-cell-x,var(--padding-row-x))]`
+      : `px-[var(--padding-row-cell-x,var(--padding-row-x))]`,
+    Ot = de && `opacity-60`,
+    kt = oe && `bg-token-list-hover-background`,
+    At = xe === `tableRow` && `!h-9 bg-transparent !px-0 !py-0 hover:bg-transparent`,
+    jt;
+  t[113] !== Dt || t[114] !== Ot || t[115] !== kt || t[116] !== At
+    ? ((jt = Q(
+        `group relative h-[var(--height-token-row)] cursor-interaction rounded-[var(--radius-token-row)] py-row-y text-sm hover:bg-token-list-hover-background focus-visible:outline-offset-[-2px]`,
+        Dt,
+        Ot,
+        kt,
+        At,
+      )),
+      (t[113] = Dt),
+      (t[114] = Ot),
+      (t[115] = kt),
+      (t[116] = At),
+      (t[117] = jt))
+    : (jt = t[117]);
+  let Mt = jt,
+    Nt = i != null && i !== !1 && i !== ``,
+    Pt = typeof n == `string` || typeof n == `number` ? String(n) : void 0,
+    Ft = r == null && `flex-1`,
+    It;
+  t[118] === Ft
+    ? (It = t[119])
+    : ((It = Q(`min-w-0 truncate select-none`, Ft)), (t[118] = Ft), (t[119] = It));
+  let Lt;
+  t[120] !== Pt || t[121] !== It || t[122] !== n
+    ? ((Lt = (0, td.jsx)(
+        `span`,
+        { className: It, "data-thread-title": !0, draggable: !1, children: n },
+        Pt,
+      )),
+      (t[120] = Pt),
+      (t[121] = It),
+      (t[122] = n),
+      (t[123] = Lt))
+    : (Lt = t[123]);
+  let Rt = Lt,
+    zt = de ? void 0 : R,
+    Bt;
+  t[124] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((Bt = () => {
+        De(!1);
+      }),
+      (t[124] = Bt))
+    : (Bt = t[124]);
+  let Vt = de ? -1 : 0,
+    Ht = de || void 0,
+    Ut = oe ? `page` : void 0,
+    Wt;
+  t[125] === it
+    ? (Wt = t[126])
+    : ((Wt =
+        it == null
+          ? null
+          : (0, td.jsx)(`div`, {
+              className: `contents`,
+              "data-hover-card-open-immediately": !0,
+              children: it,
+            })),
+      (t[125] = it),
+      (t[126] = Wt));
+  let Gt = et != null && `ml-1.5`,
+    Kt;
+  t[127] === Gt
+    ? (Kt = t[128])
+    : ((Kt = Q(`flex min-w-0 flex-1 items-center gap-2 pl-0.5`, Gt)), (t[127] = Gt), (t[128] = Kt));
+  let qt = ue === `start` && lt,
+    Jt = oe ? `text-[var(--vscode-foreground)]` : `text-token-foreground`,
+    Yt = xe === `tableRow` && `-ml-0.5 h-9 items-center self-center leading-9`,
+    Xt;
+  t[129] !== Jt || t[130] !== Yt
+    ? ((Xt = Q(`flex min-w-0 flex-1 self-stretch items-center gap-2 text-base leading-5`, Jt, Yt)),
+      (t[129] = Jt),
+      (t[130] = Yt),
+      (t[131] = Xt))
+    : (Xt = t[131]);
+  let Zt = ue === `middle` && lt,
+    Qt;
+  t[132] !== Xt || t[133] !== Zt || t[134] !== Rt || t[135] !== r
+    ? ((Qt = (0, td.jsxs)(`div`, {
+        className: Xt,
+        "data-thread-title-trigger": !0,
+        children: [Rt, r, Zt],
+      })),
+      (t[132] = Xt),
+      (t[133] = Zt),
+      (t[134] = Rt),
+      (t[135] = r),
+      (t[136] = Qt))
+    : (Qt = t[136]);
+  let $t = ue === `end` && !re && !Le ? lt : null,
+    en = ae ? `group-hover:hidden` : void 0,
+    tn;
+  t[137] !== q || t[138] !== de || t[139] !== X || t[140] !== Le || t[141] !== $t || t[142] !== en
+    ? ((tn = (0, td.jsx)(Hu, {
+        chips: q,
+        envIconNode: $t,
+        iconBadges: X,
+        hideInlineBadges: Le,
+        disabled: de,
+        className: en,
+      })),
+      (t[137] = q),
+      (t[138] = de),
+      (t[139] = X),
+      (t[140] = Le),
+      (t[141] = $t),
+      (t[142] = en),
+      (t[143] = tn))
+    : (tn = t[143]);
+  let nn;
+  t[144] !== Kt || t[145] !== qt || t[146] !== Qt || t[147] !== tn
+    ? ((nn = (0, td.jsxs)(`div`, { className: Kt, children: [qt, Qt, tn] })),
+      (t[144] = Kt),
+      (t[145] = qt),
+      (t[146] = Qt),
+      (t[147] = tn),
+      (t[148] = nn))
+    : (nn = t[148]);
+  let rn = le && `relative mr-[var(--task-row-trailing-inset)]`,
+    an = yt && `min-w-[26px]`,
+    on;
+  t[149] !== bt || t[150] !== rn || t[151] !== an
+    ? ((on = Q(`ml-[3px] flex items-center justify-end gap-1`, rn, an, bt)),
+      (t[149] = bt),
+      (t[150] = rn),
+      (t[151] = an),
+      (t[152] = on))
+    : (on = t[152]);
+  let sn;
+  t[153] !== Me ||
+  t[154] !== v ||
+  t[155] !== Ie ||
+  t[156] !== be ||
+  t[157] !== Ge ||
+  t[158] !== u ||
+  t[159] !== Le ||
+  t[160] !== st ||
+  t[161] !== Ve ||
+  t[162] !== le
+    ? ((sn = Le
+        ? (0, td.jsx)(Zu, {
+            label: v,
+            onConfirm: (e) => {
+              (e.stopPropagation(), De(!1), Me?.());
+            },
+          })
+        : (0, td.jsxs)(td.Fragment, {
+            children: [
+              u,
+              Ge &&
+                (0, td.jsx)(`div`, {
+                  className: Q(((le && Ve) || be || Ie) && `invisible`),
+                  children: Ge,
+                }),
+              st,
+            ],
+          })),
+      (t[153] = Me),
+      (t[154] = v),
+      (t[155] = Ie),
+      (t[156] = be),
+      (t[157] = Ge),
+      (t[158] = u),
+      (t[159] = Le),
+      (t[160] = st),
+      (t[161] = Ve),
+      (t[162] = le),
+      (t[163] = sn))
+    : (sn = t[163]);
+  let cn;
+  t[164] !== on || t[165] !== sn
+    ? ((cn = (0, td.jsx)(`div`, { className: on, children: sn })),
+      (t[164] = on),
+      (t[165] = sn),
+      (t[166] = cn))
+    : (cn = t[166]);
+  let ln;
+  t[167] !== it || t[168] !== gt || t[169] !== Be
+    ? ((ln =
+        gt > 0
+          ? (0, td.jsx)(`div`, {
+              className: Q(`shrink-0`, it != null && Be),
+              style: { width: `${gt}px` },
+            })
+          : null),
+      (t[167] = it),
+      (t[168] = gt),
+      (t[169] = Be),
+      (t[170] = ln))
+    : (ln = t[170]);
+  let un;
+  t[171] !== et || t[172] !== nn || t[173] !== cn || t[174] !== ln
+    ? ((un = (0, td.jsxs)(`div`, {
+        className: `flex h-full w-full items-center text-sm leading-4`,
+        children: [et, nn, cn, ln],
+      })),
+      (t[171] = et),
+      (t[172] = nn),
+      (t[173] = cn),
+      (t[174] = ln),
+      (t[175] = un))
+    : (un = t[175]);
+  let dn;
+  t[176] !== Mt ||
+  t[177] !== ne ||
+  t[178] !== St ||
+  t[179] !== wt ||
+  t[180] !== Et ||
+  t[181] !== vt ||
+  t[182] !== zt ||
+  t[183] !== Vt ||
+  t[184] !== Ht ||
+  t[185] !== Ut ||
+  t[186] !== Wt ||
+  t[187] !== un
+    ? ((dn = (0, td.jsxs)(`div`, {
+        ...ne,
+        className: Mt,
+        onClick: wt,
+        onDoubleClick: Et,
+        onContextMenu: zt,
+        onPointerLeave: Bt,
+        onKeyDown: St,
+        role: `button`,
+        tabIndex: Vt,
+        "aria-disabled": Ht,
+        "aria-current": Ut,
+        children: [Wt, vt, un],
+      })),
+      (t[176] = Mt),
+      (t[177] = ne),
+      (t[178] = St),
+      (t[179] = wt),
+      (t[180] = Et),
+      (t[181] = vt),
+      (t[182] = zt),
+      (t[183] = Vt),
+      (t[184] = Ht),
+      (t[185] = Ut),
+      (t[186] = Wt),
+      (t[187] = un),
+      (t[188] = dn))
+    : (dn = t[188]);
+  let fn = dn;
+  if (!Nt) return fn;
+  let pn;
+  t[189] === B
+    ? (pn = t[190])
+    : ((pn = (e) => {
+        B?.(e);
+      }),
+      (t[189] = B),
+      (t[190] = pn));
+  let mn;
+  return (
+    t[191] !== _e ||
+    t[192] !== ye ||
+    t[193] !== i ||
+    t[194] !== ge ||
+    t[195] !== ve ||
+    t[196] !== fn ||
+    t[197] !== pn
+      ? ((mn = (0, td.jsx)(Se, {
+          getDelayDuration: Bu,
+          onOpenChange: pn,
+          side: ge,
+          align: _e,
+          alignOffset: ye,
+          sideOffset: ve,
+          interactive: !0,
+          variant: `rich`,
+          tooltipContent: i,
+          children: fn,
+        })),
+        (t[191] = _e),
+        (t[192] = ye),
+        (t[193] = i),
+        (t[194] = ge),
+        (t[195] = ve),
+        (t[196] = fn),
+        (t[197] = pn),
+        (t[198] = mn))
+      : (mn = t[198]),
+    mn
+  );
+}
+function Bu(e, t) {
+  return Yu(e.target) ? 0 : t;
+}
+function Vu(e) {
+  return e != null;
+}
+function Hu(e) {
+  let t = (0, $u.c)(25),
+    { className: n, chips: r, envIconNode: i, iconBadges: a, hideInlineBadges: o, disabled: s } = e,
+    c;
+  t[0] === r ? (c = t[1]) : ((c = r === void 0 ? [] : r), (t[0] = r), (t[1] = c));
+  let l = c,
+    u;
+  t[2] === a ? (u = t[3]) : ((u = a === void 0 ? [] : a), (t[2] = a), (t[3] = u));
+  let d = u,
+    f = o === void 0 ? !1 : o,
+    p = s === void 0 ? !1 : s,
+    m;
+  t[4] === l ? (m = t[5]) : ((m = l.flatMap(Uu)), (t[4] = l), (t[5] = m));
+  let h = m,
+    g;
+  if (t[6] !== p || t[7] !== d) {
+    let e;
+    (t[9] === p
+      ? (e = t[10])
+      : ((e = (e) => Ju({ badge: e, disabled: p })), (t[9] = p), (t[10] = e)),
+      (g = d.flatMap(e)),
+      (t[6] = p),
+      (t[7] = d),
+      (t[8] = g));
+  } else g = t[8];
+  let _ = g,
+    v;
+  t[11] !== h || t[12] !== f
+    ? ((v = f ? [] : h), (t[11] = h), (t[12] = f), (t[13] = v))
+    : (v = t[13]);
+  let y = v;
+  if (y.length === 0 && i == null && _.length === 0) return null;
+  let b;
+  t[14] === n
+    ? (b = t[15])
+    : ((b = Q(`flex min-w-[24px] items-center justify-end gap-2`, n)), (t[14] = n), (t[15] = b));
+  let x;
+  t[16] === y
+    ? (x = t[17])
+    : ((x =
+        y.length > 0
+          ? (0, td.jsx)(`div`, { className: `flex items-center gap-1`, children: y })
+          : null),
+      (t[16] = y),
+      (t[17] = x));
+  let S;
+  t[18] !== i || t[19] !== _
+    ? ((S =
+        i != null || _.length > 0
+          ? (0, td.jsxs)(`div`, {
+              "data-hover-card-open-immediately": !0,
+              className: `flex items-center gap-1.5`,
+              children: [_, i],
+            })
+          : null),
+      (t[18] = i),
+      (t[19] = _),
+      (t[20] = S))
+    : (S = t[20]);
+  let C;
+  return (
+    t[21] !== b || t[22] !== x || t[23] !== S
+      ? ((C = (0, td.jsxs)(`div`, { className: b, children: [x, S] })),
+        (t[21] = b),
+        (t[22] = x),
+        (t[23] = S),
+        (t[24] = C))
+      : (C = t[24]),
+    C
+  );
+}
+function Uu(e) {
+  let { id: t, label: n } = e;
+  return n == null
+    ? []
+    : [
+        (0, td.jsx)(
+          `span`,
+          {
+            className: `inline-flex max-w-[150px] items-center truncate rounded-full bg-token-charts-green/20 py-0.5 pr-2.5 pl-2 text-sm text-token-charts-green`,
+            children: n,
+          },
+          t,
+        ),
+      ];
+}
+function Wu(e) {
+  let t = (0, $u.c)(31),
+    { ariaLabel: n, label: r, hoverLabel: i, onClick: a, progress: o } = e,
+    s = a != null,
+    c;
+  t[0] === o?.nowMs
+    ? (c = t[1])
+    : ((c = () => o?.nowMs ?? Date.now()), (t[0] = o?.nowMs), (t[1] = c));
+  let [l] = (0, ed.useState)(c),
+    u;
+  t[2] !== s || t[3] !== o || t[4] !== l
+    ? ((u =
+        o == null
+          ? null
+          : (0, td.jsx)(`span`, {
+              className: Q(
+                `pointer-events-none absolute inset-0 bg-token-charts-blue/25`,
+                s &&
+                  `group-hover:bg-token-foreground/20 group-focus-visible/status-pill:bg-token-foreground/20`,
+                Lu.statusPillProgress,
+              ),
+              style: {
+                animationDelay: `${o.deadlineMs - l - o.durationMs}ms`,
+                animationDuration: `${o.durationMs}ms`,
+                animationPlayState: o.nowMs == null ? void 0 : `paused`,
+              },
+              "aria-hidden": !0,
+            })),
+      (t[2] = s),
+      (t[3] = o),
+      (t[4] = l),
+      (t[5] = u))
+    : (u = t[5]);
+  let d = s && `group-hover:invisible group-focus-visible/status-pill:invisible`,
+    f;
+  t[6] === d
+    ? (f = t[7])
+    : ((f = Q(`relative col-start-1 row-start-1 min-w-0 truncate`, d)), (t[6] = d), (t[7] = f));
+  let p;
+  t[8] !== r || t[9] !== f
+    ? ((p = (0, td.jsx)(`span`, { className: f, children: r })),
+      (t[8] = r),
+      (t[9] = f),
+      (t[10] = p))
+    : (p = t[10]);
+  let m;
+  t[11] !== i || t[12] !== s || t[13] !== r
+    ? ((m = s
+        ? (0, td.jsx)(`span`, {
+            className: `invisible relative col-start-1 row-start-1 min-w-0 truncate group-hover:visible group-focus-visible/status-pill:visible`,
+            children: i ?? r,
+          })
+        : null),
+      (t[11] = i),
+      (t[12] = s),
+      (t[13] = r),
+      (t[14] = m))
+    : (m = t[14]);
+  let h;
+  t[15] !== u || t[16] !== p || t[17] !== m
+    ? ((h = (0, td.jsxs)(td.Fragment, { children: [u, p, m] })),
+      (t[15] = u),
+      (t[16] = p),
+      (t[17] = m),
+      (t[18] = h))
+    : (h = t[18]);
+  let g = h,
+    _ =
+      s &&
+      `group/status-pill cursor-interaction group-hover:bg-token-foreground/10 group-hover:text-token-foreground focus-visible:bg-token-foreground/10 focus-visible:text-token-foreground focus-visible:outline-token-focus-ring focus-visible:outline-2 focus-visible:outline-offset-2`,
+    v;
+  t[19] === _
+    ? (v = t[20])
+    : ((v = Q(
+        `relative inline-grid max-w-[150px] shrink-0 items-center overflow-hidden rounded-full bg-token-charts-blue/15 py-0.5 pr-2.5 pl-2 text-sm text-token-charts-blue`,
+        _,
+      )),
+      (t[19] = _),
+      (t[20] = v));
+  let y = v;
+  if (!s) {
+    let e;
+    return (
+      t[21] !== y || t[22] !== g
+        ? ((e = (0, td.jsx)(`span`, { className: y, children: g })),
+          (t[21] = y),
+          (t[22] = g),
+          (t[23] = e))
+        : (e = t[23]),
+      e
+    );
+  }
+  let b;
+  t[24] === a
+    ? (b = t[25])
+    : ((b = (e) => {
+        (e.stopPropagation(), a());
+      }),
+      (t[24] = a),
+      (t[25] = b));
+  let x;
+  return (
+    t[26] !== n || t[27] !== y || t[28] !== g || t[29] !== b
+      ? ((x = (0, td.jsx)(`button`, {
+          className: y,
+          type: `button`,
+          "aria-label": n,
+          onClick: b,
+          children: g,
+        })),
+        (t[26] = n),
+        (t[27] = y),
+        (t[28] = g),
+        (t[29] = b),
+        (t[30] = x))
+      : (x = t[30]),
+    x
+  );
+}
+function Gu(e) {
+  let t = (0, $u.c)(22),
+    { className: n, disabled: r, iconBadges: i, leadingIconNodes: a, trailingIconNodes: o } = e,
+    s = r === void 0 ? !1 : r,
+    c,
+    l;
+  if (t[0] !== s || t[1] !== i || t[2] !== a || t[3] !== o) {
+    let e = i === void 0 ? [] : i,
+      n;
+    (t[6] === a ? (n = t[7]) : ((n = a === void 0 ? [] : a), (t[6] = a), (t[7] = n)), (c = n));
+    let r;
+    t[8] === s ? (r = t[9]) : ((r = (e) => Ju({ badge: e, disabled: s })), (t[8] = s), (t[9] = r));
+    let u;
+    (t[10] === o ? (u = t[11]) : ((u = o ?? []), (t[10] = o), (t[11] = u)),
+      (l = [...e.flatMap(r), ...u].filter(qu)),
+      (t[0] = s),
+      (t[1] = i),
+      (t[2] = a),
+      (t[3] = o),
+      (t[4] = c),
+      (t[5] = l));
+  } else ((c = t[4]), (l = t[5]));
+  let u = l,
+    d;
+  t[12] !== c || t[13] !== u
+    ? ((d = [...c, ...u]), (t[12] = c), (t[13] = u), (t[14] = d))
+    : (d = t[14]);
+  let f = d;
+  if (f.length === 0) return null;
+  let p;
+  t[15] === n
+    ? (p = t[16])
+    : ((p = Q(`flex shrink-0 items-center justify-end`, n)), (t[15] = n), (t[16] = p));
+  let m;
+  t[17] === f ? (m = t[18]) : ((m = f.map(Ku)), (t[17] = f), (t[18] = m));
+  let h;
+  return (
+    t[19] !== p || t[20] !== m
+      ? ((h = (0, td.jsx)(`div`, {
+          "data-hover-card-open-immediately": !0,
+          className: p,
+          children: m,
+        })),
+        (t[19] = p),
+        (t[20] = m),
+        (t[21] = h))
+      : (h = t[21]),
+    h
+  );
+}
+function Ku(e, t) {
+  return (0, td.jsx)(
+    `span`,
+    { className: `flex h-5 min-w-5 items-center justify-center`, children: e },
+    t,
+  );
+}
+function qu(e) {
+  return e != null;
+}
+function Ju({ badge: e, disabled: t }) {
+  let { id: n, icon: r, ariaLabel: i, className: a, onClick: o, tooltipContent: s } = e;
+  if (!(0, ed.isValidElement)(r)) return [];
+  let c = (0, ed.cloneElement)(r, { className: Q(nd, r.props.className) }),
+    l =
+      o == null || t
+        ? (0, td.jsx)(
+            `span`,
+            {
+              className: Q(`flex shrink-0 items-center text-token-description-foreground`, a),
+              children: c,
+            },
+            n,
+          )
+        : (0, td.jsx)(
+            `button`,
+            {
+              type: `button`,
+              className: Q(
+                `focus-visible:outline-token-focus-ring flex shrink-0 items-center justify-center rounded-md text-token-description-foreground hover:text-token-foreground focus-visible:outline-2 focus-visible:outline-offset-2`,
+                a,
+              ),
+              "aria-label": i,
+              onClick: (e) => {
+                (e.stopPropagation(), o());
+              },
+              children: c,
+            },
+            n,
+          );
+  return s != null && s !== ``
+    ? [
+        (0, td.jsx)(
+          Se,
+          {
+            tooltipContent: s,
+            children: (0, td.jsx)(`span`, {
+              className: Q(`flex shrink-0 items-center`, a),
+              children: l,
+            }),
+          },
+          n,
+        ),
+      ]
+    : [l];
+}
+function Yu(e) {
+  return e instanceof Element && e.closest(ld) != null;
+}
+function Xu(e) {
+  let t = (0, $u.c)(6),
+    { className: n, content: r, metaState: i } = e;
+  if (r == null) return null;
+  let a = i === `loading` ? `loading-shimmer-pure-text min-w-[72px]` : `truncate`,
+    o;
+  t[0] !== n || t[1] !== a
+    ? ((o = Q(
+        `text-token-description-foreground text-sm leading-4 empty:hidden tabular-nums overflow-visible`,
+        a,
+        `text-right`,
+        n,
+      )),
+      (t[0] = n),
+      (t[1] = a),
+      (t[2] = o))
+    : (o = t[2]);
+  let s;
+  return (
+    t[3] !== r || t[4] !== o
+      ? ((s = (0, td.jsx)(`div`, { className: o, children: r })),
+        (t[3] = r),
+        (t[4] = o),
+        (t[5] = s))
+      : (s = t[5]),
+    s
+  );
+}
+function Zu(e) {
+  let t = (0, $u.c)(5),
+    { label: n, onConfirm: r } = e,
+    i;
+  t[0] === n
+    ? (i = t[1])
+    : ((i =
+        n ??
+        (0, td.jsx)(j, {
+          id: `codex.taskRowLayout.confirm`,
+          defaultMessage: `Confirm`,
+          description: `Confirmation button for archiving a task`,
+        })),
+      (t[0] = n),
+      (t[1] = i));
+  let a;
+  return (
+    t[2] !== r || t[3] !== i
+      ? ((a = (0, td.jsx)(Vt, {
+          size: `composerSm`,
+          color: `danger`,
+          className: `!h-auto !border-none !py-0`,
+          onClick: r,
+          children: i,
+        })),
+        (t[2] = r),
+        (t[3] = i),
+        (t[4] = a))
+      : (a = t[4]),
+    a
+  );
+}
+function Qu(e) {
+  let t = (0, $u.c)(11),
+    { onArchive: n, archiveAriaLabel: r, useStableTrailingRail: i } = e,
+    a;
+  t[0] === i
+    ? (a = t[1])
+    : ((a = i ? { right: `var(--task-row-trailing-inset)` } : void 0), (t[0] = i), (t[1] = a));
+  let o;
+  t[2] === n
+    ? (o = t[3])
+    : ((o = (e) => {
+        (e.stopPropagation(), n());
+      }),
+      (t[2] = n),
+      (t[3] = o));
+  let s;
+  t[4] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((s = (0, td.jsx)(Pu, { className: `icon-xs` })), (t[4] = s))
+    : (s = t[4]);
+  let c;
+  t[5] !== r || t[6] !== o
+    ? ((c = (0, td.jsx)(`button`, {
+        type: `button`,
+        className: `focus-visible:outline-token-focus-ring pointer-events-none flex h-5 w-5 items-center justify-center rounded-md opacity-0 group-focus-within:pointer-events-auto group-focus-within:opacity-100 group-hover:pointer-events-auto group-hover:opacity-50 hover:opacity-100 focus-visible:pointer-events-auto focus-visible:opacity-100 focus-visible:outline-2 focus-visible:outline-offset-2`,
+        onClick: o,
+        "aria-label": r,
+        children: s,
+      })),
+      (t[5] = r),
+      (t[6] = o),
+      (t[7] = c))
+    : (c = t[7]);
+  let l;
+  return (
+    t[8] !== a || t[9] !== c
+      ? ((l = (0, td.jsx)(`div`, { className: id, style: a, children: c })),
+        (t[8] = a),
+        (t[9] = c),
+        (t[10] = l))
+      : (l = t[10]),
+    l
+  );
+}
+var $u,
+  ed,
+  td,
+  nd,
+  rd,
+  id,
+  ad,
+  od,
+  sd,
+  cd,
+  ld,
+  ud = e(() => {
+    (($u = X()),
+      Be(),
+      (ed = t(Gr(), 1)),
+      I(),
+      Hn(),
+      Nt(),
+      kn(),
+      Fu(),
+      lo(),
+      yu(),
+      il(),
+      Ru(),
+      (td = gn()),
+      (nd = `icon-2xs`),
+      (rd = `absolute right-0 top-0 z-10 flex h-full items-center justify-end gap-2 pr-0.5`),
+      (id = `${rd} mr-0.5 w-[52px]`),
+      (ad = `absolute right-0 top-0 z-10 flex h-full min-w-[52px] items-center justify-end gap-2 pr-1`),
+      (od = 20),
+      (sd = 8),
+      (cd = 4),
+      (ld = `[data-hover-card-open-immediately]`));
+  });
+function dd(e) {
+  let t = (0, fd.c)(16),
+    { onActiveArchiveStart: n, onArchiveStart: r, onArchiveSuccess: i, onArchiveError: a } = e,
+    [o, s] = (0, pd.useState)(!1),
+    c = r != null || i != null || a != null,
+    l;
+  t[0] !== n || t[1] !== r || t[2] !== c
+    ? ((l = () => {
+        (c ? r?.() : s(!0), n?.());
+      }),
+      (t[0] = n),
+      (t[1] = r),
+      (t[2] = c),
+      (t[3] = l))
+    : (l = t[3]);
+  let u = l,
+    d;
+  t[4] === i
+    ? (d = t[5])
+    : ((d = () => {
+        i?.();
+      }),
+      (t[4] = i),
+      (t[5] = d));
+  let f = d,
+    p;
+  t[6] !== a || t[7] !== c
+    ? ((p = () => {
+        c ? a?.() : s(!1);
+      }),
+      (t[6] = a),
+      (t[7] = c),
+      (t[8] = p))
+    : (p = t[8]);
+  let m = p,
+    h = m,
+    g;
+  return (
+    t[9] !== o || t[10] !== u || t[11] !== h || t[12] !== f || t[13] !== m || t[14] !== c
+      ? ((g = {
+          archived: o,
+          usesExternalArchiveHandling: c,
+          beginArchive: u,
+          handleArchiveSuccess: f,
+          handleArchiveError: h,
+          restoreArchivedRow: m,
+        }),
+        (t[9] = o),
+        (t[10] = u),
+        (t[11] = h),
+        (t[12] = f),
+        (t[13] = m),
+        (t[14] = c),
+        (t[15] = g))
+      : (g = t[15]),
+    g
+  );
+}
+var fd,
+  pd,
+  md = e(() => {
+    ((fd = X()), (pd = t(Gr(), 1)));
+  });
+function hd(e) {
+  let t = (0, gd.c)(77),
+    {
+      task: n,
+      onClose: r,
+      onSelect: i,
+      isActive: a,
+      envIconLocation: s,
+      useStableTrailingRail: c,
+      statusIndicatorReplacesMeta: l,
+      hideStatusIndicator: u,
+      idleIndicatorNode: d,
+      indicatorRestNode: f,
+      indicatorHoverNode: p,
+      reserveLeadingSlot: h,
+      additionalHoverActionCount: g,
+      renderActions: _,
+      hideInlineBadgesOnHover: v,
+      metaHidden: y,
+      metaContent: b,
+      overlayMetaContent: x,
+      extraIconBadges: S,
+      floatStatusIconsRight: C,
+      hoverCardProjectLabel: w,
+      hoverCardProjectIcon: T,
+      hoverCardRepositoryLabel: E,
+      hoverCardSections: D,
+      contextMenuItems: O,
+      variant: k,
+      onArchiveStart: A,
+      onArchiveSuccess: M,
+      onArchiveError: N,
+      dataAttributes: P,
+    } = e,
+    F = a === void 0 ? !1 : a,
+    I = s === void 0 ? `end` : s,
+    L = c === void 0 ? !1 : c,
+    R = l === void 0 ? !1 : l,
+    z = u === void 0 ? !1 : u,
+    B = h === void 0 ? !1 : h,
+    te = g === void 0 ? 0 : g,
+    V = v === void 0 ? !1 : v,
+    H = y === void 0 ? !1 : y,
+    W = C === void 0 ? !1 : C,
+    G = Re(ee),
+    ne = Qn(),
+    K = Or(),
+    q = o(),
+    J,
+    Y,
+    re;
+  if (t[0] !== K || t[1] !== r || t[2] !== i || t[3] !== n) {
+    Y = () => {
+      (i?.(), r(), K(`/remote/${J}`));
+    };
+    let { id: e, title: a } = n;
+    ((re = a),
+      (J = e),
+      (t[0] = K),
+      (t[1] = r),
+      (t[2] = i),
+      (t[3] = n),
+      (t[4] = J),
+      (t[5] = Y),
+      (t[6] = re));
+  } else ((J = t[4]), (Y = t[5]), (re = t[6]));
+  let ie = n.task_status_display?.latest_turn_status_display?.turn_status,
+    ae = ie === `in_progress` || ie === `pending`,
+    oe = ie === `failed`,
+    se = n.updated_at ?? n.created_at ?? null,
+    ce = se ? new Date(se * 1e3) : null,
+    le = ae ? `loading` : oe ? `error` : `idle`,
+    ue = b ?? (ce ? (0, _d.jsx)(sa, { dateString: ce.toISOString() }) : null),
+    de = ce ? `default` : ae ? `loading` : `default`,
+    fe = !ae && !!ce,
+    pe;
+  t[7] !== N || t[8] !== A || t[9] !== M
+    ? ((pe = { onArchiveStart: A, onArchiveSuccess: M, onArchiveError: N }),
+      (t[7] = N),
+      (t[8] = A),
+      (t[9] = M),
+      (t[10] = pe))
+    : (pe = t[10]);
+  let {
+      archived: me,
+      usesExternalArchiveHandling: he,
+      beginArchive: ge,
+      handleArchiveSuccess: _e,
+      handleArchiveError: ve,
+      restoreArchivedRow: ye,
+    } = dd(pe),
+    be;
+  t[11] === J
+    ? (be = t[12])
+    : ((be = () =>
+        kr.safePost(`/wham/tasks/{task_id}/archive`, { parameters: { path: { task_id: J } } })),
+      (t[11] = J),
+      (t[12] = be));
+  let xe;
+  t[13] !== _e ||
+  t[14] !== J ||
+  t[15] !== ne ||
+  t[16] !== K ||
+  t[17] !== q ||
+  t[18] !== ye ||
+  t[19] !== G
+    ? ((xe = () => {
+        _e();
+        let e = G.get(ot).info(
+          (0, _d.jsx)(Ql, {
+            onUndo: () => {
+              (e.close(),
+                kr
+                  .safePost(`/wham/tasks/{task_id}/recover`, {
+                    parameters: { path: { task_id: J } },
+                  })
+                  .then(() => {
+                    (ye(),
+                      q.invalidateQueries({ queryKey: [`tasks`] }),
+                      q.invalidateQueries({ queryKey: [`task`, J] }));
+                  })
+                  .catch(() => {
+                    G.get(ot).danger(
+                      ne.formatMessage({
+                        id: `cloudTaskRow.unarchiveError`,
+                        defaultMessage: `Failed to unarchive task`,
+                        description: `Error message when undoing a cloud task archive`,
+                      }),
+                    );
+                  }));
+            },
+            onOpenSettings: () => {
+              K(`/settings/data-controls`);
+            },
+          }),
+          { id: `archive-task` },
+        );
+        (q.invalidateQueries({ queryKey: [`tasks`] }),
+          q.invalidateQueries({ queryKey: [`task`, J] }));
+      }),
+      (t[13] = _e),
+      (t[14] = J),
+      (t[15] = ne),
+      (t[16] = K),
+      (t[17] = q),
+      (t[18] = ye),
+      (t[19] = G),
+      (t[20] = xe))
+    : (xe = t[20]);
+  let Se;
+  t[21] !== ve || t[22] !== ne || t[23] !== G
+    ? ((Se = () => {
+        (ve(),
+          G.get(ot).danger(
+            ne.formatMessage({
+              id: `cloudTaskRow.archiveError`,
+              defaultMessage: `Failed to archive task`,
+              description: `Error message when archiving a Codex task`,
+            }),
+          ));
+      }),
+      (t[21] = ve),
+      (t[22] = ne),
+      (t[23] = G),
+      (t[24] = Se))
+    : (Se = t[24]);
+  let Ce;
+  t[25] !== be || t[26] !== xe || t[27] !== Se
+    ? ((Ce = { mutationFn: be, onSuccess: xe, onError: Se }),
+      (t[25] = be),
+      (t[26] = xe),
+      (t[27] = Se),
+      (t[28] = Ce))
+    : (Ce = t[28]);
+  let we = m(Ce),
+    Te;
+  t[29] !== we || t[30] !== ge
+    ? ((Te = () => {
+        (ge(), we.mutate());
+      }),
+      (t[29] = we),
+      (t[30] = ge),
+      (t[31] = Te))
+    : (Te = t[31]);
+  let Ee = Te;
+  if (me && !he) return null;
+  let De;
+  t[32] === re
+    ? (De = t[33])
+    : ((De =
+        U(re ?? ``) ||
+        (0, _d.jsx)(j, {
+          id: `codex.taskRow.title`,
+          defaultMessage: `New chat`,
+          description: `Default title for a Codex thread that doesn't have a title`,
+        })),
+      (t[32] = re),
+      (t[33] = De));
+  let Oe = De,
+    X =
+      w != null && w !== ``
+        ? (0, _d.jsx)(Cu, {
+            projectLabel: w,
+            projectIcon: T,
+            repositoryLabel: E,
+            sections: [
+              {
+                id: `environment`,
+                rows: [
+                  {
+                    id: `environment`,
+                    icon: (0, _d.jsx)(gu, { envType: `cloud`, disableTooltip: !0 }),
+                    label: (0, _d.jsx)(hu, { envType: `cloud` }),
+                  },
+                ],
+              },
+              ...(D ?? []),
+            ],
+            showUnreadDot: n.has_unread_turn,
+            timestampDateString: ce?.toISOString(),
+            threadTitle: Oe,
+          })
+        : null,
+    ke;
+  t[34] !== le || t[35] !== n.has_unread_turn
+    ? ((ke = { type: le, unread: n.has_unread_turn }),
+      (t[34] = le),
+      (t[35] = n.has_unread_turn),
+      (t[36] = ke))
+    : (ke = t[36]);
+  let Ae = (R || ae) && b == null,
+    je = fe ? Ee : null,
+    Me;
+  t[37] === ne
+    ? (Me = t[38])
+    : ((Me = ne.formatMessage(vd.archiveTask)), (t[37] = ne), (t[38] = Me));
+  let Ne;
+  t[39] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((Ne = (0, _d.jsx)(j, {
+        id: `codex.cloudTaskRow.confirmArchiveTask`,
+        defaultMessage: `Confirm`,
+        description: `Confirmation button for archiving a cloud task`,
+      })),
+      (t[39] = Ne))
+    : (Ne = t[39]);
+  let Pe = k === `tableRow` ? `bottom` : void 0,
+    Fe = k === `tableRow` ? `end` : void 0,
+    Ie = k === `tableRow` ? -36 : void 0,
+    Le;
+  t[40] !== te ||
+  t[41] !== P ||
+  t[42] !== I ||
+  t[43] !== S ||
+  t[44] !== W ||
+  t[45] !== V ||
+  t[46] !== z ||
+  t[47] !== X ||
+  t[48] !== d ||
+  t[49] !== p ||
+  t[50] !== f ||
+  t[51] !== F ||
+  t[52] !== H ||
+  t[53] !== de ||
+  t[54] !== Y ||
+  t[55] !== x ||
+  t[56] !== _ ||
+  t[57] !== B ||
+  t[58] !== ke ||
+  t[59] !== Ae ||
+  t[60] !== je ||
+  t[61] !== Me ||
+  t[62] !== Pe ||
+  t[63] !== Fe ||
+  t[64] !== Ie ||
+  t[65] !== ue ||
+  t[66] !== Oe ||
+  t[67] !== L ||
+  t[68] !== k
+    ? ((Le = (0, _d.jsx)(zu, {
+        isActive: F,
+        onClick: Y,
+        idleIndicatorNode: d,
+        indicatorRestNode: f,
+        indicatorHoverNode: p,
+        reserveLeadingSlot: B,
+        additionalHoverActionCount: te,
+        variant: k,
+        statusState: ke,
+        statusIndicatorReplacesMeta: Ae,
+        hideStatusIndicator: z,
+        useStableTrailingRail: L,
+        envType: `cloud`,
+        envIconLocation: I,
+        title: Oe,
+        hoverCardContent: X,
+        iconBadges: S,
+        floatStatusIconsRight: W,
+        hideInlineBadgesOnHover: V,
+        metaHidden: H,
+        metaContent: ue,
+        overlayMetaContent: x,
+        metaState: de,
+        onArchive: je,
+        archiveAriaLabel: Me,
+        archiveConfirmLabel: Ne,
+        renderActions: _,
+        hoverCardSide: Pe,
+        hoverCardAlign: Fe,
+        hoverCardSideOffset: Ie,
+        dataAttributes: P,
+      })),
+      (t[40] = te),
+      (t[41] = P),
+      (t[42] = I),
+      (t[43] = S),
+      (t[44] = W),
+      (t[45] = V),
+      (t[46] = z),
+      (t[47] = X),
+      (t[48] = d),
+      (t[49] = p),
+      (t[50] = f),
+      (t[51] = F),
+      (t[52] = H),
+      (t[53] = de),
+      (t[54] = Y),
+      (t[55] = x),
+      (t[56] = _),
+      (t[57] = B),
+      (t[58] = ke),
+      (t[59] = Ae),
+      (t[60] = je),
+      (t[61] = Me),
+      (t[62] = Pe),
+      (t[63] = Fe),
+      (t[64] = Ie),
+      (t[65] = ue),
+      (t[66] = Oe),
+      (t[67] = L),
+      (t[68] = k),
+      (t[69] = Le))
+    : (Le = t[69]);
+  let ze = Le;
+  if (O === void 0 || (O.length === 0 && !fe)) return ze;
+  let Be;
+  t[70] !== fe || t[71] !== O || t[72] !== Ee
+    ? ((Be = () => {
+        let e = [...O];
+        return (fe && e.push({ id: `archive-task`, message: vd.archiveTask, onSelect: Ee }), e);
+      }),
+      (t[70] = fe),
+      (t[71] = O),
+      (t[72] = Ee),
+      (t[73] = Be))
+    : (Be = t[73]);
+  let Ve = Be,
+    He;
+  return (
+    t[74] !== Ve || t[75] !== ze
+      ? ((He = (0, _d.jsx)(Da, { getItems: Ve, children: ze })),
+        (t[74] = Ve),
+        (t[75] = ze),
+        (t[76] = He))
+      : (He = t[76]),
+    He
+  );
+}
+var gd,
+  _d,
+  vd,
+  yd = e(() => {
+    ((gd = X()),
+      Ir(),
+      Tt(),
+      I(),
+      wt(),
+      tu(),
+      Vi(),
+      ka(),
+      er(),
+      Xn(),
+      Y(),
+      S(),
+      yu(),
+      Mu(),
+      ud(),
+      md(),
+      (_d = gn()),
+      (vd = Ye({
+        archiveTask: {
+          id: `codex.cloudTaskRow.archiveTask`,
+          defaultMessage: `Archive task`,
+          description: `Label for archiving a cloud task`,
+        },
+      })));
+  });
+function bd({ codexHome: e, worktreePath: t }) {
+  let n = xd(t, e);
+  return n == null ? Ut(t) : (n[Sd(n) - 1] ?? Ut(t));
+}
+function xd(e, t) {
+  let n = wr(e).replace(/\/+$/, ``),
+    r = n.toLowerCase();
+  if (t != null) {
+    let e = wr(et(t)).replace(/\/+$/, ``).toLowerCase();
+    if (r === e || r.startsWith(`${e}/`)) return n.slice(e.length).split(`/`).filter(Boolean);
+  }
+  let i = r.lastIndexOf(Cd);
+  return i === -1
+    ? null
+    : n
+        .slice(i + 17)
+        .split(`/`)
+        .filter(Boolean);
+}
+function Sd(e) {
+  return e.length >= 2 && /^[0-9a-f]{4,}$/i.test(e[0]) ? 2 : 1;
+}
+var Cd,
+  wd = e(() => {
+    (un(), qn(), (Cd = `.codex/worktrees/`));
+  });
+function Td({
+  branchMismatchWarning: e,
+  branchName: t,
+  branchTooltipContent: n,
+  codexHome: r,
+  workspaceIcon: i,
+  workspacePath: a,
+}) {
+  let o = t?.trim() || null,
+    s = a != null && lt(a, r) ? bd({ codexHome: r, worktreePath: a }) : null,
+    c = [];
+  return (
+    o != null &&
+      c.push({
+        id: `branch`,
+        icon: (0, Ed.jsx)(re, {}),
+        label:
+          n == null
+            ? o
+            : (0, Ed.jsx)(Se, {
+                tooltipContent: n,
+                children: (0, Ed.jsx)(`span`, { children: o }),
+              }),
+      }),
+    e != null &&
+      c.push({
+        allowWrap: !0,
+        id: `branch-mismatch`,
+        icon: (0, Ed.jsx)(La, { className: `text-token-editor-warning-foreground` }),
+        label: e,
+        tone: `danger`,
+      }),
+    s != null && c.push({ id: `worktree`, icon: i ?? (0, Ed.jsx)(Wi, {}), label: s }),
+    c.length > 0 ? c : void 0
+  );
+}
+var Ed,
+  Dd = e(() => {
+    (un(), Nt(), ke(), Bi(), Zi(), wd(), (Ed = gn()));
+  });
+function Od(e) {
+  let t = (0, kd.c)(55),
+    {
+      task: n,
+      envIconLocation: r,
+      useStableTrailingRail: i,
+      statusIndicatorReplacesMeta: a,
+      hideStatusIndicator: o,
+      isActive: s,
+      hasAttention: c,
+      indicatorRestNode: l,
+      indicatorHoverNode: u,
+      reserveLeadingSlot: d,
+      additionalHoverActionCount: f,
+      renderActions: p,
+      variant: m,
+      hoverCardProjectLabel: h,
+      floatStatusIconsRight: g,
+      metaContent: _,
+      overlayMetaContent: v,
+      onClick: y,
+      onDoubleClick: b,
+      onArchive: x,
+      onContextMenu: S,
+      dataAttributes: C,
+    } = e,
+    w = r === void 0 ? `end` : r,
+    T = i === void 0 ? !1 : i,
+    E = a === void 0 ? !1 : a,
+    D = o === void 0 ? !1 : o,
+    O = s === void 0 ? !1 : s,
+    k = c === void 0 ? !1 : c,
+    A = d === void 0 ? !1 : d,
+    M = f === void 0 ? 0 : f,
+    N = g === void 0 ? !1 : g,
+    P = Qn(),
+    F = Or(),
+    I = Fr(n.hostId),
+    L = n.phase === `failed`,
+    R;
+  t[0] === n.phase ? (R = t[1]) : ((R = $r(n.phase)), (t[0] = n.phase), (t[1] = R));
+  let z = R,
+    B;
+  t[2] !== _ || t[3] !== n.createdAt
+    ? ((B = _ ?? (0, Ad.jsx)(sa, { dateString: new Date(n.createdAt).toISOString() })),
+      (t[2] = _),
+      (t[3] = n.createdAt),
+      (t[4] = B))
+    : (B = t[4]);
+  let ee = B,
+    te;
+  t[5] !== k || t[6] !== L || t[7] !== z
+    ? ((te = z
+        ? { type: `loading`, unread: k }
+        : L
+          ? { type: `error`, unread: k }
+          : { type: `idle`, unread: k }),
+      (t[5] = k),
+      (t[6] = L),
+      (t[7] = z),
+      (t[8] = te))
+    : (te = t[8]);
+  let V = te,
+    H = n.startingState.type === `branch` ? n.startingState.branchName : null,
+    W = n.worktreeGitRoot ?? n.worktreeWorkspaceRoot,
+    G;
+  t[9] !== I || t[10] !== H || t[11] !== W
+    ? ((G = Td({ branchName: H, codexHome: I, workspacePath: W })),
+      (t[9] = I),
+      (t[10] = H),
+      (t[11] = W),
+      (t[12] = G))
+    : (G = t[12]);
+  let ne = G,
+    K;
+  t[13] !== L || t[14] !== n.label
+    ? ((K = L
+        ? (0, Ad.jsx)(j, {
+            id: `recentTasks.worktreeInitFailedTitle`,
+            defaultMessage: `Worktree init failed`,
+            description: `Worktree row title when the init script fails`,
+          })
+        : U(n.label)),
+      (t[13] = L),
+      (t[14] = n.label),
+      (t[15] = K))
+    : (K = t[15]);
+  let q = K,
+    J;
+  t[16] !== ne || t[17] !== h || t[18] !== q
+    ? ((J =
+        h != null && h !== ``
+          ? (0, Ad.jsx)(Cu, {
+              projectLabel: h,
+              sections: [{ id: `environment`, rows: ne ?? [] }],
+              threadTitle: q,
+            })
+          : null),
+      (t[16] = ne),
+      (t[17] = h),
+      (t[18] = q),
+      (t[19] = J))
+    : (J = t[19]);
+  let Y = J,
+    re;
+  t[20] !== F || t[21] !== y || t[22] !== n.id
+    ? ((re = () => {
+        if (y) {
+          y();
+          return;
+        }
+        F(`/worktree-init-v2/${n.id}`);
+      }),
+      (t[20] = F),
+      (t[21] = y),
+      (t[22] = n.id),
+      (t[23] = re))
+    : (re = t[23]);
+  let ie = re,
+    ae = E && _ == null,
+    oe;
+  t[24] !== P || t[25] !== x
+    ? ((oe = x ? P.formatMessage(la.archiveThread) : void 0),
+      (t[24] = P),
+      (t[25] = x),
+      (t[26] = oe))
+    : (oe = t[26]);
+  let se;
+  t[27] === x
+    ? (se = t[28])
+    : ((se = x
+        ? (0, Ad.jsx)(j, {
+            id: `codex.localTaskRow.confirmArchiveTask`,
+            defaultMessage: `Confirm`,
+            description: `Confirmation button for archiving a local task`,
+          })
+        : void 0),
+      (t[27] = x),
+      (t[28] = se));
+  let ce;
+  return (
+    t[29] !== M ||
+    t[30] !== C ||
+    t[31] !== w ||
+    t[32] !== N ||
+    t[33] !== ie ||
+    t[34] !== D ||
+    t[35] !== Y ||
+    t[36] !== u ||
+    t[37] !== l ||
+    t[38] !== O ||
+    t[39] !== z ||
+    t[40] !== x ||
+    t[41] !== S ||
+    t[42] !== b ||
+    t[43] !== v ||
+    t[44] !== p ||
+    t[45] !== A ||
+    t[46] !== V ||
+    t[47] !== ae ||
+    t[48] !== oe ||
+    t[49] !== se ||
+    t[50] !== ee ||
+    t[51] !== q ||
+    t[52] !== T ||
+    t[53] !== m
+      ? ((ce = (0, Ad.jsx)(zu, {
+          isActive: O,
+          title: q,
+          hoverCardContent: Y,
+          metaContent: ee,
+          overlayMetaContent: v,
+          envType: `worktree`,
+          envIconLocation: w,
+          floatStatusIconsRight: N,
+          pulseEnvIcon: z,
+          statusIndicatorReplacesMeta: ae,
+          hideStatusIndicator: D,
+          useStableTrailingRail: T,
+          indicatorRestNode: l,
+          indicatorHoverNode: u,
+          reserveLeadingSlot: A,
+          additionalHoverActionCount: M,
+          variant: m,
+          renderActions: p,
+          statusState: V,
+          onArchive: x,
+          archiveAriaLabel: oe,
+          archiveConfirmLabel: se,
+          onClick: ie,
+          onDoubleClick: b,
+          onContextMenu: S,
+          dataAttributes: C,
+        })),
+        (t[29] = M),
+        (t[30] = C),
+        (t[31] = w),
+        (t[32] = N),
+        (t[33] = ie),
+        (t[34] = D),
+        (t[35] = Y),
+        (t[36] = u),
+        (t[37] = l),
+        (t[38] = O),
+        (t[39] = z),
+        (t[40] = x),
+        (t[41] = S),
+        (t[42] = b),
+        (t[43] = v),
+        (t[44] = p),
+        (t[45] = A),
+        (t[46] = V),
+        (t[47] = ae),
+        (t[48] = oe),
+        (t[49] = se),
+        (t[50] = ee),
+        (t[51] = q),
+        (t[52] = T),
+        (t[53] = m),
+        (t[54] = ce))
+      : (ce = t[54]),
+    ce
+  );
+}
+var kd,
+  Ad,
+  jd = e(() => {
+    ((kd = X()), I(), wt(), ka(), _(), Xn(), Qr(), za(), Mu(), ud(), Dd(), (Ad = gn()));
+  });
+function Md(e) {
+  let t = (0, Nd.c)(3),
+    { data: n } = oe(ge.PROJECT_APPEARANCES),
+    r;
+  return (
+    t[0] !== n || t[1] !== e
+      ? ((r = ze(n)[e] ?? null), (t[0] = n), (t[1] = e), (t[2] = r))
+      : (r = t[2]),
+    r
+  );
+}
+var Nd,
+  Pd = e(() => {
+    ((Nd = X()), un(), H());
+  });
+function Fd({ isPinned: e, onPinnedChange: t }) {
+  return {
+    id: e ? `unpin-thread` : `pin-thread`,
+    message: e ? zd : Rd,
+    onSelect: () => {
+      t(!e);
+    },
+  };
+}
+function Id({ isPinned: e, hasUnreadTurn: t, ariaLabel: n, onPin: r, onUnpin: i }) {
+  if (t)
+    return {
+      rest: null,
+      hover: (0, Ld.jsx)(`span`, { "aria-hidden": !0, className: `block h-5 w-5` }),
+    };
+  let a = (0, Ld.jsx)(Ya, { isPinned: e, ariaLabel: n, onPin: r, onUnpin: i });
+  return { rest: e ? a : null, hover: a };
+}
+var Ld,
+  Rd,
+  zd,
+  Bd = e(() => {
+    (I(),
+      qa(),
+      (Ld = gn()),
+      ({ pin: Rd, unpin: zd } = Ye({
+        pin: {
+          id: `sidebarElectron.pinThread`,
+          defaultMessage: `Pin chat`,
+          description: `Action label to pin a thread in the sidebar`,
+        },
+        unpin: {
+          id: `sidebarElectron.unpinThread`,
+          defaultMessage: `Unpin chat`,
+          description: `Action label to unpin a thread from the sidebar`,
+        },
+      })));
+  });
+function Vd(e) {
+  let t = (0, Hd.c)(11),
+    { badge: n } = e,
+    r;
+  t[0] === n.icon
+    ? (r = t[1])
+    : ((r = (0, Ud.cloneElement)(n.icon, {
+        className: Q(`icon-2xs block shrink-0`, n.icon.props.className),
+      })),
+      (t[0] = n.icon),
+      (t[1] = r));
+  let i = r,
+    a = n.ariaLabel,
+    o;
+  t[2] === n.className
+    ? (o = t[3])
+    : ((o = Q(`flex h-5 w-5 items-center justify-center leading-none`, n.className)),
+      (t[2] = n.className),
+      (t[3] = o));
+  let s;
+  t[4] !== n.ariaLabel || t[5] !== i || t[6] !== o
+    ? ((s = (0, Wd.jsx)(`span`, { "aria-label": a, className: o, children: i })),
+      (t[4] = n.ariaLabel),
+      (t[5] = i),
+      (t[6] = o),
+      (t[7] = s))
+    : (s = t[7]);
+  let c = s;
+  if (n.tooltipContent == null || n.tooltipContent === ``) return c;
+  let l;
+  return (
+    t[8] !== n.tooltipContent || t[9] !== c
+      ? ((l = (0, Wd.jsx)(Se, { tooltipContent: n.tooltipContent, children: c })),
+        (t[8] = n.tooltipContent),
+        (t[9] = c),
+        (t[10] = l))
+      : (l = t[10]),
+    l
+  );
+}
+var Hd,
+  Ud,
+  Wd,
+  Gd = e(() => {
+    ((Hd = X()), Be(), (Ud = t(Gr(), 1)), Nt(), (Wd = gn()));
+  });
+function Kd({ className: e = `icon-sm shrink-0`, checks: t }) {
+  let n = qd(t),
+    r = Q(`text-token-description-foreground`, e);
+  if (n.length === 0) return (0, Jd.jsx)(Pi, { className: r });
+  let i = n.length > 1 ? Zd : 0,
+    a = 0;
+  return (0, Jd.jsx)(`svg`, {
+    "aria-hidden": !0,
+    className: r,
+    fill: `none`,
+    viewBox: `0 0 18 18`,
+    children: (0, Jd.jsx)(`g`, {
+      transform: `rotate(-90 9 9)`,
+      children: n.map((e) => {
+        let t = Xd * e.ratio,
+          n = `${Math.max(t - i, 0.001)} ${Xd}`,
+          r = -(a + i / 2);
+        return (
+          (a += t),
+          (0, Jd.jsx)(
+            `circle`,
+            {
+              cx: `9`,
+              cy: `9`,
+              r: Yd,
+              stroke: e.color,
+              strokeDasharray: n,
+              strokeDashoffset: r,
+              strokeLinecap: `butt`,
+              strokeWidth: `1.7`,
+            },
+            e.key,
+          )
+        );
+      }),
+    }),
+  });
+}
+function qd(e) {
+  let t = e.length;
+  if (t === 0) return [];
+  let n = {
+    failing: e.filter((e) => e.status === `failing`).length,
+    passing: e.filter((e) => e.status === `passing`).length,
+    pending: e.filter((e) => e.status === `pending`).length,
+    skipped: e.filter((e) => e.status === `skipped`).length,
+    unknown: e.filter((e) => e.status === `unknown`).length,
+  };
+  return [
+    { color: `var(--color-token-charts-green)`, count: n.passing, key: `passing` },
+    { color: `var(--color-token-charts-red)`, count: n.failing, key: `failing` },
+    { color: `var(--color-token-charts-yellow)`, count: n.pending, key: `pending` },
+    {
+      color: `var(--color-token-description-foreground)`,
+      count: n.skipped + n.unknown,
+      key: `skipped`,
+    },
+  ]
+    .filter((e) => e.count > 0)
+    .map((e) => ({ color: e.color, key: e.key, ratio: e.count / t }));
+}
+var Jd,
+  Yd,
+  Xd,
+  Zd,
+  Qd = e(() => {
+    (Be(), Pa(), (Jd = gn()), (Yd = 5.75), (Xd = 2 * Math.PI * Yd), (Zd = 1.5));
+  }),
+  $d,
+  ef,
+  tf = e(() => {
+    (t(Gr()),
+      ($d = gn()),
+      (ef = (e) =>
+        (0, $d.jsx)(`svg`, {
+          xmlns: `http://www.w3.org/2000/svg`,
+          width: 20,
+          height: 20,
+          fill: `currentColor`,
+          viewBox: `0 0 20 20`,
+          ...e,
+          children: (0, $d.jsx)(`path`, {
+            d: `M10.012 1.669a8.343 8.343 0 0 1 8.343 8.343 8.343 8.343 0 0 1-8.343 8.343 8.343 8.343 0 0 1-8.343-8.343 8.343 8.343 0 0 1 8.343-8.343Zm0 1.668a6.675 6.675 0 1 0 0 13.35 6.675 6.675 0 0 0 0-13.35Zm0 1.669a5.007 5.007 0 1 1 0 10.012V5.006Z`,
+          }),
+        })));
+  });
+function nf({ checks: e, ciStatus: t }) {
+  if (e.length === 0)
+    switch (t) {
+      case `failing`:
+        return (0, af.jsx)(Qi, { className: `icon-sm shrink-0 text-token-charts-red` });
+      case `none`:
+        return (0, af.jsx)(Ia, { className: `icon-sm shrink-0` });
+      case `passing`:
+        return (0, af.jsx)(In, { className: `icon-sm shrink-0 text-token-charts-green` });
+      case `pending`:
+        return (0, af.jsx)(ef, { className: `icon-sm shrink-0 text-token-charts-yellow` });
+    }
+  return t === `none`
+    ? (0, af.jsx)(Ia, { className: `icon-sm shrink-0` })
+    : (0, af.jsx)(Kd, { checks: e });
+}
+function rf(e) {
+  switch (e) {
+    case `failing`:
+      return (0, af.jsx)(j, {
+        id: `localConversation.pullRequest.actions.checksFailing`,
+        defaultMessage: `Checks failing`,
+        description: `Status row shown when pull request checks are failing`,
+      });
+    case `none`:
+      return (0, af.jsx)(j, {
+        id: `localConversation.pullRequest.actions.noCiChecks`,
+        defaultMessage: `No CI checks`,
+        description: `Status row shown when the pull request currently has no CI checks`,
+      });
+    case `passing`:
+      return (0, af.jsx)(j, {
+        id: `localConversation.pullRequest.actions.checksSuccessful`,
+        defaultMessage: `Checks successful`,
+        description: `Status row shown when pull request checks are passing`,
+      });
+    case `pending`:
+      return (0, af.jsx)(j, {
+        id: `localConversation.pullRequest.actions.checksPending`,
+        defaultMessage: `Checks pending`,
+        description: `Status row shown when pull request checks are still pending`,
+      });
+  }
+}
+var af,
+  of = e(() => {
+    (I(), sr(), tf(), Si(), Sa(), Qd(), (af = gn()));
+  });
+function sf(e) {
+  if (e.merged) return `merged`;
+  switch (e.state.toUpperCase()) {
+    case `OPEN`:
+      return e.draft ? `draft` : `open`;
+    case `MERGED`:
+      return `merged`;
+    case `CLOSED`:
+      return `closed`;
+    default:
+      return `closed`;
+  }
+}
+function cf(e) {
+  let t = /\/pull\/(\d+)(?:$|[/?#])/.exec(e);
+  return t ? Number(t[1]) : null;
+}
+var lf = e(() => {});
+function uf(e) {
+  if (e == null) return null;
+  let t = e.task.pull_requests?.[0]?.pull_request ?? null;
+  return t ? sf(t) : null;
+}
+function df(e, t) {
+  let n = mf(e, t);
+  return {
+    hoverCardSection: {
+      id: `pr`,
+      rows: [{ id: `pr-status`, icon: (0, hf.jsx)(Yi, { status: e }), label: n }],
+    },
+    iconBadge: { id: `pr-status`, icon: (0, hf.jsx)(Yi, { status: e }), tooltipContent: null },
+  };
+}
+function ff(e, t, n, r, i, a, o) {
+  return {
+    hoverCardSection: {
+      id: `pr`,
+      rows: [
+        {
+          id: `pr-status`,
+          icon: (0, hf.jsx)(Yi, { status: e }),
+          label: i ?? mf(e, o),
+          onClick:
+            a == null
+              ? void 0
+              : (e) => {
+                  $n({ event: e, href: a, initiator: `pull_request_link` });
+                },
+        },
+        {
+          id: `checks-summary`,
+          icon: r === `none` ? (0, hf.jsx)(Ia, {}) : (0, hf.jsx)(Kd, { checks: n }),
+          label: rf(r),
+        },
+      ],
+    },
+    iconBadge: { id: `pr-status`, icon: (0, hf.jsx)(Na, { state: t }), tooltipContent: null },
+  };
+}
+function pf(e, t) {
+  let n = Ei(e);
+  return n == null
+    ? null
+    : ff(
+        n,
+        Mi({
+          canMerge: e.canMerge,
+          ciStatus: e.ciStatus,
+          hasMergeConflicts: e.mergeBlocker === `conflicts`,
+          status: n,
+        }),
+        e.checks,
+        e.ciStatus,
+        e.title ?? e.boardItem?.title ?? null,
+        e.url,
+        t,
+      );
+}
+function mf(e, t) {
+  switch (e) {
+    case `draft`:
+      return t.formatMessage({
+        id: `sidebar.taskRow.pr.draft`,
+        defaultMessage: `Draft PR`,
+        description: `Tooltip shown for a draft pull request badge`,
+      });
+    case `open`:
+      return t.formatMessage({
+        id: `sidebar.taskRow.pr.open`,
+        defaultMessage: `Open PR`,
+        description: `Tooltip shown for an open pull request badge`,
+      });
+    case `merged`:
+      return t.formatMessage({
+        id: `sidebar.taskRow.pr.merged`,
+        defaultMessage: `Merged PR`,
+        description: `Tooltip shown for a merged pull request badge`,
+      });
+    case `closed`:
+      return t.formatMessage({
+        id: `sidebar.taskRow.pr.closed`,
+        defaultMessage: `Closed PR`,
+        description: `Tooltip shown for a closed pull request badge`,
+      });
+  }
+}
+var hf,
+  gf,
+  _f,
+  vf,
+  yf = e(() => {
+    (Tt(),
+      Hr(),
+      M(),
+      Si(),
+      ho(),
+      Qd(),
+      of(),
+      _a(),
+      lf(),
+      bi(),
+      go(),
+      Y(),
+      io(),
+      hn(),
+      (hf = gn()),
+      (gf = mr(ee, ({ get: e }) => !ao(e))),
+      (_f = An(ee, (e, { get: t }) => (!t(gf) || e == null ? null : df(e, t(mo))))),
+      (vf = An(ee, (e, { get: t }) => {
+        if (!t(gf)) return null;
+        let n = t(fr, e),
+          r = t(cn, e),
+          i = t(Er, e) ?? `local`;
+        if (e == null || n == null || r == null) return null;
+        let a = t(_o, {
+          cwd: n,
+          headBranch: r,
+          hostId: i,
+          operationSource: `sidebar_task_pr_chip`,
+        });
+        return a.type === `success` ? pf(a.data, t(mo)) : null;
+      })));
+  });
+function bf({ automations: e, conversationId: t, includePausedAutomations: n = !1 }) {
+  return t == null
+    ? null
+    : (e.find(
+        (e) =>
+          me(e) &&
+          (e.status === `ACTIVE` || (n && e.status === `PAUSED`)) &&
+          e.targetThreadId === t,
+      ) ?? null);
+}
+var xf = e(() => {
+    un();
+  }),
+  Sf,
+  Cf = e(() => {
+    Sf = 6e4;
+  });
+function wf({ codexHome: e, cwd: t, hideRemoteHostEnvIcon: n, hostId: r, isGrouped: i }) {
+  let a = !n && r != null && r !== `local`,
+    o = lt(t, e);
+  return a ? (o ? `remote-worktree` : `remote`) : o ? `worktree` : i ? `localGrouped` : void 0;
+}
+var Tf = e(() => {
+  (un(), hn());
+});
+function Ef(e) {
+  let t = (0, Of.c)(48),
+    {
+      conversationId: n,
+      displayCwd: r,
+      hasAttachedHeartbeatAutomation: i,
+      heartbeatAutomationTooltipContent: a,
+      hideProjectMetadata: o,
+      hideRemoteHostEnvIcon: s,
+      hoverCardSections: c,
+      hoverCardHostConfig: l,
+      hoverCardProjectId: u,
+      hoverCardProjectLabel: d,
+      hoverCardRepositoryLabel: f,
+      hasUnreadTurn: p,
+      isAutomationRun: m,
+      isGrouped: h,
+      isProjectlessHoverCard: g,
+      projectFallbackIcon: _,
+      shouldFetchHoverBranch: v,
+      threadSummary: y,
+      threadTitle: b,
+    } = e,
+    x = i === void 0 ? !1 : i,
+    S = o === void 0 ? !1 : o,
+    C = s === void 0 ? !1 : s,
+    w = p === void 0 ? !1 : p,
+    T = m === void 0 ? !1 : m,
+    E = h === void 0 ? !1 : h,
+    D = g === void 0 ? !1 : g,
+    O = v === void 0 ? !1 : v,
+    k = y === void 0 ? null : y,
+    A = Qn(),
+    j = Z(fr, n),
+    M = r ?? j ?? k?.cwd ?? null,
+    N = Z(Ni, n) ?? k?.title,
+    P = Z(St, n) ?? k?.createdAt,
+    F = Z(ne, n) ?? k?.recencyAt ?? k?.updatedAt ?? P,
+    I = Z(cn, n) ?? k?.gitInfo?.branch,
+    L = Z(Er, n) ?? k?.hostId ?? null,
+    R = ce(L ?? `local`),
+    z = l ?? R,
+    B = l?.id ?? L,
+    ee = Fr(B ?? `local`),
+    te = Z(Fe, n) ?? k?.workspaceKind,
+    V = D || te === `projectless`,
+    { data: H } = oe(ge.THREAD_PROJECT_ASSIGNMENTS),
+    U;
+  t[0] !== n || t[1] !== H
+    ? ((U = vr(H)[n] ?? null), (t[0] = n), (t[1] = H), (t[2] = U))
+    : (U = t[2]);
+  let W = S || D ? null : (u ?? (V ? null : (U?.projectId ?? M))),
+    G = Md(W ?? ``),
+    { renameThread: K } = mi(),
+    q = wf({ codexHome: ee, cwd: M, hideRemoteHostEnvIcon: C, hostId: B, isGrouped: E }),
+    J =
+      !V &&
+      M != null &&
+      (q == null || q === `worktree` || q === `remote-worktree` || q === `localGrouped`),
+    Y;
+  t[3] === A
+    ? (Y = t[4])
+    : ((Y = A.formatMessage({
+        id: `sidebarElectron.threadHoverCardChatProject`,
+        defaultMessage: `Chat`,
+        description: `Fallback project label for a sidebar thread hover card when it does not belong to a project or workspace`,
+      })),
+      (t[3] = A),
+      (t[4] = Y));
+  let re = Y,
+    ie;
+  t[5] !== M || t[6] !== S || t[7] !== re || t[8] !== d || t[9] !== V
+    ? ((ie = S ? re : (hs(null, d) ?? (V ? re : (hs(M) ?? M ?? re)))),
+      (t[5] = M),
+      (t[6] = S),
+      (t[7] = re),
+      (t[8] = d),
+      (t[9] = V),
+      (t[10] = ie))
+    : (ie = t[10]);
+  let ae = ie,
+    se = J && O,
+    le;
+  t[11] === se ? (le = t[12]) : ((le = { enabled: se, staleTime: 0 }), (t[11] = se), (t[12] = le));
+  let ue = wa(M, z, `local_thread_hover_card`, le),
+    de =
+      q === `remote` || q === `remote-worktree`
+        ? z.id === B
+          ? z.display_name
+          : null
+        : (M ?? null),
+    fe =
+      I != null && ue.data != null && I !== ue.data
+        ? A.formatMessage({
+            id: `codex.localTaskRow.hoverCardBranchMismatch`,
+            defaultMessage: `Chat branch is based on what branch was active when last worked on this chat`,
+            description: `Tooltip shown when the checked out branch differs from the chat branch in the task hover card`,
+          })
+        : void 0,
+    pe =
+      fe == null
+        ? void 0
+        : A.formatMessage({
+            id: `codex.localTaskRow.hoverCardBranchMismatchWarning`,
+            defaultMessage: `Chat branch reflects active branch when last used; sending a message will update chat branch`,
+            description: `Warning text shown when the checked out branch differs from the chat branch in the task hover card`,
+          }),
+    me = J
+      ? Td({
+          branchMismatchWarning: pe,
+          branchName: I ?? ue.data ?? null,
+          branchTooltipContent: fe,
+          codexHome: ee,
+          workspaceIcon: q === `worktree` || q === `remote-worktree` ? void 0 : (0, kf.jsx)(Ze, {}),
+          workspacePath: M,
+        })
+      : void 0,
+    he;
+  t[13] !== x || t[14] !== a || t[15] !== A || t[16] !== T
+    ? ((he =
+        T || x
+          ? [
+              {
+                id: `automation`,
+                icon: (0, kf.jsx)(Ia, { className: `shrink-0` }),
+                label:
+                  a ??
+                  A.formatMessage({
+                    id: `codex.localTaskRow.automation`,
+                    defaultMessage: `Scheduled task chat`,
+                    description: `Accessible label for the scheduled task thread icon`,
+                  }),
+              },
+            ]
+          : []),
+      (t[13] = x),
+      (t[14] = a),
+      (t[15] = A),
+      (t[16] = T),
+      (t[17] = he))
+    : (he = t[17]);
+  let _e = he,
+    ve =
+      (q === `remote` || q === `remote-worktree`) && z.id === B
+        ? [
+            {
+              id: `remote-host`,
+              icon: (0, kf.jsx)(gu, { envType: `remote`, hostId: B ?? void 0, disableTooltip: !0 }),
+              label: z.display_name,
+            },
+          ]
+        : [],
+    ye =
+      ve.length > 0
+        ? [...ve, ...(me ?? [])]
+        : (me ??
+          (pu(q)
+            ? [
+                {
+                  id: `environment`,
+                  icon: (0, kf.jsx)(gu, { envType: q, hostId: B ?? void 0, disableTooltip: !0 }),
+                  label: de ?? (0, kf.jsx)(hu, { envType: q }),
+                },
+              ]
+            : [])),
+    be;
+  t[18] === ye
+    ? (be = t[19])
+    : ((be = { id: `environment`, rows: ye }), (t[18] = ye), (t[19] = be));
+  let xe;
+  t[20] === c ? (xe = t[21]) : ((xe = c ?? []), (t[20] = c), (t[21] = xe));
+  let Se;
+  t[22] === _e ? (Se = t[23]) : ((Se = { id: `automation`, rows: _e }), (t[22] = _e), (t[23] = Se));
+  let Ce;
+  t[24] !== be || t[25] !== xe || t[26] !== Se
+    ? ((Ce = [be, ...xe, Se].filter(Df)), (t[24] = be), (t[25] = xe), (t[26] = Se), (t[27] = Ce))
+    : (Ce = t[27]);
+  let we = Ce,
+    Te;
+  t[28] !== G || t[29] !== _ || t[30] !== W
+    ? ((Te = W == null ? (0, kf.jsx)(fa, {}) : G == null ? _ : (0, kf.jsx)(Sn, { appearance: G })),
+      (t[28] = G),
+      (t[29] = _),
+      (t[30] = W),
+      (t[31] = Te))
+    : (Te = t[31]);
+  let Ee = D ? null : f,
+    De;
+  t[32] === F
+    ? (De = t[33])
+    : ((De = F == null ? void 0 : new Date(F).toISOString()), (t[32] = F), (t[33] = De));
+  let Oe = N ?? void 0,
+    X;
+  t[34] !== n || t[35] !== B || t[36] !== K
+    ? ((X = (e) => {
+        K({ conversationId: n, hostId: B ?? void 0, title: e });
+      }),
+      (t[34] = n),
+      (t[35] = B),
+      (t[36] = K),
+      (t[37] = X))
+    : (X = t[37]);
+  let ke;
+  return (
+    t[38] !== w ||
+    t[39] !== ae ||
+    t[40] !== we ||
+    t[41] !== Te ||
+    t[42] !== Ee ||
+    t[43] !== De ||
+    t[44] !== Oe ||
+    t[45] !== X ||
+    t[46] !== b
+      ? ((ke = (0, kf.jsx)(Cu, {
+          projectLabel: ae,
+          projectIcon: Te,
+          repositoryLabel: Ee,
+          sections: we,
+          showUnreadDot: w,
+          timestampDateString: De,
+          threadTitle: b,
+          threadTitleValue: Oe,
+          onRenameThreadTitle: X,
+        })),
+        (t[38] = w),
+        (t[39] = ae),
+        (t[40] = we),
+        (t[41] = Te),
+        (t[42] = Ee),
+        (t[43] = De),
+        (t[44] = Oe),
+        (t[45] = X),
+        (t[46] = b),
+        (t[47] = ke))
+      : (ke = t[47]),
+    ke
+  );
+}
+function Df(e) {
+  return e.rows.length > 0;
+}
+var Of,
+  kf,
+  Af = e(() => {
+    ((Of = X()),
+      Tt(),
+      un(),
+      I(),
+      Hr(),
+      Nt(),
+      di(),
+      _(),
+      H(),
+      na(),
+      Si(),
+      z(),
+      ta(),
+      Qr(),
+      xr(),
+      Pd(),
+      hn(),
+      ms(),
+      Tf(),
+      yu(),
+      mu(),
+      Mu(),
+      Dd(),
+      (kf = gn()));
+  });
+function jf(e) {
+  return (0, Mf.jsx)(xe, { browser: !0, electron: !0, children: (0, Mf.jsx)(Ef, { ...e }) });
+}
+var Mf,
+  Nf = e(() => {
+    (r(), Af(), (Mf = gn()));
+  });
+function Pf(e) {
+  let t = (0, If.c)(134),
+    {
+      conversationId: n,
+      displayCwd: r,
+      onSelect: i,
+      onClick: o,
+      onBeforeNavigate: s,
+      onDoubleClick: c,
+      isActive: l,
+      isGrouped: u,
+      envIconLocation: d,
+      useStableTrailingRail: f,
+      statusIndicatorReplacesMeta: p,
+      hideStatusIndicator: m,
+      hideInlineBadgesOnHover: h,
+      idleIndicatorNode: g,
+      idleStatusIndicatorNode: _,
+      indicatorRestNode: v,
+      indicatorHoverNode: y,
+      reserveLeadingSlot: b,
+      additionalHoverActionCount: x,
+      priorityIndicatorNode: S,
+      onContextMenu: C,
+      renderActions: w,
+      metaHidden: T,
+      extraIconBadges: E,
+      floatStatusIconsRight: D,
+      onArchiveStart: O,
+      onArchiveSuccess: k,
+      onArchiveError: A,
+      onActiveArchiveStart: M,
+      variant: P,
+      titleOverride: F,
+      titleSuffix: I,
+      hoverCardSections: L,
+      hoverCardHostConfig: R,
+      disableHoverCard: z,
+      forceLoadingIndicator: B,
+      attentionIndicatorOnly: te,
+      blurOnClick: V,
+      hasPendingChildApproval: H,
+      hideRemoteHostEnvIcon: U,
+      disableEnvTooltip: G,
+      disabled: ne,
+      allowActionsWhenDisabled: K,
+      isAutomationRun: q,
+      isProjectlessHoverCard: J,
+      isUnread: Y,
+      hasAttachedHeartbeatAutomation: re,
+      heartbeatAutomationTooltipContent: ie,
+      metaContent: ae,
+      overlayMetaContent: oe,
+      hoverCardProjectFallbackIcon: ce,
+      hoverCardProjectId: le,
+      hoverCardProjectLabel: ue,
+      hoverCardRepositoryLabel: de,
+      threadSummary: fe,
+      dataAttributes: pe,
+    } = e,
+    me = l === void 0 ? !1 : l,
+    he = u === void 0 ? !1 : u,
+    ge = f === void 0 ? !1 : f,
+    _e = p === void 0 ? !1 : p,
+    ve = m === void 0 ? !1 : m,
+    ye = h === void 0 ? !1 : h,
+    be = b === void 0 ? !1 : b,
+    xe = x === void 0 ? 0 : x,
+    Se = T === void 0 ? !1 : T,
+    we = D === void 0 ? !1 : D,
+    Te = z === void 0 ? !1 : z,
+    Ee = B === void 0 ? !1 : B,
+    De = te === void 0 ? !1 : te,
+    Oe = V === void 0 ? !1 : V,
+    X = H === void 0 ? !1 : H,
+    ke = U === void 0 ? !1 : U,
+    Ae = ne === void 0 ? !1 : ne,
+    je = K === void 0 ? !1 : K,
+    Me = q === void 0 ? !1 : q,
+    Ne = J === void 0 ? !1 : J,
+    Pe = re === void 0 ? !1 : re,
+    Fe = fe === void 0 ? null : fe,
+    Ie = Re(ee),
+    Le = Ci(),
+    ze = Qn(),
+    Be = Z(Qt, n),
+    Ve = Z(St, n) ?? Fe?.createdAt,
+    He = Z(fr, n),
+    Ue = r ?? He ?? Fe?.cwd ?? null,
+    We = Z(Nn, n) ?? Fe?.hasUnreadTurn,
+    Ge = Z(Tr, n),
+    Ke = Z(Er, n) ?? Fe?.hostId ?? null;
+  Z(Qe, n) ?? Fe?.modelProvider;
+  let qe = Fr(Ke ?? `local`),
+    Je = Z(a, n),
+    Ye = Z(N, n),
+    Xe = Ke ?? `local`,
+    Ze;
+  t[0] !== n || t[1] !== Xe
+    ? ((Ze = { conversationId: n, hostId: Xe }), (t[0] = n), (t[1] = Xe), (t[2] = Ze))
+    : (Ze = t[2]);
+  let $e = Z(Xi, Ze),
+    et = Z(It, n),
+    nt = Z(dr, n) ?? Fe?.source,
+    rt = Z(Ni, n) ?? Fe?.title ?? null,
+    it = me ? M : void 0,
+    at;
+  t[3] !== A || t[4] !== O || t[5] !== k || t[6] !== it
+    ? ((at = {
+        onActiveArchiveStart: it,
+        onArchiveStart: O,
+        onArchiveSuccess: k,
+        onArchiveError: A,
+      }),
+      (t[3] = A),
+      (t[4] = O),
+      (t[5] = k),
+      (t[6] = it),
+      (t[7] = at))
+    : (at = t[7]);
+  let {
+      archived: st,
+      usesExternalArchiveHandling: ct,
+      beginArchive: lt,
+      handleArchiveSuccess: ut,
+      handleArchiveError: dt,
+      restoreArchivedRow: ft,
+    } = dd(at),
+    pt = ya(),
+    mt;
+  t[8] === nt ? (mt = t[9]) : ((mt = Ce(nt)), (t[8] = nt), (t[9] = mt));
+  let ht = pt && mt?.parentThreadId != null,
+    gt = et;
+  (Je === `response` || (De && gt === `loading`)) && (gt = `idle`);
+  let _t;
+  t[10] !== rt || t[11] !== F
+    ? ((_t = (0, Rf.jsx)(Ff, { title: rt, titleOverride: F })),
+      (t[10] = rt),
+      (t[11] = F),
+      (t[12] = _t))
+    : (_t = t[12]);
+  let vt = _t,
+    [yt, bt] = (0, Lf.useState)(!1),
+    xt;
+  t[13] !== De ||
+  t[14] !== Ee ||
+  t[15] !== X ||
+  t[16] !== We ||
+  t[17] !== ht ||
+  t[18] !== Y ||
+  t[19] !== Je ||
+  t[20] !== gt ||
+  t[21] !== Ge
+    ? ((xt = Ee
+        ? { type: `loading` }
+        : {
+            type: gt,
+            unread: ht ? !1 : (Y ?? We === !0) || (De && ((Ge ?? 0) > 0 || Je != null || X)),
+            unreadCount: ht || De ? 0 : (Ge ?? 0),
+          }),
+      (t[13] = De),
+      (t[14] = Ee),
+      (t[15] = X),
+      (t[16] = We),
+      (t[17] = ht),
+      (t[18] = Y),
+      (t[19] = Je),
+      (t[20] = gt),
+      (t[21] = Ge),
+      (t[22] = xt))
+    : (xt = t[22]);
+  let Ct = xt,
+    wt;
+  t[23] !== lt ||
+  t[24] !== n ||
+  t[25] !== dt ||
+  t[26] !== ut ||
+  t[27] !== Ke ||
+  t[28] !== ze ||
+  t[29] !== ht ||
+  t[30] !== ft ||
+  t[31] !== Ie
+    ? ((wt = () => {
+        (lt(),
+          tt(`archive-conversation`, {
+            conversationId: n,
+            hostId: Ke ?? void 0,
+            source: `recent_tasks_menu`,
+          })
+            .then(() => {
+              ut();
+              let e = () => {
+                W.dispatchHostMessage({
+                  type: `navigate-to-route`,
+                  path: `/settings/data-controls`,
+                });
+              };
+              if (!ht) {
+                let t = Ie.get(ot).info(
+                  (0, Rf.jsx)(Ql, {
+                    onUndo: () => {
+                      (t.close(),
+                        tt(`unarchive-conversation`, { hostId: Ke ?? `local`, conversationId: n })
+                          .then(() => {
+                            ft();
+                          })
+                          .catch(() => {
+                            Ie.get(ot).danger(
+                              ze.formatMessage({
+                                id: `localTaskRow.unarchiveError`,
+                                defaultMessage: `Failed to unarchive conversation`,
+                                description: `Error message when undoing a local conversation archive`,
+                              }),
+                            );
+                          }));
+                    },
+                    onOpenSettings: e,
+                  }),
+                  { duration: Mt / 1e3, id: `archive-thread` },
+                );
+              }
+            })
+            .catch(() => {
+              (dt(),
+                Ie.get(ot).danger(
+                  ze.formatMessage({
+                    id: `localTaskRow.archiveError`,
+                    defaultMessage: `Failed to archive conversation`,
+                    description: `Error message when archiving a local Codex conversation`,
+                  }),
+                ));
+            }));
+      }),
+      (t[23] = lt),
+      (t[24] = n),
+      (t[25] = dt),
+      (t[26] = ut),
+      (t[27] = Ke),
+      (t[28] = ze),
+      (t[29] = ht),
+      (t[30] = ft),
+      (t[31] = Ie),
+      (t[32] = wt))
+    : (wt = t[32]);
+  let Tt = wt,
+    Et;
+  t[33] !== X || t[34] !== Je
+    ? ((Et =
+        Je === `approval` || X
+          ? {
+              id: `awaiting-approval`,
+              label: (0, Rf.jsx)(j, {
+                id: `codex.localTaskRow.awaitingApproval`,
+                defaultMessage: `Awaiting approval`,
+                description: `Chip indicating a local task is waiting for user approval`,
+              }),
+            }
+          : null),
+      (t[33] = X),
+      (t[34] = Je),
+      (t[35] = Et))
+    : (Et = t[35]);
+  let Dt = Et,
+    Ot;
+  t[36] === Dt ? (Ot = t[37]) : ((Ot = Dt == null ? [] : [Dt]), (t[36] = Dt), (t[37] = Ot));
+  let kt = Ot,
+    At = Ye?.type === `userInput` ? Ye : null,
+    jt = At != null && $e?.requestId === At.item.requestId ? $e : null,
+    Nt = jt?.resolutionState.status === `scheduled` ? jt.resolutionState : null,
+    Pt = jt?.resolutionState.status === `scheduled` ? jt.requestId : null,
+    Ft;
+  t[38] !== De ||
+  t[39] !== n ||
+  t[40] !== Ke ||
+  t[41] !== ze ||
+  t[42] !== me ||
+  t[43] !== Je ||
+  t[44] !== Nt ||
+  t[45] !== Pt
+    ? ((Ft =
+        Je === `response` && !me && !De
+          ? {
+              ariaLabel: Nt == null ? void 0 : ze.formatMessage(zf.snoozeInputTimeout),
+              label: (0, Rf.jsx)(j, {
+                id: `codex.localTaskRow.needsInput`,
+                defaultMessage: `Needs input`,
+                description: `Status pill indicating an inactive local task needs user input`,
+              }),
+              hoverLabel: Nt == null ? void 0 : (0, Rf.jsx)(j, { ...zf.snoozeInputTimeout }),
+              onClick:
+                Pt == null
+                  ? void 0
+                  : () => {
+                      se.requestUserInputAutoResolution.snooze({
+                        conversationId: n,
+                        hostId: Ke ?? `local`,
+                        requestId: Pt,
+                      });
+                    },
+              progress: Nt == null ? void 0 : { deadlineMs: Nt.deadlineMs, durationMs: Sf },
+            }
+          : void 0),
+      (t[38] = De),
+      (t[39] = n),
+      (t[40] = Ke),
+      (t[41] = ze),
+      (t[42] = me),
+      (t[43] = Je),
+      (t[44] = Nt),
+      (t[45] = Pt),
+      (t[46] = Ft))
+    : (Ft = t[46]);
+  let Lt = Ft,
+    Rt;
+  t[47] !== Pe || t[48] !== ie || t[49] !== ze || t[50] !== Me
+    ? ((Rt =
+        Me || Pe
+          ? {
+              id: `automation`,
+              icon: (0, Rf.jsx)(Ia, { className: `shrink-0` }),
+              ariaLabel: Me
+                ? ze.formatMessage({
+                    id: `codex.localTaskRow.automation`,
+                    defaultMessage: `Scheduled task chat`,
+                    description: `Accessible label for the scheduled task thread icon`,
+                  })
+                : ze.formatMessage({
+                    id: `codex.localTaskRow.attachedHeartbeatAutomation`,
+                    defaultMessage: `Scheduled task attached`,
+                    description: `Accessible label for the scheduled task icon shown on a chat with an attached scheduled task`,
+                  }),
+              tooltipContent: Pe ? ie : null,
+            }
+          : null),
+      (t[47] = Pe),
+      (t[48] = ie),
+      (t[49] = ze),
+      (t[50] = Me),
+      (t[51] = Rt))
+    : (Rt = t[51]);
+  let zt = Rt,
+    Bt = E;
+  if (zt != null) {
+    let e;
+    (t[52] !== zt || t[53] !== E
+      ? ((e = E == null ? [zt] : [...E, zt]), (t[52] = zt), (t[53] = E), (t[54] = e))
+      : (e = t[54]),
+      (Bt = e));
+  }
+  let Vt;
+  t[55] !== qe || t[56] !== Ue || t[57] !== ke || t[58] !== Ke || t[59] !== he
+    ? ((Vt = wf({ codexHome: qe, cwd: Ue, hideRemoteHostEnvIcon: ke, hostId: Ke, isGrouped: he })),
+      (t[55] = qe),
+      (t[56] = Ue),
+      (t[57] = ke),
+      (t[58] = Ke),
+      (t[59] = he),
+      (t[60] = Vt))
+    : (Vt = t[60]);
+  let Ht = Vt,
+    Ut = Ht === `remote` || Ht === `remote-worktree` ? null : Ue,
+    Wt;
+  t[61] !== n ||
+  t[62] !== Te ||
+  t[63] !== r ||
+  t[64] !== Pe ||
+  t[65] !== We ||
+  t[66] !== ie ||
+  t[67] !== ke ||
+  t[68] !== R ||
+  t[69] !== ce ||
+  t[70] !== le ||
+  t[71] !== ue ||
+  t[72] !== de ||
+  t[73] !== L ||
+  t[74] !== Me ||
+  t[75] !== he ||
+  t[76] !== Ne ||
+  t[77] !== ht ||
+  t[78] !== yt ||
+  t[79] !== Fe ||
+  t[80] !== vt
+    ? ((Wt = Te
+        ? null
+        : jf({
+            conversationId: n,
+            displayCwd: r,
+            hasAttachedHeartbeatAutomation: Pe,
+            heartbeatAutomationTooltipContent: ie,
+            hideRemoteHostEnvIcon: ke,
+            hoverCardSections: L,
+            hoverCardHostConfig: R,
+            hoverCardProjectId: le,
+            hoverCardProjectLabel: ue,
+            hoverCardRepositoryLabel: de,
+            threadSummary: Fe,
+            hasUnreadTurn: ht ? !1 : We === !0,
+            isAutomationRun: Me,
+            isGrouped: he,
+            isProjectlessHoverCard: Ne,
+            projectFallbackIcon: ce,
+            shouldFetchHoverBranch: yt,
+            threadTitle: vt,
+          })),
+      (t[61] = n),
+      (t[62] = Te),
+      (t[63] = r),
+      (t[64] = Pe),
+      (t[65] = We),
+      (t[66] = ie),
+      (t[67] = ke),
+      (t[68] = R),
+      (t[69] = ce),
+      (t[70] = le),
+      (t[71] = ue),
+      (t[72] = de),
+      (t[73] = L),
+      (t[74] = Me),
+      (t[75] = he),
+      (t[76] = Ne),
+      (t[77] = ht),
+      (t[78] = yt),
+      (t[79] = Fe),
+      (t[80] = vt),
+      (t[81] = Wt))
+    : (Wt = t[81]);
+  let Gt = Wt;
+  if ((st && !ct) || (Be !== !0 && Fe == null) || Ve == null) return null;
+  let Kt = Ke ?? void 0,
+    qt;
+  t[82] !== n || t[83] !== Le || t[84] !== s || t[85] !== o || t[86] !== i
+    ? ((qt = () => {
+        (s?.(),
+          Le(n),
+          (0, Lf.startTransition)(() => {
+            (i?.(), o?.());
+          }));
+      }),
+      (t[82] = n),
+      (t[83] = Le),
+      (t[84] = s),
+      (t[85] = o),
+      (t[86] = i),
+      (t[87] = qt))
+    : (qt = t[87]);
+  let Jt = Bt,
+    Yt = P === `tableRow` ? `bottom` : void 0,
+    Xt = P === `tableRow` ? `end` : void 0,
+    Zt = P === `tableRow` ? -36 : void 0,
+    $t;
+  t[88] === ze
+    ? ($t = t[89])
+    : (($t = ze.formatMessage({
+        id: `codex.localTaskRow.archiveTask`,
+        defaultMessage: `Archive chat`,
+        description: `Label for archiving a local thread`,
+      })),
+      (t[88] = ze),
+      (t[89] = $t));
+  let en;
+  t[90] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((en = (0, Rf.jsx)(j, {
+        id: `codex.localTaskRow.confirmArchiveTask`,
+        defaultMessage: `Confirm`,
+        description: `Confirmation button for archiving a local task`,
+      })),
+      (t[90] = en))
+    : (en = t[90]);
+  let tn;
+  return (
+    t[91] !== xe ||
+    t[92] !== je ||
+    t[93] !== Oe ||
+    t[94] !== kt ||
+    t[95] !== pe ||
+    t[96] !== G ||
+    t[97] !== Ae ||
+    t[98] !== d ||
+    t[99] !== Ut ||
+    t[100] !== Ht ||
+    t[101] !== we ||
+    t[102] !== Tt ||
+    t[103] !== ye ||
+    t[104] !== ve ||
+    t[105] !== Gt ||
+    t[106] !== Bt ||
+    t[107] !== g ||
+    t[108] !== _ ||
+    t[109] !== y ||
+    t[110] !== v ||
+    t[111] !== me ||
+    t[112] !== ae ||
+    t[113] !== Se ||
+    t[114] !== C ||
+    t[115] !== c ||
+    t[116] !== oe ||
+    t[117] !== S ||
+    t[118] !== w ||
+    t[119] !== be ||
+    t[120] !== _e ||
+    t[121] !== Lt ||
+    t[122] !== Ct ||
+    t[123] !== Kt ||
+    t[124] !== qt ||
+    t[125] !== Yt ||
+    t[126] !== Xt ||
+    t[127] !== Zt ||
+    t[128] !== $t ||
+    t[129] !== vt ||
+    t[130] !== I ||
+    t[131] !== ge ||
+    t[132] !== P
+      ? ((tn = (0, Rf.jsx)(zu, {
+          hostId: Kt,
+          isActive: me,
+          idleIndicatorNode: g,
+          idleStatusIndicatorNode: _,
+          indicatorRestNode: v,
+          indicatorHoverNode: y,
+          reserveLeadingSlot: be,
+          additionalHoverActionCount: xe,
+          priorityIndicatorNode: S,
+          variant: P,
+          onContextMenu: C,
+          onClick: qt,
+          onDoubleClick: c,
+          disabled: Ae,
+          allowActionsWhenDisabled: je,
+          statusState: Ct,
+          statusIndicatorReplacesMeta: _e,
+          hideStatusIndicator: ve,
+          useStableTrailingRail: ge,
+          envType: Ht,
+          envIconLocation: d,
+          disableEnvTooltip: G,
+          envTooltip: Ut,
+          hoverCardContent: Gt,
+          blurOnClick: Oe,
+          title: vt,
+          titleSuffix: I,
+          chips: kt,
+          statusPill: Lt,
+          iconBadges: Jt,
+          floatStatusIconsRight: we,
+          hideInlineBadgesOnHover: ye,
+          metaHidden: Se,
+          metaContent: ae,
+          overlayMetaContent: oe,
+          onArchive: Tt,
+          onHoverCardOpenChange: bt,
+          hoverCardSide: Yt,
+          hoverCardAlign: Xt,
+          hoverCardSideOffset: Zt,
+          dataAttributes: pe,
+          archiveAriaLabel: $t,
+          archiveConfirmLabel: en,
+          renderActions: w,
+        })),
+        (t[91] = xe),
+        (t[92] = je),
+        (t[93] = Oe),
+        (t[94] = kt),
+        (t[95] = pe),
+        (t[96] = G),
+        (t[97] = Ae),
+        (t[98] = d),
+        (t[99] = Ut),
+        (t[100] = Ht),
+        (t[101] = we),
+        (t[102] = Tt),
+        (t[103] = ye),
+        (t[104] = ve),
+        (t[105] = Gt),
+        (t[106] = Bt),
+        (t[107] = g),
+        (t[108] = _),
+        (t[109] = y),
+        (t[110] = v),
+        (t[111] = me),
+        (t[112] = ae),
+        (t[113] = Se),
+        (t[114] = C),
+        (t[115] = c),
+        (t[116] = oe),
+        (t[117] = S),
+        (t[118] = w),
+        (t[119] = be),
+        (t[120] = _e),
+        (t[121] = Lt),
+        (t[122] = Ct),
+        (t[123] = Kt),
+        (t[124] = qt),
+        (t[125] = Yt),
+        (t[126] = Xt),
+        (t[127] = Zt),
+        (t[128] = $t),
+        (t[129] = vt),
+        (t[130] = I),
+        (t[131] = ge),
+        (t[132] = P),
+        (t[133] = tn))
+      : (tn = t[133]),
+    tn
+  );
+}
+function Ff(e) {
+  let t = (0, If.c)(3),
+    { title: n, titleOverride: r } = e;
+  if (typeof r != `string` && r != null) return r;
+  if (n != null) return n;
+  let i;
+  t[0] === r ? (i = t[1]) : ((i = r?.trim() ?? ``), (t[0] = r), (t[1] = i));
+  let a = i;
+  if (a.length > 0) return a;
+  let o;
+  return (
+    t[2] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((o = (0, Rf.jsx)(j, {
+          id: `codex.taskRow.title`,
+          defaultMessage: `New chat`,
+          description: `Default title for a Codex thread that doesn't have a title`,
+        })),
+        (t[2] = o))
+      : (o = t[2]),
+    o
+  );
+}
+var If,
+  Lf,
+  Rf,
+  zf,
+  Bf = e(() => {
+    ((If = X()),
+      Tt(),
+      un(),
+      (Lf = t(Gr(), 1)),
+      I(),
+      Hr(),
+      Ui(),
+      at(),
+      Cf(),
+      i(),
+      tu(),
+      er(),
+      _(),
+      Ii(),
+      Si(),
+      or(),
+      ta(),
+      Zn(),
+      de(),
+      Y(),
+      ei(),
+      hn(),
+      Fa(),
+      Tf(),
+      Nf(),
+      we(),
+      ud(),
+      md(),
+      (Rf = gn()),
+      (zf = Ye({
+        snoozeInputTimeout: {
+          id: `codex.localTaskRow.snoozeInputTimeout`,
+          defaultMessage: `Snooze`,
+          description: `Button label for permanently disabling an input request timeout`,
+        },
+      })));
+  });
+function Vf(e) {
+  let t = (0, Uf.c)(10),
+    { actions: n, className: r, tooltipSide: i } = e,
+    a = i === void 0 ? `top` : i;
+  if (n.length === 0) return null;
+  let o;
+  t[0] === r
+    ? (o = t[1])
+    : ((o = Q(
+        `flex items-center gap-2 opacity-0 group-hover:opacity-100 [&:has(:focus-visible)]:opacity-100`,
+        r,
+      )),
+      (t[0] = r),
+      (t[1] = o));
+  let s;
+  if (t[2] !== n || t[3] !== a) {
+    let e;
+    (t[5] === a
+      ? (e = t[6])
+      : ((e = (e) => {
+          let t = e.label == null,
+            n = (0, Wf.jsxs)(Vt, {
+              color: e.color ?? `ghostMuted`,
+              size: e.size ?? (t ? `icon` : `composerSm`),
+              className: Q(
+                t &&
+                  e.size == null &&
+                  `!h-5 !w-5 !p-0 opacity-50 hover:opacity-100 focus-visible:opacity-100 [&>svg]:!h-4 [&>svg]:!w-4`,
+                e.buttonClassName,
+              ),
+              "aria-label": e.ariaLabel,
+              onClick: (t) => {
+                (t.stopPropagation(), e.onClick());
+              },
+              onPointerDown: Hf,
+              children: [e.label, e.icon],
+            });
+          return t
+            ? (0, Wf.jsx)(Se, { side: a, tooltipContent: e.ariaLabel, children: n }, e.id)
+            : (0, Wf.jsx)(`div`, { children: n }, e.id);
+        }),
+        (t[5] = a),
+        (t[6] = e)),
+      (s = n.map(e)),
+      (t[2] = n),
+      (t[3] = a),
+      (t[4] = s));
+  } else s = t[4];
+  let c;
+  return (
+    t[7] !== o || t[8] !== s
+      ? ((c = (0, Wf.jsx)(`div`, { className: o, children: s })),
+        (t[7] = o),
+        (t[8] = s),
+        (t[9] = c))
+      : (c = t[9]),
+    c
+  );
+}
+function Hf(e) {
+  e.stopPropagation();
+}
+var Uf,
+  Wf,
+  Gf = e(() => {
+    ((Uf = X()), Be(), Hn(), Nt(), (Wf = gn()));
+  }),
+  Kf,
+  qf,
+  Jf = e(() => {
+    (t(Gr()),
+      (Kf = gn()),
+      (qf = (e) =>
+        (0, Kf.jsx)(`svg`, {
+          width: 24,
+          height: 24,
+          viewBox: `0 0 24 24`,
+          fill: `none`,
+          xmlns: `http://www.w3.org/2000/svg`,
+          ...e,
+          children: (0, Kf.jsx)(`path`, {
+            d: `M12.8636 3.26029C13.9444 1.74708 16.1254 1.56658 17.4403 2.88151L21.1185 6.55974C22.4335 7.87467 22.2529 10.0556 20.7397 11.1364L16.4786 14.1801C16.1638 14.405 16 14.7306 16 15V17.5C16 18.907 15.0409 19.9513 13.976 20.4105C12.9046 20.8724 11.4792 20.8468 10.4568 19.8244L8.02332 17.3909L3.70711 21.7071C3.31658 22.0977 2.68342 22.0977 2.29289 21.7071C1.90237 21.3166 1.90237 20.6835 2.29289 20.2929L6.60911 15.9767L4.17567 13.5433C3.1532 12.5208 3.12762 11.0955 3.58957 10.024C4.04871 8.95911 5.09306 8.00003 6.5 8.00003H9C9.26948 8.00003 9.59505 7.83624 9.81994 7.52139L12.8636 3.26029Z`,
+            fill: `currentColor`,
+          }),
+        })));
+  });
+function Yf(e) {
+  let t = (0, Zf.c)(37),
+    { heartbeatAutomationName: n, open: r, onOpenChange: i, onConfirm: a } = e,
+    o = n === void 0 ? null : n,
+    s = o != null,
+    c;
+  t[0] === o ? (c = t[1]) : ((c = o != null && o.trim().length > 0), (t[0] = o), (t[1] = c));
+  let l = c,
+    u;
+  t[2] === s
+    ? (u = t[3])
+    : ((u = s
+        ? (0, Qf.jsx)(j, {
+            id: `threadHeader.archiveConfirmHeartbeatTitle`,
+            defaultMessage: `Archive chat and remove scheduled task?`,
+            description: `Title for archive chat confirmation dialog when the chat has an active scheduled task`,
+          })
+        : (0, Qf.jsx)(j, {
+            id: `threadHeader.archiveConfirmTitle`,
+            defaultMessage: `Archive chat?`,
+            description: `Title for archive chat confirmation dialog`,
+          })),
+      (t[2] = s),
+      (t[3] = u));
+  let d = u,
+    f;
+  t[4] !== s || t[5] !== l || t[6] !== o
+    ? ((f = s
+        ? l
+          ? (0, Qf.jsx)(j, {
+              id: `threadHeader.archiveConfirmHeartbeatSubtitleNamed`,
+              defaultMessage: `This chat has an active scheduled task, {name}. Archiving the chat will also remove it and stop future runs.`,
+              description: `Subtitle for archive chat confirmation dialog when the chat has a named active scheduled task`,
+              values: {
+                name: (0, Qf.jsx)(
+                  `strong`,
+                  { className: `font-semibold text-token-text-primary`, children: o },
+                  `automation-name`,
+                ),
+              },
+            })
+          : (0, Qf.jsx)(j, {
+              id: `threadHeader.archiveConfirmHeartbeatSubtitleUnnamed`,
+              defaultMessage: `This chat has an active scheduled task. Archiving the chat will also remove it and stop future runs.`,
+              description: `Subtitle for archive chat confirmation dialog when the chat has an unnamed active scheduled task`,
+            })
+        : (0, Qf.jsx)(j, {
+            id: `threadHeader.archiveConfirmSubtitle`,
+            defaultMessage: `You can find it later in your archived chats.`,
+            description: `Subtitle for archive chat confirmation dialog`,
+          })),
+      (t[4] = s),
+      (t[5] = l),
+      (t[6] = o),
+      (t[7] = f))
+    : (f = t[7]);
+  let p = f,
+    m;
+  t[8] === i
+    ? (m = t[9])
+    : ((m = {
+        "aria-describedby": void 0,
+        onOpenAutoFocus: Xf,
+        onEscapeKeyDown: () => {
+          i(!1);
+        },
+      }),
+      (t[8] = i),
+      (t[9] = m));
+  let h;
+  t[10] === a
+    ? (h = t[11])
+    : ((h = (e) => {
+        (e.preventDefault(), a());
+      }),
+      (t[10] = a),
+      (t[11] = h));
+  let g;
+  t[12] === d
+    ? (g = t[13])
+    : ((g = (0, Qf.jsx)(on, { className: `sr-only`, children: d })), (t[12] = d), (t[13] = g));
+  let _;
+  t[14] !== p || t[15] !== d
+    ? ((_ = (0, Qf.jsx)(x, { children: (0, Qf.jsx)(D, { title: d, subtitle: p }) })),
+      (t[14] = p),
+      (t[15] = d),
+      (t[16] = _))
+    : (_ = t[16]);
+  let v;
+  t[17] === i ? (v = t[18]) : ((v = () => i(!1)), (t[17] = i), (t[18] = v));
+  let y;
+  t[19] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((y = (0, Qf.jsx)(j, {
+        id: `threadHeader.archiveConfirmCancel`,
+        defaultMessage: `Cancel`,
+        description: `Cancel button label for archive thread confirmation dialog`,
+      })),
+      (t[19] = y))
+    : (y = t[19]);
+  let b;
+  t[20] === v
+    ? (b = t[21])
+    : ((b = (0, Qf.jsx)(Vt, { color: `ghost`, type: `button`, onClick: v, children: y })),
+      (t[20] = v),
+      (t[21] = b));
+  let S;
+  t[22] === s
+    ? (S = t[23])
+    : ((S = (0, Qf.jsx)(Vt, {
+        "data-archive-confirm-button": !0,
+        color: `danger`,
+        type: `submit`,
+        children: s
+          ? (0, Qf.jsx)(j, {
+              id: `threadHeader.archiveConfirmHeartbeatConfirm`,
+              defaultMessage: `Archive and remove`,
+              description: `Confirm button label for archive chat confirmation dialog when the chat has an active heartbeat automation`,
+            })
+          : (0, Qf.jsx)(j, {
+              id: `threadHeader.archiveConfirmConfirm`,
+              defaultMessage: `Archive`,
+              description: `Confirm button label for archive chat confirmation dialog`,
+            }),
+      })),
+      (t[22] = s),
+      (t[23] = S));
+  let C;
+  t[24] !== b || t[25] !== S
+    ? ((C = (0, Qf.jsx)(x, { children: (0, Qf.jsxs)(Ue, { children: [b, S] }) })),
+      (t[24] = b),
+      (t[25] = S),
+      (t[26] = C))
+    : (C = t[26]);
+  let w;
+  t[27] !== C || t[28] !== h || t[29] !== g || t[30] !== _
+    ? ((w = (0, Qf.jsxs)(Pr, { as: `form`, onSubmit: h, children: [g, _, C] })),
+      (t[27] = C),
+      (t[28] = h),
+      (t[29] = g),
+      (t[30] = _),
+      (t[31] = w))
+    : (w = t[31]);
+  let T;
+  return (
+    t[32] !== i || t[33] !== r || t[34] !== w || t[35] !== m
+      ? ((T = (0, Qf.jsx)(Kn, {
+          open: r,
+          onOpenChange: i,
+          size: `compact`,
+          contentProps: m,
+          children: w,
+        })),
+        (t[32] = i),
+        (t[33] = r),
+        (t[34] = w),
+        (t[35] = m),
+        (t[36] = T))
+      : (T = t[36]),
+    T
+  );
+}
+function Xf(e) {
+  (e.preventDefault(), e.currentTarget?.querySelector(`[data-archive-confirm-button]`)?.focus());
+}
+var Zf,
+  Qf,
+  $f = e(() => {
+    ((Zf = X()), I(), Hn(), Xt(), s(), (Qf = gn()));
+  });
+function ep(e) {
+  let t = (0, tp.c)(6),
+    { conversationId: n } = e,
+    r = ve(`459748632`) && n != null,
+    i;
+  t[0] !== r || t[1] !== n
+    ? ((i = () => {
+        !r || n == null || W.dispatchMessage(`open-in-new-window`, { path: Vn(n) });
+      }),
+      (t[0] = r),
+      (t[1] = n),
+      (t[2] = i))
+    : (i = t[2]);
+  let a = i,
+    o;
+  return (
+    t[3] !== r || t[4] !== a
+      ? ((o = { canOpenThreadInNewWindow: r, openThreadInNewWindow: a }),
+        (t[3] = r),
+        (t[4] = a),
+        (t[5] = o))
+      : (o = t[5]),
+    o
+  );
+}
+var tp,
+  np = e(() => {
+    ((tp = X()), un(), Zn(), le());
+  });
+function rp() {
+  return (rp =
+    Object.assign ||
+    function (e) {
+      for (var t = 1; t < arguments.length; t++) {
+        var n = arguments[t];
+        for (var r in n) Object.prototype.hasOwnProperty.call(n, r) && (e[r] = n[r]);
+      }
+      return e;
+    }).apply(this, arguments);
+}
+function ip(e, t) {
+  if (e == null) return {};
+  var n,
+    r,
+    i = {},
+    a = Object.keys(e);
+  for (r = 0; r < a.length; r++) t.indexOf((n = a[r])) >= 0 || (i[n] = e[n]);
+  return i;
+}
+function ap(e) {
+  var t = (0, sp.useRef)(e),
+    n = (0, sp.useRef)(function (e) {
+      t.current && t.current(e);
+    });
+  return ((t.current = e), n.current);
+}
+function op(e, t, n) {
+  var r = ap(n),
+    i = (0, sp.useState)(function () {
+      return e.toHsva(t);
+    }),
+    a = i[0],
+    o = i[1],
+    s = (0, sp.useRef)({ color: t, hsva: a });
+  return (
+    (0, sp.useEffect)(
+      function () {
+        if (!e.equal(t, s.current.color)) {
+          var n = e.toHsva(t);
+          ((s.current = { hsva: n, color: t }), o(n));
+        }
+      },
+      [t, e],
+    ),
+    (0, sp.useEffect)(
+      function () {
+        var t;
+        Op(a, s.current.hsva) ||
+          e.equal((t = e.fromHsva(a)), s.current.color) ||
+          ((s.current = { hsva: a, color: t }), r(t));
+      },
+      [a, e, r],
+    ),
+    [
+      a,
+      (0, sp.useCallback)(function (e) {
+        o(function (t) {
+          return Object.assign({}, t, e);
+        });
+      }, []),
+    ]
+  );
+}
+var sp,
+  cp,
+  lp,
+  up,
+  dp,
+  fp,
+  pp,
+  mp,
+  hp,
+  gp,
+  _p,
+  vp,
+  yp,
+  bp,
+  xp,
+  Sp,
+  Cp,
+  wp,
+  Tp,
+  Ep,
+  Dp,
+  Op,
+  kp,
+  Ap,
+  jp,
+  Mp,
+  Np,
+  Pp,
+  Fp,
+  Ip,
+  Lp,
+  Rp = e(() => {
+    ((sp = t(Gr(), 1)),
+      (cp = function (e, t, n) {
+        return (t === void 0 && (t = 0), n === void 0 && (n = 1), e > n ? n : e < t ? t : e);
+      }),
+      (lp = function (e) {
+        return `touches` in e;
+      }),
+      (up = function (e) {
+        return (e && e.ownerDocument.defaultView) || self;
+      }),
+      (dp = function (e, t, n) {
+        var r = e.getBoundingClientRect(),
+          i = lp(t)
+            ? (function (e, t) {
+                for (var n = 0; n < e.length; n++) if (e[n].identifier === t) return e[n];
+                return e[0];
+              })(t.touches, n)
+            : t;
+        return {
+          left: cp((i.pageX - (r.left + up(e).pageXOffset)) / r.width),
+          top: cp((i.pageY - (r.top + up(e).pageYOffset)) / r.height),
+        };
+      }),
+      (fp = function (e) {
+        !lp(e) && e.preventDefault();
+      }),
+      (pp = sp.memo(function (e) {
+        var t = e.onMove,
+          n = e.onKey,
+          r = ip(e, [`onMove`, `onKey`]),
+          i = (0, sp.useRef)(null),
+          a = ap(t),
+          o = ap(n),
+          s = (0, sp.useRef)(null),
+          c = (0, sp.useRef)(!1),
+          l = (0, sp.useMemo)(
+            function () {
+              var e = function (e) {
+                  (fp(e),
+                    (lp(e) ? e.touches.length > 0 : e.buttons > 0) && i.current
+                      ? a(dp(i.current, e, s.current))
+                      : n(!1));
+                },
+                t = function () {
+                  return n(!1);
+                };
+              function n(n) {
+                var r = c.current,
+                  a = up(i.current),
+                  o = n ? a.addEventListener : a.removeEventListener;
+                (o(r ? `touchmove` : `mousemove`, e), o(r ? `touchend` : `mouseup`, t));
+              }
+              return [
+                function (e) {
+                  var t = e.nativeEvent,
+                    r = i.current;
+                  if (
+                    r &&
+                    (fp(t),
+                    !(function (e, t) {
+                      return t && !lp(e);
+                    })(t, c.current) && r)
+                  ) {
+                    if (lp(t)) {
+                      c.current = !0;
+                      var o = t.changedTouches || [];
+                      o.length && (s.current = o[0].identifier);
+                    }
+                    (r.focus(), a(dp(r, t, s.current)), n(!0));
+                  }
+                },
+                function (e) {
+                  var t = e.which || e.keyCode;
+                  t < 37 ||
+                    t > 40 ||
+                    (e.preventDefault(),
+                    o({
+                      left: t === 39 ? 0.05 : t === 37 ? -0.05 : 0,
+                      top: t === 40 ? 0.05 : t === 38 ? -0.05 : 0,
+                    }));
+                },
+                n,
+              ];
+            },
+            [o, a],
+          ),
+          u = l[0],
+          d = l[1],
+          f = l[2];
+        return (
+          (0, sp.useEffect)(
+            function () {
+              return f;
+            },
+            [f],
+          ),
+          sp.createElement(
+            `div`,
+            rp({}, r, {
+              onTouchStart: u,
+              onMouseDown: u,
+              className: `react-colorful__interactive`,
+              ref: i,
+              onKeyDown: d,
+              tabIndex: 0,
+              role: `slider`,
+            }),
+          )
+        );
+      })),
+      (mp = function (e) {
+        return e.filter(Boolean).join(` `);
+      }),
+      (hp = function (e) {
+        var t = e.color,
+          n = e.left,
+          r = e.top,
+          i = r === void 0 ? 0.5 : r,
+          a = mp([`react-colorful__pointer`, e.className]);
+        return sp.createElement(
+          `div`,
+          { className: a, style: { top: 100 * i + `%`, left: 100 * n + `%` } },
+          sp.createElement(`div`, {
+            className: `react-colorful__pointer-fill`,
+            style: { backgroundColor: t },
+          }),
+        );
+      }),
+      (gp = function (e, t, n) {
+        return (t === void 0 && (t = 0), n === void 0 && (n = 10 ** t), Math.round(n * e) / n);
+      }),
+      360 / (2 * Math.PI),
+      (_p = function (e) {
+        return Tp(vp(e));
+      }),
+      (vp = function (e) {
+        return (
+          e[0] === `#` && (e = e.substring(1)),
+          e.length < 6
+            ? {
+                r: parseInt(e[0] + e[0], 16),
+                g: parseInt(e[1] + e[1], 16),
+                b: parseInt(e[2] + e[2], 16),
+                a: e.length === 4 ? gp(parseInt(e[3] + e[3], 16) / 255, 2) : 1,
+              }
+            : {
+                r: parseInt(e.substring(0, 2), 16),
+                g: parseInt(e.substring(2, 4), 16),
+                b: parseInt(e.substring(4, 6), 16),
+                a: e.length === 8 ? gp(parseInt(e.substring(6, 8), 16) / 255, 2) : 1,
+              }
+        );
+      }),
+      (yp = function (e) {
+        return wp(Sp(e));
+      }),
+      (bp = function (e) {
+        var t = e.s,
+          n = e.v,
+          r = e.a,
+          i = ((200 - t) * n) / 100;
+        return {
+          h: gp(e.h),
+          s: gp(i > 0 && i < 200 ? ((t * n) / 100 / (i <= 100 ? i : 200 - i)) * 100 : 0),
+          l: gp(i / 2),
+          a: gp(r, 2),
+        };
+      }),
+      (xp = function (e) {
+        var t = bp(e);
+        return `hsl(` + t.h + `, ` + t.s + `%, ` + t.l + `%)`;
+      }),
+      (Sp = function (e) {
+        var t = e.h,
+          n = e.s,
+          r = e.v,
+          i = e.a;
+        ((t = (t / 360) * 6), (n /= 100), (r /= 100));
+        var a = Math.floor(t),
+          o = r * (1 - n),
+          s = r * (1 - (t - a) * n),
+          c = r * (1 - (1 - t + a) * n),
+          l = a % 6;
+        return {
+          r: gp(255 * [r, s, o, o, c, r][l]),
+          g: gp(255 * [c, r, r, s, o, o][l]),
+          b: gp(255 * [o, o, c, r, r, s][l]),
+          a: gp(i, 2),
+        };
+      }),
+      (Cp = function (e) {
+        var t = e.toString(16);
+        return t.length < 2 ? `0` + t : t;
+      }),
+      (wp = function (e) {
+        var t = e.r,
+          n = e.g,
+          r = e.b,
+          i = e.a,
+          a = i < 1 ? Cp(gp(255 * i)) : ``;
+        return `#` + Cp(t) + Cp(n) + Cp(r) + a;
+      }),
+      (Tp = function (e) {
+        var t = e.r,
+          n = e.g,
+          r = e.b,
+          i = e.a,
+          a = Math.max(t, n, r),
+          o = a - Math.min(t, n, r),
+          s = o ? (a === t ? (n - r) / o : a === n ? 2 + (r - t) / o : 4 + (t - n) / o) : 0;
+        return {
+          h: gp(60 * (s < 0 ? s + 6 : s)),
+          s: gp(a ? (o / a) * 100 : 0),
+          v: gp((a / 255) * 100),
+          a: i,
+        };
+      }),
+      (Ep = sp.memo(function (e) {
+        var t = e.hue,
+          n = e.onChange,
+          r = mp([`react-colorful__hue`, e.className]);
+        return sp.createElement(
+          `div`,
+          { className: r },
+          sp.createElement(
+            pp,
+            {
+              onMove: function (e) {
+                n({ h: 360 * e.left });
+              },
+              onKey: function (e) {
+                n({ h: cp(t + 360 * e.left, 0, 360) });
+              },
+              "aria-label": `Hue`,
+              "aria-valuenow": gp(t),
+              "aria-valuemax": `360`,
+              "aria-valuemin": `0`,
+            },
+            sp.createElement(hp, {
+              className: `react-colorful__hue-pointer`,
+              left: t / 360,
+              color: xp({ h: t, s: 100, v: 100, a: 1 }),
+            }),
+          ),
+        );
+      })),
+      (Dp = sp.memo(function (e) {
+        var t = e.hsva,
+          n = e.onChange,
+          r = { backgroundColor: xp({ h: t.h, s: 100, v: 100, a: 1 }) };
+        return sp.createElement(
+          `div`,
+          { className: `react-colorful__saturation`, style: r },
+          sp.createElement(
+            pp,
+            {
+              onMove: function (e) {
+                n({ s: 100 * e.left, v: 100 - 100 * e.top });
+              },
+              onKey: function (e) {
+                n({ s: cp(t.s + 100 * e.left, 0, 100), v: cp(t.v - 100 * e.top, 0, 100) });
+              },
+              "aria-label": `Color`,
+              "aria-valuetext": `Saturation ` + gp(t.s) + `%, Brightness ` + gp(t.v) + `%`,
+            },
+            sp.createElement(hp, {
+              className: `react-colorful__saturation-pointer`,
+              top: 1 - t.v / 100,
+              left: t.s / 100,
+              color: xp(t),
+            }),
+          ),
+        );
+      })),
+      (Op = function (e, t) {
+        if (e === t) return !0;
+        for (var n in e) if (e[n] !== t[n]) return !1;
+        return !0;
+      }),
+      (kp = function (e, t) {
+        return e.toLowerCase() === t.toLowerCase() || Op(vp(e), vp(t));
+      }),
+      (jp = typeof window < `u` ? sp.useLayoutEffect : sp.useEffect),
+      (Mp = function () {
+        return Ap || (typeof __webpack_nonce__ < `u` ? __webpack_nonce__ : void 0);
+      }),
+      (Np = new Map()),
+      (Pp = function (e) {
+        jp(function () {
+          var t = e.current ? e.current.ownerDocument : document;
+          if (t !== void 0 && !Np.has(t)) {
+            var n = t.createElement(`style`);
+            ((n.innerHTML = `.react-colorful{position:relative;display:flex;flex-direction:column;width:200px;height:200px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:default}.react-colorful__saturation{position:relative;flex-grow:1;border-color:transparent;border-bottom:12px solid #000;border-radius:8px 8px 0 0;background-image:linear-gradient(0deg,#000,transparent),linear-gradient(90deg,#fff,hsla(0,0%,100%,0))}.react-colorful__alpha-gradient,.react-colorful__pointer-fill{content:"";position:absolute;left:0;top:0;right:0;bottom:0;pointer-events:none;border-radius:inherit}.react-colorful__alpha-gradient,.react-colorful__saturation{box-shadow:inset 0 0 0 1px rgba(0,0,0,.05)}.react-colorful__alpha,.react-colorful__hue{position:relative;height:24px}.react-colorful__hue{background:linear-gradient(90deg,red 0,#ff0 17%,#0f0 33%,#0ff 50%,#00f 67%,#f0f 83%,red)}.react-colorful__last-control{border-radius:0 0 8px 8px}.react-colorful__interactive{position:absolute;left:0;top:0;right:0;bottom:0;border-radius:inherit;outline:none;touch-action:none}.react-colorful__pointer{position:absolute;z-index:1;box-sizing:border-box;width:28px;height:28px;transform:translate(-50%,-50%);background-color:#fff;border:2px solid #fff;border-radius:50%;box-shadow:0 2px 4px rgba(0,0,0,.2)}.react-colorful__interactive:focus .react-colorful__pointer{transform:translate(-50%,-50%) scale(1.1)}.react-colorful__alpha,.react-colorful__alpha-pointer{background-color:#fff;background-image:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill-opacity=".05"><path d="M8 0h8v8H8zM0 8h8v8H0z"/></svg>')}.react-colorful__saturation-pointer{z-index:3}.react-colorful__hue-pointer{z-index:2}`),
+              Np.set(t, n));
+            var r = Mp();
+            (r && n.setAttribute(`nonce`, r), t.head.appendChild(n));
+          }
+        }, []);
+      }),
+      (Fp = function (e) {
+        var t = e.className,
+          n = e.colorModel,
+          r = e.color,
+          i = r === void 0 ? n.defaultColor : r,
+          a = e.onChange,
+          o = ip(e, [`className`, `colorModel`, `color`, `onChange`]),
+          s = (0, sp.useRef)(null);
+        Pp(s);
+        var c = op(n, i, a),
+          l = c[0],
+          u = c[1],
+          d = mp([`react-colorful`, t]);
+        return sp.createElement(
+          `div`,
+          rp({}, o, { ref: s, className: d }),
+          sp.createElement(Dp, { hsva: l, onChange: u }),
+          sp.createElement(Ep, {
+            hue: l.h,
+            onChange: u,
+            className: `react-colorful__last-control`,
+          }),
+        );
+      }),
+      (Ip = {
+        defaultColor: `000`,
+        toHsva: _p,
+        fromHsva: function (e) {
+          return yp({ h: e.h, s: e.s, v: e.v, a: 1 });
+        },
+        equal: kp,
+      }),
+      (Lp = function (e) {
+        return sp.createElement(Fp, rp({}, e, { colorModel: Ip }));
+      }));
+  });
+function zp(e) {
+  let t = (0, Hp.c)(65),
+    { hostId: n, onClose: r } = e,
+    i = Re(ee),
+    a = Qn(),
+    [o] = Wr(`remote_ssh_connections`),
+    [s] = Wr(`remote_control_connections`),
+    c = C(eo),
+    l = c?.[n] ?? null,
+    [u, d] = (0, Up.useState)(null),
+    [f, p] = (0, Up.useState)(null),
+    m,
+    h;
+  t[0] !== n || t[1] !== s || t[2] !== o
+    ? ((m = [...(o ?? []), ...(s ?? [])]),
+      (h = $a([n, ...m.map(Bp)])),
+      (t[0] = n),
+      (t[1] = s),
+      (t[2] = o),
+      (t[3] = m),
+      (t[4] = h))
+    : ((m = t[3]), (h = t[4]));
+  let g = h[n],
+    _ = f ?? l ?? g,
+    v = u ?? _,
+    y;
+  t[5] === v ? (y = t[6]) : ((y = Vp(v)), (t[5] = v), (t[6] = y));
+  let b = y,
+    S = m.find((e) => e.hostId === n)?.displayName ?? n,
+    w;
+  t[7] !== b || t[8] !== c || t[9] !== u || t[10] !== n || t[11] !== r || t[12] !== i
+    ? ((w = (e) => {
+        (e.preventDefault(), b != null && (u != null && i.set(eo, { ...c, [n]: b }), r()));
+      }),
+      (t[7] = b),
+      (t[8] = c),
+      (t[9] = u),
+      (t[10] = n),
+      (t[11] = r),
+      (t[12] = i),
+      (t[13] = w))
+    : (w = t[13]);
+  let T = w,
+    E;
+  t[14] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((E = (e) => {
+        let t = e.currentTarget.value;
+        d(t);
+        let n = Vp(t);
+        n != null && p(n);
+      }),
+      (t[14] = E))
+    : (E = t[14]);
+  let O = E,
+    k;
+  t[15] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((k = (e) => {
+        (d(e), p(e));
+      }),
+      (t[15] = k))
+    : (k = t[15]);
+  let A = k,
+    M;
+  t[16] !== c || t[17] !== n || t[18] !== r || t[19] !== i
+    ? ((M = () => {
+        let e = { ...c };
+        (delete e[n], i.set(eo, Object.keys(e).length > 0 ? e : void 0), r());
+      }),
+      (t[16] = c),
+      (t[17] = n),
+      (t[18] = r),
+      (t[19] = i),
+      (t[20] = M))
+    : (M = t[20]);
+  let N = M,
+    P;
+  t[21] === r
+    ? (P = t[22])
+    : ((P = (e) => {
+        e || r();
+      }),
+      (t[21] = r),
+      (t[22] = P));
+  let F;
+  t[23] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((F = (0, Wp.jsx)(j, {
+        id: `codex.remoteHostColorPicker.title`,
+        defaultMessage: `Change connection color`,
+        description: `Title for the remote connection color picker dialog`,
+      })),
+      (t[23] = F))
+    : (F = t[23]);
+  let I;
+  t[24] === S
+    ? (I = t[25])
+    : ((I = (0, Wp.jsx)(x, {
+        children: (0, Wp.jsx)(D, {
+          title: F,
+          subtitle: (0, Wp.jsx)(j, {
+            id: `codex.remoteHostColorPicker.subtitle`,
+            defaultMessage: `This changes the color for {host} everywhere it appears`,
+            description: `Subtitle for the remote connection color picker dialog`,
+            values: { host: S },
+          }),
+        }),
+      })),
+      (t[24] = S),
+      (t[25] = I));
+  let L;
+  t[26] === _
+    ? (L = t[27])
+    : ((L = (0, Wp.jsx)(`span`, {
+        className: `flex size-9 shrink-0 items-center justify-center rounded-lg bg-token-foreground/5`,
+        children: (0, Wp.jsx)(Pt, { className: `icon-sm`, style: { color: _ } }),
+      })),
+      (t[26] = _),
+      (t[27] = L));
+  let R;
+  t[28] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((R = (0, Wp.jsx)(`span`, {
+        className: `text-token-description-foreground`,
+        children: (0, Wp.jsx)(j, {
+          id: `codex.remoteHostColorPicker.hexColor`,
+          defaultMessage: `Hex color`,
+          description: `Label for the hex color input in the remote connection color picker dialog`,
+        }),
+      })),
+      (t[28] = R))
+    : (R = t[28]);
+  let z = b == null,
+    B;
+  t[29] === a
+    ? (B = t[30])
+    : ((B = a.formatMessage({
+        id: `codex.remoteHostColorPicker.hexColorInputTitle`,
+        defaultMessage: `Enter a 3- or 6-digit hex color`,
+        description: `Validation hint for the remote connection hex color input`,
+      })),
+      (t[29] = a),
+      (t[30] = B));
+  let te;
+  t[31] !== v || t[32] !== z || t[33] !== B
+    ? ((te = (0, Wp.jsxs)(`label`, {
+        className: `flex min-w-0 flex-1 flex-col gap-1 text-sm`,
+        children: [
+          R,
+          (0, Wp.jsx)(`input`, {
+            "aria-invalid": z,
+            className: `focus-visible:ring-token-focus h-8 rounded-lg border border-token-border bg-token-input-background px-2 font-mono text-sm outline-none focus-visible:ring-2`,
+            pattern: `#?([0-9a-fA-F]{3}|[0-9a-fA-F]{6})`,
+            required: !0,
+            spellCheck: !1,
+            title: B,
+            value: v,
+            onChange: O,
+          }),
+        ],
+      })),
+      (t[31] = v),
+      (t[32] = z),
+      (t[33] = B),
+      (t[34] = te))
+    : (te = t[34]);
+  let V;
+  t[35] !== L || t[36] !== te
+    ? ((V = (0, Wp.jsxs)(`div`, { className: `flex items-center gap-3`, children: [L, te] })),
+      (t[35] = L),
+      (t[36] = te),
+      (t[37] = V))
+    : (V = t[37]);
+  let H;
+  t[38] === a
+    ? (H = t[39])
+    : ((H = a.formatMessage({
+        id: `codex.remoteHostColorPicker.pickerAriaLabel`,
+        defaultMessage: `Connection color picker`,
+        description: `Accessible label for the remote connection color picker`,
+      })),
+      (t[38] = a),
+      (t[39] = H));
+  let U;
+  t[40] === _
+    ? (U = t[41])
+    : ((U = (0, Wp.jsx)(Lp, { className: `h-48 w-full`, color: _, onChange: A })),
+      (t[40] = _),
+      (t[41] = U));
+  let W;
+  t[42] !== H || t[43] !== U
+    ? ((W = (0, Wp.jsx)(`div`, { "aria-label": H, children: U })),
+      (t[42] = H),
+      (t[43] = U),
+      (t[44] = W))
+    : (W = t[44]);
+  let G;
+  t[45] !== V || t[46] !== W
+    ? ((G = (0, Wp.jsxs)(x, { className: `gap-3 pt-4`, children: [V, W] })),
+      (t[45] = V),
+      (t[46] = W),
+      (t[47] = G))
+    : (G = t[47]);
+  let ne;
+  t[48] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((ne = (0, Wp.jsx)(j, {
+        id: `codex.remoteHostColorPicker.resetToDefault`,
+        defaultMessage: `Reset to default`,
+        description: `Button that resets a remote connection to its default automatic color`,
+      })),
+      (t[48] = ne))
+    : (ne = t[48]);
+  let K;
+  t[49] === N
+    ? (K = t[50])
+    : ((K = (0, Wp.jsx)(Vt, { color: `secondary`, type: `button`, onClick: N, children: ne })),
+      (t[49] = N),
+      (t[50] = K));
+  let q = b == null,
+    J;
+  t[51] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((J = (0, Wp.jsx)(j, {
+        id: `codex.remoteHostColorPicker.done`,
+        defaultMessage: `Done`,
+        description: `Button that closes the remote connection color picker dialog`,
+      })),
+      (t[51] = J))
+    : (J = t[51]);
+  let Y;
+  t[52] === q
+    ? (Y = t[53])
+    : ((Y = (0, Wp.jsx)(Vt, { color: `primary`, disabled: q, type: `submit`, children: J })),
+      (t[52] = q),
+      (t[53] = Y));
+  let re;
+  t[54] !== K || t[55] !== Y
+    ? ((re = (0, Wp.jsx)(x, {
+        className: `pt-4`,
+        children: (0, Wp.jsxs)(Ue, { children: [K, Y] }),
+      })),
+      (t[54] = K),
+      (t[55] = Y),
+      (t[56] = re))
+    : (re = t[56]);
+  let ie;
+  t[57] !== T || t[58] !== G || t[59] !== re || t[60] !== I
+    ? ((ie = (0, Wp.jsxs)(Pr, { as: `form`, onSubmit: T, children: [I, G, re] })),
+      (t[57] = T),
+      (t[58] = G),
+      (t[59] = re),
+      (t[60] = I),
+      (t[61] = ie))
+    : (ie = t[61]);
+  let ae;
+  return (
+    t[62] !== ie || t[63] !== P
+      ? ((ae = (0, Wp.jsx)(Kn, { open: !0, onOpenChange: P, size: `compact`, children: ie })),
+        (t[62] = ie),
+        (t[63] = P),
+        (t[64] = ae))
+      : (ae = t[64]),
+    ae
+  );
+}
+function Bp(e) {
+  return e.hostId;
+}
+function Vp(e) {
+  return Gp.test(e) ? (e.startsWith(`#`) ? e : `#${e}`) : null;
+}
+var Hp,
+  Up,
+  Wp,
+  Gp,
+  Kp = e(() => {
+    ((Hp = X()),
+      Tt(),
+      (Up = t(Gr(), 1)),
+      Rp(),
+      I(),
+      Hn(),
+      Xt(),
+      s(),
+      gr(),
+      Wa(),
+      to(),
+      Y(),
+      De(),
+      (Wp = gn()),
+      (Gp = /^#?(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{6})$/));
+  });
+function qp(e) {
+  switch (e) {
+    case `macOS`:
+      return Jp.finder;
+    case `windows`:
+      return Jp.explorer;
+    case `linux`:
+      return Jp.fileManager;
+  }
+}
+var Jp,
+  Yp = e(() => {
+    (I(),
+      (Jp = Ye({
+        finder: {
+          id: `sidebarElectron.openWorkspaceRootInFinder`,
+          defaultMessage: `Reveal in Finder`,
+          description: `Menu item to reveal a folder in Finder`,
+        },
+        explorer: {
+          id: `sidebarElectron.openWorkspaceRootInExplorer`,
+          defaultMessage: `Open in Explorer`,
+          description: `Menu item to open a folder in File Explorer`,
+        },
+        fileManager: {
+          id: `sidebarElectron.openWorkspaceRootInFileManager`,
+          defaultMessage: `Open in File Manager`,
+          description: `Menu item to open a folder in the system file manager`,
+        },
+      })));
+  }),
+  Xp,
+  Zp = e(() => {
+    (Tt(), Y(), (Xp = xn(ee, !1)));
+  });
+function Qp({ scope: e, canToggleActiveStatus: t, showActiveStatus: n }) {
+  if (!t) return [];
+  let r = () => {
+    e.set(Xp, !n);
+  };
+  return n
+    ? [
+        {
+          id: `toggle-active-status`,
+          message: l({
+            id: `codex.sidebarTaskRow.hideActiveStatus`,
+            defaultMessage: `Hide active status`,
+            description: `Development-only context menu action that hides active/resumed state dots on sidebar thread rows`,
+          }),
+          onSelect: r,
+        },
+      ]
+    : [
+        {
+          id: `toggle-active-status`,
+          message: l({
+            id: `codex.sidebarTaskRow.showActiveStatus`,
+            defaultMessage: `Show active status`,
+            description: `Development-only context menu action that shows active/resumed state dots on sidebar thread rows`,
+          }),
+          onSelect: r,
+        },
+      ];
+}
+var $p = e(() => {
+  (I(), Zp());
+});
+function em(e) {
+  let t = (0, nm.c)(13),
+    { className: n, conversationId: r } = e,
+    i = Z(Ft, r),
+    a = Z(At, r),
+    o = Z(Wt, r),
+    s = tm({ latestTurnStatus: Z(Ke, r), resumeState: i, streamRole: a, threadRuntimeStatus: o }),
+    c = am[s],
+    l;
+  t[0] === n
+    ? (l = t[1])
+    : ((l = Q(`flex size-3 items-center justify-center`, n)), (t[0] = n), (t[1] = l));
+  let u = im[s],
+    d;
+  t[2] === u ? (d = t[3]) : ((d = Q(`block size-2 rounded-full`, u)), (t[2] = u), (t[3] = d));
+  let f;
+  t[4] === d ? (f = t[5]) : ((f = (0, rm.jsx)(`span`, { className: d })), (t[4] = d), (t[5] = f));
+  let p;
+  t[6] !== l || t[7] !== f || t[8] !== c
+    ? ((p = (0, rm.jsx)(`span`, { className: l, "aria-label": c, children: f })),
+      (t[6] = l),
+      (t[7] = f),
+      (t[8] = c),
+      (t[9] = p))
+    : (p = t[9]);
+  let m;
+  return (
+    t[10] !== p || t[11] !== c
+      ? ((m = (0, rm.jsx)(Se, { tooltipContent: c, children: p })),
+        (t[10] = p),
+        (t[11] = c),
+        (t[12] = m))
+      : (m = t[12]),
+    m
+  );
+}
+function tm({ latestTurnStatus: e, resumeState: t, streamRole: n, threadRuntimeStatus: r }) {
+  return n == null
+    ? t === `needs_resume`
+      ? `needs-resume`
+      : `read-only`
+    : n.role === `follower`
+      ? `follower`
+      : r?.type === `active` || e === `inProgress`
+        ? `active`
+        : `inactive`;
+}
+var nm,
+  rm,
+  im,
+  am,
+  om = e(() => {
+    ((nm = X()),
+      Be(),
+      Tt(),
+      Hr(),
+      Nt(),
+      (rm = gn()),
+      (im = {
+        active: `bg-token-charts-green`,
+        follower: `bg-token-charts-purple`,
+        inactive: `bg-token-charts-yellow`,
+        "needs-resume": `bg-token-charts-red`,
+        "read-only": `bg-token-charts-orange`,
+      }),
+      (am = {
+        active: `Subscribed: active`,
+        follower: `Subscribed: follower`,
+        inactive: `Subscribed: idle`,
+        "needs-resume": `Needs resume`,
+        "read-only": `Read-only snapshot`,
+      }));
+  });
+function sm(e) {
+  let t = (0, um.c)(8),
+    { archive: n, pinAction: r } = e,
+    i = Qn();
+  if (n == null && r == null) return null;
+  let a;
+  t[0] === r
+    ? (a = t[1])
+    : ((a =
+        r == null
+          ? []
+          : [
+              {
+                id: `thread-pin-action`,
+                ariaLabel: r.ariaLabel,
+                icon: r.isPinned
+                  ? (0, fm.jsx)(qf, { className: `translate-x-px` })
+                  : (0, fm.jsx)(pi, { className: `translate-x-px` }),
+                onClick: r.onClick,
+              },
+            ]),
+      (t[0] = r),
+      (t[1] = a));
+  let o;
+  t[2] !== n || t[3] !== i
+    ? ((o =
+        n == null
+          ? []
+          : [
+              {
+                id: `thread-primary-action`,
+                ariaLabel: i.formatMessage(la.archiveThread),
+                icon: (0, fm.jsx)(Pu, {}),
+                onClick: n,
+              },
+            ]),
+      (t[2] = n),
+      (t[3] = i),
+      (t[4] = o))
+    : (o = t[4]);
+  let s;
+  return (
+    t[5] !== a || t[6] !== o
+      ? ((s = (0, fm.jsx)(Vf, { actions: [...a, ...o], className: id })),
+        (t[5] = a),
+        (t[6] = o),
+        (t[7] = s))
+      : (s = t[7]),
+    s
+  );
+}
+function cm({
+  conversationId: e,
+  displayCwd: t,
+  isPinned: n = !1,
+  canPin: r = !0,
+  showPinActionOnHover: i = !1,
+  labelColor: a = null,
+  modelProvider: o = null,
+  onArchiveStart: s,
+  onArchiveSuccess: u,
+  onArchiveError: d,
+  threadWorkspaceRootHint: f,
+  threadSummary: p = null,
+  ...m
+}) {
+  let h = Re(ee),
+    g = Or(),
+    [_, v] = (0, dm.useState)(!1),
+    y = Qn(),
+    b = Z(fr, e) ?? p?.cwd ?? null,
+    x = Z(gt, e) ?? p?.hasUnreadTurn,
+    S = Z(Er, e) ?? p?.hostId,
+    w = Fr(S ?? `local`);
+  Z(Jn, e) ?? p?.threadSource;
+  let T = ve(`2337831332`),
+    E = C(Xp),
+    D = Z(ea, e) ?? p?.title,
+    O = Z(Lr, e),
+    k = Z(Fe, e) ?? p?.workspaceKind,
+    {
+      archiveThread: A,
+      markThreadAsUnread: j,
+      renameThread: M,
+      copyWorkingDirectory: N,
+      copySessionId: P,
+      copyAppLink: F,
+    } = mi(),
+    { platform: I } = _r(),
+    L = c(`open-file`),
+    {
+      isActive: R,
+      onDoubleClick: z,
+      extraIconBadges: B,
+      indicatorRestNode: te,
+      priorityIndicatorNode: V,
+      ...H
+    } = m,
+    {
+      archived: U,
+      usesExternalArchiveHandling: W,
+      beginArchive: G,
+      handleArchiveSuccess: ne,
+      handleArchiveError: K,
+    } = dd({ onArchiveStart: s, onArchiveSuccess: u, onArchiveError: d }),
+    q = H.disabled === !0,
+    J = Jt(_s),
+    { canOpenThreadInNewWindow: Y, openThreadInNewWindow: re } = ep({ conversationId: e }),
+    ie = k !== `projectless` && !0,
+    ae = lt(b, w),
+    oe = b != null,
+    se = k === `projectless` && (b == null || b === `~`) ? (O ?? f ?? null) : b,
+    ce = T && E ? { id: `active-status`, icon: (0, fm.jsx)(em, { conversationId: e }) } : null,
+    le = async () => {
+      let t = await Eo(h, { sourceConversationId: e, sourceWorkspaceRoot: b });
+      t != null && g(`/local/${t}`);
+    },
+    ue = async () => {
+      let t = await Io(h, {
+        localEnvironmentSelectionsByWorkspace: J,
+        sourceConversationId: e,
+        sourceWorkspaceRoot: b,
+      });
+      t != null && g(`/worktree-init-v2/${t}`);
+    },
+    de = B;
+  ce != null && (de = de == null ? [ce] : [...de, ce]);
+  let { data: fe } = C(ca),
+    pe = bf({ automations: fe?.items ?? [], conversationId: e }),
+    me = pe?.name ?? null,
+    he = me != null,
+    ge = pe == null ? null : (0, fm.jsx)(lm, { automation: pe }),
+    _e = () => {
+      (G(),
+        A({
+          conversationId: e,
+          hostId: p?.hostId,
+          source: `sidebar_context_menu`,
+          onArchiveSuccess: ne,
+          onArchiveError: K,
+        }));
+    },
+    be = Pn(() => {
+      if (he) {
+        v(!0);
+        return;
+      }
+      _e();
+    }),
+    xe = () => {
+      (v(!1), _e());
+    },
+    Se = () => {
+      (document.dispatchEvent(new PointerEvent(`pointercancel`)),
+        ye(h, zr, {
+          initialValue: D ?? ``,
+          initialColor: null,
+          showColorPicker: !1,
+          onSave: (t, n) => {
+            M({ conversationId: e, hostId: p?.hostId, title: t });
+          },
+        }));
+    },
+    Ce = () => {
+      se && no({ path: se, cwd: yn(se), target: `fileManager`, openFile: L.mutate });
+    },
+    we = Pn((e) => {
+      (z?.(e), !e.defaultPrevented && R && e.target?.closest(`[data-thread-title]`) && Se());
+    }),
+    Te = Pn(() => [
+      ...(r
+        ? [
+            Fd({
+              isPinned: n,
+              onPinnedChange: (t) => {
+                ni(h, e, t);
+              },
+            }),
+          ]
+        : []),
+      ...[],
+      { id: `rename-thread`, message: la.renameThread, onSelect: Se },
+      ...(S == null || S === `local`
+        ? []
+        : [
+            {
+              id: `change-connection-color`,
+              message: l({
+                id: `codex.remoteHostColorPicker.menuItem`,
+                defaultMessage: `Change connection color…`,
+                description: `Menu item that opens the color picker for a remote connection`,
+              }),
+              onSelect: () => {
+                ye(h, zp, { hostId: S });
+              },
+            },
+          ]),
+      { id: `archive-thread`, message: la.archiveThread, onSelect: be },
+      {
+        id: `mark-thread-unread`,
+        message: la.markThreadUnread,
+        enabled: x !== !0,
+        onSelect: () => {
+          j({ conversationId: e, hostId: p?.hostId });
+        },
+      },
+      ...Qp({ scope: h, canToggleActiveStatus: T, showActiveStatus: E }),
+      { id: `thread-actions-separator`, type: `separator` },
+      ...(S == null || S === `local`
+        ? [{ id: `open-thread-folder`, message: qp(I), enabled: !!se, onSelect: Ce }]
+        : []),
+      {
+        id: `copy-cwd`,
+        message: la.copyWorkingDirectory,
+        enabled: !!se,
+        onSelect: () => {
+          N(se);
+        },
+      },
+      {
+        id: `copy-session-id`,
+        message: la.copySessionId,
+        onSelect: () => {
+          P(e);
+        },
+      },
+      {
+        id: `copy-app-link`,
+        message: la.copyAppLink,
+        onSelect: () => {
+          F(e);
+        },
+      },
+      ...(ie
+        ? [
+            { id: `fork-actions-separator`, type: `separator` },
+            {
+              id: `fork-into-local`,
+              message: ae ? la.forkIntoSameWorktree : la.forkIntoLocal,
+              onSelect: () => {
+                le();
+              },
+            },
+            {
+              id: `fork-into-worktree`,
+              message: la.forkIntoWorktree,
+              enabled: oe,
+              onSelect: () => {
+                ue();
+              },
+            },
+          ]
+        : []),
+      ...(Y
+        ? [
+            { id: `new-window-separator`, type: `separator` },
+            { id: `open-thread-new-window`, message: la.openInNewWindow, onSelect: re },
+          ]
+        : []),
+    ]),
+    Ee = i && r,
+    De = (0, dm.useCallback)(
+      ({ archive: t }) =>
+        (0, fm.jsx)(sm, {
+          archive: t != null && he ? be : t,
+          pinAction: Ee
+            ? {
+                ariaLabel: y.formatMessage(n ? zd : Rd),
+                isPinned: n,
+                onClick: () => {
+                  ni(h, e, !n);
+                },
+              }
+            : void 0,
+        }),
+      [be, he, y, n, e, h, Ee],
+    );
+  if (U && !W) return null;
+  let Oe = (0, fm.jsx)(Pf, {
+    conversationId: e,
+    displayCwd: t,
+    disableEnvTooltip: !0,
+    isActive: R,
+    hasAttachedHeartbeatAutomation: he,
+    heartbeatAutomationTooltipContent: ge,
+    indicatorRestNode: te,
+    priorityIndicatorNode: V,
+    extraIconBadges: de,
+    additionalHoverActionCount: Ee ? 1 : 0,
+    onArchiveStart: s,
+    onArchiveSuccess: u,
+    onArchiveError: d,
+    onDoubleClick: we,
+    threadSummary: p,
+    ...H,
+    renderActions: H.renderActions ?? De,
+    allowActionsWhenDisabled: Ee,
+  });
+  return (0, fm.jsxs)(fm.Fragment, {
+    children: [
+      q ? Oe : (0, fm.jsx)(Da, { getItems: Te, children: Oe }),
+      _
+        ? (0, fm.jsx)(Yf, { heartbeatAutomationName: me, open: !0, onOpenChange: v, onConfirm: xe })
+        : null,
+    ],
+  });
+}
+function lm(e) {
+  let t = (0, um.c)(6),
+    { automation: n } = e,
+    r = Qn(),
+    i;
+  t[0] !== n.nextRunAt || t[1] !== n.status || t[2] !== r
+    ? ((i = pa({ intl: r, nextRunAt: n.nextRunAt, status: n.status })),
+      (t[0] = n.nextRunAt),
+      (t[1] = n.status),
+      (t[2] = r),
+      (t[3] = i))
+    : (i = t[3]);
+  let a;
+  return (
+    t[4] === i
+      ? (a = t[5])
+      : ((a = (0, fm.jsx)(j, {
+          id: `sidebarTaskRow.heartbeatAutomation.nextRun`,
+          defaultMessage: `Next run: {nextRunLabel}`,
+          description: `Tooltip shown on the heartbeat automation icon for a sidebar thread row`,
+          values: { nextRunLabel: i },
+        })),
+        (t[4] = i),
+        (t[5] = a)),
+    a
+  );
+}
+var um,
+  dm,
+  fm,
+  pm = e(() => {
+    ((um = X()),
+      Wn(),
+      Tt(),
+      un(),
+      (dm = t(Gr(), 1)),
+      I(),
+      wt(),
+      Hr(),
+      Zr(),
+      ra(),
+      xf(),
+      Vi(),
+      ue(),
+      ro(),
+      Bf(),
+      ud(),
+      Gf(),
+      md(),
+      _(),
+      Lt(),
+      Fu(),
+      Jf(),
+      hi(),
+      $f(),
+      Ro(),
+      ta(),
+      gs(),
+      Qr(),
+      np(),
+      Kp(),
+      Y(),
+      hn(),
+      Yp(),
+      Bd(),
+      Zp(),
+      $p(),
+      om(),
+      Le(),
+      gi(),
+      le(),
+      vt(),
+      Oe(),
+      (fm = gn()));
+  });
+function mm(e) {
+  let t = (0, xm.c)(8),
+    n,
+    r,
+    i;
+  t[0] === e
+    ? ((n = t[1]), (r = t[2]), (i = t[3]))
+    : (({ threadKey: i, isActive: r, ...n } = e), (t[0] = e), (t[1] = n), (t[2] = r), (t[3] = i));
+  let a = Z(V, i);
+  if (a == null) return null;
+  let o;
+  return (
+    t[4] !== n || t[5] !== a || t[6] !== r
+      ? ((o = (0, Cm.jsx)(hm, { entry: a, isActive: r, ...n })),
+        (t[4] = n),
+        (t[5] = a),
+        (t[6] = r),
+        (t[7] = o))
+      : (o = t[7]),
+    o
+  );
+}
+function hm(e) {
+  let t = (0, xm.c)(129),
+    {
+      entry: n,
+      isPinned: r,
+      isAutomationRun: i,
+      isUnread: a,
+      automationDisplayName: o,
+      isActive: s,
+      canPin: c,
+      disableHoverCard: l,
+      floatStatusIconsRight: u,
+      isGrouped: d,
+      isProjectlessHoverCard: f,
+      hideRemoteHostEnvIcon: p,
+      hideTimestamp: m,
+      locationId: h,
+      onActivateGroup: g,
+      onStartNewConversation: _,
+      showPinnedChatIcon: v,
+      showPinActionOnHover: y,
+      variant: b,
+      shortcutLabel: x,
+      hoverCardHostConfig: S,
+      hoverCardProjectId: C,
+      hoverCardProjectLabel: w,
+      hoverCardRepositoryLabel: T,
+      displayCwd: E,
+      onArchiveStart: D,
+      onArchiveSuccess: k,
+      onArchiveError: A,
+    } = e,
+    j = l === void 0 ? !1 : l,
+    M = u === void 0 ? !1 : u,
+    N = d === void 0 ? !1 : d,
+    P = p === void 0 ? !1 : p,
+    F = m === void 0 ? !1 : m,
+    I = y === void 0 ? !1 : y,
+    L = b === void 0 ? `default` : b,
+    R = Re(ee),
+    z = Qn(),
+    B = Or(),
+    V = L === `tableRow`,
+    H = V,
+    U = V,
+    W = V,
+    G = V,
+    { cancelPendingWorktree: K, renamePendingWorktree: q, setPendingWorktreePinned: J } = oi(),
+    Y = n.kind === `local` ? n.conversationId : null,
+    re = n.kind === `local` ? (n.summary ?? null) : null,
+    ae = Z(Qt, Y),
+    oe = Z(ne, Y),
+    se = Z(Er, Y);
+  Z(Qe, Y);
+  let ce = Z(Fe, Y),
+    le = Z(sn, Y),
+    ue = Z(Jo, Y),
+    de = n.kind === `remote` ? n : null,
+    fe;
+  t[0] === de ? (fe = t[1]) : ((fe = uf(de)), (t[0] = de), (t[1] = fe));
+  let pe = Z(_f, fe),
+    me = Z(vf, Y),
+    he = Z(is, Y),
+    ge = n.kind === `remote` ? pe : me,
+    _e = ge?.iconBadge ?? null,
+    ve = j ? void 0 : w,
+    be = j ? void 0 : C,
+    xe = j ? void 0 : T,
+    Se = Md(be ?? ``),
+    Ce;
+  t[2] === Se
+    ? (Ce = t[3])
+    : ((Ce = Se == null ? void 0 : (0, Cm.jsx)(Sn, { appearance: Se, className: `h-4 w-4` })),
+      (t[2] = Se),
+      (t[3] = Ce));
+  let we = Ce,
+    Te;
+  t[4] === Se
+    ? (Te = t[5])
+    : ((Te = Se == null ? void 0 : (0, Cm.jsx)(Sn, { appearance: Se, className: `h-4 w-4` })),
+      (t[4] = Se),
+      (t[5] = Te));
+  let Ee = Te,
+    De = so(),
+    Oe;
+  t[6] !== s || t[7] !== D || t[8] !== _ || t[9] !== De
+    ? ((Oe = () => {
+        (D(), s && (_ ?? De)());
+      }),
+      (t[6] = s),
+      (t[7] = D),
+      (t[8] = _),
+      (t[9] = De),
+      (t[10] = Oe))
+    : (Oe = t[10]);
+  let X = Oe,
+    ke;
+  t[11] === R
+    ? (ke = t[12])
+    : ((ke = (e, t) => {
+        ni(R, e, t);
+      }),
+      (t[11] = R),
+      (t[12] = ke));
+  let Ae = ke,
+    je;
+  t[13] !== U || t[14] !== _e
+    ? ((je = !U && _e != null ? (0, Cm.jsx)(Vd, { badge: _e }) : null),
+      (t[13] = U),
+      (t[14] = _e),
+      (t[15] = je))
+    : (je = t[15]);
+  let Me = je,
+    Ne;
+  t[16] !== W || t[17] !== x
+    ? ((Ne =
+        W || x == null
+          ? void 0
+          : (0, Cm.jsx)(`div`, {
+              className: Q(id, `text-token-description-foreground`),
+              children: (0, Cm.jsx)(rr, { keysLabel: x }),
+            })),
+      (t[16] = W),
+      (t[17] = x),
+      (t[18] = Ne))
+    : (Ne = t[18]);
+  let Pe = Ne,
+    Ie;
+  t[19] !== j || t[20] !== ge
+    ? ((Ie = !j && ge != null ? [ge.hoverCardSection] : void 0),
+      (t[19] = j),
+      (t[20] = ge),
+      (t[21] = Ie))
+    : (Ie = t[21]);
+  let Le = Ie,
+    ze = n.kind === `local` ? (se ?? re?.hostId ?? null) : null,
+    { state: Be } = Ba(ze ?? `local`),
+    Ve =
+      n.kind === `local` &&
+      (ce ?? re?.workspaceKind) === `project` &&
+      ze != null &&
+      ze !== `local` &&
+      Be !== `connected`,
+    He;
+  t[22] !== r || t[23] !== v
+    ? ((He = v && r ? (0, Cm.jsx)(fa, { "aria-hidden": !0, className: `icon-xs shrink-0` }) : null),
+      (t[22] = r),
+      (t[23] = v),
+      (t[24] = He))
+    : (He = t[24]);
+  let Ue = He,
+    We;
+  t[25] !== c ||
+  t[26] !== K ||
+  t[27] !== ve ||
+  t[28] !== M ||
+  t[29] !== X ||
+  t[30] !== H ||
+  t[31] !== G ||
+  t[32] !== F ||
+  t[33] !== z ||
+  t[34] !== s ||
+  t[35] !== N ||
+  t[36] !== r ||
+  t[37] !== h ||
+  t[38] !== B ||
+  t[39] !== g ||
+  t[40] !== k ||
+  t[41] !== Ue ||
+  t[42] !== q ||
+  t[43] !== R ||
+  t[44] !== J ||
+  t[45] !== Pe ||
+  t[46] !== I ||
+  t[47] !== L
+    ? ((We = function (e) {
+        let t = e.pendingWorktree,
+          n = te(t.id),
+          i = () => {
+            (X(), K(t.id), k());
+          },
+          a = () => {
+            (document.dispatchEvent(new PointerEvent(`pointercancel`)),
+              ye(R, zr, {
+                initialValue: t.label,
+                onSave: (e) => {
+                  let n = e.trim(),
+                    r = t.label.trim();
+                  n.length === 0 || n === r || q(t.id, n);
+                },
+              }));
+          },
+          o = z.formatMessage(r ? zd : Rd),
+          l =
+            c && !I
+              ? Id({
+                  isPinned: r,
+                  hasUnreadTurn: !1,
+                  ariaLabel: o,
+                  onPin: () => {
+                    J(t.id, !0);
+                  },
+                  onUnpin: () => {
+                    J(t.id, !1);
+                  },
+                })
+              : { rest: null, hover: null },
+          u = g
+            ? () => {
+                (ks(R, n, h), g(), B(aa(t.id, t.clientThreadId)));
+              }
+            : void 0,
+          d = (e) => {
+            e.defaultPrevented || (s && e.target?.closest(`[data-thread-title]`) && a());
+          },
+          f = () => [
+            ...(c
+              ? [
+                  r
+                    ? {
+                        id: `unpin-thread`,
+                        message: zd,
+                        onSelect: () => {
+                          J(t.id, !1);
+                        },
+                      }
+                    : {
+                        id: `pin-thread`,
+                        message: Rd,
+                        onSelect: () => {
+                          J(t.id, !0);
+                        },
+                      },
+                ]
+              : []),
+            { id: `rename-thread`, message: la.renameThread, onSelect: a },
+            ...(t.phase === `failed`
+              ? [{ id: `archive-thread`, message: la.archiveThread, onSelect: i }]
+              : []),
+          ],
+          p = c && I,
+          m = F ? !1 : void 0;
+        return (0, Cm.jsx)(Da, {
+          getItems: f,
+          children: (0, Cm.jsx)(Od, {
+            task: t,
+            isActive: s,
+            hasAttention: t.needsAttention,
+            statusIndicatorReplacesMeta: !0,
+            hideStatusIndicator: G,
+            indicatorRestNode: l.rest ?? Ue,
+            indicatorHoverNode: l.hover,
+            floatStatusIconsRight: M,
+            reserveLeadingSlot: N,
+            additionalHoverActionCount: p ? 1 : 0,
+            variant: L,
+            metaContent: m,
+            renderActions: H
+              ? ym
+              : (e) => {
+                  let { archive: n, requestArchive: i } = e;
+                  return (0, Cm.jsx)(bm, {
+                    archive: n,
+                    requestArchive: i,
+                    pinAction: p
+                      ? {
+                          ariaLabel: o,
+                          isPinned: r,
+                          onClick: () => {
+                            J(t.id, !r);
+                          },
+                        }
+                      : void 0,
+                  });
+                },
+            overlayMetaContent: Pe,
+            hoverCardProjectLabel: ve,
+            onClick: u,
+            onDoubleClick: d,
+            onArchive: i,
+            dataAttributes: fn.sidebarThreadRow({
+              active: s,
+              hostId: t.hostId,
+              id: n,
+              kind: `pending-worktree`,
+              pinned: r,
+              title: t.label,
+            }),
+          }),
+        });
+      }),
+      (t[25] = c),
+      (t[26] = K),
+      (t[27] = ve),
+      (t[28] = M),
+      (t[29] = X),
+      (t[30] = H),
+      (t[31] = G),
+      (t[32] = F),
+      (t[33] = z),
+      (t[34] = s),
+      (t[35] = N),
+      (t[36] = r),
+      (t[37] = h),
+      (t[38] = B),
+      (t[39] = g),
+      (t[40] = k),
+      (t[41] = Ue),
+      (t[42] = q),
+      (t[43] = R),
+      (t[44] = J),
+      (t[45] = Pe),
+      (t[46] = I),
+      (t[47] = L),
+      (t[48] = We))
+    : (We = t[48]);
+  let Ge = We,
+    Ke;
+  t[49] !== c ||
+  t[50] !== ve ||
+  t[51] !== xe ||
+  t[52] !== M ||
+  t[53] !== X ||
+  t[54] !== H ||
+  t[55] !== G ||
+  t[56] !== F ||
+  t[57] !== z ||
+  t[58] !== s ||
+  t[59] !== N ||
+  t[60] !== r ||
+  t[61] !== f ||
+  t[62] !== h ||
+  t[63] !== A ||
+  t[64] !== k ||
+  t[65] !== Ue ||
+  t[66] !== Le ||
+  t[67] !== Me ||
+  t[68] !== Ee ||
+  t[69] !== R ||
+  t[70] !== Ae ||
+  t[71] !== Pe ||
+  t[72] !== I ||
+  t[73] !== L
+    ? ((Ke = function (e) {
+        let t = ie(e.task.id),
+          n = r || N || e.task.has_unread_turn,
+          i = z.formatMessage(r ? zd : Rd),
+          a =
+            c && !I
+              ? Id({
+                  isPinned: r,
+                  hasUnreadTurn: !n && e.task.has_unread_turn,
+                  ariaLabel: i,
+                  onPin: () => {
+                    Ae(e.task.id, !0);
+                  },
+                  onUnpin: () => {
+                    Ae(e.task.id, !1);
+                  },
+                })
+              : { rest: null, hover: null },
+          o = c
+            ? [
+                Fd({
+                  isPinned: r,
+                  onPinnedChange: (t) => {
+                    Ae(e.task.id, t);
+                  },
+                }),
+              ]
+            : [],
+          l = c && I;
+        return (0, Cm.jsx)(hd, {
+          task: e.task,
+          isActive: s,
+          onSelect: () => {
+            ks(R, t, h);
+          },
+          onClose: vm,
+          contextMenuItems: o,
+          variant: L,
+          envIconLocation: `end`,
+          statusIndicatorReplacesMeta: n,
+          hideStatusIndicator: G,
+          idleIndicatorNode: Me,
+          indicatorRestNode: a.rest ?? Ue,
+          indicatorHoverNode: a.hover ?? a.rest,
+          floatStatusIconsRight: M,
+          reserveLeadingSlot: N,
+          additionalHoverActionCount: l ? 1 : 0,
+          hideInlineBadgesOnHover: l,
+          metaContent: F ? !1 : void 0,
+          overlayMetaContent: Pe,
+          onArchiveStart: X,
+          onArchiveSuccess: k,
+          onArchiveError: A,
+          hoverCardProjectLabel: ve,
+          hoverCardProjectIcon: f ? (0, Cm.jsx)(fa, {}) : (Ee ?? (0, Cm.jsx)(ls, {})),
+          hoverCardRepositoryLabel: f ? void 0 : xe,
+          hoverCardSections: Le,
+          dataAttributes: fn.sidebarThreadRow({
+            active: s,
+            hostId: null,
+            id: t,
+            kind: `remote`,
+            pinned: r,
+            title: e.task.title ?? ``,
+          }),
+          renderActions: H
+            ? _m
+            : (t) => {
+                let { archive: n, requestArchive: a } = t;
+                return (0, Cm.jsx)(bm, {
+                  archive: n,
+                  requestArchive: a,
+                  pinAction: l
+                    ? {
+                        ariaLabel: i,
+                        isPinned: r,
+                        onClick: () => {
+                          Ae(e.task.id, !r);
+                        },
+                      }
+                    : void 0,
+                });
+              },
+        });
+      }),
+      (t[49] = c),
+      (t[50] = ve),
+      (t[51] = xe),
+      (t[52] = M),
+      (t[53] = X),
+      (t[54] = H),
+      (t[55] = G),
+      (t[56] = F),
+      (t[57] = z),
+      (t[58] = s),
+      (t[59] = N),
+      (t[60] = r),
+      (t[61] = f),
+      (t[62] = h),
+      (t[63] = A),
+      (t[64] = k),
+      (t[65] = Ue),
+      (t[66] = Le),
+      (t[67] = Me),
+      (t[68] = Ee),
+      (t[69] = R),
+      (t[70] = Ae),
+      (t[71] = Pe),
+      (t[72] = I),
+      (t[73] = L),
+      (t[74] = Ke))
+    : (Ke = t[74]);
+  let qe = Ke,
+    Je;
+  t[75] !== o ||
+  t[76] !== c ||
+  t[77] !== j ||
+  t[78] !== Ve ||
+  t[79] !== E ||
+  t[80] !== be ||
+  t[81] !== ve ||
+  t[82] !== xe ||
+  t[83] !== M ||
+  t[84] !== X ||
+  t[85] !== H ||
+  t[86] !== P ||
+  t[87] !== G ||
+  t[88] !== F ||
+  t[89] !== S ||
+  t[90] !== w ||
+  t[91] !== z ||
+  t[92] !== s ||
+  t[93] !== i ||
+  t[94] !== N ||
+  t[95] !== r ||
+  t[96] !== f ||
+  t[97] !== a ||
+  t[98] !== ae ||
+  t[99] !== se ||
+  t[100] !== we ||
+  t[101] !== oe ||
+  t[102] !== he ||
+  t[103] !== null ||
+  t[104] !== le ||
+  t[105] !== ce ||
+  t[106] !== h ||
+  t[107] !== g ||
+  t[108] !== A ||
+  t[109] !== k ||
+  t[110] !== Ue ||
+  t[111] !== Le ||
+  t[112] !== Me ||
+  t[113] !== R ||
+  t[114] !== Ae ||
+  t[115] !== Pe ||
+  t[116] !== I ||
+  t[117] !== ue ||
+  t[118] !== L
+    ? ((Je = function (e) {
+        let t = e.conversationId,
+          n = e.summary ?? null,
+          l = O(t),
+          u = ce ?? n?.workspaceKind,
+          d = oe ?? n?.recencyAt ?? n?.updatedAt,
+          p = se ?? n?.hostId ?? `local`,
+          m = I && c,
+          _ = m || r || u === `project`,
+          v = () => {
+            (ae !== !0 &&
+              n != null &&
+              (ir(R, t, n.hostId), R.get(nt, n.hostId)?.activateThreadSummary(t)),
+              N && g?.());
+          },
+          y =
+            c && !m
+              ? Id({
+                  isPinned: r,
+                  hasUnreadTurn: !_ && a,
+                  ariaLabel: z.formatMessage(r ? zd : Rd),
+                  onPin: () => {
+                    Ae(t, !0);
+                  },
+                  onUnpin: () => {
+                    Ae(t, !1);
+                  },
+                })
+              : { rest: null, hover: null },
+          b = o,
+          x = ae === !0 ? (le ?? n?.title ?? o ?? ``) : (o ?? n?.title ?? le ?? ``),
+          C = F || d == null ? void 0 : (0, Cm.jsx)(sa, { dateString: new Date(d).toISOString() });
+        return (0, Cm.jsx)(cm, {
+          conversationId: t,
+          isAutomationRun: i,
+          isUnread: a,
+          hasPendingChildApproval: !1,
+          isActive: s,
+          envIconLocation: `end`,
+          hideRemoteHostEnvIcon: P,
+          statusIndicatorReplacesMeta: _,
+          hideStatusIndicator: G,
+          hideInlineBadgesOnHover: m,
+          idleIndicatorNode: Me,
+          indicatorRestNode: y.rest ?? Ue,
+          indicatorHoverNode: y.hover ?? y.rest,
+          floatStatusIconsRight: M,
+          reserveLeadingSlot: N,
+          metaContent: C,
+          overlayMetaContent: Pe,
+          titleOverride: b,
+          threadWorkspaceRootHint: ue,
+          threadSummary: n,
+          hoverCardSections: Le,
+          hoverCardHostConfig: S,
+          hoverCardProjectFallbackIcon: we ?? (0, Cm.jsx)(Ur, {}),
+          hoverCardProjectId: be,
+          hoverCardProjectLabel: ve,
+          hoverCardRepositoryLabel: xe,
+          isProjectlessHoverCard: f,
+          disableHoverCard: j || w == null,
+          variant: L,
+          displayCwd: E,
+          isPinned: r,
+          canPin: c,
+          labelColor: null,
+          modelProvider: n?.modelProvider,
+          showPinActionOnHover: m,
+          renderActions: H ? gm : void 0,
+          isGrouped: N,
+          disabled: Ve,
+          onBeforeNavigate: v,
+          onSelect: () => {
+            ks(R, l, h);
+          },
+          onArchiveStart: X,
+          onArchiveSuccess: k,
+          onArchiveError: A,
+          dataAttributes: fn.sidebarThreadRow({
+            active: s,
+            hostId: p,
+            id: l,
+            kind: `local`,
+            pinned: r,
+            title: x,
+          }),
+        });
+      }),
+      (t[75] = o),
+      (t[76] = c),
+      (t[77] = j),
+      (t[78] = Ve),
+      (t[79] = E),
+      (t[80] = be),
+      (t[81] = ve),
+      (t[82] = xe),
+      (t[83] = M),
+      (t[84] = X),
+      (t[85] = H),
+      (t[86] = P),
+      (t[87] = G),
+      (t[88] = F),
+      (t[89] = S),
+      (t[90] = w),
+      (t[91] = z),
+      (t[92] = s),
+      (t[93] = i),
+      (t[94] = N),
+      (t[95] = r),
+      (t[96] = f),
+      (t[97] = a),
+      (t[98] = ae),
+      (t[99] = se),
+      (t[100] = we),
+      (t[101] = oe),
+      (t[102] = he),
+      (t[103] = null),
+      (t[104] = le),
+      (t[105] = ce),
+      (t[106] = h),
+      (t[107] = g),
+      (t[108] = A),
+      (t[109] = k),
+      (t[110] = Ue),
+      (t[111] = Le),
+      (t[112] = Me),
+      (t[113] = R),
+      (t[114] = Ae),
+      (t[115] = Pe),
+      (t[116] = I),
+      (t[117] = ue),
+      (t[118] = L),
+      (t[119] = Je))
+    : (Je = t[119]);
+  let Ye = Je;
+  switch (n.kind) {
+    case `pending-worktree`: {
+      let e;
+      return (
+        t[120] !== n || t[121] !== Ge
+          ? ((e = Ge(n)), (t[120] = n), (t[121] = Ge), (t[122] = e))
+          : (e = t[122]),
+        e
+      );
+    }
+    case `remote`: {
+      let e;
+      return (
+        t[123] !== n || t[124] !== qe
+          ? ((e = qe(n)), (t[123] = n), (t[124] = qe), (t[125] = e))
+          : (e = t[125]),
+        e
+      );
+    }
+    case `local`: {
+      let e;
+      return (
+        t[126] !== n || t[127] !== Ye
+          ? ((e = Ye(n)), (t[126] = n), (t[127] = Ye), (t[128] = e))
+          : (e = t[128]),
+        e
+      );
+    }
+  }
+}
+function gm() {
+  return null;
+}
+function _m() {
+  return null;
+}
+function vm() {}
+function ym() {
+  return null;
+}
+function bm(e) {
+  let t = (0, xm.c)(9),
+    { archive: n, requestArchive: r, pinAction: i } = e;
+  if (n == null && i == null) return null;
+  let a;
+  t[0] !== n || t[1] !== i
+    ? ((a = (0, Cm.jsx)(xe, {
+        electron: !0,
+        browser: !0,
+        children: (0, Cm.jsx)(sm, { archive: n, pinAction: i }),
+      })),
+      (t[0] = n),
+      (t[1] = i),
+      (t[2] = a))
+    : (a = t[2]);
+  let o;
+  t[3] !== i || t[4] !== r
+    ? ((o = (0, Cm.jsx)(xe, {
+        extension: !0,
+        chromeExtension: !0,
+        children: (0, Cm.jsx)(sm, { archive: r, pinAction: i }),
+      })),
+      (t[3] = i),
+      (t[4] = r),
+      (t[5] = o))
+    : (o = t[5]);
+  let s;
+  return (
+    t[6] !== a || t[7] !== o
+      ? ((s = (0, Cm.jsxs)(Cm.Fragment, { children: [a, o] })), (t[6] = a), (t[7] = o), (t[8] = s))
+      : (s = t[8]),
+    s
+  );
+}
+var xm,
+  Sm,
+  Cm,
+  wm,
+  Tm = e(() => {
+    ((xm = X()),
+      Be(),
+      Tt(),
+      (Sm = t(Gr(), 1)),
+      I(),
+      wt(),
+      ur(),
+      Va(),
+      Hr(),
+      Vi(),
+      ka(),
+      dn(),
+      ue(),
+      r(),
+      yd(),
+      ud(),
+      jd(),
+      co(),
+      na(),
+      es(),
+      Dt(),
+      Qr(),
+      xr(),
+      Pd(),
+      Y(),
+      hn(),
+      Bd(),
+      Gd(),
+      Le(),
+      gi(),
+      hr(),
+      yf(),
+      pm(),
+      vn(),
+      R(),
+      As(),
+      ds(),
+      vt(),
+      Ri(),
+      za(),
+      (Cm = gn()),
+      (wm = (0, Sm.memo)(function (e) {
+        let t = (0, xm.c)(43),
+          {
+            threadKey: n,
+            canPin: r,
+            disableHoverCard: i,
+            floatStatusIconsRight: a,
+            isGrouped: o,
+            hideRemoteHostEnvIcon: s,
+            hideTimestamp: c,
+            locationId: l,
+            onActivateGroup: u,
+            onStartNewConversation: d,
+            showPinnedChatIcon: f,
+            showPinActionOnHover: p,
+            variant: m,
+            shortcutLabel: h,
+            onArchiveStart: g,
+            onArchiveSuccess: _,
+            onArchiveError: v,
+          } = e,
+          y = r === void 0 ? !0 : r,
+          b = i === void 0 ? !1 : i,
+          x = a === void 0 ? !1 : a,
+          S = o === void 0 ? !1 : o,
+          C = s === void 0 ? !1 : s,
+          w = c === void 0 ? !1 : c,
+          T = l === void 0 ? null : l,
+          E = f === void 0 ? !1 : f,
+          D = p === void 0 ? !1 : p,
+          O = m === void 0 ? `default` : m,
+          k;
+        t[0] !== T || t[1] !== n
+          ? ((k = { locationId: T, threadKey: n }), (t[0] = T), (t[1] = n), (t[2] = k))
+          : (k = t[2]);
+        let A = Z(Mr, k),
+          j = Z(Vo, n),
+          M = Z(as, n),
+          N = Z(ae, n),
+          P = Z(Ho, n),
+          F = Z(Zo, n),
+          I = Z(Uo, n),
+          L = Z(Wo, n),
+          R = L?.label ?? null,
+          z = L?.isProjectless === !0,
+          B = Z(Yo, n),
+          ee = Z(us, n),
+          te;
+        t[3] !== g || t[4] !== n
+          ? ((te = () => {
+              g(n);
+            }),
+            (t[3] = g),
+            (t[4] = n),
+            (t[5] = te))
+          : (te = t[5]);
+        let V = Pn(te),
+          H;
+        t[6] !== _ || t[7] !== n
+          ? ((H = () => {
+              _(n);
+            }),
+            (t[6] = _),
+            (t[7] = n),
+            (t[8] = H))
+          : (H = t[8]);
+        let U = Pn(H),
+          W;
+        t[9] !== v || t[10] !== n
+          ? ((W = () => {
+              v(n);
+            }),
+            (t[9] = v),
+            (t[10] = n),
+            (t[11] = W))
+          : (W = t[11]);
+        let G = Pn(W),
+          ne = y ? j : !1,
+          K;
+        t[12] !== P ||
+        t[13] !== y ||
+        t[14] !== b ||
+        t[15] !== ee ||
+        t[16] !== x ||
+        t[17] !== G ||
+        t[18] !== V ||
+        t[19] !== U ||
+        t[20] !== C ||
+        t[21] !== w ||
+        t[22] !== F ||
+        t[23] !== I ||
+        t[24] !== R ||
+        t[25] !== B ||
+        t[26] !== M ||
+        t[27] !== S ||
+        t[28] !== z ||
+        t[29] !== N ||
+        t[30] !== T ||
+        t[31] !== u ||
+        t[32] !== d ||
+        t[33] !== h ||
+        t[34] !== D ||
+        t[35] !== E ||
+        t[36] !== ne ||
+        t[37] !== O
+          ? ((K = {
+              isPinned: ne,
+              isAutomationRun: M,
+              isUnread: N,
+              automationDisplayName: P,
+              canPin: y,
+              disableHoverCard: b,
+              floatStatusIconsRight: x,
+              isGrouped: S,
+              isProjectlessHoverCard: z,
+              hideRemoteHostEnvIcon: C,
+              hideTimestamp: w,
+              locationId: T,
+              onActivateGroup: u,
+              onStartNewConversation: d,
+              showPinnedChatIcon: E,
+              showPinActionOnHover: D,
+              variant: O,
+              shortcutLabel: h,
+              hoverCardHostConfig: F,
+              hoverCardProjectId: I,
+              hoverCardProjectLabel: R,
+              hoverCardRepositoryLabel: B,
+              displayCwd: ee,
+              onArchiveStart: V,
+              onArchiveSuccess: U,
+              onArchiveError: G,
+            }),
+            (t[12] = P),
+            (t[13] = y),
+            (t[14] = b),
+            (t[15] = ee),
+            (t[16] = x),
+            (t[17] = G),
+            (t[18] = V),
+            (t[19] = U),
+            (t[20] = C),
+            (t[21] = w),
+            (t[22] = F),
+            (t[23] = I),
+            (t[24] = R),
+            (t[25] = B),
+            (t[26] = M),
+            (t[27] = S),
+            (t[28] = z),
+            (t[29] = N),
+            (t[30] = T),
+            (t[31] = u),
+            (t[32] = d),
+            (t[33] = h),
+            (t[34] = D),
+            (t[35] = E),
+            (t[36] = ne),
+            (t[37] = O),
+            (t[38] = K))
+          : (K = t[38]);
+        let q = K,
+          J;
+        return (
+          t[39] !== q || t[40] !== A || t[41] !== n
+            ? ((J = (0, Cm.jsx)(mm, { threadKey: n, isActive: A, ...q })),
+              (t[39] = q),
+              (t[40] = A),
+              (t[41] = n),
+              (t[42] = J))
+            : (J = t[42]),
+          J
+        );
+      })));
+  }),
+  Em,
+  Dm = e(() => {
+    (Tt(),
+      Y(),
+      hr(),
+      (Em = An(ee, (e, { get: t }) => {
+        let n = t(dt);
+        return n != null && e.includes(n) ? n : null;
+      })));
+  });
+function Om() {
+  return (0, Am.useContext)(jm);
+}
+function km({ shortcutLabels: e, shortcutKeys: t }) {
+  let n = new Map();
+  for (let [r, i] of t.entries()) {
+    let t = e[r];
+    t != null && n.set(i, t);
+  }
+  return n;
+}
+var Am,
+  jm,
+  Mm = e(() => {
+    ((Am = t(Gr(), 1)), (jm = (0, Am.createContext)(null)));
+  });
+function Nm(e) {
+  let t = (0, Fm.c)(42),
+    {
+      threadKeys: n,
+      ariaLabel: r,
+      itemWrapper: i,
+      emptyState: a,
+      emptyStateClassName: o,
+      isLoading: s,
+      rowOptions: c,
+      currentThreadKey: l,
+      dropIndicatorTarget: u,
+      maxItems: d,
+      expanded: f,
+      onExpandedChange: p,
+      variant: m,
+      className: h,
+    } = e,
+    g = s === void 0 ? !1 : s,
+    _ = m === void 0 ? `default` : m,
+    v = Z(Em, n),
+    y = Om(),
+    b = l === void 0 ? v : l,
+    [x, S] = (0, Im.useState)(!1),
+    C = f ?? x,
+    w;
+  t[0] !== f || t[1] !== p
+    ? ((w = (e) => {
+        (f ?? S(e), p?.(e));
+      }),
+      (t[0] = f),
+      (t[1] = p),
+      (t[2] = w))
+    : (w = t[2]);
+  let T = w,
+    E;
+  bb0: {
+    if (i == null) {
+      E = void 0;
+      break bb0;
+    }
+    let e = i,
+      n;
+    (t[3] === e
+      ? (n = t[4])
+      : ((n = function (t) {
+          let { item: n, className: r, children: i, isLastVisibleItem: a } = t;
+          return (0, Lm.jsx)(e, { threadKey: n, className: r, isLastVisibleItem: a, children: i });
+        }),
+        (t[3] = e),
+        (t[4] = n)),
+      (E = n));
+  }
+  let D = E;
+  if (g) {
+    let e;
+    return (
+      t[5] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, Lm.jsx)(`div`, {
+            className: `flex items-center justify-center py-4`,
+            children: (0, Lm.jsx)(wn, {}),
+          })),
+          (t[5] = e))
+        : (e = t[5]),
+      e
+    );
+  }
+  if (n.length === 0 && a) {
+    let e;
+    return (
+      t[6] !== a || t[7] !== o
+        ? ((e = (0, Lm.jsx)(`div`, { className: o, children: a })),
+          (t[6] = a),
+          (t[7] = o),
+          (t[8] = e))
+        : (e = t[8]),
+      e
+    );
+  }
+  let O;
+  t[9] === h
+    ? (O = t[10])
+    : ((O = Q(`isolate flex flex-col [contain:layout]`, h)), (t[9] = h), (t[10] = O));
+  let k, A;
+  t[11] === u
+    ? ((k = t[12]), (A = t[13]))
+    : ((k = (e) =>
+        u?.beforeThreadKey != null && e === u.beforeThreadKey ? (0, Lm.jsx)(zl, {}) : null),
+      (A = u != null && u.beforeThreadKey == null ? (0, Lm.jsx)(zl, {}) : null),
+      (t[11] = u),
+      (t[12] = k),
+      (t[13] = A));
+  let j;
+  t[14] !== c?.canPin ||
+  t[15] !== c?.disableHoverCard ||
+  t[16] !== c?.floatStatusIconsRight ||
+  t[17] !== c?.hideRemoteHostEnvIcon ||
+  t[18] !== c?.hideTimestamp ||
+  t[19] !== c?.isGrouped ||
+  t[20] !== c?.locationId ||
+  t[21] !== c?.onActivateGroup ||
+  t[22] !== c?.onStartNewConversation ||
+  t[23] !== c?.showPinActionOnHover ||
+  t[24] !== c?.variant ||
+  t[25] !== y
+    ? ((j = (e, t) =>
+        (0, Lm.jsx)(wm, {
+          threadKey: e,
+          canPin: c?.canPin,
+          disableHoverCard: c?.disableHoverCard,
+          floatStatusIconsRight: c?.floatStatusIconsRight,
+          isGrouped: c?.isGrouped,
+          hideRemoteHostEnvIcon: c?.hideRemoteHostEnvIcon,
+          hideTimestamp: c?.hideTimestamp,
+          locationId: c?.locationId,
+          onArchiveStart: t.onArchiveStart,
+          onArchiveSuccess: t.onArchiveSuccess,
+          onArchiveError: t.onArchiveError,
+          onActivateGroup: c?.onActivateGroup,
+          onStartNewConversation: c?.onStartNewConversation,
+          showPinActionOnHover: c?.showPinActionOnHover,
+          variant: c?.variant,
+          shortcutLabel: y?.get(e),
+        })),
+      (t[14] = c?.canPin),
+      (t[15] = c?.disableHoverCard),
+      (t[16] = c?.floatStatusIconsRight),
+      (t[17] = c?.hideRemoteHostEnvIcon),
+      (t[18] = c?.hideTimestamp),
+      (t[19] = c?.isGrouped),
+      (t[20] = c?.locationId),
+      (t[21] = c?.onActivateGroup),
+      (t[22] = c?.onStartNewConversation),
+      (t[23] = c?.showPinActionOnHover),
+      (t[24] = c?.variant),
+      (t[25] = y),
+      (t[26] = j))
+    : (j = t[26]);
+  let M;
+  t[27] !== r ||
+  t[28] !== C ||
+  t[29] !== d ||
+  t[30] !== b ||
+  t[31] !== T ||
+  t[32] !== k ||
+  t[33] !== A ||
+  t[34] !== j ||
+  t[35] !== D ||
+  t[36] !== n ||
+  t[37] !== _
+    ? ((M = (0, Lm.jsx)(Ul, {
+        items: n,
+        getKey: Pm,
+        ariaLabel: r,
+        itemWrapper: D,
+        maxItems: d,
+        expanded: C,
+        forcedVisibleItemKey: b,
+        onExpandedChange: T,
+        variant: _,
+        renderBeforeItem: k,
+        afterItemsNode: A,
+        renderRow: j,
+      })),
+      (t[27] = r),
+      (t[28] = C),
+      (t[29] = d),
+      (t[30] = b),
+      (t[31] = T),
+      (t[32] = k),
+      (t[33] = A),
+      (t[34] = j),
+      (t[35] = D),
+      (t[36] = n),
+      (t[37] = _),
+      (t[38] = M))
+    : (M = t[38]);
+  let N;
+  return (
+    t[39] !== O || t[40] !== M
+      ? ((N = (0, Lm.jsx)(`div`, { className: O, children: M })),
+        (t[39] = O),
+        (t[40] = M),
+        (t[41] = N))
+      : (N = t[41]),
+    N
+  );
+}
+function Pm(e) {
+  return e;
+}
+var Fm,
+  Im,
+  Lm,
+  Rm = e(() => {
+    ((Fm = X()), Be(), Tt(), (Im = t(Gr(), 1)), nn(), Hl(), Zl(), Tm(), Dm(), Mm(), (Lm = gn()));
+  });
+function zm(e) {
+  let t = (0, Bm.c)(34),
+    { hostId: n, onLoginRequiredClick: r } = e,
+    i = Qn(),
+    a = Or(),
+    { error: o, state: s } = Ba(n),
+    c = ce(n);
+  if (s == null) return null;
+  let l =
+      o?.code === `update-required` ||
+      o?.code === `restart-required` ||
+      (o?.code === `login-required` && r == null),
+    u = o?.code === `login-required` && r != null,
+    d;
+  t[0] !== o || t[1] !== c.kind || t[2] !== i || t[3] !== u || t[4] !== s
+    ? ((d = Qa(i, {
+        canLogin: u,
+        error: o,
+        hostKind: c.kind,
+        state: s,
+        surface: `connection-status-badge`,
+      })),
+      (t[0] = o),
+      (t[1] = c.kind),
+      (t[2] = i),
+      (t[3] = u),
+      (t[4] = s),
+      (t[5] = d))
+    : (d = t[5]);
+  let { label: f, message: p } = d,
+    m;
+  t[6] === r
+    ? (m = t[7])
+    : ((m = (e) => {
+        (e.preventDefault(), e.stopPropagation(), r?.());
+      }),
+      (t[6] = r),
+      (t[7] = m));
+  let h = m,
+    g;
+  t[8] === a
+    ? (g = t[9])
+    : ((g = (e) => {
+        (e.preventDefault(), e.stopPropagation(), a(`/settings/connections`));
+      }),
+      (t[8] = a),
+      (t[9] = g));
+  let _ = g,
+    v = Um[s],
+    y;
+  t[10] === v.iconClassName
+    ? (y = t[11])
+    : ((y = Q(`icon-2xs inline-flex shrink-0 items-center justify-center`, v.iconClassName)),
+      (t[10] = v.iconClassName),
+      (t[11] = y));
+  let b = Hm[s],
+    x;
+  t[12] !== y || t[13] !== b
+    ? ((x = (0, Vm.jsx)(`span`, { className: y, children: b })),
+      (t[12] = y),
+      (t[13] = b),
+      (t[14] = x))
+    : (x = t[14]);
+  let S = x;
+  if (l || u) {
+    let e = Um[s],
+      n;
+    t[15] === e.dotClassName
+      ? (n = t[16])
+      : ((n = Q(
+          `no-drag icon-2xs inline-flex shrink-0 cursor-interaction items-center justify-center self-center overflow-hidden rounded-full border-0 bg-transparent p-0 text-current`,
+          e.dotClassName,
+        )),
+        (t[15] = e.dotClassName),
+        (t[16] = n));
+    let r = u ? h : _,
+      i;
+    t[17] !== f || t[18] !== S || t[19] !== r || t[20] !== n
+      ? ((i = (0, Vm.jsx)(`button`, {
+          type: `button`,
+          className: n,
+          "aria-label": f,
+          onClick: r,
+          children: S,
+        })),
+        (t[17] = f),
+        (t[18] = S),
+        (t[19] = r),
+        (t[20] = n),
+        (t[21] = i))
+      : (i = t[21]);
+    let a;
+    return (
+      t[22] !== i || t[23] !== p
+        ? ((a = (0, Vm.jsx)(Se, { tooltipContent: p, children: i })),
+          (t[22] = i),
+          (t[23] = p),
+          (t[24] = a))
+        : (a = t[24]),
+      a
+    );
+  }
+  let C = Um[s],
+    w;
+  t[25] === C.dotClassName
+    ? (w = t[26])
+    : ((w = Q(
+        `no-drag icon-2xs inline-flex shrink-0 items-center justify-center self-center overflow-hidden rounded-full`,
+        C.dotClassName,
+      )),
+      (t[25] = C.dotClassName),
+      (t[26] = w));
+  let T;
+  t[27] !== f || t[28] !== S || t[29] !== w
+    ? ((T = (0, Vm.jsx)(`span`, { className: w, "aria-label": f, role: `img`, children: S })),
+      (t[27] = f),
+      (t[28] = S),
+      (t[29] = w),
+      (t[30] = T))
+    : (T = t[30]);
+  let E;
+  return (
+    t[31] !== T || t[32] !== p
+      ? ((E = (0, Vm.jsx)(Se, { tooltipContent: p, children: T })),
+        (t[31] = T),
+        (t[32] = p),
+        (t[33] = E))
+      : (E = t[33]),
+    E
+  );
+}
+var Bm,
+  Vm,
+  Hm,
+  Um,
+  Wm = e(() => {
+    ((Bm = X()),
+      Be(),
+      I(),
+      wt(),
+      Va(),
+      Ga(),
+      Nt(),
+      fs(),
+      mt(),
+      hn(),
+      (Vm = gn()),
+      (Hm = {
+        connecting: (0, Vm.jsx)(Kt, {}),
+        restarting: (0, Vm.jsx)(Kt, {}),
+        connected: (0, Vm.jsx)(`span`, {
+          "aria-hidden": !0,
+          className: `block size-2 rounded-full bg-green-500`,
+        }),
+        disconnected: (0, Vm.jsx)(`span`, {
+          "aria-hidden": !0,
+          className: `block size-2 rounded-full bg-gray-400`,
+        }),
+        error: (0, Vm.jsx)(ps, {}),
+      }),
+      (Um = {
+        connecting: {
+          dotClassName: `text-token-description-foreground`,
+          iconClassName: `motion-safe:animate-spin`,
+        },
+        restarting: {
+          dotClassName: `text-token-charts-blue`,
+          iconClassName: `motion-safe:animate-spin text-token-charts-blue`,
+        },
+        connected: { dotClassName: `text-token-charts-green` },
+        disconnected: { dotClassName: `text-token-description-foreground` },
+        error: { dotClassName: `text-token-charts-red`, iconClassName: `text-token-charts-red` },
+      }));
+  });
+function Gm(e) {
+  let t = (0, Km.c)(3),
+    { className: n, open: r } = e,
+    i = r ? Lo : Ur,
+    a;
+  return (
+    t[0] !== i || t[1] !== n
+      ? ((a = (0, qm.jsx)(i, { className: n })), (t[0] = i), (t[1] = n), (t[2] = a))
+      : (a = t[2]),
+    a
+  );
+}
+var Km,
+  qm,
+  Jm = e(() => {
+    ((Km = X()), Mo(), Dt(), (qm = gn()));
+  }),
+  Ym,
+  Xm,
+  Zm = e(() => {
+    (t(Gr()),
+      (Ym = gn()),
+      (Xm = (e) =>
+        (0, Ym.jsx)(`svg`, {
+          xmlns: `http://www.w3.org/2000/svg`,
+          width: 20,
+          height: 20,
+          fill: `currentColor`,
+          viewBox: `0 0 20 20`,
+          ...e,
+          children: (0, Ym.jsx)(`path`, {
+            d: `M1.835 10c0-4.02 3.209-7.278 7.263-7.701l.134-.001a.666.666 0 0 1 .003 1.323l-.32.041C5.628 4.153 3.165 6.83 3.165 10c0 1.454.514 2.797 1.388 3.877.122.151.172.35.136.541-.095.508-.23 1.001-.384 1.485a12.883 12.883 0 0 0 1.823-.375l.126-.023a.665.665 0 0 1 .37.077 7.144 7.144 0 0 0 3.376.836c3.534 0 6.397-2.505 6.79-5.666l.028-.132a.665.665 0 0 1 1.29.295l-.053.361c-.646 3.699-4.031 6.472-8.055 6.472a8.486 8.486 0 0 1-3.766-.872c-.794.21-1.607.351-2.455.425l-.405.03a.666.666 0 0 1-.661-.902c.253-.66.465-1.311.61-1.969A7.45 7.45 0 0 1 1.834 10Zm11.838-6.888a2.434 2.434 0 0 1 3.256.167l.167.186a2.433 2.433 0 0 1 0 3.07l-.167.186-4.215 4.214a3.998 3.998 0 0 1-1.944 1.072l-.318.058-1.816.26a.666.666 0 0 1-.752-.753l.259-1.816.058-.319a3.999 3.999 0 0 1 1.072-1.943l4.215-4.215.185-.167Zm2.315 1.109a1.103 1.103 0 0 0-1.475-.076l-.084.076-4.215 4.214a2.668 2.668 0 0 0-.715 1.296l-.039.213-.135.939.94-.134.212-.039c.49-.111.94-.359 1.296-.716l4.215-4.215.076-.083c.33-.404.33-.988 0-1.392l-.076-.083Z`,
+          }),
+        })));
+  }),
+  Qm,
+  $m,
+  eh = e(() => {
+    (t(Gr()),
+      (Qm = gn()),
+      ($m = (e) =>
+        (0, Qm.jsx)(`svg`, {
+          width: 12,
+          height: 12,
+          viewBox: `0 0 12 12`,
+          fill: `none`,
+          xmlns: `http://www.w3.org/2000/svg`,
+          ...e,
+          children: (0, Qm.jsx)(`path`, {
+            d: `M3.75 3.63838L3.75 8.36129C3.75 8.85447 4.29447 9.15336 4.71055 8.88858L8.42137 6.52713C8.80732 6.28153 8.80732 5.71815 8.42137 5.47255L4.71055 3.11113C4.29447 2.84631 3.75 3.14518 3.75 3.63838Z`,
+            fill: `currentColor`,
+          }),
+        })));
+  });
+function th(e, t, n) {
+  (n.projectKind === `remote`
+    ? Bn(e, { projectId: n.projectId, projectKind: `remote` })
+    : lr.select(e, n),
+    t(`/`, { state: { sidebarMode: `codex` } }));
+}
+var nh = e(() => {
+    (Rn(), Ct());
+  }),
+  rh,
+  ih,
+  ah = e(() => {
+    (t(Gr()),
+      (rh = gn()),
+      (ih = (e) =>
+        (0, rh.jsx)(`svg`, {
+          width: 16,
+          height: 16,
+          viewBox: `0 0 16 16`,
+          fill: `none`,
+          xmlns: `http://www.w3.org/2000/svg`,
+          ...e,
+          children: (0, rh.jsx)(`path`, {
+            fillRule: `evenodd`,
+            clipRule: `evenodd`,
+            d: `M4.75488 2.1416C5.30942 2.14164 5.74594 2.23705 6.11816 2.38965C6.48323 2.53934 6.76728 2.73817 7.00391 2.9043L7.02148 2.91699C7.47057 3.23238 7.8162 3.47463 8.55176 3.47461H11.333C12.7194 3.47484 13.8311 4.61217 13.8311 6L13.875 6.38281H13.8594C14.8729 6.38292 15.5982 7.3629 15.3018 8.33203L14.0068 12.5586C13.7703 13.3297 13.0576 13.8563 12.251 13.8564H3.83984C3.4199 13.8564 3.04144 13.7174 2.73828 13.4883L2.67383 13.4346C1.99907 12.9811 1.55577 12.2065 1.55566 11.3311L0.941406 4.66699C0.941406 3.2792 2.05315 2.1419 3.43945 2.1416H4.75488ZM4.7627 7.42969C4.56039 7.42972 4.3807 7.5625 4.32129 7.75586L3.08594 11.7891C2.96123 12.1965 3.18214 12.6072 3.54883 12.7529C3.63476 12.7768 3.74102 12.7958 3.88184 12.8086H12.251C12.5974 12.8085 12.9033 12.5821 13.0049 12.251L14.2998 8.02539C14.3901 7.72947 14.1688 7.42979 13.8594 7.42969H4.7627ZM3.43945 3.19141C2.64724 3.1917 1.99121 3.84481 1.99121 4.66699L2.49316 10.1201L3.32031 7.44922C3.51452 6.81571 4.10008 6.38284 4.7627 6.38281H12.8252L12.7812 6C12.7812 5.22902 12.2045 4.607 11.4795 4.53223L11.333 4.52441H8.55176C8.05756 4.52442 7.64464 4.44062 7.2666 4.2793C6.91453 4.12896 6.6274 3.92345 6.41797 3.77637L6.40039 3.76367C6.16212 3.59639 5.96404 3.46151 5.71973 3.36133C5.54113 3.28812 5.32754 3.2289 5.05176 3.2041L4.75488 3.19141H3.43945Z`,
+            fill: `currentColor`,
+          }),
+        })));
+  });
+function oh(e) {
+  let t = (0, sh.c)(14),
+    { children: n, expanded: r, header: i, projectId: a, shouldAnimate: o } = e,
+    s = o === void 0 ? !0 : o,
+    c;
+  t[0] === n
+    ? (c = t[1])
+    : ((c = (0, ch.jsx)(`div`, { className: `pt-0.5 pb-2`, children: n })), (t[0] = n), (t[1] = c));
+  let l = c;
+  if (!s) {
+    let e = r ? l : null,
+      n;
+    return (
+      t[2] !== i || t[3] !== e
+        ? ((n = (0, ch.jsxs)(ch.Fragment, { children: [i, e] })),
+          (t[2] = i),
+          (t[3] = e),
+          (t[4] = n))
+        : (n = t[4]),
+      n
+    );
+  }
+  let u;
+  t[5] !== l || t[6] !== r || t[7] !== a
+    ? ((u = r
+        ? (0, ch.jsx)(
+            Tn.div,
+            {
+              initial: { height: 0, opacity: 0 },
+              animate: { height: `auto`, opacity: 1, transitionEnd: { overflow: `visible` } },
+              exit: { height: 0, opacity: 0, overflow: `hidden` },
+              transition: rt,
+              className: `overflow-hidden`,
+              children: l,
+            },
+            `${a}-content`,
+          )
+        : null),
+      (t[5] = l),
+      (t[6] = r),
+      (t[7] = a),
+      (t[8] = u))
+    : (u = t[8]);
+  let d;
+  t[9] === u
+    ? (d = t[10])
+    : ((d = (0, ch.jsx)(qt, { initial: !1, children: u })), (t[9] = u), (t[10] = d));
+  let f;
+  return (
+    t[11] !== i || t[12] !== d
+      ? ((f = (0, ch.jsxs)(ch.Fragment, { children: [i, d] })),
+        (t[11] = i),
+        (t[12] = d),
+        (t[13] = f))
+      : (f = t[13]),
+    f
+  );
+}
+var sh,
+  ch,
+  lh = e(() => {
+    ((sh = X()), Fn(), ut(), (ch = gn()));
+  });
+function uh(e) {
+  let t = (0, mh.c)(57),
+    {
+      ref: n,
+      className: r,
+      actions: i,
+      collapsed: a,
+      contentClassName: o,
+      dragHandleListeners: s,
+      dragHandleRef: c,
+      icon: l,
+      isActive: u,
+      isDisabled: d,
+      ariaLabel: f,
+      label: p,
+      labelEnd: m,
+      onContextMenu: h,
+      onPress: g,
+      projectId: _,
+      rowAttributes: v,
+      selectAction: y,
+      toggle: b,
+      trailingContent: x,
+    } = e,
+    S = u === void 0 ? !1 : u,
+    C = d === void 0 ? !1 : d,
+    w;
+  t[0] !== C || t[1] !== g
+    ? ((w = (e) => {
+        C || e.defaultPrevented || e.button !== 0 || g();
+      }),
+      (t[0] = C),
+      (t[1] = g),
+      (t[2] = w))
+    : (w = t[2]);
+  let T = w,
+    E;
+  t[3] !== C || t[4] !== g
+    ? ((E = (e) => {
+        C ||
+          e.defaultPrevented ||
+          (e.currentTarget === e.target &&
+            ((e.key !== `Enter` && e.key !== ` `) || (e.preventDefault(), g())));
+      }),
+      (t[3] = C),
+      (t[4] = g),
+      (t[5] = E))
+    : (E = t[5]);
+  let D = E,
+    O;
+  t[6] !== a || t[7] !== p || t[8] !== _
+    ? ((O = fn.sidebarProjectRow({ collapsed: a, label: p, projectId: _ })),
+      (t[6] = a),
+      (t[7] = p),
+      (t[8] = _),
+      (t[9] = O))
+    : (O = t[9]);
+  let k = S && `bg-token-list-hover-background`,
+    A = C && `text-token-description-foreground opacity-70`,
+    j;
+  t[10] !== r || t[11] !== k || t[12] !== A
+    ? ((j = Q(
+        `group/folder-row group relative flex h-[var(--height-token-row)] cursor-interaction items-center justify-between overflow-x-hidden rounded-[var(--radius-token-row)] text-sm text-token-foreground hover:bg-token-list-hover-background focus-visible:outline focus-visible:outline-offset-2`,
+        k,
+        A,
+        r,
+      )),
+      (t[10] = r),
+      (t[11] = k),
+      (t[12] = A),
+      (t[13] = j))
+    : (j = t[13]);
+  let M = C ? -1 : 0,
+    N = f ?? p,
+    P = S ? `page` : void 0,
+    F = b?.expanded,
+    I = C || void 0,
+    L;
+  t[14] === l
+    ? (L = t[15])
+    : ((L = (0, hh.jsx)(`span`, {
+        className: `relative flex h-6 w-6 items-center justify-center`,
+        children: l,
+      })),
+      (t[14] = l),
+      (t[15] = L));
+  let R = C ? `text-token-description-foreground` : `text-token-foreground`,
+    z = s != null && `cursor-interaction`,
+    B;
+  t[16] !== o || t[17] !== R || t[18] !== z
+    ? ((B = Q(
+        `flex min-w-0 flex-1 items-center gap-2 whitespace-nowrap rounded-md py-1 pr-0 text-left text-base`,
+        R,
+        z,
+        o,
+      )),
+      (t[16] = o),
+      (t[17] = R),
+      (t[18] = z),
+      (t[19] = B))
+    : (B = t[19]);
+  let ee;
+  t[20] === p
+    ? (ee = t[21])
+    : ((ee = (0, hh.jsx)(`span`, { className: `min-w-0 truncate pr-1`, children: p })),
+      (t[20] = p),
+      (t[21] = ee));
+  let te;
+  t[22] === b
+    ? (te = t[23])
+    : ((te = b == null ? null : (0, hh.jsx)(dh, { ...b })), (t[22] = b), (t[23] = te));
+  let V;
+  t[24] !== m || t[25] !== ee || t[26] !== te
+    ? ((V = (0, hh.jsxs)(`span`, {
+        className: `flex min-w-0 flex-1 items-center gap-0.5`,
+        children: [ee, m, te],
+      })),
+      (t[24] = m),
+      (t[25] = ee),
+      (t[26] = te),
+      (t[27] = V))
+    : (V = t[27]);
+  let H;
+  t[28] !== V || t[29] !== x
+    ? ((H = (0, hh.jsxs)(`span`, {
+        className: `flex min-w-0 flex-1 items-center gap-2 whitespace-nowrap`,
+        children: [V, x],
+      })),
+      (t[28] = V),
+      (t[29] = x),
+      (t[30] = H))
+    : (H = t[30]);
+  let U;
+  t[31] !== s || t[32] !== c || t[33] !== B || t[34] !== H
+    ? ((U = (0, hh.jsx)(`div`, { ref: c, className: B, ...s, children: H })),
+      (t[31] = s),
+      (t[32] = c),
+      (t[33] = B),
+      (t[34] = H),
+      (t[35] = U))
+    : (U = t[35]);
+  let W;
+  t[36] !== L || t[37] !== U
+    ? ((W = (0, hh.jsxs)(`div`, {
+        className: `flex min-w-0 flex-1 items-center gap-1 pl-0.5`,
+        children: [L, U],
+      })),
+      (t[36] = L),
+      (t[37] = U),
+      (t[38] = W))
+    : (W = t[38]);
+  let G;
+  t[39] === y
+    ? (G = t[40])
+    : ((G =
+        y == null
+          ? null
+          : (0, hh.jsx)(`button`, {
+              type: `button`,
+              "aria-hidden": `true`,
+              tabIndex: -1,
+              className: `sr-only`,
+              ...fn.sidebarProjectSelect,
+              onClick: (e) => {
+                (e.stopPropagation(), y.onSelect());
+              },
+            })),
+      (t[39] = y),
+      (t[40] = G));
+  let ne;
+  return (
+    t[41] !== i ||
+    t[42] !== T ||
+    t[43] !== D ||
+    t[44] !== h ||
+    t[45] !== n ||
+    t[46] !== v ||
+    t[47] !== N ||
+    t[48] !== P ||
+    t[49] !== F ||
+    t[50] !== I ||
+    t[51] !== W ||
+    t[52] !== G ||
+    t[53] !== O ||
+    t[54] !== j ||
+    t[55] !== M
+      ? ((ne = (0, hh.jsxs)(`div`, {
+          ...v,
+          ...O,
+          ref: n,
+          className: j,
+          role: `button`,
+          tabIndex: M,
+          onClick: T,
+          onKeyDown: D,
+          onContextMenu: h,
+          "aria-label": N,
+          "aria-current": P,
+          "aria-expanded": F,
+          "aria-disabled": I,
+          children: [W, i, G],
+        })),
+        (t[41] = i),
+        (t[42] = T),
+        (t[43] = D),
+        (t[44] = h),
+        (t[45] = n),
+        (t[46] = v),
+        (t[47] = N),
+        (t[48] = P),
+        (t[49] = F),
+        (t[50] = I),
+        (t[51] = W),
+        (t[52] = G),
+        (t[53] = O),
+        (t[54] = j),
+        (t[55] = M),
+        (t[56] = ne))
+      : (ne = t[56]),
+    ne
+  );
+}
+function dh(e) {
+  let t = (0, mh.c)(14),
+    { expanded: n, onToggle: r } = e,
+    i = Qn(),
+    a;
+  t[0] !== n || t[1] !== i
+    ? ((a = n
+        ? i.formatMessage({
+            id: `sidebarElectron.collapseProject`,
+            defaultMessage: `Collapse project`,
+            description: `Collapse project button label`,
+          })
+        : i.formatMessage({
+            id: `sidebarElectron.expandProject`,
+            defaultMessage: `Expand project`,
+            description: `Expand project button label`,
+          })),
+      (t[0] = n),
+      (t[1] = i),
+      (t[2] = a))
+    : (a = t[2]);
+  let o;
+  t[3] === r
+    ? (o = t[4])
+    : ((o = (e) => {
+        (e.stopPropagation(), r());
+      }),
+      (t[3] = r),
+      (t[4] = o));
+  let s = n ? `rotate-0` : `-rotate-90`,
+    c;
+  t[5] === s
+    ? (c = t[6])
+    : ((c = Q(`icon-2xs shrink-0 transition-transform`, s)), (t[5] = s), (t[6] = c));
+  let l;
+  t[7] === c
+    ? (l = t[8])
+    : ((l = (0, hh.jsx)(Ne, { "aria-hidden": `true`, className: c })), (t[7] = c), (t[8] = l));
+  let u;
+  return (
+    t[9] !== n || t[10] !== a || t[11] !== o || t[12] !== l
+      ? ((u = (0, hh.jsx)(`button`, {
+          type: `button`,
+          "aria-expanded": n,
+          "aria-label": a,
+          onClick: o,
+          onPointerDown: ph,
+          onKeyDown: fh,
+          className: `-ml-1 flex h-5 w-5 shrink-0 cursor-interaction items-center justify-center rounded-sm text-token-foreground opacity-0 group-hover/folder-row:opacity-100 hover:opacity-100 focus-visible:opacity-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2`,
+          children: l,
+        })),
+        (t[9] = n),
+        (t[10] = a),
+        (t[11] = o),
+        (t[12] = l),
+        (t[13] = u))
+      : (u = t[13]),
+    u
+  );
+}
+function fh(e) {
+  (e.key === `Enter` || e.key === ` `) && e.stopPropagation();
+}
+function ph(e) {
+  e.stopPropagation();
+}
+var mh,
+  hh,
+  gh = e(() => {
+    ((mh = X()), Be(), I(), ur(), p(), (hh = gn()));
+  });
+function _h(e) {
+  let t = (0, Ch.c)(24),
+    {
+      action: n,
+      actionTooltipContent: r,
+      actionTooltipDisabled: i,
+      indicator: a,
+      isMenuOpen: o,
+      menu: s,
+    } = e,
+    c = o ? `opacity-100` : `opacity-0 group-hover/folder-row:opacity-100`,
+    l;
+  t[0] !== c || t[1] !== s
+    ? ((l = s == null ? null : (0, Th.jsx)(`div`, { className: c, children: s })),
+      (t[0] = c),
+      (t[1] = s),
+      (t[2] = l))
+    : (l = t[2]);
+  let u = o && `w-6`,
+    d;
+  t[3] === u
+    ? (d = t[4])
+    : ((d = Q(
+        `mr-0.5 grid h-6 max-w-48 min-w-6 shrink grid-cols-1 items-center group-hover/folder-row:w-6`,
+        u,
+      )),
+      (t[3] = u),
+      (t[4] = d));
+  let f;
+  t[5] !== a || t[6] !== o
+    ? ((f =
+        a == null
+          ? null
+          : (0, Th.jsx)(`div`, {
+              className: Q(
+                `col-start-1 row-start-1 flex min-w-0 items-center justify-end group-hover/folder-row:invisible`,
+                o && `invisible`,
+              ),
+              children: a,
+            })),
+      (t[5] = a),
+      (t[6] = o),
+      (t[7] = f))
+    : (f = t[7]);
+  let p = i ?? r == null,
+    m;
+  t[8] === c
+    ? (m = t[9])
+    : ((m = Q(`col-start-1 row-start-1 inline-flex justify-self-end`, c)), (t[8] = c), (t[9] = m));
+  let h;
+  t[10] !== n || t[11] !== m
+    ? ((h = (0, Th.jsx)(`span`, { className: m, children: n })),
+      (t[10] = n),
+      (t[11] = m),
+      (t[12] = h))
+    : (h = t[12]);
+  let g;
+  t[13] !== r || t[14] !== p || t[15] !== h
+    ? ((g = (0, Th.jsx)(Se, { tooltipContent: r, delayOpen: !0, disabled: p, children: h })),
+      (t[13] = r),
+      (t[14] = p),
+      (t[15] = h),
+      (t[16] = g))
+    : (g = t[16]);
+  let _;
+  t[17] !== d || t[18] !== f || t[19] !== g
+    ? ((_ = (0, Th.jsxs)(`div`, { className: d, children: [f, g] })),
+      (t[17] = d),
+      (t[18] = f),
+      (t[19] = g),
+      (t[20] = _))
+    : (_ = t[20]);
+  let v;
+  return (
+    t[21] !== l || t[22] !== _
+      ? ((v = (0, Th.jsxs)(`div`, {
+          className: `flex min-w-0 gap-1`,
+          onClick: bh,
+          onKeyDown: yh,
+          onPointerDown: vh,
+          children: [l, _],
+        })),
+        (t[21] = l),
+        (t[22] = _),
+        (t[23] = v))
+      : (v = t[23]),
+    v
+  );
+}
+function vh(e) {
+  e.stopPropagation();
+}
+function yh(e) {
+  (e.key === `Enter` || e.key === ` `) && e.stopPropagation();
+}
+function bh(e) {
+  e.stopPropagation();
+}
+function xh(e) {
+  let t = (0, Ch.c)(19),
+    { children: n, onCloseAutoFocus: r, onOpenChange: i, open: a, triggerAriaLabel: o } = e,
+    s = Vr(),
+    [c, l] = (0, wh.useState)(!1),
+    u;
+  t[0] !== i || t[1] !== s
+    ? ((u = (e) => {
+        (l(!e && !s), i(e));
+      }),
+      (t[0] = i),
+      (t[1] = s),
+      (t[2] = u))
+    : (u = t[2]);
+  let d = u,
+    f;
+  t[3] === Symbol.for(`react.memo_cache_sentinel`) ? ((f = () => l(!1)), (t[3] = f)) : (f = t[3]);
+  let p;
+  t[4] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((p = (0, Th.jsx)(Ki, { className: `icon-xs` })), (t[4] = p))
+    : (p = t[4]);
+  let m;
+  t[5] !== a || t[6] !== o
+    ? ((m = (0, Th.jsx)(`div`, {
+        className: `pr-0.5`,
+        children: (0, Th.jsx)(Sh, {
+          ariaExpanded: a,
+          ariaHaspopup: `menu`,
+          ariaLabel: o,
+          children: p,
+        }),
+      })),
+      (t[5] = a),
+      (t[6] = o),
+      (t[7] = m))
+    : (m = t[7]);
+  let h;
+  t[8] !== n || t[9] !== d || t[10] !== c || t[11] !== a
+    ? ((h = a || c ? n(d) : null), (t[8] = n), (t[9] = d), (t[10] = c), (t[11] = a), (t[12] = h))
+    : (h = t[12]);
+  let g;
+  return (
+    t[13] !== d || t[14] !== r || t[15] !== a || t[16] !== m || t[17] !== h
+      ? ((g = (0, Th.jsx)(qe, {
+          open: a,
+          onOpenChange: d,
+          fadeExitAnimation: !0,
+          onExitAnimationEnd: f,
+          onCloseAutoFocus: r,
+          side: `bottom`,
+          align: `end`,
+          contentWidth: `xs`,
+          triggerButton: m,
+          children: h,
+        })),
+        (t[13] = d),
+        (t[14] = r),
+        (t[15] = a),
+        (t[16] = m),
+        (t[17] = h),
+        (t[18] = g))
+      : (g = t[18]),
+    g
+  );
+}
+function Sh(e) {
+  let t = (0, Ch.c)(9),
+    { ariaExpanded: n, ariaHaspopup: r, ariaLabel: i, children: a, disabled: o, onClick: s } = e,
+    c;
+  t[0] === s
+    ? (c = t[1])
+    : ((c = (e) => {
+        (e.stopPropagation(), s?.());
+      }),
+      (t[0] = s),
+      (t[1] = c));
+  let l;
+  return (
+    t[2] !== n || t[3] !== r || t[4] !== i || t[5] !== a || t[6] !== o || t[7] !== c
+      ? ((l = (0, Th.jsx)(Vt, {
+          className: `h-6 w-6 rounded-md !p-1`,
+          color: `ghostMuted`,
+          size: `icon`,
+          "aria-label": i,
+          "aria-haspopup": r,
+          "aria-expanded": n,
+          disabled: o,
+          onClick: c,
+          children: a,
+        })),
+        (t[2] = n),
+        (t[3] = r),
+        (t[4] = i),
+        (t[5] = a),
+        (t[6] = o),
+        (t[7] = c),
+        (t[8] = l))
+      : (l = t[8]),
+    l
+  );
+}
+var Ch,
+  wh,
+  Th,
+  Eh = e(() => {
+    ((Ch = X()), Be(), (wh = t(Gr(), 1)), Hn(), st(), Nt(), Sr(), $i(), (Th = gn()));
+  }),
+  Dh,
+  Oh = e(() => {
+    Dh =
+      (...e) =>
+      (t) => {
+        if (t == null) {
+          e.forEach((e) => {
+            if (typeof e == `function`) e(null);
+            else if (e) {
+              let t = e;
+              t.current = null;
+            }
+          });
+          return;
+        }
+        let n = [];
+        if (
+          (e.forEach((e) => {
+            if (typeof e == `function`) {
+              let r = e(t);
+              typeof r == `function` ? n.push(r) : n.push(() => e(null));
+            } else if (e) {
+              let r = e;
+              ((r.current = t),
+                n.push(() => {
+                  r.current = null;
+                }));
+            }
+          }),
+          n.length !== 0)
+        )
+          return () => {
+            n.forEach((e) => e());
+          };
+      };
+  });
+function kh({ hostId: e, groupPath: t, label: n, prompt: r }) {
+  return {
+    hostId: e,
+    label: n,
+    sourceWorkspaceRoot: t,
+    startingState: { type: `branch`, branchName: `HEAD` },
+    localEnvironmentConfigPath: null,
+    prompt: r,
+    launchMode: `create-stable-worktree`,
+    startConversationParamsInput: null,
+    sourceConversationId: null,
+    sourceCollaborationMode: null,
+  };
+}
+var Ah = e(() => {});
+function jh(e) {
+  let t = (0, vg.c)(73),
+    {
+      pendingStableWorktrees: n,
+      shouldAnimateGroups: r,
+      allowProjectReorder: i,
+      allowThreadReorder: a,
+      threadOrderIsPrecomputed: o,
+      activeProjectId: s,
+      projectRowBehavior: c,
+      showProjectHoverCard: l,
+      showProjectPinAction: u,
+      showPinActionOnHover: d,
+      floatStatusIconsRight: f,
+      hideThreadTimestamps: p,
+      itemWrapper: m,
+      locationIdPrefix: h,
+      maxGroups: g,
+      onProjectOrderChange: _,
+      showMoreLabel: v,
+      showLessLabel: y,
+      ...b
+    } = e,
+    x = n === void 0 ? xg : n,
+    S = i === void 0 ? !0 : i,
+    w = a === void 0 ? !1 : a,
+    T = o === void 0 ? !1 : o,
+    E = s === void 0 ? null : s,
+    D = c === void 0 ? `expand` : c,
+    O = l === void 0 ? !1 : l,
+    k = u === void 0 ? !1 : u,
+    A = d === void 0 ? !1 : d,
+    j = f === void 0 ? !1 : f,
+    M = p === void 0 ? !1 : p,
+    N = h === void 0 ? `project` : h,
+    P = Re(ee),
+    F = C(Et),
+    I = b.organizeMode === `connection` ? (b.connectionGroups?.map(Ih) ?? []) : b.groups.map(Fh),
+    L;
+  t[0] !== b.organizeMode || t[1] !== I
+    ? ((L = { groupIds: I, organizeMode: b.organizeMode }),
+      (t[0] = b.organizeMode),
+      (t[1] = I),
+      (t[2] = L))
+    : (L = t[2]);
+  let R = Z(Mn, L),
+    z;
+  t[3] !== b.organizeMode || t[4] !== _ || t[5] !== I || t[6] !== P
+    ? ((z = (e) => (_ == null ? Te(P, b.organizeMode, I, e) : _(e))),
+      (t[3] = b.organizeMode),
+      (t[4] = _),
+      (t[5] = I),
+      (t[6] = P),
+      (t[7] = z))
+    : (z = t[7]);
+  let B = Pn(z),
+    te;
+  t[8] !== R || t[9] !== B
+    ? ((te = { groupIds: R, reorderGroups: B }), (t[8] = R), (t[9] = B), (t[10] = te))
+    : (te = t[10]);
+  let { controller: V, groupIds: H } = Rh(te),
+    U = g != null && H.length > g,
+    W,
+    G;
+  if (
+    t[11] !== E ||
+    t[12] !== S ||
+    t[13] !== w ||
+    t[14] !== V ||
+    t[15] !== H ||
+    t[16] !== j ||
+    t[17] !== b.connectionGroups ||
+    t[18] !== b.groups ||
+    t[19] !== b.organizeMode ||
+    t[20] !== U ||
+    t[21] !== M ||
+    t[22] !== m ||
+    t[23] !== N ||
+    t[24] !== g ||
+    t[25] !== D ||
+    t[26] !== r ||
+    t[27] !== F ||
+    t[28] !== A ||
+    t[29] !== O ||
+    t[30] !== k ||
+    t[31] !== T
+  ) {
+    G = U && !F ? H.slice(0, g) : H;
+    let e = new Set(G),
+      n;
+    t[34] !== E ||
+    t[35] !== S ||
+    t[36] !== w ||
+    t[37] !== V ||
+    t[38] !== j ||
+    t[39] !== M ||
+    t[40] !== m ||
+    t[41] !== N ||
+    t[42] !== D ||
+    t[43] !== r ||
+    t[44] !== A ||
+    t[45] !== O ||
+    t[46] !== k ||
+    t[47] !== T
+      ? ((n = (e) =>
+          (0, $.jsx)(
+            Kh,
+            {
+              group: e,
+              allowReorder: S,
+              allowThreadReorder: w,
+              threadOrderIsPrecomputed: T,
+              activeProjectId: E,
+              groupDndController: V,
+              projectRowBehavior: D,
+              shouldAnimateGroups: r,
+              showProjectHoverCard: O,
+              showProjectPinAction: k,
+              showPinActionOnHover: A,
+              floatStatusIconsRight: j,
+              hideThreadTimestamps: M,
+              itemWrapper: m,
+              locationIdPrefix: N,
+            },
+            `${e.projectId}-${e.repositoryData?.ownerRepo?.repoName}`,
+          )),
+        (t[34] = E),
+        (t[35] = S),
+        (t[36] = w),
+        (t[37] = V),
+        (t[38] = j),
+        (t[39] = M),
+        (t[40] = m),
+        (t[41] = N),
+        (t[42] = D),
+        (t[43] = r),
+        (t[44] = A),
+        (t[45] = O),
+        (t[46] = k),
+        (t[47] = T),
+        (t[48] = n))
+      : (n = t[48]);
+    let i = n;
+    ((W =
+      b.organizeMode === `connection`
+        ? b.connectionGroups == null
+          ? null
+          : Hh(
+              b.connectionGroups.filter((t) => e.has(t.key)),
+              G,
+              Ph,
+            ).map((e) =>
+              (0, $.jsx)(
+                qh,
+                {
+                  group: e,
+                  itemWrapper: m,
+                  groupDndController: V,
+                  shouldAnimateGroups: r,
+                  showPinActionOnHover: A,
+                  floatStatusIconsRight: j,
+                  hideThreadTimestamps: M,
+                },
+                e.key,
+              ),
+            )
+        : Hh(
+            b.groups.filter((t) => e.has(t.projectId)),
+            G,
+            Nh,
+          ).map(i)),
+      (t[11] = E),
+      (t[12] = S),
+      (t[13] = w),
+      (t[14] = V),
+      (t[15] = H),
+      (t[16] = j),
+      (t[17] = b.connectionGroups),
+      (t[18] = b.groups),
+      (t[19] = b.organizeMode),
+      (t[20] = U),
+      (t[21] = M),
+      (t[22] = m),
+      (t[23] = N),
+      (t[24] = g),
+      (t[25] = D),
+      (t[26] = r),
+      (t[27] = F),
+      (t[28] = A),
+      (t[29] = O),
+      (t[30] = k),
+      (t[31] = T),
+      (t[32] = W),
+      (t[33] = G));
+  } else ((W = t[32]), (G = t[33]));
+  let ne = W,
+    K;
+  t[49] === x ? (K = t[50]) : ((K = x.map(Mh)), (t[49] = x), (t[50] = K));
+  let q = K,
+    J;
+  t[51] !== U || t[52] !== P || t[53] !== F || t[54] !== y || t[55] !== v
+    ? ((J = U
+        ? (0, $.jsx)(`div`, {
+            className: `py-1`,
+            role: `listitem`,
+            children: (0, $.jsx)(Vt, {
+              className: `text-token-description-foreground hover:text-token-foreground`,
+              color: `ghostMuted`,
+              size: `default`,
+              onClick: () => {
+                Gn(P, !F);
+              },
+              children: F ? y : v,
+            }),
+          })
+        : null),
+      (t[51] = U),
+      (t[52] = P),
+      (t[53] = F),
+      (t[54] = y),
+      (t[55] = v),
+      (t[56] = J))
+    : (J = t[56]);
+  let Y;
+  t[57] !== ne || t[58] !== J
+    ? ((Y = (0, $.jsxs)(`div`, {
+        role: `list`,
+        className: `flex flex-col gap-px`,
+        children: [ne, J],
+      })),
+      (t[57] = ne),
+      (t[58] = J),
+      (t[59] = Y))
+    : (Y = t[59]);
+  let re = Y,
+    ie;
+  t[60] === q
+    ? (ie = t[61])
+    : ((ie =
+        q.length > 0 ? (0, $.jsx)(`div`, { role: `list`, className: `mb-1`, children: q }) : null),
+      (t[60] = q),
+      (t[61] = ie));
+  let ae;
+  t[62] === G ? (ae = t[63]) : ((ae = G.map(Bh)), (t[62] = G), (t[63] = ae));
+  let oe;
+  t[64] !== re || t[65] !== b.organizeMode
+    ? ((oe =
+        b.organizeMode === `connection`
+          ? (0, $.jsx)(Ic, { containerId: `chats`, children: re })
+          : re),
+      (t[64] = re),
+      (t[65] = b.organizeMode),
+      (t[66] = oe))
+    : (oe = t[66]);
+  let se;
+  t[67] !== ae || t[68] !== oe
+    ? ((se = (0, $.jsx)(yi, { items: ae, strategy: ha, children: oe })),
+      (t[67] = ae),
+      (t[68] = oe),
+      (t[69] = se))
+    : (se = t[69]);
+  let ce;
+  return (
+    t[70] !== ie || t[71] !== se
+      ? ((ce = (0, $.jsxs)(`div`, { children: [ie, se] })),
+        (t[70] = ie),
+        (t[71] = se),
+        (t[72] = ce))
+      : (ce = t[72]),
+    ce
+  );
+}
+function Mh(e) {
+  return (0, $.jsx)(Lh, { pendingWorktree: e }, `pending-stable-root:${e.id}`);
+}
+function Nh(e) {
+  return e.projectId;
+}
+function Ph(e) {
+  return e.key;
+}
+function Fh(e) {
+  return e.projectId;
+}
+function Ih(e) {
+  return e.key;
+}
+function Lh(e) {
+  let t = (0, vg.c)(20),
+    { pendingWorktree: n } = e,
+    r = Re(ee),
+    i = Or(),
+    a;
+  t[0] === n.id ? (a = t[1]) : ((a = te(n.id)), (t[0] = n.id), (t[1] = a));
+  let o = a,
+    s = Z(h, o),
+    c;
+  t[2] !== i || t[3] !== n.clientThreadId || t[4] !== n.id || t[5] !== r || t[6] !== o
+    ? ((c = () => {
+        (ks(r, o), i(aa(n.id, n.clientThreadId)));
+      }),
+      (t[2] = i),
+      (t[3] = n.clientThreadId),
+      (t[4] = n.id),
+      (t[5] = r),
+      (t[6] = o),
+      (t[7] = c))
+    : (c = t[7]);
+  let l = c,
+    u = s && `bg-token-list-hover-background`,
+    d;
+  t[8] === u
+    ? (d = t[9])
+    : ((d = Q(
+        `text-token-foreground electron:opacity-75 group/folder-row flex h-[var(--height-token-row)] items-center justify-between overflow-x-hidden rounded-[var(--radius-token-row)] text-sm hover:bg-token-list-hover-background focus-visible:outline focus-visible:outline-offset-2`,
+        u,
+      )),
+      (t[8] = u),
+      (t[9] = d));
+  let f;
+  t[10] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((f = (0, $.jsx)(`span`, {
+        className: `relative flex h-6 w-6 items-center justify-center`,
+        children: (0, $.jsx)(wn, { className: `icon-xs` }),
+      })),
+      (t[10] = f))
+    : (f = t[10]);
+  let p;
+  t[11] === n.label
+    ? (p = t[12])
+    : ((p = (0, $.jsx)(`span`, {
+        className: `flex min-w-0 items-center gap-1.5 whitespace-nowrap`,
+        children: (0, $.jsx)(`span`, { className: `truncate pr-1`, children: n.label }),
+      })),
+      (t[11] = n.label),
+      (t[12] = p));
+  let m;
+  t[13] !== l || t[14] !== n.label || t[15] !== p
+    ? ((m = (0, $.jsxs)(`button`, {
+        type: `button`,
+        className: `flex min-w-0 flex-1 items-center gap-1 pr-1.5 pl-0.5 text-left`,
+        onClick: l,
+        "aria-label": n.label,
+        children: [f, p],
+      })),
+      (t[13] = l),
+      (t[14] = n.label),
+      (t[15] = p),
+      (t[16] = m))
+    : (m = t[16]);
+  let g;
+  return (
+    t[17] !== d || t[18] !== m
+      ? ((g = (0, $.jsx)(`div`, { role: `listitem`, className: d, children: m })),
+        (t[17] = d),
+        (t[18] = m),
+        (t[19] = g))
+      : (g = t[19]),
+    g
+  );
+}
+function Rh(e) {
+  let t = (0, vg.c)(9),
+    { groupIds: n, reorderGroups: r } = e,
+    [i, a] = (0, yg.useState)(null),
+    o;
+  t[0] !== n || t[1] !== i
+    ? ((o = i != null && zh(i, n) ? i : n), (t[0] = n), (t[1] = i), (t[2] = o))
+    : (o = t[2]);
+  let s = o,
+    c;
+  t[3] !== s || t[4] !== r
+    ? ((c = {
+        handleDragEnd: (e) => {
+          let { active: t, over: n } = e;
+          if (!n) return;
+          let i = Vh(String(t.id)),
+            o = Vh(String(n.id));
+          if (i == null || o == null || i === o) return;
+          let c = s.indexOf(i),
+            l = s.indexOf(o);
+          if (c === -1 || l === -1) return;
+          let u = Yr(s, c, l);
+          (a(u),
+            r(u).finally(() => {
+              a(null);
+            }));
+        },
+      }),
+      (t[3] = s),
+      (t[4] = r),
+      (t[5] = c))
+    : (c = t[5]);
+  let l;
+  return (
+    t[6] !== s || t[7] !== c
+      ? ((l = { controller: c, groupIds: s }), (t[6] = s), (t[7] = c), (t[8] = l))
+      : (l = t[8]),
+    l
+  );
+}
+function zh(e, t) {
+  if (e.length !== t.length) return !1;
+  let n = new Set(t);
+  return e.every((e) => n.has(e));
+}
+function Bh(e) {
+  return `sidebar-group:${e}`;
+}
+function Vh(e) {
+  return e.startsWith(`sidebar-group:`) ? e.slice(14) : null;
+}
+function Hh(e, t, n) {
+  let r = new Map(e.map((e) => [n(e), e])),
+    i = new Set(),
+    a = [];
+  for (let e of t) {
+    let t = r.get(e);
+    t != null && (a.push(t), i.add(e));
+  }
+  for (let t of e) i.has(n(t)) || a.push(t);
+  return a;
+}
+function Uh(e) {
+  let t = (0, vg.c)(15),
+    {
+      label: n,
+      suffix: r,
+      labelEnd: i,
+      suffixEnd: a,
+      labelTooltipContent: o,
+      suffixTooltipContent: s,
+    } = e,
+    c;
+  t[0] === n
+    ? (c = t[1])
+    : ((c = (0, $.jsx)(`span`, { className: `min-w-0 truncate pr-1`, children: n })),
+      (t[0] = n),
+      (t[1] = c));
+  let l = c,
+    u;
+  t[2] !== l || t[3] !== o
+    ? ((u = o == null ? l : (0, $.jsx)(Se, { delayOpen: !0, tooltipContent: o, children: l })),
+      (t[2] = l),
+      (t[3] = o),
+      (t[4] = u))
+    : (u = t[4]);
+  let d = u,
+    f;
+  t[5] !== i || t[6] !== d
+    ? ((f =
+        i == null
+          ? d
+          : (0, $.jsxs)(`span`, {
+              className: `flex min-w-0 flex-1 items-center gap-0.5`,
+              children: [d, i],
+            })),
+      (t[5] = i),
+      (t[6] = d),
+      (t[7] = f))
+    : (f = t[7]);
+  let p = f,
+    m;
+  t[8] !== r || t[9] !== a || t[10] !== s
+    ? ((m =
+        r == null
+          ? null
+          : (0, $.jsxs)(`span`, {
+              className: `flex max-w-[60%] min-w-0 shrink items-center gap-1 text-token-description-foreground`,
+              children: [
+                (0, $.jsx)(Se, {
+                  delayOpen: !0,
+                  tooltipContent: s,
+                  disabled: s == null,
+                  openWhen: `trigger-overflows`,
+                  children: (0, $.jsx)(`span`, { className: `min-w-0 truncate`, children: r }),
+                }),
+                a,
+              ],
+            })),
+      (t[8] = r),
+      (t[9] = a),
+      (t[10] = s),
+      (t[11] = m))
+    : (m = t[11]);
+  let h = m,
+    g;
+  return (
+    t[12] !== p || t[13] !== h
+      ? ((g = (0, $.jsxs)(`span`, {
+          className: `flex min-w-0 flex-1 items-center gap-1.5 whitespace-nowrap`,
+          children: [p, h],
+        })),
+        (t[12] = p),
+        (t[13] = h),
+        (t[14] = g))
+      : (g = t[14]),
+    g
+  );
+}
+function Wh(e) {
+  let t = (0, vg.c)(7),
+    { hostId: n } = e,
+    r = Qn(),
+    { state: i } = Ba(n);
+  if (i == null) {
+    let e;
+    t[0] === r
+      ? (e = t[1])
+      : ((e = r.formatMessage({
+          id: `sidebarElectron.connectionStatus.remoteLoading`,
+          defaultMessage: `Loading remote connection`,
+          description: `Accessible label for a remote connection status while it initializes`,
+        })),
+        (t[0] = r),
+        (t[1] = e));
+    let n;
+    t[2] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((n = (0, $.jsx)(wn, { className: `icon-2xs` })), (t[2] = n))
+      : (n = t[2]);
+    let i;
+    return (
+      t[3] === e
+        ? (i = t[4])
+        : ((i = (0, $.jsx)(`span`, {
+            "aria-label": e,
+            className: `inline-flex text-token-description-foreground`,
+            children: n,
+          })),
+          (t[3] = e),
+          (t[4] = i)),
+      i
+    );
+  }
+  let a;
+  return (
+    t[5] === n ? (a = t[6]) : ((a = (0, $.jsx)(zm, { hostId: n })), (t[5] = n), (t[6] = a)), a
+  );
+}
+function Gh(e) {
+  let t = (0, vg.c)(1),
+    { isWorktreeGroup: n } = e;
+  if (!(n !== void 0 && n)) return null;
+  let r;
+  return (
+    t[0] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((r = (0, $.jsx)(Se, {
+          tooltipContent: (0, $.jsx)(j, {
+            id: `sidebarElectron.worktreeGroupTooltip`,
+            defaultMessage: `This is a git worktree`,
+            description: `Tooltip shown next to a workspace root that is a git worktree`,
+          }),
+          children: (0, $.jsx)(Wi, {
+            className: `icon-xs shrink-0 text-token-description-foreground`,
+          }),
+        })),
+        (t[0] = r))
+      : (r = t[0]),
+    r
+  );
+}
+function Kh(e) {
+  let t = (0, vg.c)(120),
+    {
+      group: n,
+      allowReorder: r,
+      allowThreadReorder: i,
+      threadOrderIsPrecomputed: a,
+      activeProjectId: o,
+      groupDndController: s,
+      projectRowBehavior: c,
+      shouldAnimateGroups: l,
+      showProjectHoverCard: u,
+      showProjectPinAction: d,
+      showPinActionOnHover: f,
+      floatStatusIconsRight: p,
+      hideThreadTimestamps: m,
+      itemWrapper: h,
+      locationIdPrefix: g,
+    } = e,
+    _ = Re(ee),
+    y = Qn(),
+    b = Or(),
+    x = so(),
+    S = zs(),
+    w = ht(bt),
+    T = (0, yg.useContext)(Oc),
+    E = n.path,
+    D = n.projectId,
+    O = n.label || E || D,
+    { isExternalThreadDropTarget: k, isOver: A, setNodeRef: j } = Tc(`project:${D}`),
+    M = C(xt),
+    N = Z(Yt, D),
+    P = c === `open-project-page`,
+    F = P || N,
+    I = o === D,
+    L = Z(qr, n.threadKeys),
+    R = it(n, Z(ar, M)),
+    z;
+  t[0] !== n || t[1] !== M
+    ? ((z = ig({ group: n, localWorkspaceRoots: M })), (t[0] = n), (t[1] = M), (t[2] = z))
+    : (z = t[2]);
+  let B = z,
+    te = n.projectKind === `remote` ? (n.hostId ?? null) : null,
+    V = n.projectKind === `remote` ? (n.hostDisplayName ?? null) : null,
+    H = !!n.isCodexWorktree,
+    U = Md(D),
+    W;
+  t[3] === D ? (W = t[4]) : ((W = Bh(D)), (t[3] = D), (t[4] = W));
+  let G = !r,
+    ne;
+  t[5] !== s || t[6] !== D
+    ? ((ne = { kind: `sidebar-group`, controller: s, projectId: D }),
+      (t[5] = s),
+      (t[6] = D),
+      (t[7] = ne))
+    : (ne = t[7]);
+  let K;
+  t[8] !== W || t[9] !== G || t[10] !== ne
+    ? ((K = { id: W, disabled: G, data: ne }), (t[8] = W), (t[9] = G), (t[10] = ne), (t[11] = K))
+    : (K = t[11]);
+  let {
+      attributes: q,
+      listeners: J,
+      setNodeRef: Y,
+      setActivatorNodeRef: re,
+      transform: ie,
+      transition: ae,
+      isDragging: oe,
+    } = ja(K),
+    se;
+  t[12] !== O || t[13] !== y
+    ? ((se = y.formatMessage(
+        {
+          id: `sidebarElectron.newThreadInGroup`,
+          defaultMessage: `Start new chat in {folder}`,
+          description: `Button label to start a new thread within a folder`,
+        },
+        { folder: O },
+      )),
+      (t[12] = O),
+      (t[13] = y),
+      (t[14] = se))
+    : (se = t[14]);
+  let ce = se,
+    [le, ue] = (0, yg.useState)(!1),
+    de = n.projectKind === `remote` && n.hostId == null,
+    fe;
+  t[15] === y
+    ? (fe = t[16])
+    : ((fe = y.formatMessage({
+        id: `sidebarElectron.missingWorkspaceRoot`,
+        defaultMessage: `This project folder was deleted or moved`,
+        description: `Tooltip shown when a workspace root path no longer exists`,
+      })),
+      (t[15] = y),
+      (t[16] = fe));
+  let pe = fe,
+    me;
+  t[17] === y
+    ? (me = t[18])
+    : ((me = y.formatMessage({
+        id: `sidebarElectron.cloudRepositoryGroup.startFromComposer`,
+        defaultMessage: `Start cloud tasks from the composer`,
+        description: `Tooltip shown on cloud-only repository groups where the grouped task rows are visible but the project row cannot start local or remote project chats`,
+      })),
+      (t[17] = y),
+      (t[18] = me));
+  let he = me,
+    ge = () => {
+      if (!R) {
+        if (de) {
+          if (n.cloudEnvironment == null) return;
+          (w(n.cloudEnvironment), Zt(_, `cloud`), x({ prefillComposerMode: `cloud` }));
+          return;
+        }
+        S(n);
+      }
+    },
+    _e = () => {
+      R || de || th(_, b, n);
+    },
+    ve;
+  t[19] !== D || t[20] !== P || t[21] !== _ || t[22] !== _e
+    ? ((ve = () => {
+        if (P) {
+          _e();
+          return;
+        }
+        v(_, D);
+      }),
+      (t[19] = D),
+      (t[20] = P),
+      (t[21] = _),
+      (t[22] = _e),
+      (t[23] = ve))
+    : (ve = t[23]);
+  let ye = ve,
+    be;
+  t[24] !== D || t[25] !== _
+    ? ((be = () => {
+        v(_, D);
+      }),
+      (t[24] = D),
+      (t[25] = _),
+      (t[26] = be))
+    : (be = t[26]);
+  let xe = be,
+    Ce;
+  t[27] !== n.projectKind || t[28] !== F
+    ? ((Ce =
+        n.projectKind === `remote`
+          ? (0, $.jsx)(ls, { className: `icon-xs shrink-0` })
+          : (0, $.jsx)(Gm, { className: `icon-xs shrink-0`, open: !F })),
+      (t[27] = n.projectKind),
+      (t[28] = F),
+      (t[29] = Ce))
+    : (Ce = t[29]);
+  let we = Ce,
+    Te = n.projectKind === `remote` ? void 0 : we,
+    Ee = uh,
+    De = r ? q : void 0,
+    Oe = Q(T != null && `pointer-events-none`, R && `text-token-description-foreground opacity-70`),
+    X = Q(R && `text-token-description-foreground`),
+    ke = r ? J : void 0,
+    Ae = r ? re : void 0,
+    je;
+  t[30] !== we || t[31] !== U || t[32] !== Te
+    ? ((je =
+        U == null ? we : (0, $.jsx)(Sn, { appearance: U, className: `h-5 w-5`, fallbackIcon: Te })),
+      (t[30] = we),
+      (t[31] = U),
+      (t[32] = Te),
+      (t[33] = je))
+    : (je = t[33]);
+  let Me = V == null ? void 0 : `${O} ${V}`,
+    Ne;
+  t[34] !== B || t[35] !== ue
+    ? ((Ne = (e) => {
+        B != null && (e.preventDefault(), e.stopPropagation(), pr(), ue(!0));
+      }),
+      (t[34] = B),
+      (t[35] = ue),
+      (t[36] = Ne))
+    : (Ne = t[36]);
+  let Pe = P ? null : F ? L : null,
+    Fe = n.repositoryData != null,
+    Ie = !R && (!de || n.cloudEnvironment != null),
+    Le = de ? he : pe,
+    ze;
+  t[37] !== n ||
+  t[38] !== le ||
+  t[39] !== ce ||
+  t[40] !== B ||
+  t[41] !== te ||
+  t[42] !== V ||
+  t[43] !== ue ||
+  t[44] !== _e ||
+  t[45] !== u ||
+  t[46] !== d ||
+  t[47] !== ge ||
+  t[48] !== Pe ||
+  t[49] !== Fe ||
+  t[50] !== Ie ||
+  t[51] !== Le
+    ? ((ze = (0, $.jsx)(tg, {
+        group: n,
+        threadKeys: n.threadKeys,
+        collapsedStatusState: Pe,
+        connectionHostId: te,
+        remoteHostLabel: V,
+        projectHeaderMenuKind: B,
+        canCreateStableWorktree: Fe,
+        onStartNewThread: ge,
+        onShowProjectHome: _e,
+        newThreadLabel: ce,
+        canStartNewThread: Ie,
+        newThreadDisabledLabel: Le,
+        workspaceDropdownOpen: le,
+        onWorkspaceDropdownOpenChange: ue,
+        showProjectEditAction: u,
+        showProjectPinAction: d,
+      })),
+      (t[37] = n),
+      (t[38] = le),
+      (t[39] = ce),
+      (t[40] = B),
+      (t[41] = te),
+      (t[42] = V),
+      (t[43] = ue),
+      (t[44] = _e),
+      (t[45] = u),
+      (t[46] = d),
+      (t[47] = ge),
+      (t[48] = Pe),
+      (t[49] = Fe),
+      (t[50] = Ie),
+      (t[51] = Le),
+      (t[52] = ze))
+    : (ze = t[52]);
+  let Be;
+  t[53] === _e ? (Be = t[54]) : ((Be = { onSelect: _e }), (t[53] = _e), (t[54] = Be));
+  let Ve;
+  t[55] !== xe || t[56] !== N || t[57] !== P
+    ? ((Ve = P ? void 0 : { expanded: !N, onToggle: xe }),
+      (t[55] = xe),
+      (t[56] = N),
+      (t[57] = P),
+      (t[58] = Ve))
+    : (Ve = t[58]);
+  let He;
+  t[59] === H
+    ? (He = t[60])
+    : ((He = (0, $.jsx)(Gh, { isWorktreeGroup: H })), (t[59] = H), (t[60] = He));
+  let Ue;
+  t[61] !== Ee ||
+  t[62] !== O ||
+  t[63] !== D ||
+  t[64] !== ye ||
+  t[65] !== I ||
+  t[66] !== F ||
+  t[67] !== De ||
+  t[68] !== Oe ||
+  t[69] !== X ||
+  t[70] !== ke ||
+  t[71] !== Ae ||
+  t[72] !== je ||
+  t[73] !== Me ||
+  t[74] !== Ne ||
+  t[75] !== ze ||
+  t[76] !== Be ||
+  t[77] !== Ve ||
+  t[78] !== He
+    ? ((Ue = (0, $.jsx)(Ee, {
+        rowAttributes: De,
+        className: Oe,
+        collapsed: F,
+        contentClassName: X,
+        dragHandleListeners: ke,
+        dragHandleRef: Ae,
+        icon: je,
+        isActive: I,
+        ariaLabel: Me,
+        label: O,
+        onPress: ye,
+        onContextMenu: Ne,
+        projectId: D,
+        actions: ze,
+        selectAction: Be,
+        toggle: Ve,
+        trailingContent: He,
+      })),
+      (t[61] = Ee),
+      (t[62] = O),
+      (t[63] = D),
+      (t[64] = ye),
+      (t[65] = I),
+      (t[66] = F),
+      (t[67] = De),
+      (t[68] = Oe),
+      (t[69] = X),
+      (t[70] = ke),
+      (t[71] = Ae),
+      (t[72] = je),
+      (t[73] = Me),
+      (t[74] = Ne),
+      (t[75] = ze),
+      (t[76] = Be),
+      (t[77] = Ve),
+      (t[78] = He),
+      (t[79] = Ue))
+    : (Ue = t[79]);
+  let We = Ue,
+    Ge;
+  t[80] !== n || t[81] !== oe || t[82] !== le || t[83] !== We || t[84] !== u || t[85] !== T
+    ? ((Ge = u
+        ? (0, $.jsx)(Se, {
+            align: `start`,
+            disableHoverOpen: le,
+            disabled: T != null || oe,
+            interactive: !0,
+            side: `right`,
+            sideOffset: 2,
+            tooltipContent: (0, $.jsx)(Za, { group: n }),
+            variant: `rich`,
+            children: We,
+          })
+        : We),
+      (t[80] = n),
+      (t[81] = oe),
+      (t[82] = le),
+      (t[83] = We),
+      (t[84] = u),
+      (t[85] = T),
+      (t[86] = Ge))
+    : (Ge = t[86]);
+  let Ke = Ge,
+    qe = !P && !N,
+    Je;
+  t[87] !== Y || t[88] !== j
+    ? ((Je = Dh(Y, j)), (t[87] = Y), (t[88] = j), (t[89] = Je))
+    : (Je = t[89]);
+  let Ye;
+  t[90] === ie ? (Ye = t[91]) : ((Ye = Ta.Translate.toString(ie)), (t[90] = ie), (t[91] = Ye));
+  let Xe;
+  t[92] !== Ye || t[93] !== ae
+    ? ((Xe = { transform: Ye, transition: ae }), (t[92] = Ye), (t[93] = ae), (t[94] = Xe))
+    : (Xe = t[94]);
+  let Ze = r && oe && `opacity-60`,
+    Qe =
+      k &&
+      A &&
+      `cursor-grabbing rounded-md bg-token-list-hover-background [&>*]:pointer-events-none`,
+    $e;
+  t[95] !== Ze || t[96] !== Qe
+    ? (($e = Q(`group/cwd flex flex-col`, Ze, Qe)), (t[95] = Ze), (t[96] = Qe), (t[97] = $e))
+    : ($e = t[97]);
+  let et;
+  t[98] !== i ||
+  t[99] !== p ||
+  t[100] !== n ||
+  t[101] !== m ||
+  t[102] !== h ||
+  t[103] !== g ||
+  t[104] !== f ||
+  t[105] !== ge ||
+  t[106] !== a
+    ? ((et = (0, $.jsx)(Xh, {
+        threadKeys: n.threadKeys,
+        allowThreadDnd: i,
+        threadOrderIsPrecomputed: a,
+        group: n,
+        startNewConversation: ge,
+        showPinActionOnHover: f,
+        floatStatusIconsRight: p,
+        hideThreadTimestamps: m,
+        itemWrapper: h,
+        locationIdPrefix: g,
+      })),
+      (t[98] = i),
+      (t[99] = p),
+      (t[100] = n),
+      (t[101] = m),
+      (t[102] = h),
+      (t[103] = g),
+      (t[104] = f),
+      (t[105] = ge),
+      (t[106] = a),
+      (t[107] = et))
+    : (et = t[107]);
+  let tt;
+  t[108] !== D || t[109] !== Ke || t[110] !== l || t[111] !== qe || t[112] !== et
+    ? ((tt = (0, $.jsx)(oh, {
+        expanded: qe,
+        header: Ke,
+        projectId: D,
+        shouldAnimate: l,
+        children: et,
+      })),
+      (t[108] = D),
+      (t[109] = Ke),
+      (t[110] = l),
+      (t[111] = qe),
+      (t[112] = et),
+      (t[113] = tt))
+    : (tt = t[113]);
+  let nt;
+  return (
+    t[114] !== O || t[115] !== Je || t[116] !== Xe || t[117] !== $e || t[118] !== tt
+      ? ((nt = (0, $.jsx)(`div`, {
+          ref: Je,
+          style: Xe,
+          className: $e,
+          role: `listitem`,
+          "aria-label": O,
+          children: tt,
+        })),
+        (t[114] = O),
+        (t[115] = Je),
+        (t[116] = Xe),
+        (t[117] = $e),
+        (t[118] = tt),
+        (t[119] = nt))
+      : (nt = t[119]),
+    nt
+  );
+}
+function qh(e) {
+  let t = (0, vg.c)(97),
+    {
+      group: n,
+      itemWrapper: r,
+      groupDndController: i,
+      shouldAnimateGroups: a,
+      showPinActionOnHover: o,
+      floatStatusIconsRight: s,
+      hideThreadTimestamps: c,
+    } = e,
+    l = Re(ee),
+    u = Qn(),
+    d = (0, yg.useContext)(Oc),
+    f = Z(Yt, n.key),
+    p = `connection:${n.key}`,
+    m = Z(Ve, p),
+    h;
+  t[0] === n.key ? (h = t[1]) : ((h = Bh(n.key)), (t[0] = n.key), (t[1] = h));
+  let g;
+  t[2] === i
+    ? (g = t[3])
+    : ((g = { kind: `sidebar-group`, controller: i }), (t[2] = i), (t[3] = g));
+  let _;
+  t[4] !== h || t[5] !== g
+    ? ((_ = { id: h, disabled: !1, data: g }), (t[4] = h), (t[5] = g), (t[6] = _))
+    : (_ = t[6]);
+  let {
+      attributes: y,
+      listeners: b,
+      setNodeRef: x,
+      setActivatorNodeRef: S,
+      transform: C,
+      transition: w,
+      isDragging: T,
+    } = ja(_),
+    E,
+    D,
+    O,
+    k,
+    A;
+  t[7] !== n || t[8] !== u
+    ? ((O = Yh(n, u)),
+      (D =
+        O ||
+        u.formatMessage({
+          id: `sidebarElectron.connectionGroup.remoteLoading`,
+          defaultMessage: `Loading remote connection`,
+          description: `Accessible label for a remote connection group while its name is loading`,
+        })),
+      (E = Nm),
+      (k = n.threadKeys),
+      (A = u.formatMessage(
+        {
+          id: `sidebarElectron.tasksInConnection`,
+          defaultMessage: `Chats in {connection}`,
+          description: `List label for threads inside a connection group in the sidebar`,
+        },
+        { connection: D },
+      )),
+      (t[7] = n),
+      (t[8] = u),
+      (t[9] = E),
+      (t[10] = D),
+      (t[11] = O),
+      (t[12] = k),
+      (t[13] = A))
+    : ((E = t[9]), (D = t[10]), (O = t[11]), (k = t[12]), (A = t[13]));
+  let M;
+  t[14] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((M = (0, $.jsx)(j, {
+        id: `sidebarElectron.noTasks`,
+        defaultMessage: `No chats`,
+        description: `Shown when a folder group has no threads`,
+      })),
+      (t[14] = M))
+    : (M = t[14]);
+  let N = `connection:${n.key}`,
+    P;
+  t[15] !== s || t[16] !== c || t[17] !== o || t[18] !== N
+    ? ((P = {
+        isGrouped: !0,
+        hideRemoteHostEnvIcon: !0,
+        hideTimestamp: c,
+        floatStatusIconsRight: s,
+        showPinActionOnHover: o,
+        locationId: N,
+      }),
+      (t[15] = s),
+      (t[16] = c),
+      (t[17] = o),
+      (t[18] = N),
+      (t[19] = P))
+    : (P = t[19]);
+  let F;
+  t[20] !== l || t[21] !== p
+    ? ((F = (e) => {
+        cr(l, p, e);
+      }),
+      (t[20] = l),
+      (t[21] = p),
+      (t[22] = F))
+    : (F = t[22]);
+  let I;
+  t[23] !== E ||
+  t[24] !== r ||
+  t[25] !== m ||
+  t[26] !== k ||
+  t[27] !== A ||
+  t[28] !== P ||
+  t[29] !== F
+    ? ((I = (0, $.jsx)(E, {
+        threadKeys: k,
+        ariaLabel: A,
+        itemWrapper: r,
+        emptyState: M,
+        emptyStateClassName: `text-token-description-foreground opacity-50 px-8 py-1 text-base`,
+        rowOptions: P,
+        maxItems: bg,
+        expanded: m,
+        onExpandedChange: F,
+        className: `pb-2`,
+      })),
+      (t[23] = E),
+      (t[24] = r),
+      (t[25] = m),
+      (t[26] = k),
+      (t[27] = A),
+      (t[28] = P),
+      (t[29] = F),
+      (t[30] = I))
+    : (I = t[30]);
+  let L = I,
+    R;
+  t[31] === C ? (R = t[32]) : ((R = Ta.Translate.toString(C)), (t[31] = C), (t[32] = R));
+  let z;
+  t[33] !== R || t[34] !== w
+    ? ((z = { transform: R, transition: w }), (t[33] = R), (t[34] = w), (t[35] = z))
+    : (z = t[35]);
+  let B = T && `opacity-60`,
+    te;
+  t[36] === B ? (te = t[37]) : ((te = Q(`group/cwd flex flex-col`, B)), (t[36] = B), (t[37] = te));
+  let V;
+  t[38] === y ? (V = t[39]) : ((V = y), (t[38] = y), (t[39] = V));
+  let H = d != null && `pointer-events-none`,
+    U;
+  t[40] === H
+    ? (U = t[41])
+    : ((U = Q(
+        `group/folder-row flex h-[var(--height-token-row)] items-center justify-between overflow-x-hidden rounded-[var(--radius-token-row)] text-sm text-token-foreground hover:bg-token-list-hover-background focus-visible:outline focus-visible:outline-offset-2 electron:opacity-75`,
+        H,
+      )),
+      (t[40] = H),
+      (t[41] = U));
+  let W, G;
+  t[42] !== n.key || t[43] !== l
+    ? ((W = (e) => {
+        e.defaultPrevented || e.button !== 0 || v(l, n.key);
+      }),
+      (G = (e) => {
+        e.currentTarget === e.target &&
+          (e.key === `Enter` || e.key === ` `) &&
+          (e.preventDefault(), v(l, n.key));
+      }),
+      (t[42] = n.key),
+      (t[43] = l),
+      (t[44] = W),
+      (t[45] = G))
+    : ((W = t[44]), (G = t[45]));
+  let ne = !f,
+    K;
+  t[46] === n.kind
+    ? (K = t[47])
+    : ((K = (0, $.jsx)(Jh, {
+        kind: n.kind,
+        className: `icon-xs shrink-0 group-hover/folder-row:opacity-0`,
+      })),
+      (t[46] = n.kind),
+      (t[47] = K));
+  let q;
+  t[48] === l
+    ? (q = t[49])
+    : ((q = (e) => {
+        v(l, e);
+      }),
+      (t[48] = l),
+      (t[49] = q));
+  let J;
+  t[50] !== n.key || t[51] !== f || t[52] !== q
+    ? ((J = (0, $.jsx)(`span`, {
+        className: `absolute inset-0 flex items-center justify-center opacity-0 group-hover/folder-row:opacity-100`,
+        children: (0, $.jsx)(_g, { isCollapsed: f, groupPath: n.key, toggleGroup: q }),
+      })),
+      (t[50] = n.key),
+      (t[51] = f),
+      (t[52] = q),
+      (t[53] = J))
+    : (J = t[53]);
+  let Y;
+  t[54] !== K || t[55] !== J
+    ? ((Y = (0, $.jsxs)(`span`, {
+        className: `relative flex h-6 w-6 items-center justify-center`,
+        children: [K, J],
+      })),
+      (t[54] = K),
+      (t[55] = J),
+      (t[56] = Y))
+    : (Y = t[56]);
+  let re = S,
+    ie;
+  t[57] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((ie = Q(
+        `flex min-w-0 flex-1 items-center gap-2 whitespace-nowrap rounded-md py-1 pr-0 text-left text-base`,
+        `cursor-interaction`,
+      )),
+      (t[57] = ie))
+    : (ie = t[57]);
+  let ae;
+  t[58] === b ? (ae = t[59]) : ((ae = b), (t[58] = b), (t[59] = ae));
+  let oe;
+  t[60] !== n.hostId || t[61] !== n.kind
+    ? ((oe =
+        n.kind === `remote` && n.hostId != null ? (0, $.jsx)(Wh, { hostId: n.hostId }) : void 0),
+      (t[60] = n.hostId),
+      (t[61] = n.kind),
+      (t[62] = oe))
+    : (oe = t[62]);
+  let se;
+  t[63] !== n.hostDisplayName || t[64] !== n.hostId
+    ? ((se =
+        n.hostId != null && n.hostDisplayName != null
+          ? (0, $.jsx)(`div`, { className: `max-w-64 break-all`, children: n.hostId })
+          : void 0),
+      (t[63] = n.hostDisplayName),
+      (t[64] = n.hostId),
+      (t[65] = se))
+    : (se = t[65]);
+  let ce;
+  t[66] !== O || t[67] !== oe || t[68] !== se
+    ? ((ce = (0, $.jsx)(`span`, {
+        className: `flex min-w-0 flex-1 items-center gap-2 whitespace-nowrap`,
+        children: (0, $.jsx)(Uh, { label: O, labelEnd: oe, labelTooltipContent: se }),
+      })),
+      (t[66] = O),
+      (t[67] = oe),
+      (t[68] = se),
+      (t[69] = ce))
+    : (ce = t[69]);
+  let le;
+  t[70] !== re || t[71] !== ae || t[72] !== ce
+    ? ((le = (0, $.jsx)(`div`, { ref: re, className: ie, ...ae, children: ce })),
+      (t[70] = re),
+      (t[71] = ae),
+      (t[72] = ce),
+      (t[73] = le))
+    : (le = t[73]);
+  let ue;
+  t[74] !== Y || t[75] !== le
+    ? ((ue = (0, $.jsxs)(`div`, {
+        className: `flex min-w-0 flex-1 items-center gap-1 pl-0.5`,
+        children: [Y, le],
+      })),
+      (t[74] = Y),
+      (t[75] = le),
+      (t[76] = ue))
+    : (ue = t[76]);
+  let de;
+  t[77] !== D ||
+  t[78] !== V ||
+  t[79] !== U ||
+  t[80] !== W ||
+  t[81] !== G ||
+  t[82] !== ne ||
+  t[83] !== ue
+    ? ((de = (0, $.jsx)(`div`, {
+        ...V,
+        className: U,
+        role: `button`,
+        tabIndex: 0,
+        onClick: W,
+        onKeyDown: G,
+        "aria-label": D,
+        "aria-expanded": ne,
+        children: ue,
+      })),
+      (t[77] = D),
+      (t[78] = V),
+      (t[79] = U),
+      (t[80] = W),
+      (t[81] = G),
+      (t[82] = ne),
+      (t[83] = ue),
+      (t[84] = de))
+    : (de = t[84]);
+  let fe;
+  t[85] !== n.key || t[86] !== f || t[87] !== a || t[88] !== L
+    ? ((fe = a
+        ? (0, $.jsx)(qt, {
+            initial: !1,
+            children: f
+              ? null
+              : (0, $.jsx)(
+                  Tn.div,
+                  {
+                    initial: { height: 0, opacity: 0 },
+                    animate: { height: `auto`, opacity: 1, transitionEnd: { overflow: `visible` } },
+                    exit: { height: 0, opacity: 0, overflow: `hidden` },
+                    transition: rt,
+                    className: `overflow-hidden`,
+                    children: (0, $.jsx)(`div`, { className: `pt-0.5`, children: L }),
+                  },
+                  `${n.key}-tasks`,
+                ),
+          })
+        : f
+          ? null
+          : (0, $.jsx)(`div`, { className: `mt-0.5`, children: L })),
+      (t[85] = n.key),
+      (t[86] = f),
+      (t[87] = a),
+      (t[88] = L),
+      (t[89] = fe))
+    : (fe = t[89]);
+  let pe;
+  return (
+    t[90] !== D || t[91] !== x || t[92] !== z || t[93] !== te || t[94] !== de || t[95] !== fe
+      ? ((pe = (0, $.jsxs)(`div`, {
+          ref: x,
+          style: z,
+          className: te,
+          role: `listitem`,
+          "aria-label": D,
+          children: [de, fe],
+        })),
+        (t[90] = D),
+        (t[91] = x),
+        (t[92] = z),
+        (t[93] = te),
+        (t[94] = de),
+        (t[95] = fe),
+        (t[96] = pe))
+      : (pe = t[96]),
+    pe
+  );
+}
+function Jh(e) {
+  let t = (0, vg.c)(6),
+    { kind: n, className: r } = e;
+  switch (n) {
+    case `cloud`: {
+      let e;
+      return (
+        t[0] === r ? (e = t[1]) : ((e = (0, $.jsx)(ti, { className: r })), (t[0] = r), (t[1] = e)),
+        e
+      );
+    }
+    case `local`: {
+      let e;
+      return (
+        t[2] === r ? (e = t[3]) : ((e = (0, $.jsx)(_i, { className: r })), (t[2] = r), (t[3] = e)),
+        e
+      );
+    }
+    case `remote`: {
+      let e;
+      return (
+        t[4] === r ? (e = t[5]) : ((e = (0, $.jsx)(Pt, { className: r })), (t[4] = r), (t[5] = e)),
+        e
+      );
+    }
+  }
+}
+function Yh(e, t) {
+  switch (e.kind) {
+    case `cloud`:
+      return t.formatMessage({
+        id: `sidebarElectron.connectionGroup.cloud`,
+        defaultMessage: `Cloud`,
+        description: `Connection group label for cloud-hosted threads in the sidebar`,
+      });
+    case `local`:
+      return t.formatMessage({
+        id: `sidebarElectron.connectionGroup.local`,
+        defaultMessage: `Local`,
+        description: `Connection group label for local threads in the sidebar`,
+      });
+    case `remote`:
+      return e.hostDisplayName ?? ``;
+  }
+}
+function Xh(e) {
+  let t = (0, vg.c)(44),
+    {
+      threadKeys: n,
+      allowThreadDnd: r,
+      threadOrderIsPrecomputed: i,
+      group: a,
+      startNewConversation: o,
+      showPinActionOnHover: s,
+      floatStatusIconsRight: c,
+      hideThreadTimestamps: l,
+      itemWrapper: u,
+      locationIdPrefix: d,
+    } = e,
+    f = Re(ee),
+    p = Qn(),
+    m = C(dt),
+    { data: h } = oe(ge.SIDEBAR_PROJECT_THREAD_ORDERS),
+    g = `project:${a.projectId}`,
+    _ = `${d}:${a.projectId}`,
+    v = Z(Ve, g),
+    y = Z($o, n),
+    b = new Map(y.map(eg)),
+    x = r && !i ? (h?.[a.projectId] ?? null) : null,
+    S = n.flatMap((e) => {
+      let t = b.get(e);
+      return t == null ? [] : [t.task];
+    }),
+    w = Co({ tasks: S, order: x }),
+    T = Xo(w),
+    E = new Map(T.map($h)),
+    D = w.map((e) => b.get(e.key) ?? E.get(e.key)).filter(Qh),
+    O = zi(D),
+    {
+      controller: k,
+      displayedVisibleThreadKeys: A,
+      dropIndicatorTarget: M,
+    } = Fl({
+      visibleThreadKeys: O,
+      onVisibleThreadOrderChange: r
+        ? (e) => {
+            let { visibleThreadKeys: t, nextVisibleThreadKeys: n } = e;
+            return ml(f, {
+              projectId: a.projectId,
+              tasks: S,
+              visibleThreadIds: oa(t),
+              nextVisibleThreadIds: oa(n),
+            });
+          }
+        : null,
+    }),
+    N = (A === O ? D : Ea(D, A)).map(Zh),
+    P;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((P = (0, $.jsx)(j, {
+        id: `sidebarElectron.noTasks`,
+        defaultMessage: `No chats`,
+        description: `Shown when a folder group has no threads`,
+      })),
+      (t[0] = P))
+    : (P = t[0]);
+  let F = P,
+    I;
+  t[1] !== m || t[2] !== n
+    ? ((I = m != null && n.includes(m)), (t[1] = m), (t[2] = n), (t[3] = I))
+    : (I = t[3]);
+  let L = I,
+    R;
+  t[4] !== a || t[5] !== L || t[6] !== f
+    ? ((R = () => {
+        if (!L) {
+          if (a.projectKind === `remote`) {
+            Bn(f, { projectId: a.projectId, projectKind: `remote` });
+            return;
+          }
+          lr.select(f, a);
+        }
+      }),
+      (t[4] = a),
+      (t[5] = L),
+      (t[6] = f),
+      (t[7] = R))
+    : (R = t[7]);
+  let z = Pn(R),
+    B;
+  t[8] !== a.projectId || t[9] !== v
+    ? ((B = fn.sidebarProjectList({ projectId: a.projectId, showAll: v })),
+      (t[8] = a.projectId),
+      (t[9] = v),
+      (t[10] = B))
+    : (B = t[10]);
+  let te = `project:${a.projectId}`,
+    V;
+  t[11] !== a.label || t[12] !== a.path || t[13] !== a.projectId || t[14] !== p
+    ? ((V = p.formatMessage(
+        {
+          id: `sidebarElectron.tasksInFolder`,
+          defaultMessage: `Scheduled tasks in {folder}`,
+          description: `List label for scheduled tasks inside a folder`,
+        },
+        { folder: a.label || a.path || a.projectId },
+      )),
+      (t[11] = a.label),
+      (t[12] = a.path),
+      (t[13] = a.projectId),
+      (t[14] = p),
+      (t[15] = V))
+    : (V = t[15]);
+  let H = r ? Lc : u,
+    U;
+  t[16] !== f || t[17] !== g
+    ? ((U = (e) => {
+        cr(f, g, e);
+      }),
+      (t[16] = f),
+      (t[17] = g),
+      (t[18] = U))
+    : (U = t[18]);
+  let W;
+  t[19] !== z || t[20] !== c || t[21] !== l || t[22] !== _ || t[23] !== s || t[24] !== o
+    ? ((W = {
+        onActivateGroup: z,
+        onStartNewConversation: o,
+        isGrouped: !0,
+        hideRemoteHostEnvIcon: !0,
+        hideTimestamp: l,
+        locationId: _,
+        floatStatusIconsRight: c,
+        showPinActionOnHover: s,
+      }),
+      (t[19] = z),
+      (t[20] = c),
+      (t[21] = l),
+      (t[22] = _),
+      (t[23] = s),
+      (t[24] = o),
+      (t[25] = W))
+    : (W = t[25]);
+  let G;
+  t[26] !== M ||
+  t[27] !== v ||
+  t[28] !== W ||
+  t[29] !== V ||
+  t[30] !== H ||
+  t[31] !== U ||
+  t[32] !== N
+    ? ((G = (0, $.jsx)(Nm, {
+        threadKeys: N,
+        ariaLabel: V,
+        itemWrapper: H,
+        emptyState: F,
+        emptyStateClassName: `text-token-description-foreground opacity-50 px-8 py-1 text-base`,
+        dropIndicatorTarget: M,
+        maxItems: bg,
+        expanded: v,
+        onExpandedChange: U,
+        rowOptions: W,
+      })),
+      (t[26] = M),
+      (t[27] = v),
+      (t[28] = W),
+      (t[29] = V),
+      (t[30] = H),
+      (t[31] = U),
+      (t[32] = N),
+      (t[33] = G))
+    : (G = t[33]);
+  let ne;
+  t[34] !== A || t[35] !== G
+    ? ((ne = (0, $.jsx)(yi, { items: A, strategy: ha, children: G })),
+      (t[34] = A),
+      (t[35] = G),
+      (t[36] = ne))
+    : (ne = t[36]);
+  let K;
+  t[37] !== k || t[38] !== ne || t[39] !== te
+    ? ((K = (0, $.jsx)(Fc, { containerId: te, controller: k, children: ne })),
+      (t[37] = k),
+      (t[38] = ne),
+      (t[39] = te),
+      (t[40] = K))
+    : (K = t[40]);
+  let q;
+  return (
+    t[41] !== K || t[42] !== B
+      ? ((q = (0, $.jsx)(`div`, { ...B, children: K })), (t[41] = K), (t[42] = B), (t[43] = q))
+      : (q = t[43]),
+    q
+  );
+}
+function Zh(e) {
+  return e.task.key;
+}
+function Qh(e) {
+  return e != null;
+}
+function $h(e) {
+  return [e.task.key, e];
+}
+function eg(e) {
+  return [e.task.key, e];
+}
+function tg(e) {
+  let t = (0, vg.c)(29),
+    {
+      group: n,
+      threadKeys: r,
+      collapsedStatusState: i,
+      connectionHostId: a,
+      remoteHostLabel: o,
+      projectHeaderMenuKind: s,
+      canCreateStableWorktree: c,
+      onStartNewThread: l,
+      onShowProjectHome: u,
+      newThreadLabel: d,
+      canStartNewThread: f,
+      newThreadDisabledLabel: p,
+      workspaceDropdownOpen: m,
+      onWorkspaceDropdownOpenChange: h,
+      showProjectEditAction: g,
+      showProjectPinAction: _,
+    } = e,
+    v = C(dt),
+    y = C(xt),
+    b = C(pn),
+    x = !f,
+    S;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((S = (0, $.jsx)(os, { className: `icon-xs` })), (t[0] = S))
+    : (S = t[0]);
+  let w;
+  t[1] !== d || t[2] !== l || t[3] !== x
+    ? ((w = (0, $.jsx)(Sh, { ariaLabel: d, disabled: x, onClick: l, children: S })),
+      (t[1] = d),
+      (t[2] = l),
+      (t[3] = x),
+      (t[4] = w))
+    : (w = t[4]);
+  let T;
+  t[5] !== i || t[6] !== a || t[7] !== o
+    ? ((T =
+        i != null || a != null
+          ? (0, $.jsxs)(`span`, {
+              className: `flex max-w-48 min-w-0 items-center whitespace-nowrap`,
+              children: [
+                o == null
+                  ? null
+                  : (0, $.jsx)(`span`, {
+                      className: `min-w-0 truncate text-token-description-foreground`,
+                      children: o,
+                    }),
+                (0, $.jsx)(`span`, {
+                  className: `flex h-6 w-6 shrink-0 items-center justify-center`,
+                  children:
+                    i == null
+                      ? a == null
+                        ? null
+                        : (0, $.jsx)(Wh, { hostId: a })
+                      : (0, $.jsx)(Qc, { statusState: i }),
+                }),
+              ],
+            })
+          : null),
+      (t[5] = i),
+      (t[6] = a),
+      (t[7] = o),
+      (t[8] = T))
+    : (T = t[8]);
+  let E;
+  t[9] !== c ||
+  t[10] !== v ||
+  t[11] !== n ||
+  t[12] !== u ||
+  t[13] !== h ||
+  t[14] !== s ||
+  t[15] !== g ||
+  t[16] !== _ ||
+  t[17] !== r ||
+  t[18] !== m ||
+  t[19] !== b ||
+  t[20] !== y
+    ? ((E =
+        s === `local` && n.projectKind === `local`
+          ? (0, $.jsx)(ag, {
+              project: n,
+              threadKeys: r,
+              currentThreadKey: v,
+              canCreateStableWorktree: c,
+              workspaceRootOptions: y,
+              workspaceRootLabels: b,
+              onArchivedCurrentThread: u,
+              open: m,
+              onOpenChange: h,
+              showProjectEditAction: g,
+              showProjectPinAction: _,
+            })
+          : s === `remote` && n.path != null
+            ? (0, $.jsx)(cg, {
+                hostId: n.hostId,
+                projectId: n.projectId,
+                remotePath: n.path,
+                groupLabel: n.label,
+                threadKeys: r,
+                currentThreadKey: v,
+                onArchivedCurrentThread: u,
+                open: m,
+                onOpenChange: h,
+                showProjectPinAction: _,
+              })
+            : null),
+      (t[9] = c),
+      (t[10] = v),
+      (t[11] = n),
+      (t[12] = u),
+      (t[13] = h),
+      (t[14] = s),
+      (t[15] = g),
+      (t[16] = _),
+      (t[17] = r),
+      (t[18] = m),
+      (t[19] = b),
+      (t[20] = y),
+      (t[21] = E))
+    : (E = t[21]);
+  let D;
+  return (
+    t[22] !== f || t[23] !== p || t[24] !== w || t[25] !== T || t[26] !== E || t[27] !== m
+      ? ((D = (0, $.jsx)(_h, {
+          action: w,
+          actionTooltipContent: p,
+          actionTooltipDisabled: f,
+          indicator: T,
+          isMenuOpen: m,
+          menu: E,
+        })),
+        (t[22] = f),
+        (t[23] = p),
+        (t[24] = w),
+        (t[25] = T),
+        (t[26] = E),
+        (t[27] = m),
+        (t[28] = D))
+      : (D = t[28]),
+    D
+  );
+}
+function ng(e) {
+  let t = (0, vg.c)(87),
+    {
+      open: n,
+      onOpenChange: r,
+      archiveAllDisabled: i,
+      onArchiveAll: a,
+      organizeMode: o,
+      onOrganizeModeChange: s,
+      hasConnectedRemoteHosts: c,
+      triggerAriaLabel: l,
+      canReorderProjectlessSections: u,
+      sectionKind: d,
+      showChatsFirst: f,
+      manualOrderingEnabled: p,
+      selectedThreadSortKey: m,
+      onSortThreads: h,
+      onShowChatsFirstChange: g,
+    } = e,
+    _ = Re(ee),
+    v = Qn(),
+    [y, b] = (0, yg.useState)(n),
+    x = n !== void 0,
+    S = x ? n : y,
+    T;
+  t[0] !== x || t[1] !== r
+    ? ((T = (e) => {
+        (x || b(e), r?.(e));
+      }),
+      (t[0] = x),
+      (t[1] = r),
+      (t[2] = T))
+    : (T = t[2]);
+  let E = T,
+    D = C(jn),
+    O = C(w),
+    k;
+  t[3] !== s || t[4] !== o
+    ? ((k = (e) => {
+        o !== e && s(e);
+      }),
+      (t[3] = s),
+      (t[4] = o),
+      (t[5] = k))
+    : (k = t[5]);
+  let A = k,
+    M;
+  t[6] !== A || t[7] !== D || t[8] !== _
+    ? ((M = (e) => {
+        (A(`recent`), D !== e && Ot(_, e));
+      }),
+      (t[6] = A),
+      (t[7] = D),
+      (t[8] = _),
+      (t[9] = M))
+    : (M = t[9]);
+  let N = M,
+    F = o === `recent` && D,
+    I = o === `recent` && !D,
+    L = d === `chats` ? !f : f,
+    R = m === void 0 ? O : m,
+    z;
+  t[10] !== v || t[11] !== l
+    ? ((z =
+        l ??
+        v.formatMessage({
+          id: `sidebarElectron.showMenu.trigger`,
+          defaultMessage: `Filter sidebar chats`,
+          description: `Button label for opening the sidebar thread filters dropdown`,
+        })),
+      (t[10] = v),
+      (t[11] = l),
+      (t[12] = z))
+    : (z = t[12]);
+  let B;
+  t[13] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((B = (0, $.jsx)(Ki, { className: `icon-xs` })), (t[13] = B))
+    : (B = t[13]);
+  let te;
+  t[14] === z
+    ? (te = t[15])
+    : ((te = (0, $.jsx)(`div`, {
+        className: `pr-0.5`,
+        children: (0, $.jsx)(Vt, {
+          className: `h-6 w-6 rounded-md !p-1 text-token-foreground opacity-75 hover:opacity-100`,
+          color: `ghostActive`,
+          size: `icon`,
+          "aria-label": z,
+          "aria-haspopup": `menu`,
+          children: B,
+        }),
+      })),
+      (t[14] = z),
+      (t[15] = te));
+  let V;
+  t[16] !== i || t[17] !== a
+    ? ((V =
+        a == null
+          ? null
+          : (0, $.jsx)(P.Item, {
+              LeftIcon: Pu,
+              disabled: i,
+              onSelect: a,
+              children: (0, $.jsx)(j, {
+                id: `sidebarElectron.archiveAllSectionChats`,
+                defaultMessage: `Archive all chats`,
+                description: `Menu item to archive all archiveable chats in a sidebar section`,
+              }),
+            })),
+      (t[16] = i),
+      (t[17] = a),
+      (t[18] = V))
+    : (V = t[18]);
+  let H;
+  t[19] === a
+    ? (H = t[20])
+    : ((H = a == null ? null : (0, $.jsx)(P.Separator, { paddingClassName: `pt-1 pb-2` })),
+      (t[19] = a),
+      (t[20] = H));
+  let U;
+  t[21] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((U = (0, $.jsx)(j, {
+        id: `sidebarElectron.groupByMenu.submenuTitle`,
+        defaultMessage: `Organize sidebar`,
+        description: `Menu item that opens sidebar organization options`,
+      })),
+      (t[21] = U))
+    : (U = t[21]);
+  let W = o === `project` ? bn : void 0,
+    G;
+  t[22] === A
+    ? (G = t[23])
+    : ((G = () => {
+        A(`project`);
+      }),
+      (t[22] = A),
+      (t[23] = G));
+  let ne;
+  t[24] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((ne = (0, $.jsx)(j, {
+        id: `sidebarElectron.groupByMenu.workspace`,
+        defaultMessage: `By project`,
+        description: `Option to group sidebar threads by workspace`,
+      })),
+      (t[24] = ne))
+    : (ne = t[24]);
+  let K;
+  t[25] !== W || t[26] !== G
+    ? ((K = (0, $.jsx)(P.Item, { LeftIcon: Ur, RightIcon: W, onSelect: G, children: ne })),
+      (t[25] = W),
+      (t[26] = G),
+      (t[27] = K))
+    : (K = t[27]);
+  let q;
+  t[28] !== A || t[29] !== c || t[30] !== o
+    ? ((q =
+        c || o === `connection`
+          ? (0, $.jsx)(P.Item, {
+              LeftIcon: Pt,
+              RightIcon: o === `connection` ? bn : void 0,
+              onSelect: () => {
+                A(`connection`);
+              },
+              children: (0, $.jsx)(j, {
+                id: `sidebarElectron.groupByMenu.connection`,
+                defaultMessage: `By connection`,
+                description: `Option to group sidebar projects by connected remote host`,
+              }),
+            })
+          : null),
+      (t[28] = A),
+      (t[29] = c),
+      (t[30] = o),
+      (t[31] = q))
+    : (q = t[31]);
+  let J = F ? bn : void 0,
+    Y;
+  t[32] === N
+    ? (Y = t[33])
+    : ((Y = () => {
+        N(!0);
+      }),
+      (t[32] = N),
+      (t[33] = Y));
+  let re;
+  t[34] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((re = (0, $.jsx)(j, {
+        id: `sidebarElectron.groupByMenu.recentProjects`,
+        defaultMessage: `Recent projects`,
+        description: `Option to group sidebar threads by project and order projects by recent activity`,
+      })),
+      (t[34] = re))
+    : (re = t[34]);
+  let ie;
+  t[35] !== J || t[36] !== Y
+    ? ((ie = (0, $.jsx)(P.Item, { LeftIcon: Ur, RightIcon: J, onSelect: Y, children: re })),
+      (t[35] = J),
+      (t[36] = Y),
+      (t[37] = ie))
+    : (ie = t[37]);
+  let ae = I ? bn : void 0,
+    oe;
+  t[38] === N
+    ? (oe = t[39])
+    : ((oe = () => {
+        N(!1);
+      }),
+      (t[38] = N),
+      (t[39] = oe));
+  let se;
+  t[40] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((se = (0, $.jsx)(j, {
+        id: `sidebarElectron.groupByMenu.recency`,
+        defaultMessage: `Chronological list`,
+        description: `Option to sort sidebar threads by recency instead of grouping by project`,
+      })),
+      (t[40] = se))
+    : (se = t[40]);
+  let ce;
+  t[41] !== ae || t[42] !== oe
+    ? ((ce = (0, $.jsx)(P.Item, { LeftIcon: Ia, RightIcon: ae, onSelect: oe, children: se })),
+      (t[41] = ae),
+      (t[42] = oe),
+      (t[43] = ce))
+    : (ce = t[43]);
+  let le;
+  t[44] !== u || t[45] !== L || t[46] !== g || t[47] !== f
+    ? ((le = u
+        ? (0, $.jsx)(P.Item, {
+            LeftIcon: Fi,
+            leftIconClassName: Q(`icon-xs`, !L && `rotate-180`),
+            onSelect: () => {
+              g(!f);
+            },
+            children: L
+              ? (0, $.jsx)(j, {
+                  id: `sidebarElectron.groupByMenu.moveUp`,
+                  defaultMessage: `Move up`,
+                  description: `Menu item to move a sidebar section up`,
+                })
+              : (0, $.jsx)(j, {
+                  id: `sidebarElectron.groupByMenu.moveDown`,
+                  defaultMessage: `Move down`,
+                  description: `Menu item to move a sidebar section down`,
+                }),
+          })
+        : null),
+      (t[44] = u),
+      (t[45] = L),
+      (t[46] = g),
+      (t[47] = f),
+      (t[48] = le))
+    : (le = t[48]);
+  let ue;
+  t[49] !== K || t[50] !== q || t[51] !== ie || t[52] !== ce || t[53] !== le
+    ? ((ue = (0, $.jsxs)(P.FlyoutSubmenuItem, {
+        LeftIcon: Ur,
+        label: U,
+        children: [K, q, ie, ce, le],
+      })),
+      (t[49] = K),
+      (t[50] = q),
+      (t[51] = ie),
+      (t[52] = ce),
+      (t[53] = le),
+      (t[54] = ue))
+    : (ue = t[54]);
+  let de;
+  t[55] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((de = (0, $.jsx)(j, {
+        id: `sidebarElectron.sortMenu.title`,
+        defaultMessage: `Sort by`,
+        description: `Header for sidebar thread sort dropdown`,
+      })),
+      (t[55] = de))
+    : (de = t[55]);
+  let fe;
+  t[56] !== E || t[57] !== p || t[58] !== h || t[59] !== R
+    ? ((fe = p
+        ? (0, $.jsx)(P.Item, {
+            LeftIcon: wi,
+            RightIcon: R == null ? bn : void 0,
+            onSelect: () => {
+              (h?.(null), E(!1));
+            },
+            children: (0, $.jsx)(j, {
+              id: `sidebarElectron.sortMenu.manual`,
+              defaultMessage: `Manual order`,
+              description: `Sort option to keep sidebar threads in a manually arranged order`,
+            }),
+          })
+        : null),
+      (t[56] = E),
+      (t[57] = p),
+      (t[58] = h),
+      (t[59] = R),
+      (t[60] = fe))
+    : (fe = t[60]);
+  let pe = R === `created_at` ? bn : void 0,
+    me;
+  t[61] !== h || t[62] !== _
+    ? ((me = () => {
+        (an(_, `created_at`), h?.(`created_at`));
+      }),
+      (t[61] = h),
+      (t[62] = _),
+      (t[63] = me))
+    : (me = t[63]);
+  let he;
+  t[64] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((he = (0, $.jsx)(j, {
+        id: `sidebarElectron.sortMenu.created`,
+        defaultMessage: `Created`,
+        description: `Sort option to show threads by creation date`,
+      })),
+      (t[64] = he))
+    : (he = t[64]);
+  let ge;
+  t[65] !== pe || t[66] !== me
+    ? ((ge = (0, $.jsx)(P.Item, { LeftIcon: zo, RightIcon: pe, onSelect: me, children: he })),
+      (t[65] = pe),
+      (t[66] = me),
+      (t[67] = ge))
+    : (ge = t[67]);
+  let _e = R === `updated_at` ? bn : void 0,
+    ve;
+  t[68] !== h || t[69] !== _
+    ? ((ve = () => {
+        (an(_, `updated_at`), h?.(`updated_at`));
+      }),
+      (t[68] = h),
+      (t[69] = _),
+      (t[70] = ve))
+    : (ve = t[70]);
+  let ye;
+  t[71] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((ye = (0, $.jsx)(j, {
+        id: `sidebarElectron.sortMenu.updated`,
+        defaultMessage: `Last updated`,
+        description: `Sort option to show threads by last updated time`,
+      })),
+      (t[71] = ye))
+    : (ye = t[71]);
+  let be;
+  t[72] !== _e || t[73] !== ve
+    ? ((be = (0, $.jsx)(P.Item, { LeftIcon: Xm, RightIcon: _e, onSelect: ve, children: ye })),
+      (t[72] = _e),
+      (t[73] = ve),
+      (t[74] = be))
+    : (be = t[74]);
+  let xe;
+  t[75] !== fe || t[76] !== ge || t[77] !== be
+    ? ((xe = (0, $.jsxs)(P.FlyoutSubmenuItem, { LeftIcon: Ia, label: de, children: [fe, ge, be] })),
+      (t[75] = fe),
+      (t[76] = ge),
+      (t[77] = be),
+      (t[78] = xe))
+    : (xe = t[78]);
+  let Se;
+  return (
+    t[79] !== E ||
+    t[80] !== S ||
+    t[81] !== ue ||
+    t[82] !== xe ||
+    t[83] !== te ||
+    t[84] !== V ||
+    t[85] !== H
+      ? ((Se = (0, $.jsxs)(qe, {
+          open: S,
+          onOpenChange: E,
+          animateExit: !1,
+          side: `bottom`,
+          align: `end`,
+          contentWidth: `sidebar`,
+          triggerButton: te,
+          children: [V, H, ue, xe],
+        })),
+        (t[79] = E),
+        (t[80] = S),
+        (t[81] = ue),
+        (t[82] = xe),
+        (t[83] = te),
+        (t[84] = V),
+        (t[85] = H),
+        (t[86] = Se))
+      : (Se = t[86]),
+    Se
+  );
+}
+function rg({ base: e, workspaceRootOptions: t, workspaceRootLabels: n }) {
+  let r = e.trim();
+  if (!r) return `Workspace_2`;
+  let i = new Set();
+  for (let e of t ?? []) {
+    let t = n?.[e]?.trim();
+    if (t) {
+      i.add(t);
+      continue;
+    }
+    let r = e
+      .split(/[/\\]+/)
+      .filter(Boolean)
+      .at(-1)
+      ?.trim();
+    r && i.add(r);
+  }
+  for (let e = 2; e <= 9999; e += 1) {
+    let t = `${r}_${e}`;
+    if (!i.has(t)) return t;
+  }
+  return `${r}_2`;
+}
+function ig({ group: e, localWorkspaceRoots: t }) {
+  return e.projectKind === `remote`
+    ? e.hostId == null
+      ? null
+      : `remote`
+    : e.isLocalProject === !0 || (e.path != null && t?.includes(e.path))
+      ? `local`
+      : null;
+}
+function ag(e) {
+  let t = (0, vg.c)(56),
+    {
+      project: n,
+      threadKeys: r,
+      currentThreadKey: i,
+      canCreateStableWorktree: a,
+      workspaceRootOptions: o,
+      workspaceRootLabels: s,
+      onArchivedCurrentThread: c,
+      open: l,
+      onOpenChange: u,
+      showProjectEditAction: d,
+      showProjectPinAction: f,
+    } = e,
+    p;
+  t[0] === o ? (p = t[1]) : ((p = o === void 0 ? [] : o), (t[0] = o), (t[1] = p));
+  let m = p,
+    h = s === void 0 ? {} : s,
+    g = Re(ee),
+    _ = Qn(),
+    v = (0, yg.useRef)(null),
+    [y, b] = (0, yg.useState)(!1),
+    [x, S] = (0, yg.useState)(!1),
+    [C, w] = (0, yg.useState)(!1),
+    [T, E] = (0, yg.useState)(!1),
+    D = (n.path == null ? void 0 : h?.[n.path]?.trim()) || n.label || n.projectId,
+    O = xh,
+    k;
+  t[2] !== n || t[3] !== g || t[4] !== E
+    ? ((k = (e) => {
+        let t = v.current;
+        if (t != null) {
+          ((v.current = null), e.preventDefault());
+          bb35: switch (t.kind) {
+            case `edit`:
+              tr(g, {
+                initialName: n.label,
+                initialSources: t.initialSources,
+                project: n,
+                showDeleteAction: !0,
+              });
+              break bb35;
+            case `rename`:
+              E(!0);
+          }
+        }
+      }),
+      (t[2] = n),
+      (t[3] = g),
+      (t[4] = E),
+      (t[5] = k))
+    : (k = t[5]);
+  let A = _.formatMessage(
+      {
+        id: `sidebarElectron.workspaceOptions`,
+        defaultMessage: `Project actions for {folder}`,
+        description: `Button label for the workspace root actions dropdown`,
+      },
+      { folder: D },
+    ),
+    j;
+  t[6] !== a ||
+  t[7] !== n ||
+  t[8] !== S ||
+  t[9] !== b ||
+  t[10] !== w ||
+  t[11] !== d ||
+  t[12] !== f ||
+  t[13] !== r
+    ? ((j = (e) =>
+        (0, $.jsx)(og, {
+          project: n,
+          threadKeys: r,
+          canCreateStableWorktree: a,
+          onOpenChange: e,
+          onOpenArchiveDialog: () => S(!0),
+          onOpenCreateStableWorktreeDialog: () => {
+            b(!0);
+          },
+          onEditProjectSelect: (e) => {
+            v.current = { kind: `edit`, initialSources: e };
+          },
+          onOpenRemoveDialog: () => w(!0),
+          onRenameProjectSelect: () => {
+            v.current = { kind: `rename` };
+          },
+          showProjectEditAction: d,
+          showProjectPinAction: f,
+        })),
+      (t[6] = a),
+      (t[7] = n),
+      (t[8] = S),
+      (t[9] = b),
+      (t[10] = w),
+      (t[11] = d),
+      (t[12] = f),
+      (t[13] = r),
+      (t[14] = j))
+    : (j = t[14]);
+  let M;
+  t[15] !== O || t[16] !== u || t[17] !== l || t[18] !== k || t[19] !== A || t[20] !== j
+    ? ((M = (0, $.jsx)(O, {
+        open: l,
+        onOpenChange: u,
+        onCloseAutoFocus: k,
+        triggerAriaLabel: A,
+        children: j,
+      })),
+      (t[15] = O),
+      (t[16] = u),
+      (t[17] = l),
+      (t[18] = k),
+      (t[19] = A),
+      (t[20] = j),
+      (t[21] = M))
+    : (M = t[21]);
+  let N;
+  t[22] !== D || t[23] !== T || t[24] !== n || t[25] !== E
+    ? ((N = T ? (0, $.jsx)(pg, { project: n, initialValue: D, onClose: () => E(!1) }) : null),
+      (t[22] = D),
+      (t[23] = T),
+      (t[24] = n),
+      (t[25] = E),
+      (t[26] = N))
+    : (N = t[26]);
+  let P;
+  t[27] !== i ||
+  t[28] !== D ||
+  t[29] !== x ||
+  t[30] !== c ||
+  t[31] !== u ||
+  t[32] !== S ||
+  t[33] !== r
+    ? ((P = x
+        ? (0, $.jsx)(Rr, {
+            projectLabel: D,
+            threadKeys: r,
+            currentThreadKey: i,
+            onArchivedCurrentThread: c,
+            onOpenChange: S,
+            onDropdownOpenChange: u,
+          })
+        : null),
+      (t[27] = i),
+      (t[28] = D),
+      (t[29] = x),
+      (t[30] = c),
+      (t[31] = u),
+      (t[32] = S),
+      (t[33] = r),
+      (t[34] = P))
+    : (P = t[34]);
+  let F;
+  t[35] !== D || t[36] !== C || t[37] !== u || t[38] !== n || t[39] !== w || t[40] !== m
+    ? ((F = C
+        ? (0, $.jsx)(Ie, {
+            project: n,
+            projectLabel: D,
+            workspaceRootOptions: m,
+            onOpenChange: w,
+            onDropdownOpenChange: u,
+          })
+        : null),
+      (t[35] = D),
+      (t[36] = C),
+      (t[37] = u),
+      (t[38] = n),
+      (t[39] = w),
+      (t[40] = m),
+      (t[41] = F))
+    : (F = t[41]);
+  let I;
+  t[42] !== D ||
+  t[43] !== y ||
+  t[44] !== u ||
+  t[45] !== n.path ||
+  t[46] !== b ||
+  t[47] !== h ||
+  t[48] !== m
+    ? ((I =
+        y && n.path != null
+          ? (0, $.jsx)(hg, {
+              groupPath: n.path,
+              effectiveLabel: D,
+              workspaceRootOptions: m,
+              workspaceRootLabels: h,
+              onOpenChange: b,
+              onDropdownOpenChange: u,
+            })
+          : null),
+      (t[42] = D),
+      (t[43] = y),
+      (t[44] = u),
+      (t[45] = n.path),
+      (t[46] = b),
+      (t[47] = h),
+      (t[48] = m),
+      (t[49] = I))
+    : (I = t[49]);
+  let L;
+  return (
+    t[50] !== F || t[51] !== I || t[52] !== M || t[53] !== N || t[54] !== P
+      ? ((L = (0, $.jsxs)($.Fragment, { children: [M, N, P, F, I] })),
+        (t[50] = F),
+        (t[51] = I),
+        (t[52] = M),
+        (t[53] = N),
+        (t[54] = P),
+        (t[55] = L))
+      : (L = t[55]),
+    L
+  );
+}
+function og(e) {
+  let t = (0, vg.c)(57),
+    {
+      project: n,
+      threadKeys: r,
+      canCreateStableWorktree: i,
+      onOpenChange: a,
+      onOpenArchiveDialog: o,
+      onOpenCreateStableWorktreeDialog: s,
+      onEditProjectSelect: l,
+      onOpenRemoveDialog: u,
+      onRenameProjectSelect: d,
+      showProjectEditAction: f,
+      showProjectPinAction: p,
+    } = e,
+    m = Re(ee),
+    { platform: h } = _r(),
+    { data: g } = oe(ge.PINNED_PROJECT_IDS),
+    _,
+    v,
+    y;
+  if (t[0] !== g || t[1] !== n) {
+    v = lr.getId(n);
+    let e;
+    (t[5] === n ? (e = t[6]) : ((e = lr.getFolderPath(n)), (t[5] = n), (t[6] = e)),
+      (_ = e),
+      (y = g?.includes(v)),
+      (t[0] = g),
+      (t[1] = n),
+      (t[2] = _),
+      (t[3] = v),
+      (t[4] = y));
+  } else ((_ = t[2]), (v = t[3]), (y = t[4]));
+  let b = !!y,
+    x = c(`open-file`),
+    S;
+  t[7] !== _ || t[8] !== a || t[9] !== x
+    ? ((S = () => {
+        if (_ == null) return;
+        let e = yn(_);
+        (no({ path: _, cwd: e, target: `fileManager`, openFile: x.mutate }), a(!1));
+      }),
+      (t[7] = _),
+      (t[8] = a),
+      (t[9] = x),
+      (t[10] = S))
+    : (S = t[10]);
+  let C = S,
+    w;
+  t[11] !== b || t[12] !== a || t[13] !== v || t[14] !== m || t[15] !== p
+    ? ((w = p
+        ? (0, $.jsx)(P.Item, {
+            LeftIcon: pi,
+            onSelect: () => {
+              (Ua(m, v, !b), a(!1));
+            },
+            children: b ? (0, $.jsx)(j, { ...Cg.unpin }) : (0, $.jsx)(j, { ...Cg.pin }),
+          })
+        : null),
+      (t[11] = b),
+      (t[12] = a),
+      (t[13] = v),
+      (t[14] = m),
+      (t[15] = p),
+      (t[16] = w))
+    : (w = t[16]);
+  let T;
+  t[17] !== _ || t[18] !== C || t[19] !== h
+    ? ((T =
+        _ == null
+          ? null
+          : (0, $.jsx)(P.Item, {
+              LeftIcon: ih,
+              onSelect: C,
+              children: (0, $.jsx)(gg, { platform: h }),
+            })),
+      (t[17] = _),
+      (t[18] = C),
+      (t[19] = h),
+      (t[20] = T))
+    : (T = t[20]);
+  let E;
+  t[21] !== i || t[22] !== a || t[23] !== s
+    ? ((E = i
+        ? (0, $.jsx)(P.Item, {
+            LeftIcon: Wi,
+            onSelect: (e) => {
+              (e.preventDefault(), a(!1), s());
+            },
+            children: (0, $.jsx)(j, {
+              id: `sidebarElectron.createStableWorktree`,
+              defaultMessage: `Create permanent worktree`,
+              description: `Menu item to create a non-codex-managed worktree for this git workspace root`,
+            }),
+          })
+        : null),
+      (t[21] = i),
+      (t[22] = a),
+      (t[23] = s),
+      (t[24] = E))
+    : (E = t[24]);
+  let D;
+  t[25] !== l || t[26] !== d || t[27] !== n || t[28] !== f
+    ? ((D = f
+        ? (0, $.jsx)(sg, { project: n, onSelect: l })
+        : (0, $.jsx)(P.Item, {
+            LeftIcon: ua,
+            onSelect: d,
+            children: (0, $.jsx)(j, { ...Sg.menuItem }),
+          })),
+      (t[25] = l),
+      (t[26] = d),
+      (t[27] = n),
+      (t[28] = f),
+      (t[29] = D))
+    : (D = t[29]);
+  let O;
+  t[30] === a ? (O = t[31]) : ((O = () => a(!1)), (t[30] = a), (t[31] = O));
+  let k;
+  t[32] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((k = (0, $.jsx)(j, { ...wg.menuItem })), (t[32] = k))
+    : (k = t[32]);
+  let A;
+  t[33] !== O || t[34] !== r
+    ? ((A = (0, $.jsx)(dg, { threadKeys: r, onSelect: O, children: k })),
+      (t[33] = O),
+      (t[34] = r),
+      (t[35] = A))
+    : (A = t[35]);
+  let M;
+  t[36] !== o || t[37] !== a
+    ? ((M = () => {
+        (a(!1), o());
+      }),
+      (t[36] = o),
+      (t[37] = a),
+      (t[38] = M))
+    : (M = t[38]);
+  let N;
+  t[39] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((N = (0, $.jsx)(j, {
+        id: `sidebarElectron.archiveProjectThreads`,
+        defaultMessage: `Archive chats`,
+        description: `Menu item to archive all archiveable threads in a project`,
+      })),
+      (t[39] = N))
+    : (N = t[39]);
+  let F;
+  t[40] !== M || t[41] !== r
+    ? ((F = (0, $.jsx)(ug, { threadKeys: r, onSelect: M, children: N })),
+      (t[40] = M),
+      (t[41] = r),
+      (t[42] = F))
+    : (F = t[42]);
+  let I;
+  t[43] !== a || t[44] !== u
+    ? ((I = () => {
+        (a(!1), u());
+      }),
+      (t[43] = a),
+      (t[44] = u),
+      (t[45] = I))
+    : (I = t[45]);
+  let L;
+  t[46] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((L = (0, $.jsx)(j, {
+        id: `sidebarElectron.removeWorkspaceRootOption`,
+        defaultMessage: `Remove`,
+        description: `Menu item to remove a workspace root option in the electron sidebar`,
+      })),
+      (t[46] = L))
+    : (L = t[46]);
+  let R;
+  t[47] === I
+    ? (R = t[48])
+    : ((R = (0, $.jsx)(P.Item, { LeftIcon: Me, onSelect: I, children: L })),
+      (t[47] = I),
+      (t[48] = R));
+  let z;
+  return (
+    t[49] !== F ||
+    t[50] !== R ||
+    t[51] !== w ||
+    t[52] !== T ||
+    t[53] !== E ||
+    t[54] !== D ||
+    t[55] !== A
+      ? ((z = (0, $.jsxs)($.Fragment, { children: [w, T, E, D, A, F, R] })),
+        (t[49] = F),
+        (t[50] = R),
+        (t[51] = w),
+        (t[52] = T),
+        (t[53] = E),
+        (t[54] = D),
+        (t[55] = A),
+        (t[56] = z))
+      : (z = t[56]),
+    z
+  );
+}
+function sg(e) {
+  let t = (0, vg.c)(8),
+    { project: n, onSelect: r } = e,
+    { data: i, isFetched: a, isLoadingError: o } = oe(ge.PROJECT_WRITABLE_ROOTS),
+    s = !a || o,
+    c;
+  t[0] !== r || t[1] !== n || t[2] !== i
+    ? ((c = () => {
+        r(
+          f({
+            projectId: lr.getId(n),
+            projectWritableRoots: Ar(i),
+            legacyRoot: lr.getFolderPath(n),
+          }),
+        );
+      }),
+      (t[0] = r),
+      (t[1] = n),
+      (t[2] = i),
+      (t[3] = c))
+    : (c = t[3]);
+  let l;
+  t[4] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((l = (0, $.jsx)(j, {
+        id: `sidebarElectron.editProject`,
+        defaultMessage: `Edit project`,
+        description: `Menu item that opens the local project editor`,
+      })),
+      (t[4] = l))
+    : (l = t[4]);
+  let u;
+  return (
+    t[5] !== s || t[6] !== c
+      ? ((u = (0, $.jsx)(P.Item, { LeftIcon: fo, disabled: s, onSelect: c, children: l })),
+        (t[5] = s),
+        (t[6] = c),
+        (t[7] = u))
+      : (u = t[7]),
+    u
+  );
+}
+function cg(e) {
+  let t = (0, vg.c)(46),
+    {
+      hostId: n,
+      projectId: r,
+      remotePath: i,
+      groupLabel: a,
+      threadKeys: o,
+      currentThreadKey: s,
+      onArchivedCurrentThread: c,
+      open: l,
+      onOpenChange: u,
+      showProjectPinAction: d,
+    } = e,
+    f = Qn(),
+    [p, m] = (0, yg.useState)(!1),
+    h = (0, yg.useRef)(!1),
+    [_, v] = (0, yg.useState)(!1),
+    [y, b] = (0, yg.useState)(!1),
+    x,
+    S,
+    C,
+    w,
+    T,
+    E,
+    D;
+  t[0] !== a || t[1] !== f || t[2] !== u || t[3] !== l || t[4] !== i
+    ? ((C = zt(i)),
+      (S = a || C),
+      (x = xh),
+      (w = l),
+      (T = u),
+      t[12] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((E = (e) => {
+            h.current && ((h.current = !1), e.preventDefault(), m(!0));
+          }),
+          (t[12] = E))
+        : (E = t[12]),
+      (D = f.formatMessage(
+        {
+          id: `sidebarElectron.remoteProjectOptions`,
+          defaultMessage: `Project actions for {folder}`,
+          description: `Button label for the remote project actions dropdown`,
+        },
+        { folder: S },
+      )),
+      (t[0] = a),
+      (t[1] = f),
+      (t[2] = u),
+      (t[3] = l),
+      (t[4] = i),
+      (t[5] = x),
+      (t[6] = S),
+      (t[7] = C),
+      (t[8] = w),
+      (t[9] = T),
+      (t[10] = E),
+      (t[11] = D))
+    : ((x = t[5]), (S = t[6]), (C = t[7]), (w = t[8]), (T = t[9]), (E = t[10]), (D = t[11]));
+  let O;
+  t[13] !== n || t[14] !== r || t[15] !== d || t[16] !== o
+    ? ((O = (e) =>
+        (0, $.jsx)(lg, {
+          hostId: n,
+          projectId: r,
+          threadKeys: o,
+          onOpenChange: e,
+          onOpenArchiveDialog: () => v(!0),
+          onOpenRemoveDialog: () => b(!0),
+          onRenameProjectSelect: () => {
+            h.current = !0;
+          },
+          showProjectPinAction: d,
+        })),
+      (t[13] = n),
+      (t[14] = r),
+      (t[15] = d),
+      (t[16] = o),
+      (t[17] = O))
+    : (O = t[17]);
+  let k;
+  t[18] !== x || t[19] !== w || t[20] !== T || t[21] !== E || t[22] !== D || t[23] !== O
+    ? ((k = (0, $.jsx)(x, {
+        open: w,
+        onOpenChange: T,
+        onCloseAutoFocus: E,
+        triggerAriaLabel: D,
+        children: O,
+      })),
+      (t[18] = x),
+      (t[19] = w),
+      (t[20] = T),
+      (t[21] = E),
+      (t[22] = D),
+      (t[23] = O),
+      (t[24] = k))
+    : (k = t[24]);
+  let A;
+  t[25] !== C || t[26] !== p || t[27] !== r
+    ? ((A = p ? (0, $.jsx)(mg, { projectId: r, fallbackLabel: C, onClose: () => m(!1) }) : null),
+      (t[25] = C),
+      (t[26] = p),
+      (t[27] = r),
+      (t[28] = A))
+    : (A = t[28]);
+  let j;
+  t[29] !== s || t[30] !== S || t[31] !== _ || t[32] !== c || t[33] !== u || t[34] !== o
+    ? ((j = _
+        ? (0, $.jsx)(Rr, {
+            projectLabel: S,
+            threadKeys: o,
+            currentThreadKey: s,
+            onArchivedCurrentThread: c,
+            onOpenChange: v,
+            onDropdownOpenChange: u,
+          })
+        : null),
+      (t[29] = s),
+      (t[30] = S),
+      (t[31] = _),
+      (t[32] = c),
+      (t[33] = u),
+      (t[34] = o),
+      (t[35] = j))
+    : (j = t[35]);
+  let M;
+  t[36] !== S || t[37] !== y || t[38] !== u || t[39] !== r
+    ? ((M = y
+        ? (0, $.jsx)(g, { projectId: r, projectLabel: S, onOpenChange: b, onDropdownOpenChange: u })
+        : null),
+      (t[36] = S),
+      (t[37] = y),
+      (t[38] = u),
+      (t[39] = r),
+      (t[40] = M))
+    : (M = t[40]);
+  let N;
+  return (
+    t[41] !== k || t[42] !== A || t[43] !== j || t[44] !== M
+      ? ((N = (0, $.jsxs)($.Fragment, { children: [k, A, j, M] })),
+        (t[41] = k),
+        (t[42] = A),
+        (t[43] = j),
+        (t[44] = M),
+        (t[45] = N))
+      : (N = t[45]),
+    N
+  );
+}
+function lg(e) {
+  let t = (0, vg.c)(44),
+    {
+      hostId: n,
+      projectId: r,
+      threadKeys: i,
+      onOpenChange: a,
+      onOpenArchiveDialog: o,
+      onOpenRemoveDialog: s,
+      onRenameProjectSelect: c,
+      showProjectPinAction: l,
+    } = e,
+    u = Re(ee),
+    { data: d } = oe(ge.PINNED_PROJECT_IDS),
+    f;
+  t[0] !== d || t[1] !== r
+    ? ((f = d?.includes(r)), (t[0] = d), (t[1] = r), (t[2] = f))
+    : (f = t[2]);
+  let p = !!f,
+    { remoteProjects: m } = $t();
+  if ((m.find((e) => e.id === r) ?? null) == null) return null;
+  let h;
+  t[3] !== p || t[4] !== a || t[5] !== r || t[6] !== u || t[7] !== l
+    ? ((h = l
+        ? (0, $.jsx)(P.Item, {
+            LeftIcon: pi,
+            onSelect: () => {
+              (Ua(u, r, !p), a(!1));
+            },
+            children: p ? (0, $.jsx)(j, { ...Cg.unpin }) : (0, $.jsx)(j, { ...Cg.pin }),
+          })
+        : null),
+      (t[3] = p),
+      (t[4] = a),
+      (t[5] = r),
+      (t[6] = u),
+      (t[7] = l),
+      (t[8] = h))
+    : (h = t[8]);
+  let g;
+  t[9] === c
+    ? (g = t[10])
+    : ((g = () => {
+        c();
+      }),
+      (t[9] = c),
+      (t[10] = g));
+  let _;
+  t[11] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((_ = (0, $.jsx)(j, { ...Sg.menuItem })), (t[11] = _))
+    : (_ = t[11]);
+  let v;
+  t[12] === g
+    ? (v = t[13])
+    : ((v = (0, $.jsx)(P.Item, { LeftIcon: ua, onSelect: g, children: _ })),
+      (t[12] = g),
+      (t[13] = v));
+  let y;
+  t[14] !== n || t[15] !== a || t[16] !== u
+    ? ((y =
+        n == null
+          ? null
+          : (0, $.jsx)(P.Item, {
+              LeftIcon: Pt,
+              onSelect: () => {
+                (a(!1), ye(u, zp, { hostId: n }));
+              },
+              children: (0, $.jsx)(j, {
+                id: `codex.remoteHostColorPicker.menuItem`,
+                defaultMessage: `Change connection color…`,
+                description: `Menu item that opens the color picker for a remote connection`,
+              }),
+            })),
+      (t[14] = n),
+      (t[15] = a),
+      (t[16] = u),
+      (t[17] = y))
+    : (y = t[17]);
+  let b;
+  t[18] === a ? (b = t[19]) : ((b = () => a(!1)), (t[18] = a), (t[19] = b));
+  let x;
+  t[20] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((x = (0, $.jsx)(j, { ...wg.menuItem })), (t[20] = x))
+    : (x = t[20]);
+  let S;
+  t[21] !== b || t[22] !== i
+    ? ((S = (0, $.jsx)(dg, { threadKeys: i, onSelect: b, children: x })),
+      (t[21] = b),
+      (t[22] = i),
+      (t[23] = S))
+    : (S = t[23]);
+  let C;
+  t[24] !== o || t[25] !== a
+    ? ((C = () => {
+        (a(!1), o());
+      }),
+      (t[24] = o),
+      (t[25] = a),
+      (t[26] = C))
+    : (C = t[26]);
+  let w;
+  t[27] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((w = (0, $.jsx)(j, {
+        id: `sidebarElectron.archiveRemoteProjectThreads`,
+        defaultMessage: `Archive chats`,
+        description: `Menu item to archive all archiveable threads in a remote project`,
+      })),
+      (t[27] = w))
+    : (w = t[27]);
+  let T;
+  t[28] !== C || t[29] !== i
+    ? ((T = (0, $.jsx)(ug, { threadKeys: i, onSelect: C, children: w })),
+      (t[28] = C),
+      (t[29] = i),
+      (t[30] = T))
+    : (T = t[30]);
+  let E;
+  t[31] !== a || t[32] !== s
+    ? ((E = () => {
+        (a(!1), s());
+      }),
+      (t[31] = a),
+      (t[32] = s),
+      (t[33] = E))
+    : (E = t[33]);
+  let D;
+  t[34] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((D = (0, $.jsx)(j, {
+        id: `sidebarElectron.removeRemoteProject`,
+        defaultMessage: `Remove`,
+        description: `Menu item to remove a remote project in the electron sidebar`,
+      })),
+      (t[34] = D))
+    : (D = t[34]);
+  let O;
+  t[35] === E
+    ? (O = t[36])
+    : ((O = (0, $.jsx)(P.Item, { LeftIcon: Me, onSelect: E, children: D })),
+      (t[35] = E),
+      (t[36] = O));
+  let k;
+  return (
+    t[37] !== T || t[38] !== O || t[39] !== h || t[40] !== v || t[41] !== y || t[42] !== S
+      ? ((k = (0, $.jsxs)($.Fragment, { children: [h, v, y, S, T, O] })),
+        (t[37] = T),
+        (t[38] = O),
+        (t[39] = h),
+        (t[40] = v),
+        (t[41] = y),
+        (t[42] = S),
+        (t[43] = k))
+      : (k = t[43]),
+    k
+  );
+}
+function ug(e) {
+  let t = (0, vg.c)(6),
+    { threadKeys: n, onSelect: r, children: i } = e,
+    a = Z(k, n),
+    o;
+  t[0] === a ? (o = t[1]) : ((o = He(a)), (t[0] = a), (t[1] = o));
+  let s = o.length === 0,
+    c;
+  return (
+    t[2] !== i || t[3] !== r || t[4] !== s
+      ? ((c = (0, $.jsx)(P.Item, { LeftIcon: Pu, disabled: s, onSelect: r, children: i })),
+        (t[2] = i),
+        (t[3] = r),
+        (t[4] = s),
+        (t[5] = c))
+      : (c = t[5]),
+    c
+  );
+}
+function dg(e) {
+  let t = (0, vg.c)(10),
+    { threadKeys: n, onSelect: r, children: i } = e,
+    a = We(),
+    o = Z(pe, n),
+    s;
+  t[0] === o ? (s = t[1]) : ((s = o.flatMap(fg)), (t[0] = o), (t[1] = s));
+  let c = s;
+  if (o.length === 0) return null;
+  let l;
+  t[2] !== a || t[3] !== r || t[4] !== c || t[5] !== o
+    ? ((l = () => {
+        (r(),
+          b(o).then(async () => {
+            c.length !== 0 && (await Promise.all([a([`tasks`]), ...c.map((e) => a([`task`, e]))]));
+          }));
+      }),
+      (t[2] = a),
+      (t[3] = r),
+      (t[4] = c),
+      (t[5] = o),
+      (t[6] = l))
+    : (l = t[6]);
+  let u;
+  return (
+    t[7] !== i || t[8] !== l
+      ? ((u = (0, $.jsx)(P.Item, { LeftIcon: bn, onSelect: l, children: i })),
+        (t[7] = i),
+        (t[8] = l),
+        (t[9] = u))
+      : (u = t[9]),
+    u
+  );
+}
+function fg(e) {
+  return e.kind === `remote` ? [e.taskId] : [];
+}
+function pg(e) {
+  let t = (0, vg.c)(12),
+    { project: n, initialValue: r, onClose: i } = e,
+    a = Re(ee),
+    s = o(),
+    { data: c } = oe(ge.LOCAL_PROJECTS),
+    l;
+  t[0] === n ? (l = t[1]) : ((l = lr.getFolderPath(n)), (t[0] = n), (t[1] = l));
+  let u = l,
+    d;
+  t[2] !== c || t[3] !== n || t[4] !== s || t[5] !== a
+    ? ((d = (e) => {
+        let t = e.trim();
+        lr.rename({
+          existingLocalProjects: c,
+          name: t,
+          now: Date.now(),
+          project: n,
+          setGlobalSetting: (e, t) => tn(a, e, t),
+          updateWorkspaceRootLabel: (e, t) => {
+            Dr({ label: t, path: e, queryClient: s });
+          },
+        });
+      }),
+      (t[2] = c),
+      (t[3] = n),
+      (t[4] = s),
+      (t[5] = a),
+      (t[6] = d))
+    : (d = t[6]);
+  let f = d,
+    p = u == null,
+    m;
+  return (
+    t[7] !== f || t[8] !== r || t[9] !== i || t[10] !== p
+      ? ((m = (0, $.jsx)(zr, {
+          initialValue: r,
+          messages: Sg,
+          onClose: i,
+          requireNonEmpty: p,
+          onSave: f,
+        })),
+        (t[7] = f),
+        (t[8] = r),
+        (t[9] = i),
+        (t[10] = p),
+        (t[11] = m))
+      : (m = t[11]),
+    m
+  );
+}
+function mg(e) {
+  let t = (0, vg.c)(12),
+    { projectId: n, fallbackLabel: r, onClose: i } = e,
+    { remoteProjects: a, setRemoteProjects: o } = $t(),
+    s;
+  t[0] !== n || t[1] !== a
+    ? ((s = a.find((e) => e.id === n) ?? null), (t[0] = n), (t[1] = a), (t[2] = s))
+    : (s = t[2]);
+  let c = s;
+  if (c == null) return null;
+  let l;
+  t[3] !== r || t[4] !== c.id || t[5] !== a || t[6] !== o
+    ? ((l = (e) => {
+        o(a.map((t) => (t.id === c.id ? { ...t, label: e.trim() || r } : t)));
+      }),
+      (t[3] = r),
+      (t[4] = c.id),
+      (t[5] = a),
+      (t[6] = o),
+      (t[7] = l))
+    : (l = t[7]);
+  let u = l,
+    d;
+  return (
+    t[8] !== u || t[9] !== i || t[10] !== c.label
+      ? ((d = (0, $.jsx)(zr, { initialValue: c.label, messages: Sg, onClose: i, onSave: u })),
+        (t[8] = u),
+        (t[9] = i),
+        (t[10] = c.label),
+        (t[11] = d))
+      : (d = t[11]),
+    d
+  );
+}
+function hg(e) {
+  let t = (0, vg.c)(53),
+    {
+      groupPath: n,
+      effectiveLabel: r,
+      workspaceRootOptions: i,
+      workspaceRootLabels: a,
+      onOpenChange: o,
+      onDropdownOpenChange: s,
+    } = e,
+    c = Qn(),
+    l = Or(),
+    { createPendingWorktree: u } = oi(),
+    d;
+  t[0] !== r || t[1] !== a || t[2] !== i
+    ? ((d = () => rg({ base: r, workspaceRootOptions: i, workspaceRootLabels: a })),
+      (t[0] = r),
+      (t[1] = a),
+      (t[2] = i),
+      (t[3] = d))
+    : (d = t[3]);
+  let [f, p] = (0, yg.useState)(d),
+    [m, h] = (0, yg.useState)(null),
+    g;
+  t[4] === f ? (g = t[5]) : ((g = f.trim()), (t[4] = f), (t[5] = g));
+  let _ = g,
+    v;
+  t[6] !== u || t[7] !== n || t[8] !== c || t[9] !== l || t[10] !== s || t[11] !== o || t[12] !== _
+    ? ((v = () => {
+        if (_) {
+          h(null);
+          try {
+            (l(
+              `/worktree-init-v2/${u(kh({ hostId: fe, groupPath: n, label: _, prompt: c.formatMessage({ id: `sidebarElectron.createStableWorktree.dialog.subtitle`, defaultMessage: `Create a new git worktree from HEAD, add it as a project, and keep it until you remove it`, description: `Dialog subtitle for creating a stable worktree` }) }))}`,
+            ),
+              o(!1),
+              s(!1));
+          } catch (e) {
+            let t = e;
+            h(
+              c.formatMessage(
+                {
+                  id: `sidebarElectron.createStableWorktree.error`,
+                  defaultMessage: `Failed to create permanent worktree: {message}`,
+                  description: `Error message shown when creating a stable worktree fails`,
+                },
+                { message: jr(t) },
+              ),
+            );
+          }
+        }
+      }),
+      (t[6] = u),
+      (t[7] = n),
+      (t[8] = c),
+      (t[9] = l),
+      (t[10] = s),
+      (t[11] = o),
+      (t[12] = _),
+      (t[13] = v))
+    : (v = t[13]);
+  let y = v,
+    b;
+  t[14] === o
+    ? (b = t[15])
+    : ((b = (e) => {
+        e || o(!1);
+      }),
+      (t[14] = o),
+      (t[15] = b));
+  let S;
+  t[16] === y
+    ? (S = t[17])
+    : ((S = (e) => {
+        (e.preventDefault(), y());
+      }),
+      (t[16] = y),
+      (t[17] = S));
+  let C;
+  t[18] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((C = (0, $.jsx)(x, {
+        children: (0, $.jsx)(D, {
+          title: (0, $.jsx)(j, {
+            id: `sidebarElectron.createStableWorktree.dialog.title`,
+            defaultMessage: `Create worktree and save as a project`,
+            description: `Dialog title for creating a stable worktree from a workspace root`,
+          }),
+          subtitle: (0, $.jsx)(j, {
+            id: `sidebarElectron.createStableWorktree.dialog.subtitle`,
+            defaultMessage: `Create a new git worktree from HEAD, add it as a project, and keep it until you remove it`,
+            description: `Dialog subtitle for creating a stable worktree`,
+          }),
+        }),
+      })),
+      (t[18] = C))
+    : (C = t[18]);
+  let w;
+  t[19] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((w = (e) => {
+        p(e.target.value);
+      }),
+      (t[19] = w))
+    : (w = t[19]);
+  let T;
+  t[20] === c
+    ? (T = t[21])
+    : ((T = c.formatMessage({
+        id: `sidebarElectron.createStableWorktree.dialog.placeholder`,
+        defaultMessage: `Project name`,
+        description: `Placeholder for stable worktree label input in the create dialog`,
+      })),
+      (t[20] = c),
+      (t[21] = T));
+  let E;
+  t[22] === c
+    ? (E = t[23])
+    : ((E = c.formatMessage({
+        id: `sidebarElectron.createStableWorktree.dialog.ariaLabel`,
+        defaultMessage: `Project name`,
+        description: `Aria label for stable worktree label input in the create dialog`,
+      })),
+      (t[22] = c),
+      (t[23] = E));
+  let O;
+  t[24] !== f || t[25] !== T || t[26] !== E
+    ? ((O = (0, $.jsx)(`input`, {
+        className: `rounded-xl border border-token-border px-3 py-2 text-base text-token-input-foreground shadow-sm outline-none`,
+        value: f,
+        onChange: w,
+        placeholder: T,
+        "aria-label": E,
+        autoFocus: !0,
+      })),
+      (t[24] = f),
+      (t[25] = T),
+      (t[26] = E),
+      (t[27] = O))
+    : (O = t[27]);
+  let k;
+  t[28] === m
+    ? (k = t[29])
+    : ((k = m
+        ? (0, $.jsx)(`p`, { className: `text-sm text-token-error-foreground`, children: m })
+        : null),
+      (t[28] = m),
+      (t[29] = k));
+  let A;
+  t[30] !== O || t[31] !== k
+    ? ((A = (0, $.jsxs)(x, { className: `gap-2`, children: [O, k] })),
+      (t[30] = O),
+      (t[31] = k),
+      (t[32] = A))
+    : (A = t[32]);
+  let M;
+  t[33] === o
+    ? (M = t[34])
+    : ((M = () => {
+        o(!1);
+      }),
+      (t[33] = o),
+      (t[34] = M));
+  let N;
+  t[35] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((N = (0, $.jsx)(j, {
+        id: `sidebarElectron.createStableWorktree.dialog.cancel`,
+        defaultMessage: `Cancel`,
+        description: `Cancel button for stable worktree creation dialog`,
+      })),
+      (t[35] = N))
+    : (N = t[35]);
+  let P;
+  t[36] === M
+    ? (P = t[37])
+    : ((P = (0, $.jsx)(Vt, { color: `outline`, type: `button`, onClick: M, children: N })),
+      (t[36] = M),
+      (t[37] = P));
+  let F = _.length === 0,
+    I;
+  t[38] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((I = (0, $.jsx)(j, {
+        id: `sidebarElectron.createStableWorktree.dialog.create`,
+        defaultMessage: `Create`,
+        description: `Create button for stable worktree creation dialog`,
+      })),
+      (t[38] = I))
+    : (I = t[38]);
+  let L;
+  t[39] === F
+    ? (L = t[40])
+    : ((L = (0, $.jsx)(Vt, { color: `primary`, type: `submit`, disabled: F, children: I })),
+      (t[39] = F),
+      (t[40] = L));
+  let R;
+  t[41] !== P || t[42] !== L
+    ? ((R = (0, $.jsx)(x, { children: (0, $.jsxs)(Ue, { children: [P, L] }) })),
+      (t[41] = P),
+      (t[42] = L),
+      (t[43] = R))
+    : (R = t[43]);
+  let z;
+  t[44] !== A || t[45] !== R
+    ? ((z = (0, $.jsxs)(Pr, { children: [C, A, R] })), (t[44] = A), (t[45] = R), (t[46] = z))
+    : (z = t[46]);
+  let B;
+  t[47] !== z || t[48] !== S
+    ? ((B = (0, $.jsx)(`form`, { onSubmit: S, className: `flex flex-col gap-0`, children: z })),
+      (t[47] = z),
+      (t[48] = S),
+      (t[49] = B))
+    : (B = t[49]);
+  let ee;
+  return (
+    t[50] !== B || t[51] !== b
+      ? ((ee = (0, $.jsx)(Kn, { open: !0, onOpenChange: b, size: `compact`, children: B })),
+        (t[50] = B),
+        (t[51] = b),
+        (t[52] = ee))
+      : (ee = t[52]),
+    ee
+  );
+}
+function gg(e) {
+  let t = (0, vg.c)(4),
+    { platform: n } = e,
+    r;
+  t[0] === n ? (r = t[1]) : ((r = qp(n)), (t[0] = n), (t[1] = r));
+  let i;
+  return (t[2] === r ? (i = t[3]) : ((i = (0, $.jsx)(j, { ...r })), (t[2] = r), (t[3] = i)), i);
+}
+function _g(e) {
+  let t = (0, vg.c)(19),
+    { isCollapsed: n, groupPath: r, toggleGroup: i } = e,
+    a = Qn(),
+    o = n ? 0 : 90,
+    s = !n,
+    c;
+  t[0] !== a || t[1] !== n
+    ? ((c = n
+        ? a.formatMessage({
+            id: `sidebarElectron.expandFolder`,
+            defaultMessage: `Expand folder`,
+            description: `Expand folder button label`,
+          })
+        : a.formatMessage({
+            id: `sidebarElectron.collapseFolder`,
+            defaultMessage: `Collapse folder`,
+            description: `Collapse folder button label`,
+          })),
+      (t[0] = a),
+      (t[1] = n),
+      (t[2] = c))
+    : (c = t[2]);
+  let l;
+  t[3] !== r || t[4] !== i
+    ? ((l = (e) => {
+        (e.stopPropagation(), i(r));
+      }),
+      (t[3] = r),
+      (t[4] = i),
+      (t[5] = l))
+    : (l = t[5]);
+  let u;
+  t[6] === o ? (u = t[7]) : ((u = { rotate: o }), (t[6] = o), (t[7] = u));
+  let d;
+  t[8] === o ? (d = t[9]) : ((d = { rotate: o }), (t[8] = o), (t[9] = d));
+  let f;
+  t[10] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((f = (0, $.jsx)($m, { className: `icon-xxs` })), (t[10] = f))
+    : (f = t[10]);
+  let p;
+  t[11] !== u || t[12] !== d
+    ? ((p = (0, $.jsx)(Tn.div, {
+        style: u,
+        initial: !1,
+        animate: d,
+        transition: rt,
+        className: `flex items-center`,
+        children: f,
+      })),
+      (t[11] = u),
+      (t[12] = d),
+      (t[13] = p))
+    : (p = t[13]);
+  let m;
+  return (
+    t[14] !== s || t[15] !== c || t[16] !== l || t[17] !== p
+      ? ((m = (0, $.jsx)(`button`, {
+          type: `button`,
+          "aria-expanded": s,
+          "aria-label": c,
+          onClick: l,
+          className: `text-token-muted-foreground flex items-center justify-center p-1 hover:text-token-foreground`,
+          children: p,
+        })),
+        (t[14] = s),
+        (t[15] = c),
+        (t[16] = l),
+        (t[17] = p),
+        (t[18] = m))
+      : (m = t[18]),
+    m
+  );
+}
+var vg,
+  yg,
+  $,
+  bg,
+  xg,
+  Sg,
+  Cg,
+  wg,
+  Tg = e(() => {
+    ((vg = X()),
+      Ji(),
+      ia(),
+      Ir(),
+      Be(),
+      Fn(),
+      Wn(),
+      Tt(),
+      un(),
+      (yg = t(Gr(), 1)),
+      I(),
+      wt(),
+      ur(),
+      Va(),
+      Wm(),
+      Hn(),
+      Xt(),
+      s(),
+      st(),
+      ue(),
+      Jm(),
+      nn(),
+      Nt(),
+      kn(),
+      Dn(),
+      ro(),
+      ln(),
+      il(),
+      H(),
+      Lt(),
+      co(),
+      Vs(),
+      Fu(),
+      va(),
+      Zm(),
+      Fo(),
+      yr(),
+      Si(),
+      si(),
+      rs(),
+      ai(),
+      Xr(),
+      gr(),
+      ri(),
+      es(),
+      Dt(),
+      hi(),
+      eh(),
+      po(),
+      $i(),
+      Zi(),
+      d(),
+      Rn(),
+      _t(),
+      xr(),
+      Pd(),
+      Ct(),
+      nh(),
+      Je(),
+      L(),
+      Kp(),
+      On(),
+      Y(),
+      hn(),
+      ah(),
+      E(),
+      Zc(),
+      Nr(),
+      lh(),
+      ct(),
+      Xa(),
+      Ja(),
+      gh(),
+      Eh(),
+      bo(),
+      Le(),
+      hr(),
+      vn(),
+      jc(),
+      qo(),
+      R(),
+      ns(),
+      As(),
+      da(),
+      vl(),
+      Rl(),
+      Rm(),
+      ut(),
+      kt(),
+      Oh(),
+      vt(),
+      Oe(),
+      Ri(),
+      za(),
+      Ah(),
+      Yp(),
+      ($ = gn()),
+      (bg = 5),
+      (xg = []),
+      (Sg = Ye({
+        menuItem: {
+          id: `sidebarElectron.renameProject`,
+          defaultMessage: `Rename project`,
+          description: `Menu item to rename a project in the electron sidebar`,
+        },
+        title: {
+          id: `sidebarElectron.renameProjectDialogTitle`,
+          defaultMessage: `Rename project`,
+          description: `Title for rename project dialog`,
+        },
+        subtitle: {
+          id: `sidebarElectron.renameProjectDialogSubtitle`,
+          defaultMessage: `Keep it short and recognizable`,
+          description: `Subtitle for rename project dialog`,
+        },
+        placeholder: {
+          id: `sidebarElectron.renameProjectDialogPlaceholder`,
+          defaultMessage: `Project name`,
+          description: `Placeholder for rename project input`,
+        },
+        ariaLabel: {
+          id: `sidebarElectron.renameProjectDialogAriaLabel`,
+          defaultMessage: `Project name`,
+          description: `Aria label for rename project input`,
+        },
+      })),
+      (Cg = Ye({
+        pin: {
+          id: `sidebarElectron.pinProject`,
+          defaultMessage: `Pin project`,
+          description: `Menu item to pin a project in the electron sidebar`,
+        },
+        unpin: {
+          id: `sidebarElectron.unpinProject`,
+          defaultMessage: `Unpin project`,
+          description: `Menu item to unpin a project in the electron sidebar`,
+        },
+      })),
+      (wg = Ye({
+        menuItem: {
+          id: `sidebarElectron.markProjectThreadsRead`,
+          defaultMessage: `Mark all as read`,
+          description: `Menu item to mark every unread thread in a project as read`,
+        },
+      })));
+  });
+function Eg(e) {
+  let t = (0, Ng.c)(55),
+    { mode: n, threadKeys: r, threadKeysInDisplayOrder: i } = e,
+    a = Re(ee),
+    o = Qn(),
+    s = ve(`3314958849`),
+    c = Z(Pe, `chats`),
+    l = (0, Pg.useContext)(kc),
+    u;
+  t[0] !== l || t[1] !== r || t[2] !== i
+    ? ((u = wc({
+        containerId: `chats`,
+        pendingThreadDrops: l,
+        threadKeys: r,
+        threadKeysInDisplayOrder: i,
+      })),
+      (t[0] = l),
+      (t[1] = r),
+      (t[2] = i),
+      (t[3] = u))
+    : (u = t[3]);
+  let d = Z($o, u),
+    f;
+  t[4] === d ? (f = t[5]) : ((f = zi(d)), (t[4] = d), (t[5] = f));
+  let p = f,
+    m;
+  t[6] !== a || t[7] !== i
+    ? ((m = (e) => {
+        let { visibleThreadKeys: t, nextVisibleThreadKeys: n } = e;
+        return (
+          pl(a, {
+            tasks: a.get($o, i).map(Og),
+            visibleThreadIds: oa(t),
+            nextVisibleThreadIds: oa(n),
+          }),
+          Promise.resolve()
+        );
+      }),
+      (t[6] = a),
+      (t[7] = i),
+      (t[8] = m))
+    : (m = t[8]);
+  let h;
+  t[9] !== m || t[10] !== p
+    ? ((h = { visibleThreadKeys: p, onVisibleThreadOrderChange: m }),
+      (t[9] = m),
+      (t[10] = p),
+      (t[11] = h))
+    : (h = t[11]);
+  let { controller: g, displayedVisibleThreadKeys: _, dropIndicatorTarget: v } = Fl(h),
+    y;
+  t[12] !== d || t[13] !== _ || t[14] !== p
+    ? ((y = _ === p ? d : Ea(d, _)), (t[12] = d), (t[13] = _), (t[14] = p), (t[15] = y))
+    : (y = t[15]);
+  let b = y,
+    x;
+  t[16] === b ? (x = t[17]) : ((x = b.map(Dg)), (t[16] = b), (t[17] = x));
+  let S = x,
+    C = Z(qr, S),
+    w;
+  t[18] === o
+    ? (w = t[19])
+    : ((w = o.formatMessage({
+        id: `sidebarElectron.chatsNavLink`,
+        defaultMessage: `Chats`,
+        description: `Section label above the unified chat list in the sidebar`,
+      })),
+      (t[18] = o),
+      (t[19] = w));
+  let T = w,
+    E;
+  t[20] === c
+    ? (E = t[21])
+    : ((E = fn.sidebarSection({ collapsed: c, heading: `Chats` })), (t[20] = c), (t[21] = E));
+  let D;
+  t[22] !== c || t[23] !== a
+    ? ((D = () => {
+        Ln(a, `chats`, !c);
+      }),
+      (t[22] = c),
+      (t[23] = a),
+      (t[24] = D))
+    : (D = t[24]);
+  let O;
+  t[25] !== T || t[26] !== c || t[27] !== D
+    ? ((O = (0, Fg.jsx)(`div`, {
+        className: `flex min-w-0 flex-1`,
+        children: (0, Fg.jsx)(jl, {
+          collapsed: c,
+          showCollapsedChevron: !0,
+          onToggle: D,
+          children: T,
+        }),
+      })),
+      (t[25] = T),
+      (t[26] = c),
+      (t[27] = D),
+      (t[28] = O))
+    : (O = t[28]);
+  let k;
+  t[29] === n
+    ? (k = t[30])
+    : ((k = (0, Fg.jsx)(Dl, { mode: n, sidebarMode: `codex` })), (t[29] = n), (t[30] = k));
+  let A;
+  t[31] !== C || t[32] !== c
+    ? ((A = c && C != null ? (0, Fg.jsx)(Qc, { statusState: C }) : null),
+      (t[31] = C),
+      (t[32] = c),
+      (t[33] = A))
+    : (A = t[33]);
+  let M;
+  t[34] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((M = (0, Fg.jsx)(j, {
+        id: `sidebarElectron.noChats`,
+        defaultMessage: `No chats`,
+        description: `Empty state for the unified sidebar chat list`,
+      })),
+      (t[34] = M))
+    : (M = t[34]);
+  let N = s ? 50 : void 0,
+    P;
+  t[35] !== T || t[36] !== v || t[37] !== N || t[38] !== S
+    ? ((P = (0, Fg.jsx)(Nm, {
+        threadKeys: S,
+        ariaLabel: T,
+        dropIndicatorTarget: v,
+        emptyState: M,
+        emptyStateClassName: `text-token-description-foreground p-2 text-base opacity-50`,
+        itemWrapper: Lc,
+        maxItems: N,
+        rowOptions: Ig,
+      })),
+      (t[35] = T),
+      (t[36] = v),
+      (t[37] = N),
+      (t[38] = S),
+      (t[39] = P))
+    : (P = t[39]);
+  let F;
+  t[40] !== _ || t[41] !== P
+    ? ((F = (0, Fg.jsx)(yi, { items: _, strategy: ha, children: P })),
+      (t[40] = _),
+      (t[41] = P),
+      (t[42] = F))
+    : (F = t[42]);
+  let I;
+  t[43] !== g || t[44] !== F
+    ? ((I = (0, Fg.jsx)(Fc, { containerId: `chats`, controller: g, children: F })),
+      (t[43] = g),
+      (t[44] = F),
+      (t[45] = I))
+    : (I = t[45]);
+  let L;
+  t[46] !== c || t[47] !== O || t[48] !== k || t[49] !== A || t[50] !== I
+    ? ((L = (0, Fg.jsx)(Ms, {
+        collapsed: c,
+        titleRowClassName: `flex items-start justify-between gap-2 pr-0.5 pl-2`,
+        title: O,
+        titleActions: k,
+        titleActionsOnHover: !0,
+        titleTrailing: A,
+        children: I,
+      })),
+      (t[46] = c),
+      (t[47] = O),
+      (t[48] = k),
+      (t[49] = A),
+      (t[50] = I),
+      (t[51] = L))
+    : (L = t[51]);
+  let R;
+  return (
+    t[52] !== L || t[53] !== E
+      ? ((R = (0, Fg.jsx)(Ic, {
+          containerId: `chats`,
+          className: `px-row-x`,
+          children: (0, Fg.jsx)(`div`, { ...E, children: L }),
+        })),
+        (t[52] = L),
+        (t[53] = E),
+        (t[54] = R))
+      : (R = t[54]),
+    R
+  );
+}
+function Dg(e) {
+  return e.task.key;
+}
+function Og(e) {
+  return e.task;
+}
+function kg(e) {
+  let t = (0, Ng.c)(45),
+    n = Re(ee),
+    r = C(Qo),
+    i = C(dt),
+    a = C(Do),
+    o = vo(),
+    s = C(cs),
+    c = r || (s && !o),
+    l = e.mode === `connection`,
+    u = Z(Pe, `threads`),
+    d;
+  t[0] !== l || t[1] !== e.connectionGroups || t[2] !== e.projectGroups
+    ? ((d = l ? (e.connectionGroups?.flatMap(jg) ?? []) : e.projectGroups.flatMap(Ag)),
+      (t[0] = l),
+      (t[1] = e.connectionGroups),
+      (t[2] = e.projectGroups),
+      (t[3] = d))
+    : (d = t[3]);
+  let f = Z(qr, d),
+    p = l ? (e.connectionGroups?.length ?? 0) > 0 : e.projectGroups.length > 0,
+    m = (0, Pg.useContext)(kc);
+  if (!p && !c) return null;
+  let h;
+  t[4] !== u || t[5] !== l
+    ? ((h = fn.sidebarSection({ collapsed: u, heading: l ? `Connections` : `Projects` })),
+      (t[4] = u),
+      (t[5] = l),
+      (t[6] = h))
+    : (h = t[6]);
+  let g;
+  t[7] !== u || t[8] !== n
+    ? ((g = () => {
+        Ln(n, `threads`, !u);
+      }),
+      (t[7] = u),
+      (t[8] = n),
+      (t[9] = g))
+    : (g = t[9]);
+  let _;
+  t[10] === l
+    ? (_ = t[11])
+    : ((_ = l
+        ? (0, Fg.jsx)(j, {
+            id: `sidebarElectron.connectionsNavLink`,
+            defaultMessage: `Connections`,
+            description: `Section label above connection thread groups in the sidebar`,
+          })
+        : (0, Fg.jsx)(j, {
+            id: `sidebarElectron.projectsNavLink`,
+            defaultMessage: `Projects`,
+            description: `Section label above project thread groups in the sidebar`,
+          })),
+      (t[10] = l),
+      (t[11] = _));
+  let v;
+  t[12] !== u || t[13] !== g || t[14] !== _
+    ? ((v = (0, Fg.jsx)(`div`, {
+        className: `flex min-w-0 flex-1`,
+        children: (0, Fg.jsx)(jl, {
+          collapsed: u,
+          showCollapsedChevron: !0,
+          onToggle: g,
+          children: _,
+        }),
+      })),
+      (t[12] = u),
+      (t[13] = g),
+      (t[14] = _),
+      (t[15] = v))
+    : (v = t[15]);
+  let y;
+  t[16] !== e.chatGptProjectCrudStatus || t[17] !== e.mode || t[18] !== e.onCreateChatGptProject
+    ? ((y = (0, Fg.jsx)(Mg, {
+        chatGptProjectCrudStatus: e.chatGptProjectCrudStatus,
+        mode: e.mode,
+        sidebarMode: `codex`,
+        onCreateChatGptProject: e.onCreateChatGptProject,
+      })),
+      (t[16] = e.chatGptProjectCrudStatus),
+      (t[17] = e.mode),
+      (t[18] = e.onCreateChatGptProject),
+      (t[19] = y))
+    : (y = t[19]);
+  let b;
+  t[20] !== f || t[21] !== u
+    ? ((b = u && f != null ? (0, Fg.jsx)(Qc, { statusState: f }) : null),
+      (t[20] = f),
+      (t[21] = u),
+      (t[22] = b))
+    : (b = t[22]);
+  let x = i == null ? a : null,
+    S;
+  t[23] !== m ||
+  t[24] !== e.connectionGroups ||
+  t[25] !== e.mode ||
+  t[26] !== e.projectGroups ||
+  t[27] !== e.threadKeysInDisplayOrder
+    ? ((S =
+        e.mode === `connection`
+          ? { connectionGroups: e.connectionGroups, organizeMode: e.mode }
+          : {
+              groups:
+                m.length === 0
+                  ? e.projectGroups
+                  : e.projectGroups.map((t) => {
+                      let n = wc({
+                        containerId: `project:${t.projectId}`,
+                        pendingThreadDrops: m,
+                        threadKeys: t.threadKeys,
+                        threadKeysInDisplayOrder: e.threadKeysInDisplayOrder,
+                      });
+                      return n === t.threadKeys ? t : { ...t, threadKeys: n };
+                    }),
+              organizeMode: e.mode,
+            }),
+      (t[23] = m),
+      (t[24] = e.connectionGroups),
+      (t[25] = e.mode),
+      (t[26] = e.projectGroups),
+      (t[27] = e.threadKeysInDisplayOrder),
+      (t[28] = S))
+    : (S = t[28]);
+  let w = !l,
+    T = l ? void 0 : 5,
+    E,
+    D;
+  t[29] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((E = (0, Fg.jsx)(j, {
+        id: `sidebarElectron.showMore`,
+        defaultMessage: `Show more`,
+        description: `Button label for expanding a task list in the sidebar`,
+      })),
+      (D = (0, Fg.jsx)(j, {
+        id: `sidebarElectron.showLess`,
+        defaultMessage: `Show less`,
+        description: `Button label for collapsing a task list in the sidebar`,
+      })),
+      (t[29] = E),
+      (t[30] = D))
+    : ((E = t[29]), (D = t[30]));
+  let O;
+  t[31] !== T || t[32] !== x || t[33] !== S || t[34] !== w
+    ? ((O = (0, Fg.jsx)(jh, {
+        activeProjectId: x,
+        ...S,
+        shouldAnimateGroups: !0,
+        allowProjectReorder: !0,
+        allowThreadReorder: w,
+        threadOrderIsPrecomputed: !0,
+        itemWrapper: zc,
+        projectRowBehavior: `expand`,
+        hideThreadTimestamps: !0,
+        floatStatusIconsRight: !0,
+        maxGroups: T,
+        showProjectHoverCard: !0,
+        showProjectPinAction: !0,
+        showPinActionOnHover: !0,
+        showMoreLabel: E,
+        showLessLabel: D,
+      })),
+      (t[31] = T),
+      (t[32] = x),
+      (t[33] = S),
+      (t[34] = w),
+      (t[35] = O))
+    : (O = t[35]);
+  let k;
+  t[36] !== u || t[37] !== O || t[38] !== v || t[39] !== y || t[40] !== b
+    ? ((k = (0, Fg.jsx)(Ms, {
+        collapsed: u,
+        titleRowClassName: `pr-0.5 pl-2`,
+        title: v,
+        titleActions: y,
+        titleActionsOnHover: !0,
+        titleTrailing: b,
+        children: O,
+      })),
+      (t[36] = u),
+      (t[37] = O),
+      (t[38] = v),
+      (t[39] = y),
+      (t[40] = b),
+      (t[41] = k))
+    : (k = t[41]);
+  let A;
+  return (
+    t[42] !== h || t[43] !== k
+      ? ((A = (0, Fg.jsx)(`div`, { className: `px-row-x`, ...h, children: k })),
+        (t[42] = h),
+        (t[43] = k),
+        (t[44] = A))
+      : (A = t[44]),
+    A
+  );
+}
+function Ag(e) {
+  return e.threadKeys;
+}
+function jg(e) {
+  return e.threadKeys;
+}
+function Mg(e) {
+  let t = (0, Ng.c)(34),
+    {
+      chatGptProjectCrudStatus: n,
+      customTriggerButton: r,
+      mode: i,
+      onCreateChatGptProject: a,
+      sidebarMode: o,
+      showOrganizeControl: s,
+    } = e,
+    c = s === void 0 ? !0 : s,
+    l = Re(ee),
+    u = C(Qo) && o === `codex`,
+    d = Qn(),
+    f = ve(ts),
+    p = vo(),
+    m = C(cs),
+    h = o === `codex` && m && !p,
+    g = f && !p,
+    _ = vc({
+      chatGptProjectCreationEnabled: a != null,
+      canCreateChatGptProjectDirectly: o === `chatgpt` && n === `allowed` && a != null,
+      directLocalProjectCreationEnabled: g,
+      localProjectsEnabled: u,
+      remoteProjectsEnabled: h,
+    }),
+    v;
+  t[0] === d
+    ? (v = t[1])
+    : ((v = d.formatMessage({
+        id: `sidebarElectron.addGenericWorkspaceRoot`,
+        defaultMessage: `Add new project`,
+        description: `Toolbar button label for adding a new workspace root option`,
+      })),
+      (t[0] = d),
+      (t[1] = v));
+  let y = v,
+    b;
+  t[2] !== l || t[3] !== g
+    ? ((b = () => {
+        Ys(l, { localProjectSourcesEnabled: g });
+      }),
+      (t[2] = l),
+      (t[3] = g),
+      (t[4] = b))
+    : (b = t[4]);
+  let x = b,
+    S;
+  t[5] === l
+    ? (S = t[6])
+    : ((S = () => {
+        Xs(l);
+      }),
+      (t[5] = l),
+      (t[6] = S));
+  let w = S,
+    E;
+  t[7] === l
+    ? (E = t[8])
+    : ((E = () => {
+        Zs(l);
+      }),
+      (t[7] = l),
+      (t[8] = E));
+  let D = E,
+    O;
+  t[9] !== y || t[10] !== r
+    ? ((O =
+        r ??
+        (0, Fg.jsx)(Vt, {
+          className: `relative isolate h-6 w-6 overflow-visible rounded-md !p-1 text-token-foreground opacity-75 hover:opacity-100`,
+          color: `ghostActive`,
+          size: `icon`,
+          "aria-label": y,
+          children: (0, Fg.jsx)(T, { className: `icon-xs` }),
+        })),
+      (t[9] = y),
+      (t[10] = r),
+      (t[11] = O))
+    : (O = t[11]);
+  let k = O,
+    A = null;
+  if (_ === `direct-chatgpt`) {
+    let e;
+    (t[12] !== a || t[13] !== k
+      ? ((e = (0, Pg.cloneElement)(k, { onClick: a })), (t[12] = a), (t[13] = k), (t[14] = e))
+      : (e = t[14]),
+      (A = e));
+  } else if (_ === `direct-local`) {
+    let e;
+    (t[15] !== x || t[16] !== k
+      ? ((e = (0, Pg.cloneElement)(k, { onClick: x })), (t[15] = x), (t[16] = k), (t[17] = e))
+      : (e = t[17]),
+      (A = e));
+  } else if (_ === `project-type-dialog`) {
+    let e = p ? w : x,
+      r = !f && !p ? w : void 0,
+      i;
+    (t[18] !== h ||
+    t[19] !== n ||
+    t[20] !== D ||
+    t[21] !== u ||
+    t[22] !== a ||
+    t[23] !== e ||
+    t[24] !== r ||
+    t[25] !== k
+      ? ((i = (0, Fg.jsx)(uc, {
+          chatGptProjectCrudStatus: n,
+          localProjectsEnabled: u,
+          showRemoteProjectItem: h,
+          triggerButton: k,
+          onCreateLocalProject: e,
+          onUseExistingFolder: r,
+          onSelectRemote: D,
+          onCreateChatGptProject: a,
+        })),
+        (t[18] = h),
+        (t[19] = n),
+        (t[20] = D),
+        (t[21] = u),
+        (t[22] = a),
+        (t[23] = e),
+        (t[24] = r),
+        (t[25] = k),
+        (t[26] = i))
+      : (i = t[26]),
+      (A = i));
+  }
+  let j;
+  t[27] !== i || t[28] !== c || t[29] !== o
+    ? ((j = c
+        ? (0, Fg.jsx)(yl, {
+            mode: i,
+            sectionKind: i === `project` ? `projects` : `connections`,
+            sidebarMode: o,
+          })
+        : null),
+      (t[27] = i),
+      (t[28] = c),
+      (t[29] = o),
+      (t[30] = j))
+    : (j = t[30]);
+  let M;
+  return (
+    t[31] !== A || t[32] !== j
+      ? ((M = (0, Fg.jsxs)(`div`, { className: `flex items-center gap-1`, children: [j, A] })),
+        (t[31] = A),
+        (t[32] = j),
+        (t[33] = M))
+      : (M = t[33]),
+    M
+  );
+}
+var Ng,
+  Pg,
+  Fg,
+  Ig,
+  Lg = e(() => {
+    ((Ng = X()),
+      Ji(),
+      Tt(),
+      (Pg = t(Gr(), 1)),
+      I(),
+      ur(),
+      G(),
+      Hn(),
+      Is(),
+      il(),
+      yo(),
+      y(),
+      ss(),
+      Y(),
+      sc(),
+      _c(),
+      Al(),
+      Zc(),
+      Sl(),
+      ko(),
+      Ko(),
+      yc(),
+      Pl(),
+      hr(),
+      vn(),
+      jc(),
+      ns(),
+      da(),
+      vl(),
+      Rl(),
+      Rm(),
+      Tg(),
+      le(),
+      (Fg = gn()),
+      (Ig = {
+        floatStatusIconsRight: !0,
+        hideTimestamp: !0,
+        locationId: `flat-chats`,
+        showPinActionOnHover: !0,
+      }));
+  });
+export {
+  Bd as $,
+  nc as $t,
+  Jf as A,
+  sl as At,
+  _f as B,
+  wc as Bt,
+  Lp as C,
+  bs as Cn,
+  Cl as Ct,
+  Yf as D,
+  gl as Dt,
+  ep as E,
+  hl as Et,
+  bf as F,
+  Ic as Ft,
+  rf as G,
+  uc as Gt,
+  sf as H,
+  Tc as Ht,
+  xf as I,
+  Fc as It,
+  tf as J,
+  Js as Jt,
+  of as K,
+  _c as Kt,
+  uf as L,
+  Lc as Lt,
+  Bf as M,
+  il as Mt,
+  Sf as N,
+  Mc as Nt,
+  $f as O,
+  dl as Ot,
+  Cf as P,
+  zc as Pt,
+  Gd as Q,
+  ec as Qt,
+  yf as R,
+  Zc as Rt,
+  Mm as S,
+  Ss as Sn,
+  Pl as St,
+  np as T,
+  xs as Tn,
+  vl as Tt,
+  lf as U,
+  vc as Ut,
+  cf as V,
+  jc as Vt,
+  nf as W,
+  yc as Wt,
+  Qd as X,
+  tc as Xt,
+  Kd as Y,
+  sc as Yt,
+  Vd as Z,
+  $s as Zt,
+  Wm as _,
+  As as _n,
+  zl as _t,
+  jh as a,
+  ac as an,
+  jd as at,
+  jm as b,
+  Es as bn,
+  Fl as bt,
+  Oh as c,
+  Us as cn,
+  Pu as ct,
+  th as d,
+  Vs as dn,
+  yu as dt,
+  Qs as en,
+  Rd as et,
+  $m as f,
+  zs as fn,
+  su as ft,
+  zm as g,
+  ks as gn,
+  fu as gt,
+  Jm as h,
+  Is as hn,
+  ou as ht,
+  Lg as i,
+  Ys as in,
+  Od as it,
+  Pf as j,
+  Qc as jt,
+  qf as k,
+  ol as kt,
+  Dh as l,
+  Ws as ln,
+  Fu as lt,
+  Gm as m,
+  Ms as mn,
+  nu as mt,
+  kg as n,
+  Zs as nn,
+  Pd as nt,
+  ng as o,
+  Gs as on,
+  hd as ot,
+  eh as p,
+  js as pn,
+  cu as pt,
+  ef as q,
+  ic as qt,
+  Mg as r,
+  rc as rn,
+  Md as rt,
+  Tg as s,
+  qs as sn,
+  yd as st,
+  Eg as t,
+  Xs as tn,
+  zd as tt,
+  nh as u,
+  Hs as un,
+  gu as ut,
+  Nm as v,
+  Ds as vn,
+  Hl as vt,
+  Rp as w,
+  ys as wn,
+  El as wt,
+  km as x,
+  Ts as xn,
+  jl as xt,
+  Rm as y,
+  Os as yn,
+  Rl as yt,
+  vf as z,
+  kc as zt,
+};
+//# sourceMappingURL=app-initial~app-main~remote-conversation-page~projects-index-page.js.map

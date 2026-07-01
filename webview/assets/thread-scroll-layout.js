@@ -1,0 +1,355 @@
+import { n as e, s as t } from "./rolldown-runtime.js";
+import {
+  Cj as n,
+  Sj as r,
+  TP as i,
+  aM as a,
+  ij as o,
+  jV as s,
+  mP as c,
+  oM as l,
+  oP as u,
+  sj as d,
+  uP as f,
+  wP as p,
+  xj as m,
+  zV as h,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~plug~kmtatxxf.js";
+import {
+  Ed as g,
+  Td as ee,
+  _D as te,
+  dm as ne,
+  lm as _,
+  vD as v,
+} from "./app-initial~app-main~onboarding-page.js";
+import {
+  a as y,
+  r as b,
+} from "./app-initial~app-main~remote-conversation-page~appgen-library-page~local-conversation-page.js";
+import { n as x, t as S } from "./thread-scroll-controller-context-value.js";
+var C = e(() => {});
+function w({
+  contentX: e,
+  children: t,
+  footer: r,
+  hasLiveMcpAppFrame: i = !1,
+  onScroll: a,
+  onUserScrollToTop: s,
+  ref: u,
+  initialOffset: d = 0,
+  remoteHostedPIPAnchorHostId: h,
+}) {
+  let g = f(() => `${Math.abs(e?.get() ?? 0)}px`),
+    _ = (0, k.useRef)(null),
+    [v, y] = (0, k.useState)(!1),
+    x = (0, k.useRef)(null),
+    C = (0, k.useRef)(d ?? 0),
+    w = (0, k.useRef)(new Set()),
+    M = (0, k.useRef)(new Set()),
+    P = (0, k.useRef)(null),
+    F = (0, k.useRef)(!1),
+    I = (0, k.useRef)(!1),
+    L = (0, k.useRef)(!1),
+    R = (0, k.useRef)(null),
+    z = (0, k.useRef)(null),
+    B = (0, k.useContext)(ee),
+    re = (0, k.useCallback)(
+      (e) => {
+        if (((_.current = e), !(e == null || B == null)))
+          return B((t) => {
+            I.current || T(e) || n(e, m(e) + t);
+          });
+      },
+      [B],
+    ),
+    V = l(() => _.current),
+    H = (0, k.useCallback)(() => C.current, []),
+    U = l(
+      (e) => (
+        w.current.add(e),
+        e(C.current),
+        () => {
+          w.current.delete(e);
+        }
+      ),
+    ),
+    W = l(
+      (e) => (
+        M.current.add(e),
+        () => {
+          M.current.delete(e);
+        }
+      ),
+    ),
+    G = l((e) => {
+      C.current = e;
+      let t = e <= 24;
+      a?.(e, t);
+      for (let t of w.current) t(e);
+      y(!t);
+    }),
+    K = l(() => {
+      ((I.current = !1),
+        z.current != null && (window.cancelAnimationFrame(z.current), (z.current = null)));
+    }),
+    ie = l(() => {
+      ((I.current = !0),
+        z.current != null && (window.cancelAnimationFrame(z.current), (z.current = null)));
+    }),
+    q = l(() => {
+      R.current = null;
+    }),
+    J = l((e, t) => {
+      let n = _.current;
+      if (n == null) return;
+      q();
+      let r = Math.max(0, t(n));
+      (n.scrollTo({ behavior: e, top: r === 0 ? 0 : -r }), G(r));
+    }),
+    Y = l((e, t) => {
+      (e > 24 && K(), J(t, () => e));
+    }),
+    X = l((e) => {
+      L.current = e;
+    }),
+    Z = l(() => {
+      let e = _.current;
+      if (e == null || R.current != null) return;
+      let t = {
+        distanceFromBottomPx: C.current,
+        scrollHeightPx: e.scrollHeight,
+        wheelDistanceFromBottomPx: 0,
+      };
+      ((R.current = t),
+        window.requestAnimationFrame(() => {
+          if (R.current === t) {
+            if (_.current !== e) {
+              q();
+              return;
+            }
+            if (e.scrollHeight === t.scrollHeightPx) {
+              q();
+              return;
+            }
+            J(`instant`, () => t.distanceFromBottomPx + t.wheelDistanceFromBottomPx);
+          }
+        }));
+    }),
+    Q = l(async () => {
+      if (!(F.current || s == null)) {
+        F.current = !0;
+        try {
+          for (; _.current != null && E(_.current) && (await s()) !== `stop`; );
+        } catch {
+        } finally {
+          F.current = !1;
+        }
+      }
+    }),
+    $ = l(() => {
+      let e = _.current;
+      if (e == null) return;
+      q();
+      let t = m(e);
+      if (t <= 24) {
+        (J(`instant`, () => 0), K());
+        return;
+      }
+      ie();
+      let r = performance.now(),
+        i = (e) => {
+          let a = _.current;
+          if (a == null) {
+            K();
+            return;
+          }
+          let o = Math.min(1, (e - r) / j);
+          if ((n(a, t * (1 - (1 - (1 - o) ** 3))), o < 1 && !T(a))) {
+            z.current = window.requestAnimationFrame(i);
+            return;
+          }
+          (n(a, 0), K());
+        };
+      z.current = window.requestAnimationFrame(i);
+    });
+  ((0, k.useLayoutEffect)(() => {
+    let e = _.current;
+    if (e == null) return;
+    let t = d ?? 0;
+    (n(e, t), G(t));
+  }, [d, G]),
+    (0, k.useEffect)(() => {
+      let e = _.current;
+      if (e == null) return;
+      let t = () => {
+          let t = m(e);
+          (t <= 24 && K(), G(t));
+        },
+        r = () => {
+          let r = R.current;
+          r != null &&
+            e.scrollHeight !== r.scrollHeightPx &&
+            (q(), n(e, r.distanceFromBottomPx + r.wheelDistanceFromBottomPx));
+          let i = C.current,
+            a = P.current;
+          if (a == null) {
+            t();
+            return;
+          }
+          let o = performance.now();
+          if (o - a > N) {
+            ((P.current = null), t());
+            return;
+          }
+          (t(), (P.current = o));
+          let s = m(e);
+          s > i && E(e) && Q();
+          for (let e of M.current) e(s, i);
+        },
+        i = (t) => {
+          let n = R.current;
+          (n != null && `deltaY` in t ? (n.wheelDistanceFromBottomPx -= O(t, e.clientHeight)) : q(),
+            `deltaY` in t && t.deltaY < 0 && D(e) <= 0 && Q(),
+            (P.current = performance.now()),
+            K());
+        };
+      return (
+        e.addEventListener(`pointerdown`, i, { passive: !0 }),
+        e.addEventListener(`wheel`, i, { passive: !0 }),
+        e.addEventListener(`scroll`, r, { passive: !0 }),
+        () => {
+          (e.removeEventListener(`pointerdown`, i),
+            e.removeEventListener(`wheel`, i),
+            e.removeEventListener(`scroll`, r));
+        }
+      );
+    }, [q, K, Q, G]),
+    (0, k.useEffect)(
+      () => () => {
+        K();
+      },
+      [K],
+    ),
+    (0, k.useImperativeHandle)(u, () => ({ scrollToBottom: $ })));
+  let ae = (0, k.useMemo)(
+      () => ({
+        addScrollListener: U,
+        addUserScrollListener: W,
+        getLastScrollDistanceFromBottomPx: H,
+        getScrollElement: V,
+        isScrolledFromBottom: v,
+        preserveScrollPositionForNextLayout: Z,
+        scrollToBottom: $,
+        scrollToDistanceFromBottomPx: Y,
+        setFooterResizeViewportPreserveDisabled: X,
+      }),
+      [U, W, H, V, v, Z, $, Y, X],
+    ),
+    oe = ne((e) => {
+      let { height: t } = te(e),
+        n = _.current;
+      if (n == null) return;
+      let r = x.current;
+      r !== t &&
+        (n.style.setProperty(`--thread-scroll-padding-bottom`, `${t + 16}px`),
+        (x.current = t),
+        !(I.current || L.current) && (r == null || T(n) || J(`instant`, (e) => m(e) + t - r)));
+    }),
+    se = e == null ? void 0 : { x: e, "--thread-wide-block-inline-shift": g };
+  return (0, A.jsx)(S, {
+    value: ae,
+    children: (0, A.jsx)(`div`, {
+      className: p(
+        `relative h-full flex-1`,
+        i ? `[content-visibility:visible]` : `[content-visibility:auto]`,
+      ),
+      children: (0, A.jsx)(`div`, {
+        ref: re,
+        "data-pip-anchor-host": h,
+        ...o.timelineScroll,
+        tabIndex: 0,
+        className: p(
+          `thread-scroll-container relative h-full overflow-x-hidden overflow-y-auto [overflow-anchor:none] [scroll-padding-bottom:var(--thread-scroll-padding-bottom,0px)] electron:[scrollbar-gutter:stable_both-edges] pt-(--thread-content-top-inset) [container-name:thread-content] [container-type:inline-size]`,
+          `focus:outline-none`,
+          `[&:has([data-thread-scroll-footer='true']:focus-within)]:[scroll-padding-bottom:0px]`,
+          `flex flex-col-reverse`,
+        ),
+        children: (0, A.jsxs)(c.div, {
+          style: se,
+          className: `flex min-h-full shrink-0 flex-col justify-start`,
+          children: [
+            (0, A.jsx)(`div`, {
+              "data-mcp-app-portal-target": `true`,
+              className: p(b, `relative flex flex-1 shrink-0 flex-col pb-8`),
+              children: t,
+            }),
+            r
+              ? (0, A.jsxs)(`div`, {
+                  "data-thread-scroll-footer": `true`,
+                  ref: oe,
+                  className: `sticky bottom-0 z-10 mt-auto w-full pb-4`,
+                  children: [
+                    (0, A.jsx)(`div`, {
+                      className: `pointer-events-none absolute inset-x-0 bottom-0 z-0 flex h-full w-full justify-center pt-4`,
+                      children: (0, A.jsx)(`div`, {
+                        className: `z-0 h-full w-full bg-gradient-to-t from-token-main-surface-primary via-token-main-surface-primary extension:from-token-bg-primary extension:via-token-bg-primary`,
+                      }),
+                    }),
+                    (0, A.jsx)(`div`, {
+                      "data-pip-obstacle": `thread-footer`,
+                      className: p(`relative z-10 flex flex-col`, b),
+                      children: r,
+                    }),
+                  ],
+                })
+              : null,
+          ],
+        }),
+      }),
+    }),
+  });
+}
+function T(e) {
+  return m(e) <= 24;
+}
+function E(e) {
+  return D(e) <= M;
+}
+function D(e) {
+  return e.scrollHeight - e.clientHeight - m(e);
+}
+function O(e, t) {
+  return e.deltaMode === F ? e.deltaY * P : e.deltaMode === I ? e.deltaY * t : e.deltaY;
+}
+var k,
+  A,
+  j,
+  M,
+  N,
+  P,
+  F,
+  I,
+  L = e(() => {
+    (i(),
+      u(),
+      (k = t(h(), 1)),
+      d(),
+      g(),
+      v(),
+      _(),
+      a(),
+      C(),
+      y(),
+      x(),
+      r(),
+      (A = s()),
+      (j = 260),
+      (M = 64),
+      (N = 1e3),
+      (P = 16),
+      (F = 1),
+      (I = 2));
+  });
+export { L as n, C as r, w as t };
+//# sourceMappingURL=thread-scroll-layout.js.map

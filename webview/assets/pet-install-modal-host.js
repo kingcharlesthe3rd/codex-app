@@ -1,0 +1,293 @@
+import { n as e } from "./rolldown-runtime.js";
+import {
+  Ar as t,
+  Dr as n,
+  EB as r,
+  Er as i,
+  GP as a,
+  HP as o,
+  Hf as s,
+  IP as c,
+  LP as l,
+  RV as u,
+  TB as d,
+  Tr as f,
+  Uf as p,
+  bB as m,
+  fN as h,
+  gi as g,
+  hN as _,
+  jV as v,
+  mN as y,
+  pN as b,
+  pi as x,
+  wr as S,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~plug~kmtatxxf.js";
+import { n as C, t as w } from "./avatar-mascot-button.js";
+import {
+  r as T,
+  t as E,
+} from "./app-initial~app-main~pet-install-modal-host~avatar-overlay-page~avatar-overlay-native-page~~s9e72i2g.js";
+import { r as D, t as O } from "./custom-avatars-query.js";
+import { i as k, n as A, r as j, t as M } from "./pet-install-state-1.js";
+function N(e) {
+  let t = (0, P.c)(37),
+    { session: r, onClose: o, onInstall: s } = e,
+    { setSelectedAvatarId: c } = T(),
+    l = r.status !== `installing`,
+    u = r.status === `ready` || r.status === `installError`,
+    d;
+  t[0] !== l || t[1] !== o
+    ? ((d = (e) => {
+        !e && l && o();
+      }),
+      (t[0] = l),
+      (t[1] = o),
+      (t[2] = d))
+    : (d = t[2]);
+  let p = !l,
+    m;
+  t[3] !== u || t[4] !== s
+    ? ((m = (e) => {
+        (e.preventDefault(), u && s());
+      }),
+      (t[3] = u),
+      (t[4] = s),
+      (t[5] = m))
+    : (m = t[5]);
+  let g;
+  t[6] !== r.name || t[7] !== r.status
+    ? ((g =
+        r.status === `installed`
+          ? (0, F.jsx)(a, {
+              id: `pets.install.installedTitle`,
+              defaultMessage: `Installed {petName}`,
+              description: `Title shown after a pet installs successfully`,
+              values: { petName: r.name },
+            })
+          : (0, F.jsx)(a, {
+              id: `pets.install.title`,
+              defaultMessage: `Install {petName}?`,
+              description: `Title for the pet install modal`,
+              values: { petName: r.name },
+            })),
+      (t[6] = r.name),
+      (t[7] = r.status),
+      (t[8] = g))
+    : (g = t[8]);
+  let _;
+  t[9] !== r.description || t[10] !== g
+    ? ((_ = (0, F.jsx)(n, { children: (0, F.jsx)(i, { title: g, subtitle: r.description }) })),
+      (t[9] = r.description),
+      (t[10] = g),
+      (t[11] = _))
+    : (_ = t[11]);
+  let v;
+  t[12] !== r.name || t[13] !== r.preview || t[14] !== r.status
+    ? ((v = (0, F.jsx)(n, {
+        children: (0, F.jsx)(`div`, {
+          className: `flex min-h-32 items-center justify-center`,
+          children:
+            r.status === `loading`
+              ? (0, F.jsxs)(`div`, {
+                  className: `flex items-center gap-2 text-sm text-token-text-secondary`,
+                  children: [
+                    (0, F.jsx)(y, { className: `icon-xs` }),
+                    (0, F.jsx)(a, {
+                      id: `pets.install.loading`,
+                      defaultMessage: `Loading {petName}`,
+                      description: `Loading state shown while a pet preview is prepared`,
+                      values: { petName: r.name },
+                    }),
+                  ],
+                })
+              : r.status === `previewError`
+                ? (0, F.jsx)(`div`, {
+                    className: `px-5 text-center text-sm text-token-text-secondary`,
+                    children: (0, F.jsx)(a, {
+                      id: `pets.install.error`,
+                      defaultMessage: `Unable to load {petName}`,
+                      description: `Error state shown when a pet cannot be prepared`,
+                      values: { petName: r.name },
+                    }),
+                  })
+                : (0, F.jsx)(w, {
+                    assetRef: `codex`,
+                    spritesheetUrl: r.preview.spritesheetDataUrl,
+                  }),
+        }),
+      })),
+      (t[12] = r.name),
+      (t[13] = r.preview),
+      (t[14] = r.status),
+      (t[15] = v))
+    : (v = t[15]);
+  let b;
+  t[16] !== r.name || t[17] !== r.status
+    ? ((b =
+        r.status === `installError`
+          ? (0, F.jsx)(n, {
+              children: (0, F.jsx)(`div`, {
+                className: `text-sm text-token-text-secondary`,
+                children: (0, F.jsx)(a, {
+                  id: `pets.install.installError`,
+                  defaultMessage: `Unable to install {petName}`,
+                  description: `Error state shown when a pet preview is valid but installation fails`,
+                  values: { petName: r.name },
+                }),
+              }),
+            })
+          : null),
+      (t[16] = r.name),
+      (t[17] = r.status),
+      (t[18] = b))
+    : (b = t[18]);
+  let C;
+  t[19] !== l ||
+  t[20] !== u ||
+  t[21] !== o ||
+  t[22] !== r.installedAvatarId ||
+  t[23] !== r.status ||
+  t[24] !== c
+    ? ((C = (0, F.jsx)(n, {
+        children:
+          r.status === `installed`
+            ? (0, F.jsxs)(f, {
+                children: [
+                  (0, F.jsx)(h, {
+                    color: `outline`,
+                    type: `button`,
+                    onClick: o,
+                    children: (0, F.jsx)(a, {
+                      id: `pets.install.close`,
+                      defaultMessage: `Close`,
+                      description: `Button label to close a completed pet install modal`,
+                    }),
+                  }),
+                  (0, F.jsx)(h, {
+                    type: `button`,
+                    onClick: () => {
+                      (c(r.installedAvatarId), o());
+                    },
+                    children: (0, F.jsx)(a, {
+                      id: `pets.install.usePet`,
+                      defaultMessage: `Use this pet`,
+                      description: `Button label to select an installed pet`,
+                    }),
+                  }),
+                ],
+              })
+            : (0, F.jsxs)(f, {
+                children: [
+                  (0, F.jsx)(h, {
+                    color: `outline`,
+                    disabled: !l,
+                    type: `button`,
+                    onClick: o,
+                    children: (0, F.jsx)(a, {
+                      id: `pets.install.cancel`,
+                      defaultMessage: `Cancel`,
+                      description: `Button label to cancel a pet install`,
+                    }),
+                  }),
+                  (0, F.jsx)(h, {
+                    disabled: !u,
+                    loading: r.status === `installing`,
+                    type: `submit`,
+                    children:
+                      r.status === `installError`
+                        ? (0, F.jsx)(a, {
+                            id: `pets.install.tryAgain`,
+                            defaultMessage: `Try again`,
+                            description: `Button label to retry a failed pet install`,
+                          })
+                        : (0, F.jsx)(a, {
+                            id: `pets.install.install`,
+                            defaultMessage: `Install`,
+                            description: `Button label to install a pet`,
+                          }),
+                  }),
+                ],
+              }),
+      })),
+      (t[19] = l),
+      (t[20] = u),
+      (t[21] = o),
+      (t[22] = r.installedAvatarId),
+      (t[23] = r.status),
+      (t[24] = c),
+      (t[25] = C))
+    : (C = t[25]);
+  let E;
+  t[26] !== m || t[27] !== _ || t[28] !== v || t[29] !== b || t[30] !== C
+    ? ((E = (0, F.jsxs)(S, { as: `form`, onSubmit: m, children: [_, v, b, C] })),
+      (t[26] = m),
+      (t[27] = _),
+      (t[28] = v),
+      (t[29] = b),
+      (t[30] = C),
+      (t[31] = E))
+    : (E = t[31]);
+  let D;
+  return (
+    t[32] !== l || t[33] !== d || t[34] !== p || t[35] !== E
+      ? ((D = (0, F.jsx)(x, {
+          open: !0,
+          onOpenChange: d,
+          shouldIgnoreClickOutside: p,
+          showDialogClose: l,
+          size: `compact`,
+          children: E,
+        })),
+        (t[32] = l),
+        (t[33] = d),
+        (t[34] = p),
+        (t[35] = E),
+        (t[36] = D))
+      : (D = t[36]),
+    D
+  );
+}
+var P,
+  F,
+  I = e(() => {
+    ((P = u()), o(), C(), E(), b(), g(), t(), _(), (F = v()));
+  });
+function L(e) {
+  let t = (0, R.c)(10),
+    { onClose: n } = e,
+    i = d(c),
+    a = r(k),
+    o = p();
+  if (a == null) return null;
+  let s;
+  t[0] !== n || t[1] !== i
+    ? ((s = () => {
+        (M(i), n());
+      }),
+      (t[0] = n),
+      (t[1] = i),
+      (t[2] = s))
+    : (s = t[2]);
+  let l;
+  t[3] !== o || t[4] !== i
+    ? ((l = () => j(i, () => o(O))), (t[3] = o), (t[4] = i), (t[5] = l))
+    : (l = t[5]);
+  let u;
+  return (
+    t[6] !== a || t[7] !== s || t[8] !== l
+      ? ((u = (0, z.jsx)(N, { session: a, onClose: s, onInstall: l })),
+        (t[6] = a),
+        (t[7] = s),
+        (t[8] = l),
+        (t[9] = u))
+      : (u = t[9]),
+    u
+  );
+}
+var R, z;
+e(() => {
+  ((R = u()), m(), D(), s(), l(), I(), A(), (z = v()));
+})();
+export { L as PetInstallModalHost };
+//# sourceMappingURL=pet-install-modal-host.js.map

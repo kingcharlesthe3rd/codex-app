@@ -1,0 +1,159 @@
+import { n as e, s as t } from "./rolldown-runtime.js";
+import {
+  EB as n,
+  RV as r,
+  bB as i,
+  fM as a,
+  jV as o,
+  mM as s,
+  v_ as c,
+  y_ as l,
+  zV as u,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~plug~kmtatxxf.js";
+import {
+  AC as d,
+  CC as f,
+  Cw as p,
+  Dm as m,
+  NC as h,
+  Om as g,
+  PC as _,
+  Qx as v,
+  _w as y,
+  bC as b,
+  gw as x,
+  kC as S,
+  mw as C,
+  nS as w,
+  vC as T,
+  vw as E,
+  wC as D,
+  yC as O,
+} from "./app-initial~app-main~onboarding-page.js";
+function k(e) {
+  let t = (0, L.c)(13),
+    { conversationId: r, persistedTabsEnabled: i } = e,
+    a = n(T.activeTab$),
+    o = n(b.activeTab$),
+    s = n(T.tabs$),
+    c = n(x),
+    l = n(C),
+    u,
+    d;
+  t[0] === l
+    ? ((u = t[1]), (d = t[2]))
+    : ((u = (e) => l.on(`change`, e)), (d = () => l.get()), (t[0] = l), (t[1] = u), (t[2] = d));
+  let p = (0, R.useSyncExternalStore)(u, d, M),
+    m = n(b.tabs$),
+    h = n(E),
+    g = n(y),
+    _,
+    S;
+  t[3] === g
+    ? ((_ = t[4]), (S = t[5]))
+    : ((_ = (e) => g.on(`change`, e)), (S = () => g.get()), (t[3] = g), (t[4] = _), (t[5] = S));
+  let w = (0, R.useSyncExternalStore)(_, S, j),
+    D = v(r, { bottom: a, right: o }, { bottom: c || p > 0, right: h || w > 0 }),
+    O;
+  (t[6] === r
+    ? (O = t[7])
+    : ((O = () => f.getBrowserUseBrowserTabIdsKey(r)), (t[6] = r), (t[7] = O)),
+    (0, R.useSyncExternalStore)(f.subscribe, O, A));
+  let k = P({ conversationId: r, mountedBrowserTabIds: D, panelTabs: [...m, ...s] });
+  if (k.length === 0) return null;
+  let F;
+  t[8] !== r || t[9] !== i
+    ? ((F = (e) =>
+        (0, z.jsx)(N, { browserTabId: e, conversationId: r, persistedTabsEnabled: i }, e)),
+      (t[8] = r),
+      (t[9] = i),
+      (t[10] = F))
+    : (F = t[10]);
+  let I = k.map(F),
+    B;
+  return (
+    t[11] === I
+      ? (B = t[12])
+      : ((B = (0, z.jsx)(z.Fragment, { children: I })), (t[11] = I), (t[12] = B)),
+    B
+  );
+}
+function A() {
+  return ``;
+}
+function j() {
+  return 0;
+}
+function M() {
+  return 0;
+}
+function N(e) {
+  let t = (0, L.c)(11),
+    { browserTabId: n, conversationId: r, persistedTabsEnabled: i } = e,
+    a = s(),
+    o = (0, R.useRef)(null),
+    c;
+  t[0] !== n || t[1] !== r ? ((c = I(r, n)), (t[0] = n), (t[1] = r), (t[2] = c)) : (c = t[2]);
+  let l = c;
+  if (l == null || !F(r, n)) return null;
+  let u;
+  return (
+    t[3] !== n ||
+    t[4] !== r ||
+    t[5] !== i ||
+    t[6] !== l.adoptedWebContentsId ||
+    t[7] !== l.adoptionLease ||
+    t[8] !== l.initialUrl ||
+    t[9] !== a
+      ? ((u = (0, z.jsx)(m, {
+          adoptionLease: l.adoptionLease,
+          adoptedWebContentsId: l.adoptedWebContentsId,
+          bounds: null,
+          browserTabId: n,
+          conversationId: r,
+          initialUrl: l.initialUrl,
+          isVisible: !1,
+          persistedTabsEnabled: i,
+          scale: 1,
+          shouldBootstrapWhenHidden: !0,
+          shouldPaint: !1,
+          webviewRef: o,
+          windowZoom: a,
+        })),
+        (t[3] = n),
+        (t[4] = r),
+        (t[5] = i),
+        (t[6] = l.adoptedWebContentsId),
+        (t[7] = l.adoptionLease),
+        (t[8] = l.initialUrl),
+        (t[9] = a),
+        (t[10] = u))
+      : (u = t[10]),
+    u
+  );
+}
+function P({ conversationId: e, mountedBrowserTabIds: t, panelTabs: n }) {
+  let r = new Set();
+  for (let i of n) {
+    let n = c(i, e) ?? null;
+    n == null || f.isBrowserUseTab(e, n) || t.includes(n) || (F(e, n) && r.add(n));
+  }
+  return Array.from(r);
+}
+function F(e, t) {
+  return f.isBrowserUseTab(e, t) ? !1 : I(e, t) != null;
+}
+function I(e, t) {
+  let n = d(e, t),
+    r = h(e, t),
+    i = S(e, t);
+  return n == null && (r == null || i == null)
+    ? null
+    : { adoptedWebContentsId: i, adoptionLease: r, initialUrl: n ?? `about:blank` };
+}
+var L, R, z;
+e(() => {
+  ((L = r()), i(), (R = t(u(), 1)), a(), O(), p(), w(), l(), D(), _(), g(), (z = o()));
+})();
+export { k as HiddenBackgroundBrowserWebviewHost };
+//# sourceMappingURL=browser-sidebar-hidden-background-webview-host.js.map

@@ -1,2 +1,34 @@
-import{n as e}from"./rolldown-runtime-Czos8NxU.js";import{GP as t,HP as n,jV as r}from"./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~plug~kmtatxxf-IUI8plS9.js";function i(e){return e===`ready`?null:(0,a.jsx)(`div`,{className:`flex h-full items-center justify-center px-6 text-center text-sm text-token-text-tertiary`,children:e===`loading`?(0,a.jsx)(`span`,{className:`loading-shimmer-pure-text font-medium`,children:(0,a.jsx)(t,{id:`artifactTab.previewLoading`,defaultMessage:`Preparing preview…`,description:`Loading state shown while the artifact preview is loading`})}):(0,a.jsx)(t,{id:`artifactTab.previewError`,defaultMessage:`Couldn’t load this preview`,description:`Error state shown when an artifact preview fails to load`})})}var a,o=e((()=>{n(),a=r()}));export{i as n,o as t};
+import { n as e } from "./rolldown-runtime.js";
+import {
+  GP as t,
+  HP as n,
+  jV as r,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~plug~kmtatxxf.js";
+function i(e) {
+  return e === `ready`
+    ? null
+    : (0, a.jsx)(`div`, {
+        className: `flex h-full items-center justify-center px-6 text-center text-sm text-token-text-tertiary`,
+        children:
+          e === `loading`
+            ? (0, a.jsx)(`span`, {
+                className: `loading-shimmer-pure-text font-medium`,
+                children: (0, a.jsx)(t, {
+                  id: `artifactTab.previewLoading`,
+                  defaultMessage: `Preparing preview…`,
+                  description: `Loading state shown while the artifact preview is loading`,
+                }),
+              })
+            : (0, a.jsx)(t, {
+                id: `artifactTab.previewError`,
+                defaultMessage: `Couldn’t load this preview`,
+                description: `Error state shown when an artifact preview fails to load`,
+              }),
+      });
+}
+var a,
+  o = e(() => {
+    (n(), (a = r()));
+  });
+export { i as n, o as t };
 //# sourceMappingURL=artifact-preview-status-JB-mmcBf.js.map

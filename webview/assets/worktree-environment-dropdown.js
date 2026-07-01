@@ -1,0 +1,425 @@
+import { n as e, s as t } from "./rolldown-runtime.js";
+import {
+  GP as n,
+  Gr as r,
+  HP as i,
+  Qj as a,
+  RV as o,
+  TP as s,
+  Ur as ee,
+  Yr as c,
+  bu as l,
+  eM as u,
+  hN as d,
+  jV as f,
+  lM as p,
+  mN as m,
+  pj as h,
+  uM as g,
+  vj as _,
+  wP as v,
+  yu as y,
+  zV as b,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~plug~kmtatxxf.js";
+import {
+  v as te,
+  y as x,
+} from "./app-initial~app-main~worktree-init-v2-page~appgen-publication-terms-route~remote-conversati~coa484up.js";
+import {
+  a as S,
+  i as C,
+} from "./app-initial~app-main~projects-index-page~hotkey-window-new-thread-page~hotkey-window-home-p~hswrsggc.js";
+import {
+  l as w,
+  s as ne,
+} from "./app-initial~app-main~remote-conversation-page~pull-requests-page~new-thread-panel-page~proj~i4yy32ef.js";
+import { n as T, t as re } from "./star.js";
+function E(e) {
+  let t = (0, k.c)(79),
+    {
+      className: i,
+      labelClassName: o,
+      environments: s,
+      isLoading: c,
+      hasError: l,
+      side: u,
+      align: d,
+      showIcon: f,
+      selectedConfigPath: h,
+      onSelectConfigPath: g,
+      onOpenSettings: b,
+      showDefaultOption: x,
+    } = e,
+    S = u === void 0 ? `top` : u,
+    w = d === void 0 ? `start` : d,
+    T = f === void 0 ? !0 : f,
+    E = x === void 0 ? !0 : x,
+    [D, M] = (0, A.useState)(!1),
+    N,
+    P,
+    F,
+    I,
+    L,
+    R,
+    z,
+    B,
+    V,
+    H,
+    U,
+    W,
+    G;
+  if (
+    t[0] !== w ||
+    t[1] !== i ||
+    t[2] !== s ||
+    t[3] !== l ||
+    t[4] !== c ||
+    t[5] !== o ||
+    t[6] !== g ||
+    t[7] !== D ||
+    t[8] !== h ||
+    t[9] !== E ||
+    t[10] !== T ||
+    t[11] !== S
+  ) {
+    let e = ne(s),
+      u;
+    (t[25] === h ? (u = t[26]) : ((u = h ? _(h) : null), (t[25] = h), (t[26] = u)), (F = u));
+    let d = s.find((e) => _(e.configPath) === F) ?? null,
+      f = !c && !l;
+    P = e && E ? s.filter((t) => _(t.configPath) !== _(e.configPath)) : s;
+    let m = ie({ isLoading: c, selectedEnvironment: d });
+    ((N = ee), (I = D), (L = M), (R = S), (z = w));
+    let y;
+    t[27] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((y = (0, j.jsx)(n, {
+          id: `composer.worktreeEnvironment.tooltip`,
+          defaultMessage: `Select a local environment`,
+          description: `Tooltip for local environment selector`,
+        })),
+        (t[27] = y))
+      : (y = t[27]);
+    let b;
+    t[28] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((b = (0, j.jsx)(n, {
+          id: `composer.worktreeEnvironment.footerCategory`,
+          defaultMessage: `Env`,
+          description: `Category label for the worktree environment control in the composer footer`,
+        })),
+        (t[28] = b))
+      : (b = t[28]);
+    let x;
+    t[29] === i ? (x = t[30]) : ((x = v(`whitespace-nowrap`, i)), (t[29] = i), (t[30] = x));
+    let k = o == null ? `secondary` : `sm`,
+      A;
+    t[31] === T
+      ? (A = t[32])
+      : ((A = T ? (0, j.jsx)(te, { className: `icon-xs` }) : null), (t[31] = T), (t[32] = A));
+    let K = c ? `pending` : `collapsible-chevron`,
+      q;
+    (t[33] === o ? (q = t[34]) : ((q = v(`max-w-40`, o)), (t[33] = o), (t[34] = q)),
+      t[35] !== m || t[36] !== x || t[37] !== k || t[38] !== A || t[39] !== K || t[40] !== q
+        ? ((B = (0, j.jsx)(a, {
+            tooltipContent: y,
+            children: (0, j.jsx)(C, {
+              categoryLabel: b,
+              className: x,
+              collapse: k,
+              icon: A,
+              indicator: K,
+              value: m,
+              valueClassName: q,
+            }),
+          })),
+          (t[35] = m),
+          (t[36] = x),
+          (t[37] = k),
+          (t[38] = A),
+          (t[39] = K),
+          (t[40] = q),
+          (t[41] = B))
+        : (B = t[41]),
+      (W = `flex w-64 flex-col overflow-hidden`),
+      t[42] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((G = (0, j.jsx)(r.Title, {
+            children: (0, j.jsx)(n, {
+              id: `composer.worktreeEnvironment.title`,
+              defaultMessage: `Local environment`,
+              description: `Title for worktree environment dropdown`,
+            }),
+          })),
+          (t[42] = G))
+        : (G = t[42]),
+      (V = `vertical-scroll-fade-mask flex max-h-[220px] flex-col overflow-y-auto`),
+      t[43] !== g || t[44] !== h || t[45] !== f
+        ? ((H = f
+            ? (0, j.jsx)(r.Item, {
+                RightIcon: h == null ? p : void 0,
+                onClick: () => {
+                  (g(null), M(!1));
+                },
+                children: (0, j.jsx)(n, {
+                  id: `codex.environmentSelector.noEnvironment`,
+                  defaultMessage: `No environment`,
+                  description: `No environment selected message`,
+                }),
+              })
+            : null),
+          (t[43] = g),
+          (t[44] = h),
+          (t[45] = f),
+          (t[46] = H))
+        : (H = t[46]),
+      (U =
+        E && e
+          ? (0, j.jsx)(r.Item, {
+              RightIcon: F != null && _(e.configPath) === F ? p : void 0,
+              onClick: () => {
+                (g(e.configPath), M(!1));
+              },
+              children: (0, j.jsxs)(`div`, {
+                className: `flex min-w-0 items-center gap-2`,
+                children: [
+                  (0, j.jsx)(a, {
+                    tooltipContent: (0, j.jsx)(n, {
+                      id: `composer.worktreeEnvironment.default`,
+                      defaultMessage: `Default environment`,
+                      description: `Tooltip for default local environment icon`,
+                    }),
+                    children: (0, j.jsx)(re, {
+                      className: `icon-xxs shrink-0 text-token-description-foreground`,
+                    }),
+                  }),
+                  (0, j.jsx)(`span`, { className: `truncate`, children: O(e) }),
+                ],
+              }),
+            })
+          : null),
+      (t[0] = w),
+      (t[1] = i),
+      (t[2] = s),
+      (t[3] = l),
+      (t[4] = c),
+      (t[5] = o),
+      (t[6] = g),
+      (t[7] = D),
+      (t[8] = h),
+      (t[9] = E),
+      (t[10] = T),
+      (t[11] = S),
+      (t[12] = N),
+      (t[13] = P),
+      (t[14] = F),
+      (t[15] = I),
+      (t[16] = L),
+      (t[17] = R),
+      (t[18] = z),
+      (t[19] = B),
+      (t[20] = V),
+      (t[21] = H),
+      (t[22] = U),
+      (t[23] = W),
+      (t[24] = G));
+  } else
+    ((N = t[12]),
+      (P = t[13]),
+      (F = t[14]),
+      (I = t[15]),
+      (L = t[16]),
+      (R = t[17]),
+      (z = t[18]),
+      (B = t[19]),
+      (V = t[20]),
+      (H = t[21]),
+      (U = t[22]),
+      (W = t[23]),
+      (G = t[24]));
+  let K;
+  t[47] !== P ||
+  t[48] !== s.length ||
+  t[49] !== l ||
+  t[50] !== c ||
+  t[51] !== F ||
+  t[52] !== g ||
+  t[53] !== h
+    ? ((K = c
+        ? (0, j.jsx)(`div`, {
+            className: `flex items-center justify-center py-4`,
+            children: (0, j.jsx)(m, { className: `icon-xxs` }),
+          })
+        : l
+          ? (0, j.jsx)(r.Message, {
+              compact: !0,
+              tone: `error`,
+              children: (0, j.jsx)(n, {
+                id: `composer.worktreeEnvironment.error`,
+                defaultMessage: `Error loading environments`,
+                description: `Error state for worktree environment dropdown`,
+              }),
+            })
+          : P.length > 0
+            ? (0, j.jsx)(`div`, {
+                className: `flex flex-col`,
+                children: P.map((e) => {
+                  let t = h != null && _(e.configPath) === F;
+                  return (0, j.jsx)(
+                    r.Item,
+                    {
+                      RightIcon: t ? p : void 0,
+                      onClick: () => {
+                        (g(e.configPath), M(!1));
+                      },
+                      children: (0, j.jsx)(`span`, {
+                        className: `min-w-0 truncate`,
+                        children: O(e),
+                      }),
+                    },
+                    e.configPath,
+                  );
+                }),
+              })
+            : s.length === 0
+              ? (0, j.jsx)(r.Message, {
+                  compact: !0,
+                  children: (0, j.jsx)(n, {
+                    id: `codex.environments.noEnvironmentsFound`,
+                    defaultMessage: `No environments found`,
+                    description: `Message shown when no Codex environments were found`,
+                  }),
+                })
+              : null),
+      (t[47] = P),
+      (t[48] = s.length),
+      (t[49] = l),
+      (t[50] = c),
+      (t[51] = F),
+      (t[52] = g),
+      (t[53] = h),
+      (t[54] = K))
+    : (K = t[54]);
+  let q;
+  t[55] !== K || t[56] !== V || t[57] !== H || t[58] !== U
+    ? ((q = (0, j.jsxs)(`div`, { className: V, children: [H, U, K] })),
+      (t[55] = K),
+      (t[56] = V),
+      (t[57] = H),
+      (t[58] = U),
+      (t[59] = q))
+    : (q = t[59]);
+  let J;
+  t[60] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((J = (0, j.jsx)(r.Separator, {})), (t[60] = J))
+    : (J = t[60]);
+  let Y;
+  t[61] === b
+    ? (Y = t[62])
+    : ((Y = () => {
+        (b(), M(!1));
+      }),
+      (t[61] = b),
+      (t[62] = Y));
+  let X;
+  t[63] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((X = (0, j.jsx)(n, {
+        id: `composer.worktreeEnvironment.create`,
+        defaultMessage: `Create local environment`,
+        description: `CTA to open local environment settings from worktree dropdown`,
+      })),
+      (t[63] = X))
+    : (X = t[63]);
+  let Z;
+  t[64] === Y
+    ? (Z = t[65])
+    : ((Z = (0, j.jsx)(r.Section, {
+        className: `flex flex-col pb-1`,
+        children: (0, j.jsx)(r.Item, { LeftIcon: y, onClick: Y, children: X }),
+      })),
+      (t[64] = Y),
+      (t[65] = Z));
+  let Q;
+  t[66] !== q || t[67] !== Z || t[68] !== W || t[69] !== G
+    ? ((Q = (0, j.jsxs)(`div`, { className: W, children: [G, q, J, Z] })),
+      (t[66] = q),
+      (t[67] = Z),
+      (t[68] = W),
+      (t[69] = G),
+      (t[70] = Q))
+    : (Q = t[70]);
+  let $;
+  return (
+    t[71] !== N ||
+    t[72] !== I ||
+    t[73] !== L ||
+    t[74] !== R ||
+    t[75] !== z ||
+    t[76] !== B ||
+    t[77] !== Q
+      ? (($ = (0, j.jsx)(N, {
+          open: I,
+          onOpenChange: L,
+          side: R,
+          align: z,
+          triggerButton: B,
+          children: Q,
+        })),
+        (t[71] = N),
+        (t[72] = I),
+        (t[73] = L),
+        (t[74] = R),
+        (t[75] = z),
+        (t[76] = B),
+        (t[77] = Q),
+        (t[78] = $))
+      : ($ = t[78]),
+    $
+  );
+}
+function D(e) {
+  let t = _(e),
+    n = t.split(`/`).filter(Boolean);
+  return n[n.length - 1] ?? t;
+}
+function O(e) {
+  if (e.type === `success`) {
+    let t = e.environment.name.trim();
+    return t.length > 0 ? t : D(e.configPath);
+  }
+  return D(e.configPath);
+}
+function ie({ isLoading: e, selectedEnvironment: t }) {
+  return e
+    ? (0, j.jsx)(n, {
+        id: `composer.worktreeEnvironment.loading`,
+        defaultMessage: `Loading environments…`,
+        description: `Loading label for worktree environment dropdown`,
+      })
+    : t?.type === `success`
+      ? (0, j.jsx)(j.Fragment, { children: t.environment.name })
+      : (0, j.jsx)(n, {
+          id: `codex.environmentSelector.noEnvironment`,
+          defaultMessage: `No environment`,
+          description: `No environment selected message`,
+        });
+}
+var k,
+  A,
+  j,
+  M = e(() => {
+    ((k = o()),
+      s(),
+      (A = t(b(), 1)),
+      i(),
+      c(),
+      d(),
+      u(),
+      g(),
+      l(),
+      x(),
+      T(),
+      w(),
+      h(),
+      S(),
+      (j = f()));
+  });
+export { M as n, E as t };
+//# sourceMappingURL=worktree-environment-dropdown.js.map

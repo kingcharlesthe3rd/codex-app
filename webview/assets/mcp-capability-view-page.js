@@ -1,0 +1,75 @@
+import { n as e } from "./rolldown-runtime.js";
+import {
+  EB as t,
+  GP as n,
+  HP as r,
+  RV as i,
+  av as a,
+  bB as o,
+  bv as s,
+  jV as c,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~plug~kmtatxxf.js";
+import {
+  bm as l,
+  nd as u,
+  td as d,
+  ym as f,
+} from "./app-initial~app-main~onboarding-page.js";
+import {
+  A as p,
+  P as m,
+} from "./app-initial~app-main~worktree-init-v2-page~appgen-publication-terms-route~remote-conversati~oykv7gy7.js";
+function h() {
+  let e = (0, _.c)(7),
+    { server: n, toolName: r } = s(),
+    i = t(m),
+    a;
+  e[0] !== n || e[1] !== r || e[2] !== i
+    ? ((a =
+        n == null || r == null
+          ? null
+          : (i.find((e) => e.server === n && e.tool.name === r) ?? null)),
+      (e[0] = n),
+      (e[1] = r),
+      (e[2] = i),
+      (e[3] = a))
+    : (a = e[3]);
+  let o = a;
+  if (o == null) {
+    let t;
+    return (
+      e[4] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((t = (0, v.jsx)(g, {})), (e[4] = t))
+        : (t = e[4]),
+      t
+    );
+  }
+  let c;
+  return (e[5] === o ? (c = e[6]) : ((c = (0, v.jsx)(d, { view: o })), (e[5] = o), (e[6] = c)), c);
+}
+function g() {
+  let e = (0, _.c)(1),
+    t;
+  return (
+    e[0] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((t = (0, v.jsx)(`div`, {
+          className: `flex h-full min-h-0 items-center justify-center`,
+          children: (0, v.jsx)(f, {
+            title: (0, v.jsx)(n, {
+              id: `openaiMcpCapabilities.view.notFound`,
+              defaultMessage: `MCP app view not found`,
+              description: `Title shown when an MCP app view route does not match an available server tool`,
+            }),
+          }),
+        })),
+        (e[0] = t))
+      : (t = e[0]),
+    t
+  );
+}
+var _, v;
+e(() => {
+  ((_ = i()), o(), r(), a(), l(), p(), u(), (v = c()));
+})();
+export { h as McpCapabilityViewPage };
+//# sourceMappingURL=mcp-capability-view-page.js.map

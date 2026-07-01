@@ -1,0 +1,1498 @@
+import { n as e, s as t } from "./rolldown-runtime.js";
+import {
+  AN as n,
+  AV as r,
+  Ah as i,
+  Ar as a,
+  BN as o,
+  Dj as s,
+  Dr as c,
+  EF as l,
+  EN as u,
+  Ej as d,
+  Er as f,
+  GN as p,
+  GP as m,
+  Gh as h,
+  Gr as g,
+  HP as _,
+  IP as v,
+  Kh as y,
+  LP as b,
+  Mh as x,
+  Nh as S,
+  Ph as C,
+  RN as w,
+  RV as T,
+  Sh as E,
+  TB as D,
+  Tr as ee,
+  Ur as O,
+  WN as k,
+  Wh as A,
+  Yj as j,
+  Yr as M,
+  bB as N,
+  fN as te,
+  gi as P,
+  hm as F,
+  iF as I,
+  iu as L,
+  jV as R,
+  lL as z,
+  oV as B,
+  og as V,
+  pN as H,
+  pi as ne,
+  qP as re,
+  qh as U,
+  qj as W,
+  ru as G,
+  sg as ie,
+  wB as ae,
+  wh as K,
+  wr as q,
+  xV as J,
+  yp as Y,
+  zV as oe,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~plug~kmtatxxf.js";
+import {
+  Au as se,
+  Du as X,
+  Gl as ce,
+  Il as le,
+  Ll as ue,
+  Ou as de,
+  Tu as fe,
+  Wl as pe,
+  YS as me,
+  ZS as he,
+  _u as ge,
+  gu as _e,
+  hu as ve,
+  ku as ye,
+  mu as be,
+  vu as xe,
+  yu as Se,
+} from "./app-initial~app-main~onboarding-page.js";
+import {
+  a as Ce,
+  o as we,
+} from "./app-initial~app-main~remote-conversation-page~onboarding-page~hotkey-window-thread-page~thr~b0jzjd62.js";
+function Te({ cwd: e, enabled: t, hostConfig: n, operationSource: r }) {
+  return JSON.stringify({ cwd: e ?? null, enabled: t, hostConfig: n, operationSource: r });
+}
+function Ee({ cwd: e, enabled: t, hostConfig: n, operationSource: r, query: i }) {
+  return JSON.stringify({
+    cwd: e ?? null,
+    enabled: t,
+    hostConfig: n,
+    operationSource: r,
+    query: i,
+  });
+}
+var De,
+  Oe,
+  ke = e(() => {
+    (N(),
+      b(),
+      p(),
+      K(),
+      U(),
+      h(),
+      (De = B(
+        v,
+        ({ cwd: e, enabled: t, hostConfig: n, operationSource: r }) =>
+          y(e, A(n), n, r, { enabled: t }),
+        { key: Te },
+      )),
+      (Oe = B(
+        v,
+        ({ cwd: e, enabled: t, hostConfig: n, operationSource: r, query: i }, { get: a }) => {
+          let o = a(De, { cwd: e, enabled: t, hostConfig: n, operationSource: r }).data;
+          return E(
+            `search-branches`,
+            o,
+            o == null ? null : { root: o.root, operationSource: r, query: i, limit: 20 },
+            A(n),
+            n,
+            { enabled: t, select: (e) => e.branches, staleTime: k.FIVE_SECONDS },
+          );
+        },
+        { key: Ee },
+      )));
+  });
+function Ae(e, t, n, r) {
+  let i = (0, je.c)(13),
+    a;
+  i[0] === r ? (a = i[1]) : ((a = r === void 0 ? {} : r), (i[0] = r), (i[1] = a));
+  let o, s;
+  i[2] === a
+    ? ((o = i[3]), (s = i[4]))
+    : (({ staleTime: s, ...o } = a), (i[2] = a), (i[3] = o), (i[4] = s));
+  let c = String(e),
+    l;
+  i[5] === c ? (l = i[6]) : ((l = z(c)), (i[5] = c), (i[6] = l));
+  let u;
+  i[7] !== n || i[8] !== l
+    ? ((u = { cwd: l, operationSource: n }), (i[7] = n), (i[8] = l), (i[9] = u))
+    : (u = i[9]);
+  let d = s ?? k.FIVE_SECONDS,
+    f;
+  return (
+    i[10] !== o || i[11] !== d
+      ? ((f = { staleTime: d, ...o }), (i[10] = o), (i[11] = d), (i[12] = f))
+      : (f = i[12]),
+    x(e, t, `status-summary`, u, n, f)
+  );
+}
+var je,
+  Me = e(() => {
+    ((je = T()), I(), p(), K());
+  });
+function Ne(e, t, n, r) {
+  let i = (0, Fe.c)(4),
+    a;
+  i[0] === n
+    ? (a = i[1])
+    : ((a = (e) => {
+        let { root: t } = e;
+        return { operationSource: n, root: t, limit: 100 };
+      }),
+      (i[0] = n),
+      (i[1] = a));
+  let o;
+  return (
+    i[2] === r
+      ? (o = i[3])
+      : ((o = { select: Pe, staleTime: k.FIVE_SECONDS, ...r }), (i[2] = r), (i[3] = o)),
+    x(e, t, `recent-branches`, a, n, o)
+  );
+}
+function Pe(e) {
+  return e.branches;
+}
+var Fe,
+  Ie = e(() => {
+    ((Fe = T()), p(), K());
+  });
+function Le(e, t, n, a) {
+  let s = (0, Re.c)(23),
+    c = r(),
+    { data: l } = C(e, t, n),
+    u;
+  s[0] === t ? (u = s[1]) : ((u = A(t)), (s[0] = t), (s[1] = u));
+  let d = u,
+    f = e ?? null,
+    p;
+  s[2] !== t.id || s[3] !== f
+    ? ((p = [`vscode`, `git-checkout-branch`, f, t.id]), (s[2] = t.id), (s[3] = f), (s[4] = p))
+    : (p = s[4]);
+  let m;
+  s[5] !== l || s[6] !== d || s[7] !== a || s[8] !== c
+    ? ((m = async (e, t, n, r, o) => {
+        (l &&
+          e?.status === `success` &&
+          i(c, { commonDir: l.commonDir, root: l.root }, { changeType: `head`, hostKey: d }),
+          a?.onSettled && (await a.onSettled(e, t, n, r, o)));
+      }),
+      (s[5] = l),
+      (s[6] = d),
+      (s[7] = a),
+      (s[8] = c),
+      (s[9] = m))
+    : (m = s[9]);
+  let h;
+  s[10] !== n || s[11] !== a || s[12] !== p || s[13] !== m
+    ? ((h = { source: n, mutationKey: p, ...a, onSettled: m }),
+      (s[10] = n),
+      (s[11] = a),
+      (s[12] = p),
+      (s[13] = m),
+      (s[14] = h))
+    : (h = s[14]);
+  let g = o(`git-checkout-branch`, h),
+    _,
+    v;
+  s[15] !== t.id || s[16] !== g
+    ? ((_ = (e, n) => {
+        g.mutate({ ...e, hostId: t.id }, n);
+      }),
+      (v = (e, n) => g.mutateAsync({ ...e, hostId: t.id }, n)),
+      (s[15] = t.id),
+      (s[16] = g),
+      (s[17] = _),
+      (s[18] = v))
+    : ((_ = s[17]), (v = s[18]));
+  let y;
+  return (
+    s[19] !== g || s[20] !== _ || s[21] !== v
+      ? ((y = { ...g, mutate: _, mutateAsync: v }),
+        (s[19] = g),
+        (s[20] = _),
+        (s[21] = v),
+        (s[22] = y))
+      : (y = s[22]),
+    y
+  );
+}
+var Re,
+  ze = e(() => {
+    ((Re = T()), J(), K(), h(), S(), w());
+  });
+function Be(e, t, n, a) {
+  let s = (0, Ve.c)(23),
+    c = r(),
+    { data: l } = C(e, t, n),
+    u;
+  s[0] === t ? (u = s[1]) : ((u = A(t)), (s[0] = t), (s[1] = u));
+  let d = u,
+    f = e ?? null,
+    p;
+  s[2] !== t.id || s[3] !== f
+    ? ((p = [`vscode`, `git-create-branch`, f, t.id]), (s[2] = t.id), (s[3] = f), (s[4] = p))
+    : (p = s[4]);
+  let m;
+  s[5] !== l || s[6] !== d || s[7] !== a || s[8] !== c
+    ? ((m = async (e, t, n, r, o) => {
+        (l && i(c, l, { changeType: n?.mode === `synced` ? `synced-branch` : `head`, hostKey: d }),
+          a?.onSettled && (await a.onSettled(e, t, n, r, o)));
+      }),
+      (s[5] = l),
+      (s[6] = d),
+      (s[7] = a),
+      (s[8] = c),
+      (s[9] = m))
+    : (m = s[9]);
+  let h;
+  s[10] !== n || s[11] !== a || s[12] !== p || s[13] !== m
+    ? ((h = { source: n, mutationKey: p, ...a, onSettled: m }),
+      (s[10] = n),
+      (s[11] = a),
+      (s[12] = p),
+      (s[13] = m),
+      (s[14] = h))
+    : (h = s[14]);
+  let g = o(`git-create-branch`, h),
+    _,
+    v;
+  s[15] !== t.id || s[16] !== g
+    ? ((_ = (e, n) => {
+        g.mutate({ ...e, hostId: t.id }, n);
+      }),
+      (v = (e, n) => g.mutateAsync({ ...e, hostId: t.id }, n)),
+      (s[15] = t.id),
+      (s[16] = g),
+      (s[17] = _),
+      (s[18] = v))
+    : ((_ = s[17]), (v = s[18]));
+  let y;
+  return (
+    s[19] !== g || s[20] !== _ || s[21] !== v
+      ? ((y = { ...g, mutate: _, mutateAsync: v }),
+        (s[19] = g),
+        (s[20] = _),
+        (s[21] = v),
+        (s[22] = y))
+      : (y = s[22]),
+    y
+  );
+}
+var Ve,
+  He = e(() => {
+    ((Ve = T()), J(), K(), h(), S(), w());
+  });
+function Ue(e) {
+  return Array.from(e)
+    .filter((e) => !/\s/u.test(e) && !We.has(e))
+    .join(``);
+}
+var We,
+  Ge = e(() => {
+    We = new Set([`~`, `^`, `:`, `?`, `*`, `[`, `]`, `\\`]);
+  });
+function Ke(e) {
+  let t = (0, et.c)(86),
+    {
+      gitRoot: n,
+      hostConfig: r,
+      localConversationId: i,
+      shouldShow: a,
+      side: o,
+      align: s,
+      renderStaticBranch: c,
+      renderControl: l,
+      onOpenChange: u,
+    } = e,
+    d = o === void 0 ? `top` : o,
+    f = s === void 0 ? `end` : s,
+    p = D(v),
+    m = re(),
+    [h, g] = (0, Z.useState)(!1),
+    [_, y] = (0, Z.useState)(!1),
+    [b, x] = (0, Z.useState)(!1),
+    [S, C] = (0, Z.useState)(!1),
+    [w, T] = (0, Z.useState)(!1),
+    [E, ee] = (0, Z.useState)(0),
+    [k, A] = (0, Z.useState)(null),
+    M;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`) ? ((M = []), (t[0] = M)) : (M = t[0]);
+  let [N, te] = (0, Z.useState)(M),
+    [P, I] = (0, Z.useState)(`idle`),
+    L;
+  t[1] !== n || t[2] !== r || t[3] !== a
+    ? ((L = {
+        cwd: n,
+        enabled: a,
+        hostConfig: r,
+        operationSource: $,
+        refetchOnWindowFocus: `always`,
+        staleTime: null,
+      }),
+      (t[1] = n),
+      (t[2] = r),
+      (t[3] = a),
+      (t[4] = L))
+    : (L = t[4]);
+  let R = ae(me, L),
+    B = R.data?.trim() ?? ``,
+    V = a && B.length > 0,
+    H = ae(F, i),
+    ne = w || P !== `idle`,
+    U = Le(n, r, $),
+    W = Be(n, r, $),
+    G;
+  t[5] === n ? (G = t[6]) : ((G = n == null ? null : z(n)), (t[5] = n), (t[6] = G));
+  let K = G,
+    q;
+  t[7] !== K || t[8] !== r
+    ? ((q = K == null ? null : { cwd: K, hostId: r.id }), (t[7] = K), (t[8] = r), (t[9] = q))
+    : (q = t[9]);
+  let J = q,
+    Y = U.isPending || W.isPending,
+    oe = m.formatMessage({
+      id: `composer.footer.branchSwitch.tooltip`,
+      defaultMessage: `Switch branch`,
+      description: `Tooltip shown for controls that switch git branches`,
+    }),
+    se;
+  t[10] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((se = () => {
+        g(!1);
+      }),
+      (t[10] = se))
+    : (se = t[10]);
+  let X = se,
+    ce;
+  t[11] !== m || t[12] !== p
+    ? ((ce = (e) => {
+        p.get(j).danger(
+          m.formatMessage(
+            {
+              id: `composer.footer.branchSwitch.checkoutError`,
+              defaultMessage: `Failed to switch branch: {message}`,
+              description: `Toast shown when switching local branches from the composer footer fails`,
+            },
+            { message: e },
+          ),
+        );
+      }),
+      (t[11] = m),
+      (t[12] = p),
+      (t[13] = ce))
+    : (ce = t[13]);
+  let le = ce,
+    ue;
+  t[14] !== m || t[15] !== p
+    ? ((ue = (e) => {
+        p.get(j).danger(
+          m.formatMessage(
+            {
+              id: `composer.footer.branchSwitch.createBranchError`,
+              defaultMessage: `Failed to create branch: {message}`,
+              description: `Toast shown when creating a branch from the composer footer fails`,
+            },
+            { message: e },
+          ),
+        );
+      }),
+      (t[14] = m),
+      (t[15] = p),
+      (t[16] = ue))
+    : (ue = t[16]);
+  let de = ue,
+    pe;
+  t[17] === X
+    ? (pe = t[18])
+    : ((pe = (e) => {
+        let { errorType: t, conflictedPaths: n, nextAction: r } = e;
+        return t === `blocked-by-working-tree-changes`
+          ? (te(n ?? []), A(r), X(), C(!1), x(!0), !0)
+          : !1;
+      }),
+      (t[17] = X),
+      (t[18] = pe));
+  let he = pe,
+    ge = async (e) => {
+      if (!(Y || n == null)) {
+        if (e === B) {
+          X();
+          return;
+        }
+        try {
+          let t = await U.mutateAsync({ cwd: n, branch: e });
+          if (t.status === `error`) {
+            if (
+              he({
+                errorType: t.errorType,
+                conflictedPaths: t.conflictedPaths,
+                nextAction: { type: `checkout`, branch: e },
+              })
+            )
+              return;
+            le(t.error);
+            return;
+          }
+          (i != null && ie(i, e), X());
+        } catch (e) {
+          let t = e;
+          le(t instanceof Error ? t.message : String(t));
+        }
+      }
+    },
+    ve;
+  t[19] !== U ||
+  t[20] !== W ||
+  t[21] !== n ||
+  t[22] !== Y ||
+  t[23] !== i ||
+  t[24] !== he ||
+  t[25] !== le ||
+  t[26] !== de
+    ? ((ve = async (e) => {
+        if (!(Y || n == null))
+          try {
+            let t = await W.mutateAsync({ cwd: n, branch: e, mode: `worktree`, failIfExists: !0 });
+            if (t.status === `error`) {
+              de(t.error);
+              return;
+            }
+            let r = await U.mutateAsync({ cwd: n, branch: e });
+            if (r.status === `error`) {
+              if (
+                he({
+                  errorType: r.errorType,
+                  conflictedPaths: r.conflictedPaths,
+                  nextAction: { type: `create-and-checkout`, branch: e },
+                })
+              )
+                return;
+              (le(r.error), C(!1));
+              return;
+            }
+            (i != null && ie(i, e), C(!1));
+          } catch (e) {
+            let t = e;
+            de(t instanceof Error ? t.message : String(t));
+          }
+      }),
+      (t[19] = U),
+      (t[20] = W),
+      (t[21] = n),
+      (t[22] = Y),
+      (t[23] = i),
+      (t[24] = he),
+      (t[25] = le),
+      (t[26] = de),
+      (t[27] = ve))
+    : (ve = t[27]);
+  let ye = ve,
+    be;
+  t[28] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((be = () => {
+        (T(!1), I(`idle`), te([]), A(null));
+      }),
+      (t[28] = be))
+    : (be = t[28]);
+  let xe = be,
+    Se;
+  t[29] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((Se = (e) => {
+        (x(e), e || (te([]), A(null)));
+      }),
+      (t[29] = Se))
+    : (Se = t[29]);
+  let Ce = Se,
+    we;
+  t[30] !== J || t[31] !== p
+    ? ((we = () => {
+        J != null && (p.set(fe, J, ``), I(`idle`), ee(qe), x(!1), T(!0));
+      }),
+      (t[30] = J),
+      (t[31] = p),
+      (t[32] = we))
+    : (we = t[32]);
+  let Te = we,
+    Ee;
+  t[33] !== ge || t[34] !== ye || t[35] !== xe || t[36] !== k
+    ? ((Ee = (e) => {
+        if (e === `success` && k != null) {
+          let e = k;
+          if ((xe(), e.type === `checkout`)) {
+            ge(e.branch);
+            return;
+          }
+          ye(e.branch);
+          return;
+        }
+        I(e);
+      }),
+      (t[33] = ge),
+      (t[34] = ye),
+      (t[35] = xe),
+      (t[36] = k),
+      (t[37] = Ee))
+    : (Ee = t[37]);
+  let De = Ee;
+  if (!V)
+    return a && R.isSuccess
+      ? l({ currentBranch: null, disabled: !1, isPending: !1, switchTooltipText: oe })
+      : null;
+  if (n == null) return c?.({ currentBranch: B }) ?? null;
+  let Oe = O,
+    ke;
+  t[38] === u
+    ? (ke = t[39])
+    : ((ke = (e) => {
+        (e && y(!0), g(e), u?.(e));
+      }),
+      (t[38] = u),
+      (t[39] = ke));
+  let Ae = l({ currentBranch: B, disabled: Y, isPending: Y, switchTooltipText: oe }),
+    je;
+  t[40] !== ge ||
+  t[41] !== X ||
+  t[42] !== B ||
+  t[43] !== n ||
+  t[44] !== _ ||
+  t[45] !== r ||
+  t[46] !== Y ||
+  t[47] !== h
+    ? ((je = _
+        ? (0, Q.jsx)(Je, {
+            currentBranch: B,
+            gitRoot: n,
+            hostConfig: r,
+            isOpen: h,
+            disabled: Y,
+            onCheckout: ge,
+            onClose: X,
+            onOpenCreate: () => {
+              (X(), C(!0));
+            },
+          })
+        : null),
+      (t[40] = ge),
+      (t[41] = X),
+      (t[42] = B),
+      (t[43] = n),
+      (t[44] = _),
+      (t[45] = r),
+      (t[46] = Y),
+      (t[47] = h),
+      (t[48] = je))
+    : (je = t[48]);
+  let Me;
+  t[49] !== Oe ||
+  t[50] !== f ||
+  t[51] !== h ||
+  t[52] !== d ||
+  t[53] !== ke ||
+  t[54] !== Ae ||
+  t[55] !== je
+    ? ((Me = (0, Q.jsx)(Oe, {
+        side: d,
+        open: h,
+        align: f,
+        onOpenChange: ke,
+        triggerButton: Ae,
+        children: je,
+      })),
+      (t[49] = Oe),
+      (t[50] = f),
+      (t[51] = h),
+      (t[52] = d),
+      (t[53] = ke),
+      (t[54] = Ae),
+      (t[55] = je),
+      (t[56] = Me))
+    : (Me = t[56]);
+  let Ne;
+  t[57] !== H || t[58] !== ye || t[59] !== n || t[60] !== r || t[61] !== S || t[62] !== Y
+    ? ((Ne = S
+        ? (0, Q.jsx)(Ye, {
+            open: S,
+            onOpenChange: C,
+            conversationTitle: H,
+            gitRoot: n,
+            hostConfig: r,
+            isPending: Y,
+            onSubmit: ye,
+          })
+        : null),
+      (t[57] = H),
+      (t[58] = ye),
+      (t[59] = n),
+      (t[60] = r),
+      (t[61] = S),
+      (t[62] = Y),
+      (t[63] = Ne))
+    : (Ne = t[63]);
+  let Pe;
+  t[64] !== N ||
+  t[65] !== n ||
+  t[66] !== Te ||
+  t[67] !== Ce ||
+  t[68] !== r ||
+  t[69] !== b ||
+  t[70] !== k?.branch
+    ? ((Pe =
+        b && n != null
+          ? (0, Q.jsx)(Xe, {
+              open: b,
+              onOpenChange: Ce,
+              conflictFiles: N,
+              gitRoot: n,
+              hostConfig: r,
+              targetBranch: k?.branch ?? null,
+              onContinue: Te,
+            })
+          : null),
+      (t[64] = N),
+      (t[65] = n),
+      (t[66] = Te),
+      (t[67] = Ce),
+      (t[68] = r),
+      (t[69] = b),
+      (t[70] = k?.branch),
+      (t[71] = Pe))
+    : (Pe = t[71]);
+  let Fe;
+  t[72] !== E ||
+  t[73] !== K ||
+  t[74] !== xe ||
+  t[75] !== De ||
+  t[76] !== r ||
+  t[77] !== ne ||
+  t[78] !== w ||
+  t[79] !== i
+    ? ((Fe =
+        ne && K != null
+          ? (0, Q.jsx)(
+              _e,
+              {
+                open: w,
+                onOpenChange: T,
+                conversationId: i,
+                cwd: K,
+                hostConfig: r,
+                onStatusChange: De,
+                onRequestReset: xe,
+              },
+              E,
+            )
+          : null),
+      (t[72] = E),
+      (t[73] = K),
+      (t[74] = xe),
+      (t[75] = De),
+      (t[76] = r),
+      (t[77] = ne),
+      (t[78] = w),
+      (t[79] = i),
+      (t[80] = Fe))
+    : (Fe = t[80]);
+  let Ie;
+  return (
+    t[81] !== Me || t[82] !== Ne || t[83] !== Pe || t[84] !== Fe
+      ? ((Ie = (0, Q.jsxs)(Q.Fragment, { children: [Me, Ne, Pe, Fe] })),
+        (t[81] = Me),
+        (t[82] = Ne),
+        (t[83] = Pe),
+        (t[84] = Fe),
+        (t[85] = Ie))
+      : (Ie = t[85]),
+    Ie
+  );
+}
+function qe(e) {
+  return e + 1;
+}
+function Je(e) {
+  let t = (0, et.c)(53),
+    {
+      currentBranch: n,
+      gitRoot: r,
+      hostConfig: i,
+      isOpen: a,
+      disabled: o,
+      onCheckout: s,
+      onClose: c,
+      onOpenCreate: l,
+    } = e,
+    u = re(),
+    [f, p] = (0, Z.useState)(``),
+    h = L(f, 200),
+    { data: _, refetch: v } = Ae(r, i, $),
+    y;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((y = { enabled: !0 }), (t[0] = y))
+    : (y = t[0]);
+  let { data: b, isLoading: x, isFetching: S, isError: C, refetch: w } = Ne(r, i, $, y),
+    T = b === void 0 ? [] : b,
+    E;
+  t[1] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((E = { enabled: !0 }), (t[1] = E))
+    : (E = t[1]);
+  let { data: D, refetch: ee } = ve(r, i, $, E),
+    O,
+    k;
+  (t[2] !== a || t[3] !== w || t[4] !== ee || t[5] !== v
+    ? ((O = () => {
+        a && Promise.all([w(), ee(), v()]);
+      }),
+      (k = [a, w, ee, v]),
+      (t[2] = a),
+      (t[3] = w),
+      (t[4] = ee),
+      (t[5] = v),
+      (t[6] = O),
+      (t[7] = k))
+    : ((O = t[6]), (k = t[7])),
+    (0, Z.useEffect)(O, k));
+  let A;
+  t[8] === f ? (A = t[9]) : ((A = f.trim()), (t[8] = f), (t[9] = A));
+  let j = A,
+    M;
+  t[10] === h ? (M = t[11]) : ((M = h.trim()), (t[10] = h), (t[11] = M));
+  let N = M,
+    te = j !== N,
+    P = N.length > 0,
+    F;
+  t[12] !== r || t[13] !== i || t[14] !== N || t[15] !== P
+    ? ((F = { cwd: r, hostConfig: i, operationSource: $, query: N, enabled: P }),
+      (t[12] = r),
+      (t[13] = i),
+      (t[14] = N),
+      (t[15] = P),
+      (t[16] = F))
+    : (F = t[16]);
+  let { data: I, isFetching: R, isError: z, refetch: B } = ae(Oe, F),
+    V = Ze({ branches: T, currentBranch: n, defaultBranch: D }),
+    H = !x && !S && !C && T.length === 0,
+    ne = $e(_),
+    U;
+  t[17] !== H || t[18] !== u
+    ? ((U = H
+        ? u.formatMessage({
+            id: `composer.footer.branchSwitch.createAndCheckout.disabledTooltip`,
+            defaultMessage: `Commit changes to create and checkout a new branch`,
+            description: `Tooltip shown when create-and-checkout branch action is disabled because the repository has no commits`,
+          })
+        : void 0),
+      (t[17] = H),
+      (t[18] = u),
+      (t[19] = U))
+    : (U = t[19]);
+  let W = U,
+    G = x || (S && V.length === 0),
+    ie = te || R,
+    K;
+  t[20] === w
+    ? (K = t[21])
+    : ((K = () => {
+        w();
+      }),
+      (t[20] = w),
+      (t[21] = K));
+  let q;
+  t[22] === B
+    ? (q = t[23])
+    : ((q = () => {
+        B();
+      }),
+      (t[22] = B),
+      (t[23] = q));
+  let J;
+  t[24] !== n || t[25] !== ne
+    ? ((J = (e) =>
+        e === n && ne > 0
+          ? (0, Q.jsx)(`span`, {
+              className: `inline-flex items-center gap-1 text-xs text-token-input-placeholder-foreground`,
+              children: (0, Q.jsx)(m, {
+                id: `composer.footer.branchSwitch.uncommittedSummaryPrefix`,
+                defaultMessage: `Uncommitted: {fileCount, plural, one {# file} other {# files}}`,
+                description: `Prefix shown under the active branch in the branch dropdown when there are uncommitted tracked changes`,
+                values: { fileCount: ne },
+              }),
+            })
+          : null),
+      (t[24] = n),
+      (t[25] = ne),
+      (t[26] = J))
+    : (J = t[26]);
+  let Y;
+  t[27] !== n ||
+  t[28] !== o ||
+  t[29] !== C ||
+  t[30] !== z ||
+  t[31] !== s ||
+  t[32] !== c ||
+  t[33] !== V ||
+  t[34] !== f ||
+  t[35] !== I ||
+  t[36] !== G ||
+  t[37] !== ie ||
+  t[38] !== K ||
+  t[39] !== q ||
+  t[40] !== J
+    ? ((Y = (0, Q.jsx)(le, {
+        branches: V,
+        selectedBranch: n,
+        disabled: o,
+        isError: C,
+        isLoading: G,
+        isSearchError: z,
+        isSearchLoading: ie,
+        onClose: c,
+        onRetry: K,
+        onRetrySearch: q,
+        onSearchQueryChange: p,
+        onSelectBranch: s,
+        renderBranchSubText: J,
+        searchedBranches: I,
+        searchQuery: f,
+      })),
+      (t[27] = n),
+      (t[28] = o),
+      (t[29] = C),
+      (t[30] = z),
+      (t[31] = s),
+      (t[32] = c),
+      (t[33] = V),
+      (t[34] = f),
+      (t[35] = I),
+      (t[36] = G),
+      (t[37] = ie),
+      (t[38] = K),
+      (t[39] = q),
+      (t[40] = J),
+      (t[41] = Y))
+    : (Y = t[41]);
+  let oe;
+  t[42] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((oe = (0, Q.jsx)(g.Separator, {})), (t[42] = oe))
+    : (oe = t[42]);
+  let se = H || o,
+    X;
+  t[43] === l
+    ? (X = t[44])
+    : ((X = (e) => {
+        (e.preventDefault(), l());
+      }),
+      (t[43] = l),
+      (t[44] = X));
+  let ce;
+  t[45] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((ce = (0, Q.jsx)(m, {
+        id: `composer.footer.branchSwitch.createAndCheckout`,
+        defaultMessage: `Create and checkout new branch…`,
+        description: `Dropdown action label in the composer footer branch switcher to create and checkout a new branch`,
+      })),
+      (t[45] = ce))
+    : (ce = t[45]);
+  let ue;
+  t[46] !== W || t[47] !== se || t[48] !== X
+    ? ((ue = (0, Q.jsx)(g.Item, {
+        LeftIcon: d,
+        disabled: se,
+        tooltipText: W,
+        onSelect: X,
+        children: ce,
+      })),
+      (t[46] = W),
+      (t[47] = se),
+      (t[48] = X),
+      (t[49] = ue))
+    : (ue = t[49]);
+  let de;
+  return (
+    t[50] !== Y || t[51] !== ue
+      ? ((de = (0, Q.jsxs)(Q.Fragment, { children: [Y, oe, ue] })),
+        (t[50] = Y),
+        (t[51] = ue),
+        (t[52] = de))
+      : (de = t[52]),
+    de
+  );
+}
+function Ye(e) {
+  let t = (0, et.c)(57),
+    {
+      open: r,
+      onOpenChange: i,
+      conversationTitle: a,
+      gitRoot: o,
+      hostConfig: s,
+      isPending: u,
+      onSubmit: d,
+    } = e,
+    p = re(),
+    h = n(l.branchPrefix),
+    g;
+  t[0] !== h || t[1] !== a
+    ? ((g = xe({ branchPrefix: h, conversationTitle: a })), (t[0] = h), (t[1] = a), (t[2] = g))
+    : (g = t[2]);
+  let [_, v] = (0, Z.useState)(g),
+    y = r && o != null,
+    b;
+  t[3] === y ? (b = t[4]) : ((b = { enabled: y }), (t[3] = y), (t[4] = b));
+  let { data: x, isLoading: S, isFetching: C, isError: w } = Ne(o, s, $, b),
+    T,
+    E,
+    D,
+    O;
+  if (t[5] !== _ || t[6] !== x) {
+    T = x === void 0 ? [] : x;
+    let e = Ze({ branches: T, currentBranch: ``, defaultBranch: null });
+    ((O = _.trim()),
+      (E = O.endsWith(`/`)),
+      (D = O.length > 0 && e.includes(O)),
+      (t[5] = _),
+      (t[6] = x),
+      (t[7] = T),
+      (t[8] = E),
+      (t[9] = D),
+      (t[10] = O));
+  } else ((T = t[7]), (E = t[8]), (D = t[9]), (O = t[10]));
+  let k = D,
+    A = !S && !C && !w && T.length === 0,
+    j = !u && !S && !C && !A && O.length > 0 && !E && !k && o != null,
+    M;
+  t[11] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((M = (0, Q.jsx)(c, {
+        children: (0, Q.jsx)(f, {
+          title: (0, Q.jsx)(m, {
+            id: `composer.footer.branchSwitch.createDialog.title`,
+            defaultMessage: `Create and checkout branch`,
+            description: `Title for dialog that creates and checks out a new branch from the composer footer`,
+          }),
+        }),
+      })),
+      (t[11] = M))
+    : (M = t[11]);
+  let N;
+  t[12] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((N = (0, Q.jsx)(pe, {})), (t[12] = N))
+    : (N = t[12]);
+  let P;
+  t[13] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((P = (e) => {
+        v(Ue(e.target.value));
+      }),
+      (t[13] = P))
+    : (P = t[13]);
+  let F;
+  t[14] !== j || t[15] !== d || t[16] !== O
+    ? ((F = (e) => {
+        if (e.key === `Enter`) {
+          if ((e.preventDefault(), !j)) return;
+          d(O);
+        }
+      }),
+      (t[14] = j),
+      (t[15] = d),
+      (t[16] = O),
+      (t[17] = F))
+    : (F = t[17]);
+  let I;
+  t[18] === p
+    ? (I = t[19])
+    : ((I = p.formatMessage({
+        id: `composer.footer.branchSwitch.createDialog.placeholder`,
+        defaultMessage: `new-branch`,
+        description: `Placeholder for branch name input in the composer footer create-and-checkout dialog`,
+      })),
+      (t[18] = p),
+      (t[19] = I));
+  let L;
+  t[20] === p
+    ? (L = t[21])
+    : ((L = p.formatMessage({
+        id: `composer.footer.branchSwitch.createDialog.ariaLabel`,
+        defaultMessage: `Branch name`,
+        description: `Aria label for branch name input in the composer footer create-and-checkout dialog`,
+      })),
+      (t[20] = p),
+      (t[21] = L));
+  let R;
+  t[22] !== _ || t[23] !== I || t[24] !== L || t[25] !== F
+    ? ((R = (0, Q.jsx)(`input`, {
+        autoFocus: !0,
+        className: `h-10 w-full rounded-xl border border-token-border bg-token-dropdown-background px-3 text-sm text-token-foreground outline-none placeholder:text-token-description-foreground`,
+        value: _,
+        onChange: P,
+        onKeyDown: F,
+        placeholder: I,
+        "aria-label": L,
+      })),
+      (t[22] = _),
+      (t[23] = I),
+      (t[24] = L),
+      (t[25] = F),
+      (t[26] = R))
+    : (R = t[26]);
+  let z;
+  t[27] !== k || t[28] !== E || t[29] !== u
+    ? ((z = E
+        ? (0, Q.jsx)(`p`, {
+            className: `text-xs text-token-error-foreground`,
+            children: (0, Q.jsx)(m, {
+              id: `composer.footer.branchSwitch.createDialog.trailingSlashError`,
+              defaultMessage: `Branch name cannot end with “/”.`,
+              description: `Validation message shown in the create-and-checkout branch dialog when branch name ends with a slash`,
+            }),
+          })
+        : k && !u
+          ? (0, Q.jsx)(`p`, {
+              className: `text-xs text-token-error-foreground`,
+              children: (0, Q.jsx)(m, {
+                id: `composer.footer.branchSwitch.createDialog.branchExistsError`,
+                defaultMessage: `Branch already exists.`,
+                description: `Validation message shown in the create-and-checkout branch dialog when the entered branch already exists`,
+              }),
+            })
+          : null),
+      (t[27] = k),
+      (t[28] = E),
+      (t[29] = u),
+      (t[30] = z))
+    : (z = t[30]);
+  let B;
+  t[31] !== R || t[32] !== z
+    ? ((B = (0, Q.jsxs)(c, { className: `flex flex-col gap-2`, children: [N, R, z] })),
+      (t[31] = R),
+      (t[32] = z),
+      (t[33] = B))
+    : (B = t[33]);
+  let V;
+  t[34] === i
+    ? (V = t[35])
+    : ((V = () => {
+        i(!1);
+      }),
+      (t[34] = i),
+      (t[35] = V));
+  let H;
+  t[36] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((H = (0, Q.jsx)(m, {
+        id: `composer.footer.branchSwitch.createDialog.close`,
+        defaultMessage: `Close`,
+        description: `Secondary button label in create-and-checkout branch dialog shown from the composer footer`,
+      })),
+      (t[36] = H))
+    : (H = t[36]);
+  let U;
+  t[37] === V
+    ? (U = t[38])
+    : ((U = (0, Q.jsx)(te, { color: `secondary`, onClick: V, children: H })),
+      (t[37] = V),
+      (t[38] = U));
+  let W = !j,
+    G;
+  t[39] !== d || t[40] !== O
+    ? ((G = () => {
+        d(O);
+      }),
+      (t[39] = d),
+      (t[40] = O),
+      (t[41] = G))
+    : (G = t[41]);
+  let ie;
+  t[42] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((ie = (0, Q.jsx)(m, {
+        id: `composer.footer.branchSwitch.createDialog.createAndCheckout`,
+        defaultMessage: `Create and checkout`,
+        description: `Primary button label in create-and-checkout branch dialog shown from the composer footer`,
+      })),
+      (t[42] = ie))
+    : (ie = t[42]);
+  let ae;
+  t[43] !== u || t[44] !== W || t[45] !== G
+    ? ((ae = (0, Q.jsx)(te, {
+        color: `primary`,
+        disabled: W,
+        loading: u,
+        onClick: G,
+        children: ie,
+      })),
+      (t[43] = u),
+      (t[44] = W),
+      (t[45] = G),
+      (t[46] = ae))
+    : (ae = t[46]);
+  let K;
+  t[47] !== U || t[48] !== ae
+    ? ((K = (0, Q.jsx)(c, { children: (0, Q.jsxs)(ee, { children: [U, ae] }) })),
+      (t[47] = U),
+      (t[48] = ae),
+      (t[49] = K))
+    : (K = t[49]);
+  let J;
+  t[50] !== B || t[51] !== K
+    ? ((J = (0, Q.jsxs)(q, { "data-codex-branch-create-dialog": ``, children: [M, B, K] })),
+      (t[50] = B),
+      (t[51] = K),
+      (t[52] = J))
+    : (J = t[52]);
+  let Y;
+  return (
+    t[53] !== i || t[54] !== r || t[55] !== J
+      ? ((Y = (0, Q.jsx)(ne, { size: `feature`, open: r, onOpenChange: i, children: J })),
+        (t[53] = i),
+        (t[54] = r),
+        (t[55] = J),
+        (t[56] = Y))
+      : (Y = t[56]),
+    Y
+  );
+}
+function Xe(e) {
+  let t = (0, et.c)(61),
+    {
+      open: n,
+      onOpenChange: r,
+      conflictFiles: i,
+      gitRoot: a,
+      hostConfig: o,
+      targetBranch: s,
+      onContinue: l,
+    } = e,
+    u = re(),
+    { data: d } = Ae(a, o, $),
+    p;
+  t[0] === a ? (p = t[1]) : ((p = z(a)), (t[0] = a), (t[1] = p));
+  let h;
+  t[2] === p
+    ? (h = t[3])
+    : ((h = { cwd: p, includeUntrackedFiles: !1, operationSource: $, source: `staged` }),
+      (t[2] = p),
+      (t[3] = h));
+  let g;
+  t[4] === n
+    ? (g = t[5])
+    : ((g = { enabled: n, staleTime: k.FIVE_SECONDS }), (t[4] = n), (t[5] = g));
+  let { data: _ } = x(a, o, `review-summary`, h, $, g),
+    v;
+  t[6] === a ? (v = t[7]) : ((v = z(a)), (t[6] = a), (t[7] = v));
+  let y;
+  t[8] === v
+    ? (y = t[9])
+    : ((y = { cwd: v, operationSource: $, source: `unstaged` }), (t[8] = v), (t[9] = y));
+  let b;
+  t[10] === n
+    ? (b = t[11])
+    : ((b = { enabled: n, staleTime: k.FIVE_SECONDS }), (t[10] = n), (t[11] = b));
+  let { data: S } = x(a, o, `review-summary`, y, $, b),
+    C,
+    w,
+    T,
+    E,
+    D,
+    O,
+    A,
+    j,
+    M;
+  if (
+    t[12] !== i ||
+    t[13] !== u ||
+    t[14] !== r ||
+    t[15] !== n ||
+    t[16] !== _ ||
+    t[17] !== d ||
+    t[18] !== s ||
+    t[19] !== S
+  ) {
+    let e = [_, S],
+      a = ye(e),
+      o = a?.totalAdditions ?? 0,
+      l = a?.totalDeletions ?? 0,
+      p = o + l > 0,
+      h = i.length > 0,
+      g;
+    t[29] === d ? (g = t[30]) : ((g = $e(d)), (t[29] = d), (t[30] = g));
+    let v = g,
+      y;
+    t[31] !== u || t[32] !== s
+      ? ((y =
+          s ??
+          u.formatMessage({
+            id: `composer.footer.branchSwitch.uncommittedDialog.targetBranchFallback`,
+            defaultMessage: `the selected branch`,
+            description: `Fallback branch label in the uncommitted changes dialog when the target branch name is unavailable`,
+          })),
+        (t[31] = u),
+        (t[32] = s),
+        (t[33] = y))
+      : (y = t[33]);
+    let b = y;
+    ((T = ne),
+      (E = `feature`),
+      (D = n),
+      (O = r),
+      (w = q),
+      t[34] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((M = (0, Q.jsx)(c, {
+            children: (0, Q.jsx)(f, {
+              title: (0, Q.jsx)(m, {
+                id: `composer.footer.branchSwitch.uncommittedDialog.title`,
+                defaultMessage: `Commit changes to switch branch`,
+                description: `Title for dialog shown when branch switching is blocked by uncommitted changes`,
+              }),
+            }),
+          })),
+          (t[34] = M))
+        : (M = t[34]),
+      (C = c),
+      (A = `text-token-description-foreground`),
+      (j = h
+        ? (0, Q.jsxs)(`div`, {
+            className: `flex flex-col gap-2 text-sm`,
+            children: [
+              (0, Q.jsx)(m, {
+                id: `composer.footer.branchSwitch.uncommittedDialog.conflict.bodyPrefix`,
+                defaultMessage: `Your changes to the following files would be overwritten by checkout:`,
+                description: `Message shown in the uncommitted changes dialog before listing files that block checkout`,
+              }),
+              (0, Q.jsx)(`div`, {
+                className: `flex flex-col gap-1`,
+                children: i.map((t, n) => {
+                  let r = de(t, e);
+                  return (0, Q.jsxs)(
+                    `div`,
+                    {
+                      className: `inline-flex items-center gap-1 text-token-foreground`,
+                      children: [
+                        (0, Q.jsx)(`span`, { children: t }),
+                        r == null
+                          ? null
+                          : (0, Q.jsx)(Ce, {
+                              className: `inline-flex align-middle`,
+                              linesAdded: r.linesAdded,
+                              linesRemoved: r.linesRemoved,
+                            }),
+                      ],
+                    },
+                    `${t}:${n}`,
+                  );
+                }),
+              }),
+              (0, Q.jsx)(m, {
+                id: `composer.footer.branchSwitch.uncommittedDialog.conflict.bodySuffix`,
+                defaultMessage: `Please commit your changes to continue`,
+                description: `Message shown in the uncommitted changes dialog after listing files that block checkout`,
+              }),
+            ],
+          })
+        : p
+          ? (0, Q.jsxs)(`span`, {
+              className: `inline-flex items-center gap-1 whitespace-nowrap`,
+              children: [
+                (0, Q.jsx)(m, {
+                  id: `composer.footer.branchSwitch.uncommittedDialog.bodyPrefix.withDiff`,
+                  defaultMessage: `Commit`,
+                  description: `Body prefix in the uncommitted changes dialog before diff stats`,
+                }),
+                (0, Q.jsx)(Ce, {
+                  className: `inline-flex align-middle`,
+                  linesAdded: o,
+                  linesRemoved: l,
+                }),
+                (0, Q.jsx)(m, {
+                  id: `composer.footer.branchSwitch.uncommittedDialog.bodySuffix.withDiff`,
+                  defaultMessage: `changes in {fileCount, plural, one {# file} other {# files}} to check out {branchName}.`,
+                  description: `Body suffix in the uncommitted changes dialog after diff stats, including file count and target branch`,
+                  values: { fileCount: v, branchName: b },
+                }),
+              ],
+            })
+          : (0, Q.jsx)(m, {
+              id: `composer.footer.branchSwitch.uncommittedDialog.body.noDiff`,
+              defaultMessage: `Commit changes in {fileCount, plural, one {# file} other {# files}} to check out {branchName}.`,
+              description: `Body text in the uncommitted changes dialog when diff stats are unavailable`,
+              values: { fileCount: v, branchName: b },
+            })),
+      (t[12] = i),
+      (t[13] = u),
+      (t[14] = r),
+      (t[15] = n),
+      (t[16] = _),
+      (t[17] = d),
+      (t[18] = s),
+      (t[19] = S),
+      (t[20] = C),
+      (t[21] = w),
+      (t[22] = T),
+      (t[23] = E),
+      (t[24] = D),
+      (t[25] = O),
+      (t[26] = A),
+      (t[27] = j),
+      (t[28] = M));
+  } else
+    ((C = t[20]),
+      (w = t[21]),
+      (T = t[22]),
+      (E = t[23]),
+      (D = t[24]),
+      (O = t[25]),
+      (A = t[26]),
+      (j = t[27]),
+      (M = t[28]));
+  let N;
+  t[35] !== C || t[36] !== A || t[37] !== j
+    ? ((N = (0, Q.jsx)(C, { className: A, children: j })),
+      (t[35] = C),
+      (t[36] = A),
+      (t[37] = j),
+      (t[38] = N))
+    : (N = t[38]);
+  let P;
+  t[39] === r
+    ? (P = t[40])
+    : ((P = () => {
+        r(!1);
+      }),
+      (t[39] = r),
+      (t[40] = P));
+  let F;
+  t[41] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((F = (0, Q.jsx)(m, {
+        id: `composer.footer.branchSwitch.uncommittedDialog.cancel`,
+        defaultMessage: `Cancel`,
+        description: `Secondary button label in branch switching blocked dialog shown in the composer footer`,
+      })),
+      (t[41] = F))
+    : (F = t[41]);
+  let I;
+  t[42] === P
+    ? (I = t[43])
+    : ((I = (0, Q.jsx)(te, { color: `secondary`, onClick: P, children: F })),
+      (t[42] = P),
+      (t[43] = I));
+  let L;
+  t[44] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((L = (0, Q.jsx)(m, {
+        id: `composer.footer.branchSwitch.uncommittedDialog.commit`,
+        defaultMessage: `Commit and switch branch…`,
+        description: `Primary button label in branch switching blocked dialog shown in the composer footer`,
+      })),
+      (t[44] = L))
+    : (L = t[44]);
+  let R;
+  t[45] === l
+    ? (R = t[46])
+    : ((R = (0, Q.jsx)(te, { color: `primary`, onClick: l, children: L })),
+      (t[45] = l),
+      (t[46] = R));
+  let B;
+  t[47] !== I || t[48] !== R
+    ? ((B = (0, Q.jsx)(c, { children: (0, Q.jsxs)(ee, { children: [I, R] }) })),
+      (t[47] = I),
+      (t[48] = R),
+      (t[49] = B))
+    : (B = t[49]);
+  let V;
+  t[50] !== w || t[51] !== N || t[52] !== B || t[53] !== M
+    ? ((V = (0, Q.jsxs)(w, { children: [M, N, B] })),
+      (t[50] = w),
+      (t[51] = N),
+      (t[52] = B),
+      (t[53] = M),
+      (t[54] = V))
+    : (V = t[54]);
+  let H;
+  return (
+    t[55] !== T || t[56] !== E || t[57] !== D || t[58] !== O || t[59] !== V
+      ? ((H = (0, Q.jsx)(T, { size: E, open: D, onOpenChange: O, children: V })),
+        (t[55] = T),
+        (t[56] = E),
+        (t[57] = D),
+        (t[58] = O),
+        (t[59] = V),
+        (t[60] = H))
+      : (H = t[60]),
+    H
+  );
+}
+function Ze({ branches: e, currentBranch: t, defaultBranch: n }) {
+  let r = new Set(),
+    i = [];
+  return (
+    Qe(n, i, r),
+    Qe(t, i, r),
+    e.forEach((e) => {
+      Qe(e, i, r);
+    }),
+    i
+  );
+}
+function Qe(e, t, n) {
+  !e || n.has(e) || (n.add(e), t.push(e));
+}
+function $e(e) {
+  return e?.type === `success` ? Math.max(e.stagedCount, e.unstagedCount) + e.untrackedCount : 0;
+}
+var et,
+  Z,
+  Q,
+  $,
+  tt = e(() => {
+    ((et = T()),
+      N(),
+      I(),
+      (Z = t(oe(), 1)),
+      _(),
+      Y(),
+      V(),
+      H(),
+      P(),
+      a(),
+      M(),
+      ue(),
+      W(),
+      we(),
+      K(),
+      ke(),
+      he(),
+      Ie(),
+      be(),
+      Me(),
+      ze(),
+      He(),
+      s(),
+      ge(),
+      X(),
+      ce(),
+      Se(),
+      b(),
+      u(),
+      p(),
+      G(),
+      se(),
+      Ge(),
+      (Q = R()),
+      ($ = `composer_branch_switcher`));
+  });
+export { Ie as a, Ae as c, Ue as i, Oe as l, tt as n, Ne as o, Ge as r, Me as s, Ke as t, ke as u };
+//# sourceMappingURL=git-branch-switcher.js.map

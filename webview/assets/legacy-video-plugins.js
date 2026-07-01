@@ -1,0 +1,38 @@
+const __vite__mapDeps = (
+  i,
+  m = __vite__mapDeps,
+  d = m.f || (m.f = ["./index.umd.js", "./rolldown-runtime.js"]),
+) => i.map((i) => d[i]);
+import { n as e, s as t } from "./rolldown-runtime.js";
+import {
+  $P as n,
+  ZP as r,
+  fL as i,
+  nF as a,
+  pL as o,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~plug~kmtatxxf.js";
+function s(e) {
+  return r(this, void 0, void 0, function () {
+    var r;
+    return n(this, function (n) {
+      switch (n.label) {
+        case 0:
+          return [
+            4,
+            i(
+              () => import(`./index.umd.js`).then((e) => t(e.default)),
+              __vite__mapDeps([0, 1]),
+              import.meta.url,
+            ),
+          ];
+        case 1:
+          return ((r = n.sent()), (e._plugins = r), [2]);
+      }
+    });
+  });
+}
+e(() => {
+  (a(), o());
+})();
+export { s as loadLegacyVideoPlugins };
+//# sourceMappingURL=legacy-video-plugins.js.map

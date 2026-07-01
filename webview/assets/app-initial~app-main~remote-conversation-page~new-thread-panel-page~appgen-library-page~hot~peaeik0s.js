@@ -1,0 +1,219 @@
+import { n as e, s as t } from "./rolldown-runtime.js";
+import {
+  Cl as n,
+  IP as r,
+  LP as i,
+  RV as a,
+  TB as o,
+  _l as s,
+  bB as c,
+  jE as l,
+  lV as u,
+  tV as d,
+  uk as f,
+  zV as p,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~plug~kmtatxxf.js";
+import { F_ as m, I_ as h, d_ as g } from "./app-initial~app-main~onboarding-page.js";
+function _(e) {
+  let t = (0, D.c)(7),
+    n,
+    r;
+  t[0] === e
+    ? ((n = t[1]), (r = t[2]))
+    : (({ dependencies: r, ...n } = e), (t[0] = e), (t[1] = n), (t[2] = r));
+  let i;
+  t[3] === r ? (i = t[4]) : ((i = r === void 0 ? [] : r), (t[3] = r), (t[4] = i));
+  let a = i,
+    c = o(s),
+    l;
+  (t[5] === c
+    ? (l = t[6])
+    : ((l = (e) => {
+        c.set(M, e);
+      }),
+      (t[5] = c),
+      (t[6] = l)),
+    y(l, n, a));
+}
+function v(e) {
+  let t = (0, D.c)(7),
+    n,
+    i;
+  t[0] === e
+    ? ((n = t[1]), (i = t[2]))
+    : (({ dependencies: i, ...n } = e), (t[0] = e), (t[1] = n), (t[2] = i));
+  let a;
+  t[3] === i ? (a = t[4]) : ((a = i === void 0 ? [] : i), (t[3] = i), (t[4] = a));
+  let s = a,
+    c = o(r),
+    l;
+  (t[5] === c
+    ? (l = t[6])
+    : ((l = (e) => {
+        c.set(j, e);
+      }),
+      (t[5] = c),
+      (t[6] = l)),
+    y(l, n, s));
+}
+function y(e, t, n) {
+  let r = (0, D.c)(25),
+    i;
+  r[0] === t.searchAliases
+    ? (i = r[1])
+    : ((i = t.searchAliases?.join(`\0`)), (r[0] = t.searchAliases), (r[1] = i));
+  let a = i,
+    o;
+  r[2] === t.triggers
+    ? (o = r[3])
+    : ((o = t.triggers?.join(`\0`)), (r[2] = t.triggers), (r[3] = o));
+  let s = o,
+    c;
+  r[4] !== t || r[5] !== e
+    ? ((c = () => {
+        e((e) => b(e, t));
+      }),
+      (r[4] = t),
+      (r[5] = e),
+      (r[6] = c))
+    : (c = r[6]);
+  let l;
+  (r[7] !== t.description ||
+  r[8] !== t.enabled ||
+  r[9] !== t.getDisplayTitle ||
+  r[10] !== t.getSearchQuery ||
+  r[11] !== t.group ||
+  r[12] !== t.id ||
+  r[13] !== t.presentation ||
+  r[14] !== t.requiresEmptyComposer ||
+  r[15] !== t.title ||
+  r[16] !== n ||
+  r[17] !== a ||
+  r[18] !== e ||
+  r[19] !== s
+    ? ((l = [
+        t.id,
+        t.title,
+        s,
+        t.description,
+        a,
+        t.getSearchQuery,
+        t.getDisplayTitle,
+        t.enabled,
+        t.requiresEmptyComposer,
+        t.presentation,
+        e,
+        t.group,
+        ...n,
+      ]),
+      (r[7] = t.description),
+      (r[8] = t.enabled),
+      (r[9] = t.getDisplayTitle),
+      (r[10] = t.getSearchQuery),
+      (r[11] = t.group),
+      (r[12] = t.id),
+      (r[13] = t.presentation),
+      (r[14] = t.requiresEmptyComposer),
+      (r[15] = t.title),
+      (r[16] = n),
+      (r[17] = a),
+      (r[18] = e),
+      (r[19] = s),
+      (r[20] = l))
+    : (l = r[20]),
+    (0, A.useEffect)(c, l));
+  let u, d;
+  (r[21] !== t.id || r[22] !== e
+    ? ((u = () => () => {
+        e((e) => e.filter((e) => e.id !== t.id));
+      }),
+      (d = [t.id, e]),
+      (r[21] = t.id),
+      (r[22] = e),
+      (r[23] = u),
+      (r[24] = d))
+    : ((u = r[23]), (d = r[24])),
+    (0, A.useEffect)(u, d));
+}
+function b(e, t) {
+  return x([...e.filter((e) => e.id !== t.id), t].filter((e) => e.enabled !== !1));
+}
+function x(e) {
+  return (0, O.default)(e, [(e) => e.group ?? ``, (e) => e.title]);
+}
+function S(e, t) {
+  let n = t.trim();
+  if (n.length === 0) return e;
+  let r = new Map();
+  return (
+    e.forEach((e) => {
+      let t = e.group ?? null;
+      r.has(t) || r.set(t, r.size);
+    }),
+    (0, O.default)(
+      e.map((e) => ({ command: e, score: w(e, n) })).filter((e) => e.score > 0),
+      [
+        (e) => r.get(e.command.group ?? null) ?? 2 ** 53 - 1,
+        (e) => -e.score,
+        (e) => e.command.title,
+      ],
+    ).map((e) => e.command)
+  );
+}
+function C(e, t) {
+  return e.filter((e) => (e.triggers ?? [`/`]).includes(t));
+}
+function w(e, t) {
+  let n = e.getSearchQuery?.(t) ?? t;
+  return Math.max(h(e.title, n), h(e.id, n), ...(e.searchAliases ?? []).map((e) => h(e, n)));
+}
+function T(e, t) {
+  return t ? e.filter((e) => !e.requiresEmptyComposer) : e;
+}
+function E(e) {
+  return e.trim().length === 0 ? !1 : !P.test(e);
+}
+var D,
+  O,
+  k,
+  A,
+  j,
+  M,
+  N,
+  P,
+  F = e(() => {
+    ((D = a()),
+      (O = t(g(), 1)),
+      (k = t(f(), 1)),
+      c(),
+      (A = t(p(), 1)),
+      m(),
+      i(),
+      n(),
+      (j = u(r, [])),
+      (M = u(s, [])),
+      (N = d(s, ({ get: e }) => x((0, k.default)([...e(M), ...e(j)], (e) => e.id)))),
+      (P = /^\s*\/[^/\r\n]*\s*$/));
+  });
+function I({
+  attachedRemoteHostId: e,
+  browserRemoteHostId: t,
+  followUpType: n,
+  forceDefaultHost: r,
+  selectedRemoteProjectHostId: i,
+}) {
+  return e ?? (n === `local` || (r && n == null) ? null : (i ?? t));
+}
+function L({
+  composerMode: e,
+  draftRemoteHostId: t,
+  followUpType: n,
+  hasStartedBranchConversation: r,
+}) {
+  return e === `local` && t !== `local` && n !== `local` && (!r || n === `cloud`);
+}
+var R = e(() => {
+  l();
+});
+export { S as a, E as c, _ as d, N as i, F as l, R as n, T as o, L as r, C as s, I as t, v as u };
+//# sourceMappingURL=app-initial~app-main~remote-conversation-page~new-thread-panel-page~appgen-library-page~hot~peaeik0s.js.map

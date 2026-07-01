@@ -1,0 +1,147 @@
+import { n as e, s as t } from "./rolldown-runtime.js";
+import {
+  AN as n,
+  DF as r,
+  EN as i,
+  IP as a,
+  LP as o,
+  RV as s,
+  TB as c,
+  bB as l,
+  iF as u,
+  kN as d,
+  zV as f,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~plug~kmtatxxf.js";
+import {
+  Gr as p,
+  Hr as m,
+  Ur as h,
+  Wr as g,
+} from "./app-initial~app-main~onboarding-page.js";
+function _() {
+  let e = (0, v.c)(7),
+    t = c(a),
+    i = n(r.followUpQueueMode),
+    o = i === `interrupt` ? `steer` : (i ?? `queue`),
+    s,
+    l;
+  (e[0] !== i || e[1] !== t
+    ? ((s = () => {
+        i === `interrupt` && d(t, r.followUpQueueMode, `steer`);
+      }),
+      (l = [i, t]),
+      (e[0] = i),
+      (e[1] = t),
+      (e[2] = s),
+      (e[3] = l))
+    : ((s = e[2]), (l = e[3])),
+    (0, y.useEffect)(s, l));
+  let u = o === `queue`,
+    f;
+  return (
+    e[4] !== o || e[5] !== u
+      ? ((f = { mode: o, isQueueingEnabled: u }), (e[4] = o), (e[5] = u), (e[6] = f))
+      : (f = e[6]),
+    f
+  );
+}
+var v,
+  y,
+  b = e(() => {
+    ((v = s()), l(), u(), (y = t(f(), 1)), o(), i());
+  });
+function x(e) {
+  switch (e) {
+    case `enter`:
+      return `CmdOrCtrl+Enter`;
+    case `cmdIfMultiline`:
+    case `cmdAlways`:
+      return `CmdOrCtrl+Shift+Enter`;
+  }
+}
+function S({
+  followUpType: e,
+  isResponseInProgress: t,
+  canStopFromEscape: n,
+  isComposerFocused: r,
+  hasActiveMentionMenu: i,
+}) {
+  return (e === `local` || e === `cloud`) && t && n && r && !i;
+}
+function C({
+  isDictating: e,
+  restrictedSessionPhase: t,
+  followUpType: n,
+  isResponseInProgress: r,
+  canStopFromEscape: i,
+  isComposerFocused: a,
+  hasFocusedComposer: o,
+  hasActiveMentionMenu: s,
+  isTerminalTarget: c,
+  hasActiveApprovalSurface: l,
+  isStopTurnConfirmationVisible: u,
+}) {
+  return e
+    ? `abort-dictation`
+    : S({
+          followUpType: n,
+          isResponseInProgress: r,
+          canStopFromEscape: i,
+          isComposerFocused: a,
+          hasActiveMentionMenu: s,
+        })
+      ? u
+        ? `stop-turn`
+        : `confirm-stop-turn`
+      : o || c || l
+        ? null
+        : `focus-composer`;
+}
+function w({ hasPlanMode: e, hasDefaultMode: t, isPlanMode: n, setSelectedMode: r }) {
+  return e ? (n ? (t ? (r(`default`), !0) : (r(null), !0)) : (r(`plan`), !0)) : !1;
+}
+function T({
+  event: e,
+  isComposerFocused: t,
+  hasActiveMentionMenu: n,
+  activateArtifactPluginSuggestion: r,
+  hasPlanMode: i,
+  hasDefaultMode: a,
+  isPlanMode: o,
+  isSelectionAtStart: s,
+  setSelectedMode: c,
+  handleEscape: l,
+}) {
+  return t
+    ? e.key === `Backspace` && !e.metaKey && !e.ctrlKey && !e.altKey && !e.shiftKey && o && s
+      ? (e.preventDefault(), e.stopPropagation(), c(a ? `default` : null), !0)
+      : e.key === `Escape` && !e.metaKey && !e.ctrlKey && !e.altKey && !e.shiftKey
+        ? n
+          ? !1
+          : (e.preventDefault(), e.stopPropagation(), l(), !0)
+        : e.key === `Tab` &&
+            e.shiftKey &&
+            !e.metaKey &&
+            !e.ctrlKey &&
+            !e.altKey &&
+            (r?.() || w({ hasPlanMode: i, hasDefaultMode: a, isPlanMode: o, setSelectedMode: c }))
+          ? (e.preventDefault(), e.stopPropagation(), !0)
+          : !1
+    : !1;
+}
+var E = e(() => {});
+function D(e) {
+  switch (e) {
+    case `fast`:
+      return g;
+    case `ultrafast`:
+      return m;
+    case null:
+      return;
+  }
+}
+var O = e(() => {
+  (p(), h());
+});
+export { T as a, b as c, x as i, _ as l, O as n, E as o, C as r, w as s, D as t };
+//# sourceMappingURL=app-initial~app-main~remote-conversation-page~new-thread-panel-page~appgen-library-page~hot~e4x7741c.js.map

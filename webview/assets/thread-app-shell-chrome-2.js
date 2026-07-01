@@ -1,0 +1,2189 @@
+import { n as e, s as t } from "./rolldown-runtime.js";
+import {
+  $N as n,
+  $p as r,
+  A as i,
+  BN as a,
+  BP as o,
+  C as s,
+  CA as c,
+  CN as l,
+  C_ as u,
+  D_ as d,
+  Dj as f,
+  EB as p,
+  Ej as m,
+  GP as h,
+  Gi as g,
+  Gr as _,
+  HP as v,
+  IP as y,
+  Ji as b,
+  Ki as x,
+  LP as S,
+  Lo as C,
+  Lt as w,
+  N_ as T,
+  Pp as E,
+  QN as D,
+  Qj as O,
+  RN as k,
+  RV as A,
+  Ro as j,
+  Rt as M,
+  SA as N,
+  SN as P,
+  S_ as F,
+  Sm as I,
+  TB as L,
+  TP as R,
+  Ur as z,
+  VP as ee,
+  Wp as te,
+  Xr as B,
+  YN as ne,
+  Yj as re,
+  Yr as ie,
+  Zr as ae,
+  bB as oe,
+  b_ as se,
+  dj as ce,
+  eM as le,
+  ei as ue,
+  fN as de,
+  g_ as fe,
+  gp as pe,
+  iF as me,
+  iM as he,
+  jV as V,
+  k as ge,
+  lL as _e,
+  mP as H,
+  nR as ve,
+  oP as ye,
+  pN as be,
+  pj as xe,
+  qN as Se,
+  qP as U,
+  qi as Ce,
+  qj as we,
+  rM as Te,
+  tV as Ee,
+  ti as De,
+  v_ as Oe,
+  vt as ke,
+  w as Ae,
+  wB as W,
+  wP as je,
+  x_ as Me,
+  y_ as Ne,
+  yp as Pe,
+  yt as Fe,
+  zV as Ie,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~plug~kmtatxxf.js";
+import {
+  Cb as Le,
+  Cl as Re,
+  Cw as ze,
+  Ey as Be,
+  Fd as Ve,
+  GS as He,
+  Id as Ue,
+  Iu as We,
+  J as Ge,
+  JS as Ke,
+  KS as qe,
+  Lu as Je,
+  Nd as Ye,
+  Oy as Xe,
+  Pd as Ze,
+  SC as Qe,
+  SD as $e,
+  Sd as et,
+  Sf as tt,
+  Sx as nt,
+  Tl as rt,
+  Ty as it,
+  Y as at,
+  Zh as ot,
+  _l as st,
+  _x as ct,
+  aC as lt,
+  af as ut,
+  bC as dt,
+  bl as ft,
+  bx as pt,
+  c_ as mt,
+  dw as ht,
+  fS as gt,
+  gw as _t,
+  gx as vt,
+  hw as yt,
+  iS as bt,
+  lS as xt,
+  l_ as St,
+  lm as Ct,
+  oS as wt,
+  pS as Tt,
+  pl as Et,
+  qh as G,
+  rC as Dt,
+  sS as Ot,
+  s_ as kt,
+  sf as At,
+  uS as jt,
+  u_ as Mt,
+  um as Nt,
+  uw as Pt,
+  vC as Ft,
+  vw as It,
+  vx as Lt,
+  wl as Rt,
+  ww as zt,
+  xC as Bt,
+  xD as Vt,
+  xb as Ht,
+  xd as K,
+  xf as Ut,
+  xl as Wt,
+  xx as Gt,
+  yC as Kt,
+  yx as qt,
+} from "./app-initial~app-main~onboarding-page.js";
+import {
+  A as Jt,
+  L as Yt,
+  m as Xt,
+  p as Zt,
+} from "./app-initial~app-main~worktree-init-v2-page~appgen-publication-terms-route~remote-conversati~oykv7gy7.js";
+import {
+  N as Qt,
+  O as $t,
+  j as en,
+} from "./app-initial~app-main~worktree-init-v2-page~appgen-page~remote-conversation-page~plugin-deta~hb9r3lcf.js";
+import {
+  A as tn,
+  j as nn,
+} from "./app-initial~app-main~worktree-init-v2-page~appgen-publication-terms-route~remote-conversati~coa484up.js";
+import {
+  n as rn,
+  t as an,
+} from "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~projects-index-page~app~ovcriy74.js";
+import {
+  i as on,
+  n as sn,
+  r as cn,
+  t as ln,
+} from "./app-initial~app-main~remote-conversation-page~thread-app-shell-chrome~local-conversation-page.js";
+import { n as un, t as dn } from "./artifact-file-preview-icon.js";
+import { T as fn, a as pn, r as mn, w as hn } from "./local-conversation-thread.js";
+import { i as gn, r as _n } from "./thread-overflow-menu.js";
+import { n as vn, t as yn } from "./use-media-query.js";
+var bn,
+  xn,
+  Sn = e(() => {
+    (t(Ie()),
+      (bn = V()),
+      (xn = (e) =>
+        (0, bn.jsxs)(`svg`, {
+          width: 20,
+          height: 20,
+          viewBox: `0 0 20 20`,
+          fill: `none`,
+          xmlns: `http://www.w3.org/2000/svg`,
+          ...e,
+          children: [
+            (0, bn.jsx)(`path`, {
+              d: `M13.334 12.2529C13.701 12.2533 13.999 12.5509 13.999 12.918C13.9988 13.2849 13.7008 13.5827 13.334 13.583H6.66699C6.29984 13.583 6.00215 13.2851 6.00195 12.918C6.00195 12.5507 6.29972 12.2529 6.66699 12.2529H13.334Z`,
+              fill: `currentColor`,
+            }),
+            (0, bn.jsx)(`path`, {
+              fillRule: `evenodd`,
+              clipRule: `evenodd`,
+              d: `M15 3.08594C16.748 3.08594 18.165 4.503 18.165 6.25098V13.751C18.165 15.499 16.748 16.916 15 16.916H5C3.25202 16.916 1.83496 15.499 1.83496 13.751V6.25098C1.83496 4.503 3.25202 3.08594 5 3.08594H15ZM5 4.41602C3.98656 4.41602 3.16504 5.23753 3.16504 6.25098V13.751C3.16504 14.7644 3.98656 15.5859 5 15.5859H15C16.0134 15.5859 16.835 14.7644 16.835 13.751V6.25098C16.835 5.23753 16.0134 4.41602 15 4.41602H5Z`,
+              fill: `currentColor`,
+            }),
+          ],
+        })));
+  }),
+  Cn,
+  wn,
+  Tn = e(() => {
+    (t(Ie()),
+      (Cn = V()),
+      (wn = (e) =>
+        (0, Cn.jsxs)(`svg`, {
+          width: 20,
+          height: 20,
+          viewBox: `0 0 20 20`,
+          fill: `none`,
+          xmlns: `http://www.w3.org/2000/svg`,
+          ...e,
+          children: [
+            (0, Cn.jsx)(`path`, {
+              fillRule: `evenodd`,
+              clipRule: `evenodd`,
+              d: `M15 3.08594C16.748 3.08594 18.165 4.503 18.165 6.25098V13.751C18.165 15.499 16.748 16.916 15 16.916H5C3.25202 16.916 1.83496 15.499 1.83496 13.751V6.25098C1.83496 4.503 3.25202 3.08594 5 3.08594H15ZM5 4.41602C3.98656 4.41602 3.16504 5.23753 3.16504 6.25098V13.751C3.16504 14.7644 3.98656 15.5859 5 15.5859H15C16.0134 15.5859 16.835 14.7644 16.835 13.751V6.25098C16.835 5.23753 16.0134 4.41602 15 4.41602H5Z`,
+              fill: `currentColor`,
+            }),
+            (0, Cn.jsx)(`path`, {
+              d: `M3.16504 12.2529H16.835V13.583H3.16504V12.2529Z`,
+              fill: `currentColor`,
+            }),
+          ],
+        })));
+  }),
+  En = e(() => {
+    pn();
+  });
+function Dn({ onClose: e, target: t }) {
+  let i = L(u),
+    o = U(),
+    s = p(dt.tabs$),
+    c = p(Ft.tabs$),
+    l = [...s, ...c],
+    d = p(On),
+    f = p(j),
+    m = p(T),
+    g = Qt() === $t,
+    _ = p(qe),
+    v = p(Ke),
+    y = p(lt),
+    x = a(`open-file`),
+    S = fe(i),
+    C = i.value.routeKind === `local-thread` ? i.value.conversationId : null,
+    w = W(I, C);
+  W(te, C);
+  let D = W(r, C),
+    O = W(E, C),
+    k = W(G, `searchFiles`),
+    A = W(G, `openSideChat`),
+    M = W(G, `openBrowserTab`),
+    N = W(G, `openReviewTab`),
+    P = W(hn, C),
+    F = w !== `projectless` && v != null,
+    R = C != null && !1,
+    z = C != null && !Le(),
+    ee = f && (m || !l.some((e) => se(e))),
+    B = !g && (_.kind === `git` || !1) && !l.some((e) => e.tabId === Me.DIFF),
+    ne = R && !l.some((e) => e.tabId === Me.TIMELINE),
+    ie = vt(i),
+    ae = _.kind === `git` ? null : P,
+    oe = ae != null && ae.length > 0,
+    ce = () => {
+      C != null &&
+        gn(i, mn, {
+          sourceConversationId: C,
+          cwd: _.cwd,
+          hostId: D,
+          collaborationMode: O,
+          intl: o,
+          target: t,
+        })
+          .then(() => {
+            e?.();
+          })
+          .catch((e) => {
+            (n.error(`Error opening side chat`, { safe: {}, sensitive: { error: e } }),
+              i
+                .get(re)
+                .danger(
+                  o.formatMessage({
+                    id: `thread.sidePanel.openSideChatError`,
+                    defaultMessage: `Failed to open side chat`,
+                    description: `Error message shown when opening a side chat from the thread side panel fails`,
+                  }),
+                ));
+          });
+    },
+    le = () => {
+      ft(i, !0, t) && e?.();
+    },
+    de = () => {
+      st(i, {
+        browserConversationId: S ?? void 0,
+        browserHostDisplayName: y.display_name,
+        cwd: _.cwd,
+        initiator: `side_panel_menu`,
+        source: `manual`,
+        target: m ? t : `right`,
+      }) != null && e?.();
+    },
+    pe = () => {
+      Wt(i, C, { target: t }) && e?.();
+    },
+    me = () => {
+      v != null && (Je(i, null, { hostId: y.id, target: t, workspaceRoot: v }), e?.());
+    },
+    he = () => {
+      (pt(i, t), e?.());
+    },
+    V = (e, t, n) => {
+      if (t == null) {
+        b({ href: e, initiator: `mcp_app_resource`, originHostId: n });
+        return;
+      }
+      Ce({ event: t, href: e, initiator: `mcp_app_resource`, originHostId: n });
+    },
+    ge = (e, t) => {
+      switch (e.type) {
+        case `file`:
+        case `generated-image`:
+          Xt({
+            scope: i,
+            path: e.path,
+            cwd: v == null ? null : _e(v),
+            browserSidebarEnabled: f,
+            hostConfig: y,
+            hostId: y.id,
+            openFile: x.mutate,
+            openInSidePanel: !0,
+          });
+          return;
+        case `google-drive`:
+        case `appgen-app`:
+          V(e.url, t, y.id);
+          return;
+        case `website`:
+          if (ve(e.target)) {
+            V(e.target, t);
+            return;
+          }
+          Xt({
+            scope: i,
+            path: e.target,
+            cwd: v == null ? null : _e(v),
+            browserSidebarEnabled: f,
+            hostConfig: y,
+            hostId: y.id,
+            openFile: x.mutate,
+          });
+      }
+    },
+    H = [
+      ...(F
+        ? [
+            {
+              deferSelectionUntilDropdownClose: !0,
+              id: `open-file`,
+              Icon: Ut,
+              keyboardShortcut: k,
+              onSelect: me,
+              title: (0, q.jsx)(h, {
+                id: `thread.sidePanel.openFile`,
+                defaultMessage: `Files`,
+                description: `Action label for opening the workspace file browser from the thread side panel`,
+              }),
+            },
+          ]
+        : []),
+      ...(z
+        ? [
+            {
+              id: `side-chat`,
+              Icon: an,
+              keyboardShortcut: A,
+              onSelect: ce,
+              title: (0, q.jsx)(h, {
+                id: `thread.sidePanel.openSideChat`,
+                defaultMessage: `Side chat`,
+                description: `Action label for opening a side chat from the thread side panel`,
+              }),
+            },
+          ]
+        : []),
+      ...(ee
+        ? [
+            {
+              deferSelectionUntilDropdownClose: !0,
+              id: `browser`,
+              Icon: ue,
+              keyboardShortcut: M,
+              onSelect: de,
+              title: (0, q.jsx)(h, {
+                id: `thread.sidePanel.openBrowserTab`,
+                defaultMessage: `Browser`,
+                description: `Action label for opening the browser tab from the thread side panel`,
+              }),
+            },
+          ]
+        : []),
+      ...(B
+        ? [
+            {
+              id: `review`,
+              Icon: it,
+              keyboardShortcut: N,
+              onSelect: le,
+              title: (0, q.jsx)(h, {
+                id: `thread.sidePanel.openReviewTab`,
+                defaultMessage: `Review`,
+                description: `Action label for opening the review tab from the thread side panel`,
+              }),
+            },
+          ]
+        : []),
+      ...(ne
+        ? [
+            {
+              id: `timeline`,
+              Icon: Vt,
+              onSelect: pe,
+              title: (0, q.jsx)(h, {
+                id: `thread.sidePanel.newTab.timeline.title`,
+                defaultMessage: `History`,
+                description: `Action label for opening History from the side panel New tab page. Short label.`,
+              }),
+            },
+          ]
+        : []),
+      ...[],
+      ...(t === `right`
+        ? d.map((t) => ({
+            id: `${t.hostId}:${t.server}:${t.tool.name}`,
+            Icon: Pt,
+            mcpServerIcon: t.icon,
+            onSelect: () => {
+              sn(i, t) != null && e?.();
+            },
+            title: t.title,
+          }))
+        : []),
+      ...(ie
+        ? [
+            {
+              id: `terminal`,
+              Icon: tn,
+              onSelect: he,
+              title: (0, q.jsx)(h, {
+                id: `thread.sidePanel.newTab.terminal.title`,
+                defaultMessage: `Terminal`,
+                description: `Action label for opening the terminal from a panel New tab page`,
+              }),
+            },
+          ]
+        : []),
+    ];
+  return {
+    actions:
+      _.kind === `git` ? [...H].sort((e, t) => (kn[e.id] ?? H.length) - (kn[t.id] ?? H.length)) : H,
+    hasOutputArtifacts: oe,
+    onOpenArtifact: ge,
+    outputArtifacts: ae,
+  };
+}
+var q,
+  On,
+  kn,
+  An = e(() => {
+    (oe(),
+      me(),
+      v(),
+      Pe(),
+      C(),
+      ot(),
+      Ht(),
+      Kt(),
+      g(),
+      we(),
+      Zt(),
+      ht(),
+      Xe(),
+      rn(),
+      $e(),
+      Be(),
+      tt(),
+      De(),
+      nn(),
+      _n(),
+      En(),
+      Jt(),
+      ln(),
+      He(),
+      We(),
+      S(),
+      d(),
+      Dt(),
+      en(),
+      fn(),
+      D(),
+      k(),
+      Ne(),
+      ct(),
+      F(),
+      Et(),
+      (q = V()),
+      (On = Ee(y, ({ get: e }) => e(Yt).filter((e) => e.entrypoint === `thread`))),
+      (kn = { review: 0, terminal: 1, browser: 2, "open-file": 3 }));
+  });
+function jn(e) {
+  switch (e.type) {
+    case `file`:
+    case `generated-image`:
+      return `file:${e.path}`;
+    case `google-drive`:
+      return `google-drive:${e.url}`;
+    case `appgen-app`:
+      return `appgen-app:${e.projectId}`;
+    case `website`:
+      return `website:${e.target}`;
+  }
+}
+function Mn(e) {
+  switch (e.type) {
+    case `file`:
+    case `generated-image`:
+      return ce(e.path);
+    case `google-drive`:
+      return e.title;
+    case `appgen-app`:
+      return e.title ?? kt(e.url) ?? e.url;
+    case `website`:
+      return Pn(e.target);
+  }
+}
+function Nn(e) {
+  switch (e.type) {
+    case `file`:
+    case `generated-image`:
+      return e.path;
+    case `google-drive`:
+      return e.url;
+    case `appgen-app`:
+      return kt(e.url) ?? e.url;
+    case `website`:
+      return e.target;
+  }
+}
+function Pn(e) {
+  try {
+    let t = new URL(e);
+    return `${t.host}${t.pathname === `/` ? `` : t.pathname}${t.search}`;
+  } catch {
+    return ce(e) || e;
+  }
+}
+var Fn = e(() => {
+  (mt(), xe());
+});
+function In(e) {
+  let t = (0, Ln.c)(11),
+    { artifact: n, iconClassName: r, imageClassName: i } = e;
+  switch (n.type) {
+    case `file`:
+    case `generated-image`: {
+      let e;
+      return (
+        t[0] !== n.path || t[1] !== r || t[2] !== i
+          ? ((e = (0, Rn.jsx)(dn, { iconClassName: r, imageClassName: i, path: n.path })),
+            (t[0] = n.path),
+            (t[1] = r),
+            (t[2] = i),
+            (t[3] = e))
+          : (e = t[3]),
+        e
+      );
+    }
+    case `google-drive`: {
+      let e;
+      return (
+        t[4] !== n.resourceKind || t[5] !== r
+          ? ((e = (0, Rn.jsx)(Ge, { className: r, resourceKind: n.resourceKind })),
+            (t[4] = n.resourceKind),
+            (t[5] = r),
+            (t[6] = e))
+          : (e = t[6]),
+        e
+      );
+    }
+    case `appgen-app`: {
+      let e;
+      return (
+        t[7] === r ? (e = t[8]) : ((e = (0, Rn.jsx)(St, { className: r })), (t[7] = r), (t[8] = e)),
+        e
+      );
+    }
+    case `website`: {
+      let e;
+      return (
+        t[9] === r
+          ? (e = t[10])
+          : ((e = (0, Rn.jsx)(ue, { className: r })), (t[9] = r), (t[10] = e)),
+        e
+      );
+    }
+  }
+}
+var Ln,
+  Rn,
+  zn = e(() => {
+    ((Ln = A()), un(), De(), Mt(), at(), (Rn = V()));
+  });
+function Bn(e) {
+  let t = (0, Vn.c)(14),
+    {
+      actions: n,
+      hasOutputArtifacts: r,
+      onActionSelect: i,
+      onOpenArtifact: a,
+      outputArtifacts: o,
+    } = e,
+    s = r && o != null && o.length > 0;
+  if (n.length === 0 && !s) {
+    let e;
+    return (
+      t[0] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, J.jsx)(_.Message, {
+            compact: !0,
+            children: (0, J.jsx)(h, {
+              id: `thread.sidePanel.newTab.empty`,
+              defaultMessage: `No tabs are available for this thread`,
+              description: `Empty message on the side panel New tab page when the current thread has no available side panel tab actions.`,
+            }),
+          })),
+          (t[0] = e))
+        : (e = t[0]),
+      e
+    );
+  }
+  let c;
+  if (t[1] !== n || t[2] !== i) {
+    let e;
+    (t[4] === i
+      ? (e = t[5])
+      : ((e = (e) =>
+          (0, J.jsxs)(
+            _.Item,
+            {
+              LeftIcon: e.mcpServerIcon == null ? e.Icon : void 0,
+              keyboardShortcut: e.keyboardShortcut,
+              onSelect: () => i(e),
+              children: [
+                e.mcpServerIcon == null
+                  ? null
+                  : (0, J.jsx)(_.ItemIcon, { children: cn(e.mcpServerIcon) }),
+                e.title,
+              ],
+            },
+            e.id,
+          )),
+        (t[4] = i),
+        (t[5] = e)),
+      (c = n.map(e)),
+      (t[1] = n),
+      (t[2] = i),
+      (t[3] = c));
+  } else c = t[3];
+  let l;
+  t[6] !== n.length || t[7] !== s || t[8] !== a || t[9] !== o
+    ? ((l = s
+        ? (0, J.jsxs)(J.Fragment, {
+            children: [
+              n.length > 0 ? (0, J.jsx)(_.Separator, {}) : null,
+              (0, J.jsx)(_.SectionLabel, {
+                children: (0, J.jsx)(h, {
+                  id: `thread.sidePanel.newTab.suggested.heading`,
+                  defaultMessage: `Suggested`,
+                  description: `Heading for suggested artifacts shown on the side panel New tab page`,
+                }),
+              }),
+              o.map((e) =>
+                (0, J.jsxs)(
+                  _.Item,
+                  {
+                    onClickCapture: (t) => {
+                      x(t) && (t.preventDefault(), t.stopPropagation(), a(e, t));
+                    },
+                    onSelect: () => a(e),
+                    children: [
+                      (0, J.jsx)(_.ItemIcon, {
+                        children: (0, J.jsx)(In, {
+                          artifact: e,
+                          iconClassName: `icon-xs`,
+                          imageClassName: `size-[18px] rounded-sm`,
+                        }),
+                      }),
+                      Mn(e),
+                    ],
+                  },
+                  jn(e),
+                ),
+              ),
+            ],
+          })
+        : null),
+      (t[6] = n.length),
+      (t[7] = s),
+      (t[8] = a),
+      (t[9] = o),
+      (t[10] = l))
+    : (l = t[10]);
+  let u;
+  return (
+    t[11] !== c || t[12] !== l
+      ? ((u = (0, J.jsxs)(J.Fragment, { children: [c, l] })), (t[11] = c), (t[12] = l), (t[13] = u))
+      : (u = t[13]),
+    u
+  );
+}
+var Vn,
+  J,
+  Hn = e(() => {
+    ((Vn = A()), v(), ie(), g(), on(), Fn(), zn(), (J = V()));
+  });
+function Un(e) {
+  let t = (0, Wn.c)(11),
+    { children: n, disabled: r, label: i, onClick: a, color: o, pressed: s, shortcut: c } = e,
+    l = r === void 0 ? !1 : r,
+    u = o === `outline` ? (s ? `outlineActive` : `outline`) : s ? `secondary` : `ghost`,
+    d;
+  t[0] !== n || t[1] !== l || t[2] !== i || t[3] !== a || t[4] !== s || t[5] !== u
+    ? ((d = (0, Gn.jsx)(de, {
+        size: `toolbar`,
+        color: u,
+        "aria-label": i,
+        "aria-pressed": s,
+        disabled: l,
+        title: i,
+        onClick: a,
+        uniform: !0,
+        children: n,
+      })),
+      (t[0] = n),
+      (t[1] = l),
+      (t[2] = i),
+      (t[3] = a),
+      (t[4] = s),
+      (t[5] = u),
+      (t[6] = d))
+    : (d = t[6]);
+  let f;
+  return (
+    t[7] !== i || t[8] !== c || t[9] !== d
+      ? ((f = (0, Gn.jsx)(O, { tooltipContent: i, shortcut: c, delayOpen: !0, children: d })),
+        (t[7] = i),
+        (t[8] = c),
+        (t[9] = d),
+        (t[10] = f))
+      : (f = t[10]),
+    f
+  );
+}
+var Wn,
+  Gn,
+  Kn = e(() => {
+    ((Wn = A()), be(), le(), (Gn = V()));
+  });
+function qn(e) {
+  let t = (0, er.c)(55),
+    { cwd: n, hostConfig: r } = e,
+    i = U(),
+    a = vn(`(max-width: 920px)`),
+    o = Qt() === $t,
+    [s, c] = (0, tr.useState)(null),
+    l = r?.id,
+    u;
+  t[0] !== n || t[1] !== l
+    ? ((u = { cwd: n, deferEnrichment: !0, hostId: l }), (t[0] = n), (t[1] = l), (t[2] = u))
+    : (u = t[2]);
+  let {
+    canLoadTargets: d,
+    preferredTarget: f,
+    targets: p,
+    availableTargets: m,
+    hasLoadedTargets: g,
+    open: v,
+  } = Ae(u);
+  if (!n || !d) return null;
+  let y, b, x, S, C, w, T, E, D, O, k, A, j, M, N;
+  if (
+    t[3] !== m ||
+    t[4] !== g ||
+    t[5] !== i ||
+    t[6] !== a ||
+    t[7] !== o ||
+    t[8] !== v ||
+    t[9] !== s ||
+    t[10] !== f ||
+    t[11] !== p
+  ) {
+    T = Symbol.for(`react.early_return_sentinel`);
+    bb0: {
+      ((N = o ? p.filter(Zn) : p),
+        (b = ge({ preferredTarget: f, targets: N, availableTargets: m, mode: `editor` })),
+        (x = a || (b != null && f === b.target)));
+      let e = b
+          ? i.formatMessage(
+              {
+                id: `localConversationPage.openPrimaryTarget.tooltip`,
+                defaultMessage: `Open in {target}`,
+                description: `Tooltip for the primary open button`,
+              },
+              { target: b.label },
+            )
+          : void 0,
+        t = !g || N.some(Xn),
+        n = N.filter(Yn);
+      if (!t && n.length === 0 && s == null) {
+        T = null;
+        break bb0;
+      }
+      ((y = ke),
+        (E = `outline`),
+        (D = `toolbar`),
+        (O = b == null),
+        (k = `end`),
+        (A = `tall`),
+        (j = `menuFixed`),
+        (M = `pt-2`),
+        (S = x ? nr.openPrimaryTarget : void 0),
+        (C = x ? e : void 0),
+        (w =
+          n.length === 0
+            ? (0, Y.jsx)(Qn, {})
+            : n.map((e) =>
+                (0, Y.jsxs)(
+                  _.Item,
+                  {
+                    onSelect: () => {
+                      v(e.target, {
+                        appPath: e.appPath,
+                        openMode: `workspace`,
+                        persistPreferred: !0,
+                      });
+                    },
+                    children: [
+                      (0, Y.jsx)(_.ItemIcon, {
+                        children: (0, Y.jsx)(`img`, {
+                          alt: ``,
+                          onError: $n,
+                          src: s == null ? (e.resolvedIcon ?? e.icon) : (s.get(e.id) ?? e.icon),
+                          className: `icon-sm`,
+                        }),
+                      }),
+                      (0, Y.jsx)(`span`, { className: `truncate`, children: e.label }),
+                    ],
+                  },
+                  e.id,
+                ),
+              )));
+    }
+    ((t[3] = m),
+      (t[4] = g),
+      (t[5] = i),
+      (t[6] = a),
+      (t[7] = o),
+      (t[8] = v),
+      (t[9] = s),
+      (t[10] = f),
+      (t[11] = p),
+      (t[12] = y),
+      (t[13] = b),
+      (t[14] = x),
+      (t[15] = S),
+      (t[16] = C),
+      (t[17] = w),
+      (t[18] = T),
+      (t[19] = E),
+      (t[20] = D),
+      (t[21] = O),
+      (t[22] = k),
+      (t[23] = A),
+      (t[24] = j),
+      (t[25] = M),
+      (t[26] = N));
+  } else
+    ((y = t[12]),
+      (b = t[13]),
+      (x = t[14]),
+      (S = t[15]),
+      (C = t[16]),
+      (w = t[17]),
+      (T = t[18]),
+      (E = t[19]),
+      (D = t[20]),
+      (O = t[21]),
+      (k = t[22]),
+      (A = t[23]),
+      (j = t[24]),
+      (M = t[25]),
+      (N = t[26]));
+  if (T !== Symbol.for(`react.early_return_sentinel`)) return T;
+  let P;
+  t[27] === N
+    ? (P = t[28])
+    : ((P = (e) => {
+        c(e ? new Map(N.map(Jn)) : null);
+      }),
+      (t[27] = N),
+      (t[28] = P));
+  let F;
+  t[29] !== v || t[30] !== b
+    ? ((F =
+        b == null
+          ? void 0
+          : () => {
+              v(b.target, { appPath: b.appPath, openMode: `workspace`, persistPreferred: !1 });
+            }),
+      (t[29] = v),
+      (t[30] = b),
+      (t[31] = F))
+    : (F = t[31]);
+  let I;
+  t[32] !== b || t[33] !== x
+    ? ((I = (0, Y.jsx)(`span`, {
+        className: `icon-sm inline-flex shrink-0 items-center justify-center`,
+        children:
+          b == null
+            ? (0, Y.jsx)(`span`, { className: `size-4 rounded bg-token-bg-tertiary` })
+            : (0, Y.jsx)(`img`, {
+                alt: x ? b.label : ``,
+                onError: $n,
+                src: b.icon,
+                className: `icon-sm`,
+              }),
+      })),
+      (t[32] = b),
+      (t[33] = x),
+      (t[34] = I))
+    : (I = t[34]);
+  let L;
+  t[35] === x
+    ? (L = t[36])
+    : ((L = x
+        ? null
+        : (0, Y.jsx)(`span`, {
+            className: `truncate`,
+            children: (0, Y.jsx)(h, { ...nr.openPrimaryTarget }),
+          })),
+      (t[35] = x),
+      (t[36] = L));
+  let R;
+  t[37] !== I || t[38] !== L
+    ? ((R = (0, Y.jsxs)(`span`, { className: `flex items-center gap-1.5`, children: [I, L] })),
+      (t[37] = I),
+      (t[38] = L),
+      (t[39] = R))
+    : (R = t[39]);
+  let z;
+  return (
+    t[40] !== y ||
+    t[41] !== S ||
+    t[42] !== C ||
+    t[43] !== w ||
+    t[44] !== P ||
+    t[45] !== F ||
+    t[46] !== R ||
+    t[47] !== E ||
+    t[48] !== D ||
+    t[49] !== O ||
+    t[50] !== k ||
+    t[51] !== A ||
+    t[52] !== j ||
+    t[53] !== M
+      ? ((z = (0, Y.jsx)(y, {
+          color: E,
+          size: D,
+          primaryDisabled: O,
+          dropdownAlign: k,
+          dropdownContentMaxHeight: A,
+          dropdownContentWidth: j,
+          dropdownContentClassName: M,
+          primaryAriaLabel: S,
+          tooltipContent: C,
+          dropdownContent: w,
+          onDropdownOpenChange: P,
+          onClick: F,
+          children: R,
+        })),
+        (t[40] = y),
+        (t[41] = S),
+        (t[42] = C),
+        (t[43] = w),
+        (t[44] = P),
+        (t[45] = F),
+        (t[46] = R),
+        (t[47] = E),
+        (t[48] = D),
+        (t[49] = O),
+        (t[50] = k),
+        (t[51] = A),
+        (t[52] = j),
+        (t[53] = M),
+        (t[54] = z))
+      : (z = t[54]),
+    z
+  );
+}
+function Jn(e) {
+  return [e.id, e.resolvedIcon ?? e.icon];
+}
+function Yn(e) {
+  return !e.hidden && e.available === !0;
+}
+function Xn(e) {
+  return e.available == null || e.resolvedIcon === void 0;
+}
+function Zn(e) {
+  return e.kind !== `editor` && e.kind !== `terminal`;
+}
+function Qn() {
+  let e = (0, er.c)(1),
+    t;
+  return (
+    e[0] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((t = (0, Y.jsxs)(_.Item, {
+          disabled: !0,
+          "aria-hidden": `true`,
+          children: [
+            (0, Y.jsx)(_.ItemIcon, {
+              children: (0, Y.jsx)(`span`, { className: `size-4 rounded bg-token-bg-tertiary` }),
+            }),
+            (0, Y.jsx)(`span`, { className: `h-3 w-24 rounded bg-token-bg-tertiary` }),
+          ],
+        })),
+        (e[0] = t))
+      : (t = e[0]),
+    t
+  );
+}
+function $n(e) {
+  e.currentTarget.src = `apps/vscode.png`;
+}
+var er,
+  tr,
+  Y,
+  nr,
+  rr = e(() => {
+    ((er = A()),
+      (tr = t(Ie(), 1)),
+      v(),
+      Fe(),
+      ie(),
+      yn(),
+      en(),
+      i(),
+      s(),
+      (Y = V()),
+      (nr = ee({
+        openPrimaryTarget: {
+          id: `localConversationPage.openPrimaryTarget`,
+          defaultMessage: `Open in`,
+          description: `Primary open button label`,
+        },
+      })));
+  });
+function ir(e) {
+  let t = (0, ar.c)(5),
+    { conversationId: n } = e,
+    r = p(lt),
+    i = p(qe),
+    a = W(pe, n),
+    o;
+  t[0] === i.cwd
+    ? (o = t[1])
+    : ((o = i.cwd == null ? null : _e(i.cwd)), (t[0] = i.cwd), (t[1] = o));
+  let s = o;
+  if (s == null || !a || i.kind !== `git` || r.kind === `remote-control`) return null;
+  let c;
+  return (
+    t[2] !== s || t[3] !== r
+      ? ((c = (0, or.jsx)(K.HeaderAction, {
+          actionId: `thread-local-project-actions`,
+          align: `end`,
+          order: 100,
+          children: (0, or.jsx)(qn, { cwd: s, hostConfig: r }),
+        })),
+        (t[2] = s),
+        (t[3] = r),
+        (t[4] = c))
+      : (c = t[4]),
+    c
+  );
+}
+var ar,
+  or,
+  sr = e(() => {
+    ((ar = A()), oe(), me(), Pe(), et(), rr(), He(), Dt(), (or = V()));
+  });
+function cr(e) {
+  let t = (0, X.c)(14),
+    n;
+  t[0] === e ? (n = t[1]) : ((n = e === void 0 ? {} : e), (t[0] = e), (t[1] = n));
+  let { onClose: r } = n,
+    i;
+  t[2] === r ? (i = t[3]) : ((i = { onClose: r, target: `right` }), (t[2] = r), (t[3] = i));
+  let { actions: a, onOpenArtifact: o, outputArtifacts: s } = Dn(i),
+    c;
+  t[4] === a ? (c = t[5]) : ((c = a.find(lr)), (t[4] = a), (t[5] = c));
+  let l = c,
+    u;
+  t[6] === l
+    ? (u = t[7])
+    : ((u = () => {
+        l?.onSelect();
+      }),
+      (t[6] = l),
+      (t[7] = u));
+  let d = l != null,
+    f;
+  (t[8] === d ? (f = t[9]) : ((f = { enabled: d }), (t[8] = d), (t[9] = f)),
+    M(`openSideChat`, u, f));
+  let p;
+  return (
+    t[10] !== a || t[11] !== o || t[12] !== s
+      ? ((p = (0, Z.jsx)(ur, { actions: a, onOpenArtifact: o, outputArtifacts: s })),
+        (t[10] = a),
+        (t[11] = o),
+        (t[12] = s),
+        (t[13] = p))
+      : (p = t[13]),
+    p
+  );
+}
+function lr(e) {
+  return e.id === `side-chat`;
+}
+function ur(e) {
+  let t = (0, X.c)(22),
+    { actions: n, onOpenArtifact: r, outputArtifacts: i } = e,
+    a = i != null && i.length > 0 ? i : null,
+    o = p(l),
+    [s, c] = (0, gr.useState)(null),
+    [u, d] = (0, gr.useState)(!1),
+    [f, m] = Nt(),
+    g = o ? void 0 : `open`,
+    _ = o ? void 0 : _r,
+    v = u && `shadow-sm`,
+    y;
+  t[0] === v
+    ? (y = t[1])
+    : ((y = je(`sticky top-0 z-10 flex flex-col gap-6 bg-token-main-surface-primary`, v)),
+      (t[0] = v),
+      (t[1] = y));
+  let b;
+  t[2] !== n || t[3] !== o
+    ? ((b =
+        n.length > 0
+          ? (0, Z.jsx)(H.div, {
+              className: `mx-auto flex w-full max-w-xl flex-col gap-1 px-panel`,
+              variants: o ? void 0 : vr,
+              children: n.map(dr),
+            })
+          : (0, Z.jsx)(`div`, {
+              className: `mx-auto w-full max-w-xl rounded-lg border border-token-border-default p-3 text-sm text-token-text-secondary`,
+              children: (0, Z.jsx)(h, {
+                id: `thread.sidePanel.newTab.empty`,
+                defaultMessage: `No tabs are available for this thread`,
+                description: `Empty message on the side panel New tab page when the current thread has no available side panel tab actions.`,
+              }),
+            })),
+      (t[2] = n),
+      (t[3] = o),
+      (t[4] = b))
+    : (b = t[4]);
+  let x;
+  t[5] === a
+    ? (x = t[6])
+    : ((x =
+        a == null
+          ? null
+          : (0, Z.jsx)(`div`, {
+              className: `mx-auto w-full max-w-xl px-panel pb-1`,
+              children: (0, Z.jsx)(`h3`, {
+                className: `pl-2.5 text-sm font-normal text-token-text-secondary`,
+                children: (0, Z.jsx)(h, {
+                  id: `thread.sidePanel.newTab.suggested.heading`,
+                  defaultMessage: `Suggested`,
+                  description: `Heading for suggested artifacts shown on the side panel New tab page`,
+                }),
+              }),
+            })),
+      (t[5] = a),
+      (t[6] = x));
+  let S;
+  t[7] !== f || t[8] !== y || t[9] !== b || t[10] !== x
+    ? ((S = (0, Z.jsxs)(`div`, { ref: f, className: y, children: [b, x] })),
+      (t[7] = f),
+      (t[8] = y),
+      (t[9] = b),
+      (t[10] = x),
+      (t[11] = S))
+    : (S = t[11]);
+  let C;
+  t[12] !== m || t[13] !== r || t[14] !== s || t[15] !== a
+    ? ((C =
+        a == null
+          ? null
+          : (0, Z.jsxs)(Z.Fragment, {
+              children: [
+                (0, Z.jsx)(fr, { headerHeight: m.height, root: s, onCoveredChange: d }),
+                (0, Z.jsx)(mr, { artifacts: a, onOpen: r }),
+              ],
+            })),
+      (t[12] = m),
+      (t[13] = r),
+      (t[14] = s),
+      (t[15] = a),
+      (t[16] = C))
+    : (C = t[16]);
+  let w;
+  return (
+    t[17] !== g || t[18] !== _ || t[19] !== S || t[20] !== C
+      ? ((w = (0, Z.jsx)(`div`, {
+          ref: c,
+          className: `flex h-full min-h-0 flex-col overflow-x-hidden overflow-y-auto bg-token-main-surface-primary p-2 select-none`,
+          children: (0, Z.jsxs)(H.div, {
+            animate: g,
+            className: `flex w-full flex-1 flex-col justify-center`,
+            initial: !1,
+            variants: _,
+            children: [S, C],
+          }),
+        })),
+        (t[17] = g),
+        (t[18] = _),
+        (t[19] = S),
+        (t[20] = C),
+        (t[21] = w))
+      : (w = t[21]),
+    w
+  );
+}
+function dr(e) {
+  return (0, Z.jsx)(
+    pr,
+    {
+      icon:
+        e.mcpServerIcon == null
+          ? (0, Z.jsx)(e.Icon, { className: `icon-xs` })
+          : cn(e.mcpServerIcon),
+      keyboardShortcut: e.keyboardShortcut,
+      onSelect: e.onSelect,
+      title: e.title,
+    },
+    e.id,
+  );
+}
+function fr(e) {
+  let t = (0, X.c)(7),
+    { headerHeight: n, root: r, onCoveredChange: i } = e,
+    a = n == null ? `0px` : `-${Math.ceil(n)}px 0px 0px 0px`,
+    o;
+  t[0] !== i || t[1] !== r || t[2] !== a
+    ? ((o = (e) => {
+        if (e == null || r == null) return;
+        if (typeof IntersectionObserver > `u`) {
+          i(!1);
+          return;
+        }
+        let t = new IntersectionObserver(
+          (e) => {
+            let t = e[0];
+            t != null && i(!t.isIntersecting);
+          },
+          { root: r, rootMargin: a },
+        );
+        return (
+          t.observe(e),
+          () => {
+            t.disconnect();
+          }
+        );
+      }),
+      (t[0] = i),
+      (t[1] = r),
+      (t[2] = a),
+      (t[3] = o))
+    : (o = t[3]);
+  let s;
+  return (
+    t[4] !== a || t[5] !== o
+      ? ((s = (0, Z.jsx)(`div`, { "aria-hidden": !0, className: `h-px`, ref: o }, a)),
+        (t[4] = a),
+        (t[5] = o),
+        (t[6] = s))
+      : (s = t[6]),
+    s
+  );
+}
+function pr(e) {
+  let t = (0, X.c)(12),
+    { icon: n, keyboardShortcut: r, onSelect: i, title: a } = e,
+    o;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((o = je(
+        `cursor-interaction flex min-h-10 items-center gap-2 rounded-md bg-token-bg-secondary px-2.5 py-2 text-left`,
+        `hover:bg-token-list-hover-background`,
+        `focus-visible:outline focus-visible:outline-2 focus-visible:outline-token-border-xstrong`,
+        `w-full`,
+      )),
+      (t[0] = o))
+    : (o = t[0]);
+  let s;
+  t[1] === n
+    ? (s = t[2])
+    : ((s = (0, Z.jsx)(`span`, {
+        className: `icon-xs flex shrink-0 items-center justify-center text-token-text-secondary`,
+        children: n,
+      })),
+      (t[1] = n),
+      (t[2] = s));
+  let c;
+  t[3] === a
+    ? (c = t[4])
+    : ((c = (0, Z.jsx)(`span`, {
+        className: `min-w-0 flex-1 truncate text-sm font-normal text-token-text-primary`,
+        children: a,
+      })),
+      (t[3] = a),
+      (t[4] = c));
+  let l;
+  t[5] === r
+    ? (l = t[6])
+    : ((l = r
+        ? (0, Z.jsx)(`span`, {
+            className: `ml-auto shrink-0 pl-2 text-token-text-secondary`,
+            children: (0, Z.jsx)(Te, { keysLabel: r }),
+          })
+        : null),
+      (t[5] = r),
+      (t[6] = l));
+  let u;
+  return (
+    t[7] !== i || t[8] !== s || t[9] !== c || t[10] !== l
+      ? ((u = (0, Z.jsxs)(H.button, {
+          type: `button`,
+          className: o,
+          variants: yr,
+          onClick: i,
+          children: [s, c, l],
+        })),
+        (t[7] = i),
+        (t[8] = s),
+        (t[9] = c),
+        (t[10] = l),
+        (t[11] = u))
+      : (u = t[11]),
+    u
+  );
+}
+function mr(e) {
+  let t = (0, X.c)(9),
+    { artifacts: n, onOpen: r } = e,
+    [i, a] = (0, gr.useState)(null),
+    o;
+  if (t[0] !== i || t[1] !== n || t[2] !== r) {
+    let e;
+    (t[4] !== i || t[5] !== r
+      ? ((e = (e, t) =>
+          (0, Z.jsx)(
+            hr,
+            {
+              hideDivider: i === t || i === t + 1,
+              artifact: e,
+              onOpen: r,
+              onActiveChange: (e) => a(e ? t : null),
+            },
+            jn(e),
+          )),
+        (t[4] = i),
+        (t[5] = r),
+        (t[6] = e))
+      : (e = t[6]),
+      (o = n.map(e)),
+      (t[0] = i),
+      (t[1] = n),
+      (t[2] = r),
+      (t[3] = o));
+  } else o = t[3];
+  let s;
+  return (
+    t[7] === o
+      ? (s = t[8])
+      : ((s = (0, Z.jsx)(`ul`, {
+          className: `mx-auto flex w-full max-w-xl flex-col px-panel`,
+          children: o,
+        })),
+        (t[7] = o),
+        (t[8] = s)),
+    s
+  );
+}
+function hr(e) {
+  let t = (0, X.c)(33),
+    { artifact: n, hideDivider: r, onActiveChange: i, onOpen: a } = e,
+    o = r && `after:hidden`,
+    s;
+  t[0] === o
+    ? (s = t[1])
+    : ((s = je(
+        `relative flex w-full after:absolute after:inset-x-3 after:bottom-0 after:h-px after:bg-token-border-light after:content-[''] last:after:hidden`,
+        o,
+      )),
+      (t[0] = o),
+      (t[1] = s));
+  let c;
+  t[2] === n ? (c = t[3]) : ((c = Nn(n)), (t[2] = n), (t[3] = c));
+  let l;
+  t[4] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((l = je(
+        `cursor-interaction relative min-h-10 w-full rounded-md px-2.5 py-2 text-left`,
+        `hover:bg-token-list-hover-background`,
+        `focus-visible:outline focus-visible:outline-2 focus-visible:outline-token-border-xstrong`,
+      )),
+      (t[4] = l))
+    : (l = t[4]);
+  let u, d, f, p;
+  t[5] === i
+    ? ((u = t[6]), (d = t[7]), (f = t[8]), (p = t[9]))
+    : ((u = () => i(!1)),
+      (d = () => i(!0)),
+      (f = () => i(!0)),
+      (p = () => i(!1)),
+      (t[5] = i),
+      (t[6] = u),
+      (t[7] = d),
+      (t[8] = f),
+      (t[9] = p));
+  let m;
+  t[10] !== n || t[11] !== a
+    ? ((m = (e) => a(n, e)), (t[10] = n), (t[11] = a), (t[12] = m))
+    : (m = t[12]);
+  let h;
+  t[13] === n
+    ? (h = t[14])
+    : ((h = (0, Z.jsx)(`span`, {
+        className: `icon-xs flex shrink-0 items-center justify-center text-token-text-secondary`,
+        children: (0, Z.jsx)(In, {
+          artifact: n,
+          iconClassName: `icon-xs`,
+          imageClassName: `size-full rounded`,
+        }),
+      })),
+      (t[13] = n),
+      (t[14] = h));
+  let g;
+  t[15] === n ? (g = t[16]) : ((g = Mn(n)), (t[15] = n), (t[16] = g));
+  let _;
+  t[17] === g
+    ? (_ = t[18])
+    : ((_ = (0, Z.jsx)(`span`, {
+        className: `min-w-0 flex-1 truncate text-sm font-normal text-token-text-primary`,
+        children: g,
+      })),
+      (t[17] = g),
+      (t[18] = _));
+  let v;
+  t[19] !== h || t[20] !== _
+    ? ((v = (0, Z.jsxs)(`span`, {
+        className: `flex min-w-0 items-center gap-2`,
+        children: [h, _],
+      })),
+      (t[19] = h),
+      (t[20] = _),
+      (t[21] = v))
+    : (v = t[21]);
+  let y;
+  t[22] !== v ||
+  t[23] !== c ||
+  t[24] !== u ||
+  t[25] !== d ||
+  t[26] !== f ||
+  t[27] !== p ||
+  t[28] !== m
+    ? ((y = (0, Z.jsx)(`button`, {
+        type: `button`,
+        title: c,
+        className: l,
+        onBlur: u,
+        onFocus: d,
+        onMouseEnter: f,
+        onMouseLeave: p,
+        onClick: m,
+        children: v,
+      })),
+      (t[22] = v),
+      (t[23] = c),
+      (t[24] = u),
+      (t[25] = d),
+      (t[26] = f),
+      (t[27] = p),
+      (t[28] = m),
+      (t[29] = y))
+    : (y = t[29]);
+  let b;
+  return (
+    t[30] !== y || t[31] !== s
+      ? ((b = (0, Z.jsx)(`li`, { className: s, children: y })),
+        (t[30] = y),
+        (t[31] = s),
+        (t[32] = b))
+      : (b = t[32]),
+    b
+  );
+}
+var X,
+  gr,
+  Z,
+  _r,
+  vr,
+  yr,
+  br = e(() => {
+    ((X = A()),
+      R(),
+      ye(),
+      oe(),
+      (gr = t(Ie(), 1)),
+      v(),
+      w(),
+      he(),
+      on(),
+      Ct(),
+      P(),
+      ae(),
+      Fn(),
+      zn(),
+      An(),
+      (Z = V()),
+      (_r = {
+        closed: {
+          opacity: 0,
+          y: -8,
+          transition: { duration: 0.06, ease: B.ease, when: `afterChildren` },
+        },
+        open: {
+          opacity: 1,
+          y: 0,
+          transition: { duration: 0.09, ease: B.ease, when: `beforeChildren` },
+        },
+      }),
+      (vr = {
+        closed: { transition: { staggerChildren: 0.008, staggerDirection: -1 } },
+        open: { transition: { delayChildren: 0.012, staggerChildren: 0.016 } },
+      }),
+      (yr = {
+        closed: { opacity: 0, y: -6, transition: { duration: 0.045, ease: B.ease } },
+        open: { opacity: 1, y: 0, transition: { duration: 0.075, ease: B.ease } },
+      }));
+  });
+function xr(e) {
+  let t = (0, Q.c)(26),
+    n = L(u),
+    r = p(qe),
+    i = p(Ke),
+    a = p(lt),
+    o = p(dt.activeTab$),
+    s = U(),
+    c = p(It),
+    l = p(At) === `ready`,
+    d = W(G, `toggleSidePanel`),
+    f = `thread-${e.threadType}`,
+    m = l && e.threadType === `remote` ? e.showReviewTab : l && r.kind === `git`,
+    h = (0, kr.useRef)(null),
+    g,
+    _;
+  (t[0] !== o || t[1] !== c || t[2] !== n
+    ? ((g = () => {
+        let e = o?.tabId ?? null;
+        if (!c) {
+          h.current = e;
+          return;
+        }
+        h.current !== e && ((h.current = e), Qe(n, o));
+      }),
+      (_ = [o, c, n]),
+      (t[0] = o),
+      (t[1] = c),
+      (t[2] = n),
+      (t[3] = g),
+      (t[4] = _))
+    : ((g = t[3]), (_ = t[4])),
+    (0, kr.useEffect)(g, _));
+  let v;
+  t[5] === n ? (v = t[6]) : ((v = () => ft(n)), (t[5] = n), (t[6] = v));
+  let y;
+  (t[7] === m ? (y = t[8]) : ((y = { enabled: m }), (t[7] = m), (t[8] = y)),
+    M(`openReviewTab`, v, y));
+  let b, x;
+  (t[9] !== a.id || t[10] !== l || t[11] !== e.threadType || t[12] !== n || t[13] !== i
+    ? ((b = () => {
+        !l ||
+          e.threadType === `remote` ||
+          i == null ||
+          Je(n, null, { hostId: a.id, workspaceRoot: i });
+      }),
+      (x = [a.id, l, e.threadType, n, i]),
+      (t[9] = a.id),
+      (t[10] = l),
+      (t[11] = e.threadType),
+      (t[12] = n),
+      (t[13] = i),
+      (t[14] = b),
+      (t[15] = x))
+    : ((b = t[14]), (x = t[15])),
+    ne(`toggle-file-tree-panel`, b, x));
+  let S;
+  return (
+    t[16] !== f ||
+    t[17] !== s ||
+    t[18] !== l ||
+    t[19] !== c ||
+    t[20] !== e.conversationId ||
+    t[21] !== e.showReviewTab ||
+    t[22] !== e.threadType ||
+    t[23] !== n ||
+    t[24] !== d
+      ? ((S = (0, $.jsx)($.Fragment, {
+          children:
+            e.threadType === `remote`
+              ? (0, $.jsxs)($.Fragment, {
+                  children: [
+                    (0, $.jsx)(Cr, { actionIdPrefix: f }),
+                    (0, $.jsx)(Sr, {}),
+                    (0, $.jsx)(K.HeaderAction, {
+                      actionId: `${f}-panel-toggles`,
+                      align: `end`,
+                      order: 300,
+                      slotPosition: `right`,
+                      children: (0, $.jsx)(Un, {
+                        label: s.formatMessage(jr.toggleSidePanel),
+                        disabled: !e.showReviewTab,
+                        pressed: c,
+                        shortcut: d,
+                        onClick: () => Re(n),
+                        children: c
+                          ? (0, $.jsx)(Ye, { className: `icon-sm rotate-180` })
+                          : (0, $.jsx)(Ve, { className: `icon-sm rotate-180` }),
+                      }),
+                    }),
+                  ],
+                })
+              : (0, $.jsxs)($.Fragment, {
+                  children: [
+                    l && e.threadType === `local` && e.conversationId != null
+                      ? (0, $.jsx)(ir, { conversationId: e.conversationId })
+                      : null,
+                    (0, $.jsx)(Cr, { actionIdPrefix: f }),
+                    (0, $.jsx)(Er, { conversationId: e.conversationId }),
+                  ],
+                }),
+        })),
+        (t[16] = f),
+        (t[17] = s),
+        (t[18] = l),
+        (t[19] = c),
+        (t[20] = e.conversationId),
+        (t[21] = e.showReviewTab),
+        (t[22] = e.threadType),
+        (t[23] = n),
+        (t[24] = d),
+        (t[25] = S))
+      : (S = t[25]),
+    S
+  );
+}
+function Sr() {
+  let e = (0, Q.c)(7),
+    t = L(u),
+    n;
+  e[0] === t ? (n = e[1]) : ((n = fe(t)), (e[0] = t), (e[1] = n));
+  let r = n,
+    i;
+  e[2] === r
+    ? (i = e[3])
+    : ((i = (0, $.jsx)(Dr, { browserConversationId: r })), (e[2] = r), (e[3] = i));
+  let a;
+  e[4] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((a = (0, $.jsx)(K.RightPanelOutlet, { children: (0, $.jsx)(K.RightPanelTabs, {}) })),
+      (e[4] = a))
+    : (a = e[4]);
+  let o;
+  return (
+    e[5] === i
+      ? (o = e[6])
+      : ((o = (0, $.jsxs)($.Fragment, { children: [i, a] })), (e[5] = i), (e[6] = o)),
+    o
+  );
+}
+function Cr(e) {
+  let t = (0, Q.c)(41),
+    { actionIdPrefix: n } = e,
+    r = L(u),
+    i = U(),
+    a = p(_t),
+    o = p(yt) !== !1,
+    s = p(nt),
+    c = W(G, `toggleBottomPanel`),
+    l = p(Ft.tabs$).length,
+    d = p(At) === `ready`,
+    f;
+  t[0] !== d || t[1] !== r ? ((f = d && vt(r)), (t[0] = d), (t[1] = r), (t[2] = f)) : (f = t[2]);
+  let m = f,
+    h;
+  t[3] !== l || t[4] !== m || t[5] !== o || t[6] !== a || t[7] !== r
+    ? ((h = () => {
+        if (o) {
+          if (a) {
+            wt(r, `bottom`);
+            return;
+          }
+          if (l === 0 && m) {
+            (qt(r), Or());
+            return;
+          }
+          jt(r, `bottom`, { activateFallbackTab: !0, allowEmpty: !0 }) && r.get(Gt) && Or();
+        }
+      }),
+      (t[3] = l),
+      (t[4] = m),
+      (t[5] = o),
+      (t[6] = a),
+      (t[7] = r),
+      (t[8] = h))
+    : (h = t[8]);
+  let g = h;
+  ne(`toggle-bottom-panel`, g);
+  let _;
+  (t[9] !== m || t[10] !== r || t[11] !== s
+    ? ((_ = () => {
+        m && Lt(r, void 0, s);
+      }),
+      (t[9] = m),
+      (t[10] = r),
+      (t[11] = s),
+      (t[12] = _))
+    : (_ = t[12]),
+    ne(`toggle-terminal`, _),
+    M(`toggleBottomPanel`, g));
+  let v;
+  (t[13] !== m || t[14] !== r || t[15] !== s
+    ? ((v = () => {
+        m && Lt(r, void 0, s);
+      }),
+      (t[13] = m),
+      (t[14] = r),
+      (t[15] = s),
+      (t[16] = v))
+    : (v = t[16]),
+    M(`toggleTerminal`, v));
+  let y;
+  t[17] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((y = (0, $.jsx)(Tr, {})), (t[17] = y))
+    : (y = t[17]);
+  let b;
+  t[18] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((b = (0, $.jsx)(K.BottomPanelOutlet, { children: (0, $.jsx)(K.BottomPanelTabs, {}) })),
+      (t[18] = b))
+    : (b = t[18]);
+  let x;
+  t[19] !== i || t[20] !== d
+    ? ((x = d
+        ? (0, $.jsx)(K.BottomPanelTabListAfterSticky, {
+            children: (0, $.jsx)(wr, {
+              target: `bottom`,
+              title: i.formatMessage({
+                id: `thread.bottomPanel.openTab`,
+                defaultMessage: `Open bottom panel tab`,
+                description: `Button label for opening another tab from the thread bottom panel`,
+              }),
+            }),
+          })
+        : null),
+      (t[19] = i),
+      (t[20] = d),
+      (t[21] = x))
+    : (x = t[21]);
+  let S;
+  t[22] === i
+    ? (S = t[23])
+    : ((S = i.formatMessage({
+        id: `thread.bottomPanel.close`,
+        defaultMessage: `Close`,
+        description: `Button label for closing the thread bottom panel`,
+      })),
+      (t[22] = i),
+      (t[23] = S));
+  let C;
+  t[24] === r ? (C = t[25]) : ((C = () => wt(r, `bottom`)), (t[24] = r), (t[25] = C));
+  let w;
+  t[26] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((w = (0, $.jsx)(N, { className: `icon-xs` })), (t[26] = w))
+    : (w = t[26]);
+  let T;
+  t[27] !== S || t[28] !== C
+    ? ((T = (0, $.jsx)(K.BottomPanelTabListAfter, {
+        children: (0, $.jsx)(de, {
+          color: `ghost`,
+          size: `toolbar`,
+          uniform: !0,
+          title: S,
+          onClick: C,
+          children: w,
+        }),
+      })),
+      (t[27] = S),
+      (t[28] = C),
+      (t[29] = T))
+    : (T = t[29]);
+  let E;
+  t[30] !== n || t[31] !== i || t[32] !== o || t[33] !== a || t[34] !== g || t[35] !== c
+    ? ((E = o
+        ? (0, $.jsx)(K.HeaderAction, {
+            actionId: `${n}-bottom-panel-toggle`,
+            align: `end`,
+            order: 200,
+            slotPosition: `right`,
+            children: (0, $.jsx)(Un, {
+              label: i.formatMessage({
+                id: `threadPage.toggleBottomPanel`,
+                defaultMessage: `Toggle bottom panel`,
+                description: `Toggles the bottom panel visibility`,
+              }),
+              pressed: a,
+              shortcut: c,
+              onClick: g,
+              children: a
+                ? (0, $.jsx)(wn, { className: `icon-sm` })
+                : (0, $.jsx)(xn, { className: `icon-sm` }),
+            }),
+          })
+        : null),
+      (t[30] = n),
+      (t[31] = i),
+      (t[32] = o),
+      (t[33] = a),
+      (t[34] = g),
+      (t[35] = c),
+      (t[36] = E))
+    : (E = t[36]);
+  let D;
+  return (
+    t[37] !== T || t[38] !== E || t[39] !== x
+      ? ((D = (0, $.jsxs)($.Fragment, { children: [y, b, x, T, E] })),
+        (t[37] = T),
+        (t[38] = E),
+        (t[39] = x),
+        (t[40] = D))
+      : (D = t[40]),
+    D
+  );
+}
+function wr(e) {
+  let t = (0, Q.c)(17),
+    { target: n, title: r } = e,
+    i;
+  t[0] === n ? (i = t[1]) : ((i = { target: n }), (t[0] = n), (t[1] = i));
+  let { actions: a, hasOutputArtifacts: o, onOpenArtifact: s, outputArtifacts: c } = Dn(i),
+    l;
+  t[2] === n ? (l = t[3]) : ((l = Ot(n)), (t[2] = n), (t[3] = l));
+  let u = p(l.tabs$).length,
+    d = (0, kr.useRef)(null);
+  if (n === `right` && u === 0) return null;
+  let f;
+  t[4] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((f = (e) => {
+        let t = d.current;
+        t != null && ((d.current = null), e.preventDefault(), t());
+      }),
+      (t[4] = f))
+    : (f = t[4]);
+  let h;
+  t[5] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((h = (0, $.jsx)(m, { className: `icon-xs` })), (t[5] = h))
+    : (h = t[5]);
+  let g;
+  t[6] === r
+    ? (g = t[7])
+    : ((g = (0, $.jsx)(de, {
+        className: `data-[state=open]:!bg-token-foreground/5 data-[state=open]:!text-token-foreground`,
+        color: `ghost`,
+        size: `toolbar`,
+        title: r,
+        uniform: !0,
+        children: h,
+      })),
+      (t[6] = r),
+      (t[7] = g));
+  let _;
+  t[8] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((_ = (e) => {
+        if (e.deferSelectionUntilDropdownClose === !0) {
+          d.current = e.onSelect;
+          return;
+        }
+        e.onSelect();
+      }),
+      (t[8] = _))
+    : (_ = t[8]);
+  let v;
+  t[9] !== a || t[10] !== o || t[11] !== s || t[12] !== c
+    ? ((v = (0, $.jsx)(Bn, {
+        actions: a,
+        hasOutputArtifacts: o,
+        onActionSelect: _,
+        onOpenArtifact: s,
+        outputArtifacts: c,
+      })),
+      (t[9] = a),
+      (t[10] = o),
+      (t[11] = s),
+      (t[12] = c),
+      (t[13] = v))
+    : (v = t[13]);
+  let y;
+  return (
+    t[14] !== g || t[15] !== v
+      ? ((y = (0, $.jsx)(z, {
+          align: `start`,
+          contentWidth: `panel`,
+          onCloseAutoFocus: f,
+          triggerButton: g,
+          children: v,
+        })),
+        (t[14] = g),
+        (t[15] = v),
+        (t[16] = y))
+      : (y = t[16]),
+    y
+  );
+}
+function Tr() {
+  let e = (0, Q.c)(7),
+    t = L(y),
+    n = p(yt) !== !1,
+    r;
+  e[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((r = o({
+        id: `appShell.header.bottomPanel`,
+        defaultMessage: `Bottom panel`,
+        description: `Header context menu checkbox that toggles the bottom panel launcher button`,
+      })),
+      (e[0] = r))
+    : (r = e[0]);
+  let i;
+  e[1] !== n || e[2] !== t
+    ? ((i = () => {
+        zt(t, !n);
+      }),
+      (e[1] = n),
+      (e[2] = t),
+      (e[3] = i))
+    : (i = e[3]);
+  let a;
+  return (
+    e[4] !== n || e[5] !== i
+      ? ((a = (0, $.jsx)(K.HeaderContextMenuItem, {
+          checked: n,
+          id: `toggle-bottom-panel-launcher`,
+          message: r,
+          type: `checkbox`,
+          onSelect: i,
+        })),
+        (e[4] = n),
+        (e[5] = i),
+        (e[6] = a))
+      : (a = e[6]),
+    a
+  );
+}
+function Er(e) {
+  let t = (0, Q.c)(28),
+    n = L(u),
+    r;
+  t[0] === n ? (r = t[1]) : ((r = fe(n)), (t[0] = n), (t[1] = r));
+  let i = r,
+    a = U(),
+    o = p(It),
+    s = p(At) === `ready`,
+    c = W(G, `toggleSidePanel`),
+    l;
+  t[2] === i
+    ? (l = t[3])
+    : ((l = (0, $.jsx)(Dr, { browserConversationId: i })), (t[2] = i), (t[3] = l));
+  let d;
+  t[4] === s ? (d = t[5]) : ((d = null), (t[4] = s), (t[5] = d));
+  let f;
+  t[6] === Symbol.for(`react.memo_cache_sentinel`) ? ((f = null), (t[6] = f)) : (f = t[6]);
+  let m;
+  t[7] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((m = (0, $.jsx)(K.RightPanelOutlet, { children: (0, $.jsx)(K.RightPanelTabs, {}) })),
+      (t[7] = m))
+    : (m = t[7]);
+  let h;
+  t[8] !== a || t[9] !== s
+    ? ((h = s
+        ? (0, $.jsxs)($.Fragment, {
+            children: [
+              (0, $.jsx)(K.RightPanelTabsEmptyState, { children: (0, $.jsx)(cr, {}) }),
+              (0, $.jsx)(K.RightPanelTabListAfterSticky, {
+                children: (0, $.jsx)(wr, {
+                  target: `right`,
+                  title: a.formatMessage({
+                    id: `thread.sidePanel.openTab`,
+                    defaultMessage: `Open side panel tab`,
+                    description: `Button label for opening another tab from the thread side panel`,
+                  }),
+                }),
+              }),
+            ],
+          })
+        : null),
+      (t[8] = a),
+      (t[9] = s),
+      (t[10] = h))
+    : (h = t[10]);
+  let g;
+  t[11] === a ? (g = t[12]) : ((g = a.formatMessage(jr.toggleSidePanel)), (t[11] = a), (t[12] = g));
+  let _;
+  t[13] === n ? (_ = t[14]) : ((_ = () => Re(n)), (t[13] = n), (t[14] = _));
+  let v;
+  t[15] === o
+    ? (v = t[16])
+    : ((v = o
+        ? (0, $.jsx)(Ye, { className: `icon-sm rotate-180` })
+        : (0, $.jsx)(Ve, { className: `icon-sm rotate-180` })),
+      (t[15] = o),
+      (t[16] = v));
+  let y;
+  t[17] !== o || t[18] !== g || t[19] !== _ || t[20] !== v || t[21] !== c
+    ? ((y = (0, $.jsx)(K.HeaderAction, {
+        actionId: `thread-side-panel-close`,
+        align: `end`,
+        slotPosition: `right`,
+        order: 300,
+        children: (0, $.jsx)(Un, { label: g, pressed: o, shortcut: c, onClick: _, children: v }),
+      })),
+      (t[17] = o),
+      (t[18] = g),
+      (t[19] = _),
+      (t[20] = v),
+      (t[21] = c),
+      (t[22] = y))
+    : (y = t[22]);
+  let b;
+  return (
+    t[23] !== y || t[24] !== l || t[25] !== d || t[26] !== h
+      ? ((b = (0, $.jsxs)($.Fragment, { children: [l, d, f, m, h, y] })),
+        (t[23] = y),
+        (t[24] = l),
+        (t[25] = d),
+        (t[26] = h),
+        (t[27] = b))
+      : (b = t[27]),
+    b
+  );
+}
+function Dr(e) {
+  let t = (0, Q.c)(9),
+    { browserConversationId: n } = e,
+    r = p(Ft.tabs$),
+    i = U(),
+    a = p(dt.tabs$);
+  if (n == null) return null;
+  let o;
+  t[0] === i
+    ? (o = t[1])
+    : ((o = i.formatMessage({
+        id: `thread.sidePanel.emptyBrowserTab`,
+        defaultMessage: `New tab`,
+        description: `Title for an empty browser tab in the thread side panel`,
+      })),
+      (t[0] = i),
+      (t[1] = o));
+  let s = o,
+    c;
+  if (t[2] !== r || t[3] !== n || t[4] !== s || t[5] !== a) {
+    let e = { bottom: r, right: a };
+    ((c = bt.flatMap((t) =>
+      e[t].map((e) => {
+        let r = Oe(e, n);
+        return r == null
+          ? null
+          : (0, $.jsx)(
+              Rt,
+              {
+                browserTabId: r,
+                browserConversationId: n,
+                browserTabFallbackTitle: s,
+                existingTabTitle: e.title,
+                target: t,
+              },
+              `${t}:${e.tabId}`,
+            );
+      }),
+    )),
+      (t[2] = r),
+      (t[3] = n),
+      (t[4] = s),
+      (t[5] = a),
+      (t[6] = c));
+  } else c = t[6];
+  let l;
+  return (
+    t[7] === c
+      ? (l = t[8])
+      : ((l = (0, $.jsx)($.Fragment, { children: c })), (t[7] = c), (t[8] = l)),
+    l
+  );
+}
+function Or() {
+  requestAnimationFrame(() => {
+    let e = document.querySelector(Ar);
+    e != null && gt(e);
+  });
+}
+var Q,
+  kr,
+  $,
+  Ar,
+  jr,
+  Mr = e(() => {
+    ((Q = A()),
+      oe(),
+      (kr = t(Ie(), 1)),
+      v(),
+      ot(),
+      w(),
+      et(),
+      Kt(),
+      ze(),
+      be(),
+      ie(),
+      Tt(),
+      Sn(),
+      Tn(),
+      f(),
+      Ue(),
+      Ze(),
+      c(),
+      Se(),
+      He(),
+      We(),
+      S(),
+      d(),
+      Dt(),
+      ut(),
+      Ne(),
+      ct(),
+      xt(),
+      An(),
+      Hn(),
+      Kn(),
+      sr(),
+      br(),
+      rt(),
+      Bt(),
+      Et(),
+      ($ = V()),
+      (Ar = `[role="tabpanel"][data-app-shell-tab-panel-controller="bottom"]`),
+      (jr = ee({
+        toggleSidePanel: {
+          id: `thread.sidePanel.toggle`,
+          defaultMessage: `Toggle side panel`,
+          description: `Toggles the thread side panel in a local or new thread`,
+        },
+      })));
+  });
+export { Mr as n, En as r, xr as t };
+//# sourceMappingURL=thread-app-shell-chrome-2.js.map

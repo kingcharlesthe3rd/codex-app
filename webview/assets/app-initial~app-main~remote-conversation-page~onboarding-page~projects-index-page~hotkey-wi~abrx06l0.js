@@ -1,0 +1,89 @@
+import { n as e, s as t } from "./rolldown-runtime.js";
+import {
+  GP as n,
+  HP as r,
+  jV as i,
+  zV as a,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~plug~kmtatxxf.js";
+function o(e) {
+  if (e == null) return 0;
+  switch (e.phase) {
+    case `checking`:
+      return 0;
+    case `downloading`:
+      return e.downloadedBytes == null || e.totalBytes == null
+        ? 0
+        : Math.floor(Math.min((e.downloadedBytes / e.totalBytes) * 100, 100));
+    case `verifying`:
+    case `extracting`:
+      return 98;
+    case `validating`:
+    case `installed`:
+    case `configuring`:
+    case `ready`:
+      return 100;
+    case `error`:
+      return 0;
+  }
+}
+function s(e, t) {
+  switch (e?.phase) {
+    case void 0:
+    case `checking`:
+    case `downloading`:
+    case `error`:
+      return (0, c.jsx)(n, {
+        id: `localConversation.primaryRuntimeInstallStatus.downloading`,
+        defaultMessage: `Setting up your workspace: {percent}%`,
+        description: `Thread status shown while Codex downloads required local runtime tools before starting a response`,
+        values: { percent: t },
+      });
+    case `extracting`:
+      return (0, c.jsx)(n, {
+        id: `localConversation.primaryRuntimeInstallStatus.extracting`,
+        defaultMessage: `Preparing your workspace`,
+        description: `Thread status shown while Codex extracts required local runtime tools before starting a response`,
+      });
+    case `verifying`:
+    case `validating`:
+    case `installed`:
+    case `configuring`:
+    case `ready`:
+      return (0, c.jsx)(n, {
+        id: `localConversation.primaryRuntimeInstallStatus.finalizing`,
+        defaultMessage: `Finalizing your workspace`,
+        description: `Thread status shown while Codex finalizes required local runtime tools before starting a response`,
+      });
+  }
+}
+var c,
+  l = e(() => {
+    (r(), (c = i()));
+  }),
+  u,
+  d,
+  f = e(() => {
+    (t(a()),
+      (u = i()),
+      (d = (e) =>
+        (0, u.jsxs)(`svg`, {
+          xmlns: `http://www.w3.org/2000/svg`,
+          width: 16,
+          height: 16,
+          fill: `currentColor`,
+          viewBox: `0 0 16 16`,
+          ...e,
+          children: [
+            (0, u.jsx)(`path`, {
+              d: `M8 9.8a.767.767 0 1 1 0 1.533A.767.767 0 0 1 8 9.8Zm0-5.134c.368 0 .667.299.667.667V8a.667.667 0 0 1-1.334 0V5.333c0-.368.299-.667.667-.667Z`,
+            }),
+            (0, u.jsx)(`path`, {
+              fillRule: `evenodd`,
+              d: `M8 1.333a6.667 6.667 0 1 1 0 13.334A6.667 6.667 0 0 1 8 1.333Zm0 1.334a5.333 5.333 0 1 0 0 10.666A5.333 5.333 0 0 0 8 2.667Z`,
+              clipRule: `evenodd`,
+            }),
+          ],
+        })));
+  });
+export { l as a, s as i, f as n, o as r, d as t };
+//# sourceMappingURL=app-initial~app-main~remote-conversation-page~onboarding-page~projects-index-page~hotkey-wi~abrx06l0.js.map

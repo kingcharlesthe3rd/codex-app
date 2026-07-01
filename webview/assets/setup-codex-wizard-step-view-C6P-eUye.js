@@ -1,2 +1,42 @@
-import{n as e,s as t}from"./rolldown-runtime-Czos8NxU.js";import{IP as n,LP as r,RV as i,TB as a,Tw as o,ab as s,bB as c,eb as l,yE as u,zV as d}from"./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~plug~kmtatxxf-IUI8plS9.js";function f(e,t){let r=(0,p.c)(5),i=t===void 0?!0:t,c=a(n),l=(0,m.useRef)(null),u,d;r[0]!==i||r[1]!==e||r[2]!==c?(u=()=>{!i||l.current===e||(l.current=e,s(c,e,o.CODEX_ONBOARDING_WIZARD_ACTION_VIEWED))},d=[i,e,c],r[0]=i,r[1]=e,r[2]=c,r[3]=u,r[4]=d):(u=r[3],d=r[4]),(0,m.useEffect)(u,d)}var p,m,h=e((()=>{p=i(),u(),c(),m=t(d(),1),l(),r()}));export{f as n,h as t};
+import { n as e, s as t } from "./rolldown-runtime.js";
+import {
+  IP as n,
+  LP as r,
+  RV as i,
+  TB as a,
+  Tw as o,
+  ab as s,
+  bB as c,
+  eb as l,
+  yE as u,
+  zV as d,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~plug~kmtatxxf.js";
+function f(e, t) {
+  let r = (0, p.c)(5),
+    i = t === void 0 ? !0 : t,
+    c = a(n),
+    l = (0, m.useRef)(null),
+    u,
+    d;
+  (r[0] !== i || r[1] !== e || r[2] !== c
+    ? ((u = () => {
+        !i ||
+          l.current === e ||
+          ((l.current = e), s(c, e, o.CODEX_ONBOARDING_WIZARD_ACTION_VIEWED));
+      }),
+      (d = [i, e, c]),
+      (r[0] = i),
+      (r[1] = e),
+      (r[2] = c),
+      (r[3] = u),
+      (r[4] = d))
+    : ((u = r[3]), (d = r[4])),
+    (0, m.useEffect)(u, d));
+}
+var p,
+  m,
+  h = e(() => {
+    ((p = i()), u(), c(), (m = t(d(), 1)), l(), r());
+  });
+export { f as n, h as t };
 //# sourceMappingURL=setup-codex-wizard-step-view-C6P-eUye.js.map

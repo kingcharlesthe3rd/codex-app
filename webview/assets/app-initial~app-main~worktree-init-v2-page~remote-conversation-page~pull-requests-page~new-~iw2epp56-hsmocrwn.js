@@ -1,2 +1,247 @@
-import{n as e,s as t}from"./rolldown-runtime-Czos8NxU.js";import{RV as n,TP as r,fM as i,jV as a,mM as o,rF as s,wP as c,zV as l}from"./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~plug~kmtatxxf-IUI8plS9.js";function u({anchorRef:e,anchorPos:t,composerController:n,gap:r=v,placement:i,portalRoot:a,windowZoom:o}){if(typeof document>`u`)return null;if(n!=null&&t!=null)return d({anchorPos:t,composerController:n,gap:r,placement:i,portalRoot:a,windowZoom:o});let s=e?.current;if(s==null)return null;let c=f({anchorElement:s,portalRoot:a}),l=p(o),u=s.getBoundingClientRect(),h=c===document.body?{height:window.innerHeight,left:0,top:0}:c.getBoundingClientRect(),g=((i===`top`?u.top:u.bottom)-h.top)/l+(i===`top`?-r:r);return{availableHeight:m(g,h.height/l,i),portalContainer:c,left:(u.left-h.left)/l,top:g,width:u.width/l,fixedPosition:c===document.body,renderAbove:i===`top`}}function d({anchorPos:e,composerController:t,gap:n,placement:r,portalRoot:i,windowZoom:a}){let o=t.view.dom,s=f({anchorElement:o,portalRoot:i}),c=p(a),l=s===document.body?{height:window.innerHeight,left:0,top:0,width:window.innerWidth}:s.getBoundingClientRect(),u=t.view.coordsAtPos(e),d=l.width/c,v=Math.max(d-_*2,0),y=Math.min(g,v),b=h((u.left-l.left)/c,_,d-y-_),x=((r===`top`?u.top:u.bottom)-l.top)/c+(r===`top`?-n:n);return{availableHeight:m(x,l.height/c,r),portalContainer:s,left:b,top:x,width:y,fixedPosition:s===document.body,renderAbove:r===`top`}}function f({anchorElement:e,portalRoot:t}){return t===`body`?document.body:e.closest(`.codex-dialog`)??document.body}function p(e){return e>0?e:1}function m(e,t,n){return Math.max((n===`top`?e:t-e)-_,0)}function h(e,t,n){return n<t?t:Math.min(Math.max(e,t),n)}var g,_,v,y=e((()=>{g=360,_=12,v=8}));function b(e){let t=(0,S.c)(35),{anchorRef:n,composerController:r,constrainHeightToViewport:i,gap:a,isActive:s,mentionUiState:l,placement:d,portalRoot:f,zIndexClassName:p,children:m}=e,h=i===void 0?!1:i,g=f===void 0?`dialog`:f,_=p===void 0?`z-[60]`:p,v=o(),y;t[0]===s?y=t[1]:(y=e=>!s||typeof window>`u`?x:(window.addEventListener(`resize`,e),window.addEventListener(`scroll`,e,!0),()=>{window.removeEventListener(`resize`,e),window.removeEventListener(`scroll`,e,!0)}),t[0]=s,t[1]=y);let b=y,E;t[2]!==n||t[3]!==r||t[4]!==a||t[5]!==l?.anchorPos||t[6]!==d||t[7]!==g||t[8]!==v?(E=()=>{let e=u({anchorRef:n,anchorPos:l?.anchorPos,composerController:r,gap:a,placement:d,portalRoot:g,windowZoom:v});return e==null?null:`${e.availableHeight}:${e.fixedPosition}:${e.left}:${e.top}:${e.width}:${d}`},t[2]=n,t[3]=r,t[4]=a,t[5]=l?.anchorPos,t[6]=d,t[7]=g,t[8]=v,t[9]=E):E=t[9];let D=(0,C.useSyncExternalStore)(b,E),O;bb0:{if(D==null){O=null;break bb0}let e=l?.anchorPos,i;t[10]!==n||t[11]!==r||t[12]!==a||t[13]!==d||t[14]!==g||t[15]!==e||t[16]!==v?(i=u({anchorRef:n,anchorPos:e,composerController:r,gap:a,placement:d,portalRoot:g,windowZoom:v}),t[10]=n,t[11]=r,t[12]=a,t[13]=d,t[14]=g,t[15]=e,t[16]=v,t[17]=i):i=t[17],O=i}let k=O;if(!s||k==null)return null;let A=k.fixedPosition?`fixed`:`absolute`,j=k.fixedPosition&&`[zoom:var(--codex-window-zoom)]`,M=k.renderAbove&&`-translate-y-full`,N;t[18]!==A||t[19]!==j||t[20]!==M||t[21]!==_?(N=c(_,A,j,M),t[18]=A,t[19]=j,t[20]=M,t[21]=_,t[22]=N):N=t[22];let P=h?k.availableHeight:void 0,F;t[23]!==k.left||t[24]!==k.top||t[25]!==k.width||t[26]!==P?(F={left:k.left,maxHeight:P,top:k.top,width:k.width},t[23]=k.left,t[24]=k.top,t[25]=k.width,t[26]=P,t[27]=F):F=t[27];let I;t[28]!==m||t[29]!==N||t[30]!==F?(I=(0,T.jsx)(`div`,{className:N,style:F,children:m}),t[28]=m,t[29]=N,t[30]=F,t[31]=I):I=t[31];let L;return t[32]!==k.portalContainer||t[33]!==I?(L=(0,w.createPortal)(I,k.portalContainer),t[32]=k.portalContainer,t[33]=I,t[34]=L):L=t[34],L}function x(){}var S,C,w,T,E=e((()=>{S=n(),r(),C=t(l(),1),w=t(s(),1),i(),y(),T=a()}));export{y as i,E as n,u as r,b as t};
+import { n as e, s as t } from "./rolldown-runtime.js";
+import {
+  RV as n,
+  TP as r,
+  fM as i,
+  jV as a,
+  mM as o,
+  rF as s,
+  wP as c,
+  zV as l,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~plug~kmtatxxf.js";
+function u({
+  anchorRef: e,
+  anchorPos: t,
+  composerController: n,
+  gap: r = v,
+  placement: i,
+  portalRoot: a,
+  windowZoom: o,
+}) {
+  if (typeof document > `u`) return null;
+  if (n != null && t != null)
+    return d({
+      anchorPos: t,
+      composerController: n,
+      gap: r,
+      placement: i,
+      portalRoot: a,
+      windowZoom: o,
+    });
+  let s = e?.current;
+  if (s == null) return null;
+  let c = f({ anchorElement: s, portalRoot: a }),
+    l = p(o),
+    u = s.getBoundingClientRect(),
+    h =
+      c === document.body
+        ? { height: window.innerHeight, left: 0, top: 0 }
+        : c.getBoundingClientRect(),
+    g = ((i === `top` ? u.top : u.bottom) - h.top) / l + (i === `top` ? -r : r);
+  return {
+    availableHeight: m(g, h.height / l, i),
+    portalContainer: c,
+    left: (u.left - h.left) / l,
+    top: g,
+    width: u.width / l,
+    fixedPosition: c === document.body,
+    renderAbove: i === `top`,
+  };
+}
+function d({
+  anchorPos: e,
+  composerController: t,
+  gap: n,
+  placement: r,
+  portalRoot: i,
+  windowZoom: a,
+}) {
+  let o = t.view.dom,
+    s = f({ anchorElement: o, portalRoot: i }),
+    c = p(a),
+    l =
+      s === document.body
+        ? { height: window.innerHeight, left: 0, top: 0, width: window.innerWidth }
+        : s.getBoundingClientRect(),
+    u = t.view.coordsAtPos(e),
+    d = l.width / c,
+    v = Math.max(d - _ * 2, 0),
+    y = Math.min(g, v),
+    b = h((u.left - l.left) / c, _, d - y - _),
+    x = ((r === `top` ? u.top : u.bottom) - l.top) / c + (r === `top` ? -n : n);
+  return {
+    availableHeight: m(x, l.height / c, r),
+    portalContainer: s,
+    left: b,
+    top: x,
+    width: y,
+    fixedPosition: s === document.body,
+    renderAbove: r === `top`,
+  };
+}
+function f({ anchorElement: e, portalRoot: t }) {
+  return t === `body` ? document.body : (e.closest(`.codex-dialog`) ?? document.body);
+}
+function p(e) {
+  return e > 0 ? e : 1;
+}
+function m(e, t, n) {
+  return Math.max((n === `top` ? e : t - e) - _, 0);
+}
+function h(e, t, n) {
+  return n < t ? t : Math.min(Math.max(e, t), n);
+}
+var g,
+  _,
+  v,
+  y = e(() => {
+    ((g = 360), (_ = 12), (v = 8));
+  });
+function b(e) {
+  let t = (0, S.c)(35),
+    {
+      anchorRef: n,
+      composerController: r,
+      constrainHeightToViewport: i,
+      gap: a,
+      isActive: s,
+      mentionUiState: l,
+      placement: d,
+      portalRoot: f,
+      zIndexClassName: p,
+      children: m,
+    } = e,
+    h = i === void 0 ? !1 : i,
+    g = f === void 0 ? `dialog` : f,
+    _ = p === void 0 ? `z-[60]` : p,
+    v = o(),
+    y;
+  t[0] === s
+    ? (y = t[1])
+    : ((y = (e) =>
+        !s || typeof window > `u`
+          ? x
+          : (window.addEventListener(`resize`, e),
+            window.addEventListener(`scroll`, e, !0),
+            () => {
+              (window.removeEventListener(`resize`, e),
+                window.removeEventListener(`scroll`, e, !0));
+            })),
+      (t[0] = s),
+      (t[1] = y));
+  let b = y,
+    E;
+  t[2] !== n ||
+  t[3] !== r ||
+  t[4] !== a ||
+  t[5] !== l?.anchorPos ||
+  t[6] !== d ||
+  t[7] !== g ||
+  t[8] !== v
+    ? ((E = () => {
+        let e = u({
+          anchorRef: n,
+          anchorPos: l?.anchorPos,
+          composerController: r,
+          gap: a,
+          placement: d,
+          portalRoot: g,
+          windowZoom: v,
+        });
+        return e == null
+          ? null
+          : `${e.availableHeight}:${e.fixedPosition}:${e.left}:${e.top}:${e.width}:${d}`;
+      }),
+      (t[2] = n),
+      (t[3] = r),
+      (t[4] = a),
+      (t[5] = l?.anchorPos),
+      (t[6] = d),
+      (t[7] = g),
+      (t[8] = v),
+      (t[9] = E))
+    : (E = t[9]);
+  let D = (0, C.useSyncExternalStore)(b, E),
+    O;
+  bb0: {
+    if (D == null) {
+      O = null;
+      break bb0;
+    }
+    let e = l?.anchorPos,
+      i;
+    (t[10] !== n ||
+    t[11] !== r ||
+    t[12] !== a ||
+    t[13] !== d ||
+    t[14] !== g ||
+    t[15] !== e ||
+    t[16] !== v
+      ? ((i = u({
+          anchorRef: n,
+          anchorPos: e,
+          composerController: r,
+          gap: a,
+          placement: d,
+          portalRoot: g,
+          windowZoom: v,
+        })),
+        (t[10] = n),
+        (t[11] = r),
+        (t[12] = a),
+        (t[13] = d),
+        (t[14] = g),
+        (t[15] = e),
+        (t[16] = v),
+        (t[17] = i))
+      : (i = t[17]),
+      (O = i));
+  }
+  let k = O;
+  if (!s || k == null) return null;
+  let A = k.fixedPosition ? `fixed` : `absolute`,
+    j = k.fixedPosition && `[zoom:var(--codex-window-zoom)]`,
+    M = k.renderAbove && `-translate-y-full`,
+    N;
+  t[18] !== A || t[19] !== j || t[20] !== M || t[21] !== _
+    ? ((N = c(_, A, j, M)), (t[18] = A), (t[19] = j), (t[20] = M), (t[21] = _), (t[22] = N))
+    : (N = t[22]);
+  let P = h ? k.availableHeight : void 0,
+    F;
+  t[23] !== k.left || t[24] !== k.top || t[25] !== k.width || t[26] !== P
+    ? ((F = { left: k.left, maxHeight: P, top: k.top, width: k.width }),
+      (t[23] = k.left),
+      (t[24] = k.top),
+      (t[25] = k.width),
+      (t[26] = P),
+      (t[27] = F))
+    : (F = t[27]);
+  let I;
+  t[28] !== m || t[29] !== N || t[30] !== F
+    ? ((I = (0, T.jsx)(`div`, { className: N, style: F, children: m })),
+      (t[28] = m),
+      (t[29] = N),
+      (t[30] = F),
+      (t[31] = I))
+    : (I = t[31]);
+  let L;
+  return (
+    t[32] !== k.portalContainer || t[33] !== I
+      ? ((L = (0, w.createPortal)(I, k.portalContainer)),
+        (t[32] = k.portalContainer),
+        (t[33] = I),
+        (t[34] = L))
+      : (L = t[34]),
+    L
+  );
+}
+function x() {}
+var S,
+  C,
+  w,
+  T,
+  E = e(() => {
+    ((S = n()), r(), (C = t(l(), 1)), (w = t(s(), 1)), i(), y(), (T = a()));
+  });
+export { y as i, E as n, u as r, b as t };
 //# sourceMappingURL=app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~new-~iw2epp56-hsmocrwn.js.map

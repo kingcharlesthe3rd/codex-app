@@ -1,0 +1,228 @@
+import { n as e, s as t } from "./rolldown-runtime.js";
+import {
+  $N as n,
+  DV as r,
+  Dl as i,
+  Du as a,
+  EA as o,
+  EB as s,
+  Eu as c,
+  Fl as l,
+  GN as u,
+  IP as d,
+  LP as f,
+  Mj as p,
+  Pj as m,
+  QN as h,
+  RN as g,
+  RV as _,
+  TB as v,
+  Tl as y,
+  UN as b,
+  Ul as x,
+  VN as S,
+  WN as C,
+  _V as w,
+  bB as T,
+  gV as E,
+  lV as D,
+  nP as O,
+  pV as k,
+  rP as A,
+  wA as j,
+  xV as M,
+  zN as N,
+  zV as P,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~plug~kmtatxxf.js";
+function F() {
+  let e = (0, z.c)(6),
+    { authMethod: t } = a(),
+    n = E(V),
+    r = s(H);
+  if (t !== `chatgpt`) {
+    let t;
+    return (
+      e[1] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((t = { access: `disabled` }), (e[1] = t))
+        : (t = e[1]),
+      t
+    );
+  }
+  let i = r ?? `loading`;
+  if ((i === `loading` || i === `error`) && n != null) {
+    let t;
+    return (e[2] === n ? (t = e[3]) : ((t = { access: n }), (e[2] = n), (e[3] = t)), t);
+  }
+  let o;
+  return (e[4] === i ? (o = e[5]) : ((o = { access: i }), (e[4] = i), (e[5] = o)), o);
+}
+function I() {
+  return (L(), null);
+}
+function L(e) {
+  let t = (0, z.c)(14),
+    n;
+  t[0] === e ? (n = t[1]) : ((n = e === void 0 ? {} : e), (t[0] = e), (t[1] = n));
+  let { enabled: o } = n,
+    s = o === void 0 ? !0 : o,
+    c = v(d),
+    { authMethod: l } = a(),
+    u = w(V),
+    f = s && l === `chatgpt`,
+    p;
+  t[2] === f ? (p = t[3]) : ((p = { queryConfig: { enabled: f } }), (t[2] = f), (t[3] = p));
+  let { data: h, isLoading: g, isError: _ } = N(`account-info`, p),
+    y = h?.plan ?? void 0,
+    b = i(y),
+    T;
+  t[4] === h?.accountId
+    ? (T = t[5])
+    : ((T = async () =>
+        j.safeGet(`/accounts/{account_id}/settings`, {
+          parameters: { path: { account_id: h?.accountId ?? `` } },
+        })),
+      (t[4] = h?.accountId),
+      (t[5] = T));
+  let {
+      data: E,
+      isLoading: D,
+      isError: O,
+    } = r({
+      queryKey: [`accounts`, `settings`, h?.accountId],
+      enabled: s && !!h?.accountId && b && l === `chatgpt`,
+      queryFn: T,
+      staleTime: C.ONE_MINUTE,
+    }),
+    k = s && l === `chatgpt`,
+    A;
+  t[6] === k ? (A = t[7]) : ((A = { enabled: k }), (t[6] = k), (t[7] = A));
+  let { data: M, isLoading: P, error: F } = x(A),
+    I = m(`1907601843`),
+    L = g || D || P,
+    U = F instanceof S && F.status === 404,
+    W = R(y, l, {
+      isLoading: L,
+      hasErrors: _ || (b && O) || (!!F && !U),
+      needsOnboarding: I ? U : M?.length === 0 || U,
+      hasWorkspaceEnabledCodex: !b || (E?.beta_settings?.wham_access ?? !1),
+    }),
+    G,
+    K;
+  (t[8] !== W || t[9] !== s || t[10] !== c || t[11] !== u
+    ? ((G = () => {
+        s && (c.set(H, W), W !== `loading` && W !== `error` && u(W));
+      }),
+      (K = [W, s, c, u]),
+      (t[8] = W),
+      (t[9] = s),
+      (t[10] = c),
+      (t[11] = u),
+      (t[12] = G),
+      (t[13] = K))
+    : ((G = t[12]), (K = t[13])),
+    (0, B.useEffect)(G, K));
+}
+function R(
+  e,
+  t,
+  {
+    isLoading: r,
+    hasErrors: a,
+    needsOnboarding: o,
+    hasWorkspaceEnabledCodex: s,
+    hasLoggedDisabledRef: c,
+  },
+) {
+  let l = i(e),
+    u = (e) => {
+      c && !c.current && (n.info(e), (c.current = !0));
+    };
+  return t === `chatgpt`
+    ? r
+      ? `loading`
+      : a
+        ? `error`
+        : l && !s
+          ? (u(`Codex Cloud access disabled because workspace has not enabled Codex.`), `disabled`)
+          : o
+            ? `enabled_needs_setup`
+            : `enabled`
+    : (u(`Codex Cloud access disabled because user is not logged in via ChatGPT.`), `disabled`);
+}
+var z,
+  B,
+  V,
+  H,
+  U = e(() => {
+    ((z = _()),
+      M(),
+      k(),
+      T(),
+      (B = t(P(), 1)),
+      l(),
+      f(),
+      p(),
+      h(),
+      O(),
+      u(),
+      o(),
+      y(),
+      g(),
+      b(),
+      c(),
+      (V = A(`codexCloudAccess`, null)),
+      (H = D(d, () => null)));
+  });
+function W({
+  canCreateBrowserDefaultHostThreads: e,
+  hasBrowserLocalExecutionHost: t,
+  hasComposerModeGitRepo: n,
+  hasFollowUp: r,
+  isBrowser: i,
+  isComposerModeGitMetadataLoading: a,
+  isResponseInProgress: o,
+  isStatsigLoading: s,
+  isWorktreeExecutionTargetLoading: c,
+  isWorktreePickerEnabled: l,
+}) {
+  if (i) {
+    let n = e && !r;
+    return {
+      fallbackMode: n ? `local` : `cloud`,
+      isAvailabilityLoading: !1,
+      isCloudAvailable: !n,
+      isLocalAvailable: t || e,
+      isWorktreeAvailable: !1,
+    };
+  }
+  return {
+    fallbackMode: `local`,
+    isAvailabilityLoading: a || s || c,
+    isCloudAvailable: n,
+    isLocalAvailable: !0,
+    isWorktreeAvailable: n && !r && !o && l,
+  };
+}
+function G({
+  composerMode: e,
+  cloudAccess: t,
+  fallbackMode: n,
+  isAvailabilityLoading: r,
+  isCloudAvailable: i,
+  isLocalAvailable: a,
+  isWorktreeAvailable: o,
+}) {
+  if (e === `cloud` && t !== `enabled`) return n;
+  if (r) return e;
+  switch (e) {
+    case `cloud`:
+      return i ? `cloud` : n;
+    case `local`:
+      return a ? `local` : n;
+    case `worktree`:
+      return o ? `worktree` : n;
+  }
+}
+var K = e(() => {});
+export { U as a, I as i, G as n, F as o, K as r, W as t };
+//# sourceMappingURL=app-initial~app-main~remote-conversation-page~new-thread-panel-page~appgen-library-page~hot~kj79zy13.js.map

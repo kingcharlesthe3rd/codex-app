@@ -1,0 +1,35 @@
+import { n as e } from "./rolldown-runtime.js";
+import {
+  Fl as t,
+  Iy as n,
+  RV as r,
+  Vl as i,
+  jV as a,
+  zy as o,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~plug~kmtatxxf.js";
+import { Rt as s, zt as c } from "./app-initial~app-main~automations-page.js";
+function l(e) {
+  let t = (0, u.c)(6),
+    { children: r } = e,
+    { data: a, isLoading: o } = i(),
+    c;
+  t[0] !== a || t[1] !== o
+    ? ((c = o ? null : (0, d.jsx)(s, { audience: n(a), showWhenUnseen: !0 })),
+      (t[0] = a),
+      (t[1] = o),
+      (t[2] = c))
+    : (c = t[2]);
+  let l;
+  return (
+    t[3] !== r || t[4] !== c
+      ? ((l = (0, d.jsxs)(d.Fragment, { children: [r, c] })), (t[3] = r), (t[4] = c), (t[5] = l))
+      : (l = t[5]),
+    l
+  );
+}
+var u, d;
+e(() => {
+  ((u = r()), t(), c(), o(), (d = a()));
+})();
+export { l as AppgenPublicationTermsRoute };
+//# sourceMappingURL=appgen-publication-terms-route.js.map

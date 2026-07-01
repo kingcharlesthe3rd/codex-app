@@ -1,0 +1,72 @@
+import { n as e } from "./rolldown-runtime.js";
+import {
+  Du as t,
+  Eu as n,
+  Iu as r,
+  Lu as i,
+  PR as a,
+  RV as o,
+  av as s,
+  iF as c,
+  jV as l,
+  lv as u,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~plug~kmtatxxf.js";
+import { Sm as d, xm as f } from "./app-initial~app-main~onboarding-page.js";
+function p(e) {
+  let t = (0, m.c)(2),
+    { debugName: n } = e,
+    r;
+  return (
+    t[0] === n ? (r = t[1]) : ((r = (0, h.jsx)(f, { debugName: n })), (t[0] = n), (t[1] = r)), r
+  );
+}
+var m,
+  h,
+  g = e(() => {
+    ((m = o()), d(), (h = l()));
+  });
+function _() {
+  let { data: e, isLoading: n } = i(a.NUX_2025_09_15),
+    { authMethod: r } = t();
+  return `none`;
+}
+var v = e(() => {
+  (c(), n(), r());
+});
+function y(e) {
+  let t = (0, b.c)(4),
+    { children: n } = e,
+    r = _();
+  if (r == null) {
+    let e;
+    return (
+      t[0] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, x.jsx)(p, {})), (t[0] = e))
+        : (e = t[0]),
+      e
+    );
+  }
+  if (r !== `none`) {
+    let e;
+    return (
+      t[1] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, x.jsx)(u, { to: `/first-run`, replace: !0 })), (t[1] = e))
+        : (e = t[1]),
+      e
+    );
+  }
+  let i;
+  return (
+    t[2] === n
+      ? (i = t[3])
+      : ((i = (0, x.jsx)(x.Fragment, { children: n })), (t[2] = n), (t[3] = i)),
+    i
+  );
+}
+var b,
+  x,
+  S = e(() => {
+    ((b = o()), s(), g(), v(), (x = l()));
+  });
+export { p as a, _ as i, S as n, g as o, v as r, y as t };
+//# sourceMappingURL=app-initial~app-main~new-thread-panel-page.js.map

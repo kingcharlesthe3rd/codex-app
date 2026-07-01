@@ -1,0 +1,45 @@
+import { n as e } from "./rolldown-runtime.js";
+import {
+  Bj as t,
+  EA as n,
+  GN as r,
+  IP as i,
+  LP as a,
+  Mj as o,
+  Pj as s,
+  Vj as c,
+  WN as l,
+  bB as u,
+  sV as d,
+  tV as f,
+  wA as p,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~plug~kmtatxxf.js";
+function m() {
+  let e = s(`637432221`),
+    t = s(`1741944562`);
+  return e && t;
+}
+var h,
+  g,
+  _ = e(() => {
+    (u(),
+      a(),
+      o(),
+      t(),
+      r(),
+      n(),
+      (h = d(i, ({ get: e }) => ({
+        enabled: e(c, `637432221`),
+        queryKey: [`appgen`, `access`],
+        queryFn: () => p.safeGet(`/wham/sites/access`),
+        retry: !1,
+        staleTime: l.TEN_MINUTES,
+      }))),
+      (g = f(i, ({ get: e }) => {
+        if (!e(c, `637432221`)) return `unavailable`;
+        let { data: t, isError: n } = e(h);
+        return n || t?.enabled === !1 ? `unavailable` : t?.enabled === !0 ? `available` : `loading`;
+      })));
+  });
+export { _ as n, m as r, g as t };
+//# sourceMappingURL=app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~new-~o4ivuipr.js.map

@@ -1,0 +1,7514 @@
+import { n as e, s as t } from "./rolldown-runtime.js";
+import {
+  $N as n,
+  $T as r,
+  AV as i,
+  Ao as a,
+  Ar as o,
+  BN as s,
+  CB as c,
+  CP as l,
+  Cf as u,
+  Cg as d,
+  Ci as f,
+  Cu as p,
+  Di as m,
+  Dj as h,
+  Dr as g,
+  Du as _,
+  EB as v,
+  Ec as y,
+  Ej as b,
+  Er as x,
+  Eu as S,
+  Fc as C,
+  Fl as w,
+  GP as T,
+  Ga as E,
+  Gi as D,
+  Gr as O,
+  HP as k,
+  IP as A,
+  Ka as j,
+  L as ee,
+  LP as M,
+  Lc as N,
+  MR as P,
+  Md as te,
+  Mj as F,
+  Mr as I,
+  NE as ne,
+  Ni as L,
+  Nj as re,
+  No as ie,
+  Og as ae,
+  Pd as oe,
+  Pj as se,
+  Po as ce,
+  Pr as le,
+  QN as ue,
+  Qj as de,
+  R as fe,
+  RN as pe,
+  RV as R,
+  SP as me,
+  TB as z,
+  TP as he,
+  Tf as ge,
+  To as _e,
+  Tr as ve,
+  U as ye,
+  Ua as be,
+  Ur as xe,
+  VP as Se,
+  Vl as Ce,
+  W as we,
+  XO as Te,
+  Xz as Ee,
+  YO as De,
+  Yj as Oe,
+  Yr as ke,
+  _V as Ae,
+  av as je,
+  bB as B,
+  bt as Me,
+  ca as Ne,
+  di as Pe,
+  eM as Fe,
+  ea as Ie,
+  et as Le,
+  fN as V,
+  fa as Re,
+  gV as ze,
+  gi as Be,
+  go as Ve,
+  gv as He,
+  hN as Ue,
+  hS as We,
+  hi as Ge,
+  iF as Ke,
+  it as qe,
+  jE as Je,
+  jV as Ye,
+  ko as Xe,
+  lM as Ze,
+  la as Qe,
+  mB as $e,
+  mN as et,
+  ma as tt,
+  mo as nt,
+  nP as rt,
+  nc as it,
+  no as at,
+  nt as ot,
+  pN as st,
+  pS as ct,
+  pV as lt,
+  pf as ut,
+  pi as dt,
+  po as ft,
+  qP as H,
+  qi as pt,
+  qj as mt,
+  rP as ht,
+  rt as gt,
+  tB as _t,
+  ta as vt,
+  tt as yt,
+  uB as bt,
+  uM as xt,
+  uV as St,
+  ui as Ct,
+  vN as wt,
+  vg as Tt,
+  vo as Et,
+  vt as Dt,
+  vv as Ot,
+  wB as kt,
+  wP as At,
+  wR as jt,
+  wo as Mt,
+  wr as Nt,
+  wu as Pt,
+  xV as Ft,
+  xf as It,
+  xt as Lt,
+  yE as Rt,
+  yN as zt,
+  yg as Bt,
+  yt as Vt,
+  zN as Ht,
+  zV as Ut,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~plug~kmtatxxf.js";
+import {
+  $ as Wt,
+  Ah as Gt,
+  B_ as Kt,
+  Fh as qt,
+  Fr as Jt,
+  Gg as Yt,
+  Hm as Xt,
+  Ih as Zt,
+  Kg as Qt,
+  Mg as $t,
+  Mn as en,
+  N_ as tn,
+  Ng as nn,
+  P_ as rn,
+  Pr as an,
+  Q as on,
+  Sd as sn,
+  Vm as cn,
+  ah as ln,
+  bg as un,
+  bm as dn,
+  dw as fn,
+  jn as pn,
+  kh as mn,
+  lm as hn,
+  nO as gn,
+  nw as _n,
+  oh as vn,
+  rw as yn,
+  tO as bn,
+  um as xn,
+  uw as Sn,
+  xd as Cn,
+  yg as wn,
+  ym as Tn,
+  z_ as En,
+} from "./app-initial~app-main~onboarding-page.js";
+import { Hn as Dn, Un as On, Vn as kn } from "./app-initial~app-main~automations-page.js";
+import {
+  G as An,
+  J as jn,
+  K as Mn,
+  Mt as Nn,
+  Nt as Pn,
+  Ot as Fn,
+  Tt as In,
+  W as Ln,
+  _t as Rn,
+  at as zn,
+  ct as Bn,
+  dt as Vn,
+  ft as Hn,
+  gt as Un,
+  ht as Wn,
+  it as Gn,
+  kt as Kn,
+  lt as qn,
+  mt as Jn,
+  ot as Yn,
+  pt as Xn,
+  q as Zn,
+  rt as Qn,
+  st as $n,
+  ut as er,
+  wt as tr,
+} from "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~appgen-library-page~hot~djo67r4n.js";
+import {
+  _ as nr,
+  g as rr,
+} from "./app-initial~app-main~projects-index-page~local-conversation-page.js";
+import {
+  d as ir,
+  f as ar,
+  m as or,
+  p as sr,
+} from "./app-initial~app-main~worktree-init-v2-page~appgen-publication-terms-route~remote-conversati~oykv7gy7.js";
+import {
+  r as cr,
+  t as lr,
+} from "./app-initial~app-main~worktree-init-v2-page~appgen-page~remote-conversation-page~plugin-deta~hb9r3lcf.js";
+import {
+  _ as ur,
+  g as dr,
+  v as fr,
+  y as pr,
+} from "./app-initial~app-main~worktree-init-v2-page~appgen-publication-terms-route~remote-conversati~coa484up.js";
+import { n as mr, t as hr } from "./toolbar-breadcrumb.js";
+import { n as U, t as gr } from "./page-search-input.js";
+import { n as _r, r as vr } from "./searchable-page-layout.js";
+import { n as yr, t as br } from "./segmented-toggle.js";
+import { n as xr, t as Sr } from "./filter.js";
+import { n as Cr, r as wr } from "./sectioned-page.js";
+import { n as Tr, t as Er } from "./connector-logo-stack.js";
+import { r as Dr, t as Or } from "./use-home-directory.js";
+import { a as kr, i as Ar } from "./plugin-detail-page-utils.js";
+import { n as jr, t as Mr } from "./apps-availability.js";
+import {
+  a as Nr,
+  c as Pr,
+  d as Fr,
+  i as Ir,
+  l as Lr,
+  n as Rr,
+  o as zr,
+  r as Br,
+  s as Vr,
+  t as Hr,
+  u as Ur,
+} from "./plugins-page-selectors.js";
+import { n as Wr, t as Gr } from "./use-media-query.js";
+import {
+  $ as Kr,
+  A as W,
+  B as qr,
+  C as Jr,
+  D as Yr,
+  E as Xr,
+  F as Zr,
+  G as Qr,
+  H as $r,
+  I as ei,
+  K as ti,
+  L as ni,
+  M as ri,
+  N as ii,
+  O as ai,
+  P as oi,
+  Q as si,
+  R as ci,
+  S as li,
+  T as ui,
+  U as di,
+  V as fi,
+  W as pi,
+  X as mi,
+  Y as hi,
+  Z as gi,
+  _ as _i,
+  _t as vi,
+  a as yi,
+  at as bi,
+  b as xi,
+  c as Si,
+  ct as Ci,
+  d as wi,
+  dt as Ti,
+  et as Ei,
+  f as Di,
+  ft as Oi,
+  g as ki,
+  gt as Ai,
+  h as ji,
+  ht as Mi,
+  i as Ni,
+  it as Pi,
+  j as Fi,
+  k as Ii,
+  l as Li,
+  lt as Ri,
+  m as zi,
+  mt as Bi,
+  n as Vi,
+  nt as Hi,
+  o as Ui,
+  ot as Wi,
+  p as Gi,
+  pt as Ki,
+  q as qi,
+  r as Ji,
+  rt as Yi,
+  s as Xi,
+  st as Zi,
+  tt as Qi,
+  u as $i,
+  ut as ea,
+  v as ta,
+  vt as na,
+  w as ra,
+  x as ia,
+  y as aa,
+  yt as oa,
+  z as sa,
+} from "./plugin-detail-page.js";
+import { n as ca, t as la } from "./plugin-uninstall-dialog.js";
+import { n as ua, t as da } from "./tabs-xQL-Jv5b.js";
+import { n as fa, t as pa } from "./esm-1.js";
+import { n as ma, t as ha } from "./control-group.js";
+function ga(e) {
+  let t = e.source.trim();
+  if (t.length === 0) return null;
+  let n = e.refName.trim(),
+    r = e.sparsePaths
+      .split(/[\n,]+/)
+      .map((e) => e.trim())
+      .filter((e) => e.length > 0);
+  return { source: t, refName: n.length > 0 ? n : null, sparsePaths: r.length > 0 ? r : null };
+}
+async function _a({ forceReloadPlugins: e, onReloadError: t, params: n, sendAddMarketplace: r }) {
+  let i = await r(n);
+  try {
+    await e();
+  } catch (e) {
+    return (t(e), { kind: `reload-failed`, marketplaceName: i.marketplaceName });
+  }
+  return { alreadyAdded: i.alreadyAdded, kind: `added`, marketplaceName: i.marketplaceName };
+}
+var va = e(() => {});
+function ya(e) {
+  let t = (0, wa.c)(12),
+    { onAddMarketplace: n, onOpenChange: r, open: i } = e,
+    a = H(),
+    [o, s] = (0, Ta.useState)(null),
+    c;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((c = { source: ``, refName: ``, sparsePaths: `` }), (t[0] = c))
+    : (c = t[0]);
+  let l;
+  t[1] === a
+    ? (l = t[2])
+    : ((l = {
+        onSubmit: (e) => {
+          let { value: t } = e;
+          if (!(t.source.trim().length > 0))
+            return {
+              fields: {
+                source: a.formatMessage({
+                  id: `skills.appsPage.addMarketplace.sourceRequired`,
+                  defaultMessage: `Enter a marketplace source`,
+                  description: `Validation message shown when adding a marketplace without a source`,
+                }),
+              },
+            };
+        },
+      }),
+      (t[1] = a),
+      (t[2] = l));
+  let u = fa({
+      defaultValues: c,
+      validators: l,
+      onSubmit: async (e) => {
+        let { value: t } = e,
+          i = ga(t);
+        if (i != null) {
+          s(null);
+          try {
+            (await n(i), u.reset(), r(!1));
+          } catch (e) {
+            let t = e;
+            s(
+              t instanceof Error
+                ? t.message
+                : a.formatMessage({
+                    id: `skills.appsPage.addMarketplace.failed`,
+                    defaultMessage: `Failed to add marketplace`,
+                    description: `Fallback error shown when adding a plugin marketplace fails`,
+                  }),
+            );
+          }
+        }
+      },
+    }),
+    d;
+  t[3] !== u || t[4] !== a || t[5] !== r || t[6] !== i || t[7] !== o
+    ? ((d = (e) => {
+        let { source: t, isSubmitting: n, submissionAttempts: c } = e,
+          l = (e) => {
+            n || (e || (u.reset(), s(null)), r(e));
+          };
+        return (0, G.jsx)(dt, {
+          open: i,
+          contentProps: { "aria-describedby": void 0 },
+          onOpenChange: l,
+          shouldIgnoreClickOutside: n,
+          showDialogClose: !n,
+          size: `wide`,
+          children: (0, G.jsxs)(Nt, {
+            as: `form`,
+            className: `gap-4`,
+            onSubmit: (e) => {
+              (e.preventDefault(), u.handleSubmit());
+            },
+            children: [
+              (0, G.jsx)(Ge, {
+                className: `sr-only`,
+                children: (0, G.jsx)(T, {
+                  id: `skills.appsPage.addMarketplace.title`,
+                  defaultMessage: `Add plugin marketplace`,
+                  description: `Dialog title for adding a plugin marketplace`,
+                }),
+              }),
+              (0, G.jsx)(g, {
+                children: (0, G.jsx)(x, {
+                  title: (0, G.jsx)(T, {
+                    id: `skills.appsPage.addMarketplace.header`,
+                    defaultMessage: `Add plugin marketplace`,
+                    description: `Header for adding a plugin marketplace`,
+                  }),
+                  subtitle: (0, G.jsx)(T, {
+                    id: `skills.appsPage.addMarketplace.subtitle`,
+                    defaultMessage: `Add from a GitHub repo, Git URL, or local folder. <link>Learn more</link>`,
+                    description: `Short description in the add marketplace dialog`,
+                    values: { link: xa },
+                  }),
+                }),
+              }),
+              (0, G.jsxs)(g, {
+                className: `gap-3`,
+                children: [
+                  (0, G.jsx)(u.Field, {
+                    name: `source`,
+                    children: (e) => {
+                      let t =
+                        c > 0 || e.state.meta.isBlurred
+                          ? (e.state.meta.errors.find(ba) ?? null)
+                          : null;
+                      return (0, G.jsxs)(`label`, {
+                        className: Ea,
+                        htmlFor: `plugin-marketplace-source`,
+                        children: [
+                          (0, G.jsx)(T, {
+                            id: `skills.appsPage.addMarketplace.sourceLabel`,
+                            defaultMessage: `Source`,
+                            description: `Label for the marketplace source field`,
+                          }),
+                          (0, G.jsx)(`input`, {
+                            id: `plugin-marketplace-source`,
+                            "aria-describedby":
+                              t == null ? void 0 : `plugin-marketplace-source-error`,
+                            "aria-invalid": t != null,
+                            autoFocus: !0,
+                            className: Da,
+                            disabled: n,
+                            onBlur: e.handleBlur,
+                            onChange: (t) => {
+                              e.handleChange(t.target.value);
+                            },
+                            placeholder: a.formatMessage({
+                              id: `skills.appsPage.addMarketplace.sourcePlaceholder`,
+                              defaultMessage: `openai/plugins or git@github.com:org/repo.git`,
+                              description: `Placeholder for the marketplace source field`,
+                            }),
+                            type: `text`,
+                            value: e.state.value,
+                          }),
+                          t == null
+                            ? null
+                            : (0, G.jsx)(`span`, {
+                                id: `plugin-marketplace-source-error`,
+                                className: `text-token-error-foreground`,
+                                children: t,
+                              }),
+                        ],
+                      });
+                    },
+                  }),
+                  (0, G.jsx)(u.Field, {
+                    name: `refName`,
+                    children: (e) =>
+                      (0, G.jsxs)(`label`, {
+                        className: Ea,
+                        htmlFor: `plugin-marketplace-ref`,
+                        children: [
+                          (0, G.jsx)(T, {
+                            id: `skills.appsPage.addMarketplace.refLabel`,
+                            defaultMessage: `Git ref`,
+                            description: `Label for the optional marketplace git ref field`,
+                          }),
+                          (0, G.jsx)(`input`, {
+                            id: `plugin-marketplace-ref`,
+                            className: Da,
+                            disabled: n,
+                            onBlur: e.handleBlur,
+                            onChange: (t) => {
+                              e.handleChange(t.target.value);
+                            },
+                            placeholder: a.formatMessage({
+                              id: `skills.appsPage.addMarketplace.refPlaceholder`,
+                              defaultMessage: `main`,
+                              description: `Placeholder for the optional marketplace git ref field`,
+                            }),
+                            type: `text`,
+                            value: e.state.value,
+                          }),
+                        ],
+                      }),
+                  }),
+                  (0, G.jsx)(u.Field, {
+                    name: `sparsePaths`,
+                    children: (e) =>
+                      (0, G.jsxs)(`label`, {
+                        className: Ea,
+                        htmlFor: `plugin-marketplace-sparse-paths`,
+                        children: [
+                          (0, G.jsx)(T, {
+                            id: `skills.appsPage.addMarketplace.sparsePathsLabel`,
+                            defaultMessage: `Sparse paths`,
+                            description: `Label for the optional marketplace sparse paths field`,
+                          }),
+                          (0, G.jsx)(`textarea`, {
+                            id: `plugin-marketplace-sparse-paths`,
+                            className: At(Da, `min-h-20 resize-y`),
+                            disabled: n,
+                            onBlur: e.handleBlur,
+                            onChange: (t) => {
+                              e.handleChange(t.target.value);
+                            },
+                            placeholder: a.formatMessage({
+                              id: `skills.appsPage.addMarketplace.sparsePathsPlaceholder`,
+                              defaultMessage: `plugins/codex`,
+                              description: `Placeholder for the optional marketplace sparse paths field`,
+                            }),
+                            value: e.state.value,
+                          }),
+                        ],
+                      }),
+                  }),
+                  o == null
+                    ? null
+                    : (0, G.jsx)(`div`, {
+                        className: `text-sm text-token-error-foreground`,
+                        role: `alert`,
+                        children: o,
+                      }),
+                ],
+              }),
+              (0, G.jsx)(g, {
+                children: (0, G.jsxs)(ve, {
+                  children: [
+                    (0, G.jsx)(V, {
+                      color: `outline`,
+                      disabled: n,
+                      onClick: () => {
+                        l(!1);
+                      },
+                      children: (0, G.jsx)(T, {
+                        id: `skills.appsPage.addMarketplace.cancel`,
+                        defaultMessage: `Cancel`,
+                        description: `Cancel button in the add marketplace dialog`,
+                      }),
+                    }),
+                    (0, G.jsx)(V, {
+                      disabled: t.trim().length === 0 || n,
+                      loading: n,
+                      type: `submit`,
+                      children: (0, G.jsx)(T, {
+                        id: `skills.appsPage.addMarketplace.submit`,
+                        defaultMessage: `Add marketplace`,
+                        description: `Submit button in the add marketplace dialog`,
+                      }),
+                    }),
+                  ],
+                }),
+              }),
+            ],
+          }),
+        });
+      }),
+      (t[3] = u),
+      (t[4] = a),
+      (t[5] = r),
+      (t[6] = i),
+      (t[7] = o),
+      (t[8] = d))
+    : (d = t[8]);
+  let f;
+  return (
+    t[9] !== u.Subscribe || t[10] !== d
+      ? ((f = (0, G.jsx)(u.Subscribe, { selector: Ca, children: d })),
+        (t[9] = u.Subscribe),
+        (t[10] = d),
+        (t[11] = f))
+      : (f = t[11]),
+    f
+  );
+}
+function ba(e) {
+  return typeof e == `string`;
+}
+function xa(e) {
+  return (0, G.jsx)(`a`, {
+    className: `cursor-interaction text-token-link underline-offset-2 hover:underline`,
+    href: `https://developers.openai.com/codex/plugins/build`,
+    onClick: Sa,
+    children: e,
+  });
+}
+function Sa(e) {
+  pt({
+    event: e,
+    href: `https://developers.openai.com/codex/plugins/build`,
+    initiator: `open_in_browser_bridge`,
+  });
+}
+function Ca(e) {
+  return {
+    source: e.values.source,
+    isSubmitting: e.isSubmitting,
+    submissionAttempts: e.submissionAttempts,
+  };
+}
+var wa,
+  Ta,
+  G,
+  Ea,
+  Da,
+  Oa = e(() => {
+    ((wa = R()),
+      pa(),
+      he(),
+      (Ta = t(Ut(), 1)),
+      k(),
+      st(),
+      Be(),
+      o(),
+      D(),
+      va(),
+      (G = Ye()),
+      (Ea = `flex flex-col gap-1.5 text-sm text-token-description-foreground`),
+      (Da = `w-full rounded-md border border-token-input-border bg-token-input-background px-2.5 py-1.5 text-base text-token-input-foreground outline-none placeholder:text-token-input-placeholder-foreground focus:border-token-focus-border`));
+  }),
+  ka,
+  Aa,
+  ja,
+  Ma = e(() => {
+    ((ka = `_container_1ujd8_1`), (Aa = `_grid_1ujd8_5`), (ja = { container: ka, grid: Aa }));
+  });
+function Na(e) {
+  let t = (0, Fa.c)(5),
+    { children: n, className: r } = e,
+    i;
+  t[0] === r ? (i = t[1]) : ((i = At(r, ja.container)), (t[0] = r), (t[1] = i));
+  let a;
+  return (
+    t[2] !== n || t[3] !== i
+      ? ((a = (0, Ia.jsx)(`div`, { className: i, children: n })),
+        (t[2] = n),
+        (t[3] = i),
+        (t[4] = a))
+      : (a = t[4]),
+    a
+  );
+}
+function Pa(e) {
+  let t = (0, Fa.c)(7),
+    { children: n, className: r, gap: i, isSingleColumn: a } = e,
+    o = i === void 0 ? `default` : i,
+    s = a === void 0 ? !1 : a,
+    c = La[o],
+    l = s ? `grid-cols-1` : ja.grid,
+    u;
+  t[0] !== r || t[1] !== c || t[2] !== l
+    ? ((u = At(`grid`, c, l, r)), (t[0] = r), (t[1] = c), (t[2] = l), (t[3] = u))
+    : (u = t[3]);
+  let d;
+  return (
+    t[4] !== n || t[5] !== u
+      ? ((d = (0, Ia.jsx)(`div`, { className: u, children: n })),
+        (t[4] = n),
+        (t[5] = u),
+        (t[6] = d))
+      : (d = t[6]),
+    d
+  );
+}
+var Fa,
+  Ia,
+  La,
+  Ra = e(() => {
+    ((Fa = R()),
+      he(),
+      Ma(),
+      (Ia = Ye()),
+      (La = { catalog: `gap-x-7 gap-y-4`, compact: `gap-2`, default: `gap-4` }));
+  });
+function za({
+  cardClassName: e,
+  cardContentGap: t = `compact`,
+  emptyStateAction: n,
+  errorMessage: r,
+  homeDirectory: i,
+  isLoading: a,
+  installedStateAction: o = `status`,
+  installButtonLabel: s,
+  highlightedPluginId: c,
+  installingPluginSession: l = null,
+  isSingleColumn: u = !1,
+  flushCards: d = !1,
+  getCopyLinkUrl: f,
+  hostId: p,
+  gridGap: m = `compact`,
+  reducedMotion: h = !1,
+  useCompactEmptyState: g = !1,
+  plugins: _,
+  emptyStateTitle: v,
+  onInstallPlugin: y,
+  onCopyShareLink: b,
+  onOpenPluginDetails: x,
+  onShareInstalledPlugin: S,
+  onTryInChat: C,
+  onUninstallInstalledPlugin: w,
+  onToggleInstalledPluginEnabled: E,
+  pendingPluginId: D,
+  pendingUninstallPluginId: O,
+  unavailablePluginIds: k,
+}) {
+  let [A, j] = (0, Xa.useState)(null),
+    ee = se(`1269116100`);
+  if (a)
+    return (0, K.jsx)(`div`, {
+      className: `flex h-full min-h-full flex-1 items-center justify-center px-6 py-8 text-center text-sm text-token-text-tertiary`,
+      children: (0, K.jsx)(`span`, {
+        className: `loading-shimmer-pure-text font-medium`,
+        children: (0, K.jsx)(T, { ...q.pageLoading }),
+      }),
+    });
+  if (r)
+    return (0, K.jsx)(`div`, {
+      className: `flex h-full min-h-full flex-1 items-center justify-center py-8`,
+      children: (0, K.jsx)(Tn, {
+        title: (0, K.jsx)(T, { ...q.loadErrorTitle }),
+        description: r,
+        illustration: (0, K.jsx)(Ii, {
+          "aria-hidden": !0,
+          className: `h-20 w-auto text-token-input-placeholder-foreground`,
+        }),
+      }),
+    });
+  if (_.length === 0)
+    return (0, K.jsx)(`div`, {
+      className: `flex min-h-0 flex-1 items-center justify-center py-8`,
+      children: g
+        ? (0, K.jsx)(`div`, { className: `text-sm text-token-text-secondary`, children: v })
+        : (0, K.jsx)(Tn, { title: v, description: n }),
+    });
+  let M = _.map((n, r) =>
+    (0, K.jsxs)(
+      Xa.Fragment,
+      {
+        children: [
+          (0, K.jsx)(Ba, {
+            contentClassName: t === `compact` ? `!gap-px` : void 0,
+            installedStateAction: o,
+            installProgressPercent: Zn(l, p, n.plugin.id),
+            installPhase: Mn(l, p, n.plugin.id),
+            isInstallLocked: l != null,
+            isUpdatingEnabled: D === n.plugin.id,
+            isUninstalling: O === n.plugin.id,
+            reducedMotion: h,
+            cardClassName: d ? `!rounded-none !border-0` : e,
+            copyLinkUrl: f?.(n) ?? null,
+            onUninstallInstalledPlugin:
+              w == null
+                ? void 0
+                : (e) => {
+                    j(e);
+                  },
+            onCopyShareLink: b,
+            onOpenPluginDetails: x,
+            onShareInstalledPlugin: S,
+            onToggleInstalledPluginEnabled: E,
+            plugin: n,
+            homeDirectory: i,
+            hostId: p,
+            isPluginSharingEnabled: ee,
+            isUnavailableInCurrentContext: k?.has(n.plugin.id),
+            isHighlighted: c === n.plugin.id,
+            installButtonLabel: s,
+            onInstallPlugin: y,
+            onTryInChat: C,
+          }),
+          d && r < _.length - 1
+            ? (0, K.jsx)(`div`, { className: `mx-2.5 h-px bg-token-border` })
+            : null,
+        ],
+      },
+      n.plugin.id,
+    ),
+  );
+  return (0, K.jsxs)(K.Fragment, {
+    children: [
+      d
+        ? (0, K.jsx)(`div`, {
+            className: `flex flex-col overflow-hidden rounded-lg border border-token-border`,
+            children: M,
+          })
+        : (0, K.jsx)(Pa, { gap: m, isSingleColumn: u, children: M }),
+      A != null && w != null
+        ? (0, K.jsx)(la, {
+            isUninstalling: O === A.plugin.id,
+            open: !0,
+            pluginDisplayName: Ct(A),
+            onOpenChange: (e) => {
+              e || j(null);
+            },
+            onConfirm: async () => {
+              try {
+                await w({
+                  marketplaceName: A.marketplaceName,
+                  pluginDisplayName: Ct(A),
+                  pluginId: A.plugin.id,
+                  pluginName: A.plugin.name,
+                  requestPluginId: Ve(A),
+                });
+              } finally {
+                j(null);
+              }
+            },
+          })
+        : null,
+    ],
+  });
+}
+function Ba(e) {
+  let t = (0, Ya.c)(162),
+    {
+      cardClassName: n,
+      contentClassName: r,
+      copyLinkUrl: i,
+      homeDirectory: a,
+      hostId: o,
+      installedStateAction: c,
+      installButtonLabel: l,
+      installPhase: u,
+      installProgressPercent: d,
+      isInstallLocked: f,
+      isUpdatingEnabled: p,
+      isUninstalling: m,
+      reducedMotion: h,
+      onCopyShareLink: g,
+      onOpenPluginDetails: _,
+      onShareInstalledPlugin: v,
+      onUninstallInstalledPlugin: y,
+      onToggleInstalledPluginEnabled: b,
+      plugin: x,
+      isPluginSharingEnabled: S,
+      isUnavailableInCurrentContext: C,
+      isHighlighted: w,
+      onInstallPlugin: E,
+      onTryInChat: D,
+    } = e,
+    k = C === void 0 ? !1 : C,
+    A = H(),
+    j = s(`open-file`),
+    ee = (0, Xa.useRef)(!1),
+    M;
+  t[0] === x ? (M = t[1]) : ((M = Ct(x)), (t[0] = x), (t[1] = M));
+  let N = M,
+    P = d != null,
+    te;
+  t[2] !== c || t[3] !== P || t[4] !== b || t[5] !== x
+    ? ((te = P
+        ? `install`
+        : qa({ installedStateAction: c, plugin: x, onToggleInstalledPluginEnabled: b })),
+      (t[2] = c),
+      (t[3] = P),
+      (t[4] = b),
+      (t[5] = x),
+      (t[6] = te))
+    : (te = t[6]);
+  let F = te,
+    I = x.plugin.source.type === `remote`,
+    ne;
+  t[7] !== a || t[8] !== x.marketplacePath || t[9] !== x.plugin.source
+    ? ((ne = Ar(a, x.marketplacePath, x.plugin.source)),
+      (t[7] = a),
+      (t[8] = x.marketplacePath),
+      (t[9] = x.plugin.source),
+      (t[10] = ne))
+    : (ne = t[10]);
+  let L = ne,
+    re = v != null && L != null,
+    ie = i != null || (g != null && L != null),
+    ae = x.plugin.installed && !x.plugin.enabled,
+    oe = l == null && !x.plugin.installed,
+    se;
+  t[11] === x.plugin.name
+    ? (se = t[12])
+    : ((se = qn(x.plugin.name)), (t[11] = x.plugin.name), (t[12] = se));
+  let ce = se != null,
+    le = !x.plugin.installed && (l != null || (ce && !I)),
+    ue;
+  t[13] !== o || t[14] !== x || t[15] !== le
+    ? ((ue = le
+        ? { hostId: o, ...nt(x), pluginSummary: x.plugin }
+        : { hostId: o, pluginSummary: x.plugin }),
+      (t[13] = o),
+      (t[14] = x),
+      (t[15] = le),
+      (t[16] = ue))
+    : (ue = t[16]);
+  let { blockedReason: fe, isLoading: pe } = Rn(ue),
+    R;
+  t[17] !== fe || t[18] !== x.plugin
+    ? ((R = Un(x.plugin) ? `disabled-by-admin` : fe), (t[17] = fe), (t[18] = x.plugin), (t[19] = R))
+    : (R = t[19]);
+  let me = R,
+    z = me === `disabled-by-admin`,
+    he,
+    ge,
+    _e,
+    ve,
+    be,
+    Se,
+    Ce,
+    we,
+    Te,
+    Ee,
+    De,
+    Oe,
+    ke,
+    Ae,
+    je,
+    B,
+    Me;
+  if (
+    t[20] !== ie ||
+    t[21] !== ce ||
+    t[22] !== oe ||
+    t[23] !== n ||
+    t[24] !== r ||
+    t[25] !== me ||
+    t[26] !== l ||
+    t[27] !== u ||
+    t[28] !== d ||
+    t[29] !== z ||
+    t[30] !== ae ||
+    t[31] !== P ||
+    t[32] !== pe ||
+    t[33] !== f ||
+    t[34] !== S ||
+    t[35] !== re ||
+    t[36] !== k ||
+    t[37] !== E ||
+    t[38] !== _ ||
+    t[39] !== v ||
+    t[40] !== D ||
+    t[41] !== y ||
+    t[42] !== x ||
+    t[43] !== N ||
+    t[44] !== h ||
+    t[45] !== L
+  ) {
+    ((Se = Vn(x.plugin.name, ce ? me : null)), (Ce = oe && z), (be = f || z || pe));
+    let e;
+    if (
+      (t[63] === l
+        ? (e = t[64])
+        : ((e = l ?? (0, K.jsx)(T, { ...q.installTooltip })), (t[63] = l), (t[64] = e)),
+      (_e = e),
+      P)
+    ) {
+      let e;
+      (t[65] === u
+        ? (e = t[66])
+        : ((e =
+            u === `installing`
+              ? (0, K.jsx)(T, { ...q.installing })
+              : (0, K.jsx)(T, { ...q.installLoading })),
+          (t[65] = u),
+          (t[66] = e)),
+        (_e = e));
+    } else if (z) {
+      let e;
+      (t[67] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, K.jsx)(T, { ...q.disabledByAdmin })), (t[67] = e))
+        : (e = t[67]),
+        (_e = e));
+    } else if (f) {
+      let e;
+      (t[68] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, K.jsx)(T, { ...q.installLoading })), (t[68] = e))
+        : (e = t[68]),
+        (_e = e));
+    }
+    let i;
+    t[69] === x.plugin.shareContext?.creatorName
+      ? (i = t[70])
+      : ((i = x.plugin.shareContext?.creatorName?.trim() || null),
+        (t[69] = x.plugin.shareContext?.creatorName),
+        (t[70] = i));
+    let a = i,
+      o =
+        x.marketplacePath == null &&
+        (x.remoteMarketplaceName === `workspace-shared-with-me-private` ||
+          x.remoteMarketplaceName === `workspace-shared-with-me-unlisted`),
+      s;
+    t[71] !== o ||
+    t[72] !== v ||
+    t[73] !== x.plugin.interface?.developerName ||
+    t[74] !== L ||
+    t[75] !== a
+      ? ((s =
+          v == null
+            ? null
+            : L == null
+              ? o
+                ? a
+                : (x.plugin.interface?.developerName?.trim() ?? null)
+              : (0, K.jsx)(T, {
+                  id: `plugins.card.creator.you`,
+                  defaultMessage: `You`,
+                  description: `Creator label for a personal local plugin in the manage plugins list`,
+                })),
+        (t[71] = o),
+        (t[72] = v),
+        (t[73] = x.plugin.interface?.developerName),
+        (t[74] = L),
+        (t[75] = a),
+        (t[76] = s))
+      : (s = t[76]);
+    let c = s,
+      p;
+    (t[77] === c
+      ? (p = t[78])
+      : ((p =
+          c == null
+            ? null
+            : (0, K.jsx)(`div`, {
+                className: `w-28 truncate pe-3 text-right text-sm text-token-text-secondary`,
+                children: c,
+              })),
+        (t[77] = c),
+        (t[78] = p)),
+      (ge = p));
+    let m = v == null ? a : null;
+    we = (D != null && !z) || re || ie || y != null;
+    let g = P ? `disabled:opacity-100` : void 0,
+      b = P ? `ghost` : `outline`,
+      C;
+    t[79] !== E || t[80] !== x
+      ? ((C = (e) => {
+          (e.stopPropagation(), E(x));
+        }),
+        (t[79] = E),
+        (t[80] = x),
+        (t[81] = C))
+      : (C = t[81]);
+    let w;
+    t[82] !== l || t[83] !== u || t[84] !== d || t[85] !== P || t[86] !== h
+      ? ((w = P
+          ? (0, K.jsxs)(K.Fragment, {
+              children: [
+                (0, K.jsx)($t, {
+                  percent: d,
+                  reducedMotion: h,
+                  size: 16,
+                  transitionDurationMs: 500,
+                }),
+                u === `installing`
+                  ? (0, K.jsx)(T, { ...q.installing })
+                  : (0, K.jsx)(T, { ...q.installLoading }),
+              ],
+            })
+          : (l ??
+            (0, K.jsx)(T, {
+              id: `plugins.card.connect`,
+              defaultMessage: `Install`,
+              description: `Button label for installing a plugin`,
+            }))),
+        (t[82] = l),
+        (t[83] = u),
+        (t[84] = d),
+        (t[85] = P),
+        (t[86] = h),
+        (t[87] = w))
+      : (w = t[87]);
+    let O;
+    (t[88] !== be || t[89] !== g || t[90] !== b || t[91] !== C || t[92] !== w
+      ? ((O = (0, K.jsx)(V, {
+          className: g,
+          color: b,
+          disabled: be,
+          onClick: C,
+          size: `toolbar`,
+          children: w,
+        })),
+        (t[88] = be),
+        (t[89] = g),
+        (t[90] = b),
+        (t[91] = C),
+        (t[92] = w),
+        (t[93] = O))
+      : (O = t[93]),
+      (ve = O),
+      (he = Fn));
+    let A = n ?? `border-none`;
+    t[94] === A
+      ? (B = t[95])
+      : ((B = At(`group !cursor-interaction justify-center`, A)), (t[94] = A), (t[95] = B));
+    let j = (ae || k || z) && `opacity-60`;
+    (t[96] !== r || t[97] !== j
+      ? ((Me = At(r, j)), (t[96] = r), (t[97] = j), (t[98] = Me))
+      : (Me = t[98]),
+      (Te = `center`),
+      (Ee = !1));
+    let ee = _ ? `!cursor-interaction` : null,
+      M;
+    t[99] === ee
+      ? (M = t[100])
+      : ((M = At(
+          `flex h-10 w-10 shrink-0 items-center justify-center overflow-hidden rounded-lg border border-token-border-default bg-transparent`,
+          ee,
+        )),
+        (t[99] = ee),
+        (t[100] = M));
+    let te;
+    t[101] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((te = (0, K.jsx)(Sn, { className: `icon-md text-token-text-secondary` })), (t[101] = te))
+      : (te = t[101]);
+    let F;
+    t[102] !== x.plugin.name || t[103] !== N
+      ? ((F = (0, K.jsx)(Ne, { alt: N, knownAppId: x.plugin.name, fallback: te })),
+        (t[102] = x.plugin.name),
+        (t[103] = N),
+        (t[104] = F))
+      : (F = t[104]);
+    let I;
+    (t[105] !== x.logoDarkPath || t[106] !== x.logoPath || t[107] !== N || t[108] !== F
+      ? ((I = (0, K.jsx)(Ne, {
+          alt: N,
+          className: `h-full w-full object-contain`,
+          logoDarkUrl: x.logoDarkPath,
+          logoUrl: x.logoPath,
+          fallback: F,
+        })),
+        (t[105] = x.logoDarkPath),
+        (t[106] = x.logoPath),
+        (t[107] = N),
+        (t[108] = F),
+        (t[109] = I))
+      : (I = t[109]),
+      t[110] !== M || t[111] !== I
+        ? ((De = (0, K.jsx)(`span`, { className: M, children: I })),
+          (t[110] = M),
+          (t[111] = I),
+          (t[112] = De))
+        : (De = t[112]),
+      (Oe = N),
+      t[113] !== m || t[114] !== x.description
+        ? ((ke =
+            x.description == null && m == null
+              ? void 0
+              : (0, K.jsxs)(K.Fragment, {
+                  children: [
+                    x.description == null
+                      ? null
+                      : (0, K.jsx)(`div`, { className: `line-clamp-1`, children: x.description }),
+                    m == null
+                      ? null
+                      : (0, K.jsx)(`div`, {
+                          className: `text-xs text-token-description-foreground`,
+                          children: (0, K.jsx)(T, { ...q.sharedBy, values: { name: m } }),
+                        }),
+                  ],
+                })),
+          (t[113] = m),
+          (t[114] = x.description),
+          (t[115] = ke))
+        : (ke = t[115]),
+      (Ae = `flex flex-col gap-0.5 !text-token-description-foreground`),
+      (je = Ja(x, k, S, Se)),
+      (t[20] = ie),
+      (t[21] = ce),
+      (t[22] = oe),
+      (t[23] = n),
+      (t[24] = r),
+      (t[25] = me),
+      (t[26] = l),
+      (t[27] = u),
+      (t[28] = d),
+      (t[29] = z),
+      (t[30] = ae),
+      (t[31] = P),
+      (t[32] = pe),
+      (t[33] = f),
+      (t[34] = S),
+      (t[35] = re),
+      (t[36] = k),
+      (t[37] = E),
+      (t[38] = _),
+      (t[39] = v),
+      (t[40] = D),
+      (t[41] = y),
+      (t[42] = x),
+      (t[43] = N),
+      (t[44] = h),
+      (t[45] = L),
+      (t[46] = he),
+      (t[47] = ge),
+      (t[48] = _e),
+      (t[49] = ve),
+      (t[50] = be),
+      (t[51] = Se),
+      (t[52] = Ce),
+      (t[53] = we),
+      (t[54] = Te),
+      (t[55] = Ee),
+      (t[56] = De),
+      (t[57] = Oe),
+      (t[58] = ke),
+      (t[59] = Ae),
+      (t[60] = je),
+      (t[61] = B),
+      (t[62] = Me));
+  } else
+    ((he = t[46]),
+      (ge = t[47]),
+      (_e = t[48]),
+      (ve = t[49]),
+      (be = t[50]),
+      (Se = t[51]),
+      (Ce = t[52]),
+      (we = t[53]),
+      (Te = t[54]),
+      (Ee = t[55]),
+      (De = t[56]),
+      (Oe = t[57]),
+      (ke = t[58]),
+      (Ae = t[59]),
+      (je = t[60]),
+      (B = t[61]),
+      (Me = t[62]));
+  let Pe;
+  t[116] !== E || t[117] !== _ || t[118] !== x || t[119] !== Se
+    ? ((Pe = _
+        ? () => {
+            if (ee.current) {
+              ee.current = !1;
+              return;
+            }
+            if (Se) {
+              E(x);
+              return;
+            }
+            _(x);
+          }
+        : void 0),
+      (t[116] = E),
+      (t[117] = _),
+      (t[118] = x),
+      (t[119] = Se),
+      (t[120] = Pe))
+    : (Pe = t[120]);
+  let Fe;
+  t[121] !== F ||
+  t[122] !== ie ||
+  t[123] !== i ||
+  t[124] !== ge ||
+  t[125] !== _e ||
+  t[126] !== ve ||
+  t[127] !== A ||
+  t[128] !== z ||
+  t[129] !== ae ||
+  t[130] !== be ||
+  t[131] !== I ||
+  t[132] !== re ||
+  t[133] !== m ||
+  t[134] !== p ||
+  t[135] !== g ||
+  t[136] !== v ||
+  t[137] !== b ||
+  t[138] !== D ||
+  t[139] !== y ||
+  t[140] !== j ||
+  t[141] !== x ||
+  t[142] !== N ||
+  t[143] !== h ||
+  t[144] !== L ||
+  t[145] !== Ce ||
+  t[146] !== we
+    ? ((Fe =
+        F === `toggle`
+          ? (0, K.jsxs)(`div`, {
+              className: `flex items-center gap-2`,
+              children: [
+                ge,
+                we
+                  ? (0, K.jsx)(`div`, {
+                      className: `invisible opacity-0 group-focus-within:visible group-focus-within:opacity-100 group-hover:visible group-hover:opacity-100`,
+                      onClick: Ua,
+                      onKeyDown: Ha,
+                      children: (0, K.jsxs)(xe, {
+                        align: `end`,
+                        contentWidth: `sm`,
+                        triggerButton: (0, K.jsx)(ln, {
+                          label: A.formatMessage({
+                            id: `plugins.card.moreActions`,
+                            defaultMessage: `More actions`,
+                            description: `Aria label for the more actions menu in an installed plugin card`,
+                          }),
+                          size: `toolbar`,
+                        }),
+                        children: [
+                          D != null && !z
+                            ? (0, K.jsx)(O.Item, {
+                                LeftIcon: _n,
+                                leftIconClassName: `icon-xs`,
+                                onSelect: () => {
+                                  D(x);
+                                },
+                                children: (0, K.jsx)(T, { ...q.tryItNowMenuItem }),
+                              })
+                            : null,
+                          re && v != null
+                            ? (0, K.jsx)(O.Item, {
+                                LeftIcon: on,
+                                leftIconClassName: `icon-xs`,
+                                onSelect: () => {
+                                  v(x);
+                                },
+                                children: (0, K.jsx)(T, {
+                                  id: `plugins.card.shareMenuItem`,
+                                  defaultMessage: `Share`,
+                                  description: `Menu item label for sharing a plugin from the manage plugins list`,
+                                }),
+                              })
+                            : null,
+                          ie
+                            ? (0, K.jsx)(O.Item, {
+                                LeftIcon: En,
+                                leftIconClassName: `icon-xs`,
+                                onSelect: () => {
+                                  if (g != null) {
+                                    g(x);
+                                    return;
+                                  }
+                                  i != null && ir(i);
+                                },
+                                children: (0, K.jsx)(T, {
+                                  id: `plugins.card.copyShareLinkMenuItem`,
+                                  defaultMessage: `Copy link`,
+                                  description: `Menu item label for copying a plugin share link from the manage plugins list`,
+                                }),
+                              })
+                            : null,
+                          re
+                            ? (0, K.jsx)(O.Item, {
+                                LeftIcon: mn,
+                                leftIconClassName: `icon-xs`,
+                                onSelect: () => {
+                                  or({ path: L, cwd: null, openFile: j.mutate });
+                                },
+                                children: (0, K.jsx)(T, {
+                                  id: `plugins.card.editMenuItem`,
+                                  defaultMessage: `Edit`,
+                                  description: `Menu item label for opening a personal plugin's files from the manage plugins list`,
+                                }),
+                              })
+                            : null,
+                          y
+                            ? (0, K.jsx)(O.Item, {
+                                LeftIcon: qt,
+                                className: `!text-token-error-foreground`,
+                                leftIconClassName: `icon-xs text-token-error-foreground`,
+                                disabled: m,
+                                onSelect: () => {
+                                  y(x);
+                                },
+                                children: (0, K.jsx)(T, {
+                                  id: `plugins.card.deleteMenuItem`,
+                                  defaultMessage: `Uninstall`,
+                                  description: `Menu item label for uninstalling a plugin from the manage plugins list`,
+                                }),
+                              })
+                            : null,
+                        ],
+                      }),
+                    })
+                  : null,
+                (0, K.jsx)(de, {
+                  tooltipContent: z
+                    ? (0, K.jsx)(T, { ...q.disabledByAdmin })
+                    : x.plugin.enabled
+                      ? (0, K.jsx)(T, { ...q.disableToggleTooltip })
+                      : (0, K.jsx)(T, { ...q.enableToggleTooltip }),
+                  children: (0, K.jsx)(ye, {
+                    checked: x.plugin.enabled,
+                    disabled: z || p || m,
+                    ariaLabel: A.formatMessage(q.toggleAria),
+                    onClick: Va,
+                    onChange: (e) => {
+                      b?.({ pluginId: x.plugin.id, pluginDisplayName: N, enabled: e });
+                    },
+                  }),
+                }),
+              ],
+            })
+          : F === `menu`
+            ? (0, K.jsxs)(`div`, {
+                className: `flex items-center gap-2`,
+                children: [
+                  ge,
+                  (0, K.jsx)(ra, {
+                    disableMenuLabel: (0, K.jsx)(T, {
+                      id: `plugins.card.disableMenuItem`,
+                      defaultMessage: `Disable`,
+                      description: `Menu item label for disabling a plugin from a plugin card`,
+                    }),
+                    enableButtonLabel: (0, K.jsx)(T, { ...q.enableButton }),
+                    enabledStatusAriaLabel: A.formatMessage(q.enabledStatus),
+                    isEnabled: x.plugin.enabled && !z,
+                    isUninstalling: m,
+                    isUpdating: p,
+                    menuLabel: A.formatMessage({
+                      id: `plugins.card.actionsMenu`,
+                      defaultMessage: `Plugin actions`,
+                      description: `Aria label for the plugin card actions menu trigger`,
+                    }),
+                    onDisable:
+                      !I && !z && b
+                        ? () => {
+                            ((ee.current = !0),
+                              b({ pluginId: x.plugin.id, pluginDisplayName: N, enabled: !1 }));
+                          }
+                        : void 0,
+                    onEnable:
+                      !I && ae && !z && b
+                        ? () => {
+                            ((ee.current = !0),
+                              b({ pluginId: x.plugin.id, pluginDisplayName: N, enabled: !0 }));
+                          }
+                        : void 0,
+                    onUninstall: y
+                      ? () => {
+                          ((ee.current = !0), y(x));
+                        }
+                      : void 0,
+                    uninstallMenuLabel: (0, K.jsx)(T, {
+                      id: `plugins.card.uninstallMenuItem`,
+                      defaultMessage: `Uninstall`,
+                      description: `Menu item label for uninstalling a plugin from a plugin card`,
+                    }),
+                  }),
+                ],
+              })
+            : F === `status`
+              ? (0, K.jsxs)(`div`, {
+                  className: `flex items-center gap-2`,
+                  children: [
+                    ge,
+                    (0, K.jsx)(Wa, {
+                      isUninstalling: m,
+                      onUninstall:
+                        y == null
+                          ? void 0
+                          : () => {
+                              y(x);
+                            },
+                      onTryInChat:
+                        D == null || z || !x.plugin.enabled
+                          ? void 0
+                          : () => {
+                              ((ee.current = !0), D(x));
+                            },
+                    }),
+                  ],
+                })
+              : Ce
+                ? (0, K.jsx)(de, {
+                    tooltipContent: (0, K.jsx)(T, { ...q.disabledInstallTooltip }),
+                    children: (0, K.jsx)(`span`, {
+                      role: `img`,
+                      "aria-label": A.formatMessage(q.disabledInstallTooltip),
+                      className: `flex h-7 w-7 shrink-0 items-center justify-center text-token-text-tertiary`,
+                      children: (0, K.jsx)(Nn, { className: `icon-sm` }),
+                    }),
+                  })
+                : (0, K.jsx)(Fi, {
+                    measurement: ve,
+                    reducedMotion: h,
+                    children: (0, K.jsx)(de, {
+                      tooltipContent: _e,
+                      children: (0, K.jsx)(`div`, {
+                        className: be ? `cursor-not-allowed` : `cursor-interaction`,
+                        children: ve,
+                      }),
+                    }),
+                  })),
+      (t[121] = F),
+      (t[122] = ie),
+      (t[123] = i),
+      (t[124] = ge),
+      (t[125] = _e),
+      (t[126] = ve),
+      (t[127] = A),
+      (t[128] = z),
+      (t[129] = ae),
+      (t[130] = be),
+      (t[131] = I),
+      (t[132] = re),
+      (t[133] = m),
+      (t[134] = p),
+      (t[135] = g),
+      (t[136] = v),
+      (t[137] = b),
+      (t[138] = D),
+      (t[139] = y),
+      (t[140] = j),
+      (t[141] = x),
+      (t[142] = N),
+      (t[143] = h),
+      (t[144] = L),
+      (t[145] = Ce),
+      (t[146] = we),
+      (t[147] = Fe))
+    : (Fe = t[147]);
+  let Ie;
+  return (
+    t[148] !== he ||
+    t[149] !== w ||
+    t[150] !== Te ||
+    t[151] !== Ee ||
+    t[152] !== De ||
+    t[153] !== Oe ||
+    t[154] !== ke ||
+    t[155] !== Ae ||
+    t[156] !== je ||
+    t[157] !== Pe ||
+    t[158] !== Fe ||
+    t[159] !== B ||
+    t[160] !== Me
+      ? ((Ie = (0, K.jsx)(he, {
+          className: B,
+          contentClassName: Me,
+          actionsPlacement: Te,
+          iconContainer: Ee,
+          icon: De,
+          title: Oe,
+          description: ke,
+          descriptionClassName: Ae,
+          badges: je,
+          onClick: Pe,
+          isHighlighted: w,
+          actions: Fe,
+        })),
+        (t[148] = he),
+        (t[149] = w),
+        (t[150] = Te),
+        (t[151] = Ee),
+        (t[152] = De),
+        (t[153] = Oe),
+        (t[154] = ke),
+        (t[155] = Ae),
+        (t[156] = je),
+        (t[157] = Pe),
+        (t[158] = Fe),
+        (t[159] = B),
+        (t[160] = Me),
+        (t[161] = Ie))
+      : (Ie = t[161]),
+    Ie
+  );
+}
+function Va(e) {
+  e.stopPropagation();
+}
+function Ha(e) {
+  e.stopPropagation();
+}
+function Ua(e) {
+  e.stopPropagation();
+}
+function Wa(e) {
+  let t = (0, Ya.c)(10),
+    { isUninstalling: n, onUninstall: r, onTryInChat: i } = e,
+    a = H();
+  if (i == null && r == null) {
+    let e;
+    return (
+      t[0] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, K.jsx)(`span`, { "aria-hidden": !0, className: `h-7 w-7 shrink-0` })),
+          (t[0] = e))
+        : (e = t[0]),
+      e
+    );
+  }
+  let o;
+  t[1] === i
+    ? (o = t[2])
+    : ((o =
+        i == null
+          ? null
+          : (0, K.jsx)(V, {
+              color: `outline`,
+              onClick: i,
+              size: `toolbar`,
+              children: (0, K.jsx)(T, {
+                id: `plugins.card.tryInChat`,
+                defaultMessage: `Try in chat`,
+                description: `Button label for trying an installed plugin in chat`,
+              }),
+            })),
+      (t[1] = i),
+      (t[2] = o));
+  let s;
+  t[3] !== a || t[4] !== n || t[5] !== r
+    ? ((s =
+        r == null
+          ? null
+          : (0, K.jsx)(xe, {
+              align: `end`,
+              contentWidth: `icon`,
+              triggerButton: (0, K.jsx)(ln, {
+                label: a.formatMessage({
+                  id: `plugins.card.moreActions`,
+                  defaultMessage: `More actions`,
+                  description: `Aria label for the more actions menu in an installed plugin card`,
+                }),
+                size: `toolbar`,
+              }),
+              children: (0, K.jsx)(O.Item, {
+                LeftIcon: qt,
+                leftIconClassName: `icon-xs`,
+                disabled: n,
+                onSelect: r,
+                children: (0, K.jsx)(T, {
+                  id: `plugins.card.uninstallMenuItem`,
+                  defaultMessage: `Uninstall`,
+                  description: `Menu item label for uninstalling a plugin from a plugin card`,
+                }),
+              }),
+            })),
+      (t[3] = a),
+      (t[4] = n),
+      (t[5] = r),
+      (t[6] = s))
+    : (s = t[6]);
+  let c;
+  return (
+    t[7] !== o || t[8] !== s
+      ? ((c = (0, K.jsxs)(`div`, {
+          className: `flex h-7 shrink-0 items-center justify-end gap-2`,
+          onClick: Ka,
+          onKeyDown: Ga,
+          children: [o, s],
+        })),
+        (t[7] = o),
+        (t[8] = s),
+        (t[9] = c))
+      : (c = t[9]),
+    c
+  );
+}
+function Ga(e) {
+  e.stopPropagation();
+}
+function Ka(e) {
+  e.stopPropagation();
+}
+function qa({ installedStateAction: e, plugin: t, onToggleInstalledPluginEnabled: n }) {
+  return t.plugin.installed && t.plugin.source.type === `remote` && (e === `toggle` || e === `menu`)
+    ? `menu`
+    : t.plugin.installed && e === `toggle` && n
+      ? `toggle`
+      : t.plugin.installed && e === `menu` && n
+        ? `menu`
+        : t.plugin.installed
+          ? `status`
+          : `install`;
+}
+function Ja(e, t, n, r) {
+  let i = [];
+  return (
+    t &&
+      i.push(
+        (0, K.jsx)(
+          `span`,
+          {
+            className: `text-token-description-foreground`,
+            children: (0, K.jsx)(T, { ...q.unavailableInCurrentContext }),
+          },
+          `${e.plugin.id}-unavailable`,
+        ),
+      ),
+    r && i.push((0, K.jsx)($n, {}, `${e.plugin.id}-plugin-upsell`)),
+    !n &&
+      e.marketplaceName.length > 0 &&
+      Hr(e.marketplaceName) !== `Built by OpenAI` &&
+      i.push(
+        (0, K.jsx)(
+          `span`,
+          { className: `text-token-description-foreground`, children: Hr(e.marketplaceName) },
+          `${e.plugin.id}-marketplace`,
+        ),
+      ),
+    i
+  );
+}
+var Ya,
+  Xa,
+  K,
+  q,
+  Za = e(() => {
+    ((Ya = R()),
+      he(),
+      (Xa = t(Ut(), 1)),
+      k(),
+      st(),
+      Kn(),
+      Qe(),
+      ke(),
+      ui(),
+      dn(),
+      vn(),
+      nn(),
+      we(),
+      Fe(),
+      sr(),
+      fn(),
+      yn(),
+      Gt(),
+      W(),
+      Kt(),
+      Pn(),
+      Wt(),
+      Zt(),
+      Ra(),
+      F(),
+      ar(),
+      pe(),
+      Wn(),
+      Pe(),
+      ri(),
+      kr(),
+      jn(),
+      ca(),
+      er(),
+      Bn(),
+      Br(),
+      Et(),
+      (K = Ye()),
+      (q = Se({
+        pageLoading: {
+          id: `plugins.page.loading`,
+          defaultMessage: `Loading plugins…`,
+          description: `Loading title on the plugins page`,
+        },
+        loadErrorTitle: {
+          id: `plugins.page.loadError.title`,
+          defaultMessage: `Failed to load plugins`,
+          description: `Title shown when plugins could not be loaded`,
+        },
+        enableToggleTooltip: {
+          id: `plugins.card.enableToggleTooltip`,
+          defaultMessage: `Enable plugin`,
+          description: `Tooltip label for enabling a plugin`,
+        },
+        disableToggleTooltip: {
+          id: `plugins.card.disableToggleTooltip`,
+          defaultMessage: `Disable plugin`,
+          description: `Tooltip label for disabling a plugin`,
+        },
+        toggleAria: {
+          id: `plugins.card.toggleAria`,
+          defaultMessage: `Toggle plugin enabled state`,
+          description: `Accessible label for the plugin enablement toggle`,
+        },
+        enabledStatus: {
+          id: `plugins.card.enabledStatus`,
+          defaultMessage: `Plugin enabled`,
+          description: `Status label for an installed plugin that is enabled`,
+        },
+        enableButton: {
+          id: `plugins.card.enableButton`,
+          defaultMessage: `Enable`,
+          description: `Button label for enabling a disabled plugin from a plugin card`,
+        },
+        disabledStatus: {
+          id: `plugins.card.disabledStatus`,
+          defaultMessage: `Plugin disabled`,
+          description: `Status label for an installed plugin that is disabled`,
+        },
+        installTooltip: {
+          id: `plugins.card.installTooltip`,
+          defaultMessage: `Install plugin`,
+          description: `Tooltip label for installing a plugin`,
+        },
+        installLoading: {
+          id: `plugins.card.loading`,
+          defaultMessage: `Loading`,
+          description: `Plugin card action while plugin setup is loading`,
+        },
+        installing: {
+          id: `plugins.card.installing`,
+          defaultMessage: `Installing`,
+          description: `Plugin card action while installation is in progress`,
+        },
+        unavailableInCurrentContext: {
+          id: `plugins.card.unavailableInCurrentContext`,
+          defaultMessage: `Unavailable in this context`,
+          description: `Status label for an installed plugin that cannot be used in the current context`,
+        },
+        disabledByAdmin: {
+          id: `plugins.card.disabledByAdmin`,
+          defaultMessage: `Disabled by admin`,
+          description: `Plugin card label when a plugin is disabled by an admin`,
+        },
+        disabledInstallTooltip: {
+          id: `plugins.card.disabledInstallTooltip`,
+          defaultMessage: `Access is turned off by your admin`,
+          description: `Tooltip shown for the admin-disabled plugin install treatment in the plugins grid.`,
+        },
+        tryItNowMenuItem: {
+          id: `plugins.card.tryItNowMenuItem`,
+          defaultMessage: `Try it now`,
+          description: `Menu item label for trying a plugin in chat`,
+        },
+        sharedBy: {
+          id: `plugins.card.sharedBy`,
+          defaultMessage: `Shared by {name}`,
+          description: `Footer label for the person who shared a plugin`,
+        },
+      })));
+  });
+function Qa(e) {
+  let t = (0, eo.c)(5),
+    { forceReloadPlugins: n, hostId: r } = e,
+    i = z(A),
+    a = H(),
+    o;
+  return (
+    t[0] !== n || t[1] !== r || t[2] !== a || t[3] !== i
+      ? ((o = async (e) => {
+          let t = await _a({
+            forceReloadPlugins: n,
+            onReloadError: $a,
+            params: e,
+            sendAddMarketplace: (e) => Te(`add-marketplace`, { hostId: r, ...e }),
+          });
+          if (t.kind === `reload-failed`) {
+            i.get(Oe).warning(
+              a.formatMessage(
+                {
+                  id: `skills.appsPage.addMarketplace.refreshFailed`,
+                  defaultMessage: `{marketplaceName} marketplace is configured, but failed to refresh the plugin list`,
+                  description: `Toast shown after a marketplace add request succeeds but refreshing the plugin list fails`,
+                },
+                { marketplaceName: t.marketplaceName },
+              ),
+            );
+            return;
+          }
+          i.get(Oe).success(
+            t.alreadyAdded
+              ? a.formatMessage(
+                  {
+                    id: `skills.appsPage.addMarketplace.alreadyAdded`,
+                    defaultMessage: `{marketplaceName} is already added`,
+                    description: `Toast shown after adding a marketplace that was already configured`,
+                  },
+                  { marketplaceName: t.marketplaceName },
+                )
+              : a.formatMessage(
+                  {
+                    id: `skills.appsPage.addMarketplace.success`,
+                    defaultMessage: `{marketplaceName} marketplace added`,
+                    description: `Toast shown after successfully adding a plugin marketplace`,
+                  },
+                  { marketplaceName: t.marketplaceName },
+                ),
+          );
+        }),
+        (t[0] = n),
+        (t[1] = r),
+        (t[2] = a),
+        (t[3] = i),
+        (t[4] = o))
+      : (o = t[4]),
+    o
+  );
+}
+function $a(e) {
+  n.error(`Failed to refresh plugins after adding marketplace`, {
+    safe: {},
+    sensitive: { error: e },
+  });
+}
+var eo,
+  to = e(() => {
+    ((eo = R()), B(), k(), De(), mt(), M(), ue(), va());
+  });
+function no(e) {
+  let t = (0, ao.c)(8),
+    { errorMessage: n, isRetrying: r, onRetry: i } = e,
+    a;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((a = (0, oo.jsx)(T, {
+        id: `skills.appsPage.loadError.title`,
+        defaultMessage: `Unable to load apps`,
+        description: `Title shown when the apps list cannot be loaded`,
+      })),
+      (t[0] = a))
+    : (a = t[0]);
+  let o;
+  t[1] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((o = (0, oo.jsx)(T, {
+        id: `skills.appsPage.loadError.retry`,
+        defaultMessage: `Retry`,
+        description: `Retry button label for the apps list error state`,
+      })),
+      (t[1] = o))
+    : (o = t[1]);
+  let s;
+  t[2] === i
+    ? (s = t[3])
+    : ((s = () => {
+        i();
+      }),
+      (t[2] = i),
+      (t[3] = s));
+  let c;
+  return (
+    t[4] !== n || t[5] !== r || t[6] !== s
+      ? ((c = (0, oo.jsx)(pn, {
+          title: a,
+          content: n,
+          type: `error`,
+          layout: `vertical`,
+          primaryCtaText: o,
+          isPrimaryCtaDisabled: r,
+          onPrimaryCtaClick: s,
+        })),
+        (t[4] = n),
+        (t[5] = r),
+        (t[6] = s),
+        (t[7] = c))
+      : (c = t[7]),
+    c
+  );
+}
+function ro(e) {
+  let t = (0, ao.c)(11),
+    { errorMessage: n, isLoading: r, isRetrying: i, onRetry: a } = e;
+  if (r) {
+    let e;
+    return (
+      t[0] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, oo.jsx)(`div`, {
+            className: `flex min-h-0 flex-1 items-center justify-center py-8`,
+            children: (0, oo.jsx)(Tn, {
+              title: (0, oo.jsx)(T, {
+                id: `skills.appsPage.loading`,
+                defaultMessage: `Loading apps…`,
+                description: `Loading label on the Apps tab of the Skills & Apps page`,
+              }),
+            }),
+          })),
+          (t[0] = e))
+        : (e = t[0]),
+      e
+    );
+  }
+  let o;
+  t[1] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((o = (0, oo.jsx)(T, {
+        id: `skills.appsPage.loadError.title`,
+        defaultMessage: `Unable to load apps`,
+        description: `Title shown when the apps list cannot be loaded`,
+      })),
+      (t[1] = o))
+    : (o = t[1]);
+  let s;
+  t[2] === a
+    ? (s = t[3])
+    : ((s = () => {
+        a();
+      }),
+      (t[2] = a),
+      (t[3] = s));
+  let c;
+  t[4] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((c = (0, oo.jsx)(T, {
+        id: `skills.appsPage.loadError.retry`,
+        defaultMessage: `Retry`,
+        description: `Retry button label for the apps list error state`,
+      })),
+      (t[4] = c))
+    : (c = t[4]);
+  let l;
+  t[5] !== i || t[6] !== s
+    ? ((l = (0, oo.jsx)(V, { color: `outline`, disabled: i, onClick: s, children: c })),
+      (t[5] = i),
+      (t[6] = s),
+      (t[7] = l))
+    : (l = t[7]);
+  let u;
+  return (
+    t[8] !== n || t[9] !== l
+      ? ((u = (0, oo.jsx)(`div`, {
+          className: `flex min-h-0 flex-1 items-center justify-center py-8`,
+          children: (0, oo.jsx)(Tn, { title: o, description: n, actions: l }),
+        })),
+        (t[8] = n),
+        (t[9] = l),
+        (t[10] = u))
+      : (u = t[10]),
+    u
+  );
+}
+function io(e) {
+  let t = (0, ao.c)(25),
+    {
+      apps: n,
+      emptyStateTitle: r,
+      installedStateAction: i,
+      installActionLabel: a,
+      isSingleColumn: o,
+      useCompactEmptyState: s,
+      isAppConnectPending: c,
+      updatingAppId: l,
+      onInstallApp: u,
+      onOpenAppTools: d,
+      onOpenAppUrl: f,
+      onSetAppEnabled: p,
+    } = e,
+    m = i === void 0 ? `check` : i,
+    h = o === void 0 ? !1 : o,
+    g = s === void 0 ? !1 : s;
+  if (n.length === 0) {
+    let e;
+    return (
+      t[0] !== r || t[1] !== g
+        ? ((e = (0, oo.jsx)(`div`, {
+            className: `flex min-h-0 flex-1 items-center justify-center py-8`,
+            children: g
+              ? (0, oo.jsx)(`div`, { className: `text-sm text-token-text-secondary`, children: r })
+              : (0, oo.jsx)(Tn, { title: r }),
+          })),
+          (t[0] = r),
+          (t[1] = g),
+          (t[2] = e))
+        : (e = t[2]),
+      e
+    );
+  }
+  let _;
+  if (
+    t[3] !== n ||
+    t[4] !== a ||
+    t[5] !== m ||
+    t[6] !== c ||
+    t[7] !== u ||
+    t[8] !== d ||
+    t[9] !== f ||
+    t[10] !== p ||
+    t[11] !== l
+  ) {
+    let e;
+    (t[13] !== a ||
+    t[14] !== m ||
+    t[15] !== c ||
+    t[16] !== u ||
+    t[17] !== d ||
+    t[18] !== f ||
+    t[19] !== p ||
+    t[20] !== l
+      ? ((e = (e) =>
+          (0, oo.jsx)(
+            tr,
+            {
+              app: e,
+              installedStateAction: m,
+              installActionLabel: a,
+              isConnectingApp: c(e.id),
+              updatingAppId: l,
+              onInstallApp: u,
+              onOpenAppTools: d,
+              onOpenAppUrl: f,
+              onSetAppEnabled: p,
+            },
+            e.id,
+          )),
+        (t[13] = a),
+        (t[14] = m),
+        (t[15] = c),
+        (t[16] = u),
+        (t[17] = d),
+        (t[18] = f),
+        (t[19] = p),
+        (t[20] = l),
+        (t[21] = e))
+      : (e = t[21]),
+      (_ = n.map(e)),
+      (t[3] = n),
+      (t[4] = a),
+      (t[5] = m),
+      (t[6] = c),
+      (t[7] = u),
+      (t[8] = d),
+      (t[9] = f),
+      (t[10] = p),
+      (t[11] = l),
+      (t[12] = _));
+  } else _ = t[12];
+  let v;
+  return (
+    t[22] !== h || t[23] !== _
+      ? ((v = (0, oo.jsx)(Pa, { gap: `compact`, isSingleColumn: h, children: _ })),
+        (t[22] = h),
+        (t[23] = _),
+        (t[24] = v))
+      : (v = t[24]),
+    v
+  );
+}
+var ao,
+  oo,
+  so = e(() => {
+    ((ao = R()), k(), en(), st(), dn(), In(), Ra(), (oo = Ye()));
+  });
+function co({ creatorPath: e, isFirstOpen: t, kind: n }) {
+  let r = lo[n],
+    i = `[$${r.skillName}](${d(e)})`;
+  return t ? `${i} ${r.firstUsePrompt}` : `${i} `;
+}
+var lo,
+  uo,
+  fo,
+  po = e(() => {
+    (ae(),
+      rt(),
+      (lo = {
+        plugin: { firstUsePrompt: `help me create a plugin`, skillName: `plugin-creator` },
+        skill: { firstUsePrompt: `help me create a skill`, skillName: `skill-creator` },
+      }),
+      (uo = ht(`has-opened-plugin-creator-prefill-v1`, !1)),
+      (fo = ht(`has-opened-skill-creator-prefill-v1`, !1)));
+  }),
+  mo,
+  ho,
+  go = e(() => {
+    (t(Ut()),
+      (mo = Ye()),
+      (ho = (e) =>
+        (0, mo.jsxs)(`svg`, {
+          width: 20,
+          height: 20,
+          viewBox: `0 0 20 20`,
+          fill: `none`,
+          xmlns: `http://www.w3.org/2000/svg`,
+          ...e,
+          children: [
+            (0, mo.jsx)(`path`, {
+              fillRule: `evenodd`,
+              clipRule: `evenodd`,
+              d: `M10.8828 9.61914L11.043 9.66309L17.5928 11.9746C18.5062 12.297 18.5682 13.565 17.6904 13.9746L15.1562 15.1562L13.9746 17.6904C13.5907 18.5132 12.4525 18.5107 12.0459 17.7549L11.9746 17.5928L9.66309 11.043C9.37948 10.2394 10.087 9.46369 10.8828 9.61914ZM13.0264 16.5771L13.9902 14.5127L14.0342 14.4287C14.1447 14.2377 14.3114 14.0842 14.5127 13.9902L16.5771 13.0264L11.0889 11.0889L13.0264 16.5771Z`,
+              fill: `currentColor`,
+            }),
+            (0, mo.jsx)(`path`, {
+              d: `M3.33301 12.668C3.70017 12.668 3.99787 12.9659 3.99805 13.333V14.166C3.99805 15.1794 4.81968 16.0008 5.83301 16.001H6.66602L6.80078 16.0146C7.10342 16.0768 7.33074 16.3451 7.33105 16.666C7.33105 16.9872 7.10357 17.2552 6.80078 17.3174L6.66602 17.3311H5.83301C4.08514 17.3309 2.66797 15.9139 2.66797 14.166V13.333C2.66815 12.966 2.96596 12.6681 3.33301 12.668Z`,
+              fill: `currentColor`,
+            }),
+            (0, mo.jsx)(`path`, {
+              d: `M6.80078 2.68164C7.10349 2.74379 7.3309 3.01195 7.33105 3.33301C7.33105 3.65422 7.1036 3.9222 6.80078 3.98438L6.66602 3.99805H5.83301C4.81979 3.99818 3.99823 4.8198 3.99805 5.83301V6.66602C3.99805 7.03329 3.70028 7.33105 3.33301 7.33105C2.96585 7.33092 2.66797 7.0332 2.66797 6.66602V5.83301C2.66815 4.08526 4.08525 2.6681 5.83301 2.66797H6.66602L6.80078 2.68164Z`,
+              fill: `currentColor`,
+            }),
+            (0, mo.jsx)(`path`, {
+              d: `M14.166 2.66797C15.9139 2.66797 17.3309 4.08518 17.3311 5.83301V6.66602C17.3311 7.03329 17.0333 7.33105 16.666 7.33105C16.299 7.33075 16.001 7.03309 16.001 6.66602V5.83301C16.0008 4.81972 15.1793 3.99805 14.166 3.99805H13.333C12.9659 3.99791 12.668 3.7002 12.668 3.33301C12.6681 2.96597 12.966 2.6681 13.333 2.66797H14.166Z`,
+              fill: `currentColor`,
+            }),
+          ],
+        })));
+  });
+function _o(e) {
+  let t = (0, Co.c)(28),
+    {
+      errorMessage: n,
+      isLoading: r,
+      isRetrying: i,
+      isUpgradingMarketplaces: a,
+      marketplaceLoadErrors: o,
+      marketplaces: s,
+      configuredMarketplaceNames: c,
+      configuredGitMarketplaceNames: l,
+      onUpgradeMarketplace: u,
+      onRemoveMarketplace: d,
+      onRetry: f,
+      pendingUpgradeMarketplaceName: p,
+      pendingRemoveMarketplaceName: m,
+    } = e,
+    h = H();
+  if (r) {
+    let e;
+    return (
+      t[0] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, J.jsx)(`div`, {
+            className: `flex min-h-0 flex-1 items-center justify-center py-8`,
+            children: (0, J.jsx)(Tn, {
+              title: (0, J.jsx)(T, {
+                id: `skills.appsPage.marketplace.loading`,
+                defaultMessage: `Loading marketplaces…`,
+                description: `Loading label on the manage Marketplace tab`,
+              }),
+            }),
+          })),
+          (t[0] = e))
+        : (e = t[0]),
+      e
+    );
+  }
+  if (n) {
+    let e;
+    t[1] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((e = (0, J.jsx)(T, {
+          id: `skills.appsPage.marketplace.loadError.title`,
+          defaultMessage: `Unable to load marketplaces`,
+          description: `Title shown when plugin marketplaces cannot be loaded`,
+        })),
+        (t[1] = e))
+      : (e = t[1]);
+    let r;
+    t[2] === f
+      ? (r = t[3])
+      : ((r = () => {
+          f();
+        }),
+        (t[2] = f),
+        (t[3] = r));
+    let a;
+    t[4] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((a = (0, J.jsx)(T, {
+          id: `skills.appsPage.marketplace.loadError.retry`,
+          defaultMessage: `Retry`,
+          description: `Retry button label for the marketplace list error state`,
+        })),
+        (t[4] = a))
+      : (a = t[4]);
+    let o;
+    t[5] !== i || t[6] !== r
+      ? ((o = (0, J.jsx)(V, { color: `outline`, disabled: i, onClick: r, children: a })),
+        (t[5] = i),
+        (t[6] = r),
+        (t[7] = o))
+      : (o = t[7]);
+    let s;
+    return (
+      t[8] !== n || t[9] !== o
+        ? ((s = (0, J.jsx)(`div`, {
+            className: `flex min-h-0 flex-1 items-center justify-center py-8`,
+            children: (0, J.jsx)(Tn, { title: e, description: n, actions: o }),
+          })),
+          (t[8] = n),
+          (t[9] = o),
+          (t[10] = s))
+        : (s = t[10]),
+      s
+    );
+  }
+  let g;
+  t[11] !== i || t[12] !== o || t[13] !== f
+    ? ((g = (0, J.jsx)(xo, { errors: o, isRetrying: i, onRetry: f })),
+      (t[11] = i),
+      (t[12] = o),
+      (t[13] = f),
+      (t[14] = g))
+    : (g = t[14]);
+  let _;
+  t[15] !== l ||
+  t[16] !== c ||
+  t[17] !== h ||
+  t[18] !== a ||
+  t[19] !== s ||
+  t[20] !== d ||
+  t[21] !== u ||
+  t[22] !== m ||
+  t[23] !== p
+    ? ((_ =
+        s.length === 0
+          ? (0, J.jsx)(`div`, {
+              className: `flex min-h-0 flex-1 items-center justify-center py-8`,
+              children: (0, J.jsx)(`div`, {
+                className: `text-sm text-token-text-secondary`,
+                children: (0, J.jsx)(T, {
+                  id: `skills.appsPage.empty.marketplace`,
+                  defaultMessage: `No marketplaces found`,
+                  description: `Empty state title when there are no marketplaces on the manage Marketplace tab`,
+                }),
+              }),
+            })
+          : (0, J.jsx)(Pa, {
+              gap: `compact`,
+              isSingleColumn: !0,
+              children: s.map((e) => {
+                let t = ti(e, c),
+                  n = m === e.name && t,
+                  r = qi(e, l),
+                  i = p === e.name && r,
+                  o = a || p != null,
+                  s = !r || o || m != null,
+                  f = !t || n || o;
+                return (0, J.jsx)(
+                  Fn,
+                  {
+                    className: `group justify-center border-none`,
+                    actionsPlacement: `center`,
+                    description: (0, J.jsxs)(J.Fragment, {
+                      children: [
+                        (0, J.jsx)(`span`, {
+                          children: (0, J.jsx)(T, {
+                            id: `skills.appsPage.marketplace.pluginCount`,
+                            defaultMessage: `{count, plural, one {# plugin} other {# plugins}}`,
+                            description: `Plugin count shown for a marketplace on the manage Marketplace tab`,
+                            values: { count: e.pluginCount },
+                          }),
+                        }),
+                        e.path == null
+                          ? null
+                          : (0, J.jsx)(`span`, { className: `truncate`, children: e.path }),
+                      ],
+                    }),
+                    descriptionClassName: `flex min-w-0 flex-col gap-0.5 leading-snug`,
+                    icon: (0, J.jsx)(ho, { className: `icon-sm text-token-text-secondary` }),
+                    title: pi(e),
+                    actions: (0, J.jsxs)(ha, {
+                      children: [
+                        (0, J.jsx)(de, {
+                          tooltipContent: vo(e, r),
+                          children: (0, J.jsx)(V, {
+                            className: `shrink-0`,
+                            color: `outline`,
+                            size: `default`,
+                            disabled: s,
+                            loading: i,
+                            "aria-label": h.formatMessage({
+                              id: `skills.appsPage.marketplace.upgrade.ariaLabel`,
+                              defaultMessage: `Upgrade marketplace`,
+                              description: `Accessible label for upgrading a marketplace on the manage Marketplace tab`,
+                            }),
+                            onClick: (t) => {
+                              (t.stopPropagation(), r && u(e));
+                            },
+                            children: (0, J.jsx)(T, {
+                              id: `skills.appsPage.marketplace.upgrade.button`,
+                              defaultMessage: `Upgrade`,
+                              description: `Button label for upgrading a marketplace on the manage Marketplace tab`,
+                            }),
+                          }),
+                        }),
+                        (0, J.jsx)(de, {
+                          tooltipContent: yo(e, t),
+                          children: (0, J.jsx)(V, {
+                            color: `ghost`,
+                            size: `icon`,
+                            disabled: f,
+                            loading: n,
+                            "aria-label": h.formatMessage({
+                              id: `skills.appsPage.marketplace.remove.ariaLabel`,
+                              defaultMessage: `Remove marketplace`,
+                              description: `Accessible label for removing a marketplace on the manage Marketplace tab`,
+                            }),
+                            onClick: (n) => {
+                              (n.stopPropagation(), t && d(e));
+                            },
+                            children: n ? null : (0, J.jsx)(qt, { className: `icon-sm` }),
+                          }),
+                        }),
+                      ],
+                    }),
+                  },
+                  `${e.name}:${e.path ?? `remote`}`,
+                );
+              }),
+            })),
+      (t[15] = l),
+      (t[16] = c),
+      (t[17] = h),
+      (t[18] = a),
+      (t[19] = s),
+      (t[20] = d),
+      (t[21] = u),
+      (t[22] = m),
+      (t[23] = p),
+      (t[24] = _))
+    : (_ = t[24]);
+  let v;
+  return (
+    t[25] !== g || t[26] !== _
+      ? ((v = (0, J.jsxs)(`div`, {
+          className: `flex min-h-0 flex-1 flex-col gap-3`,
+          children: [g, _],
+        })),
+        (t[25] = g),
+        (t[26] = _),
+        (t[27] = v))
+      : (v = t[27]),
+    v
+  );
+}
+function vo(e, t) {
+  return t
+    ? (0, J.jsx)(T, {
+        id: `skills.appsPage.marketplace.upgrade`,
+        defaultMessage: `Upgrade marketplace`,
+        description: `Tooltip label for upgrading a marketplace on the manage Marketplace tab`,
+      })
+    : e.isBuiltIn
+      ? (0, J.jsx)(T, {
+          id: `skills.appsPage.marketplace.upgrade.builtInDisabled`,
+          defaultMessage: `Built-in marketplaces are upgraded by Codex`,
+          description: `Tooltip label for disabled built-in marketplace upgrade`,
+        })
+      : (0, J.jsx)(T, {
+          id: `skills.appsPage.marketplace.upgrade.localDisabled`,
+          defaultMessage: `Only Git marketplaces can be upgraded`,
+          description: `Tooltip label for disabled non-Git marketplace upgrade`,
+        });
+}
+function yo(e, t) {
+  return t
+    ? (0, J.jsx)(T, {
+        id: `skills.appsPage.marketplace.remove`,
+        defaultMessage: `Remove marketplace`,
+        description: `Tooltip label for removing a marketplace on the manage Marketplace tab`,
+      })
+    : e.isBuiltIn
+      ? (0, J.jsx)(T, {
+          id: `skills.appsPage.marketplace.remove.builtInDisabled`,
+          defaultMessage: `Built-in marketplaces cannot be removed`,
+          description: `Tooltip label for disabled built-in marketplace removal`,
+        })
+      : (0, J.jsx)(T, {
+          id: `skills.appsPage.marketplace.remove.configuredDisabled`,
+          defaultMessage: `Only configured marketplaces can be removed`,
+          description: `Tooltip label for disabled unconfigured marketplace removal`,
+        });
+}
+function bo(e) {
+  let t = (0, Co.c)(30),
+    { isRemoving: n, marketplace: r, onOpenChange: i, onRemove: a } = e,
+    o;
+  t[0] === r ? (o = t[1]) : ((o = r == null ? `` : pi(r)), (t[0] = r), (t[1] = o));
+  let s = o,
+    c = r != null,
+    l;
+  t[2] !== r || t[3] !== a
+    ? ((l = (e) => {
+        (e.preventDefault(), r != null && a(r));
+      }),
+      (t[2] = r),
+      (t[3] = a),
+      (t[4] = l))
+    : (l = t[4]);
+  let u;
+  t[5] === s
+    ? (u = t[6])
+    : ((u = (0, J.jsx)(T, {
+        id: `skills.appsPage.marketplace.removeDialog.title`,
+        defaultMessage: `Remove "{marketplaceName}"?`,
+        description: `Title for the dialog confirming marketplace removal`,
+        values: { marketplaceName: s },
+      })),
+      (t[5] = s),
+      (t[6] = u));
+  let d;
+  t[7] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((d = (0, J.jsx)(T, {
+        id: `skills.appsPage.marketplace.removeDialog.description`,
+        defaultMessage: `Codex will remove this marketplace from your configuration. Plugins from it will no longer appear unless the marketplace is added again`,
+        description: `Description for the dialog confirming marketplace removal`,
+      })),
+      (t[7] = d))
+    : (d = t[7]);
+  let f;
+  t[8] === u
+    ? (f = t[9])
+    : ((f = (0, J.jsx)(g, {
+        children: (0, J.jsx)(x, { title: u, subtitle: d, subtitleSize: `sm` }),
+      })),
+      (t[8] = u),
+      (t[9] = f));
+  let p;
+  t[10] === i
+    ? (p = t[11])
+    : ((p = () => {
+        i(!1);
+      }),
+      (t[10] = i),
+      (t[11] = p));
+  let m;
+  t[12] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((m = (0, J.jsx)(T, {
+        id: `skills.appsPage.marketplace.removeDialog.cancel`,
+        defaultMessage: `Cancel`,
+        description: `Cancel button label in the remove marketplace dialog`,
+      })),
+      (t[12] = m))
+    : (m = t[12]);
+  let h;
+  t[13] !== n || t[14] !== p
+    ? ((h = (0, J.jsx)(V, { color: `secondary`, disabled: n, onClick: p, children: m })),
+      (t[13] = n),
+      (t[14] = p),
+      (t[15] = h))
+    : (h = t[15]);
+  let _;
+  t[16] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((_ = (0, J.jsx)(T, {
+        id: `skills.appsPage.marketplace.removeDialog.confirm`,
+        defaultMessage: `Remove`,
+        description: `Confirm button label in the remove marketplace dialog`,
+      })),
+      (t[16] = _))
+    : (_ = t[16]);
+  let v;
+  t[17] === n
+    ? (v = t[18])
+    : ((v = (0, J.jsx)(V, { color: `danger`, loading: n, type: `submit`, children: _ })),
+      (t[17] = n),
+      (t[18] = v));
+  let y;
+  t[19] !== v || t[20] !== h
+    ? ((y = (0, J.jsx)(g, { children: (0, J.jsxs)(ve, { children: [h, v] }) })),
+      (t[19] = v),
+      (t[20] = h),
+      (t[21] = y))
+    : (y = t[21]);
+  let b;
+  t[22] !== y || t[23] !== l || t[24] !== f
+    ? ((b = (0, J.jsxs)(Nt, { as: `form`, onSubmit: l, children: [f, y] })),
+      (t[22] = y),
+      (t[23] = l),
+      (t[24] = f),
+      (t[25] = b))
+    : (b = t[25]);
+  let S;
+  return (
+    t[26] !== i || t[27] !== b || t[28] !== c
+      ? ((S = (0, J.jsx)(dt, { open: c, onOpenChange: i, size: `compact`, children: b })),
+        (t[26] = i),
+        (t[27] = b),
+        (t[28] = c),
+        (t[29] = S))
+      : (S = t[29]),
+    S
+  );
+}
+function xo(e) {
+  let t = (0, Co.c)(32),
+    { errors: n, isRetrying: r, onRetry: i } = e;
+  if (n.length === 0) return null;
+  let a, o, s, c, l, u, d;
+  if (t[0] !== n) {
+    let e = n.slice(0, 3);
+    ((a = n.length - e.length),
+      (d = `border-token-border-medium bg-token-main-surface-secondary rounded-md border p-3`),
+      (u = `flex flex-wrap items-start justify-between gap-3`),
+      (c = `min-w-0 flex-1`),
+      t[8] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((l = (0, J.jsx)(`div`, {
+            className: `text-sm font-medium`,
+            children: (0, J.jsx)(T, {
+              id: `skills.appsPage.marketplace.partialLoadError.title`,
+              defaultMessage: `Some marketplaces could not be loaded`,
+              description: `Banner title shown when some plugin marketplaces fail to load`,
+            }),
+          })),
+          (t[8] = l))
+        : (l = t[8]),
+      (o = `mt-2 flex flex-col gap-2 text-xs text-token-text-secondary`),
+      (s = e.map(So)),
+      (t[0] = n),
+      (t[1] = a),
+      (t[2] = o),
+      (t[3] = s),
+      (t[4] = c),
+      (t[5] = l),
+      (t[6] = u),
+      (t[7] = d));
+  } else ((a = t[1]), (o = t[2]), (s = t[3]), (c = t[4]), (l = t[5]), (u = t[6]), (d = t[7]));
+  let f;
+  t[9] === a
+    ? (f = t[10])
+    : ((f =
+        a > 0
+          ? (0, J.jsx)(`div`, {
+              children: (0, J.jsx)(T, {
+                id: `skills.appsPage.marketplace.partialLoadError.more`,
+                defaultMessage: `{count, plural, one {# more marketplace could not be loaded} other {# more marketplaces could not be loaded}}`,
+                description: `Summary shown when not all marketplace load errors fit in the banner`,
+                values: { count: a },
+              }),
+            })
+          : null),
+      (t[9] = a),
+      (t[10] = f));
+  let p;
+  t[11] !== o || t[12] !== s || t[13] !== f
+    ? ((p = (0, J.jsxs)(`div`, { className: o, children: [s, f] })),
+      (t[11] = o),
+      (t[12] = s),
+      (t[13] = f),
+      (t[14] = p))
+    : (p = t[14]);
+  let m;
+  t[15] !== c || t[16] !== l || t[17] !== p
+    ? ((m = (0, J.jsxs)(`div`, { className: c, children: [l, p] })),
+      (t[15] = c),
+      (t[16] = l),
+      (t[17] = p),
+      (t[18] = m))
+    : (m = t[18]);
+  let h;
+  t[19] === i
+    ? (h = t[20])
+    : ((h = () => {
+        i();
+      }),
+      (t[19] = i),
+      (t[20] = h));
+  let g;
+  t[21] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((g = (0, J.jsx)(T, {
+        id: `skills.appsPage.marketplace.partialLoadError.retry`,
+        defaultMessage: `Retry`,
+        description: `Retry button label for partial marketplace load errors`,
+      })),
+      (t[21] = g))
+    : (g = t[21]);
+  let _;
+  t[22] !== r || t[23] !== h
+    ? ((_ = (0, J.jsx)(V, { color: `outline`, disabled: r, onClick: h, children: g })),
+      (t[22] = r),
+      (t[23] = h),
+      (t[24] = _))
+    : (_ = t[24]);
+  let v;
+  t[25] !== _ || t[26] !== u || t[27] !== m
+    ? ((v = (0, J.jsxs)(`div`, { className: u, children: [m, _] })),
+      (t[25] = _),
+      (t[26] = u),
+      (t[27] = m),
+      (t[28] = v))
+    : (v = t[28]);
+  let y;
+  return (
+    t[29] !== v || t[30] !== d
+      ? ((y = (0, J.jsx)(`div`, { className: d, children: v })),
+        (t[29] = v),
+        (t[30] = d),
+        (t[31] = y))
+      : (y = t[31]),
+    y
+  );
+}
+function So(e, t) {
+  return (0, J.jsxs)(
+    `div`,
+    {
+      className: `min-w-0`,
+      children: [
+        (0, J.jsx)(`div`, { className: `truncate font-mono`, children: e.marketplacePath }),
+        (0, J.jsx)(`div`, { className: `break-words`, children: e.message }),
+      ],
+    },
+    `${e.marketplacePath}:${t}`,
+  );
+}
+var Co,
+  J,
+  wo = e(() => {
+    ((Co = R()), k(), st(), Kn(), Be(), o(), dn(), Fe(), Zt(), go(), ma(), Ra(), Qr(), (J = Ye()));
+  }),
+  To,
+  Eo,
+  Do = e(() => {
+    (t(Ut()),
+      (To = Ye()),
+      (Eo = (e) =>
+        (0, To.jsxs)(`svg`, {
+          width: 20,
+          height: 20,
+          viewBox: `0 0 20 20`,
+          fill: `none`,
+          xmlns: `http://www.w3.org/2000/svg`,
+          ...e,
+          children: [
+            (0, To.jsx)(`circle`, { cx: 10, cy: 10, r: 3.125, fill: `currentColor` }),
+            (0, To.jsx)(`path`, {
+              fillRule: `evenodd`,
+              clipRule: `evenodd`,
+              d: `M10 2.08496C14.3713 2.08496 17.915 5.62867 17.915 10C17.915 14.3713 14.3713 17.915 10 17.915C5.62867 17.915 2.08496 14.3713 2.08496 10C2.08496 5.62867 5.62867 2.08496 10 2.08496ZM10 3.41504C6.3632 3.41504 3.41504 6.3632 3.41504 10C3.41504 13.6368 6.3632 16.585 10 16.585C13.6368 16.585 16.585 13.6368 16.585 10C16.585 6.3632 13.6368 3.41504 10 3.41504Z`,
+              fill: `currentColor`,
+            }),
+          ],
+        })));
+  });
+function Oo(e) {
+  let t = (0, jo.c)(125),
+    n = H();
+  if (e.mode === `manage`) {
+    let r = e.marketplaceUpgradeAction,
+      i;
+    t[0] === n
+      ? (i = t[1])
+      : ((i = n.formatMessage({
+          id: `skills.appsPage.createPlugin`,
+          defaultMessage: `Create plugin`,
+          description: `Label for creating a new plugin on the Skills & Apps page`,
+        })),
+        (t[0] = n),
+        (t[1] = i));
+    let a = !e.canCreatePlugin,
+      o;
+    t[2] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((o = (0, Y.jsx)(T, {
+          id: `skills.appsPage.createPlugin`,
+          defaultMessage: `Create plugin`,
+          description: `Label for creating a new plugin on the Skills & Apps page`,
+        })),
+        (t[2] = o))
+      : (o = t[2]);
+    let s;
+    t[3] !== e.onCreatePlugin || t[4] !== i || t[5] !== a
+      ? ((s = { ariaLabel: i, disabled: a, Icon: Sn, label: o, onSelect: e.onCreatePlugin }),
+        (t[3] = e.onCreatePlugin),
+        (t[4] = i),
+        (t[5] = a),
+        (t[6] = s))
+      : (s = t[6]);
+    let c;
+    t[7] === n
+      ? (c = t[8])
+      : ((c = n.formatMessage({
+          id: `skills.appsPage.createSkill`,
+          defaultMessage: `Create skill`,
+          description: `Label for creating a new skill on the Skills & Apps page`,
+        })),
+        (t[7] = n),
+        (t[8] = c));
+    let l = !e.canCreateSkill,
+      u;
+    t[9] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((u = (0, Y.jsx)(T, {
+          id: `skills.appsPage.createSkill`,
+          defaultMessage: `Create skill`,
+          description: `Label for creating a new skill on the Skills & Apps page`,
+        })),
+        (t[9] = u))
+      : (u = t[9]);
+    let d;
+    t[10] !== e.onCreateSkill || t[11] !== c || t[12] !== l
+      ? ((d = { ariaLabel: c, disabled: l, Icon: dr, label: u, onSelect: e.onCreateSkill }),
+        (t[10] = e.onCreateSkill),
+        (t[11] = c),
+        (t[12] = l),
+        (t[13] = d))
+      : (d = t[13]);
+    let f;
+    if (t[14] !== n || t[15] !== e.recordSkillAction || t[16] !== s || t[17] !== d) {
+      if (((f = [s, d]), e.recordSkillAction)) {
+        let r;
+        t[19] === n
+          ? (r = t[20])
+          : ((r = n.formatMessage({
+              id: `skills.appsPage.recordSkill`,
+              defaultMessage: `Record a skill`,
+              description: `Label for recording a workflow and turning it into a skill on the Skills & Apps page`,
+            })),
+            (t[19] = n),
+            (t[20] = r));
+        let i;
+        t[21] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((i = (0, Y.jsx)(T, {
+              id: `skills.appsPage.recordSkill`,
+              defaultMessage: `Record a skill`,
+              description: `Label for recording a workflow and turning it into a skill on the Skills & Apps page`,
+            })),
+            (t[21] = i))
+          : (i = t[21]);
+        let a;
+        (t[22] !== e.recordSkillAction.disabled ||
+        t[23] !== e.recordSkillAction.onSelect ||
+        t[24] !== r
+          ? ((a = {
+              ariaLabel: r,
+              disabled: e.recordSkillAction.disabled,
+              Icon: Eo,
+              label: i,
+              onSelect: e.recordSkillAction.onSelect,
+            }),
+            (t[22] = e.recordSkillAction.disabled),
+            (t[23] = e.recordSkillAction.onSelect),
+            (t[24] = r),
+            (t[25] = a))
+          : (a = t[25]),
+          f.push(a));
+      }
+      ((t[14] = n), (t[15] = e.recordSkillAction), (t[16] = s), (t[17] = d), (t[18] = f));
+    } else f = t[18];
+    let p;
+    t[26] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((p = (0, Y.jsx)(T, {
+          id: `skills.appsPage.breadcrumb.root`,
+          defaultMessage: `Plugins`,
+          description: `Breadcrumb root label for the manage mode header on the Skills & Apps page`,
+        })),
+        (t[26] = p))
+      : (p = t[26]);
+    let m;
+    t[27] === e.onExitManageMode
+      ? (m = t[28])
+      : ((m = [{ id: `plugins`, label: p, onClick: e.onExitManageMode }]),
+        (t[27] = e.onExitManageMode),
+        (t[28] = m));
+    let h;
+    t[29] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((h = (0, Y.jsx)(T, {
+          id: `skills.appsPage.breadcrumb.manage`,
+          defaultMessage: `Manage`,
+          description: `Breadcrumb label for manage mode on the Skills & Apps page`,
+        })),
+        (t[29] = h))
+      : (h = t[29]);
+    let g;
+    t[30] === m
+      ? (g = t[31])
+      : ((g = (0, Y.jsx)(hr, { ancestors: m, current: h })), (t[30] = m), (t[31] = g));
+    let _ = e.hostSelector,
+      v = e.searchInput,
+      y;
+    t[32] === f ? (y = t[33]) : ((y = (0, Y.jsx)(ko, { actions: f })), (t[32] = f), (t[33] = y));
+    let b;
+    t[34] === n
+      ? (b = t[35])
+      : ((b = n.formatMessage({
+          id: `skills.appsPage.actionsMenu`,
+          defaultMessage: `Page actions`,
+          description: `Aria label for the actions dropdown trigger in the Skills & Apps page header`,
+        })),
+        (t[34] = n),
+        (t[35] = b));
+    let x;
+    t[36] === b
+      ? (x = t[37])
+      : ((x = (0, Y.jsx)(ln, {
+          label: b,
+          className: `hidden md:inline-flex`,
+          iconClassName: `icon-sm`,
+        })),
+        (t[36] = b),
+        (t[37] = x));
+    let S = e.isRefreshingPage ? et : bn,
+      C;
+    t[38] === e
+      ? (C = t[39])
+      : ((C = (t) => {
+          (t.preventDefault(), e.onRefreshPage());
+        }),
+        (t[38] = e),
+        (t[39] = C));
+    let w;
+    t[40] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((w = (0, Y.jsx)(T, {
+          id: `skills.page.refreshSkills`,
+          defaultMessage: `Refresh`,
+          description: `Button label for reloading skills list`,
+        })),
+        (t[40] = w))
+      : (w = t[40]);
+    let E;
+    t[41] !== e.isRefreshDisabled || t[42] !== S || t[43] !== C
+      ? ((E = (0, Y.jsx)(O.Item, {
+          LeftIcon: S,
+          leftIconClassName: `icon-sm`,
+          disabled: e.isRefreshDisabled,
+          onSelect: C,
+          children: w,
+        })),
+        (t[41] = e.isRefreshDisabled),
+        (t[42] = S),
+        (t[43] = C),
+        (t[44] = E))
+      : (E = t[44]);
+    let D;
+    t[45] !== n || t[46] !== r
+      ? ((D = r
+          ? (0, Y.jsx)(O.Item, {
+              LeftIcon: r.isUpgrading ? et : Ie,
+              leftIconClassName: `icon-sm`,
+              disabled: r.disabled,
+              onSelect: r.onUpgrade,
+              tooltipText: n.formatMessage({
+                id: `skills.appsPage.marketplace.upgradeAll.tooltip`,
+                defaultMessage: `Upgrade all marketplaces`,
+                description: `Tooltip for the Marketplace page action that upgrades all configured marketplaces`,
+              }),
+              children: (0, Y.jsx)(T, {
+                id: `skills.appsPage.marketplace.upgradeAll`,
+                defaultMessage: `Upgrade`,
+                description: `Dropdown item label for upgrading all configured marketplaces`,
+              }),
+            })
+          : null),
+        (t[45] = n),
+        (t[46] = r),
+        (t[47] = D))
+      : (D = t[47]);
+    let k;
+    t[48] !== x || t[49] !== E || t[50] !== D
+      ? ((k = (0, Y.jsxs)(xe, {
+          align: `end`,
+          contentWidth: `icon`,
+          triggerButton: x,
+          children: [E, D],
+        })),
+        (t[48] = x),
+        (t[49] = E),
+        (t[50] = D),
+        (t[51] = k))
+      : (k = t[51]);
+    let A;
+    t[52] !== e.hostSelector || t[53] !== e.searchInput || t[54] !== y || t[55] !== k
+      ? ((A = (0, Y.jsxs)(`div`, {
+          className: `flex min-w-0 items-center gap-2`,
+          children: [_, v, y, k],
+        })),
+        (t[52] = e.hostSelector),
+        (t[53] = e.searchInput),
+        (t[54] = y),
+        (t[55] = k),
+        (t[56] = A))
+      : (A = t[56]);
+    let j;
+    return (
+      t[57] !== g || t[58] !== A
+        ? ((j = (0, Y.jsxs)(`div`, {
+            className: `draggable flex w-full min-w-0 items-center justify-between gap-2 select-none electron:h-toolbar extension:py-row-y`,
+            children: [g, A],
+          })),
+          (t[57] = g),
+          (t[58] = A),
+          (t[59] = j))
+        : (j = t[59]),
+      j
+    );
+  }
+  let r;
+  if (
+    t[60] !== n ||
+    t[61] !== e.canCreatePlugin ||
+    t[62] !== e.canCreateSkill ||
+    t[63] !== e.currentBrowseTab ||
+    t[64] !== e.onAddMarketplace ||
+    t[65] !== e.onCreatePlugin ||
+    t[66] !== e.onCreateSkill ||
+    t[67] !== e.recordSkillAction
+  ) {
+    if (
+      ((r =
+        e.currentBrowseTab === `skills`
+          ? [
+              {
+                ariaLabel: n.formatMessage({
+                  id: `skills.appsPage.createSkill`,
+                  defaultMessage: `Create skill`,
+                  description: `Label for creating a new skill on the Skills & Apps page`,
+                }),
+                disabled: !e.canCreateSkill,
+                Icon: dr,
+                label: (0, Y.jsx)(T, {
+                  id: `skills.appsPage.createSkill`,
+                  defaultMessage: `Create skill`,
+                  description: `Label for creating a new skill on the Skills & Apps page`,
+                }),
+                onSelect: e.onCreateSkill,
+              },
+            ]
+          : [
+              {
+                ariaLabel: n.formatMessage({
+                  id: `skills.appsPage.createPlugin`,
+                  defaultMessage: `Create plugin`,
+                  description: `Label for creating a new plugin on the Skills & Apps page`,
+                }),
+                disabled: !e.canCreatePlugin,
+                Icon: Sn,
+                label: (0, Y.jsx)(T, {
+                  id: `skills.appsPage.createPlugin`,
+                  defaultMessage: `Create plugin`,
+                  description: `Label for creating a new plugin on the Skills & Apps page`,
+                }),
+                onSelect: e.onCreatePlugin,
+              },
+            ]),
+      e.currentBrowseTab === `plugins`)
+    ) {
+      let i;
+      t[69] === n
+        ? (i = t[70])
+        : ((i = n.formatMessage({
+            id: `skills.appsPage.addMarketplace`,
+            defaultMessage: `Add marketplace`,
+            description: `Label for adding a plugin marketplace on the Skills & Apps page`,
+          })),
+          (t[69] = n),
+          (t[70] = i));
+      let a;
+      t[71] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((a = (0, Y.jsx)(T, {
+            id: `skills.appsPage.addMarketplace`,
+            defaultMessage: `Add marketplace`,
+            description: `Label for adding a plugin marketplace on the Skills & Apps page`,
+          })),
+          (t[71] = a))
+        : (a = t[71]);
+      let o;
+      (t[72] !== e.onAddMarketplace || t[73] !== i
+        ? ((o = { ariaLabel: i, disabled: !1, Icon: b, label: a, onSelect: e.onAddMarketplace }),
+          (t[72] = e.onAddMarketplace),
+          (t[73] = i),
+          (t[74] = o))
+        : (o = t[74]),
+        r.push(o));
+    }
+    if (e.recordSkillAction) {
+      let i;
+      t[75] === n
+        ? (i = t[76])
+        : ((i = n.formatMessage({
+            id: `skills.appsPage.recordSkill`,
+            defaultMessage: `Record a skill`,
+            description: `Label for recording a workflow and turning it into a skill on the Skills & Apps page`,
+          })),
+          (t[75] = n),
+          (t[76] = i));
+      let a;
+      t[77] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((a = (0, Y.jsx)(T, {
+            id: `skills.appsPage.recordSkill`,
+            defaultMessage: `Record a skill`,
+            description: `Label for recording a workflow and turning it into a skill on the Skills & Apps page`,
+          })),
+          (t[77] = a))
+        : (a = t[77]);
+      let o;
+      (t[78] !== e.recordSkillAction.disabled ||
+      t[79] !== e.recordSkillAction.onSelect ||
+      t[80] !== i
+        ? ((o = {
+            ariaLabel: i,
+            disabled: e.recordSkillAction.disabled,
+            Icon: Eo,
+            label: a,
+            onSelect: e.recordSkillAction.onSelect,
+          }),
+          (t[78] = e.recordSkillAction.disabled),
+          (t[79] = e.recordSkillAction.onSelect),
+          (t[80] = i),
+          (t[81] = o))
+        : (o = t[81]),
+        r.push(o));
+    }
+    ((t[60] = n),
+      (t[61] = e.canCreatePlugin),
+      (t[62] = e.canCreateSkill),
+      (t[63] = e.currentBrowseTab),
+      (t[64] = e.onAddMarketplace),
+      (t[65] = e.onCreatePlugin),
+      (t[66] = e.onCreateSkill),
+      (t[67] = e.recordSkillAction),
+      (t[68] = r));
+  } else r = t[68];
+  let i;
+  t[82] === n
+    ? (i = t[83])
+    : ((i = n.formatMessage({
+        id: `skills.appsPage.managePlugins`,
+        defaultMessage: `Manage`,
+        description: `Label for managing plugins from the Skills & Apps page header`,
+      })),
+      (t[82] = n),
+      (t[83] = i));
+  let a = i,
+    o = e.showBrowseToggle ? `justify-between` : `justify-end`,
+    s;
+  t[84] === o
+    ? (s = t[85])
+    : ((s = At(
+        `draggable flex w-full min-w-0 items-center gap-2 select-none electron:h-toolbar extension:py-row-y`,
+        o,
+      )),
+      (t[84] = o),
+      (t[85] = s));
+  let c;
+  t[86] !== n ||
+  t[87] !== e.currentBrowseTab ||
+  t[88] !== e.onBrowseTabSelect ||
+  t[89] !== e.showBrowseToggle
+    ? ((c = e.showBrowseToggle
+        ? (0, Y.jsx)(br, {
+            ariaLabel: n.formatMessage({
+              id: `skills.appsPage.browseToggle`,
+              defaultMessage: `Browse plugins or skills`,
+              description: `Accessible label for switching between Plugins and Skills on the Skills & Apps page`,
+            }),
+            selectedId: e.currentBrowseTab,
+            onSelect: e.onBrowseTabSelect,
+            size: `toolbar`,
+            options: [
+              {
+                id: `plugins`,
+                label: (0, Y.jsx)(T, {
+                  id: `skills.appsPage.browseTabs.plugins`,
+                  defaultMessage: `Plugins`,
+                  description: `Label for the Plugins option in the browse filter dropdown on the Skills & Apps page`,
+                }),
+              },
+              {
+                id: `skills`,
+                label: (0, Y.jsx)(T, {
+                  id: `skills.appsPage.skillsFilter.all`,
+                  defaultMessage: `Skills`,
+                  description: `Label for the Skills option in the browse filter dropdown on the Skills & Apps page`,
+                }),
+              },
+            ],
+          })
+        : null),
+      (t[86] = n),
+      (t[87] = e.currentBrowseTab),
+      (t[88] = e.onBrowseTabSelect),
+      (t[89] = e.showBrowseToggle),
+      (t[90] = c))
+    : (c = t[90]);
+  let l;
+  t[91] !== e.isRefreshDisabled ||
+  t[92] !== e.isRefreshingPage ||
+  t[93] !== e.needsSkillsRefresh ||
+  t[94] !== e.onRefreshPage
+    ? ((l = e.needsSkillsRefresh
+        ? (0, Y.jsxs)(V, {
+            color: `ghost`,
+            size: `toolbar`,
+            className: `hidden shrink-0 md:inline-flex`,
+            disabled: e.isRefreshDisabled,
+            onClick: e.onRefreshPage,
+            children: [
+              e.isRefreshingPage
+                ? (0, Y.jsx)(et, { className: `icon-xs text-token-text-link-foreground` })
+                : (0, Y.jsx)(`span`, {
+                    className: `icon-xs relative scale-50`,
+                    children: (0, Y.jsx)(`span`, {
+                      className: `absolute inset-0 rounded-full`,
+                      style: { backgroundColor: `var(--vscode-textLink-foreground)` },
+                    }),
+                  }),
+              (0, Y.jsx)(T, {
+                id: `skills.page.refreshSkillsToUseNew`,
+                defaultMessage: `Refresh to use new skill(s)`,
+                description: `Button label shown when newly installed skills require a refresh before they can be used in the composer`,
+              }),
+            ],
+          })
+        : null),
+      (t[91] = e.isRefreshDisabled),
+      (t[92] = e.isRefreshingPage),
+      (t[93] = e.needsSkillsRefresh),
+      (t[94] = e.onRefreshPage),
+      (t[95] = l))
+    : (l = t[95]);
+  let u = e.hostSelector,
+    d;
+  t[96] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((d = (0, Y.jsx)(T, {
+        id: `skills.page.refreshSkills`,
+        defaultMessage: `Refresh`,
+        description: `Button label for reloading skills list`,
+      })),
+      (t[96] = d))
+    : (d = t[96]);
+  let f;
+  t[97] === n
+    ? (f = t[98])
+    : ((f = n.formatMessage({
+        id: `skills.page.refreshSkills`,
+        defaultMessage: `Refresh`,
+        description: `Button label for reloading skills list`,
+      })),
+      (t[97] = n),
+      (t[98] = f));
+  let p;
+  t[99] === e.isRefreshingPage
+    ? (p = t[100])
+    : ((p = e.isRefreshingPage
+        ? (0, Y.jsx)(et, { className: `icon-sm` })
+        : (0, Y.jsx)(bn, { className: `icon-sm` })),
+      (t[99] = e.isRefreshingPage),
+      (t[100] = p));
+  let m;
+  t[101] !== e.isRefreshDisabled || t[102] !== e.onRefreshPage || t[103] !== f || t[104] !== p
+    ? ((m = (0, Y.jsx)(de, {
+        tooltipContent: d,
+        children: (0, Y.jsx)(V, {
+          "aria-label": f,
+          color: `ghost`,
+          size: `toolbar`,
+          className: `hidden md:inline-flex`,
+          disabled: e.isRefreshDisabled,
+          uniform: !0,
+          onClick: e.onRefreshPage,
+          children: p,
+        }),
+      })),
+      (t[101] = e.isRefreshDisabled),
+      (t[102] = e.onRefreshPage),
+      (t[103] = f),
+      (t[104] = p),
+      (t[105] = m))
+    : (m = t[105]);
+  let h;
+  t[106] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((h = (0, Y.jsx)(fr, { className: `icon-sm` })), (t[106] = h))
+    : (h = t[106]);
+  let g;
+  t[107] !== a || t[108] !== e.onManage
+    ? ((g = (0, Y.jsx)(V, {
+        "aria-label": a,
+        color: `ghost`,
+        size: `toolbar`,
+        uniform: !0,
+        onClick: e.onManage,
+        children: h,
+      })),
+      (t[107] = a),
+      (t[108] = e.onManage),
+      (t[109] = g))
+    : (g = t[109]);
+  let _;
+  t[110] !== a || t[111] !== g
+    ? ((_ = (0, Y.jsx)(de, { tooltipContent: a, children: g })),
+      (t[110] = a),
+      (t[111] = g),
+      (t[112] = _))
+    : (_ = t[112]);
+  let v;
+  t[113] === r ? (v = t[114]) : ((v = (0, Y.jsx)(ko, { actions: r })), (t[113] = r), (t[114] = v));
+  let y;
+  t[115] !== e.hostSelector || t[116] !== _ || t[117] !== v || t[118] !== l || t[119] !== m
+    ? ((y = (0, Y.jsxs)(`div`, {
+        className: `flex min-w-0 items-center justify-end gap-2`,
+        children: [l, u, m, _, v],
+      })),
+      (t[115] = e.hostSelector),
+      (t[116] = _),
+      (t[117] = v),
+      (t[118] = l),
+      (t[119] = m),
+      (t[120] = y))
+    : (y = t[120]);
+  let x;
+  return (
+    t[121] !== y || t[122] !== s || t[123] !== c
+      ? ((x = (0, Y.jsxs)(`div`, { className: s, children: [c, y] })),
+        (t[121] = y),
+        (t[122] = s),
+        (t[123] = c),
+        (t[124] = x))
+      : (x = t[124]),
+    x
+  );
+}
+function ko(e) {
+  let t = (0, jo.c)(21),
+    { actions: n } = e,
+    r = H(),
+    i = n[0];
+  if (i == null) {
+    let e;
+    return (
+      t[0] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, Y.jsx)(Y.Fragment, {})), (t[0] = e))
+        : (e = t[0]),
+      e
+    );
+  }
+  if (n.length === 1) {
+    let e;
+    t[1] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((e = (0, Y.jsx)(b, { className: `icon-xs` })), (t[1] = e))
+      : (e = t[1]);
+    let n;
+    t[2] !== i.ariaLabel || t[3] !== i.disabled || t[4] !== i.onSelect
+      ? ((n = (0, Y.jsx)(V, {
+          "aria-label": i.ariaLabel,
+          color: `ghost`,
+          size: `toolbar`,
+          className: `hidden md:inline-flex`,
+          disabled: i.disabled,
+          uniform: !0,
+          onClick: i.onSelect,
+          children: e,
+        })),
+        (t[2] = i.ariaLabel),
+        (t[3] = i.disabled),
+        (t[4] = i.onSelect),
+        (t[5] = n))
+      : (n = t[5]);
+    let r;
+    return (
+      t[6] !== i.label || t[7] !== n
+        ? ((r = (0, Y.jsx)(de, { tooltipContent: i.label, children: n })),
+          (t[6] = i.label),
+          (t[7] = n),
+          (t[8] = r))
+        : (r = t[8]),
+      r
+    );
+  }
+  let a = i.ariaLabel,
+    o = i.disabled,
+    s;
+  t[9] === r
+    ? (s = t[10])
+    : ((s = r.formatMessage({
+        id: `skills.appsPage.createOptions`,
+        defaultMessage: `Create options`,
+        description: `Aria label for the create actions dropdown trigger on the Skills & Apps page`,
+      })),
+      (t[9] = r),
+      (t[10] = s));
+  let c = i.label,
+    l;
+  t[11] === n ? (l = t[12]) : ((l = n.map(Ao)), (t[11] = n), (t[12] = l));
+  let u;
+  t[13] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((u = (0, Y.jsx)(b, { className: `icon-xs` })), (t[13] = u))
+    : (u = t[13]);
+  let d;
+  return (
+    t[14] !== i.ariaLabel ||
+    t[15] !== i.disabled ||
+    t[16] !== i.label ||
+    t[17] !== i.onSelect ||
+    t[18] !== s ||
+    t[19] !== l
+      ? ((d = (0, Y.jsx)(Dt, {
+          color: `outline`,
+          size: `toolbar`,
+          className: `hidden md:inline-flex`,
+          dropdownAlign: `end`,
+          dropdownContentClassName: `pt-2`,
+          dropdownContentWidth: `icon`,
+          primaryAriaLabel: a,
+          primaryDisabled: o,
+          secondaryAriaLabel: s,
+          tooltipContent: c,
+          dropdownContent: l,
+          onClick: i.onSelect,
+          children: u,
+        })),
+        (t[14] = i.ariaLabel),
+        (t[15] = i.disabled),
+        (t[16] = i.label),
+        (t[17] = i.onSelect),
+        (t[18] = s),
+        (t[19] = l),
+        (t[20] = d))
+      : (d = t[20]),
+    d
+  );
+}
+function Ao(e) {
+  return (0, Y.jsx)(
+    O.Item,
+    { LeftIcon: e.Icon, disabled: e.disabled, onSelect: e.onSelect, children: e.label },
+    e.ariaLabel,
+  );
+}
+var jo,
+  Y,
+  Mo = e(() => {
+    ((jo = R()),
+      he(),
+      k(),
+      st(),
+      Vt(),
+      ke(),
+      vn(),
+      yr(),
+      Ue(),
+      mr(),
+      Fe(),
+      fn(),
+      vt(),
+      h(),
+      Do(),
+      gn(),
+      pr(),
+      ur(),
+      (Y = Ye()));
+  });
+function No(e) {
+  let t = (0, Ko.c)(75),
+    {
+      catalogStatusMessage: n,
+      contentAfterConnected: r,
+      errorMessage: i,
+      hostId: a,
+      installingPluginSession: o,
+      isLoading: s,
+      isSingleColumn: c,
+      reducedMotion: l,
+      showSections: u,
+      pendingPluginId: d,
+      pendingUninstallPluginId: f,
+      highlightedPluginId: p,
+      searchResultsTitle: m,
+      onToggleInstalledPluginEnabled: h,
+      onInstallPlugin: g,
+      onManage: _,
+      onOpenPluginDetails: v,
+      onTryInChat: y,
+      onUninstallInstalledPlugin: b,
+      sections: x,
+    } = e,
+    S = c === void 0 ? !1 : c,
+    C = u === void 0 ? !0 : u,
+    w,
+    E,
+    D,
+    O,
+    k,
+    A;
+  if (
+    t[0] !== n ||
+    t[1] !== r ||
+    t[2] !== i ||
+    t[3] !== p ||
+    t[4] !== a ||
+    t[5] !== o ||
+    t[6] !== s ||
+    t[7] !== S ||
+    t[8] !== g ||
+    t[9] !== _ ||
+    t[10] !== v ||
+    t[11] !== h ||
+    t[12] !== y ||
+    t[13] !== b ||
+    t[14] !== d ||
+    t[15] !== f ||
+    t[16] !== l ||
+    t[17] !== m ||
+    t[18] !== x ||
+    t[19] !== C
+  ) {
+    A = Symbol.for(`react.early_return_sentinel`);
+    bb0: {
+      let e = x.filter(Io),
+        c;
+      t[26] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((c = (0, X.jsx)(T, {
+            id: `skills.appsPage.empty.plugins`,
+            defaultMessage: `No plugins found`,
+            description: `Empty state title when there are no plugins on the Plugins tab`,
+          })),
+          (t[26] = c))
+        : (c = t[26]);
+      let u = c,
+        j;
+      if (
+        (t[27] === n
+          ? (j = t[28])
+          : ((j =
+              n == null
+                ? null
+                : (0, X.jsx)(`div`, {
+                    className: `py-2 text-center text-sm text-token-text-tertiary`,
+                    children: n,
+                  })),
+            (t[27] = n),
+            (t[28] = j)),
+        (w = j),
+        s || i || e.length === 0)
+      ) {
+        let e;
+        t[29] === Symbol.for(`react.memo_cache_sentinel`) ? ((e = []), (t[29] = e)) : (e = t[29]);
+        let c;
+        t[30] !== n ||
+        t[31] !== i ||
+        t[32] !== p ||
+        t[33] !== a ||
+        t[34] !== o ||
+        t[35] !== s ||
+        t[36] !== S ||
+        t[37] !== g ||
+        t[38] !== v ||
+        t[39] !== h ||
+        t[40] !== y ||
+        t[41] !== b ||
+        t[42] !== d ||
+        t[43] !== f ||
+        t[44] !== l
+          ? ((c = (0, X.jsx)(`div`, {
+              className: `flex min-h-0 flex-1`,
+              children: (0, X.jsx)(za, {
+                errorMessage: i,
+                gridGap: `catalog`,
+                hostId: a,
+                installingPluginSession: o,
+                isLoading: s,
+                isSingleColumn: S,
+                installedStateAction: `status`,
+                highlightedPluginId: p,
+                plugins: e,
+                onInstallPlugin: g,
+                onOpenPluginDetails: v,
+                onTryInChat: y,
+                onToggleInstalledPluginEnabled: h,
+                onUninstallInstalledPlugin: b,
+                pendingPluginId: d,
+                pendingUninstallPluginId: f,
+                reducedMotion: l,
+                emptyStateAction: n,
+                emptyStateTitle: u,
+              }),
+            })),
+            (t[30] = n),
+            (t[31] = i),
+            (t[32] = p),
+            (t[33] = a),
+            (t[34] = o),
+            (t[35] = s),
+            (t[36] = S),
+            (t[37] = g),
+            (t[38] = v),
+            (t[39] = h),
+            (t[40] = y),
+            (t[41] = b),
+            (t[42] = d),
+            (t[43] = f),
+            (t[44] = l),
+            (t[45] = c))
+          : (c = t[45]);
+        let m;
+        (t[46] !== r || t[47] !== c
+          ? ((m = (0, X.jsxs)(`div`, {
+              className: `flex h-full min-h-full flex-1 flex-col gap-8`,
+              children: [r, c],
+            })),
+            (t[46] = r),
+            (t[47] = c),
+            (t[48] = m))
+          : (m = t[48]),
+          (A = m));
+        break bb0;
+      }
+      if (!C) {
+        let r = e.flatMap(Fo),
+          c = (0, X.jsx)(za, {
+            errorMessage: i,
+            gridGap: `catalog`,
+            hostId: a,
+            installingPluginSession: o,
+            isLoading: s,
+            isSingleColumn: S,
+            installedStateAction: `status`,
+            highlightedPluginId: p,
+            plugins: r,
+            onInstallPlugin: g,
+            onOpenPluginDetails: v,
+            onTryInChat: y,
+            onToggleInstalledPluginEnabled: h,
+            onUninstallInstalledPlugin: b,
+            pendingPluginId: d,
+            pendingUninstallPluginId: f,
+            reducedMotion: l,
+            emptyStateAction: n,
+            emptyStateTitle: u,
+          }),
+          _ =
+            m == null
+              ? c
+              : (0, X.jsx)(Cr, {
+                  count: r.length,
+                  id: `plugins-search-results`,
+                  title: m,
+                  children: c,
+                }),
+          x;
+        (t[49] !== w || t[50] !== _
+          ? ((x = (0, X.jsxs)(`div`, { className: `flex min-h-0 flex-col`, children: [_, w] })),
+            (t[49] = w),
+            (t[50] = _),
+            (t[51] = x))
+          : (x = t[51]),
+          (A = x));
+        break bb0;
+      }
+      let ee = e.findIndex(Po),
+        M;
+      t[52] !== n ||
+      t[53] !== i ||
+      t[54] !== p ||
+      t[55] !== a ||
+      t[56] !== o ||
+      t[57] !== s ||
+      t[58] !== S ||
+      t[59] !== g ||
+      t[60] !== _ ||
+      t[61] !== v ||
+      t[62] !== h ||
+      t[63] !== y ||
+      t[64] !== b ||
+      t[65] !== d ||
+      t[66] !== f ||
+      t[67] !== l
+        ? ((M = (e) => {
+            let { section: t, plugins: r } = e;
+            return t.id === `plugins-connected`
+              ? (0, X.jsx)(Lo, { id: t.id, plugins: r, onManage: _, onOpenPluginDetails: v }, t.id)
+              : (0, X.jsx)(
+                  Cr,
+                  {
+                    id: t.id,
+                    title: t.title,
+                    children: (0, X.jsx)(Ro, {
+                      errorMessage: i,
+                      hostId: a,
+                      installingPluginSession: o,
+                      isLoading: s,
+                      isSingleColumn: S,
+                      highlightedPluginId: p,
+                      plugins: r,
+                      onInstallPlugin: g,
+                      onOpenPluginDetails: v,
+                      onTryInChat: y,
+                      onToggleInstalledPluginEnabled: h,
+                      onUninstallInstalledPlugin: b,
+                      pendingPluginId: d,
+                      pendingUninstallPluginId: f,
+                      reducedMotion: l,
+                      emptyStateAction: n,
+                      emptyStateTitle: u,
+                    }),
+                  },
+                  t.id,
+                );
+          }),
+          (t[52] = n),
+          (t[53] = i),
+          (t[54] = p),
+          (t[55] = a),
+          (t[56] = o),
+          (t[57] = s),
+          (t[58] = S),
+          (t[59] = g),
+          (t[60] = _),
+          (t[61] = v),
+          (t[62] = h),
+          (t[63] = y),
+          (t[64] = b),
+          (t[65] = d),
+          (t[66] = f),
+          (t[67] = l),
+          (t[68] = M))
+        : (M = t[68]);
+      let N = e.map(M);
+      ((E = `flex flex-1 flex-col gap-8`),
+        (D = ee === -1 ? null : N.slice(0, ee + 1)),
+        (O = r),
+        (k = ee === -1 ? N : N.slice(ee + 1)));
+    }
+    ((t[0] = n),
+      (t[1] = r),
+      (t[2] = i),
+      (t[3] = p),
+      (t[4] = a),
+      (t[5] = o),
+      (t[6] = s),
+      (t[7] = S),
+      (t[8] = g),
+      (t[9] = _),
+      (t[10] = v),
+      (t[11] = h),
+      (t[12] = y),
+      (t[13] = b),
+      (t[14] = d),
+      (t[15] = f),
+      (t[16] = l),
+      (t[17] = m),
+      (t[18] = x),
+      (t[19] = C),
+      (t[20] = w),
+      (t[21] = E),
+      (t[22] = D),
+      (t[23] = O),
+      (t[24] = k),
+      (t[25] = A));
+  } else ((w = t[20]), (E = t[21]), (D = t[22]), (O = t[23]), (k = t[24]), (A = t[25]));
+  if (A !== Symbol.for(`react.early_return_sentinel`)) return A;
+  let j;
+  return (
+    t[69] !== w || t[70] !== E || t[71] !== D || t[72] !== O || t[73] !== k
+      ? ((j = (0, X.jsxs)(`div`, { className: E, children: [D, O, k, w] })),
+        (t[69] = w),
+        (t[70] = E),
+        (t[71] = D),
+        (t[72] = O),
+        (t[73] = k),
+        (t[74] = j))
+      : (j = t[74]),
+    j
+  );
+}
+function Po(e) {
+  let { section: t } = e;
+  return t.id === `plugins-connected`;
+}
+function Fo(e) {
+  let { plugins: t } = e;
+  return t;
+}
+function Io(e) {
+  let { plugins: t } = e;
+  return t.length > 0;
+}
+function Lo(e) {
+  let t = (0, Ko.c)(18),
+    { id: n, plugins: r, onManage: i, onOpenPluginDetails: a } = e,
+    o = H(),
+    s;
+  t[0] === o
+    ? (s = t[1])
+    : ((s = o.formatMessage({
+        id: `skills.appsPage.managePlugins`,
+        defaultMessage: `Manage`,
+        description: `Label for managing plugins from the Skills & Apps page header`,
+      })),
+      (t[0] = o),
+      (t[1] = s));
+  let c = s,
+    l;
+  t[2] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((l = (0, X.jsx)(`h2`, {
+        className: `text-lg leading-6 font-medium text-token-foreground`,
+        children: (0, X.jsx)(T, {
+          id: `skills.appsPage.section.connected`,
+          defaultMessage: `Installed`,
+          description: `Title for the section containing installed plugins`,
+        }),
+      })),
+      (t[2] = l))
+    : (l = t[2]);
+  let u;
+  t[3] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((u = (0, X.jsx)(fr, { className: `icon-sm` })), (t[3] = u))
+    : (u = t[3]);
+  let d;
+  t[4] !== c || t[5] !== i
+    ? ((d = (0, X.jsx)(V, {
+        "aria-label": c,
+        color: `ghost`,
+        size: `toolbar`,
+        uniform: !0,
+        onClick: i,
+        children: u,
+      })),
+      (t[4] = c),
+      (t[5] = i),
+      (t[6] = d))
+    : (d = t[6]);
+  let f;
+  t[7] !== c || t[8] !== d
+    ? ((f = (0, X.jsxs)(`div`, {
+        className: `flex items-center justify-between gap-3 border-b border-token-border/40 px-2 pb-2`,
+        children: [l, (0, X.jsx)(de, { tooltipContent: c, children: d })],
+      })),
+      (t[7] = c),
+      (t[8] = d),
+      (t[9] = f))
+    : (f = t[9]);
+  let p;
+  t[10] !== i || t[11] !== a || t[12] !== r
+    ? ((p = (0, X.jsx)(Ho, { plugins: r, onManage: i, onOpenPluginDetails: a })),
+      (t[10] = i),
+      (t[11] = a),
+      (t[12] = r),
+      (t[13] = p))
+    : (p = t[13]);
+  let m;
+  return (
+    t[14] !== n || t[15] !== f || t[16] !== p
+      ? ((m = (0, X.jsxs)(`section`, {
+          className: `flex flex-col gap-1`,
+          id: n,
+          children: [f, p],
+        })),
+        (t[14] = n),
+        (t[15] = f),
+        (t[16] = p),
+        (t[17] = m))
+      : (m = t[17]),
+    m
+  );
+}
+function Ro(e) {
+  let t = (0, Ko.c)(25),
+    {
+      emptyStateAction: n,
+      emptyStateTitle: r,
+      errorMessage: i,
+      hostId: a,
+      installingPluginSession: o,
+      isLoading: s,
+      isSingleColumn: c,
+      highlightedPluginId: l,
+      plugins: u,
+      onInstallPlugin: d,
+      onOpenPluginDetails: f,
+      onTryInChat: p,
+      onToggleInstalledPluginEnabled: m,
+      onUninstallInstalledPlugin: h,
+      pendingPluginId: g,
+      pendingUninstallPluginId: _,
+      reducedMotion: v,
+    } = e,
+    y;
+  t[0] !== a || t[1] !== o || t[2] !== u
+    ? ((y = o?.hostId === a ? u.find((e) => e.plugin.id === o.plugin.plugin.id) : void 0),
+      (t[0] = a),
+      (t[1] = o),
+      (t[2] = u),
+      (t[3] = y))
+    : (y = t[3]);
+  let b = y,
+    x;
+  t[4] !== n ||
+  t[5] !== r ||
+  t[6] !== i ||
+  t[7] !== l ||
+  t[8] !== a ||
+  t[9] !== o ||
+  t[10] !== s ||
+  t[11] !== c ||
+  t[12] !== d ||
+  t[13] !== f ||
+  t[14] !== m ||
+  t[15] !== p ||
+  t[16] !== h ||
+  t[17] !== g ||
+  t[18] !== _ ||
+  t[19] !== v
+    ? ((x = (e) =>
+        (0, X.jsx)(za, {
+          errorMessage: i,
+          gridGap: `catalog`,
+          hostId: a,
+          highlightedPluginId: l,
+          installingPluginSession: o,
+          isLoading: s,
+          isSingleColumn: c,
+          installedStateAction: `status`,
+          plugins: e,
+          onInstallPlugin: d,
+          onOpenPluginDetails: f,
+          onTryInChat: p,
+          onToggleInstalledPluginEnabled: m,
+          onUninstallInstalledPlugin: h,
+          pendingPluginId: g,
+          pendingUninstallPluginId: _,
+          reducedMotion: v,
+          emptyStateAction: n,
+          emptyStateTitle: r,
+        })),
+      (t[4] = n),
+      (t[5] = r),
+      (t[6] = i),
+      (t[7] = l),
+      (t[8] = a),
+      (t[9] = o),
+      (t[10] = s),
+      (t[11] = c),
+      (t[12] = d),
+      (t[13] = f),
+      (t[14] = m),
+      (t[15] = p),
+      (t[16] = h),
+      (t[17] = g),
+      (t[18] = _),
+      (t[19] = v),
+      (t[20] = x))
+    : (x = t[20]);
+  let S;
+  return (
+    t[21] !== b || t[22] !== u || t[23] !== x
+      ? ((S = (0, X.jsx)(`div`, {
+          className: `flex min-h-0 flex-1 flex-col`,
+          children: (0, X.jsx)(Yr, {
+            batchSize: 12,
+            items: u,
+            pinnedItem: b,
+            visibleItemLimit: 6,
+            renderExpandRow: zo,
+            children: x,
+          }),
+        })),
+        (t[21] = b),
+        (t[22] = u),
+        (t[23] = x),
+        (t[24] = S))
+      : (S = t[24]),
+    S
+  );
+}
+function zo(e) {
+  let { hiddenItems: t, isExpanded: n, onToggle: r } = e,
+    i = t.filter(Vo).slice(0, 3);
+  return (0, X.jsxs)(Xr, {
+    className: `gap-3`,
+    isExpanded: n,
+    onClick: r,
+    children: [
+      i.length > 0 ? (0, X.jsx)(Er, { size: `medium`, children: i.map(Bo) }) : null,
+      (0, X.jsx)(`span`, {
+        children: (0, X.jsx)(T, {
+          id: `skills.appsPage.section.seeAllDescription`,
+          defaultMessage: `See {pluginNames}{remainingCount, plural, =0 {} one {, and # more} other {, and # more}}`,
+          description: `Label for the row that expands a plugin category, previewing the next plugins and the number of additional plugins`,
+          values: {
+            pluginNames: t.slice(0, 2).map(Ct).join(`, `),
+            remainingCount: Math.max(t.length - 2, 0),
+          },
+        }),
+      }),
+    ],
+  });
+}
+function Bo(e) {
+  return (0, X.jsx)(
+    Ne,
+    {
+      alt: ``,
+      className: `size-full`,
+      knownAppId: e.plugin.name,
+      logoDarkUrl: e.logoDarkPath,
+      logoUrl: e.logoPath,
+      fallback: (0, X.jsx)(Sn, { className: `text-token-text-secondary` }),
+    },
+    e.plugin.id,
+  );
+}
+function Vo(e) {
+  return e.logoPath != null || e.logoDarkPath != null || Re(e.plugin.name) != null;
+}
+function Ho(e) {
+  let t = (0, Ko.c)(22),
+    { plugins: n, onManage: r, onOpenPluginDetails: i } = e,
+    a = H(),
+    [o, s] = xn(),
+    { width: c } = s,
+    l,
+    u,
+    d,
+    f,
+    p;
+  if (t[0] !== o || t[1] !== c || t[2] !== a || t[3] !== r || t[4] !== i || t[5] !== n) {
+    let e = Go({ containerWidth: c, pluginCount: n.length }),
+      s = n.slice(0, e),
+      m = n.slice(e),
+      h = m.length,
+      g = i != null;
+    ((p = `px-2`), (l = o), (u = `group/plugin-row flex h-11 gap-1 overflow-visible`));
+    let _;
+    (t[11] !== g || t[12] !== i
+      ? ((_ = (e) => {
+          let t = Ct(e);
+          return (0, X.jsxs)(
+            `button`,
+            {
+              "aria-label": t,
+              className: `group relative flex size-11 shrink-0 cursor-interaction items-center justify-center rounded-xl p-1 outline-none focus-visible:ring-1 focus-visible:ring-token-text-primary focus-visible:ring-offset-1 disabled:cursor-not-allowed`,
+              disabled: !g,
+              type: `button`,
+              onClick: () => i?.(e),
+              children: [
+                (0, X.jsx)(`span`, {
+                  className: At(
+                    `flex size-9 shrink-0 items-center justify-center overflow-hidden rounded-lg border-[0.5px] border-token-border-default bg-token-main-surface-primary shadow-lg transition-transform duration-200 ease-out motion-reduce:transition-none`,
+                    g && `group-hover:-translate-y-1 group-focus-visible:translate-y-0`,
+                  ),
+                  children: (0, X.jsx)(Wo, { plugin: e }),
+                }),
+                (0, X.jsx)(`span`, {
+                  "aria-hidden": `true`,
+                  className: At(
+                    `pointer-events-none absolute start-1/2 top-full z-10 -translate-x-1/2 text-xs leading-4 whitespace-nowrap text-token-text-secondary opacity-0 transition-opacity duration-100 ease-out group-has-[:focus-visible]/plugin-row:duration-0 motion-reduce:transition-none`,
+                    g &&
+                      `group-hover:opacity-100 group-focus-visible:opacity-100 group-has-[:focus-visible]/plugin-row:translate-y-1`,
+                  ),
+                  children: t,
+                }),
+              ],
+            },
+            e.plugin.id,
+          );
+        }),
+        (t[11] = g),
+        (t[12] = i),
+        (t[13] = _))
+      : (_ = t[13]),
+      (d = s.map(_)),
+      (f =
+        h > 0
+          ? (0, X.jsxs)(`button`, {
+              "aria-label": a.formatMessage(
+                {
+                  id: `skills.appsPage.connectedPlugins.overflowAriaLabel`,
+                  defaultMessage: `{count, plural, one {# more connected plugin} other {# more connected plugins}}`,
+                  description: `Accessible label for the connected plugins overflow count`,
+                },
+                { count: h },
+              ),
+              className: `group relative flex size-11 shrink-0 cursor-interaction items-center justify-center rounded-xl p-1 outline-none focus-visible:ring-1 focus-visible:ring-token-text-primary focus-visible:ring-offset-1`,
+              type: `button`,
+              onClick: r,
+              children: [
+                (0, X.jsx)(`span`, {
+                  className: `flex size-9 shrink-0 items-center justify-center overflow-hidden rounded-lg border-[0.5px] border-token-border-default bg-token-main-surface-primary shadow-lg transition-transform duration-200 ease-out group-hover:-translate-y-1 group-focus-visible:translate-y-0 motion-reduce:transition-none`,
+                  children: (0, X.jsx)(`span`, {
+                    className: `grid grid-cols-2 gap-0.5`,
+                    children: m.slice(0, 4).map(Uo),
+                  }),
+                }),
+                (0, X.jsx)(`span`, {
+                  "aria-hidden": `true`,
+                  className: `pointer-events-none absolute start-1/2 top-full z-10 -translate-x-1/2 text-xs leading-4 whitespace-nowrap text-token-text-secondary opacity-0 transition-opacity duration-100 ease-out group-hover:opacity-100 group-focus-visible:opacity-100 group-has-[:focus-visible]/plugin-row:translate-y-1 group-has-[:focus-visible]/plugin-row:duration-0 motion-reduce:transition-none`,
+                  children: (0, X.jsx)(T, {
+                    id: `skills.appsPage.connectedPlugins.overflowLabel`,
+                    defaultMessage: `{count} more`,
+                    description: `Hover and keyboard-focus label beneath the connected plugins overflow tile`,
+                    values: { count: h },
+                  }),
+                }),
+              ],
+            })
+          : null),
+      (t[0] = o),
+      (t[1] = c),
+      (t[2] = a),
+      (t[3] = r),
+      (t[4] = i),
+      (t[5] = n),
+      (t[6] = l),
+      (t[7] = u),
+      (t[8] = d),
+      (t[9] = f),
+      (t[10] = p));
+  } else ((l = t[6]), (u = t[7]), (d = t[8]), (f = t[9]), (p = t[10]));
+  let m;
+  t[14] !== l || t[15] !== u || t[16] !== d || t[17] !== f
+    ? ((m = (0, X.jsxs)(`div`, { ref: l, className: u, children: [d, f] })),
+      (t[14] = l),
+      (t[15] = u),
+      (t[16] = d),
+      (t[17] = f),
+      (t[18] = m))
+    : (m = t[18]);
+  let h;
+  return (
+    t[19] !== p || t[20] !== m
+      ? ((h = (0, X.jsx)(`div`, { className: p, children: m })),
+        (t[19] = p),
+        (t[20] = m),
+        (t[21] = h))
+      : (h = t[21]),
+    h
+  );
+}
+function Uo(e) {
+  return (0, X.jsx)(
+    `span`,
+    {
+      className: `flex size-[13px] items-center justify-center overflow-hidden rounded-[4px] border-[0.5px] border-token-border-default bg-token-main-surface-primary`,
+      children: (0, X.jsx)(Wo, { plugin: e }),
+    },
+    e.plugin.id,
+  );
+}
+function Wo(e) {
+  let t = (0, Ko.c)(5),
+    { plugin: n } = e,
+    r;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((r = (0, X.jsx)(`span`, {
+        className: `flex size-full items-center justify-center`,
+        children: (0, X.jsx)(Sn, { className: `size-1/2 text-token-text-secondary` }),
+      })),
+      (t[0] = r))
+    : (r = t[0]);
+  let i;
+  return (
+    t[1] !== n.logoDarkPath || t[2] !== n.logoPath || t[3] !== n.plugin.name
+      ? ((i = (0, X.jsx)(Ne, {
+          alt: ``,
+          className: `size-full object-contain`,
+          knownAppId: n.plugin.name,
+          logoDarkUrl: n.logoDarkPath,
+          logoUrl: n.logoPath,
+          fallback: r,
+        })),
+        (t[1] = n.logoDarkPath),
+        (t[2] = n.logoPath),
+        (t[3] = n.plugin.name),
+        (t[4] = i))
+      : (i = t[4]),
+    i
+  );
+}
+function Go({ containerWidth: e, pluginCount: t }) {
+  if (e == null) return t;
+  let n = Math.max(1, Math.floor((e + Jo) / (qo + Jo)));
+  return n >= t ? t : n - 1;
+}
+var Ko,
+  X,
+  qo,
+  Jo,
+  Yo = e(() => {
+    ((Ko = R()),
+      he(),
+      k(),
+      tt(),
+      st(),
+      Qe(),
+      Tr(),
+      wr(),
+      Fe(),
+      fn(),
+      pr(),
+      Pe(),
+      Za(),
+      hn(),
+      ai(),
+      (X = Ye()),
+      (qo = 44),
+      (Jo = 4));
+  });
+function Xo(e) {
+  let t = (0, es.c)(37),
+    {
+      skill: n,
+      canInstall: r,
+      hostId: i,
+      isHighlighted: a,
+      isInstalled: o,
+      isInstalling: s,
+      repoRoot: c,
+      onInstall: l,
+    } = e,
+    u = a === void 0 ? !1 : a,
+    d = H(),
+    f = n.shortDescription && n.shortDescription.length > 0 ? n.shortDescription : n.description,
+    p;
+  t[0] !== c || t[1] !== n.repoPath
+    ? ((p = Qo({ repoRoot: c, repoPath: n.repoPath })), (t[0] = c), (t[1] = n.repoPath), (t[2] = p))
+    : (p = t[2]);
+  let m = p,
+    h;
+  t[3] === n.name ? (h = t[4]) : ((h = Tt(n.name)), (t[3] = n.name), (t[4] = h));
+  let g = h,
+    _ = n.iconLarge ? `large` : `small`,
+    v;
+  t[5] !== n || t[6] !== m || t[7] !== _
+    ? ((v = (0, ns.jsx)($o, { skill: n, size: _, basePath: m })),
+      (t[5] = n),
+      (t[6] = m),
+      (t[7] = _),
+      (t[8] = v))
+    : (v = t[8]);
+  let y = v,
+    b = o || !r || s,
+    x;
+  t[9] !== d || t[10] !== b || t[11] !== o || t[12] !== s || t[13] !== l || t[14] !== n
+    ? ((x = o
+        ? (0, ns.jsx)(ra, {
+            enabledStatusAriaLabel: d.formatMessage(rs.installed),
+            isEnabled: !0,
+            isUninstalling: !1,
+            isUpdating: !1,
+          })
+        : (0, ns.jsx)(de, {
+            tooltipContent: (0, ns.jsx)(T, { ...rs.installSkill }),
+            children: (0, ns.jsx)(V, {
+              "aria-label": d.formatMessage(rs.installSkill),
+              color: `secondary`,
+              size: `composer`,
+              disabled: b,
+              loading: s,
+              onClick: (e) => {
+                (e.stopPropagation(), !b && l(n, null));
+              },
+              children: (0, ns.jsx)(T, { ...rs.installSkill }),
+            }),
+          })),
+      (t[9] = d),
+      (t[10] = b),
+      (t[11] = o),
+      (t[12] = s),
+      (t[13] = l),
+      (t[14] = n),
+      (t[15] = x))
+    : (x = t[15]);
+  let S = x,
+    C;
+  t[16] === g
+    ? (C = t[17])
+    : ((C = (0, ns.jsx)(Oi, { kind: `Skill`, title: g })), (t[16] = g), (t[17] = C));
+  let w;
+  t[18] !== g || t[19] !== i || t[20] !== m
+    ? ((w = (e) => {
+        let { isOpen: t } = e;
+        return (0, ns.jsx)(Ti, { hostId: i, isOpen: t, skillPath: m, titleText: g });
+      }),
+      (t[18] = g),
+      (t[19] = i),
+      (t[20] = m),
+      (t[21] = w))
+    : (w = t[21]);
+  let E;
+  t[22] !== r || t[23] !== o || t[24] !== s || t[25] !== l || t[26] !== n
+    ? ((E = (0, ns.jsx)(Zo, {
+        canInstall: r,
+        installing: s,
+        isInstalled: o,
+        onInstall: l,
+        skill: n,
+      })),
+      (t[22] = r),
+      (t[23] = o),
+      (t[24] = s),
+      (t[25] = l),
+      (t[26] = n),
+      (t[27] = E))
+    : (E = t[27]);
+  let D;
+  return (
+    t[28] !== S ||
+    t[29] !== f ||
+    t[30] !== g ||
+    t[31] !== u ||
+    t[32] !== y ||
+    t[33] !== C ||
+    t[34] !== w ||
+    t[35] !== E
+      ? ((D = (0, ns.jsx)(li, {
+          cardIcon: y,
+          cardTitle: g,
+          cardDescription: f,
+          cardActions: S,
+          isHighlighted: u,
+          cardClassName: `justify-center border-none`,
+          modalTitle: C,
+          modalTitleText: g,
+          modalDescription: f,
+          modalBody: w,
+          modalFooter: E,
+        })),
+        (t[28] = S),
+        (t[29] = f),
+        (t[30] = g),
+        (t[31] = u),
+        (t[32] = y),
+        (t[33] = C),
+        (t[34] = w),
+        (t[35] = E),
+        (t[36] = D))
+      : (D = t[36]),
+    D
+  );
+}
+function Zo(e) {
+  let t = (0, es.c)(13),
+    { canInstall: n, installing: r, isInstalled: i, onInstall: a, skill: o } = e,
+    s = i || !n || r,
+    c;
+  t[0] !== a || t[1] !== o
+    ? ((c = (e) => {
+        (e.stopPropagation(), a(o, null));
+      }),
+      (t[0] = a),
+      (t[1] = o),
+      (t[2] = c))
+    : (c = t[2]);
+  let l;
+  t[3] === s
+    ? (l = t[4])
+    : ((l = s ? null : (0, ns.jsx)(b, { className: `icon-xs` })), (t[3] = s), (t[4] = l));
+  let u;
+  t[5] === i
+    ? (u = t[6])
+    : ((u = i
+        ? (0, ns.jsx)(T, { ...rs.installed })
+        : (0, ns.jsx)(T, {
+            id: `skills.recommended.install`,
+            defaultMessage: `Install skill`,
+            description: `Button label to install a recommended skill`,
+          })),
+      (t[5] = i),
+      (t[6] = u));
+  let d;
+  return (
+    t[7] !== r || t[8] !== s || t[9] !== c || t[10] !== l || t[11] !== u
+      ? ((d = (0, ns.jsx)(`div`, {
+          className: `flex w-full justify-end`,
+          children: (0, ns.jsxs)(V, {
+            color: `primary`,
+            size: `toolbar`,
+            disabled: s,
+            loading: r,
+            onClick: c,
+            children: [l, u],
+          }),
+        })),
+        (t[7] = r),
+        (t[8] = s),
+        (t[9] = c),
+        (t[10] = l),
+        (t[11] = u),
+        (t[12] = d))
+      : (d = t[12]),
+    d
+  );
+}
+function Qo({ repoRoot: e, repoPath: t }) {
+  if (!e) return null;
+  let n = t.split(`/`).join(ts.default.sep),
+    r = ts.default.join(e, n);
+  return r.toLowerCase().endsWith(`.md`) ? r : ts.default.join(r, `SKILL.md`);
+}
+function $o(e) {
+  let t = (0, es.c)(13),
+    { skill: n, size: r, basePath: i } = e,
+    a = r === void 0 ? `small` : r,
+    o = !!n.iconLarge,
+    s;
+  t[0] !== i ||
+  t[1] !== a ||
+  t[2] !== n.description ||
+  t[3] !== n.iconLarge ||
+  t[4] !== n.iconSmall ||
+  t[5] !== n.name
+    ? ((s = Yt(null, {
+        size: a,
+        iconSmall: n.iconSmall,
+        iconLarge: n.iconLarge,
+        basePath: i,
+        alt: n.name,
+        fallbackName: n.name,
+        fallbackDescription: n.description,
+      })),
+      (t[0] = i),
+      (t[1] = a),
+      (t[2] = n.description),
+      (t[3] = n.iconLarge),
+      (t[4] = n.iconSmall),
+      (t[5] = n.name),
+      (t[6] = s))
+    : (s = t[6]);
+  let c = s,
+    l;
+  t[7] !== o || t[8] !== a
+    ? ((l = xi({ size: a, hasLargeIcon: o, largeFallbackClassName: `h-5 w-5` })),
+      (t[7] = o),
+      (t[8] = a),
+      (t[9] = l))
+    : (l = t[9]);
+  let u = `${l} text-token-text-secondary`,
+    d;
+  return (
+    t[10] !== c || t[11] !== u
+      ? ((d = (0, ns.jsx)(c, { className: u })), (t[10] = c), (t[11] = u), (t[12] = d))
+      : (d = t[12]),
+    d
+  );
+}
+var es,
+  ts,
+  ns,
+  rs,
+  is = e(() => {
+    ((es = R()),
+      (ts = t(P(), 1)),
+      k(),
+      st(),
+      ui(),
+      Fe(),
+      h(),
+      Bt(),
+      Qt(),
+      Jr(),
+      Ki(),
+      ia(),
+      (ns = Ye()),
+      (rs = Se({
+        installSkill: {
+          id: `skills.recommended.connectSkill`,
+          defaultMessage: `Install skill`,
+          description: `Button label for installing a recommended skill`,
+        },
+        installed: {
+          id: `skills.recommended.installed`,
+          defaultMessage: `Installed`,
+          description: `Label for installed recommended skills`,
+        },
+      })));
+  });
+function as(e) {
+  let t = (0, ys.c)(83),
+    {
+      canInstallRecommendedSkills: n,
+      errorMessage: r,
+      installedStateAction: i,
+      installedSkillGroups: a,
+      installedSkills: o,
+      installedSkillsForRecommendedActions: s,
+      installedRecommendedSkillIds: c,
+      highlightedInstalledSkillPath: l,
+      highlightedRecommendedSkillId: u,
+      hostId: d,
+      installingSkillId: f,
+      isLoadingInstalledSkills: p,
+      isLoadingRecommendedSkills: m,
+      onInstallRecommendedSkill: h,
+      onInstalledRecommendedSkillUpdated: g,
+      onSelectSection: _,
+      onSkillsUpdated: v,
+      recommendedRepoRoot: y,
+      recommendedSkills: b,
+      roots: x,
+      selectedSectionId: S,
+      searchResultsTitle: C,
+      installedSection: w,
+      recommendedSection: E,
+    } = e,
+    D = i === void 0 ? `check` : i,
+    O = H(),
+    k;
+  if (t[0] !== c || t[1] !== s || t[2] !== b) {
+    let e;
+    (t[4] !== c || t[5] !== s
+      ? ((e = (e) => {
+          let t = c.has(e.id);
+          return {
+            installedSkill: t ? di({ installedSkills: s, skill: e }) : null,
+            isInstalled: t,
+            skill: e,
+          };
+        }),
+        (t[4] = c),
+        (t[5] = s),
+        (t[6] = e))
+      : (e = t[6]),
+      (k = b.map(e)),
+      (t[0] = c),
+      (t[1] = s),
+      (t[2] = b),
+      (t[3] = k));
+  } else k = t[3];
+  let A = k,
+    j = w != null && (a.length > 0 || o.length > 0),
+    ee = E != null && A.length > 0;
+  if (!p && !m && r == null && !j && !ee) {
+    let e;
+    return (
+      t[7] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, Z.jsx)(`div`, {
+            className: `flex min-h-0 flex-1 items-center justify-center py-8`,
+            children: (0, Z.jsx)(Tn, {
+              title: (0, Z.jsx)(T, {
+                id: `skills.appsPage.empty.skills`,
+                defaultMessage: `No skills found`,
+                description: `Empty state title when no skills match filters on the Skills & Apps page`,
+              }),
+            }),
+          })),
+          (t[7] = e))
+        : (e = t[7]),
+      e
+    );
+  }
+  if (C != null) {
+    let e = o.length + A.length,
+      i;
+    t[8] !== l ||
+    t[9] !== d ||
+    t[10] !== o ||
+    t[11] !== D ||
+    t[12] !== p ||
+    t[13] !== v ||
+    t[14] !== x
+      ? ((i =
+          o.length > 0
+            ? (0, Z.jsx)(os, {
+                hostId: d,
+                installedStateAction: D,
+                highlightedSkillPath: l,
+                isLoading: p,
+                roots: x,
+                skillEntries: o,
+                onSkillsUpdated: v,
+              })
+            : null),
+        (t[8] = l),
+        (t[9] = d),
+        (t[10] = o),
+        (t[11] = D),
+        (t[12] = p),
+        (t[13] = v),
+        (t[14] = x),
+        (t[15] = i))
+      : (i = t[15]);
+    let a;
+    t[16] !== n ||
+    t[17] !== r ||
+    t[18] !== u ||
+    t[19] !== d ||
+    t[20] !== f ||
+    t[21] !== m ||
+    t[22] !== h ||
+    t[23] !== g ||
+    t[24] !== y ||
+    t[25] !== A ||
+    t[26] !== x
+      ? ((a =
+          A.length > 0
+            ? (0, Z.jsx)(fs, {
+                canInstall: n,
+                errorMessage: r,
+                highlightInstalledSkills: !1,
+                hostId: d,
+                highlightedSkillId: u,
+                entries: A,
+                installingSkillId: f,
+                isLoading: m,
+                onInstall: h,
+                onSkillsUpdated: g,
+                repoRoot: y,
+                roots: x,
+                showAll: !0,
+              })
+            : null),
+        (t[16] = n),
+        (t[17] = r),
+        (t[18] = u),
+        (t[19] = d),
+        (t[20] = f),
+        (t[21] = m),
+        (t[22] = h),
+        (t[23] = g),
+        (t[24] = y),
+        (t[25] = A),
+        (t[26] = x),
+        (t[27] = a))
+      : (a = t[27]);
+    let s;
+    t[28] !== i || t[29] !== a
+      ? ((s = (0, Z.jsxs)(`div`, { className: `flex flex-col gap-3`, children: [i, a] })),
+        (t[28] = i),
+        (t[29] = a),
+        (t[30] = s))
+      : (s = t[30]);
+    let c;
+    return (
+      t[31] !== C || t[32] !== e || t[33] !== s
+        ? ((c = (0, Z.jsx)(Cr, { count: e, id: `skills-search-results`, title: C, children: s })),
+          (t[31] = C),
+          (t[32] = e),
+          (t[33] = s),
+          (t[34] = c))
+        : (c = t[34]),
+      c
+    );
+  }
+  let M;
+  t[35] !== a || t[36] !== E
+    ? ((M = vs(a, E)), (t[35] = a), (t[36] = E), (t[37] = M))
+    : (M = t[37]);
+  let N = M,
+    P;
+  if (t[38] !== a || t[39] !== S) {
+    let e;
+    (t[41] === S ? (e = t[42]) : ((e = (e) => e.id === S), (t[41] = S), (t[42] = e)),
+      (P = a.find(e)),
+      (t[38] = a),
+      (t[39] = S),
+      (t[40] = P));
+  } else P = t[40];
+  let te = P,
+    F;
+  t[43] !== d ||
+  t[44] !== w ||
+  t[45] !== o ||
+  t[46] !== D ||
+  t[47] !== p ||
+  t[48] !== v ||
+  t[49] !== x
+    ? ((F =
+        w == null
+          ? null
+          : (0, Z.jsx)(Cr, {
+              id: w.id,
+              title: (0, Z.jsx)(T, {
+                id: `skills.appsPage.section.installedSkillsOverview`,
+                defaultMessage: `Installed`,
+                description: `Heading for skills installed in Codex`,
+              }),
+              children: (0, Z.jsx)(os, {
+                hostId: d,
+                installedStateAction: D,
+                isLoading: p,
+                maxVisibleSkills: 6,
+                roots: x,
+                skillEntries: o,
+                onSkillsUpdated: v,
+              }),
+            })),
+      (t[43] = d),
+      (t[44] = w),
+      (t[45] = o),
+      (t[46] = D),
+      (t[47] = p),
+      (t[48] = v),
+      (t[49] = x),
+      (t[50] = F))
+    : (F = t[50]);
+  let I;
+  t[51] !== O || t[52] !== _ || t[53] !== N || t[54] !== S
+    ? ((I =
+        N.length > 0 && S != null
+          ? (0, Z.jsx)(da, {
+              className: `w-fit max-w-full`,
+              ariaLabel: O.formatMessage({
+                id: `skills.appsPage.skillDirectoryTabs.ariaLabel`,
+                defaultMessage: `Skill directory`,
+                description: `Accessible label for skill sections on the Skills page`,
+              }),
+              scrollable: !0,
+              selectedKey: S,
+              tabs: N,
+              variant: `pills`,
+              onSelect: _,
+            })
+          : null),
+      (t[51] = O),
+      (t[52] = _),
+      (t[53] = N),
+      (t[54] = S),
+      (t[55] = I))
+    : (I = t[55]);
+  let ne;
+  t[56] !== l ||
+  t[57] !== d ||
+  t[58] !== D ||
+  t[59] !== p ||
+  t[60] !== v ||
+  t[61] !== x ||
+  t[62] !== te
+    ? ((ne =
+        te == null
+          ? null
+          : (0, Z.jsx)(os, {
+              hostId: d,
+              installedStateAction: D,
+              highlightedSkillPath: l,
+              isLoading: p,
+              maxVisibleSkills: 6,
+              onSkillsUpdated: v,
+              roots: x,
+              skillEntries: te.skillEntries,
+            })),
+      (t[56] = l),
+      (t[57] = d),
+      (t[58] = D),
+      (t[59] = p),
+      (t[60] = v),
+      (t[61] = x),
+      (t[62] = te),
+      (t[63] = ne))
+    : (ne = t[63]);
+  let L;
+  t[64] !== n ||
+  t[65] !== r ||
+  t[66] !== u ||
+  t[67] !== d ||
+  t[68] !== f ||
+  t[69] !== m ||
+  t[70] !== h ||
+  t[71] !== g ||
+  t[72] !== y ||
+  t[73] !== E?.id ||
+  t[74] !== A ||
+  t[75] !== x ||
+  t[76] !== S
+    ? ((L =
+        E?.id === S
+          ? (0, Z.jsx)(fs, {
+              canInstall: n,
+              errorMessage: r,
+              highlightInstalledSkills: !0,
+              hostId: d,
+              highlightedSkillId: u,
+              entries: A,
+              installingSkillId: f,
+              isLoading: m,
+              onInstall: h,
+              onSkillsUpdated: g,
+              repoRoot: y,
+              roots: x,
+            })
+          : null),
+      (t[64] = n),
+      (t[65] = r),
+      (t[66] = u),
+      (t[67] = d),
+      (t[68] = f),
+      (t[69] = m),
+      (t[70] = h),
+      (t[71] = g),
+      (t[72] = y),
+      (t[73] = E?.id),
+      (t[74] = A),
+      (t[75] = x),
+      (t[76] = S),
+      (t[77] = L))
+    : (L = t[77]);
+  let re;
+  return (
+    t[78] !== F || t[79] !== I || t[80] !== ne || t[81] !== L
+      ? ((re = (0, Z.jsxs)(`div`, {
+          className: `flex flex-1 flex-col gap-8 pb-panel`,
+          children: [F, I, ne, L],
+        })),
+        (t[78] = F),
+        (t[79] = I),
+        (t[80] = ne),
+        (t[81] = L),
+        (t[82] = re))
+      : (re = t[82]),
+    re
+  );
+}
+function os(e) {
+  let t = (0, ys.c)(36),
+    {
+      gap: n,
+      hostId: r,
+      highlightedSkillPath: i,
+      installedStateAction: a,
+      isLoading: o,
+      isSingleColumn: s,
+      maxVisibleSkills: c,
+      roots: l,
+      skillEntries: u,
+      useCompactEmptyState: d,
+      onSkillsUpdated: f,
+    } = e,
+    p = a === void 0 ? `check` : a,
+    m = s === void 0 ? !1 : s,
+    h = d === void 0 ? !1 : d;
+  if (o) {
+    let e;
+    return (
+      t[0] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, Z.jsx)(`div`, {
+            className: `flex min-h-0 flex-1 items-center justify-center py-8`,
+            children: (0, Z.jsx)(Tn, {
+              title: (0, Z.jsx)(T, {
+                id: `skills.page.loading`,
+                defaultMessage: `Loading skills...`,
+                description: `Loading label on the skills page`,
+              }),
+            }),
+          })),
+          (t[0] = e))
+        : (e = t[0]),
+      e
+    );
+  }
+  if (u.length === 0) {
+    let e;
+    return (
+      t[1] === h
+        ? (e = t[2])
+        : ((e = (0, Z.jsx)(`div`, {
+            className: `flex min-h-0 flex-1 items-center justify-center py-8`,
+            children: h
+              ? (0, Z.jsx)(`div`, {
+                  className: `text-sm text-token-text-secondary`,
+                  children: (0, Z.jsx)(T, {
+                    id: `skills.appsPage.empty.skills`,
+                    defaultMessage: `No skills found`,
+                    description: `Empty state title when no skills match filters on the Skills & Apps page`,
+                  }),
+                })
+              : (0, Z.jsx)(Tn, {
+                  title: (0, Z.jsx)(T, {
+                    id: `skills.appsPage.empty.skills`,
+                    defaultMessage: `No skills found`,
+                    description: `Empty state title when no skills match filters on the Skills & Apps page`,
+                  }),
+                }),
+          })),
+          (t[1] = h),
+          (t[2] = e)),
+      e
+    );
+  }
+  if (c == null) {
+    let e = n ?? `default`,
+      a;
+    return (
+      t[3] !== i ||
+      t[4] !== r ||
+      t[5] !== p ||
+      t[6] !== m ||
+      t[7] !== f ||
+      t[8] !== l ||
+      t[9] !== u ||
+      t[10] !== e
+        ? ((a = (0, Z.jsx)(ls, {
+            gap: e,
+            hostId: r,
+            highlightedSkillPath: i,
+            installedStateAction: p,
+            isSingleColumn: m,
+            roots: l,
+            skillEntries: u,
+            onSkillsUpdated: f,
+          })),
+          (t[3] = i),
+          (t[4] = r),
+          (t[5] = p),
+          (t[6] = m),
+          (t[7] = f),
+          (t[8] = l),
+          (t[9] = u),
+          (t[10] = e),
+          (t[11] = a))
+        : (a = t[11]),
+      a
+    );
+  }
+  let g;
+  t[12] !== c || t[13] !== u.length
+    ? ((g = _s({ itemCount: u.length, visibleItemLimit: c })),
+      (t[12] = c),
+      (t[13] = u.length),
+      (t[14] = g))
+    : (g = t[14]);
+  let _ = g;
+  if (_ == null) {
+    let e = n ?? `default`,
+      a;
+    return (
+      t[15] !== i ||
+      t[16] !== r ||
+      t[17] !== p ||
+      t[18] !== m ||
+      t[19] !== f ||
+      t[20] !== l ||
+      t[21] !== u ||
+      t[22] !== e
+        ? ((a = (0, Z.jsx)(ls, {
+            gap: e,
+            hostId: r,
+            highlightedSkillPath: i,
+            installedStateAction: p,
+            isSingleColumn: m,
+            roots: l,
+            skillEntries: u,
+            onSkillsUpdated: f,
+          })),
+          (t[15] = i),
+          (t[16] = r),
+          (t[17] = p),
+          (t[18] = m),
+          (t[19] = f),
+          (t[20] = l),
+          (t[21] = u),
+          (t[22] = e),
+          (t[23] = a))
+        : (a = t[23]),
+      a
+    );
+  }
+  let v;
+  t[24] !== n ||
+  t[25] !== i ||
+  t[26] !== r ||
+  t[27] !== p ||
+  t[28] !== m ||
+  t[29] !== f ||
+  t[30] !== l
+    ? ((v = (e) =>
+        (0, Z.jsx)(ls, {
+          gap: n ?? `compact`,
+          hostId: r,
+          highlightedSkillPath: i,
+          installedStateAction: p,
+          isSingleColumn: m,
+          roots: l,
+          skillEntries: e,
+          onSkillsUpdated: f,
+        })),
+      (t[24] = n),
+      (t[25] = i),
+      (t[26] = r),
+      (t[27] = p),
+      (t[28] = m),
+      (t[29] = f),
+      (t[30] = l),
+      (t[31] = v))
+    : (v = t[31]);
+  let y;
+  return (
+    t[32] !== u || t[33] !== v || t[34] !== _
+      ? ((y = (0, Z.jsx)(Yr, { items: u, visibleItemLimit: _, renderExpandRow: ss, children: v })),
+        (t[32] = u),
+        (t[33] = v),
+        (t[34] = _),
+        (t[35] = y))
+      : (y = t[35]),
+    y
+  );
+}
+function ss(e) {
+  let { hiddenItems: t, isExpanded: n, onToggle: r } = e;
+  return (0, Z.jsx)(gs, { isExpanded: n, skillNames: t.map(cs), onClick: r });
+}
+function cs(e) {
+  let { skill: t } = e;
+  return C(t);
+}
+function ls(e) {
+  let t = (0, ys.c)(17),
+    {
+      gap: n,
+      hostId: r,
+      highlightedSkillPath: i,
+      installedStateAction: a,
+      isSingleColumn: o,
+      roots: s,
+      skillEntries: c,
+      onSkillsUpdated: l,
+    } = e,
+    u = n === void 0 ? `default` : n,
+    d;
+  if (t[0] !== i || t[1] !== r || t[2] !== a || t[3] !== l || t[4] !== s || t[5] !== c) {
+    let e;
+    (t[7] !== i || t[8] !== r || t[9] !== a || t[10] !== l || t[11] !== s
+      ? ((e = (e) => {
+          let { skill: t } = e;
+          return (0, Z.jsx)(
+            us,
+            {
+              installedStateAction: a,
+              hostId: r,
+              isHighlighted: i === t.path,
+              onSkillsUpdated: l,
+              roots: s,
+              skill: t,
+            },
+            t.path,
+          );
+        }),
+        (t[7] = i),
+        (t[8] = r),
+        (t[9] = a),
+        (t[10] = l),
+        (t[11] = s),
+        (t[12] = e))
+      : (e = t[12]),
+      (d = c.map(e)),
+      (t[0] = i),
+      (t[1] = r),
+      (t[2] = a),
+      (t[3] = l),
+      (t[4] = s),
+      (t[5] = c),
+      (t[6] = d));
+  } else d = t[6];
+  let f;
+  return (
+    t[13] !== u || t[14] !== o || t[15] !== d
+      ? ((f = (0, Z.jsx)(Pa, { gap: u, isSingleColumn: o, children: d })),
+        (t[13] = u),
+        (t[14] = o),
+        (t[15] = d),
+        (t[16] = f))
+      : (f = t[16]),
+    f
+  );
+}
+function us(e) {
+  let t = (0, ys.c)(25),
+    {
+      hostId: n,
+      installedStateAction: r,
+      isHighlighted: i,
+      onSkillsUpdated: a,
+      roots: o,
+      skill: s,
+    } = e,
+    c = H(),
+    l;
+  t[0] !== o || t[1] !== s.path || t[2] !== s.scope
+    ? ((l = s.scope === `repo` ? Zi({ skillPath: s.path, roots: o }) : null),
+      (t[0] = o),
+      (t[1] = s.path),
+      (t[2] = s.scope),
+      (t[3] = l))
+    : (l = t[3]);
+  let u = l,
+    d;
+  t[4] !== r || t[5] !== c || t[6] !== o || t[7] !== s
+    ? ((d = r === `toggle` ? wn({ skill: s, roots: o, intl: c }) : void 0),
+      (t[4] = r),
+      (t[5] = c),
+      (t[6] = o),
+      (t[7] = s),
+      (t[8] = d))
+    : (d = t[8]);
+  let f = d,
+    p;
+  t[9] === r
+    ? (p = t[10])
+    : ((p = r === `toggle` ? (0, Z.jsx)(ds, {}) : void 0), (t[9] = r), (t[10] = p));
+  let m = r !== `toggle`,
+    h;
+  t[11] === s ? (h = t[12]) : ((h = C(s)), (t[11] = s), (t[12] = h));
+  let g;
+  t[13] === Symbol.for(`react.memo_cache_sentinel`) ? ((g = []), (t[13] = g)) : (g = t[13]);
+  let _;
+  return (
+    t[14] !== f ||
+    t[15] !== n ||
+    t[16] !== r ||
+    t[17] !== i ||
+    t[18] !== a ||
+    t[19] !== u ||
+    t[20] !== s ||
+    t[21] !== p ||
+    t[22] !== m ||
+    t[23] !== h
+      ? ((_ = (0, Z.jsx)(ta, {
+          cardIcon: p,
+          cardIconContainer: m,
+          actionLabel: f,
+          displayName: h,
+          hostId: n,
+          installedStateAction: r,
+          isHighlighted: i,
+          onSkillsUpdated: a,
+          repoRoot: u,
+          scopeBadges: g,
+          skill: s,
+        })),
+        (t[14] = f),
+        (t[15] = n),
+        (t[16] = r),
+        (t[17] = i),
+        (t[18] = a),
+        (t[19] = u),
+        (t[20] = s),
+        (t[21] = p),
+        (t[22] = m),
+        (t[23] = h),
+        (t[24] = _))
+      : (_ = t[24]),
+    _
+  );
+}
+function ds() {
+  let e = (0, ys.c)(1),
+    t;
+  return (
+    e[0] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((t = (0, Z.jsx)(`span`, {
+          className: `flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-token-border-default text-token-text-secondary`,
+          children: (0, Z.jsx)(dr, { className: `icon-sm` }),
+        })),
+        (e[0] = t))
+      : (t = e[0]),
+    t
+  );
+}
+function fs(e) {
+  let t = (0, ys.c)(17),
+    {
+      canInstall: n,
+      entries: r,
+      errorMessage: i,
+      highlightInstalledSkills: a,
+      hostId: o,
+      highlightedSkillId: s,
+      installingSkillId: c,
+      isLoading: l,
+      onInstall: u,
+      onSkillsUpdated: d,
+      repoRoot: f,
+      roots: p,
+      showAll: m,
+    } = e,
+    h = m === void 0 ? !1 : m;
+  if (l) {
+    let e;
+    return (
+      t[0] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, Z.jsx)(`div`, {
+            className: `flex min-h-0 flex-1 items-center justify-center py-8`,
+            children: (0, Z.jsx)(Tn, {
+              title: (0, Z.jsx)(T, {
+                id: `skills.page.loading`,
+                defaultMessage: `Loading skills...`,
+                description: `Loading label on the skills page`,
+              }),
+            }),
+          })),
+          (t[0] = e))
+        : (e = t[0]),
+      e
+    );
+  }
+  if (i) {
+    let e;
+    t[1] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((e = (0, Z.jsx)(T, {
+          id: `skills.recommended.error`,
+          defaultMessage: `Unable to load recommended skills`,
+          description: `Error title when recommended skills fail to load`,
+        })),
+        (t[1] = e))
+      : (e = t[1]);
+    let n;
+    return (
+      t[2] === i
+        ? (n = t[3])
+        : ((n = (0, Z.jsx)(`div`, {
+            className: `flex min-h-0 flex-1 items-center justify-center py-8`,
+            children: (0, Z.jsx)(Tn, { title: e, description: i }),
+          })),
+          (t[2] = i),
+          (t[3] = n)),
+      n
+    );
+  }
+  if (r.length === 0) {
+    let e;
+    return (
+      t[4] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, Z.jsx)(`div`, {
+            className: `flex min-h-0 flex-1 items-center justify-center py-8`,
+            children: (0, Z.jsx)(Tn, {
+              title: (0, Z.jsx)(T, {
+                id: `skills.appsPage.empty.skills`,
+                defaultMessage: `No skills found`,
+                description: `Empty state title when no skills match filters on the Skills & Apps page`,
+              }),
+            }),
+          })),
+          (t[4] = e))
+        : (e = t[4]),
+      e
+    );
+  }
+  let g;
+  return (
+    t[5] !== n ||
+    t[6] !== r ||
+    t[7] !== a ||
+    t[8] !== s ||
+    t[9] !== o ||
+    t[10] !== c ||
+    t[11] !== u ||
+    t[12] !== d ||
+    t[13] !== f ||
+    t[14] !== p ||
+    t[15] !== h
+      ? ((g = (0, Z.jsx)(Z.Fragment, {
+          children: h
+            ? (0, Z.jsx)(hs, {
+                canInstall: n,
+                entries: r,
+                highlightInstalledSkills: a,
+                hostId: o,
+                highlightedSkillId: s,
+                installingSkillId: c,
+                onInstall: u,
+                onSkillsUpdated: d,
+                repoRoot: f,
+                roots: p,
+              })
+            : (0, Z.jsx)(Yr, {
+                items: r,
+                visibleItemLimit: _s({ itemCount: r.length, visibleItemLimit: 6 }) ?? r.length,
+                renderExpandRow: ps,
+                children: (e) =>
+                  (0, Z.jsx)(hs, {
+                    canInstall: n,
+                    entries: e,
+                    highlightInstalledSkills: a,
+                    hostId: o,
+                    highlightedSkillId: s,
+                    installingSkillId: c,
+                    onInstall: u,
+                    onSkillsUpdated: d,
+                    repoRoot: f,
+                    roots: p,
+                  }),
+              }),
+        })),
+        (t[5] = n),
+        (t[6] = r),
+        (t[7] = a),
+        (t[8] = s),
+        (t[9] = o),
+        (t[10] = c),
+        (t[11] = u),
+        (t[12] = d),
+        (t[13] = f),
+        (t[14] = p),
+        (t[15] = h),
+        (t[16] = g))
+      : (g = t[16]),
+    g
+  );
+}
+function ps(e) {
+  let { hiddenItems: t, isExpanded: n, onToggle: r } = e;
+  return (0, Z.jsx)(gs, { isExpanded: n, skillNames: t.map(ms), onClick: r });
+}
+function ms(e) {
+  let { skill: t } = e;
+  return t.name;
+}
+function hs(e) {
+  let t = (0, ys.c)(23),
+    {
+      canInstall: n,
+      entries: r,
+      highlightInstalledSkills: i,
+      hostId: a,
+      highlightedSkillId: o,
+      installingSkillId: s,
+      onInstall: c,
+      onSkillsUpdated: l,
+      repoRoot: u,
+      roots: d,
+    } = e,
+    f;
+  if (
+    t[0] !== n ||
+    t[1] !== r ||
+    t[2] !== i ||
+    t[3] !== o ||
+    t[4] !== a ||
+    t[5] !== s ||
+    t[6] !== c ||
+    t[7] !== l ||
+    t[8] !== u ||
+    t[9] !== d
+  ) {
+    let e;
+    (t[11] !== n ||
+    t[12] !== i ||
+    t[13] !== o ||
+    t[14] !== a ||
+    t[15] !== s ||
+    t[16] !== c ||
+    t[17] !== l ||
+    t[18] !== u ||
+    t[19] !== d
+      ? ((e = (e) => {
+          let { installedSkill: t, isInstalled: r, skill: f } = e;
+          return t == null
+            ? (0, Z.jsx)(
+                Xo,
+                {
+                  canInstall: n,
+                  hostId: a,
+                  isHighlighted: r || o === f.id,
+                  isInstalled: r,
+                  isInstalling: s === f.id,
+                  onInstall: c,
+                  repoRoot: u,
+                  skill: f,
+                },
+                f.id,
+              )
+            : (0, Z.jsx)(
+                us,
+                {
+                  hostId: a,
+                  installedStateAction: `menu`,
+                  isHighlighted: i || o === f.id,
+                  onSkillsUpdated: (e) => {
+                    e && l();
+                  },
+                  roots: d,
+                  skill: t,
+                },
+                f.id,
+              );
+        }),
+        (t[11] = n),
+        (t[12] = i),
+        (t[13] = o),
+        (t[14] = a),
+        (t[15] = s),
+        (t[16] = c),
+        (t[17] = l),
+        (t[18] = u),
+        (t[19] = d),
+        (t[20] = e))
+      : (e = t[20]),
+      (f = r.map(e)),
+      (t[0] = n),
+      (t[1] = r),
+      (t[2] = i),
+      (t[3] = o),
+      (t[4] = a),
+      (t[5] = s),
+      (t[6] = c),
+      (t[7] = l),
+      (t[8] = u),
+      (t[9] = d),
+      (t[10] = f));
+  } else f = t[10];
+  let p;
+  return (
+    t[21] === f
+      ? (p = t[22])
+      : ((p = (0, Z.jsx)(Pa, { gap: `compact`, children: f })), (t[21] = f), (t[22] = p)),
+    p
+  );
+}
+function gs(e) {
+  let t = (0, ys.c)(9),
+    { isExpanded: n, skillNames: r, onClick: i } = e,
+    a;
+  t[0] === r ? (a = t[1]) : ((a = r.slice(0, 2).join(`, `)), (t[0] = r), (t[1] = a));
+  let o = Math.max(r.length - 2, 0),
+    s;
+  t[2] !== a || t[3] !== o
+    ? ((s = (0, Z.jsx)(T, {
+        id: `skills.appsPage.section.seeAllSkillsDescription`,
+        defaultMessage: `See {skillNames}{remainingCount, plural, =0 {} one {, and # more} other {, and # more}}`,
+        description: `Label for the row that expands a skill section, previewing the next skills and the number of additional skills`,
+        values: { skillNames: a, remainingCount: o },
+      })),
+      (t[2] = a),
+      (t[3] = o),
+      (t[4] = s))
+    : (s = t[4]);
+  let c;
+  return (
+    t[5] !== n || t[6] !== i || t[7] !== s
+      ? ((c = (0, Z.jsx)(Xr, { isExpanded: n, onClick: i, children: s })),
+        (t[5] = n),
+        (t[6] = i),
+        (t[7] = s),
+        (t[8] = c))
+      : (c = t[8]),
+    c
+  );
+}
+function _s({ itemCount: e, visibleItemLimit: t }) {
+  return e - t >= 3 ? t : void 0;
+}
+function vs(e, t) {
+  let n = [];
+  for (let t of e) n.push({ key: t.id, name: t.title });
+  return (t != null && n.push({ key: t.id, name: t.title }), n);
+}
+var ys,
+  Z,
+  bs = e(() => {
+    ((ys = R()),
+      k(),
+      dn(),
+      wr(),
+      ua(),
+      ur(),
+      un(),
+      is(),
+      aa(),
+      N(),
+      Ra(),
+      ai(),
+      Qr(),
+      Ci(),
+      (Z = Ye()));
+  });
+function xs({ directoryEntrypoint: e } = {}) {
+  let t = z(A),
+    n = H(),
+    o = Wr(Ws),
+    s = He(),
+    l = Di({ explicitEntrypoint: e, locationKey: s.key, locationState: s.state }),
+    p = Ot(),
+    h = bi(s.state),
+    g = c(Ys, s.key),
+    y = t.get(g),
+    b = zt(),
+    x = cr(),
+    S = i(),
+    C = (0, Q.useRef)(null),
+    w = (0, Q.useRef)(null),
+    D = (0, Q.useRef)(y?.browseScrollTop ?? null),
+    O = v(oe) ?? [],
+    k = Xt(O),
+    [M, N] = (0, Q.useState)(y?.selectedHostIdState ?? h.initialHostId ?? `local`),
+    P = M === `local` || k.some((e) => e.hostId === M) ? M : ne,
+    te = ce({ hostId: P }),
+    F = O.map((e) => e.hostId),
+    [I, L] = (0, Q.useState)(() =>
+      y == null
+        ? h.initialMode === `manage`
+          ? Os(h.initialTab)
+          : Ds(ks(h.initialTab))
+        : Ds(`plugins`),
+    ),
+    [ie, ae] = (0, Q.useState)(() => h.connectAppId ?? null),
+    [ue, de] = (0, Q.useState)(y?.searchQuery ?? ``),
+    [fe, pe] = (0, Q.useState)(0),
+    [R, me] = (0, Q.useState)(h.initialSearchQuery ?? ``),
+    [he, ve] = (0, Q.useState)(!1),
+    [ye, be] = (0, Q.useState)(!1),
+    [xe, Se] = (0, Q.useState)(`idle`),
+    [we, Te] = (0, Q.useState)(0),
+    [Ee, De] = (0, Q.useState)(null),
+    [ke, je] = (0, Q.useState)(null),
+    [B, Me] = (0, Q.useState)(y?.selectedPluginDirectoryTab ?? `openai`),
+    [Ne, Pe] = (0, Q.useState)(null),
+    [Fe, Ie] = (0, Q.useState)(null),
+    [Le, V] = (0, Q.useState)(null),
+    [Re, Be] = (0, Q.useState)(!1),
+    Ve = Pt(P),
+    { data: Ue, isLoading: Ge } = Dr(P),
+    Ke = Ue?.homeDirectory,
+    Je = ze(uo),
+    Ye = Ae(uo),
+    Xe = ze(fo),
+    Ze = Ae(fo),
+    {
+      forceReloadSkills: Qe,
+      installedSkillMatchKeys: $e,
+      installedSkillMetadata: et,
+      isFetching: tt,
+      isLoading: rt,
+      markSkillsUpdated: at,
+      standaloneInstalledSkills: st,
+      workspaceRoots: ct,
+    } = ci(P),
+    {
+      canInstallRecommendedSkills: lt,
+      defaultRecommendedRepoRoot: ut,
+      skillCreatorPath: dt,
+    } = qr(P),
+    pt = Ve == null ? null : `${Ve}/skills/.system/plugin-creator/SKILL.md`,
+    { errorMessage: mt, isLoading: ht, refresh: _t, repoRoot: vt, skills: bt } = sa(ut, P),
+    xt = Yi({ recommendedSkills: ht || mt != null ? null : bt, skills: et }),
+    {
+      clearInstalledRecommendedSkills: St,
+      installRecommendedSkill: wt,
+      installedRecommendedSkillIds: Tt,
+      installingSkillId: Et,
+    } = ni({
+      forceReloadSkills: Qe,
+      hostId: P,
+      onInstalled: () => {
+        be(!0);
+      },
+    }),
+    {
+      errorMessage: Dt,
+      featuredPluginIds: Nt,
+      isLoading: Ft,
+      isFetching: Rt,
+      marketplaceLoadErrors: Bt,
+      marketplaces: Vt,
+      availablePlugins: Ut,
+      installedPlugins: Wt,
+      forceReload: Gt,
+      refetch: Kt,
+    } = Mt(P, ct),
+    { value: qt } = re(`2817990312`),
+    Jt = B === `openai` ? Js.parse(qt).category_ids : [],
+    Yt = se(`1269116100`),
+    Zt = se(`4218407052`),
+    { config: Qt } = Zr(),
+    { mutateAsync: $t } = na({ hostId: P }),
+    { mutateAsync: en } = oa({ hostId: P }),
+    { data: tn, isLoading: nn } = _e({ enabled: Yt, hostId: P, marketplaceKind: `shared-with-me` }),
+    { data: rn, isLoading: an } = _e({
+      enabled: Yt,
+      hostId: P,
+      marketplaceKind: `workspace-directory`,
+    }),
+    { data: on, isLoading: sn } = _e({
+      enabled: Zt,
+      hostId: P,
+      marketplaceKind: `created-by-me-remote`,
+    }),
+    cn = Qa({ forceReloadPlugins: Gt, hostId: P }),
+    { data: ln } = It(ct[0] ?? null, { hostId: P, useActiveWorkspaceRoot: !1 }),
+    {
+      data: un,
+      hardRefetchAppsList: dn,
+      isHardRefetchingAppsList: fn,
+      isLoading: pn,
+      loadError: mn,
+    } = j({ hostId: P }),
+    hn = mn?.message ?? null,
+    {
+      closePluginInstall: gn,
+      connectRequiredApp: _n,
+      handleRequiredAppConnected: vn,
+      handleRequiredAppOAuthStarted: yn,
+      installPlugin: bn,
+      isInstalling: xn,
+      openPluginInstall: Sn,
+      openPluginInstallDetails: wn,
+      session: Tn,
+    } = An({ forceReloadPlugins: Gt, hostId: P }),
+    En = Tn.kind === `installing` ? Tn : null,
+    { pendingPluginId: kn, setPluginEnabled: jn } = gt({ hostId: P }),
+    { pendingUninstallPluginId: Mn, uninstallPlugin: Nn } = ot({ hostId: P }),
+    { pendingRemoveMarketplaceName: Pn, removeMarketplace: Fn } = yt({ hostId: P }),
+    {
+      isUpgradingMarketplaces: In,
+      pendingUpgradeMarketplaceName: Ln,
+      upgradeMarketplaces: Rn,
+    } = qe({ hostId: P }),
+    { data: Bn } = kt(ge, P),
+    {
+      clearConnectingApp: Vn,
+      connectingApp: Wn,
+      handleAppConnectOAuthStarted: Kn,
+      handleConnectApp: qn,
+      handleOpenAppUrl: Jn,
+      isAppConnectPending: Yn,
+    } = Lt({ hostId: P }),
+    { setAppEnabled: Zn, updatingAppId: Qn } = jr({ hostId: P }),
+    $n = ke == null ? null : (un?.find((e) => e.id === ke) ?? null),
+    er = E(ke),
+    tr = u({ hostId: P }),
+    nr = fi(Bn?.config),
+    rr = $r(Bn?.config),
+    ar = In || Ln != null,
+    or = !Vt.some((e) => qi(e, nr)) || ar || Pn != null,
+    sr = ie == null ? null : (un?.find((e) => e.id === ie) ?? null),
+    lr = ie != null && Yn(ie),
+    ur = Wn ?? sr,
+    { authMethod: dr } = _(),
+    { data: fr } = Ce(),
+    pr = a(dr),
+    mr = I.kind === `manage`,
+    hr = I.tab,
+    U = I.kind === `browse` ? I.tab : null,
+    vr = P === `local` ? [`claude-cowork`] : [],
+    yr = te && U === `plugins` && vr.length > 0,
+    br = Ht(`external-agent-imported-connectors`, {
+      params: { hostId: ne, providers: vr },
+      queryConfig: { enabled: yr },
+    }),
+    xr = pr || Rr(Ut),
+    Sr = Nr(Ut),
+    wr = Fr(Ut),
+    Tr = tn == null ? null : Fr(tn).filter((e) => e.remoteMarketplaceName === Gs),
+    Er = Pr({ installedPlugins: Wt, sharedWithYouPlugins: tn ?? [], workspacePlugins: rn ?? [] }),
+    Or = rn == null ? null : Fr(rn),
+    kr =
+      (P === `local` && fr?.structure?.toLowerCase() === `workspace` ? fr.name?.trim() : null) ||
+      rn?.find((e) => !!e.marketplaceDisplayName?.trim())?.marketplaceDisplayName?.trim() ||
+      null,
+    Mr = Wi(n, `skills`),
+    Br = Wi(n, U ?? `plugins`),
+    Hr = ue.trim().toLowerCase(),
+    Gr = R.trim().toLowerCase(),
+    W = Hr.length > 0,
+    Jr = si({ skills: st, query: Hr }),
+    Yr = Ei({ skills: bt, query: Hr }),
+    Xr = Hi(Yr),
+    Qr = Pi({ installedRecommendedSkillIds: Tt, installedSkillMatchKeys: $e, skills: W ? Yr : Xr }),
+    ei = Qi({ installedSkills: Jr, recommendedSkills: Qr }),
+    { data: ti } = vi({ enabled: Yt, hostId: P }),
+    {
+      marketplaceFilterValue: ri,
+      plugins: ai,
+      remotePlugins: oi,
+    } = zr({
+      availablePlugins: Ut,
+      createdByMeRemotePlugins: on ?? null,
+      homeDirectory: Ke,
+      pluginShares: Yt ? (ti ?? null) : null,
+      storefrontPlugins: wr,
+    }),
+    li = new Set(
+      [...(Tr ?? []), ...(Or ?? [])].flatMap((e) => {
+        let t = e.plugin.remotePluginId;
+        return t == null ? [] : [t];
+      }),
+    ),
+    ui = [
+      ...wr,
+      ...oi.filter((e) => {
+        let t = e.plugin.remotePluginId;
+        return t == null || !li.has(t);
+      }),
+      ...(Tr ?? []),
+      ...(Or ?? []),
+    ],
+    di = wr.filter(Ir),
+    xi = As({ intl: n, roots: ct, skillEntries: ei }),
+    Ci = Yt && W && U === `plugins`,
+    Ti = U === `skills` || Ci ? null : Ne,
+    Oi = W ? [] : Er,
+    Ai;
+  if (Ci)
+    Ai = Ur({
+      connectedPlugins: [],
+      plugins: Vr({ dedupeSearchResults: !0, plugins: ui, query: Hr }),
+    });
+  else
+    switch (B) {
+      case `openai`:
+        Ai = Ur({
+          categoryOrder: Jt,
+          connectedPlugins: Oi,
+          featuredPluginIds: W ? void 0 : Nt,
+          plugins: Vr({ plugins: di, query: Hr }),
+        });
+        break;
+      case `workspace`:
+        Ai = Ur({ connectedPlugins: Oi, plugins: Vr({ plugins: Or ?? [], query: Hr }) });
+        break;
+      case `personal`: {
+        let e = wr.filter((e) => !Ir(e) && (ri == null || ft(e) !== ri));
+        Ai = [
+          ...Ur({ connectedPlugins: Oi, plugins: [] }),
+          {
+            section: {
+              id: `plugins-created-by-you`,
+              title: n.formatMessage({
+                id: `skills.appsPage.section.createdByYou`,
+                defaultMessage: `Created by you`,
+                description: `Heading for plugins created by the current user`,
+              }),
+            },
+            plugins: Vr({ plugins: ai, query: Hr }),
+          },
+          {
+            section: {
+              id: `plugins-shared-with-you`,
+              title: n.formatMessage({
+                id: `skills.appsPage.section.sharedWithYou`,
+                defaultMessage: `Shared with you`,
+                description: `Heading for plugins shared with the current user`,
+              }),
+            },
+            plugins: Vr({ plugins: Tr ?? [], query: Hr }),
+          },
+          ...Lr(e).map((t) => ({
+            section: {
+              id: `plugins-marketplace-${encodeURIComponent(t.value)}`,
+              title: t.subLabel == null ? t.label : `${t.label} · ${t.subLabel}`,
+            },
+            plugins: Vr({ plugins: e, marketplaceFilterValue: t.value, query: Hr }),
+          })),
+        ].filter(({ plugins: e }) => e.length > 0);
+        break;
+      }
+    }
+  let ji =
+      pr && U === `plugins` && !W && Ti == null && B === `openai`
+        ? (0, $.jsx)(T, {
+            id: `skills.appsPage.pluginsLimitedCatalog`,
+            defaultMessage: `More plugins coming soon`,
+            description: `Short status message shown when curated OpenAI plugins are hidden for the current auth method`,
+          })
+        : null,
+    Ni = Ai.filter(({ section: e }) => e.id !== `plugins-connected`).map(({ section: e }) => ({
+      id: e.id,
+      title: e.title,
+    })),
+    Fi = Ti == null ? void 0 : Ni.find((e) => e.id === Ti),
+    Ii = Fi?.id ?? null,
+    Vi = On({
+      apps: Dn({ apps: un ?? [], connectors: yr ? (br.data?.connectors ?? []) : [] }),
+      plugins: di,
+    }).map(({ app: e, plugin: t }) => ({ ...t, importedConnectorApp: e })),
+    Ki =
+      Ii == null ? Ai : Ai.filter(({ section: e }) => e.id === `plugins-connected` || e.id === Ii),
+    Xi = Ki.flatMap(({ plugins: e }) => e),
+    Zi = W
+      ? mi({
+          pluginResultKeys: Xi.map((e) => `plugin:${e.plugin.id}`),
+          skillResultKeys: [
+            ...ei.map(({ skill: e }) => `installed-skill:${e.path}`),
+            ...Qr.map((e) => `recommended-skill:${e.id}`),
+          ],
+          tab: U ?? `plugins`,
+        })
+      : [],
+    $i = Zi.length,
+    ea = Zi.length === 0 ? null : Math.min(fe, Zi.length - 1),
+    ta = ea == null ? null : (Zi[ea] ?? null),
+    ra = Vr({ plugins: Er, query: Gr }),
+    ia = new Set([...Ut, ...(tn ?? []), ...(rn ?? [])].map((e) => e.plugin.id)),
+    aa = new Set(Er.filter((e) => !ia.has(e.plugin.id)).map((e) => e.plugin.id)),
+    ca = si({ skills: xt, query: Gr }),
+    { installedApps: la } = hi(un ?? []),
+    ua = gi({ apps: la, query: Gr }),
+    da = Rs({ mcpServers: ln?.servers ?? {}, query: Gr }),
+    fa = Kr({ configuredMarketplaceNames: rr, marketplaces: Vt, query: `` }),
+    pa = {
+      apps: la.length,
+      marketplace: fa.length,
+      mcps: Object.keys(ln?.servers ?? {}).length,
+      plugins: Er.length,
+      skills: xt.length,
+    },
+    ma = mr && pa[hr] === 0 ? (Fs(pa) ?? hr) : hr,
+    ha = mr ? ma === `plugins` : U === `plugins`,
+    ga = Gi({ categoryKey: Ii, directoryTab: B, isGlobalSearch: Ci, searchQuery: Hr }),
+    _a = wi({ canonicalCategoryIds: Jt, directoryTab: B, selectedCategoryTitle: Fi?.title }),
+    va = { referrer: zi(ga.pageName), source: ga.source };
+  _i({
+    scope: t,
+    categoryId: _a,
+    enabled: !mr && ha && te,
+    entrypoint: l,
+    pageName: ga.pageName,
+    searchQuery: Hr,
+    source: ga.source,
+  });
+  let ba = Wi(n, ma),
+    xa = Kr({ configuredMarketplaceNames: rr, marketplaces: fa, query: Gr }),
+    Sa = tr.isPending ? (tr.variables?.key ?? null) : null,
+    Ca = !mr && U === `skills` && he,
+    wa = Ca || rt || xi.length > 0 || ei.length > 0,
+    Ta = Ca || ht || mt != null || Qr.length > 0,
+    G = Mr.sections.at(-1) ?? null,
+    Ea = [...xi.map((e) => ({ id: e.id, title: e.title })), ...(Ta && G != null ? [G] : [])],
+    Da = Ea.some((e) => e.id === Fe) ? Fe : (Ea[0]?.id ?? null),
+    Oa = (0, Q.useEffectEvent)(async () => {
+      let { availablePlugins: e } = await Kt();
+      return pr || Rr(e);
+    }),
+    ka = (U === `skills` || W) && wa ? (Mr.sections[0] ?? null) : null,
+    Aa = (U === `skills` || W) && Ta ? (Mr.sections.at(-1) ?? null) : null,
+    ja = async () => {
+      try {
+        await dn();
+      } catch {}
+    },
+    Ma = (e) =>
+      ii({
+        config: Qt,
+        marketplaceName: e.marketplaceName,
+        pluginId: e.plugin.id,
+        isOpenAICuratedRemoteMarketplaceEnabled: Zt,
+      }),
+    Pa = (e) => {
+      t.get(Oe).danger(
+        n.formatMessage({
+          id: `plugins.manage.copyShareLinkError`,
+          defaultMessage: `Couldn't copy share link`,
+          description: `Error shown when copying a plugin share link fails`,
+        }),
+        e == null ? void 0 : { description: jt(e) },
+      );
+    },
+    Fa = async (e) => {
+      let t = Ar(Ke, e.marketplacePath, e.plugin.source);
+      try {
+        let n = await Bi({ hostId: P, ...nt(e) }).catch(() => null),
+          r = n?.shareContext ?? e.plugin.shareContext,
+          i = Ui({
+            pluginShareUrl: n?.pluginShareUrl ?? null,
+            shareContext: r,
+            savedShareUrl: null,
+            configuredShareUrl: Ma(e),
+          });
+        if (
+          (i == null &&
+            Yt &&
+            t != null &&
+            ((i = (
+              await Si({
+                pluginPath: t,
+                remotePluginId: r?.remotePluginId ?? null,
+                savePluginShare: $t,
+              })
+            ).shareUrl),
+            Gt()),
+          i != null && i.length > 0 && (await ir(i)))
+        )
+          return;
+      } catch (e) {
+        Pa(e);
+        return;
+      }
+      Pa();
+    },
+    Ia = async (e) => {
+      let r = Ar(Ke, e.marketplacePath, e.plugin.source);
+      if (r == null) return;
+      let i = await Bi({ hostId: P, ...nt(e) }).catch(() => null),
+        a = e.plugin.shareContext,
+        o =
+          a != null && a.sharePrincipals != null && a.remoteVersion != null
+            ? a
+            : (i?.shareContext ?? a);
+      if (o?.remotePluginId != null && o.sharePrincipals == null) {
+        t.get(Oe).danger(
+          n.formatMessage({
+            id: `plugins.manage.loadSharingError`,
+            defaultMessage: `Couldn't load plugin sharing`,
+            description: `Error shown when plugin sharing settings cannot load`,
+          }),
+        );
+        return;
+      }
+      let s = yi({
+        initialShare:
+          o == null
+            ? null
+            : {
+                remotePluginId: o.remotePluginId,
+                sharePrincipals: Mi(o),
+                shareUrl: Ui({
+                  pluginShareUrl: i?.pluginShareUrl ?? null,
+                  shareContext: i?.shareContext ?? o,
+                  savedShareUrl: null,
+                  configuredShareUrl: Ma(e),
+                }),
+              },
+        saveShare: (e) => Si({ pluginPath: r, remotePluginId: e, savePluginShare: $t }),
+      });
+      le(t, Li, {
+        initialSharePrincipals: s.getCurrentShare()?.sharePrincipals ?? [],
+        pluginDisplayName: Ct(e),
+        shouldShowCopyLinkCreationProgress: () => s.getCurrentShare()?.shareUrl == null,
+        onCopyLink: async () => {
+          try {
+            let e = s.getCurrentShare()?.shareUrl != null,
+              t = await s.getOrCreateShare();
+            if ((e || Gt(), t.shareUrl.length > 0 && (await ir(t.shareUrl)))) return !0;
+          } catch (e) {
+            return (Pa(e), !1);
+          }
+          return (Pa(), !1);
+        },
+        onSaveShareTargets: async (e) => {
+          try {
+            let t = await s.saveShareTargets(e, (e, t) => en({ remotePluginId: e, targets: t }));
+            return (Gt(), t);
+          } catch (e) {
+            throw (
+              t
+                .get(Oe)
+                .danger(
+                  n.formatMessage({
+                    id: `plugins.manage.updateSharingError`,
+                    defaultMessage: `Couldn't update plugin sharing`,
+                    description: `Error shown when updating plugin sharing fails`,
+                  }),
+                  { description: jt(e) },
+                ),
+              e
+            );
+          }
+        },
+        onUpdateSharedVersion: async () => {
+          if (o?.remotePluginId != null)
+            try {
+              (await $t({ pluginPath: r, remotePluginId: o.remotePluginId }),
+                Gt(),
+                t
+                  .get(Oe)
+                  .success(
+                    n.formatMessage({
+                      id: `plugins.manage.updateSharedVersionSuccess`,
+                      defaultMessage: `Shared version updated`,
+                      description: `Success message shown after uploading a newer local plugin version to an existing plugin share`,
+                    }),
+                  ));
+            } catch (e) {
+              throw (
+                t
+                  .get(Oe)
+                  .danger(
+                    n.formatMessage({
+                      id: `plugins.manage.updateSharedVersionError`,
+                      defaultMessage: `Couldn't update shared version`,
+                      description: `Error shown when uploading a newer local plugin version to an existing plugin share fails`,
+                    }),
+                    { description: jt(e) },
+                  ),
+                e
+              );
+            }
+        },
+        shouldShowUpdateSharedVersion: Ji({ localVersion: e.plugin.localVersion, shareContext: o }),
+      });
+    },
+    La = ha && Dt == null && !Ft && !xr,
+    Ra =
+      Ft ||
+      (Yt && Ge) ||
+      (Yt && mr && ma === `plugins` && (nn || an)) ||
+      xe === `loading` ||
+      (W
+        ? sn || nn || an
+        : U === `plugins` && ((B === `workspace` && an) || (B === `personal` && (sn || nn)))),
+    Ba = U === `plugins` && (!W || $i > 0),
+    Va = !Ci,
+    Ha = he || ar || fn || rt || tt || Ft || Rt,
+    Ua =
+      k.length > 0
+        ? (0, $.jsx)(Cs, {
+            connectedRemoteConnections: k,
+            remoteConnectionHostIds: F,
+            selectedHostId: P,
+            onSelectHost: (e) => {
+              (St(), N(e));
+            },
+          })
+        : null,
+    Wa = () => {
+      if (pt == null) return;
+      We(t, r, {});
+      let e = co({ creatorPath: pt, isFirstOpen: !Je, kind: `plugin` });
+      (Je || Ye(!0), x({ prefillPrompt: e, startInSidebar: !0 }));
+    };
+  (0, Q.useEffect)(() => {
+    if (!La) {
+      Se(`idle`);
+      return;
+    }
+    let e = !1,
+      t = null,
+      n = Date.now() + Us;
+    Se(`loading`);
+    let r = async () => {
+      let i = await Oa().catch(() => !1);
+      if (!e) {
+        if (i || Date.now() >= n) {
+          Se(`idle`);
+          return;
+        }
+        t = setTimeout(() => {
+          r();
+        }, Hs);
+      }
+    };
+    return (
+      r(),
+      () => {
+        ((e = !0), t != null && clearTimeout(t));
+      }
+    );
+  }, [we, La]);
+  let Ga = () => {
+      if (dt == null) return;
+      We(t, r, {});
+      let e = co({ creatorPath: dt, isFirstOpen: !Xe, kind: `skill` });
+      (Xe || Ze(!0), x({ prefillPrompt: e, startInSidebar: !0 }));
+    },
+    Ka = async () => {
+      if (Sr == null || Un(Sr.plugin)) return;
+      let e = Hn({
+        defaultPrompt: Xn(Sr.plugin.interface?.defaultPrompt),
+        pluginDisplayName: Ct(Sr),
+        pluginId: Sr.plugin.id,
+      });
+      if (!Sr.plugin.installed) {
+        wn(Sr, {
+          postInstallComposerPrefill: e,
+          postInstallNewConversation: { startInSidebar: !0 },
+        });
+        return;
+      }
+      if (!Sr.plugin.enabled)
+        try {
+          await jn({ enabled: !0, pluginDisplayName: Ct(Sr), pluginId: Sr.plugin.id });
+        } catch {
+          return;
+        }
+      x({ prefillPrompt: e, startInSidebar: !0 });
+    },
+    qa = ct[0] != null && ct[0] !== `/` ? ct[0] : void 0,
+    Ja = (e, t = Xn(e.plugin.interface?.defaultPrompt)) => {
+      x({
+        prefillPrompt: Hn({ defaultPrompt: t, pluginDisplayName: Ct(e), pluginId: e.plugin.id }),
+        prefillCwd: qa,
+        startInSidebar: !0,
+      });
+    },
+    Ya = async () => {
+      ve(!0);
+      try {
+        (at(), await Promise.all([Gt(), _t(), dn()]), St(), be(!1));
+      } catch {
+        t.get(Oe).danger(
+          n.formatMessage({
+            id: `skills.page.refreshFailed`,
+            defaultMessage: `Failed to refresh skills and apps`,
+            description: `Toast message shown when refreshing the Skills & Apps page data fails`,
+          }),
+        );
+      } finally {
+        (ha && !xr && Te((e) => e + 1), ve(!1));
+      }
+    },
+    Xa = (e) => {
+      (e !== `skills` && St(), L(Ds(e)));
+    },
+    K = (e) => {
+      (Me(e), Pe(null));
+    },
+    q = (e) => {
+      (de(e), pe(0));
+    },
+    Za = () => {
+      window.requestAnimationFrame(() => {
+        w.current
+          ?.querySelector(`[data-search-result-active='true']`)
+          ?.scrollIntoView({ block: `nearest` });
+      });
+    },
+    $a = (e) => {
+      if (!(!W || Zi.length === 0)) {
+        if (e.key === `ArrowDown`) {
+          (e.preventDefault(), pe(Math.min((ea ?? 0) + 1, Zi.length - 1)), Za());
+          return;
+        }
+        if (e.key === `ArrowUp`) {
+          (e.preventDefault(), pe(Math.max((ea ?? 0) - 1, 0)), Za());
+          return;
+        }
+        if (e.key === `Enter`) {
+          let t = w.current?.querySelector(`[data-search-result-active='true']`);
+          t instanceof HTMLElement && (e.preventDefault(), t.click());
+        }
+      }
+    },
+    eo = (e) => {
+      L(Os(e));
+    },
+    to = () => {
+      (St(), L(Os(hr)));
+    },
+    ao = () => {
+      L(Ds(ks(ma)));
+    },
+    oo = (0, Q.useCallback)((e) => {
+      w.current = e;
+      let t = D.current;
+      e == null || t == null || ((e.scrollTop = t), (D.current = null));
+    }, []),
+    so = (e, n) => {
+      (mr ||
+        t.set(g, {
+          browseScrollTop: w.current?.scrollTop ?? null,
+          searchQuery: ue,
+          selectedHostIdState: M,
+          selectedPluginDirectoryTab: B,
+        }),
+        p(m(e, { hostId: P, source: mr ? `manage` : void 0 }), { state: mr ? void 0 : f(n) }));
+    },
+    lo = (e) => {
+      (ki(t, { plugin: e.plugin, source: ga.source }), so(e, va));
+    },
+    po = (0, Q.useEffectEvent)(() => {
+      C.current?.focus();
+    }),
+    mo = async (e, t) => {
+      await tr.mutateAsync({ key: e, enabled: t });
+    },
+    ho = async (e) => {
+      try {
+        (await Fn({ marketplaceDisplayName: pi(e), marketplaceName: e.name }), V(null));
+      } catch {}
+    },
+    go = async () => {
+      try {
+        await Rn();
+      } catch {}
+    },
+    vo = async (e) => {
+      try {
+        await Rn({ marketplaceDisplayName: pi(e), marketplaceName: e.name });
+      } catch {}
+    };
+  (0, Q.useEffect)(() => {
+    let e = (e) => {
+      (e.metaKey || e.ctrlKey) &&
+        e.key.toLowerCase() === `f` &&
+        (Ms(e.target) || (e.preventDefault(), po()));
+    };
+    return (
+      window.addEventListener(`keydown`, e),
+      () => {
+        window.removeEventListener(`keydown`, e);
+      }
+    );
+  }, [mr]);
+  let yo =
+    U !== `plugins` || W
+      ? null
+      : (0, $.jsxs)($.Fragment, {
+          children: [
+            (0, $.jsx)(ws, {
+              filterSections: Ni,
+              selectedSectionId: Ii,
+              selectedTab: B,
+              workspaceName: kr,
+              onSelectSection: Pe,
+              onSelectTab: K,
+            }),
+            Ii == null && B === `openai` && Vi.length > 0
+              ? (0, $.jsx)(Cr, {
+                  id: `plugins-imported-connectors`,
+                  title: (0, $.jsx)(T, {
+                    id: `plugins.importedConnectors.title`,
+                    defaultMessage: `Imported plugins`,
+                    description: `Section title for official app connectors suggested from an imported external agent setup`,
+                  }),
+                  children: (0, $.jsx)(za, {
+                    errorMessage: null,
+                    hostId: P,
+                    isLoading: !1,
+                    isSingleColumn: !0,
+                    installedStateAction: `status`,
+                    plugins: Vi,
+                    emptyStateTitle: (0, $.jsx)(T, {
+                      id: `plugins.importedConnectors.empty`,
+                      defaultMessage: `No imported plugins`,
+                      description: `Empty state title for official app connectors suggested from an imported external agent setup`,
+                    }),
+                    installButtonLabel: (0, $.jsx)(T, {
+                      id: `plugins.importedConnectors.finishSetup`,
+                      defaultMessage: `Finish setup`,
+                      description: `Button label for completing setup of an official app connector suggested from an imported external agent setup`,
+                    }),
+                    onInstallPlugin: async (e) => {
+                      (ae(null), await qn(e.importedConnectorApp));
+                    },
+                    onOpenPluginDetails: lo,
+                  }),
+                })
+              : null,
+          ],
+        });
+  return (0, $.jsxs)($.Fragment, {
+    children: [
+      (0, $.jsx)(Cn.Header, {
+        children: mr
+          ? (0, $.jsx)(Oo, {
+              mode: `manage`,
+              canCreatePlugin: pt != null,
+              canCreateSkill: dt != null,
+              hostSelector: Ua,
+              isRefreshDisabled: Ha,
+              isRefreshingPage: he,
+              searchInput: o
+                ? (0, $.jsx)(`div`, {
+                    className: `w-32 min-w-0 sm:w-40`,
+                    children: (0, $.jsx)(gr, {
+                      id: `plugins-page-manage-search`,
+                      inputRef: C,
+                      className: `shadow-none`,
+                      label: ba.searchLabel,
+                      onSearchQueryChange: me,
+                      placeholder: ba.searchPlaceholder,
+                      searchQuery: R,
+                    }),
+                  })
+                : void 0,
+              marketplaceUpgradeAction:
+                ma === `marketplace`
+                  ? {
+                      disabled: or,
+                      isUpgrading: In,
+                      onUpgrade: () => {
+                        go();
+                      },
+                    }
+                  : void 0,
+              onCreatePlugin: Wa,
+              onCreateSkill: Ga,
+              onExitManageMode: ao,
+              onRefreshPage: () => {
+                Ya();
+              },
+              recordSkillAction:
+                Sr == null
+                  ? void 0
+                  : {
+                      disabled: xn || kn === Sr.plugin.id || Un(Sr.plugin),
+                      onSelect: () => {
+                        Ka();
+                      },
+                    },
+            })
+          : (0, $.jsx)(Oo, {
+              mode: `browse`,
+              canCreatePlugin: pt != null,
+              canCreateSkill: dt != null,
+              currentBrowseTab: U ?? `plugins`,
+              hostSelector: Ua,
+              isRefreshDisabled: Ha,
+              isRefreshingPage: he,
+              needsSkillsRefresh: ye,
+              showBrowseToggle: !W,
+              onCreatePlugin: Wa,
+              onCreateSkill: Ga,
+              onAddMarketplace: () => {
+                Be(!0);
+              },
+              onBrowseTabSelect: Xa,
+              onManage: to,
+              onRefreshPage: () => {
+                Ya();
+              },
+              recordSkillAction:
+                Sr == null
+                  ? void 0
+                  : {
+                      disabled: xn || kn === Sr.plugin.id || Un(Sr.plugin),
+                      onSelect: () => {
+                        Ka();
+                      },
+                    },
+            }),
+      }),
+      (0, $.jsxs)(`div`, {
+        className: `flex h-full min-h-0 flex-col text-base select-none`,
+        children: [
+          te
+            ? (0, $.jsx)($.Fragment, {
+                children: (0, $.jsxs)(`div`, {
+                  className: `flex-1 overflow-hidden`,
+                  children: [
+                    (0, $.jsx)(Na, {
+                      className: At(`flex h-full w-full flex-1 flex-col`, mr ? `gap-0` : `gap-8`),
+                      children: mr
+                        ? (0, $.jsx)(`div`, {
+                            className: `relative h-full min-h-0 flex-1 overflow-y-auto [scrollbar-gutter:stable]`,
+                            children: (0, $.jsxs)(`div`, {
+                              className: `flex min-h-full w-full flex-col pb-panel`,
+                              children: [
+                                (0, $.jsx)(`div`, {
+                                  className: qs,
+                                  children: (0, $.jsx)(`div`, {
+                                    className: `mx-auto flex w-full max-w-[var(--thread-content-max-width)] flex-col px-panel pt-panel pb-4`,
+                                    children: (0, $.jsxs)(`div`, {
+                                      className: `flex flex-wrap items-center justify-between gap-3`,
+                                      children: [
+                                        (0, $.jsx)(Ns, {
+                                          appsCount: la.length,
+                                          currentTab: ma,
+                                          marketplacesCount: fa.length,
+                                          mcpsCount: Object.keys(ln?.servers ?? {}).length,
+                                          pluginsCount: Er.length,
+                                          onSelectTab: eo,
+                                          skillsCount: pa.skills,
+                                        }),
+                                        o
+                                          ? null
+                                          : (0, $.jsx)(`div`, {
+                                              className: `w-56 min-w-0`,
+                                              children: (0, $.jsx)(gr, {
+                                                id: `plugins-page-manage-search`,
+                                                inputRef: C,
+                                                className: `shadow-none`,
+                                                label: ba.searchLabel,
+                                                onSearchQueryChange: me,
+                                                placeholder: ba.searchPlaceholder,
+                                                searchQuery: R,
+                                              }),
+                                            }),
+                                      ],
+                                    }),
+                                  }),
+                                }),
+                                (0, $.jsx)(`div`, {
+                                  className: `mx-auto flex min-h-0 w-full max-w-[var(--thread-content-max-width)] flex-1 flex-col px-panel pt-2`,
+                                  children:
+                                    ma === `plugins`
+                                      ? (0, $.jsx)(za, {
+                                          cardContentGap: `default`,
+                                          errorMessage: Dt,
+                                          hostId: P,
+                                          getCopyLinkUrl: Ma,
+                                          homeDirectory: Ke,
+                                          installingPluginSession: En,
+                                          isLoading: Ra,
+                                          installedStateAction: `toggle`,
+                                          isSingleColumn: !0,
+                                          useCompactEmptyState: !0,
+                                          onCopyShareLink: (e) => {
+                                            Fa(e);
+                                          },
+                                          onOpenPluginDetails: so,
+                                          onShareInstalledPlugin: Yt
+                                            ? (e) => {
+                                                Ia(e);
+                                              }
+                                            : void 0,
+                                          onTryInChat: Yt ? Ja : void 0,
+                                          plugins: ra,
+                                          unavailablePluginIds: aa,
+                                          onInstallPlugin: async (e) => {
+                                            Sn(e, { tryInChatCwd: qa });
+                                          },
+                                          onUninstallInstalledPlugin: Nn,
+                                          onToggleInstalledPluginEnabled: jn,
+                                          pendingPluginId: kn,
+                                          pendingUninstallPluginId: Mn,
+                                          reducedMotion: b,
+                                          emptyStateTitle: (0, $.jsx)(T, {
+                                            id: `skills.appsPage.empty.plugins`,
+                                            defaultMessage: `No plugins found`,
+                                            description: `Empty state title when there are no plugins on the Plugins tab`,
+                                          }),
+                                        })
+                                      : ma === `skills`
+                                        ? (0, $.jsx)(os, {
+                                            gap: `compact`,
+                                            hostId: P,
+                                            installedStateAction: `toggle`,
+                                            isLoading: rt || ht,
+                                            isSingleColumn: !0,
+                                            roots: ct,
+                                            skillEntries: ca,
+                                            useCompactEmptyState: !0,
+                                            onSkillsUpdated: at,
+                                          })
+                                        : ma === `mcps`
+                                          ? (0, $.jsx)(Is, {
+                                              mcpServers: da,
+                                              onOpenSettings: () => {
+                                                p(`/settings/mcp-settings`);
+                                              },
+                                              onToggleEnabled: (e, t) => {
+                                                mo(e, t);
+                                              },
+                                              updatingServerKey: Sa,
+                                            })
+                                          : ma === `marketplace`
+                                            ? (0, $.jsx)(_o, {
+                                                errorMessage: Dt,
+                                                isLoading: Ft,
+                                                isRetrying: he || Rt,
+                                                marketplaceLoadErrors: Bt,
+                                                configuredMarketplaceNames: rr,
+                                                configuredGitMarketplaceNames: nr,
+                                                isUpgradingMarketplaces: In,
+                                                marketplaces: xa,
+                                                onUpgradeMarketplace: (e) => {
+                                                  vo(e);
+                                                },
+                                                onRemoveMarketplace: V,
+                                                onRetry: Ya,
+                                                pendingUpgradeMarketplaceName: Ln,
+                                                pendingRemoveMarketplaceName: Pn,
+                                              })
+                                            : un == null
+                                              ? (0, $.jsx)(ro, {
+                                                  errorMessage: hn,
+                                                  isLoading: pn,
+                                                  isRetrying: fn,
+                                                  onRetry: ja,
+                                                })
+                                              : (0, $.jsxs)(`div`, {
+                                                  className: `flex flex-col gap-6`,
+                                                  children: [
+                                                    hn == null
+                                                      ? null
+                                                      : (0, $.jsx)(no, {
+                                                          errorMessage: hn,
+                                                          isRetrying: fn,
+                                                          onRetry: ja,
+                                                        }),
+                                                    (0, $.jsx)(io, {
+                                                      apps: ua,
+                                                      emptyStateTitle: (0, $.jsx)(T, {
+                                                        id: `skills.appsPage.empty.installedApps`,
+                                                        defaultMessage: `No installed apps`,
+                                                        description: `Empty state title when there are no installed apps on the Skills & Apps page`,
+                                                      }),
+                                                      installedStateAction: `toggle`,
+                                                      isSingleColumn: !0,
+                                                      useCompactEmptyState: !0,
+                                                      isAppConnectPending: Yn,
+                                                      updatingAppId: Qn,
+                                                      onInstallApp: async (e) => {
+                                                        (ae(null), await qn(e));
+                                                      },
+                                                      onOpenAppTools: (e) => {
+                                                        je(e.id);
+                                                      },
+                                                      onOpenAppUrl: Jn,
+                                                      onSetAppEnabled: Zn,
+                                                    }),
+                                                  ],
+                                                }),
+                                }),
+                              ],
+                            }),
+                          })
+                        : (0, $.jsx)(_r, {
+                            contentClassName: `!pt-6`,
+                            headerVariant: `inset`,
+                            scrollContainerRef: oo,
+                            subtitle:
+                              U === `skills`
+                                ? (0, $.jsx)(T, {
+                                    id: `skills.appsPage.browseIntro.skillsSubtitle`,
+                                    defaultMessage: `Extend Codex's capabilities with task-specific skills`,
+                                    description: `Subtitle shown at the top of the skills browse page`,
+                                  })
+                                : (0, $.jsx)(T, {
+                                    id: `skills.appsPage.browseIntro.subtitle`,
+                                    defaultMessage: `Work with Codex across your favorite tools`,
+                                    description: `Subtitle shown at the top of the unified plugins browse page`,
+                                  }),
+                            title:
+                              U === `skills`
+                                ? (0, $.jsx)(T, {
+                                    id: `skills.appsPage.browseIntro.skillsTitle`,
+                                    defaultMessage: `Skills`,
+                                    description: `Title shown at the top of the skills browse page`,
+                                  })
+                                : (0, $.jsx)(T, {
+                                    id: `skills.appsPage.browseIntro.title`,
+                                    defaultMessage: `Plugins`,
+                                    description: `Title shown at the top of the unified plugins browse page`,
+                                  }),
+                            search: {
+                              autoFocus: U === `plugins`,
+                              id: `plugins-page-search`,
+                              inputRef: C,
+                              label: Br.searchLabel,
+                              onKeyDown: $a,
+                              onSearchQueryChange: q,
+                              placeholder: Br.searchPlaceholder,
+                              searchQuery: ue,
+                            },
+                            children: (0, $.jsxs)(`div`, {
+                              className: At(`flex min-h-0 flex-col gap-8`, !W && `flex-1`),
+                              children: [
+                                Ba
+                                  ? (0, $.jsx)(No, {
+                                      catalogStatusMessage: ji,
+                                      contentAfterConnected: yo,
+                                      errorMessage: Dt,
+                                      highlightedPluginId: ta?.startsWith(`plugin:`)
+                                        ? ta.slice(7)
+                                        : null,
+                                      hostId: P,
+                                      installingPluginSession: En,
+                                      isLoading: Ra,
+                                      showSections: Va,
+                                      pendingPluginId: kn,
+                                      pendingUninstallPluginId: Mn,
+                                      reducedMotion: b,
+                                      onInstallPlugin: async (e) => {
+                                        Sn(e, { tryInChatCwd: qa });
+                                      },
+                                      onManage: to,
+                                      onOpenPluginDetails: lo,
+                                      onTryInChat: Ja,
+                                      onToggleInstalledPluginEnabled: jn,
+                                      onUninstallInstalledPlugin: Nn,
+                                      sections: Ki,
+                                      searchResultsTitle: W
+                                        ? (0, $.jsx)(T, {
+                                            id: `skills.appsPage.browseTabs.plugins`,
+                                            defaultMessage: `Plugins`,
+                                            description: `Label for the Plugins option in the browse filter dropdown on the Skills & Apps page`,
+                                          })
+                                        : void 0,
+                                    })
+                                  : null,
+                                U === `skills` && (!W || $i > 0)
+                                  ? (0, $.jsx)(as, {
+                                      canInstallRecommendedSkills: lt,
+                                      errorMessage: mt,
+                                      hostId: P,
+                                      highlightedInstalledSkillPath: ta?.startsWith(
+                                        `installed-skill:`,
+                                      )
+                                        ? ta.slice(16)
+                                        : null,
+                                      highlightedRecommendedSkillId: ta?.startsWith(
+                                        `recommended-skill:`,
+                                      )
+                                        ? ta.slice(18)
+                                        : null,
+                                      installedSkillGroups: xi,
+                                      installedStateAction: `check`,
+                                      installedSection: ka,
+                                      installedRecommendedSkillIds: Tt,
+                                      installedSkills: ei,
+                                      installedSkillsForRecommendedActions: st,
+                                      installingSkillId: Et,
+                                      isLoadingInstalledSkills: rt || Ca,
+                                      isLoadingRecommendedSkills: ht || Ca,
+                                      onInstallRecommendedSkill: wt,
+                                      onInstalledRecommendedSkillUpdated: () => {
+                                        (St(), at());
+                                      },
+                                      onSelectSection: Ie,
+                                      onSkillsUpdated: at,
+                                      recommendedRepoRoot: vt,
+                                      recommendedSection: Aa,
+                                      recommendedSkills: Qr,
+                                      roots: ct,
+                                      selectedSectionId: Da,
+                                      searchResultsTitle: W
+                                        ? (0, $.jsx)(T, {
+                                            id: `skills.appsPage.skillsFilter.all`,
+                                            defaultMessage: `Skills`,
+                                            description: `Label for the Skills option in the browse filter dropdown on the Skills & Apps page`,
+                                          })
+                                        : void 0,
+                                    })
+                                  : null,
+                                W && $i === 0
+                                  ? (0, $.jsx)(`div`, {
+                                      className: `text-base text-token-text-secondary`,
+                                      children:
+                                        U === `skills`
+                                          ? (0, $.jsx)(T, {
+                                              id: `skills.appsPage.empty.skills`,
+                                              defaultMessage: `No skills found`,
+                                              description: `Empty state title when no skills match filters on the Skills & Apps page`,
+                                            })
+                                          : (0, $.jsx)(T, {
+                                              id: `skills.appsPage.empty.plugins`,
+                                              defaultMessage: `No plugins found`,
+                                              description: `Empty state title when there are no plugins on the Plugins tab`,
+                                            }),
+                                    })
+                                  : null,
+                              ],
+                            }),
+                          }),
+                    }),
+                    (0, $.jsx)(ya, { open: Re, onAddMarketplace: cn, onOpenChange: Be }),
+                    (0, $.jsx)(bo, {
+                      marketplace: Le,
+                      isRemoving: Le != null && Pn === Le.name,
+                      onOpenChange: (e) => {
+                        e || V(null);
+                      },
+                      onRemove: (e) => {
+                        ho(e);
+                      },
+                    }),
+                    (0, $.jsx)(ee, {
+                      app: ur,
+                      isCompletingConnection: lr,
+                      onOpenChange: (e) => {
+                        e || (Vn(), ae(null));
+                      },
+                      onOAuthStarted: Kn,
+                      onConnected: async () => {
+                        ae(null);
+                        try {
+                          await Gn({ hostId: P, queryClient: S, refreshAppsList: dn });
+                        } catch {}
+                      },
+                    }),
+                    (0, $.jsx)(Ri, {
+                      app: $n,
+                      errorMessage: er.error?.message ?? null,
+                      isLoading: er.isLoading,
+                      onOpenChange: (e) => {
+                        e || je(null);
+                      },
+                      onOpenAppUrl: Jn,
+                      onSetAppEnabled: Zn,
+                      onTryInChat: (e) => {
+                        x({
+                          prefillPrompt: `[@${e.name}](${d(it(e.id))})`,
+                          prefillCwd: ct[0] != null && ct[0] !== `/` ? ct[0] : void 0,
+                          startInSidebar: !0,
+                        });
+                      },
+                      tools: er.data ?? [],
+                      updatingAppId: Qn,
+                    }),
+                  ],
+                }),
+              })
+            : (0, $.jsx)(Ss, {}),
+          Ee == null && En == null
+            ? (0, $.jsx)(zn, {
+                hostId: P,
+                isInstalling: xn,
+                onConnectRequiredApp: _n,
+                onInstall: bn,
+                onRequiredAppConnected: vn,
+                onRequiredAppOAuthStarted: yn,
+                onTryInChat: Ja,
+                onViewDetails: so,
+                onOpenChange: (e) => {
+                  e || gn();
+                },
+                session: Tn,
+              })
+            : null,
+        ],
+      }),
+    ],
+  });
+}
+function Ss() {
+  let e = (0, Bs.c)(1),
+    t;
+  return (
+    e[0] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((t = (0, $.jsx)(`div`, {
+          className: `flex min-h-0 flex-1 items-center justify-center`,
+          children: (0, $.jsx)(Tn, {
+            title: (0, $.jsx)(T, {
+              id: `skills.appsPage.pluginsUnsupportedHost.title`,
+              defaultMessage: `Plugins are not available for this host`,
+              description: `Title shown when the selected host does not support plugins`,
+            }),
+            description: (0, $.jsx)(T, {
+              id: `skills.appsPage.pluginsUnsupportedHost.description`,
+              defaultMessage: `Choose another host to browse and manage plugins`,
+              description: `Description shown when the selected host does not support plugins`,
+            }),
+          }),
+        })),
+        (e[0] = t))
+      : (t = e[0]),
+    t
+  );
+}
+function Cs(e) {
+  let t = (0, Bs.c)(39),
+    {
+      connectedRemoteConnections: n,
+      onSelectHost: r,
+      remoteConnectionHostIds: i,
+      selectedHostId: a,
+    } = e,
+    o = H(),
+    s;
+  t[0] === o
+    ? (s = t[1])
+    : ((s = o.formatMessage({
+        id: `skills.appsPage.hostDropdown.local`,
+        defaultMessage: `Local`,
+        description: `Dropdown option label for selecting the local host on the Skills & Apps page`,
+      })),
+      (t[0] = o),
+      (t[1] = s));
+  let c = s,
+    l;
+  t[2] !== n || t[3] !== a
+    ? ((l = n.find((e) => e.hostId === a) ?? null), (t[2] = n), (t[3] = a), (t[4] = l))
+    : (l = t[4]);
+  let u = l,
+    d = u?.displayName ?? c,
+    f;
+  t[5] !== i || t[6] !== u
+    ? ((f =
+        u == null
+          ? (0, $.jsx)(an, { className: `icon-xs shrink-0 text-token-text-secondary` })
+          : (0, $.jsx)(rr, {
+              className: `icon-xs shrink-0`,
+              hostId: u.hostId,
+              hostIdsForColorAssignment: i,
+            })),
+      (t[5] = i),
+      (t[6] = u),
+      (t[7] = f))
+    : (f = t[7]);
+  let p;
+  t[8] === d
+    ? (p = t[9])
+    : ((p = (0, $.jsx)(`span`, { className: `truncate text-left`, children: d })),
+      (t[8] = d),
+      (t[9] = p));
+  let m;
+  t[10] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((m = (0, $.jsx)(me, {
+        className: `icon-2xs shrink-0 text-token-input-placeholder-foreground`,
+      })),
+      (t[10] = m))
+    : (m = t[10]);
+  let h;
+  t[11] !== f || t[12] !== p
+    ? ((h = (0, $.jsxs)(V, {
+        color: `secondary`,
+        size: `toolbar`,
+        className: `hidden max-w-56 justify-start gap-1.5 md:inline-flex`,
+        children: [f, p, m],
+      })),
+      (t[11] = f),
+      (t[12] = p),
+      (t[13] = h))
+    : (h = t[13]);
+  let g;
+  t[14] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((g = (0, $.jsx)(O.Title, {
+        children: (0, $.jsx)(T, {
+          id: `skills.appsPage.hostDropdown.title`,
+          defaultMessage: `Host`,
+          description: `Title for the host dropdown on the Skills & Apps page`,
+        }),
+      })),
+      (t[14] = g))
+    : (g = t[14]);
+  let _ = a === `local` ? Ze : void 0,
+    v;
+  t[15] === r
+    ? (v = t[16])
+    : ((v = () => {
+        r(ne);
+      }),
+      (t[15] = r),
+      (t[16] = v));
+  let y;
+  t[17] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((y = (0, $.jsx)(an, { className: `icon-xs shrink-0 text-token-text-secondary` })),
+      (t[17] = y))
+    : (y = t[17]);
+  let b;
+  t[18] === c
+    ? (b = t[19])
+    : ((b = (0, $.jsxs)(`span`, {
+        className: `flex min-w-0 items-center gap-2`,
+        children: [y, (0, $.jsx)(`span`, { className: `truncate`, children: c })],
+      })),
+      (t[18] = c),
+      (t[19] = b));
+  let x;
+  t[20] !== b || t[21] !== _ || t[22] !== v
+    ? ((x = (0, $.jsx)(O.Item, { RightIcon: _, onSelect: v, children: b })),
+      (t[20] = b),
+      (t[21] = _),
+      (t[22] = v),
+      (t[23] = x))
+    : (x = t[23]);
+  let S;
+  if (t[24] !== n || t[25] !== r || t[26] !== i || t[27] !== a) {
+    let e;
+    (t[29] !== r || t[30] !== i || t[31] !== a
+      ? ((e = (e) =>
+          (0, $.jsx)(
+            O.Item,
+            {
+              RightIcon: e.hostId === a ? Ze : void 0,
+              onSelect: () => {
+                r(e.hostId);
+              },
+              children: (0, $.jsxs)(`span`, {
+                className: `flex min-w-0 items-center gap-2`,
+                children: [
+                  (0, $.jsx)(rr, {
+                    className: `icon-xs shrink-0`,
+                    hostId: e.hostId,
+                    hostIdsForColorAssignment: i,
+                  }),
+                  (0, $.jsx)(`span`, { className: `truncate`, children: e.displayName }),
+                ],
+              }),
+            },
+            e.hostId,
+          )),
+        (t[29] = r),
+        (t[30] = i),
+        (t[31] = a),
+        (t[32] = e))
+      : (e = t[32]),
+      (S = n.map(e)),
+      (t[24] = n),
+      (t[25] = r),
+      (t[26] = i),
+      (t[27] = a),
+      (t[28] = S));
+  } else S = t[28];
+  let C;
+  t[33] === S
+    ? (C = t[34])
+    : ((C = (0, $.jsx)(O.Section, { className: `max-h-40 overflow-y-auto`, children: S })),
+      (t[33] = S),
+      (t[34] = C));
+  let w;
+  return (
+    t[35] !== x || t[36] !== C || t[37] !== h
+      ? ((w = (0, $.jsxs)(xe, {
+          align: `end`,
+          contentMaxHeight: `list`,
+          contentWidth: `menuBounded`,
+          triggerButton: h,
+          children: [g, x, C],
+        })),
+        (t[35] = x),
+        (t[36] = C),
+        (t[37] = h),
+        (t[38] = w))
+      : (w = t[38]),
+    w
+  );
+}
+function ws(e) {
+  let t = (0, Bs.c)(22),
+    {
+      filterSections: n,
+      selectedSectionId: r,
+      selectedTab: i,
+      workspaceName: a,
+      onSelectSection: o,
+      onSelectTab: s,
+    } = e,
+    c = H(),
+    l;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((l = {
+        id: `openai`,
+        label: (0, $.jsx)(T, {
+          id: `skills.appsPage.directoryTabs.openai`,
+          defaultMessage: `By OpenAI`,
+          description: `Label for plugins built by OpenAI in the plugin directory`,
+        }),
+      }),
+      (t[0] = l))
+    : (l = t[0]);
+  let u;
+  t[1] === a
+    ? (u = t[2])
+    : ((u = {
+        id: `workspace`,
+        label:
+          a?.toLowerCase() === `openai`
+            ? (0, $.jsx)(T, {
+                id: `skills.appsPage.directoryTabs.openaiInternal`,
+                defaultMessage: `OpenAI internal`,
+                description: `Label for plugins provided by the OpenAI workspace in the plugin directory`,
+              })
+            : a == null
+              ? (0, $.jsx)(T, {
+                  id: `skills.appsPage.directoryTabs.byYourWorkspace`,
+                  defaultMessage: `By your workspace`,
+                  description: `Fallback label for workspace-provided plugins in the plugin directory`,
+                })
+              : (0, $.jsx)(T, {
+                  id: `skills.appsPage.directoryTabs.byWorkspace`,
+                  defaultMessage: `By {workspaceName}`,
+                  description: `Label for workspace-provided plugins in the plugin directory`,
+                  values: { workspaceName: a },
+                }),
+      }),
+      (t[1] = a),
+      (t[2] = u));
+  let d;
+  t[3] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((d = {
+        id: `personal`,
+        label: (0, $.jsx)(T, {
+          id: `skills.appsPage.directoryTabs.personal`,
+          defaultMessage: `Personal`,
+          description: `Label for personal plugins in the plugin directory`,
+        }),
+      }),
+      (t[3] = d))
+    : (d = t[3]);
+  let f;
+  t[4] === u ? (f = t[5]) : ((f = [l, u, d]), (t[4] = u), (t[5] = f));
+  let p = f,
+    m;
+  t[6] === c
+    ? (m = t[7])
+    : ((m = c.formatMessage({
+        id: `skills.appsPage.directoryTabs.ariaLabel`,
+        defaultMessage: `Plugin directory`,
+        description: `Accessible label for the plugin directory tabs on the Skills & Apps page`,
+      })),
+      (t[6] = c),
+      (t[7] = m));
+  let h;
+  t[8] !== s || t[9] !== i || t[10] !== p
+    ? ((h = p.map((e) => {
+        let t = e.id === i;
+        return (0, $.jsx)(
+          V,
+          {
+            color: t ? `secondary` : `ghost`,
+            size: `toolbar`,
+            role: `tab`,
+            "aria-selected": t,
+            "aria-pressed": t,
+            className: `!rounded-full`,
+            onClick: () => {
+              t || s(e.id);
+            },
+            children: (0, $.jsx)(`span`, { className: `truncate`, children: e.label }),
+          },
+          e.id,
+        );
+      })),
+      (t[8] = s),
+      (t[9] = i),
+      (t[10] = p),
+      (t[11] = h))
+    : (h = t[11]);
+  let g;
+  t[12] !== m || t[13] !== h
+    ? ((g = (0, $.jsx)(`div`, {
+        role: `tablist`,
+        "aria-label": m,
+        className: `hide-scrollbar flex min-w-0 flex-1 items-center gap-2 overflow-x-auto overflow-y-hidden`,
+        onWheel: Ts,
+        children: h,
+      })),
+      (t[12] = m),
+      (t[13] = h),
+      (t[14] = g))
+    : (g = t[14]);
+  let _;
+  t[15] !== n || t[16] !== o || t[17] !== r
+    ? ((_ = (0, $.jsx)(Es, { sections: n, selectedSectionId: r, onSelectSection: o })),
+      (t[15] = n),
+      (t[16] = o),
+      (t[17] = r),
+      (t[18] = _))
+    : (_ = t[18]);
+  let v;
+  return (
+    t[19] !== g || t[20] !== _
+      ? ((v = (0, $.jsxs)(`div`, {
+          className: `flex min-w-0 items-center gap-2 px-2`,
+          children: [g, _],
+        })),
+        (t[19] = g),
+        (t[20] = _),
+        (t[21] = v))
+      : (v = t[21]),
+    v
+  );
+}
+function Ts(e) {
+  let t = e.deltaX || e.deltaY;
+  t !== 0 && (e.currentTarget.scrollLeft = e.currentTarget.scrollLeft + t);
+}
+function Es(e) {
+  let t = (0, Bs.c)(22),
+    { sections: n, selectedSectionId: r, onSelectSection: i } = e,
+    a = H(),
+    o = n.find((e) => e.id === r),
+    s;
+  t[0] === a
+    ? (s = t[1])
+    : ((s = a.formatMessage({
+        id: `skills.appsPage.browseDropdown.ariaLabel`,
+        defaultMessage: `Filter sections`,
+        description: `Accessible label for the section filter dropdown on the Skills & Apps page`,
+      })),
+      (t[0] = a),
+      (t[1] = s));
+  let c;
+  t[2] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((c = (0, $.jsx)(Sr, { className: `icon-sm text-token-text-secondary` })), (t[2] = c))
+    : (c = t[2]);
+  let l;
+  t[3] === s
+    ? (l = t[4])
+    : ((l = (0, $.jsx)(V, {
+        className: `shrink-0`,
+        color: `ghost`,
+        size: `toolbar`,
+        uniform: !0,
+        "aria-label": s,
+        children: c,
+      })),
+      (t[3] = s),
+      (t[4] = l));
+  let u = o == null ? Ze : void 0,
+    d;
+  t[5] === i
+    ? (d = t[6])
+    : ((d = () => {
+        i(null);
+      }),
+      (t[5] = i),
+      (t[6] = d));
+  let f;
+  t[7] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((f = (0, $.jsx)(T, {
+        id: `skills.appsPage.sectionFilter.all`,
+        defaultMessage: `All`,
+        description: `Label for showing all plugin sections on the Skills & Apps page`,
+      })),
+      (t[7] = f))
+    : (f = t[7]);
+  let p;
+  t[8] !== u || t[9] !== d
+    ? ((p = (0, $.jsx)(O.Item, { RightIcon: u, onSelect: d, children: f })),
+      (t[8] = u),
+      (t[9] = d),
+      (t[10] = p))
+    : (p = t[10]);
+  let m;
+  if (t[11] !== i || t[12] !== n || t[13] !== r) {
+    let e;
+    (t[15] !== i || t[16] !== r
+      ? ((e = (e) =>
+          (0, $.jsx)(
+            O.Item,
+            {
+              RightIcon: e.id === r ? Ze : void 0,
+              onSelect: () => {
+                i(e.id);
+              },
+              children: e.title,
+            },
+            e.id,
+          )),
+        (t[15] = i),
+        (t[16] = r),
+        (t[17] = e))
+      : (e = t[17]),
+      (m = n.map(e)),
+      (t[11] = i),
+      (t[12] = n),
+      (t[13] = r),
+      (t[14] = m));
+  } else m = t[14];
+  let h;
+  return (
+    t[18] !== l || t[19] !== p || t[20] !== m
+      ? ((h = (0, $.jsxs)(xe, {
+          align: `end`,
+          contentMaxHeight: `list`,
+          contentWidth: `menuBounded`,
+          triggerButton: l,
+          children: [p, m],
+        })),
+        (t[18] = l),
+        (t[19] = p),
+        (t[20] = m),
+        (t[21] = h))
+      : (h = t[21]),
+    h
+  );
+}
+function Ds(e) {
+  return { kind: `browse`, tab: e };
+}
+function Os(e) {
+  return { kind: `manage`, tab: e };
+}
+function ks(e) {
+  return e === `skills` ? `skills` : `plugins`;
+}
+function As({ intl: e, roots: t, skillEntries: n }) {
+  let r = new Map();
+  for (let i of n) {
+    let n = wn({ skill: i.skill, roots: t, intl: e }),
+      a = r.get(n);
+    if (a == null) {
+      r.set(n, { id: `skills-installed-${js(n)}`, title: n, skillEntries: [i] });
+      continue;
+    }
+    a.skillEntries.push(i);
+  }
+  return Array.from(r.values());
+}
+function js(e) {
+  return e
+    .trim()
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, `-`);
+}
+function Ms(e) {
+  if (!(e instanceof HTMLElement)) return !1;
+  if (e.isContentEditable) return !0;
+  let t = e.tagName.toLowerCase();
+  return t === `input` || t === `textarea` || t === `select`
+    ? !0
+    : e.closest(`[contenteditable='true']`) != null;
+}
+function Ns(e) {
+  let t = (0, Bs.c)(37),
+    {
+      appsCount: n,
+      currentTab: r,
+      marketplacesCount: i,
+      mcpsCount: a,
+      onSelectTab: o,
+      pluginsCount: s,
+      skillsCount: c,
+    } = e,
+    l = H(),
+    u;
+  t[0] === l
+    ? (u = t[1])
+    : ((u = l.formatMessage({
+        id: `skills.appsPage.manageTab.plugins`,
+        defaultMessage: `Plugins`,
+        description: `Manage-mode tab label for installed plugins`,
+      })),
+      (t[0] = l),
+      (t[1] = u));
+  let d;
+  t[2] !== s || t[3] !== u
+    ? ((d = { count: s, id: `plugins`, label: u }), (t[2] = s), (t[3] = u), (t[4] = d))
+    : (d = t[4]);
+  let f;
+  t[5] === l
+    ? (f = t[6])
+    : ((f = l.formatMessage({
+        id: `skills.appsPage.manageTab.apps`,
+        defaultMessage: `Apps`,
+        description: `Manage-mode tab label for installed apps`,
+      })),
+      (t[5] = l),
+      (t[6] = f));
+  let p;
+  t[7] !== n || t[8] !== f
+    ? ((p = { count: n, id: `apps`, label: f }), (t[7] = n), (t[8] = f), (t[9] = p))
+    : (p = t[9]);
+  let m;
+  t[10] === l
+    ? (m = t[11])
+    : ((m = l.formatMessage({
+        id: `skills.appsPage.manageTab.mcps`,
+        defaultMessage: `MCPs`,
+        description: `Manage-mode tab label for installed MCP servers`,
+      })),
+      (t[10] = l),
+      (t[11] = m));
+  let h;
+  t[12] !== a || t[13] !== m
+    ? ((h = { count: a, id: `mcps`, label: m }), (t[12] = a), (t[13] = m), (t[14] = h))
+    : (h = t[14]);
+  let g;
+  t[15] === l
+    ? (g = t[16])
+    : ((g = l.formatMessage({
+        id: `skills.appsPage.manageTab.skills`,
+        defaultMessage: `Skills`,
+        description: `Manage-mode tab label for installed skills`,
+      })),
+      (t[15] = l),
+      (t[16] = g));
+  let _;
+  t[17] !== c || t[18] !== g
+    ? ((_ = { count: c, id: `skills`, label: g }), (t[17] = c), (t[18] = g), (t[19] = _))
+    : (_ = t[19]);
+  let v;
+  t[20] === l
+    ? (v = t[21])
+    : ((v = l.formatMessage({
+        id: `skills.appsPage.manageTab.marketplace`,
+        defaultMessage: `Marketplace`,
+        description: `Manage-mode tab label for plugin marketplaces`,
+      })),
+      (t[20] = l),
+      (t[21] = v));
+  let y;
+  t[22] !== i || t[23] !== v
+    ? ((y = { count: i, id: `marketplace`, label: v }), (t[22] = i), (t[23] = v), (t[24] = y))
+    : (y = t[24]);
+  let b;
+  t[25] !== y || t[26] !== d || t[27] !== p || t[28] !== h || t[29] !== _
+    ? ((b = [d, p, h, _, y]),
+      (t[25] = y),
+      (t[26] = d),
+      (t[27] = p),
+      (t[28] = h),
+      (t[29] = _),
+      (t[30] = b))
+    : (b = t[30]);
+  let x = b,
+    S;
+  t[31] === x ? (S = t[32]) : ((S = x.filter(Ps)), (t[31] = x), (t[32] = S));
+  let C;
+  return (
+    t[33] !== r || t[34] !== o || t[35] !== S
+      ? ((C = (0, $.jsx)(`div`, {
+          className: `flex flex-wrap items-center gap-2`,
+          children: S.map((e) =>
+            (0, $.jsxs)(
+              V,
+              {
+                color: e.id === r ? `secondary` : `ghost`,
+                size: `toolbar`,
+                "aria-current": e.id === r ? `page` : void 0,
+                onClick: () => {
+                  o(e.id);
+                },
+                children: [
+                  e.label,
+                  (0, $.jsx)(`span`, {
+                    className: `ml-0.5 text-token-input-placeholder-foreground`,
+                    children: e.count,
+                  }),
+                ],
+              },
+              e.id,
+            ),
+          ),
+        })),
+        (t[33] = r),
+        (t[34] = o),
+        (t[35] = S),
+        (t[36] = C))
+      : (C = t[36]),
+    C
+  );
+}
+function Ps(e) {
+  return e.count > 0;
+}
+function Fs(e) {
+  return Ks.find((t) => e[t] > 0) ?? null;
+}
+function Is(e) {
+  let t = (0, Bs.c)(14),
+    { mcpServers: n, onOpenSettings: r, onToggleEnabled: i, updatingServerKey: a } = e,
+    o = H();
+  if (n.length === 0) {
+    let e;
+    return (
+      t[0] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, $.jsx)(`div`, {
+            className: `flex min-h-0 flex-1 items-center justify-center py-8`,
+            children: (0, $.jsx)(`div`, {
+              className: `text-sm text-token-text-secondary`,
+              children: (0, $.jsx)(T, {
+                id: `skills.appsPage.empty.mcps`,
+                defaultMessage: `No MCP servers found`,
+                description: `Empty state title when there are no MCP servers on the manage MCPs tab`,
+              }),
+            }),
+          })),
+          (t[0] = e))
+        : (e = t[0]),
+      e
+    );
+  }
+  let s;
+  if (t[1] !== o || t[2] !== n || t[3] !== r || t[4] !== i || t[5] !== a) {
+    let e;
+    (t[7] !== o || t[8] !== r || t[9] !== i || t[10] !== a
+      ? ((e = (e) =>
+          (0, $.jsx)(
+            Fn,
+            {
+              className: `group min-h-16 justify-center border-none`,
+              actionsPlacement: `center`,
+              icon: (0, $.jsx)(tn, { className: `icon-sm text-token-text-secondary` }),
+              title: e.name,
+              actions: (0, $.jsxs)(ha, {
+                children: [
+                  (0, $.jsx)(de, {
+                    tooltipContent: (0, $.jsx)(T, {
+                      id: `skills.appsPage.mcps.settings`,
+                      defaultMessage: `Open MCP settings`,
+                      description: `Tooltip for the MCP settings button on the manage MCPs tab`,
+                    }),
+                    children: (0, $.jsx)(V, {
+                      color: `ghost`,
+                      size: `icon`,
+                      "aria-label": o.formatMessage({
+                        id: `skills.appsPage.mcps.settings`,
+                        defaultMessage: `Open MCP settings`,
+                        description: `Tooltip for the MCP settings button on the manage MCPs tab`,
+                      }),
+                      onClick: (e) => {
+                        (e.stopPropagation(), r());
+                      },
+                      children: (0, $.jsx)(fr, { className: `icon-sm` }),
+                    }),
+                  }),
+                  (0, $.jsx)(de, {
+                    tooltipContent: e.enabled
+                      ? (0, $.jsx)(T, {
+                          id: `skills.appsPage.mcps.disable`,
+                          defaultMessage: `Disable MCP server`,
+                          description: `Tooltip label for disabling an MCP server on the manage MCPs tab`,
+                        })
+                      : (0, $.jsx)(T, {
+                          id: `skills.appsPage.mcps.enable`,
+                          defaultMessage: `Enable MCP server`,
+                          description: `Tooltip label for enabling an MCP server on the manage MCPs tab`,
+                        }),
+                    children: (0, $.jsx)(ye, {
+                      checked: e.enabled,
+                      disabled: a === e.key,
+                      ariaLabel: o.formatMessage({
+                        id: `skills.appsPage.mcps.toggle`,
+                        defaultMessage: `Toggle MCP server enabled state`,
+                        description: `Accessible label for the MCP server toggle on the manage MCPs tab`,
+                      }),
+                      onClick: Ls,
+                      onChange: (t) => {
+                        i(e.key, t);
+                      },
+                    }),
+                  }),
+                ],
+              }),
+            },
+            e.key,
+          )),
+        (t[7] = o),
+        (t[8] = r),
+        (t[9] = i),
+        (t[10] = a),
+        (t[11] = e))
+      : (e = t[11]),
+      (s = n.map(e)),
+      (t[1] = o),
+      (t[2] = n),
+      (t[3] = r),
+      (t[4] = i),
+      (t[5] = a),
+      (t[6] = s));
+  } else s = t[6];
+  let c;
+  return (
+    t[12] === s
+      ? (c = t[13])
+      : ((c = (0, $.jsx)(Pa, { gap: `compact`, isSingleColumn: !0, children: s })),
+        (t[12] = s),
+        (t[13] = c)),
+    c
+  );
+}
+function Ls(e) {
+  e.stopPropagation();
+}
+function Rs({ mcpServers: e, query: t }) {
+  return Object.entries(e)
+    .map(([e, t]) => ({ key: e, name: zs(t.name?.trim() || e), enabled: t.enabled !== !1 }))
+    .filter((e) => (t.length === 0 ? !0 : [e.key, e.name].some((e) => e.toLowerCase().includes(t))))
+    .sort((e, t) => e.name.localeCompare(t.name));
+}
+function zs(e) {
+  let t = e.trim();
+  return t.length === 0 ? `` : (0, Vs.default)(t);
+}
+var Bs,
+  Vs,
+  Q,
+  $,
+  Hs,
+  Us,
+  Ws,
+  Gs,
+  Ks,
+  qs,
+  Js,
+  Ys,
+  Xs = e(() => {
+    ((Bs = R()),
+      Rt(),
+      Ft(),
+      he(),
+      lt(),
+      (Vs = t(at(), 1)),
+      B(),
+      Ke(),
+      (Q = t(Ut(), 1)),
+      k(),
+      je(),
+      Ee(),
+      cn(),
+      Mr(),
+      Qn(),
+      Me(),
+      S(),
+      w(),
+      sn(),
+      st(),
+      Kn(),
+      ke(),
+      dn(),
+      I(),
+      U(),
+      nr(),
+      vr(),
+      wr(),
+      mt(),
+      we(),
+      Fe(),
+      y(),
+      ae(),
+      p(),
+      Or(),
+      ie(),
+      Gr(),
+      wt(),
+      lr(),
+      xt(),
+      l(),
+      xr(),
+      Jt(),
+      rn(),
+      pr(),
+      Oa(),
+      Wn(),
+      Pe(),
+      oi(),
+      Xe(),
+      Vi(),
+      kr(),
+      L(),
+      Yn(),
+      ji(),
+      Jn(),
+      $i(),
+      Xi(),
+      Ni(),
+      Za(),
+      to(),
+      Et(),
+      ct(),
+      be(),
+      ut(),
+      Ai(),
+      te(),
+      M(),
+      ma(),
+      fe(),
+      Je(),
+      un(),
+      F(),
+      ar(),
+      pe(),
+      Le(),
+      Br(),
+      Ln(),
+      ea(),
+      so(),
+      po(),
+      kn(),
+      wo(),
+      Mo(),
+      Qr(),
+      Ci(),
+      Yo(),
+      Ra(),
+      bs(),
+      ei(),
+      ($ = Ye()),
+      (Hs = 2e3),
+      (Us = 15e3),
+      (Ws = `(max-width: 1023px)`),
+      (Gs = `workspace-shared-with-me-private`),
+      (Ks = [`plugins`, `apps`, `mcps`, `skills`, `marketplace`]),
+      (qs = `sticky top-0 z-30 bg-token-main-surface-primary after:pointer-events-none after:absolute after:top-full after:right-0 after:left-0 after:h-8 after:bg-linear-to-b after:from-token-main-surface-primary after:to-transparent after:content-['']`),
+      (Js = bt({ category_ids: _t($e()).default([]) }).catch({ category_ids: [] })),
+      (Ys = St(A, (e) => null)));
+  });
+export { fo as a, Na as c, is as i, Pa as l, Xs as n, co as o, Xo as r, po as s, xs as t, Ra as u };
+//# sourceMappingURL=plugins-page.js.map

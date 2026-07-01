@@ -1,0 +1,31649 @@
+const __vite__mapDeps = (
+  i,
+  m = __vite__mapDeps,
+  d = m.f ||
+    (m.f = [
+      "./composer-external-footer.js",
+      "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~plug~kmtatxxf.js",
+      "./rolldown-runtime.js",
+      "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~plug~kmtatxxf.css",
+      "./app-initial~app-main~onboarding-page.js",
+      "./app-initial~app-main~worktree-init-v2-page~appgen-publication-terms-route~remote-conversati~oykv7gy7.js",
+      "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~new-~0350jj6u.js",
+      "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~new-~o1kcu4wb.js",
+      "./app-initial~app-main~worktree-init-v2-page~appgen-settings-page~page~appgen-page~remote-con~di269h6j.js",
+      "./app-initial~app-main~onboarding-page~mermaid-diagram~xychartDiagram-PRI3JC2R~timeline-defin~dcen2xty.js",
+      "./app-initial~app-main~login-route~codex-mobile-page~remote-connections-settings.js",
+      "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~new-~o4ivuipr.js",
+      "./app-initial~app-main~remote-conversation-page~onboarding-page~projects-index-page~hotkey-wi~nek76pmq.js",
+      "./app-initial~app-main~agent-settings.js",
+      "./app-initial~app-main~remote-conversation-page~onboarding-page~projects-index-page~hotkey-wi~abrx06l0.js",
+      "./app-initial~app-main~worktree-init-v2-page~appgen-publication-terms-route~remote-conversati~coa484up.js",
+      "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~new-~iw2epp56-hsmocrwn.js",
+      "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~onboarding-page~appgen-~n1rtl5kd.js",
+      "./app-initial~app-main~worktree-init-v2-page~appgen-page~remote-conversation-page~plugin-deta~hb9r3lcf.js",
+      "./app-initial~app-main~first-run~page~remote-conversation-page~plugin-detail-page~new-thread-~o67ur2ib.js",
+      "./app-initial~app-main~remote-conversation-page~onboarding-page~hotkey-window-thread-page~thr~b0jzjd62.js",
+      "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~new-~dt7z616z.js",
+      "./app-initial~app-main~worktree-init-v2-page~appgen-publication-terms-route~remote-conversati~ns0xzbhh.js",
+      "./app-initial~app-main~worktree-init-v2-page~first-run~appgen-settings-page~appgen-publicatio~by0xz8a5.js",
+      "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~new-thread-panel-page~o~e4skp3hr.js",
+      "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~new-thread-panel-page~o~cf3a13zj.js",
+      "./app-initial~app-main~worktree-init-v2-page~appgen-publication-terms-route~remote-conversati~k7k1x9vf.js",
+      "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~new-thread-panel-page~o~ozpabocf.js",
+      "./app-initial~app-main~onboarding-page.css",
+      "./app-initial~app-main~remote-conversation-page~projects-index-page.js",
+      "./app-initial~app-main~projects-index-page~local-conversation-page.js",
+      "./app-initial~app-main~projects-index-page~hotkey-window-new-thread-page~hotkey-window-home-p~hswrsggc.js",
+      "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~onboarding-page~setting~fboddtaw.js",
+      "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~projects-index-page~app~edtlcz4n.js",
+      "./app-initial~app-main~remote-conversation-page~pull-requests-page~new-thread-panel-page~onbo~ko46i9ac-Cv0K-JCZ.js",
+      "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~projects-index-page~app~edtlcz4n.css",
+      "./app-initial~app-main~remote-conversation-page~pull-requests-page~new-thread-panel-page~proj~i4yy32ef.js",
+      "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~projects-index-page~app~ovcriy74.js",
+      "./app-initial~app-main~remote-conversation-page~projects-index-page.css",
+      "./app-initial~app-main~automations-page.js",
+      "./app-initial~app-main~remote-conversation-page~onboarding-page~hotkey-window-thread-page~edi~ha2bfs60.js",
+      "./app-initial~app-main~appgen-settings-page~appgen-page~appgen-library-page.js",
+      "./app-initial~app-main~remote-conversation-page~hotkey-window-thread-page~keyboard-shortcuts-~n7jwlpf0.js",
+      "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~hotkey-window-thread-pa~ewq0bkmq.js",
+      "./app-initial~app-main~remote-conversation-page~hotkey-window-thread-page~remote-connections-~j2v767qq.js",
+      "./app-initial~app-main~remote-conversation-page~plugin-detail-page~new-thread-panel-page~appg~fkswc4hr.js",
+      "./app-initial~app-main~remote-conversation-page~hotkey-window-thread-page~keyboard-shortcuts-~n7jwlpf0.css",
+      "./app-initial~app-main~onboarding-page~appearance-settings~general-settings.js",
+      "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~onboarding-page~appgen-~d4gukj65.js",
+      "./app-initial~app-main~remote-conversation-page~onboarding-page~hotkey-window-thread-page~app~c482ypdv.js",
+      "./app-initial~app-main~remote-conversation-page~projects-index-page~hotkey-window-thread-page~ki4n9fl3.js",
+      "./app-initial~app-main~remote-conversation-page~hotkey-window-thread-page~automations-page~th~bnlvjk3w.js",
+      "./app-initial~app-main~avatar-overlay-page~avatar-overlay-native-page~pets-settings.js",
+      "./app-initial~app-main~pets-settings.js",
+      "./app-initial~app-main~pet-install-modal-host~avatar-overlay-page~avatar-overlay-native-page~~s9e72i2g.js",
+      "./app-initial~app-main~local-conversation-page.js",
+      "./app-initial~app-main~keyboard-shortcuts-settings.js",
+      "./app-initial~app-main~remote-conversation-page~local-conversation-page.js",
+      "./app-initial~app-main~remote-conversation-page~hotkey-window-thread-page~appearance-settings~m81cqkaa.js",
+      "./app-initial~app-main~remote-conversation-page~hotkey-window-thread-page~appearance-settings~m81cqkaa.css",
+      "./app-initial~app-main~new-thread-panel-page~home-announcements~upgrade-plan-dialog.js",
+      "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~appgen-library-page~hot~peaeik0s.js",
+      "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~onboarding-page~appgen-~mhwq036p.js",
+      "./app-initial~app-main~personalization-settings~appearance-settings~general-settings.js",
+      "./app-initial~app-main~select-workspace-page.js",
+      "./app-initial~app-main~settings-page~codex-mobile-page~debug-window-page~remote-connections-s~mf1b27wf.js",
+      "./app-initial~app-main~new-thread-panel-page.js",
+      "./app-initial~app-main~remote-conversation-page~hotkey-window-thread-page~thread-app-shell-ch~oc6ebzsr.js",
+      "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~onboarding-page~select-~cvtadpw5.js",
+      "./app-initial~app-main~onboarding-page~select-workspace-page~debug-window-page~debug-modal.js",
+      "./app-initial~app-main~remote-conversation-page~thread-app-shell-chrome~local-conversation-page.js",
+      "./app-initial~app-main~settings-page~open-source-licenses-page~skills-settings~plugins-settin~cxbtmbfc.js",
+      "./app-initial~app-main~appgen-settings-page~plugin-detail-page~open-source-licenses-page~skil~grpw3pbw.js",
+      "./app-initial~app-main~remote-conversation-page~appgen-library-page~local-conversation-page.js",
+      "./app-initial~app-main~automations-page.css",
+      "./composer-footer-branch-switcher.js",
+      "./git-branch-switcher.js",
+      "./use-git-recent-branches.js",
+      "./local-remote-dropdown.js",
+      "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~appgen-library-page~hot~kj79zy13.js",
+      "./git-submodule-paths-query.js",
+      "./use-codex-worktrees.js",
+      "./dock-5J4-9xT8.js",
+      "./worktree-environment-dropdown.js",
+      "./star.js",
+      "./above-composer-suggestions.js",
+      "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~appgen-library-page~hot~ly2g680p.js",
+      "./at-mention-list.js",
+      "./pending-request-item-panel.js",
+      "./apps-availability.js",
+      "./setup-codex-wizard-step-view-C6P-eUye.js",
+      "./permission-request-model.js",
+      "./onboarding-plugin-suggestions.js",
+      "./plugins-page-selectors.js",
+      "./plugin-detail-page-utils.js",
+      "./browser-use-elevated-risk-learn-more-url.js",
+      "./queued-message-list.js",
+      "./review-mode-content.js",
+      "./thread-browser-panel-tabs.js",
+    ]),
+) => i.map((i) => d[i]);
+import { n as e, s as t } from "./rolldown-runtime.js";
+import {
+  $D as n,
+  $N as r,
+  $O as i,
+  $_ as a,
+  $i as o,
+  $k as s,
+  $n as c,
+  $o as l,
+  $p as u,
+  $t as d,
+  $v as f,
+  AA as p,
+  AI as m,
+  AN as h,
+  AR as g,
+  AV as _,
+  Ab as v,
+  Ag as y,
+  Ar as b,
+  As as x,
+  At as S,
+  B as C,
+  BE as w,
+  BN as T,
+  Bh as E,
+  Bj as D,
+  Bm as O,
+  Bn as k,
+  Bo as A,
+  Bp as j,
+  Bt as M,
+  CA as N,
+  CB as P,
+  CO as F,
+  CP as ee,
+  CV as I,
+  Cg as L,
+  Cl as R,
+  Co as z,
+  Cs as B,
+  Ct as V,
+  Cu as H,
+  DB as te,
+  DF as ne,
+  DI as re,
+  DR as U,
+  DV as ie,
+  Db as ae,
+  Df as oe,
+  Di as W,
+  Do as G,
+  Dp as se,
+  Dr as K,
+  Ds as q,
+  Dt as ce,
+  Du as le,
+  EA as ue,
+  EB as de,
+  EN as fe,
+  ER as pe,
+  EV as me,
+  Eb as he,
+  Ec as ge,
+  Ef as _e,
+  El as ve,
+  Er as ye,
+  Es as be,
+  Et as xe,
+  Eu as Se,
+  Ew as Ce,
+  FE as we,
+  FN as Te,
+  FT as Ee,
+  Fb as De,
+  Fc as Oe,
+  Fl as ke,
+  Fm as Ae,
+  Fo as je,
+  Fs as Me,
+  G as Ne,
+  GE as Pe,
+  GN as Fe,
+  GO as Ie,
+  GP as J,
+  GT as Le,
+  Gi as Re,
+  Gm as ze,
+  Gn as Be,
+  Gp as Ve,
+  Gr as He,
+  Gs as Ue,
+  HN as We,
+  HO as Ge,
+  HP as Y,
+  Hc as Ke,
+  Hf as qe,
+  Hi as Je,
+  Hm as Ye,
+  Ho as Xe,
+  Hr as Ze,
+  Hu as Qe,
+  IN as $e,
+  IP as et,
+  Ij as tt,
+  Io as nt,
+  Is as rt,
+  Ix as it,
+  JD as at,
+  JN as ot,
+  JO as st,
+  Ji as ct,
+  Jm as lt,
+  Jx as ut,
+  K as dt,
+  KO as ft,
+  KR as pt,
+  KT as mt,
+  Ka as ht,
+  Kf as gt,
+  Ki as _t,
+  Km as vt,
+  Ko as yt,
+  Ks as bt,
+  Ku as xt,
+  L as St,
+  LN as Ct,
+  LP as wt,
+  LT as Tt,
+  Lc as Et,
+  Ll as Dt,
+  Lo as Ot,
+  Ls as kt,
+  Lt as At,
+  Lx as jt,
+  MA as Mt,
+  ME as Nt,
+  MR as Pt,
+  MT as Ft,
+  Mb as It,
+  Mj as Lt,
+  Mn as Rt,
+  Mo as zt,
+  Mr as Bt,
+  Ms as Vt,
+  My as Ht,
+  NA as Ut,
+  NE as Wt,
+  NT as Gt,
+  Nb as Kt,
+  Ni as qt,
+  Nj as Jt,
+  Nl as Yt,
+  Nm as Xt,
+  Nn as Zt,
+  Ny as Qt,
+  OA as $t,
+  OS as en,
+  OV as tn,
+  Od as nn,
+  Og as rn,
+  Oi as an,
+  Oo as on,
+  Or as sn,
+  Os as cn,
+  Ot as ln,
+  Ou as un,
+  PN as dn,
+  PP as fn,
+  PR as pn,
+  PT as mn,
+  Pb as hn,
+  Pf as gn,
+  Pj as _n,
+  Pm as vn,
+  Pr as yn,
+  Py as bn,
+  QN as xn,
+  Qi as Sn,
+  Qj as Cn,
+  Qk as wn,
+  Qn as Tn,
+  Qo as En,
+  Qp as Dn,
+  Qz as On,
+  R as kn,
+  RE as An,
+  RN as jn,
+  RV as X,
+  Rc as Mn,
+  Rj as Nn,
+  Ro as Pn,
+  Rp as Fn,
+  Rs as In,
+  Rt as Ln,
+  SA as Rn,
+  SO as zn,
+  SP as Bn,
+  SR as Vn,
+  Sl as Hn,
+  Sm as Un,
+  So as Wn,
+  Su as Gn,
+  TA as Kn,
+  TB as qn,
+  TN as Jn,
+  TO as Yn,
+  TP as Xn,
+  Tf as Zn,
+  Tl as Qn,
+  Tr as $n,
+  Ts as er,
+  Tw as tr,
+  U as nr,
+  UE as rr,
+  UN as ir,
+  UO as ar,
+  UT as or,
+  Ua as sr,
+  Uc as cr,
+  Uf as lr,
+  Uh as ur,
+  Ui as dr,
+  Um as fr,
+  Ur as pr,
+  VE as mr,
+  VN as hr,
+  VO as gr,
+  VP as _r,
+  Vh as vr,
+  Vj as yr,
+  Vl as br,
+  Vm as xr,
+  Vn as Sr,
+  Vo as Cr,
+  Vp as wr,
+  Vr as Tr,
+  Vt as Er,
+  W as Dr,
+  WD as Or,
+  WN as kr,
+  WO as Ar,
+  WT as jr,
+  Wf as Mr,
+  Wl as Nr,
+  Wm as Pr,
+  Wn as Fr,
+  Wp as Ir,
+  Ws as Lr,
+  Wu as Rr,
+  XD as zr,
+  XI as Br,
+  XO as Vr,
+  XR as Hr,
+  X_ as Ur,
+  Xr as Wr,
+  Xu as Gr,
+  Xz as Kr,
+  YN as qr,
+  YO as Jr,
+  Yj as Yr,
+  Yk as Xr,
+  Ym as Zr,
+  Yr as Qr,
+  Yt as $r,
+  ZD as ei,
+  ZF as ti,
+  Zk as ni,
+  Zr as ri,
+  Zu as ii,
+  _M as ai,
+  _R as oi,
+  _S as si,
+  _V as ci,
+  __ as li,
+  _j as ui,
+  _l as di,
+  _m as fi,
+  _p as pi,
+  _s as mi,
+  _u as hi,
+  _w as gi,
+  aA as _i,
+  aL as vi,
+  aM as yi,
+  aO as bi,
+  ab as xi,
+  ai as Si,
+  ak as Ci,
+  ar as wi,
+  as as Ti,
+  at as Ei,
+  au as Di,
+  av as Oi,
+  ax as ki,
+  bA as Ai,
+  bB as ji,
+  bE as Mi,
+  bR as Ni,
+  bn as Pi,
+  bo as Fi,
+  br as Ii,
+  bs as Li,
+  cC as Ri,
+  cM as zi,
+  cS as Bi,
+  ca as Vi,
+  ci as Hi,
+  ck as Ui,
+  cl as Wi,
+  cm as Gi,
+  co as Ki,
+  cs as qi,
+  ct as Ji,
+  dI as Yi,
+  da as Xi,
+  di as Zi,
+  dj as Qi,
+  dl as $i,
+  dm as ea,
+  dn as ta,
+  do as na,
+  ds as ra,
+  dx as ia,
+  eM as aa,
+  eO as oa,
+  eP as sa,
+  eb as ca,
+  ei as la,
+  ek as ua,
+  em as da,
+  er as fa,
+  es as pa,
+  ey as ma,
+  ez as ha,
+  fI as ga,
+  fL as _a,
+  fM as va,
+  fN as ya,
+  fO as ba,
+  fS as xa,
+  fl as Sa,
+  fn as Ca,
+  fs as wa,
+  ft as Ta,
+  gF as Ea,
+  gM as Da,
+  gP as Oa,
+  gV as ka,
+  gf as Aa,
+  gi as ja,
+  gj as Ma,
+  gm as Na,
+  gp as Pa,
+  gs as Fa,
+  gu as Ia,
+  gv as La,
+  hI as Ra,
+  hN as za,
+  hO as Ba,
+  hS as Va,
+  hV as Ha,
+  hi as Ua,
+  ho as Wa,
+  hs as Ga,
+  ht as Ka,
+  hx as qa,
+  iA as Ja,
+  iB as Ya,
+  iF as Xa,
+  iL as Za,
+  iM as Qa,
+  iO as $a,
+  ii as eo,
+  ik as to,
+  ip as no,
+  iu as ro,
+  iv as io,
+  jE as ao,
+  jI as oo,
+  jP as so,
+  jV as Z,
+  jb as co,
+  jd as lo,
+  jg as uo,
+  jj as fo,
+  jl as po,
+  jo as mo,
+  kF as ho,
+  kN as go,
+  kO as _o,
+  kS as vo,
+  kf as yo,
+  kn as bo,
+  ks as xo,
+  kt as So,
+  lL as Co,
+  lM as wo,
+  lS as To,
+  lV as Eo,
+  la as Do,
+  lf as Oo,
+  li as ko,
+  lk as Ao,
+  ll as jo,
+  ln as Mo,
+  lp as No,
+  ls as Po,
+  lw as Fo,
+  mB as Io,
+  mM as Lo,
+  mN as Ro,
+  mP as zo,
+  mi as Bo,
+  ml as Vo,
+  mo as Ho,
+  ms as Uo,
+  mt as Wo,
+  mu as Go,
+  nE as Ko,
+  nV as qo,
+  na as Jo,
+  nd as Yo,
+  ni as Xo,
+  nk as Zo,
+  np as Qo,
+  ns as $o,
+  oB as es,
+  oC as ts,
+  oM as ns,
+  oO as rs,
+  oP as is,
+  og as as,
+  oi as os,
+  ok as ss,
+  on as cs,
+  oo as ls,
+  or as us,
+  os as ds,
+  ot as fs,
+  ou as ps,
+  pB as ms,
+  pI as hs,
+  pL as gs,
+  pN as _s,
+  pO as vs,
+  pS as ys,
+  pV as bs,
+  pc as xs,
+  pf as Ss,
+  pi as Cs,
+  pj as ws,
+  pl as Ts,
+  ps as Es,
+  pt as Ds,
+  px as Os,
+  qD as ks,
+  qE as As,
+  qN as js,
+  qO as Ms,
+  qP as Ns,
+  qi as Ps,
+  qj as Fs,
+  qm as Is,
+  qo as Ls,
+  qx as Rs,
+  rE as zs,
+  rF as Bs,
+  rM as Vs,
+  rO as Hs,
+  rV as Us,
+  ra as Ws,
+  rd as Gs,
+  rk as Ks,
+  rs as qs,
+  ru as Js,
+  rv as Ys,
+  rx as Xs,
+  sC as Zs,
+  sM as Qs,
+  sO as $s,
+  sg as ec,
+  si as tc,
+  sk as nc,
+  sl as rc,
+  sn as ic,
+  so as ac,
+  sp as oc,
+  ss as sc,
+  st as cc,
+  tA as lc,
+  tE as uc,
+  tP as dc,
+  tV as fc,
+  tc as pc,
+  td as mc,
+  ti as hc,
+  tk as gc,
+  ts as _c,
+  tu as vc,
+  tv as yc,
+  uB as bc,
+  uI as xc,
+  uL as Sc,
+  uM as Cc,
+  uS as wc,
+  uV as Tc,
+  ua as Ec,
+  ui as Dc,
+  uk as Oc,
+  ul as kc,
+  um as Ac,
+  us as jc,
+  ut as Mc,
+  ux as Nc,
+  vV as Pc,
+  vf as Fc,
+  vg as Ic,
+  vj as Lc,
+  vn as Rc,
+  vo as zc,
+  vs as Bc,
+  vu as Vc,
+  vv as Hc,
+  vw as Uc,
+  wA as Wc,
+  wB as Gc,
+  wO as Kc,
+  wP as qc,
+  wR as Jc,
+  wl as Yc,
+  wo as Xc,
+  wr as Zc,
+  ws as Qc,
+  wt as $c,
+  wu as el,
+  xA as tl,
+  xE as nl,
+  xR as rl,
+  xV as il,
+  xf as al,
+  xl as ol,
+  xm as sl,
+  xo as cl,
+  xs as ll,
+  xu as ul,
+  xx as dl,
+  yE as fl,
+  yV as pl,
+  y_ as ml,
+  yc as hl,
+  yg as gl,
+  yn as _l,
+  yp as vl,
+  yr as yl,
+  ys as bl,
+  yx as xl,
+  z as Sl,
+  zE as Cl,
+  zN as wl,
+  zP as Tl,
+  zV as El,
+  zc as Dl,
+  zf as Ol,
+  zi as kl,
+  zl as Al,
+  zo as jl,
+  zs as Ml,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~plug~kmtatxxf.js";
+import {
+  $D as Nl,
+  $c as Pl,
+  $h as Fl,
+  $r as Il,
+  $t as Ll,
+  $y as Rl,
+  A_ as zl,
+  Ac as Bl,
+  Ag as Vl,
+  Am as Hl,
+  Ao as Ul,
+  BD as Wl,
+  Bc as Gl,
+  Bh as Kl,
+  Bi as ql,
+  Bn as Jl,
+  Bp as Yl,
+  Br as Xl,
+  Bw as Zl,
+  CC as Ql,
+  CD as $l,
+  C_ as eu,
+  Cb as tu,
+  Cg as nu,
+  Ch as ru,
+  Cp as iu,
+  Cs as au,
+  Ct as ou,
+  Cw as su,
+  D_ as cu,
+  Dc as lu,
+  Dg as uu,
+  Dh as du,
+  Dt as fu,
+  Dy as pu,
+  ET as mu,
+  E_ as hu,
+  Ec as gu,
+  Eg as _u,
+  Eh as vu,
+  En as yu,
+  Eo as bu,
+  Et as xu,
+  Fa as Su,
+  Fc as Cu,
+  Fh as wu,
+  Fi as Tu,
+  Fm as Eu,
+  Fn as Du,
+  Fs as Ou,
+  Fu as ku,
+  GD as Au,
+  GS as ju,
+  G_ as Mu,
+  Gi as Nu,
+  Gn as Pu,
+  Gp as Fu,
+  Gw as Iu,
+  HD as Lu,
+  Hh as Ru,
+  Hi as zu,
+  Hy as Bu,
+  Ih as Vu,
+  Ii as Hu,
+  In as Uu,
+  Ir as Wu,
+  Iv as Gu,
+  Jc as Ku,
+  Jg as qu,
+  Jr as Ju,
+  Jt as Yu,
+  Jw as Xu,
+  Jy as Zu,
+  KD as Qu,
+  K_ as $u,
+  Ki as ed,
+  Kn as td,
+  Kr as nd,
+  Kt as rd,
+  Kw as id,
+  Lh as ad,
+  Li as od,
+  Lm as sd,
+  Lr as cd,
+  Mc as ld,
+  Mg as ud,
+  Mh as dd,
+  Mi as fd,
+  Mm as pd,
+  Mn as md,
+  Mu as hd,
+  N_ as gd,
+  Ng as _d,
+  Nh as vd,
+  Ni as yd,
+  Nm as bd,
+  No as xd,
+  Nv as Sd,
+  Oc as Cd,
+  Og as wd,
+  Oh as Td,
+  Oy as Ed,
+  P_ as Dd,
+  Pa as Od,
+  Ph as kd,
+  Pi as Ad,
+  Pm as jd,
+  Ps as Md,
+  Pv as Nd,
+  QD as Pd,
+  Qc as Fd,
+  Qh as Id,
+  Qn as Ld,
+  Qr as Rd,
+  Qt as zd,
+  Qw as Bd,
+  Qx as Vd,
+  Qy as Hd,
+  RD as Ud,
+  Rc as Wd,
+  Rh as Gd,
+  Ri as Kd,
+  Rr as qd,
+  S_ as Jd,
+  Sg as Yd,
+  Sh as Xd,
+  Sp as Zd,
+  Ss as Qd,
+  St as $d,
+  TT as ef,
+  T_ as tf,
+  Tg as nf,
+  Th as rf,
+  Tn as af,
+  Tt as of,
+  UD as sf,
+  Uc as cf,
+  Ug as lf,
+  Ui as uf,
+  Um as df,
+  VD as ff,
+  Vc as pf,
+  Vh as mf,
+  Vi as hf,
+  Vw as gf,
+  Wg as _f,
+  Wi as vf,
+  Wm as yf,
+  Wp as bf,
+  XD as xf,
+  Xc as Sf,
+  Xi as Cf,
+  Xo as wf,
+  Xr as Tf,
+  Xt as Ef,
+  Xw as Df,
+  Xx as Of,
+  Xy as kf,
+  YD as Af,
+  Yi as jf,
+  Yo as Mf,
+  Yr as Nf,
+  Yt as Pf,
+  Yw as Ff,
+  Yy as If,
+  ZD as Lf,
+  Zh as Rf,
+  Zn as zf,
+  Zr as Bf,
+  Zt as Vf,
+  Zw as Hf,
+  Zy as Uf,
+  _S as Wf,
+  __ as Gf,
+  _d as Kf,
+  _g as qf,
+  _h as Jf,
+  _s as Yf,
+  aO as Xf,
+  a_ as Zf,
+  ac as Qf,
+  ad as $f,
+  ag as ep,
+  ar as tp,
+  bC as np,
+  bD as rp,
+  bS as ip,
+  b_ as ap,
+  bd as op,
+  bg as sp,
+  bh as cp,
+  cC as lp,
+  cT as up,
+  cb as dp,
+  cg as fp,
+  cn as pp,
+  cp as mp,
+  cv as hp,
+  cy as gp,
+  d_ as _p,
+  dd as vp,
+  dg as yp,
+  dm as bp,
+  dn as xp,
+  ds as Sp,
+  dw as Cp,
+  eO as wp,
+  eT as Tp,
+  eb as Ep,
+  eg as Dp,
+  ei as Op,
+  el as kp,
+  en as Ap,
+  fd as jp,
+  fg as Mp,
+  fn as Np,
+  fs as Pp,
+  fw as Fp,
+  gC as Ip,
+  gS as Lp,
+  gc as Rp,
+  gg as zp,
+  gh as Bp,
+  gn as Vp,
+  gs as Hp,
+  gw as Up,
+  gy as Wp,
+  hC as Gp,
+  hS as Kp,
+  hc as qp,
+  hg as Jp,
+  hh as Yp,
+  hn as Xp,
+  hp as Zp,
+  hu as Qp,
+  hy as $p,
+  iT as em,
+  i_ as tm,
+  ic as nm,
+  ig as rm,
+  in as im,
+  jc as am,
+  jg as om,
+  jh as sm,
+  jm as cm,
+  jn as lm,
+  ju as um,
+  k_ as dm,
+  kc as fm,
+  kg as pm,
+  km as mm,
+  lS as hm,
+  lT as gm,
+  la as _m,
+  lb as vm,
+  lg as ym,
+  lm as bm,
+  ln as xm,
+  lp as Sm,
+  mS as Cm,
+  mh as wm,
+  mn as Tm,
+  mp as Em,
+  mu as Dm,
+  my as Om,
+  nO as km,
+  nS as Am,
+  nT as jm,
+  ng as Mm,
+  nn as Nm,
+  nw as Pm,
+  oC as Fm,
+  oO as Im,
+  oT as Lm,
+  o_ as Rm,
+  ob as zm,
+  od as Bm,
+  og as Vm,
+  oy as Hm,
+  pS as Um,
+  ph as Wm,
+  pn as Gm,
+  ps as Km,
+  pw as qm,
+  py as Jm,
+  qS as Ym,
+  qg as Xm,
+  qh as Zm,
+  qr as Qm,
+  qt as $m,
+  qw as eh,
+  qy as th,
+  rC as nh,
+  rT as rh,
+  r_ as ih,
+  rg as ah,
+  rn as oh,
+  rr as sh,
+  rw as ch,
+  sC as lh,
+  sS as uh,
+  sT as dh,
+  sb as fh,
+  sg as ph,
+  sv as mh,
+  sy as hh,
+  tO as gh,
+  tT as _h,
+  tb as vh,
+  tg as yh,
+  tn as bh,
+  uS as xh,
+  uT as Sh,
+  ua as Ch,
+  ug as wh,
+  un as Th,
+  us as Eh,
+  uw as Dh,
+  vC as Oh,
+  vS as kh,
+  v_ as Ah,
+  vd as jh,
+  vh as Mh,
+  vs as Nh,
+  vt as Ph,
+  vw as Fh,
+  wC as Ih,
+  wD as Lh,
+  w_ as Rh,
+  wg as zh,
+  wh as Bh,
+  wo as Vh,
+  wt as Hh,
+  xS as Uh,
+  x_ as Wh,
+  xb as Gh,
+  xg as Kh,
+  xh as qh,
+  yC as Jh,
+  yD as Yh,
+  yS as Xh,
+  y_ as Zh,
+  yd as Qh,
+  yg as $h,
+  yh as eg,
+  ys as tg,
+  yt as ng,
+  yw as rg,
+  zD as ig,
+  zc as ag,
+  zh as og,
+  zi as sg,
+  zn as cg,
+  zp as lg,
+  zr as ug,
+  zy as dg,
+} from "./app-initial~app-main~onboarding-page.js";
+import {
+  $ as fg,
+  A as pg,
+  Dt as mg,
+  Et as hg,
+  F as gg,
+  I as _g,
+  K as vg,
+  L as yg,
+  M as bg,
+  N as xg,
+  O as Sg,
+  P as Cg,
+  R as wg,
+  Y as Tg,
+  Z as Eg,
+  _t as Dg,
+  ct as Og,
+  d as kg,
+  dt as Ag,
+  et as jg,
+  f as Mg,
+  ft as Ng,
+  ht as Pg,
+  j as Fg,
+  lt as Ig,
+  m as Lg,
+  mt as Rg,
+  nt as zg,
+  p as Bg,
+  st as Vg,
+  tt as Hg,
+  ut as Ug,
+  xt as Wg,
+} from "./app-initial~app-main~remote-conversation-page~hotkey-window-thread-page~keyboard-shortcuts-~n7jwlpf0.js";
+import {
+  C as Gg,
+  S as Kg,
+} from "./app-initial~app-main~projects-index-page~local-conversation-page.js";
+import {
+  C as qg,
+  d as Jg,
+  f as Yg,
+  m as Xg,
+  p as Zg,
+} from "./app-initial~app-main~worktree-init-v2-page~appgen-publication-terms-route~remote-conversati~oykv7gy7.js";
+import {
+  a as Qg,
+  i as $g,
+  n as e_,
+  o as t_,
+  r as n_,
+  t as r_,
+} from "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~appgen-library-page~hot~kj79zy13.js";
+import {
+  C as i_,
+  E as a_,
+  F as o_,
+  I as s_,
+  N as c_,
+  O as l_,
+  P as u_,
+  S as d_,
+  T as f_,
+  _ as p_,
+  a as m_,
+  b as h_,
+  d as g_,
+  f as __,
+  g as v_,
+  h as y_,
+  i as b_,
+  j as x_,
+  l as S_,
+  m as C_,
+  o as w_,
+  p as T_,
+  r as E_,
+  t as D_,
+  u as O_,
+  v as k_,
+  w as A_,
+  x as j_,
+  y as M_,
+} from "./app-initial~app-main~worktree-init-v2-page~appgen-page~remote-conversation-page~plugin-deta~hb9r3lcf.js";
+import {
+  _ as N_,
+  l as P_,
+  u as F_,
+} from "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~onboarding-page~select-~cvtadpw5.js";
+import {
+  b as I_,
+  h as L_,
+  m as R_,
+  y as z_,
+} from "./app-initial~app-main~worktree-init-v2-page~appgen-settings-page~page~appgen-page~remote-con~di269h6j.js";
+import {
+  D as B_,
+  E as V_,
+  M as H_,
+  N as U_,
+  T as W_,
+  d as G_,
+  u as K_,
+  v as q_,
+  w as J_,
+  y as Y_,
+} from "./app-initial~app-main~worktree-init-v2-page~appgen-publication-terms-route~remote-conversati~coa484up.js";
+import {
+  d as X_,
+  u as Z_,
+} from "./app-initial~app-main~login-route~codex-mobile-page~remote-connections-settings.js";
+import {
+  n as Q_,
+  t as $_,
+} from "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~onboarding-page~setting~fboddtaw.js";
+import {
+  n as ev,
+  t as tv,
+} from "./app-initial~app-main~remote-conversation-page~plugin-detail-page~new-thread-panel-page~appg~fkswc4hr.js";
+import {
+  n as nv,
+  t as rv,
+} from "./app-initial~app-main~worktree-init-v2-page~appgen-publication-terms-route~remote-conversati~ns0xzbhh.js";
+import {
+  n as iv,
+  r as av,
+  t as ov,
+} from "./app-initial~app-main~worktree-init-v2-page~appgen-publication-terms-route~remote-conversati~k7k1x9vf.js";
+import {
+  a as sv,
+  o as cv,
+} from "./app-initial~app-main~remote-conversation-page~onboarding-page~hotkey-window-thread-page~thr~b0jzjd62.js";
+import {
+  a as lv,
+  b as uv,
+  f as dv,
+  i as fv,
+  n as pv,
+  o as mv,
+  r as hv,
+  s as gv,
+  t as _v,
+  x as vv,
+  y as yv,
+} from "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~projects-index-page~app~ovcriy74.js";
+import {
+  G as bv,
+  I as xv,
+  J as Sv,
+  K as Cv,
+  L as wv,
+  P as Tv,
+  R as Ev,
+  U as Dv,
+  W as Ov,
+  Y as kv,
+  _ as Av,
+  d as jv,
+  g as Mv,
+  q as Nv,
+  u as Pv,
+  v as Fv,
+  x as Iv,
+  y as Lv,
+  z as Rv,
+} from "./app-initial~app-main~projects-index-page~hotkey-window-new-thread-page~hotkey-window-home-p~hswrsggc.js";
+import {
+  S as zv,
+  g as Bv,
+  h as Vv,
+  n as Hv,
+  s as Uv,
+  x as Wv,
+  y as Gv,
+} from "./app-initial~app-main~first-run~page~remote-conversation-page~plugin-detail-page~new-thread-~o67ur2ib.js";
+import {
+  a as Kv,
+  c as qv,
+  f as Jv,
+  o as Yv,
+  r as Xv,
+} from "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~onboarding-page~appgen-~mhwq036p.js";
+import {
+  i as Zv,
+  n as Qv,
+  r as $v,
+  t as ey,
+} from "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~projects-index-page~app~edtlcz4n.js";
+import {
+  a as ty,
+  r as ny,
+  t as ry,
+} from "./app-initial~app-main~remote-conversation-page~pull-requests-page~new-thread-panel-page~proj~i4yy32ef.js";
+import {
+  c as iy,
+  l as ay,
+  s as oy,
+  u as sy,
+} from "./app-initial~app-main~local-conversation-page.js";
+import {
+  a as cy,
+  n as ly,
+  r as uy,
+  t as dy,
+} from "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~settings-page~appgen-li~oiv69xe5.js";
+import {
+  a as fy,
+  i as py,
+  n as my,
+  o as hy,
+  t as gy,
+} from "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~appgen-library-page~hot~ly2g680p.js";
+import {
+  a as _y,
+  c as vy,
+  d as yy,
+  f as by,
+  h as xy,
+  i as Sy,
+  l as Cy,
+  n as wy,
+  o as Ty,
+  p as Ey,
+  r as Dy,
+  t as Oy,
+} from "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~onboarding-page~appgen-~d4gukj65.js";
+import {
+  a as ky,
+  c as Ay,
+  i as jy,
+  l as My,
+  n as Ny,
+  o as Py,
+  r as Fy,
+  s as Iy,
+  t as Ly,
+} from "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~appgen-library-page~hot~e4x7741c.js";
+import {
+  a as Ry,
+  c as zy,
+  d as By,
+  i as Vy,
+  l as Hy,
+  n as Uy,
+  o as Wy,
+  s as Gy,
+  t as Ky,
+} from "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~appgen-library-page~hot~peaeik0s.js";
+import {
+  n as qy,
+  t as Jy,
+} from "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~settings-page~appgen-li~h99fup20.js";
+import {
+  n as Yy,
+  t as Xy,
+} from "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~appgen-library-page~hot~bnuob1na.js";
+function Zy(e, t, n) {
+  if (t === `transcription`) {
+    if (n instanceof hr) {
+      if (n.status === 429) {
+        let e = Ai(n);
+        if (e != null) return { message: e.message, canRetry: !1 };
+      }
+      let t = n.message.toLowerCase();
+      if (
+        n.status === 0 ||
+        t.includes(`fetch failed`) ||
+        t.includes(`failed to fetch`) ||
+        t.includes(`network`)
+      )
+        return { message: e.formatMessage(Qy.connectionError), canRetry: !0 };
+    }
+    return { message: e.formatMessage(Qy.transcribeError), canRetry: !0 };
+  }
+  let r = null;
+  return (
+    n instanceof Error && (r = n.name),
+    typeof DOMException < `u` && n instanceof DOMException && (r = n.name),
+    r === `NotAllowedError` || r === `SecurityError`
+      ? { message: e.formatMessage(Qy.microphonePermissionDenied), canRetry: !1 }
+      : r === `NotFoundError` ||
+          r === `DevicesNotFoundError` ||
+          r === `OverconstrainedError` ||
+          r === `ConstraintNotSatisfiedError`
+        ? { message: e.formatMessage(Qy.microphoneMissing), canRetry: !1 }
+        : r === `NotReadableError` || r === `TrackStartError`
+          ? { message: e.formatMessage(Qy.microphoneUnavailable), canRetry: !1 }
+          : r === `NotSupportedError` || r === `TypeError`
+            ? { message: e.formatMessage(Qy.unsupported), canRetry: !1 }
+            : { message: e.formatMessage(Qy.startError), canRetry: !1 }
+  );
+}
+var Qy,
+  $y = e(() => {
+    (Y(),
+      tl(),
+      ir(),
+      (Qy = _r({
+        connectionError: {
+          id: `dictation.error.connection`,
+          defaultMessage: `Check your connection and try again`,
+          description: `Toast text shown when dictation audio transcription fails because of a connection problem`,
+        },
+        microphoneMissing: {
+          id: `dictation.error.microphoneMissing`,
+          defaultMessage: `Connect a microphone to use dictation`,
+          description: `Toast text shown when dictation cannot find an available microphone`,
+        },
+        microphonePermissionDenied: {
+          id: `dictation.error.microphonePermissionDenied`,
+          defaultMessage: `Allow microphone access to use dictation`,
+          description: `Toast text shown when dictation cannot start because microphone permission was denied`,
+        },
+        microphoneUnavailable: {
+          id: `dictation.error.microphoneUnavailable`,
+          defaultMessage: `Close other apps using the microphone`,
+          description: `Toast text shown when dictation cannot start because the microphone is unavailable`,
+        },
+        startError: {
+          id: `composer.dictation.startError`,
+          defaultMessage: `Unable to start dictation`,
+          description: `Toast text shown when dictation could not be started`,
+        },
+        transcribeError: {
+          id: `composer.dictation.transcribeError`,
+          defaultMessage: `Unable to transcribe audio`,
+          description: `Toast text shown when dictation audio transcription fails`,
+        },
+        unsupported: {
+          id: `dictation.error.unsupported`,
+          defaultMessage: `Dictation is not available on this device`,
+          description: `Toast text shown when dictation is not supported on the current device`,
+        },
+      })));
+  }),
+  eb,
+  tb,
+  nb = e(() => {
+    (t(El()),
+      (eb = Z()),
+      (tb = (e) =>
+        (0, eb.jsxs)(`svg`, {
+          xmlns: `http://www.w3.org/2000/svg`,
+          width: 16,
+          height: 16,
+          viewBox: `0 0 16 16`,
+          fill: `currentColor`,
+          ...e,
+          children: [
+            (0, eb.jsx)(`path`, {
+              d: `M5.33374 1.91675C5.7478 1.91693 6.08374 2.25265 6.08374 2.66675V13.3337C6.08356 13.7477 5.74769 14.0836 5.33374 14.0837C4.91964 14.0837 4.58392 13.7478 4.58374 13.3337V2.66675C4.58374 2.25253 4.91953 1.91675 5.33374 1.91675Z`,
+            }),
+            (0, eb.jsx)(`path`, {
+              d: `M10.6667 3.24976C11.0809 3.24976 11.4166 3.58568 11.4167 3.99976V11.9998C11.4167 12.414 11.081 12.7498 10.6667 12.7498C10.2525 12.7498 9.91675 12.414 9.91675 11.9998V3.99976C9.91691 3.58568 10.2526 3.24976 10.6667 3.24976Z`,
+            }),
+            (0, eb.jsx)(`path`, {
+              d: `M7.99976 4.58374C8.41397 4.58374 8.74976 4.91953 8.74976 5.33374V10.6667C8.74956 11.0808 8.41385 11.4167 7.99976 11.4167C7.58581 11.4166 7.24995 11.0807 7.24976 10.6667V5.33374C7.24976 4.91963 7.58569 4.58391 7.99976 4.58374Z`,
+            }),
+            (0, eb.jsx)(`path`, {
+              d: `M2.66675 5.92554C3.08096 5.92554 3.41675 6.26132 3.41675 6.67554V9.32495C3.41655 9.739 3.08084 10.075 2.66675 10.075C2.25266 10.075 1.91695 9.739 1.91675 9.32495V6.67554C1.91675 6.26132 2.25253 5.92554 2.66675 5.92554Z`,
+            }),
+            (0, eb.jsx)(`path`, {
+              d: `M13.3337 5.92554C13.7478 5.92572 14.0837 6.26144 14.0837 6.67554V9.32495C14.0835 9.73888 13.7477 10.0748 13.3337 10.075C12.9196 10.075 12.5839 9.739 12.5837 9.32495V6.67554C12.5837 6.26132 12.9195 5.92554 13.3337 5.92554Z`,
+            }),
+          ],
+        })));
+  });
+function rb(e, { fallback: t = null, suspendToParent: n = !1 } = {}) {
+  let r = (0, ib.lazy)(async () => ({ default: await e() }));
+  return n
+    ? r
+    : function (e) {
+        return (0, ab.jsx)(ib.Suspense, { fallback: t, children: (0, ab.jsx)(r, { ...e }) });
+      };
+}
+var ib,
+  ab,
+  ob = e(() => {
+    ((ib = t(El(), 1)), (ab = Z()));
+  });
+function sb({ threadKey: e, pinnedThreadIds: t, pendingBeforeThreadIdByThreadKey: n }) {
+  let r = dr(e);
+  switch (r?.kind) {
+    case `local`:
+    case `remote`:
+      return t.has(pb(r)) ? e : null;
+    case `pending-worktree`:
+      return n.has(e) ? e : null;
+    case void 0:
+      return null;
+  }
+}
+function cb({ threadKeys: e, pinnedThreadIds: t, pendingBeforeThreadIdByThreadKey: n }) {
+  let r = new Set(t),
+    i = new Map(),
+    a = new Map();
+  for (let t of e) {
+    let e = sb({ threadKey: t, pinnedThreadIds: r, pendingBeforeThreadIdByThreadKey: n });
+    if (e == null) continue;
+    let o = dr(e);
+    switch (o?.kind) {
+      case `local`:
+      case `remote`:
+        i.set(pb(o), e);
+        break;
+      case `pending-worktree`: {
+        let t = n.get(e) ?? null,
+          r = a.get(t);
+        (r ?? ((r = []), a.set(t, r)), r.push(e));
+        break;
+      }
+      case void 0:
+        break;
+    }
+  }
+  let o = [],
+    s = (e) => {
+      let t = a.get(e);
+      t != null && (o.push(...t), a.delete(e));
+    };
+  for (let e of t) {
+    s(e);
+    let t = i.get(e);
+    t != null && o.push(t);
+  }
+  s(null);
+  for (let e of a.values()) o.push(...e);
+  return o;
+}
+function lb(e) {
+  return e.flatMap((e) => {
+    let t = kl(e);
+    return t == null ? [] : [t];
+  });
+}
+function ub({ sortablePinnedThreadKeys: e, pendingBeforeThreadIdByThreadKey: t }) {
+  let n = [];
+  for (let [r, i] of e.entries()) {
+    let a = dr(i);
+    if (a?.kind !== `pending-worktree`) continue;
+    let o = fb(e, r);
+    t.get(i) !== o && n.push({ pendingWorktreeId: a.pendingWorktreeId, beforeThreadId: o });
+  }
+  return n;
+}
+function db(e, t) {
+  let n = new Map(t.map((e, t) => [e, t])),
+    r = (e, t) => n.get(e) ?? t;
+  return e
+    .map((e, t) => [e, t])
+    .sort(([e, t], [n, i]) => r(e, t) - r(n, i) || t - i)
+    .map(([e]) => e);
+}
+function fb(e, t) {
+  for (let n = t + 1; n < e.length; n += 1) {
+    let t = e[n];
+    if (t == null) continue;
+    let r = kl(t);
+    if (r != null) return r;
+  }
+  return null;
+}
+function pb(e) {
+  switch (e.kind) {
+    case `local`:
+      return e.conversationId;
+    case `remote`:
+      return e.taskId;
+    case `pending-worktree`:
+      return e.pendingWorktreeId;
+  }
+}
+var mb = e(() => {
+  Je();
+});
+function hb({
+  additionalItemsBeforeSections: e,
+  cloudThreadItems: t,
+  groupedThreadItems: n,
+  pinnedItems: r,
+  pinnedProjectThreadItems: i,
+  recentRenderableItems: a,
+  showRecent: o,
+  visibleRecentChatItems: s,
+  visibleSidebarSectionKeys: c,
+}) {
+  let l = c.flatMap((e) => {
+    switch (e) {
+      case `threads`:
+        return o ? a : n;
+      case `cloud`:
+        return t;
+      case `chats`:
+        return s;
+    }
+  });
+  return (0, gb.default)([...r, ...i, ...e, ...l], (e) => e.task.key);
+}
+var gb,
+  _b = e(() => {
+    gb = t(Oc(), 1);
+  });
+function vb({ pinnedProjectGroups: e, unpinnedItems: t }) {
+  let n = new Set();
+  for (let t of e) for (let e of t.threadKeys) n.add(e);
+  return t.filter((e) => !n.has(e.task.key));
+}
+function yb(e, t) {
+  return e.some((e) => t.some((t) => t.hostId === e.hostId));
+}
+function bb(e, t) {
+  if (e.length !== t.length) return t;
+  for (let n = 0; n < t.length; n += 1) if (e[n] !== t[n]) return t;
+  return e;
+}
+function xb(e, t) {
+  if (e.size !== t.size) return t;
+  for (let [n, r] of t) if (e.get(n) !== r) return t;
+  return e;
+}
+function Sb(e, t) {
+  if (e.length !== t.length) return t;
+  for (let n = 0; n < t.length; n += 1) {
+    let r = e[n],
+      i = t[n];
+    if (r == null || i == null || !Cb(r, i)) return t;
+  }
+  return e;
+}
+function Cb(e, t) {
+  return (
+    e.groupId === t.groupId &&
+    e.projectId === t.projectId &&
+    e.projectKind === t.projectKind &&
+    e.hostId === t.hostId &&
+    e.hostDisplayName === t.hostDisplayName &&
+    e.cloudEnvironment === t.cloudEnvironment &&
+    e.label === t.label &&
+    e.path === t.path &&
+    e.pathAlias === t.pathAlias &&
+    wb(e.repositoryData, t.repositoryData) &&
+    e.isCodexWorktree === t.isCodexWorktree &&
+    bb(e.threadKeys, t.threadKeys) === e.threadKeys
+  );
+}
+function wb(e, t) {
+  return e == null || t == null
+    ? e === t
+    : e.repoPath === t.repoPath &&
+        e.rootFolder === t.rootFolder &&
+        e.ownerRepo?.owner === t.ownerRepo?.owner &&
+        e.ownerRepo?.repoName === t.ownerRepo?.repoName;
+}
+function Tb({ allSidebarItems: e, groups: t, projectlessThreadIds: n }) {
+  let r = new Map();
+  for (let t of e) {
+    let e = kl(t.task.key);
+    e != null &&
+      ((t.task.kind === `local` && t.task.conversation.workspaceKind === `projectless`) ||
+        n?.has(e) === !0) &&
+      r.set(e, `chats`);
+  }
+  for (let e of t)
+    for (let t of e.threadKeys) {
+      let n = kl(t);
+      n != null && r.set(n, `project:${e.projectId}`);
+    }
+  return r;
+}
+function Eb(e, t) {
+  if (e == null) return t;
+  for (let n of Object.keys(t)) if (e[n] !== t[n]) return t;
+  return e;
+}
+var Db,
+  Ob,
+  kb,
+  Ab,
+  jb,
+  Mb,
+  Nb,
+  Pb,
+  Fb,
+  Ib,
+  Lb,
+  Rb = e(() => {
+    (ji(),
+      Xa(),
+      qa(),
+      wt(),
+      Pi(),
+      Dv(),
+      _b(),
+      Sv(),
+      $r(),
+      Ca(),
+      mc(),
+      bo(),
+      wv(),
+      Je(),
+      Mv(),
+      ki(),
+      Be(),
+      (Db = []),
+      (Ob = fc(et, ({ get: e }) => e(ii) != null)),
+      (kb = qo(et, (e, { get: t }) => {
+        let n = t(Nv),
+          r = e.localProjectActionsEnabled || n,
+          i = t(Cv, { localProjectActionsEnabled: e.localProjectActionsEnabled }),
+          a = t(Yo),
+          o = i === `recent`,
+          s = o && !a,
+          c = t(Gs) ? [`chats`, `threads`] : [`threads`, `chats`],
+          { allSidebarThreadKeys: l, pinnedThreadKeys: u, unpinnedThreadKeys: f } = t(Fv),
+          p = Db,
+          m = l,
+          h = f,
+          g = t(Av, u),
+          _ = t(Av, h),
+          v = t(Av, p),
+          y = t(Av, l),
+          b = y.flatMap((e) => (e.task.kind === `local` ? [e.task.conversation.id] : [])),
+          x = new Map(_.map((e) => [e.task.key, e])),
+          S = _.flatMap((e) => {
+            let t = e.task;
+            return t.kind === `pending-worktree` &&
+              t.pendingWorktree.launchMode === `create-stable-worktree`
+              ? [t.pendingWorktree]
+              : [];
+          }),
+          C = Os(t, pn.PINNED_PROJECT_IDS),
+          { projectlessThreadIds: w, threadProjectAssignments: T } = Xs(t, {
+            conversationIds: b,
+            projectlessThreadIds: Os(t, pn.PROJECTLESS_THREAD_IDS),
+            threadProjectAssignments: Os(t, pn.THREAD_PROJECT_ASSIGNMENTS),
+          }),
+          E = w == null ? void 0 : new Set(w);
+        (t(Rt), t(Sr, l));
+        let {
+            groups: D,
+            isWorkspaceRootOptionsLoading: O,
+            workspaceRootOptions: k,
+            discoveredThreadWorkspaceRootHints: A,
+          } = t(cs, {
+            threadKeys: m,
+            enabled: !s || (C != null && C.length > 0) || l.length > 0 || t(Ob),
+            threadProjectAssignments: T,
+            projectlessThreadIds: w,
+          }),
+          j = ta({ groups: D, hiddenTaskKeys: new Set(u) }),
+          M = Tb({ allSidebarItems: y, groups: D, projectlessThreadIds: E }),
+          { pinnedGroups: N, unpinnedGroups: P } = Mo(j, C),
+          F = o && a ? Ov(P, x) : P,
+          ee = vb({ pinnedProjectGroups: N, unpinnedItems: _ }),
+          I = [];
+        if (!s) {
+          let e = new Set(D.flatMap((e) => e.threadKeys));
+          I = xv({ items: ee, projectlessThreadIds: E }).filter((t) => !e.has(t.task.key));
+        }
+        let L = r ? I : [],
+          R = L.map((e) => e.task.key),
+          z = !s && i !== `connection` && (L.length > 0 || e.canStartProjectlessChat),
+          B = t(
+            d,
+            ee
+              .filter(
+                (e) =>
+                  e.task.kind !== `pending-worktree` ||
+                  e.task.pendingWorktree.launchMode !== `create-stable-worktree`,
+              )
+              .map((e) => e.task.key),
+          ),
+          V =
+            i === `connection`
+              ? Rc({
+                  connectionGroupOrder: Os(t, pn.CONNECTION_GROUP_ORDER),
+                  groups: B,
+                  includeEmptyGroup: e.canStartProjectlessChat,
+                })
+              : [],
+          H = (i === `connection` ? V.length : F.length) > 0 || S.length > 0,
+          te = Os(t, pn.REMOTE_PROJECTS) ?? [],
+          ne = H || N.length > 0 || (k?.length ?? 0) > 0 || yb(te, t(Zt)),
+          re = H || N.length > 0 || (k?.length ?? 0) > 0,
+          U = s || H || N.length > 0,
+          ie = c.filter((e) => (e === `threads` ? U : e === `chats` ? z : !0)),
+          ae = _.filter((e) =>
+            e.task.kind === `pending-worktree`
+              ? e.task.pendingWorktree.launchMode !== `create-stable-worktree`
+              : !0,
+          ),
+          oe = N.flatMap((e) => Tv(Rv(e.threadKeys, x))),
+          W =
+            i === `connection`
+              ? V.flatMap((e) => Ev(e.threadKeys, x))
+              : F.flatMap((e) => Tv(Rv(e.threadKeys, x))),
+          G = ee.filter((e) => !1),
+          se = hb({
+            additionalItemsBeforeSections: v,
+            cloudThreadItems: G,
+            groupedThreadItems: W,
+            pinnedItems: g,
+            pinnedProjectThreadItems: oe,
+            recentRenderableItems: ae,
+            showRecent: s,
+            visibleRecentChatItems: L,
+            visibleSidebarSectionKeys: ie,
+          }).map((e) => e.task.key);
+        return {
+          allSidebarItems: y,
+          allProjectGroups: D,
+          connectionGroups: V,
+          discoveredThreadWorkspaceRootHints: A,
+          effectiveSidebarOrganizeMode: i,
+          hasAnyProjectRows: ne,
+          hasAnyRecentSectionProjectRows: re,
+          hasConnectedRemoteHosts: n,
+          hasUnpinnedProjectRows: H,
+          isChronologicalList: o,
+          isWorkspaceRootOptionsLoading: O,
+          navigationThreadKeys: se,
+          pendingStableWorktrees: S,
+          pinnedProjectGroups: N,
+          pinnedThreadKeys: u,
+          projectSidebarEnabled: r,
+          recentRenderableThreadKeys: ae.map((e) => e.task.key),
+          showProjectsEmptyState: !s && !H && N.length > 0,
+          showProjectsSection: U,
+          showRecent: s,
+          showRecentChatsSection: z,
+          shortcutThreadKeys: se.slice(0, 9),
+          threadProjectAssignments: T,
+          homeContainerIdByThreadId: M,
+          visibleRecentChatThreadKeys: R,
+          visibleCloudThreadKeys: G.map((e) => e.task.key),
+          visibleSidebarSectionKeys: ie,
+          visibleUnpinnedProjectGroups: F,
+          workspaceRootOptions: k,
+        };
+      })),
+      (Ab = Us(et, (e) => {
+        let t = (e) => ({
+            discoveredThreadWorkspaceRootHints: e.discoveredThreadWorkspaceRootHints,
+            isWorkspaceRootOptionsLoading: e.isWorkspaceRootOptionsLoading,
+            shortcutThreadKeys: e.shortcutThreadKeys,
+            homeContainerIdByThreadId: e.homeContainerIdByThreadId,
+            visibleSidebarSectionKeys: e.visibleSidebarSectionKeys,
+          }),
+          n = null;
+        return fc(et, ({ get: r }) => {
+          let i = t(r(kb, e));
+          return (
+            (n = Eb(n, {
+              ...i,
+              homeContainerIdByThreadId: xb(
+                n?.homeContainerIdByThreadId ?? new Map(),
+                i.homeContainerIdByThreadId,
+              ),
+              visibleSidebarSectionKeys: bb(
+                n?.visibleSidebarSectionKeys ?? [],
+                i.visibleSidebarSectionKeys,
+              ),
+              shortcutThreadKeys: bb(n?.shortcutThreadKeys ?? [], i.shortcutThreadKeys),
+            })),
+            n
+          );
+        });
+      })),
+      (jb = Us(et, (e) => {
+        let t = (e) => ({
+            allProjectGroups: e.allProjectGroups,
+            allSidebarItems: e.allSidebarItems,
+            threadProjectAssignments: e.threadProjectAssignments,
+          }),
+          n = null;
+        return fc(et, ({ get: r }) => {
+          let i = t(r(kb, e));
+          return (
+            (n = Eb(n, {
+              ...i,
+              allProjectGroups: Sb(n?.allProjectGroups ?? [], i.allProjectGroups),
+              allSidebarItems: bb(n?.allSidebarItems ?? [], i.allSidebarItems),
+            })),
+            n
+          );
+        });
+      })),
+      (Mb = Us(et, (e) => {
+        let t = (e) => ({
+            connectionGroups: e.connectionGroups,
+            effectiveSidebarOrganizeMode: e.effectiveSidebarOrganizeMode,
+            hasAnyProjectRows: e.hasAnyProjectRows,
+            hasConnectedRemoteHosts: e.hasConnectedRemoteHosts,
+            hasUnpinnedProjectRows: e.hasUnpinnedProjectRows,
+            isChronologicalList: e.isChronologicalList,
+            isWorkspaceRootOptionsLoading: e.isWorkspaceRootOptionsLoading,
+            pendingStableWorktrees: e.pendingStableWorktrees,
+            projectSidebarEnabled: e.projectSidebarEnabled,
+            recentRenderableThreadKeys: e.recentRenderableThreadKeys,
+            showProjectsEmptyState: e.showProjectsEmptyState,
+            showProjectsSection: e.showProjectsSection,
+            showRecent: e.showRecent,
+            showRecentChatsSection: e.showRecentChatsSection,
+            visibleCloudThreadKeys: e.visibleCloudThreadKeys,
+            visibleRecentChatThreadKeys: e.visibleRecentChatThreadKeys,
+            visibleUnpinnedProjectGroups: e.visibleUnpinnedProjectGroups,
+          }),
+          n = null;
+        return fc(et, ({ get: r }) => {
+          let i = t(r(kb, e));
+          return (
+            (n = Eb(n, {
+              ...i,
+              connectionGroups: _l(n?.connectionGroups ?? [], i.connectionGroups),
+              pendingStableWorktrees: bb(n?.pendingStableWorktrees ?? [], i.pendingStableWorktrees),
+              recentRenderableThreadKeys: bb(
+                n?.recentRenderableThreadKeys ?? [],
+                i.recentRenderableThreadKeys,
+              ),
+              visibleRecentChatThreadKeys: bb(
+                n?.visibleRecentChatThreadKeys ?? [],
+                i.visibleRecentChatThreadKeys,
+              ),
+              visibleCloudThreadKeys: bb(n?.visibleCloudThreadKeys ?? [], i.visibleCloudThreadKeys),
+              visibleUnpinnedProjectGroups: Sb(
+                n?.visibleUnpinnedProjectGroups ?? [],
+                i.visibleUnpinnedProjectGroups,
+              ),
+            })),
+            n
+          );
+        });
+      })),
+      (Nb = Us(et, (e) => {
+        let t = (e) => ({
+            isWorkspaceRootOptionsLoading: e.isWorkspaceRootOptionsLoading,
+            pinnedProjectGroups: e.pinnedProjectGroups,
+            pinnedThreadKeys: e.pinnedThreadKeys,
+          }),
+          n = null;
+        return fc(et, ({ get: r }) => {
+          let i = t(r(kb, e));
+          return (
+            (n = Eb(n, {
+              ...i,
+              pinnedProjectGroups: Sb(n?.pinnedProjectGroups ?? [], i.pinnedProjectGroups),
+              pinnedThreadKeys: bb(n?.pinnedThreadKeys ?? [], i.pinnedThreadKeys),
+            })),
+            n
+          );
+        });
+      })),
+      (Pb = Us(et, (e) => {
+        let t = (e) => ({
+            effectiveSidebarOrganizeMode: e.effectiveSidebarOrganizeMode,
+            projectSidebarEnabled: e.projectSidebarEnabled,
+            showProjectsSection: e.showProjectsSection,
+            showRecent: e.showRecent,
+            showRecentChatsSection: e.showRecentChatsSection,
+          }),
+          n = null;
+        return fc(et, ({ get: r }) => {
+          let i = r(kb, e);
+          return ((n = Eb(n, t(i))), n);
+        });
+      })),
+      (Fb = Us(et, (e) => {
+        let t = (e) => ({
+            effectiveSidebarOrganizeMode: e.effectiveSidebarOrganizeMode,
+            hasAnyProjectRows: e.hasAnyProjectRows,
+            hasConnectedRemoteHosts: e.hasConnectedRemoteHosts,
+            projectSidebarEnabled: e.projectSidebarEnabled,
+            showProjectsSection: e.showProjectsSection,
+            showRecentChatsSection: e.showRecentChatsSection,
+            visibleRecentChatThreadKeys: e.visibleRecentChatThreadKeys,
+          }),
+          n = null;
+        return fc(et, ({ get: r }) => {
+          let i = t(r(kb, e));
+          return (
+            (n = Eb(n, {
+              ...i,
+              visibleRecentChatThreadKeys: bb(
+                n?.visibleRecentChatThreadKeys ?? [],
+                i.visibleRecentChatThreadKeys,
+              ),
+            })),
+            n
+          );
+        });
+      })),
+      (Ib = qo(et, (e, { get: t }) => !t(kb, e).hasAnyProjectRows)),
+      (Lb = qo(et, (e, { get: t }) => t(kb, e).navigationThreadKeys, { isEqual: Fr })));
+  });
+function zb({ threadKeys: e, threads: t, selectedThreadKey: n }) {
+  return Array.from({ length: 6 }, (r, i) => {
+    let a = e[i];
+    if (a == null) return { id: i, threadKey: null, title: null, status: `off`, selected: !1 };
+    let o = t.find((e) => e.threadKey === a) ?? { threadKey: a, title: null };
+    return { id: i, threadKey: a, title: o.title, status: Hb(o), selected: a === n };
+  });
+}
+function Bb({
+  source: e,
+  pinnedThreadKeys: t,
+  pinnedProjectThreadKeys: n,
+  flatAllChatsThreadKeys: r,
+  legacyVisibleChatThreadKeys: i,
+  priorityThreadKeys: a,
+}) {
+  switch (e) {
+    case `pinned`:
+      return [...t, ...n].slice(0, 6);
+    case `recent`:
+      return (r ?? i).slice(0, 6);
+    case `priority`:
+      return a.slice(0, 6);
+  }
+}
+function Vb({ threadKeys: e, attentionStateByThreadKey: t, recencyAtByThreadKey: n }) {
+  return uv(
+    e.map((e) => ({ threadKey: e, attentionState: t.get(e) ?? `idle`, recencyAt: n.get(e) ?? 0 })),
+  ).map(({ threadKey: e }) => e);
+}
+function Hb(e) {
+  if (e.localStatus != null) {
+    let { pendingChip: t, status: n, unread: r } = e.localStatus;
+    return n === `error`
+      ? `error`
+      : t === `approval`
+        ? `awaiting-approval`
+        : t === `response`
+          ? `awaiting-response`
+          : n === `loading`
+            ? `working`
+            : r
+              ? `unread`
+              : `idle`;
+  }
+  let t = e.remoteStatus;
+  return t == null
+    ? `idle`
+    : t.latestTurnStatus === `failed`
+      ? `error`
+      : t.latestTurnStatus === `pending` || t.latestTurnStatus === `in_progress`
+        ? `working`
+        : t.unread
+          ? `unread`
+          : `idle`;
+}
+var Ub = e(() => {
+    vv();
+  }),
+  Wb,
+  Gb = e(() => {
+    Wb = {
+      pressedKeys: [],
+      joystick: { angle: 0, distance: 0 },
+      selectedAnalogDirection: `up`,
+      knobPulse: null,
+    };
+  }),
+  Kb,
+  qb,
+  Jb,
+  Yb = e(() => {
+    (ji(),
+      Xa(),
+      vl(),
+      Tn(),
+      Gp(),
+      wt(),
+      fe(),
+      mb(),
+      dv(),
+      Rb(),
+      Sv(),
+      mc(),
+      bo(),
+      Je(),
+      Mv(),
+      Lv(),
+      D(),
+      Ub(),
+      Gb(),
+      (Kb = Eo(et, { status: `not-detected`, error: null, battery: null })),
+      Eo(et, Wb),
+      Eo(et, !1),
+      (qb = Eo(et, `idle`)),
+      (Jb = fc(et, ({ get: e }) => {
+        let { pinnedThreadKeys: t } = e(Fv),
+          n = Jn(e, ho.agentSource),
+          r = e(bv),
+          i = e(kv),
+          a = e(Nb, { canStartProjectlessChat: r, localProjectActionsEnabled: i }),
+          o = e(Mb, { canStartProjectlessChat: r, localProjectActionsEnabled: i }),
+          s = e(yr, `12346831`) || n === `priority` ? e(yv) : null,
+          l =
+            n === `pinned`
+              ? (s?.pinnedProjectThreadKeys ??
+                e(a).pinnedProjectGroups.flatMap((e) => e.threadKeys))
+              : [],
+          u = n === `recent` ? (s?.threadKeys ?? null) : null,
+          d = [];
+        if (n === `recent` && s == null) {
+          let t = e(o);
+          d = t.showRecent ? t.recentRenderableThreadKeys : t.visibleRecentChatThreadKeys;
+        }
+        let f =
+            n === `priority` && s != null
+              ? Vb({
+                  threadKeys: s.threadKeys,
+                  attentionStateByThreadKey: s.threadAttentionStateByKey,
+                  recencyAtByThreadKey: s.threadRecencyAtByKey,
+                })
+              : [],
+          p = t;
+        if (n === `pinned`) {
+          let n = new Map();
+          for (let r of t) {
+            let t = e(k, r);
+            t?.kind === `pending-worktree` && n.set(r, t.pendingWorktree.pinnedBeforeThreadId);
+          }
+          p = cb({ threadKeys: t, pinnedThreadIds: e(Iv), pendingBeforeThreadIdByThreadKey: n });
+        }
+        let m = Bb({
+          source: n,
+          pinnedThreadKeys: p,
+          pinnedProjectThreadKeys: l,
+          flatAllChatsThreadKeys: u,
+          legacyVisibleChatThreadKeys: d,
+          priorityThreadKeys: f,
+        });
+        return zb({
+          threadKeys: m,
+          threads: m.flatMap((t) => {
+            let n = e(k, t);
+            if (n == null) return [];
+            let r = dr(t);
+            switch (r?.kind) {
+              case `local`:
+                return [
+                  {
+                    threadKey: t,
+                    title: e(Ip, r.conversationId),
+                    localStatus: {
+                      status: e(fa, r.conversationId),
+                      pendingChip: e(c, r.conversationId),
+                      unread: e(pi, r.conversationId) === !0,
+                    },
+                  },
+                ];
+              case `remote`:
+                return [
+                  {
+                    threadKey: t,
+                    title: n.kind === `remote` ? (n.task.title ?? null) : null,
+                    remoteStatus: {
+                      latestTurnStatus:
+                        n.kind === `remote`
+                          ? (n.task.task_status_display?.latest_turn_status_display?.turn_status ??
+                            null)
+                          : null,
+                      unread: n.kind === `remote` && n.task.has_unread_turn === !0,
+                    },
+                  },
+                ];
+              case `pending-worktree`:
+                return [
+                  {
+                    threadKey: t,
+                    title: n.kind === `pending-worktree` ? n.pendingWorktree.label : null,
+                  },
+                ];
+              case void 0:
+                return [];
+            }
+          }),
+          selectedThreadKey: e(ii),
+        });
+      })),
+      fc(et, ({ get: e }) => ({ slots: e(Jb), voiceState: e(qb) })));
+  });
+function Xb() {
+  return _n(`1823130936`);
+}
+var Zb = e(() => {
+  Lt();
+});
+function Qb() {
+  let e = (0, tx.c)(3),
+    [t] = Cl(`remote_control_connections_state`),
+    n = lo(),
+    r;
+  return (
+    e[0] !== t || e[1] !== n
+      ? ((r = $b({ remoteControlConnectionsState: t, slingshotEnabled: n })),
+        (e[0] = t),
+        (e[1] = n),
+        (e[2] = r))
+      : (r = e[2]),
+    r
+  );
+}
+function $b({ remoteControlConnectionsState: e, slingshotEnabled: t }) {
+  return t && (e?.available ?? !0) && e?.accessRequired !== !0;
+}
+function ex({
+  selectedConnectionsTab: e,
+  showControlOtherDevices: t,
+  showControlThisMacTab: n,
+  showRemoteControlConnectionsSection: r,
+  showRemoteSshConnections: i,
+  showTabbedSshPage: a,
+}) {
+  return r
+    ? e === `control-this-mac` && !n
+      ? t
+        ? `access-other-devices`
+        : `ssh`
+      : e === `access-other-devices` && !t
+        ? n
+          ? `control-this-mac`
+          : `ssh`
+        : e === `ssh` && !a
+          ? t
+            ? `access-other-devices`
+            : `control-this-mac`
+          : e
+    : i
+      ? `ssh`
+      : `access-other-devices`;
+}
+var tx,
+  nx = e(() => {
+    ((tx = X()), An(), nn());
+  });
+function rx() {
+  let e = (0, ix.c)(4),
+    { data: t } = Gc(yt, Wt),
+    n = ka(F_),
+    r = ka(P_),
+    i;
+  return (
+    e[0] !== t || e[1] !== r || e[2] !== n
+      ? ((i = (e) => {
+          let { attachments: i, baseParams: a, hostId: o } = e;
+          return Vr(`start-conversation`, {
+            hostId: o,
+            ...a,
+            attachments: i,
+            preparePrimaryRuntimeForFirstTurn: wf(t) && o === `local` && n && !r,
+          });
+        }),
+        (e[0] = t),
+        (e[1] = r),
+        (e[2] = n),
+        (e[3] = i))
+      : (i = e[3]),
+    i
+  );
+}
+var ix,
+  ax = e(() => {
+    ((ix = X()), bs(), ji(), Mf(), Jr(), N_(), Ls(), ao());
+  });
+function ox(e) {
+  return {
+    trackThreadEvent(t, n, r, i) {
+      let a = dx(e, t);
+      a != null && Va(e, Tt, { action: n, result: r, ...Bi(a), threadId: i });
+    },
+    trackMessageEvent(t, n, r = `steer`, i) {
+      let a = dx(e, t);
+      a != null &&
+        sx(
+          {
+            productLogger: e.get(si),
+            connection: a,
+            connectionState: e.get(gt, t),
+            isFollowUp: !0,
+            error: e.get(Mr, t),
+          },
+          { result: n, submitAction: r, ...i },
+        );
+    },
+  };
+}
+function sx(
+  { productLogger: e, connection: t, connectionState: n, isFollowUp: r, error: i, threadId: a },
+  o,
+) {
+  let { result: s, submitAction: c, blockedReason: l, threadId: u, turnId: d } = o;
+  if (e == null || t == null) return;
+  let f = Object.hasOwn(o, `threadId`) ? u : a;
+  e.logProductEvent(Gt, {
+    result: s,
+    submitAction: fx(c),
+    blockedReason: l,
+    ...(f == null ? {} : { threadId: f }),
+    turnId: d ?? void 0,
+    ...Bi(t),
+    connectionState: wc(n),
+    isFollowUp: r,
+    errorCategory: i == null ? void 0 : To(i),
+  });
+}
+function cx(e, t, n) {
+  sx(e, { result: ux(t), submitAction: `queue`, ...n });
+}
+function lx(e) {
+  switch (e) {
+    case `remote-disconnected`:
+      return Ft.CODEX_REMOTE_SSH_MESSAGE_BLOCKED_REASON_DISCONNECTED;
+    case `remote-login-required`:
+      return Ft.CODEX_REMOTE_SSH_MESSAGE_BLOCKED_REASON_LOGIN_REQUIRED;
+    case `missing-remote-project-path`:
+      return Ft.CODEX_REMOTE_SSH_MESSAGE_BLOCKED_REASON_MISSING_REMOTE_PROJECT_PATH;
+    case `empty-message`:
+    case `file-uploads`:
+    case `image-uploads`:
+    case `loading-local-config`:
+    case `missing-cloud-config`:
+    case `missing-cloud-turn`:
+    case `missing-working-directory`:
+    case `missing-workspace`:
+    case `restorable-working-directory`:
+    case `pasted-text-unavailable`:
+    case `unsupported-image-inputs`:
+    case `workspace-status-unavailable`:
+    case `windows-sandbox-readiness-error`:
+    case `windows-sandbox-update-required`:
+    case `windows-sandbox-required`:
+      return null;
+  }
+}
+function ux(e) {
+  switch (e) {
+    case `attempted`:
+      return mn.CODEX_REMOTE_SSH_MESSAGE_RESULT_ATTEMPTED;
+    case `succeeded`:
+      return mn.CODEX_REMOTE_SSH_MESSAGE_RESULT_SUCCEEDED;
+    case `failed`:
+      return mn.CODEX_REMOTE_SSH_MESSAGE_RESULT_FAILED;
+  }
+}
+function dx(e, t) {
+  return w(e.get, `remote_ssh_connections`)?.find((e) => e.hostId === t) ?? null;
+}
+function fx(e) {
+  switch (e) {
+    case `steer`:
+      return Ee.CODEX_REMOTE_SSH_MESSAGE_SUBMIT_ACTION_STEER;
+    case `queue`:
+      return Ee.CODEX_REMOTE_SSH_MESSAGE_SUBMIT_ACTION_QUEUE;
+    case `stop`:
+      return Ee.CODEX_REMOTE_SSH_MESSAGE_SUBMIT_ACTION_STOP;
+  }
+}
+var px = e(() => {
+    (fl(), vl(), ys(), mr(), xa());
+  }),
+  mx,
+  hx = e(() => {
+    (wt(),
+      Fe(),
+      jn(),
+      (mx = Ct(et, `computer-use-frontmost-window`, {
+        enabled: !1,
+        refetchOnWindowFocus: !1,
+        staleTime: kr.INFINITE,
+      })));
+  });
+function gx(e, t) {
+  let n = (0, bx.c)(10),
+    r = qn(di),
+    i;
+  n[0] === r.value ? (i = n[1]) : ((i = Hn(r.value)), (n[0] = r.value), (n[1] = i));
+  let a = i,
+    o;
+  n[2] !== e.view.dom || n[3] !== a || n[4] !== t
+    ? ((o = () => ip(e.view.dom, { composerId: a, isPrimaryComposer: t })),
+      (n[2] = e.view.dom),
+      (n[3] = a),
+      (n[4] = t),
+      (n[5] = o))
+    : (o = n[5]);
+  let s;
+  (n[6] !== e || n[7] !== a || n[8] !== t
+    ? ((s = [e, a, t]), (n[6] = e), (n[7] = a), (n[8] = t), (n[9] = s))
+    : (s = n[9]),
+    (0, xx.useEffect)(o, s));
+}
+function _x(e, t, n) {
+  let r = (0, bx.c)(7),
+    i = qn(di),
+    a;
+  r[0] === i.value ? (a = r[1]) : ((a = Hn(i.value)), (r[0] = i.value), (r[1] = a));
+  let o = a,
+    s;
+  r[2] === o ? (s = r[3]) : ((s = () => Cm(o)), (r[2] = o), (r[3] = s));
+  let c;
+  (r[4] !== n || r[5] !== s
+    ? ((c = { ...n, isActive: s }), (r[4] = n), (r[5] = s), (r[6] = c))
+    : (c = r[6]),
+    Ln(e, t, c));
+}
+function vx(e, t, n) {
+  let r = (0, bx.c)(7),
+    i = n === void 0 ? !0 : n,
+    a = (0, xx.useEffectEvent)(t),
+    o;
+  r[0] !== e || r[1] !== i || r[2] !== a
+    ? ((o = () => {
+        if (i) return Wf(e, a);
+      }),
+      (r[0] = e),
+      (r[1] = i),
+      (r[2] = a),
+      (r[3] = o))
+    : (o = r[3]);
+  let s;
+  (r[4] !== e || r[5] !== i ? ((s = [e, i]), (r[4] = e), (r[5] = i), (r[6] = s)) : (s = r[6]),
+    (0, xx.useEffect)(o, s));
+}
+function yx(e, t, n) {
+  let r = (0, bx.c)(7),
+    i = (0, xx.useEffectEvent)(n),
+    a;
+  r[0] !== t || r[1] !== i || r[2] !== e
+    ? ((a = () => kh(e, t, i)), (r[0] = t), (r[1] = i), (r[2] = e), (r[3] = a))
+    : (a = r[3]);
+  let o;
+  (r[4] !== t || r[5] !== e ? ((o = [t, e]), (r[4] = t), (r[5] = e), (r[6] = o)) : (o = r[6]),
+    (0, xx.useEffect)(a, o));
+}
+var bx,
+  xx,
+  Sx = e(() => {
+    ((bx = X()), ji(), (xx = t(El(), 1)), At(), Um(), R());
+  });
+async function Cx(
+  e,
+  {
+    getAnimationDestinationFrame: t,
+    getAttachmentGen: n,
+    onAddAppshotContext: i,
+    onCaptureAnimationDuration: a,
+    onCaptureSettled: o,
+    onCaptureStarted: s,
+    source: c,
+    target: l,
+  },
+) {
+  let u = () => {
+      e.get(Yr).danger(
+        e
+          .get(X_)
+          .formatMessage({
+            id: `composer.appshotCapture.attach.error`,
+            defaultMessage: `Unable to attach appshot`,
+            description: `Toast shown when attaching an appshot fails`,
+          }),
+      );
+    },
+    d = crypto.randomUUID(),
+    f = wx(t, l);
+  if (f == null) {
+    u();
+    return;
+  }
+  (r.info(`Appshot capture request created`, {
+    safe: { requestId: d, source: c },
+    sensitive: { bundleIdentifier: l.bundleIdentifier, name: l.name },
+  }),
+    Ex(),
+    Va(e, vo, { source: c }),
+    Mx.set(d, {
+      scope: e,
+      attachmentGen: n(),
+      bundleIdentifier: l.bundleIdentifier,
+      filename: jx(l),
+      getAttachmentGen: n,
+      imageDataUrl: null,
+      imagePath: null,
+      onAddAppshotContext: i,
+      onAttachError: u,
+      onCaptureSettled: o,
+      requestId: d,
+      source: c,
+      startedAt: performance.now(),
+      target: l,
+      text: null,
+      transitionSnapshotHeight: null,
+    }),
+    s?.(d));
+  let { transitionSnapshotScale: p, ...m } = wx(t, l) ?? f;
+  try {
+    let e = performance.now();
+    r.info(`Appshot capture start request sent`, {
+      safe: { requestId: d, source: c },
+      sensitive: { bundleIdentifier: l.bundleIdentifier, name: l.name },
+    });
+    let t = await dn(`computer-use-start-capture`, {
+      params: { animationDestination: m, bundleIdentifier: l.bundleIdentifier, requestId: d },
+    });
+    if (
+      (r.info(`Appshot capture start request finished`, {
+        safe: {
+          requestId: d,
+          source: c,
+          elapsedMs: Math.round(performance.now() - e),
+          hasResponse: t != null,
+        },
+        sensitive: {},
+      }),
+      t == null)
+    ) {
+      (a?.(d, null),
+        kx(d, { status: `failed`, failureReason: `start_response_missing` })?.onAttachError());
+      return;
+    }
+    if (t.result === `appshot_permissions_abandoned`) {
+      kx(d, {
+        status: `abandoned`,
+        failureReason: `permission_window_abandoned`,
+        permissionGrantState: t.permissionGrantState ?? void 0,
+      })?.onAttachError();
+      return;
+    }
+    let n = Mx.get(d),
+      i = t.transitionSnapshotHeight == null ? null : t.transitionSnapshotHeight / p;
+    (n != null && Mx.set(d, { ...n, transitionSnapshotHeight: i }),
+      a?.(d, { ...t, transitionSnapshotHeight: i }));
+  } catch (e) {
+    (r.warning(`Appshot capture start request failed`, {
+      safe: { requestId: d, source: c },
+      sensitive: { error: e },
+    }),
+      a?.(d, null),
+      kx(d, { status: `failed`, failureReason: `start_request_failed` })?.onAttachError());
+  }
+}
+function wx(e, t) {
+  let n = e(t);
+  if (n == null || !Tx(n)) return;
+  let {
+    backgroundColor: r,
+    cornerRadius: i,
+    primaryTextColor: a,
+    transitionSnapshotScale: o = 1,
+    ...s
+  } = n;
+  return {
+    backgroundColor: r,
+    cornerRadius: i,
+    primaryTextColor: a,
+    transitionSnapshotScale: o,
+    viewportFrame: s,
+  };
+}
+function Tx(e) {
+  return e.width > 0 && e.height > 0 && e.cornerRadius >= 0;
+}
+function Ex() {
+  Px || ((Px = !0), window.addEventListener(`message`, Dx));
+}
+function Dx(e) {
+  let t = sa(e);
+  if (t?.type !== `computer-use-capture-updated`) return;
+  let n = Mx.get(t.requestId);
+  if (n == null) return;
+  if (
+    (r.info(`Appshot capture update received`, {
+      safe: {
+        requestId: t.requestId,
+        source: n.source,
+        updateType: t.update.type,
+        elapsedMs: Math.round(performance.now() - n.startedAt),
+      },
+      sensitive: {},
+    }),
+    n.attachmentGen !== n.getAttachmentGen())
+  ) {
+    kx(t.requestId, { status: `discarded` });
+    return;
+  }
+  if (t.update.type === `failed`) {
+    (kx(t.requestId, { status: `failed`, failureReason: t.update.failureReason }),
+      n.onAttachError());
+    return;
+  }
+  if (t.update.type === `metadata`) {
+    Mx.set(t.requestId, { ...n, bundleIdentifier: t.update.app.bundleIdentifier });
+    return;
+  }
+  if (t.update.type === `axText`) {
+    Mx.set(t.requestId, { ...n, text: t.update.text });
+    return;
+  }
+  if (t.update.type === `screenshot`) {
+    (n.source === `hotkey` &&
+      n.imageDataUrl == null &&
+      t.update.screenshotDataURL != null &&
+      ot.dispatchMessage(`open-current-main-window`, { stealFocus: !0 }),
+      Mx.set(t.requestId, {
+        ...n,
+        imageDataUrl: t.update.screenshotDataURL ?? n.imageDataUrl,
+        imagePath: t.update.screenshotPath ?? n.imagePath,
+      }));
+    return;
+  }
+  if (n.imageDataUrl == null) {
+    (kx(t.requestId, { status: `failed`, failureReason: `completed_without_screenshot` }),
+      n.onAttachError());
+    return;
+  }
+  let i = n.target.appIconDataUrl ?? n.target.iconSmallDataURL;
+  (yu(n.scope, n.bundleIdentifier, n.filename, i),
+    n.onAddAppshotContext(
+      {
+        appName: n.target.name,
+        windowTitle: Ox(n),
+        bundleIdentifier: n.bundleIdentifier,
+        axTree: n.text ?? ``,
+        imagePath: null,
+        imageName: n.filename,
+        imageDataUrl: n.imageDataUrl,
+        transitionSnapshotDataUrl: t.update.transitionSnapshotDataURL ?? null,
+        transitionSnapshotHeight: n.transitionSnapshotHeight,
+        appIconDataUrl: i,
+      },
+      t.requestId,
+    ),
+    kx(t.requestId, { status: `success` }));
+}
+function Ox(e) {
+  let t = e.text?.match(Nx)?.[1]?.trim();
+  if (t != null && t.length > 0) return t;
+  let n = e.target.windowTitle?.trim();
+  return n != null && n.length > 0 ? n : null;
+}
+function kx(e, t) {
+  let n = Ax(e, t.status);
+  if (n == null) return null;
+  let i = Math.round(performance.now() - n.startedAt),
+    a = t.status === `failed` || t.status === `abandoned` ? t : null;
+  return (
+    Va(n.scope, en, {
+      source: n.source,
+      status: t.status,
+      failureReason: a?.failureReason,
+      permissionGrantState: a?.permissionGrantState,
+      durationMs: i,
+      hadScreenshot: n.imageDataUrl != null,
+      hadAxText: n.text != null,
+    }),
+    r.info(`Appshot capture settled`, {
+      safe: {
+        requestId: e,
+        source: n.source,
+        status: t.status,
+        failureReason: a?.failureReason,
+        permissionGrantState: a?.permissionGrantState,
+        elapsedMs: i,
+        hadScreenshot: n.imageDataUrl != null,
+        hadAxText: n.text != null,
+      },
+      sensitive: {},
+    }),
+    n
+  );
+}
+function Ax(e, t) {
+  let n = Mx.get(e);
+  return n == null ? null : (Mx.delete(e), n.onCaptureSettled?.(e, t === `success`), n);
+}
+function jx(e) {
+  let t = e.name.replace(/[/:]/g, `-`).replace(/\s+/g, ` `).trim(),
+    n = new Date().toISOString().replaceAll(`:`, `-`);
+  return `${t || `App`} Appshot ${n}.png`;
+}
+var Mx,
+  Nx,
+  Px,
+  Fx = e(() => {
+    (fl(),
+      Fs(),
+      dc(),
+      Z_(),
+      js(),
+      ys(),
+      xn(),
+      jn(),
+      af(),
+      (Mx = new Map()),
+      (Nx = /^Window:\s*"(.*)",\s*App:/),
+      (Px = !1));
+  });
+function Ix(e) {
+  let t = (0, Lx.c)(19),
+    { onClose: n, onContinue: r } = e,
+    i;
+  t[0] !== n || t[1] !== r
+    ? ((i = (e) => {
+        (e.preventDefault(), n(), r());
+      }),
+      (t[0] = n),
+      (t[1] = r),
+      (t[2] = i))
+    : (i = t[2]);
+  let a;
+  t[3] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((a = (0, Rx.jsx)(Ua, {
+        className: `sr-only`,
+        children: (0, Rx.jsx)(J, {
+          id: `composer.appshotCapture.firstUse.title`,
+          defaultMessage: `Enable Appshots`,
+          description: `Title for the first-use appshot explainer dialog`,
+        }),
+      })),
+      (t[3] = a))
+    : (a = t[3]);
+  let o;
+  t[4] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((o = (0, Rx.jsx)(Bo, {
+        className: `sr-only`,
+        children: (0, Rx.jsx)(J, {
+          id: `composer.appshotCapture.firstUse.description`,
+          defaultMessage: `Appshots let you attach your current window to Codex. Appshots include all window text, even what’s scrolled out of view.`,
+          description: `Description in the first-use appshot explainer dialog`,
+        }),
+      })),
+      (t[4] = o))
+    : (o = t[4]);
+  let s;
+  t[5] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((s = (0, Rx.jsx)(`div`, {
+        className: `mb-6 flex justify-start`,
+        children: (0, Rx.jsx)(`img`, {
+          alt: ``,
+          "aria-hidden": !0,
+          className: `h-[77px] w-[88px] object-contain`,
+          src: dy,
+        }),
+      })),
+      (t[5] = s))
+    : (s = t[5]);
+  let c;
+  t[6] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((c = (0, Rx.jsxs)(K, {
+        children: [
+          s,
+          (0, Rx.jsx)(ye, {
+            title: (0, Rx.jsx)(J, {
+              id: `composer.appshotCapture.firstUse.title`,
+              defaultMessage: `Enable Appshots`,
+              description: `Title for the first-use appshot explainer dialog`,
+            }),
+            subtitle: (0, Rx.jsx)(J, {
+              id: `composer.appshotCapture.firstUse.description`,
+              defaultMessage: `Appshots let you attach your current window to Codex. Appshots include all window text, even what’s scrolled out of view.`,
+              description: `Description in the first-use appshot explainer dialog`,
+            }),
+          }),
+        ],
+      })),
+      (t[6] = c))
+    : (c = t[6]);
+  let l;
+  t[7] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((l = (0, Rx.jsx)(J, {
+        id: `composer.appshotCapture.firstUse.cancel`,
+        defaultMessage: `Cancel`,
+        description: `Cancel button label in the first-use appshot explainer dialog`,
+      })),
+      (t[7] = l))
+    : (l = t[7]);
+  let u;
+  t[8] === n
+    ? (u = t[9])
+    : ((u = (0, Rx.jsx)(ya, { color: `ghost`, type: `button`, onClick: n, children: l })),
+      (t[8] = n),
+      (t[9] = u));
+  let d;
+  t[10] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((d = (0, Rx.jsx)(ya, {
+        type: `submit`,
+        children: (0, Rx.jsx)(J, {
+          id: `composer.appshotCapture.firstUse.continue`,
+          defaultMessage: `Enable`,
+          description: `Enable button label in the first-use appshot explainer dialog`,
+        }),
+      })),
+      (t[10] = d))
+    : (d = t[10]);
+  let f;
+  t[11] === u
+    ? (f = t[12])
+    : ((f = (0, Rx.jsx)(K, { children: (0, Rx.jsxs)($n, { children: [u, d] }) })),
+      (t[11] = u),
+      (t[12] = f));
+  let p;
+  t[13] !== i || t[14] !== f
+    ? ((p = (0, Rx.jsxs)(Zc, { as: `form`, onSubmit: i, children: [a, o, c, f] })),
+      (t[13] = i),
+      (t[14] = f),
+      (t[15] = p))
+    : (p = t[15]);
+  let m;
+  return (
+    t[16] !== n || t[17] !== p
+      ? ((m = (0, Rx.jsx)(Cs, { open: !0, onOpenChange: n, size: `compact`, children: p })),
+        (t[16] = n),
+        (t[17] = p),
+        (t[18] = m))
+      : (m = t[18]),
+    m
+  );
+}
+var Lx,
+  Rx,
+  zx = e(() => {
+    ((Lx = X()), Y(), ly(), _s(), ja(), b(), (Rx = Z()));
+  });
+function Bx(e, t) {
+  if (e.get(Vx)) {
+    t();
+    return;
+  }
+  (ot.dispatchMessage(`open-current-main-window`, { stealFocus: !0 }),
+    yn(e, Ix, {
+      onContinue: () => {
+        (e.set(Vx, !0), t());
+      },
+    }));
+}
+var Vx,
+  Hx = e(() => {
+    (Bt(), js(), Da(), zx(), (Vx = ai(`has-accepted-appshot-intro`, !1)));
+  });
+function Ux(e) {
+  let t = (0, Wx.c)(10),
+    {
+      composerInput: n,
+      executionTargetHostId: i,
+      getAnimationDestinationFrame: a,
+      onAddAppshotContext: o,
+      onCaptureAnimationDuration: s,
+      onCaptureSettled: c,
+      onCaptureStarted: l,
+      getAttachmentGen: u,
+    } = e,
+    d = qn(et),
+    f = Gc(cy, i),
+    { refetch: p } = de(mx),
+    m;
+  return (
+    t[0] !== a ||
+    t[1] !== u ||
+    t[2] !== f ||
+    t[3] !== o ||
+    t[4] !== s ||
+    t[5] !== c ||
+    t[6] !== l ||
+    t[7] !== p ||
+    t[8] !== d
+      ? ((m = async () => {
+          if (f)
+            try {
+              let e = performance.now();
+              r.info(`Appshot shortcut received`);
+              let { data: t } = await p(),
+                n = Math.round(performance.now() - e);
+              if (t == null) {
+                r.info(`Appshot shortcut had no target`, { safe: { frontmostWindowElapsedMs: n } });
+                return;
+              }
+              (r.info(`Appshot shortcut found target`, {
+                safe: { frontmostWindowElapsedMs: n },
+                sensitive: { bundleIdentifier: t.bundleIdentifier, name: t.name },
+              }),
+                Bx(d, () => {
+                  (Cx(d, {
+                    getAnimationDestinationFrame: a,
+                    getAttachmentGen: u,
+                    onAddAppshotContext: o,
+                    onCaptureAnimationDuration: s,
+                    onCaptureSettled: c,
+                    onCaptureStarted: l,
+                    source: `hotkey`,
+                    target: t,
+                  }),
+                    r.info(`Appshot shortcut started appshot`, {
+                      safe: { shortcutElapsedMs: Math.round(performance.now() - e) },
+                      sensitive: { bundleIdentifier: t.bundleIdentifier, name: t.name },
+                    }));
+                }));
+            } catch (e) {
+              let t = e;
+              (r.error(`Appshot shortcut failed`, { safe: {}, sensitive: { error: t } }),
+                d
+                  .get(Yr)
+                  .danger(
+                    d
+                      .get(X_)
+                      .formatMessage({
+                        id: `composer.appshotShortcut.attach.error`,
+                        defaultMessage: `Failed to attach appshot`,
+                        description: `Toast shown when the appshot shortcut fails to attach an appshot`,
+                      }),
+                  ));
+            }
+        }),
+        (t[0] = a),
+        (t[1] = u),
+        (t[2] = f),
+        (t[3] = o),
+        (t[4] = s),
+        (t[5] = c),
+        (t[6] = l),
+        (t[7] = p),
+        (t[8] = d),
+        (t[9] = m))
+      : (m = t[9]),
+    yx(`appshot-shortcut`, n, m),
+    null
+  );
+}
+var Wx,
+  Gx = e(() => {
+    ((Wx = X()), ji(), uy(), hx(), Fs(), Sx(), Z_(), wt(), xn(), Fx(), Hx());
+  });
+function Kx(e) {
+  let t = (0, sS.c)(18),
+    { attachmentTrayGrowthDirection: n, imageAttachmentCount: r, appshotContextCount: i } = e,
+    a;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`) ? ((a = []), (t[0] = a)) : (a = t[0]);
+  let [o, s] = (0, cS.useState)(a),
+    c = Lo(),
+    l;
+  t[1] === Symbol.for(`react.memo_cache_sentinel`) ? ((l = []), (t[1] = l)) : (l = t[1]);
+  let u = (0, cS.useRef)(l),
+    d;
+  t[2] === Symbol.for(`react.memo_cache_sentinel`) ? ((d = []), (t[2] = d)) : (d = t[2]);
+  let f = (0, cS.useRef)(d),
+    p;
+  t[3] === Symbol.for(`react.memo_cache_sentinel`) ? ((p = []), (t[3] = p)) : (p = t[3]);
+  let m = (0, cS.useRef)(p),
+    h = (0, cS.useRef)(null),
+    g = (0, cS.useRef)(null),
+    _;
+  t[4] !== i || t[5] !== n || t[6] !== r || t[7] !== c
+    ? ((_ = (e) => {
+        let t = g.current;
+        if (t == null) return null;
+        let a = t.getBoundingClientRect(),
+          o = window.getComputedStyle(t),
+          s = t.querySelector(`[data-composer-attachments-row]`),
+          l = m.current.map(qx),
+          u = h.current,
+          d = u == null ? 0 : Math.max(0, l.indexOf(u));
+        h.current = null;
+        let f =
+            (u == null
+              ? null
+              : (Array.from(t.querySelectorAll(`[data-pending-appshot-capture-request-id]`)).find(
+                  (e) => e.dataset.pendingAppshotCaptureRequestId === u,
+                ) ?? null)
+            )?.getBoundingClientRect() ?? null,
+          p = r * 88 * c,
+          _ = 240 * c,
+          v = d * _,
+          y = i * _,
+          b = a.left + parseFloat(o.paddingLeft || `0`) * c - (s?.scrollLeft ?? 0) * c + p + y + v,
+          x = a.top + parseFloat(o.paddingTop || `0`) * c,
+          S = Xx(t),
+          C = f?.left ?? b,
+          w = s?.getBoundingClientRect().height ?? 0,
+          T = n === `up` ? Math.max(0, Jx(e) * c - w) : 0;
+        return {
+          backgroundColor: S.backgroundColor,
+          cornerRadius: 0,
+          height: 140 * c,
+          primaryTextColor: S.primaryTextColor,
+          transitionSnapshotScale: c,
+          width: 232 * c,
+          x: C,
+          y: x - T,
+        };
+      }),
+      (t[4] = i),
+      (t[5] = n),
+      (t[6] = r),
+      (t[7] = c),
+      (t[8] = _))
+    : (_ = t[8]);
+  let v = _,
+    y;
+  t[9] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((y = (e) => {
+        if (m.current.some((t) => t.requestId === e)) {
+          h.current = e;
+          return;
+        }
+        (0, lS.flushSync)(() => {
+          let t = m.current;
+          if (t.some((t) => t.requestId === e)) {
+            h.current = e;
+            return;
+          }
+          ((h.current = e), (u.current = [e, ...u.current]));
+          let n = [
+            {
+              requestId: e,
+              transitionSnapshotHeight: null,
+              transitionSnapshotHeightResolved: !1,
+              transitionSpringDampingFraction: null,
+              transitionSpringResponse: null,
+            },
+            ...t,
+          ];
+          ((m.current = n), s(n));
+        });
+      }),
+      (t[9] = y))
+    : (y = t[9]);
+  let b = y,
+    x;
+  t[10] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((x = (e) => {
+        if (e == null) return 0;
+        let t = u.current.indexOf(e);
+        if (t === -1) return 0;
+        let n = f.current.filter((e) => {
+          let n = u.current.indexOf(e);
+          return n !== -1 && n < t;
+        }).length;
+        return (f.current.includes(e) || (f.current = [e, ...f.current]), n);
+      }),
+      (t[10] = x))
+    : (x = t[10]);
+  let S = x,
+    C;
+  t[11] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((C = (e, t) => {
+        (0, lS.flushSync)(() => {
+          let n = m.current.map((n) =>
+            n.requestId === e
+              ? {
+                  ...n,
+                  transitionSnapshotHeight: t?.transitionSnapshotHeight ?? null,
+                  transitionSnapshotHeightResolved: !0,
+                  transitionSpringDampingFraction: t?.transitionSpringDampingFraction ?? null,
+                  transitionSpringResponse: t?.transitionSpringResponse ?? null,
+                }
+              : n,
+          );
+          ((m.current = n), s(n));
+        });
+      }),
+      (t[11] = C))
+    : (C = t[11]);
+  let w = C,
+    T;
+  t[12] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((T = (e, t) => {
+        (h.current === e && (h.current = null),
+          t ||
+            ((u.current = u.current.filter((t) => t !== e)),
+            (f.current = f.current.filter((t) => t !== e))),
+          s((t) => {
+            let n = t.filter((t) => t.requestId !== e);
+            return ((m.current = n), n);
+          }));
+      }),
+      (t[12] = T))
+    : (T = t[12]);
+  let E = T,
+    D;
+  t[13] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((D = () => {
+        ((f.current = []), (u.current = []), (m.current = []), (h.current = null), s([]));
+      }),
+      (t[13] = D))
+    : (D = t[13]);
+  let O = D,
+    k = o.length > 0,
+    A;
+  return (
+    t[14] !== v || t[15] !== o || t[16] !== k
+      ? ((A = {
+          attachmentsContainerRef: g,
+          clearPendingCaptures: O,
+          getAnimationDestinationFrame: v,
+          handleCaptureAttached: S,
+          handleCaptureAnimationDuration: w,
+          handleCaptureSettled: E,
+          handleCaptureStarted: b,
+          hasPendingCaptures: k,
+          pendingCaptures: o,
+        }),
+        (t[14] = v),
+        (t[15] = o),
+        (t[16] = k),
+        (t[17] = A))
+      : (A = t[17]),
+    A
+  );
+}
+function qx(e) {
+  let { requestId: t } = e;
+  return t;
+}
+function Jx(e) {
+  return xu(Yx(e));
+}
+function Yx(e) {
+  if ((e.windowTitle?.trim() || e.name.trim()).length === 0) return 140;
+  let t = Math.max(window.devicePixelRatio || 1, 1);
+  return 144 + Math.ceil(16.021484375 * t) / t;
+}
+function Xx(e) {
+  let t = document.createElement(`div`);
+  ((t.className = `text-token-text-primary`),
+    (t.style.height = `1px`),
+    (t.style.left = `0`),
+    (t.style.pointerEvents = `none`),
+    (t.style.position = `absolute`),
+    (t.style.top = `0`),
+    (t.style.visibility = `hidden`),
+    (t.style.width = `1px`),
+    e.appendChild(t));
+  try {
+    let e = window.getComputedStyle(t),
+      n = Zx(t, eS(e.backgroundColor)),
+      r = Qx(eS(e.color) ?? uS, n);
+    return { backgroundColor: $x(n), primaryTextColor: $x(r) };
+  } finally {
+    t.remove();
+  }
+}
+function Zx(e, t) {
+  let n = t ?? { ...uS, alpha: 0 },
+    r = e.parentElement;
+  for (; n.alpha < 1 && r != null; ) {
+    let e = eS(window.getComputedStyle(r).backgroundColor);
+    (e != null && e.alpha > 0 && (n = Qx(n, e)), (r = r.parentElement));
+  }
+  return (n.alpha < 1 && (n = Qx(n, uS)), n);
+}
+function Qx(e, t) {
+  let n = e.alpha + t.alpha * (1 - e.alpha);
+  return n <= 0
+    ? { ...uS, alpha: 0 }
+    : {
+        alpha: n,
+        blue: (e.blue * e.alpha + t.blue * t.alpha * (1 - e.alpha)) / n,
+        green: (e.green * e.alpha + t.green * t.alpha * (1 - e.alpha)) / n,
+        red: (e.red * e.alpha + t.red * t.alpha * (1 - e.alpha)) / n,
+      };
+}
+function $x(e) {
+  return { blue: oS(e.blue), green: oS(e.green), red: oS(e.red) };
+}
+function eS(e) {
+  let t = e.trim().toLowerCase();
+  return t.length === 0 || t === `transparent` ? null : (tS(t) ?? nS(t));
+}
+function tS(e) {
+  let t = e.match(/^rgba?\((.*)\)$/i)?.[1];
+  if (t == null) return null;
+  let [n, r] = t.includes(`/`) ? t.split(`/`).map((e) => e.trim()) : [t, void 0],
+    i = n
+      .split(/[,\s]+/)
+      .map((e) => e.trim())
+      .filter(Boolean),
+    a = r == null && i.length >= 4 ? i.pop() : void 0;
+  return i.length < 3
+    ? null
+    : { alpha: iS(r ?? a), blue: rS(i[2], 255), green: rS(i[1], 255), red: rS(i[0], 255) };
+}
+function nS(e) {
+  let t = e.match(/^color\(\s*srgb\s+(.*)\)$/i)?.[1];
+  if (t == null) return null;
+  let [n, r] = t.includes(`/`) ? t.split(`/`).map((e) => e.trim()) : [t, void 0],
+    i = n
+      .split(/\s+/)
+      .map((e) => e.trim())
+      .filter(Boolean);
+  return i.length < 3
+    ? null
+    : { alpha: iS(r), blue: rS(i[2], 1), green: rS(i[1], 1), red: rS(i[0], 1) };
+}
+function rS(e, t) {
+  if (e == null) return 0;
+  if (e.endsWith(`%`)) return (Number.parseFloat(e) / 100) * 255;
+  let n = Number.parseFloat(e);
+  return t === 1 ? n * 255 : n;
+}
+function iS(e) {
+  return e == null
+    ? 1
+    : e.endsWith(`%`)
+      ? aS(Number.parseFloat(e) / 100)
+      : aS(Number.parseFloat(e));
+}
+function aS(e) {
+  return Number.isFinite(e) ? Math.min(1, Math.max(0, e)) : 1;
+}
+function oS(e) {
+  return Number.isFinite(e) ? Math.min(255, Math.max(0, Math.round(e))) : 0;
+}
+var sS,
+  cS,
+  lS,
+  uS,
+  dS = e(() => {
+    ((sS = X()),
+      (cS = t(El(), 1)),
+      (lS = t(Bs(), 1)),
+      va(),
+      fu(),
+      (uS = { alpha: 1, blue: 255, green: 255, red: 255 }));
+  });
+function fS(e) {
+  let t = e.get(pS);
+  t != null && e.set(mS, t, (e) => (e == null || e.isDismissed ? e : { ...e, isDismissed: !0 }));
+}
+var pS,
+  mS,
+  hS,
+  gS = e(() => {
+    (ji(),
+      wt(),
+      (pS = Eo(et, () => null)),
+      (mS = Tc(et, (e) => null)),
+      (hS = fc(et, ({ get: e }) => {
+        let t = e(pS);
+        if (t == null) return null;
+        let n = e(mS, t);
+        return n == null || n.isDismissed
+          ? null
+          : { faviconUrl: n.faviconUrl, selectedText: n.selectedText, tabId: t };
+      })));
+  }),
+  _S,
+  vS,
+  yS = e(() => {
+    (t(El()),
+      (_S = Z()),
+      (vS = (e) =>
+        (0, _S.jsxs)(`svg`, {
+          width: 20,
+          height: 20,
+          viewBox: `0 0 20 20`,
+          fill: `none`,
+          xmlns: `http://www.w3.org/2000/svg`,
+          ...e,
+          children: [
+            (0, _S.jsx)(`path`, {
+              d: `M2.08331 4.58333C3.58331 4.33333 4.33331 3.33333 4.58331 2.08333C4.83331 3.33333 5.58331 4.33333 7.08331 4.58333C5.58331 4.83333 4.83331 5.83333 4.58331 7.08333C4.33331 5.83333 3.58331 4.83333 2.08331 4.58333Z`,
+              fill: `currentColor`,
+              stroke: `currentColor`,
+              strokeLinecap: `round`,
+              strokeLinejoin: `round`,
+              strokeWidth: 0.6,
+            }),
+            (0, _S.jsx)(`path`, {
+              d: `M4.71899 13.7692L4.32008 16.1627C4.26833 16.4732 4.24246 16.6284 4.29061 16.7407C4.33275 16.8389 4.41104 16.9172 4.50929 16.9594C4.62155 17.0075 4.77679 16.9816 5.08727 16.9299L7.48075 16.531C8.10675 16.4266 8.41975 16.3745 8.71178 16.2675C8.97095 16.1725 9.21732 16.0457 9.44524 15.89C9.70205 15.7146 9.92643 15.4902 10.3752 15.0415L10.3752 15.0415L16.6666 8.75C17.8172 7.59941 17.8172 5.73393 16.6666 4.58333C15.516 3.43274 13.6506 3.43274 12.5 4.58333L6.20852 10.8748C5.75977 11.3235 5.53539 11.5479 5.35995 11.8047C5.20425 12.0326 5.07746 12.279 4.9825 12.5382C4.87549 12.8302 4.82332 13.1432 4.71899 13.7692Z`,
+              stroke: `currentColor`,
+              strokeLinecap: `round`,
+              strokeLinejoin: `round`,
+              strokeWidth: 1.33,
+            }),
+            (0, _S.jsx)(`path`, {
+              d: `M12.0833 5.83333L15.4166 9.16667`,
+              stroke: `currentColor`,
+              strokeLinecap: `round`,
+              strokeLinejoin: `round`,
+              strokeWidth: 1.33,
+            }),
+          ],
+        })));
+  });
+function bS(e) {
+  let t = (0, SS.c)(42),
+    {
+      onAddSelectedText: n,
+      onCommentSelectedText: r,
+      onEditModeChange: i,
+      onEditSelectedText: a,
+      onOpenSideChat: o,
+      resume: s,
+      selectedText: c,
+    } = e,
+    l = Ns(),
+    [u, d] = (0, CS.useState)(s?.mode === `edit` ? s.instruction : ``),
+    [f, p] = (0, CS.useState)(s?.mode ?? `actions`);
+  if (f === `pending`) return null;
+  if (f === `edit` && a != null) {
+    let e;
+    t[0] === i
+      ? (e = t[1])
+      : ((e = (e) => {
+          (e.stopPropagation(),
+            e.key === `Escape` && (e.preventDefault(), i?.(!1), p(`actions-focused`)));
+        }),
+        (t[0] = i),
+        (t[1] = e));
+    let n;
+    t[2] !== u || t[3] !== i || t[4] !== a
+      ? ((n = (e) => {
+          (e.preventDefault(),
+            u.trim().length !== 0 &&
+              (p(`pending`),
+              a(u).then((e) => {
+                e === `retry` && (i?.(!1), p(`actions-focused`));
+              })));
+        }),
+        (t[2] = u),
+        (t[3] = i),
+        (t[4] = a),
+        (t[5] = n))
+      : (n = t[5]);
+    let r;
+    t[6] === l
+      ? (r = t[7])
+      : ((r = l.formatMessage({
+          id: `selectedTextOverlay.editInput`,
+          defaultMessage: `Edit instruction`,
+          description: `Accessible label for an instruction that edits selected text`,
+        })),
+        (t[6] = l),
+        (t[7] = r));
+    let o;
+    t[8] === l
+      ? (o = t[9])
+      : ((o = l.formatMessage({
+          id: `selectedTextOverlay.editPlaceholder`,
+          defaultMessage: `Describe the edit…`,
+          description: `Placeholder for an instruction that edits selected text`,
+        })),
+        (t[8] = l),
+        (t[9] = o));
+    let s;
+    t[10] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((s = (e) => {
+          d(e.target.value);
+        }),
+        (t[10] = s))
+      : (s = t[10]);
+    let c;
+    t[11] !== u || t[12] !== r || t[13] !== o
+      ? ((c = (0, wS.jsx)(`input`, {
+          "aria-label": r,
+          autoComplete: `off`,
+          autoFocus: !0,
+          className: `min-w-0 flex-1 bg-transparent text-sm text-token-foreground outline-none placeholder:text-token-description-foreground`,
+          placeholder: o,
+          required: !0,
+          value: u,
+          onChange: s,
+        })),
+        (t[11] = u),
+        (t[12] = r),
+        (t[13] = o),
+        (t[14] = c))
+      : (c = t[14]);
+    let f;
+    t[15] === l
+      ? (f = t[16])
+      : ((f = l.formatMessage({
+          id: `selectedTextOverlay.editSubmit`,
+          defaultMessage: `Submit edit instruction`,
+          description: `Accessible label for submitting an instruction to edit selected text`,
+        })),
+        (t[15] = l),
+        (t[16] = f));
+    let m;
+    t[17] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((m = (0, wS.jsx)(Xf, { "aria-hidden": `true`, className: `icon-2xs` })), (t[17] = m))
+      : (m = t[17]);
+    let h;
+    t[18] === f
+      ? (h = t[19])
+      : ((h = (0, wS.jsx)(ya, {
+          "aria-label": f,
+          color: `primary`,
+          size: `composerSm`,
+          type: `submit`,
+          uniform: !0,
+          children: m,
+        })),
+        (t[18] = f),
+        (t[19] = h));
+    let g;
+    return (
+      t[20] !== e || t[21] !== n || t[22] !== c || t[23] !== h
+        ? ((g = (0, wS.jsxs)(`form`, {
+            className: `pointer-events-auto flex w-[27rem] max-w-full items-center gap-1.5 rounded-full border border-token-border bg-token-main-surface-primary p-1 pl-3.5 font-sans shadow-lg`,
+            onKeyDown: e,
+            onSubmit: n,
+            children: [c, h],
+          })),
+          (t[20] = e),
+          (t[21] = n),
+          (t[22] = c),
+          (t[23] = h),
+          (t[24] = g))
+        : (g = t[24]),
+      g
+    );
+  }
+  let m;
+  t[25] !== n || t[26] !== c
+    ? ((m =
+        n == null
+          ? null
+          : (0, wS.jsxs)(ya, {
+              color: `ghostActive`,
+              size: `composerSm`,
+              onClick: () => {
+                (window.getSelection()?.removeAllRanges(), n(c));
+              },
+              children: [
+                (0, wS.jsx)(Em, { "aria-hidden": `true`, className: `icon-2xs` }),
+                (0, wS.jsx)(J, {
+                  id: `selectedTextOverlay.addToCodex`,
+                  defaultMessage: `Add to chat`,
+                  description: `Button label for adding currently selected text from an overlay anchored to that selection to the chat`,
+                }),
+              ],
+            })),
+      (t[25] = n),
+      (t[26] = c),
+      (t[27] = m))
+    : (m = t[27]);
+  let h;
+  t[28] !== o || t[29] !== c
+    ? ((h =
+        o == null
+          ? null
+          : (0, wS.jsxs)(ya, {
+              color: `ghostActive`,
+              size: `composerSm`,
+              onClick: () => {
+                (window.getSelection()?.removeAllRanges(), o(c));
+              },
+              children: [
+                (0, wS.jsx)(_v, { "aria-hidden": `true`, className: `icon-2xs` }),
+                (0, wS.jsx)(J, {
+                  id: `selectedTextOverlay.askInSideChat`,
+                  defaultMessage: `Ask in side chat`,
+                  description: `Button label for asking about currently selected text in a side chat`,
+                }),
+              ],
+            })),
+      (t[28] = o),
+      (t[29] = c),
+      (t[30] = h))
+    : (h = t[30]);
+  let g;
+  t[31] === r
+    ? (g = t[32])
+    : ((g =
+        r == null
+          ? null
+          : (0, wS.jsxs)(ya, {
+              color: `ghostActive`,
+              size: `composerSm`,
+              onClick: () => {
+                (window.getSelection()?.removeAllRanges(), r());
+              },
+              children: [
+                (0, wS.jsx)(Nu, { "aria-hidden": `true`, className: `icon-2xs` }),
+                (0, wS.jsx)(J, {
+                  id: `selectedTextOverlay.comment`,
+                  defaultMessage: `Comment`,
+                  description: `Button label for commenting on the currently selected text`,
+                }),
+              ],
+            })),
+      (t[31] = r),
+      (t[32] = g));
+  let _;
+  t[33] !== f || t[34] !== i || t[35] !== a
+    ? ((_ =
+        a == null
+          ? null
+          : (0, wS.jsxs)(ya, {
+              autoFocus: f === `actions-focused`,
+              color: `ghostActive`,
+              size: `composerSm`,
+              onClick: () => {
+                (i?.(!0), p(`edit`));
+              },
+              children: [
+                (0, wS.jsx)(vS, { "aria-hidden": `true`, className: `icon-2xs` }),
+                (0, wS.jsx)(J, {
+                  id: `selectedTextOverlay.edit`,
+                  defaultMessage: `Edit`,
+                  description: `Button label for editing currently selected text with a model`,
+                }),
+              ],
+            })),
+      (t[33] = f),
+      (t[34] = i),
+      (t[35] = a),
+      (t[36] = _))
+    : (_ = t[36]);
+  let v;
+  return (
+    t[37] !== m || t[38] !== h || t[39] !== g || t[40] !== _
+      ? ((v = (0, wS.jsxs)(`div`, {
+          className: `pointer-events-auto flex w-fit max-w-full rounded-full border border-token-border/70 bg-token-dropdown-background/90 p-0.5 shadow-lg backdrop-blur-sm`,
+          onMouseDown: xS,
+          children: [m, h, g, _],
+        })),
+        (t[37] = m),
+        (t[38] = h),
+        (t[39] = g),
+        (t[40] = _),
+        (t[41] = v))
+      : (v = t[41]),
+    v
+  );
+}
+function xS(e) {
+  e.preventDefault();
+}
+var SS,
+  CS,
+  wS,
+  TS = e(() => {
+    ((SS = X()), (CS = t(El(), 1)), Y(), _s(), Im(), pv(), Zp(), ed(), yS(), (wS = Z()));
+  });
+function ES(e) {
+  return e == null ? void 0 : (e.requirements?.allowedWindowsSandboxImplementations ?? null);
+}
+function DS(e) {
+  return e !== void 0 && (e == null || e.length > 0);
+}
+function OS({
+  allowElevatedSetup: e,
+  allowUnelevatedFallback: t,
+  hasReadinessError: n,
+  isSetupModePending: r,
+  onboardingDismissed: i,
+  phase: a,
+  requiresSetup: o,
+}) {
+  return i
+    ? `none`
+    : n
+      ? `show`
+      : o
+        ? r
+          ? `waitForPolicy`
+          : !e && t
+            ? a === `idle`
+              ? `startUnelevated`
+              : `none`
+            : `show`
+        : `none`;
+}
+function kS(e, t) {
+  return e == null ? e !== void 0 : e.includes(t);
+}
+function AS(e, t) {
+  return e === `elevated` && t ? `retryUnelevated` : `failed`;
+}
+function jS(e, t, n) {
+  return n && (!t || e === `retryUnelevated` || e === `failed`)
+    ? `unelevated`
+    : t
+      ? `elevated`
+      : null;
+}
+function MS(e, t, n) {
+  return e !== `administrator` && t && n;
+}
+var NS = e(() => {});
+function PS(e) {
+  return (
+    e === `startingElevated` ||
+    e === `waitingElevated` ||
+    e === `startingUnelevated` ||
+    e === `waitingUnelevated`
+  );
+}
+var FS,
+  IS,
+  LS = e(() => {
+    (ji(),
+      wt(),
+      (FS = Us(et, (e, { signal: t }) => ({ error$: t(null), phase$: t(`idle`) }))),
+      (IS = Eo(et, !1)));
+  });
+async function RS({ allowUnelevatedFallback: e, mode: t, setError: n, setPhase: r, start: i }) {
+  let a = t === `unelevated`,
+    o = (i) => (r(AS(t, e)), n(i), null);
+  (r(a ? `startingUnelevated` : `startingElevated`), n(null));
+  try {
+    let e = await i();
+    return !e.started || e.completion == null
+      ? o(VS)
+      : (r(a ? `waitingUnelevated` : `waitingElevated`),
+        n(null),
+        {
+          completion: e.completion
+            .then((e) => (e.success ? t : o(e.error ?? HS)))
+            .catch((e) => o(BS(e))),
+        });
+  } catch (e) {
+    return o(BS(e));
+  }
+}
+async function zS({
+  disableWsl: e,
+  markReady: t,
+  restart: n,
+  runInWslEnabled: r,
+  setAgentModeAuto: i,
+  shouldSetAgentModeAuto: a,
+  waitForRestart: o,
+  writeMode: s,
+}) {
+  (await s(), a && i(), r && (await e()), await o(), r || n(), t());
+}
+function BS(e) {
+  return !(e instanceof Error) || e.message.trim().length === 0 ? HS : e.message;
+}
+var VS,
+  HS,
+  US = e(() => {
+    (NS(), (VS = `Windows sandbox setup did not start.`), (HS = `Windows sandbox setup failed.`));
+  });
+function WS(e) {
+  return !(e instanceof Error) || e.message.trim().length === 0
+    ? `Windows sandbox setup failed.`
+    : e.message;
+}
+function GS(e, t) {
+  let n = (0, KS.c)(87),
+    r = qn(et),
+    i = _(),
+    a = de(No),
+    { data: o, isPending: s } = de(ma),
+    c = e ?? a,
+    l = P(FS, c),
+    u = de(l.phase$),
+    d = de(l.error$),
+    f;
+  n[0] === c ? (f = n[1]) : ((f = { hostId: c }), (n[0] = c), (n[1] = f));
+  let { data: p, isFetching: m, isPending: g, refetch: v } = Gc(Oo, f),
+    y,
+    b,
+    x,
+    S,
+    C,
+    w,
+    T,
+    E;
+  n[2] !== p || n[3] !== m || n[4] !== g || n[5] !== o?.windowsAccountType
+    ? ((S = ES(p)),
+      (C = !g && !DS(S)),
+      (w = g || (C && m)),
+      (b = kS(S, `elevated`)),
+      (x = kS(S, `unelevated`)),
+      (y = o?.windowsAccountType ?? `unknown`),
+      (T = b && !x),
+      (E = MS(y, b, x)),
+      (n[2] = p),
+      (n[3] = m),
+      (n[4] = g),
+      (n[5] = o?.windowsAccountType),
+      (n[6] = y),
+      (n[7] = b),
+      (n[8] = x),
+      (n[9] = S),
+      (n[10] = C),
+      (n[11] = w),
+      (n[12] = T),
+      (n[13] = E))
+    : ((y = n[6]),
+      (b = n[7]),
+      (x = n[8]),
+      (S = n[9]),
+      (C = n[10]),
+      (w = n[11]),
+      (T = n[12]),
+      (E = n[13]));
+  let D = E,
+    O = Ey(c),
+    k = h(ne.runCodexInWsl),
+    A;
+  n[14] !== c || n[15] !== i
+    ? ((A = () => {
+        i.setQueryData(yy(c), `ready`);
+      }),
+      (n[14] = c),
+      (n[15] = i),
+      (n[16] = A))
+    : (A = n[16]);
+  let j = A,
+    M;
+  n[17] !== S ||
+  n[18] !== t ||
+  n[19] !== c ||
+  n[20] !== r ||
+  n[21] !== l.error$ ||
+  n[22] !== l.phase$
+    ? ((M = async (e, n) =>
+        PS(r.get(l.phase$)) || !kS(S, e)
+          ? null
+          : RS({
+              allowUnelevatedFallback: n,
+              mode: e,
+              setError: (e) => r.set(l.error$, e),
+              setPhase: (e) => r.set(l.phase$, e),
+              start: () =>
+                Vr(`start-windows-sandbox-setup-for-host`, { hostId: c, mode: e, cwd: t }),
+            })),
+      (n[17] = S),
+      (n[18] = t),
+      (n[19] = c),
+      (n[20] = r),
+      (n[21] = l.error$),
+      (n[22] = l.phase$),
+      (n[23] = M))
+    : (M = n[23]);
+  let N = M,
+    F;
+  n[24] === N
+    ? (F = n[25])
+    : ((F = async (e, t) => {
+        let n = await N(e, t);
+        return n == null ? null : n.completion;
+      }),
+      (n[24] = N),
+      (n[25] = F));
+  let ee = F,
+    I;
+  n[26] !== u || n[27] !== r || n[28] !== l.error$ || n[29] !== l.phase$
+    ? ((I = () => {
+        PS(u) || (r.set(l.phase$, `idle`), r.set(l.error$, null));
+      }),
+      (n[26] = u),
+      (n[27] = r),
+      (n[28] = l.error$),
+      (n[29] = l.phase$),
+      (n[30] = I))
+    : (I = n[30]);
+  let L = I,
+    R;
+  n[31] !== c ||
+  n[32] !== j ||
+  n[33] !== k ||
+  n[34] !== r ||
+  n[35] !== l.error$ ||
+  n[36] !== l.phase$ ||
+  n[37] !== O
+    ? ((R = async (e) => {
+        let { sandboxMode: t, postEnableDelayMs: n, setAgentModeAuto: i } = e,
+          a = n === void 0 ? qS : n,
+          o = i === void 0 ? !1 : i;
+        try {
+          (await zS({
+            disableWsl: () => go(r, ne.runCodexInWsl, !1),
+            markReady: j,
+            restart: () => {
+              ot.dispatchMessage(`codex-app-server-restart`, { hostId: c });
+            },
+            runInWslEnabled: k === !0,
+            setAgentModeAuto: () => {
+              a_(c, `auto`);
+            },
+            shouldSetAgentModeAuto: o,
+            waitForRestart: () =>
+              new Promise((e) => {
+                setTimeout(e, a);
+              }),
+            writeMode: async () => {
+              await O.mutateAsync(t);
+            },
+          }),
+            r.set(l.phase$, `idle`),
+            r.set(l.error$, null));
+        } catch (e) {
+          let t = e;
+          throw (r.set(l.phase$, `failed`), r.set(l.error$, WS(t)), t);
+        }
+      }),
+      (n[31] = c),
+      (n[32] = j),
+      (n[33] = k),
+      (n[34] = r),
+      (n[35] = l.error$),
+      (n[36] = l.phase$),
+      (n[37] = O),
+      (n[38] = R))
+    : (R = n[38]);
+  let z = R,
+    B;
+  n[39] !== j || n[40] !== r || n[41] !== l.error$ || n[42] !== l.phase$
+    ? ((B = async () => {
+        (j(), r.set(l.phase$, `idle`), r.set(l.error$, null));
+      }),
+      (n[39] = j),
+      (n[40] = r),
+      (n[41] = l.error$),
+      (n[42] = l.phase$),
+      (n[43] = B))
+    : (B = n[43]);
+  let V = B,
+    H;
+  n[44] === z
+    ? (H = n[45])
+    : ((H = async (e) => {
+        let t = await e;
+        if (t == null) return !1;
+        try {
+          return (await z({ sandboxMode: t, setAgentModeAuto: !0 }), !0);
+        } catch {
+          return !1;
+        }
+      }),
+      (n[44] = z),
+      (n[45] = H));
+  let te = H,
+    re;
+  n[46] !== x || n[47] !== N || n[48] !== te
+    ? ((re = async (e, t) => {
+        let n = t === void 0 ? !1 : t,
+          r = await N(e, e === `elevated` && x);
+        if (r == null) return !1;
+        let i = te(r.completion);
+        return n ? !0 : i;
+      }),
+      (n[46] = x),
+      (n[47] = N),
+      (n[48] = te),
+      (n[49] = re))
+    : (re = n[49]);
+  let U = re,
+    ie;
+  n[50] === u ? (ie = n[51]) : ((ie = PS(u)), (n[50] = u), (n[51] = ie));
+  let ae = s || w,
+    oe;
+  n[52] === c
+    ? (oe = n[53])
+    : ((oe = () => {
+        a_(c, `read-only`);
+      }),
+      (n[52] = c),
+      (n[53] = oe));
+  let W, G;
+  n[54] === U
+    ? ((W = n[55]), (G = n[56]))
+    : ((W = () => U(`elevated`)),
+      (G = () => U(`unelevated`, !0)),
+      (n[54] = U),
+      (n[55] = W),
+      (n[56] = G));
+  let se;
+  n[57] === v
+    ? (se = n[58])
+    : ((se = () => {
+        v();
+      }),
+      (n[57] = v),
+      (n[58] = se));
+  let K;
+  n[59] !== b || n[60] !== x || n[61] !== u || n[62] !== ee
+    ? ((K = () => {
+        let e = jS(u, b, x);
+        return e == null ? Promise.resolve(null) : ee(e, x);
+      }),
+      (n[59] = b),
+      (n[60] = x),
+      (n[61] = u),
+      (n[62] = ee),
+      (n[63] = K))
+    : (K = n[63]);
+  let q;
+  n[64] === ee ? (q = n[65]) : ((q = () => ee(`elevated`, !1)), (n[64] = ee), (n[65] = q));
+  let ce;
+  return (
+    n[66] !== y ||
+    n[67] !== b ||
+    n[68] !== x ||
+    n[69] !== d ||
+    n[70] !== z ||
+    n[71] !== V ||
+    n[72] !== C ||
+    n[73] !== w ||
+    n[74] !== u ||
+    n[75] !== T ||
+    n[76] !== L ||
+    n[77] !== D ||
+    n[78] !== ie ||
+    n[79] !== ae ||
+    n[80] !== oe ||
+    n[81] !== W ||
+    n[82] !== G ||
+    n[83] !== se ||
+    n[84] !== K ||
+    n[85] !== q
+      ? ((ce = {
+          phase: u,
+          error: d,
+          isPending: ie,
+          isRequirementsPending: w,
+          isRequirementsError: C,
+          isSetupModePending: ae,
+          accountType: y,
+          allowElevatedSetup: b,
+          allowUnelevatedFallback: x,
+          requiresElevatedSandboxByPolicy: T,
+          showUnelevatedSetupAlternative: D,
+          setLimitedAccessMode: oe,
+          enableElevated: W,
+          enableUnelevated: G,
+          retryRequirements: se,
+          startNext: K,
+          startUpdate: q,
+          resetError: L,
+          finalizeEnable: z,
+          finalizeUpdate: V,
+        }),
+        (n[66] = y),
+        (n[67] = b),
+        (n[68] = x),
+        (n[69] = d),
+        (n[70] = z),
+        (n[71] = V),
+        (n[72] = C),
+        (n[73] = w),
+        (n[74] = u),
+        (n[75] = T),
+        (n[76] = L),
+        (n[77] = D),
+        (n[78] = ie),
+        (n[79] = ae),
+        (n[80] = oe),
+        (n[81] = W),
+        (n[82] = G),
+        (n[83] = se),
+        (n[84] = K),
+        (n[85] = q),
+        (n[86] = ce))
+      : (ce = n[86]),
+    ce
+  );
+}
+var KS,
+  qS,
+  JS = e(() => {
+    ((KS = X()),
+      il(),
+      ji(),
+      Xa(),
+      vl(),
+      Jr(),
+      f_(),
+      NS(),
+      LS(),
+      US(),
+      f(),
+      js(),
+      Ss(),
+      by(),
+      wt(),
+      fe(),
+      (qS = 500));
+  });
+function YS(e) {
+  let t = (0, nC.c)(6),
+    { onRetry: n } = e,
+    r,
+    i,
+    a;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((r = (0, iC.jsx)(Pp, { className: `size-6 shrink-0 text-token-charts-red` })),
+      (i = (0, iC.jsx)(J, {
+        id: `codex.windowsSandboxBanner.readinessError`,
+        defaultMessage: `Couldn’t check Windows setup`,
+        description: `Primary status shown when the app cannot determine whether the Windows sandbox is ready`,
+      })),
+      (a = (0, iC.jsx)(J, {
+        id: `codex.windowsSandboxBanner.readinessError.detail`,
+        defaultMessage: `Try again to continue Windows setup`,
+        description: `Secondary status shown when read-only mode remains available after the Windows sandbox readiness check fails`,
+      })),
+      (t[0] = r),
+      (t[1] = i),
+      (t[2] = a))
+    : ((r = t[0]), (i = t[1]), (a = t[2]));
+  let o;
+  t[3] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((o = (0, iC.jsx)(J, {
+        id: `codex.windowsSandboxBanner.readinessError.retryCta`,
+        defaultMessage: `Try again`,
+        description: `Button label for retrying the Windows sandbox readiness check`,
+      })),
+      (t[3] = o))
+    : (o = t[3]);
+  let s;
+  return (
+    t[4] === n
+      ? (s = t[5])
+      : ((s = (0, iC.jsx)(QS, {
+          icon: r,
+          title: i,
+          detail: a,
+          action: (0, iC.jsx)(ya, {
+            className: `shrink-0`,
+            onClick: n,
+            size: `composerSm`,
+            children: o,
+          }),
+        })),
+        (t[4] = n),
+        (t[5] = s)),
+    s
+  );
+}
+function XS(e) {
+  let t = (0, nC.c)(14),
+    {
+      requirement: n,
+      phase: r,
+      showSuccess: i,
+      isPending: a,
+      isRequirementsError: o,
+      isUpdateUnavailable: s,
+      allowUnelevatedFallback: c,
+      onPrimaryAction: l,
+      onDismiss: u,
+      onRetryRequirements: d,
+    } = e,
+    f = i === void 0 ? !1 : i;
+  if (o) {
+    let e;
+    return (
+      t[0] === d ? (e = t[1]) : ((e = (0, iC.jsx)(YS, { onRetry: d })), (t[0] = d), (t[1] = e)), e
+    );
+  }
+  if (s) {
+    let e, n;
+    t[2] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((e = (0, iC.jsx)(Pp, { className: `size-6 shrink-0 text-token-charts-red` })),
+        (n = (0, iC.jsx)(J, {
+          id: `codex.windowsSandboxBanner.updateUnavailable`,
+          defaultMessage: `Sandbox update unavailable`,
+          description: `Primary status shown when organization policy does not allow the elevated Windows sandbox update`,
+        })),
+        (t[2] = e),
+        (t[3] = n))
+      : ((e = t[2]), (n = t[3]));
+    let r;
+    return (
+      t[4] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((r = (0, iC.jsx)(QS, {
+            icon: e,
+            title: n,
+            detail: (0, iC.jsx)(J, {
+              id: `codex.windowsSandboxBanner.updateUnavailable.detail`,
+              defaultMessage: `You can keep chatting, but {appName} can’t create files, edit code, or take actions`,
+              description: `Secondary status explaining read-only access when organization policy does not allow the Windows sandbox update`,
+              values: { appName: R_ },
+            }),
+            action: null,
+          })),
+          (t[4] = r))
+        : (r = t[4]),
+      r
+    );
+  }
+  let p = r === `retryUnelevated` || r === `failed`,
+    m = r === `startingElevated` || r === `startingUnelevated`,
+    h = r === `waitingElevated` || r === `waitingUnelevated`,
+    g = f && !a && !m && !h,
+    _ = !g && (a || m || h),
+    v = c && n === `setup` && r === `retryUnelevated`,
+    y;
+  return (
+    t[5] !== _ ||
+    t[6] !== p ||
+    t[7] !== g ||
+    t[8] !== u ||
+    t[9] !== l ||
+    t[10] !== r ||
+    t[11] !== n ||
+    t[12] !== v
+      ? ((y = (0, iC.jsx)(ZS, {
+          requirement: n,
+          phase: r,
+          isPending: _,
+          isRetry: p,
+          isSuccess: g,
+          showBackupCta: v,
+          onDismiss: u,
+          onPrimaryAction: l,
+        })),
+        (t[5] = _),
+        (t[6] = p),
+        (t[7] = g),
+        (t[8] = u),
+        (t[9] = l),
+        (t[10] = r),
+        (t[11] = n),
+        (t[12] = v),
+        (t[13] = y))
+      : (y = t[13]),
+    y
+  );
+}
+function ZS(e) {
+  let t = (0, nC.c)(24),
+    {
+      requirement: n,
+      phase: r,
+      isPending: i,
+      isRetry: a,
+      isSuccess: o,
+      showBackupCta: s,
+      onDismiss: c,
+      onPrimaryAction: l,
+    } = e,
+    u;
+  t[0] !== a || t[1] !== o
+    ? ((u = o
+        ? (0, iC.jsx)(gu, { className: `size-6 shrink-0 text-token-charts-green` })
+        : a
+          ? (0, iC.jsx)(Pp, { className: `size-6 shrink-0 text-token-charts-red` })
+          : (0, iC.jsx)(qp, { className: `size-6 shrink-0` })),
+      (t[0] = a),
+      (t[1] = o),
+      (t[2] = u))
+    : (u = t[2]);
+  let d;
+  t[3] !== i || t[4] !== a || t[5] !== o
+    ? ((d = o
+        ? (0, iC.jsx)(J, {
+            id: `codex.windowsSandboxBanner.success`,
+            defaultMessage: `Windows setup is complete`,
+            description: `Primary status shown when the Windows sandbox has finished setting up`,
+          })
+        : i
+          ? (0, iC.jsx)(J, {
+              id: `codex.windowsSandboxBanner.backgroundSetup.title`,
+              defaultMessage: `Finishing Windows setup`,
+              description: `Title shown while Windows setup continues in the background`,
+            })
+          : a
+            ? (0, iC.jsx)(J, {
+                id: `codex.windowsSandboxBanner.setupError`,
+                defaultMessage: `Windows setup didn’t finish`,
+                description: `Primary status shown when Windows setup does not finish`,
+              })
+            : (0, iC.jsx)(J, {
+                id: `codex.windowsSandboxBanner.title`,
+                defaultMessage: `Finish Windows setup to continue`,
+                description: `Primary status shown when Agent mode requires the Windows sandbox to be enabled`,
+              })),
+      (t[3] = i),
+      (t[4] = a),
+      (t[5] = o),
+      (t[6] = d))
+    : (d = t[6]);
+  let f;
+  t[7] !== i || t[8] !== o || t[9] !== r || t[10] !== n
+    ? ((f = i
+        ? (0, iC.jsx)(J, {
+            id: `codex.windowsSandboxBanner.backgroundSetup.detail`,
+            defaultMessage: `{appName} is creating a sandbox needed to run on your computer. This can take a few minutes`,
+            description: `Detail shown while Windows setup continues in the background`,
+            values: { appName: R_ },
+          })
+        : (0, iC.jsx)(eC, { requirement: n, phase: r, isSuccess: o })),
+      (t[7] = i),
+      (t[8] = o),
+      (t[9] = r),
+      (t[10] = n),
+      (t[11] = f))
+    : (f = t[11]);
+  let p;
+  t[12] !== i || t[13] !== a || t[14] !== o || t[15] !== c || t[16] !== l || t[17] !== s
+    ? ((p = o
+        ? (0, iC.jsxs)(ya, {
+            className: `shrink-0`,
+            color: `ghostMuted`,
+            onClick: c,
+            size: `composerSm`,
+            uniform: !0,
+            children: [
+              (0, iC.jsx)(`span`, {
+                className: `sr-only`,
+                children: (0, iC.jsx)(J, {
+                  id: `codex.windowsSandboxBanner.dismiss`,
+                  defaultMessage: `Dismiss Windows setup status`,
+                  description: `Screen-reader label for dismissing Windows setup status`,
+                }),
+              }),
+              (0, iC.jsx)(Pp, {
+                className: `icon-xs text-token-muted-foreground`,
+                "aria-hidden": `true`,
+              }),
+            ],
+          })
+        : i
+          ? (0, iC.jsx)(Ro, {
+              className: `size-5 shrink-0 text-token-foreground`,
+              "aria-hidden": `true`,
+            })
+          : (0, iC.jsx)(ya, {
+              className: `shrink-0`,
+              onClick: l,
+              size: `composerSm`,
+              children: s
+                ? (0, iC.jsx)(J, {
+                    id: `codex.windowsSandboxBanner.backupCta`,
+                    defaultMessage: `Continue without administrator access`,
+                    description: `Primary button label shown after sandbox setup with Admin permissions fails and the non-admin sandbox is available`,
+                  })
+                : a
+                  ? (0, iC.jsx)(J, {
+                      id: `codex.windowsSandboxBanner.retrySetupCta`,
+                      defaultMessage: `Try Windows setup again`,
+                      description: `Primary button label shown when sandbox setup can be retried`,
+                    })
+                  : (0, iC.jsx)(J, {
+                      id: `codex.windowsSandboxBanner.setupCta`,
+                      defaultMessage: `Continue`,
+                      description: `Primary button label for continuing Windows setup from the status card`,
+                    }),
+            })),
+      (t[12] = i),
+      (t[13] = a),
+      (t[14] = o),
+      (t[15] = c),
+      (t[16] = l),
+      (t[17] = s),
+      (t[18] = p))
+    : (p = t[18]);
+  let m;
+  return (
+    t[19] !== u || t[20] !== d || t[21] !== f || t[22] !== p
+      ? ((m = (0, iC.jsx)(QS, { icon: u, title: d, detail: f, action: p })),
+        (t[19] = u),
+        (t[20] = d),
+        (t[21] = f),
+        (t[22] = p),
+        (t[23] = m))
+      : (m = t[23]),
+    m
+  );
+}
+function QS(e) {
+  let t = (0, nC.c)(11),
+    { icon: n, title: r, detail: i, action: a } = e,
+    o;
+  t[0] === r
+    ? (o = t[1])
+    : ((o = (0, iC.jsx)(`span`, { className: `text-[15px] leading-5 font-medium`, children: r })),
+      (t[0] = r),
+      (t[1] = o));
+  let s;
+  t[2] === i
+    ? (s = t[3])
+    : ((s = (0, iC.jsx)(`span`, {
+        className: `text-sm leading-5 text-token-description-foreground`,
+        children: i,
+      })),
+      (t[2] = i),
+      (t[3] = s));
+  let c;
+  t[4] !== o || t[5] !== s
+    ? ((c = (0, iC.jsxs)(`div`, {
+        className: `flex min-w-0 flex-1 flex-col gap-0.5`,
+        children: [o, s],
+      })),
+      (t[4] = o),
+      (t[5] = s),
+      (t[6] = c))
+    : (c = t[6]);
+  let l;
+  return (
+    t[7] !== a || t[8] !== n || t[9] !== c
+      ? ((l = (0, iC.jsxs)(`div`, {
+          role: `status`,
+          "aria-live": `polite`,
+          className: `mb-4 flex min-h-[72px] items-center gap-3 rounded-2xl border border-token-input-border bg-token-input-background/90 px-5 py-3.5 text-token-foreground shadow-[0_4px_16px_0_rgba(0,0,0,0.05)] backdrop-blur-lg electron:dark:bg-token-dropdown-background`,
+          children: [n, c, a],
+        })),
+        (t[7] = a),
+        (t[8] = n),
+        (t[9] = c),
+        (t[10] = l))
+      : (l = t[10]),
+    l
+  );
+}
+function $S(e) {
+  let t = (0, nC.c)(21),
+    { cwd: n, requirement: r, setShowWindowsSandboxBanner: i } = e,
+    [a, o] = (0, rC.useState)(!1),
+    {
+      phase: s,
+      isPending: c,
+      isRequirementsPending: l,
+      isRequirementsError: u,
+      allowElevatedSetup: d,
+      allowUnelevatedFallback: f,
+      startNext: p,
+      startUpdate: m,
+      resetError: h,
+      finalizeEnable: g,
+      finalizeUpdate: _,
+      retryRequirements: v,
+    } = GS(void 0, n),
+    y = r === `update` && !l && !u && !d,
+    b = c || l,
+    x;
+  t[0] !== g || t[1] !== _ || t[2] !== r || t[3] !== i || t[4] !== p || t[5] !== m
+    ? ((x = () => {
+        (i(!0),
+          (async () => {
+            if (r === `update`) {
+              if ((await m()) == null) return;
+              try {
+                (await _(), o(!0), await tC(), i(!1));
+              } catch {
+                o(!1);
+              }
+              return;
+            }
+            let e = await p();
+            if (e != null)
+              try {
+                (await g({ sandboxMode: e, setAgentModeAuto: !0 }), o(!0), await tC(), i(!1));
+              } catch {
+                o(!1);
+              }
+          })());
+      }),
+      (t[0] = g),
+      (t[1] = _),
+      (t[2] = r),
+      (t[3] = i),
+      (t[4] = p),
+      (t[5] = m),
+      (t[6] = x))
+    : (x = t[6]);
+  let S;
+  t[7] !== h || t[8] !== i
+    ? ((S = () => {
+        (o(!1), h(), i(!1));
+      }),
+      (t[7] = h),
+      (t[8] = i),
+      (t[9] = S))
+    : (S = t[9]);
+  let C;
+  return (
+    t[10] !== f ||
+    t[11] !== u ||
+    t[12] !== y ||
+    t[13] !== s ||
+    t[14] !== r ||
+    t[15] !== v ||
+    t[16] !== a ||
+    t[17] !== b ||
+    t[18] !== x ||
+    t[19] !== S
+      ? ((C = (0, iC.jsx)(XS, {
+          requirement: r,
+          phase: s,
+          showSuccess: a,
+          isPending: b,
+          isRequirementsError: u,
+          isUpdateUnavailable: y,
+          allowUnelevatedFallback: f,
+          onPrimaryAction: x,
+          onDismiss: S,
+          onRetryRequirements: v,
+        })),
+        (t[10] = f),
+        (t[11] = u),
+        (t[12] = y),
+        (t[13] = s),
+        (t[14] = r),
+        (t[15] = v),
+        (t[16] = a),
+        (t[17] = b),
+        (t[18] = x),
+        (t[19] = S),
+        (t[20] = C))
+      : (C = t[20]),
+    C
+  );
+}
+function eC(e) {
+  let t = (0, nC.c)(6),
+    { requirement: n, phase: r, isSuccess: i } = e;
+  if (i) {
+    let e;
+    return (
+      t[0] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, iC.jsx)(J, {
+            id: `codex.windowsSandboxBanner.success.detail`,
+            defaultMessage: `{appName} can now create files, edit code, and take actions`,
+            description: `Secondary status shown after the Windows sandbox finishes setting up`,
+            values: { appName: R_ },
+          })),
+          (t[0] = e))
+        : (e = t[0]),
+      e
+    );
+  }
+  if (n === `update`) {
+    let e;
+    return (
+      t[1] === r
+        ? (e = t[2])
+        : ((e =
+            r === `retryUnelevated` || r === `failed`
+              ? (0, iC.jsx)(J, {
+                  id: `codex.windowsSandboxBanner.updateError.detail`,
+                  defaultMessage: `Try Windows setup again`,
+                  description: `Secondary status shown after the Agent sandbox update fails`,
+                })
+              : (0, iC.jsx)(J, {
+                  id: `codex.windowsSandboxBanner.updateTitle.detail`,
+                  defaultMessage: `Finish setup before continuing`,
+                  description: `Secondary status shown when the Agent sandbox must be updated`,
+                })),
+          (t[1] = r),
+          (t[2] = e)),
+      e
+    );
+  }
+  if (r === `retryUnelevated`) {
+    let e;
+    return (
+      t[3] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, iC.jsx)(J, {
+            id: `codex.windowsSandboxBanner.setupError.nonAdminAvailable.detail`,
+            defaultMessage: `Continue without administrator access`,
+            description: `Secondary status shown after sandbox setup with Admin permissions fails and the non-admin sandbox is available`,
+          })),
+          (t[3] = e))
+        : (e = t[3]),
+      e
+    );
+  }
+  if (r === `failed`) {
+    let e;
+    return (
+      t[4] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, iC.jsx)(J, {
+            id: `codex.windowsSandboxBanner.setupError.detail`,
+            defaultMessage: `Try Windows setup again`,
+            description: `Secondary status shown after Windows setup does not finish`,
+          })),
+          (t[4] = e))
+        : (e = t[4]),
+      e
+    );
+  }
+  let a;
+  return (
+    t[5] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((a = (0, iC.jsx)(J, {
+          id: `codex.windowsSandboxBanner.title.detail`,
+          defaultMessage: `Finish setup before creating files, editing code, or taking actions`,
+          description: `Secondary status shown when the Agent sandbox must be set up`,
+        })),
+        (t[5] = a))
+      : (a = t[5]),
+    a
+  );
+}
+function tC() {
+  return new Promise((e) => {
+    setTimeout(e, aC);
+  });
+}
+var nC,
+  rC,
+  iC,
+  aC,
+  oC = e(() => {
+    ((nC = X()),
+      (rC = t(El(), 1)),
+      Y(),
+      L_(),
+      _s(),
+      za(),
+      JS(),
+      lu(),
+      Rp(),
+      Km(),
+      (iC = Z()),
+      (aC = 5e3));
+  });
+function sC({ bannerType: e, limitReason: t }) {
+  return { platform: fC, banner_type: e, limit_reason: t };
+}
+async function cC(e) {
+  return uC({ eventType: `codex_usage_limit_banner_shown`, context: e });
+}
+async function lC({ context: e, ctaAction: t, isReferralCta: n, referralCtaText: r }) {
+  await uC({
+    eventType: `codex_usage_limit_banner_cta_clicked`,
+    context: e,
+    ctaAction: t,
+    isReferralCta: n,
+    referralCtaText: r,
+  });
+}
+async function uC({
+  eventType: e,
+  context: t,
+  ctaAction: n,
+  isReferralCta: i,
+  referralCtaText: a,
+}) {
+  let o = { ...t },
+    s = { eventType: e, bannerType: t.banner_type, limitReason: t.limit_reason };
+  (n != null && ((o.cta_action = n), (s.ctaAction = n)),
+    t.is_referral_beacon != null && (s.isReferralBeacon = t.is_referral_beacon),
+    t.referral_beacon_type != null && (s.referralBeaconType = t.referral_beacon_type),
+    i != null && ((o.is_referral_cta = i), (s.isReferralCta = i)),
+    a != null && ((o.referral_cta_text = a), (s.referralCtaText = a)));
+  try {
+    return (
+      await We.getInstance().post(
+        dC,
+        JSON.stringify({ events: [{ event_type: e, event_params: o }] }),
+        Kn(),
+      ),
+      !0
+    );
+  } catch (e) {
+    return (
+      r.warning(`Failed to submit Codex usage limit banner analytics event`, {
+        safe: s,
+        sensitive: { error: e },
+      }),
+      !1
+    );
+  }
+}
+var dC,
+  fC,
+  pC = e(() => {
+    (xn(), ue(), ir(), (dC = `/wham/analytics-events/events`), (fC = `codex_desktop_app`));
+  });
+function mC({ rateLimitStatus: e, isWorkspaceAccount: t }) {
+  if (!t) return null;
+  let n = e.rate_limit_reached_type?.type;
+  return n == null || n === `rate_limit_reached` ? null : n;
+}
+function hC({ isReferralSystemEnabled: e, rateLimitStatus: t }) {
+  let n = t.referral_beacon,
+    r = n?.referral_key?.trim();
+  return !e || n == null || r == null || r.length === 0 || !yC(n.type)
+    ? { beacon_type: `default` }
+    : { beacon_type: `referral_beacon`, referral_beacon: n };
+}
+function gC({ rateLimitStatus: e, isWorkspaceAccount: t }) {
+  let n = mC({ rateLimitStatus: e, isWorkspaceAccount: t });
+  switch (n) {
+    case `workspace_member_usage_limit_reached`:
+    case `workspace_owner_usage_limit_reached`:
+      return sC({ bannerType: n, limitReason: `usage_limit` });
+    case `workspace_member_credits_depleted`:
+    case `workspace_owner_credits_depleted`:
+      return sC({ bannerType: n, limitReason: `credits` });
+    case null:
+      break;
+  }
+  let r = e.plan_type,
+    i = e.promo?.campaign_id;
+  switch (r) {
+    case `team`:
+      return sC({ bannerType: `business_rate_limit_reached`, limitReason: `usage_limit` });
+    case `business`:
+    case `education`:
+    case `edu_plus`:
+    case `edu_pro`:
+      return sC({ bannerType: `cbp_rate_limit_reached`, limitReason: `usage_limit` });
+    case `plus`:
+      return sC({ bannerType: `plus_rate_limit_reached`, limitReason: `usage_limit` });
+    case `prolite`:
+      return sC({ bannerType: `prolite_rate_limit_reached`, limitReason: `usage_limit` });
+    case `pro`:
+      return sC({ bannerType: `pro_rate_limit_reached`, limitReason: `usage_limit` });
+    case `free`:
+      return sC({
+        bannerType:
+          i === `plus-1-month-free`
+            ? `free_trial_rate_limit_reached`
+            : `free_or_go_rate_limit_reached`,
+        limitReason: `usage_limit`,
+      });
+    case `go`:
+      return sC({
+        bannerType:
+          i === `plus-1-month-free`
+            ? `go_trial_rate_limit_reached`
+            : `free_or_go_rate_limit_reached`,
+        limitReason: `usage_limit`,
+      });
+    case `edu`:
+    case `enterprise`:
+    case `enterprise_cbp_automation`:
+    case `enterprise_cbp_usage_based`:
+    case `finserv`:
+    case `free_workspace`:
+    case `guest`:
+    case `hc`:
+    case `k12`:
+    case `quorum`:
+    case `sci`:
+    case `self_serve_business_usage_based`:
+      return sC({ bannerType: `legacy_rate_limit_reached`, limitReason: `usage_limit` });
+  }
+}
+function _C(e) {
+  switch (e) {
+    case `workspace_member_usage_limit_reached`:
+      return { primaryCtaAction: `request_increase` };
+    case `workspace_owner_usage_limit_reached`:
+      return { primaryCtaAction: `increase_spend_cap` };
+    case `workspace_member_credits_depleted`:
+      return { primaryCtaAction: `notify_owner` };
+    case `workspace_owner_credits_depleted`:
+      return { primaryCtaAction: `add_credits` };
+    case `plus_rate_limit_reached`:
+    case `prolite_rate_limit_reached`:
+      return { primaryCtaAction: `upgrade`, secondaryCtaAction: `add_credits` };
+    case `pro_rate_limit_reached`:
+      return { primaryCtaAction: `add_credits` };
+    case `free_trial_rate_limit_reached`:
+    case `go_trial_rate_limit_reached`:
+    case `free_or_go_rate_limit_reached`:
+      return { primaryCtaAction: `upgrade` };
+    case `business_rate_limit_reached`:
+    case `cbp_rate_limit_reached`:
+    case `legacy_rate_limit_reached`:
+      return { primaryCtaAction: `view_usage` };
+    case `selected_model_limit_reached`:
+      return {};
+  }
+}
+function vC(e) {
+  switch (e) {
+    case `workspace_member_credits_depleted`:
+      return {
+        title: `refer_or_notify_owner`,
+        primary: { text: `refer`, clickAction: `invite`, analyticsAction: `invite` },
+        secondary: {
+          text: `notify_owner`,
+          clickAction: `notify_owner`,
+          analyticsAction: `notify_owner`,
+          disabledBy: `notify_owner_pending`,
+        },
+      };
+    case `workspace_member_usage_limit_reached`:
+    case `workspace_owner_usage_limit_reached`:
+    case `workspace_owner_credits_depleted`:
+    case null:
+      return {
+        title: `invite_or_buy_credits`,
+        primary: { text: `invite`, clickAction: `invite`, analyticsAction: `invite` },
+        secondary: {
+          text: `buy_credits`,
+          clickAction: `buy_credits`,
+          analyticsAction: `add_credits`,
+        },
+      };
+  }
+}
+function yC(e) {
+  switch (e) {
+    case `primary_rate_limit_reached`:
+    case `secondary_rate_limit_reached`:
+    case `rate_limit_reached`:
+      return !0;
+    default:
+      return !1;
+  }
+}
+var bC,
+  xC = e(() => {
+    (pC(),
+      (bC = sC({
+        bannerType: `selected_model_limit_reached`,
+        limitReason: `selected_model_limit`,
+      })));
+  });
+function SC(e) {
+  let t = (0, kC.c)(6),
+    { analyticsEnabled: n, context: r, ready: i } = e,
+    a = i === void 0 ? !0 : i,
+    o = (0, AC.useRef)(null),
+    s = `${r.platform}:${r.banner_type}:${r.limit_reason}:${r.is_referral_beacon}:${r.referral_beacon_type}`,
+    c,
+    l;
+  (t[0] !== n || t[1] !== r || t[2] !== a || t[3] !== s
+    ? ((c = () => {
+        !n || !a || (o.current !== s && ((o.current = s), cC(r)));
+      }),
+      (l = [n, r, a, s]),
+      (t[0] = n),
+      (t[1] = r),
+      (t[2] = a),
+      (t[3] = s),
+      (t[4] = c),
+      (t[5] = l))
+    : ((c = t[4]), (l = t[5])),
+    (0, AC.useEffect)(c, l));
+}
+function CC(e) {
+  let t = (0, kC.c)(35),
+    {
+      rateLimitStatus: n,
+      rateLimitWarningThreshold: r,
+      onDismissWarning: i,
+      showWorkspaceUsageLimit: a,
+    } = e,
+    o = a === void 0 ? !1 : a,
+    s = _(),
+    c = _n(`3909937021`),
+    { data: l, status: u } = Fc(!0),
+    { data: d, isLoading: f } = br(),
+    p = d?.id ?? null,
+    m;
+  t[0] === d?.plan_type
+    ? (m = t[1])
+    : ((m = Tg(d?.plan_type)?.pricePlan ?? null), (t[0] = d?.plan_type), (t[1] = m));
+  let h = m,
+    g = d?.account_user_role === `account-owner` || d?.account_user_role === `account-admin`,
+    v =
+      n.rate_limit_reached_type != null && n.rate_limit_reached_type.type !== `rate_limit_reached`,
+    y = n.rate_limit_reached_type?.type,
+    b;
+  t[2] !== c || t[3] !== n.plan_type || t[4] !== n.spend_control?.reached || t[5] !== y
+    ? ((b =
+        c &&
+        ve(n.plan_type) &&
+        (n.spend_control?.reached === !0 ||
+          y === `workspace_member_usage_limit_reached` ||
+          y === `workspace_owner_usage_limit_reached`)),
+      (t[2] = c),
+      (t[3] = n.plan_type),
+      (t[4] = n.spend_control?.reached),
+      (t[5] = y),
+      (t[6] = b))
+    : (b = t[6]);
+  let x = b,
+    S;
+  t[7] !== n.account_id || t[8] !== x
+    ? ((S = { accountId: n.account_id, enabled: x }), (t[7] = n.account_id), (t[8] = x), (t[9] = S))
+    : (S = t[9]);
+  let { data: C, isLoading: w } = hg(S),
+    T;
+  t[10] !== n || t[11] !== o || t[12] !== C
+    ? ((T = o || Cd(n, C)), (t[10] = n), (t[11] = o), (t[12] = C), (t[13] = T))
+    : (T = t[13]);
+  let E = T,
+    D = o || C?.effective_monthly_limit != null,
+    O = !g && (o || x || r != null),
+    k;
+  t[14] !== n.account_id || t[15] !== O
+    ? ((k = { accountId: n.account_id, enabled: O }),
+      (t[14] = n.account_id),
+      (t[15] = O),
+      (t[16] = k))
+    : (k = t[16]);
+  let { data: A, isLoading: j } = mg(k),
+    M = d?.structure === `workspace` || D,
+    N = (!v || !f) && !(x && w && C == null) && !j,
+    P = u === `success` && l === !0,
+    F,
+    ee;
+  (t[17] !== p || t[18] !== h || t[19] !== s
+    ? ((F = () => {
+        if (p == null) return;
+        let e;
+        if (h === Yc.GO) e = [`chatgptplusplan`, `chatgptprolite`, `chatgptpro`];
+        else if (h === Yc.PLUS) e = [`chatgptprolite`, `chatgptpro`];
+        else if (h === Yc.PROLITE) e = [`chatgptpro`];
+        else if (h === Yc.PRO) e = [`chatgptprolite`];
+        else return;
+        Promise.all(e.map((e) => s.prefetchQuery(Pg({ accountId: p, updatedPlan: e }))));
+      }),
+      (ee = [p, h, !0, s]),
+      (t[17] = p),
+      (t[18] = h),
+      (t[19] = s),
+      (t[20] = F),
+      (t[21] = ee))
+    : ((F = t[20]), (ee = t[21])),
+    (0, AC.useEffect)(F, ee));
+  let I = v || x,
+    L;
+  return (
+    t[22] !== P ||
+    t[23] !== N ||
+    t[24] !== g ||
+    t[25] !== E ||
+    t[26] !== D ||
+    t[27] !== c ||
+    t[28] !== M ||
+    t[29] !== i ||
+    t[30] !== n ||
+    t[31] !== r ||
+    t[32] !== I ||
+    t[33] !== A
+      ? ((L = (0, jC.jsx)(wC, {
+          rateLimitStatus: n,
+          rateLimitWarningThreshold: r,
+          onDismissWarning: i,
+          isWorkspaceAccount: M,
+          canManageWorkspaceUsageLimits: g,
+          analyticsEnabled: P,
+          bannerClassificationReady: N,
+          shouldDisableCtasUntilBannerClassificationReady: I,
+          hasWorkspaceMonthlyHardLimit: D,
+          hasConfirmedWorkspaceMonthlyHardLimit: E,
+          isSpendControlV2RequestEnabled: c,
+          workspaceRequestPolicy: A,
+        })),
+        (t[22] = P),
+        (t[23] = N),
+        (t[24] = g),
+        (t[25] = E),
+        (t[26] = D),
+        (t[27] = c),
+        (t[28] = M),
+        (t[29] = i),
+        (t[30] = n),
+        (t[31] = r),
+        (t[32] = I),
+        (t[33] = A),
+        (t[34] = L))
+      : (L = t[34]),
+    L
+  );
+}
+function wC(e) {
+  let t = (0, kC.c)(94),
+    {
+      rateLimitStatus: n,
+      rateLimitWarningThreshold: r,
+      onDismissWarning: i,
+      isWorkspaceAccount: a,
+      canManageWorkspaceUsageLimits: o,
+      analyticsEnabled: s,
+      bannerClassificationReady: c,
+      shouldDisableCtasUntilBannerClassificationReady: l,
+      hasWorkspaceMonthlyHardLimit: u,
+      hasConfirmedWorkspaceMonthlyHardLimit: d,
+      isSpendControlV2RequestEnabled: f,
+      workspaceRequestPolicy: p,
+    } = e,
+    m = r === void 0 ? null : r,
+    h = a === void 0 ? !1 : a,
+    g = o === void 0 ? !1 : o,
+    _ = s === void 0 ? !1 : s,
+    v = c === void 0 ? !0 : c,
+    y = l === void 0 ? !1 : l,
+    b = u === void 0 ? !1 : u,
+    x = d === void 0 ? !1 : d,
+    S = f === void 0 ? !1 : f,
+    C = qn(et),
+    w = Ns(),
+    T = ld(n),
+    E = T == null ? null : Bl(w, T),
+    { mutateAsync: D, isPending: O } = Dg(),
+    k = n.plan_type,
+    A = Tg(k)?.pricePlan ?? null,
+    j;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((j = (e) => {
+        if (!_t(e)) {
+          ot.dispatchHostMessage({ type: `navigate-to-route`, path: `/settings/usage` });
+          return;
+        }
+        Ps({ event: e, href: Wv, initiator: `open_in_browser_bridge` });
+      }),
+      (t[0] = j))
+    : (j = t[0]);
+  let M = j,
+    N = k === Yc.SELF_SERVE_BUSINESS,
+    P = k === Yc.EDUCATION_CBP || k === Yc.ENTERPRISE_CBP,
+    F = k === Yc.PRO,
+    ee = k === Yc.PROLITE,
+    I = k === Yc.PLUS,
+    L = k === Yc.FREE,
+    R = k === Yc.GO,
+    z = n.promo?.campaign_id,
+    B = tt(),
+    V = mC({ rateLimitStatus: n, isWorkspaceAccount: h }),
+    H = V;
+  (x &&
+    (V === `workspace_owner_credits_depleted` && (H = `workspace_owner_usage_limit_reached`),
+    V === `workspace_member_credits_depleted` && (H = `workspace_member_usage_limit_reached`)),
+    g &&
+      H === `workspace_member_usage_limit_reached` &&
+      (H = `workspace_owner_usage_limit_reached`));
+  let te =
+      !g &&
+      (H === `workspace_member_usage_limit_reached` || (H == null && m != null)) &&
+      (b || m != null),
+    ne = te && p?.kind !== `openai_native`,
+    re = _n(`1823918333`),
+    U = n.referral_beacon,
+    ie = U?.referral_key?.trim(),
+    ae = ie != null && ie.length > 0,
+    oe = hC({ isReferralSystemEnabled: re, rateLimitStatus: n }),
+    W = !ne && oe.beacon_type === `referral_beacon`,
+    G = W ? oe.referral_beacon : void 0,
+    se = !ne && re && ae && !W,
+    K = W || se,
+    q = F || (W && fo(B, `3944613245`).get(`secondary_cta`, `upgrade`) === `add_credits`),
+    ce;
+  t[1] !== k || t[2] !== K
+    ? ((ce = !K && vg(k)), (t[1] = k), (t[2] = K), (t[3] = ce))
+    : (ce = t[3]);
+  let le = ce,
+    ue;
+  t[4] === le ? (ue = t[5]) : ((ue = { enabled: le }), (t[4] = le), (t[5] = ue));
+  let { data: de } = Wg(ue),
+    fe = zg(),
+    pe;
+  t[6] !== C || t[7] !== B
+    ? ((pe = (e) => {
+        (Vg(B),
+          Ug(C, {
+            audience: `workspace`,
+            checkoutKind: `standalone_credit`,
+            entryPoint: `rate_limit_upsell_banner`,
+          }),
+          Ag(e));
+      }),
+      (t[6] = C),
+      (t[7] = B),
+      (t[8] = pe))
+    : (pe = t[8]);
+  let me = pe,
+    he;
+  t[9] !== de || t[10] !== fe || t[11] !== C || t[12] !== le || t[13] !== B
+    ? ((he = (e) => {
+        let t = Ig(B, `personal`);
+        if (
+          (Ug(C, {
+            audience: `personal`,
+            checkoutKind: `standalone_credit`,
+            entryPoint: `rate_limit_upsell_banner`,
+          }),
+          !t && (_t(e) || (le && de == null)))
+        ) {
+          Ng(Uv, e);
+          return;
+        }
+        fe({
+          event: e,
+          intent: `purchase`,
+          isAutoReloadEnabled: de?.isEnabled ?? !1,
+          isCustomCheckoutEnabled: t,
+          legacyUrl: Uv,
+          source: `rate_limit_upsell_banner`,
+        });
+      }),
+      (t[9] = de),
+      (t[10] = fe),
+      (t[11] = C),
+      (t[12] = le),
+      (t[13] = B),
+      (t[14] = he))
+    : (he = t[14]);
+  let ge = he,
+    _e = n.rate_limit_reset_credits?.available_count ?? 0,
+    ye = !h && _e > 0,
+    be = vC(H),
+    xe = {
+      ...(H != null && H !== V
+        ? sC({ bannerType: H, limitReason: `usage_limit` })
+        : gC({ rateLimitStatus: n, isWorkspaceAccount: h })),
+      is_referral_beacon: K,
+      ...(K ? { referral_beacon_type: U?.type } : {}),
+    },
+    Se = _ && m == null,
+    { primaryCtaAction: Ce, secondaryCtaAction: we } = _C(xe.banner_type),
+    Te = ev(),
+    Ee = (e) => (t) => {
+      if (_t(t)) {
+        Ps({ event: t, href: e, initiator: `open_in_browser_bridge` });
+        return;
+      }
+      Te({
+        scope: C,
+        currentPlan: A,
+        defaultTab: `personal`,
+        getPricingUrl: () => e,
+        source: `rate_limit_upsell_banner`,
+      });
+    };
+  SC({ analyticsEnabled: Se, context: xe, ready: v });
+  let De, Oe;
+  t[15] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((Oe = (0, jC.jsx)(J, {
+        id: `codex.upsellBanner.cta.viewUsage`,
+        defaultMessage: `View Usage`,
+        description: `CTA to direct the user to the usage page`,
+      })),
+      (t[15] = Oe))
+    : (Oe = t[15]);
+  let ke = Oe,
+    Ae;
+  t[16] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((Ae = (0, jC.jsx)(J, {
+        id: `codex.upsellBanner.cta.upgradeAccount`,
+        defaultMessage: `Upgrade`,
+        description: `CTA to upgrade the user's account plan`,
+      })),
+      (t[16] = Ae))
+    : (Ae = t[16]);
+  let je = Ae,
+    Me;
+  t[17] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((Me = (0, jC.jsx)(J, {
+        id: `codex.upsellBanner.cta.addCredits`,
+        defaultMessage: `Add Credits`,
+        description: `CTA to add credits to the user's account`,
+      })),
+      (t[17] = Me))
+    : (Me = t[17]);
+  let Ne = Me,
+    Pe;
+  t[18] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((Pe = (0, jC.jsx)(J, {
+        id: `codex.upsellBanner.cta.buyCredits`,
+        defaultMessage: `Buy credits`,
+        description: `CTA to buy Codex credits`,
+      })),
+      (t[18] = Pe))
+    : (Pe = t[18]);
+  let Fe = Pe,
+    Ie;
+  t[19] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((Ie = (0, jC.jsx)(J, {
+        id: `codex.upsellBanner.cta.invite`,
+        defaultMessage: `Invite`,
+        description: `CTA to invite someone through a Codex referral`,
+      })),
+      (t[19] = Ie))
+    : (Ie = t[19]);
+  let Le = Ie,
+    Re;
+  t[20] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((Re = (0, jC.jsx)(J, {
+        id: `codex.upsellBanner.cta.refer`,
+        defaultMessage: `Refer`,
+        description: `CTA to refer someone through a Codex referral`,
+      })),
+      (t[20] = Re))
+    : (Re = t[20]);
+  let ze = Re,
+    Be;
+  t[21] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((Be = (0, jC.jsx)(J, {
+        id: `codex.upsellBanner.cta.resetUsage`,
+        defaultMessage: `Reset usage`,
+        description: `CTA to reset Codex usage with an available rate limit reset`,
+      })),
+      (t[21] = Be))
+    : (Be = t[21]);
+  let Ve = Be,
+    He;
+  t[22] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((He = (0, jC.jsx)(J, {
+        id: `codex.upsellBanner.cta.notifyOwner`,
+        defaultMessage: `Notify owner`,
+        description: `CTA for non-owner users to email their workspace owners when the workspace has run out of credits.`,
+      })),
+      (t[22] = He))
+    : (He = t[22]);
+  let Ue = He,
+    We = EC(Wv),
+    Ge = null,
+    Y,
+    Ke = !1,
+    qe = !1,
+    Je;
+  t[23] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((Je = (0, jC.jsx)(J, {
+        id: `codex.upsellBanner.general.title`,
+        defaultMessage: `You’re out of Codex messages`,
+        description: `Credit upsell banner title for legacy plan users hitting their rate limit`,
+      })),
+      (t[23] = Je))
+    : (Je = t[23]);
+  let Ye = Je,
+    Xe;
+  t[24] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((Xe = (0, jC.jsx)(J, {
+        id: `codex.upsellBanner.cta.requestIncrease`,
+        defaultMessage: `Request Increase`,
+        description: `CTA to request a workspace usage limit increase`,
+      })),
+      (t[24] = Xe))
+    : (Xe = t[24]);
+  let Ze = Xe,
+    Qe;
+  t[25] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((Qe = (0, jC.jsx)(J, {
+        id: `codex.upsellBanner.cta.increaseSpendCap`,
+        defaultMessage: `Increase Usage Limit`,
+        description: `CTA to increase the user's workspace usage limit`,
+      })),
+      (t[25] = Qe))
+    : (Qe = t[25]);
+  let $e = Qe,
+    nt;
+  t[26] !== w || t[27] !== D || t[28] !== C
+    ? ((nt = () => {
+        D({ credit_type: `usage_limit` })
+          .then(() => {
+            C.get(Yr).success(
+              w.formatMessage({
+                id: `codex.upsellBanner.requestIncrease.sent`,
+                defaultMessage: `Limit increase requested`,
+                description: `Toast shown after the user requests a workspace usage limit increase.`,
+              }),
+            );
+          })
+          .catch((e) => {
+            if (e instanceof hr && e.status === 429) {
+              C.get(Yr).success(
+                w.formatMessage({
+                  id: `codex.upsellBanner.requestIncrease.cooldownActive`,
+                  defaultMessage: `A limit increase was already requested recently`,
+                  description: `Toast shown when a user requests a workspace usage limit increase again during the add-credits nudge cooldown.`,
+                }),
+              );
+              return;
+            }
+            C.get(Yr).danger(
+              w.formatMessage({
+                id: `codex.upsellBanner.requestIncrease.failed`,
+                defaultMessage: `Could not request a limit increase. Please try again.`,
+                description: `Toast shown when a workspace usage limit increase request fails.`,
+              }),
+            );
+          });
+      }),
+      (t[26] = w),
+      (t[27] = D),
+      (t[28] = C),
+      (t[29] = nt))
+    : (nt = t[29]);
+  let rt = nt,
+    it;
+  t[30] !== w || t[31] !== D || t[32] !== C
+    ? ((it = () => {
+        D({ credit_type: `credits` })
+          .then(() => {
+            C.get(Yr).success(
+              w.formatMessage({
+                id: `codex.upsellBanner.notifyOwner.sent`,
+                defaultMessage: `Workspace owner notified`,
+                description: `Toast shown after the user notifies a workspace owner that their workspace has run out of credits.`,
+              }),
+            );
+          })
+          .catch((e) => {
+            if (e instanceof hr && e.status === 429) {
+              C.get(Yr).success(
+                w.formatMessage({
+                  id: `codex.upsellBanner.notifyOwner.cooldownActive`,
+                  defaultMessage: `Workspace owner was already notified recently`,
+                  description: `Toast shown when a user tries to notify a workspace owner again during the add-credits nudge cooldown.`,
+                }),
+              );
+              return;
+            }
+            C.get(Yr).danger(
+              w.formatMessage({
+                id: `codex.upsellBanner.notifyOwner.failed`,
+                defaultMessage: `Could not notify your workspace owner. Please try again.`,
+                description: `Toast shown when notifying a workspace owner about an out-of-credits workspace fails.`,
+              }),
+            );
+          });
+      }),
+      (t[30] = w),
+      (t[31] = D),
+      (t[32] = C),
+      (t[33] = it))
+    : (it = t[33]);
+  let at = it,
+    st = () => {
+      ie != null &&
+        yn(C, ey, {
+          grantAmount: U?.grant_amount,
+          referralRedemptionAction: U?.referral_action,
+          referralBeaconType: U?.type,
+          referralGrantType: U?.grant_type,
+          referralKey: ie,
+        });
+    },
+    ct;
+  t[34] !== _e || t[35] !== C
+    ? ((ct = () => {
+        yn(C, Bg, {
+          initialAvailableCount: _e,
+          isRateLimitReached: !0,
+          onResetComplete: (e) => {
+            C.get(Yr).success(
+              (0, jC.jsx)(J, {
+                id: `codex.upsellBanner.resetUsage.success`,
+                defaultMessage: `Usage reset. You have {remainingCount, plural, one {# left} other {# left}}`,
+                description: `Toast shown after a Codex rate limit reset is used`,
+                values: { remainingCount: e },
+              }),
+              { hasCloseButton: !1 },
+            );
+          },
+        });
+      }),
+      (t[34] = _e),
+      (t[35] = C),
+      (t[36] = ct))
+    : (ct = t[36]);
+  let lt = ct,
+    ut = { buy_credits: h ? me : ge, invite: st, notify_owner: at },
+    dt;
+  t[37] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((dt = { buy_credits: Fe, invite: Le, notify_owner: Ue, refer: ze }), (t[37] = dt))
+    : (dt = t[37]);
+  let ft = dt,
+    pt;
+  t[38] === h
+    ? (pt = t[39])
+    : ((pt = h
+        ? (0, jC.jsx)(J, {
+            id: `codex.upsellBanner.referral.workspace.title`,
+            defaultMessage: `Invite a coworker or buy credits to continue using Codex`,
+            description: `Title for the rate-limit banner when a referral is available in a workspace account`,
+          })
+        : (0, jC.jsx)(J, {
+            id: `codex.upsellBanner.referral.personal.title`,
+            defaultMessage: `Invite a friend or buy credits to continue using Codex`,
+            description: `Title for the rate-limit banner when a referral is available in a personal account`,
+          })),
+      (t[38] = h),
+      (t[39] = pt));
+  let mt;
+  t[40] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((mt = (0, jC.jsx)(J, {
+        id: `codex.upsellBanner.referral.workspaceMemberCredits.title`,
+        defaultMessage: `Refer a coworker or notify your owner to continue using Codex`,
+        description: `Title for the rate-limit banner when a referral is available for a workspace member without credits`,
+      })),
+      (t[40] = mt))
+    : (mt = t[40]);
+  let ht;
+  t[41] === pt
+    ? (ht = t[42])
+    : ((ht = { invite_or_buy_credits: pt, refer_or_notify_owner: mt }), (t[41] = pt), (t[42] = ht));
+  let gt = ht;
+  bb0: switch (H) {
+    case `workspace_member_usage_limit_reached`: {
+      ((ke = Ze), ve(k) && S && b ? (We = M) : ((We = rt), (Ke = O)));
+      let e;
+      (t[43] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, jC.jsx)(J, {
+            id: `codex.upsellBanner.workspaceUsage.memberLimitReached.title`,
+            defaultMessage: `Usage limit reached`,
+            description: `Title for workspace members when workspace usage is exhausted`,
+          })),
+          (t[43] = e))
+        : (e = t[43]),
+        (Ye = e));
+      let n;
+      (t[44] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((n = (0, jC.jsx)(J, {
+            id: `codex.upsellBanner.workspaceUsage.memberLimitReached.headline`,
+            defaultMessage: `Request a limit increase from your admin to continue using Codex`,
+            description: `Banner message for workspace members when workspace usage is exhausted`,
+          })),
+          (t[44] = n))
+        : (n = t[44]),
+        (De = n));
+      break bb0;
+    }
+    case `workspace_owner_usage_limit_reached`: {
+      ((ke = $e), (We = EC(Hv)));
+      let e;
+      (t[45] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, jC.jsx)(J, {
+            id: `codex.upsellBanner.workspaceUsage.ownerLimitReached.title`,
+            defaultMessage: `Usage limit reached`,
+            description: `Title for workspace owners when workspace usage is exhausted`,
+          })),
+          (t[45] = e))
+        : (e = t[45]),
+        (Ye = e));
+      let n;
+      (t[46] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((n = (0, jC.jsx)(J, {
+            id: `codex.upsellBanner.workspaceUsage.ownerLimitReached.headline`,
+            defaultMessage: `You've reached your usage limit. Increase your limits to continue using Codex`,
+            description: `Banner message for workspace owners when workspace usage is exhausted`,
+          })),
+          (t[46] = n))
+        : (n = t[46]),
+        (De = n));
+      break bb0;
+    }
+    case `workspace_owner_credits_depleted`: {
+      let e;
+      (t[47] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, jC.jsx)(J, {
+            id: `codex.upsellBanner.usageBased.credits.title`,
+            defaultMessage: `You're out of credits`,
+            description: `Title for usage-based seat users who have exhausted workspace credits`,
+          })),
+          (t[47] = e))
+        : (e = t[47]),
+        (Ye = e));
+      let n;
+      (t[48] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((n = (0, jC.jsx)(J, {
+            id: `codex.upsellBanner.usageBased.credits.headline`,
+            defaultMessage: `Your workspace is out of credits. Add credits to continue using Codex.`,
+            description: `Banner message for usage-based seat users when workspace credits are exhausted`,
+          })),
+          (t[48] = n))
+        : (n = t[48]),
+        (De = n),
+        (ke = Ne),
+        (We = me));
+      break bb0;
+    }
+    case `workspace_member_credits_depleted`: {
+      let e;
+      (t[49] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, jC.jsx)(J, {
+            id: `codex.upsellBanner.usageBased.credits.nonOwner.title`,
+            defaultMessage: `You’ve reached your workspace credit limit`,
+            description: `Title for non-owners on usage-based seat plans when workspace credits are exhausted`,
+          })),
+          (t[49] = e))
+        : (e = t[49]),
+        (Ye = e));
+      let n;
+      (t[50] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((n = (0, jC.jsx)(J, {
+            id: `codex.upsellBanner.usageBased.credits.nonOwner.headline`,
+            defaultMessage: `Your workspace is out of credits. Ask your workspace owner to add more.`,
+            description: `Banner message for non-owners on usage-based seat plans when workspace credits are exhausted and they can notify a workspace owner.`,
+          })),
+          (t[50] = n))
+        : (n = t[50]),
+        (De = n),
+        (ke = Ue),
+        (We = at),
+        (Ke = O));
+      break bb0;
+    }
+    case null:
+      if (m != null) {
+        let e;
+        (t[51] === g
+          ? (e = t[52])
+          : ((e = g
+              ? (0, jC.jsx)(J, {
+                  id: `codex.upsellBanner.enterprise.warning.ownerCta`,
+                  defaultMessage: `Increase Usage Limit`,
+                  description: `CTA for enterprise workspace owners approaching their usage limit`,
+                })
+              : Ze),
+            (t[51] = g),
+            (t[52] = e)),
+          (ke = e));
+        let n;
+        (t[53] === g ? (n = t[54]) : ((n = g ? EC(Hv) : M), (t[53] = g), (t[54] = n)), (We = n));
+        let r;
+        (t[55] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((r = (0, jC.jsx)(J, {
+              id: `codex.upsellBanner.enterprise.warning.title`,
+              defaultMessage: `You’re approaching your usage limit`,
+              description: `Rate limit warning banner title for enterprise users approaching their Codex limit`,
+            })),
+            (t[55] = r))
+          : (r = t[55]),
+          (Ye = r));
+        let i;
+        (t[56] !== g || t[57] !== m
+          ? ((i = g
+              ? (0, jC.jsx)(J, {
+                  id: `codex.upsellBanner.enterprise.warning.ownerHeadline`,
+                  defaultMessage: `You’ve used {usagePercent}% or more of your usage limit. Increase your usage limit to continue using Codex.`,
+                  description: `Rate limit warning banner message for enterprise workspace owners approaching their Codex limit`,
+                  values: { usagePercent: m },
+                })
+              : (0, jC.jsx)(J, {
+                  id: `codex.upsellBanner.enterprise.warning.headline`,
+                  defaultMessage: `You’ve used {usagePercent}% or more of your usage limit. Request an increase from your workspace admin to continue using Codex.`,
+                  description: `Rate limit warning banner message for enterprise users approaching their Codex limit`,
+                  values: { usagePercent: m },
+                })),
+            (t[56] = g),
+            (t[57] = m),
+            (t[58] = i))
+          : (i = t[58]),
+          (De = i));
+      } else if (N)
+        De =
+          E == null
+            ? (0, jC.jsx)(J, {
+                id: `codex.upsellBanner.business.headline.noReset`,
+                defaultMessage: `To get more access now, send a request to your admin.`,
+                description: `Credit upsell banner message for business-plan users who cannot continue using Codex and do not have a known reset time.`,
+              })
+            : (0, jC.jsx)(J, {
+                id: `codex.upsellBanner.business.headline`,
+                defaultMessage: `To get more access now, send a request to your admin, or wait until {resetDate}.`,
+                description: `Credit upsell banner message for when the user runs out of credits to use Codex`,
+                values: { resetDate: E },
+              });
+      else if (P) {
+        let e;
+        (t[59] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, jC.jsx)(J, {
+              id: `codex.upsellBanner.general.title`,
+              defaultMessage: `You’re out of Codex messages`,
+              description: `Credit upsell banner title for legacy plan users hitting their rate limit`,
+            })),
+            (t[59] = e))
+          : (e = t[59]),
+          (Ye = e));
+        let n;
+        (t[60] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((n = (0, jC.jsx)(J, {
+              id: `codex.upsellBanner.cbp.headline`,
+              defaultMessage: `To get more access now, send a request to your admin.`,
+              description: `Credit upsell banner for the CBP plan prompting user to ask their admin to buy more credits `,
+            })),
+            (t[60] = n))
+          : (n = t[60]),
+          (De = n));
+      } else if (I)
+        ((De =
+          E == null
+            ? (0, jC.jsx)(J, {
+                id: `codex.upsellBanner.plus.headline.noReset`,
+                defaultMessage: `To continue using Codex, add credits or upgrade to Pro today.`,
+                description: `Credit upsell banner message for Plus-plan users who cannot continue using Codex and do not have a known reset time.`,
+              })
+            : (0, jC.jsx)(J, {
+                id: `codex.upsellBanner.plus.headline`,
+                defaultMessage: `Your rate limit resets on {resetDate}. To continue using Codex, add credits or upgrade to Pro today.`,
+                description: `Credit upsell banner for the Plus plan prompting user to buy more credits or upgrade their plan`,
+                values: { resetDate: E },
+              })),
+          (ke = je),
+          (We = Ee(`https://chatgpt.com/explore/pro`)),
+          (Ge = Ne),
+          (Y = ge));
+      else if (ee)
+        ((De =
+          E == null
+            ? (0, jC.jsx)(J, {
+                id: `codex.upsellBanner.prolite.headline2.noReset`,
+                defaultMessage: `You're out of Codex messages. Upgrade for 20x usage compared to Plus.`,
+                description: `Upsell banner for Pro Lite users who cannot continue using Codex and do not have a known reset time.`,
+              })
+            : (0, jC.jsx)(J, {
+                id: `codex.upsellBanner.prolite.headline2`,
+                defaultMessage: `You're out of Codex messages. Wait until your balance resets on {resetDate}, or upgrade for 20x usage compared to Plus.`,
+                description: `Upsell banner for the Pro Lite plan prompting user to upgrade their plan for more usage`,
+                values: { resetDate: E },
+              })),
+          (ke = je),
+          (We = Ee(`https://chatgpt.com/explore/pro`)),
+          (Ge = Ne),
+          (Y = ge));
+      else if (F)
+        ((De =
+          E == null
+            ? (0, jC.jsx)(J, {
+                id: `codex.upsellBanner.pro.headline.noReset`,
+                defaultMessage: `Add credits to continue using Codex now.`,
+                description: `Credit upsell banner message for Pro-plan users who cannot continue using Codex and do not have a known reset time.`,
+              })
+            : (0, jC.jsx)(J, {
+                id: `codex.upsellBanner.pro.headline`,
+                defaultMessage: `Your rate limit resets on {resetDate}. Add credits to continue using Codex now.`,
+                description: `Credit upsell banner for the Pro plan prompting user to buy more credits`,
+                values: { resetDate: E },
+              })),
+          (ke = Ne),
+          (We = ge));
+      else if (L && z === `plus-1-month-free`) {
+        ((De =
+          E == null
+            ? (0, jC.jsx)(J, {
+                id: `codex.upsellBanner.free.trialHeadline.noReset`,
+                defaultMessage: `To continue using Codex and get access to GPT-5.3-Codex, start your free trial of Plus today.`,
+                description: `Credit upsell banner message for Free-plan users with the Plus trial promo when no reset time is known.`,
+              })
+            : (0, jC.jsx)(J, {
+                id: `codex.upsellBanner.free.trialHeadline`,
+                defaultMessage: `Your rate limit resets on {resetDate}. To continue using Codex and get access to GPT-5.3-Codex, start your free trial of Plus today.`,
+                description: `Credit upsell banner for free plans hitting their rate limit`,
+                values: { resetDate: E },
+              })),
+          (ke = je));
+        let e;
+        (t[61] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = EC(`https://chatgpt.com/explore/plus`)), (t[61] = e))
+          : (e = t[61]),
+          (We = e));
+      } else if (R && z === `plus-1-month-free`) {
+        ((De =
+          E == null
+            ? (0, jC.jsx)(J, {
+                id: `codex.upsellBanner.go.trialHeadline.noReset`,
+                defaultMessage: `To continue using Codex, start your free trial of Plus today.`,
+                description: `Credit upsell banner message for Go-plan users with the Plus trial promo when no reset time is known.`,
+              })
+            : (0, jC.jsx)(J, {
+                id: `codex.upsellBanner.go.trialHeadline`,
+                defaultMessage: `Your rate limit resets on {resetDate}. To continue using Codex, start your free trial of Plus today.`,
+                description: `Credit upsell banner for Go plans hitting their rate limit`,
+                values: { resetDate: E },
+              })),
+          (ke = je));
+        let e;
+        (t[62] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = EC(`https://chatgpt.com/explore/plus`)), (t[62] = e))
+          : (e = t[62]),
+          (We = e));
+      } else
+        L || R
+          ? ((De =
+              E == null
+                ? (0, jC.jsx)(J, {
+                    id: `codex.upsellBanner.freeOrGo.headline.noReset`,
+                    defaultMessage: `To continue using Codex, upgrade to Plus today.`,
+                    description: `Credit upsell banner message for Free or Go users who cannot continue using Codex and do not have a known reset time.`,
+                  })
+                : (0, jC.jsx)(J, {
+                    id: `codex.upsellBanner.freeOrGo.headline`,
+                    defaultMessage: `Your rate limit resets on {resetDate}. To continue using Codex, upgrade to Plus today.`,
+                    description: `Credit upsell banner for free or Go plans hitting their rate limit`,
+                    values: { resetDate: E },
+                  })),
+            (ke = je),
+            (We = Ee(`https://chatgpt.com/explore/plus`)))
+          : (De =
+              E == null
+                ? (0, jC.jsx)(J, {
+                    id: `codex.upsellBanner.general.headline.noReset`,
+                    defaultMessage: `You've reached your Codex usage limit.`,
+                    description: `Credit upsell banner message for legacy-plan users when no reset time is known.`,
+                  })
+                : (0, jC.jsx)(J, {
+                    id: `codex.upsellBanner.general.headline`,
+                    defaultMessage: `Your rate limit resets on {resetDate}.`,
+                    description: `Credit upsell banner for legacy plan users hitting their rate limit`,
+                    values: { resetDate: E },
+                  }));
+  }
+  if (te) {
+    let e =
+      m == null
+        ? E == null
+          ? (0, jC.jsx)(J, {
+              id: `codex.upsellBanner.workspaceUsage.memberLimitReached.limitContext.noReset`,
+              defaultMessage: `You've reached your workspace usage limit`,
+              description: `Member-facing body text in the Codex usage-limit banner when no reset time is known. Workspace request instructions may appear directly below it, depending on the workspace policy.`,
+            })
+          : (0, jC.jsx)(J, {
+              id: `codex.upsellBanner.workspaceUsage.memberLimitReached.limitContext.withReset`,
+              defaultMessage: `You've reached your workspace usage limit. Try again after {resetDate}.`,
+              description: `Member-facing body text in the Codex usage-limit banner. {resetDate} is the localized date and time when usage becomes available again; workspace request instructions may appear directly below it.`,
+              values: { resetDate: E },
+            })
+        : (0, jC.jsx)(J, {
+            id: `codex.upsellBanner.enterprise.warning.limitContext`,
+            defaultMessage: `You’ve used at least {usagePercent}% of your Codex messages`,
+            description: `Rate limit warning banner message for enterprise workspace members. Workspace request instructions may appear directly below it, depending on the workspace policy.`,
+            values: { usagePercent: m },
+          });
+    bb1: switch (p?.kind) {
+      case void 0:
+      case `disabled`:
+        ((ke = null), (De = e));
+        break bb1;
+      case `custom`: {
+        let n;
+        (t[63] !== e || t[64] !== p.instructions
+          ? ((n =
+              p.instructions == null
+                ? e
+                : (0, jC.jsxs)(`span`, {
+                    className: `flex flex-col gap-1.5`,
+                    children: [
+                      (0, jC.jsx)(`span`, { children: e }),
+                      (0, jC.jsx)(`span`, {
+                        className: `whitespace-pre-wrap`,
+                        children: p.instructions,
+                      }),
+                    ],
+                  })),
+            (t[63] = e),
+            (t[64] = p.instructions),
+            (t[65] = n))
+          : (n = t[65]),
+          (De = n));
+        let r = p.request_url;
+        if (r == null) {
+          ke = null;
+          break bb1;
+        }
+        ke = Ze;
+        let i;
+        (t[66] === r
+          ? (i = t[67])
+          : ((i = (e) => {
+              Ps({ event: e, href: r, initiator: `open_in_browser_bridge` });
+            }),
+            (t[66] = r),
+            (t[67] = i)),
+          (We = i));
+        break bb1;
+      }
+      case `openai_native`:
+    }
+  }
+  if (
+    (se &&
+      ((Ye = gt[be.title]),
+      (De =
+        T == null
+          ? (0, jC.jsx)(J, {
+              id: `codex.upsellBanner.referral.headline.noReset`,
+              defaultMessage: `You’re out of Codex credits`,
+              description: `Rate-limit banner message when a referral is available and no reset time is known`,
+            })
+          : (0, jC.jsx)(J, {
+              id: `codex.upsellBanner.referral.headline.withReset`,
+              defaultMessage: `You’re out of Codex credits. Your rate limit resets on {resetDate}`,
+              description: `Rate-limit banner message when a referral is available`,
+              values: { resetDate: E },
+            })),
+      (ke = ft[be.primary.text]),
+      (We = ut[be.primary.clickAction]),
+      (Ge = ft[be.secondary.text]),
+      (Y = ut[be.secondary.clickAction]),
+      (Ke = !1),
+      (qe = be.secondary.disabledBy === `notify_owner_pending` && O)),
+    W &&
+      G != null &&
+      ((Ye = G.title),
+      (De = OC({ description: G.description, formattedResetDate: E })),
+      q && ((ke = Ne), (We = ge)),
+      (Ge = ze),
+      (Y = st),
+      (qe = !1)),
+    m != null && H == null && !se && !W && !ye && i != null)
+  ) {
+    let e;
+    (t[68] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((e = (0, jC.jsx)(J, {
+          id: `codex.upsellBanner.enterprise.warning.dismiss`,
+          defaultMessage: `Dismiss`,
+          description: `CTA to dismiss the enterprise usage warning banner`,
+        })),
+        (t[68] = e))
+      : (e = t[68]),
+      (Ge = e),
+      (Y = i),
+      (qe = !1));
+  }
+  let vt = Ce;
+  (se && (vt = be.primary.analyticsAction), W && q && (vt = `add_credits`));
+  let yt = W ? `invite` : se ? be.secondary.analyticsAction : we,
+    bt = se ? be.primary.text : void 0,
+    xt = W ? `refer` : se ? be.secondary.text : void 0;
+  if (ye) {
+    let e;
+    (t[69] === E
+      ? (e = t[70])
+      : ((e =
+          E == null
+            ? (0, jC.jsx)(J, {
+                id: `codex.upsellBanner.rateLimitReset.headline.noReset`,
+                defaultMessage: `Upgrade or use one of your rate limit resets now.`,
+                description: `Rate-limit banner message when a rate limit reset is available and no reset time is known`,
+              })
+            : (0, jC.jsx)(J, {
+                id: `codex.upsellBanner.rateLimitReset.headline.withReset`,
+                defaultMessage: `Your rate limit resets on {resetDate}. Upgrade or use one of your rate limit resets now.`,
+                description: `Rate-limit banner message when a rate limit reset is available`,
+                values: { resetDate: E },
+              })),
+        (t[69] = E),
+        (t[70] = e)),
+      (De = e),
+      (Ge = Ve),
+      (Y = lt),
+      (qe = !1),
+      (yt = `reset_usage`),
+      (xt = void 0));
+  }
+  let St = (e, t, n) => (r) => {
+      (Se &&
+        v &&
+        t != null &&
+        lC({ context: xe, ctaAction: t, isReferralCta: n != null, referralCtaText: n }),
+        e(r));
+    },
+    Ct = St(We, vt, bt),
+    wt = Y == null ? void 0 : St(Y, yt, xt),
+    Tt = y && !v,
+    Et;
+  t[71] !== Tt ||
+  t[72] !== Ke ||
+  t[73] !== qe ||
+  t[74] !== ke ||
+  t[75] !== Ge ||
+  t[76] !== se ||
+  t[77] !== Ct ||
+  t[78] !== wt
+    ? ((Et = se
+        ? (0, jC.jsxs)(jC.Fragment, {
+            children: [
+              (0, jC.jsx)(ya, {
+                className: `shrink-0`,
+                color: `secondary`,
+                disabled: qe || Tt,
+                onClick: wt,
+                children: Ge,
+              }),
+              (0, jC.jsx)(ya, {
+                className: `shrink-0`,
+                color: `primary`,
+                disabled: Ke || Tt,
+                onClick: Ct,
+                children: ke,
+              }),
+            ],
+          })
+        : void 0),
+      (t[71] = Tt),
+      (t[72] = Ke),
+      (t[73] = qe),
+      (t[74] = ke),
+      (t[75] = Ge),
+      (t[76] = se),
+      (t[77] = Ct),
+      (t[78] = wt),
+      (t[79] = Et))
+    : (Et = t[79]);
+  let Dt = Et,
+    Ot;
+  t[80] === De
+    ? (Ot = t[81])
+    : ((Ot = (0, jC.jsx)(`span`, {
+        className: `leading-[18px] font-normal text-token-description-foreground`,
+        children: De,
+      })),
+      (t[80] = De),
+      (t[81] = Ot));
+  let kt;
+  t[82] !== Ot || t[83] !== Ye
+    ? ((kt = (0, jC.jsxs)(`div`, {
+        className: `flex w-full min-w-0 flex-col gap-1 text-sm`,
+        children: [Ye, Ot],
+      })),
+      (t[82] = Ot),
+      (t[83] = Ye),
+      (t[84] = kt))
+    : (kt = t[84]);
+  let At = Ke || Tt,
+    jt = qe || Tt,
+    Mt;
+  return (
+    t[85] !== Dt ||
+    t[86] !== ke ||
+    t[87] !== Ge ||
+    t[88] !== kt ||
+    t[89] !== At ||
+    t[90] !== jt ||
+    t[91] !== Ct ||
+    t[92] !== wt
+      ? ((Mt = (0, jC.jsx)(lm, {
+          type: `info`,
+          Icon: kg,
+          primaryCtaColor: `primary`,
+          secondaryCtaColor: `secondary`,
+          customCtas: Dt,
+          layout: `horizontal`,
+          className: `border-token-input-border dark:!border-token-input-border`,
+          title: kt,
+          content: null,
+          primaryCtaText: ke,
+          onPrimaryCtaClick: Ct,
+          isPrimaryCtaDisabled: At,
+          secondaryCtaText: Ge,
+          onSecondaryCtaClick: wt,
+          isSecondaryCtaDisabled: jt,
+        })),
+        (t[85] = Dt),
+        (t[86] = ke),
+        (t[87] = Ge),
+        (t[88] = kt),
+        (t[89] = At),
+        (t[90] = jt),
+        (t[91] = Ct),
+        (t[92] = wt),
+        (t[93] = Mt))
+      : (Mt = t[93]),
+    Mt
+  );
+}
+function TC(e) {
+  let t = (0, kC.c)(11),
+    { modelName: n, resetAt: r } = e,
+    i = Ns(),
+    { data: a, status: o } = Fc(!0),
+    s = o === `success` && a === !0,
+    c;
+  t[0] === n ? (c = t[1]) : ((c = DC(n)), (t[0] = n), (t[1] = c));
+  let l = c,
+    u;
+  t[2] !== i || t[3] !== r
+    ? ((u = r == null ? null : Bl(i, r)), (t[2] = i), (t[3] = r), (t[4] = u))
+    : (u = t[4]);
+  let d = u,
+    f;
+  (t[5] === s ? (f = t[6]) : ((f = { analyticsEnabled: s, context: bC }), (t[5] = s), (t[6] = f)),
+    SC(f));
+  let p;
+  t[7] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((p = (0, jC.jsx)(J, {
+        id: `codex.modelLimitBanner.title`,
+        defaultMessage: `Selected model is out of usage`,
+        description: `Title for the banner shown when the selected model is usage limited`,
+      })),
+      (t[7] = p))
+    : (p = t[7]);
+  let m;
+  return (
+    t[8] !== l || t[9] !== d
+      ? ((m = (0, jC.jsx)(lm, {
+          type: `info`,
+          Icon: kg,
+          layout: `horizontal`,
+          className: `border-token-input-border dark:!border-token-input-border`,
+          title: (0, jC.jsxs)(`div`, {
+            className: `flex w-full min-w-0 flex-col gap-1 text-sm`,
+            children: [
+              p,
+              (0, jC.jsx)(`span`, {
+                className: `leading-[18px] font-normal text-token-description-foreground`,
+                children:
+                  d == null
+                    ? (0, jC.jsx)(J, {
+                        id: `codex.modelLimitBanner.headline.noReset`,
+                        defaultMessage: `You've hit your usage limit for {modelName}. Try again later, or start a new conversation with another model.`,
+                        description: `Banner text shown when a model-specific usage limit does not include a reset time`,
+                        values: { modelName: l },
+                      })
+                    : (0, jC.jsx)(J, {
+                        id: `codex.modelLimitBanner.headline.withReset`,
+                        defaultMessage: `You've hit your usage limit for {modelName}. Try again after {resetDate}, or start a new conversation with another model.`,
+                        description: `Banner text shown when a model-specific usage limit includes a reset time`,
+                        values: { modelName: l, resetDate: d },
+                      }),
+              }),
+            ],
+          }),
+          content: null,
+        })),
+        (t[8] = l),
+        (t[9] = d),
+        (t[10] = m))
+      : (m = t[10]),
+    m
+  );
+}
+function EC(e) {
+  return (t) => {
+    Ps({ event: t, href: e, initiator: `open_in_browser_bridge` });
+  };
+}
+function DC(e) {
+  return e == null || e.trim().length === 0 ? `This model` : e.replace(/_/g, `-`);
+}
+function OC({ description: e, formattedResetDate: t }) {
+  return t == null ? e : e.replaceAll(`{time}`, t);
+}
+var kC,
+  AC,
+  jC,
+  MC = e(() => {
+    ((kC = X()),
+      il(),
+      ji(),
+      (AC = t(El(), 1)),
+      Y(),
+      ke(),
+      md(),
+      _s(),
+      Re(),
+      Bt(),
+      Fs(),
+      zv(),
+      Hg(),
+      Og(),
+      Mg(),
+      js(),
+      Ss(),
+      Rg(),
+      Lg(),
+      Qv(),
+      wt(),
+      Eg(),
+      tv(),
+      Lt(),
+      Cu(),
+      Qn(),
+      ir(),
+      pC(),
+      xC(),
+      (jC = Z()));
+  });
+function NC(e) {
+  let t = e?.account_id,
+    n = e?.spend_control?.individual_limit?.limit,
+    r = e?.spend_control?.individual_limit?.reset_at;
+  return t == null || n == null || r == null
+    ? null
+    : `${t}:${n}:${new Date(r * 1e3).toISOString().slice(0, 10)}`;
+}
+function PC({ isEnabled: e, rateLimitStatus: t, shownThreshold: n }) {
+  if (!e || NC(t) == null) return null;
+  let r = am(t);
+  return r == null || (n != null && n >= r) ? null : r;
+}
+function FC(e, t, n) {
+  e.set(IC, t, (e) => (e != null && e >= n ? e : n));
+}
+var IC,
+  LC = e(() => {
+    (ji(), wt(), Cu(), (IC = Tc(et, (e) => null)));
+  });
+function RC(e) {
+  let t = (0, zC.c)(18),
+    {
+      isUsageBannerEnabled: n,
+      modelName: r,
+      resetAt: i,
+      rateLimit: a,
+      rateLimitWarningThreshold: o,
+      showModelLimit: s,
+      showWorkspaceUsageLimit: c,
+      showUpsell: l,
+    } = e,
+    u = qn(et),
+    d = l || c;
+  if (!n || a == null) return null;
+  if (d) {
+    let e;
+    return (
+      t[0] !== a || t[1] !== c
+        ? ((e = (0, BC.jsx)(CC, { rateLimitStatus: a, showWorkspaceUsageLimit: c })),
+          (t[0] = a),
+          (t[1] = c),
+          (t[2] = e))
+        : (e = t[2]),
+      e
+    );
+  }
+  if (s) {
+    let e;
+    return (
+      t[3] !== r || t[4] !== i
+        ? ((e = (0, BC.jsx)(TC, { modelName: r, resetAt: i })), (t[3] = r), (t[4] = i), (t[5] = e))
+        : (e = t[5]),
+      e
+    );
+  }
+  let f;
+  t[6] === a ? (f = t[7]) : ((f = NC(a)), (t[6] = a), (t[7] = f));
+  let p = f;
+  if (o != null && p != null) {
+    let e = `${p}:${o}`,
+      n;
+    t[8] !== o || t[9] !== u || t[10] !== p
+      ? ((n = () => {
+          FC(u, p, o);
+        }),
+        (t[8] = o),
+        (t[9] = u),
+        (t[10] = p),
+        (t[11] = n))
+      : (n = t[11]);
+    let r;
+    return (
+      t[12] !== a || t[13] !== o || t[14] !== c || t[15] !== e || t[16] !== n
+        ? ((r = (0, BC.jsx)(
+            CC,
+            {
+              rateLimitStatus: a,
+              rateLimitWarningThreshold: o,
+              showWorkspaceUsageLimit: c,
+              onDismissWarning: n,
+            },
+            e,
+          )),
+          (t[12] = a),
+          (t[13] = o),
+          (t[14] = c),
+          (t[15] = e),
+          (t[16] = n),
+          (t[17] = r))
+        : (r = t[17]),
+      r
+    );
+  }
+  return null;
+}
+var zC,
+  BC,
+  VC = e(() => {
+    ((zC = X()), ji(), MC(), LC(), wt(), (BC = Z()));
+  });
+function HC(e) {
+  let t = [],
+    n = [],
+    r = [];
+  for (let i of e) {
+    if (i.localBrowserDesignChange != null) {
+      n.push(i);
+      continue;
+    }
+    pt(i) || _o(i) || re(i) ? t.push(i) : r.push(i);
+  }
+  return {
+    annotationCommentAttachments: t,
+    designTweakCommentAttachments: n,
+    diffCommentAttachments: r,
+  };
+}
+function UC(e) {
+  return HC(e).diffCommentAttachments;
+}
+function WC(e) {
+  let { annotationCommentAttachments: t, designTweakCommentAttachments: n } = HC(e);
+  return [...t, ...n];
+}
+var GC = e(() => {
+  (Xa(), $u());
+});
+async function KC({
+  conversationId: e,
+  draft: t,
+  hostId: n,
+  intl: r,
+  scope: i,
+  threadSettings: a,
+}) {
+  let o = null;
+  try {
+    o = await kf({ draft: t, hostId: n });
+    let s = await Ep({
+      scope: i,
+      conversationId: e,
+      hostId: n,
+      intl: r,
+      objective: o.objective,
+      threadSettings: a ?? void 0,
+    });
+    return (s && (o = null), s);
+  } catch {
+    return (
+      i
+        .get(Yr)
+        .danger(
+          r.formatMessage({
+            id: `composer.threadGoal.materializeError`,
+            defaultMessage: `Failed to prepare goal attachments`,
+            description: `Toast shown when goal attachments cannot be written to the execution host`,
+          }),
+        ),
+      !1
+    );
+  } finally {
+    o != null && (await th({ hostId: n, materialized: o }));
+  }
+}
+var qC = e(() => {
+  (Fs(), Rl(), If());
+});
+function JC(e) {
+  let t = (0, XC.c)(20),
+    { confirmation: n, onClose: r, onConfirm: i } = e;
+  if (n == null) return null;
+  let a;
+  t[0] === r
+    ? (a = t[1])
+    : ((a = (e) => {
+        e || r();
+      }),
+      (t[0] = r),
+      (t[1] = a));
+  let o;
+  t[2] === i
+    ? (o = t[3])
+    : ((o = (e) => {
+        (e.preventDefault(), i());
+      }),
+      (t[2] = i),
+      (t[3] = o));
+  let s;
+  t[4] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((s = (0, ZC.jsx)(K, {
+        children: (0, ZC.jsx)(ye, {
+          title: (0, ZC.jsx)(J, {
+            id: `composer.threadGoal.replaceConfirmation.title`,
+            defaultMessage: `Replace current goal?`,
+            description: `Title for the dialog confirming a thread goal replacement.`,
+          }),
+          subtitle: (0, ZC.jsx)(J, {
+            id: `composer.threadGoal.replaceConfirmation.subtitle`,
+            defaultMessage: `This will keep the thread but replace the saved goal with your current composer text`,
+            description: `Subtitle for the dialog confirming a thread goal replacement.`,
+          }),
+        }),
+      })),
+      (t[4] = s))
+    : (s = t[4]);
+  let c;
+  t[5] === n.draft.objective
+    ? (c = t[6])
+    : ((c = (0, ZC.jsx)(K, {
+        children: (0, ZC.jsx)(`div`, {
+          className: `line-clamp-4 rounded-lg bg-token-bg-secondary px-3 py-2 text-sm text-token-foreground`,
+          children: n.draft.objective,
+        }),
+      })),
+      (t[5] = n.draft.objective),
+      (t[6] = c));
+  let l;
+  t[7] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((l = (0, ZC.jsx)(J, {
+        id: `composer.threadGoal.replaceConfirmation.cancel`,
+        defaultMessage: `Cancel`,
+        description: `Cancel button for the thread goal replacement confirmation dialog.`,
+      })),
+      (t[7] = l))
+    : (l = t[7]);
+  let u;
+  t[8] === r
+    ? (u = t[9])
+    : ((u = (0, ZC.jsx)(ya, { type: `button`, color: `secondary`, onClick: r, children: l })),
+      (t[8] = r),
+      (t[9] = u));
+  let d;
+  t[10] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((d = (0, ZC.jsx)(ya, {
+        type: `submit`,
+        children: (0, ZC.jsx)(J, {
+          id: `composer.threadGoal.replaceConfirmation.confirm`,
+          defaultMessage: `Replace goal`,
+          description: `Confirm button for the thread goal replacement confirmation dialog.`,
+        }),
+      })),
+      (t[10] = d))
+    : (d = t[10]);
+  let f;
+  t[11] === u
+    ? (f = t[12])
+    : ((f = (0, ZC.jsx)(K, { children: (0, ZC.jsxs)($n, { children: [u, d] }) })),
+      (t[11] = u),
+      (t[12] = f));
+  let p;
+  t[13] !== o || t[14] !== c || t[15] !== f
+    ? ((p = (0, ZC.jsxs)(Zc, { as: `form`, onSubmit: o, children: [s, c, f] })),
+      (t[13] = o),
+      (t[14] = c),
+      (t[15] = f),
+      (t[16] = p))
+    : (p = t[16]);
+  let m;
+  return (
+    t[17] !== a || t[18] !== p
+      ? ((m = (0, ZC.jsx)(Cs, {
+          size: `compact`,
+          open: !0,
+          showDialogClose: !1,
+          onOpenChange: a,
+          children: p,
+        })),
+        (t[17] = a),
+        (t[18] = p),
+        (t[19] = m))
+      : (m = t[19]),
+    m
+  );
+}
+function YC(e) {
+  let t = (0, XC.c)(27),
+    { goal: n, onCancel: r, onResume: i } = e;
+  if (n == null) return null;
+  let a;
+  t[0] === r
+    ? (a = t[1])
+    : ((a = (e) => {
+        e || r();
+      }),
+      (t[0] = r),
+      (t[1] = a));
+  let o;
+  t[2] === i
+    ? (o = t[3])
+    : ((o = (e) => {
+        (e.preventDefault(), i());
+      }),
+      (t[2] = i),
+      (t[3] = o));
+  let s;
+  t[4] === n.status
+    ? (s = t[5])
+    : ((s =
+        n.status === `paused`
+          ? (0, ZC.jsx)(J, {
+              id: `composer.threadGoal.resumeConfirmation.title`,
+              defaultMessage: `Resume paused goal?`,
+              description: `Title for the dialog confirming a paused goal should resume.`,
+            })
+          : (0, ZC.jsx)(J, {
+              id: `composer.threadGoal.resumeConfirmation.resumableTitle`,
+              defaultMessage: `Resume goal?`,
+              description: `Title for the dialog confirming a stopped goal should resume.`,
+            })),
+      (t[4] = n.status),
+      (t[5] = s));
+  let c;
+  t[6] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((c = (0, ZC.jsx)(J, {
+        id: `composer.threadGoal.resumeConfirmation.subtitle`,
+        defaultMessage: `Codex will keep working toward this goal when the thread is idle`,
+        description: `Subtitle for the dialog confirming a paused goal should resume.`,
+      })),
+      (t[6] = c))
+    : (c = t[6]);
+  let l;
+  t[7] === s
+    ? (l = t[8])
+    : ((l = (0, ZC.jsx)(K, { children: (0, ZC.jsx)(ye, { title: s, subtitle: c }) })),
+      (t[7] = s),
+      (t[8] = l));
+  let u;
+  t[9] === n.objective
+    ? (u = t[10])
+    : ((u = (0, ZC.jsx)(K, {
+        children: (0, ZC.jsx)(`div`, {
+          className: `line-clamp-4 rounded-lg bg-token-bg-secondary px-3 py-2 text-sm text-token-foreground`,
+          children: n.objective,
+        }),
+      })),
+      (t[9] = n.objective),
+      (t[10] = u));
+  let d;
+  t[11] === n.status
+    ? (d = t[12])
+    : ((d =
+        n.status === `paused`
+          ? (0, ZC.jsx)(J, {
+              id: `composer.threadGoal.resumeConfirmation.keepPaused`,
+              defaultMessage: `Keep paused`,
+              description: `Button label for leaving a thread goal paused.`,
+            })
+          : (0, ZC.jsx)(J, {
+              id: `composer.threadGoal.resumeConfirmation.notNow`,
+              defaultMessage: `Not now`,
+              description: `Button label for dismissing a thread goal resume confirmation.`,
+            })),
+      (t[11] = n.status),
+      (t[12] = d));
+  let f;
+  t[13] !== r || t[14] !== d
+    ? ((f = (0, ZC.jsx)(ya, { type: `button`, color: `secondary`, onClick: r, children: d })),
+      (t[13] = r),
+      (t[14] = d),
+      (t[15] = f))
+    : (f = t[15]);
+  let p;
+  t[16] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((p = (0, ZC.jsx)(ya, {
+        type: `submit`,
+        children: (0, ZC.jsx)(J, {
+          id: `composer.threadGoal.resumeConfirmation.resume`,
+          defaultMessage: `Resume goal`,
+          description: `Button label for resuming a paused thread goal.`,
+        }),
+      })),
+      (t[16] = p))
+    : (p = t[16]);
+  let m;
+  t[17] === f
+    ? (m = t[18])
+    : ((m = (0, ZC.jsx)(K, { children: (0, ZC.jsxs)($n, { children: [f, p] }) })),
+      (t[17] = f),
+      (t[18] = m));
+  let h;
+  t[19] !== m || t[20] !== o || t[21] !== l || t[22] !== u
+    ? ((h = (0, ZC.jsxs)(Zc, { as: `form`, onSubmit: o, children: [l, u, m] })),
+      (t[19] = m),
+      (t[20] = o),
+      (t[21] = l),
+      (t[22] = u),
+      (t[23] = h))
+    : (h = t[23]);
+  let g;
+  return (
+    t[24] !== a || t[25] !== h
+      ? ((g = (0, ZC.jsx)(Cs, {
+          size: `compact`,
+          open: !0,
+          showDialogClose: !1,
+          onOpenChange: a,
+          children: h,
+        })),
+        (t[24] = a),
+        (t[25] = h),
+        (t[26] = g))
+      : (g = t[26]),
+    g
+  );
+}
+var XC,
+  ZC,
+  QC = e(() => {
+    ((XC = X()), Y(), _s(), ja(), b(), (ZC = Z()));
+  });
+function $C(e) {
+  let t = (0, tw.c)(13),
+    { className: n, expandedTopTray: r, children: i } = e,
+    a = r === void 0 ? !1 : r,
+    o;
+  t[0] === n ? (o = t[1]) : ((o = qc(`order-2 flex min-w-0 flex-col`, n)), (t[0] = n), (t[1] = o));
+  let s;
+  t[2] !== i || t[3] !== o
+    ? ((s = (0, rw.jsx)(`div`, { className: o, children: i })), (t[2] = i), (t[3] = o), (t[4] = s))
+    : (s = t[4]);
+  let c = s,
+    l;
+  t[5] === a ? (l = t[6]) : ((l = { expandedTopTray: a }), (t[5] = a), (t[6] = l));
+  let u;
+  t[7] !== a || t[8] !== c
+    ? ((u = a ? (0, rw.jsx)(hu, { expandedTopTray: !0, inFlow: !0, children: c }) : c),
+      (t[7] = a),
+      (t[8] = c),
+      (t[9] = u))
+    : (u = t[9]);
+  let d;
+  return (
+    t[10] !== l || t[11] !== u
+      ? ((d = (0, rw.jsx)(iw.Provider, { value: l, children: u })),
+        (t[10] = l),
+        (t[11] = u),
+        (t[12] = d))
+      : (d = t[12]),
+    d
+  );
+}
+function ew(e) {
+  let t = (0, tw.c)(7),
+    { className: n, children: r } = e,
+    { expandedTopTray: i } = (0, nw.useContext)(iw),
+    a =
+      !i &&
+      `bg-token-input-background/70 border-token-border/80 border-x border-t backdrop-blur-sm`,
+    o = !i && `first:rounded-t-2xl`,
+    s;
+  t[0] !== n || t[1] !== a || t[2] !== o
+    ? ((s = qc(`relative min-w-0 overflow-clip text-token-foreground`, a, o, n)),
+      (t[0] = n),
+      (t[1] = a),
+      (t[2] = o),
+      (t[3] = s))
+    : (s = t[3]);
+  let c;
+  return (
+    t[4] !== r || t[5] !== s
+      ? ((c = (0, rw.jsx)(`div`, { className: s, children: r })),
+        (t[4] = r),
+        (t[5] = s),
+        (t[6] = c))
+      : (c = t[6]),
+    c
+  );
+}
+var tw,
+  nw,
+  rw,
+  iw,
+  aw = e(() => {
+    ((tw = X()),
+      Xn(),
+      (nw = t(El(), 1)),
+      cu(),
+      (rw = Z()),
+      (iw = (0, nw.createContext)({ expandedTopTray: !1 })));
+  });
+function ow({ conversationId: e, goal: t, hostId: n, permissionOverrideThreadSettings: r }) {
+  let i = qn(et),
+    a = Ns(),
+    [o, s] = (0, pw.useState)(null),
+    [c, l] = (0, pw.useState)(t.objective),
+    [u, d] = (0, pw.useState)(t.objective),
+    [f, p] = (0, pw.useState)(null),
+    [m, h] = (0, pw.useState)(!1),
+    [g, _] = (0, pw.useState)(!1),
+    v = Nc(t.status),
+    y = c.trim(),
+    b = m && f === t.objective,
+    x = o == null && y.length > 0 && y !== u,
+    S = async () => {
+      if (v != null) {
+        s(`status`);
+        try {
+          await vh({
+            scope: i,
+            conversationId: e,
+            hostId: n,
+            status: v,
+            threadSettings: v === `active` ? (r ?? void 0) : void 0,
+          });
+        } finally {
+          s(null);
+        }
+      }
+    },
+    C = async () => {
+      s(`clear`);
+      try {
+        await Hd({ scope: i, conversationId: e, hostId: n, intl: a });
+      } finally {
+        s(null);
+      }
+    },
+    w = async () => {
+      if (!x) return;
+      let t = null;
+      s(`edit`);
+      try {
+        ((t = await kf({
+          draft: { objective: y, imageAttachments: [], pastedTextAttachments: [] },
+          hostId: n,
+        })),
+          (await Ep({
+            scope: i,
+            appendTranscriptItem: !1,
+            conversationId: e,
+            hostId: n,
+            intl: a,
+            objective: t.objective,
+            threadSettings: r ?? void 0,
+          })) && ((t = null), _(!1)));
+      } catch {
+        i.get(Yr).danger(
+          a.formatMessage({
+            id: `composer.threadGoal.editSaveError`,
+            defaultMessage: `Failed to save goal objective`,
+            description: `Toast shown when an edited goal objective cannot be saved`,
+          }),
+        );
+      } finally {
+        (t != null && (await th({ hostId: n, materialized: t })), s(null));
+      }
+    },
+    T = async () => {
+      s(`load-edit`);
+      let e = t.objective;
+      try {
+        e = await Uf({ hostId: n, objective: t.objective });
+      } catch {
+        i.get(Yr).danger(
+          a.formatMessage({
+            id: `composer.threadGoal.editLoadError`,
+            defaultMessage: `Failed to load goal objective`,
+            description: `Toast shown when a file-backed goal cannot be loaded`,
+          }),
+        );
+      } finally {
+        (l(e), d(e), _(!0), s(null));
+      }
+    };
+  return (0, mw.jsxs)(ew, {
+    children: [
+      (0, mw.jsxs)(`div`, {
+        className: `flex items-center justify-between gap-2 px-3 py-row-y`,
+        children: [
+          (0, mw.jsxs)(`div`, {
+            className: `flex min-w-0 flex-1 items-center gap-2`,
+            children: [
+              (0, mw.jsx)(fd, {
+                className: `icon-2xs shrink-0 text-token-input-placeholder-foreground/70`,
+                "aria-hidden": !0,
+              }),
+              (0, mw.jsx)(`div`, {
+                className: `text-size-chat flex min-w-0 flex-1 items-center overflow-hidden leading-4`,
+                children: (0, mw.jsx)(sw, {
+                  objective: t.objective,
+                  goal: t,
+                  hideObjective: b,
+                  onObjectiveTruncationChange: h,
+                }),
+              }),
+            ],
+          }),
+          (0, mw.jsxs)(`div`, {
+            className: `flex shrink-0 items-center gap-2`,
+            children: [
+              (0, mw.jsx)(Cn, {
+                side: `top`,
+                tooltipContent: (0, mw.jsx)(J, {
+                  id: `composer.threadGoal.editTooltip`,
+                  defaultMessage: `Edit goal`,
+                  description: `Tooltip for button that edits the current goal.`,
+                }),
+                children: (0, mw.jsx)(ya, {
+                  size: `icon`,
+                  color: `ghost`,
+                  className: `[&>svg]:icon-2xs`,
+                  disabled: o != null,
+                  loading: o === `load-edit` || o === `edit`,
+                  onClick: () => {
+                    T();
+                  },
+                  "aria-label": a.formatMessage({
+                    id: `composer.threadGoal.edit`,
+                    defaultMessage: `Edit goal`,
+                    description: `Button label to edit the current thread goal.`,
+                  }),
+                  children: (0, mw.jsx)(Xm, { className: `icon-2xs`, "aria-hidden": !0 }),
+                }),
+              }),
+              v == null
+                ? null
+                : (0, mw.jsx)(Cn, {
+                    side: `top`,
+                    tooltipContent:
+                      v === `paused`
+                        ? (0, mw.jsx)(J, {
+                            id: `composer.threadGoal.pauseTooltip`,
+                            defaultMessage: `Pause goal`,
+                            description: `Tooltip for button that pauses an active goal.`,
+                          })
+                        : (0, mw.jsx)(J, {
+                            id: `composer.threadGoal.resumeTooltip`,
+                            defaultMessage: `Resume goal`,
+                            description: `Tooltip for button that resumes a paused goal.`,
+                          }),
+                    children: (0, mw.jsx)(ya, {
+                      size: `icon`,
+                      color: `ghost`,
+                      className: `[&>svg]:icon-2xs`,
+                      disabled: o != null,
+                      loading: o === `status`,
+                      onClick: () => {
+                        S();
+                      },
+                      "aria-label":
+                        v === `paused`
+                          ? a.formatMessage({
+                              id: `composer.threadGoal.pause`,
+                              defaultMessage: `Pause goal`,
+                              description: `Button label to pause an active thread goal.`,
+                            })
+                          : a.formatMessage({
+                              id: `composer.threadGoal.resume`,
+                              defaultMessage: `Resume goal`,
+                              description: `Button label to resume a paused thread goal.`,
+                            }),
+                      children:
+                        v === `paused`
+                          ? (0, mw.jsx)($p, { className: `icon-2xs`, "aria-hidden": !0 })
+                          : (0, mw.jsx)(Jm, { className: `icon-2xs`, "aria-hidden": !0 }),
+                    }),
+                  }),
+              (0, mw.jsx)(Cn, {
+                side: `top`,
+                tooltipContent: (0, mw.jsx)(J, {
+                  id: `composer.threadGoal.clearTooltip`,
+                  defaultMessage: `Clear goal`,
+                  description: `Tooltip for button that clears the current goal.`,
+                }),
+                children: (0, mw.jsx)(ya, {
+                  size: `icon`,
+                  color: `ghost`,
+                  className: `[&>svg]:icon-2xs`,
+                  disabled: o != null,
+                  loading: o === `clear`,
+                  onClick: () => {
+                    C();
+                  },
+                  "aria-label": a.formatMessage({
+                    id: `composer.threadGoal.clear`,
+                    defaultMessage: `Clear goal`,
+                    description: `Button label to clear the current thread goal.`,
+                  }),
+                  children: (0, mw.jsx)(wu, { className: `icon-2xs`, "aria-hidden": !0 }),
+                }),
+              }),
+              m
+                ? (0, mw.jsx)(Cn, {
+                    side: `top`,
+                    tooltipContent: b
+                      ? (0, mw.jsx)(J, {
+                          id: `composer.threadGoal.collapseObjectiveTooltip`,
+                          defaultMessage: `Hide full goal`,
+                          description: `Tooltip for button that collapses a full thread goal objective.`,
+                        })
+                      : (0, mw.jsx)(J, {
+                          id: `composer.threadGoal.expandObjectiveTooltip`,
+                          defaultMessage: `Show full goal`,
+                          description: `Tooltip for button that expands a truncated thread goal objective.`,
+                        }),
+                    children: (0, mw.jsx)(ya, {
+                      size: `icon`,
+                      color: `ghost`,
+                      className: `[&>svg]:icon-2xs`,
+                      "aria-expanded": b,
+                      "aria-label": b
+                        ? a.formatMessage({
+                            id: `composer.threadGoal.collapseObjective`,
+                            defaultMessage: `Hide full goal`,
+                            description: `Accessible label for button that collapses a full thread goal objective.`,
+                          })
+                        : a.formatMessage({
+                            id: `composer.threadGoal.expandObjective`,
+                            defaultMessage: `Show full goal`,
+                            description: `Accessible label for button that expands a truncated thread goal objective.`,
+                          }),
+                      onClick: () => {
+                        p(b ? null : t.objective);
+                      },
+                      children: (0, mw.jsx)(Qs, {
+                        className: qc(`icon-2xs transition-transform`, b && `rotate-90`),
+                        "aria-hidden": !0,
+                      }),
+                    }),
+                  })
+                : null,
+            ],
+          }),
+        ],
+      }),
+      b
+        ? (0, mw.jsx)(`div`, {
+            className: `text-size-chat max-h-30 overflow-y-auto px-3 pb-2 leading-5 break-words whitespace-pre-wrap text-token-description-foreground`,
+            children: t.objective,
+          })
+        : null,
+      (0, mw.jsx)(Cs, {
+        open: g,
+        onOpenChange: (e) => {
+          !e && o !== `edit` && _(!1);
+        },
+        size: `compact`,
+        children: (0, mw.jsxs)(Zc, {
+          as: `form`,
+          onSubmit: (e) => {
+            (e.preventDefault(), w());
+          },
+          children: [
+            (0, mw.jsx)(K, {
+              children: (0, mw.jsx)(ye, {
+                icon: (0, mw.jsx)(fd, {}),
+                title: (0, mw.jsx)(J, {
+                  id: `composer.threadGoal.editDialog.title`,
+                  defaultMessage: `Edit goal`,
+                  description: `Title for the dialog that edits a thread goal.`,
+                }),
+              }),
+            }),
+            (0, mw.jsx)(K, {
+              children: (0, mw.jsx)(sn, {
+                children: (0, mw.jsx)(`textarea`, {
+                  rows: 3,
+                  className: `min-h-[240px] w-full resize-none rounded-2xl border border-token-border px-3 py-2 text-token-input-foreground shadow-sm outline-none focus:ring-1 focus:ring-token-focus-border`,
+                  autoFocus: !0,
+                  "aria-label": a.formatMessage({
+                    id: `composer.threadGoal.editDialog.ariaLabel`,
+                    defaultMessage: `Goal`,
+                    description: `Aria label for the goal edit dialog textarea.`,
+                  }),
+                  value: c,
+                  disabled: o === `edit`,
+                  onKeyDown: (e) => {
+                    e.key === `Enter` &&
+                      (e.metaKey || e.ctrlKey) &&
+                      (e.preventDefault(), e.currentTarget.form?.requestSubmit());
+                  },
+                  onChange: (e) => {
+                    l(e.target.value);
+                  },
+                }),
+              }),
+            }),
+            (0, mw.jsx)(K, {
+              children: (0, mw.jsxs)($n, {
+                children: [
+                  (0, mw.jsx)(ya, {
+                    type: `button`,
+                    color: `secondary`,
+                    disabled: o === `edit`,
+                    onClick: () => {
+                      _(!1);
+                    },
+                    children: (0, mw.jsx)(J, {
+                      id: `composer.threadGoal.editDialog.cancel`,
+                      defaultMessage: `Cancel`,
+                      description: `Cancel button for the goal edit dialog.`,
+                    }),
+                  }),
+                  (0, mw.jsx)(ya, {
+                    type: `submit`,
+                    disabled: !x,
+                    loading: o === `edit`,
+                    children: (0, mw.jsx)(J, {
+                      id: `composer.threadGoal.editDialog.save`,
+                      defaultMessage: `Save`,
+                      description: `Save button for the goal edit dialog.`,
+                    }),
+                  }),
+                ],
+              }),
+            }),
+          ],
+        }),
+      }),
+    ],
+  });
+}
+function sw(e) {
+  let t = (0, fw.c)(10),
+    { goal: n, hideObjective: r, objective: i, onObjectiveTruncationChange: a } = e,
+    o;
+  t[0] === n.status
+    ? (o = t[1])
+    : ((o = (0, mw.jsx)(`span`, {
+        className: `shrink-0 text-token-foreground`,
+        children: (0, mw.jsx)(cw, { status: n.status }),
+      })),
+      (t[0] = n.status),
+      (t[1] = o));
+  let s;
+  t[2] !== n || t[3] !== r || t[4] !== i || t[5] !== a
+    ? ((s = (0, mw.jsx)(
+        lw,
+        { goal: n, hideObjective: r, objective: i, onObjectiveTruncationChange: a },
+        i,
+      )),
+      (t[2] = n),
+      (t[3] = r),
+      (t[4] = i),
+      (t[5] = a),
+      (t[6] = s))
+    : (s = t[6]);
+  let c;
+  return (
+    t[7] !== o || t[8] !== s
+      ? ((c = (0, mw.jsxs)(mw.Fragment, { children: [o, s] })), (t[7] = o), (t[8] = s), (t[9] = c))
+      : (c = t[9]),
+    c
+  );
+}
+function cw(e) {
+  let t = (0, fw.c)(6),
+    { status: n } = e;
+  switch (n) {
+    case `active`: {
+      let e;
+      return (
+        t[0] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, mw.jsx)(J, {
+              id: `composer.threadGoal.summary.active`,
+              defaultMessage: `Pursuing goal`,
+              description: `Summary label for an active thread goal above the composer.`,
+            })),
+            (t[0] = e))
+          : (e = t[0]),
+        e
+      );
+    }
+    case `paused`: {
+      let e;
+      return (
+        t[1] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, mw.jsx)(J, {
+              id: `composer.threadGoal.summary.paused`,
+              defaultMessage: `Paused goal`,
+              description: `Summary label for a paused thread goal above the composer.`,
+            })),
+            (t[1] = e))
+          : (e = t[1]),
+        e
+      );
+    }
+    case `blocked`: {
+      let e;
+      return (
+        t[2] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, mw.jsx)(J, {
+              id: `composer.threadGoal.summary.blocked`,
+              defaultMessage: `Goal blocked`,
+              description: `Summary label for a blocked thread goal above the composer.`,
+            })),
+            (t[2] = e))
+          : (e = t[2]),
+        e
+      );
+    }
+    case `usageLimited`: {
+      let e;
+      return (
+        t[3] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, mw.jsx)(J, {
+              id: `composer.threadGoal.summary.usageLimited`,
+              defaultMessage: `Goal usage limited`,
+              description: `Summary label for a usage-limited thread goal above the composer.`,
+            })),
+            (t[3] = e))
+          : (e = t[3]),
+        e
+      );
+    }
+    case `budgetLimited`: {
+      let e;
+      return (
+        t[4] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, mw.jsx)(J, {
+              id: `composer.threadGoal.summary.budgetLimited`,
+              defaultMessage: `Goal limited`,
+              description: `Summary label for a budget-limited thread goal above the composer.`,
+            })),
+            (t[4] = e))
+          : (e = t[4]),
+        e
+      );
+    }
+    case `complete`: {
+      let e;
+      return (
+        t[5] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, mw.jsx)(J, {
+              id: `composer.threadGoal.summary.complete`,
+              defaultMessage: `Goal achieved`,
+              description: `Summary label for a completed thread goal above the composer.`,
+            })),
+            (t[5] = e))
+          : (e = t[5]),
+        e
+      );
+    }
+  }
+}
+function lw(e) {
+  let t = (0, fw.c)(12),
+    { goal: n, hideObjective: r, objective: i, onObjectiveTruncationChange: a } = e,
+    [o, s] = (0, pw.useState)(!1),
+    c;
+  t[0] !== r || t[1] !== a
+    ? ((c = (e, t) => {
+        if (r) return;
+        let n = t.scrollWidth > t.clientWidth;
+        (s((e) => (e === n ? e : n)), a(n));
+      }),
+      (t[0] = r),
+      (t[1] = a),
+      (t[2] = c))
+    : (c = t[2]);
+  let l = bp(c),
+    u = r ? null : i,
+    d;
+  t[3] !== l || t[4] !== u
+    ? ((d = (0, mw.jsx)(`span`, {
+        ref: l,
+        className: `ml-1 min-w-0 truncate text-token-description-foreground`,
+        children: u,
+      })),
+      (t[3] = l),
+      (t[4] = u),
+      (t[5] = d))
+    : (d = t[5]);
+  let f = !r && !o,
+    p;
+  t[6] !== n || t[7] !== f
+    ? ((p = (0, mw.jsx)(uw, { goal: n, showSeparator: f })), (t[6] = n), (t[7] = f), (t[8] = p))
+    : (p = t[8]);
+  let m;
+  return (
+    t[9] !== d || t[10] !== p
+      ? ((m = (0, mw.jsxs)(mw.Fragment, { children: [d, p] })),
+        (t[9] = d),
+        (t[10] = p),
+        (t[11] = m))
+      : (m = t[11]),
+    m
+  );
+}
+function uw(e) {
+  let t = (0, fw.c)(10),
+    { goal: n, showSeparator: r } = e,
+    i = Ns(),
+    [a, o] = (0, pw.useState)(dw),
+    s;
+  (t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((s = () => {
+        o(Date.now());
+      }),
+      (t[0] = s))
+    : (s = t[0]),
+    Qf(s, n.status === `active` ? 1e3 : null));
+  let c =
+      n.status === `active`
+        ? n.timeUsedSeconds * 1e3 + a - n.updatedAt * 1e3
+        : n.timeUsedSeconds * 1e3,
+    l = Math.max(c, 0),
+    u;
+  t[1] === l ? (u = t[2]) : ((u = Qd(l)), (t[1] = l), (t[2] = u));
+  let d = u,
+    f;
+  t[3] !== n.tokenBudget || t[4] !== n.tokensUsed || t[5] !== i
+    ? ((f =
+        n.tokenBudget == null
+          ? null
+          : i.formatMessage(
+              {
+                id: `composer.threadGoal.tokenProgress`,
+                defaultMessage: `{used} / {budget}`,
+                description: `Token progress shown in goal status text.`,
+              },
+              {
+                used: i.formatNumber(n.tokensUsed, {
+                  notation: `compact`,
+                  maximumFractionDigits: 1,
+                }),
+                budget: i.formatNumber(n.tokenBudget, {
+                  notation: `compact`,
+                  maximumFractionDigits: 1,
+                }),
+              },
+            )),
+      (t[3] = n.tokenBudget),
+      (t[4] = n.tokensUsed),
+      (t[5] = i),
+      (t[6] = f))
+    : (f = t[6]);
+  let p = f,
+    m = n.status === `active` || n.status === `budgetLimited` ? (p ?? d) : d,
+    h = r ? hw : null,
+    g;
+  return (
+    t[7] !== m || t[8] !== h
+      ? ((g = (0, mw.jsxs)(`span`, {
+          className: `ml-1.5 shrink-0 whitespace-nowrap text-token-description-foreground`,
+          children: [h, m],
+        })),
+        (t[7] = m),
+        (t[8] = h),
+        (t[9] = g))
+      : (g = t[9]),
+    g
+  );
+}
+function dw() {
+  return Date.now();
+}
+var fw,
+  pw,
+  mw,
+  hw,
+  gw = e(() => {
+    ((fw = X()),
+      Xn(),
+      ji(),
+      (pw = t(El(), 1)),
+      Y(),
+      _s(),
+      ja(),
+      b(),
+      Fs(),
+      aa(),
+      aw(),
+      zi(),
+      Wp(),
+      qu(),
+      Om(),
+      yd(),
+      Vu(),
+      au(),
+      bm(),
+      wt(),
+      nm(),
+      Rl(),
+      If(),
+      ia(),
+      (mw = Z()),
+      (hw = `• `));
+  });
+function _w(e) {
+  let t = (0, vw.c)(52),
+    {
+      activeBrowserImageDragBrowserTabId: n,
+      addFileMentionsFromFiles: r,
+      addImages: i,
+      directBrowserConversationId: a,
+      dragCounterRef: o,
+      dropTargetPortalTarget: s,
+      isDragActive: c,
+      setIsDragActive: l,
+      setShowShiftOverlay: u,
+    } = e,
+    d;
+  t[0] === n ? (d = t[1]) : ((d = (e) => n != null || zh(e) || nu(e)), (t[0] = n), (t[1] = d));
+  let f = d,
+    p;
+  t[2] !== o || t[3] !== l || t[4] !== u
+    ? ((p = () => {
+        ((o.current = 0), l(!1), u(!1));
+      }),
+      (t[2] = o),
+      (t[3] = l),
+      (t[4] = u),
+      (t[5] = p))
+    : (p = t[5]);
+  let m = p,
+    h;
+  t[6] !== r || t[7] !== i
+    ? ((h = (e) => {
+        if (e.defaultPrevented) return;
+        let { imageFiles: t, otherFiles: n } = nf(e.clipboardData);
+        (t.length === 0 && n.length === 0) ||
+          (e.preventDefault(), t.length === 0 || i(t), n.length > 0 && r(n));
+      }),
+      (t[6] = r),
+      (t[7] = i),
+      (t[8] = h))
+    : (h = t[8]);
+  let g = h,
+    _;
+  t[9] !== f || t[10] !== o || t[11] !== l || t[12] !== u
+    ? ((_ = (e) => {
+        let { dataTransfer: t } = e;
+        t == null ||
+          !f(t) ||
+          (u(!e.shiftKey),
+          e.preventDefault(),
+          e.stopPropagation(),
+          (t.dropEffect = `copy`),
+          (o.current += 1),
+          l(!0));
+      }),
+      (t[9] = f),
+      (t[10] = o),
+      (t[11] = l),
+      (t[12] = u),
+      (t[13] = _))
+    : (_ = t[13]);
+  let v = _,
+    y;
+  t[14] !== f || t[15] !== c || t[16] !== l || t[17] !== u
+    ? ((y = (e) => {
+        let { dataTransfer: t } = e;
+        t == null ||
+          !f(t) ||
+          (u(!e.shiftKey),
+          e.preventDefault(),
+          e.stopPropagation(),
+          (t.dropEffect = `copy`),
+          c || l(!0));
+      }),
+      (t[14] = f),
+      (t[15] = c),
+      (t[16] = l),
+      (t[17] = u),
+      (t[18] = y))
+    : (y = t[18]);
+  let b = y,
+    x;
+  t[19] !== f || t[20] !== o || t[21] !== l || t[22] !== u
+    ? ((x = (e) => {
+        f(e.dataTransfer) &&
+          ((o.current = Math.max(0, o.current - 1)), o.current === 0 && (l(!1), u(!1)));
+      }),
+      (t[19] = f),
+      (t[20] = o),
+      (t[21] = l),
+      (t[22] = u),
+      (t[23] = x))
+    : (x = t[23]);
+  let S = x,
+    C;
+  t[24] !== n || t[25] !== r || t[26] !== i || t[27] !== a || t[28] !== m
+    ? ((C = (e) => {
+        m();
+        let { imageFiles: t, otherFiles: o } = nf(e.dataTransfer),
+          s = nu(e.dataTransfer);
+        if (t.length === 0 && o.length === 0 && !s) {
+          (zh(e.dataTransfer) && e.preventDefault(),
+            n != null &&
+              a != null &&
+              (e.preventDefault(),
+              window.electronBridge?.sendMessageFromView?.({
+                type: `browser-sidebar-attach-dragged-image`,
+                browserTabId: n,
+                conversationId: a,
+              })));
+          return;
+        }
+        (e.preventDefault(),
+          t.length === 0 || i(t),
+          (o.length > 0 || (s && t.length === 0)) && r(o, e.dataTransfer));
+      }),
+      (t[24] = n),
+      (t[25] = r),
+      (t[26] = i),
+      (t[27] = a),
+      (t[28] = m),
+      (t[29] = C))
+    : (C = t[29]);
+  let w = C,
+    T;
+  t[30] === v
+    ? (T = t[31])
+    : ((T = (e) => {
+        v(e);
+      }),
+      (t[30] = v),
+      (t[31] = T));
+  let E = (0, yw.useEffectEvent)(T),
+    D;
+  t[32] === b
+    ? (D = t[33])
+    : ((D = (e) => {
+        b(e);
+      }),
+      (t[32] = b),
+      (t[33] = D));
+  let O = (0, yw.useEffectEvent)(D),
+    k;
+  t[34] === S
+    ? (k = t[35])
+    : ((k = (e) => {
+        S(e);
+      }),
+      (t[34] = S),
+      (t[35] = k));
+  let A = (0, yw.useEffectEvent)(k),
+    j;
+  t[36] === w
+    ? (j = t[37])
+    : ((j = (e) => {
+        w(e);
+      }),
+      (t[36] = w),
+      (t[37] = j));
+  let M = (0, yw.useEffectEvent)(j),
+    N;
+  t[38] !== s || t[39] !== E || t[40] !== A || t[41] !== O || t[42] !== M
+    ? ((N = () => {
+        if (s != null)
+          return (
+            s.addEventListener(`dragenter`, E, !0),
+            s.addEventListener(`dragover`, O, !0),
+            s.addEventListener(`dragleave`, A, !0),
+            s.addEventListener(`drop`, M, !0),
+            () => {
+              (s.removeEventListener(`dragenter`, E, !0),
+                s.removeEventListener(`dragover`, O, !0),
+                s.removeEventListener(`dragleave`, A, !0),
+                s.removeEventListener(`drop`, M, !0));
+            }
+          );
+      }),
+      (t[38] = s),
+      (t[39] = E),
+      (t[40] = A),
+      (t[41] = O),
+      (t[42] = M),
+      (t[43] = N))
+    : (N = t[43]);
+  let P;
+  (t[44] === s ? (P = t[45]) : ((P = [s]), (t[44] = s), (t[45] = P)), (0, yw.useEffect)(N, P));
+  let F;
+  return (
+    t[46] !== v || t[47] !== S || t[48] !== b || t[49] !== w || t[50] !== g
+      ? ((F = {
+          handleDragEnter: v,
+          handleDragLeave: S,
+          handleDragOver: b,
+          handleDrop: w,
+          handlePaste: g,
+        }),
+        (t[46] = v),
+        (t[47] = S),
+        (t[48] = b),
+        (t[49] = w),
+        (t[50] = g),
+        (t[51] = F))
+      : (F = t[51]),
+    F
+  );
+}
+var vw,
+  yw,
+  bw = e(() => {
+    ((vw = X()), (yw = t(El(), 1)), pm());
+  });
+function xw(e) {
+  let t = (0, Cw.c)(5),
+    n = jm(e),
+    { modelSettings: r } = Tp(e),
+    { activeMode: i } = gf(e),
+    a;
+  t[0] === n.hostId ? (a = t[1]) : ((a = { hostId: n.hostId }), (t[0] = n.hostId), (t[1] = a));
+  let { data: o } = Sh(a),
+    s = i?.settings.model ?? r.model;
+  if (!s) return null;
+  let c;
+  return (
+    t[2] !== o?.models || t[3] !== s
+      ? ((c = o?.models.find((e) => e.model === s)), (t[2] = o?.models), (t[3] = s), (t[4] = c))
+      : (c = t[4]),
+    c?.inputModalities ?? null
+  );
+}
+function Sw(e, t) {
+  let n = (0, Cw.c)(3),
+    r = xw(e),
+    i;
+  return (
+    n[0] !== r || n[1] !== t
+      ? ((i = r?.includes(t) ?? !0), (n[0] = r), (n[1] = t), (n[2] = i))
+      : (i = n[2]),
+    i
+  );
+}
+var Cw,
+  ww = e(() => {
+    ((Cw = X()), Bd(), _h(), gm(), Zl());
+  });
+function Tw(e) {
+  let t = (0, Ew.c)(11),
+    { scope: n, conversationId: r, intl: i } = e,
+    a = Sw(r, `image`),
+    o;
+  t[0] === i
+    ? (o = t[1])
+    : ((o = i.formatMessage({
+        id: `composer.imageInputsUnsupported`,
+        defaultMessage: `This model does not support image inputs. Try a different model.`,
+        description: `Toast shown when a user tries to add images for a text-only model`,
+      })),
+      (t[0] = i),
+      (t[1] = o));
+  let s = o,
+    c;
+  t[2] === i
+    ? (c = t[3])
+    : ((c = i.formatMessage({
+        id: `composer.submit.imageInputsUnsupported`,
+        defaultMessage: `Remove images or switch models to send this message`,
+        description: `Message shown when submit is blocked due to unsupported image inputs`,
+      })),
+      (t[2] = i),
+      (t[3] = c));
+  let l = c,
+    u = (0, Dw.useRef)(0),
+    d;
+  t[4] !== s || t[5] !== n
+    ? ((d = () => {
+        let e = Date.now();
+        e - u.current < 1e3 || ((u.current = e), n.get(Yr).danger(s));
+      }),
+      (t[4] = s),
+      (t[5] = n),
+      (t[6] = d))
+    : (d = t[6]);
+  let f = d,
+    p;
+  return (
+    t[7] !== l || t[8] !== f || t[9] !== a
+      ? ((p = {
+          imageInputUnsupportedReason: l,
+          notifyImageInputUnsupported: f,
+          supportsImageInputs: a,
+        }),
+        (t[7] = l),
+        (t[8] = f),
+        (t[9] = a),
+        (t[10] = p))
+      : (p = t[10]),
+    p
+  );
+}
+var Ew,
+  Dw,
+  Ow = e(() => {
+    ((Ew = X()), (Dw = t(El(), 1)), Fs(), ww());
+  });
+function kw(e) {
+  let t = (0, Aw.c)(17),
+    { selectedModel: n } = e,
+    { data: r } = br(),
+    i = Xb(),
+    a = _n(`3909937021`),
+    { data: o } = de(Zr),
+    s = wg(o, n),
+    c = r?.structure === `workspace`,
+    l = a && ve(o?.plan_type),
+    u;
+  t[0] !== c || t[1] !== o
+    ? ((u = Wd({ rateLimitStatus: o, isWorkspaceAccount: c })), (t[0] = c), (t[1] = o), (t[2] = u))
+    : (u = t[2]);
+  let d = u,
+    f;
+  t[3] === o ? (f = t[4]) : ((f = NC(o)), (t[3] = o), (t[4] = f));
+  let p = f,
+    m = l && am(o) != null,
+    h = l && d,
+    g = m || h,
+    { data: _, isSuccess: v } = hg({ accountId: o?.account_id, enabled: g }),
+    y = _ === void 0 ? null : _,
+    b = m && fm(o, y),
+    x = h && Cd(o, y),
+    S;
+  t[5] !== c || t[6] !== o
+    ? ((S = Gl({ rateLimitStatus: o, isWorkspaceAccount: c })), (t[5] = c), (t[6] = o), (t[7] = S))
+    : (S = t[7]);
+  let C = S,
+    w = h && v,
+    T = w ? x : d,
+    E = w && !T,
+    D = !E && ag({ rateLimitStatus: o, isWorkspaceAccount: c, isCreditsEnabled: i }),
+    O = s && !E && !C && !T,
+    k = xg(o),
+    A = gg(o),
+    j = Fg(k, { activeLimitName: A, selectedModel: n }),
+    M = pg(k, { activeLimitName: A, selectedModel: n }),
+    N = bg({ coreRateLimitBlocked: D, selectedModelRateLimitReached: O }),
+    P = N === `upsell`,
+    F = N === `model_limit`,
+    ee = Gc(IC, p),
+    I = PC({ isEnabled: b && !T, rateLimitStatus: o, shownThreshold: ee }),
+    L = i || T || I != null,
+    R = D && yg(A),
+    z = R ? null : (j?.limitName ?? n ?? A),
+    B = R ? ld(o) : (M?.resetsAt ?? Cg(j)),
+    V;
+  return (
+    t[8] !== L ||
+    t[9] !== z ||
+    t[10] !== B ||
+    t[11] !== o ||
+    t[12] !== I ||
+    t[13] !== P ||
+    t[14] !== F ||
+    t[15] !== T
+      ? ((V = {
+          isUsageBannerEnabled: L,
+          modelLimitName: z,
+          modelLimitResetAt: B,
+          rateLimit: o,
+          rateLimitWarningThreshold: I,
+          showCoreRateLimitUpsell: P,
+          showModelLimitBanner: F,
+          showWorkspaceUsageLimitBanner: T,
+        }),
+        (t[8] = L),
+        (t[9] = z),
+        (t[10] = B),
+        (t[11] = o),
+        (t[12] = I),
+        (t[13] = P),
+        (t[14] = F),
+        (t[15] = T),
+        (t[16] = V))
+      : (V = t[16]),
+    V
+  );
+}
+var Aw,
+  jw = e(() => {
+    ((Aw = X()), ji(), ke(), LC(), Zb(), lt(), Rg(), Lt(), Cu(), Qn(), _g());
+  });
+function Mw() {
+  let e = (0, Nw.c)(7),
+    [t, n] = (0, Pw.useState)(null),
+    [r, i] = (0, Pw.useState)(0),
+    a;
+  e[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((a = (e) => {
+        n(Math.floor(e.contentRect.width));
+      }),
+      (e[0] = a))
+    : (a = e[0]);
+  let o = bp(a),
+    s;
+  e[1] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((s = (e) => {
+        i(Math.ceil(e.contentRect.width));
+      }),
+      (e[1] = s))
+    : (s = e[1]);
+  let c = bp(s),
+    l;
+  return (
+    e[2] !== o || e[3] !== c || e[4] !== t || e[5] !== r
+      ? ((l = {
+          setSingleLineInputMeasureRef: o,
+          setSingleLineTextMeasureRef: c,
+          singleLineInputWidth: t,
+          singleLineTextWidth: r,
+        }),
+        (e[2] = o),
+        (e[3] = c),
+        (e[4] = t),
+        (e[5] = r),
+        (e[6] = l))
+      : (l = e[6]),
+    l
+  );
+}
+var Nw,
+  Pw,
+  Fw = e(() => {
+    ((Nw = X()), (Pw = t(El(), 1)), bm());
+  });
+function Iw(e) {
+  let t = (0, Lw.c)(14),
+    { onStop: n, turnId: r } = e,
+    [i, a] = (0, Rw.useState)(null),
+    o = (0, Rw.useRef)(null),
+    s;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((s = () => {
+        (o.current != null && (window.clearTimeout(o.current), (o.current = null)), a(null));
+      }),
+      (t[0] = s))
+    : (s = t[0]);
+  let c = ns(s),
+    l;
+  t[1] !== c || t[2] !== n
+    ? ((l = () => {
+        (c(), n());
+      }),
+      (t[1] = c),
+      (t[2] = n),
+      (t[3] = l))
+    : (l = t[3]);
+  let u = ns(l),
+    d;
+  t[4] !== c || t[5] !== r
+    ? ((d = () => {
+        (c(), a(r ?? null), (o.current = window.setTimeout(c, 2e3)));
+      }),
+      (t[4] = c),
+      (t[5] = r),
+      (t[6] = d))
+    : (d = t[6]);
+  let f = ns(d),
+    p = i != null && i === r,
+    m,
+    h;
+  (t[7] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((m = () => () => {
+        o.current != null && window.clearTimeout(o.current);
+      }),
+      (h = []),
+      (t[7] = m),
+      (t[8] = h))
+    : ((m = t[7]), (h = t[8])),
+    (0, Rw.useEffect)(m, h));
+  let g;
+  return (
+    t[9] !== c || t[10] !== f || t[11] !== u || t[12] !== p
+      ? ((g = {
+          clearStopTurnConfirmation: c,
+          confirmStopTurn: f,
+          handleStop: u,
+          isStopTurnConfirmationVisible: p,
+        }),
+        (t[9] = c),
+        (t[10] = f),
+        (t[11] = u),
+        (t[12] = p),
+        (t[13] = g))
+      : (g = t[13]),
+    g
+  );
+}
+var Lw,
+  Rw,
+  zw = e(() => {
+    ((Lw = X()), (Rw = t(El(), 1)), yi());
+  });
+function Bw() {
+  return Ha(Vw);
+}
+var Vw,
+  Hw = e(() => {
+    (bs(), (Vw = pl(!1)));
+  });
+function Uw(e) {
+  let t = (0, Ww.c)(10),
+    n = e?.enabled ?? !0,
+    { data: r, isLoading: i } = Gn(),
+    a = h(ne.runCodexInWsl),
+    o = n && r?.platform === `win32` && !r.isVsCodeRunningInsideWsl && a !== !0,
+    s;
+  t[0] === o ? (s = t[1]) : ((s = { enabled: o }), (t[0] = o), (t[1] = s));
+  let { data: c, isError: l, isPending: u, refetch: d } = xy(s),
+    f = o && l === !0,
+    p = (n && i) || (o && u),
+    m = null;
+  !p && o && (c === `notConfigured` ? (m = `setup`) : c === `updateRequired` && (m = `update`));
+  let g = m != null,
+    _;
+  t[2] === d
+    ? (_ = t[3])
+    : ((_ = () => {
+        d();
+      }),
+      (t[2] = d),
+      (t[3] = _));
+  let v;
+  return (
+    t[4] !== f || t[5] !== p || t[6] !== m || t[7] !== g || t[8] !== _
+      ? ((v = { hasError: f, isPending: p, isRequired: g, requirement: m, retry: _ }),
+        (t[4] = f),
+        (t[5] = p),
+        (t[6] = m),
+        (t[7] = g),
+        (t[8] = _),
+        (t[9] = v))
+      : (v = t[9]),
+    v
+  );
+}
+var Ww,
+  Gw = e(() => {
+    ((Ww = X()), Xa(), ul(), by(), fe());
+  });
+function Kw(e) {
+  let t = at(F(e).trim());
+  return t.length > 0 ? t : null;
+}
+function qw(e, t, n) {
+  n != null && np.updateTab(e, `sidechat:${t}`, { title: n });
+}
+var Jw = e(() => {
+  (Jh(), Kc(), ks());
+});
+function Yw() {
+  return (0, Xw.useContext)(Qw);
+}
+var Xw,
+  Zw,
+  Qw,
+  $w = e(() => {
+    ((Xw = t(El(), 1)),
+      (Zw = { isEnabled: !1, isLoading: !1, shouldShow: !1 }),
+      (Qw = (0, Xw.createContext)(Zw)));
+  }),
+  eT,
+  tT = e(() => {
+    (ji(),
+      Ss(),
+      nx(),
+      wt(),
+      mr(),
+      D(),
+      (eT = qo(
+        et,
+        (e, { get: t }) =>
+          t(yr, `2296472986`) &&
+          $b({
+            remoteControlConnectionsState: w(t, `remote_control_connections_state`),
+            slingshotEnabled: t(yr, `1042620455`),
+          }) &&
+          t(Oo, { hostId: e }).data?.requirements?.computerUse?.allowLockedComputerUse !== !1,
+      )));
+  }),
+  nT,
+  rT,
+  iT = e(() => {
+    (t(El()),
+      (nT = Z()),
+      (rT = (e) =>
+        (0, nT.jsxs)(`svg`, {
+          width: 18,
+          height: 18,
+          viewBox: `0 0 18 18`,
+          fill: `none`,
+          xmlns: `http://www.w3.org/2000/svg`,
+          ...e,
+          children: [
+            (0, nT.jsx)(`path`, {
+              fillRule: `evenodd`,
+              clipRule: `evenodd`,
+              d: `M12.6673 9.45374C13.7358 9.45407 14.5577 10.3579 14.5579 11.4156V11.8239C15.1086 11.929 15.5247 12.4134 15.5247 12.9948V15.0504C15.5245 15.7084 14.9913 16.2418 14.3333 16.2418H11.0003C10.3423 16.2418 9.8081 15.7084 9.80789 15.0504V12.9948C9.80789 12.4134 10.2248 11.9291 10.7757 11.8239V11.4156C10.7759 10.3577 11.5984 9.45374 12.6673 9.45374ZM11.0003 12.8531C10.9221 12.8532 10.8587 12.9165 10.8587 12.9948V15.0504C10.8589 15.1285 10.9222 15.192 11.0003 15.192H14.3333C14.4114 15.192 14.4747 15.1285 14.4749 15.0504V12.9948C14.4749 12.9165 14.4115 12.8531 14.3333 12.8531H11.0003ZM12.6673 10.5045C12.2277 10.5045 11.8267 10.887 11.8264 11.4156V11.8024H13.5081V11.4156C13.5079 10.8873 13.1066 10.5049 12.6673 10.5045Z`,
+              fill: `currentColor`,
+            }),
+            (0, nT.jsx)(`path`, {
+              d: `M8.2659 9.84534C8.55342 9.80818 8.81657 10.011 8.85379 10.2985C8.89088 10.5859 8.68813 10.8491 8.40067 10.8864C6.26147 11.1628 4.57997 12.9025 4.39188 15.068C4.36673 15.3568 4.11136 15.5706 3.82254 15.5455C3.53398 15.5202 3.32001 15.2658 3.345 14.9772C3.57594 12.3179 5.63935 10.1848 8.2659 9.84534Z`,
+              fill: `currentColor`,
+            }),
+            (0, nT.jsx)(`path`, {
+              fillRule: `evenodd`,
+              clipRule: `evenodd`,
+              d: `M9.00028 2.31116C10.757 2.3113 12.1809 3.73602 12.1809 5.4928C12.1809 7.2495 10.757 8.67332 9.00028 8.67346C7.24346 8.67346 5.81872 7.24959 5.81863 5.4928C5.81863 3.73593 7.24341 2.31116 9.00028 2.31116ZM9.00028 3.36194C7.82331 3.36194 6.86942 4.31583 6.86942 5.4928C6.8695 6.66969 7.82336 7.62366 9.00028 7.62366C10.1771 7.62351 11.131 6.6696 11.1311 5.4928C11.1311 4.31592 10.1771 3.36208 9.00028 3.36194Z`,
+              fill: `currentColor`,
+            }),
+          ],
+        })));
+  });
+function aT(e) {
+  let t = (0, oT.c)(3),
+    { ariaLabel: n, icon: r } = e,
+    i;
+  return (
+    t[0] !== n || t[1] !== r
+      ? ((i = (0, sT.jsx)(`span`, {
+          role: `img`,
+          "aria-label": n,
+          className: `flex h-7 w-7 items-center justify-center rounded-md text-token-description-foreground`,
+          children: r,
+        })),
+        (t[0] = n),
+        (t[1] = r),
+        (t[2] = i))
+      : (i = t[2]),
+    i
+  );
+}
+var oT,
+  sT,
+  cT = e(() => {
+    ((oT = X()), (sT = Z()));
+  });
+function lT(e) {
+  let t = (0, dT.c)(58),
+    {
+      icon: n,
+      title: r,
+      description: i,
+      contentClassName: a,
+      descriptionClassName: o,
+      descriptionPlacement: s,
+      badges: c,
+      actions: l,
+      actionsPlacement: u,
+      onClick: d,
+      iconContainer: f,
+      iconContainerVariant: p,
+      iconPlacement: m,
+      isHighlighted: h,
+      className: g,
+    } = e,
+    _ = s === void 0 ? `stacked` : s,
+    v = u === void 0 ? `top` : u,
+    y = f === void 0 ? !0 : f,
+    b = p === void 0 ? `filled` : p,
+    x = m === void 0 ? `outside` : m,
+    S = h === void 0 ? !1 : h,
+    C;
+  t[0] === d
+    ? (C = t[1])
+    : ((C = (e) => {
+        d &&
+          e.target === e.currentTarget &&
+          (e.key === `Enter` || e.key === ` `) &&
+          (e.preventDefault(), d());
+      }),
+      (t[0] = d),
+      (t[1] = C));
+  let w = C,
+    T = v === `center` && !!l,
+    E;
+  t[2] === l
+    ? (E = t[3])
+    : ((E = l
+        ? (0, fT.jsx)(`div`, { className: `flex shrink-0 items-center`, children: l })
+        : null),
+      (t[2] = l),
+      (t[3] = E));
+  let D = E,
+    O;
+  t[4] !== n || t[5] !== y || t[6] !== b
+    ? ((O = n
+        ? y
+          ? (0, fT.jsx)(`span`, {
+              className: qc(
+                `flex h-10 w-10 shrink-0 items-center justify-center rounded-lg`,
+                b === `outline`
+                  ? `border border-token-border-default bg-transparent`
+                  : `bg-token-bg-primary`,
+              ),
+              children: n,
+            })
+          : (0, fT.jsx)(`span`, { className: `shrink-0`, children: n })
+        : null),
+      (t[4] = n),
+      (t[5] = y),
+      (t[6] = b),
+      (t[7] = O))
+    : (O = t[7]);
+  let k = O,
+    A = S && `bg-token-foreground/5`,
+    j = d ? `cursor-interaction` : null,
+    M;
+  t[8] !== g || t[9] !== A || t[10] !== j
+    ? ((M = qc(
+        `border-token-border/40 flex flex-col gap-2.5 rounded-2xl border p-2.5 transition-colors hover:bg-token-foreground/5`,
+        A,
+        j,
+        g,
+      )),
+      (t[8] = g),
+      (t[9] = A),
+      (t[10] = j),
+      (t[11] = M))
+    : (M = t[11]);
+  let N = S ? `true` : void 0,
+    P = d ? `button` : void 0,
+    F = d ? 0 : -1,
+    ee = _ === `inline` && `gap-2`,
+    I;
+  t[12] === ee ? (I = t[13]) : ((I = qc(`flex items-center gap-3`, ee)), (t[12] = ee), (t[13] = I));
+  let L = x === `outside` ? k : null,
+    R = T ? `items-center gap-3` : null,
+    z;
+  t[14] === R ? (z = t[15]) : ((z = qc(`flex min-w-0 flex-1`, R)), (t[14] = R), (t[15] = z));
+  let B = _ === `stacked` ? `flex-col` : `items-center gap-3`,
+    V;
+  t[16] !== a || t[17] !== B
+    ? ((V = qc(`flex min-w-0 flex-1 justify-center gap-0.5`, B, a)),
+      (t[16] = a),
+      (t[17] = B),
+      (t[18] = V))
+    : (V = t[18]);
+  let H = _ === `inline` && `w-28 shrink-0 sm:w-48`,
+    te = T || x === `inline` ? null : `justify-between`,
+    ne;
+  t[19] !== H || t[20] !== te
+    ? ((ne = qc(`flex min-w-0 items-center gap-2`, H, te)), (t[19] = H), (t[20] = te), (t[21] = ne))
+    : (ne = t[21]);
+  let re = x === `inline` ? k : null,
+    U;
+  t[22] === r
+    ? (U = t[23])
+    : ((U = (0, fT.jsx)(`div`, {
+        className: `truncate font-medium text-token-foreground`,
+        children: r,
+      })),
+      (t[22] = r),
+      (t[23] = U));
+  let ie;
+  t[24] === c
+    ? (ie = t[25])
+    : ((ie = c?.length
+        ? (0, fT.jsx)(`div`, { className: `flex shrink-0 items-center gap-1`, children: c.map(uT) })
+        : null),
+      (t[24] = c),
+      (t[25] = ie));
+  let ae;
+  t[26] !== U || t[27] !== ie
+    ? ((ae = (0, fT.jsxs)(`div`, {
+        className: `flex min-w-0 items-center gap-2`,
+        children: [U, ie],
+      })),
+      (t[26] = U),
+      (t[27] = ie),
+      (t[28] = ae))
+    : (ae = t[28]);
+  let oe = T ? null : D,
+    W;
+  t[29] !== ne || t[30] !== re || t[31] !== ae || t[32] !== oe
+    ? ((W = (0, fT.jsxs)(`div`, { className: ne, children: [re, ae, oe] })),
+      (t[29] = ne),
+      (t[30] = re),
+      (t[31] = ae),
+      (t[32] = oe),
+      (t[33] = W))
+    : (W = t[33]);
+  let G;
+  t[34] !== i || t[35] !== o || t[36] !== _
+    ? ((G = i
+        ? (0, fT.jsx)(`div`, {
+            className: qc(
+              `text-token-text-secondary text-sm leading-relaxed`,
+              _ === `inline` ? `min-w-0 flex-1 truncate text-left` : null,
+              o ?? `line-clamp-3`,
+            ),
+            children: i,
+          })
+        : null),
+      (t[34] = i),
+      (t[35] = o),
+      (t[36] = _),
+      (t[37] = G))
+    : (G = t[37]);
+  let se;
+  t[38] !== V || t[39] !== W || t[40] !== G
+    ? ((se = (0, fT.jsxs)(`div`, { className: V, children: [W, G] })),
+      (t[38] = V),
+      (t[39] = W),
+      (t[40] = G),
+      (t[41] = se))
+    : (se = t[41]);
+  let K = T ? D : null,
+    q;
+  t[42] !== z || t[43] !== se || t[44] !== K
+    ? ((q = (0, fT.jsxs)(`div`, { className: z, children: [se, K] })),
+      (t[42] = z),
+      (t[43] = se),
+      (t[44] = K),
+      (t[45] = q))
+    : (q = t[45]);
+  let ce;
+  t[46] !== I || t[47] !== L || t[48] !== q
+    ? ((ce = (0, fT.jsxs)(`div`, { className: I, children: [L, q] })),
+      (t[46] = I),
+      (t[47] = L),
+      (t[48] = q),
+      (t[49] = ce))
+    : (ce = t[49]);
+  let le;
+  return (
+    t[50] !== w ||
+    t[51] !== d ||
+    t[52] !== M ||
+    t[53] !== N ||
+    t[54] !== P ||
+    t[55] !== F ||
+    t[56] !== ce
+      ? ((le = (0, fT.jsx)(`div`, {
+          className: M,
+          "data-search-result-active": N,
+          role: P,
+          tabIndex: F,
+          onClick: d,
+          onKeyDown: w,
+          children: ce,
+        })),
+        (t[50] = w),
+        (t[51] = d),
+        (t[52] = M),
+        (t[53] = N),
+        (t[54] = P),
+        (t[55] = F),
+        (t[56] = ce),
+        (t[57] = le))
+      : (le = t[57]),
+    le
+  );
+}
+function uT(e, t) {
+  return typeof e == `string`
+    ? (0, fT.jsx)(
+        Lf,
+        {
+          className: `border border-token-border-default bg-transparent px-1.5 py-0.5 text-xs font-medium text-token-text-secondary`,
+          children: e,
+        },
+        e,
+      )
+    : (0, fT.jsx)(`span`, { className: `flex items-center`, children: e }, t);
+}
+var dT,
+  fT,
+  pT = e(() => {
+    ((dT = X()), Xn(), Pd(), (fT = Z()));
+  }),
+  mT,
+  hT,
+  gT = e(() => {
+    (t(El()),
+      (mT = Z()),
+      (hT = (e) =>
+        (0, mT.jsx)(`svg`, {
+          width: 20,
+          height: 20,
+          viewBox: `0 0 20 20`,
+          fill: `none`,
+          xmlns: `http://www.w3.org/2000/svg`,
+          ...e,
+          children: (0, mT.jsx)(`path`, {
+            d: `M13.3333 4.16663L6.66663 15.8333`,
+            stroke: `currentColor`,
+            strokeWidth: 1.33,
+            strokeLinecap: `round`,
+          }),
+        })));
+  });
+function _T(e) {
+  let t = (0, CT.c)(47),
+    {
+      app: n,
+      cardIcon: r,
+      cardIconContainer: i,
+      cardIconContainerVariant: a,
+      cardIconPlacement: o,
+      cardDescriptionPlacement: s,
+      badges: c,
+      blockedStatusLabel: l,
+      className: u,
+      connectedAccountEmail: d,
+      installBlockedReason: f,
+      installedStateAction: p,
+      installActionDisabled: m,
+      installActionLabel: h,
+      manageAction: g,
+      isConnectingApp: _,
+      showInstallAction: v,
+      updatingAppId: y,
+      onInstallApp: b,
+      onOpenAppTools: x,
+      onOpenAppUrl: S,
+      onSetAppEnabled: C,
+    } = e,
+    w = i === void 0 ? !0 : i,
+    T = d === void 0 ? null : d,
+    E = f === void 0 ? null : f,
+    D = p === void 0 ? `check` : p,
+    O = m === void 0 ? !1 : m,
+    k = g === void 0 ? `button` : g,
+    A = v === void 0 ? !0 : v,
+    j = Ns(),
+    M;
+  t[0] !== h || t[1] !== j
+    ? ((M = h ?? j.formatMessage(TT.connectApp)), (t[0] = h), (t[1] = j), (t[2] = M))
+    : (M = t[2]);
+  let N = M,
+    P = n.isEnabled,
+    F = E === `disabled-by-admin` && !n.isAccessible,
+    ee = y === n.id,
+    I;
+  t[3] !== T || t[4] !== j
+    ? ((I = T == null ? null : j.formatMessage(TT.connectedTo, { email: T })),
+      (t[3] = T),
+      (t[4] = j),
+      (t[5] = I))
+    : (I = t[5]);
+  let L = I,
+    R;
+  t[6] !== c || t[7] !== L
+    ? ((R =
+        L == null
+          ? c
+          : [
+              (0, wT.jsxs)(
+                `span`,
+                {
+                  className: `inline-flex items-center gap-1`,
+                  children: [
+                    c,
+                    (0, wT.jsx)(Cn, {
+                      tooltipContent: L,
+                      children: (0, wT.jsx)(`button`, {
+                        type: `button`,
+                        className: `inline-flex shrink-0 cursor-interaction items-center justify-center text-token-description-foreground hover:text-token-foreground`,
+                        "aria-label": L,
+                        onClick: ST,
+                        children: (0, wT.jsx)(z_, { className: `icon-2xs` }),
+                      }),
+                    }),
+                  ],
+                },
+                `connected-account-badge`,
+              ),
+            ]),
+      (t[6] = c),
+      (t[7] = L),
+      (t[8] = R))
+    : (R = t[8]);
+  let z = R,
+    B;
+  t[9] === u
+    ? (B = t[10])
+    : ((B = qc(`group justify-center border-none`, u)), (t[9] = u), (t[10] = B));
+  let V;
+  t[11] !== n || t[12] !== r
+    ? ((V =
+        r ??
+        (0, wT.jsx)(Vi, {
+          alt: n.name,
+          appInfo: n,
+          className: `icon-md`,
+          fallback: (0, wT.jsx)(Sl, { className: `icon-sm text-token-text-secondary` }),
+        })),
+      (t[11] = n),
+      (t[12] = r),
+      (t[13] = V))
+    : (V = t[13]);
+  let H;
+  t[14] === n.description
+    ? (H = t[15])
+    : ((H = n.description ?? (0, wT.jsx)(J, { ...TT.noDescription })),
+      (t[14] = n.description),
+      (t[15] = H));
+  let te;
+  t[16] !== n || t[17] !== x
+    ? ((te =
+        x == null
+          ? void 0
+          : () => {
+              x(n);
+            }),
+      (t[16] = n),
+      (t[17] = x),
+      (t[18] = te))
+    : (te = t[18]);
+  let ne;
+  t[19] !== n ||
+  t[20] !== l ||
+  t[21] !== N ||
+  t[22] !== O ||
+  t[23] !== D ||
+  t[24] !== j ||
+  t[25] !== _ ||
+  t[26] !== P ||
+  t[27] !== F ||
+  t[28] !== ee ||
+  t[29] !== k ||
+  t[30] !== b ||
+  t[31] !== S ||
+  t[32] !== C ||
+  t[33] !== A
+    ? ((ne =
+        F && l != null
+          ? (0, wT.jsx)(`span`, {
+              className: `flex h-7 w-7 shrink-0 items-center justify-center text-token-text-secondary`,
+              children: l,
+            })
+          : n.isAccessible && D === `toggle`
+            ? (0, wT.jsxs)(`div`, {
+                className: `flex items-center gap-2`,
+                children: [
+                  k === `menu`
+                    ? (0, wT.jsx)(`div`, {
+                        onClick: xT,
+                        onKeyDown: bT,
+                        children: P
+                          ? (0, wT.jsxs)(pr, {
+                              align: `end`,
+                              contentWidth: `xs`,
+                              triggerButton: (0, wT.jsxs)(ya, {
+                                className: `gap-1.5 text-sm`,
+                                color: `outline`,
+                                size: `toolbar`,
+                                disabled: _ || ee,
+                                children: [
+                                  (0, wT.jsxs)(`span`, {
+                                    className: `flex items-center gap-1.5`,
+                                    children: [
+                                      (0, wT.jsx)(`span`, {
+                                        className: `size-1.5 shrink-0 rounded-full bg-token-charts-green`,
+                                      }),
+                                      (0, wT.jsx)(J, {
+                                        id: `skills.appsPage.apps.connected`,
+                                        defaultMessage: `Connected`,
+                                        description: `Button label shown for an app that is connected`,
+                                      }),
+                                    ],
+                                  }),
+                                  (0, wT.jsx)(Bn, {
+                                    className: `icon-2xs shrink-0 text-token-description-foreground`,
+                                  }),
+                                ],
+                              }),
+                              children: [
+                                (0, wT.jsx)(He.Item, {
+                                  LeftIcon: gh,
+                                  onSelect: () => {
+                                    b(n);
+                                  },
+                                  children: (0, wT.jsx)(J, {
+                                    id: `skills.appsPage.apps.reconnect`,
+                                    defaultMessage: `Reconnect`,
+                                    description: `Menu item label for reconnecting an app`,
+                                  }),
+                                }),
+                                (0, wT.jsx)(He.Item, {
+                                  LeftIcon: Rn,
+                                  className: `!text-token-charts-red`,
+                                  leftIconClassName: `icon-xs text-token-charts-red`,
+                                  onSelect: () => {
+                                    S?.(ac(n));
+                                  },
+                                  children: (0, wT.jsx)(J, {
+                                    id: `skills.appsPage.apps.disconnect`,
+                                    defaultMessage: `Disconnect`,
+                                    description: `Menu item label for disconnecting an app`,
+                                  }),
+                                }),
+                              ],
+                            })
+                          : (0, wT.jsx)(ya, {
+                              className: `shrink-0`,
+                              color: `outline`,
+                              size: `toolbar`,
+                              loading: ee,
+                              onClick: () => {
+                                C?.({ appId: n.id, enabled: !0 });
+                              },
+                              children: N,
+                            }),
+                      })
+                    : (0, wT.jsx)(`div`, {
+                        className: `invisible opacity-0 group-focus-within:visible group-focus-within:opacity-100 group-hover:visible group-hover:opacity-100`,
+                        children: (0, wT.jsx)(Cn, {
+                          tooltipContent: (0, wT.jsx)(J, { ...TT.manageOnChatGpt }),
+                          children: (0, wT.jsx)(ya, {
+                            color: `ghost`,
+                            size: `icon`,
+                            "aria-label": j.formatMessage(TT.manageOnChatGpt),
+                            onClick: (e) => {
+                              (e.stopPropagation(), S?.(ac(n)));
+                            },
+                            children: (0, wT.jsx)(q_, { className: `icon-sm` }),
+                          }),
+                        }),
+                      }),
+                  k === `menu`
+                    ? null
+                    : (0, wT.jsx)(Cn, {
+                        tooltipContent: P
+                          ? (0, wT.jsx)(J, { ...TT.disableToggleTooltip })
+                          : (0, wT.jsx)(J, { ...TT.enableToggleTooltip }),
+                        children: (0, wT.jsx)(`div`, {
+                          onClick: yT,
+                          onKeyDown: vT,
+                          children: (0, wT.jsx)(nr, {
+                            checked: P,
+                            disabled: ee,
+                            onChange: (e) => {
+                              C?.({ appId: n.id, enabled: e });
+                            },
+                            ariaLabel: j.formatMessage(TT.enableToggleAria),
+                          }),
+                        }),
+                      }),
+                ],
+              })
+            : A
+              ? n.isAccessible
+                ? (0, wT.jsx)(aT, {
+                    ariaLabel: j.formatMessage(P ? TT.enabledStatus : TT.disabledStatus),
+                    icon: P
+                      ? (0, wT.jsx)(wo, { className: `icon-sm` })
+                      : (0, wT.jsx)(hT, { className: `icon-sm` }),
+                  })
+                : (0, wT.jsx)(Cn, {
+                    disabled: !F && !_,
+                    tooltipContent: F
+                      ? (0, wT.jsx)(J, {
+                          id: `plugins.install.disabledByAdmin`,
+                          defaultMessage: `Disabled by admin`,
+                          description: `Tooltip shown when plugin install is unavailable because all included connectors are disabled by admin`,
+                        })
+                      : _
+                        ? (0, wT.jsx)(J, { ...TT.connectingApp })
+                        : N,
+                    children: (0, wT.jsx)(`div`, {
+                      children: (0, wT.jsx)(ya, {
+                        className: `shrink-0`,
+                        color: `outline`,
+                        size: `toolbar`,
+                        disabled: F || O,
+                        "aria-label": _ ? j.formatMessage(TT.connectingApp) : N,
+                        onClick: (e) => {
+                          (e.stopPropagation(), !F && b(n));
+                        },
+                        children: _ ? (0, wT.jsx)(Ro, { className: `icon-xxs` }) : N,
+                      }),
+                    }),
+                  })
+              : null),
+      (t[19] = n),
+      (t[20] = l),
+      (t[21] = N),
+      (t[22] = O),
+      (t[23] = D),
+      (t[24] = j),
+      (t[25] = _),
+      (t[26] = P),
+      (t[27] = F),
+      (t[28] = ee),
+      (t[29] = k),
+      (t[30] = b),
+      (t[31] = S),
+      (t[32] = C),
+      (t[33] = A),
+      (t[34] = ne))
+    : (ne = t[34]);
+  let re;
+  return (
+    t[35] !== n.name ||
+    t[36] !== z ||
+    t[37] !== s ||
+    t[38] !== w ||
+    t[39] !== a ||
+    t[40] !== o ||
+    t[41] !== B ||
+    t[42] !== V ||
+    t[43] !== H ||
+    t[44] !== te ||
+    t[45] !== ne
+      ? ((re = (0, wT.jsx)(lT, {
+          className: B,
+          actionsPlacement: `center`,
+          iconContainer: w,
+          iconContainerVariant: a,
+          iconPlacement: o,
+          icon: V,
+          title: n.name,
+          badges: z,
+          description: H,
+          descriptionClassName: `line-clamp-1`,
+          descriptionPlacement: s,
+          onClick: te,
+          actions: ne,
+        })),
+        (t[35] = n.name),
+        (t[36] = z),
+        (t[37] = s),
+        (t[38] = w),
+        (t[39] = a),
+        (t[40] = o),
+        (t[41] = B),
+        (t[42] = V),
+        (t[43] = H),
+        (t[44] = te),
+        (t[45] = ne),
+        (t[46] = re))
+      : (re = t[46]),
+    re
+  );
+}
+function vT(e) {
+  e.stopPropagation();
+}
+function yT(e) {
+  e.stopPropagation();
+}
+function bT(e) {
+  e.stopPropagation();
+}
+function xT(e) {
+  e.stopPropagation();
+}
+function ST(e) {
+  e.stopPropagation();
+}
+var CT,
+  wT,
+  TT,
+  ET = e(() => {
+    ((CT = X()),
+      Xn(),
+      Y(),
+      Ki(),
+      _s(),
+      cT(),
+      pT(),
+      Do(),
+      Qr(),
+      za(),
+      Dr(),
+      aa(),
+      Cc(),
+      ee(),
+      C(),
+      I_(),
+      km(),
+      Y_(),
+      gT(),
+      N(),
+      (wT = Z()),
+      (TT = _r({
+        noDescription: {
+          id: `skills.appsPage.apps.noDescription`,
+          defaultMessage: `No description`,
+          description: `Fallback description for apps without description text on the Skills & Apps page`,
+        },
+        manageOnChatGpt: {
+          id: `skills.appsPage.apps.manageOnChatGpt`,
+          defaultMessage: `Manage on ChatGPT`,
+          description: `Button label to manage an installed app on ChatGPT from the Skills & Apps page`,
+        },
+        disableToggleTooltip: {
+          id: `skills.appsPage.apps.disableToggle`,
+          defaultMessage: `Disable app`,
+          description: `Tooltip label for disabling an app from the Skills & Apps page`,
+        },
+        enableToggleTooltip: {
+          id: `skills.appsPage.apps.enableToggleTooltip`,
+          defaultMessage: `Enable app`,
+          description: `Tooltip label for enabling an app from the Skills & Apps page`,
+        },
+        enableToggleAria: {
+          id: `skills.appsPage.apps.enableToggle`,
+          defaultMessage: `Enable app`,
+          description: `Accessible label for toggling whether an installed app is enabled from the Skills & Apps page`,
+        },
+        connectingApp: {
+          id: `skills.appsPage.apps.connecting`,
+          defaultMessage: `Continue connecting app`,
+          description: `Accessible label for the button shown while an app OAuth flow is still finishing on the Skills & Apps page`,
+        },
+        connectApp: {
+          id: `skills.appsPage.apps.connect`,
+          defaultMessage: `Connect`,
+          description: `Button label to connect an app from the Skills & Apps page`,
+        },
+        enabledStatus: {
+          id: `skills.appsPage.apps.enabledStatus`,
+          defaultMessage: `App enabled`,
+          description: `Status label for an installed app that is enabled`,
+        },
+        disabledStatus: {
+          id: `skills.appsPage.apps.disabledStatus`,
+          defaultMessage: `App disabled`,
+          description: `Status label for an installed app that is disabled`,
+        },
+        connectedTo: {
+          id: `skills.appsPage.apps.connectedTo`,
+          defaultMessage: `Connected to {email}`,
+          description: `Tooltip shown for an app with the connected account email`,
+        },
+      })));
+  });
+function DT({ browserExtensionId: e }) {
+  return me({
+    queryKey:
+      e == null
+        ? [`chrome-extension-installed-read`, `missing`]
+        : Te(`chrome-extension-installed-read`, { extensionId: e }),
+    queryFn: async () =>
+      e == null
+        ? { installed: !1 }
+        : dn(`chrome-extension-installed-read`, { params: { extensionId: e } }),
+    staleTime: kr.FIVE_SECONDS,
+  });
+}
+function OT(e) {
+  return e?.installed === !0;
+}
+function kT(e) {
+  let t = (0, AT.c)(10),
+    { browserExtensionId: n } = e,
+    r = n != null,
+    i;
+  t[0] === n ? (i = t[1]) : ((i = DT({ browserExtensionId: n })), (t[0] = n), (t[1] = i));
+  let a;
+  t[2] !== r || t[3] !== i
+    ? ((a = { enabled: r, refetchOnWindowFocus: !0, staleTime: kr.FIVE_SECONDS, ...i }),
+      (t[2] = r),
+      (t[3] = i),
+      (t[4] = a))
+    : (a = t[4]);
+  let { data: o, isLoading: s } = ie(a),
+    c;
+  t[5] === o ? (c = t[6]) : ((c = OT(o)), (t[5] = o), (t[6] = c));
+  let l = n != null && s,
+    u;
+  return (
+    t[7] !== c || t[8] !== l
+      ? ((u = { isConnected: c, isLoading: l }), (t[7] = c), (t[8] = l), (t[9] = u))
+      : (u = t[9]),
+    u
+  );
+}
+var AT,
+  jT = e(() => {
+    ((AT = X()), il(), Fe(), jn());
+  });
+async function MT({ codexHome: e, hostId: t, plugin: n, queryClient: i }) {
+  try {
+    let r = IT(e, n);
+    if (r == null) return [];
+    let a = { hostId: t, path: r };
+    return await i.fetchQuery({
+      queryFn: async () => {
+        let t = await dn(`read-file`, { params: a });
+        return [
+          RT({
+            codexHome: e,
+            extensionId: KT.parse(JSON.parse(t.contents)).extensionId,
+            plugin: n,
+          }),
+        ];
+      },
+      queryKey: BT(a),
+      retry: !1,
+      staleTime: kr.INFINITE,
+    });
+  } catch (e) {
+    return (
+      r.warning(`Failed to read plugin browser extension setup`, {
+        safe: {},
+        sensitive: { error: e, pluginId: n.plugin.id },
+      }),
+      []
+    );
+  }
+}
+function NT(e) {
+  let t = (0, VT.c)(17),
+    { enabled: n, hostId: r, plugin: i } = e,
+    a = el(r),
+    o,
+    s,
+    c,
+    l;
+  t[0] !== a || t[1] !== n || t[2] !== r || t[3] !== i
+    ? ((o = IT(a, i)),
+      (l = ie),
+      (s = n && o != null),
+      (c =
+        o == null ? [`plugins`, `browser-extension-setup`, `missing`] : BT({ hostId: r, path: o })),
+      (t[0] = a),
+      (t[1] = n),
+      (t[2] = r),
+      (t[3] = i),
+      (t[4] = o),
+      (t[5] = s),
+      (t[6] = c),
+      (t[7] = l))
+    : ((o = t[4]), (s = t[5]), (c = t[6]), (l = t[7]));
+  let u;
+  t[8] !== a || t[9] !== o || t[10] !== r || t[11] !== i
+    ? ((u = async () => {
+        if (o == null || i == null) return [];
+        let e = await dn(`read-file`, { params: { hostId: r, path: o } });
+        return [
+          RT({
+            codexHome: a,
+            extensionId: KT.parse(JSON.parse(e.contents)).extensionId,
+            plugin: i,
+          }),
+        ];
+      }),
+      (t[8] = a),
+      (t[9] = o),
+      (t[10] = r),
+      (t[11] = i),
+      (t[12] = u))
+    : (u = t[12]);
+  let d;
+  t[13] !== s || t[14] !== c || t[15] !== u
+    ? ((d = { enabled: s, queryKey: c, queryFn: u, retry: !1, staleTime: kr.INFINITE }),
+      (t[13] = s),
+      (t[14] = c),
+      (t[15] = u),
+      (t[16] = d))
+    : (d = t[16]);
+  let { data: f } = l(d);
+  return f;
+}
+async function PT({
+  authPolicy: e,
+  codexHome: t,
+  hostId: n,
+  plugin: r,
+  queryClient: i,
+  windowType: a,
+}) {
+  if (e !== `ON_INSTALL` || a !== `electron` || LT(r) == null) return [];
+  let o = await MT({
+    codexHome: t ?? (await dn(`codex-home`, { params: { hostId: n } })).codexHome,
+    hostId: n,
+    plugin: await FT({ hostId: n, plugin: r }),
+    queryClient: i,
+  });
+  return (
+    await Promise.all(
+      o.map(async (e) => ({
+        browserExtension: e,
+        needsSetup: !OT(await i.fetchQuery({ ...DT({ browserExtensionId: e.id }), staleTime: 0 })),
+      })),
+    )
+  )
+    .filter(({ needsSetup: e }) => e)
+    .map(({ browserExtension: e }) => e);
+}
+async function FT({ hostId: e, plugin: t }) {
+  try {
+    return na((await Vr(`read-plugin`, { hostId: e, ...Ho(t) })).plugin);
+  } catch (e) {
+    return (
+      r.warning(`Failed to read installed plugin browser extension setup`, {
+        safe: {},
+        sensitive: { error: e, pluginId: t.plugin.id },
+      }),
+      t
+    );
+  }
+}
+function IT(e, t) {
+  return e == null || t?.plugin.source.type !== `local` || LT(t) == null
+    ? null
+    : Ma(
+        oi({
+          codexHome: e,
+          localVersion: t.plugin.localVersion,
+          marketplaceName: t.marketplaceName,
+          pluginName: t.plugin.name,
+        }),
+        UT,
+      );
+}
+function LT(e) {
+  let t = GT.safeParse(e.plugin.name);
+  return !t.success || !e.plugin.id.startsWith(`${t.data}@`) ? null : t.data;
+}
+function RT({ codexHome: e, extensionId: t, plugin: n }) {
+  return {
+    iconUrl:
+      zT(
+        e == null || n.plugin.source.type !== `local`
+          ? null
+          : Ma(
+              oi({
+                codexHome: e,
+                localVersion: n.plugin.localVersion,
+                marketplaceName: n.marketplaceName,
+                pluginName: n.plugin.name,
+              }),
+              HT,
+            ),
+      ) ?? zT(n.logoPath),
+    id: t,
+    name: `Codex Chrome Extension`,
+    url: `${WT}${t}`,
+  };
+}
+function zT(e) {
+  let t = e?.trim();
+  if (t == null || t.length === 0) return null;
+  let n = t.toLowerCase();
+  return n.startsWith(`app:`) ||
+    n.startsWith(`data:`) ||
+    n.startsWith(`http:`) ||
+    n.startsWith(`https:`) ||
+    n.startsWith(`/@fs`)
+    ? t
+    : pe(t)
+      ? window.location.protocol === `http:` || window.location.protocol === `https:`
+        ? iv(t)
+        : ov(t)
+      : null;
+}
+function BT({ hostId: e, path: t }) {
+  return [`plugins`, `browser-extension-setup`, e, t];
+}
+var VT,
+  HT,
+  UT,
+  WT,
+  GT,
+  KT,
+  qT = e(() => {
+    ((VT = X()),
+      il(),
+      Xa(),
+      Kr(),
+      Jr(),
+      H(),
+      av(),
+      xn(),
+      ws(),
+      Fe(),
+      jn(),
+      jT(),
+      zc(),
+      (HT = `assets/google-chrome.png`),
+      (UT = `scripts/extension-id.json`),
+      (WT = `https://chromewebstore.google.com/detail/codex/`),
+      (GT = On([`chrome`, `chrome-dev`, `chrome-internal`])),
+      (KT = bc({ extensionId: Io().trim().min(1) })));
+  }),
+  JT,
+  YT = e(() => {
+    (Y(),
+      (JT = _r({
+        codexChromeDescription: {
+          id: `plugins.installModal.browserExtension.description`,
+          defaultMessage: `Install this extension in Chrome to let Codex connect to your browser`,
+          description: `Description for the required Chrome browser extension in the plugin finish setup modal`,
+        },
+      })));
+  });
+function XT(e) {
+  return e === aE;
+}
+function ZT(e) {
+  return XT(e?.availability);
+}
+function QT(e) {
+  let t = (0, rE.c)(14),
+    {
+      hostId: n,
+      pluginApps: r,
+      pluginSummary: i,
+      marketplacePath: a,
+      pluginName: o,
+      remoteMarketplaceName: s,
+    } = e,
+    c = r == null && (a != null || s != null) && o != null,
+    l = a ?? null,
+    u = o ?? null,
+    d = s ?? null,
+    f;
+  t[0] !== n || t[1] !== c || t[2] !== l || t[3] !== u || t[4] !== d
+    ? ((f = { hostId: n, marketplacePath: l, pluginName: u, remoteMarketplaceName: d, enabled: c }),
+      (t[0] = n),
+      (t[1] = c),
+      (t[2] = l),
+      (t[3] = u),
+      (t[4] = d),
+      (t[5] = f))
+    : (f = t[5]);
+  let { isLoading: p, plugin: m } = Ka(f),
+    h = r ?? m?.apps ?? [],
+    g = i ?? m?.summary,
+    _ = g?.source.type === `remote`,
+    v = Array.from(new Set(h.map(nE).filter(tE))),
+    y = v.length > 0,
+    b;
+  t[6] !== n || t[7] !== y
+    ? ((b = { enabled: y, hostId: n }), (t[6] = n), (t[7] = y), (t[8] = b))
+    : (b = t[8]);
+  let { data: x, isLoading: S, loadError: C } = ht(b),
+    w = x === void 0 ? [] : x,
+    T = tn({ queries: v.map(eE) }),
+    E;
+  t[9] !== T || t[10] !== S || t[11] !== p || t[12] !== c
+    ? ((E = (c && p) || S || T.some($T)),
+      (t[9] = T),
+      (t[10] = S),
+      (t[11] = p),
+      (t[12] = c),
+      (t[13] = E))
+    : (E = t[13]);
+  let D = E,
+    O = !0,
+    k = 0,
+    A = {};
+  for (let [e, t] of v.entries()) {
+    let n = T[e],
+      r = !S && C == null && !w.some((e) => e.id === t),
+      i = null;
+    (n?.data?.status === iE
+      ? (i = `disabled-by-admin`)
+      : (r || (n != null && !n.isPending && n.error == null && n.data == null)) &&
+        (i = `connector-unavailable`),
+      (A[t] = i),
+      i != null && (k += 1),
+      i !== `disabled-by-admin` && (O = !1));
+  }
+  let j = null;
+  return (
+    _ && ZT(g)
+      ? (j = `disabled-by-admin`)
+      : !_ &&
+        v.length > 0 &&
+        k === v.length &&
+        (j = O ? `disabled-by-admin` : `connector-unavailable`),
+    {
+      blockedReasonsByConnectorId: A,
+      isConnectorAvailabilityLoading: D,
+      isLoading: !_ && D,
+      blockedReason: j,
+    }
+  );
+}
+function $T(e) {
+  return e.isPending;
+}
+function eE(e) {
+  return ls(e);
+}
+function tE(e) {
+  return e.length > 0;
+}
+function nE(e) {
+  return e.id;
+}
+var rE,
+  iE,
+  aE,
+  oE = e(() => {
+    ((rE = X()), il(), Ki(), sr(), Wo(), (iE = `DISABLED_BY_ADMIN`), (aE = `DISABLED_BY_ADMIN`));
+  });
+function sE(e) {
+  return e?.map((e) => e.trim()).find((e) => e.length > 0) ?? null;
+}
+function cE({ defaultPrompt: e, pluginDisplayName: t, pluginId: n }) {
+  return `${`[@${t}](${L(hl(n))})`} ${e?.trim() ?? ``}`;
+}
+var lE = e(() => {
+  (ge(), rn());
+});
+function uE(e) {
+  return fE.get(e) ?? null;
+}
+function dE(e, t) {
+  return t === `connector-unavailable` && uE(e) != null;
+}
+var fE,
+  pE = e(() => {
+    fE = new Map([
+      [`gmail`, `gmail`],
+      [`google-calendar`, `google-calendar`],
+      [`google-drive`, `google-drive`],
+      [`connector_gmail`, `gmail`],
+      [`connector_google_calendar`, `google-calendar`],
+      [`connector_google_drive`, `google-drive`],
+    ]);
+  });
+function mE(e) {
+  let t = (0, vE.c)(9),
+    { upsellId: n } = e;
+  switch (n) {
+    case `gmail`: {
+      let e;
+      t[0] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, yE.jsx)(_E, {
+            description: (0, yE.jsx)(J, {
+              id: `plugins.installModal.googleUpgrade.gmail.draftReplies.description`,
+              defaultMessage: `Codex can read the thread, understand the ask, and draft a useful response`,
+              description: `Description for the Gmail drafting benefit in the Google plugin upgrade install modal`,
+            }),
+            title: (0, yE.jsx)(J, {
+              id: `plugins.installModal.googleUpgrade.gmail.draftReplies.title`,
+              defaultMessage: `Draft replies with the right context`,
+              description: `Title for the Gmail drafting benefit in the Google plugin upgrade install modal`,
+            }),
+          })),
+          (t[0] = e))
+        : (e = t[0]);
+      let n;
+      t[1] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((n = (0, yE.jsx)(_E, {
+            description: (0, yE.jsx)(J, {
+              id: `plugins.installModal.googleUpgrade.gmail.emailTasks.description`,
+              defaultMessage: `Pull out action items, deadlines, owners, and next steps from messy threads`,
+              description: `Description for the Gmail task extraction benefit in the Google plugin upgrade install modal`,
+            }),
+            title: (0, yE.jsx)(J, {
+              id: `plugins.installModal.googleUpgrade.gmail.emailTasks.title`,
+              defaultMessage: `Turn emails into tasks`,
+              description: `Title for the Gmail task extraction benefit in the Google plugin upgrade install modal`,
+            }),
+          })),
+          (t[1] = n))
+        : (n = t[1]);
+      let r;
+      return (
+        t[2] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((r = (0, yE.jsxs)(gE, {
+              children: [
+                e,
+                n,
+                (0, yE.jsx)(_E, {
+                  description: (0, yE.jsx)(J, {
+                    id: `plugins.installModal.googleUpgrade.gmail.findEmail.description`,
+                    defaultMessage: `Search Gmail conversationally: "Find the vendor email with the updated contract from last month"`,
+                    description: `Description for the Gmail search benefit in the Google plugin upgrade install modal`,
+                  }),
+                  title: (0, yE.jsx)(J, {
+                    id: `plugins.installModal.googleUpgrade.gmail.findEmail.title`,
+                    defaultMessage: `Find the email you're thinking of`,
+                    description: `Title for the Gmail search benefit in the Google plugin upgrade install modal`,
+                  }),
+                }),
+              ],
+            })),
+            (t[2] = r))
+          : (r = t[2]),
+        r
+      );
+    }
+    case `google-calendar`: {
+      let e;
+      t[3] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, yE.jsx)(_E, {
+            description: (0, yE.jsx)(J, {
+              id: `plugins.installModal.googleUpgrade.googleCalendar.schedule.description`,
+              defaultMessage: `Pull together agenda, context, and questions before a call`,
+              description: `Description for the Google Calendar scheduling benefit in the Google plugin upgrade install modal`,
+            }),
+            title: (0, yE.jsx)(J, {
+              id: `plugins.installModal.googleUpgrade.googleCalendar.schedule.title`,
+              defaultMessage: `Prepare for meetings`,
+              description: `Title for the Google Calendar scheduling benefit in the Google plugin upgrade install modal`,
+            }),
+          })),
+          (t[3] = e))
+        : (e = t[3]);
+      let n;
+      t[4] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((n = (0, yE.jsx)(_E, {
+            description: (0, yE.jsx)(J, {
+              id: `plugins.installModal.googleUpgrade.googleCalendar.upcoming.description`,
+              defaultMessage: `See meetings, conflicts, and focus time at a glance`,
+              description: `Description for the Google Calendar planning benefit in the Google plugin upgrade install modal`,
+            }),
+            title: (0, yE.jsx)(J, {
+              id: `plugins.installModal.googleUpgrade.googleCalendar.upcoming.title`,
+              defaultMessage: `Summarize your day`,
+              description: `Title for the Google Calendar planning benefit in the Google plugin upgrade install modal`,
+            }),
+          })),
+          (t[4] = n))
+        : (n = t[4]);
+      let r;
+      return (
+        t[5] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((r = (0, yE.jsxs)(gE, {
+              children: [
+                e,
+                n,
+                (0, yE.jsx)(_E, {
+                  description: (0, yE.jsx)(J, {
+                    id: `plugins.installModal.googleUpgrade.googleCalendar.changes.description`,
+                    defaultMessage: `Turn events into reminders, notes, and next steps`,
+                    description: `Description for the Google Calendar editing benefit in the Google plugin upgrade install modal`,
+                  }),
+                  title: (0, yE.jsx)(J, {
+                    id: `plugins.installModal.googleUpgrade.googleCalendar.changes.title`,
+                    defaultMessage: `Organize follow-ups`,
+                    description: `Title for the Google Calendar editing benefit in the Google plugin upgrade install modal`,
+                  }),
+                }),
+              ],
+            })),
+            (t[5] = r))
+          : (r = t[5]),
+        r
+      );
+    }
+    case `google-drive`: {
+      let e;
+      t[6] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, yE.jsx)(_E, {
+            description: (0, yE.jsx)(J, {
+              id: `plugins.installModal.googleUpgrade.googleDrive.find.description`,
+              defaultMessage: `Search by project, topic, people, or recent context`,
+              description: `Description for the Google Drive search benefit in the Google plugin upgrade install modal`,
+            }),
+            title: (0, yE.jsx)(J, {
+              id: `plugins.installModal.googleUpgrade.googleDrive.find.title`,
+              defaultMessage: `Find files faster`,
+              description: `Title for the Google Drive search benefit in the Google plugin upgrade install modal`,
+            }),
+          })),
+          (t[6] = e))
+        : (e = t[6]);
+      let n;
+      t[7] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((n = (0, yE.jsx)(_E, {
+            description: (0, yE.jsx)(J, {
+              id: `plugins.installModal.googleUpgrade.googleDrive.context.description`,
+              defaultMessage: `Understand what matters without opening every file`,
+              description: `Description for the Google Drive context benefit in the Google plugin upgrade install modal`,
+            }),
+            title: (0, yE.jsx)(J, {
+              id: `plugins.installModal.googleUpgrade.googleDrive.context.title`,
+              defaultMessage: `Summarize docs and folders`,
+              description: `Title for the Google Drive context benefit in the Google plugin upgrade install modal`,
+            }),
+          })),
+          (t[7] = n))
+        : (n = t[7]);
+      let r;
+      return (
+        t[8] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((r = (0, yE.jsxs)(gE, {
+              children: [
+                e,
+                n,
+                (0, yE.jsx)(_E, {
+                  description: (0, yE.jsx)(J, {
+                    id: `plugins.installModal.googleUpgrade.googleDrive.update.description`,
+                    defaultMessage: `Use existing files to create briefs, replies, and plans`,
+                    description: `Description for the Google Drive file editing benefit in the Google plugin upgrade install modal`,
+                  }),
+                  title: (0, yE.jsx)(J, {
+                    id: `plugins.installModal.googleUpgrade.googleDrive.update.title`,
+                    defaultMessage: `Draft from Drive context`,
+                    description: `Title for the Google Drive file editing benefit in the Google plugin upgrade install modal`,
+                  }),
+                }),
+              ],
+            })),
+            (t[8] = r))
+          : (r = t[8]),
+        r
+      );
+    }
+  }
+}
+function hE() {
+  let e = (0, vE.c)(1),
+    t;
+  return (
+    e[0] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((t = (0, yE.jsxs)(Lf, {
+          className: `gap-1 !bg-token-charts-purple/10 px-1.5 py-1 text-xs font-medium !text-token-charts-purple`,
+          children: [
+            (0, yE.jsx)(Md, { className: `icon-xs` }),
+            (0, yE.jsx)(J, {
+              id: `plugins.googleUpgrade.badge`,
+              defaultMessage: `Upgrade to unlock`,
+              description: `Badge label shown on Google plugins that need a paid plan`,
+            }),
+          ],
+        })),
+        (e[0] = t))
+      : (t = e[0]),
+    t
+  );
+}
+function gE(e) {
+  let t = (0, vE.c)(2),
+    { children: n } = e,
+    r;
+  return (
+    t[0] === n
+      ? (r = t[1])
+      : ((r = (0, yE.jsx)(`div`, { className: `flex flex-col gap-3 py-1`, children: n })),
+        (t[0] = n),
+        (t[1] = r)),
+    r
+  );
+}
+function _E(e) {
+  let t = (0, vE.c)(8),
+    { description: n, title: r } = e,
+    i;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((i = (0, yE.jsx)(wo, { className: `icon-sm mt-0.5 shrink-0 text-token-text-secondary` })),
+      (t[0] = i))
+    : (i = t[0]);
+  let a;
+  t[1] === r
+    ? (a = t[2])
+    : ((a = (0, yE.jsx)(`div`, {
+        className: `font-semibold text-token-text-primary`,
+        children: r,
+      })),
+      (t[1] = r),
+      (t[2] = a));
+  let o;
+  t[3] === n
+    ? (o = t[4])
+    : ((o = (0, yE.jsx)(`div`, { className: `text-token-text-secondary`, children: n })),
+      (t[3] = n),
+      (t[4] = o));
+  let s;
+  return (
+    t[5] !== a || t[6] !== o
+      ? ((s = (0, yE.jsxs)(`div`, {
+          className: `flex gap-2 text-sm`,
+          children: [
+            i,
+            (0, yE.jsxs)(`div`, { className: `flex min-w-0 flex-col`, children: [a, o] }),
+          ],
+        })),
+        (t[5] = a),
+        (t[6] = o),
+        (t[7] = s))
+      : (s = t[7]),
+    s
+  );
+}
+var vE,
+  yE,
+  bE = e(() => {
+    ((vE = X()), Y(), Pd(), Cc(), Ou(), (yE = Z()));
+  });
+function xE(e) {
+  let t = (0, cD.c)(142),
+    {
+      hostId: n,
+      isInstalling: r,
+      onConnectRequiredApp: i,
+      onInstall: a,
+      onOpenChange: o,
+      onRequiredAppConnected: s,
+      onRequiredAppOAuthStarted: c,
+      onTryInChat: l,
+      onViewDetails: u,
+      session: d,
+    } = e,
+    f = r === void 0 ? !1 : r,
+    p = qn(et),
+    [m, h] = (0, lD.useState)(null),
+    [g, _] = (0, lD.useState)(null),
+    { platform: v } = _c(),
+    { authMethod: y, planAtLogin: b } = le(),
+    { data: x } = br(),
+    S = y === `chatgpt`,
+    C;
+  t[0] === S ? (C = t[1]) : ((C = { queryConfig: { enabled: S } }), (t[0] = S), (t[1] = C));
+  let { data: w } = wl(`account-info`, C),
+    T = x?.plan_type ?? w?.plan ?? b,
+    E;
+  t[2] === T ? (E = t[3]) : ((E = Tg(T)?.pricePlan ?? null), (t[2] = T), (t[3] = E));
+  let D = E,
+    O;
+  t[4] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((O = { logExposure: !0 }), (t[4] = O))
+    : (O = t[4]);
+  let k = jg(O),
+    A = ev(),
+    j = Gc(eT, n),
+    M = d.kind === `closed` ? null : d.plugin,
+    N;
+  t[5] !== d.kind || t[6] !== d.requiredApps
+    ? ((N = d.kind === `needsApps` ? d.requiredApps.map(DE) : void 0),
+      (t[5] = d.kind),
+      (t[6] = d.requiredApps),
+      (t[7] = N))
+    : (N = t[7]);
+  let P = N,
+    F;
+  t[8] !== n || t[9] !== P || t[10] !== d.kind || t[11] !== d.plugin
+    ? ((F =
+        d.kind === `details`
+          ? { hostId: n, ...Ho(d.plugin), pluginSummary: d.plugin.plugin }
+          : { hostId: n, pluginApps: P }),
+      (t[8] = n),
+      (t[9] = P),
+      (t[10] = d.kind),
+      (t[11] = d.plugin),
+      (t[12] = F))
+    : (F = t[12]);
+  let {
+      blockedReasonsByConnectorId: ee,
+      blockedReason: I,
+      isConnectorAvailabilityLoading: L,
+      isLoading: R,
+    } = QT(F),
+    z = M != null && ZT(M.plugin),
+    B = d.kind === `details` ? I : null,
+    V = d.kind === `details` && R,
+    H = z ? `disabled-by-admin` : B,
+    te = H != null,
+    ne = H === `disabled-by-admin`,
+    re = M?.marketplacePath ?? null,
+    U;
+  t[13] === M ? (U = t[14]) : ((U = M == null ? null : Wa(M)), (t[13] = M), (t[14] = U));
+  let ae = M?.remoteMarketplaceName ?? null,
+    oe = M != null,
+    W;
+  t[15] !== n || t[16] !== ae || t[17] !== oe || t[18] !== re || t[19] !== U
+    ? ((W = {
+        hostId: n,
+        marketplacePath: re,
+        pluginName: U,
+        remoteMarketplaceName: ae,
+        enabled: oe,
+      }),
+      (t[15] = n),
+      (t[16] = ae),
+      (t[17] = oe),
+      (t[18] = re),
+      (t[19] = U),
+      (t[20] = W))
+    : (W = t[20]);
+  let { plugin: G } = Ka(W),
+    se = G?.apps,
+    K,
+    q,
+    ce,
+    ue,
+    de,
+    fe,
+    pe,
+    me;
+  t[21] !== ee || t[22] !== se || t[23] !== d.kind || t[24] !== d.plugin
+    ? ((K = se?.filter((e) => ee[e.id] !== `disabled-by-admin`)),
+      (ce = d.kind === `details` && d.plugin.plugin.authPolicy === `ON_INSTALL`),
+      (q = K != null && K.length > 0),
+      (me = ie),
+      (ue = `plugins`),
+      (de = `install-modal`),
+      (fe = `disclosure`),
+      (pe = K?.map(EE)),
+      (t[21] = ee),
+      (t[22] = se),
+      (t[23] = d.kind),
+      (t[24] = d.plugin),
+      (t[25] = K),
+      (t[26] = q),
+      (t[27] = ce),
+      (t[28] = ue),
+      (t[29] = de),
+      (t[30] = fe),
+      (t[31] = pe),
+      (t[32] = me))
+    : ((K = t[25]),
+      (q = t[26]),
+      (ce = t[27]),
+      (ue = t[28]),
+      (de = t[29]),
+      (fe = t[30]),
+      (pe = t[31]),
+      (me = t[32]));
+  let he;
+  t[33] !== ue || t[34] !== de || t[35] !== fe || t[36] !== pe
+    ? ((he = [ue, de, fe, pe]),
+      (t[33] = ue),
+      (t[34] = de),
+      (t[35] = fe),
+      (t[36] = pe),
+      (t[37] = he))
+    : (he = t[37]);
+  let ge = ce && q && !L,
+    _e;
+  t[38] === K
+    ? (_e = t[39])
+    : ((_e = async () => {
+        if (K == null) throw Error(`plugin detail apps are required`);
+        let e = await Promise.all(K.map(TE));
+        return { blurbs: iD(e.flatMap(wE)), personalizationToggles: e.flatMap(CE) };
+      }),
+      (t[38] = K),
+      (t[39] = _e));
+  let ve;
+  t[40] !== he || t[41] !== ge || t[42] !== _e
+    ? ((ve = { queryKey: he, enabled: ge, staleTime: kr.FIVE_MINUTES, queryFn: _e }),
+      (t[40] = he),
+      (t[41] = ge),
+      (t[42] = _e),
+      (t[43] = ve))
+    : (ve = t[43]);
+  let { data: ye, isLoading: be } = me(ve),
+    xe;
+  t[44] !== f || t[45] !== o
+    ? ((xe = (e) => {
+        (!e && f) || (e || (h(null), _(null)), o(e));
+      }),
+      (t[44] = f),
+      (t[45] = o),
+      (t[46] = xe))
+    : (xe = t[46]);
+  let Se = xe;
+  if (d.kind === `closed`) return null;
+  if (d.kind === `connectApp`) {
+    let e;
+    t[47] === d.app ? (e = t[48]) : ((e = $E(d.app)), (t[47] = d.app), (t[48] = e));
+    let n = !d.closeOnOAuthStarted && d.app.status === `waitingForCallback`,
+      r;
+    t[49] !== s || t[50] !== d.app.appId
+      ? ((r = async () => {
+          await s(d.app.appId);
+        }),
+        (t[49] = s),
+        (t[50] = d.app.appId),
+        (t[51] = r))
+      : (r = t[51]);
+    let i;
+    return (
+      t[52] !== o ||
+      t[53] !== c ||
+      t[54] !== d.closeOnOAuthStarted ||
+      t[55] !== e ||
+      t[56] !== n ||
+      t[57] !== r
+        ? ((i = (0, Q.jsx)(St, {
+            app: e,
+            closeOnOAuthStarted: d.closeOnOAuthStarted,
+            isCompletingConnection: n,
+            onOpenChange: o,
+            onConnected: r,
+            onOAuthStarted: c,
+          })),
+          (t[52] = o),
+          (t[53] = c),
+          (t[54] = d.closeOnOAuthStarted),
+          (t[55] = e),
+          (t[56] = n),
+          (t[57] = r),
+          (t[58] = i))
+        : (i = t[58]),
+      i
+    );
+  }
+  if (d.kind === `installing`) return null;
+  let Ce = d.kind === `needsApps` ? `needsApps` : `details`,
+    we = d.plugin,
+    Te,
+    Ee,
+    De,
+    Oe;
+  if (
+    t[59] !== j ||
+    t[60] !== ye?.personalizationToggles ||
+    t[61] !== g ||
+    t[62] !== m ||
+    t[63] !== Ce ||
+    t[64] !== v ||
+    t[65] !== we.plugin.id ||
+    t[66] !== ce
+  ) {
+    Te = m?.pluginId === we.plugin.id ? m.modes : {};
+    let e;
+    (t[71] !== j || t[72] !== Ce || t[73] !== v || t[74] !== we.plugin.id
+      ? ((e = Ce === `details` && v === `macOS` && j && Fi(we.plugin.id)),
+        (t[71] = j),
+        (t[72] = Ce),
+        (t[73] = v),
+        (t[74] = we.plugin.id),
+        (t[75] = e))
+      : (e = t[75]),
+      (De = e),
+      (Ee = g?.pluginId === we.plugin.id ? g.enabled : !0),
+      (Oe = aD({
+        draftModes: Te,
+        personalizationToggles: ce ? ye?.personalizationToggles : void 0,
+      })),
+      (t[59] = j),
+      (t[60] = ye?.personalizationToggles),
+      (t[61] = g),
+      (t[62] = m),
+      (t[63] = Ce),
+      (t[64] = v),
+      (t[65] = we.plugin.id),
+      (t[66] = ce),
+      (t[67] = Te),
+      (t[68] = Ee),
+      (t[69] = De),
+      (t[70] = Oe));
+  } else ((Te = t[67]), (Ee = t[68]), (De = t[69]), (Oe = t[70]));
+  let ke = Oe,
+    Ae = ce && (L || (q && be)),
+    je;
+  t[76] !== H || t[77] !== we.plugin.name
+    ? ((je = dE(we.plugin.name, H)), (t[76] = H), (t[77] = we.plugin.name), (t[78] = je))
+    : (je = t[78]);
+  let Me = je,
+    Pe;
+  t[79] !== we.plugin.name || t[80] !== Me
+    ? ((Pe = Me ? uE(we.plugin.name) : null), (t[79] = we.plugin.name), (t[80] = Me), (t[81] = Pe))
+    : (Pe = t[81]);
+  let Fe = Pe,
+    Ie = !f,
+    Le;
+  t[82] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((Le = { "aria-describedby": void 0, style: { maxHeight: mD, width: pD } }), (t[82] = Le))
+    : (Le = t[82]);
+  let Re = Ce === `needsApps` ? `top-5 right-5 text-token-text-secondary` : void 0,
+    ze = Ce === `needsApps` ? `gap-0 overflow-hidden p-0` : `gap-6 overflow-hidden px-6 pt-8 pb-6`,
+    Be;
+  t[83] === Ce
+    ? (Be = t[84])
+    : ((Be = Ce === `needsApps` ? { maxHeight: mD, padding: 0 } : { maxHeight: mD }),
+      (t[83] = Ce),
+      (t[84] = Be));
+  let Ve;
+  t[85] !== Ce || t[86] !== we || t[87] !== Me
+    ? ((Ve = Ce === `details` ? (0, Q.jsx)(OE, { plugin: we, showUpgradeBadge: Me }) : null),
+      (t[85] = Ce),
+      (t[86] = we),
+      (t[87] = Me),
+      (t[88] = Ve))
+    : (Ve = t[88]);
+  let He;
+  t[89] !== ee ||
+  t[90] !== Te ||
+  t[91] !== ke ||
+  t[92] !== ye ||
+  t[93] !== Se ||
+  t[94] !== n ||
+  t[95] !== Ee ||
+  t[96] !== R ||
+  t[97] !== Ae ||
+  t[98] !== i ||
+  t[99] !== l ||
+  t[100] !== u ||
+  t[101] !== Ce ||
+  t[102] !== we ||
+  t[103] !== G ||
+  t[104] !== se ||
+  t[105] !== Fe ||
+  t[106] !== d.kind ||
+  t[107] !== d.requiredApps ||
+  t[108] !== d.requiredBrowserExtensions ||
+  t[109] !== ce ||
+  t[110] !== De
+    ? ((He =
+        Ce === `needsApps`
+          ? (0, Q.jsx)(AE, {
+              appInstallBlockedReasonsById: ee,
+              appOrder: se?.map(SE),
+              isAppBlockedReasonLoading: R,
+              onConnectRequiredApp: i,
+              onOpenChange: Se,
+              onTryInChat: l,
+              onViewDetails: u,
+              plugin: we,
+              requiredApps: d.kind === `needsApps` ? d.requiredApps : [],
+              requiredBrowserExtensions: d.kind === `needsApps` ? d.requiredBrowserExtensions : [],
+            })
+          : Ce === `details`
+            ? (0, Q.jsx)(Ne, {
+                className: `relative grid min-h-0 flex-1 overflow-hidden`,
+                fadeClassName: `inset-x-0`,
+                scrollClassName: `min-h-0 overflow-y-auto group-data-[can-scroll-down=true]:pb-7`,
+                children:
+                  Fe == null
+                    ? (0, Q.jsx)(NE, {
+                        appPersonalizationModes: ke,
+                        disclosureData: ce ? ye : void 0,
+                        hostId: n,
+                        installLockedComputerUse: Ee,
+                        isLoadingDisclosureData: Ae,
+                        onAppPersonalizationModeChange: (e) => {
+                          let { appId: t, mode: n } = e;
+                          h({ modes: { ...Te, [t]: n }, pluginId: we.plugin.id });
+                        },
+                        onInstallLockedComputerUseChange: (e) => {
+                          _({ enabled: e, pluginId: we.plugin.id });
+                        },
+                        plugin: we,
+                        pluginDetail: G,
+                        shouldShowInstallDisclosure: ce,
+                        showLockedComputerUseInstall: De,
+                      })
+                    : (0, Q.jsx)(mE, { upsellId: Fe }),
+              })
+            : null),
+      (t[89] = ee),
+      (t[90] = Te),
+      (t[91] = ke),
+      (t[92] = ye),
+      (t[93] = Se),
+      (t[94] = n),
+      (t[95] = Ee),
+      (t[96] = R),
+      (t[97] = Ae),
+      (t[98] = i),
+      (t[99] = l),
+      (t[100] = u),
+      (t[101] = Ce),
+      (t[102] = we),
+      (t[103] = G),
+      (t[104] = se),
+      (t[105] = Fe),
+      (t[106] = d.kind),
+      (t[107] = d.requiredApps),
+      (t[108] = d.requiredBrowserExtensions),
+      (t[109] = ce),
+      (t[110] = De),
+      (t[111] = He))
+    : (He = t[111]);
+  let Ue;
+  t[112] !== ke ||
+  t[113] !== D ||
+  t[114] !== H ||
+  t[115] !== k ||
+  t[116] !== Ee ||
+  t[117] !== V ||
+  t[118] !== ne ||
+  t[119] !== f ||
+  t[120] !== Ae ||
+  t[121] !== te ||
+  t[122] !== a ||
+  t[123] !== A ||
+  t[124] !== Ce ||
+  t[125] !== we ||
+  t[126] !== p ||
+  t[127] !== Me ||
+  t[128] !== De
+    ? ((Ue =
+        Ce === `details`
+          ? (0, Q.jsx)(Cn, {
+              tooltipContent:
+                H === `connector-unavailable` && !Me
+                  ? (0, Q.jsx)(J, {
+                      id: `plugins.install.connectorUnavailable`,
+                      defaultMessage: `App unavailable`,
+                      description: `Tooltip shown when plugin install is unavailable because the plugin's apps are not available in the current app directory`,
+                    })
+                  : null,
+              disabled: H !== `connector-unavailable` || Me,
+              children: (0, Q.jsx)(`div`, {
+                className: `flex w-full`,
+                children: (0, Q.jsx)(ya, {
+                  color: `primary`,
+                  size: `large`,
+                  className: `w-full justify-center`,
+                  disabled: (!Me && te) || V || (!Me && Ae),
+                  loading: f,
+                  onClick: (e) => {
+                    if (Me) {
+                      A({
+                        scope: p,
+                        currentPlan: D,
+                        event: e,
+                        getPricingUrl: k,
+                        source: `plugin_install_modal_upgrade_cta`,
+                      });
+                      return;
+                    }
+                    a(ke, De ? Ee : void 0);
+                  },
+                  children: f
+                    ? (0, Q.jsx)(J, {
+                        id: `plugins.installModal.installing`,
+                        defaultMessage: `Installing {pluginName}`,
+                        description: `Button label in the plugin install modal while installation is in progress`,
+                        values: { pluginName: Dc(we) },
+                      })
+                    : ne
+                      ? (0, Q.jsxs)(Q.Fragment, {
+                          children: [
+                            (0, Q.jsx)(rT, { className: `icon-sm` }),
+                            (0, Q.jsx)(J, {
+                              id: `plugins.detail.disabledByAdminButton`,
+                              defaultMessage: `Disabled by admin`,
+                              description: `Install button label shown when plugin install is unavailable because all included connectors are disabled by admin`,
+                            }),
+                          ],
+                        })
+                      : Me
+                        ? (0, Q.jsxs)(Q.Fragment, {
+                            children: [
+                              (0, Q.jsx)(Md, { className: `icon-sm` }),
+                              (0, Q.jsx)(J, {
+                                id: `plugins.installModal.upgradeToUnlock`,
+                                defaultMessage: `Upgrade to unlock`,
+                                description: `Button label for upgrading when a Google plugin needs a paid plan`,
+                              }),
+                            ],
+                          })
+                        : (0, Q.jsx)(J, {
+                            id: `plugins.installModal.install`,
+                            defaultMessage: `Install {pluginName}`,
+                            description: `Install button label in the plugin install modal`,
+                            values: { pluginName: Dc(we) },
+                          }),
+                }),
+              }),
+            })
+          : null),
+      (t[112] = ke),
+      (t[113] = D),
+      (t[114] = H),
+      (t[115] = k),
+      (t[116] = Ee),
+      (t[117] = V),
+      (t[118] = ne),
+      (t[119] = f),
+      (t[120] = Ae),
+      (t[121] = te),
+      (t[122] = a),
+      (t[123] = A),
+      (t[124] = Ce),
+      (t[125] = we),
+      (t[126] = p),
+      (t[127] = Me),
+      (t[128] = De),
+      (t[129] = Ue))
+    : (Ue = t[129]);
+  let We;
+  t[130] !== ze || t[131] !== Be || t[132] !== Ve || t[133] !== He || t[134] !== Ue
+    ? ((We = (0, Q.jsxs)(Zc, { className: ze, style: Be, children: [Ve, He, Ue] })),
+      (t[130] = ze),
+      (t[131] = Be),
+      (t[132] = Ve),
+      (t[133] = He),
+      (t[134] = Ue),
+      (t[135] = We))
+    : (We = t[135]);
+  let Ge;
+  return (
+    t[136] !== Se || t[137] !== f || t[138] !== Ie || t[139] !== Re || t[140] !== We
+      ? ((Ge = (0, Q.jsx)(Cs, {
+          open: !0,
+          onOpenChange: Se,
+          shouldIgnoreClickOutside: f,
+          showDialogClose: Ie,
+          size: `default`,
+          contentClassName: `h-fit max-w-[calc(100vw-2rem)] overflow-hidden`,
+          contentProps: Le,
+          dialogCloseClassName: Re,
+          children: We,
+        })),
+        (t[136] = Se),
+        (t[137] = f),
+        (t[138] = Ie),
+        (t[139] = Re),
+        (t[140] = We),
+        (t[141] = Ge))
+      : (Ge = t[141]),
+    Ge
+  );
+}
+function SE(e) {
+  return e.id;
+}
+function CE(e) {
+  let { app: t, connectorTos: n } = e;
+  return n.personalization_toggle_blurb == null
+    ? []
+    : [
+        {
+          appId: t.id,
+          appName: t.name,
+          blurb: n.personalization_toggle_blurb,
+          defaultMode: n.personalization_default ?? `NO_PERSONALIZATION`,
+        },
+      ];
+}
+function wE(e) {
+  let { connectorTos: t } = e;
+  return t.blurbs;
+}
+async function TE(e) {
+  return {
+    app: e,
+    connectorTos: await Wc.safeGet(`/aip/connectors/{connector_id}/tos`, {
+      parameters: { path: { connector_id: e.id } },
+      additionalHeaders: { [uD]: dD },
+    }),
+  };
+}
+function EE(e) {
+  return e.id;
+}
+function DE(e) {
+  return {
+    category: null,
+    description: e.description,
+    id: e.appId,
+    installUrl: e.installUrl,
+    name: e.name,
+  };
+}
+function OE(e) {
+  let t = (0, cD.c)(19),
+    { plugin: n, showUpgradeBadge: r } = e,
+    i;
+  t[0] === n.plugin.interface?.developerName
+    ? (i = t[1])
+    : ((i = n.plugin.interface?.developerName?.trim()),
+      (t[0] = n.plugin.interface?.developerName),
+      (t[1] = i));
+  let a = i,
+    o;
+  t[2] === n ? (o = t[3]) : ((o = (0, Q.jsx)(kE, { plugin: n })), (t[2] = n), (t[3] = o));
+  let s;
+  t[4] === n ? (s = t[5]) : ((s = Dc(n)), (t[4] = n), (t[5] = s));
+  let c;
+  t[6] === s
+    ? (c = t[7])
+    : ((c = (0, Q.jsx)(Ua, {
+        asChild: !0,
+        children: (0, Q.jsx)(`div`, {
+          className: `heading-dialog font-semibold`,
+          children: (0, Q.jsx)(J, {
+            id: `plugins.installModal.title`,
+            defaultMessage: `Install {pluginName}`,
+            description: `Title shown in the plugin install modal before installation starts`,
+            values: { pluginName: s },
+          }),
+        }),
+      })),
+      (t[6] = s),
+      (t[7] = c));
+  let l;
+  t[8] === a
+    ? (l = t[9])
+    : ((l = a
+        ? (0, Q.jsx)(`div`, {
+            className: `text-sm text-token-text-secondary`,
+            children: (0, Q.jsx)(J, {
+              id: `plugins.installModal.developedBy`,
+              defaultMessage: `Developed by {developerName}`,
+              description: `Developer subtitle shown in the plugin install modal`,
+              values: { developerName: a },
+            }),
+          })
+        : null),
+      (t[8] = a),
+      (t[9] = l));
+  let u;
+  t[10] === r ? (u = t[11]) : ((u = r ? (0, Q.jsx)(hE, {}) : null), (t[10] = r), (t[11] = u));
+  let d;
+  t[12] !== c || t[13] !== l || t[14] !== u
+    ? ((d = (0, Q.jsxs)(`div`, {
+        className: `flex flex-col items-center gap-1 text-center`,
+        children: [c, l, u],
+      })),
+      (t[12] = c),
+      (t[13] = l),
+      (t[14] = u),
+      (t[15] = d))
+    : (d = t[15]);
+  let f;
+  return (
+    t[16] !== o || t[17] !== d
+      ? ((f = (0, Q.jsxs)(`div`, {
+          className: `flex flex-col items-center gap-4`,
+          children: [o, d],
+        })),
+        (t[16] = o),
+        (t[17] = d),
+        (t[18] = f))
+      : (f = t[18]),
+    f
+  );
+}
+function kE(e) {
+  let t = (0, cD.c)(9),
+    { plugin: n } = e,
+    r;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((r = (0, Q.jsx)(`span`, {
+        className: `flex size-14 shrink-0 items-center justify-center rounded-xl bg-black text-white shadow-sm`,
+        children: (0, Q.jsx)(So, { className: `size-12` }),
+      })),
+      (t[0] = r))
+    : (r = t[0]);
+  let i;
+  t[1] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((i = (0, Q.jsxs)(`span`, {
+        className: `flex items-center gap-1`,
+        children: [
+          (0, Q.jsx)(`span`, { className: `size-1.5 rounded-full bg-token-border-default` }),
+          (0, Q.jsx)(`span`, { className: `size-1.5 rounded-full bg-token-border-default` }),
+          (0, Q.jsx)(`span`, { className: `size-1.5 rounded-full bg-token-border-default` }),
+        ],
+      })),
+      (t[1] = i))
+    : (i = t[1]);
+  let a;
+  t[2] === n ? (a = t[3]) : ((a = Dc(n)), (t[2] = n), (t[3] = a));
+  let o;
+  t[4] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((o = (0, Q.jsx)(Dh, { className: `icon-md text-token-text-secondary` })), (t[4] = o))
+    : (o = t[4]);
+  let s;
+  return (
+    t[5] !== n.logoDarkPath || t[6] !== n.logoPath || t[7] !== a
+      ? ((s = (0, Q.jsxs)(`div`, {
+          className: `flex items-center gap-3`,
+          children: [
+            r,
+            i,
+            (0, Q.jsx)(`span`, {
+              className: `bg-token-surface-tertiary flex size-14 shrink-0 items-center justify-center overflow-hidden rounded-xl border border-token-border-default shadow-sm`,
+              children: (0, Q.jsx)(Vi, {
+                alt: a,
+                className: `size-full object-contain`,
+                logoDarkUrl: n.logoDarkPath,
+                logoUrl: n.logoPath,
+                fallback: o,
+              }),
+            }),
+          ],
+        })),
+        (t[5] = n.logoDarkPath),
+        (t[6] = n.logoPath),
+        (t[7] = a),
+        (t[8] = s))
+      : (s = t[8]),
+    s
+  );
+}
+function AE(e) {
+  let t = (0, cD.c)(22),
+    {
+      appInstallBlockedReasonsById: n,
+      appOrder: r,
+      isAppBlockedReasonLoading: i,
+      onConnectRequiredApp: a,
+      onOpenChange: o,
+      onTryInChat: s,
+      onViewDetails: c,
+      plugin: l,
+      requiredApps: u,
+      requiredBrowserExtensions: d,
+    } = e,
+    f;
+  t[0] === l ? (f = t[1]) : ((f = (0, Q.jsx)(jE, { plugin: l })), (t[0] = l), (t[1] = f));
+  let p;
+  t[2] !== n || t[3] !== r || t[4] !== i || t[5] !== a || t[6] !== u
+    ? ((p = (0, Q.jsx)(WE, {
+        appInstallBlockedReasonsById: n,
+        appOrder: r,
+        isAppBlockedReasonLoading: i,
+        onConnectRequiredApp: a,
+        requiredApps: u,
+      })),
+      (t[2] = n),
+      (t[3] = r),
+      (t[4] = i),
+      (t[5] = a),
+      (t[6] = u),
+      (t[7] = p))
+    : (p = t[7]);
+  let m;
+  t[8] === d
+    ? (m = t[9])
+    : ((m = (0, Q.jsx)(KE, { requiredBrowserExtensions: d })), (t[8] = d), (t[9] = m));
+  let h;
+  t[10] !== p || t[11] !== m
+    ? ((h = (0, Q.jsxs)(Ne, {
+        className: `relative grid min-h-0 flex-1 px-6`,
+        fadeClassName: `inset-x-6`,
+        scrollClassName: `min-h-0 overflow-y-auto group-data-[can-scroll-down=true]:pb-6`,
+        children: [p, m],
+      })),
+      (t[10] = p),
+      (t[11] = m),
+      (t[12] = h))
+    : (h = t[12]);
+  let g;
+  t[13] !== o || t[14] !== s || t[15] !== c || t[16] !== l
+    ? ((g = (0, Q.jsx)(ME, { onOpenChange: o, onTryInChat: s, onViewDetails: c, plugin: l })),
+      (t[13] = o),
+      (t[14] = s),
+      (t[15] = c),
+      (t[16] = l),
+      (t[17] = g))
+    : (g = t[17]);
+  let _;
+  return (
+    t[18] !== f || t[19] !== h || t[20] !== g
+      ? ((_ = (0, Q.jsxs)(`div`, {
+          className: `flex max-h-full flex-col overflow-hidden`,
+          children: [f, h, g],
+        })),
+        (t[18] = f),
+        (t[19] = h),
+        (t[20] = g),
+        (t[21] = _))
+      : (_ = t[21]),
+    _
+  );
+}
+function jE(e) {
+  let t = (0, cD.c)(19),
+    { plugin: n } = e,
+    r;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((r = (0, Q.jsx)(`span`, {
+        className: `flex size-[60px] shrink-0 items-center justify-center rounded-2xl bg-black text-white shadow-sm`,
+        children: (0, Q.jsx)(So, { className: `size-12` }),
+      })),
+      (t[0] = r))
+    : (r = t[0]);
+  let i;
+  t[1] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((i = (0, Q.jsxs)(`span`, {
+        className: `flex items-center gap-2`,
+        children: [
+          (0, Q.jsx)(`span`, { className: `size-1.5 rounded-full bg-token-border-default` }),
+          (0, Q.jsx)(`span`, { className: `size-1.5 rounded-full bg-token-border-default` }),
+          (0, Q.jsx)(`span`, { className: `size-1.5 rounded-full bg-token-border-default` }),
+        ],
+      })),
+      (t[1] = i))
+    : (i = t[1]);
+  let a;
+  t[2] === n ? (a = t[3]) : ((a = Dc(n)), (t[2] = n), (t[3] = a));
+  let o;
+  t[4] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((o = (0, Q.jsx)(Dh, { className: `icon-md text-token-text-secondary` })), (t[4] = o))
+    : (o = t[4]);
+  let s;
+  t[5] !== n.logoDarkPath || t[6] !== n.logoPath || t[7] !== a
+    ? ((s = (0, Q.jsxs)(`div`, {
+        className: `flex items-center gap-4`,
+        children: [
+          r,
+          i,
+          (0, Q.jsx)(`span`, {
+            className: `flex size-[60px] shrink-0 items-center justify-center overflow-hidden rounded-2xl bg-token-bg-primary shadow-sm`,
+            children: (0, Q.jsx)(Vi, {
+              alt: a,
+              className: `size-full object-contain`,
+              logoDarkUrl: n.logoDarkPath,
+              logoUrl: n.logoPath,
+              fallback: o,
+            }),
+          }),
+        ],
+      })),
+      (t[5] = n.logoDarkPath),
+      (t[6] = n.logoPath),
+      (t[7] = a),
+      (t[8] = s))
+    : (s = t[8]);
+  let c;
+  t[9] === n ? (c = t[10]) : ((c = Dc(n)), (t[9] = n), (t[10] = c));
+  let l;
+  t[11] === c
+    ? (l = t[12])
+    : ((l = (0, Q.jsx)(Ua, {
+        asChild: !0,
+        children: (0, Q.jsx)(`div`, {
+          className: `text-lg leading-6 font-semibold text-token-text-primary`,
+          children: (0, Q.jsx)(J, {
+            id: `plugins.installModal.needsApps.title`,
+            defaultMessage: `Connect your apps to {pluginName}`,
+            description: `Title shown after plugin install when app connections are available`,
+            values: { pluginName: c },
+          }),
+        }),
+      })),
+      (t[11] = c),
+      (t[12] = l));
+  let u;
+  t[13] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((u = (0, Q.jsx)(`div`, {
+        className: `max-w-[432px] text-sm leading-5 text-token-text-secondary`,
+        children: (0, Q.jsx)(J, {
+          id: `plugins.installModal.needsApps.subtitle`,
+          defaultMessage: `Get more relevant help from the apps you already use. You can always do this later.`,
+          description: `Subtitle shown after plugin install when app connections are available`,
+        }),
+      })),
+      (t[13] = u))
+    : (u = t[13]);
+  let d;
+  t[14] === l
+    ? (d = t[15])
+    : ((d = (0, Q.jsxs)(`div`, {
+        className: `flex flex-col items-center gap-1 text-center`,
+        children: [l, u],
+      })),
+      (t[14] = l),
+      (t[15] = d));
+  let f;
+  return (
+    t[16] !== s || t[17] !== d
+      ? ((f = (0, Q.jsxs)(`div`, {
+          className: `flex shrink-0 flex-col items-center gap-4 px-6 pt-9 pb-4`,
+          children: [s, d],
+        })),
+        (t[16] = s),
+        (t[17] = d),
+        (t[18] = f))
+      : (f = t[18]),
+    f
+  );
+}
+function ME(e) {
+  let t = (0, cD.c)(14),
+    { onOpenChange: n, onTryInChat: r, onViewDetails: i, plugin: a } = e,
+    o = a.plugin.interface?.defaultPrompt,
+    s;
+  t[0] === o ? (s = t[1]) : ((s = sE(o)), (t[0] = o), (t[1] = s));
+  let c = s;
+  if (r == null && i == null) return null;
+  let l;
+  t[2] !== n || t[3] !== i || t[4] !== a
+    ? ((l =
+        i == null
+          ? null
+          : (0, Q.jsx)(ya, {
+              color: `outline`,
+              size: `default`,
+              className: `h-9 rounded-xl px-3 py-2 text-sm leading-5`,
+              style: { borderRadius: 12 },
+              onClick: () => {
+                (n(!1), i(a));
+              },
+              children: (0, Q.jsx)(J, {
+                id: `plugins.installModal.needsApps.viewDetails`,
+                defaultMessage: `View details`,
+                description: `Button label to close the plugin onboarding modal and view plugin details`,
+              }),
+            })),
+      (t[2] = n),
+      (t[3] = i),
+      (t[4] = a),
+      (t[5] = l))
+    : (l = t[5]);
+  let u;
+  t[6] !== c || t[7] !== n || t[8] !== r || t[9] !== a
+    ? ((u =
+        r == null
+          ? null
+          : (0, Q.jsxs)(ya, {
+              color: `primary`,
+              size: `default`,
+              className: `h-9 rounded-xl px-3 py-2 text-sm leading-5`,
+              style: { borderRadius: 12 },
+              onClick: () => {
+                (n(!1), r(a, c));
+              },
+              children: [
+                (0, Q.jsx)(Pm, { className: `icon-sm` }),
+                (0, Q.jsx)(J, {
+                  id: `plugins.installModal.needsApps.tryInChat`,
+                  defaultMessage: `Try {pluginName} in chat`,
+                  description: `Button label to close the plugin onboarding modal and try the plugin in chat`,
+                  values: { pluginName: Dc(a) },
+                }),
+              ],
+            })),
+      (t[6] = c),
+      (t[7] = n),
+      (t[8] = r),
+      (t[9] = a),
+      (t[10] = u))
+    : (u = t[10]);
+  let d;
+  return (
+    t[11] !== l || t[12] !== u
+      ? ((d = (0, Q.jsxs)(`div`, {
+          className: `flex h-[84px] shrink-0 items-center justify-end gap-2 bg-token-dropdown-background px-6 py-6`,
+          children: [l, u],
+        })),
+        (t[11] = l),
+        (t[12] = u),
+        (t[13] = d))
+      : (d = t[13]),
+    d
+  );
+}
+function NE(e) {
+  let t = (0, cD.c)(37),
+    {
+      appPersonalizationModes: n,
+      disclosureData: r,
+      hostId: i,
+      installLockedComputerUse: a,
+      isLoadingDisclosureData: o,
+      onAppPersonalizationModeChange: s,
+      onInstallLockedComputerUseChange: c,
+      plugin: l,
+      pluginDetail: u,
+      shouldShowInstallDisclosure: d,
+      showLockedComputerUseInstall: f,
+    } = e,
+    p;
+  t[0] === l ? (p = t[1]) : ((p = oD(l)), (t[0] = l), (t[1] = p));
+  let m = p,
+    h;
+  t[2] === l.plugin.interface?.capabilities
+    ? (h = t[3])
+    : ((h = l.plugin.interface?.capabilities ?? []),
+      (t[2] = l.plugin.interface?.capabilities),
+      (t[3] = h));
+  let g = h,
+    _ = r != null && (r.blurbs.length > 0 || r.personalizationToggles.length > 0),
+    v = !d || !_,
+    y;
+  t[4] !== l || t[5] !== v
+    ? ((y = v ? (0, Q.jsx)(eD, { plugin: l }) : null), (t[4] = l), (t[5] = v), (t[6] = y))
+    : (y = t[6]);
+  let b;
+  t[7] !== m || t[8] !== v
+    ? ((b =
+        v && m
+          ? (0, Q.jsxs)(nD, {
+              children: [
+                (0, Q.jsx)(`div`, {
+                  className: `text-sm font-medium text-token-text-primary`,
+                  children: (0, Q.jsx)(J, {
+                    id: `plugins.installModal.about`,
+                    defaultMessage: `About`,
+                    description: `Section title for the plugin description in the plugin install modal`,
+                  }),
+                }),
+                (0, Q.jsx)(`div`, { className: `text-sm text-token-text-secondary`, children: m }),
+              ],
+            })
+          : null),
+      (t[7] = m),
+      (t[8] = v),
+      (t[9] = b))
+    : (b = t[9]);
+  let x;
+  t[10] !== i || t[11] !== l || t[12] !== u || t[13] !== v
+    ? ((x = v && u != null ? (0, Q.jsx)(FE, { hostId: i, plugin: l, pluginDetail: u }) : null),
+      (t[10] = i),
+      (t[11] = l),
+      (t[12] = u),
+      (t[13] = v),
+      (t[14] = x))
+    : (x = t[14]);
+  let S;
+  t[15] !== a || t[16] !== c || t[17] !== u || t[18] !== v || t[19] !== f
+    ? ((S = v && u != null && f ? (0, Q.jsx)(VE, { enabled: a, onChange: c }) : null),
+      (t[15] = a),
+      (t[16] = c),
+      (t[17] = u),
+      (t[18] = v),
+      (t[19] = f),
+      (t[20] = S))
+    : (S = t[20]);
+  let C;
+  t[21] !== g || t[22] !== v
+    ? ((C =
+        v && g.length > 0
+          ? (0, Q.jsxs)(nD, {
+              children: [
+                (0, Q.jsx)(`div`, {
+                  className: `text-sm font-medium text-token-text-primary`,
+                  children: (0, Q.jsx)(J, {
+                    id: `plugins.installModal.capabilities`,
+                    defaultMessage: `Capabilities`,
+                    description: `Section title for the capability list in the plugin install modal`,
+                  }),
+                }),
+                (0, Q.jsx)(`div`, { className: `flex flex-wrap gap-2`, children: g.map(PE) }),
+              ],
+            })
+          : null),
+      (t[21] = g),
+      (t[22] = v),
+      (t[23] = C))
+    : (C = t[23]);
+  let w;
+  t[24] !== n || t[25] !== r || t[26] !== o || t[27] !== s || t[28] !== d
+    ? ((w = d
+        ? (0, Q.jsx)(UE, {
+            appPersonalizationModes: n,
+            disclosureData: r,
+            isLoadingDisclosureData: o,
+            onAppPersonalizationModeChange: s,
+          })
+        : null),
+      (t[24] = n),
+      (t[25] = r),
+      (t[26] = o),
+      (t[27] = s),
+      (t[28] = d),
+      (t[29] = w))
+    : (w = t[29]);
+  let T;
+  return (
+    t[30] !== y || t[31] !== b || t[32] !== x || t[33] !== S || t[34] !== C || t[35] !== w
+      ? ((T = (0, Q.jsxs)(`div`, {
+          className: `rounded-2xl border border-token-border-default px-4 py-2`,
+          children: [y, b, x, S, C, w],
+        })),
+        (t[30] = y),
+        (t[31] = b),
+        (t[32] = x),
+        (t[33] = S),
+        (t[34] = C),
+        (t[35] = w),
+        (t[36] = T))
+      : (T = t[36]),
+    T
+  );
+}
+function PE(e) {
+  return (0, Q.jsx)(
+    Lf,
+    {
+      className: `border border-token-border-default bg-transparent px-1.5 py-0.5 text-xs font-medium text-token-text-secondary`,
+      children: e,
+    },
+    e,
+  );
+}
+function FE(e) {
+  let t = (0, cD.c)(20),
+    { hostId: n, plugin: r, pluginDetail: i } = e,
+    a;
+  t[0] !== n || t[1] !== r
+    ? ((a = { enabled: !0, hostId: n, plugin: r }), (t[0] = n), (t[1] = r), (t[2] = a))
+    : (a = t[2]);
+  let o = NT(a),
+    s = i.apps,
+    c,
+    l,
+    u,
+    d,
+    f;
+  if (t[3] !== o || t[4] !== i.apps || t[5] !== i.mcpServers || t[6] !== i.skills) {
+    f = Symbol.for(`react.early_return_sentinel`);
+    bb0: {
+      let e = [
+        {
+          id: `apps`,
+          items: s.map(BE),
+          title: (0, Q.jsx)(J, {
+            id: `plugins.installModal.includes.apps`,
+            defaultMessage: `Apps`,
+            description: `Label for bundled apps in the plugin install modal`,
+          }),
+        },
+        {
+          id: `browserExtensions`,
+          items: (o ?? []).map(zE),
+          title: (0, Q.jsx)(J, {
+            id: `plugins.installModal.includes.browserExtensions`,
+            defaultMessage: `Browser extensions`,
+            description: `Label for bundled browser extensions in the plugin install modal`,
+          }),
+        },
+        {
+          id: `skills`,
+          items: i.skills.map(RE),
+          title: (0, Q.jsx)(J, {
+            id: `plugins.installModal.includes.skills`,
+            defaultMessage: `Skills`,
+            description: `Label for bundled skills in the plugin install modal`,
+          }),
+        },
+        {
+          id: `mcpServers`,
+          items: i.mcpServers,
+          title: (0, Q.jsx)(J, {
+            id: `plugins.installModal.includes.mcpServers`,
+            defaultMessage: `MCP servers`,
+            description: `Label for bundled MCP servers in the plugin install modal`,
+          }),
+        },
+      ].filter(LE);
+      if (e.length === 0) {
+        f = null;
+        break bb0;
+      }
+      ((c = nD),
+        t[12] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((d = (0, Q.jsx)(`div`, {
+              className: `text-sm font-medium text-token-text-primary`,
+              children: (0, Q.jsx)(J, {
+                id: `plugins.installModal.includes`,
+                defaultMessage: `Includes`,
+                description: `Section title for bundled apps, skills, and MCP servers in the plugin install modal`,
+              }),
+            })),
+            (t[12] = d))
+          : (d = t[12]),
+        (l = `flex flex-col gap-3`),
+        (u = e.map(IE)));
+    }
+    ((t[3] = o),
+      (t[4] = i.apps),
+      (t[5] = i.mcpServers),
+      (t[6] = i.skills),
+      (t[7] = c),
+      (t[8] = l),
+      (t[9] = u),
+      (t[10] = d),
+      (t[11] = f));
+  } else ((c = t[7]), (l = t[8]), (u = t[9]), (d = t[10]), (f = t[11]));
+  if (f !== Symbol.for(`react.early_return_sentinel`)) return f;
+  let p;
+  t[13] !== l || t[14] !== u
+    ? ((p = (0, Q.jsx)(`div`, { className: l, children: u })),
+      (t[13] = l),
+      (t[14] = u),
+      (t[15] = p))
+    : (p = t[15]);
+  let m;
+  return (
+    t[16] !== c || t[17] !== d || t[18] !== p
+      ? ((m = (0, Q.jsxs)(c, { children: [d, p] })),
+        (t[16] = c),
+        (t[17] = d),
+        (t[18] = p),
+        (t[19] = m))
+      : (m = t[19]),
+    m
+  );
+}
+function IE(e) {
+  return (0, Q.jsxs)(
+    `div`,
+    {
+      className: `flex flex-col gap-2`,
+      children: [
+        (0, Q.jsx)(`div`, {
+          className: `text-xs font-medium tracking-wide text-token-text-secondary uppercase`,
+          children: e.title,
+        }),
+        (0, Q.jsx)(`div`, {
+          className: `flex flex-wrap gap-2`,
+          children: e.items.map((t) =>
+            (0, Q.jsx)(
+              Lf,
+              {
+                className: `border border-token-border-default bg-transparent px-1.5 py-0.5 text-xs font-medium text-token-text-secondary`,
+                children: t,
+              },
+              `${e.id}-${t}`,
+            ),
+          ),
+        }),
+      ],
+    },
+    e.id,
+  );
+}
+function LE(e) {
+  return e.items.length > 0;
+}
+function RE(e) {
+  return sD(e);
+}
+function zE(e) {
+  return e.name;
+}
+function BE(e) {
+  return e.name;
+}
+function VE(e) {
+  let t = (0, cD.c)(8),
+    { enabled: n, onChange: r } = e,
+    i = Ns(),
+    a;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((a = (0, Q.jsx)(`div`, {
+        className: `text-sm font-medium text-token-text-primary`,
+        children: (0, Q.jsx)(J, {
+          id: `plugins.installModal.lockedComputerUse.title`,
+          defaultMessage: `Locked Computer Use`,
+          description: `Title for the Locked Computer Use install option in the plugin install modal`,
+        }),
+      })),
+      (t[0] = a))
+    : (a = t[0]);
+  let o;
+  t[1] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((o = (0, Q.jsxs)(`div`, {
+        className: `flex flex-col gap-1`,
+        children: [
+          a,
+          (0, Q.jsx)(`div`, {
+            className: `text-sm text-token-text-secondary`,
+            children: (0, Q.jsx)(J, {
+              id: `plugins.installModal.lockedComputerUse.description`,
+              defaultMessage: `Let Codex use your Mac when it's locked. <a>Learn more</a>`,
+              description: `Description for the Locked Computer Use install option in the plugin install modal`,
+              values: { a: HE },
+            }),
+          }),
+        ],
+      })),
+      (t[1] = o))
+    : (o = t[1]);
+  let s;
+  t[2] === i
+    ? (s = t[3])
+    : ((s = i.formatMessage({
+        id: `plugins.installModal.lockedComputerUse.toggle`,
+        defaultMessage: `Install Locked Computer Use`,
+        description: `Accessible label for the Locked Computer Use install option in the plugin install modal`,
+      })),
+      (t[2] = i),
+      (t[3] = s));
+  let c;
+  return (
+    t[4] !== n || t[5] !== r || t[6] !== s
+      ? ((c = (0, Q.jsx)(nD, {
+          children: (0, Q.jsxs)(`div`, {
+            className: `flex items-center justify-between gap-4`,
+            children: [o, (0, Q.jsx)(nr, { checked: n, ariaLabel: s, onChange: r })],
+          }),
+        })),
+        (t[4] = n),
+        (t[5] = r),
+        (t[6] = s),
+        (t[7] = c))
+      : (c = t[7]),
+    c
+  );
+}
+function HE(e) {
+  return (0, Q.jsx)(`a`, {
+    className: `inline-flex text-token-text-link-foreground`,
+    href: Vv,
+    target: `_blank`,
+    rel: `noreferrer`,
+    children: e,
+  });
+}
+function UE(e) {
+  let t = (0, cD.c)(6),
+    {
+      appPersonalizationModes: n,
+      disclosureData: r,
+      isLoadingDisclosureData: i,
+      onAppPersonalizationModeChange: a,
+    } = e;
+  if (i) {
+    let e;
+    return (
+      t[0] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, Q.jsx)(nD, { children: (0, Q.jsx)(YE, {}) })), (t[0] = e))
+        : (e = t[0]),
+      e
+    );
+  }
+  if (r == null || (r.blurbs.length === 0 && r.personalizationToggles.length === 0)) return null;
+  let o;
+  return (
+    t[1] !== n || t[2] !== r.blurbs || t[3] !== r.personalizationToggles || t[4] !== a
+      ? ((o = (0, Q.jsx)(nD, {
+          children: (0, Q.jsx)(ZE, {
+            appPersonalizationModes: n,
+            blurbs: r.blurbs,
+            onAppPersonalizationModeChange: a,
+            personalizationToggles: r.personalizationToggles,
+          }),
+        })),
+        (t[1] = n),
+        (t[2] = r.blurbs),
+        (t[3] = r.personalizationToggles),
+        (t[4] = a),
+        (t[5] = o))
+      : (o = t[5]),
+    o
+  );
+}
+function WE(e) {
+  let t = (0, cD.c)(23),
+    {
+      appInstallBlockedReasonsById: n,
+      appOrder: r,
+      isAppBlockedReasonLoading: i,
+      onConnectRequiredApp: a,
+      requiredApps: o,
+    } = e,
+    s = Ns(),
+    c;
+  t[0] === r ? (c = t[1]) : ((c = new Map(r?.map(GE))), (t[0] = r), (t[1] = c));
+  let l = c,
+    u,
+    d,
+    f;
+  if (t[2] !== n || t[3] !== l || t[4] !== s || t[5] !== i || t[6] !== a || t[7] !== o) {
+    f = Symbol.for(`react.early_return_sentinel`);
+    bb0: {
+      let e;
+      t[11] === n
+        ? (e = t[12])
+        : ((e = (e) => n[e.appId] !== `disabled-by-admin`), (t[11] = n), (t[12] = e));
+      let r = o.filter(e),
+        c;
+      if (
+        (t[13] === l
+          ? (c = t[14])
+          : ((c = (e, t) => (l.get(e.appId) ?? 2 ** 53 - 1) - (l.get(t.appId) ?? 2 ** 53 - 1)),
+            (t[13] = l),
+            (t[14] = c)),
+        r.sort(c),
+        r.length === 0)
+      ) {
+        f = null;
+        break bb0;
+      }
+      u = `flex flex-col`;
+      let p;
+      (t[15] !== n || t[16] !== s || t[17] !== i || t[18] !== a
+        ? ((p = (e) => {
+            let t = n[e.appId];
+            return (0, Q.jsx)(
+              _T,
+              {
+                app: $E(e),
+                cardIconContainerVariant: `outline`,
+                className: `min-h-[72px] px-0 py-3 hover:!bg-transparent`,
+                installActionDisabled: i || t != null || e.status !== `pending`,
+                installActionLabel: QE(e.status, s),
+                isConnectingApp: e.status === `launching` || e.status === `waitingForCallback`,
+                updatingAppId: null,
+                onInstallApp: () => a(e.appId),
+              },
+              e.appId,
+            );
+          }),
+          (t[15] = n),
+          (t[16] = s),
+          (t[17] = i),
+          (t[18] = a),
+          (t[19] = p))
+        : (p = t[19]),
+        (d = r.map(p)));
+    }
+    ((t[2] = n),
+      (t[3] = l),
+      (t[4] = s),
+      (t[5] = i),
+      (t[6] = a),
+      (t[7] = o),
+      (t[8] = u),
+      (t[9] = d),
+      (t[10] = f));
+  } else ((u = t[8]), (d = t[9]), (f = t[10]));
+  if (f !== Symbol.for(`react.early_return_sentinel`)) return f;
+  let p;
+  return (
+    t[20] !== u || t[21] !== d
+      ? ((p = (0, Q.jsx)(`div`, { className: u, children: d })),
+        (t[20] = u),
+        (t[21] = d),
+        (t[22] = p))
+      : (p = t[22]),
+    p
+  );
+}
+function GE(e, t) {
+  return [e, t];
+}
+function KE(e) {
+  let t = (0, cD.c)(4),
+    { requiredBrowserExtensions: n } = e;
+  if (n.length === 0) return null;
+  let r;
+  t[0] === n ? (r = t[1]) : ((r = n.map(qE)), (t[0] = n), (t[1] = r));
+  let i;
+  return (
+    t[2] === r
+      ? (i = t[3])
+      : ((i = (0, Q.jsx)(`div`, { className: `flex flex-col`, children: r })),
+        (t[2] = r),
+        (t[3] = i)),
+    i
+  );
+}
+function qE(e) {
+  return (0, Q.jsxs)(
+    `div`,
+    {
+      className: `flex min-h-[72px] items-center justify-between gap-4 py-3`,
+      children: [
+        (0, Q.jsxs)(`div`, {
+          className: `flex min-w-0 flex-1 items-center gap-4`,
+          children: [
+            (0, Q.jsx)(`span`, {
+              className: `flex size-12 shrink-0 items-center justify-center overflow-hidden rounded-xl border border-token-border-default bg-token-bg-primary`,
+              children: (0, Q.jsx)(Vi, {
+                alt: e.name,
+                className: `size-8 object-contain`,
+                fallback: (0, Q.jsx)(Dh, { className: `icon-md text-token-text-secondary` }),
+                logoUrl: e.iconUrl,
+              }),
+            }),
+            (0, Q.jsxs)(`div`, {
+              className: `min-w-0 flex-1`,
+              children: [
+                (0, Q.jsx)(`div`, {
+                  className: `truncate text-sm leading-6 font-medium text-token-text-primary`,
+                  children: e.name,
+                }),
+                (0, Q.jsx)(`div`, {
+                  className: `truncate text-sm leading-5 text-token-text-tertiary`,
+                  children: (0, Q.jsx)(J, { ...JT.codexChromeDescription }),
+                }),
+              ],
+            }),
+          ],
+        }),
+        (0, Q.jsx)(ya, {
+          color: `outline`,
+          size: `toolbar`,
+          className: `h-9 min-w-20 shrink-0 justify-center rounded-xl px-3 text-sm`,
+          onClick: (t) => {
+            Ps({
+              event: t,
+              href: e.url,
+              initiator: `open_in_browser_bridge`,
+              openTarget: `external-browser`,
+            });
+          },
+          children: (0, Q.jsx)(J, {
+            id: `plugins.installModal.openBrowserExtension`,
+            defaultMessage: `Open`,
+            description: `Button label to open a browser extension setup URL`,
+          }),
+        }),
+      ],
+    },
+    e.id,
+  );
+}
+function JE(e) {
+  let t = (0, cD.c)(10),
+    { children: n, url: r } = e,
+    i;
+  t[0] === r ? (i = t[1]) : ((i = r?.trim()), (t[0] = r), (t[1] = i));
+  let a = i;
+  if (!a) {
+    let e;
+    return (
+      t[2] === n
+        ? (e = t[3])
+        : ((e = (0, Q.jsx)(Q.Fragment, { children: n })), (t[2] = n), (t[3] = e)),
+      e
+    );
+  }
+  let o;
+  t[4] === a
+    ? (o = t[5])
+    : ((o = (e) => {
+        Ps({ event: e, href: a, initiator: `open_in_browser_bridge` });
+      }),
+      (t[4] = a),
+      (t[5] = o));
+  let s;
+  return (
+    t[6] !== n || t[7] !== a || t[8] !== o
+      ? ((s = (0, Q.jsx)(`a`, {
+          href: a,
+          className: `underline underline-offset-2 hover:no-underline`,
+          onClick: o,
+          children: n,
+        })),
+        (t[6] = n),
+        (t[7] = a),
+        (t[8] = o),
+        (t[9] = s))
+      : (s = t[9]),
+    s
+  );
+}
+function YE() {
+  let e = (0, cD.c)(1),
+    t;
+  return (
+    e[0] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((t = (0, Q.jsx)(`div`, { children: Array.from({ length: 3 }).map(XE) })), (e[0] = t))
+      : (t = e[0]),
+    t
+  );
+}
+function XE(e, t) {
+  return (0, Q.jsxs)(
+    `div`,
+    {
+      className: `flex flex-col gap-1 border-t border-token-border-default py-2.5 first:border-none first:pt-0 last:pb-0`,
+      children: [
+        (0, Q.jsx)(`div`, { className: `h-3 w-36 rounded bg-token-border-default` }),
+        (0, Q.jsx)(`div`, { className: `h-2.5 w-full rounded bg-token-border-default` }),
+        (0, Q.jsx)(`div`, { className: `h-2.5 w-4/5 rounded bg-token-border-default` }),
+      ],
+    },
+    t,
+  );
+}
+function ZE(e) {
+  let t = (0, cD.c)(17),
+    {
+      appPersonalizationModes: n,
+      blurbs: r,
+      onAppPersonalizationModeChange: i,
+      personalizationToggles: a,
+    } = e,
+    o = Ns(),
+    s;
+  if (t[0] !== n || t[1] !== o || t[2] !== i || t[3] !== a) {
+    let e;
+    (t[5] !== n || t[6] !== o || t[7] !== i
+      ? ((e = (e) =>
+          (0, Q.jsxs)(
+            `div`,
+            {
+              className: `flex items-start justify-between gap-4 border-t border-token-border-default py-2.5 first:border-none first:pt-0 last:pb-0`,
+              children: [
+                (0, Q.jsxs)(`div`, {
+                  className: `min-w-0 flex-1`,
+                  children: [
+                    (0, Q.jsx)(`div`, {
+                      className: `font-medium text-token-text-primary`,
+                      children: e.blurb.title,
+                    }),
+                    (0, Q.jsx)(`div`, { children: rD(e.blurb.description) }),
+                  ],
+                }),
+                (0, Q.jsx)(nr, {
+                  checked: n[e.appId] === `PERSONALIZE_ALWAYS`,
+                  ariaLabel: o.formatMessage(
+                    {
+                      id: `plugins.installModal.personalizationToggle`,
+                      defaultMessage: `Allow ChatGPT to use reference memories and chats for {appName}`,
+                      description: `Accessible label for the personalization toggle in the plugin install modal`,
+                    },
+                    { appName: e.appName },
+                  ),
+                  onChange: (t) => {
+                    i({ appId: e.appId, mode: t ? `PERSONALIZE_ALWAYS` : `NO_PERSONALIZATION` });
+                  },
+                }),
+              ],
+            },
+            e.appId,
+          )),
+        (t[5] = n),
+        (t[6] = o),
+        (t[7] = i),
+        (t[8] = e))
+      : (e = t[8]),
+      (s = a.map(e)),
+      (t[0] = n),
+      (t[1] = o),
+      (t[2] = i),
+      (t[3] = a),
+      (t[4] = s));
+  } else s = t[4];
+  let c;
+  if (t[9] !== r || t[10] !== a.length) {
+    let e;
+    (t[12] === a.length
+      ? (e = t[13])
+      : ((e = (e, t) =>
+          (0, Q.jsxs)(
+            `div`,
+            {
+              className:
+                a.length > 0 || t > 0
+                  ? `flex flex-col gap-1 border-t border-token-border-default py-2.5 last:pb-0`
+                  : `flex flex-col gap-1 py-2.5 first:pt-0 last:pb-0`,
+              children: [
+                (0, Q.jsx)(`div`, {
+                  className: `font-medium text-token-text-primary`,
+                  children: e.title,
+                }),
+                (0, Q.jsx)(`div`, { children: rD(e.description) }),
+              ],
+            },
+            `${e.title}-${t}`,
+          )),
+        (t[12] = a.length),
+        (t[13] = e)),
+      (c = r.map(e)),
+      (t[9] = r),
+      (t[10] = a.length),
+      (t[11] = c));
+  } else c = t[11];
+  let l;
+  return (
+    t[14] !== s || t[15] !== c
+      ? ((l = (0, Q.jsxs)(`div`, {
+          className: `text-sm text-token-text-secondary`,
+          children: [s, c],
+        })),
+        (t[14] = s),
+        (t[15] = c),
+        (t[16] = l))
+      : (l = t[16]),
+    l
+  );
+}
+function QE(e, t) {
+  switch (e) {
+    case `connected`:
+      return t.formatMessage({
+        id: `plugins.installModal.requiredApps.connected`,
+        defaultMessage: `Connected`,
+        description: `Button label shown for a required app that is already connected`,
+      });
+    case `launching`:
+    case `waitingForCallback`:
+      return t.formatMessage({
+        id: `plugins.installModal.requiredApps.connecting`,
+        defaultMessage: `Opened link`,
+        description: `Button label shown after the required app connection flow has been opened`,
+      });
+    case `pending`:
+      return t.formatMessage({
+        id: `plugins.installModal.requiredApps.connect`,
+        defaultMessage: `Connect`,
+        description: `Button label shown for a required app that still needs to be connected`,
+      });
+  }
+}
+function $E(e) {
+  return {
+    appMetadata: null,
+    branding: null,
+    description: e.description,
+    distributionChannel: null,
+    id: e.appId,
+    installUrl: e.installUrl,
+    isAccessible: !1,
+    isEnabled: !1,
+    labels: null,
+    logoUrl: e.logoUrl,
+    logoUrlDark: null,
+    name: e.name,
+    pluginDisplayNames: [],
+  };
+}
+function eD(e) {
+  let t = (0, cD.c)(14),
+    { plugin: n } = e,
+    r;
+  t[0] === n ? (r = t[1]) : ((r = Dc(n)), (t[0] = n), (t[1] = r));
+  let i;
+  t[2] === r
+    ? (i = t[3])
+    : ((i = (0, Q.jsx)(`div`, {
+        className: `text-sm font-medium text-token-text-primary`,
+        children: r,
+      })),
+      (t[2] = r),
+      (t[3] = i));
+  let a;
+  t[4] === n.marketplaceName
+    ? (a = t[5])
+    : ((a =
+        n.marketplaceName.length > 0
+          ? (0, Q.jsx)(Lf, {
+              className: `border border-token-border-default bg-transparent px-1.5 py-0.5 text-xs font-medium text-token-text-secondary`,
+              children: n.marketplaceName,
+            })
+          : null),
+      (t[4] = n.marketplaceName),
+      (t[5] = a));
+  let o;
+  t[6] !== i || t[7] !== a
+    ? ((o = (0, Q.jsxs)(`div`, {
+        className: `flex flex-wrap items-center gap-2`,
+        children: [i, a],
+      })),
+      (t[6] = i),
+      (t[7] = a),
+      (t[8] = o))
+    : (o = t[8]);
+  let s;
+  t[9] === n ? (s = t[10]) : ((s = (0, Q.jsx)(tD, { plugin: n })), (t[9] = n), (t[10] = s));
+  let c;
+  return (
+    t[11] !== o || t[12] !== s
+      ? ((c = (0, Q.jsxs)(nD, { children: [o, s] })), (t[11] = o), (t[12] = s), (t[13] = c))
+      : (c = t[13]),
+    c
+  );
+}
+function tD(e) {
+  let t = (0, cD.c)(11),
+    { plugin: n } = e,
+    r;
+  t[0] === n.plugin.interface?.developerName
+    ? (r = t[1])
+    : ((r = n.plugin.interface?.developerName?.trim()),
+      (t[0] = n.plugin.interface?.developerName),
+      (t[1] = r));
+  let i = r,
+    a;
+  t[2] === n.plugin.interface?.category
+    ? (a = t[3])
+    : ((a = n.plugin.interface?.category?.trim()),
+      (t[2] = n.plugin.interface?.category),
+      (t[3] = a));
+  let o = a;
+  if (i == null && o == null) return null;
+  let s;
+  t[4] === i
+    ? (s = t[5])
+    : ((s = i
+        ? (0, Q.jsx)(`div`, {
+            children: (0, Q.jsx)(J, {
+              id: `plugins.installModal.metadata.developer`,
+              defaultMessage: `By {developerName}`,
+              description: `Developer metadata shown in the plugin install modal`,
+              values: { developerName: i },
+            }),
+          })
+        : null),
+      (t[4] = i),
+      (t[5] = s));
+  let c;
+  t[6] === o
+    ? (c = t[7])
+    : ((c = o
+        ? (0, Q.jsx)(`div`, {
+            children: (0, Q.jsx)(J, {
+              id: `plugins.installModal.metadata.category`,
+              defaultMessage: `Category: {category}`,
+              description: `Category metadata shown in the plugin install modal`,
+              values: { category: o },
+            }),
+          })
+        : null),
+      (t[6] = o),
+      (t[7] = c));
+  let l;
+  return (
+    t[8] !== s || t[9] !== c
+      ? ((l = (0, Q.jsxs)(`div`, {
+          className: `flex flex-col gap-1 text-sm text-token-text-secondary`,
+          children: [s, c],
+        })),
+        (t[8] = s),
+        (t[9] = c),
+        (t[10] = l))
+      : (l = t[10]),
+    l
+  );
+}
+function nD(e) {
+  let t = (0, cD.c)(2),
+    { children: n } = e,
+    r;
+  return (
+    t[0] === n
+      ? (r = t[1])
+      : ((r = (0, Q.jsx)(`div`, {
+          className: `flex flex-col gap-2 border-b border-token-border-default py-3 last:border-none`,
+          children: n,
+        })),
+        (t[0] = n),
+        (t[1] = r)),
+    r
+  );
+}
+function rD(e) {
+  let t = [],
+    n = 0,
+    r;
+  for (; (r = fD.exec(e)) != null; ) {
+    r.index > n && t.push(e.slice(n, r.index));
+    let [i, a, o] = r,
+      s = o.trim();
+    if (s.length === 0) {
+      (t.push(a), (n = r.index + i.length));
+      continue;
+    }
+    (t.push((0, Q.jsx)(JE, { url: s, children: a }, `${s}-${r.index}`)), (n = r.index + i.length));
+  }
+  return (n < e.length && t.push(e.slice(n)), t.length === 0 ? e : t.length === 1 ? t[0] : t);
+}
+function iD(e) {
+  let t = new Set();
+  return e.flatMap((e) => {
+    let n = `${e.title}\u0000${e.description}`;
+    return t.has(n) ? [] : (t.add(n), [{ description: e.description, title: e.title }]);
+  });
+}
+function aD({ draftModes: e, personalizationToggles: t }) {
+  let n = { ...e };
+  if (t == null) return n;
+  for (let e of t) n[e.appId] ??= e.defaultMode;
+  return n;
+}
+function oD(e) {
+  return (
+    e.plugin.interface?.longDescription?.trim() ||
+    e.plugin.interface?.shortDescription?.trim() ||
+    e.description?.trim() ||
+    null
+  );
+}
+function sD(e) {
+  return e.interface?.displayName?.trim() || Ic(e.name.split(`:`).pop() || e.name);
+}
+var cD,
+  lD,
+  Q,
+  uD,
+  dD,
+  fD,
+  pD,
+  mD,
+  hD = e(() => {
+    ((cD = X()),
+      il(),
+      ji(),
+      (lD = t(El(), 1)),
+      Y(),
+      Se(),
+      ke(),
+      Pd(),
+      _s(),
+      Do(),
+      ja(),
+      b(),
+      Re(),
+      dt(),
+      Dr(),
+      aa(),
+      zv(),
+      tT(),
+      fg(),
+      pa(),
+      Cp(),
+      ch(),
+      Ou(),
+      S(),
+      iT(),
+      Wo(),
+      wt(),
+      kn(),
+      Eg(),
+      tv(),
+      ET(),
+      gl(),
+      Fe(),
+      ue(),
+      jn(),
+      qT(),
+      YT(),
+      oE(),
+      Zi(),
+      lE(),
+      pE(),
+      bE(),
+      zc(),
+      (Q = Z()),
+      (uD = `OAI-Product-Sku`),
+      (dD = `CODEX`),
+      (fD = /\[([^\]]+)\]\(([^)]+)\)/g),
+      (pD = 480),
+      (mD = `min(720px, calc(100vh - 2rem))`));
+  });
+async function gD({ hostId: e, queryClient: t, refreshAppsList: n }) {
+  let r = t.getQueryData([`apps`, `list`, e]),
+    i = await n();
+  return _D({ previousApps: r, nextApps: i })
+    ? (await Promise.all(
+        yD.map((t) =>
+          dn(`ambient-suggestions-refresh`, {
+            params: { domain: t, hostId: e, projectRoot: Co(`~`), mode: `first-plugin-connect` },
+          }),
+        ),
+      ),
+      await Promise.all([
+        t.invalidateQueries({ queryKey: Te(`ambient-suggestions`) }),
+        t.invalidateQueries({ queryKey: Te(`ambient-suggestions-refresh`) }),
+      ]),
+      i)
+    : i;
+}
+function _D({ previousApps: e, nextApps: t }) {
+  return e != null && !e.some(vD) && t.some(vD);
+}
+function vD(e) {
+  return e.isAccessible && e.isEnabled;
+}
+var yD,
+  bD = e(() => {
+    (Xa(), jn(), (yD = [null, `science`]));
+  });
+async function xD(e) {
+  return dn(`computer-use-app-approval-remove`, { params: { bundleIdentifier: e } });
+}
+async function SD(e) {
+  return (await dn(`computer-use-sound-mode-write`, { params: { value: e } })).value;
+}
+async function CD(e) {
+  return (await dn(`computer-use-background-auth-write`, { params: { enabled: e } })).enabled;
+}
+var wD,
+  TD,
+  ED,
+  DD,
+  OD = e(() => {
+    (wt(),
+      Fe(),
+      jn(),
+      (wD = Ct(et, `computer-use-app-approvals-visibility`, {
+        refetchOnMount: `always`,
+        refetchOnWindowFocus: !0,
+        staleTime: kr.FIVE_SECONDS,
+      })),
+      (TD = Ct(et, `computer-use-app-approvals-read`, {
+        refetchOnMount: `always`,
+        refetchOnWindowFocus: !0,
+        staleTime: kr.ONE_MINUTE,
+      })),
+      (ED = Ct(et, `computer-use-sound-mode-read`, {
+        refetchOnMount: `always`,
+        refetchOnWindowFocus: !0,
+        select: ({ value: e }) => e,
+        staleTime: kr.FIVE_SECONDS,
+      })),
+      (DD = Ct(et, `computer-use-background-auth-read`, {
+        refetchOnMount: `always`,
+        refetchOnWindowFocus: !0,
+        staleTime: kr.FIVE_SECONDS,
+      })),
+      $e(et, `chrome-extension-installed-read`, (e) => ({
+        enabled: e != null,
+        params: e == null ? void 0 : { extensionId: e },
+        refetchOnMount: !0,
+        refetchOnWindowFocus: !0,
+        staleTime: kr.FIVE_SECONDS,
+      })));
+  });
+function kD(e) {
+  let t = (0, AD.c)(19),
+    { onClose: n, onTryInChat: r, plugin: i } = e,
+    a;
+  t[0] === i ? (a = t[1]) : ((a = Dc(i)), (t[0] = i), (t[1] = a));
+  let o = a,
+    s;
+  t[2] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((s = (0, jD.jsx)(Dh, { className: `icon-xs text-token-text-secondary` })), (t[2] = s))
+    : (s = t[2]);
+  let c;
+  t[3] !== i.logoDarkPath || t[4] !== i.logoPath || t[5] !== o
+    ? ((c = (0, jD.jsx)(`div`, {
+        className: `flex size-5 shrink-0 items-center justify-center overflow-hidden rounded-md`,
+        children: (0, jD.jsx)(Vi, {
+          alt: o,
+          className: `size-5`,
+          logoDarkUrl: i.logoDarkPath,
+          logoUrl: i.logoPath,
+          fallback: s,
+        }),
+      })),
+      (t[3] = i.logoDarkPath),
+      (t[4] = i.logoPath),
+      (t[5] = o),
+      (t[6] = c))
+    : (c = t[6]);
+  let l;
+  t[7] === o
+    ? (l = t[8])
+    : ((l = (0, jD.jsx)(`span`, {
+        className: `shrink-0`,
+        children: (0, jD.jsx)(J, {
+          id: `plugins.install.success`,
+          defaultMessage: `{pluginName} plugin installed`,
+          description: `Toast shown after a plugin is installed`,
+          values: { pluginName: o },
+        }),
+      })),
+      (t[7] = o),
+      (t[8] = l));
+  let u;
+  t[9] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((u = (0, jD.jsx)(J, {
+        id: `plugins.install.tryInChatToast`,
+        defaultMessage: `Try in chat`,
+        description: `Button label in the plugin-installed toast that starts a new chat with the plugin`,
+      })),
+      (t[9] = u))
+    : (u = t[9]);
+  let d;
+  t[10] === r
+    ? (d = t[11])
+    : ((d = (0, jD.jsx)(ya, { color: `secondary`, size: `composerSm`, onClick: r, children: u })),
+      (t[10] = r),
+      (t[11] = d));
+  let f;
+  t[12] !== c || t[13] !== l || t[14] !== d
+    ? ((f = (0, jD.jsxs)(`div`, {
+        className: `flex items-center gap-2 pr-1`,
+        children: [c, l, d],
+      })),
+      (t[12] = c),
+      (t[13] = l),
+      (t[14] = d),
+      (t[15] = f))
+    : (f = t[15]);
+  let p;
+  return (
+    t[16] !== n || t[17] !== f
+      ? ((p = (0, jD.jsx)(Qh, {
+          className: `!items-center !rounded-[14px] !border-token-border !py-1.5 !text-sm !leading-[18px] [&>button]:!mt-0`,
+          level: `success`,
+          onRemove: n,
+          children: f,
+        })),
+        (t[16] = n),
+        (t[17] = f),
+        (t[18] = p))
+      : (p = t[18]),
+    p
+  );
+}
+var AD,
+  jD,
+  MD = e(() => {
+    ((AD = X()), Y(), _s(), Do(), op(), Cp(), Zi(), (jD = Z()));
+  });
+function ND(e, t, n) {
+  return e != null && e.hostId === t && e.plugin.plugin.id === n ? e.progressPercent : null;
+}
+function PD(e, t, n) {
+  return e != null && e.hostId === t && e.plugin.plugin.id === n ? e.phase : null;
+}
+var FD = e(() => {});
+function ID({ forceReloadPlugins: e, hostId: t, onRequiredAppConnected: n }) {
+  let i = qn(et),
+    a = Ns(),
+    o = La(),
+    s = _(),
+    c = el(t),
+    l = i.query.snapshot(DD),
+    u = lr(),
+    [, d] = Cl(`composer_prefill`),
+    f = E_(),
+    p = _n(`2761268526`),
+    { data: m } = Gc(Zn, t),
+    { clearPendingAppConnect: h, isAppConnectPending: g, markAppConnectOAuthPending: v } = $c(),
+    {
+      cancelPluginInstallAppPreparation: y,
+      claimPluginInstall: b,
+      closePluginInstallAppConnectBeforeInstall: x,
+      closePluginInstallAppConnect: S,
+      closePluginInstall: C,
+      markRequiredAppStatus: w,
+      openPluginInstallDetails: T,
+      openPluginInstall: E,
+      openPluginInstallAppConnectBeforeInstall: D,
+      openRequiredAppConnect: O,
+      preparePluginInstallAppConnect: k,
+      session: j,
+      setPluginInstallProgress: M,
+      setPluginInstallNeedsApps: N,
+      startPluginInstallAfterAppPreparation: P,
+      startPluginInstallAfterAppConnect: F,
+    } = qs(),
+    { data: ee = [], hardRefetchAppsList: L } = ht({
+      enabled:
+        j.kind === `needsApps` || j.kind === `connectApp` || j.kind === `connectAppBeforeInstall`,
+      hostId: t,
+    }),
+    R =
+      j.kind === `needsApps` || j.kind === `connectApp`
+        ? j.requiredApps.map((e) => e.app)
+        : j.kind === `connectAppBeforeInstall`
+          ? [j.app]
+          : void 0,
+    B =
+      j.kind === `details` ||
+      j.kind === `installing` ||
+      j.kind === `preparingApp` ||
+      j.kind === `connectAppBeforeInstall`
+        ? j.plugin
+        : null,
+    V = B == null || (B.marketplacePath == null && B.plugin.remotePluginId == null) ? null : Ho(B),
+    { blockedReasonsByConnectorId: H } = QT({ hostId: t, pluginApps: R }),
+    { blockedReason: te, isLoading: ne } = QT(
+      B == null
+        ? { hostId: t }
+        : V == null
+          ? { hostId: t, pluginSummary: B.plugin }
+          : { hostId: t, ...V, pluginSummary: B.plugin },
+    ),
+    re = Xe({ hostId: t }),
+    U = nt({ hostId: t }),
+    ie = A({ hostId: t }),
+    ae = re.available,
+    oe = U.available,
+    W = ie.available,
+    [G, se] = (0, BD.useState)(!1),
+    K = I({
+      mutationFn: async (e) => {
+        let n = await Vr(`install-plugin`, { hostId: t, ...Ho(e) });
+        return (
+          await ko({ hostId: t, marketplacePath: e.marketplacePath, pluginName: e.plugin.name }), n
+        );
+      },
+    }),
+    q = G || K.isPending,
+    ce = q || j.kind === `installing` || j.kind === `preparingApp`,
+    le = RD({ apps: ee, appInstallBlockedReasonsById: H, isAppConnectPending: g, session: j }),
+    ue =
+      le.kind === `needsApps` &&
+      le.requiredBrowserExtensions.length === 0 &&
+      le.requiredApps.length > 0 &&
+      le.requiredApps.every((e) => e.status === `connected`),
+    de = (0, BD.useEffectEvent)((e, t) => {
+      if (t != null) {
+        f({ prefillPrompt: e, prefillCwd: t.prefillCwd, startInSidebar: t.startInSidebar });
+        return;
+      }
+      d({ text: e });
+    }),
+    fe = (e, t) => {
+      f({
+        prefillPrompt: cE({
+          defaultPrompt: sE(e.plugin.interface?.defaultPrompt),
+          pluginDisplayName: Dc(e),
+          pluginId: e.plugin.id,
+        }),
+        prefillCwd: t,
+        startInSidebar: !0,
+      });
+    },
+    pe = async (n) => {
+      try {
+        return (
+          await e(),
+          z({ enabled: !0, installed: !0, queryClient: s, hostId: t, pluginId: n.plugin.id }),
+          !0
+        );
+      } catch (e) {
+        return (
+          r.error(`Failed to refresh plugins after install`, { safe: {}, sensitive: { error: e } }),
+          i
+            .get(Yr)
+            .danger(
+              a.formatMessage(
+                {
+                  id: `plugins.install.refreshError`,
+                  defaultMessage: `Installed {pluginName}, but failed to refresh the plugin list`,
+                  description: `Toast shown when a plugin installs successfully but the plugin list refresh fails`,
+                },
+                { pluginName: Dc(n) },
+              ),
+            ),
+          !1
+        );
+      }
+    },
+    me = ({ plugin: e, postInstallComposerPrefill: t, tryInChatCwd: n }) => {
+      t?.trim() ||
+        i.get(Yr).custom({
+          content: ({ close: t }) =>
+            (0, BD.createElement)(kD, {
+              onClose: t,
+              onTryInChat: () => {
+                (t(), fe(e, n));
+              },
+              plugin: e,
+            }),
+          duration: VD,
+          id: `plugin-added:${e.plugin.id}`,
+          level: `success`,
+        });
+    },
+    he = (0, BD.useEffectEvent)((t) => {
+      C();
+      let n = t.postInstallComposerPrefill?.trim();
+      (n && de(n, t.postInstallNewConversation),
+        e()
+          .then(() => {
+            me({ plugin: t.plugin, postInstallComposerPrefill: n, tryInChatCwd: t.tryInChatCwd });
+          })
+          .catch((e) => {
+            r.error(`Failed to refresh plugins after plugin app setup`, {
+              safe: {},
+              sensitive: { error: e },
+            });
+          }));
+    }),
+    ge = (e) => {
+      (LD({
+        action: gi.CODEX_NEW_CHAT_SUGGESTION_ACTION_REQUIRED_APP_CONNECTED,
+        appId: e.app.id,
+        pluginId: e.plugin.plugin.id,
+        scope: i,
+        telemetry: e.telemetry,
+      }),
+        h({ appId: e.app.id, resumeTarget: WD }),
+        F({ appId: e.app.id, hostId: e.hostId, pluginId: e.plugin.plugin.id }));
+    },
+    _e = (0, BD.useEffectEvent)(ge);
+  (0, BD.useEffect)(() => {
+    if (j.kind === `connectAppBeforeInstall` && j.status === `connected`) {
+      _e(j);
+      return;
+    }
+    !ue || le.kind !== `needsApps` || he(le);
+  }, [ue, le, j]);
+  let ve = (e) =>
+      !((!ae && Fi(e.plugin.id)) || (!oe && Wn(e.plugin.id)) || (!W && cl(e.plugin.id))),
+    ye = async ({ installLockedComputerUse: e = !1, options: o, plugin: d }) => {
+      if (q || ne || !ve(d)) {
+        C();
+        return;
+      }
+      se(!0);
+      try {
+        if (ZT(d.plugin) || te === `disabled-by-admin`) {
+          T(d, o);
+          return;
+        }
+        let f;
+        try {
+          ((f = await K.mutateAsync(d)),
+            z({ enabled: !0, installed: !0, queryClient: s, hostId: t, pluginId: d.plugin.id }),
+            M(HD),
+            LD({
+              action: gi.CODEX_NEW_CHAT_SUGGESTION_ACTION_PLUGIN_INSTALLED,
+              pluginId: d.plugin.id,
+              scope: i,
+              telemetry: o.telemetry,
+            }),
+            o.origin === `setup_codex` &&
+              xi(
+                i,
+                Ce.CODEX_ONBOARDING_WIZARD_PHASE_PLUGIN_INSTALL,
+                tr.CODEX_ONBOARDING_WIZARD_ACTION_COMPLETED,
+              ));
+        } catch (e) {
+          let t =
+            d.marketplacePath == null
+              ? {
+                  pluginName: d.plugin.remotePluginId ?? d.plugin.name,
+                  remoteMarketplaceName: d.remoteMarketplaceName,
+                }
+              : { marketplacePath: d.marketplacePath, pluginName: d.plugin.name };
+          (r.error(`manual_plugin_install_failed`, {
+            safe: { ...rl(t), errorCategory: Ni(e) },
+            sensitive: { ...Vn(t), error: e },
+          }),
+            i
+              .get(Yr)
+              .danger(
+                a.formatMessage({
+                  id: `plugins.install.error`,
+                  defaultMessage: `Failed to install plugin`,
+                  description: `Toast shown when installing a plugin fails`,
+                }),
+              ),
+            C());
+          return;
+        }
+        let p = Qt(d.plugin.id);
+        if (
+          (p != null &&
+            (await fs(i, p, !1),
+            await Vr(`batch-write-config-value`, {
+              hostId: t,
+              edits: Ht({ pluginId: d.plugin.id, enabled: !0 }),
+              filePath: m?.configWriteTarget?.filePath ?? null,
+              expectedVersion: null,
+              reloadUserConfig: !0,
+            })),
+          e && Fi(d.plugin.id))
+        ) {
+          let e = !1;
+          try {
+            let t = await CD(!0);
+            (l.setData((e) => ({
+              computerIconDataURL: e?.computerIconDataURL ?? null,
+              enabled: t,
+              lockIconDataURL: e?.lockIconDataURL ?? null,
+            })),
+              (e = t !== !0));
+          } catch (t) {
+            (r.error(`Failed to enable Locked Computer Use after install`, {
+              safe: {},
+              sensitive: { error: t },
+            }),
+              (e = !0));
+          }
+          e &&
+            i
+              .get(Yr)
+              .danger(
+                a.formatMessage({
+                  id: `plugins.install.lockedComputerUseError`,
+                  defaultMessage: `Installed Computer Use, but failed to enable Locked Computer Use`,
+                  description: `Toast shown when Computer Use installs but Locked Computer Use cannot be enabled`,
+                }),
+              );
+        }
+        let h = pe(d);
+        (d.plugin.authPolicy === `ON_INSTALL` &&
+          gD({ hostId: t, queryClient: s, refreshAppsList: L }).catch((e) => {
+            r.error(`Failed to refresh apps after plugin install`, {
+              safe: {},
+              sensitive: { error: e },
+            });
+          }),
+          Promise.all([u(xe), u(cc)]).catch((e) => {
+            r.error(`Failed to refresh plugin skills and hooks after install`, {
+              safe: {},
+              sensitive: { error: e },
+            });
+          }),
+          M(UD));
+        let g = await PT({
+          authPolicy: f.authPolicy,
+          codexHome: c,
+          hostId: t,
+          plugin: d,
+          queryClient: s,
+          windowType: `electron`,
+        });
+        if (
+          (M(100),
+          await new Promise((e) => setTimeout(e, 650)),
+          (n == null && f.authPolicy === `ON_USE`) ||
+            (f.appsNeedingAuth.length === 0 && g.length === 0))
+        ) {
+          let e = o.postInstallComposerPrefill?.trim();
+          (e && de(e, o.postInstallNewConversation),
+            C(),
+            n?.(),
+            (await h) &&
+              me({ plugin: d, postInstallComposerPrefill: e, tryInChatCwd: o.tryInChatCwd }));
+          return;
+        }
+        N({
+          apps: f.appsNeedingAuth,
+          browserExtensions: g,
+          connectingAppId:
+            f.appsNeedingAuth.length === 1 &&
+            g.length === 0 &&
+            (f.authPolicy === `ON_INSTALL` || n != null)
+              ? f.appsNeedingAuth[0]?.id
+              : void 0,
+          options: o,
+          plugin: d,
+        });
+      } finally {
+        se(!1);
+      }
+    },
+    be = (0, BD.useEffectEvent)((e) => {
+      b({ hostId: t, pluginId: e.plugin.plugin.id }) &&
+        ye({
+          options: {
+            origin: e.origin,
+            postInstallComposerPrefill: e.postInstallComposerPrefill,
+            postInstallNewConversation: e.postInstallNewConversation,
+            tryInChatCwd: e.tryInChatCwd,
+            telemetry: e.telemetry,
+          },
+          plugin: e.plugin,
+        });
+    });
+  (0, BD.useEffect)(() => {
+    j.kind !== `installing` || j.installStarted || ne || be(j);
+  }, [ne, j]);
+  let Se = async (e, n, o) => {
+      try {
+        let r = o ?? (await Vr(`read-plugin`, { hostId: t, ...Ho(e) })).plugin;
+        if (r == null) throw Error(`Plugin detail was not found.`);
+        let i = r.apps.length === 1 ? r.apps[0] : null;
+        if (i == null) {
+          P({ hostId: t, pluginId: e.plugin.id });
+          return;
+        }
+        let { link: a } = await Wc.safeGet(`/aip/connectors/{connector_id}/link`, {
+          parameters: { path: { connector_id: i.id } },
+        });
+        if (a != null) {
+          P({ hostId: t, pluginId: e.plugin.id });
+          return;
+        }
+        D({ app: i, hostId: t, options: n, plugin: e });
+      } catch (n) {
+        (r.error(`Failed to load canonical plugin app before install`, {
+          safe: {},
+          sensitive: { error: n },
+        }),
+          i
+            .get(Yr)
+            .danger(
+              a.formatMessage({
+                id: `plugins.install.loadAppError`,
+                defaultMessage: `Failed to load plugin connection`,
+                description: `Toast shown when Codex cannot load the app that must connect before installing a canonical plugin`,
+              }),
+            ),
+          y({ hostId: t, pluginId: e.plugin.id }));
+      }
+    },
+    we = (e, n = {}) => {
+      if (!(ce || !ve(e))) {
+        if ((K.reset(), e.plugin.authPolicy === `ON_INSTALL`)) {
+          if (ZT(e.plugin) || te === `disabled-by-admin`) {
+            Te(e, n);
+            return;
+          }
+          (k(t, e, n),
+            Se(
+              e,
+              n,
+              s.getQueryData(
+                Ds({
+                  hostId: t,
+                  marketplacePath: e.marketplacePath,
+                  pluginName: Wa(e),
+                  remoteMarketplaceName: e.remoteMarketplaceName,
+                }),
+              ) ?? null,
+            ));
+          return;
+        }
+        E(t, e, n);
+      }
+    },
+    Te = (e, t = {}) => {
+      ce || !ve(e) || (K.reset(), T(e, t));
+    };
+  return {
+    closePluginInstall: () => {
+      if (!ce) {
+        if ((K.reset(), j.kind === `connectAppBeforeInstall`)) {
+          (j.status === `waitingForCallback` && h({ appId: j.app.id, resumeTarget: WD }), x());
+          return;
+        }
+        if (j.kind === `connectApp`) {
+          S();
+          return;
+        }
+        C();
+      }
+    },
+    connectRequiredApp: async (e) => {
+      if (le.kind !== `needsApps`) return;
+      let t = le.requiredApps.find((t) => t.appId === e);
+      if (
+        t == null ||
+        H[e] != null ||
+        t.status === `connected` ||
+        t.status === `launching` ||
+        t.status === `waitingForCallback`
+      )
+        return;
+      LD({
+        action: gi.CODEX_NEW_CHAT_SUGGESTION_ACTION_REQUIRED_APP_CONNECT_STARTED,
+        appId: e,
+        pluginId: le.plugin.plugin.id,
+        scope: i,
+        telemetry: j.kind === `needsApps` ? j.telemetry : void 0,
+      });
+      let n = t.installUrl?.trim();
+      if (!p && n) {
+        ct({ href: n, initiator: `open_in_browser_bridge`, openTarget: `external-browser` });
+        return;
+      }
+      (h({ appId: e }), O(e));
+    },
+    handleRequiredAppConnected: async (e) => {
+      if (j.kind === `connectAppBeforeInstall` && j.app.id === e) {
+        (j.status === `pending` &&
+          LD({
+            action: gi.CODEX_NEW_CHAT_SUGGESTION_ACTION_REQUIRED_APP_CONNECT_STARTED,
+            appId: e,
+            pluginId: j.plugin.plugin.id,
+            scope: i,
+            telemetry: j.telemetry,
+          }),
+          ge(j));
+        return;
+      }
+      ((j.kind === `needsApps` || j.kind === `connectApp`) &&
+        LD({
+          action: gi.CODEX_NEW_CHAT_SUGGESTION_ACTION_REQUIRED_APP_CONNECTED,
+          appId: e,
+          pluginId: j.plugin.plugin.id,
+          scope: i,
+          telemetry: j.telemetry,
+        }),
+        w({ appId: e, status: `connected` }),
+        j.kind === `connectApp` &&
+          j.requiredApps.length === 1 &&
+          j.requiredBrowserExtensions.length === 0 &&
+          n?.());
+      try {
+        await gD({ hostId: t, queryClient: s, refreshAppsList: L });
+      } catch (e) {
+        r.error(`Failed to refresh apps after plugin app connect`, {
+          safe: {},
+          sensitive: { error: e },
+        });
+      }
+    },
+    handleRequiredAppOAuthStarted: ({ app: e, redirectUrl: n }) => {
+      (j.kind === `connectAppBeforeInstall` &&
+        j.app.id === e.id &&
+        LD({
+          action: gi.CODEX_NEW_CHAT_SUGGESTION_ACTION_REQUIRED_APP_CONNECT_STARTED,
+          appId: e.id,
+          pluginId: j.plugin.plugin.id,
+          scope: i,
+          telemetry: j.telemetry,
+        }),
+        w({ appId: e.id, status: `waitingForCallback` }),
+        v({
+          app: e,
+          hostId: t,
+          redirectUrl: n,
+          returnTo: `${o.pathname}${o.search}${o.hash}`,
+          resumeTarget: WD,
+        }));
+    },
+    installPlugin: async (e = {}, t = !1) => {
+      j.kind === `details` &&
+        (await ye({
+          installLockedComputerUse: t,
+          options: {
+            origin: j.origin,
+            postInstallComposerPrefill: j.postInstallComposerPrefill,
+            postInstallNewConversation: j.postInstallNewConversation,
+            tryInChatCwd: j.tryInChatCwd,
+            telemetry: j.telemetry,
+          },
+          plugin: j.plugin,
+        }));
+    },
+    isInstalling: ce,
+    openPluginInstall: we,
+    openPluginInstallDetails: Te,
+    session: le,
+  };
+}
+function LD({ action: e, appId: t, pluginId: n, scope: r, telemetry: i }) {
+  i?.source === `new_chat_page_suggestions` &&
+    Va(r, Uc, { action: e, appId: t, pluginId: n, suggestionId: i.suggestionId });
+}
+function RD({ apps: e, isAppConnectPending: t, appInstallBlockedReasonsById: n, session: r }) {
+  if (r.kind === `closed`) return r;
+  if (r.kind === `details`)
+    return {
+      kind: `details`,
+      postInstallComposerPrefill: r.postInstallComposerPrefill,
+      postInstallNewConversation: r.postInstallNewConversation,
+      plugin: r.plugin,
+    };
+  if (r.kind === `installing`)
+    return {
+      hostId: r.hostId,
+      kind: `installing`,
+      phase: `installing`,
+      plugin: r.plugin,
+      progressPercent: r.progressPercent,
+    };
+  if (r.kind === `preparingApp`)
+    return {
+      hostId: r.hostId,
+      kind: `installing`,
+      phase: `loading`,
+      plugin: r.plugin,
+      progressPercent: 0,
+    };
+  let i = new Map();
+  if (
+    (e.forEach((e) => {
+      i.set(e.id, e);
+    }),
+    r.kind === `connectAppBeforeInstall`)
+  )
+    return {
+      closeOnOAuthStarted: !1,
+      kind: `connectApp`,
+      plugin: r.plugin,
+      app: zD({
+        appInstallBlockedReasonsById: n,
+        appsById: i,
+        isAppConnectPending: t,
+        preserveWaitingForCallback: !0,
+        resumeTarget: WD,
+        requiredApp: { app: r.app, status: r.status },
+      }),
+    };
+  let a = r.requiredApps.map((e) =>
+    zD({ appInstallBlockedReasonsById: n, appsById: i, isAppConnectPending: t, requiredApp: e }),
+  );
+  if (r.kind === `connectApp`) {
+    let e =
+      a.find((e) => e.appId === r.app.id) ??
+      zD({
+        appInstallBlockedReasonsById: n,
+        appsById: i,
+        isAppConnectPending: t,
+        requiredApp: { app: r.app, status: `pending` },
+      });
+    return { closeOnOAuthStarted: !0, kind: `connectApp`, plugin: r.plugin, app: e };
+  }
+  return {
+    kind: `needsApps`,
+    postInstallComposerPrefill: r.postInstallComposerPrefill,
+    postInstallNewConversation: r.postInstallNewConversation,
+    plugin: r.plugin,
+    requiredBrowserExtensions: r.requiredBrowserExtensions,
+    requiredApps: a,
+    tryInChatCwd: r.tryInChatCwd,
+  };
+}
+function zD({
+  appInstallBlockedReasonsById: e,
+  appsById: t,
+  isAppConnectPending: n,
+  preserveWaitingForCallback: r = !1,
+  resumeTarget: i,
+  requiredApp: a,
+}) {
+  let o = t.get(a.app.id),
+    s = a.status;
+  return (
+    o?.isAccessible === !0 || e[a.app.id] === `disabled-by-admin`
+      ? (s = `connected`)
+      : !r && a.status === `waitingForCallback` && !n(a.app.id, i) && (s = `pending`),
+    {
+      appId: a.app.id,
+      description: o?.description ?? a.app.description,
+      installUrl: o?.installUrl ?? a.app.installUrl,
+      logoUrl: o?.logoUrl ?? null,
+      name: o?.name ?? a.app.name,
+      status: s,
+    }
+  );
+}
+var BD,
+  VD,
+  HD,
+  UD,
+  WD,
+  GD = e(() => {
+    (fl(),
+      il(),
+      ji(),
+      Xa(),
+      (BD = t(El(), 1)),
+      Y(),
+      Oi(),
+      Jr(),
+      V(),
+      bD(),
+      Re(),
+      Fs(),
+      H(),
+      Cr(),
+      jl(),
+      je(),
+      D_(),
+      ca(),
+      ys(),
+      sr(),
+      Ss(),
+      qe(),
+      Wo(),
+      wt(),
+      OD(),
+      Mc(),
+      An(),
+      ce(),
+      Lt(),
+      xn(),
+      ue(),
+      qT(),
+      Ei(),
+      oE(),
+      Hi(),
+      Zi(),
+      MD(),
+      bn(),
+      FD(),
+      $o(),
+      lE(),
+      zc(),
+      (VD = 8),
+      (HD = 55),
+      (UD = 90),
+      (WD = { kind: `plugin-install` }));
+  });
+function KD(e) {
+  let t = (0, qD.c)(25),
+    { hostId: n, onRequiredAppConnected: r, roots: i } = e,
+    a = Hc(),
+    { session: o } = qs(),
+    s = o.kind !== `closed`,
+    c;
+  t[0] === s ? (c = t[1]) : ((c = { enabled: s }), (t[0] = s), (t[1] = c));
+  let { forceReload: l } = Xc(n, i, c),
+    u;
+  t[2] !== l || t[3] !== n || t[4] !== r
+    ? ((u = { forceReloadPlugins: l, hostId: n, onRequiredAppConnected: r }),
+      (t[2] = l),
+      (t[3] = n),
+      (t[4] = r),
+      (t[5] = u))
+    : (u = t[5]);
+  let {
+      closePluginInstall: d,
+      connectRequiredApp: f,
+      handleRequiredAppConnected: p,
+      handleRequiredAppOAuthStarted: m,
+      installPlugin: h,
+      isInstalling: g,
+      session: _,
+    } = ID(u),
+    v;
+  t[6] === d
+    ? (v = t[7])
+    : ((v = (e) => {
+        e || d();
+      }),
+      (t[6] = d),
+      (t[7] = v));
+  let y = ns(v),
+    b;
+  t[8] === h
+    ? (b = t[9])
+    : ((b = async (e, t) => {
+        await h(e, t);
+      }),
+      (t[8] = h),
+      (t[9] = b));
+  let x = ns(b),
+    S;
+  t[10] === f
+    ? (S = t[11])
+    : ((S = async (e) => {
+        await f(e);
+      }),
+      (t[10] = f),
+      (t[11] = S));
+  let C = ns(S),
+    w;
+  t[12] !== n || t[13] !== a
+    ? ((w = (e) => {
+        a(W(e, { hostId: n }));
+      }),
+      (t[12] = n),
+      (t[13] = a),
+      (t[14] = w))
+    : (w = t[14]);
+  let T;
+  return (
+    t[15] !== C ||
+    t[16] !== x ||
+    t[17] !== y ||
+    t[18] !== p ||
+    t[19] !== m ||
+    t[20] !== n ||
+    t[21] !== g ||
+    t[22] !== _ ||
+    t[23] !== w
+      ? ((T = (0, JD.jsx)(xE, {
+          hostId: n,
+          session: _,
+          isInstalling: g,
+          onOpenChange: y,
+          onInstall: x,
+          onConnectRequiredApp: C,
+          onRequiredAppConnected: p,
+          onRequiredAppOAuthStarted: m,
+          onViewDetails: w,
+        })),
+        (t[15] = C),
+        (t[16] = x),
+        (t[17] = y),
+        (t[18] = p),
+        (t[19] = m),
+        (t[20] = n),
+        (t[21] = g),
+        (t[22] = _),
+        (t[23] = w),
+        (t[24] = T))
+      : (T = t[24]),
+    T
+  );
+}
+var qD,
+  JD,
+  YD = e(() => {
+    ((qD = X()), Oi(), yi(), qt(), hD(), $o(), GD(), zc(), (JD = Z()));
+  });
+function XD() {
+  let e = (0, ZD.c)(3),
+    t = ci(QD),
+    n,
+    r;
+  return (
+    e[0] === t
+      ? ((n = e[1]), (r = e[2]))
+      : ((n = (e) => {
+          t(e.prompts);
+        }),
+        (r = [t]),
+        (e[0] = t),
+        (e[1] = n),
+        (e[2] = r)),
+    qr(`custom-prompts-updated`, n, r),
+    ka(QD)
+  );
+}
+var ZD,
+  QD,
+  $D = e(() => {
+    ((ZD = X()), bs(), js(), (QD = pl([])));
+  });
+function eO({ location: e, locationState: t, navigate: n, scope: r }) {
+  let i = t?.sidebarOnboardingChecklistCompletionOnSubmit;
+  if (i == null) return;
+  let a = Kv(r.get(Jv), i.accountId);
+  n(
+    { hash: e.hash, pathname: e.pathname, search: e.search },
+    { replace: !0, state: nO(t, qv(a, i.itemId, !1)) },
+  );
+}
+function tO({ location: e, locationState: t, navigate: n, scope: r }) {
+  let i = t?.sidebarOnboardingChecklistCompletionOnSubmit;
+  i != null && Xv(r, i.accountId, i.itemId);
+  let a = nO(t, !0);
+  a != null &&
+    n({ hash: e.hash, pathname: e.pathname, search: e.search }, { replace: !0, state: a });
+}
+function nO(e, t) {
+  if (e == null) return null;
+  let {
+    focusComposerNonce: n,
+    prefillComposerMode: r,
+    prefillCwd: i,
+    prefillPrompt: a,
+    sidebarOnboardingChecklistCompletionOnSubmit: o,
+    ...s
+  } = e;
+  return !t && s.hideHomeSuggestionsForCurrentEntry !== !0
+    ? s
+    : { ...s, hideHomeSuggestionsForCurrentEntry: !0 };
+}
+var rO = e(() => {
+  Yv();
+});
+function iO({ comments: e, prompt: t }) {
+  if (e.length === 0) return t;
+  let n = e.map((e, t) => `${t + 1}. (x: ${aO(e.x)}, y: ${aO(e.y)}) ${e.text}`),
+    r = t.trim();
+  return (
+    r.length > 0 && n.push(``, r),
+    n.join(`
+`)
+  );
+}
+function aO(e) {
+  return `${(Math.min(Math.max(e, 0), 1) * 100).toFixed(1)}%`;
+}
+var oO = e(() => {});
+async function sO(e, t, n) {
+  let r = t.trim();
+  if (r.length === 0) return;
+  for (let t of [`right`, `bottom`]) {
+    let n = uh(t),
+      i = e.get(n.activeTab$),
+      a =
+        i?.tabId.startsWith(`sidechat:`) === !0
+          ? i
+          : e.get(n.tabs$).find((e) => e.tabId.startsWith(`sidechat:`));
+    if (a == null) continue;
+    let o = Hr(a.tabId.slice(9));
+    (Po(e, o, r), n.activateTab(e, a.tabId), xh(e, t), cO(o));
+    return;
+  }
+  let i = await n();
+  i != null && (Po(e, i, r), cO(i));
+}
+function cO(e) {
+  requestAnimationFrame(() => {
+    rf(e)?.parentElement?.querySelector(`[data-codex-composer]`)?.focus();
+  });
+}
+var lO = e(() => {
+  (Xa(), hm(), vu(), Vt());
+});
+function uO({
+  isProjectlessComposerCwd: e,
+  isProjectlessConversation: t,
+  projectlessWorkspaceRoot: n,
+  resolvedCwd: r,
+  workspaceRootPaths: i,
+}) {
+  return e || t ? (n == null ? dO : [n]) : [r];
+}
+var dO,
+  fO = e(() => {
+    dO = [];
+  });
+function pO(e) {
+  let t = (0, mO.c)(16),
+    { faviconUrl: n, selectedText: r, onRemove: i } = e,
+    a = Ns(),
+    o;
+  t[0] === n
+    ? (o = t[1])
+    : ((o =
+        n == null
+          ? (0, hO.jsx)(la, { className: `icon-2xs` })
+          : (0, hO.jsx)(Eh, { className: `icon-2xs`, src: n })),
+      (t[0] = n),
+      (t[1] = o));
+  let s;
+  t[2] === a
+    ? (s = t[3])
+    : ((s = a.formatMessage({
+        id: `composer.chromeExtensionPageSelection.label`,
+        defaultMessage: `1 selection`,
+        description: `Attachment pill label for selected text included from the active Chrome tab`,
+      })),
+      (t[2] = a),
+      (t[3] = s));
+  let c;
+  t[4] !== a || t[5] !== i
+    ? ((c =
+        i == null
+          ? void 0
+          : a.formatMessage({
+              id: `composer.chromeExtensionPageSelection.removeAriaLabel`,
+              defaultMessage: `Remove selected text attachment`,
+              description: `Aria label for removing selected text attached from the active Chrome tab`,
+            })),
+      (t[4] = a),
+      (t[5] = i),
+      (t[6] = c))
+    : (c = t[6]);
+  let l;
+  t[7] === r ? (l = t[8]) : ((l = (0, hO.jsx)(Tu, { selections: [r] })), (t[7] = r), (t[8] = l));
+  let u;
+  t[9] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((u = {
+        maxWidth: `min(20rem, var(--radix-popover-content-available-width), calc(100vw - 16px))`,
+      }),
+      (t[9] = u))
+    : (u = t[9]);
+  let d;
+  return (
+    t[10] !== i || t[11] !== o || t[12] !== s || t[13] !== c || t[14] !== l
+      ? ((d = (0, hO.jsx)(hf, {
+          icon: o,
+          label: s,
+          onRemove: i,
+          onRemoveAriaLabel: c,
+          popoverClassName: `w-fit gap-2 px-2 py-1`,
+          popoverContent: l,
+          popoverStyle: u,
+        })),
+        (t[10] = i),
+        (t[11] = o),
+        (t[12] = s),
+        (t[13] = c),
+        (t[14] = l),
+        (t[15] = d))
+      : (d = t[15]),
+    d
+  );
+}
+var mO,
+  hO,
+  gO = e(() => {
+    ((mO = X()), Y(), hc(), Sp(), zu(), Hu(), (hO = Z()));
+  }),
+  _O,
+  vO,
+  yO = e(() => {
+    (t(El()),
+      (_O = Z()),
+      (vO = (e) =>
+        (0, _O.jsx)(`svg`, {
+          width: 20,
+          height: 20,
+          viewBox: `0 0 20 20`,
+          fill: `none`,
+          xmlns: `http://www.w3.org/2000/svg`,
+          ...e,
+          children: (0, _O.jsx)(`path`, {
+            d: `M2.66803 6.66694C2.66803 7.03421 2.9658 7.33198 3.33307 7.33198C3.70034 7.33198 3.99811 7.03421 3.99811 6.66694C3.99811 5.84915 4.00379 5.57038 4.06061 5.35834L4.09576 5.24116C4.29229 4.66455 4.76489 4.22052 5.35846 4.06147L5.53717 4.02729C5.74323 4.00174 6.05312 3.99897 6.66607 3.99897C7.03323 3.99897 7.33094 3.70105 7.33111 3.33393C7.33111 2.96666 7.03334 2.66889 6.66607 2.66889C6.02574 2.66889 5.56566 2.66429 5.17682 2.7392L5.01373 2.77631C3.98983 3.05071 3.17582 3.81772 2.83697 4.81244L2.77545 5.01459C2.66196 5.43834 2.66803 5.93492 2.66803 6.66694ZM16.001 6.66694C16.001 7.0341 16.299 7.3318 16.6661 7.33198C17.0333 7.33198 17.3311 7.03421 17.3311 6.66694C17.3311 6.02609 17.3359 5.56574 17.2608 5.1767L17.2237 5.01459C16.9493 3.99067 16.1823 3.17672 15.1876 2.83784L14.9854 2.77631C14.6677 2.6912 14.309 2.67359 13.8409 2.66987L13.3331 2.66889L13.1993 2.68256C12.8962 2.74452 12.668 3.01252 12.668 3.33393C12.6682 3.70105 12.9659 3.99897 13.3331 3.99897L13.8526 3.99994C14.2859 4.00421 14.4826 4.01886 14.6417 4.06147L14.7588 4.09662C15.3353 4.29313 15.7794 4.76499 15.9385 5.35834L15.9727 5.53705C15.9983 5.74315 16.001 6.05313 16.001 6.66694ZM10.8331 8.99897L10.9669 8.9853C11.2699 8.92341 11.498 8.65524 11.4981 8.33393C11.4981 8.01252 11.27 7.74452 10.9669 7.68256L10.8331 7.66889L7.50006 7.66889C7.13279 7.66889 6.83502 7.96666 6.83502 8.33393C6.8352 8.70105 7.1329 8.99897 7.50006 8.99897L10.8331 8.99897ZM12.5001 12.332L12.6338 12.3183C12.9368 12.2563 13.1651 11.9883 13.1651 11.6669C13.1651 11.3456 12.9368 11.0776 12.6338 11.0156L12.5001 11.0019H7.50006C7.13279 11.0019 6.83502 11.2997 6.83502 11.6669C6.83502 12.0342 7.13279 12.332 7.50006 12.332H12.5001ZM2.66803 13.3339C2.66803 14.0659 2.66191 14.5625 2.77545 14.9863L2.83697 15.1884C3.17589 16.183 3.98989 16.9502 5.01373 17.2246L5.17682 17.2617C5.56565 17.3366 6.02577 17.332 6.66607 17.332C7.03334 17.332 7.33111 17.0342 7.33111 16.6669C7.33111 16.2997 7.03334 16.0019 6.66607 16.0019C6.05316 16.0019 5.74323 15.9991 5.53717 15.9736L5.35846 15.9394C4.76469 15.7803 4.29217 15.3356 4.09576 14.7587L4.06061 14.6415C4.00387 14.4296 3.99811 14.1511 3.99811 13.3339C3.99811 12.9667 3.70034 12.6689 3.33307 12.6689C2.9658 12.6689 2.66803 12.9667 2.66803 13.3339ZM16.001 13.3339C16.001 13.9469 15.9983 14.2568 15.9727 14.4628L15.9385 14.6415C15.7795 15.2351 15.3354 15.7077 14.7588 15.9042L14.6417 15.9394C14.4826 15.982 14.2859 15.9957 13.8526 15.9999L13.3331 16.0019L13.1993 16.0156C12.8961 16.0775 12.668 16.3455 12.668 16.6669C12.668 17.0342 12.9658 17.332 13.3331 17.332L13.8409 17.331C14.309 17.3273 14.6677 17.3096 14.9854 17.2246L15.1876 17.163C16.1823 16.8242 16.9493 16.0102 17.2237 14.9863L17.2608 14.8232C17.3357 14.4343 17.3311 13.9743 17.3311 13.3339C17.3311 12.9667 17.0333 12.6689 16.6661 12.6689C16.299 12.6691 16.001 12.9668 16.001 13.3339Z`,
+            fill: `currentColor`,
+          }),
+        })));
+  });
+function bO(e) {
+  let t = (0, SO.c)(15),
+    { isPending: n, onClick: r, onRemove: i, onShowInTextField: a, preview: o } = e,
+    s = n === void 0 ? !1 : n,
+    c = Ns(),
+    l;
+  t[0] !== c || t[1] !== o
+    ? ((l =
+        o.length > 0
+          ? o
+          : c.formatMessage({
+              id: `composer.pastedTextAttachment.title`,
+              defaultMessage: `Pasted text`,
+              description: `Title for an attached large text paste without displayable text`,
+            })),
+      (t[0] = c),
+      (t[1] = o),
+      (t[2] = l))
+    : (l = t[2]);
+  let u = l,
+    d;
+  t[3] !== c || t[4] !== i
+    ? ((d =
+        i == null
+          ? void 0
+          : c.formatMessage({
+              id: `composer.pastedTextAttachment.removeAriaLabel`,
+              defaultMessage: `Remove pasted text attachment`,
+              description: `Aria label for removing an attached large text paste`,
+            })),
+      (t[3] = c),
+      (t[4] = i),
+      (t[5] = d))
+    : (d = t[5]);
+  let f;
+  t[6] !== s || t[7] !== a
+    ? ((f = xO({ isPending: s, onShowInTextField: a })), (t[6] = s), (t[7] = a), (t[8] = f))
+    : (f = t[8]);
+  let p;
+  return (
+    t[9] !== u || t[10] !== r || t[11] !== i || t[12] !== d || t[13] !== f
+      ? ((p = (0, CO.jsx)(sg, {
+          filename: u,
+          Icon: vO,
+          layout: `card`,
+          onClick: r,
+          onRemove: i,
+          onRemoveAriaLabel: d,
+          subtitle: f,
+        })),
+        (t[9] = u),
+        (t[10] = r),
+        (t[11] = i),
+        (t[12] = d),
+        (t[13] = f),
+        (t[14] = p))
+      : (p = t[14]),
+    p
+  );
+}
+function xO({ isPending: e, onShowInTextField: t }) {
+  return e
+    ? (0, CO.jsx)(J, {
+        id: `composer.pastedTextAttachment.adding`,
+        defaultMessage: `Adding pasted text…`,
+        description: `Subtitle shown while a large text paste is becoming an attachment`,
+      })
+    : t == null
+      ? (0, CO.jsx)(J, {
+          id: `composer.pastedTextAttachment.identity`,
+          defaultMessage: `Pasted text`,
+          description: `Subtitle identifying a large text paste attachment`,
+        })
+      : (0, CO.jsxs)(`button`, {
+          type: `button`,
+          className: `pointer-events-auto inline-flex cursor-interaction items-center gap-0.5 text-token-text-secondary underline underline-offset-2 hover:text-token-foreground`,
+          onClick: t,
+          children: [
+            (0, CO.jsx)(J, {
+              id: `composer.pastedTextAttachment.showInTextField`,
+              defaultMessage: `Show in text field`,
+              description: `Action that restores an attached large text paste into the composer editor`,
+            }),
+            (0, CO.jsx)(Qs, { className: `icon-2xs shrink-0`, "aria-hidden": !0 }),
+          ],
+        });
+}
+var SO,
+  CO,
+  wO = e(() => {
+    ((SO = X()), Y(), zi(), yO(), ql(), (CO = Z()));
+  });
+function TO(e) {
+  let t = (0, BO.c)(148),
+    {
+      imageAttachments: r,
+      imageComments: i,
+      appshotContexts: a,
+      pendingAppshotCaptures: o,
+      pendingFileAttachments: s,
+      pendingPastedTextAttachments: c,
+      fileAttachments: l,
+      pastedTextAttachments: u,
+      onRemoveImage: d,
+      onRemoveAppshotContext: f,
+      onRemoveFileAttachment: p,
+      onRemovePastedTextAttachment: m,
+      onShowPastedTextInTextField: h,
+      onRemovePendingFileAttachment: g,
+      onRemovePendingPastedTextAttachment: _,
+      onRemoveFile: v,
+      onOpenFile: y,
+      addedFiles: b,
+      commentAttachments: x,
+      mcpAppModelContextAttachments: S,
+      selectedTextAttachments: C,
+      chromeExtensionPageSelection: w,
+      pullRequestChecks: T,
+      pullRequestMergeConflict: E,
+      onRemoveAllPullRequestChecks: D,
+      onRemovePullRequestMergeConflict: O,
+      onRemoveAllBrowserCommentAttachments: k,
+      onRemoveAllDiffCommentAttachments: A,
+      onRemoveAllImageComments: j,
+      onRemoveAllMcpAppModelContextAttachments: M,
+      onRemoveAllSelectedTextAttachments: N,
+      onRemoveChromeExtensionPageSelection: P,
+      priorConversation: F,
+      onRemovePriorConversation: ee,
+      cwd: I,
+      hostId: L,
+      fileAttachmentHostId: R,
+    } = e,
+    z;
+  t[0] === i ? (z = t[1]) : ((z = i === void 0 ? [] : i), (t[0] = i), (t[1] = z));
+  let B = z,
+    V;
+  t[2] === o ? (V = t[3]) : ((V = o === void 0 ? [] : o), (t[2] = o), (t[3] = V));
+  let H = V,
+    te;
+  t[4] === s ? (te = t[5]) : ((te = s === void 0 ? [] : s), (t[4] = s), (t[5] = te));
+  let ne = te,
+    re;
+  t[6] === c ? (re = t[7]) : ((re = c === void 0 ? [] : c), (t[6] = c), (t[7] = re));
+  let U = re,
+    ie;
+  t[8] === u ? (ie = t[9]) : ((ie = u === void 0 ? [] : u), (t[8] = u), (t[9] = ie));
+  let ae = ie,
+    oe = E === void 0 ? null : E,
+    W = R === void 0 ? L : R,
+    G = Ns(),
+    se,
+    K,
+    q,
+    ce,
+    le,
+    ue,
+    de,
+    fe,
+    pe,
+    me,
+    he,
+    ge,
+    _e,
+    ve,
+    ye,
+    be;
+  if (
+    t[10] !== b ||
+    t[11] !== a ||
+    t[12] !== w ||
+    t[13] !== x ||
+    t[14] !== I ||
+    t[15] !== l ||
+    t[16] !== L ||
+    t[17] !== r ||
+    t[18] !== B ||
+    t[19] !== G ||
+    t[20] !== S ||
+    t[21] !== k ||
+    t[22] !== A ||
+    t[23] !== j ||
+    t[24] !== M ||
+    t[25] !== N ||
+    t[26] !== f ||
+    t[27] !== P ||
+    t[28] !== d ||
+    t[29] !== ee ||
+    t[30] !== ae ||
+    t[31] !== H ||
+    t[32] !== ne ||
+    t[33] !== U ||
+    t[34] !== F ||
+    t[35] !== T[0] ||
+    t[36] !== T.length ||
+    t[37] !== oe ||
+    t[38] !== C
+  ) {
+    be = Symbol.for(`react.early_return_sentinel`);
+    bb0: {
+      let {
+          annotationCommentAttachments: e,
+          designTweakCommentAttachments: i,
+          diffCommentAttachments: o,
+        } = HC(x),
+        s = [...e, ...i],
+        c = s.map(zr),
+        u;
+      t[55] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((u = typeof window > `u` || !eu(window.location.pathname)), (t[55] = u))
+        : (u = t[55]);
+      let p = u,
+        m = r.map(FO),
+        h = r.map(PO),
+        g = S.filter(NO),
+        _ = g.flatMap(MO);
+      a.forEach((e) => {
+        let t = e.imageDataUrl ?? e.imagePath;
+        t != null &&
+          (m.push({ alt: `User attachment`, src: t }),
+          h.push({ alt: `User attachment`, accessibilityText: e.axTree, src: t }));
+      });
+      let v = m.length;
+      (m.push(..._.map(jO)), h.push(..._.map(AO)), (se = T[0]));
+      let y =
+        F != null ||
+        B.length > 0 ||
+        s.length > 0 ||
+        o.length > 0 ||
+        g.length > 0 ||
+        C.length > 0 ||
+        w != null ||
+        T.length > 0 ||
+        oe != null ||
+        l.length > 0 ||
+        ne.length > 0 ||
+        ae.length > 0 ||
+        U.length > 0 ||
+        b.length > 0;
+      if (!(r.length > 0 || a.length > 0 || H.length > 0 || y)) {
+        be = null;
+        break bb0;
+      }
+      ((ve = `hide-scrollbar w-full overflow-x-auto p-px`),
+        (ye = !0),
+        (K = `flex min-w-max items-end gap-2`),
+        (q = r.map((e, t) =>
+          (0, VO.jsx)(
+            Vl,
+            {
+              src: LO(e),
+              filename: e.filename,
+              alt: `User attachment`,
+              loading: e.uploadStatus === `uploading`,
+              previewEnabled: p,
+              previewIndex: t,
+              previewItems: m,
+              compact: y,
+              onRemove: () => d(e.id),
+            },
+            e.id,
+          ),
+        )),
+        t[56] === H ? (ce = t[57]) : ((ce = H.map(kO)), (t[56] = H), (t[57] = ce)),
+        (le = a.map((e, t) => {
+          let n = e.imageDataUrl ?? e.imagePath;
+          return n == null
+            ? null
+            : (0, VO.jsx)(
+                Hh,
+                {
+                  screenshotSrc: n,
+                  transitionSnapshotSrc: e.transitionSnapshotDataUrl,
+                  transitionSnapshotHeight: e.transitionSnapshotHeight,
+                  appName: e.appName,
+                  accessibilityText: e.axTree,
+                  windowTitle: e.windowTitle,
+                  previewEnabled: p,
+                  previewIndex: r.length + a.slice(0, t).filter(OO).length,
+                  previewItems: h,
+                  onRemove: () => f(t),
+                },
+                `${e.bundleIdentifier}-${e.imageName ?? t}`,
+              );
+        })),
+        t[58] !== G || t[59] !== ee || t[60] !== F
+          ? ((ue = F
+              ? (0, VO.jsx)(uf, {
+                  Icon: V_,
+                  layout: `card`,
+                  onRemove: ee,
+                  onRemoveAriaLabel: ee
+                    ? G.formatMessage({
+                        id: `composer.priorContext.removeAriaLabel`,
+                        defaultMessage: `Remove previous context`,
+                        description: `Aria label for removing a prior context attachment pill`,
+                      })
+                    : void 0,
+                  children: (0, VO.jsx)(J, {
+                    id: `composer.priorContext.label`,
+                    defaultMessage: `Previous context`,
+                    description: `Attachment pill label for including the prior conversation context`,
+                  }),
+                })
+              : null),
+            (t[58] = G),
+            (t[59] = ee),
+            (t[60] = F),
+            (t[61] = ue))
+          : (ue = t[61]),
+        (de =
+          s.length > 0
+            ? (0, VO.jsx)(od, {
+                count: s.length,
+                attachmentKind: `annotation`,
+                onRemove: k,
+                icon: n(c),
+                tooltipContent: (0, VO.jsx)(Ph, { commentAttachments: s, cwd: I, hostId: L }),
+              })
+            : null),
+        t[62] !== B || t[63] !== j
+          ? ((fe =
+              B.length > 0
+                ? (0, VO.jsx)(od, {
+                    count: B.length,
+                    attachmentKind: `comment`,
+                    icon: `image-comment`,
+                    onRemove: j,
+                    tooltipContent: (0, VO.jsx)(`ol`, {
+                      className: `flex flex-col gap-2 text-sm`,
+                      children: B.map(DO),
+                    }),
+                  })
+                : null),
+            (t[62] = B),
+            (t[63] = j),
+            (t[64] = fe))
+          : (fe = t[64]),
+        t[65] !== I || t[66] !== o || t[67] !== L || t[68] !== A
+          ? ((pe =
+              o.length > 0
+                ? (0, VO.jsx)(od, {
+                    count: o.length,
+                    attachmentKind: `comment`,
+                    onRemove: A,
+                    tooltipContent: (0, VO.jsx)(Ph, { commentAttachments: o, cwd: I, hostId: L }),
+                  })
+                : null),
+            (t[65] = I),
+            (t[66] = o),
+            (t[67] = L),
+            (t[68] = A),
+            (t[69] = pe))
+          : (pe = t[69]),
+        t[70] !== N || t[71] !== C
+          ? ((me = C.length > 0 ? (0, VO.jsx)(Ad, { selections: C.map(EO), onRemove: N }) : null),
+            (t[70] = N),
+            (t[71] = C),
+            (t[72] = me))
+          : (me = t[72]),
+        t[73] !== w || t[74] !== P
+          ? ((he =
+              w == null
+                ? null
+                : (0, VO.jsx)(pO, {
+                    faviconUrl: w.faviconUrl,
+                    selectedText: w.selectedText,
+                    onRemove: P,
+                  })),
+            (t[73] = w),
+            (t[74] = P),
+            (t[75] = he))
+          : (he = t[75]),
+        (ge =
+          g.length > 0
+            ? (0, VO.jsx)(uf, {
+                Icon: V_,
+                layout: IO(g),
+                onRemove: M,
+                onRemoveAriaLabel: G.formatMessage({
+                  id: `composer.mcpAppModelContext.removeAriaLabel`,
+                  defaultMessage: `Remove app context attachment`,
+                  description: `Aria label for removing MCP app model context attachments`,
+                }),
+                children:
+                  g.length === 1
+                    ? (g[0]?.composerLabel ??
+                      (0, VO.jsx)(J, {
+                        id: `composer.mcpAppModelContext.singleLabel`,
+                        defaultMessage: `From {title}`,
+                        description: `Attachment pill label for one MCP app model context`,
+                        values: { title: g[0]?.title },
+                      }))
+                    : (0, VO.jsx)(J, {
+                        id: `composer.mcpAppModelContext.multipleLabel`,
+                        defaultMessage: `{count} app updates`,
+                        description: `Attachment pill label for multiple MCP app model context attachments`,
+                        values: { count: g.length },
+                      }),
+              })
+            : null),
+        (_e = _.map((e, t) =>
+          (0, VO.jsx)(
+            Vl,
+            { src: e.src, alt: e.alt, previewEnabled: p, previewIndex: v + t, previewItems: m },
+            e.id,
+          ),
+        )));
+    }
+    ((t[10] = b),
+      (t[11] = a),
+      (t[12] = w),
+      (t[13] = x),
+      (t[14] = I),
+      (t[15] = l),
+      (t[16] = L),
+      (t[17] = r),
+      (t[18] = B),
+      (t[19] = G),
+      (t[20] = S),
+      (t[21] = k),
+      (t[22] = A),
+      (t[23] = j),
+      (t[24] = M),
+      (t[25] = N),
+      (t[26] = f),
+      (t[27] = P),
+      (t[28] = d),
+      (t[29] = ee),
+      (t[30] = ae),
+      (t[31] = H),
+      (t[32] = ne),
+      (t[33] = U),
+      (t[34] = F),
+      (t[35] = T[0]),
+      (t[36] = T.length),
+      (t[37] = oe),
+      (t[38] = C),
+      (t[39] = se),
+      (t[40] = K),
+      (t[41] = q),
+      (t[42] = ce),
+      (t[43] = le),
+      (t[44] = ue),
+      (t[45] = de),
+      (t[46] = fe),
+      (t[47] = pe),
+      (t[48] = me),
+      (t[49] = he),
+      (t[50] = ge),
+      (t[51] = _e),
+      (t[52] = ve),
+      (t[53] = ye),
+      (t[54] = be));
+  } else
+    ((se = t[39]),
+      (K = t[40]),
+      (q = t[41]),
+      (ce = t[42]),
+      (le = t[43]),
+      (ue = t[44]),
+      (de = t[45]),
+      (fe = t[46]),
+      (pe = t[47]),
+      (me = t[48]),
+      (he = t[49]),
+      (ge = t[50]),
+      (_e = t[51]),
+      (ve = t[52]),
+      (ye = t[53]),
+      (be = t[54]));
+  if (be !== Symbol.for(`react.early_return_sentinel`)) return be;
+  let xe;
+  t[76] !== se || t[77] !== G || t[78] !== D || t[79] !== T.length
+    ? ((xe =
+        se == null
+          ? null
+          : (0, VO.jsx)(sg, {
+              filename: G.formatMessage(
+                {
+                  id: `pullRequestChecksAttachments.numChecks`,
+                  defaultMessage: `{count, plural, one {# failing check} other {# failing checks}}`,
+                  description: `Number of failing pull request checks attached to the message`,
+                },
+                { count: T.length },
+              ),
+              Icon: Yh,
+              onRemove: D,
+              layout: `card`,
+              subtitle:
+                T.length === 1
+                  ? se.name
+                  : G.formatMessage(
+                      {
+                        id: `pullRequestChecksAttachments.subtitle`,
+                        defaultMessage: `{checkName} +{count} more`,
+                        description: `Subtitle for failing pull request checks showing the first check name and how many other checks are attached`,
+                      },
+                      { checkName: se.name, count: T.length - 1 },
+                    ),
+              onRemoveAriaLabel: G.formatMessage({
+                id: `pullRequestChecksAttachments.removeAriaLabel`,
+                defaultMessage: `Remove failing checks attachment`,
+                description: `Aria label for removing the failing pull request checks attachment`,
+              }),
+            })),
+      (t[76] = se),
+      (t[77] = G),
+      (t[78] = D),
+      (t[79] = T.length),
+      (t[80] = xe))
+    : (xe = t[80]);
+  let Se;
+  t[81] !== G || t[82] !== O || t[83] !== oe
+    ? ((Se =
+        oe == null
+          ? null
+          : (0, VO.jsx)(sg, {
+              filename: G.formatMessage({
+                id: `pullRequestMergeConflictAttachment.title`,
+                defaultMessage: `Merge conflicts`,
+                description: `Attachment pill label for a pull request merge conflict fix task`,
+              }),
+              Icon: Yh,
+              onRemove: O,
+              layout: `card`,
+              subtitle: (0, VO.jsx)(J, {
+                id: `pullRequestMergeConflictAttachment.subtitle`,
+                defaultMessage: `PR {number}`,
+                description: `Subtitle for a pull request merge conflict attachment`,
+                values: { number: oe.number },
+              }),
+              onRemoveAriaLabel: G.formatMessage({
+                id: `pullRequestMergeConflictAttachment.removeAriaLabel`,
+                defaultMessage: `Remove merge conflict attachment`,
+                description: `Aria label for removing a pull request merge conflict attachment`,
+              }),
+            })),
+      (t[81] = G),
+      (t[82] = O),
+      (t[83] = oe),
+      (t[84] = Se))
+    : (Se = t[84]);
+  let Ce;
+  if (t[85] !== W || t[86] !== l || t[87] !== y || t[88] !== p) {
+    let e;
+    (t[90] !== W || t[91] !== y || t[92] !== p
+      ? ((e = (e, t) =>
+          (0, VO.jsx)(
+            sg,
+            {
+              filename: ou(e.label, zO(e)),
+              resourcePath: e.path,
+              folderPath: e.fsPath,
+              folderHostId: W,
+              lineInfo: zO(e),
+              onClick: () => y(e, W),
+              onRemove: () => p(t),
+              layout: `card`,
+            },
+            `attachment-${Ui(e)}`,
+          )),
+        (t[90] = W),
+        (t[91] = y),
+        (t[92] = p),
+        (t[93] = e))
+      : (e = t[93]),
+      (Ce = l.map(e)),
+      (t[85] = W),
+      (t[86] = l),
+      (t[87] = y),
+      (t[88] = p),
+      (t[89] = Ce));
+  } else Ce = t[89];
+  let we;
+  if (t[94] !== W || t[95] !== y || t[96] !== m || t[97] !== h || t[98] !== ae) {
+    let e;
+    (t[100] !== W || t[101] !== y || t[102] !== m || t[103] !== h
+      ? ((e = (e, t) =>
+          (0, VO.jsx)(
+            bO,
+            {
+              preview: e.preview,
+              onClick: () => y(e.file, ua(e, W)),
+              onRemove: m == null ? void 0 : () => m(t),
+              onShowInTextField: h != null && oo(e.characterCount) ? () => h(t) : void 0,
+            },
+            e.file.path,
+          )),
+        (t[100] = W),
+        (t[101] = y),
+        (t[102] = m),
+        (t[103] = h),
+        (t[104] = e))
+      : (e = t[104]),
+      (we = ae.map(e)),
+      (t[94] = W),
+      (t[95] = y),
+      (t[96] = m),
+      (t[97] = h),
+      (t[98] = ae),
+      (t[99] = we));
+  } else we = t[99];
+  let Te;
+  if (t[105] !== _ || t[106] !== U) {
+    let e;
+    (t[108] === _
+      ? (e = t[109])
+      : ((e = (e) =>
+          (0, VO.jsx)(
+            bO,
+            { isPending: !0, preview: e.preview, onRemove: _ == null ? void 0 : () => _(e.id) },
+            e.id,
+          )),
+        (t[108] = _),
+        (t[109] = e)),
+      (Te = U.map(e)),
+      (t[105] = _),
+      (t[106] = U),
+      (t[107] = Te));
+  } else Te = t[107];
+  let Ee;
+  if (t[110] !== g || t[111] !== ne) {
+    let e;
+    (t[113] === g
+      ? (e = t[114])
+      : ((e = (e) =>
+          (0, VO.jsx)(
+            sg,
+            {
+              filename: e.label,
+              onRemove: () => g(e.id),
+              subtitle: (0, VO.jsx)(J, {
+                id: `composer.fileAttachment.uploading`,
+                defaultMessage: `Uploading…`,
+                description: `Subtitle shown while a local file is being copied to a remote host`,
+              }),
+              layout: `card`,
+            },
+            e.id,
+          )),
+        (t[113] = g),
+        (t[114] = e)),
+      (Ee = ne.map(e)),
+      (t[110] = g),
+      (t[111] = ne),
+      (t[112] = Ee));
+  } else Ee = t[112];
+  let De;
+  if (t[115] !== b || t[116] !== W || t[117] !== y || t[118] !== v) {
+    let e;
+    (t[120] !== W || t[121] !== y || t[122] !== v
+      ? ((e = (e, t) =>
+          (0, VO.jsx)(
+            sg,
+            {
+              filename: ou(e.label, zO(e)),
+              resourcePath: e.path,
+              folderPath: e.fsPath,
+              folderHostId: W,
+              lineInfo: zO(e),
+              onClick: () => y(e, W),
+              onRemove: () => v(t),
+              layout: `card`,
+            },
+            `added-${Ui(e)}`,
+          )),
+        (t[120] = W),
+        (t[121] = y),
+        (t[122] = v),
+        (t[123] = e))
+      : (e = t[123]),
+      (De = b.map(e)),
+      (t[115] = b),
+      (t[116] = W),
+      (t[117] = y),
+      (t[118] = v),
+      (t[119] = De));
+  } else De = t[119];
+  let Oe;
+  t[124] !== K ||
+  t[125] !== q ||
+  t[126] !== ce ||
+  t[127] !== le ||
+  t[128] !== ue ||
+  t[129] !== de ||
+  t[130] !== fe ||
+  t[131] !== pe ||
+  t[132] !== me ||
+  t[133] !== he ||
+  t[134] !== ge ||
+  t[135] !== _e ||
+  t[136] !== xe ||
+  t[137] !== Se ||
+  t[138] !== Ce ||
+  t[139] !== we ||
+  t[140] !== Te ||
+  t[141] !== Ee ||
+  t[142] !== De
+    ? ((Oe = (0, VO.jsxs)(`div`, {
+        className: K,
+        children: [q, ce, le, ue, de, fe, pe, me, he, ge, _e, xe, Se, Ce, we, Te, Ee, De],
+      })),
+      (t[124] = K),
+      (t[125] = q),
+      (t[126] = ce),
+      (t[127] = le),
+      (t[128] = ue),
+      (t[129] = de),
+      (t[130] = fe),
+      (t[131] = pe),
+      (t[132] = me),
+      (t[133] = he),
+      (t[134] = ge),
+      (t[135] = _e),
+      (t[136] = xe),
+      (t[137] = Se),
+      (t[138] = Ce),
+      (t[139] = we),
+      (t[140] = Te),
+      (t[141] = Ee),
+      (t[142] = De),
+      (t[143] = Oe))
+    : (Oe = t[143]);
+  let ke;
+  return (
+    t[144] !== ve || t[145] !== ye || t[146] !== Oe
+      ? ((ke = (0, VO.jsx)(`div`, {
+          className: ve,
+          "data-composer-attachments-row": ye,
+          children: Oe,
+        })),
+        (t[144] = ve),
+        (t[145] = ye),
+        (t[146] = Oe),
+        (t[147] = ke))
+      : (ke = t[147]),
+    ke
+  );
+}
+function EO(e) {
+  let { text: t } = e;
+  return t;
+}
+function DO(e, t) {
+  return (0, VO.jsxs)(
+    `li`,
+    {
+      className: `flex min-w-0 gap-2`,
+      children: [
+        (0, VO.jsx)(`span`, {
+          className: `shrink-0 text-token-text-tertiary`,
+          children: (0, VO.jsx)(J, {
+            id: `attachmentsRow.imageCommentSummaryNumber`,
+            defaultMessage: `{commentNumber}.`,
+            description: `Ordinal label for an image comment in the composer attachment summary.`,
+            values: { commentNumber: t + 1 },
+          }),
+        }),
+        (0, VO.jsx)(`span`, { className: `min-w-0 break-words`, children: e.text }),
+      ],
+    },
+    e.id,
+  );
+}
+function OO(e) {
+  return (e.imageDataUrl ?? e.imagePath) != null;
+}
+function kO(e) {
+  let {
+      requestId: t,
+      transitionSnapshotHeight: n,
+      transitionSnapshotHeightResolved: r,
+      transitionSpringDampingFraction: i,
+      transitionSpringResponse: a,
+    } = e,
+    o = xu(n),
+    s = r ? o : 0,
+    c = RO({ transitionSpringDampingFraction: i, transitionSpringResponse: a });
+  return (0, VO.jsx)(
+    zo.div,
+    {
+      "aria-hidden": `true`,
+      className: `composer-attachment-surface relative flex-shrink-0 overflow-hidden rounded-2xl`,
+      "data-pending-appshot-capture-request-id": t,
+      initial: { height: 0, marginRight: -8, width: 0 },
+      animate: { height: s, marginRight: 0, width: 232 },
+      transition: { height: c, marginRight: c, width: c },
+      "data-pending-appshot-capture": !0,
+    },
+    `pending-appshot-capture-${t}`,
+  );
+}
+function AO(e) {
+  let { alt: t, src: n } = e;
+  return { alt: t, src: n };
+}
+function jO(e) {
+  let { alt: t, src: n } = e;
+  return { alt: t, src: n };
+}
+function MO(e) {
+  return e.imageAttachments.map((t, n) => ({ alt: e.title, id: `${e.id}-${n}`, src: t.src }));
+}
+function NO(e) {
+  return e.showInComposer !== !1;
+}
+function PO(e) {
+  return { alt: `User attachment`, src: LO(e) };
+}
+function FO(e) {
+  return { alt: `User attachment`, src: LO(e) };
+}
+function IO(e) {
+  return e.length === 1 ? (e[0]?.composerAttachmentLayout ?? `card`) : `card`;
+}
+function LO(e) {
+  return e.previewSrc ?? e.src;
+}
+function RO({ transitionSpringDampingFraction: e, transitionSpringResponse: t }) {
+  return { type: `spring`, visualDuration: t ?? 0.35, bounce: 1 - (e ?? 0.73), delay: 0.15 };
+}
+function zO(e) {
+  if (e.startLine != null)
+    return e.endLine != null && e.endLine !== e.startLine
+      ? `${e.startLine}-${e.endLine}`
+      : `${e.startLine}`;
+}
+var BO,
+  VO,
+  HO = e(() => {
+    ((BO = X()),
+      is(),
+      Xa(),
+      Y(),
+      of(),
+      fu(),
+      gO(),
+      Kd(),
+      vf(),
+      ql(),
+      om(),
+      wO(),
+      Hu(),
+      GC(),
+      B_(),
+      rp(),
+      oa(),
+      ng(),
+      ei(),
+      $d(),
+      Ao(),
+      Jd(),
+      to(),
+      (VO = Z()));
+  });
+function UO(e) {
+  if (e == null) return [];
+  let t = new Map();
+  for (let n of Ja(e))
+    for (let e of n.items) {
+      if (e.type !== `collabAgentToolCall` || e.tool !== `spawnAgent`) continue;
+      let n = tk(e);
+      for (let r of e.receiverThreadIds) {
+        let e = Hr(r);
+        t.has(e) || t.set(e, { conversationId: e, thread: n.get(r) ?? null });
+      }
+    }
+  return Array.from(t.values());
+}
+function WO(e, t) {
+  return e == null ? sk(t) === `inProgress` : e.status !== `done`;
+}
+function GO(e) {
+  let t = e.getConversation(e.conversationId);
+  return WO(e.rowsByConversationId.get(e.conversationId), t)
+    ? !0
+    : UO(t).some((t) => GO({ ...e, conversationId: t.conversationId }));
+}
+function KO(e) {
+  let t = [];
+  for (let n of e.memberships) {
+    let r = e.getConversation(n.conversationId);
+    if (WO(e.rowsByConversationId.get(n.conversationId), r)) {
+      t.push(n.conversationId);
+      continue;
+    }
+    t.push(...KO({ ...e, memberships: UO(r) }));
+  }
+  return t;
+}
+function qO(e) {
+  if (e.conversation == null || e.memberships.length === 0) return new Map();
+  let t = new Map();
+  for (let n of e.memberships) t.set(n.conversationId, n);
+  let n = new Map(),
+    r = Ja(e.conversation);
+  for (let e = 0; e < r.length; e += 1) {
+    let i = r[e];
+    if (i != null)
+      for (let r of i.items) {
+        if (r.type !== `collabAgentToolCall`) continue;
+        let a = tk(r),
+          o = YO(i, e);
+        for (let e of r.receiverThreadIds) {
+          let i = Hr(e),
+            s = t.get(i),
+            c = n.get(i);
+          s != null &&
+            n.set(i, {
+              tool: r.tool === `wait` ? (c?.tool ?? r.tool) : r.tool,
+              parentTurnKey: o,
+              thread: a.get(e) ?? c?.thread ?? s.thread,
+              agentState: r.agentsStates[e] ?? c?.agentState ?? null,
+              spawnModel:
+                r.tool === `spawnAgent`
+                  ? (r.model ?? c?.spawnModel ?? null)
+                  : (c?.spawnModel ?? null),
+            });
+        }
+      }
+  }
+  return n;
+}
+function JO(e) {
+  if (e == null) return `0`;
+  let t = lc(e);
+  if (t == null) return `0`;
+  let n = Ja(e),
+    r = n.findIndex((e) => e === t);
+  return YO(t, r >= 0 ? r : n.length - 1);
+}
+function YO(e, t) {
+  return e?.turnId == null ? `${t + 1}` : e.turnId;
+}
+function XO(e) {
+  if (e == null) return null;
+  let t = e
+    .replace(/^\s*(?:>\s*|#{1,6}\s+|(?:[-*+]|\d+\.)\s+)*/u, ``)
+    .replace(/\*/gu, ``)
+    .replace(/\s+/gu, ` `)
+    .trim();
+  return (
+    (t = ok(t)),
+    (t = t.replace(/^(?:i['’]m|i am)\s+/iu, ``)),
+    (t = t.replace(/[.!?;,:]+$/u, ``).trim()),
+    t.replace(/[*_`]/gu, ``).trim().length === 0
+      ? null
+      : (/^\p{Lu}\p{Ll}/u.test(t) && (t = `${t[0]?.toLowerCase() ?? ``}${t.slice(1)}`), t)
+  );
+}
+function ZO(e) {
+  let t = lk(e);
+  if (t?.status !== `inProgress`) return null;
+  for (let e = t.items.length - 1; e >= 0; --e) {
+    let n = t.items[e];
+    if (n?.type === `reasoning`)
+      for (let e = n.summary.length - 1; e >= 0; --e) {
+        let t = XO(n.summary[e]);
+        if (t != null) return t;
+      }
+  }
+  return null;
+}
+function QO(e) {
+  if (e.isSuppressedAfterArchive) return null;
+  let t = e.latestReference;
+  if (t == null) return null;
+  let n = uk(t.agentState?.status ?? null);
+  if (t.tool === `closeAgent` || n === `hidden`) return null;
+  let r = t.parentTurnKey === e.currentParentTurnKey,
+    i = sk(e.childConversation),
+    a = n === `unknown` && r && e.isCurrentParentTurnInProgress,
+    o = i === `inProgress` || (n === `active` && r) || a,
+    s = !o && n === `waiting`,
+    c = s || (!o && !s && r && n !== `done`),
+    l = !o && !c && (n === `done` || i === `notInProgress`);
+  if (!o && !c && !l) return null;
+  let u = nk({
+      membership: e.membership,
+      latestReference: t,
+      childConversation: e.childConversation,
+    }),
+    d = ik({
+      membership: e.membership,
+      latestReference: t,
+      childConversation: e.childConversation,
+    }),
+    f = ck(e.childConversation);
+  return l
+    ? {
+        conversationId: e.membership.conversationId,
+        displayName: u,
+        agentRole: d,
+        spawnModel: t.spawnModel,
+        status: `done`,
+        statusSummary: null,
+        diffStats: f,
+      }
+    : c
+      ? {
+          conversationId: e.membership.conversationId,
+          displayName: u,
+          agentRole: d,
+          spawnModel: t.spawnModel,
+          status: `waiting`,
+          statusSummary: null,
+          diffStats: f,
+        }
+      : {
+          conversationId: e.membership.conversationId,
+          displayName: u,
+          agentRole: d,
+          spawnModel: t.spawnModel,
+          status: `active`,
+          statusSummary: ZO(e.childConversation),
+          diffStats: f,
+        };
+}
+function $O(e) {
+  let t = qO({ conversation: e.conversation, memberships: e.memberships }),
+    n = JO(e.conversation),
+    r = sk(e.conversation) === `inProgress`,
+    i = [];
+  for (let a = 0; a < e.memberships.length; a += 1) {
+    let o = e.memberships[a];
+    if (o == null) continue;
+    let s = e.childConversations[a] ?? null,
+      c = s == null ? null : { source: s.source, turns: Ja(s) },
+      l = QO({
+        membership: o,
+        latestReference: t.get(o.conversationId) ?? null,
+        childConversation: c,
+        isSuppressedAfterArchive: e.childConversationSuppressedStates[a] ?? !1,
+        currentParentTurnKey: n,
+        isCurrentParentTurnInProgress: r,
+      });
+    l != null && i.push(l);
+  }
+  return i;
+}
+function ek(e) {
+  for (let t = 0; t < e.memberships.length; t += 1) {
+    let n = e.memberships[t],
+      r = e.childConversations[t] ?? null;
+    if (n == null || r == null || n.conversationId === e.activeConversationId) continue;
+    let i = rr(r);
+    if (i != null)
+      return {
+        conversationId: n.conversationId,
+        mentionLabel: rk({ membership: n, childConversation: r }),
+        pendingRequest: i,
+      };
+  }
+  return null;
+}
+function tk(e) {
+  return new Map(e.receiverThreads.map((e) => [e.threadId, e.thread]));
+}
+function nk(e) {
+  return ak(
+    it(e.latestReference.thread) ??
+      it(e.membership.thread) ??
+      wn(e.childConversation?.source)?.agentNickname ??
+      `${e.membership.conversationId}`,
+  );
+}
+function rk(e) {
+  return ak(it(e.membership.thread) ?? wn(e.childConversation?.source)?.agentNickname ?? `Agent`);
+}
+function ik(e) {
+  let t =
+    e.latestReference.thread?.agentRole ??
+    e.membership.thread?.agentRole ??
+    wn(e.childConversation?.source)?.agentRole;
+  if (t == null) return null;
+  let n = t.trim();
+  return n.length === 0 || n === `default` ? null : n;
+}
+function ak(e) {
+  let t = e.trim();
+  return t.startsWith(`@`) ? t.slice(1) : t;
+}
+function ok(e) {
+  let t = e;
+  for (;;) {
+    let e = t
+      .replace(/^\*\*(.+)\*\*$/u, `$1`)
+      .replace(/^__(.+)__$/u, `$1`)
+      .replace(/^\*(.+)\*$/u, `$1`)
+      .replace(/^_(.+)_$/u, `$1`)
+      .replace(/^`(.+)`$/u, `$1`)
+      .trim();
+    if (e === t) return t;
+    t = e;
+  }
+}
+function sk(e) {
+  let t = lk(e);
+  return t == null ? `unknown` : t.status === `inProgress` ? `inProgress` : `notInProgress`;
+}
+function ck(e) {
+  let t = lk(e);
+  if (t?.diff == null) return null;
+  let n = { linesAdded: 0, linesRemoved: 0 };
+  for (let e of lp(t.diff)) ((n.linesAdded += e.additions), (n.linesRemoved += e.deletions));
+  return n.linesAdded === 0 && n.linesRemoved === 0 ? null : n;
+}
+function lk(e) {
+  return e == null ? null : lc(e);
+}
+function uk(e) {
+  switch (e) {
+    case `pendingInit`:
+      return `waiting`;
+    case `running`:
+      return `active`;
+    case `completed`:
+      return `done`;
+    case `interrupted`:
+    case `errored`:
+    case `shutdown`:
+    case `notFound`:
+      return `hidden`;
+    case null:
+    case void 0:
+      return `unknown`;
+  }
+}
+var dk = e(() => {
+  (Xa(), _i(), s(), jt(), lh(), Pe());
+});
+function fk(e) {
+  let t = (0, mk.c)(30),
+    {
+      bodyClassName: n,
+      headerActionsClassName: r,
+      children: i,
+      collapseButtonAriaLabel: a,
+      collapsedSummary: o,
+      expandedSummary: s,
+      headerActions: c,
+      expandButtonAriaLabel: l,
+    } = e,
+    u = r === void 0 ? `gap-2` : r,
+    d = s === void 0 ? o : s,
+    [f, p] = (0, hk.useState)(!1),
+    m = f ? d : o,
+    h;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((h = () => {
+        p(pk);
+      }),
+      (t[0] = h))
+    : (h = t[0]);
+  let g = h,
+    _;
+  t[1] !== f || t[2] !== m
+    ? ((_ = (0, gk.jsx)(`button`, {
+        type: `button`,
+        className: `flex min-w-0 flex-1 cursor-interaction items-center gap-2 text-left`,
+        "aria-expanded": f,
+        onClick: g,
+        children: m,
+      })),
+      (t[1] = f),
+      (t[2] = m),
+      (t[3] = _))
+    : (_ = t[3]);
+  let v;
+  t[4] === u ? (v = t[5]) : ((v = qc(`flex shrink-0 items-center`, u)), (t[4] = u), (t[5] = v));
+  let y;
+  t[6] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((y = (e) => {
+        (g(), e.detail > 0 && e.currentTarget.blur());
+      }),
+      (t[6] = y))
+    : (y = t[6]);
+  let b = f ? a : l,
+    x = f && `rotate-90`,
+    S;
+  t[7] === x
+    ? (S = t[8])
+    : ((S = qc(`icon-2xs shrink-0 text-current transition-transform duration-300`, x)),
+      (t[7] = x),
+      (t[8] = S));
+  let C;
+  t[9] === S
+    ? (C = t[10])
+    : ((C = (0, gk.jsx)(Qs, { className: S, "aria-hidden": !0 })), (t[9] = S), (t[10] = C));
+  let w;
+  t[11] !== C || t[12] !== b
+    ? ((w = (0, gk.jsx)(ya, {
+        size: `icon`,
+        color: `ghost`,
+        className: `[&>svg]:icon-2xs`,
+        onClick: y,
+        "aria-label": b,
+        children: C,
+      })),
+      (t[11] = C),
+      (t[12] = b),
+      (t[13] = w))
+    : (w = t[13]);
+  let T;
+  t[14] !== c || t[15] !== w || t[16] !== v
+    ? ((T = (0, gk.jsxs)(`div`, { className: v, children: [c, w] })),
+      (t[14] = c),
+      (t[15] = w),
+      (t[16] = v),
+      (t[17] = T))
+    : (T = t[17]);
+  let E;
+  t[18] !== T || t[19] !== _
+    ? ((E = (0, gk.jsxs)(`div`, {
+        className: `flex items-center justify-between gap-2 px-3 py-row-y`,
+        children: [_, T],
+      })),
+      (t[18] = T),
+      (t[19] = _),
+      (t[20] = E))
+    : (E = t[20]);
+  let D;
+  t[21] !== n || t[22] !== i || t[23] !== f
+    ? ((D = f
+        ? (0, gk.jsx)(zo.div, {
+            initial: { height: 0, opacity: 0 },
+            animate: { height: `auto`, opacity: 1, transitionEnd: { overflow: `visible` } },
+            exit: { height: 0, opacity: 0, overflow: `hidden`, pointerEvents: `none` },
+            transition: Wr,
+            className: `overflow-hidden`,
+            children: (0, gk.jsx)(`div`, { className: n, children: i }),
+          })
+        : null),
+      (t[21] = n),
+      (t[22] = i),
+      (t[23] = f),
+      (t[24] = D))
+    : (D = t[24]);
+  let O;
+  t[25] === D
+    ? (O = t[26])
+    : ((O = (0, gk.jsx)(Oa, { initial: !1, children: D })), (t[25] = D), (t[26] = O));
+  let k;
+  return (
+    t[27] !== E || t[28] !== O
+      ? ((k = (0, gk.jsxs)(ew, { children: [E, O] })), (t[27] = E), (t[28] = O), (t[29] = k))
+      : (k = t[29]),
+    k
+  );
+}
+function pk(e) {
+  return !e;
+}
+var mk,
+  hk,
+  gk,
+  _k = e(() => {
+    ((mk = X()), Xn(), is(), (hk = t(El(), 1)), _s(), zi(), ri(), aw(), (gk = Z()));
+  });
+function vk(e) {
+  let t = (0, yk.c)(32),
+    n,
+    r,
+    i,
+    a,
+    o,
+    s,
+    c,
+    l;
+  t[0] === e
+    ? ((n = t[1]),
+      (r = t[2]),
+      (i = t[3]),
+      (a = t[4]),
+      (o = t[5]),
+      (s = t[6]),
+      (c = t[7]),
+      (l = t[8]))
+    : (({
+        actions: n,
+        className: r,
+        icon: i,
+        meta: a,
+        title: s,
+        titleClassName: c,
+        trailing: l,
+        ...o
+      } = e),
+      (t[0] = e),
+      (t[1] = n),
+      (t[2] = r),
+      (t[3] = i),
+      (t[4] = a),
+      (t[5] = o),
+      (t[6] = s),
+      (t[7] = c),
+      (t[8] = l));
+  let u;
+  t[9] === r
+    ? (u = t[10])
+    : ((u = qc(`group flex min-w-0 items-center justify-between gap-2 py-0.5 text-sm`, r)),
+      (t[9] = r),
+      (t[10] = u));
+  let d;
+  t[11] === i
+    ? (d = t[12])
+    : ((d =
+        i == null
+          ? null
+          : (0, bk.jsx)(`span`, {
+              className: `flex h-4 shrink-0 items-center justify-center`,
+              children: i,
+            })),
+      (t[11] = i),
+      (t[12] = d));
+  let f;
+  t[13] === c ? (f = t[14]) : ((f = qc(`min-w-0 flex-1 leading-4`, c)), (t[13] = c), (t[14] = f));
+  let p;
+  t[15] === a
+    ? (p = t[16])
+    : ((p =
+        a == null
+          ? null
+          : (0, bk.jsx)(`span`, {
+              className: `ml-1 text-token-description-foreground`,
+              children: a,
+            })),
+      (t[15] = a),
+      (t[16] = p));
+  let m;
+  t[17] !== f || t[18] !== p || t[19] !== s
+    ? ((m = (0, bk.jsxs)(`div`, { className: f, children: [s, p] })),
+      (t[17] = f),
+      (t[18] = p),
+      (t[19] = s),
+      (t[20] = m))
+    : (m = t[20]);
+  let h;
+  t[21] !== d || t[22] !== m
+    ? ((h = (0, bk.jsxs)(`div`, {
+        className: `flex min-w-0 flex-1 items-center gap-1.5`,
+        children: [d, m],
+      })),
+      (t[21] = d),
+      (t[22] = m),
+      (t[23] = h))
+    : (h = t[23]);
+  let g;
+  t[24] !== n || t[25] !== l
+    ? ((g =
+        l != null || n != null
+          ? (0, bk.jsxs)(`div`, { className: `flex shrink-0 items-center gap-1`, children: [l, n] })
+          : null),
+      (t[24] = n),
+      (t[25] = l),
+      (t[26] = g))
+    : (g = t[26]);
+  let _;
+  return (
+    t[27] !== o || t[28] !== u || t[29] !== h || t[30] !== g
+      ? ((_ = (0, bk.jsxs)(`div`, { ...o, className: u, children: [h, g] })),
+        (t[27] = o),
+        (t[28] = u),
+        (t[29] = h),
+        (t[30] = g),
+        (t[31] = _))
+      : (_ = t[31]),
+    _
+  );
+}
+var yk,
+  bk,
+  xk = e(() => {
+    ((yk = X()), Xn(), (bk = Z()));
+  });
+function Sk(e) {
+  let t = (0, Ek.c)(39),
+    { canStopAll: n, onOpenThread: r, onStopAll: i, rows: a } = e,
+    o = Ns();
+  if (a.length === 0) return null;
+  let s;
+  t[0] === a
+    ? (s = t[1])
+    : ((s = a.reduce(Ck, { linesAdded: 0, linesRemoved: 0 })), (t[0] = a), (t[1] = s));
+  let c = s,
+    l = c.linesAdded !== 0 || c.linesRemoved !== 0,
+    u,
+    d;
+  if (t[2] !== o || t[3] !== a.length) {
+    u = o.formatMessage(
+      {
+        id: `composer.backgroundSubagents.summary`,
+        defaultMessage: `{count, plural, one {# background agent} other {# background agents}}`,
+        description: `Summary label for the background subagents panel header.`,
+      },
+      { count: a.length },
+    );
+    let e = o.formatMessage({
+      id: `composer.backgroundSubagents.invokeAgents`,
+      defaultMessage: `(@ to tag agents)`,
+      description: `Hint shown after the background agent summary when the panel is expanded.`,
+    });
+    ((d = o.formatMessage(
+      {
+        id: `composer.backgroundSubagents.summary.expanded`,
+        defaultMessage: `{summary} {hint}`,
+        description: `Background agent summary label when the panel is expanded.`,
+      },
+      { summary: u, hint: e },
+    )),
+      (t[2] = o),
+      (t[3] = a.length),
+      (t[4] = u),
+      (t[5] = d));
+  } else ((u = t[4]), (d = t[5]));
+  let f = d,
+    p;
+  t[6] === o
+    ? (p = t[7])
+    : ((p = o.formatMessage({
+        id: `composer.backgroundSubagents.collapse`,
+        defaultMessage: `Collapse background agent details`,
+        description: `Aria label for button that collapses background agent progress details.`,
+      })),
+      (t[6] = o),
+      (t[7] = p));
+  let m;
+  t[8] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((m = (0, Dk.jsx)(vy, {
+        className: `icon-2xs shrink-0 text-token-input-placeholder-foreground/70`,
+        "aria-hidden": !0,
+      })),
+      (t[8] = m))
+    : (m = t[8]);
+  let h;
+  t[9] === u
+    ? (h = t[10])
+    : ((h = (0, Dk.jsxs)(Dk.Fragment, {
+        children: [
+          m,
+          (0, Dk.jsx)(`span`, {
+            className: `text-size-chat min-w-0 truncate leading-4 text-token-description-foreground`,
+            children: u,
+          }),
+        ],
+      })),
+      (t[9] = u),
+      (t[10] = h));
+  let g;
+  t[11] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((g = (0, Dk.jsx)(vy, {
+        className: `icon-2xs shrink-0 text-token-input-placeholder-foreground/70`,
+        "aria-hidden": !0,
+      })),
+      (t[11] = g))
+    : (g = t[11]);
+  let _;
+  t[12] === f
+    ? (_ = t[13])
+    : ((_ = (0, Dk.jsxs)(Dk.Fragment, {
+        children: [
+          g,
+          (0, Dk.jsx)(`span`, {
+            className: `text-size-chat min-w-0 truncate leading-4 text-token-description-foreground`,
+            children: f,
+          }),
+        ],
+      })),
+      (t[12] = f),
+      (t[13] = _));
+  let v;
+  t[14] !== l || t[15] !== c.linesAdded || t[16] !== c.linesRemoved
+    ? ((v = l
+        ? (0, Dk.jsx)(sv, {
+            linesAdded: c.linesAdded,
+            linesRemoved: c.linesRemoved,
+            variant: `monochrome`,
+            className: `text-size-chat`,
+          })
+        : null),
+      (t[14] = l),
+      (t[15] = c.linesAdded),
+      (t[16] = c.linesRemoved),
+      (t[17] = v))
+    : (v = t[17]);
+  let y;
+  t[18] !== n || t[19] !== o || t[20] !== i
+    ? ((y = n
+        ? (0, Dk.jsx)(Cn, {
+            side: `top`,
+            tooltipContent: (0, Dk.jsx)(J, {
+              id: `composer.backgroundSubagents.stopAllTooltip`,
+              defaultMessage: `Stop all subagents in this chat`,
+              description: `Tooltip for button that stops all descendant subagents for the current thread.`,
+            }),
+            children: (0, Dk.jsx)(`button`, {
+              type: `button`,
+              className: `flex size-4 shrink-0 cursor-interaction items-center justify-center border-0 bg-transparent p-0 text-token-text-tertiary hover:text-token-foreground focus:outline-none`,
+              onClick: i,
+              "aria-label": o.formatMessage({
+                id: `composer.backgroundSubagents.stopAll`,
+                defaultMessage: `Stop all`,
+                description: `Button label to stop all descendant subagents for the current thread.`,
+              }),
+              children: (0, Dk.jsx)(Nl, { className: `icon-xs`, "aria-hidden": !0 }),
+            }),
+          })
+        : null),
+      (t[18] = n),
+      (t[19] = o),
+      (t[20] = i),
+      (t[21] = y))
+    : (y = t[21]);
+  let b;
+  t[22] !== v || t[23] !== y
+    ? ((b = (0, Dk.jsxs)(Dk.Fragment, { children: [v, y] })), (t[22] = v), (t[23] = y), (t[24] = b))
+    : (b = t[24]);
+  let x;
+  t[25] === o
+    ? (x = t[26])
+    : ((x = o.formatMessage({
+        id: `composer.backgroundSubagents.expand`,
+        defaultMessage: `Expand background agent details`,
+        description: `Aria label for button that expands background agent progress details.`,
+      })),
+      (t[25] = o),
+      (t[26] = x));
+  let S;
+  if (t[27] !== r || t[28] !== a) {
+    let e;
+    (t[30] === r
+      ? (e = t[31])
+      : ((e = (e) =>
+          (0, Dk.jsx)(wk, { row: e, onOpenThread: () => r(e.conversationId) }, e.conversationId)),
+        (t[30] = r),
+        (t[31] = e)),
+      (S = a.map(e)),
+      (t[27] = r),
+      (t[28] = a),
+      (t[29] = S));
+  } else S = t[29];
+  let C;
+  return (
+    t[32] !== b || t[33] !== x || t[34] !== S || t[35] !== p || t[36] !== h || t[37] !== _
+      ? ((C = (0, Dk.jsx)(fk, {
+          bodyClassName: `vertical-scroll-fade-mask flex max-h-24 flex-col gap-0.5 overflow-y-auto px-3 pb-2 [--edge-fade-distance:1rem]`,
+          collapseButtonAriaLabel: p,
+          collapsedSummary: h,
+          expandedSummary: _,
+          headerActions: b,
+          expandButtonAriaLabel: x,
+          children: S,
+        })),
+        (t[32] = b),
+        (t[33] = x),
+        (t[34] = S),
+        (t[35] = p),
+        (t[36] = h),
+        (t[37] = _),
+        (t[38] = C))
+      : (C = t[38]),
+    C
+  );
+}
+function Ck(e, t) {
+  return {
+    linesAdded: e.linesAdded + (t.diffStats?.linesAdded ?? 0),
+    linesRemoved: e.linesRemoved + (t.diffStats?.linesRemoved ?? 0),
+  };
+}
+function wk(e) {
+  let t = (0, Ek.c)(32),
+    { onOpenThread: n, row: r } = e,
+    i = Ns(),
+    a;
+  t[0] !== r.agentRole || t[1] !== r.spawnModel
+    ? ((a =
+        r.agentRole == null && r.spawnModel == null
+          ? null
+          : (0, Dk.jsxs)(`span`, {
+              className: `flex flex-col gap-0.5`,
+              children: [
+                r.agentRole == null ? null : (0, Dk.jsx)(`span`, { children: r.agentRole }),
+                r.spawnModel == null
+                  ? null
+                  : (0, Dk.jsx)(`span`, {
+                      children: (0, Dk.jsx)(J, {
+                        id: `composer.backgroundSubagents.row.modelTooltip`,
+                        defaultMessage: `Uses {model}`,
+                        description: `Tooltip line that shows the model used by a background subagent.`,
+                        values: { model: dp(r.spawnModel) },
+                      }),
+                    }),
+              ],
+            })),
+      (t[0] = r.agentRole),
+      (t[1] = r.spawnModel),
+      (t[2] = a))
+    : (a = t[2]);
+  let o = a,
+    s = o == null,
+    c = r.status === `active`,
+    l;
+  t[3] !== r.conversationId || t[4] !== c
+    ? ((l = (0, Dk.jsx)(ih, {
+        active: c,
+        seed: r.conversationId,
+        className: `icon-2xs pointer-events-none`,
+        "aria-hidden": !0,
+      })),
+      (t[3] = r.conversationId),
+      (t[4] = c),
+      (t[5] = l))
+    : (l = t[5]);
+  let u;
+  t[6] === r.displayName
+    ? (u = t[7])
+    : ((u = (0, Dk.jsx)(`span`, { className: `min-w-0 truncate`, children: r.displayName })),
+      (t[6] = r.displayName),
+      (t[7] = u));
+  let d;
+  t[8] !== l || t[9] !== u
+    ? ((d = (0, Dk.jsxs)(`span`, {
+        className: `flex min-w-0 items-center gap-1.5 text-token-foreground`,
+        children: [l, u],
+      })),
+      (t[8] = l),
+      (t[9] = u),
+      (t[10] = d))
+    : (d = t[10]);
+  let f = r.status === `active` && `loading-shimmer-pure-text`,
+    p;
+  t[11] === f
+    ? (p = t[12])
+    : ((p = qc(`shrink-0 whitespace-nowrap text-token-description-foreground`, f)),
+      (t[11] = f),
+      (t[12] = p));
+  let m;
+  t[13] !== i || t[14] !== r.status
+    ? ((m = Tk(r.status, i)), (t[13] = i), (t[14] = r.status), (t[15] = m))
+    : (m = t[15]);
+  let h;
+  t[16] !== p || t[17] !== m
+    ? ((h = (0, Dk.jsx)(`span`, { className: p, children: m })),
+      (t[16] = p),
+      (t[17] = m),
+      (t[18] = h))
+    : (h = t[18]);
+  let g;
+  t[19] !== n || t[20] !== h || t[21] !== d
+    ? ((g = (0, Dk.jsxs)(`button`, {
+        type: `button`,
+        className: `flex max-w-full min-w-0 cursor-interaction items-center gap-1 bg-transparent p-0`,
+        onClick: n,
+        children: [d, h],
+      })),
+      (t[19] = n),
+      (t[20] = h),
+      (t[21] = d),
+      (t[22] = g))
+    : (g = t[22]);
+  let _;
+  t[23] !== g || t[24] !== s || t[25] !== o
+    ? ((_ = (0, Dk.jsx)(Cn, { disabled: s, tooltipContent: o, children: g })),
+      (t[23] = g),
+      (t[24] = s),
+      (t[25] = o),
+      (t[26] = _))
+    : (_ = t[26]);
+  let v;
+  t[27] === r.diffStats
+    ? (v = t[28])
+    : ((v =
+        r.diffStats == null
+          ? null
+          : (0, Dk.jsx)(sv, {
+              linesAdded: r.diffStats.linesAdded,
+              linesRemoved: r.diffStats.linesRemoved,
+              className: `mr-0.5`,
+            })),
+      (t[27] = r.diffStats),
+      (t[28] = v));
+  let y;
+  return (
+    t[29] !== _ || t[30] !== v
+      ? ((y = (0, Dk.jsx)(vk, {
+          titleClassName: `text-size-chat min-w-0 text-token-description-foreground`,
+          title: _,
+          trailing: v,
+        })),
+        (t[29] = _),
+        (t[30] = v),
+        (t[31] = y))
+      : (y = t[31]),
+    y
+  );
+}
+function Tk(e, t) {
+  switch (e) {
+    case `active`:
+      return t.formatMessage({
+        id: `composer.backgroundSubagents.row.activeLabel`,
+        defaultMessage: `is working`,
+        description: `Active status text shown after a background subagent mention label.`,
+      });
+    case `waiting`:
+      return t.formatMessage({
+        id: `composer.backgroundSubagents.row.waitingLabel`,
+        defaultMessage: `is awaiting instruction`,
+        description: `Waiting status text shown after a background subagent mention label.`,
+      });
+    case `done`:
+      return t.formatMessage({
+        id: `composer.backgroundSubagents.row.doneLabel`,
+        defaultMessage: `is done`,
+        description: `Done status text shown after a background subagent mention label.`,
+      });
+  }
+}
+var Ek,
+  Dk,
+  Ok = e(() => {
+    ((Ek = X()), Xn(), Y(), aa(), cv(), Cy(), wp(), tm(), vm(), _k(), xk(), (Dk = Z()));
+  });
+function kk({ commentAttachments: e, isDirectSubmit: t }) {
+  let n = e.filter(_o),
+    r = n.length,
+    i = n.filter((e) => e.localBrowserDesignChange != null).length;
+  if (t)
+    return {
+      browser_comment_count: r,
+      browser_comment_with_design_tweak_count: i,
+      browser_comment_send_mode: r === 0 ? `none` : `direct`,
+    };
+  let a;
+  return (
+    (a = r === 0 ? `none` : r === 1 ? `saved_single` : `saved_batch`),
+    {
+      browser_comment_count: r,
+      browser_comment_with_design_tweak_count: i,
+      browser_comment_send_mode: a,
+    }
+  );
+}
+var Ak = e(() => {
+  $u();
+});
+async function jk({ scope: e, composerController: t, transcript: n, submitPrompt: r }) {
+  let i, a;
+  (t.view.dom.isConnected
+    ? (t.appendText(n), (i = t.getText()), (a = t.getPersistedText()))
+    : ((a = Ud(e.get(be), n)), (i = y(a)), Ml(e, a)),
+    await r({ persistedPrompt: a, prompt: i }));
+}
+var Mk = e(() => {
+  (Wl(), Vt(), rn());
+});
+function Nk(e) {
+  return Xk.get(e) ?? null;
+}
+function Pk({ imagesOnly: e } = {}) {
+  return new Promise((t) => {
+    let n = document.createElement(`input`);
+    ((n.type = `file`),
+      (n.multiple = !0),
+      e && (n.accept = `image/*`),
+      (n.style.position = `fixed`),
+      (n.style.opacity = `0`),
+      (n.style.pointerEvents = `none`),
+      (n.style.width = `1px`),
+      (n.style.height = `1px`));
+    let r = (e) => {
+      (n.remove(), t(e));
+    };
+    (n.addEventListener(
+      `change`,
+      () => {
+        r(n.files == null ? [] : Array.from(n.files));
+      },
+      { once: !0 },
+    ),
+      n.addEventListener(
+        `cancel`,
+        () => {
+          r([]);
+        },
+        { once: !0 },
+      ),
+      (document.body ?? document.documentElement).append(n),
+      n.click());
+  });
+}
+async function Fk(e, t, n = {}) {
+  return Promise.all(
+    e.map(async (e) => {
+      let r = e.name.trim() || `attachment`,
+        i = Hk(e) ? $t(await Wk(e)) : null,
+        a =
+          n.createAttachmentFromLocalFile == null
+            ? await t({ contentsBase64: i ?? $t(await Wk(e)), label: r })
+            : await Uk({
+                createAttachmentFromLocalFile: n.createAttachmentFromLocalFile,
+                file: e,
+                fileName: r,
+                label: r,
+              });
+      return (i != null && Xk.set(a, { contentsBase64: i, mimeType: e.type || null }), a);
+    }),
+  );
+}
+function Ik(e, { copyFromLocalFile: t }) {
+  return Fk(
+    e,
+    (e) => Vr(`create-file-attachment-for-host`, { hostId: Wt, ...e }),
+    t
+      ? {
+          createAttachmentFromLocalFile: (e) =>
+            Vr(`copy-local-file-attachment-for-host`, { hostId: Wt, ...e }),
+        }
+      : void 0,
+  );
+}
+async function Lk({ copyFromLocalFile: e, imagesOnly: t }) {
+  return Ik(await Pk({ imagesOnly: t }), { copyFromLocalFile: e });
+}
+async function Rk(e, t) {
+  let [n] = await t([e]);
+  return n?.fsPath ?? null;
+}
+function zk(e) {
+  if (e.name.trim().length > 0) return e.name;
+  let t = Vk(e.type || `image/png`);
+  return `pasted-image-${nl().slice(0, 8)}.${t}`;
+}
+async function Bk(e, { hostConfig: t, hostId: n }) {
+  let [r] = await Vr(`upload-local-file-attachments-for-host`, {
+    hostId: n,
+    attachments: [{ label: Qi(e), path: e, fsPath: e }],
+    allowSftpUpload: vi(t),
+  });
+  return r?.fsPath ?? null;
+}
+function Vk(e) {
+  let t = e.split(`/`)[1] || `png`;
+  return t === `jpeg` ? `jpg` : t;
+}
+function Hk(e) {
+  return e.type.startsWith(`image/`) || Ea(e.name);
+}
+async function Uk({ createAttachmentFromLocalFile: e, file: t, fileName: n, label: r }) {
+  let i = Kk(await Gk({ fileName: n, type: Kt }));
+  if (!i.ok) throw Error(i.error);
+  let a = !1;
+  try {
+    for (let e = 0; e < t.size; e += Yk) {
+      let n = await Wk(t.slice(e, e + Yk)),
+        r = Jk(await Gk({ assetId: i.assetId, dataBase64: $t(n), type: It }));
+      if (!r.ok) throw Error(r.error);
+    }
+    let n = qk(await Gk({ assetId: i.assetId, type: hn }));
+    if (!n.ok) throw Error(n.error);
+    return ((a = !0), await e({ label: r, sourcePath: n.path }));
+  } catch (e) {
+    throw (a || (await Gk({ assetId: i.assetId, type: co }).catch(() => void 0)), e);
+  } finally {
+    a && (await Gk({ assetId: i.assetId, type: De }).catch(() => void 0));
+  }
+}
+async function Wk(e) {
+  return typeof e.arrayBuffer == `function`
+    ? new Uint8Array(await e.arrayBuffer())
+    : new Promise((t, n) => {
+        let r = new FileReader();
+        ((r.onerror = () => {
+          n(r.error ?? Error(`Unable to read file`));
+        }),
+          (r.onload = () => {
+            let { result: e } = r;
+            if (!(e instanceof ArrayBuffer)) {
+              n(Error(`Unable to read file`));
+              return;
+            }
+            t(new Uint8Array(e));
+          }),
+          r.readAsArrayBuffer(e));
+      });
+}
+async function Gk(e) {
+  let t = globalThis.chrome?.runtime;
+  if (t?.sendMessage == null) throw Error(`Chrome runtime messaging is unavailable.`);
+  return t.sendMessage(e);
+}
+function Kk(e) {
+  let t = Qk.safeParse(e);
+  if (t.success) return t.data;
+  throw Error(`Unable to create browser file attachment asset.`);
+}
+function qk(e) {
+  let t = $k.safeParse(e);
+  if (t.success) return t.data;
+  throw Error(`Unable to finish browser file attachment asset.`);
+}
+function Jk(e) {
+  let t = eA.safeParse(e);
+  if (t.success) return t.data;
+  throw Error(`Unable to update browser file attachment asset.`);
+}
+var Yk,
+  Xk,
+  Zk,
+  Qk,
+  $k,
+  eA,
+  tA = e(() => {
+    (v(),
+      Xa(),
+      Mi(),
+      Kr(),
+      Jr(),
+      ao(),
+      p(),
+      ws(),
+      (Yk = 18 * 1024),
+      (Xk = new WeakMap()),
+      (Zk = ms({
+        error: Io()
+          .optional()
+          .transform((e) => e ?? `Unknown error`),
+        ok: es(!1),
+      })),
+      (Qk = Ya(`ok`, [ms({ assetId: Io(), ok: es(!0), path: Io() }), Zk])),
+      ($k = Qk),
+      (eA = Ya(`ok`, [ms({ ok: es(!0) }), Zk])));
+  });
+function nA({
+  attachmentGeneration: e,
+  canceledPendingFileAttachmentIds: t,
+  canCopyBrowserFileAttachments: n,
+  composerMode: r,
+  executionHostConfig: i,
+  executionHostId: a,
+  getRestrictedRemoteHostImageSizeContext: o,
+  intl: s,
+  notifyImageInputUnsupported: c,
+  scope: l,
+  setAddedFiles: u,
+  setFileAttachments: d,
+  setImageAttachments: f,
+  setPendingFileAttachments: p,
+  supportsImageInputs: m,
+}) {
+  let h = ({ additionalImageDataUrls: e = [], additionalImageSizeBytes: t = 0 }) => !0,
+    g = (t, n) => {
+      Pf({ dataUrl: t.uploadSrc ?? t.src, filename: t.filename ?? `image-${t.id}.png` })
+        .then((r) => {
+          e.current === n && f((e) => e.map((e) => (e.id === t.id ? { ...e, ...r } : e)));
+        })
+        .catch(() => {
+          e.current === n &&
+            (l
+              .get(Yr)
+              .danger(
+                s.formatMessage({
+                  id: `composer.imageUploadFailed`,
+                  defaultMessage: `Failed to upload image`,
+                  description: `Toast shown when an image fails to upload`,
+                }),
+              ),
+            l.get(bl)?.attachmentId === t.id
+              ? rd(l, t.id)
+              : f((e) => e.filter((e) => e.id !== t.id)));
+        });
+    },
+    _ = ({ src: e, localPath: t, filename: n, generation: i }) => {
+      let a = nl(),
+        o = {
+          id: a,
+          src: e,
+          localPath: t,
+          filename: n,
+          uploadStatus: r === `cloud` ? `uploading` : `idle`,
+        };
+      return (f((e) => [...e, o]), r === `cloud` && g(o, i), a);
+    },
+    v = (t) => {
+      if (!m) return (c(), !1);
+      if (t.length === 0) return !0;
+      if (!h({ additionalImageSizeBytes: t.reduce((e, t) => e + t.size, 0) })) return !1;
+      let o = e.current;
+      for (let s of t) {
+        let t = new FileReader(),
+          c = window.electronBridge?.getPathForFile,
+          l = zk(s),
+          u = r !== `cloud`,
+          d = u && n ? (e) => Rk(e, x) : void 0,
+          p = wd(
+            s,
+            c,
+            u ? Mt.fileAttachments.persistImageFileToTemp : void 0,
+            u && a !== `local` ? (e) => Bk(e, { hostConfig: i, hostId: a }) : void 0,
+            d,
+          );
+        ((t.onload = (t) => {
+          if (e.current !== o) return;
+          let n = t.target?.result;
+          if (typeof n != `string`) return;
+          let r = _({ src: n, filename: l, generation: o });
+          p.then((t) => {
+            e.current !== o ||
+              t == null ||
+              f((e) => e.map((e) => (e.id === r ? { ...e, localPath: t } : e)));
+          }).catch(() => {});
+        }),
+          t.readAsDataURL(s));
+      }
+      return !0;
+    },
+    y = (t) => {
+      if (t.length === 0 || !h({ additionalImageDataUrls: t.map((e) => e.dataUrl) })) return;
+      let n = e.current;
+      for (let e of t)
+        _({ src: e.dataUrl, localPath: e.localPath, filename: e.filename, generation: n });
+    },
+    b = (e) => {
+      e.length !== 0 &&
+        u((t) => {
+          let n = t;
+          for (let t of e)
+            n.some(
+              (e) =>
+                ui(e.fsPath) === ui(t.fsPath) &&
+                e.startLine === t.startLine &&
+                e.endLine === t.endLine,
+            ) || (n = [...n, t]);
+          return n;
+        });
+    },
+    x = (e) => Ik(e, { copyFromLocalFile: n }),
+    S = async (n) => {
+      if (a === `local`) {
+        d((e) => [...e, ...n]);
+        return;
+      }
+      let r = n.filter((e) => !Br(e));
+      if (
+        (r.length !== n.length &&
+          l
+            .get(Yr)
+            .danger(
+              s.formatMessage({
+                id: `composer.fileAttachment.remoteFolderUnsupported`,
+                defaultMessage: `Folders can only be attached to local conversations`,
+                description: `Toast shown when a local folder cannot be attached to a conversation running on a remote host`,
+              }),
+            ),
+        r.length === 0)
+      )
+        return;
+      let o = r.map((e) => ({ id: nl(), label: e.label })),
+        c = e.current;
+      p((e) => [...e, ...o]);
+      try {
+        let n = await Vr(`upload-local-file-attachments-for-host`, {
+          hostId: a,
+          attachments: r,
+          allowSftpUpload: vi(i),
+        });
+        if (e.current === c) {
+          let e = n.filter((e, n) => {
+            let r = o[n];
+            return r != null && !t.has(r.id);
+          });
+          e.length > 0 && d((t) => [...t, ...e]);
+        }
+      } catch {
+        l.get(Yr).danger(
+          s.formatMessage({
+            id: `composer.fileAttachment.uploadError`,
+            defaultMessage: `Unable to upload file`,
+            description: `Toast shown when copying a local file to a remote host fails`,
+          }),
+        );
+      } finally {
+        Ie(Wt, r);
+        let e = new Set(o.map((e) => e.id));
+        p((t) => t.filter((t) => !e.has(t.id)));
+        for (let n of e) t.delete(n);
+      }
+    };
+  return {
+    addFileDescriptorsAsMentions: b,
+    addFileMentionsFromFiles: (e, t) => {
+      let r = window.electronBridge?.getPathForFile,
+        i = _u(e, r, t),
+        o = n ? e.filter((e) => e.size > 0 && uu(e, r) == null) : [];
+      if (o.length > 0) {
+        (async () => {
+          try {
+            let e = await x(o);
+            (i.length > 0 && b(i), d((t) => [...t, ...e]));
+          } catch {
+            l.get(Yr).danger(
+              s.formatMessage({
+                id: `composer.fileAttachment.browserFileCopyError`,
+                defaultMessage: `Unable to attach file`,
+                description: `Toast shown when copying a browser-selected file to a local attachment path fails`,
+              }),
+            );
+          }
+        })();
+        return;
+      }
+      if (a !== `local`) {
+        S(i);
+        return;
+      }
+      if (n && e.length === 0) {
+        d((e) => [...e, ...i]);
+        return;
+      }
+      b(i);
+    },
+    addImageDataUrls: y,
+    addImages: v,
+    pickBrowserFileDescriptors: async ({ imagesOnly: e }) =>
+      Lk({ copyFromLocalFile: n, imagesOnly: e }),
+    uploadImageAttachment: g,
+    uploadLocalFileAttachments: S,
+  };
+}
+var rA = e(() => {
+  (Xa(), Mi(), Jr(), Fs(), Vt(), $m(), Ut(), ao(), ws(), tA(), pm(), Ms(), Yu());
+});
+function iA(e) {
+  let t = jo(),
+    n = rc(t);
+  return aA(n == null ? void 0 : t?.repo_map?.[n]?.clone_url, e);
+}
+function aA(e, t) {
+  let n = (0, lA.c)(7),
+    r = t?.enabled ?? !0,
+    i = r ? e : void 0,
+    a;
+  n[0] === i ? (a = n[1]) : ((a = Symbol(i)), (n[0] = i), (n[1] = a));
+  let o = a,
+    [s, c] = (0, dA.useState)(null),
+    l,
+    u;
+  return (
+    n[2] !== e || n[3] !== r || n[4] !== o
+      ? ((l = () => {
+          if (!e || !r) return;
+          let t = !1;
+          return (
+            oA(e).then((e) => {
+              t || c({ lookupKey: o, gitRoot: e });
+            }),
+            () => {
+              t = !0;
+            }
+          );
+        }),
+        (u = [e, r, o]),
+        (n[2] = e),
+        (n[3] = r),
+        (n[4] = o),
+        (n[5] = l),
+        (n[6] = u))
+      : ((l = n[5]), (u = n[6])),
+    (0, dA.useEffect)(l, u),
+    r && s?.lookupKey === o ? s.gitRoot : null
+  );
+}
+async function oA(e) {
+  let t = await dn(`active-workspace-roots`);
+  if (!e || !t) return null;
+  let n = await dn(`git-origins`, { source: `git_root_lookup` });
+  return sA(e, t.roots, n.origins);
+}
+async function sA(e, t, n) {
+  let i = ps(e),
+    a = (n ?? []).find((e) => (e.originUrl ? (0, uA.default)(ps(e.originUrl), i) : !1));
+  return a
+    ? a.root
+    : (r.warning(`No matching origin found`, { safe: {}, sensitive: { originUrl: e } }),
+      t[0] ?? null);
+}
+function cA(e, t) {
+  let n = (0, lA.c)(15),
+    r = !!e && (t?.enabled ?? !0),
+    i;
+  n[0] !== e || n[1] !== r || n[2] !== t.hostId
+    ? ((i =
+        !r || e == null
+          ? { dirs: [] }
+          : t?.hostId == null
+            ? { dirs: [e] }
+            : { dirs: [e], hostId: t.hostId }),
+      (n[0] = e),
+      (n[1] = r),
+      (n[2] = t.hostId),
+      (n[3] = i))
+    : (i = n[3]);
+  let a = i,
+    o;
+  n[4] !== t.source || n[5] !== a
+    ? ((o = { params: a, source: t.source }), (n[4] = t.source), (n[5] = a), (n[6] = o))
+    : (o = n[6]);
+  let { data: s, isLoading: c } = Gc(hi, o),
+    l;
+  n[7] !== e || n[8] !== s?.origins
+    ? ((l = s?.origins.find((t) => t.dir === e)?.root ?? s?.origins[0]?.root ?? null),
+      (n[7] = e),
+      (n[8] = s?.origins),
+      (n[9] = l))
+    : (l = n[9]);
+  let u = l,
+    d;
+  n[10] === u ? (d = n[11]) : ((d = u ? Sc(u) : null), (n[10] = u), (n[11] = d));
+  let f;
+  return (
+    n[12] !== c || n[13] !== d
+      ? ((f = { gitRoot: d, isLoading: c }), (n[12] = c), (n[13] = d), (n[14] = f))
+      : (f = n[14]),
+    f
+  );
+}
+var lA,
+  uA,
+  dA,
+  fA = e(() => {
+    ((lA = X()), (uA = t(te(), 1)), ji(), Xa(), (dA = t(El(), 1)), Vc(), jn(), xn(), Di(), Wi());
+  });
+async function pA(e, t, n) {
+  switch (t.startingState.type) {
+    case `branch`:
+      return { ref: t.startingState.branchName, startingDiff: null };
+    case `fork-local-task`:
+    case `fork-cloud-task`:
+    case `working-tree`: {
+      if (n == null) throw Error(`Unable to determine project root for task`);
+      let t = await Vr(`get-git-diff-to-remote-for-host`, { cwd: n, hostId: e });
+      return { ref: t.sha, startingDiff: t?.diff };
+    }
+  }
+}
+function mA(e, t, n) {
+  switch (e?.type) {
+    case void 0:
+      return { type: `new-task`, startingState: t };
+    case `cloud`:
+      return hA(e, n);
+    case `local`:
+      return {
+        type: `new-task`,
+        startingState: { type: `fork-local-task`, conversationId: e.localConversationId },
+      };
+  }
+}
+function hA(e, t) {
+  switch (t) {
+    case `direct-follow-up`:
+      return { type: `follow-up`, taskId: e.taskDetails.task.id, turnId: e.selectedTurnId };
+    case `working-tree`:
+      return {
+        type: `new-task`,
+        startingState: {
+          type: `fork-cloud-task`,
+          taskDetails:
+            e.selectedTurn && e.selectedTurn.id !== e.taskDetails.current_assistant_turn?.id
+              ? {
+                  ...e.taskDetails,
+                  current_assistant_turn: e.selectedTurn,
+                  current_diff_task_turn: e.selectedTurn,
+                }
+              : e.taskDetails,
+        },
+      };
+  }
+}
+function gA(e) {
+  return wh.getState(e)?.active === !0;
+}
+function _A(e) {
+  switch (e?.type) {
+    case `userInput`:
+      return e.item.requestId;
+    case `optionPicker`:
+    case `setupCodexContextPicker`:
+    case `setupCodexStep`:
+      return e.requestId;
+    case `approval`:
+      return e.item.approvalRequestId ?? e.item.callId;
+    case `permissionRequest`:
+      return e.item.requestId;
+    case `implementPlan`:
+      return e.turnId;
+    case `mcpServerElicitation`:
+      return e.requestId;
+    case void 0:
+      return null;
+  }
+}
+function vA(e, t, n) {
+  return t == null ||
+    e?.type !== `mcpServerElicitation` ||
+    e.elicitation.kind !== `connectorAuth` ||
+    !n(e.elicitation.connector.connector_id, {
+      kind: `connector-auth-elicitation`,
+      conversationId: t,
+      requestId: e.requestId,
+    })
+    ? e
+    : null;
+}
+var yA = e(() => {
+  (Jr(), yp());
+});
+async function bA(e) {
+  let t = await ba(e.commentAttachments, Vf);
+  return t == null ? e : { ...e, commentAttachments: t };
+}
+async function xA({ appshotContexts: e, hostId: t, imageAttachments: n, queryClient: r }) {
+  let i = n.map((e) => e.pointer).filter((e) => e !== void 0),
+    a = await Promise.all(
+      (e ?? []).map(async (e) => {
+        let n = e.imageDataUrl ?? (await on(e.imagePath, t, r));
+        return n == null ? null : Vf(n, e.imageName ?? `appshot.png`);
+      }),
+    );
+  return i.concat(a.filter((e) => e != null));
+}
+var SA = e(() => {
+  (Ba(), G(), Ef());
+});
+async function CA({
+  scope: e,
+  codeEnvironment: t,
+  context: n,
+  createCloudTask: r,
+  followUp: i,
+  followUpToCloudTask: a,
+  isWorktreeSnapshotsEnabled: o,
+  mcpManagerHostId: s,
+  queryClient: c,
+  selectedModel: l,
+}) {
+  n.cloudTaskType.type === `new-task` &&
+    n.cloudTaskType.startingState.type === `fork-local-task` &&
+    (await Vr(`ensure-conversation-history-loaded`, {
+      conversationId: n.cloudTaskType.startingState.conversationId,
+      dependentConversationIds: [],
+    }));
+  let u = await bA(n),
+    d;
+  switch (u.cloudTaskType.type) {
+    case `new-task`:
+      d = await wA({
+        scope: e,
+        codeEnvironment: t,
+        context: u,
+        createCloudTask: r,
+        followUp: i,
+        isWorktreeSnapshotsEnabled: o,
+        mcpManagerHostId: s,
+        queryClient: c,
+        selectedModel: l,
+        taskType: u.cloudTaskType,
+      });
+      break;
+    case `follow-up`:
+      (await TA({
+        context: u,
+        followUpToCloudTask: a,
+        queryClient: c,
+        selectedModel: l,
+        taskId: u.cloudTaskType.taskId,
+        turnId: u.cloudTaskType.turnId,
+      }),
+        (d = { type: `none` }));
+      break;
+  }
+  return (c.invalidateQueries({ queryKey: [`tasks`] }), d);
+}
+async function wA({
+  scope: e,
+  codeEnvironment: t,
+  context: n,
+  createCloudTask: r,
+  followUp: i,
+  isWorktreeSnapshotsEnabled: a,
+  mcpManagerHostId: o,
+  queryClient: s,
+  selectedModel: c,
+  taskType: l,
+}) {
+  let u = n.repo?.clone_url,
+    d = u ? await oA(u) : null,
+    f = null;
+  if (!t) {
+    if (d == null) throw Error(`Unable to determine project root for task`);
+    if (!a) throw Error(`No environment selected`);
+    let e = await dn(`prepare-worktree-snapshot`, {
+        source: `composer_content`,
+        params: {
+          gitRoot: d,
+          snapshotBranch: l.startingState.type === `branch` ? l.startingState.branchName : null,
+        },
+      }),
+      t = await po({
+        repoName: e.repoName,
+        filename: e.tarballFilename,
+        contentType: e.contentType,
+        anticipatedFileSize: e.tarballSize,
+      });
+    if (
+      !(
+        await dn(`upload-worktree-snapshot`, {
+          source: `composer_content`,
+          params: {
+            tarballPath: e.tarballPath,
+            uploadUrl: t.upload_url,
+            contentLength: e.tarballSize,
+            contentType: e.contentType,
+          },
+        })
+      ).success
+    )
+      throw Error(`Failed to upload worktree snapshot`);
+    let n = await Yt({ fileId: t.file_id, etag: t.etag });
+    f = {
+      repos: [
+        {
+          kind: `local_worktree`,
+          name: e.repoName,
+          remotes: e.remotes,
+          commit_sha: e.commitSha,
+          branch: e.snapshotBranch,
+          file_id: n.file_id,
+        },
+      ],
+    };
+  } else if (l.startingState.type !== `branch` && d == null)
+    throw Error(`Unable to determine project root for task`);
+  let p = EA({ scope: e, taskType: l }),
+    m = zn(n),
+    { ref: h, startingDiff: g } = await pA(o, l, d),
+    _ = await xA({
+      appshotContexts: n.appshotContexts,
+      hostId: Wt,
+      imageAttachments: n.imageAttachments,
+      queryClient: s,
+    }),
+    v = await r({
+      environmentId: t?.id ?? null,
+      environment: f,
+      prompt: n.prompt,
+      ideContext: m,
+      ref: h,
+      startingDiff: g,
+      priorConversation: p,
+      images: _,
+      runEnvironmentInQaMode: !1,
+      commentAttachments: n.commentAttachments,
+      modelSlug: c,
+    });
+  return i?.type === `local`
+    ? (Vr(`add-cloud-task-synthetic-item`, {
+        conversationId: i.localConversationId,
+        taskId: v.task.id,
+      }),
+      { type: `none` })
+    : { type: `created-task`, taskId: v.task.id };
+}
+async function TA({
+  context: e,
+  followUpToCloudTask: t,
+  queryClient: n,
+  selectedModel: r,
+  taskId: i,
+  turnId: a,
+}) {
+  let o = zn(e),
+    s = await xA({
+      appshotContexts: e.appshotContexts,
+      hostId: Wt,
+      imageAttachments: e.imageAttachments,
+      queryClient: n,
+    });
+  (await t({
+    taskId: i,
+    turnId: a,
+    prompt: e.prompt,
+    ideContext: o,
+    images: s,
+    runEnvironmentInQaMode: !1,
+    priorConversation: null,
+    commentAttachments: e.commentAttachments,
+    modelSlug: r,
+  }),
+    n.invalidateQueries({ queryKey: [`task`, i] }));
+}
+function EA({ scope: e, taskType: t }) {
+  switch (t.startingState.type) {
+    case `working-tree`:
+    case `branch`:
+      return null;
+    case `fork-local-task`: {
+      let n = t.startingState.conversationId,
+        r = e.get(Qo, n),
+        i = e.get(Dn, n);
+      if (r == null || i == null) throw Error(`Conversation not found: ${n}`);
+      return Vp(r, i);
+    }
+    case `fork-cloud-task`:
+      return Xp(t.startingState.taskDetails);
+  }
+}
+var DA = e(() => {
+  (vl(), Jr(), ke(), Tm(), Kc(), ao(), fA(), jn(), yA(), SA());
+});
+function OA(e) {
+  let t = (0, kA.c)(6),
+    { className: n } = e,
+    r;
+  t[0] === n
+    ? (r = t[1])
+    : ((r = qc(
+        `pointer-events-none absolute inset-0 z-40 flex items-center justify-center bg-token-editor-group-drop-background/60`,
+        n,
+      )),
+      (t[0] = n),
+      (t[1] = r));
+  let i;
+  t[2] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((i = (0, AA.jsx)(Sn, {
+        extension: !0,
+        children: (0, AA.jsx)(J, {
+          id: `composer.dropOverlay.holdShift`,
+          defaultMessage: `Hold {key} to drop`,
+          description: `Overlay shown while dragging image without holding Shift`,
+          values: {
+            key: (0, AA.jsx)(`span`, {
+              className: `inline-flex items-center rounded-md border border-token-editor-group-drop-into-prompt-foreground/40 px-1.5 py-0.5 text-sm`,
+              children: (0, AA.jsx)(J, {
+                id: `composer.dropOverlay.shiftKey`,
+                defaultMessage: `Shift`,
+                description: `Label for Shift keycap in drag overlay`,
+              }),
+            }),
+          },
+        }),
+      })),
+      (t[2] = i))
+    : (i = t[2]);
+  let a;
+  t[3] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((a = (0, AA.jsxs)(`div`, {
+        className: `inline-flex items-center gap-1 rounded-md border border-token-border/50 bg-token-editor-group-drop-into-prompt-background px-3 py-1 text-sm text-token-editor-group-drop-into-prompt-foreground shadow`,
+        children: [
+          i,
+          (0, AA.jsx)(Sn, {
+            electron: !0,
+            children: (0, AA.jsx)(J, {
+              id: `composer.dropOverlay.dropToAttach`,
+              defaultMessage: `Drop to attach`,
+              description: `Overlay shown while dragging a file over a drop target`,
+            }),
+          }),
+        ],
+      })),
+      (t[3] = a))
+    : (a = t[3]);
+  let o;
+  return (
+    t[4] === r
+      ? (o = t[5])
+      : ((o = (0, AA.jsx)(`div`, { className: r, children: a })), (t[4] = r), (t[5] = o)),
+    o
+  );
+}
+var kA,
+  AA,
+  jA = e(() => {
+    ((kA = X()), Xn(), Y(), o(), (AA = Z()));
+  }),
+  MA,
+  NA,
+  PA = e(() => {
+    ((MA = t(El(), 1)), (NA = (0, MA.createContext)(null)));
+  });
+function FA(e) {
+  switch (e?.type) {
+    case `local`:
+      return e.localConversationId;
+    case `cloud`:
+      return e.taskDetails.task.id;
+    case void 0:
+      return null;
+  }
+}
+var IA = e(() => {});
+function LA(e, t) {
+  return t !== `cloud` && !(e.kind === `local` && e.placement === `side`);
+}
+var RA = e(() => {});
+function zA(e, t) {
+  return Array.isArray(e) ? (t === KA ? e : qA) : (e[t] ?? qA);
+}
+function BA(e, t, n) {
+  if (n.trim().length === 0) return e;
+  let r = [...zA(e, t), n],
+    i = r.length <= GA ? r : r.slice(r.length - GA);
+  return Array.isArray(e) && t === KA ? i : { ...(Array.isArray(e) ? { [KA]: e } : e), [t]: i };
+}
+function VA(e, t, n) {
+  let r = (0, UA.c)(19),
+    [i, a] = Ha(Iu),
+    o = t ?? KA,
+    s;
+  r[0] !== i || r[1] !== o ? ((s = zA(i, o)), (r[0] = i), (r[1] = o), (r[2] = s)) : (s = r[2]);
+  let c = s,
+    l = (0, WA.useRef)(null),
+    u,
+    d;
+  (r[3] !== e || r[4] !== c
+    ? ((u = () =>
+        ah(e.view, () => {
+          let t = l.current;
+          t != null && c[t] !== e.getPersistedText() && (l.current = null);
+        })),
+      (d = [e, c]),
+      (r[3] = e),
+      (r[4] = c),
+      (r[5] = u),
+      (r[6] = d))
+    : ((u = r[5]), (d = r[6])),
+    (0, WA.useEffect)(u, d));
+  let f, p;
+  (r[7] !== e || r[8] !== c || r[9] !== n
+    ? ((f = () => {
+        let t = (t) => {
+            let n = c[t];
+            n != null && ((l.current = t), Lr(n) ? e.setPromptText(n) : e.setText(n), e.focus());
+          },
+          r = (n) => {
+            if (c.length === 0) return !1;
+            let r = l.current;
+            return r == null
+              ? e.getPersistedText().trim().length > 0 || n === `down`
+                ? !1
+                : (t(c.length - 1), !0)
+              : n === `down` && r === c.length - 1
+                ? ((l.current = null), e.setText(``), e.focus(), !0)
+                : (t((r + (n === `up` ? -1 : 1) + c.length) % c.length), !0);
+          },
+          i = HA,
+          a = (t) => !i(t) && e.isCursorAtEnd(),
+          o = kd(e.view, {
+            ArrowUp: (e) => {
+              if (!a(e)) return !1;
+              if (n?.()) return (e.preventDefault(), e.stopPropagation(), !0);
+              let t = r(`up`);
+              return (t && (e.preventDefault(), e.stopPropagation()), t);
+            },
+            ArrowDown: (e) => {
+              if (!a(e)) return !1;
+              let t = r(`down`);
+              return (t && (e.preventDefault(), e.stopPropagation()), t);
+            },
+          });
+        return () => {
+          o();
+        };
+      }),
+      (p = [e, c, n]),
+      (r[7] = e),
+      (r[8] = c),
+      (r[9] = n),
+      (r[10] = f),
+      (r[11] = p))
+    : ((f = r[10]), (p = r[11])),
+    (0, WA.useEffect)(f, p));
+  let m;
+  r[12] !== i || r[13] !== o || r[14] !== a
+    ? ((m = (e) => {
+        a(BA(i, o, e));
+      }),
+      (r[12] = i),
+      (r[13] = o),
+      (r[14] = a),
+      (r[15] = m))
+    : (m = r[15]);
+  let h = m,
+    g;
+  r[16] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((g = () => {
+        l.current = null;
+      }),
+      (r[16] = g))
+    : (g = r[16]);
+  let _ = g,
+    v;
+  return (
+    r[17] === h
+      ? (v = r[18])
+      : ((v = { appendPromptToHistory: h, resetHistorySelection: _ }), (r[17] = h), (r[18] = v)),
+    v
+  );
+}
+function HA(e) {
+  return e.altKey || e.ctrlKey || e.metaKey || e.shiftKey;
+}
+var UA,
+  WA,
+  GA,
+  KA,
+  qA,
+  JA = e(() => {
+    ((UA = X()),
+      bs(),
+      (WA = t(El(), 1)),
+      eh(),
+      vd(),
+      bt(),
+      rm(),
+      (GA = 20),
+      (KA = `global`),
+      (qA = []));
+  }),
+  YA,
+  XA,
+  ZA = e(() => {
+    (t(El()),
+      (YA = Z()),
+      (XA = (e) =>
+        (0, YA.jsx)(`svg`, {
+          width: 20,
+          height: 20,
+          viewBox: `0 0 20 20`,
+          fill: `none`,
+          xmlns: `http://www.w3.org/2000/svg`,
+          ...e,
+          children: (0, YA.jsx)(`path`, {
+            d: `M10.6878 9.46029L10.8421 9.49545L17.2913 11.43L17.4642 11.4974C18.2215 11.8649 18.2705 12.9544 17.5492 13.388L17.3822 13.4701L14.5872 14.5872L13.4701 17.3822C13.1135 18.2734 11.8913 18.2756 11.4974 17.4642L11.43 17.2913L9.49544 10.8421C9.26342 10.0687 9.92452 9.34418 10.6878 9.46029ZM12.4984 16.2288L13.3929 13.9954L13.4388 13.8949C13.5579 13.6675 13.7549 13.4891 13.9954 13.3929L16.2288 12.4984L10.9007 10.9007L12.4984 16.2288ZM5.90365 12.9749C6.16329 12.7153 6.58436 12.7154 6.84408 12.9749C7.10378 13.2346 7.10378 13.6557 6.84408 13.9154L5.0765 15.6829C4.8168 15.9426 4.39577 15.9426 4.13607 15.6829C3.87654 15.4232 3.87643 15.0022 4.13607 14.7425L5.90365 12.9749ZM2.83724 7.3265L5.25228 7.97299L5.37826 8.02084C5.65484 8.1591 5.80597 8.47712 5.72298 8.78744C5.63984 9.09774 5.34997 9.298 5.04134 9.27963L4.90853 9.25814L2.49349 8.61068L2.36752 8.56283C2.09082 8.42452 1.93961 8.10666 2.02279 7.79623C2.10599 7.4859 2.39574 7.28652 2.70443 7.30502L2.83724 7.3265ZM14.847 4.05111C15.1051 3.88059 15.4556 3.90894 15.6829 4.13607C15.9426 4.39577 15.9426 4.8168 15.6829 5.0765L13.9154 6.84408C13.6557 7.10378 13.2346 7.10378 12.9749 6.84408C12.7154 6.58437 12.7153 6.16329 12.9749 5.90365L14.7425 4.13607L14.847 4.05111ZM7.79623 2.02279C8.15098 1.92773 8.51562 2.13874 8.61068 2.49349L9.25814 4.90853L9.27962 5.04135C9.298 5.34998 9.09774 5.63984 8.78744 5.72299C8.47713 5.80592 8.15908 5.65484 8.02084 5.37826L7.97298 5.25228L7.3265 2.83724L7.30502 2.70443C7.28652 2.39577 7.48595 2.10603 7.79623 2.02279Z`,
+            fill: `currentColor`,
+          }),
+        })));
+  }),
+  QA,
+  $A,
+  ej = e(() => {
+    (t(El()),
+      (QA = Z()),
+      ($A = (e) =>
+        (0, QA.jsx)(`svg`, {
+          width: 28,
+          height: 28,
+          viewBox: `0 0 28 28`,
+          fill: `none`,
+          xmlns: `http://www.w3.org/2000/svg`,
+          ...e,
+          children: (0, QA.jsx)(`path`, {
+            fillRule: `evenodd`,
+            clipRule: `evenodd`,
+            d: `M11.1299 0C17.2767 0.000131938 22.2598 4.98304 22.2598 11.1299C22.2598 17.2767 17.2767 22.2596 11.1299 22.2598C4.98295 22.2598 0 17.2768 0 11.1299C0 4.98295 4.98295 0 11.1299 0ZM7.84473 16.9736L9.08984 20.7881C9.74808 20.9264 10.4305 21 11.1299 21C11.8103 21 12.4746 20.9309 13.1162 20.7998L14.3662 16.9707L13.0391 15.1436H9.17676L7.84473 16.9736ZM1.30273 12.0391C1.44361 13.5812 1.93796 15.0207 2.70605 16.2754L3.0498 16.2803L6.98047 16.3428L8.31738 14.5029L6.91895 10.5127L4.48242 9.7207L1.30273 12.0391ZM15.4688 10.4102L14.0645 14.7354L15.2285 16.3379L19.5566 16.2695C20.3016 15.0506 20.7897 13.6579 20.9453 12.166L17.5908 9.7207L15.4688 10.4102ZM7.15625 2.09375C5.77695 2.70115 4.56382 3.61489 3.60156 4.74902L3.66211 4.94531L4.81738 8.70508L7.25977 9.49902L10.5801 7.09375V4.57324L7.15625 2.09375ZM14.6494 2.1582L11.6504 4.26465V7.08789L14.9961 9.43945L17.2559 8.70508L18.5205 4.5918C17.5274 3.47006 16.2845 2.57524 14.877 1.99707L14.6494 2.1582Z`,
+            fill: `currentColor`,
+            transform: `translate(2.84473 2.87012)`,
+          }),
+        })));
+  }),
+  tj,
+  nj,
+  rj = e(() => {
+    ((tj = t(El(), 1)), (nj = (0, tj.createContext)(!1)));
+  });
+function ij(e) {
+  let t = (0, oj.c)(30),
+    { contextUsage: n } = e,
+    r = Ns(),
+    i = n.percent == null ? 0 : Math.max(0, Math.min(n.percent, 100)),
+    a = Math.round(i),
+    o = Math.max(0, 100 - a),
+    s = a >= 50,
+    c;
+  t[0] === n.usedTokens
+    ? (c = t[1])
+    : ((c = n.usedTokens == null ? null : Math.round(n.usedTokens / 1e3)),
+      (t[0] = n.usedTokens),
+      (t[1] = c));
+  let l = c,
+    u;
+  t[2] === n.contextWindow
+    ? (u = t[3])
+    : ((u = n.contextWindow == null ? null : Math.round(n.contextWindow / 1e3)),
+      (t[2] = n.contextWindow),
+      (t[3] = u));
+  let d = u,
+    f;
+  t[4] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((f = (0, sj.jsx)(J, {
+        id: `composer.contextWindowUsageLabel`,
+        defaultMessage: `Context window:`,
+        description: `Label describing the context window usage tooltip content`,
+        children: aj,
+      })),
+      (t[4] = f))
+    : (f = t[4]);
+  let p = s ? `text-token-input-placeholder-foreground` : void 0,
+    m;
+  t[5] !== o || t[6] !== a || t[7] !== s
+    ? ((m = s
+        ? (0, sj.jsx)(J, {
+            id: `composer.contextWindowUsageStatusFull`,
+            defaultMessage: `{usage}% full`,
+            description: `Context window usage percent indicating how full it is`,
+            values: { usage: (0, sj.jsx)(Tl, { value: a }) },
+          })
+        : (0, sj.jsx)(J, {
+            id: `composer.contextWindowUsageStatusLeft`,
+            defaultMessage: `{usage}% used ({remaining}% left)`,
+            description: `Context window usage percent indicating how much is left`,
+            values: {
+              remaining: (0, sj.jsx)(Tl, { value: o }),
+              usage: (0, sj.jsx)(Tl, { value: a }),
+            },
+          })),
+      (t[5] = o),
+      (t[6] = a),
+      (t[7] = s),
+      (t[8] = m))
+    : (m = t[8]);
+  let h;
+  t[9] !== p || t[10] !== m
+    ? ((h = (0, sj.jsx)(`span`, { className: p, children: m })),
+      (t[9] = p),
+      (t[10] = m),
+      (t[11] = h))
+    : (h = t[11]);
+  let g;
+  t[12] !== d || t[13] !== l
+    ? ((g =
+        l != null && d != null
+          ? (0, sj.jsx)(J, {
+              id: `composer.contextWindowUsageTooltip`,
+              defaultMessage: `{usedTokens}k / {contextWindow}k tokens used`,
+              description: `Tooltip shown in the composer footer indicating context window usage in thousands`,
+              values: {
+                contextWindow: (0, sj.jsx)(Tl, { value: d }),
+                usedTokens: (0, sj.jsx)(Tl, { value: l }),
+              },
+            })
+          : null),
+      (t[12] = d),
+      (t[13] = l),
+      (t[14] = g))
+    : (g = t[14]);
+  let _;
+  t[15] !== h || t[16] !== g
+    ? ((_ = (0, sj.jsxs)(`div`, {
+        className: `flex w-38 flex-col gap-0.5 text-center`,
+        children: [f, h, g],
+      })),
+      (t[15] = h),
+      (t[16] = g),
+      (t[17] = _))
+    : (_ = t[17]);
+  let v;
+  t[18] !== i || t[19] !== n.percent || t[20] !== r
+    ? ((v =
+        n.percent == null
+          ? r.formatMessage({
+              id: `composer.contextUsageIndicator.unavailableAriaLabel`,
+              defaultMessage: `Context usage unavailable`,
+              description: `Accessible label for the composer context usage donut when token usage is not available`,
+            })
+          : r.formatMessage(
+              {
+                id: `composer.contextUsageIndicator.ariaLabel`,
+                defaultMessage: `Context usage: {percent}%`,
+                description: `Accessible label for the composer context usage donut`,
+              },
+              { percent: r.formatNumber(i, { maximumFractionDigits: 0 }) },
+            )),
+      (t[18] = i),
+      (t[19] = n.percent),
+      (t[20] = r),
+      (t[21] = v))
+    : (v = t[21]);
+  let y;
+  t[22] === i ? (y = t[23]) : ((y = (0, sj.jsx)(ud, { percent: i })), (t[22] = i), (t[23] = y));
+  let b;
+  t[24] !== y || t[25] !== v
+    ? ((b = (0, sj.jsx)(`span`, {
+        "aria-label": v,
+        className: `icon-xs inline-flex items-center justify-center text-token-description-foreground`,
+        role: `img`,
+        children: y,
+      })),
+      (t[24] = y),
+      (t[25] = v),
+      (t[26] = b))
+    : (b = t[26]);
+  let x;
+  return (
+    t[27] !== b || t[28] !== _
+      ? ((x = (0, sj.jsx)(Cn, {
+          tooltipContent: _,
+          side: `top`,
+          align: `center`,
+          sideOffset: 4,
+          children: b,
+        })),
+        (t[27] = b),
+        (t[28] = _),
+        (t[29] = x))
+      : (x = t[29]),
+    x
+  );
+}
+function aj(e) {
+  return (0, sj.jsx)(`span`, {
+    className: `whitespace-pre-line text-token-input-placeholder-foreground`,
+    children: e,
+  });
+}
+var oj,
+  sj,
+  cj = e(() => {
+    ((oj = X()), Y(), _d(), aa(), (sj = Z()));
+  }),
+  lj,
+  uj,
+  dj,
+  fj,
+  pj,
+  mj = e(() => {
+    ((lj = `_multilineSurface_1u8sk_2`),
+      (uj = `_attachmentsDefault_1u8sk_2`),
+      (dj = `_footer_1u8sk_2`),
+      (fj = `_footerLabel_1u8sk_2`),
+      (pj = { multilineSurface: lj, attachmentsDefault: uj, footer: dj, footerLabel: fj }));
+  });
+function hj(e) {
+  let t = (0, kj.c)(13),
+    {
+      children: n,
+      className: r,
+      externalFooterVariant: i,
+      inert: a,
+      isDragActive: o,
+      layout: s,
+      onDragEnter: c,
+      onDragLeave: l,
+      onDragOver: u,
+      onDrop: d,
+    } = e,
+    f = i === void 0 ? `default` : i,
+    p = o === void 0 ? !1 : o,
+    m = s === void 0 ? `multiline` : s,
+    h = f === `home` && `z-10`,
+    g = m === `single-line` ? `overflow-visible rounded-full` : pj.multilineSurface,
+    _ = p && `bg-token-dropdown-background/50`,
+    v;
+  t[0] !== r || t[1] !== h || t[2] !== g || t[3] !== _
+    ? ((v = qc(
+        `composer-surface-chrome relative flex flex-col bg-token-input-background/90 backdrop-blur-lg electron:dark:bg-token-dropdown-background`,
+        h,
+        g,
+        _,
+        r,
+      )),
+      (t[0] = r),
+      (t[1] = h),
+      (t[2] = g),
+      (t[3] = _),
+      (t[4] = v))
+    : (v = t[4]);
+  let y;
+  return (
+    t[5] !== n || t[6] !== a || t[7] !== c || t[8] !== l || t[9] !== u || t[10] !== d || t[11] !== v
+      ? ((y = (0, Aj.jsx)(zo.div, {
+          inert: a,
+          className: v,
+          onDragEnter: c,
+          onDragOver: u,
+          onDragLeave: l,
+          onDrop: d,
+          children: n,
+        })),
+        (t[5] = n),
+        (t[6] = a),
+        (t[7] = c),
+        (t[8] = l),
+        (t[9] = u),
+        (t[10] = d),
+        (t[11] = v),
+        (t[12] = y))
+      : (y = t[12]),
+    y
+  );
+}
+function gj(e) {
+  let t = (0, kj.c)(7),
+    { children: n, hasVisibleAttachments: r, ref: i, spacing: a } = e,
+    o = r === void 0 ? !1 : r,
+    s = a === void 0 ? `default` : a,
+    c = s === `flush` && o && `mb-[5px]`,
+    l = s === `default` && pj.attachmentsDefault,
+    u;
+  t[0] !== c || t[1] !== l ? ((u = qc(c, l)), (t[0] = c), (t[1] = l), (t[2] = u)) : (u = t[2]);
+  let d;
+  return (
+    t[3] !== n || t[4] !== i || t[5] !== u
+      ? ((d = (0, Aj.jsx)(`div`, { ref: i, className: u, children: n })),
+        (t[3] = n),
+        (t[4] = i),
+        (t[5] = u),
+        (t[6] = d))
+      : (d = t[6]),
+    d
+  );
+}
+function _j(e) {
+  let t = (0, kj.c)(7),
+    { children: n, layout: r, ref: i, spacing: a } = e,
+    o = r === void 0 ? `multiline` : r,
+    s = a === void 0 ? `default` : a,
+    c = o === `single-line` ? `min-w-0` : `mb-1 flex-grow overflow-y-auto`,
+    l = o === `multiline` && (s === `flush` ? `px-0` : `px-3`),
+    u;
+  t[0] !== c || t[1] !== l ? ((u = qc(c, l)), (t[0] = c), (t[1] = l), (t[2] = u)) : (u = t[2]);
+  let d;
+  return (
+    t[3] !== n || t[4] !== i || t[5] !== u
+      ? ((d = (0, Aj.jsx)(`div`, { ref: i, className: u, children: n })),
+        (t[3] = n),
+        (t[4] = i),
+        (t[5] = u),
+        (t[6] = d))
+      : (d = t[6]),
+    d
+  );
+}
+function vj(e) {
+  let t = (0, kj.c)(8),
+    { children: n, isVisible: r, variant: i } = e;
+  if (i !== `home`) {
+    let e;
+    return (
+      t[0] !== n || t[1] !== r
+        ? ((e = r ? (0, Aj.jsx)(Aj.Fragment, { children: n }) : null),
+          (t[0] = n),
+          (t[1] = r),
+          (t[2] = e))
+        : (e = t[2]),
+      e
+    );
+  }
+  let a;
+  t[3] !== n || t[4] !== r
+    ? ((a = r
+        ? (0, Aj.jsx)(
+            zo.div,
+            {
+              initial: { y: `-100%` },
+              animate: { y: 0 },
+              exit: { y: `-100%`, pointerEvents: `none` },
+              transition: jj,
+              className: `relative z-0 -mt-2`,
+              children: n,
+            },
+            `home-external-footer`,
+          )
+        : null),
+      (t[3] = n),
+      (t[4] = r),
+      (t[5] = a))
+    : (a = t[5]);
+  let o;
+  return (
+    t[6] === a
+      ? (o = t[7])
+      : ((o = (0, Aj.jsx)(Oa, { initial: !1, mode: `popLayout`, children: a })),
+        (t[6] = a),
+        (t[7] = o)),
+    o
+  );
+}
+function yj(e) {
+  let t = (0, kj.c)(12),
+    { children: n, layout: r, responsive: i, spacing: a } = e,
+    o = r === void 0 ? `multiline` : r,
+    s = i === void 0 ? !1 : i,
+    c = a === void 0 ? `default` : a;
+  if (o === `single-line`) {
+    let e = s && pj.footer,
+      r;
+    t[0] === e
+      ? (r = t[1])
+      : ((r = qc(
+          e,
+          `grid grid-cols-[auto_minmax(0,1fr)_auto] items-center gap-2 px-2 py-1 select-none`,
+        )),
+        (t[0] = e),
+        (t[1] = r));
+    let i;
+    return (
+      t[2] !== n || t[3] !== r
+        ? ((i = (0, Aj.jsx)(`div`, { className: r, children: n })),
+          (t[2] = n),
+          (t[3] = r),
+          (t[4] = i))
+        : (i = t[4]),
+      i
+    );
+  }
+  let l = s && pj.footer,
+    u = c === `flush` ? `mb-0` : `mb-2`,
+    d = c === `flush` ? `px-0` : `px-2`,
+    f;
+  t[5] !== l || t[6] !== u || t[7] !== d
+    ? ((f = qc(
+        l,
+        `grid grid-cols-[minmax(0,auto)_auto_minmax(0,1fr)] items-center gap-[5px] select-none`,
+        u,
+        d,
+      )),
+      (t[5] = l),
+      (t[6] = u),
+      (t[7] = d),
+      (t[8] = f))
+    : (f = t[8]);
+  let p;
+  return (
+    t[9] !== n || t[10] !== f
+      ? ((p = (0, Aj.jsx)(`div`, { className: f, children: n })),
+        (t[9] = n),
+        (t[10] = f),
+        (t[11] = p))
+      : (p = t[11]),
+    p
+  );
+}
+function bj(e) {
+  let t = (0, kj.c)(3),
+    { children: n, ref: r } = e,
+    i;
+  return (
+    t[0] !== n || t[1] !== r
+      ? ((i = (0, Aj.jsx)(`div`, {
+          ref: r,
+          className: `flex items-center`,
+          onPointerDown: xj,
+          children: n,
+        })),
+        (t[0] = n),
+        (t[1] = r),
+        (t[2] = i))
+      : (i = t[2]),
+    i
+  );
+}
+function xj(e) {
+  return e.stopPropagation();
+}
+function Sj(e) {
+  let t = (0, kj.c)(3),
+    { children: n, ref: r } = e,
+    i;
+  return (
+    t[0] !== n || t[1] !== r
+      ? ((i = (0, Aj.jsx)(`div`, {
+          ref: r,
+          className: `flex shrink-0 items-center gap-2`,
+          children: n,
+        })),
+        (t[0] = n),
+        (t[1] = r),
+        (t[2] = i))
+      : (i = t[2]),
+    i
+  );
+}
+function Cj(e) {
+  let t = (0, kj.c)(6),
+    { children: n, layout: r, ref: i } = e,
+    a = (r === void 0 ? `multiline` : r) === `multiline` ? `w-full` : `shrink-0 gap-2`,
+    o;
+  t[0] === a
+    ? (o = t[1])
+    : ((o = qc(`flex min-w-0 items-center justify-end`, a)), (t[0] = a), (t[1] = o));
+  let s;
+  return (
+    t[2] !== n || t[3] !== i || t[4] !== o
+      ? ((s = (0, Aj.jsx)(`div`, { ref: i, className: o, children: n })),
+        (t[2] = n),
+        (t[3] = i),
+        (t[4] = o),
+        (t[5] = s))
+      : (s = t[5]),
+    s
+  );
+}
+function wj(e) {
+  let t = (0, kj.c)(6),
+    { children: n, gap: r, ref: i } = e,
+    a = (r === void 0 ? `compact` : r) === `compact` ? `gap-1` : `gap-[5px]`,
+    o;
+  t[0] === a ? (o = t[1]) : ((o = qc(`flex min-w-0 items-center`, a)), (t[0] = a), (t[1] = o));
+  let s;
+  return (
+    t[2] !== n || t[3] !== i || t[4] !== o
+      ? ((s = (0, Aj.jsx)(`div`, { ref: i, className: o, children: n })),
+        (t[2] = n),
+        (t[3] = i),
+        (t[4] = o),
+        (t[5] = s))
+      : (s = t[5]),
+    s
+  );
+}
+function Tj(e) {
+  let t = (0, kj.c)(2),
+    { children: n } = e,
+    r;
+  return (
+    t[0] === n
+      ? (r = t[1])
+      : ((r = (0, Aj.jsx)(`div`, { className: `flex min-w-0 flex-1 justify-end`, children: n })),
+        (t[0] = n),
+        (t[1] = r)),
+    r
+  );
+}
+function Ej() {
+  let e = (0, kj.c)(1),
+    t;
+  return (
+    e[0] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((t = (0, Aj.jsx)(`div`, { className: `h-4 w-px bg-token-border/70` })), (e[0] = t))
+      : (t = e[0]),
+    t
+  );
+}
+function Dj(e) {
+  let t = (0, kj.c)(7),
+    { children: n, width: r } = e,
+    i = r === `narrow` && `max-w-16`,
+    a = r === `medium` && `max-w-20`,
+    o = r === `wide` && `max-w-28`,
+    s;
+  t[0] !== i || t[1] !== a || t[2] !== o
+    ? ((s = qc(pj.footerLabel, `truncate`, i, a, o)),
+      (t[0] = i),
+      (t[1] = a),
+      (t[2] = o),
+      (t[3] = s))
+    : (s = t[3]);
+  let c;
+  return (
+    t[4] !== n || t[5] !== s
+      ? ((c = (0, Aj.jsx)(`span`, { className: s, children: n })),
+        (t[4] = n),
+        (t[5] = s),
+        (t[6] = c))
+      : (c = t[6]),
+    c
+  );
+}
+function Oj(e) {
+  let t = (0, kj.c)(2),
+    { children: n } = e,
+    r;
+  return (
+    t[0] === n
+      ? (r = t[1])
+      : ((r = (0, Aj.jsx)(`div`, {
+          className: `relative z-10 flex min-h-0 flex-1 flex-col`,
+          children: n,
+        })),
+        (t[0] = n),
+        (t[1] = r)),
+    r
+  );
+}
+var kj,
+  Aj,
+  jj,
+  Mj,
+  Nj = e(() => {
+    ((kj = X()),
+      Xn(),
+      is(),
+      mj(),
+      (Aj = Z()),
+      (jj = { type: `spring`, duration: 0.35, bounce: 0.1 }),
+      (Mj = Object.assign(hj, {
+        Attachments: gj,
+        Body: Oj,
+        ExternalFooterSlot: vj,
+        Footer: yj,
+        FooterAction: bj,
+        FooterActions: Sj,
+        FooterControls: Cj,
+        FooterDivider: Ej,
+        FooterExpandingControls: Tj,
+        FooterInlineControls: wj,
+        FooterLabel: Dj,
+        Input: _j,
+      })));
+  });
+function Pj(e) {
+  let t = e?.modelContextWindow ?? null,
+    n = e?.last.totalTokens ?? null;
+  if (t == null || t <= 0 || n == null || n < 0)
+    return { percent: null, usedTokens: null, contextWindow: null, remainingTokens: null };
+  let r = Math.min(n, t),
+    i = (r / t) * 100;
+  return Number.isFinite(i)
+    ? { percent: i, usedTokens: r, contextWindow: t, remainingTokens: Math.max(t - r, 0) }
+    : { percent: null, usedTokens: null, contextWindow: null, remainingTokens: null };
+}
+var Fj = e(() => {});
+function Ij({ conversationId: e, resumeState: t, turnCount: n }) {
+  return e == null
+    ? `not-thread`
+    : n == null || t !== `resumed`
+      ? `pending`
+      : n === 0
+        ? `empty`
+        : `has-turns`;
+}
+var Lj,
+  Rj = e(() => {
+    (ji(),
+      wt(),
+      vl(),
+      (Lj = qo(et, (e, { get: t }) =>
+        Ij({ conversationId: e, resumeState: t(da, e) ?? void 0, turnCount: t(Na, e) }),
+      )));
+  }),
+  zj,
+  Bj,
+  Vj = e(() => {
+    (t(El()),
+      (zj = Z()),
+      (Bj = (e) =>
+        (0, zj.jsx)(`svg`, {
+          width: 20,
+          height: 20,
+          viewBox: `0 0 20 20`,
+          fill: `none`,
+          xmlns: `http://www.w3.org/2000/svg`,
+          ...e,
+          children: (0, zj.jsx)(`path`, {
+            d: `M5.15265 5.1067L5.15249 5.07797C5.15249 1.94468 10 1.98209 10 5.14295M5.15265 5.1067C2.86325 5.43539 1.95642 7.54498 3.57746 9.14006C2.13674 10.5577 2.64974 13.9055 4.5551 14.6301M5.15265 5.1067C5.65427 5.10296 6.07518 5.23205 6.5 5.5M10 5.14295V14.8441M10 5.14295C10 1.98209 14.8475 1.94468 14.8475 5.07797L14.8473 5.1067C17.1367 5.43539 18.0436 7.54498 16.4225 9.14006M16.4225 9.14006C17.8633 10.5577 17.3503 13.9055 15.4449 14.6301M16.4225 9.14006C16.0155 9.55318 15.5515 9.8173 15 10M15.4449 14.6301C14.8475 17.6527 10.8056 18.4821 10 14.8441M15.4449 14.6301C14.7053 14.8875 13.936 14.9026 13.2195 14.5622M10 14.8441C9.19444 18.4821 5.15249 17.6527 4.5551 14.6301M4.5551 14.6301C5.30044 14.872 5.97165 14.8815 6.71286 14.6301M3.55286 9.19444C4.06138 8.69613 4.75784 8.38889 5.52606 8.38889M10 10.8056C10.5085 10.3072 11.2318 10 12 10M7 11C7.5 12.5 9.02282 12.6094 10 12.1452M8 7C8.5 6.5 9.59453 6.50623 9.59453 6.50623M14.8344 5.16667C14.8344 6.11941 14.2831 6.94338 13.482 7.33695`,
+            stroke: `currentColor`,
+            strokeWidth: 1.33,
+            strokeLinecap: `round`,
+            strokeLinejoin: `round`,
+          }),
+        })));
+  }),
+  Hj,
+  Uj,
+  Wj = e(() => {
+    (t(El()),
+      (Hj = Z()),
+      (Uj = (e) =>
+        (0, Hj.jsx)(`svg`, {
+          width: 20,
+          height: 20,
+          viewBox: `0 0 20 20`,
+          fill: `none`,
+          xmlns: `http://www.w3.org/2000/svg`,
+          ...e,
+          children: (0, Hj.jsx)(`path`, {
+            d: `M3.57746 9.14006L4.04387 9.61406C4.17091 9.48906 4.24246 9.31829 4.24246 9.14006C4.24246 8.96183 4.17091 8.79106 4.04387 8.66605L3.57746 9.14006ZM5.15265 5.1067L5.24716 5.76495C5.576 5.71774 5.81955 5.43508 5.81764 5.10288L5.15265 5.1067ZM5.15249 5.07797L4.48747 5.07797L4.4875 5.08179L5.15249 5.07797ZM14.8475 5.07797L15.5125 5.08179V5.07797H14.8475ZM14.8473 5.1067L14.1824 5.10288C14.1805 5.43509 14.424 5.71774 14.7528 5.76495L14.8473 5.1067ZM16.4225 9.14006L15.9561 8.66605C15.8291 8.79106 15.7575 8.96183 15.7575 9.14006C15.7575 9.31829 15.8291 9.48906 15.9561 9.61406L16.4225 9.14006ZM15.4449 14.6301L15.2085 14.0085C14.9942 14.09 14.837 14.2762 14.7925 14.5011L15.4449 14.6301ZM4.5551 14.6301L5.20748 14.5011C5.16302 14.2762 5.00581 14.09 4.79149 14.0085L4.5551 14.6301ZM3.08743 8.71947C2.82511 8.97653 2.82084 9.39756 3.07789 9.65988C3.33494 9.9222 3.75597 9.92647 4.01829 9.66941L3.55286 9.19444L3.08743 8.71947ZM5.52606 9.05389C5.89333 9.05389 6.19106 8.75616 6.19106 8.38889C6.19106 8.02162 5.89333 7.72389 5.52606 7.72389V8.38889V9.05389ZM9.53457 10.3306C9.27225 10.5876 9.26798 11.0087 9.52503 11.271C9.78208 11.5333 10.2031 11.5376 10.4654 11.2805L10 10.8056L9.53457 10.3306ZM11.9732 10.665C12.3405 10.665 12.6382 10.3673 12.6382 10C12.6382 9.63273 12.3405 9.335 11.9732 9.335V10V10.665ZM17.9123 12.0141C17.9123 11.6468 17.6146 11.3491 17.2473 11.3491C16.88 11.3491 16.5823 11.6468 16.5823 12.0141H17.2473H17.9123ZM13.5049 13.9616C13.1731 13.804 12.7764 13.9451 12.6189 14.2769C12.4613 14.6086 12.6024 15.0053 12.9342 15.1629L13.2195 14.5622L13.5049 13.9616ZM7.86868 11.5445C7.53694 11.3869 7.14026 11.5281 6.98267 11.8598C6.82507 12.1915 6.96625 12.5882 7.29799 12.7458L7.58333 12.1452L7.86868 11.5445ZM10.2853 12.7458C10.6171 12.5882 10.7583 12.1915 10.6007 11.8598C10.4431 11.5281 10.0464 11.3869 9.71465 11.5445L10 12.1452L10.2853 12.7458ZM8.10085 6.17688C7.76911 6.33448 7.62793 6.73116 7.78552 7.0629C7.94312 7.39464 8.3398 7.53581 8.67154 7.37822L8.38619 6.77755L8.10085 6.17688ZM9.59453 7.17123C9.96179 7.17123 10.2595 6.8735 10.2595 6.50623C10.2595 6.13896 9.96179 5.84123 9.59453 5.84123V6.50623V7.17123ZM15.4994 5.16667C15.4994 4.7994 15.2017 4.50167 14.8344 4.50167C14.4671 4.50167 14.1694 4.7994 14.1694 5.16667H14.8344H15.4994ZM13.1888 6.7401C12.8592 6.90206 12.7232 7.30057 12.8852 7.6302C13.0472 7.95983 13.4457 8.09576 13.7753 7.9338L13.4821 7.33695L13.1888 6.7401ZM5.15249 5.07797L4.4875 5.08179L4.48766 5.11052L5.15265 5.1067L5.81764 5.10288L5.81747 5.07414L5.15249 5.07797ZM14.8473 5.1067L15.5123 5.11052L15.5125 5.08179L14.8475 5.07797L14.1825 5.07415L14.1824 5.10288L14.8473 5.1067ZM10 5.14295H9.335V14.8441H10H10.665V5.14295H10ZM4.5551 14.6301L3.90272 14.759C4.25542 16.5436 5.64061 17.7324 7.12679 17.8958C7.8764 17.9783 8.6507 17.7972 9.29938 17.2972C9.94755 16.7975 10.4211 16.0184 10.6493 14.9879L10 14.8441L9.35073 14.7003C9.17613 15.4888 8.84234 15.9702 8.48741 16.2438C8.133 16.517 7.70844 16.6218 7.27219 16.5738C6.38665 16.4764 5.45217 15.7392 5.20748 14.5011L4.5551 14.6301ZM10 14.8441L9.35073 14.9879C9.57891 16.0184 10.0524 16.7975 10.7006 17.2972C11.3493 17.7972 12.1236 17.9783 12.8732 17.8958C14.3594 17.7324 15.7446 16.5436 16.0973 14.759L15.4449 14.6301L14.7925 14.5011C14.5478 15.7392 13.6134 16.4764 12.7278 16.5738C12.2916 16.6218 11.867 16.517 11.5126 16.2438C11.1577 15.9702 10.8239 15.4888 10.6493 14.7003L10 14.8441ZM3.57746 9.14006L3.11104 8.66605C2.18352 9.57872 1.94758 11.0213 2.15576 12.2555C2.36354 13.4874 3.06106 14.7733 4.31871 15.2516L4.5551 14.6301L4.79149 14.0085C4.14378 13.7622 3.63213 13.0119 3.46724 12.0343C3.30276 11.0592 3.53068 10.119 4.04387 9.61406L3.57746 9.14006ZM5.15265 5.1067L5.05814 4.44845C3.73273 4.63874 2.69968 5.36578 2.28207 6.39936C1.85523 7.45578 2.14106 8.65961 3.11104 9.61406L3.57746 9.14006L4.04387 8.66605C3.39282 8.02542 3.32155 7.37692 3.51521 6.89761C3.71811 6.39545 4.28317 5.90335 5.24716 5.76495L5.15265 5.1067ZM16.4225 9.14006L16.889 9.61406C17.8589 8.65961 18.1448 7.45578 17.7179 6.39936C17.3003 5.36578 16.2673 4.63874 14.9419 4.44845L14.8473 5.1067L14.7528 5.76495C15.7168 5.90335 16.2819 6.39545 16.4848 6.89761C16.6785 7.37692 16.6072 8.02542 15.9561 8.66605L16.4225 9.14006ZM15.4449 14.6301L15.6813 15.2516C16.9389 14.7733 17.6365 13.4874 17.8442 12.2556C18.0524 11.0213 17.8165 9.57872 16.889 8.66605L16.4225 9.14006L15.9561 9.61406C16.4693 10.119 16.6972 11.0592 16.5328 12.0343C16.3679 13.0119 15.8562 13.7622 15.2085 14.0085L15.4449 14.6301ZM14.8475 5.07797H15.5125C15.5125 4.10684 15.1294 3.33433 14.5217 2.81587C13.9281 2.30941 13.1595 2.07735 12.4167 2.08519C11.6737 2.09304 10.9081 2.34139 10.3186 2.85899C9.71615 3.38803 9.335 4.16711 9.335 5.14295H10H10.665C10.665 4.53836 10.8898 4.12744 11.1962 3.85839C11.5156 3.57791 11.962 3.42007 12.4308 3.41512C12.8999 3.41017 13.3432 3.55869 13.6585 3.82767C13.9597 4.08466 14.1825 4.48245 14.1825 5.07797H14.8475ZM10 5.14295H10.665C10.665 4.16711 10.2839 3.38803 9.68135 2.85899C9.09187 2.34138 8.32633 2.09304 7.58327 2.08519C6.84051 2.07735 6.07193 2.30941 5.4783 2.81587C4.87061 3.33433 4.48749 4.10684 4.48749 5.07797H5.15249H5.81749C5.81749 4.48245 6.0403 4.08466 6.34152 3.82767C6.6568 3.55869 7.1001 3.41016 7.56922 3.41512C8.03803 3.42007 8.48437 3.57791 8.8038 3.85839C9.11021 4.12744 9.335 4.53836 9.335 5.14295H10ZM3.55286 9.19444L4.01829 9.66941C4.40755 9.28797 4.93881 9.05389 5.52606 9.05389V8.38889V7.72389C4.57687 7.72389 3.71521 8.1043 3.08743 8.71947L3.55286 9.19444ZM10 10.8056L10.4654 11.2805C10.8547 10.8991 11.3859 10.665 11.9732 10.665V10V9.335C11.024 9.335 10.1624 9.71541 9.53457 10.3306L10 10.8056ZM17.2473 12.0141H16.5823C16.5823 13.204 15.6177 14.1686 14.4279 14.1686V14.8336V15.4986C16.3523 15.4986 17.9123 13.9385 17.9123 12.0141H17.2473ZM14.4279 14.8336V14.1686C14.0962 14.1686 13.7838 14.0941 13.5049 13.9616L13.2195 14.5622L12.9342 15.1629C13.3877 15.3783 13.8947 15.4986 14.4279 15.4986V14.8336ZM8.79167 12.4165V11.7515C8.46002 11.7515 8.14763 11.677 7.86868 11.5445L7.58333 12.1452L7.29799 12.7458C7.75149 12.9613 8.25847 13.0815 8.79167 13.0815V12.4165ZM10 12.1452L9.71465 11.5445C9.4357 11.677 9.12331 11.7515 8.79167 11.7515V12.4165V13.0815C9.32487 13.0815 9.83184 12.9613 10.2853 12.7458L10 12.1452ZM8.38619 6.77755L8.67154 7.37822C8.95049 7.24571 9.26288 7.17123 9.59453 7.17123V6.50623V5.84123C9.06133 5.84123 8.55435 5.96145 8.10085 6.17688L8.38619 6.77755ZM14.8344 5.16667H14.1694C14.1694 5.85626 13.771 6.45405 13.1888 6.7401L13.4821 7.33695L13.7753 7.9338C14.7951 7.43272 15.4994 6.38256 15.4994 5.16667H14.8344Z`,
+            fill: `currentColor`,
+          }),
+        })));
+  }),
+  Gj,
+  Kj,
+  qj = e(() => {
+    (t(El()),
+      (Gj = Z()),
+      (Kj = (e) =>
+        (0, Gj.jsx)(`svg`, {
+          width: 20,
+          height: 20,
+          viewBox: `0 0 20 20`,
+          fill: `none`,
+          xmlns: `http://www.w3.org/2000/svg`,
+          ...e,
+          children: (0, Gj.jsx)(`path`, {
+            d: `M3.57715 9.14006L4.04365 9.61398C4.17064 9.48898 4.24215 9.31824 4.24215 9.14006C4.24215 8.96187 4.17064 8.79114 4.04365 8.66614L3.57715 9.14006ZM5.15176 5.1067L5.2463 5.76495C5.57512 5.71772 5.81866 5.43507 5.81675 5.10288L5.15176 5.1067ZM5.15159 5.07797L4.48658 5.07797L4.4866 5.08179L5.15159 5.07797ZM14.843 5.07797L15.508 5.08179V5.07797H14.843ZM14.8429 5.1067L14.1779 5.10288C14.176 5.43508 14.4195 5.71772 14.7483 5.76495L14.8429 5.1067ZM16.4175 9.14006L15.951 8.66614C15.824 8.79114 15.7525 8.96187 15.7525 9.14006C15.7525 9.31824 15.824 9.48898 15.951 9.61398L16.4175 9.14006ZM15.4402 14.6301L15.2037 14.0085C14.9894 14.0901 14.8322 14.2762 14.7878 14.5012L15.4402 14.6301ZM4.55443 14.6301L5.20682 14.5012C5.16237 14.2762 5.00519 14.0901 4.79089 14.0085L4.55443 14.6301ZM3.09513 8.71956C2.83286 8.97666 2.82866 9.39769 3.08576 9.65997C3.34287 9.92224 3.7639 9.92643 4.02617 9.66933L3.56065 9.19444L3.09513 8.71956ZM5.53312 9.05389C5.90039 9.05389 6.19812 8.75616 6.19812 8.38889C6.19812 8.02162 5.90039 7.72389 5.53312 7.72389V8.38889V9.05389ZM17.915 12.0141C17.915 11.6468 17.6173 11.3491 17.25 11.3491C16.8827 11.3491 16.585 11.6468 16.585 12.0141H17.25H17.915ZM13.5092 13.9616C13.1774 13.804 12.7807 13.9451 12.6231 14.2768C12.4655 14.6085 12.6066 15.0052 12.9383 15.1629L13.2237 14.5622L13.5092 13.9616ZM15.4949 5.16667C15.4949 4.7994 15.1972 4.50167 14.8299 4.50167C14.4626 4.50167 14.1649 4.7994 14.1649 5.16667H14.8299H15.4949ZM13.1847 6.74014C12.8551 6.90215 12.7192 7.30068 12.8813 7.63029C13.0433 7.9599 13.4418 8.09576 13.7714 7.93376L13.4781 7.33695L13.1847 6.74014ZM5.15159 5.07797L4.4866 5.08179L4.48677 5.11052L5.15176 5.1067L5.81675 5.10288L5.81658 5.07415L5.15159 5.07797ZM14.8429 5.1067L15.5078 5.11052L15.508 5.08179L14.843 5.07797L14.178 5.07415L14.1779 5.10288L14.8429 5.1067ZM9.9973 5.14295H9.3323V14.8441H9.9973H10.6623V5.14295H9.9973ZM4.55443 14.6301L3.90204 14.759C4.25458 16.5434 5.63923 17.7323 7.12511 17.8958C7.87456 17.9783 8.64869 17.7972 9.29719 17.2971C9.94516 16.7974 10.4185 16.0183 10.6466 14.9878L9.9973 14.8441L9.34802 14.7004C9.17348 15.4889 8.83979 15.9703 8.48503 16.2439C8.13082 16.517 7.70652 16.6218 7.27056 16.5738C6.38561 16.4764 5.45144 15.7394 5.20682 14.5012L4.55443 14.6301ZM9.9973 14.8441L9.34802 14.9878C9.57611 16.0183 10.0494 16.7974 10.6974 17.2971C11.3459 17.7972 12.12 17.9783 12.8695 17.8958C14.3554 17.7323 15.74 16.5434 16.0926 14.759L15.4402 14.6301L14.7878 14.5012C14.5432 15.7394 13.609 16.4764 12.7241 16.5738C12.2881 16.6218 11.8638 16.517 11.5096 16.2439C11.1548 15.9703 10.8211 15.4889 10.6466 14.7004L9.9973 14.8441ZM3.57715 9.14006L3.11064 8.66614C2.18346 9.57881 1.94764 11.0213 2.15573 12.2555C2.36341 13.4872 3.06063 14.7733 4.31796 15.2516L4.55443 14.6301L4.79089 14.0085C4.14357 13.7623 3.63207 13.0121 3.46722 12.0344C3.3028 11.0592 3.53066 10.1189 4.04365 9.61398L3.57715 9.14006ZM5.15176 5.1067L5.05722 4.44845C3.73212 4.63877 2.69942 5.3659 2.28198 6.39944C1.85534 7.45575 2.141 8.6595 3.11064 9.61398L3.57715 9.14006L4.04365 8.66614C3.39287 8.02554 3.32155 7.37696 3.51519 6.89753C3.71803 6.39533 4.28285 5.90332 5.2463 5.76495L5.15176 5.1067ZM16.4175 9.14006L16.884 9.61398C17.8536 8.6595 18.1393 7.45575 17.7126 6.39944C17.2952 5.3659 16.2625 4.63877 14.9374 4.44846L14.8429 5.1067L14.7483 5.76495C15.7118 5.90332 16.2766 6.39533 16.4794 6.89753C16.6731 7.37696 16.6017 8.02554 15.951 8.66614L16.4175 9.14006ZM15.4402 14.6301L15.6766 15.2516C16.934 14.7733 17.6312 13.4872 17.8389 12.2555C18.047 11.0213 17.8111 9.57881 16.884 8.66614L16.4175 9.14006L15.951 9.61398C16.464 10.1189 16.6918 11.0592 16.5274 12.0344C16.3625 13.0121 15.851 13.7623 15.2037 14.0085L15.4402 14.6301ZM14.843 5.07797H15.508C15.508 4.10693 15.1251 3.33444 14.5176 2.81595C13.9241 2.30945 13.1557 2.07735 12.4131 2.08519C11.6702 2.09304 10.9049 2.34143 10.3156 2.85907C9.71327 3.38814 9.3323 4.1672 9.3323 5.14295H9.9973H10.6623C10.6623 4.53827 10.8871 4.12733 11.1933 3.85831C11.5126 3.57787 11.9587 3.42007 12.4272 3.41512C12.896 3.41017 13.3391 3.55865 13.6542 3.82759C13.9552 4.08455 14.178 4.48236 14.178 5.07797H14.843ZM9.9973 5.14295H10.6623C10.6623 4.1672 10.2813 3.38814 9.67903 2.85907C9.08973 2.34143 8.32438 2.09304 7.58147 2.08519C6.83888 2.07735 6.07048 2.30945 5.47703 2.81595C4.86953 3.33444 4.48659 4.10693 4.48659 5.07797H5.15159H5.81659C5.81659 4.48236 6.03937 4.08455 6.34044 3.82759C6.65556 3.55865 7.09859 3.41017 7.56742 3.41512C8.03594 3.42007 8.48203 3.57787 8.80129 3.85831C9.10756 4.12733 9.3323 4.53827 9.3323 5.14295H9.9973ZM3.56065 9.19444L4.02617 9.66933C4.41526 9.28791 4.94623 9.05389 5.53312 9.05389V8.38889V7.72389C4.58414 7.72389 3.7227 8.10436 3.09513 8.71956L3.56065 9.19444ZM17.25 12.0141H16.585C16.585 13.2042 15.6207 14.1686 14.4316 14.1686V14.8336V15.4986C16.3557 15.4986 17.915 13.9383 17.915 12.0141H17.25ZM14.4316 14.8336V14.1686C14.1002 14.1686 13.788 14.0941 13.5092 13.9616L13.2237 14.5622L12.9383 15.1629C13.3917 15.3783 13.8985 15.4986 14.4316 15.4986V14.8336ZM14.8299 5.16667H14.1649C14.1649 5.85639 13.7666 6.45415 13.1847 6.74014L13.4781 7.33695L13.7714 7.93376C14.791 7.43261 15.4949 6.38243 15.4949 5.16667H14.8299Z`,
+            fill: `currentColor`,
+          }),
+        })));
+  }),
+  Jj,
+  Yj,
+  Xj = e(() => {
+    (t(El()),
+      (Jj = Z()),
+      (Yj = (e) =>
+        (0, Jj.jsx)(`svg`, {
+          width: 20,
+          height: 20,
+          viewBox: `0 0 20 20`,
+          fill: `none`,
+          xmlns: `http://www.w3.org/2000/svg`,
+          ...e,
+          children: (0, Jj.jsx)(`path`, {
+            d: `M3.57746 9.14006L4.04387 9.61406C4.17091 9.48906 4.24246 9.31829 4.24246 9.14006C4.24246 8.96183 4.17091 8.79106 4.04387 8.66605L3.57746 9.14006ZM5.15265 5.1067L5.24716 5.76495C5.576 5.71774 5.81955 5.43508 5.81764 5.10288L5.15265 5.1067ZM5.15249 5.07797L4.48747 5.07797L4.4875 5.08179L5.15249 5.07797ZM14.8475 5.07797L15.5125 5.08179V5.07797H14.8475ZM14.8473 5.1067L14.1824 5.10288C14.1805 5.43509 14.424 5.71774 14.7528 5.76495L14.8473 5.1067ZM16.4225 9.14006L15.9561 8.66605C15.8291 8.79106 15.7575 8.96183 15.7575 9.14006C15.7575 9.31829 15.8291 9.48906 15.9561 9.61406L16.4225 9.14006ZM15.4449 14.6301L15.2085 14.0085C14.9942 14.09 14.837 14.2762 14.7925 14.5011L15.4449 14.6301ZM4.5551 14.6301L5.20748 14.5011C5.16302 14.2762 5.00581 14.09 4.79149 14.0085L4.5551 14.6301ZM3.08743 8.71947C2.82511 8.97653 2.82084 9.39756 3.07789 9.65988C3.33494 9.9222 3.75597 9.92647 4.01829 9.66942L3.55286 9.19444L3.08743 8.71947ZM5.52606 9.05389C5.89333 9.05389 6.19106 8.75616 6.19106 8.38889C6.19106 8.02162 5.89333 7.72389 5.52606 7.72389V8.38889V9.05389ZM17.9123 12.0141C17.9123 11.6468 17.6146 11.3491 17.2473 11.3491C16.88 11.3491 16.5823 11.6468 16.5823 12.0141H17.2473H17.9123ZM14.4279 14.1686C14.0606 14.1686 13.7629 14.4663 13.7629 14.8336C13.7629 15.2008 14.0606 15.4986 14.4279 15.4986V14.8336V14.1686ZM7.86868 11.5445C7.53694 11.3869 7.14026 11.5281 6.98267 11.8598C6.82507 12.1915 6.96625 12.5882 7.29799 12.7458L7.58333 12.1452L7.86868 11.5445ZM10.2853 12.7458C10.6171 12.5882 10.7583 12.1915 10.6007 11.8598C10.4431 11.5281 10.0464 11.3869 9.71465 11.5445L10 12.1452L10.2853 12.7458ZM15.4994 5.16667C15.4994 4.7994 15.2017 4.50167 14.8344 4.50167C14.4671 4.50167 14.1694 4.7994 14.1694 5.16667H14.8344H15.4994ZM13.1888 6.7401C12.8592 6.90206 12.7232 7.30057 12.8852 7.6302C13.0472 7.95983 13.4457 8.09576 13.7753 7.9338L13.482 7.33695L13.1888 6.7401ZM11.3077 10.009C11.675 10.009 11.9727 9.71123 11.9727 9.34396C11.9727 8.97669 11.675 8.67896 11.3077 8.67896L11.3077 9.34396L11.3077 10.009ZM5.15249 5.07797L4.4875 5.08179L4.48766 5.11052L5.15265 5.1067L5.81764 5.10288L5.81747 5.07414L5.15249 5.07797ZM14.8473 5.1067L15.5123 5.11052L15.5125 5.08179L14.8475 5.07797L14.1825 5.07415L14.1824 5.10288L14.8473 5.1067ZM4.5551 14.6301L3.90272 14.759C4.25542 16.5436 5.64061 17.7324 7.12679 17.8958C7.8764 17.9783 8.6507 17.7972 9.29938 17.2972C9.94755 16.7975 10.4211 16.0184 10.6493 14.9879L10 14.8441L9.35073 14.7003C9.17613 15.4888 8.84234 15.9702 8.48741 16.2438C8.133 16.517 7.70844 16.6218 7.27219 16.5738C6.38665 16.4764 5.45217 15.7392 5.20748 14.5011L4.5551 14.6301ZM10 14.8441L9.35073 14.9879C9.57891 16.0184 10.0524 16.7975 10.7006 17.2972C11.3493 17.7972 12.1236 17.9783 12.8732 17.8958C14.3594 17.7324 15.7446 16.5436 16.0973 14.759L15.4449 14.6301L14.7925 14.5011C14.5478 15.7392 13.6134 16.4764 12.7278 16.5738C12.2916 16.6218 11.867 16.517 11.5126 16.2438C11.1577 15.9702 10.8239 15.4888 10.6493 14.7003L10 14.8441ZM3.57746 9.14006L3.11104 8.66605C2.18352 9.57872 1.94758 11.0213 2.15576 12.2556C2.36354 13.4874 3.06106 14.7733 4.31871 15.2516L4.5551 14.6301L4.79149 14.0085C4.14378 13.7622 3.63213 13.0119 3.46724 12.0343C3.30276 11.0592 3.53068 10.119 4.04387 9.61406L3.57746 9.14006ZM5.15265 5.1067L5.05814 4.44845C3.73273 4.63874 2.69968 5.36578 2.28207 6.39936C1.85523 7.45578 2.14106 8.65961 3.11104 9.61406L3.57746 9.14006L4.04387 8.66605C3.39282 8.02542 3.32155 7.37692 3.51522 6.89761C3.71811 6.39545 4.28317 5.90335 5.24716 5.76495L5.15265 5.1067ZM16.4225 9.14006L16.889 9.61406C17.8589 8.65961 18.1448 7.45578 17.7179 6.39936C17.3003 5.36578 16.2673 4.63874 14.9419 4.44845L14.8473 5.1067L14.7528 5.76495C15.7168 5.90335 16.2819 6.39545 16.4848 6.89761C16.6785 7.37692 16.6072 8.02543 15.9561 8.66605L16.4225 9.14006ZM15.4449 14.6301L15.6813 15.2516C16.9389 14.7733 17.6365 13.4874 17.8442 12.2556C18.0524 11.0213 17.8165 9.57872 16.889 8.66605L16.4225 9.14006L15.9561 9.61406C16.4693 10.119 16.6972 11.0592 16.5328 12.0343C16.3679 13.0119 15.8562 13.7622 15.2085 14.0085L15.4449 14.6301ZM14.8475 5.07797H15.5125C15.5125 4.10684 15.1294 3.33433 14.5217 2.81587C13.9281 2.30941 13.1595 2.07735 12.4167 2.08519C11.6737 2.09304 10.9081 2.34139 10.3186 2.85899C9.71615 3.38803 9.335 4.16712 9.335 5.14295H10H10.665C10.665 4.53836 10.8898 4.12744 11.1962 3.85839C11.5156 3.57791 11.962 3.42007 12.4308 3.41512C12.8999 3.41017 13.3432 3.55869 13.6585 3.82767C13.9597 4.08466 14.1825 4.48245 14.1825 5.07797H14.8475ZM10 5.14295H10.665C10.665 4.16711 10.2839 3.38803 9.68135 2.85899C9.09187 2.34138 8.32633 2.09304 7.58327 2.08519C6.84051 2.07735 6.07193 2.30941 5.4783 2.81587C4.87061 3.33433 4.48749 4.10684 4.48749 5.07797H5.15249H5.81749C5.81749 4.48245 6.0403 4.08466 6.34152 3.82767C6.6568 3.55869 7.1001 3.41016 7.56922 3.41512C8.03803 3.42007 8.48437 3.57791 8.8038 3.85839C9.11021 4.12744 9.335 4.53836 9.335 5.14295H10ZM3.55286 9.19444L4.01829 9.66942C4.40755 9.28797 4.93881 9.05389 5.52606 9.05389V8.38889V7.72389C4.57687 7.72389 3.71521 8.1043 3.08743 8.71947L3.55286 9.19444ZM17.2473 12.0141H16.5823C16.5823 13.204 15.6177 14.1686 14.4279 14.1686V14.8336V15.4986C16.3523 15.4986 17.9123 13.9385 17.9123 12.0141H17.2473ZM8.79167 12.4165V11.7515C8.46002 11.7515 8.14763 11.677 7.86868 11.5445L7.58333 12.1452L7.29799 12.7458C7.75149 12.9613 8.25847 13.0815 8.79167 13.0815V12.4165ZM10 12.1452L9.71465 11.5445C9.4357 11.677 9.12331 11.7515 8.79167 11.7515V12.4165V13.0815C9.32487 13.0815 9.83184 12.9613 10.2853 12.7458L10 12.1452ZM14.8344 5.16667H14.1694C14.1694 5.85626 13.771 6.45405 13.1888 6.7401L13.482 7.33695L13.7753 7.9338C14.7951 7.43272 15.4994 6.38256 15.4994 5.16667H14.8344ZM10 5.14295H9.335V9.99353H10H10.665V5.14295H10ZM10 9.99353H9.335V14.8441H10H10.665V9.99353H10ZM10 9.99353L10.5453 10.3741C10.566 10.3445 10.6529 10.245 10.7997 10.1558C10.9392 10.0709 11.1103 10.009 11.3077 10.009L11.3077 9.34396L11.3077 8.67896C10.3455 8.67896 9.69036 9.27525 9.45467 9.61295L10 9.99353Z`,
+            fill: `currentColor`,
+          }),
+        })));
+  }),
+  Zj,
+  Qj,
+  $j = e(() => {
+    (t(El()),
+      (Zj = Z()),
+      (Qj = (e) =>
+        (0, Zj.jsx)(`svg`, {
+          width: 20,
+          height: 20,
+          viewBox: `0 0 20 20`,
+          fill: `none`,
+          xmlns: `http://www.w3.org/2000/svg`,
+          ...e,
+          children: (0, Zj.jsx)(`path`, {
+            d: `M10 5.14295V14.8441M10 5.14295C10 1.98209 14.8475 1.94468 14.8475 5.07797L14.8473 5.1067C17.1367 5.43539 18.0436 7.54498 16.4225 9.14006C17.8633 10.5577 17.3503 13.9054 15.4449 14.6301C14.8475 17.6527 10.8056 18.4821 10 14.8441M10 5.14295C10 1.98209 5.15249 1.94468 5.15249 5.07797L5.15265 5.1067C2.86325 5.43539 1.95642 7.54498 3.57746 9.14006C2.13674 10.5577 2.64974 13.9054 4.5551 14.6301C5.15249 17.6527 9.19444 18.4821 10 14.8441`,
+            stroke: `currentColor`,
+            strokeWidth: 1.33,
+            strokeLinejoin: `round`,
+          }),
+        })));
+  });
+function eM(e) {
+  return tM[e];
+}
+var tM,
+  nM = e(() => {
+    (Vj(),
+      Wj(),
+      qj(),
+      Xj(),
+      $j(),
+      (tM = {
+        none: Qj,
+        minimal: Qj,
+        low: Kj,
+        medium: Yj,
+        high: Uj,
+        xhigh: Bj,
+        max: Bj,
+        ultra: Bj,
+      }));
+  });
+function rM() {
+  let e = (0, iM.c)(6),
+    [t, n] = (0, aM.useState)(!1),
+    [r, i] = (0, aM.useState)(!1),
+    a = (0, aM.useRef)(null),
+    o = (0, aM.useRef)(!1),
+    s;
+  e[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((s = () => {
+        (i(!0), (o.current = !0), a.current?.blur(), n(!1));
+      }),
+      (e[0] = s))
+    : (s = e[0]);
+  let c = s,
+    l = t || r ? !1 : void 0,
+    u,
+    d;
+  e[1] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((u = () => {
+        if (o.current) {
+          o.current = !1;
+          return;
+        }
+        i(!1);
+      }),
+      (d = () => {
+        ((o.current = !1), i(!1));
+      }),
+      (e[1] = u),
+      (e[2] = d))
+    : ((u = e[1]), (d = e[2]));
+  let f;
+  return (
+    e[3] !== t || e[4] !== l
+      ? ((f = {
+          isOpen: t,
+          setIsOpen: n,
+          tooltipOpen: l,
+          triggerRef: a,
+          onTriggerBlur: u,
+          onTriggerPointerLeave: d,
+          handleSelectAndClose: c,
+        }),
+        (e[3] = t),
+        (e[4] = l),
+        (e[5] = f))
+      : (f = e[5]),
+    f
+  );
+}
+var iM,
+  aM,
+  oM = e(() => {
+    ((iM = X()), (aM = t(El(), 1)));
+  });
+function sM(e) {
+  return window.requestAnimationFrame(() => {
+    document.querySelector(e)?.focus();
+  });
+}
+function cM({ conversationId: e, hideLabel: t }) {
+  let n = qn(et),
+    r = jm(e),
+    i = un(r.hostId),
+    a = yh(),
+    { data: o, status: s } = Sh({ hostId: r.hostId }),
+    c = o?.models,
+    { modelSettings: l, setModelAndReasoningEffort: u } = Tp(e),
+    d = l.model;
+  Gc(Ir, e);
+  let { data: f } = Gc(ef, { cwd: r.cwd, hostId: r.hostId }),
+    { serviceTierSettings: p, setServiceTier: m } = qm(e),
+    { isServiceTierAllowed: h } = Hf({ hostId: r.hostId }),
+    g = Gc(Lj, e),
+    _ = Gc(dM, e),
+    {
+      isOpen: v,
+      setIsOpen: y,
+      tooltipOpen: b,
+      triggerRef: x,
+      onTriggerBlur: S,
+      onTriggerPointerLeave: C,
+      handleSelectAndClose: w,
+    } = rM(),
+    T = !up(s) || l.isLoading || g === `pending`,
+    E = i?.authMethod === `copilot`,
+    D = !T && !E,
+    O = nd(c, d),
+    k = Nf(l.reasoningEffort, O),
+    A = _n(fM),
+    j = _n(`2700454473`),
+    M = j ? `icon-xs` : `icon-2xs`,
+    N = eM(k),
+    P = Lm(c, d),
+    F = p.selectedServiceTier,
+    ee = p.availableOptions.find((e) => e.value === F),
+    I = p.availableOptions.find((e) => e.iconKind === `fast`)?.value,
+    L = ee?.iconKind ?? null,
+    R = L != null && Ae(P, F),
+    z = h && p.availableOptions.length > 1,
+    B = Gc(Zm, `composer.openModelPicker`),
+    V = (0, lM.useRef)(!1),
+    H = (0, lM.useRef)(!0);
+  (_x(
+    `composer.openModelPicker`,
+    () => {
+      if (v) {
+        sM(`[data-reasoning-slider], [data-reasoning-selected='true']`);
+        return;
+      }
+      ((H.current = !0), y(!0));
+    },
+    { enabled: !T },
+  ),
+    _x(
+      `composer.toggleFastMode`,
+      () => {
+        I != null && m(vn(F) ? null : I, `composer_menu`);
+      },
+      { enabled: h && !T && I != null },
+    ));
+  let te = (e) => {
+    let t = Ju(k, O, e);
+    t !== k && (Va(n, Ri, { reasoningEffort: t }), u(l.model, t));
+  };
+  return (
+    _x(
+      `composer.increaseReasoningEffort`,
+      () => {
+        te(`increase`);
+      },
+      { enabled: D },
+    ),
+    _x(
+      `composer.decreaseReasoningEffort`,
+      () => {
+        te(`decrease`);
+      },
+      { enabled: D },
+    ),
+    _x(
+      `composer.cycleReasoningEffort`,
+      () => {
+        let e = Qm(k, O);
+        e !== k && (Va(n, Ri, { reasoningEffort: e }), u(l.model, e));
+      },
+      { enabled: D },
+    ),
+    (0, lM.useEffect)(() => {
+      if (!v || !H.current) return;
+      let e = sM(`[data-reasoning-slider], [data-reasoning-selected='true']`);
+      return () => {
+        window.cancelAnimationFrame(e);
+      };
+    }, [v, !0]),
+    T
+      ? null
+      : (0, uM.jsx)(Wu, {
+          align: `end`,
+          open: v,
+          onOpenChange: (e) => {
+            (e || (H.current = !0), y(e));
+          },
+          onCloseAutoFocus: (e) => {
+            V.current && ((V.current = !1), e.preventDefault(), a.focus());
+          },
+          onEscapeKeyDown: () => {
+            V.current = !0;
+          },
+          model: d,
+          models: c,
+          modelOptionsDisabled: s === `error`,
+          reasoningEffort: l.reasoningEffort,
+          reasoningEffortDisabled: E,
+          selectedServiceTier: F,
+          selectedServiceTierIconKind: L,
+          serviceTierOptions: z ? p.availableOptions : [],
+          serviceTierOptionsLoading: p.isLoading,
+          showReasoningEffortControls: !0,
+          showReasoningEffortSlider: A,
+          onSelectComplete: () => {
+            (w(), a.focus());
+          },
+          onSelectModel: (t, r) => {
+            (Va(n, ts, { model: t }),
+              _ &&
+                t !== l.model &&
+                n
+                  .get(Yr)
+                  .info(
+                    (0, uM.jsx)(J, {
+                      id: `composer.modelChangeDuringConversationWarning.toast`,
+                      defaultMessage: `Changing models mid-conversation will degrade performance.`,
+                      description: `Warning toast shown when user changes model during an ongoing conversation`,
+                    }),
+                    { id: `composer.modelChangeDuringConversationWarning.${e}` },
+                  ),
+              u(t, r));
+          },
+          onSelectReasoningEffort: (e) => {
+            (Va(n, Ri, { reasoningEffort: e }), u(l.model, e));
+          },
+          onSelectServiceTier: z
+            ? (e) => {
+                m(e, `composer_menu`);
+              }
+            : void 0,
+          triggerButton: (0, uM.jsx)(Cn, {
+            open: b,
+            triggerRef: x,
+            shortcut: B,
+            tooltipContent: A
+              ? (0, uM.jsx)(J, {
+                  id: `composer.intelligenceDropdown.tooltipWithEffortSlider`,
+                  defaultMessage: `Select model and effort`,
+                  description: `Tooltip for the gated intelligence selector with model and reasoning effort slider controls in the composer`,
+                })
+              : (0, uM.jsx)(J, {
+                  id: `composer.intelligenceDropdown.tooltip`,
+                  defaultMessage: `Select model`,
+                  description: `Tooltip for the intelligence selector in the composer`,
+                }),
+            children: (0, uM.jsxs)(ya, {
+              size: `composer`,
+              color: `ghost`,
+              className: `min-w-0`,
+              "data-codex-intelligence-trigger": !0,
+              "data-selected-reasoning-effort": k,
+              onPointerDown: (e) => {
+                e.button === 0 && !e.ctrlKey && (H.current = !1);
+              },
+              onPointerLeave: C,
+              onBlur: S,
+              children: [
+                t ? (0, uM.jsx)(N, { className: M }) : null,
+                t
+                  ? null
+                  : (0, uM.jsxs)(`span`, {
+                      className: qc(
+                        `flex max-w-40 min-w-0 items-center gap-1.5`,
+                        j && `[&_svg]:size-4`,
+                      ),
+                      children: [
+                        (0, uM.jsx)(cd, {
+                          model: d,
+                          displayName: P?.displayName,
+                          labelClassName: `text-token-foreground`,
+                          serviceTierIconKind: R ? L : null,
+                          stripGptPrefix: !0,
+                        }),
+                        (0, uM.jsx)(Au, {
+                          collapse: `sm`,
+                          className: `shrink-0 text-token-description-foreground`,
+                          children: (0, uM.jsx)(Bf, { effort: k }),
+                        }),
+                      ],
+                    }),
+                (0, uM.jsx)(Bn, { className: qc(M, `text-token-input-placeholder-foreground`) }),
+              ],
+            }),
+          }),
+        })
+  );
+}
+var lM,
+  uM,
+  dM,
+  fM,
+  pM = e(() => {
+    (fl(),
+      Xn(),
+      ji(),
+      (lM = t(El(), 1)),
+      Y(),
+      vl(),
+      Rj(),
+      mu(),
+      Se(),
+      Rf(),
+      _s(),
+      qd(),
+      Fs(),
+      aa(),
+      Bd(),
+      Df(),
+      Fp(),
+      _h(),
+      ee(),
+      td(),
+      ys(),
+      gm(),
+      wt(),
+      Lt(),
+      dh(),
+      Xt(),
+      Qu(),
+      Vt(),
+      Rd(),
+      Dp(),
+      nM(),
+      Tf(),
+      Sx(),
+      oM(),
+      (uM = Z()),
+      (dM = qo(et, (e, { get: t }) => (t(Na, e) ?? 0) > 0)),
+      (fM = `2336618021`));
+  });
+function mM(e) {
+  return hM?.agentModesByHostId[e];
+}
+var hM,
+  gM = e(() => {
+    hM = null;
+  }),
+  _M,
+  vM,
+  yM = e(() => {
+    (t(El()),
+      (_M = Z()),
+      (vM = (e) =>
+        (0, _M.jsx)(`svg`, {
+          width: 20,
+          height: 20,
+          viewBox: `0 0 20 20`,
+          fill: `none`,
+          xmlns: `http://www.w3.org/2000/svg`,
+          ...e,
+          children: (0, _M.jsx)(`path`, {
+            d: `M12.6683 4.16699C12.6683 3.84391 12.4065 3.58203 12.0834 3.58203C11.7603 3.58203 11.4984 3.84391 11.4984 4.16699V7.91699L11.4847 8.05078C11.4227 8.35375 11.1547 8.58203 10.8334 8.58203C10.4662 8.58203 10.1685 8.28411 10.1683 7.91699V3.75C10.1683 3.42691 9.90646 3.16504 9.58337 3.16504C9.26029 3.16504 8.99841 3.42691 8.99841 3.75V7.91699C8.99824 8.28411 8.70053 8.58203 8.33337 8.58203C7.96621 8.58203 7.66851 8.28411 7.66833 7.91699V5C7.66833 4.67691 7.40646 4.41504 7.08337 4.41504C6.76029 4.41504 6.49841 4.67691 6.49841 5V9.30371C6.53326 9.3429 6.56715 9.38359 6.59998 9.42578L8.02478 11.2588C8.25005 11.5486 8.19821 11.9659 7.90857 12.1914C7.6187 12.4169 7.20048 12.365 6.97498 12.0752L5.55017 10.2432C5.15812 9.7391 4.41813 9.73637 4.01501 10.1924C4.04396 10.426 4.11486 10.8323 4.25525 11.3486C4.44664 12.0525 4.75404 12.9113 5.21619 13.7383C6.14103 15.3931 7.62465 16.835 10.0004 16.835C12.8545 16.8348 15.1682 14.5211 15.1683 11.667V6.25C15.1683 5.92691 14.9065 5.66504 14.5834 5.66504C14.2603 5.66504 13.9984 5.92691 13.9984 6.25V9.16699C13.9982 9.53411 13.7005 9.83203 13.3334 9.83203C12.9662 9.83203 12.6685 9.53411 12.6683 9.16699V4.16699ZM13.9984 4.42578C14.1828 4.36671 14.3794 4.33496 14.5834 4.33496C15.641 4.33496 16.4984 5.19237 16.4984 6.25V11.667C16.4982 15.2557 13.589 18.1649 10.0004 18.165C6.95953 18.165 5.10939 16.2734 4.05505 14.3867C3.52774 13.4431 3.1843 12.4787 2.97205 11.6982C2.76447 10.9349 2.66834 10.2954 2.66833 10C2.66833 9.87959 2.70117 9.76148 2.76306 9.6582C3.28988 8.78018 4.26555 8.40372 5.16833 8.56152V5C5.16833 3.94237 6.02575 3.08496 7.08337 3.08496C7.31706 3.08496 7.54039 3.12845 7.74744 3.20508C7.98218 2.41297 8.7151 1.83496 9.58337 1.83496C10.1836 1.83496 10.7186 2.11176 11.0697 2.54395C11.3639 2.35978 11.7107 2.25195 12.0834 2.25195C13.141 2.25195 13.9984 3.10937 13.9984 4.16699V4.42578Z`,
+            fill: `currentColor`,
+          }),
+        })));
+  }),
+  bM,
+  xM,
+  SM = e(() => {
+    (t(El()),
+      (bM = Z()),
+      (xM = (e) =>
+        (0, bM.jsxs)(`svg`, {
+          width: 20,
+          height: 20,
+          viewBox: `0 0 20 20`,
+          fill: `none`,
+          xmlns: `http://www.w3.org/2000/svg`,
+          ...e,
+          children: [
+            (0, bM.jsx)(`path`, {
+              fillRule: `evenodd`,
+              clipRule: `evenodd`,
+              d: `M9.06543 1.95123C9.66107 1.69076 10.3389 1.69071 10.9346 1.95123L15.9346 4.13873C16.7832 4.51008 17.3311 5.34917 17.3311 6.27545V10.5528C17.3309 14.6017 14.0489 17.8847 10 17.8848C5.95108 17.8846 2.66813 14.6017 2.66797 10.5528V6.27545C2.66797 5.34924 3.21695 4.51012 4.06543 4.13873L9.06543 1.95123ZM10.4014 3.16998C10.1456 3.05814 9.85444 3.05819 9.59863 3.16998L4.59863 5.35748C4.23427 5.51708 3.99805 5.87764 3.99805 6.27545V10.5528C3.99821 13.8671 6.68563 16.5546 10 16.5547C13.3144 16.5546 16.0008 13.8671 16.001 10.5528V6.27545C16.001 5.87756 15.7658 5.51703 15.4014 5.35748L10.4014 3.16998Z`,
+              fill: `currentColor`,
+            }),
+            (0, bM.jsx)(`path`, {
+              d: `M10.8883 13.1116C10.8883 13.6025 10.4903 14.0005 9.99936 14.0005C9.50844 14.0005 9.11047 13.6025 9.11047 13.1116C9.11047 12.6207 9.50844 12.2227 9.99936 12.2227C10.4903 12.2227 10.8883 12.6207 10.8883 13.1116Z`,
+              fill: `currentColor`,
+            }),
+            (0, bM.jsx)(`path`, {
+              d: `M10.5169 10.8949L11.1135 7.31519C11.2283 6.62672 10.6974 6 9.99941 6C9.30145 6 8.77053 6.62672 8.88528 7.31519L9.4819 10.8949C9.52406 11.1479 9.74294 11.3333 9.99941 11.3333C10.2559 11.3333 10.4748 11.1479 10.5169 10.8949Z`,
+              fill: `currentColor`,
+            }),
+          ],
+        })));
+  });
+function CM(e) {
+  return wM[e];
+}
+var wM,
+  TM = e(() => {
+    (Y(),
+      (wM = _r({
+        appearance: {
+          id: `settings.nav.appearance`,
+          defaultMessage: `Appearance`,
+          description: `Title for appearance settings section`,
+        },
+        pets: {
+          id: `settings.nav.pets`,
+          defaultMessage: `Pets`,
+          description: `Title for pets settings section`,
+        },
+        "general-settings": {
+          id: `settings.nav.general-settings`,
+          defaultMessage: `General`,
+          description: `Title for general settings section`,
+        },
+        import: {
+          id: `settings.nav.import`,
+          defaultMessage: `Import`,
+          description: `Title for import settings section`,
+        },
+        profile: {
+          id: `settings.nav.profile`,
+          defaultMessage: `Profile`,
+          description: `Title for profile section`,
+        },
+        "keyboard-shortcuts": {
+          id: `settings.nav.keyboard-shortcuts`,
+          defaultMessage: `Keyboard shortcuts`,
+          description: `Title for keyboard shortcuts settings section`,
+        },
+        "codex-micro": {
+          id: `settings.nav.codex-micro`,
+          defaultMessage: `Codex Micro`,
+          description: `Title for Codex Micro settings section`,
+        },
+        appshots: {
+          id: `settings.nav.appshots`,
+          defaultMessage: `Appshots`,
+          description: `Title for appshots settings section`,
+        },
+        agent: {
+          id: `settings.nav.agent`,
+          defaultMessage: `Configuration`,
+          description: `Title for configuration settings section`,
+        },
+        "git-settings": {
+          id: `settings.nav.git-settings`,
+          defaultMessage: `Git`,
+          description: `Title for git settings section`,
+        },
+        "data-controls": {
+          id: `settings.nav.data-controls`,
+          defaultMessage: `Archived chats`,
+          description: `Title for archived threads settings section`,
+        },
+        "code-review": {
+          id: `settings.nav.codeReview`,
+          defaultMessage: `Code review`,
+          description: `Title for code review settings section`,
+        },
+        "cloud-settings": {
+          id: `settings.nav.cloudSettings`,
+          defaultMessage: `Cloud preferences`,
+          description: `Title for cloud settings section`,
+        },
+        "cloud-environments": {
+          id: `settings.nav.cloudEnvironments`,
+          defaultMessage: `Cloud environments`,
+          description: `Title for cloud environments settings section`,
+        },
+        personalization: {
+          id: `settings.nav.personalization`,
+          defaultMessage: `Personalization`,
+          description: `Title for personalization settings section`,
+        },
+        usage: {
+          id: `settings.nav.usage`,
+          defaultMessage: `Usage & billing`,
+          description: `Title for usage and billing settings section`,
+        },
+        "computer-use": {
+          id: `settings.nav.computer-use`,
+          defaultMessage: `Computer use`,
+          description: `Title for computer use settings section`,
+        },
+        "browser-use": {
+          id: `settings.nav.browser-use`,
+          defaultMessage: `Browser`,
+          description: `Title for in-app browser settings section`,
+        },
+        "local-environments": {
+          id: `settings.nav.local-environments`,
+          defaultMessage: `Environments`,
+          description: `Title for environments settings section`,
+        },
+        worktrees: {
+          id: `settings.nav.worktrees`,
+          defaultMessage: `Worktrees`,
+          description: `Title for worktrees settings section`,
+        },
+        environments: {
+          id: `settings.nav.environments`,
+          defaultMessage: `Cloud Environments`,
+          description: `Title for environments settings section`,
+        },
+        "mcp-settings": {
+          id: `settings.nav.mcp-settings`,
+          defaultMessage: `MCP servers`,
+          description: `Title for MCP servers settings section`,
+        },
+        "hooks-settings": {
+          id: `settings.nav.hooks-settings`,
+          defaultMessage: `Hooks`,
+          description: `Title for hooks settings section`,
+        },
+        connections: {
+          id: `settings.nav.connections`,
+          defaultMessage: `Connections`,
+          description: `Title for connections settings section`,
+        },
+        "plugins-settings": {
+          id: `settings.nav.plugins-settings`,
+          defaultMessage: `Plugins`,
+          description: `Title for plugins settings section`,
+        },
+        "skills-settings": {
+          id: `settings.nav.skills-settings`,
+          defaultMessage: `Skills`,
+          description: `Title for skills settings section`,
+        },
+      })));
+  });
+function EM(e) {
+  let t = (0, AM.c)(24),
+    n,
+    r,
+    i,
+    a,
+    o,
+    s;
+  t[0] === e
+    ? ((n = t[1]), (r = t[2]), (i = t[3]), (a = t[4]), (o = t[5]), (s = t[6]))
+    : (({
+        children: r,
+        className: i,
+        contentClassName: a,
+        chevronClassName: n,
+        color: s,
+        ...o
+      } = e),
+      (t[0] = e),
+      (t[1] = n),
+      (t[2] = r),
+      (t[3] = i),
+      (t[4] = a),
+      (t[5] = o),
+      (t[6] = s));
+  let c = s === void 0 ? `secondary` : s,
+    l;
+  t[7] === i ? (l = t[8]) : ((l = qc(`w-[240px] justify-between`, i)), (t[7] = i), (t[8] = l));
+  let u;
+  t[9] === a
+    ? (u = t[10])
+    : ((u = qc(`flex min-w-0 flex-1 items-center gap-1.5`, a)), (t[9] = a), (t[10] = u));
+  let d;
+  t[11] !== r || t[12] !== u
+    ? ((d = (0, jM.jsx)(`span`, { className: u, children: r })),
+      (t[11] = r),
+      (t[12] = u),
+      (t[13] = d))
+    : (d = t[13]);
+  let f;
+  t[14] === n
+    ? (f = t[15])
+    : ((f = qc(`icon-2xs shrink-0 text-token-input-placeholder-foreground`, n)),
+      (t[14] = n),
+      (t[15] = f));
+  let p;
+  t[16] === f ? (p = t[17]) : ((p = (0, jM.jsx)(Bn, { className: f })), (t[16] = f), (t[17] = p));
+  let m;
+  return (
+    t[18] !== c || t[19] !== o || t[20] !== l || t[21] !== d || t[22] !== p
+      ? ((m = (0, jM.jsxs)(ya, {
+          color: c,
+          size: `toolbar`,
+          className: l,
+          ...o,
+          children: [d, p],
+        })),
+        (t[18] = c),
+        (t[19] = o),
+        (t[20] = l),
+        (t[21] = d),
+        (t[22] = p),
+        (t[23] = m))
+      : (m = t[23]),
+    m
+  );
+}
+function DM(e) {
+  let t = (0, AM.c)(4),
+    { slug: n } = e,
+    r;
+  t[0] === n ? (r = t[1]) : ((r = CM(n)), (t[0] = n), (t[1] = r));
+  let i;
+  return (t[2] === r ? (i = t[3]) : ((i = (0, jM.jsx)(J, { ...r })), (t[2] = r), (t[3] = i)), i);
+}
+function OM(e) {
+  let t = (0, AM.c)(26),
+    { slug: n } = e;
+  switch (n) {
+    case `appshots`: {
+      let e;
+      return (
+        t[0] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, jM.jsx)(J, {
+              id: `settings.section.appshots`,
+              defaultMessage: `Appshots`,
+              description: `Title for appshots settings section`,
+            })),
+            (t[0] = e))
+          : (e = t[0]),
+        e
+      );
+    }
+    case `appearance`: {
+      let e;
+      return (
+        t[1] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, jM.jsx)(J, {
+              id: `settings.section.appearance`,
+              defaultMessage: `Appearance`,
+              description: `Title for appearance settings section`,
+            })),
+            (t[1] = e))
+          : (e = t[1]),
+        e
+      );
+    }
+    case `pets`: {
+      let e;
+      return (
+        t[2] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, jM.jsx)(J, {
+              id: `settings.section.pets`,
+              defaultMessage: `Pets`,
+              description: `Title for pets settings section`,
+            })),
+            (t[2] = e))
+          : (e = t[2]),
+        e
+      );
+    }
+    case `general-settings`: {
+      let e;
+      return (
+        t[3] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, jM.jsx)(J, {
+              id: `settings.section.general-settings`,
+              defaultMessage: `General`,
+              description: `Title for general settings section`,
+            })),
+            (t[3] = e))
+          : (e = t[3]),
+        e
+      );
+    }
+    case `import`: {
+      let e;
+      return (
+        t[4] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, jM.jsx)(J, {
+              id: `settings.section.import`,
+              defaultMessage: `Import`,
+              description: `Title for import settings section`,
+            })),
+            (t[4] = e))
+          : (e = t[4]),
+        e
+      );
+    }
+    case `profile`: {
+      let e;
+      return (
+        t[5] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, jM.jsx)(J, {
+              id: `settings.section.profile`,
+              defaultMessage: `Profile`,
+              description: `Title for profile section`,
+            })),
+            (t[5] = e))
+          : (e = t[5]),
+        e
+      );
+    }
+    case `keyboard-shortcuts`: {
+      let e;
+      return (
+        t[6] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, jM.jsx)(J, {
+              id: `settings.section.keyboard-shortcuts`,
+              defaultMessage: `Keyboard shortcuts`,
+              description: `Title for keyboard shortcuts settings section`,
+            })),
+            (t[6] = e))
+          : (e = t[6]),
+        e
+      );
+    }
+    case `codex-micro`: {
+      let e;
+      return (
+        t[7] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, jM.jsx)(J, {
+              id: `settings.section.codex-micro`,
+              defaultMessage: `Codex Micro`,
+              description: `Title for Codex Micro settings section`,
+            })),
+            (t[7] = e))
+          : (e = t[7]),
+        e
+      );
+    }
+    case `agent`: {
+      let e;
+      return (
+        t[8] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, jM.jsx)(J, {
+              id: `settings.section.agent`,
+              defaultMessage: `Configuration`,
+              description: `Title for configuration settings section`,
+            })),
+            (t[8] = e))
+          : (e = t[8]),
+        e
+      );
+    }
+    case `git-settings`: {
+      let e;
+      return (
+        t[9] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, jM.jsx)(J, {
+              id: `settings.section.git-settings`,
+              defaultMessage: `Git`,
+              description: `Title for git settings section`,
+            })),
+            (t[9] = e))
+          : (e = t[9]),
+        e
+      );
+    }
+    case `data-controls`: {
+      let e;
+      return (
+        t[10] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, jM.jsx)(J, {
+              id: `settings.section.data-controls`,
+              defaultMessage: `Archived chats`,
+              description: `Title for archived threads settings section`,
+            })),
+            (t[10] = e))
+          : (e = t[10]),
+        e
+      );
+    }
+    case `code-review`: {
+      let e;
+      return (
+        t[11] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, jM.jsx)(J, {
+              id: `settings.section.codeReview`,
+              defaultMessage: `Code review`,
+              description: `Title for code review settings section`,
+            })),
+            (t[11] = e))
+          : (e = t[11]),
+        e
+      );
+    }
+    case `cloud-settings`: {
+      let e;
+      return (
+        t[12] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, jM.jsx)(J, {
+              id: `settings.section.cloudSettings`,
+              defaultMessage: `Cloud preferences`,
+              description: `Title for cloud settings section`,
+            })),
+            (t[12] = e))
+          : (e = t[12]),
+        e
+      );
+    }
+    case `cloud-environments`: {
+      let e;
+      return (
+        t[13] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, jM.jsx)(J, {
+              id: `settings.section.cloudEnvironments`,
+              defaultMessage: `Cloud environments`,
+              description: `Title for cloud environments settings section`,
+            })),
+            (t[13] = e))
+          : (e = t[13]),
+        e
+      );
+    }
+    case `personalization`: {
+      let e;
+      return (
+        t[14] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, jM.jsx)(J, {
+              id: `settings.section.personalization`,
+              defaultMessage: `Personalization`,
+              description: `Title for personalization settings section`,
+            })),
+            (t[14] = e))
+          : (e = t[14]),
+        e
+      );
+    }
+    case `usage`: {
+      let e;
+      return (
+        t[15] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, jM.jsx)(J, {
+              id: `settings.section.usage`,
+              defaultMessage: `Usage & billing`,
+              description: `Title for usage and billing settings section`,
+            })),
+            (t[15] = e))
+          : (e = t[15]),
+        e
+      );
+    }
+    case `computer-use`: {
+      let e;
+      return (
+        t[16] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, jM.jsx)(J, {
+              id: `computerUse.label`,
+              defaultMessage: `Computer use`,
+              description: `Label for the Computer Use feature`,
+            })),
+            (t[16] = e))
+          : (e = t[16]),
+        e
+      );
+    }
+    case `browser-use`: {
+      let e;
+      return (
+        t[17] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, jM.jsx)(J, {
+              id: `settings.section.browser-use`,
+              defaultMessage: `Browser`,
+              description: `Title for in-app browser settings section`,
+            })),
+            (t[17] = e))
+          : (e = t[17]),
+        e
+      );
+    }
+    case `local-environments`: {
+      let e;
+      return (
+        t[18] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, jM.jsx)(J, {
+              id: `settings.section.local-environments`,
+              defaultMessage: `Environments`,
+              description: `Title for environments settings section`,
+            })),
+            (t[18] = e))
+          : (e = t[18]),
+        e
+      );
+    }
+    case `worktrees`: {
+      let e;
+      return (
+        t[19] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, jM.jsx)(J, {
+              id: `settings.section.worktrees`,
+              defaultMessage: `Worktrees`,
+              description: `Title for worktrees settings section`,
+            })),
+            (t[19] = e))
+          : (e = t[19]),
+        e
+      );
+    }
+    case `environments`: {
+      let e;
+      return (
+        t[20] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, jM.jsx)(J, {
+              id: `settings.section.environments`,
+              defaultMessage: `Cloud Environments`,
+              description: `Title for environments settings section`,
+            })),
+            (t[20] = e))
+          : (e = t[20]),
+        e
+      );
+    }
+    case `mcp-settings`: {
+      let e;
+      return (
+        t[21] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, jM.jsx)(J, {
+              id: `settings.section.mcp-settings`,
+              defaultMessage: `MCP servers`,
+              description: `Title for MCP servers settings section`,
+            })),
+            (t[21] = e))
+          : (e = t[21]),
+        e
+      );
+    }
+    case `hooks-settings`: {
+      let e;
+      return (
+        t[22] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, jM.jsx)(J, {
+              id: `settings.section.hooks-settings`,
+              defaultMessage: `Hooks`,
+              description: `Title for hooks settings section`,
+            })),
+            (t[22] = e))
+          : (e = t[22]),
+        e
+      );
+    }
+    case `connections`: {
+      let e;
+      return (
+        t[23] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, jM.jsx)(J, {
+              id: `settings.section.connections`,
+              defaultMessage: `Connections`,
+              description: `Title for connections settings section`,
+            })),
+            (t[23] = e))
+          : (e = t[23]),
+        e
+      );
+    }
+    case `plugins-settings`: {
+      let e;
+      return (
+        t[24] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, jM.jsx)(J, {
+              id: `settings.section.plugins-settings`,
+              defaultMessage: `Plugins`,
+              description: `Title for plugins settings section`,
+            })),
+            (t[24] = e))
+          : (e = t[24]),
+        e
+      );
+    }
+    case `skills-settings`: {
+      let e;
+      return (
+        t[25] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, jM.jsx)(J, {
+              id: `settings.section.skills-settings`,
+              defaultMessage: `Skills`,
+              description: `Title for skills settings section`,
+            })),
+            (t[25] = e))
+          : (e = t[25]),
+        e
+      );
+    }
+  }
+}
+function kM(e) {
+  let t = (0, AM.c)(2),
+    { slug: n } = e;
+  if (n === `mcp-settings`) {
+    let e;
+    t[0] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((e = (0, jM.jsx)(J, {
+          id: `settings.section.mcp-settings.subtitle`,
+          defaultMessage: `Connect external tools and data sources. `,
+          description: `Subtitle for MCP settings section`,
+        })),
+        (t[0] = e))
+      : (e = t[0]);
+    let n;
+    return (
+      t[1] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((n = (0, jM.jsxs)(`div`, {
+            children: [
+              e,
+              (0, jM.jsx)(`a`, {
+                className: `inline-flex items-center gap-1 text-base text-token-text-link-foreground`,
+                href: Bv,
+                target: `_blank`,
+                rel: `noreferrer`,
+                children: (0, jM.jsx)(J, {
+                  id: `settings.section.mcp-settings.learnMore`,
+                  defaultMessage: `Learn more.`,
+                  description: `Label for MCP docs link`,
+                }),
+              }),
+            ],
+          })),
+          (t[1] = n))
+        : (n = t[1]),
+      n
+    );
+  }
+  return null;
+}
+var AM,
+  jM,
+  MM = e(() => {
+    ((AM = X()), Xn(), Y(), _s(), zv(), ee(), TM(), (jM = Z()));
+  });
+function NM(e) {
+  let t = (0, zM.c)(109),
+    {
+      conversationId: n,
+      hostId: r,
+      cwdOverride: i,
+      configDataOverride: a,
+      permissionProfilesOverride: o,
+      defaultOpen: s,
+      stateScope: c,
+      DropdownContainer: l,
+      hideLabel: u,
+    } = e,
+    d = s === void 0 ? !1 : s,
+    f = u === void 0 ? !1 : u,
+    p = qn(et),
+    m = _n(`2700454473`),
+    h = c === `global-default`,
+    g = Ns(),
+    _;
+  t[0] !== n || t[1] !== i || t[2] !== r
+    ? ((_ = { conversationId: n, hostId: r, cwdOverride: i }),
+      (t[0] = n),
+      (t[1] = i),
+      (t[2] = r),
+      (t[3] = _))
+    : (_ = t[3]);
+  let v = T_(_),
+    y = a ?? v,
+    b = Gc(oc, n),
+    x = de(_e),
+    S = de(oe),
+    C = i !== void 0,
+    w = (C && i == null) || (!C && b == null && S),
+    T = C ? (i ?? null) : (b ?? x),
+    E;
+  t[4] !== r || t[5] !== T
+    ? ((E = { hostId: r, cwd: T }), (t[4] = r), (t[5] = T), (t[6] = E))
+    : (E = t[6]);
+  let D = o == null && !w,
+    O;
+  t[7] === D ? (O = t[8]) : ((O = { enabled: D }), (t[7] = D), (t[8] = O));
+  let { data: k } = Gc(s_, E, O),
+    A = o ?? (w || k === void 0 ? [] : k),
+    j =
+      typeof y.resolvedConfig?.default_permissions == `string`
+        ? y.resolvedConfig.default_permissions
+        : null,
+    { defaultProfileId: M, profiles: N } = u_(A, y.requirements, j),
+    P = h ? [] : N.filter(FM),
+    F = c_(),
+    ee = g_(F, y),
+    I = v_(M, ee),
+    L = wy(de(Oy)),
+    [R, z] = (0, BM.useState)(d),
+    B;
+  t[9] !== n || t[10] !== i || t[11] !== r || t[12] !== c
+    ? ((B = { conversationId: n, cwdOverride: i, hostId: r, stateScope: c }),
+      (t[9] = n),
+      (t[10] = i),
+      (t[11] = r),
+      (t[12] = c),
+      (t[13] = B))
+    : (B = t[13]);
+  let {
+      agentMode: V,
+      hasSetInitialAgentMode: H,
+      permissionProfileId: te,
+      shouldSendPermissionOverrides: ne,
+      shouldUseAppServerPermissionDefault: re,
+      setAgentMode: U,
+      setHasSetInitialAgentMode: ie,
+      setPermissionProfileId: ae,
+    } = y_(B),
+    W;
+  t[14] === te
+    ? (W = t[15])
+    : ((W = te != null && !te.startsWith(`:`) ? te : null), (t[14] = te), (t[15] = W));
+  let G = W ?? (!ne && P.length === 1 ? P[0].id : null),
+    [se, K] = Ha(id),
+    q = Yw().isEnabled && r === `local`,
+    ce;
+  t[16] === q ? (ce = t[17]) : ((ce = { enabled: q }), (t[16] = q), (t[17] = ce));
+  let { isRequired: le } = Uw(ce),
+    ue =
+      I != null && I !== `full-access`
+        ? I
+        : p_({ defaultWorkspaceWriteMode: ee, isWindowsSandboxRequired: le }),
+    fe = le ? `read-only` : null,
+    pe;
+  t[18] !== r || t[19] !== V
+    ? ((pe = V === `guardian-approvals` && mM(r) === `guardian-approvals`),
+      (t[18] = r),
+      (t[19] = V),
+      (t[20] = pe))
+    : (pe = t[20]);
+  let {
+      availableAgentModes: me,
+      canShowCustom: he,
+      canUnlock: ge,
+      customEquivalentMode: ve,
+      isConfigDataPending: ye,
+      configNonFullAccessMode: be,
+      showGuardianOption: xe,
+    } = j_({ ...y, defaultWorkspaceWriteMode: ee, hasAuthoritativeGuardianApprovalDefault: pe }),
+    Se = _y({ availableAgentModes: me, visibility: L }),
+    Ce = Sy({ availableAgentModes: me, visibleAgentModes: Se }),
+    we = S_(y.requirements),
+    Te;
+  t[21] !== n || t[22] !== i || t[23] !== r || t[24] !== c
+    ? ((Te = { conversationId: n, cwdOverride: i, hostId: r, stateScope: c }),
+      (t[21] = n),
+      (t[22] = i),
+      (t[23] = r),
+      (t[24] = c),
+      (t[25] = Te))
+    : (Te = t[25]);
+  let { preferredNonFullAccessMode: Ee, setPreferredNonFullAccessMode: De } = C_(Te),
+    {
+      canSelectGuardianMode: Oe,
+      resolvedNonFullAccessMode: ke,
+      validPreferredNonFullAccessMode: Ae,
+      shouldClearPreferredNonFullAccessMode: je,
+    } = d_({
+      availableAgentModes: Ce,
+      preferredNonFullAccessMode: Ee,
+      isGuardianModeAvailable: Ce.includes(`guardian-approvals`),
+      isConfigDataPending: ye,
+      configNonFullAccessMode: be,
+    }),
+    {
+      canShowCustom: Me,
+      canShowFullAccess: Ne,
+      optionCount: Pe,
+      showGuardianOption: Fe,
+    } = Dy({
+      canShowDefaultPermissions: we,
+      canSelectGuardianMode: Oe,
+      canShowConfigCustom: he,
+      canShowConfigFullAccess: ge,
+      canShowGuardianOption: xe && L[`guardian-approvals`],
+      selectionAgentModes: Ce,
+      visibleAgentModes: Se,
+    }),
+    Ie = Pe + P.length,
+    Le = ye || (Ie <= 1 && (P.length === 0 || G != null)),
+    Re = !Ne,
+    ze = G == null && we && V !== `guardian-approvals` && V !== `full-access` && V !== `custom`,
+    Be,
+    Ve,
+    Ue;
+  if (G != null) {
+    Ue = (0, VM.jsx)(VM.Fragment, { children: G });
+    let e;
+    (t[26] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((e = (0, VM.jsx)(q_, { className: `icon-xs shrink-0` })), (t[26] = e))
+      : (e = t[26]),
+      (Ve = e));
+  } else if (ze) {
+    let e;
+    (t[27] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((e = (0, VM.jsx)(J, {
+          id: `composer.permissionsDropdown.default.shortLabel`,
+          defaultMessage: `Ask for approval`,
+          description: `Short trigger label for the default approvals mode`,
+        })),
+        (t[27] = e))
+      : (e = t[27]),
+      (Ue = e));
+    let n;
+    (t[28] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((n = (0, VM.jsx)(vM, { className: `icon-xs shrink-0` })), (t[28] = n))
+      : (n = t[28]),
+      (Ve = n));
+  } else if (V === `full-access`) {
+    Be = HM;
+    let e;
+    (t[29] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((e = (0, VM.jsx)(J, {
+          id: `composer.permissionsDropdown.fullAccess.shortLabel`,
+          defaultMessage: `Full access`,
+          description: `Short trigger label for the full access approvals mode`,
+        })),
+        (t[29] = e))
+      : (e = t[29]),
+      (Ue = e));
+    let n;
+    (t[30] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((n = (0, VM.jsx)(xM, { className: qc(`icon-xs shrink-0`, HM) })), (t[30] = n))
+      : (n = t[30]),
+      (Ve = n));
+  } else if (V === `guardian-approvals`) {
+    Be = UM;
+    let e;
+    (t[31] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((e = (0, VM.jsx)(J, {
+          id: `composer.permissionsDropdown.guardianApproval.triggerLabel`,
+          defaultMessage: `Approve for me`,
+          description: `Short trigger label for the Review for me approvals mode`,
+        })),
+        (t[31] = e))
+      : (e = t[31]),
+      (Ue = e));
+    let n;
+    (t[32] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((n = (0, VM.jsx)(Nh, { className: qc(`icon-xs shrink-0`, UM) })), (t[32] = n))
+      : (n = t[32]),
+      (Ve = n));
+  } else {
+    let e;
+    (t[33] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((e = (0, VM.jsx)(J, {
+          id: `composer.permissionsDropdown.custom.shortLabel`,
+          defaultMessage: `Custom`,
+          description: `Short trigger label for the custom approvals mode`,
+        })),
+        (t[33] = e))
+      : (e = t[33]),
+      (Ue = e));
+    let n;
+    (t[34] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((n = (0, VM.jsx)(q_, { className: `icon-xs shrink-0` })), (t[34] = n))
+      : (n = t[34]),
+      (Ve = n));
+  }
+  let We = Gc(Lj, n),
+    Ge;
+  t[35] !== V || t[36] !== p
+    ? ((Ge = (e) => {
+        Va(p, Zs, { startAgentMode: V, endAgentMode: e });
+      }),
+      (t[35] = V),
+      (t[36] = p),
+      (t[37] = Ge))
+    : (Ge = t[37]);
+  let Y = Ge;
+  (0, BM.useEffect)(() => {
+    je && De(null);
+  }, [De, je]);
+  let Ke = I ?? k_(Ce, ve, ke, Ae, fe),
+    qe = M_(V, Ae, ke, Ce, ve, ue, we, fe),
+    Je = fe == null && Ke !== `custom` && i_(V, Ce, ve);
+  (0, BM.useEffect)(() => {
+    if (ye || (n != null && re) || A_(H, We)) return;
+    if (!H) {
+      if (Je) {
+        ie(!0);
+        return;
+      }
+      if (V !== Ke) {
+        U(Ke);
+        return;
+      }
+      ie(!0);
+      return;
+    }
+    let e = Ce.includes(V);
+    ((V === `full-access` || V === `custom`) && e) || (qe != null && V !== qe && U(qe));
+  }, [n, H, Ke, ye, V, qe, Je, re, Ce, ie, U, We]);
+  let Ye = () => {
+      (Y(ue), De(null), U(ue), z(!1));
+    },
+    Xe = () => {
+      Oe && (Y(`guardian-approvals`), De(`guardian-approvals`), U(`guardian-approvals`), z(!1));
+    },
+    Ze;
+  t[38] !== Re ||
+  t[39] !== Y ||
+  t[40] !== p ||
+  t[41] !== U ||
+  t[42] !== z ||
+  t[43] !== K ||
+  t[44] !== se
+    ? ((Ze = () => {
+        if (!Re) {
+          if (!se) {
+            yn(p, IM, {
+              onConfirm: () => {
+                (Y(`full-access`), U(`full-access`), K(!0));
+              },
+            });
+            return;
+          }
+          (Y(`full-access`), U(`full-access`), z(!1));
+        }
+      }),
+      (t[38] = Re),
+      (t[39] = Y),
+      (t[40] = p),
+      (t[41] = U),
+      (t[42] = z),
+      (t[43] = K),
+      (t[44] = se),
+      (t[45] = Ze))
+    : (Ze = t[45]);
+  let Qe = Ze,
+    $e = () => {
+      Me && (Y(`custom`), De(null), U(`custom`), z(!1));
+    },
+    tt;
+  t[46] === g
+    ? (tt = t[47])
+    : ((tt = g.formatMessage({
+        id: `composer.permissionsDropdown.disabled.requirements`,
+        defaultMessage: `Permissions are locked by requirements.toml`,
+        description: `Tooltip shown when the permissions dropdown is disabled by requirements`,
+      })),
+      (t[46] = g),
+      (t[47] = tt));
+  let nt = tt,
+    rt;
+  t[48] === g
+    ? (rt = t[49])
+    : ((rt = g.formatMessage({
+        id: `composer.permissionsDropdown.trigger.tooltip`,
+        defaultMessage: `Change permissions`,
+        description: `Tooltip shown on the permissions dropdown trigger`,
+      })),
+      (t[48] = g),
+      (t[49] = rt));
+  let it = rt,
+    at;
+  t[50] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((at = qc(`block`, `text-left`)), (t[50] = at))
+    : (at = t[50]);
+  let ot;
+  t[51] === it
+    ? (ot = t[52])
+    : ((ot = (0, VM.jsx)(`span`, { className: at, children: it })), (t[51] = it), (t[52] = ot));
+  let st = ot,
+    ct;
+  if (h) {
+    let e = ye ? `loading-shimmer` : void 0,
+      n;
+    (t[53] !== Le || t[54] !== e || t[55] !== Ue
+      ? ((n = (0, VM.jsx)(EM, { disabled: Le, contentClassName: e, children: Ue })),
+        (t[53] = Le),
+        (t[54] = e),
+        (t[55] = Ue),
+        (t[56] = n))
+      : (n = t[56]),
+      (ct = n));
+  } else if (f) {
+    let e = ye ? `loading-shimmer` : void 0,
+      n;
+    (t[57] !== e || t[58] !== Ve || t[59] !== it
+      ? ((n = (0, VM.jsx)(ya, {
+          size: `composer`,
+          color: `ghost`,
+          uniform: !0,
+          className: e,
+          "aria-label": it,
+          children: Ve,
+        })),
+        (t[57] = e),
+        (t[58] = Ve),
+        (t[59] = it),
+        (t[60] = n))
+      : (n = t[60]),
+      (ct = n));
+  } else {
+    let e = Ve,
+      n = ye && `loading-shimmer`,
+      r;
+    t[61] !== n || t[62] !== Be
+      ? ((r = qc(`max-w-40 truncate whitespace-nowrap text-left`, Be, n)),
+        (t[61] = n),
+        (t[62] = Be),
+        (t[63] = r))
+      : (r = t[63]);
+    let i;
+    t[64] !== r || t[65] !== Ue
+      ? ((i = (0, VM.jsx)(Au, { collapse: `xs`, className: r, children: Ue })),
+        (t[64] = r),
+        (t[65] = Ue),
+        (t[66] = i))
+      : (i = t[66]);
+    let a = m ? `icon-xs` : `icon-2xs`,
+      o = Be ?? `text-token-input-placeholder-foreground`,
+      s;
+    t[67] !== a || t[68] !== o
+      ? ((s = qc(a, `shrink-0`, o)), (t[67] = a), (t[68] = o), (t[69] = s))
+      : (s = t[69]);
+    let c;
+    t[70] === s ? (c = t[71]) : ((c = (0, VM.jsx)(Bn, { className: s })), (t[70] = s), (t[71] = c));
+    let l;
+    (t[72] !== i || t[73] !== c || t[74] !== Ve
+      ? ((l = (0, VM.jsxs)(ya, {
+          size: `composerSm`,
+          color: `ghost`,
+          className: `min-w-0`,
+          children: [e, i, c],
+        })),
+        (t[72] = i),
+        (t[73] = c),
+        (t[74] = Ve),
+        (t[75] = l))
+      : (l = t[75]),
+      (ct = l));
+  }
+  let lt;
+  if (Le && !ye) {
+    let e;
+    t[76] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((e = qc(`block`, `text-left`)), (t[76] = e))
+      : (e = t[76]);
+    let n;
+    t[77] === nt
+      ? (n = t[78])
+      : ((n = (0, VM.jsx)(`span`, { className: e, children: nt })), (t[77] = nt), (t[78] = n));
+    let r;
+    (t[79] !== n || t[80] !== ct
+      ? ((r = (0, VM.jsx)(Cn, { tooltipContent: n, children: ct })),
+        (t[79] = n),
+        (t[80] = ct),
+        (t[81] = r))
+      : (r = t[81]),
+      (lt = r));
+  } else if (Le) lt = ct;
+  else {
+    let e = R ? !1 : void 0,
+      n;
+    (t[82] !== e || t[83] !== ct || t[84] !== st
+      ? ((n = (0, VM.jsx)(Cn, { open: e, tooltipContent: st, children: ct })),
+        (t[82] = e),
+        (t[83] = ct),
+        (t[84] = st),
+        (t[85] = n))
+      : (n = t[85]),
+      (lt = n));
+  }
+  if (!h && F === `STEPS_PROSE` && Ie <= 1 && we) return null;
+  let ut = pr,
+    dt = `start`,
+    ft = lt,
+    pt;
+  t[86] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((pt = (0, VM.jsx)(`span`, {
+        children: (0, VM.jsx)(J, {
+          id: `composer.permissionsDropdown.title`,
+          defaultMessage: `How should Codex actions be approved?`,
+          description: `Title for the composer permissions dropdown`,
+        }),
+      })),
+      (t[86] = pt))
+    : (pt = t[86]);
+  let mt;
+  t[87] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((mt = (0, VM.jsx)(He.Title, {
+        children: (0, VM.jsxs)(`div`, {
+          className: `flex items-center justify-between gap-8`,
+          children: [
+            pt,
+            (0, VM.jsx)(`button`, {
+              type: `button`,
+              className: `cursor-interaction underline underline-offset-2 hover:text-token-description-foreground`,
+              onClick: PM,
+              children: (0, VM.jsx)(J, {
+                defaultMessage: `Learn more`,
+                description: `Label on a button that opens the docs page for Codex action permissions and escalation.`,
+                id: `composer.permissionsDropdown.learnMore`,
+              }),
+            }),
+          ],
+        }),
+      })),
+      (t[87] = mt))
+    : (mt = t[87]);
+  let ht = we
+      ? (0, VM.jsx)(He.Item, {
+          LeftIcon: vM,
+          RightIcon: ze ? wo : void 0,
+          onClick: Ye,
+          allowWrap: !0,
+          SubText: (0, VM.jsx)(`span`, {
+            className: `text-token-description-foreground`,
+            children: (0, VM.jsx)(J, {
+              id: `composer.permissionsDropdown.default.description`,
+              defaultMessage: `Always ask to edit external files and use the internet`,
+              description: `Description for the default approvals option in the composer approvals dropdown`,
+            }),
+          }),
+          children: (0, VM.jsx)(J, {
+            id: `composer.permissionsDropdown.default.approvalOptionLabel`,
+            defaultMessage: `Ask for approval`,
+            description: `Dropdown option for the default approvals mode`,
+          }),
+        })
+      : null,
+    gt = Fe
+      ? (0, VM.jsx)(He.Item, {
+          LeftIcon: Nh,
+          RightIcon: G == null && V === `guardian-approvals` ? wo : void 0,
+          onClick: Xe,
+          disabled: !Oe,
+          allowWrap: !0,
+          SubText: (0, VM.jsx)(`span`, {
+            className: `text-token-description-foreground`,
+            children: Oe
+              ? (0, VM.jsx)(J, {
+                  id: `composer.permissionsDropdown.guardianApproval.description`,
+                  defaultMessage: `Only ask for actions detected as potentially unsafe`,
+                  description: `Description for the Auto-review option in the composer approvals dropdown`,
+                })
+              : (0, VM.jsx)(J, {
+                  id: `composer.permissionsDropdown.guardianApproval.disabledDescription`,
+                  defaultMessage: `Requires default sandboxed permissions in this workspace`,
+                  description: `Description explaining why Auto-review is unavailable in the composer approvals dropdown`,
+                }),
+          }),
+          children: (0, VM.jsx)(J, {
+            id: `composer.permissionsDropdown.guardianApproval.optionLabel`,
+            defaultMessage: `Approve for me`,
+            description: `Dropdown option for the Review for me approvals mode`,
+          }),
+        })
+      : null,
+    _t = L[`full-access`]
+      ? (0, VM.jsx)(He.Item, {
+          LeftIcon: xM,
+          RightIcon: G == null && V === `full-access` ? wo : void 0,
+          onClick: Qe,
+          disabled: Re,
+          allowWrap: !0,
+          SubText: (0, VM.jsx)(`span`, {
+            className: `text-token-description-foreground`,
+            children: Re
+              ? (0, VM.jsx)(J, {
+                  id: `composer.permissionsDropdown.fullAccess.disabledDescription`,
+                  defaultMessage: `Disabled by requirements.toml`,
+                  description: `Description explaining why full access is unavailable in the composer approvals dropdown`,
+                })
+              : (0, VM.jsx)(J, {
+                  id: `composer.permissionsDropdown.fullAccess.description`,
+                  defaultMessage: `Unrestricted access to the internet and any file on your computer`,
+                  description: `Description for the full access option in the composer approvals dropdown`,
+                }),
+          }),
+          children: (0, VM.jsx)(J, {
+            id: `composer.permissionsDropdown.fullAccess.optionLabel`,
+            defaultMessage: `Full access`,
+            description: `Dropdown option for the full access permissions mode`,
+          }),
+        })
+      : null,
+    vt = P.map((e) =>
+      (0, VM.jsx)(
+        He.Item,
+        {
+          LeftIcon: q_,
+          RightIcon: G === e.id ? wo : void 0,
+          onClick: () => {
+            (De(null), z(!1), ae(e.id));
+          },
+          allowWrap: !0,
+          SubText:
+            e.description == null
+              ? void 0
+              : (0, VM.jsx)(`span`, {
+                  className: `text-token-description-foreground`,
+                  children: e.description,
+                }),
+          children: e.id,
+        },
+        e.id,
+      ),
+    ),
+    yt;
+  t[88] !== G || t[89] !== Me || t[90] !== $e || t[91] !== V
+    ? ((yt = Me
+        ? (0, VM.jsx)(He.Item, {
+            LeftIcon: q_,
+            RightIcon: G == null && V === `custom` ? wo : void 0,
+            onClick: $e,
+            allowWrap: !0,
+            SubText: (0, VM.jsx)(`span`, {
+              className: `text-token-description-foreground`,
+              children: (0, VM.jsx)(J, {
+                id: `composer.permissionsDropdown.custom.description`,
+                defaultMessage: `Uses permissions defined in config.toml`,
+                description: `Description for the custom option in the composer approvals dropdown`,
+              }),
+            }),
+            children: (0, VM.jsx)(J, {
+              id: `composer.permissionsDropdown.custom.optionLabel`,
+              defaultMessage: `Custom (config.toml)`,
+              description: `Dropdown option for the custom permissions mode`,
+            }),
+          })
+        : null),
+      (t[88] = G),
+      (t[89] = Me),
+      (t[90] = $e),
+      (t[91] = V),
+      (t[92] = yt))
+    : (yt = t[92]);
+  let bt;
+  t[93] !== ut ||
+  t[94] !== Le ||
+  t[95] !== R ||
+  t[96] !== z ||
+  t[97] !== dt ||
+  t[98] !== mt ||
+  t[99] !== ht ||
+  t[100] !== gt ||
+  t[101] !== _t ||
+  t[102] !== vt ||
+  t[103] !== yt ||
+  t[104] !== lt
+    ? ((bt = (0, VM.jsx)(VM.Fragment, {
+        children: (0, VM.jsxs)(ut, {
+          open: R,
+          onOpenChange: z,
+          disabled: Le,
+          align: dt,
+          triggerButton: ft,
+          children: [mt, ht, gt, _t, vt, yt],
+        }),
+      })),
+      (t[93] = ut),
+      (t[94] = Le),
+      (t[95] = R),
+      (t[96] = z),
+      (t[97] = dt),
+      (t[98] = mt),
+      (t[99] = ht),
+      (t[100] = gt),
+      (t[101] = _t),
+      (t[102] = vt),
+      (t[103] = yt),
+      (t[104] = lt),
+      (t[105] = bt))
+    : (bt = t[105]);
+  let xt = bt;
+  if (l == null) return xt;
+  let St;
+  return (
+    t[106] !== l || t[107] !== xt
+      ? ((St = (0, VM.jsx)(l, { children: xt })), (t[106] = l), (t[107] = xt), (t[108] = St))
+      : (St = t[108]),
+    St
+  );
+}
+function PM(e) {
+  Ps({ event: e, href: Gv, initiator: `open_in_browser_bridge` });
+}
+function FM(e) {
+  let { id: t } = e;
+  return !t.startsWith(`:`);
+}
+function IM(e) {
+  let t = (0, zM.c)(23),
+    { onClose: n, onConfirm: r } = e,
+    i;
+  t[0] !== n || t[1] !== r
+    ? ((i = () => {
+        (r(), n());
+      }),
+      (t[0] = n),
+      (t[1] = r),
+      (t[2] = i))
+    : (i = t[2]);
+  let a = i,
+    o;
+  t[3] === n
+    ? (o = t[4])
+    : ((o = (e) => {
+        e || n();
+      }),
+      (t[3] = n),
+      (t[4] = o));
+  let s;
+  t[5] === a
+    ? (s = t[6])
+    : ((s = (e) => {
+        (e.preventDefault(), a());
+      }),
+      (t[5] = a),
+      (t[6] = s));
+  let c;
+  t[7] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((c = (0, VM.jsx)(K, {
+        children: (0, VM.jsx)(ye, {
+          titleSize: `base`,
+          title: (0, VM.jsx)(J, {
+            id: `composer.mode.agentMode.fullAccessConfirm.warningTitle`,
+            defaultMessage: `Are you sure?`,
+            description: `Title for confirmation dialog when switching to full-access permissions mode`,
+          }),
+        }),
+      })),
+      (t[7] = c))
+    : (c = t[7]);
+  let l;
+  t[8] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((l = (0, VM.jsx)(K, {
+        children: (0, VM.jsx)(`p`, {
+          className: `text-pretty`,
+          children: (0, VM.jsx)(J, {
+            id: `composer.mode.agentMode.fullAccessConfirm.warningDescription`,
+            defaultMessage: `Full access lets Codex access the internet and edit any file on your computer without asking for your approval. This comes with risks like data loss and prompt injection. <link>Learn more.</link>`,
+            description: `Body text in the confirmation dialog shown before enabling full-access permissions mode. The link opens documentation about Codex permissions and sandboxing.`,
+            values: { link: LM },
+          }),
+        }),
+      })),
+      (t[8] = l))
+    : (l = t[8]);
+  let u;
+  t[9] === n
+    ? (u = t[10])
+    : ((u = () => {
+        n();
+      }),
+      (t[9] = n),
+      (t[10] = u));
+  let d;
+  t[11] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((d = (0, VM.jsx)(J, {
+        id: `composer.mode.agentMode.fullAccessConfirm.goBack`,
+        defaultMessage: `Cancel`,
+        description: `Button to cancel enabling full-access`,
+      })),
+      (t[11] = d))
+    : (d = t[11]);
+  let f;
+  t[12] === u
+    ? (f = t[13])
+    : ((f = (0, VM.jsx)(ya, { color: `secondary`, size: `large`, onClick: u, children: d })),
+      (t[12] = u),
+      (t[13] = f));
+  let p;
+  t[14] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((p = (0, VM.jsxs)(ya, {
+        color: `danger`,
+        size: `large`,
+        type: `submit`,
+        children: [
+          (0, VM.jsx)(cm, { className: `icon-xs shrink-0` }),
+          (0, VM.jsx)(J, {
+            id: `composer.mode.agentMode.fullAccessConfirm.turnOnButton`,
+            defaultMessage: `Turn on full access`,
+            description: `Primary button in the confirmation dialog that enables full-access permissions mode`,
+          }),
+        ],
+      })),
+      (t[14] = p))
+    : (p = t[14]);
+  let m;
+  t[15] === f
+    ? (m = t[16])
+    : ((m = (0, VM.jsx)(K, { children: (0, VM.jsxs)($n, { children: [f, p] }) })),
+      (t[15] = f),
+      (t[16] = m));
+  let h;
+  t[17] !== m || t[18] !== s
+    ? ((h = (0, VM.jsxs)(Zc, { as: `form`, onSubmit: s, children: [c, l, m] })),
+      (t[17] = m),
+      (t[18] = s),
+      (t[19] = h))
+    : (h = t[19]);
+  let g;
+  return (
+    t[20] !== h || t[21] !== o
+      ? ((g = (0, VM.jsx)(Cs, {
+          open: !0,
+          onOpenChange: o,
+          contentClassName: `!w-[450px]`,
+          children: h,
+        })),
+        (t[20] = h),
+        (t[21] = o),
+        (t[22] = g))
+      : (g = t[22]),
+    g
+  );
+}
+function LM(e) {
+  return (0, VM.jsx)(`button`, {
+    type: `button`,
+    className: `cursor-interaction underline underline-offset-2 hover:text-token-description-foreground`,
+    onClick: RM,
+    children: e,
+  });
+}
+function RM(e) {
+  Ps({ event: e, href: Gv, initiator: `open_in_browser_bridge` });
+}
+var zM,
+  BM,
+  VM,
+  HM,
+  UM,
+  WM = e(() => {
+    ((zM = X()),
+      fl(),
+      Xn(),
+      bs(),
+      ji(),
+      (BM = t(El(), 1)),
+      Y(),
+      vl(),
+      Rj(),
+      gM(),
+      _s(),
+      ja(),
+      b(),
+      Qr(),
+      Re(),
+      Bt(),
+      aa(),
+      zv(),
+      Gw(),
+      Cc(),
+      ee(),
+      yM(),
+      Y_(),
+      tg(),
+      SM(),
+      pd(),
+      $w(),
+      ys(),
+      o_(),
+      wt(),
+      gn(),
+      MM(),
+      x_(),
+      ao(),
+      Lt(),
+      eh(),
+      Qu(),
+      h_(),
+      Ty(),
+      __(),
+      (VM = Z()),
+      (HM = `text-token-editor-warning-foreground`),
+      (UM = `text-token-text-link-foreground`));
+  });
+function GM(e, t) {
+  return e && t;
+}
+var KM = e(() => {});
+function qM(e) {
+  let t = (0, eN.c)(24),
+    { availableWidth: n, containerRef: r, items: i } = e,
+    a;
+  t[0] === i ? (a = t[1]) : ((a = () => XM(i)), (t[0] = i), (t[1] = a));
+  let [o, s] = (0, tN.useState)(a),
+    c;
+  t[2] === Symbol.for(`react.memo_cache_sentinel`) ? ((c = new Map()), (t[2] = c)) : (c = t[2]);
+  let l = (0, tN.useRef)(c),
+    u;
+  t[3] === Symbol.for(`react.memo_cache_sentinel`) ? ((u = new Map()), (t[3] = u)) : (u = t[3]);
+  let d = (0, tN.useRef)(u),
+    f;
+  t[4] !== o || t[5] !== r || t[6] !== i
+    ? ((f = (e) => {
+        if (r.current == null) return;
+        let t = i.filter(YM),
+          n = XM(i),
+          a = QM(r.current);
+        if (t.length === 0) {
+          ZM(n, o) || s(n);
+          return;
+        }
+        t.forEach((e) => {
+          let t = e.ref.current?.offsetWidth ?? null;
+          t != null &&
+            t > 0 &&
+            (o[e.id]?.hideLabel === !0 ? d.current.set(e.id, t) : l.current.set(e.id, t));
+        });
+        let c = t.map((e) => {
+            let t = l.current.get(e.id) ?? d.current.get(e.id) ?? 0,
+              n = d.current.get(e.id) ?? t;
+            return {
+              item: e,
+              expandedWidth: t,
+              compactWidth: e.canHideLabel ? Math.min(t, n) : t,
+              hasMeasuredCompactWidth: d.current.has(e.id),
+            };
+          }),
+          u = c.reduce(JM, 0) + a * Math.max(0, c.length - 1);
+        if (u <= 0) return;
+        let f = u;
+        if (
+          (c.forEach((t) => {
+            let { item: r, expandedWidth: i, compactWidth: a } = t;
+            r.canHideLabel && e < f && ((n[r.id].hideLabel = !0), (f -= i - a));
+          }),
+          t.some((e) => n[e.id].hideLabel !== (o[e.id]?.hideLabel === !0)))
+        ) {
+          ZM(n, o) || s(n);
+          return;
+        }
+        let p = c.length;
+        (c.forEach((t) => {
+          let { item: r, expandedWidth: i, compactWidth: o, hasMeasuredCompactWidth: s } = t,
+            c = n[r.id].hideLabel ? o : i;
+          (n[r.id].hideLabel && !s) ||
+            (e < f && ((n[r.id].hideControl = !0), (f = f - c - (p > 1 ? a : 0)), --p));
+        }),
+          ZM(n, o) || s(n));
+      }),
+      (t[4] = o),
+      (t[5] = r),
+      (t[6] = i),
+      (t[7] = f))
+    : (f = t[7]);
+  let p = (0, tN.useEffectEvent)(f),
+    m;
+  t[8] !== n || t[9] !== p
+    ? ((m = () => {
+        n <= 0 || p(n);
+      }),
+      (t[8] = n),
+      (t[9] = p),
+      (t[10] = m))
+    : (m = t[10]);
+  let h;
+  (t[11] !== n || t[12] !== o || t[13] !== i
+    ? ((h = [n, o, i]), (t[11] = n), (t[12] = o), (t[13] = i), (t[14] = h))
+    : (h = t[14]),
+    (0, tN.useEffect)(m, h));
+  let g;
+  t[15] !== n || t[16] !== r || t[17] !== i || t[18] !== p
+    ? ((g = () => {
+        if (n <= 0 || typeof ResizeObserver > `u`) return;
+        let e = r.current;
+        if (e == null) return;
+        let t = new ResizeObserver(() => {
+          p(n);
+        });
+        return (
+          t.observe(e),
+          i.forEach((e) => {
+            let n = e.ref.current;
+            n != null && t.observe(n);
+          }),
+          () => {
+            t.disconnect();
+          }
+        );
+      }),
+      (t[15] = n),
+      (t[16] = r),
+      (t[17] = i),
+      (t[18] = p),
+      (t[19] = g))
+    : (g = t[19]);
+  let _;
+  return (
+    t[20] !== n || t[21] !== r || t[22] !== i
+      ? ((_ = [n, r, i]), (t[20] = n), (t[21] = r), (t[22] = i), (t[23] = _))
+      : (_ = t[23]),
+    (0, tN.useEffect)(g, _),
+    o
+  );
+}
+function JM(e, t) {
+  let { expandedWidth: n } = t;
+  return e + n;
+}
+function YM(e) {
+  return e.enabled;
+}
+function XM(e) {
+  let t = {};
+  return (
+    e.forEach((e) => {
+      t[e.id] = { hideLabel: !1, hideControl: !1 };
+    }),
+    t
+  );
+}
+function ZM(e, t) {
+  let n = Object.keys(e),
+    r = Object.keys(t);
+  if (n.length !== r.length) return !1;
+  for (let r of n)
+    if (e[r]?.hideLabel !== t[r]?.hideLabel || e[r]?.hideControl !== t[r]?.hideControl) return !1;
+  return !0;
+}
+function QM(e) {
+  if (!(e instanceof HTMLElement)) return 0;
+  let { columnGap: t, gap: n } = window.getComputedStyle(e);
+  return $M(t) ?? $M(n) ?? 0;
+}
+function $M(e) {
+  let t = Number.parseFloat(e);
+  return Number.isFinite(t) ? t : null;
+}
+var eN,
+  tN,
+  nN = e(() => {
+    ((eN = X()), (tN = t(El(), 1)));
+  });
+function rN({
+  addContextButton: e,
+  composerMode: t,
+  composerInput: n,
+  executionTargetHostId: r,
+  isSingleLineLayout: i,
+  hotkeyWindowHomeFooterControls: a,
+  isAutoContextOn: o,
+  ideContextStatus: s,
+  hasMessageContent: c,
+  hasGoal: l,
+  isEasterEggEnabled: u,
+  isAeonActive: d = !1,
+  clearAeon: f,
+  onClearGoal: p,
+  permissionsHostId: m,
+  permissionsCwdOverride: g,
+  submitButtonMode: _,
+  canStopFromEscape: v,
+  isStopTurnConfirmationVisible: y,
+  isResponseInProgress: b,
+  isQueueingEnabled: x,
+  isSubmitting: S,
+  isStopping: C,
+  onStop: w,
+  submitBlockReason: T,
+  disabledReason: E,
+  emptySubmitTooltipNonce: D,
+  handleSubmit: O,
+  voiceControls: k,
+}) {
+  let A = qn(di);
+  (0, fN.useContext)(nj);
+  let j = yh(),
+    M = ol(A),
+    N = LA(A.value, t),
+    P = (e) => {
+      rt(A, e);
+    },
+    F = Mm(j, (e) => e.view.state.doc.childCount > 1);
+  Mm(j, (e) => e.hasText());
+  let ee = Mm(j, (e) => $s(e.getText())),
+    I = h(ne.composerEnterBehavior),
+    L = Ns(),
+    {
+      canRetryDictation: R,
+      dictationShortcutLabel: z,
+      isDictating: B,
+      isDictationButtonVisible: V,
+      isDictationSupported: H,
+      isTranscribing: te,
+      isVoiceFooterVisible: re,
+      recordingDurationMs: U,
+      retryDictation: ie,
+      startDictation: ae,
+      stopDictation: oe,
+      restrictedSession: W,
+      waveformCanvasRef: G,
+    } = k,
+    [se, K] = (0, fN.useState)(0),
+    [q, ce] = (0, fN.useState)(0),
+    [le, ue] = (0, fN.useState)(0),
+    de = bp((e, t) => {
+      let { columnGap: n, gap: r } = window.getComputedStyle(t);
+      (K(e.contentRect.width), ce(Number.parseFloat(n) || Number.parseFloat(r) || 0));
+    }),
+    fe = bp((e) => {
+      ue(e.contentRect.width);
+    }),
+    pe = Math.max(0, se - le - (le > 0 ? q : 0)),
+    me;
+  T === `empty-message` && (me = D > 0 ? D : null);
+  let he;
+  switch (I) {
+    case `enter`:
+      he = `Enter`;
+      break;
+    case `cmdIfMultiline`:
+      he = F ? `CmdOrCtrl+Enter` : `Enter`;
+      break;
+    case `cmdAlways`:
+      he = `CmdOrCtrl+Enter`;
+      break;
+  }
+  let ge = Nd(he),
+    _e = Nd(jy(I)),
+    ve = L.formatMessage({
+      id: `composer.submitButtonTooltip.queue`,
+      defaultMessage: `Queue`,
+      description: `Tooltip for submit while a response is in progress and queue mode is enabled`,
+    }),
+    ye = L.formatMessage({
+      id: `composer.submitButtonTooltip.steer`,
+      defaultMessage: `Steer`,
+      description: `Tooltip for submit while a response is in progress and steer mode is enabled`,
+    }),
+    be = x ? ve : ye,
+    xe = x ? ye : ve;
+  Gc(Ir, M ?? null);
+  let Se = u && t !== `cloud` && ee,
+    Ce = Xf;
+  t === `cloud` ? (Ce = um) : Se && (Ce = $A);
+  let we = L.formatMessage({
+      id: `composer.submitButtonTooltip.send`,
+      defaultMessage: `Send`,
+      description: `Tooltip for submit when no response is currently in progress`,
+    }),
+    Te =
+      _ === `stop`
+        ? L.formatMessage({
+            id: `composer.submitButtonTooltip.stop`,
+            defaultMessage: `Stop`,
+            description: `Tooltip for the stop button when a response is streaming`,
+          })
+        : b
+          ? (0, $.jsxs)(`div`, {
+              className: `grid grid-cols-[auto_auto] items-center gap-x-2 gap-y-1`,
+              children: [
+                (0, $.jsx)(`span`, { className: `text-token-foreground`, children: be }),
+                (0, $.jsx)(`span`, {
+                  className: `justify-self-end`,
+                  children: (0, $.jsx)(Vs, { keysLabel: ge }),
+                }),
+                (0, $.jsx)(`span`, { className: `text-token-foreground`, children: xe }),
+                (0, $.jsx)(`span`, {
+                  className: `justify-self-end`,
+                  children: (0, $.jsx)(Vs, { keysLabel: _e }),
+                }),
+              ],
+            })
+          : we,
+    Ee;
+  Ee =
+    _ === `stop` && !d
+      ? (0, $.jsx)(uN, {
+          isSubmitting: C,
+          disabled: !1,
+          ariaLabel: typeof Te == `string` ? Te : void 0,
+          Icon: Nl,
+          keyboardShortcutLabel: b && y ? `Esc` : void 0,
+          tooltipContent: Te,
+          tooltipShortcut: !b || !v ? null : Nd(`Esc`),
+          onClick: () => {
+            w();
+          },
+        })
+      : (0, $.jsx)(uN, {
+          ariaLabel: _ === `stop` ? we : void 0,
+          disabled: _ === `stop`,
+          isSubmitting: S,
+          blockedReason: E,
+          blockedReasonOpenNonce: me,
+          fullBleedIcon: Se,
+          Icon: Ce,
+          tooltipContent: _ === `stop` ? we : Te,
+          onClick: O,
+        });
+  let De = (0, $.jsx)(Lu, {
+      isTranscribing: te,
+      recordingDurationMs: U,
+      waveformCanvasRef: G,
+      noBottomMargin: a != null,
+      stopDictation: oe,
+    }),
+    Oe = (0, $.jsx)(ff, {
+      isVisible: V,
+      disabled: !H || W.thread.phase !== `inactive`,
+      isTranscribing: te,
+      canRetryDictation: R,
+      shortcutLabel: z,
+      retryDictation: ie,
+      startDictation: ae,
+      stopDictation: oe,
+    }),
+    ke = (0, $.jsxs)(Mj.FooterInlineControls, {
+      gap: `normal`,
+      children: [
+        e,
+        t !== `cloud` && !i
+          ? (0, $.jsxs)($.Fragment, {
+              children: [
+                (0, $.jsx)(NM, { conversationId: M, hostId: m, cwdOverride: g }),
+                (0, $.jsx)(iN, {
+                  hasGoal: l,
+                  isGoalActionAvailable: N,
+                  isAeonActive: d,
+                  clearAeon: f,
+                  onClearGoal: p,
+                  showDivider: !0,
+                }),
+              ],
+            })
+          : null,
+      ],
+    }),
+    Ae = re
+      ? null
+      : B
+        ? De
+        : (0, $.jsxs)(Mj.Footer, {
+            responsive: !0,
+            spacing: a == null ? `default` : `flush`,
+            children: [
+              ke,
+              (0, $.jsx)(Mj.FooterAction, { children: null }),
+              (0, $.jsxs)(Mj.FooterControls, {
+                ref: de,
+                children: [
+                  (0, $.jsx)(Mj.FooterExpandingControls, {
+                    children: (0, $.jsx)(lN, {
+                      composerMode: t,
+                      hotkeyWindowHomeFooterControls: a,
+                      availableWidth: pe,
+                      isAeonActive: d,
+                      ideContext: { isAutoContextOn: o, setIsAutoContextOn: P, status: s },
+                    }),
+                  }),
+                  (0, $.jsxs)(Mj.FooterActions, { ref: fe, children: [Oe, null, Ee] }),
+                ],
+              }),
+            ],
+          });
+  return i
+    ? (0, $.jsxs)(Mj.Footer, {
+        layout: `single-line`,
+        children: [
+          ke,
+          n,
+          (0, $.jsxs)(Mj.FooterControls, {
+            layout: `single-line`,
+            children: [
+              (0, $.jsx)(lN, {
+                composerMode: t,
+                hotkeyWindowHomeFooterControls: a,
+                availableWidth: 2 ** 53 - 1,
+                isAeonActive: d,
+                ideContext: { isAutoContextOn: o, setIsAutoContextOn: P, status: s },
+              }),
+              t === `cloud`
+                ? null
+                : (0, $.jsxs)($.Fragment, {
+                    children: [
+                      (0, $.jsx)(NM, {
+                        conversationId: M,
+                        hostId: m,
+                        cwdOverride: g,
+                        hideLabel: !0,
+                      }),
+                      (0, $.jsx)(iN, {
+                        hasGoal: l,
+                        isGoalActionAvailable: N,
+                        isAeonActive: d,
+                        clearAeon: f,
+                        onClearGoal: p,
+                        showDivider: !0,
+                      }),
+                    ],
+                  }),
+              Oe,
+              null,
+              Ee,
+            ],
+          }),
+        ],
+      })
+    : (0, $.jsxs)(`div`, { className: `contents`, children: [n, Ae] });
+}
+function iN(e) {
+  let t = (0, dN.c)(22),
+    {
+      hasGoal: n,
+      isGoalActionAvailable: r,
+      isAeonActive: i,
+      clearAeon: a,
+      onClearGoal: o,
+      showDivider: s,
+    } = e,
+    c = qn(di);
+  de(wa);
+  let l;
+  t[0] === c ? (l = t[1]) : ((l = ol(c)), (t[0] = c), (t[1] = l));
+  let u = l,
+    { activeMode: d, modes: f, setSelectedMode: p } = gf(u),
+    m = d.mode === `plan`,
+    h;
+  t[2] === f ? (h = t[3]) : ((h = f.some(aN)), (t[2] = f), (t[3] = h));
+  let g = h,
+    _ = i && u == null;
+  if (!(_ || m || (n && r))) return null;
+  let v;
+  t[4] === s
+    ? (v = t[5])
+    : ((v = s ? (0, $.jsx)(Mj.FooterDivider, {}) : null), (t[4] = s), (t[5] = v));
+  let y;
+  t[6] !== a || t[7] !== _ ? ((y = null), (t[6] = a), (t[7] = _), (t[8] = y)) : (y = t[8]);
+  let b;
+  t[9] !== g || t[10] !== m || t[11] !== p
+    ? ((b = m ? (0, $.jsx)(sN, { hasDefaultMode: g, setSelectedMode: p }) : null),
+      (t[9] = g),
+      (t[10] = m),
+      (t[11] = p),
+      (t[12] = b))
+    : (b = t[12]);
+  let x;
+  t[13] !== n || t[14] !== r || t[15] !== o
+    ? ((x = n && r ? (0, $.jsx)(oN, { onClearGoal: o }) : null),
+      (t[13] = n),
+      (t[14] = r),
+      (t[15] = o),
+      (t[16] = x))
+    : (x = t[16]);
+  let S;
+  return (
+    t[17] !== v || t[18] !== y || t[19] !== b || t[20] !== x
+      ? ((S = (0, $.jsxs)($.Fragment, { children: [v, y, b, x] })),
+        (t[17] = v),
+        (t[18] = y),
+        (t[19] = b),
+        (t[20] = x),
+        (t[21] = S))
+      : (S = t[21]),
+    S
+  );
+}
+function aN(e) {
+  return e.mode === `default`;
+}
+function oN(e) {
+  let t = (0, dN.c)(13),
+    { onClearGoal: n } = e,
+    r = Ns(),
+    i = _n(`2700454473`),
+    a;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((a = (0, $.jsx)(`div`, {
+        className: `flex flex-col items-center text-center leading-tight`,
+        children: (0, $.jsx)(`span`, {
+          children: (0, $.jsx)(J, {
+            id: `composer.goalModeIndicator.tooltip`,
+            defaultMessage: `Clear goal`,
+            description: `Tooltip for the goal mode footer indicator.`,
+          }),
+        }),
+      })),
+      (t[0] = a))
+    : (a = t[0]);
+  let o;
+  t[1] === r
+    ? (o = t[2])
+    : ((o = r.formatMessage({
+        id: `composer.goalModeIndicator.clear`,
+        defaultMessage: `Clear goal`,
+        description: `Accessible label for the goal footer indicator.`,
+      })),
+      (t[1] = r),
+      (t[2] = o));
+  let s = !i && `text-token-text-link-foreground`,
+    c;
+  t[3] === s ? (c = t[4]) : ((c = qc(`group flex items-center gap-1`, s)), (t[3] = s), (t[4] = c));
+  let l = i ? `ghostActive` : `ghost`,
+    u,
+    d;
+  t[5] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((u = (0, $.jsx)(fd, {
+        "aria-hidden": !0,
+        className: `icon-xs shrink-0 group-hover:hidden`,
+      })),
+      (d = (0, $.jsx)(Pp, {
+        "aria-hidden": !0,
+        className: `icon-xs hidden shrink-0 group-hover:block`,
+      })),
+      (t[5] = u),
+      (t[6] = d))
+    : ((u = t[5]), (d = t[6]));
+  let f;
+  t[7] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((f = (0, $.jsx)(Mj.FooterLabel, {
+        width: `wide`,
+        children: (0, $.jsx)(J, {
+          id: `composer.goalModeIndicator`,
+          defaultMessage: `Goal`,
+          description: `Goal mode indicator shown in the composer footer.`,
+        }),
+      })),
+      (t[7] = f))
+    : (f = t[7]);
+  let p;
+  return (
+    t[8] !== n || t[9] !== o || t[10] !== c || t[11] !== l
+      ? ((p = (0, $.jsx)(Cn, {
+          tooltipContent: a,
+          side: `top`,
+          align: `center`,
+          sideOffset: 4,
+          children: (0, $.jsxs)(ya, {
+            "aria-label": o,
+            className: c,
+            size: `composer`,
+            color: l,
+            onClick: n,
+            children: [u, d, f],
+          }),
+        })),
+        (t[8] = n),
+        (t[9] = o),
+        (t[10] = c),
+        (t[11] = l),
+        (t[12] = p))
+      : (p = t[12]),
+    p
+  );
+}
+function sN(e) {
+  let t = (0, dN.c)(17),
+    { hasDefaultMode: n, setSelectedMode: r } = e,
+    i = Ns(),
+    a = _n(`2700454473`),
+    o;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((o = (0, $.jsx)(`span`, {
+        children: (0, $.jsx)(J, {
+          id: `composer.planModeIndicator.tooltipText`,
+          defaultMessage: `Create a plan`,
+          description: `Primary tooltip text for the plan mode footer indicator`,
+        }),
+      })),
+      (t[0] = o))
+    : (o = t[0]);
+  let s;
+  t[1] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((s = (0, $.jsxs)(`div`, {
+        className: `flex flex-col items-center text-center leading-tight`,
+        children: [
+          o,
+          (0, $.jsx)(`span`, {
+            children: (0, $.jsxs)(`span`, {
+              className: `inline-flex items-center gap-1`,
+              children: [
+                (0, $.jsx)(Lf, {
+                  className: `px-1.5 py-0 text-xs leading-none`,
+                  children: (0, $.jsx)(J, {
+                    id: `composer.planModeIndicator.tooltipShortcut`,
+                    defaultMessage: `{shortcut}`,
+                    description: `Keyboard shortcut badge in the plan mode indicator tooltip`,
+                    values: { shortcut: `Shift + Tab` },
+                  }),
+                }),
+                (0, $.jsx)(J, {
+                  id: `composer.planModeIndicator.tooltipToggle`,
+                  defaultMessage: `to toggle`,
+                  description: `Secondary tooltip text describing the plan mode shortcut action`,
+                }),
+              ],
+            }),
+          }),
+        ],
+      })),
+      (t[1] = s))
+    : (s = t[1]);
+  let c;
+  t[2] === i ? (c = t[3]) : ((c = i.formatMessage(pN.planModeIndicator)), (t[2] = i), (t[3] = c));
+  let l = !a && `text-token-text-link-foreground`,
+    u;
+  t[4] === l ? (u = t[5]) : ((u = qc(`group flex items-center gap-1`, l)), (t[4] = l), (t[5] = u));
+  let d = a ? `ghostActive` : `ghost`,
+    f;
+  t[6] !== n || t[7] !== r
+    ? ((f = () => {
+        r(n ? `default` : null);
+      }),
+      (t[6] = n),
+      (t[7] = r),
+      (t[8] = f))
+    : (f = t[8]);
+  let p, m;
+  t[9] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((p = (0, $.jsx)(gy, {
+        "aria-hidden": !0,
+        className: `icon-xs shrink-0 group-hover:hidden`,
+      })),
+      (m = (0, $.jsx)(Pp, {
+        "aria-hidden": !0,
+        className: `icon-xs hidden shrink-0 group-hover:block`,
+      })),
+      (t[9] = p),
+      (t[10] = m))
+    : ((p = t[9]), (m = t[10]));
+  let h;
+  t[11] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((h = (0, $.jsx)(Mj.FooterLabel, {
+        width: `narrow`,
+        children: (0, $.jsx)(J, { ...pN.planModeIndicator }),
+      })),
+      (t[11] = h))
+    : (h = t[11]);
+  let g;
+  return (
+    t[12] !== c || t[13] !== u || t[14] !== d || t[15] !== f
+      ? ((g = (0, $.jsx)(Cn, {
+          tooltipContent: s,
+          side: `top`,
+          align: `center`,
+          sideOffset: 4,
+          children: (0, $.jsxs)(ya, {
+            "aria-label": c,
+            className: u,
+            size: `composer`,
+            color: d,
+            onClick: f,
+            children: [p, m, h],
+          }),
+        })),
+        (t[12] = c),
+        (t[13] = u),
+        (t[14] = d),
+        (t[15] = f),
+        (t[16] = g))
+      : (g = t[16]),
+    g
+  );
+}
+function cN(e) {
+  let t = (0, dN.c)(11),
+    { hideLabel: n, ideContext: r } = e,
+    i;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((i = (0, $.jsx)(`span`, {
+        children: (0, $.jsx)(J, {
+          id: `composer.ideContextIndicator.tooltipText`,
+          defaultMessage: `Include context from IDE such as{br}selection state and open files`,
+          description: `Primary tooltip text for the IDE context footer indicator`,
+          values: { br: (0, $.jsx)(`br`, {}) },
+        }),
+      })),
+      (t[0] = i))
+    : (i = t[0]);
+  let a;
+  t[1] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((a = (0, $.jsxs)(`div`, {
+        className: `flex flex-col items-center text-center leading-tight`,
+        children: [
+          i,
+          (0, $.jsx)(`span`, {
+            children: (0, $.jsxs)(`span`, {
+              className: `inline-flex items-center gap-1`,
+              children: [
+                (0, $.jsx)(Lf, {
+                  className: `px-1.5 py-0 text-xs leading-none`,
+                  children: (0, $.jsx)(J, {
+                    id: `composer.ideContextIndicator.tooltipSlashCommand`,
+                    defaultMessage: `/ide`,
+                    description: `Slash command badge in the IDE context indicator tooltip`,
+                  }),
+                }),
+                (0, $.jsx)(J, {
+                  id: `composer.ideContextIndicator.tooltipToggle`,
+                  defaultMessage: `to toggle`,
+                  description: `Secondary tooltip text showing the slash command action for IDE context`,
+                }),
+              ],
+            }),
+          }),
+        ],
+      })),
+      (t[1] = a))
+    : (a = t[1]);
+  let o;
+  t[2] === r
+    ? (o = t[3])
+    : ((o = () => {
+        r.setIsAutoContextOn(!1);
+      }),
+      (t[2] = r),
+      (t[3] = o));
+  let s, c;
+  t[4] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((s = (0, $.jsx)(XA, {
+        "aria-hidden": !0,
+        className: `icon-xs shrink-0 group-hover:hidden`,
+      })),
+      (c = (0, $.jsx)(Pp, {
+        "aria-hidden": !0,
+        className: `icon-xs hidden shrink-0 group-hover:block`,
+      })),
+      (t[4] = s),
+      (t[5] = c))
+    : ((s = t[4]), (c = t[5]));
+  let l;
+  t[6] === n
+    ? (l = t[7])
+    : ((l = n
+        ? null
+        : (0, $.jsx)(Mj.FooterLabel, {
+            width: `medium`,
+            children: (0, $.jsx)(J, {
+              id: `composer.ideContextIndicator`,
+              defaultMessage: `IDE context`,
+              description: `Include IDE context indicator shown next to the reasoning dropdown`,
+            }),
+          })),
+      (t[6] = n),
+      (t[7] = l));
+  let u;
+  return (
+    t[8] !== o || t[9] !== l
+      ? ((u = (0, $.jsx)(Cn, {
+          tooltipContent: a,
+          side: `top`,
+          align: `center`,
+          sideOffset: 4,
+          children: (0, $.jsxs)(ya, {
+            className: `group flex items-center gap-1 text-token-text-link-foreground`,
+            size: `composer`,
+            color: `ghost`,
+            onClick: o,
+            children: [s, c, l],
+          }),
+        })),
+        (t[8] = o),
+        (t[9] = l),
+        (t[10] = u))
+      : (u = t[10]),
+    u
+  );
+}
+function lN(e) {
+  let t = (0, dN.c)(36),
+    {
+      composerMode: n,
+      hotkeyWindowHomeFooterControls: r,
+      availableWidth: i,
+      isAeonActive: a,
+      ideContext: o,
+    } = e,
+    s = qn(di),
+    c;
+  t[0] === s ? (c = t[1]) : ((c = ol(s)), (t[0] = s), (t[1] = c));
+  let l = c,
+    u = c_(),
+    d = !a && l != null && u !== `STEPS_PROSE`,
+    f = Gc(j, l),
+    p;
+  t[2] === f ? (p = t[3]) : ((p = Pj(f)), (t[2] = f), (t[3] = p));
+  let m = p,
+    h = o.status === `connected`,
+    g;
+  t[4] !== o.isAutoContextOn || t[5] !== h
+    ? ((g = GM(o.isAutoContextOn, h)), (t[4] = o.isAutoContextOn), (t[5] = h), (t[6] = g))
+    : (g = t[6]);
+  let _ = g,
+    v = (0, fN.useRef)(null),
+    y = (0, fN.useRef)(null),
+    b = (0, fN.useRef)(null),
+    x = (0, fN.useRef)(null),
+    S = n !== `cloud` && d,
+    C;
+  t[7] === S
+    ? (C = t[8])
+    : ((C = { id: `context-usage`, ref: b, enabled: S, canHideLabel: !1 }), (t[7] = S), (t[8] = C));
+  let w;
+  t[9] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((w = { id: `intelligence`, ref: y, enabled: !0, canHideLabel: !0 }), (t[9] = w))
+    : (w = t[9]);
+  let T = n !== `cloud` && _,
+    E;
+  t[10] === T
+    ? (E = t[11])
+    : ((E = { id: `ide-context`, ref: x, enabled: T, canHideLabel: !0 }), (t[10] = T), (t[11] = E));
+  let D;
+  t[12] !== C || t[13] !== E
+    ? ((D = [C, w, E]), (t[12] = C), (t[13] = E), (t[14] = D))
+    : (D = t[14]);
+  let O;
+  t[15] !== i || t[16] !== D
+    ? ((O = { availableWidth: i, containerRef: v, items: D }),
+      (t[15] = i),
+      (t[16] = D),
+      (t[17] = O))
+    : (O = t[17]);
+  let k = qM(O),
+    A = k.intelligence?.hideControl === !0,
+    M = k.intelligence?.hideLabel === !0,
+    N = k[`context-usage`]?.hideControl === !0,
+    P = k[`ide-context`]?.hideControl === !0,
+    F = k[`ide-context`]?.hideLabel === !0,
+    ee = d && !N,
+    I = _ && !P;
+  if (n === `cloud`) {
+    let e;
+    return (
+      t[18] === r
+        ? (e = t[19])
+        : ((e = r == null ? null : (0, $.jsx)(Mj.FooterInlineControls, { ref: v, children: r })),
+          (t[18] = r),
+          (t[19] = e)),
+      e
+    );
+  }
+  let L;
+  t[20] !== m || t[21] !== ee
+    ? ((L = ee
+        ? (0, $.jsx)(`span`, { ref: b, children: (0, $.jsx)(ij, { contextUsage: m }) })
+        : null),
+      (t[20] = m),
+      (t[21] = ee),
+      (t[22] = L))
+    : (L = t[22]);
+  let R;
+  t[23] !== l || t[24] !== A || t[25] !== M
+    ? ((R =
+        !A &&
+        (0, $.jsx)(`span`, {
+          ref: y,
+          children: (0, $.jsx)(cM, { conversationId: l, hideLabel: M }),
+        })),
+      (t[23] = l),
+      (t[24] = A),
+      (t[25] = M),
+      (t[26] = R))
+    : (R = t[26]);
+  let z;
+  t[27] !== F || t[28] !== o || t[29] !== I
+    ? ((z = I
+        ? (0, $.jsxs)(`span`, {
+            className: `flex items-center gap-1`,
+            ref: x,
+            children: [
+              (0, $.jsx)(Mj.FooterDivider, {}),
+              (0, $.jsx)(cN, { hideLabel: F, ideContext: o }),
+            ],
+          })
+        : null),
+      (t[27] = F),
+      (t[28] = o),
+      (t[29] = I),
+      (t[30] = z))
+    : (z = t[30]);
+  let B;
+  return (
+    t[31] !== r || t[32] !== L || t[33] !== R || t[34] !== z
+      ? ((B = (0, $.jsxs)(Mj.FooterInlineControls, { ref: v, children: [L, R, r, z] })),
+        (t[31] = r),
+        (t[32] = L),
+        (t[33] = R),
+        (t[34] = z),
+        (t[35] = B))
+      : (B = t[35]),
+    B
+  );
+}
+function uN(e) {
+  let t = (0, dN.c)(29),
+    {
+      isSubmitting: n,
+      disabled: r,
+      ariaLabel: i,
+      fullBleedIcon: a,
+      Icon: o,
+      secondary: s,
+      keyboardShortcutLabel: c,
+      blockedReason: l,
+      blockedReasonOpenNonce: u,
+      tooltipContent: d,
+      tooltipShortcut: f,
+      onClick: p,
+    } = e,
+    m = r === void 0 ? !1 : r,
+    h = a === void 0 ? !1 : a,
+    g = s === void 0 ? !1 : s,
+    _ = _n(`2700454473`),
+    v = h && !n && c == null,
+    y;
+  t[0] !== _ || t[1] !== g || t[2] !== v
+    ? ((y = v
+        ? `size-full`
+        : qc(
+            _ ? `icon-xs` : `icon-sm`,
+            g ? `text-token-foreground` : `text-token-dropdown-background`,
+          )),
+      (t[0] = _),
+      (t[1] = g),
+      (t[2] = v),
+      (t[3] = y))
+    : (y = t[3]);
+  let b = y,
+    x = u !== void 0,
+    S = x && u != null && l != null,
+    C = S || (!x && l != null),
+    w = C ? l : d,
+    T = S ? `forced-${u}` : `submit-button-tooltip`,
+    E = !w,
+    D = C ? `max-w-36` : void 0,
+    O = C ? `text-center text-pretty` : void 0,
+    k = v
+      ? `bg-transparent p-0 focus-visible:outline-token-button-background`
+      : g
+        ? `border border-token-foreground bg-token-dropdown-background p-0.5 hover:bg-token-list-hover-background focus-visible:outline-token-foreground`
+        : `bg-token-foreground p-0.5 focus-visible:outline-token-button-background`,
+    A = (n || m) && `cursor-default opacity-50`,
+    j = !n && !!l && `opacity-50`,
+    M;
+  t[4] !== j || t[5] !== k || t[6] !== A
+    ? ((M = qc(
+        `cursor-interaction size-token-button-composer flex items-center justify-center rounded-full transition-opacity focus-visible:outline-2`,
+        k,
+        A,
+        j,
+      )),
+      (t[4] = j),
+      (t[5] = k),
+      (t[6] = A),
+      (t[7] = M))
+    : (M = t[7]);
+  let N = n || m,
+    P;
+  t[8] !== o || t[9] !== b || t[10] !== n || t[11] !== c || t[12] !== g
+    ? ((P = n
+        ? (0, $.jsx)(Ro, { className: b })
+        : c == null
+          ? (0, $.jsx)(o, { className: b })
+          : (0, $.jsx)(Vs, {
+              className: g ? `!text-token-foreground` : `!text-token-dropdown-background`,
+              keysLabel: c,
+              variant: `button`,
+            })),
+      (t[8] = o),
+      (t[9] = b),
+      (t[10] = n),
+      (t[11] = c),
+      (t[12] = g),
+      (t[13] = P))
+    : (P = t[13]);
+  let F;
+  t[14] !== i || t[15] !== p || t[16] !== M || t[17] !== N || t[18] !== P
+    ? ((F = (0, $.jsx)(`button`, {
+        type: `button`,
+        className: M,
+        onClick: p,
+        disabled: N,
+        "aria-label": i,
+        children: P,
+      })),
+      (t[14] = i),
+      (t[15] = p),
+      (t[16] = M),
+      (t[17] = N),
+      (t[18] = P),
+      (t[19] = F))
+    : (F = t[19]);
+  let ee;
+  return (
+    t[20] !== w ||
+    t[21] !== S ||
+    t[22] !== F ||
+    t[23] !== E ||
+    t[24] !== D ||
+    t[25] !== O ||
+    t[26] !== T ||
+    t[27] !== f
+      ? ((ee = (0, $.jsx)(
+          Cn,
+          {
+            defaultOpen: S,
+            disabled: E,
+            tooltipContent: w,
+            shortcut: f,
+            tooltipClassName: D,
+            tooltipBodyClassName: O,
+            children: F,
+          },
+          T,
+        )),
+        (t[20] = w),
+        (t[21] = S),
+        (t[22] = F),
+        (t[23] = E),
+        (t[24] = D),
+        (t[25] = O),
+        (t[26] = T),
+        (t[27] = f),
+        (t[28] = ee))
+      : (ee = t[28]),
+    ee
+  );
+}
+var dN,
+  fN,
+  $,
+  pN,
+  mN = e(() => {
+    ((dN = X()),
+      Xn(),
+      ji(),
+      Xa(),
+      (fN = t(El(), 1)),
+      Y(),
+      vl(),
+      Rf(),
+      Pd(),
+      _s(),
+      za(),
+      aa(),
+      rs(),
+      Im(),
+      ZA(),
+      my(),
+      hd(),
+      ej(),
+      wp(),
+      yd(),
+      nb(),
+      Km(),
+      Gu(),
+      rj(),
+      bm(),
+      R(),
+      fe(),
+      x_(),
+      ao(),
+      Lt(),
+      Qa(),
+      cj(),
+      sf(),
+      RA(),
+      Nj(),
+      Py(),
+      Vt(),
+      Fj(),
+      pM(),
+      WM(),
+      Dp(),
+      KM(),
+      Sx(),
+      Zl(),
+      nN(),
+      ($ = Z()),
+      (pN = _r({
+        planModeIndicator: {
+          id: `composer.planModeIndicator`,
+          defaultMessage: `Plan`,
+          description: `Plan mode indicator shown in the composer footer`,
+        },
+      })));
+  }),
+  hN,
+  gN,
+  _N,
+  vN,
+  yN,
+  bN = e(() => {
+    (ob(),
+      gs(),
+      (hN = rb(
+        async () =>
+          (
+            await _a(
+              async () => {
+                let { ComposerExternalFooter: e } = await import(`./composer-external-footer.js`);
+                return { ComposerExternalFooter: e };
+              },
+              __vite__mapDeps([
+                0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22,
+                23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43,
+                44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64,
+                65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84,
+              ]),
+              import.meta.url,
+            )
+          ).ComposerExternalFooter,
+      )),
+      (gN = rb(
+        async () =>
+          (
+            await _a(
+              async () => {
+                let { AboveComposerSuggestions: e } = await import(
+                  `./above-composer-suggestions.js`
+                );
+                return { AboveComposerSuggestions: e };
+              },
+              __vite__mapDeps([
+                85, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22,
+                23, 24, 25, 26, 27, 28, 86,
+              ]),
+              import.meta.url,
+            )
+          ).AboveComposerSuggestions,
+      )),
+      (_N = rb(
+        async () =>
+          (
+            await _a(
+              async () => {
+                let { AtMentionList: e } = await import(`./at-mention-list.js`);
+                return { AtMentionList: e };
+              },
+              __vite__mapDeps([
+                87, 4, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22,
+                23, 24, 25, 26, 27, 28,
+              ]),
+              import.meta.url,
+            )
+          ).AtMentionList,
+      )),
+      (vN = rb(
+        async () =>
+          (
+            await _a(
+              async () => {
+                let { PendingRequestItemPanel: e } = await import(
+                  `./pending-request-item-panel.js`
+                );
+                return { PendingRequestItemPanel: e };
+              },
+              __vite__mapDeps([
+                88, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22,
+                23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43,
+                44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64,
+                65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 89, 90, 91, 92, 93, 94, 95,
+              ]),
+              import.meta.url,
+            )
+          ).PendingRequestItemPanel,
+      )),
+      (yN = rb(
+        async () =>
+          (
+            await _a(
+              async () => {
+                let { QueuedMessageList: e } = await import(`./queued-message-list.js`);
+                return { QueuedMessageList: e };
+              },
+              __vite__mapDeps([
+                96, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22,
+                23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38,
+              ]),
+              import.meta.url,
+            )
+          ).QueuedMessageList,
+      )),
+      rb(async () => () => null));
+  });
+function xN(e, t) {
+  let n = e.trim();
+  if (!n.startsWith(`/prompts:`)) return e;
+  let [r, ...i] = n.split(/\s+/),
+    a = r.replace(`/prompts:`, ``),
+    o = t.find((e) => e.id === a);
+  if (!o) return e;
+  let s = i.join(` `).trim();
+  return s ? `${o.content || ``}\n${s}`.trim() : o.content || e;
+}
+var SN = e(() => {});
+function CN(e) {
+  let t = /^\s*\/side(?:\s+([\s\S]*?))?\s*$/.exec(e);
+  return t == null ? null : (t[1]?.trim() ?? ``);
+}
+var wN = e(() => {});
+async function TN({
+  appendPromptToHistory: e,
+  buildLocalContextForPrompt: t,
+  clearComposerUi: n,
+  clearStopTurnConfirmation: r,
+  composerController: i,
+  conversationId: a,
+  defaultFollowUpSubmitAction: o,
+  focusComposer: s,
+  followUp: c,
+  handleEditedQueuedMessageSubmitted: l,
+  handleSideChatOpenError: u,
+  handleSubmitError: d,
+  hostId: f,
+  invalidateRateLimit: p,
+  isElectron: m,
+  isLocalModeOnRemoteHost: h,
+  isResponseInProgress: g,
+  isWorkspaceStatusUnavailable: _,
+  logMessageSent: v,
+  maybeSendQueuedSteerMessage: y,
+  mentionedThreadIds: b,
+  onAccepted: x,
+  openSideChatFromComposer: S,
+  options: C = {},
+  pause: w,
+  prepareGoalSubmit: T,
+  prompts: E,
+  queuedMessageActions: D,
+  remoteSshMessageAnalyticsContext: O,
+  resetHistorySelection: k,
+  resolvedCwd: A,
+  setIsSubmitting: j,
+  shouldRestrictRemoteHostImageSize: M,
+  showBlockedSubmitDialog: N,
+  showEmptySubmitTooltip: P,
+  submitBlockReason: F,
+  submitButtonMode: ee,
+  submitTarget: I,
+}) {
+  let {
+    followUpSubmitAction: L = o,
+    confirmedGoalReplacementDraft: R,
+    focusComposerAfterSubmit: z = !1,
+    persistedPromptRawOverride: B,
+    promptRawOverride: V,
+    clear: H,
+    skipGoalReplacementConfirmation: te = !1,
+    skipGoalSubmit: ne = !1,
+  } = C;
+  r();
+  let re = V ?? i.getText(),
+    U = B ?? V ?? i.getPersistedText(),
+    ie = c?.type === `local` && g && L === `queue`,
+    ae = F;
+  ae == null && ie && _
+    ? (ae = `workspace-status-unavailable`)
+    : V != null && F === `empty-message` && re.trim().length > 0 && (ae = null);
+  let oe = ee === `stop` ? `stop` : ie ? `queue` : `steer`;
+  if (ae != null) {
+    let e = lx(ae);
+    if (
+      (e != null &&
+        sx(O, {
+          result: mn.CODEX_REMOTE_SSH_MESSAGE_RESULT_BLOCKED,
+          submitAction: oe,
+          blockedReason: e,
+        }),
+      ae === `empty-message`)
+    ) {
+      if (y(L)) return;
+      P();
+      return;
+    }
+    N();
+    return;
+  }
+  if (H == null && w.maybeShow()) return;
+  let W = null;
+  if (!ne) {
+    let e = await T({
+      confirmedGoalReplacementDraft: R,
+      focusComposerAfterSubmit: z,
+      followUpSubmitAction: L,
+      promptRaw: re,
+      skipGoalReplacementConfirmation: te,
+    });
+    if (e.status === `handled`) return;
+    W = e.draft;
+  }
+  let G = m && c?.type === `local` ? CN(re) : null;
+  if (G != null) {
+    (e(U), k(), x?.(), j(!0));
+    try {
+      (await S(G)) && n();
+    } catch (e) {
+      u(e);
+    } finally {
+      (j(!1), z && s());
+    }
+    return;
+  }
+  let se = W == null ? xN(re, E) : $a(W.objective),
+    K = W == null ? xN(U, E) : se;
+  (e(K), k());
+  let q;
+  try {
+    let [e, n] = await Promise.all([
+      t(se, void 0, a, W ?? void 0),
+      Np({ excludedThreadId: a, hostId: f, threadIds: b }),
+    ]);
+    q = { ...e, threadReferences: n };
+  } catch (e) {
+    (d(e), z && s());
+    return;
+  }
+  (v(oe), j(!0), x?.());
+  let ce = async () => {
+    switch ((p(), I.type)) {
+      case `local`: {
+        let e = await I.submit(
+          q,
+          I.cwd,
+          void 0,
+          I.executionOptions,
+          c?.type === `local` ? zd({ context: q, cwd: I.cwd, text: K }) : void 0,
+        );
+        return (c?.type === `local` && !g && w.submitted(H === !0), e);
+      }
+      case `worktree`:
+        return (
+          await I.submit(
+            q,
+            I.cwd,
+            I.startingState,
+            I.environmentConfigPath,
+            I.executionOptions,
+            I.projectAssignment,
+          ),
+          null
+        );
+      case `cloud`:
+        return (
+          await I.submit({
+            addedFiles: q.addedFiles,
+            prompt: q.prompt,
+            ideContext: q.ideContext,
+            imageAttachments: q.imageAttachments,
+            appshotContexts: q.appshotContexts,
+            fileAttachments: q.fileAttachments,
+            pastedTextAttachments: q.pastedTextAttachments,
+            commentAttachments: q.commentAttachments,
+            mcpAppModelContextAttachments: q.mcpAppModelContextAttachments,
+            chatGptConversationContexts: q.chatGptConversationContexts,
+            selectedTextAttachments: q.selectedTextAttachments,
+            pullRequestChecks: q.pullRequestChecks,
+            pullRequestMergeConflict: q.pullRequestMergeConflict,
+            repo: I.repo,
+            cloudTaskType: I.cloudTaskType,
+            priorConversation: q.priorConversation,
+            threadReferences: q.threadReferences,
+          }),
+          null
+        );
+    }
+  };
+  if (ie) {
+    (sx(O, { result: mn.CODEX_REMOTE_SSH_MESSAGE_RESULT_QUEUED, submitAction: oe }),
+      l(D.enqueue({ text: U, context: q, cwd: A })?.id ?? null),
+      n(),
+      j(!1),
+      z && s());
+    return;
+  }
+  if (
+    (sx(O, { result: mn.CODEX_REMOTE_SSH_MESSAGE_RESULT_ATTEMPTED, submitAction: oe }),
+    I.type === `worktree`)
+  ) {
+    try {
+      (EN(O, oe, await ce()), n());
+    } catch (e) {
+      (Ge(I.executionOptions.hostId, q.fileAttachments, q.pastedTextAttachments ?? []),
+        DN(O, oe),
+        d(e));
+    } finally {
+      j(!1);
+    }
+    return;
+  }
+  try {
+    (EN(O, oe, await ce()), l(null), n());
+  } catch (e) {
+    (DN(O, oe), d(e));
+  } finally {
+    (j(!1), z && s());
+  }
+}
+function EN(e, t, n) {
+  sx(e, {
+    result: mn.CODEX_REMOTE_SSH_MESSAGE_RESULT_SUCCEEDED,
+    submitAction: t,
+    threadId: n?.threadId,
+    turnId: n?.turnId,
+  });
+}
+function DN(e, t) {
+  sx(e, { result: mn.CODEX_REMOTE_SSH_MESSAGE_RESULT_FAILED, submitAction: t });
+}
+var ON = e(() => {
+  (fl(), px(), rs(), SN(), Ll(), Ms(), wN(), Gm());
+});
+function kN({
+  intl: e,
+  followUpType: t,
+  composerMode: n,
+  cloudStartingState: r,
+  isBackgroundSubagentsPanelVisible: i,
+  isGoalModeActive: a,
+  isPlanModeActive: o,
+  placeholderText: s,
+}) {
+  if (a)
+    return e.formatMessage({
+      id: `composer.placeholder.goal`,
+      defaultMessage: `Describe your goal, define measurable outcomes for best results`,
+      description: `Composer placeholder text when the user is setting a Codex thread goal`,
+    });
+  if (o)
+    return e.formatMessage({
+      id: `composer.placeholder.plan`,
+      defaultMessage: `Describe your task to generate a plan...`,
+      description: `Composer placeholder text when Plan mode is selected`,
+    });
+  if (s != null) return s;
+  switch (t) {
+    case void 0:
+      return n === `cloud`
+        ? e.formatMessage({
+            id: `composer.placeholder.newTask.cloud`,
+            defaultMessage: `Ask Codex to do anything in the cloud`,
+            description: `Composer placeholder text for new Codex Cloud task`,
+          })
+        : e.formatMessage({
+            id: `composer.placeholder.newTask.locally.v2`,
+            defaultMessage: `Ask Codex anything. @ to use plugins or mention files`,
+            description: `Placeholder text for Codex input composer, telling the user they can ask Codex to do anything`,
+          });
+    case `cloud`:
+      return n === `local`
+        ? e.formatMessage({
+            id: `composer.placeholder.cloudFollowUp.local`,
+            defaultMessage: `Create a new local task that references this cloud task`,
+            description: `Placeholder text in the Codex input composer when following up on a Codex Cloud task locally`,
+          })
+        : r === `working-tree`
+          ? e.formatMessage({
+              id: `composer.placeholder.cloudFollowUp.workingTree`,
+              defaultMessage: `Create a new cloud task that includes your current code and will reference this task`,
+              description: `Placeholder text in the Codex input composer when starting a new cloud Codex task that includes the users changes and will reference a previous cloud task`,
+            })
+          : e.formatMessage({
+              id: `composer.placeholder.cloudFollowUp.directFollowUp`,
+              defaultMessage: `Follow-up to this cloud task`,
+              description: `Placeholder text in the Codex input composer when following up to a cloud Codex task`,
+            });
+    case `local`:
+      return n === `cloud`
+        ? e.formatMessage({
+            id: `composer.placeholder.localFollowUp.cloud`,
+            defaultMessage: `Follow-up in a new cloud task`,
+            description: `Placeholder text in the Codex input composer when in cloud mode`,
+          })
+        : i
+          ? e.formatMessage({
+              id: `composer.placeholder.localFollowUp.locallyWithAgents`,
+              defaultMessage: `Ask for follow up changes or @ to tag an agent`,
+              description: `Placeholder text in the Codex input composer when in local mode with visible background agents`,
+            })
+          : e.formatMessage({
+              id: `composer.placeholder.localFollowUp.locally`,
+              defaultMessage: `Ask for follow-up changes`,
+              description: `Placeholder text in the Codex input composer when in local mode`,
+            });
+  }
+}
+var AN = e(() => {});
+async function jN() {
+  await Mt.hotkeyWindowHotkeys?.collapseToHome();
+}
+function MN(e) {
+  let t = (0, NN.c)(8),
+    { enabled: n } = e,
+    r = Ns(),
+    i;
+  t[0] === r
+    ? (i = t[1])
+    : ((i = r.formatMessage({
+        id: `composer.hotkeyWindowNewSlashCommand.title`,
+        defaultMessage: `New`,
+        description: `Title for the hotkey-window new slash command`,
+      })),
+      (t[0] = r),
+      (t[1] = i));
+  let a;
+  t[2] === r
+    ? (a = t[3])
+    : ((a = r.formatMessage({
+        id: `composer.hotkeyWindowNewSlashCommand.description`,
+        defaultMessage: `Return to the Popout Window home`,
+        description: `Description for the hotkey-window new slash command`,
+      })),
+      (t[2] = r),
+      (t[3] = a));
+  let o;
+  return (
+    t[4] !== n || t[5] !== i || t[6] !== a
+      ? ((o = {
+          id: `hotkey-window-new`,
+          title: i,
+          description: a,
+          requiresEmptyComposer: !0,
+          Icon: _v,
+          enabled: n,
+          onSelect: jN,
+        }),
+        (t[4] = n),
+        (t[5] = i),
+        (t[6] = a),
+        (t[7] = o))
+      : (o = t[7]),
+    By(o),
+    null
+  );
+}
+var NN,
+  PN = e(() => {
+    ((NN = X()), Y(), Hy(), pv(), Ut());
+  });
+function FN(e) {
+  return ut(e) ? `running` : e.hasUnreadTurn ? `unread` : `read`;
+}
+function IN(e) {
+  let t = e.task_status_display?.latest_turn_status_display?.turn_status;
+  return t === `in_progress` || t === `pending` ? `running` : e.has_unread_turn ? `unread` : `read`;
+}
+function LN(e, t, n) {
+  let r = e
+      .filter((e) => !ni(e, n))
+      .map((e) => ({
+        key: `local:${e.id}`,
+        kind: `local`,
+        id: e.id,
+        path: Yi(e.id),
+        title: Or(e) ?? e.id,
+        projectShortName: $v(e.cwd),
+        lastUpdated: Number.isFinite(e.updatedAt)
+          ? e.updatedAt
+          : Number.isFinite(e.createdAt)
+            ? e.createdAt
+            : 0,
+        status: FN(e),
+        cwd: e.cwd,
+      })),
+    i = t.map((e) => ({
+      key: `cloud:${e.id}`,
+      kind: `cloud`,
+      id: e.id,
+      path: xc(e.id),
+      title: e.title ?? e.id,
+      projectShortName: e.task_status_display?.environment_label ?? null,
+      lastUpdated: (e.updated_at ?? e.created_at ?? 0) * 1e3,
+      status: IN(e),
+    })),
+    a = new Set();
+  return [...r, ...i]
+    .sort((e, t) => t.lastUpdated - e.lastUpdated)
+    .filter((e) => (a.has(e.key) ? !1 : (a.add(e.key), !0)));
+}
+var RN = e(() => {
+  (Xa(), Rs(), Xr(), ks(), Zv());
+});
+function zN(e) {
+  let t = (0, VN.c)(30),
+    { enabled: n } = e,
+    r = Ns(),
+    i = La(),
+    { data: a } = Gr(),
+    o;
+  t[0] === a ? (o = t[1]) : ((o = a === void 0 ? [] : a), (t[0] = a), (t[1] = o));
+  let s = o,
+    c;
+  t[2] === n
+    ? (c = t[3])
+    : ((c = { limit: 20, taskFilter: `current`, enabled: n }), (t[2] = n), (t[3] = c));
+  let { data: l } = vc(c),
+    u;
+  t[4] === l ? (u = t[5]) : ((u = l === void 0 ? [] : l), (t[4] = l), (t[5] = u));
+  let d = u,
+    f = Rm(),
+    p = el(),
+    m;
+  bb0: {
+    if (!n) {
+      let e;
+      (t[6] === Symbol.for(`react.memo_cache_sentinel`) ? ((e = []), (t[6] = e)) : (e = t[6]),
+        (m = e));
+      break bb0;
+    }
+    let e;
+    if (t[7] !== d || t[8] !== f || t[9] !== s || t[10] !== i.pathname) {
+      let n = LN(s, d, f),
+        r;
+      (t[12] === i.pathname
+        ? (r = t[13])
+        : ((r = (e) => e.path !== i.pathname), (t[12] = i.pathname), (t[13] = r)),
+        (e = n.filter(r)),
+        (t[7] = d),
+        (t[8] = f),
+        (t[9] = s),
+        (t[10] = i.pathname),
+        (t[11] = e));
+    } else e = t[11];
+    m = e;
+  }
+  let h = m,
+    g;
+  t[14] === r
+    ? (g = t[15])
+    : ((g = r.formatMessage({
+        id: `composer.hotkeyWindowResumeSlashCommand.title`,
+        defaultMessage: `Resume`,
+        description: `Title for hotkey-window resume slash command`,
+      })),
+      (t[14] = r),
+      (t[15] = g));
+  let _;
+  t[16] === r
+    ? (_ = t[17])
+    : ((_ = r.formatMessage({
+        id: `composer.hotkeyWindowResumeSlashCommand.description`,
+        defaultMessage: `Resume a recent chat`,
+        description: `Description for hotkey-window resume slash command`,
+      })),
+      (t[16] = r),
+      (t[17] = _));
+  let v;
+  t[18] === h ? (v = t[19]) : ((v = [h]), (t[18] = h), (t[19] = v));
+  let y;
+  t[20] !== p || t[21] !== r || t[22] !== h
+    ? ((y = (e) => {
+        let { onClose: t } = e;
+        return h.length === 0
+          ? (0, HN.jsx)(oy, {
+              value: `No recent chats`,
+              title: r.formatMessage({
+                id: `composer.hotkeyWindowResumeSlashCommand.empty`,
+                defaultMessage: `No recent chats`,
+                description: `Empty state for hotkey-window resume command list`,
+              }),
+              disabled: !0,
+            })
+          : (0, HN.jsx)(HN.Fragment, {
+              children: h.map((e) =>
+                (0, HN.jsx)(
+                  oy,
+                  {
+                    value: e.key,
+                    title: e.title,
+                    description: e.projectShortName ?? void 0,
+                    rightAccessory: BN(e.status),
+                    LeftIcon: e.kind === `cloud` ? Du : ti(e.cwd, p) ? vp : $f,
+                    onSelect: () => {
+                      (t(), Mt.hotkeyWindowHotkeys?.open({ path: e.path }));
+                    },
+                  },
+                  e.key,
+                ),
+              ),
+            });
+      }),
+      (t[20] = p),
+      (t[21] = r),
+      (t[22] = h),
+      (t[23] = y))
+    : (y = t[23]);
+  let b;
+  return (
+    t[24] !== n || t[25] !== y || t[26] !== g || t[27] !== _ || t[28] !== v
+      ? ((b = {
+          id: `hotkey-window-resume`,
+          title: g,
+          description: _,
+          requiresEmptyComposer: !0,
+          Icon: Pm,
+          enabled: n,
+          dependencies: v,
+          Content: y,
+        }),
+        (t[24] = n),
+        (t[25] = y),
+        (t[26] = g),
+        (t[27] = _),
+        (t[28] = v),
+        (t[29] = b))
+      : (b = t[29]),
+    By(b),
+    null
+  );
+}
+function BN(e) {
+  switch (e) {
+    case `running`:
+      return (0, HN.jsx)(`span`, {
+        className: `relative flex w-5 shrink-0 items-center justify-center text-token-foreground/70`,
+        children: (0, HN.jsx)(Ro, { className: `icon-xs shrink-0` }),
+      });
+    case `unread`:
+      return (0, HN.jsx)(`span`, {
+        className: `relative flex w-5 shrink-0 items-center justify-center text-token-description-foreground`,
+        children: (0, HN.jsx)(`span`, {
+          className: `icon-xs relative scale-50`,
+          children: (0, HN.jsx)(`span`, {
+            className: `absolute inset-0 rounded-full bg-token-text-link-foreground`,
+          }),
+        }),
+      });
+    case `read`:
+      return null;
+  }
+}
+var VN,
+  HN,
+  UN = e(() => {
+    ((VN = X()),
+      Xa(),
+      Y(),
+      Oi(),
+      Qe(),
+      ke(),
+      za(),
+      Hy(),
+      iy(),
+      H(),
+      Zf(),
+      ch(),
+      Uu(),
+      Bm(),
+      jp(),
+      Ut(),
+      RN(),
+      (HN = Z()));
+  });
+function WN(e) {
+  let t = (0, KN.c)(7),
+    { composerController: n } = e,
+    r = XD(),
+    i;
+  if (t[0] !== n || t[1] !== r) {
+    let e;
+    (t[3] === n
+      ? (e = t[4])
+      : ((e = (e) => (0, qN.jsx)(GN, { composerController: n, prompt: e }, e.id)),
+        (t[3] = n),
+        (t[4] = e)),
+      (i = r.map(e)),
+      (t[0] = n),
+      (t[1] = r),
+      (t[2] = i));
+  } else i = t[2];
+  let a;
+  return (
+    t[5] === i
+      ? (a = t[6])
+      : ((a = (0, qN.jsx)(qN.Fragment, { children: i })), (t[5] = i), (t[6] = a)),
+    a
+  );
+}
+function GN(e) {
+  let t = (0, KN.c)(13),
+    { composerController: n, prompt: r } = e,
+    i = `custom-prompt:${r.id}`,
+    a = `prompts:${r.id}`,
+    o = r.description ?? void 0,
+    s;
+  t[0] !== n || t[1] !== r.argumentHint || t[2] !== r.id
+    ? ((s = async () => {
+        let e = r.argumentHint?.trim()
+          ? `/prompts:${r.id} ${r.argumentHint}`.trimEnd()
+          : `/prompts:${r.id}`;
+        (n.setText(e), n.focus());
+      }),
+      (t[0] = n),
+      (t[1] = r.argumentHint),
+      (t[2] = r.id),
+      (t[3] = s))
+    : (s = t[3]);
+  let c;
+  t[4] !== n || t[5] !== r.argumentHint
+    ? ((c = [n, r.argumentHint]), (t[4] = n), (t[5] = r.argumentHint), (t[6] = c))
+    : (c = t[6]);
+  let l;
+  return (
+    t[7] !== i || t[8] !== a || t[9] !== o || t[10] !== s || t[11] !== c
+      ? ((l = {
+          id: i,
+          title: a,
+          description: o,
+          requiresEmptyComposer: !0,
+          Icon: vO,
+          onSelect: s,
+          dependencies: c,
+        }),
+        (t[7] = i),
+        (t[8] = a),
+        (t[9] = o),
+        (t[10] = s),
+        (t[11] = c),
+        (t[12] = l))
+      : (l = t[12]),
+    By(l),
+    null
+  );
+}
+var KN,
+  qN,
+  JN = e(() => {
+    ((KN = X()), yO(), $D(), Hy(), (qN = Z()));
+  });
+function YN(e) {
+  let t = (0, XN.c)(22),
+    { conversationId: n, cwd: r, hostConfig: i } = e,
+    a = Ns(),
+    o = c_() === l_,
+    s =
+      Gc(Jo, { hostConfig: i, operationSource: `review_command_registration` }).data?.available ===
+      !0,
+    c;
+  t[0] !== s || t[1] !== i.id
+    ? ((c = { enabled: s, hostId: i.id, source: `review_command_registration` }),
+      (t[0] = s),
+      (t[1] = i.id),
+      (t[2] = c))
+    : (c = t[2]);
+  let { gitRoot: l } = cA(r, c),
+    u;
+  t[3] !== n || t[4] !== r || t[5] !== i
+    ? ((u = function (e) {
+        let { onItemsChanged: t, onClose: a } = e;
+        return (0, ZN.jsx)(QN, {
+          conversationId: n,
+          onItemsChanged: t,
+          onClose: a,
+          cwd: r,
+          hostConfig: i,
+        });
+      }),
+      (t[3] = n),
+      (t[4] = r),
+      (t[5] = i),
+      (t[6] = u))
+    : (u = t[6]);
+  let d = u,
+    f;
+  t[7] === a
+    ? (f = t[8])
+    : ((f = a.formatMessage({
+        id: `composer.reviewMode.title`,
+        defaultMessage: `Code review`,
+        description: `Title for the review mode slash command`,
+      })),
+      (t[7] = a),
+      (t[8] = f));
+  let p;
+  t[9] === a
+    ? (p = t[10])
+    : ((p = a.formatMessage({
+        id: `composer.reviewMode.description`,
+        defaultMessage: `Review unstaged changes or compare against a branch`,
+        description: `Description for the review mode slash command`,
+      })),
+      (t[9] = a),
+      (t[10] = p));
+  let m = !!l && !o,
+    h;
+  t[11] !== n || t[12] !== r || t[13] !== l || t[14] !== i.id
+    ? ((h = [n, r, l, i.id]), (t[11] = n), (t[12] = r), (t[13] = l), (t[14] = i.id), (t[15] = h))
+    : (h = t[15]);
+  let g;
+  return (
+    t[16] !== d || t[17] !== f || t[18] !== p || t[19] !== m || t[20] !== h
+      ? ((g = {
+          id: `review-mode`,
+          title: f,
+          description: p,
+          requiresEmptyComposer: !0,
+          Icon: rv,
+          Content: d,
+          enabled: m,
+          dependencies: h,
+        }),
+        (t[16] = d),
+        (t[17] = f),
+        (t[18] = p),
+        (t[19] = m),
+        (t[20] = h),
+        (t[21] = g))
+      : (g = t[21]),
+    By(g),
+    null
+  );
+}
+var XN,
+  ZN,
+  QN,
+  $N = e(() => {
+    ((XN = X()),
+      ji(),
+      Y(),
+      ob(),
+      Ws(),
+      nv(),
+      x_(),
+      fA(),
+      Hy(),
+      (ZN = Z()),
+      gs(),
+      (QN = rb(
+        async () =>
+          (
+            await _a(
+              async () => {
+                let { ReviewModeContent: e } = await import(`./review-mode-content.js`);
+                return { ReviewModeContent: e };
+              },
+              __vite__mapDeps([
+                97, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22,
+                23, 24, 25, 26, 27, 28, 55, 77,
+              ]),
+              import.meta.url,
+            )
+          ).ReviewModeContent,
+      )));
+  });
+function eP(e) {
+  let t = (0, iP.c)(18),
+    { cwd: n, roots: r, hostId: i } = e,
+    a = Ns(),
+    { data: o } = br(),
+    { skills: s } = ln(r ?? n, i),
+    c = yh(),
+    l;
+  if (t[0] !== o?.name || t[1] !== c || t[2] !== n || t[3] !== a || t[4] !== r || t[5] !== s) {
+    let e = mo(),
+      i;
+    t[7] === a
+      ? (i = t[8])
+      : ((i = a.formatMessage({
+          id: `composer.slashCommands.skillsGroup`,
+          defaultMessage: `Skills`,
+          description: `Group heading for skill slash commands`,
+        })),
+        (t[7] = a),
+        (t[8] = i));
+    let u = i,
+      d = (0, aP.default)(
+        (0, oP.default)(
+          s.filter((t) => t.enabled && _f(t, e)),
+          nP,
+        ),
+        tP,
+      ),
+      f;
+    (t[9] !== o?.name || t[10] !== c || t[11] !== n || t[12] !== a || t[13] !== r || t[14] !== u
+      ? ((f = (e) =>
+          (0, sP.jsx)(
+            rP,
+            {
+              skill: e,
+              composerController: c,
+              scopeLabel: $h({
+                skill: e,
+                intl: a,
+                roots: r ?? (n ? [n] : []),
+                fallbackRepoLabel: qf({ scope: `repo`, intl: a }),
+                adminLabel: o?.name ?? void 0,
+              }),
+              groupLabel: u,
+            },
+            e.path,
+          )),
+        (t[9] = o?.name),
+        (t[10] = c),
+        (t[11] = n),
+        (t[12] = a),
+        (t[13] = r),
+        (t[14] = u),
+        (t[15] = f))
+      : (f = t[15]),
+      (l = d.map(f)),
+      (t[0] = o?.name),
+      (t[1] = c),
+      (t[2] = n),
+      (t[3] = a),
+      (t[4] = r),
+      (t[5] = s),
+      (t[6] = l));
+  } else l = t[6];
+  let u;
+  return (
+    t[16] === l
+      ? (u = t[17])
+      : ((u = (0, sP.jsx)(sP.Fragment, { children: l })), (t[16] = l), (t[17] = u)),
+    u
+  );
+}
+function tP(e) {
+  return e.name.toLowerCase();
+}
+function nP(e) {
+  return e.path;
+}
+function rP(e) {
+  let t = (0, iP.c)(29),
+    { skill: n, composerController: r, scopeLabel: i, groupLabel: a } = e,
+    o;
+  t[0] === n ? (o = t[1]) : ((o = Mn(n)), (t[0] = n), (t[1] = o));
+  let s = o,
+    c;
+  t[2] === n ? (c = t[3]) : ((c = Oe(n)), (t[2] = n), (t[3] = c));
+  let l = c,
+    u;
+  t[4] === i
+    ? (u = t[5])
+    : ((u = (e) => {
+        let { className: t } = e;
+        return (0, sP.jsx)(`span`, {
+          className: qc(`ml-auto text-token-description-foreground shrink-0`, t),
+          style: { width: `auto`, height: `auto` },
+          children: i,
+        });
+      }),
+      (t[4] = i),
+      (t[5] = u));
+  let d = u,
+    f = `skill:${n.path}`,
+    p;
+  t[6] === Symbol.for(`react.memo_cache_sentinel`) ? ((p = K_()), (t[6] = p)) : (p = t[6]);
+  let m, h;
+  t[7] !== r || t[8] !== n
+    ? ((m = async () => {
+        r.insertSkillMentionAtSelection(n);
+      }),
+      (h = async (e) => {
+        r.insertMention(xs(n), e);
+      }),
+      (t[7] = r),
+      (t[8] = n),
+      (t[9] = m),
+      (t[10] = h))
+    : ((m = t[9]), (h = t[10]));
+  let g = n.interface?.iconSmall,
+    _ = n.interface?.iconLarge,
+    v;
+  t[11] !== r ||
+  t[12] !== s ||
+  t[13] !== l ||
+  t[14] !== a ||
+  t[15] !== i ||
+  t[16] !== n.path ||
+  t[17] !== g ||
+  t[18] !== _
+    ? ((v = [r, l, s, n.path, g, _, i, a]),
+      (t[11] = r),
+      (t[12] = s),
+      (t[13] = l),
+      (t[14] = a),
+      (t[15] = i),
+      (t[16] = n.path),
+      (t[17] = g),
+      (t[18] = _),
+      (t[19] = v))
+    : (v = t[19]);
+  let y;
+  return (
+    t[20] !== d ||
+    t[21] !== s ||
+    t[22] !== l ||
+    t[23] !== a ||
+    t[24] !== v ||
+    t[25] !== f ||
+    t[26] !== m ||
+    t[27] !== h
+      ? ((y = {
+          id: f,
+          title: l,
+          description: s,
+          requiresEmptyComposer: !1,
+          Icon: p,
+          RightIcon: d,
+          group: a,
+          onSelect: m,
+          onSelectFromInlineSlash: h,
+          dependencies: v,
+        }),
+        (t[20] = d),
+        (t[21] = s),
+        (t[22] = l),
+        (t[23] = a),
+        (t[24] = v),
+        (t[25] = f),
+        (t[26] = m),
+        (t[27] = h),
+        (t[28] = y))
+      : (y = t[28]),
+    By(y),
+    null
+  );
+}
+var iP,
+  aP,
+  oP,
+  sP,
+  cP = e(() => {
+    ((iP = X()),
+      Xn(),
+      (aP = t(_p(), 1)),
+      (oP = t(Oc(), 1)),
+      Y(),
+      ke(),
+      sp(),
+      Dl(),
+      Et(),
+      ce(),
+      zt(),
+      G_(),
+      ge(),
+      Dp(),
+      lf(),
+      Hy(),
+      (sP = Z()));
+  });
+function lP(e) {
+  let t = (0, fP.c)(2),
+    { conversationId: n, enabled: r } = e;
+  if (n == null || !r) return null;
+  let i;
+  return (
+    t[0] === n
+      ? (i = t[1])
+      : ((i = (0, mP.jsx)(uP, { conversationId: n })), (t[0] = n), (t[1] = i)),
+    i
+  );
+}
+function uP({ conversationId: e }) {
+  let t = qn(di),
+    n = Ns(),
+    i = Gc(fi, e),
+    a = P(gP, e),
+    o = P(_P, e),
+    s = de(a),
+    c = de(o),
+    l = (0, pP.useMemo)(() => dP(n, i, s), [s, n, i]),
+    u = async (i, s) => {
+      if (t.get(o) != null) return;
+      let c = e;
+      t.set(o, i.id);
+      try {
+        if (
+          (await Vr(`approve-auto-review-denied-action`, { conversationId: c, event: i.event }),
+          t.set(a, (e) => new Set(e).add(i.id)),
+          FA(t.get(Ke)) !== c)
+        )
+          return;
+        (s(),
+          t
+            .get(Yr)
+            .success(
+              n.formatMessage({
+                id: `composer.autoReviewDenialsSlashCommand.approvedToast`,
+                defaultMessage: `Approval recorded for one retry.`,
+                description: `Toast shown after a user approves one retry of an auto-review denial`,
+              }),
+            ));
+      } catch (e) {
+        if (FA(t.get(Ke)) !== c) return;
+        (r.error(`Failed to approve auto-review denial`, { safe: {}, sensitive: { error: e } }),
+          t
+            .get(Yr)
+            .danger(
+              n.formatMessage({
+                id: `composer.autoReviewDenialsSlashCommand.approvalFailedToast`,
+                defaultMessage: `Could not record auto-review approval.`,
+                description: `Toast shown when approving one retry of an auto-review denial fails`,
+              }),
+            ));
+      } finally {
+        t.set(o, null);
+      }
+    };
+  function d({ onClose: e }) {
+    return l.length === 0
+      ? (0, mP.jsx)(oy, {
+          value: `No recent denials`,
+          title: n.formatMessage({
+            id: `composer.autoReviewDenialsSlashCommand.emptyTitle`,
+            defaultMessage: `No recent denials`,
+            description: `Title shown in the denials slash command when there are no recent auto-review denials`,
+          }),
+          description: n.formatMessage({
+            id: `composer.autoReviewDenialsSlashCommand.emptyDescription`,
+            defaultMessage: `Auto-review denials from this thread will appear here`,
+            description: `Description shown in the denials slash command when there are no recent auto-review denials`,
+          }),
+          disabled: !0,
+        })
+      : (0, mP.jsxs)(mP.Fragment, {
+          children: [
+            (0, mP.jsx)(`div`, {
+              className: `px-2 py-1 text-token-description-foreground`,
+              children: n.formatMessage({
+                id: `composer.autoReviewDenialsSlashCommand.instructions`,
+                defaultMessage: `Select an auto-review denial to approve one retry. The retry will still go through auto-review.`,
+                description: `Instructions shown above recent auto-review denials in the slash command menu`,
+              }),
+            }),
+            l.map((t) =>
+              (0, mP.jsx)(
+                dm.Item,
+                {
+                  disabled: c != null,
+                  "data-command-menu-loading": c === t.id,
+                  value: `${t.id}:${t.title}`,
+                  onSelect: () => {
+                    u(t, e);
+                  },
+                  children: (0, mP.jsxs)(`div`, {
+                    className: `relative flex min-w-0 flex-col gap-1 py-1`,
+                    children: [
+                      (0, mP.jsx)(`div`, {
+                        className: `min-w-0 font-mono leading-relaxed break-words`,
+                        children: t.title,
+                      }),
+                      (0, mP.jsx)(`div`, {
+                        className: `min-w-0 text-sm break-words text-token-description-foreground`,
+                        children:
+                          c === t.id
+                            ? n.formatMessage({
+                                id: `composer.autoReviewDenialsSlashCommand.approvingDescription`,
+                                defaultMessage: `Recording approval...`,
+                                description: `Temporary row description shown while approving one retry of an auto-review denial`,
+                              })
+                            : (t.rationale ??
+                              n.formatMessage({
+                                id: `composer.autoReviewDenialsSlashCommand.noRationale`,
+                                defaultMessage: `Auto-review did not include a rationale.`,
+                                description: `Fallback row description for an auto-review denial without a rationale`,
+                              })),
+                      }),
+                    ],
+                  }),
+                },
+                t.id,
+              ),
+            ),
+          ],
+        });
+  }
+  return (
+    By({
+      id: `autoreview`,
+      title: n.formatMessage({
+        id: `composer.autoReviewDenialsSlashCommand.title`,
+        defaultMessage: `Approve`,
+        description: `Title for the auto-review denials slash command`,
+      }),
+      description: n.formatMessage({
+        id: `composer.autoReviewDenialsSlashCommand.description`,
+        defaultMessage: `Approve a recent auto-review denial`,
+        description: `Description for the auto-review denials slash command`,
+      }),
+      enabled: l.length > 0,
+      requiresEmptyComposer: !1,
+      Icon: Nh,
+      Content: d,
+      dependencies: [t, c, e, l, n],
+    }),
+    null
+  );
+}
+function dP(e, t, n) {
+  if (t == null) return [];
+  let r = [];
+  for (let i = t.length - 1; i >= 0; --i) {
+    let a = t[i];
+    if (a != null) {
+      for (let t = a.items.length - 1; t >= 0 && r.length < hP; --t) {
+        let i = a.items[t];
+        i != null &&
+          (i.type !== `automaticApprovalReview` ||
+            i.status !== `denied` ||
+            i.action == null ||
+            i.event == null ||
+            n.has(i.id) ||
+            r.push({
+              id: i.id,
+              title: zf(e, i.action),
+              rationale: i.rationale ?? void 0,
+              event: i.event,
+            }));
+      }
+      if (r.length >= hP) break;
+    }
+  }
+  return r;
+}
+var fP,
+  pP,
+  mP,
+  hP,
+  gP,
+  _P,
+  vP = e(() => {
+    ((fP = X()),
+      zl(),
+      ji(),
+      (pP = t(El(), 1)),
+      Y(),
+      vl(),
+      Jr(),
+      Fs(),
+      IA(),
+      cr(),
+      tg(),
+      Ld(),
+      wt(),
+      R(),
+      xn(),
+      Hy(),
+      iy(),
+      (mP = Z()),
+      (hP = 10),
+      (gP = Tc(et, (e) => new Set())),
+      (_P = Tc(et, (e) => null)));
+  });
+function yP() {
+  let e = (0, xP.c)(7),
+    t = Ns(),
+    n;
+  e[0] === t
+    ? (n = e[1])
+    : ((n = t.formatMessage({
+        id: `composer.petOverlaySlashCommand.title`,
+        defaultMessage: `Pet`,
+        description: `Title for the pet overlay slash command`,
+      })),
+      (e[0] = t),
+      (e[1] = n));
+  let r;
+  e[2] === t
+    ? (r = e[3])
+    : ((r = t.formatMessage({
+        id: `composer.petOverlaySlashCommand.description`,
+        defaultMessage: `Wake or tuck away the desktop pet`,
+        description: `Description for the pet overlay slash command`,
+      })),
+      (e[2] = t),
+      (e[3] = r));
+  let i;
+  return (
+    e[4] !== n || e[5] !== r
+      ? ((i = {
+          id: `pet`,
+          title: n,
+          description: r,
+          requiresEmptyComposer: !1,
+          Icon: cg,
+          enabled: !0,
+          onSelect: bP,
+        }),
+        (e[4] = n),
+        (e[5] = r),
+        (e[6] = i))
+      : (i = e[6]),
+    By(i),
+    null
+  );
+}
+async function bP() {
+  return Er(`openAvatarOverlay`, `avatar_overlay_slash_command`);
+}
+var xP,
+  SP = e(() => {
+    ((xP = X()), Y(), M(), Jl(), Hy());
+  });
+function CP(e) {
+  let t = (0, wP.c)(20),
+    { composerMode: n, resolvedCwd: r } = e,
+    i = qn(di),
+    a = Ns(),
+    o = Hc(),
+    s = La(),
+    { state: c } = s,
+    l = de(Ke) == null && (n !== `local` || r !== `~`),
+    u;
+  t[0] !== s.hash ||
+  t[1] !== s.pathname ||
+  t[2] !== s.search ||
+  t[3] !== c ||
+  t[4] !== o ||
+  t[5] !== i
+    ? ((u = () => {
+        (In(i, `local`),
+          i.set(b_, `~`),
+          us(i, null),
+          eu(s.pathname) &&
+            o(
+              { pathname: s.pathname, search: s.search, hash: s.hash },
+              { replace: !0, state: { ...c, prefillCwd: `~` } },
+            ));
+      }),
+      (t[0] = s.hash),
+      (t[1] = s.pathname),
+      (t[2] = s.search),
+      (t[3] = c),
+      (t[4] = o),
+      (t[5] = i),
+      (t[6] = u))
+    : (u = t[6]);
+  let d = u,
+    f;
+  t[7] === a
+    ? (f = t[8])
+    : ((f = a.formatMessage({
+        id: `composer.chatSlashCommand.title`,
+        defaultMessage: `Chat`,
+        description: `Title for the slash command that starts projectless chats`,
+      })),
+      (t[7] = a),
+      (t[8] = f));
+  let p;
+  t[9] === a
+    ? (p = t[10])
+    : ((p = a.formatMessage({
+        id: `composer.chatSlashCommand.description`,
+        defaultMessage: `Don't work in a project`,
+        description: `Description for the slash command that starts projectless chats`,
+      })),
+      (t[9] = a),
+      (t[10] = p));
+  let m, h;
+  t[11] === d
+    ? ((m = t[12]), (h = t[13]))
+    : ((m = async () => {
+        d();
+      }),
+      (h = [d]),
+      (t[11] = d),
+      (t[12] = m),
+      (t[13] = h));
+  let g;
+  return (
+    t[14] !== l || t[15] !== f || t[16] !== p || t[17] !== m || t[18] !== h
+      ? ((g = {
+          id: `chat`,
+          title: f,
+          description: p,
+          requiresEmptyComposer: !1,
+          Icon: Em,
+          enabled: l,
+          onSelect: m,
+          dependencies: h,
+        }),
+        (t[14] = l),
+        (t[15] = f),
+        (t[16] = p),
+        (t[17] = m),
+        (t[18] = h),
+        (t[19] = g))
+      : (g = t[19]),
+    By(g),
+    null
+  );
+}
+var wP,
+  TP = e(() => {
+    ((wP = X()), ji(), Xa(), Y(), Oi(), cr(), m_(), Vt(), Jd(), Zp(), wi(), R(), Hy());
+  });
+function EP(e) {
+  let t = (0, DP.c)(26),
+    { conversationId: n, isResponseInProgress: r } = e,
+    i = qn(et),
+    a = Ns(),
+    o = Gc(j, n),
+    s,
+    c;
+  if (t[0] !== a || t[1] !== o) {
+    let { percent: e } = Pj(o);
+    ((s = e ?? 0),
+      (c =
+        e == null
+          ? a.formatMessage({
+              id: `composer.compactSlashCommand.description`,
+              defaultMessage: `Compact this thread's context`,
+              description: `Description for the compact slash command`,
+            })
+          : a.formatMessage(
+              {
+                id: `composer.compactSlashCommand.descriptionWithUsage`,
+                defaultMessage: `Compact this thread's context ({usage}% full)`,
+                description: `Description for the compact slash command with current context window usage`,
+              },
+              { usage: Math.round(e) },
+            )),
+      (t[0] = a),
+      (t[1] = o),
+      (t[2] = s),
+      (t[3] = c));
+  } else ((s = t[2]), (c = t[3]));
+  let l = c,
+    u;
+  t[4] === s
+    ? (u = t[5])
+    : ((u = function (e) {
+        let { className: t } = e;
+        return (0, OP.jsx)(ud, { percent: s, className: qc(t, `icon-2xs`) });
+      }),
+      (t[4] = s),
+      (t[5] = u));
+  let d = u,
+    f;
+  t[6] === a
+    ? (f = t[7])
+    : ((f = a.formatMessage({
+        id: `composer.compactSlashCommand.title`,
+        defaultMessage: `Compact`,
+        description: `Title for the compact slash command`,
+      })),
+      (t[6] = a),
+      (t[7] = f));
+  let p = n != null,
+    m;
+  t[8] !== n || t[9] !== a || t[10] !== r || t[11] !== i
+    ? ((m = async () => {
+        if (r) {
+          i.get(Yr).danger(
+            a.formatMessage({
+              id: `composer.compactSlashCommand.disabledInProgressToast`,
+              defaultMessage: `Compact is disabled while a task is in progress`,
+              description: `Toast shown when the compact slash command is used while a task is already in progress`,
+            }),
+          );
+          return;
+        }
+        n != null && (await Vr(`compact-thread`, { conversationId: n }));
+      }),
+      (t[8] = n),
+      (t[9] = a),
+      (t[10] = r),
+      (t[11] = i),
+      (t[12] = m))
+    : (m = t[12]);
+  let h;
+  t[13] !== s || t[14] !== n || t[15] !== a || t[16] !== r || t[17] !== i
+    ? ((h = [i, s, n, a, r]),
+      (t[13] = s),
+      (t[14] = n),
+      (t[15] = a),
+      (t[16] = r),
+      (t[17] = i),
+      (t[18] = h))
+    : (h = t[18]);
+  let g;
+  return (
+    t[19] !== d || t[20] !== l || t[21] !== f || t[22] !== p || t[23] !== m || t[24] !== h
+      ? ((g = {
+          id: `compact`,
+          title: f,
+          description: l,
+          requiresEmptyComposer: !0,
+          Icon: d,
+          enabled: p,
+          onSelect: m,
+          dependencies: h,
+        }),
+        (t[19] = d),
+        (t[20] = l),
+        (t[21] = f),
+        (t[22] = p),
+        (t[23] = m),
+        (t[24] = h),
+        (t[25] = g))
+      : (g = t[25]),
+    By(g),
+    null
+  );
+}
+var DP,
+  OP,
+  kP = e(() => {
+    ((DP = X()), Xn(), ji(), Y(), vl(), Jr(), _d(), Fs(), wt(), Fj(), Hy(), (OP = Z()));
+  });
+function AP(e) {
+  let t = (0, jP.c)(24),
+    {
+      canForkToWorktree: n,
+      showWorktreeOption: r,
+      isWorktreeThread: i,
+      onForkIntoLocal: a,
+      onForkIntoWorktree: o,
+    } = e,
+    s = Ns(),
+    c;
+  t[0] !== n || t[1] !== s || t[2] !== i || t[3] !== a || t[4] !== o || t[5] !== r
+    ? ((c = function (e) {
+        let { onClose: t } = e,
+          c = s.formatMessage({
+            id: `composer.forkSlashCommand.option.worktree.title`,
+            defaultMessage: `Fork into new worktree`,
+            description: `Fork slash command option label for creating a new worktree`,
+          }),
+          l = s.formatMessage({
+            id: `composer.forkSlashCommand.option.worktree.description`,
+            defaultMessage: `Continue in a new worktree`,
+            description: `Fork slash command option description for creating a new worktree`,
+          }),
+          u = i
+            ? s.formatMessage({
+                id: `composer.forkSlashCommand.option.local.sameWorktreeTitle`,
+                defaultMessage: `Fork into same worktree`,
+                description: `Fork slash command option label for forking within the same worktree`,
+              })
+            : s.formatMessage({
+                id: `composer.forkSlashCommand.option.local.title`,
+                defaultMessage: `Fork into local`,
+                description: `Fork slash command option label for local fork`,
+              }),
+          d = i
+            ? s.formatMessage({
+                id: `composer.forkSlashCommand.option.local.sameWorktreeDescription`,
+                defaultMessage: `Continue in the same worktree`,
+                description: `Fork slash command option description for forking within the same worktree`,
+              })
+            : s.formatMessage({
+                id: `composer.forkSlashCommand.option.local.description`,
+                defaultMessage: `Continue in a new local chat`,
+                description: `Fork slash command option description for local fork`,
+              }),
+          f = (0, MP.jsx)(oy, {
+            value: u,
+            LeftIcon: i ? vp : $f,
+            title: u,
+            description: d,
+            onSelect: () => {
+              a().finally(t);
+            },
+          }),
+          p = r
+            ? (0, MP.jsx)(oy, {
+                value: c,
+                LeftIcon: vp,
+                title: c,
+                description: l,
+                disabled: !n,
+                onSelect: () => {
+                  o().finally(t);
+                },
+              })
+            : null;
+        return i
+          ? (0, MP.jsxs)(MP.Fragment, { children: [f, p] })
+          : (0, MP.jsxs)(MP.Fragment, { children: [p, f] });
+      }),
+      (t[0] = n),
+      (t[1] = s),
+      (t[2] = i),
+      (t[3] = a),
+      (t[4] = o),
+      (t[5] = r),
+      (t[6] = c))
+    : (c = t[6]);
+  let l = c,
+    u;
+  t[7] === s
+    ? (u = t[8])
+    : ((u = s.formatMessage({
+        id: `composer.forkSlashCommand.title`,
+        defaultMessage: `Fork`,
+        description: `Title for the fork slash command`,
+      })),
+      (t[7] = s),
+      (t[8] = u));
+  let d;
+  t[9] !== s || t[10] !== i || t[11] !== r
+    ? ((d = r
+        ? i
+          ? s.formatMessage({
+              id: `composer.forkSlashCommand.description.worktreeThread`,
+              defaultMessage: `Fork this chat into the same worktree or a new worktree`,
+              description: `Description for the fork slash command in worktree threads`,
+            })
+          : s.formatMessage({
+              id: `composer.forkSlashCommand.description`,
+              defaultMessage: `Fork this chat into local or a new worktree`,
+              description: `Description for the fork slash command`,
+            })
+        : s.formatMessage({
+            id: `composer.forkSlashCommand.description.projectless`,
+            defaultMessage: `Fork this chat into a new local chat`,
+            description: `Description for the fork slash command in projectless chats`,
+          })),
+      (t[9] = s),
+      (t[10] = i),
+      (t[11] = r),
+      (t[12] = d))
+    : (d = t[12]);
+  let f;
+  t[13] !== n || t[14] !== i || t[15] !== a || t[16] !== o || t[17] !== r
+    ? ((f = [n, r, i, a, o]),
+      (t[13] = n),
+      (t[14] = i),
+      (t[15] = a),
+      (t[16] = o),
+      (t[17] = r),
+      (t[18] = f))
+    : (f = t[18]);
+  let p;
+  return (
+    t[19] !== l || t[20] !== u || t[21] !== d || t[22] !== f
+      ? ((p = {
+          id: `fork`,
+          title: u,
+          description: d,
+          requiresEmptyComposer: !0,
+          Icon: vp,
+          Content: l,
+          dependencies: f,
+        }),
+        (t[19] = l),
+        (t[20] = u),
+        (t[21] = d),
+        (t[22] = f),
+        (t[23] = p))
+      : (p = t[23]),
+    By(p),
+    null
+  );
+}
+var jP,
+  MP,
+  NP = e(() => {
+    ((jP = X()), Y(), Bm(), jp(), Hy(), iy(), (MP = Z()));
+  });
+function PP(e) {
+  let t = (0, IP.c)(29),
+    {
+      conversationId: n,
+      enabled: r,
+      isEasterEggEnabled: i,
+      isExtendedGoalCommand: a,
+      onOpenGoalEditor: o,
+    } = e,
+    s = Ns(),
+    { activeMode: c, modes: l, setSelectedMode: u } = gf(n),
+    d = c.mode === `plan`,
+    f;
+  t[0] === l ? (f = t[1]) : ((f = l.some(FP)), (t[0] = l), (t[1] = f));
+  let p = f,
+    m;
+  t[2] === Symbol.for(`react.memo_cache_sentinel`) ? ((m = [`/`, `@`]), (t[2] = m)) : (m = t[2]);
+  let h;
+  t[3] === s
+    ? (h = t[4])
+    : ((h = s.formatMessage({
+        id: `composer.goalSlashCommand.title`,
+        defaultMessage: `Goal`,
+        description: `Title for the goal slash command`,
+      })),
+      (t[3] = s),
+      (t[4] = h));
+  let g;
+  t[5] === s
+    ? (g = t[6])
+    : ((g = s.formatMessage({
+        id: `composer.goalSlashCommand.setDescription`,
+        defaultMessage: `Set a goal that Codex will keep working towards`,
+        description: `Description for the goal slash command`,
+      })),
+      (t[5] = s),
+      (t[6] = g));
+  let _ = i ? LP : void 0,
+    v = i ? Hs : void 0,
+    y = a ? $A : fd,
+    b;
+  t[7] !== p || t[8] !== d || t[9] !== o || t[10] !== u
+    ? ((b = async () => {
+        (d && u(p ? `default` : null), o());
+      }),
+      (t[7] = p),
+      (t[8] = d),
+      (t[9] = o),
+      (t[10] = u),
+      (t[11] = b))
+    : (b = t[11]);
+  let x;
+  t[12] !== r ||
+  t[13] !== p ||
+  t[14] !== i ||
+  t[15] !== a ||
+  t[16] !== d ||
+  t[17] !== o ||
+  t[18] !== u
+    ? ((x = [r, p, i, a, d, o, u]),
+      (t[12] = r),
+      (t[13] = p),
+      (t[14] = i),
+      (t[15] = a),
+      (t[16] = d),
+      (t[17] = o),
+      (t[18] = u),
+      (t[19] = x))
+    : (x = t[19]);
+  let S;
+  return (
+    t[20] !== r ||
+    t[21] !== h ||
+    t[22] !== g ||
+    t[23] !== _ ||
+    t[24] !== v ||
+    t[25] !== y ||
+    t[26] !== b ||
+    t[27] !== x
+      ? ((S = {
+          id: `goal`,
+          triggers: m,
+          title: h,
+          description: g,
+          getSearchQuery: _,
+          getDisplayTitle: v,
+          requiresEmptyComposer: !1,
+          Icon: y,
+          enabled: r,
+          onSelect: b,
+          dependencies: x,
+        }),
+        (t[20] = r),
+        (t[21] = h),
+        (t[22] = g),
+        (t[23] = _),
+        (t[24] = v),
+        (t[25] = y),
+        (t[26] = b),
+        (t[27] = x),
+        (t[28] = S))
+      : (S = t[28]),
+    By(S),
+    null
+  );
+}
+function FP(e) {
+  return e.mode === `default`;
+}
+var IP,
+  LP,
+  RP = e(() => {
+    ((IP = X()),
+      Y(),
+      rs(),
+      ej(),
+      yd(),
+      Zl(),
+      Hy(),
+      (LP = (e) => e.replace(/^go+(?=a?l?$)/i, `go`)));
+  });
+function zP(e) {
+  let t = (0, BP.c)(18),
+    { isAutoContextOn: n, setIsAutoContextOn: r, ideContextStatus: i } = e,
+    a = Ns(),
+    o = i === `connected`,
+    s;
+  t[0] === a
+    ? (s = t[1])
+    : ((s = a.formatMessage({
+        id: `composer.ideContextSlashCommand.title`,
+        defaultMessage: `IDE context`,
+        description: `Title for the IDE context slash command`,
+      })),
+      (t[0] = a),
+      (t[1] = s));
+  let c;
+  t[2] !== a || t[3] !== n
+    ? ((c = n
+        ? a.formatMessage({
+            id: `composer.ideContextSlashCommand.disableDescription`,
+            defaultMessage: `Turn IDE context off`,
+            description: `Description for the IDE context slash command when it is on`,
+          })
+        : a.formatMessage({
+            id: `composer.ideContextSlashCommand.enableDescription`,
+            defaultMessage: `Include current selection, open files, and other context from your IDE`,
+            description: `Description for the IDE context slash command when it is off`,
+          })),
+      (t[2] = a),
+      (t[3] = n),
+      (t[4] = c))
+    : (c = t[4]);
+  let l;
+  t[5] !== n || t[6] !== r
+    ? ((l = async () => {
+        r(!n);
+      }),
+      (t[5] = n),
+      (t[6] = r),
+      (t[7] = l))
+    : (l = t[7]);
+  let u;
+  t[8] !== n || t[9] !== o || t[10] !== r
+    ? ((u = [n, o, r]), (t[8] = n), (t[9] = o), (t[10] = r), (t[11] = u))
+    : (u = t[11]);
+  let d;
+  return (
+    t[12] !== o || t[13] !== s || t[14] !== c || t[15] !== l || t[16] !== u
+      ? ((d = {
+          id: `ide-context`,
+          title: s,
+          description: c,
+          requiresEmptyComposer: !1,
+          Icon: XA,
+          enabled: o,
+          onSelect: l,
+          dependencies: u,
+        }),
+        (t[12] = o),
+        (t[13] = s),
+        (t[14] = c),
+        (t[15] = l),
+        (t[16] = u),
+        (t[17] = d))
+      : (d = t[17]),
+    By(d),
+    null
+  );
+}
+var BP,
+  VP = e(() => {
+    ((BP = X()), Y(), ZA(), Hy());
+  }),
+  HP,
+  UP = e(() => {
+    HP = `Generate a file named AGENTS.md that serves as a contributor guide for this repository.
+Your goal is to produce a clear, concise, and well-structured document with descriptive headings and actionable explanations for each section.
+Follow the outline below, but adapt as needed — add sections if relevant, and omit those that do not apply to this project.
+
+Document Requirements
+
+- Title the document "Repository Guidelines".
+- Use Markdown headings (#, ##, etc.) for structure.
+- Keep the document concise. 200-400 words is optimal.
+- Keep explanations short, direct, and specific to this repository.
+- Provide examples where helpful (commands, directory paths, naming patterns).
+- Maintain a professional, instructional tone.
+
+Recommended Sections
+
+Project Structure & Module Organization
+
+- Outline the project structure, including where the source code, tests, and assets are located.
+
+Build, Test, and Development Commands
+
+- List key commands for building, testing, and running locally (e.g., npm test, make build).
+- Briefly explain what each command does.
+
+Coding Style & Naming Conventions
+
+- Specify indentation rules, language-specific style preferences, and naming patterns.
+- Include any formatting or linting tools used.
+
+Testing Guidelines
+
+- Identify testing frameworks and coverage requirements.
+- State test naming conventions and how to run tests.
+
+Commit & Pull Request Guidelines
+
+- Summarize commit message conventions found in the project’s Git history.
+- Outline pull request requirements (descriptions, linked issues, screenshots, etc.).
+
+(Optional) Add other sections if relevant, such as Security & Configuration Tips, Architecture Overview, or Agent-Specific Instructions.
+`;
+  });
+function WP(e) {
+  let t = (0, GP.c)(23),
+    { cwd: n, enabled: r, hostId: i, onSubmitInitPrompt: a } = e,
+    o = qn(et),
+    s = Ns(),
+    c;
+  t[0] === s
+    ? (c = t[1])
+    : ((c = s.formatMessage({
+        id: `composer.initSlashCommand.title`,
+        defaultMessage: `Init`,
+        description: `Title for the init slash command`,
+      })),
+      (t[0] = s),
+      (t[1] = c));
+  let l;
+  t[2] === s
+    ? (l = t[3])
+    : ((l = s.formatMessage({
+        id: `composer.initSlashCommand.description`,
+        defaultMessage: `Create an AGENTS.md file with instructions for Codex`,
+        description: `Description for the init slash command`,
+      })),
+      (t[2] = s),
+      (t[3] = l));
+  let u;
+  t[4] !== n || t[5] !== i || t[6] !== s || t[7] !== a || t[8] !== o
+    ? ((u = async () => {
+        let e = Ma(Lc(n), `AGENTS.md`),
+          { existingPaths: t } = await dn(`paths-exist`, { params: { hostId: i, paths: [e] } });
+        if (t.some((t) => ui(t) === ui(e))) {
+          o.get(Yr).info(
+            s.formatMessage({
+              id: `composer.initSlashCommand.skippedToast`,
+              defaultMessage: `AGENTS.md already exists here. Skipping /init to avoid overwriting it.`,
+              description: `Toast shown when the init slash command is skipped because AGENTS.md exists`,
+            }),
+          );
+          return;
+        }
+        await a(HP);
+      }),
+      (t[4] = n),
+      (t[5] = i),
+      (t[6] = s),
+      (t[7] = a),
+      (t[8] = o),
+      (t[9] = u))
+    : (u = t[9]);
+  let d;
+  t[10] !== n || t[11] !== r || t[12] !== i || t[13] !== s || t[14] !== a || t[15] !== o
+    ? ((d = [n, r, i, s, a, o]),
+      (t[10] = n),
+      (t[11] = r),
+      (t[12] = i),
+      (t[13] = s),
+      (t[14] = a),
+      (t[15] = o),
+      (t[16] = d))
+    : (d = t[16]);
+  let f;
+  return (
+    t[17] !== r || t[18] !== c || t[19] !== l || t[20] !== u || t[21] !== d
+      ? ((f = {
+          id: `init`,
+          title: c,
+          description: l,
+          requiresEmptyComposer: !0,
+          Icon: V_,
+          enabled: r,
+          onSelect: u,
+          dependencies: d,
+        }),
+        (t[17] = r),
+        (t[18] = c),
+        (t[19] = l),
+        (t[20] = u),
+        (t[21] = d),
+        (t[22] = f))
+      : (f = t[22]),
+    By(f),
+    null
+  );
+}
+var GP,
+  KP = e(() => {
+    ((GP = X()), ji(), Y(), Fs(), B_(), UP(), wt(), ws(), jn(), Hy());
+  });
+function qP({
+  composerMode: e,
+  isGoalModeActive: t,
+  isResponseInProgress: n,
+  resolvedCwd: r,
+  windowType: i,
+}) {
+  return (
+    (i === `electron` || i === `extension`) &&
+    e !== `cloud` &&
+    r.length > 0 &&
+    r !== `/` &&
+    r !== `~` &&
+    !t &&
+    !n
+  );
+}
+var JP = e(() => {
+  Xa();
+});
+function YP(e) {
+  let t = (0, iF.c)(43),
+    {
+      serverStatuses: n,
+      serverConfigs: r,
+      isLoading: i,
+      errorMessage: a,
+      onClose: o,
+      embedded: s,
+    } = e,
+    c = s === void 0 ? !1 : s,
+    l = Ns(),
+    u,
+    d,
+    f,
+    p,
+    m,
+    h;
+  if (
+    t[0] !== c ||
+    t[1] !== a ||
+    t[2] !== l ||
+    t[3] !== i ||
+    t[4] !== o ||
+    t[5] !== r ||
+    t[6] !== n
+  ) {
+    let e = eF(r),
+      s = [],
+      g = (e, t, n) => {
+        s.push({ key: `${s.length}-line`, name: e, status: t, auth: n });
+      };
+    i
+      ? g(
+          ``,
+          (0, aF.jsx)(`div`, {
+            className: `flex w-full justify-center`,
+            children: (0, aF.jsx)(Ro, { className: `icon-xxs text-token-description-foreground` }),
+          }),
+          null,
+        )
+      : a
+        ? g(
+            l.formatMessage({
+              id: `composer.mcpStatus.errorLabel`,
+              defaultMessage: `Status:`,
+              description: `Label for the MCP error row`,
+            }),
+            a,
+            null,
+          )
+        : n.length === 0
+          ? g(
+              l.formatMessage({
+                id: `composer.mcpStatus.emptyLabel`,
+                defaultMessage: `Servers:`,
+                description: `Label for the empty MCP server list`,
+              }),
+              l.formatMessage({
+                id: `composer.mcpStatus.emptyValue`,
+                defaultMessage: `No MCP servers configured`,
+                description: `Value shown when there are no MCP servers`,
+              }),
+              null,
+            )
+          : [...n].sort(ZP).forEach((t) => {
+              let n = $P(e[t.name] ?? !0, l),
+                r = QP(t.authStatus, l);
+              g(t.name, n, r);
+            });
+    let _ = !c && `px-5`;
+    t[13] === _ ? (h = t[14]) : ((h = qc(_)), (t[13] = _), (t[14] = h));
+    let v =
+      !c &&
+      `rounded-t-xl border-x border-t border-token-border bg-token-input-background px-3 py-2 lg:mx-auto`;
+    t[15] === v
+      ? (p = t[16])
+      : ((p = qc(`flex w-full flex-col gap-3 text-sm [text-wrap:pretty] text-token-foreground`, v)),
+        (t[15] = v),
+        (t[16] = p));
+    let y;
+    t[17] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((y = qc(`font-semibold`, oF)), (t[17] = y))
+      : (y = t[17]);
+    let b;
+    t[18] === l
+      ? (b = t[19])
+      : ((b = l.formatMessage({
+          id: `composer.mcpStatus.heading`,
+          defaultMessage: `MCP`,
+          description: `Heading label for the MCP status menu`,
+        })),
+        (t[18] = l),
+        (t[19] = b));
+    let x;
+    t[20] === b
+      ? (x = t[21])
+      : ((x = (0, aF.jsx)(`div`, {
+          className: `flex items-center gap-1`,
+          children: (0, aF.jsx)(`span`, { className: y, children: b }),
+        })),
+        (t[20] = b),
+        (t[21] = x));
+    let S;
+    t[22] === l
+      ? (S = t[23])
+      : ((S = l.formatMessage({
+          id: `composer.mcpStatus.close`,
+          defaultMessage: `Close`,
+          description: `Button label to close the MCP status menu`,
+        })),
+        (t[22] = l),
+        (t[23] = S));
+    let C;
+    (t[24] !== o || t[25] !== S
+      ? ((C = (0, aF.jsx)(ya, { size: `composerSm`, color: `ghost`, onClick: o, children: S })),
+        (t[24] = o),
+        (t[25] = S),
+        (t[26] = C))
+      : (C = t[26]),
+      t[27] !== x || t[28] !== C
+        ? ((m = (0, aF.jsxs)(`div`, {
+            className: `flex items-start justify-between`,
+            children: [x, C],
+          })),
+          (t[27] = x),
+          (t[28] = C),
+          (t[29] = m))
+        : (m = t[29]),
+      (f = `max-h-[200px] overflow-y-auto font-mono text-xs leading-relaxed`),
+      (u = `grid grid-cols-[fit-content(50%)_minmax(0,1fr)] gap-x-4 gap-y-1`),
+      (d = s.map(XP)),
+      (t[0] = c),
+      (t[1] = a),
+      (t[2] = l),
+      (t[3] = i),
+      (t[4] = o),
+      (t[5] = r),
+      (t[6] = n),
+      (t[7] = u),
+      (t[8] = d),
+      (t[9] = f),
+      (t[10] = p),
+      (t[11] = m),
+      (t[12] = h));
+  } else ((u = t[7]), (d = t[8]), (f = t[9]), (p = t[10]), (m = t[11]), (h = t[12]));
+  let g;
+  t[30] !== u || t[31] !== d
+    ? ((g = (0, aF.jsx)(`div`, { className: u, children: d })),
+      (t[30] = u),
+      (t[31] = d),
+      (t[32] = g))
+    : (g = t[32]);
+  let _;
+  t[33] !== f || t[34] !== g
+    ? ((_ = (0, aF.jsx)(`div`, { className: f, children: g })),
+      (t[33] = f),
+      (t[34] = g),
+      (t[35] = _))
+    : (_ = t[35]);
+  let v;
+  t[36] !== p || t[37] !== m || t[38] !== _
+    ? ((v = (0, aF.jsxs)(`div`, { className: p, children: [m, _] })),
+      (t[36] = p),
+      (t[37] = m),
+      (t[38] = _),
+      (t[39] = v))
+    : (v = t[39]);
+  let y;
+  return (
+    t[40] !== v || t[41] !== h
+      ? ((y = (0, aF.jsx)(`div`, { className: h, children: v })),
+        (t[40] = v),
+        (t[41] = h),
+        (t[42] = y))
+      : (y = t[42]),
+    y
+  );
+}
+function XP(e) {
+  return (0, aF.jsxs)(
+    `div`,
+    {
+      className: `contents`,
+      children: [
+        (0, aF.jsx)(`div`, {
+          className: qc(`text-token-description-foreground break-words text-left`),
+          children: e.name,
+        }),
+        (0, aF.jsx)(`div`, {
+          className: `text-left text-token-foreground`,
+          children: rF(e.status, e.auth),
+        }),
+      ],
+    },
+    e.key,
+  );
+}
+function ZP(e, t) {
+  return e.name.localeCompare(t.name);
+}
+function QP(e, t) {
+  return e === `unsupported`
+    ? t.formatMessage({
+        id: `composer.mcpStatus.authUnsupportedNoAuth`,
+        defaultMessage: `Auth unsupported`,
+        description: `Auth label when an MCP server does not support authentication`,
+      })
+    : e === `notLoggedIn`
+      ? t.formatMessage({
+          id: `composer.mcpStatus.authLoggedOut`,
+          defaultMessage: `Not authenticated`,
+          description: `Auth label when the MCP server is not authenticated`,
+        })
+      : e === `bearerToken`
+        ? t.formatMessage({
+            id: `composer.mcpStatus.authToken`,
+            defaultMessage: `Authenticated (API key)`,
+            description: `Auth label when using a token-based MCP login`,
+          })
+        : t.formatMessage({
+            id: `composer.mcpStatus.authOauth`,
+            defaultMessage: `Authenticated (OAuth)`,
+            description: `Auth label when using OAuth for MCP`,
+          });
+}
+function $P(e, t) {
+  return e
+    ? t.formatMessage({
+        id: `composer.mcpStatus.enabled`,
+        defaultMessage: `Enabled`,
+        description: `Label when an MCP server is enabled`,
+      })
+    : t.formatMessage({
+        id: `composer.mcpStatus.disabled`,
+        defaultMessage: `Disabled`,
+        description: `Label when an MCP server is disabled`,
+      });
+}
+function eF(e) {
+  let t = {};
+  return (
+    e &&
+      Object.entries(e).forEach(([e, n]) => {
+        let r = n.enabled !== !1,
+          i = n.name ?? e;
+        ((t[e] = r), (t[i] = r));
+      }),
+    t
+  );
+}
+function tF(e) {
+  if (!e) return null;
+  let t = e.match(/^(.*?)(\s*\(.+\))$/);
+  if (!t) return e;
+  let n = t[1].trimEnd(),
+    r = t[2].trim();
+  return (0, aF.jsxs)(aF.Fragment, {
+    children: [
+      n,
+      n && r ? ` ` : null,
+      (0, aF.jsx)(`span`, {
+        className: `text-token-description-foreground`,
+        "data-chromatic": `ignore`,
+        children: r,
+      }),
+    ],
+  });
+}
+function nF(e) {
+  return e == null ? tF(null) : typeof e == `string` ? tF(e) : e;
+}
+function rF(e, t) {
+  return t == null
+    ? nF(e)
+    : (0, aF.jsxs)(`div`, {
+        className: `flex min-w-0 items-baseline justify-between gap-3`,
+        children: [
+          (0, aF.jsx)(`span`, { className: qc(`min-w-0 truncate`, sF), children: nF(t) }),
+          (0, aF.jsx)(`span`, { className: `ml-auto shrink-0 text-right`, children: nF(e) }),
+        ],
+      });
+}
+var iF,
+  aF,
+  oF,
+  sF,
+  cF = e(() => {
+    ((iF = X()),
+      Xn(),
+      Y(),
+      _s(),
+      za(),
+      (aF = Z()),
+      (oF = `max-[220px]:hidden`),
+      (sF = `max-[350px]:hidden`));
+  });
+function lF() {
+  let e = (0, dF.c)(7),
+    t = Ns(),
+    n;
+  e[0] === t
+    ? (n = e[1])
+    : ((n = t.formatMessage({
+        id: `composer.mcpSlashCommand.title`,
+        defaultMessage: `MCP`,
+        description: `Title for the MCP slash command`,
+      })),
+      (e[0] = t),
+      (e[1] = n));
+  let r;
+  e[2] === t
+    ? (r = e[3])
+    : ((r = t.formatMessage({
+        id: `composer.mcpSlashCommand.description`,
+        defaultMessage: `Show MCP server status`,
+        description: `Description for the MCP slash command`,
+      })),
+      (e[2] = t),
+      (e[3] = r));
+  let i;
+  return (
+    e[4] !== n || e[5] !== r
+      ? ((i = {
+          id: `mcp`,
+          title: n,
+          description: r,
+          requiresEmptyComposer: !1,
+          Icon: gd,
+          presentation: `bare`,
+          Content: uF,
+        }),
+        (e[4] = n),
+        (e[5] = r),
+        (e[6] = i))
+      : (i = e[6]),
+    By(i),
+    null
+  );
+}
+function uF(e) {
+  let t = (0, dF.c)(16),
+    { onClose: n } = e,
+    r = Ns(),
+    i = La(),
+    a = de(Fm),
+    { data: o, isLoading: s, error: c } = Gc(Aa, a),
+    l;
+  t[0] === a ? (l = t[1]) : ((l = { hostId: a }), (t[0] = a), (t[1] = l));
+  let { data: u } = al(null, l),
+    d;
+  t[2] === o?.data ? (d = t[3]) : ((d = o?.data ?? []), (t[2] = o?.data), (t[3] = d));
+  let f = d,
+    p = u?.servers ?? null,
+    m;
+  t[4] !== c || t[5] !== r
+    ? ((m =
+        c == null
+          ? null
+          : r.formatMessage({
+              id: `composer.mcpStatus.errorValue`,
+              defaultMessage: `Unable to load MCP status`,
+              description: `Value shown when MCP status loading fails`,
+            })),
+      (t[4] = c),
+      (t[5] = r),
+      (t[6] = m))
+    : (m = t[6]);
+  let h = m,
+    g;
+  t[7] === i.pathname ? (g = t[8]) : ((g = eu(i.pathname)), (t[7] = i.pathname), (t[8] = g));
+  let _;
+  return (
+    t[9] !== h || t[10] !== s || t[11] !== n || t[12] !== p || t[13] !== f || t[14] !== g
+      ? ((_ = (0, fF.jsx)(YP, {
+          serverStatuses: f,
+          serverConfigs: p,
+          isLoading: s,
+          errorMessage: h,
+          onClose: n,
+          embedded: g,
+        })),
+        (t[9] = h),
+        (t[10] = s),
+        (t[11] = n),
+        (t[12] = p),
+        (t[13] = f),
+        (t[14] = g),
+        (t[15] = _))
+      : (_ = t[15]),
+    _
+  );
+}
+var dF,
+  fF,
+  pF = e(() => {
+    ((dF = X()), ji(), Y(), Oi(), Jd(), Dd(), Ss(), nh(), cF(), Hy(), (fF = Z()));
+  });
+function mF(e, t, n, r) {
+  let i = n ?? he(r);
+  (e.set(gF, t, i.generateMemories), e.set(_F, t, i.useMemories), e.set(hF, null));
+}
+var hF,
+  gF,
+  _F,
+  vF = e(() => {
+    (ji(),
+      wt(),
+      ae(),
+      (hF = Eo(et, () => null)),
+      (gF = Tc(et, (e) => null)),
+      (_F = Tc(et, (e) => null)));
+  });
+function yF({ conversationId: e, hostId: t }) {
+  let n = qn(et),
+    i = Ns(),
+    a = de(hF),
+    { data: o } = Gc(Zn, t),
+    s = _n(`875176429`),
+    { data: c = [] } = Gc(yt, t),
+    u = l(c, s),
+    d = he(o?.config),
+    f = a ?? d,
+    p = Gc(gF, e),
+    m = Gc(_F, e),
+    [h, g] = (0, SF.useState)(!1),
+    [_, v] = (0, SF.useState)(!1),
+    y = e == null ? f.generateMemories : (p ?? d.generateMemories),
+    b = e == null ? f.useMemories : (m ?? d.useMemories),
+    x = i.formatMessage({
+      id: `composer.memoriesSlashCommand.summaryOn`,
+      defaultMessage: `on`,
+      description: `Short enabled state label for memory settings`,
+    }),
+    S = i.formatMessage({
+      id: `composer.memoriesSlashCommand.summaryOff`,
+      defaultMessage: `off`,
+      description: `Short disabled state label for memory settings`,
+    }),
+    C =
+      e == null
+        ? i.formatMessage(
+            {
+              id: `composer.memoriesSlashCommand.newThreadSummary`,
+              defaultMessage: `Use {useMemories}, generate {generateMemories}`,
+              description: `Summary for new thread memory settings in the memories slash command`,
+            },
+            { useMemories: b ? x : S, generateMemories: y ? x : S },
+          )
+        : i.formatMessage(
+            {
+              id: `composer.memoriesSlashCommand.existingThreadSummary`,
+              defaultMessage: `Generate {generateMemories}`,
+              description: `Summary for existing thread memory settings in the memories slash command`,
+            },
+            { generateMemories: y ? x : S },
+          ),
+    w =
+      e == null
+        ? (0, CF.jsx)(J, {
+            id: `composer.memoriesSlashCommand.useMemoriesDescription`,
+            defaultMessage: `Let Codex bring existing memories into this chat's context`,
+            description: `Description for the setting that lets a thread use memories`,
+          })
+        : (0, CF.jsx)(J, {
+            id: `composer.memoriesSlashCommand.useMemoriesStartedDescription`,
+            defaultMessage: `Cannot be changed after conversation has started`,
+            description: `Description for disabled use memories setting after a conversation has started`,
+          }),
+    T = (t) => {
+      e ?? n.set(hF, { ...f, useMemories: t });
+    },
+    E =
+      e == null
+        ? (0, CF.jsx)(J, {
+            id: `composer.memoriesSlashCommand.newThreadDialogSubtitle`,
+            defaultMessage: `These switches apply to the chat started from this composer`,
+            description: `Subtitle explaining scope for new thread memory settings`,
+          })
+        : (0, CF.jsx)(J, {
+            id: `composer.memoriesSlashCommand.existingThreadDialogSubtitle`,
+            defaultMessage: `These switches apply to the current chat`,
+            description: `Subtitle explaining scope for existing thread memory settings`,
+          }),
+    D = async (i) => {
+      if (e == null) {
+        n.set(hF, { ...f, generateMemories: i });
+        return;
+      }
+      let a = y;
+      (n.set(gF, e, i), g(!0));
+      try {
+        await Vr(`set-thread-memory-mode-for-host`, {
+          hostId: t,
+          threadId: e,
+          mode: i ? `enabled` : `disabled`,
+        });
+      } catch (t) {
+        (n.set(gF, e, a),
+          r.error(`Failed to update thread memory mode`, { safe: {}, sensitive: { error: t } }));
+      } finally {
+        g(!1);
+      }
+    };
+  return (
+    By({
+      id: `memories`,
+      title: i.formatMessage({
+        id: `composer.memoriesSlashCommand.title`,
+        defaultMessage: `Memories`,
+        description: `Title for the memories slash command`,
+      }),
+      description: C,
+      requiresEmptyComposer: !1,
+      enabled: u,
+      Icon: pu,
+      onSelect: async () => {
+        v(!0);
+      },
+      dependencies: [C, u],
+    }),
+    _
+      ? (0, CF.jsx)(Cs, {
+          size: `feature`,
+          open: _,
+          onOpenChange: v,
+          children: (0, CF.jsxs)(Zc, {
+            className: `gap-5`,
+            children: [
+              (0, CF.jsx)(ye, {
+                icon: (0, CF.jsx)(pu, { className: `icon-sm` }),
+                title: (0, CF.jsx)(Ua, {
+                  children: (0, CF.jsx)(J, {
+                    id: `composer.memoriesSlashCommand.dialogTitle`,
+                    defaultMessage: `Chat memories`,
+                    description: `Title for the thread memory settings dialog`,
+                  }),
+                }),
+                subtitle: (0, CF.jsx)(Bo, { children: E }),
+              }),
+              (0, CF.jsxs)(K, {
+                className: `gap-3`,
+                children: [
+                  (0, CF.jsx)(bF, {
+                    label: (0, CF.jsx)(J, {
+                      id: `composer.memoriesSlashCommand.useMemoriesLabel`,
+                      defaultMessage: `Use memories`,
+                      description: `Label for the setting that lets a thread use memories`,
+                    }),
+                    description: w,
+                    checked: b,
+                    disabled: e != null,
+                    ariaLabel: i.formatMessage({
+                      id: `composer.memoriesSlashCommand.useMemoriesAriaLabel`,
+                      defaultMessage: `Use memories`,
+                      description: `Accessible label for the use memories switch`,
+                    }),
+                    onChange: T,
+                  }),
+                  (0, CF.jsx)(bF, {
+                    label: (0, CF.jsx)(J, {
+                      id: `composer.memoriesSlashCommand.generateMemoriesLabel`,
+                      defaultMessage: `Generate memories`,
+                      description: `Label for the setting that allows memory generation`,
+                    }),
+                    description: (0, CF.jsx)(J, {
+                      id: `composer.memoriesSlashCommand.generateMemoriesDescription`,
+                      defaultMessage: `Allow Codex to use this chat when creating new memories later`,
+                      description: `Description for the setting that allows memory generation`,
+                    }),
+                    checked: y,
+                    disabled: h,
+                    ariaLabel: i.formatMessage({
+                      id: `composer.memoriesSlashCommand.generateMemoriesAriaLabel`,
+                      defaultMessage: `Generate memories`,
+                      description: `Accessible label for the generate memories switch`,
+                    }),
+                    onChange: (e) => {
+                      D(e);
+                    },
+                  }),
+                ],
+              }),
+              (0, CF.jsx)($n, {
+                children: (0, CF.jsx)(ya, {
+                  color: `secondary`,
+                  onClick: () => v(!1),
+                  children: (0, CF.jsx)(J, {
+                    id: `composer.memoriesSlashCommand.done`,
+                    defaultMessage: `Done`,
+                    description: `Button to close the thread memory settings dialog`,
+                  }),
+                }),
+              }),
+            ],
+          }),
+        })
+      : null
+  );
+}
+function bF(e) {
+  let t = (0, xF.c)(17),
+    { label: n, description: r, checked: i, disabled: a, ariaLabel: o, onChange: s } = e,
+    c = a === void 0 ? !1 : a,
+    l;
+  t[0] === n
+    ? (l = t[1])
+    : ((l = (0, CF.jsx)(`div`, {
+        className: `text-sm font-medium text-token-text-primary`,
+        children: n,
+      })),
+      (t[0] = n),
+      (t[1] = l));
+  let u;
+  t[2] === r
+    ? (u = t[3])
+    : ((u = (0, CF.jsx)(`div`, { className: `text-sm text-token-text-secondary`, children: r })),
+      (t[2] = r),
+      (t[3] = u));
+  let d;
+  t[4] !== l || t[5] !== u
+    ? ((d = (0, CF.jsxs)(`div`, { className: `flex min-w-0 flex-col gap-1`, children: [l, u] })),
+      (t[4] = l),
+      (t[5] = u),
+      (t[6] = d))
+    : (d = t[6]);
+  let f;
+  t[7] === s
+    ? (f = t[8])
+    : ((f = (e) => {
+        s?.(e);
+      }),
+      (t[7] = s),
+      (t[8] = f));
+  let p;
+  t[9] !== o || t[10] !== i || t[11] !== c || t[12] !== f
+    ? ((p = (0, CF.jsx)(nr, { checked: i, disabled: c, ariaLabel: o, onChange: f })),
+      (t[9] = o),
+      (t[10] = i),
+      (t[11] = c),
+      (t[12] = f),
+      (t[13] = p))
+    : (p = t[13]);
+  let m;
+  return (
+    t[14] !== d || t[15] !== p
+      ? ((m = (0, CF.jsxs)(`div`, {
+          className: `flex items-start justify-between gap-4 rounded-lg border border-token-border p-3`,
+          children: [d, p],
+        })),
+        (t[14] = d),
+        (t[15] = p),
+        (t[16] = m))
+      : (m = t[16]),
+    m
+  );
+}
+var xF,
+  SF,
+  CF,
+  wF = e(() => {
+    ((xF = X()),
+      ji(),
+      (SF = t(El(), 1)),
+      Y(),
+      Jr(),
+      _s(),
+      ja(),
+      b(),
+      Dr(),
+      Ed(),
+      ae(),
+      En(),
+      vF(),
+      Ss(),
+      Ls(),
+      wt(),
+      Lt(),
+      xn(),
+      Hy(),
+      (CF = Z()));
+  });
+function TF(e) {
+  let t = (0, OF.c)(43),
+    { conversationId: n } = e,
+    r = qn(et),
+    i = Ns(),
+    a = jm(n),
+    o = un(a.hostId)?.requiresAuth ?? !0,
+    s;
+  t[0] === a.hostId ? (s = t[1]) : ((s = { hostId: a.hostId }), (t[0] = a.hostId), (t[1] = s));
+  let { data: c, status: l } = Sh(s),
+    u;
+  t[2] === l ? (u = t[3]) : ((u = up(l)), (t[2] = l), (t[3] = u));
+  let d = u,
+    { modelSettings: f, setModelAndReasoningEffort: p } = Tp(n),
+    { serviceTierSettings: m } = qm(n),
+    h = Gc(AF, n),
+    g = m.selectedServiceTier,
+    _,
+    v;
+  t[4] !== g || t[5] !== m.availableOptions
+    ? ((_ = m.availableOptions.find((e) => e.value === g)?.iconKind ?? null),
+      (v = Ly(_)),
+      (t[4] = g),
+      (t[5] = m.availableOptions),
+      (t[6] = _),
+      (t[7] = v))
+    : ((_ = t[6]), (v = t[7]));
+  let y = v,
+    b = c?.models,
+    x;
+  t[8] !== f.model || t[9] !== b
+    ? ((x = EF(f.model, b)), (t[8] = f.model), (t[9] = b), (t[10] = x))
+    : (x = t[10]);
+  let S = x,
+    C;
+  t[11] !== y ||
+  t[12] !== n ||
+  t[13] !== c?.models ||
+  t[14] !== f.model ||
+  t[15] !== f.reasoningEffort ||
+  t[16] !== r ||
+  t[17] !== g ||
+  t[18] !== _ ||
+  t[19] !== p ||
+  t[20] !== h
+    ? ((C = function (e) {
+        let { onClose: t } = e;
+        return (0, kF.jsx)(kF.Fragment, {
+          children: (c?.models ?? []).map((e) => {
+            let {
+                model: i,
+                description: a,
+                supportedReasoningEfforts: o,
+                defaultReasoningEffort: s,
+              } = e,
+              l = EF(i, c?.models);
+            return (0, kF.jsx)(
+              oy,
+              {
+                value: l,
+                title: l,
+                description: a,
+                RightIcon: i === f.model ? wo : void 0,
+                rightAccessory:
+                  DF(i, c?.models, g, _) && y
+                    ? (0, kF.jsx)(y, { className: `icon-xs text-token-link-foreground` })
+                    : void 0,
+                onSelect: () => {
+                  (Va(r, ts, { model: i }),
+                    h &&
+                      i !== f.model &&
+                      r
+                        .get(Yr)
+                        .info(
+                          (0, kF.jsx)(J, {
+                            id: `composer.modelChangeDuringConversationWarning.toast`,
+                            defaultMessage: `Changing models mid-conversation will degrade performance.`,
+                            description: `Warning toast shown when user changes model during an ongoing conversation`,
+                          }),
+                          { id: `composer.modelChangeDuringConversationWarning.${n}` },
+                        ));
+                  let e =
+                    o.find((e) => {
+                      let { reasoningEffort: t } = e;
+                      return t === f.reasoningEffort;
+                    })?.reasoningEffort ?? s;
+                  (t(), p(i, e));
+                },
+              },
+              i,
+            );
+          }),
+        });
+      }),
+      (t[11] = y),
+      (t[12] = n),
+      (t[13] = c?.models),
+      (t[14] = f.model),
+      (t[15] = f.reasoningEffort),
+      (t[16] = r),
+      (t[17] = g),
+      (t[18] = _),
+      (t[19] = p),
+      (t[20] = h),
+      (t[21] = C))
+    : (C = t[21]);
+  let w = C,
+    T;
+  t[22] === i
+    ? (T = t[23])
+    : ((T = i.formatMessage({
+        id: `composer.modelSlashCommand.title`,
+        defaultMessage: `Model`,
+        description: `Title for the model slash command`,
+      })),
+      (t[22] = i),
+      (t[23] = T));
+  let E = o && d && l !== `error` && (c?.models.length ?? 0) > 0,
+    D;
+  t[24] !== n ||
+  t[25] !== S ||
+  t[26] !== d ||
+  t[27] !== o ||
+  t[28] !== c ||
+  t[29] !== l ||
+  t[30] !== f ||
+  t[31] !== r ||
+  t[32] !== g ||
+  t[33] !== _ ||
+  t[34] !== p ||
+  t[35] !== h
+    ? ((D = [r, o, n, S, d, g, _, c, l, f, p, h]),
+      (t[24] = n),
+      (t[25] = S),
+      (t[26] = d),
+      (t[27] = o),
+      (t[28] = c),
+      (t[29] = l),
+      (t[30] = f),
+      (t[31] = r),
+      (t[32] = g),
+      (t[33] = _),
+      (t[34] = p),
+      (t[35] = h),
+      (t[36] = D))
+    : (D = t[36]);
+  let O;
+  return (
+    t[37] !== w || t[38] !== S || t[39] !== T || t[40] !== E || t[41] !== D
+      ? ((O = {
+          id: `model`,
+          title: T,
+          description: S,
+          requiresEmptyComposer: !1,
+          Icon: Pu,
+          Content: w,
+          enabled: E,
+          dependencies: D,
+        }),
+        (t[37] = w),
+        (t[38] = S),
+        (t[39] = T),
+        (t[40] = E),
+        (t[41] = D),
+        (t[42] = O))
+      : (O = t[42]),
+    By(O),
+    null
+  );
+}
+function EF(e, t) {
+  let n = Lm(t, e)?.displayName;
+  return n == null ? e : dp(n);
+}
+function DF(e, t, n, r) {
+  return r != null && Ae(Lm(t, e), n);
+}
+var OF,
+  kF,
+  AF,
+  jF = e(() => {
+    ((OF = X()),
+      fl(),
+      ji(),
+      Y(),
+      vl(),
+      Se(),
+      Ny(),
+      Fs(),
+      Bd(),
+      Fp(),
+      _h(),
+      Cc(),
+      td(),
+      ys(),
+      gm(),
+      wt(),
+      vm(),
+      dh(),
+      Xt(),
+      Hy(),
+      iy(),
+      (kF = Z()),
+      (AF = qo(et, (e, { get: t }) => (t(Na, e) ?? 0) > 0)));
+  });
+function MF(e) {
+  let t = (0, NF.c)(23),
+    { conversationId: n, hostId: r } = e,
+    i = gf(n),
+    a = Ns(),
+    o;
+  t[0] !== n || t[1] !== r
+    ? ((o = { conversationId: n, hostId: r }), (t[0] = n), (t[1] = r), (t[2] = o))
+    : (o = t[2]);
+  let { personality: s, setPersonality: c } = Yy(o),
+    l = i.activeMode.settings.model,
+    u;
+  t[3] === a
+    ? (u = t[4])
+    : ((u = a.formatMessage({
+        id: `composer.personalitySlashCommand.title`,
+        defaultMessage: `Personality`,
+        description: `Title for the personality slash command`,
+      })),
+      (t[3] = a),
+      (t[4] = u));
+  let d = u,
+    f;
+  t[5] === l
+    ? (f = t[6])
+    : ((f = l === `gpt-5.2` || l.startsWith(`gpt-5.1`)), (t[5] = l), (t[6] = f));
+  let p = f,
+    m;
+  t[7] !== a || t[8] !== p
+    ? ((m = p
+        ? a.formatMessage({
+            id: `composer.personalitySlashCommand.notApplicableSuffix`,
+            defaultMessage: `(Does not apply to current model)`,
+            description: `Suffix appended when personality switching does not apply to the current model`,
+          })
+        : a.formatMessage({
+            id: `composer.personalitySlashCommand.description`,
+            defaultMessage: `Choose how Codex responds`,
+            description: `Description for the personality slash command`,
+          })),
+      (t[7] = a),
+      (t[8] = p),
+      (t[9] = m))
+    : (m = t[9]);
+  let h = m,
+    g;
+  t[10] !== n || t[11] !== a || t[12] !== s || t[13] !== c
+    ? ((g = function (e) {
+        let { onClose: t } = e;
+        return (0, PF.jsx)(PF.Fragment, {
+          children: [
+            {
+              id: `friendly`,
+              label: a.formatMessage({
+                id: `composer.personalitySlashCommand.label.friendly`,
+                defaultMessage: `Friendly`,
+                description: `Label for the friendly personality`,
+              }),
+              description: a.formatMessage({
+                id: `composer.personalitySlashCommand.description.friendly`,
+                defaultMessage: `Warm, collaborative, and helpful`,
+                description: `Description for the friendly personality option`,
+              }),
+            },
+            {
+              id: `pragmatic`,
+              label: a.formatMessage({
+                id: `composer.personalitySlashCommand.label.pragmatic`,
+                defaultMessage: `Pragmatic`,
+                description: `Label for the pragmatic personality`,
+              }),
+              description: a.formatMessage({
+                id: `composer.personalitySlashCommand.description.pragmatic`,
+                defaultMessage: `Concise, task-focused, and direct`,
+                description: `Description for the pragmatic personality option`,
+              }),
+            },
+          ].map((e) =>
+            (0, PF.jsx)(
+              oy,
+              {
+                value: e.label,
+                title: e.label,
+                description: e.description,
+                onSelect: () => {
+                  (e.id !== s &&
+                    (c(e.id),
+                    n &&
+                      Vr(`add-personality-change-synthetic-item`, {
+                        conversationId: n,
+                        personality: e.id,
+                      })),
+                    t());
+                },
+                RightIcon: e.id === s ? wo : void 0,
+              },
+              e.id,
+            ),
+          ),
+        });
+      }),
+      (t[10] = n),
+      (t[11] = a),
+      (t[12] = s),
+      (t[13] = c),
+      (t[14] = g))
+    : (g = t[14]);
+  let _ = g,
+    v;
+  t[15] !== l || t[16] !== s ? ((v = [s, l]), (t[15] = l), (t[16] = s), (t[17] = v)) : (v = t[17]);
+  let y;
+  return (
+    t[18] !== _ || t[19] !== h || t[20] !== v || t[21] !== d
+      ? ((y = {
+          id: `personality`,
+          title: d,
+          description: h,
+          requiresEmptyComposer: !1,
+          Icon: Jy,
+          Content: _,
+          dependencies: v,
+        }),
+        (t[18] = _),
+        (t[19] = h),
+        (t[20] = v),
+        (t[21] = d),
+        (t[22] = y))
+      : (y = t[22]),
+    By(y),
+    null
+  );
+}
+var NF,
+  PF,
+  FF = e(() => {
+    ((NF = X()), Y(), Jr(), Cc(), qy(), Zl(), Xy(), Hy(), iy(), (PF = Z()));
+  });
+function IF(e) {
+  let t = (0, zF.c)(33),
+    { conversationId: n, onEnablePlanMode: r } = e,
+    i = Ns(),
+    { activeMode: a, modes: o, setSelectedMode: s, isLoading: c } = gf(n),
+    l = a.mode === `plan`,
+    u;
+  t[0] === o ? (u = t[1]) : ((u = o.some(RF)), (t[0] = o), (t[1] = u));
+  let d = u,
+    f;
+  t[2] === o ? (f = t[3]) : ((f = o.some(LF)), (t[2] = o), (t[3] = f));
+  let p = f,
+    m;
+  t[4] !== p || t[5] !== d || t[6] !== c || t[7] !== l || t[8] !== r || t[9] !== s
+    ? ((m = function () {
+        if (!c && d) {
+          if (l) {
+            if (p) {
+              s(`default`);
+              return;
+            }
+            s(null);
+            return;
+          }
+          (r(), s(`plan`));
+        }
+      }),
+      (t[4] = p),
+      (t[5] = d),
+      (t[6] = c),
+      (t[7] = l),
+      (t[8] = r),
+      (t[9] = s),
+      (t[10] = m))
+    : (m = t[10]);
+  let h = m,
+    g;
+  t[11] === Symbol.for(`react.memo_cache_sentinel`) ? ((g = [`/`, `@`]), (t[11] = g)) : (g = t[11]);
+  let _;
+  t[12] === i
+    ? (_ = t[13])
+    : ((_ = i.formatMessage({
+        id: `composer.planSlashCommand.title`,
+        defaultMessage: `Plan mode`,
+        description: `Title for the plan mode slash command`,
+      })),
+      (t[12] = i),
+      (t[13] = _));
+  let v;
+  t[14] !== i || t[15] !== l
+    ? ((v = l
+        ? i.formatMessage({
+            id: `composer.planSlashCommand.disableDescription`,
+            defaultMessage: `Turn plan mode off`,
+            description: `Description for the plan mode slash command when plan mode is on`,
+          })
+        : i.formatMessage({
+            id: `composer.planSlashCommand.enableDescription`,
+            defaultMessage: `Turn plan mode on`,
+            description: `Description for the plan mode slash command when plan mode is off`,
+          })),
+      (t[14] = i),
+      (t[15] = l),
+      (t[16] = v))
+    : (v = t[16]);
+  let y = !c && d,
+    b;
+  t[17] === h
+    ? (b = t[18])
+    : ((b = async () => {
+        h();
+      }),
+      (t[17] = h),
+      (t[18] = b));
+  let x;
+  t[19] !== n ||
+  t[20] !== p ||
+  t[21] !== d ||
+  t[22] !== c ||
+  t[23] !== l ||
+  t[24] !== r ||
+  t[25] !== s
+    ? ((x = [n, c, d, p, l, r, s]),
+      (t[19] = n),
+      (t[20] = p),
+      (t[21] = d),
+      (t[22] = c),
+      (t[23] = l),
+      (t[24] = r),
+      (t[25] = s),
+      (t[26] = x))
+    : (x = t[26]);
+  let S;
+  return (
+    t[27] !== _ || t[28] !== v || t[29] !== y || t[30] !== b || t[31] !== x
+      ? ((S = {
+          id: `plan-mode`,
+          triggers: g,
+          title: _,
+          description: v,
+          requiresEmptyComposer: !1,
+          Icon: gy,
+          enabled: y,
+          onSelect: b,
+          dependencies: x,
+        }),
+        (t[27] = _),
+        (t[28] = v),
+        (t[29] = y),
+        (t[30] = b),
+        (t[31] = x),
+        (t[32] = S))
+      : (S = t[32]),
+    By(S),
+    null
+  );
+}
+function LF(e) {
+  return e.mode === `default`;
+}
+function RF(e) {
+  return e.mode === `plan`;
+}
+var zF,
+  BF = e(() => {
+    ((zF = X()), Y(), my(), Zl(), Hy());
+  }),
+  VF,
+  HF,
+  UF = e(() => {
+    (t(El()),
+      (VF = Z()),
+      (HF = (e) =>
+        (0, VF.jsxs)(`svg`, {
+          width: 20,
+          height: 20,
+          viewBox: `0 0 20 20`,
+          fill: `none`,
+          xmlns: `http://www.w3.org/2000/svg`,
+          ...e,
+          children: [
+            (0, VF.jsx)(`path`, {
+              d: `M20.6582 12.0361C21.8731 12.0362 22.8584 13.0214 22.8584 14.2363C22.8581 15.0905 22.3698 15.829 21.6582 16.1934V16.2549C21.6581 17.9116 20.3149 19.2548 18.6582 19.2549H15.8057V19.6582C16.5176 20.0226 17.0059 20.7626 17.0059 21.6172C17.0056 22.8318 16.0203 23.8171 14.8057 23.8174C13.5908 23.8174 12.6058 22.832 12.6055 21.6172C12.6055 20.7624 13.0935 20.0225 13.8057 19.6582V16.1934C13.0939 15.829 12.6057 15.0906 12.6055 14.2363C12.6055 13.0213 13.5906 12.0361 14.8057 12.0361C16.0205 12.0364 17.0059 13.0214 17.0059 14.2363C17.0056 15.0904 16.5172 15.8289 15.8057 16.1934V17.2549H18.6582C19.2104 17.2548 19.6581 16.8071 19.6582 16.2549V16.1934C18.9466 15.829 18.4583 15.0906 18.458 14.2363C18.458 13.0213 19.4432 12.0361 20.6582 12.0361Z`,
+              fill: `currentColor`,
+              transform: `matrix(0.72 0 0 0.72 3.42 2.63)`,
+            }),
+            (0, VF.jsx)(`path`, {
+              d: `M13.7407 2.07715C15.6045 2.07735 17.1157 3.58831 17.1157 5.45215V9.00488C17.1156 9.48792 16.7237 9.87968 16.2407 9.87988C15.7575 9.87988 15.3658 9.48805 15.3657 9.00488V5.45215C15.3657 4.55481 14.638 3.82735 13.7407 3.82715H6.27393C5.37646 3.82715 4.64893 4.55469 4.64893 5.45215V5.79395C5.1015 5.82756 5.4585 6.20586 5.4585 6.66699C5.45837 7.12798 5.10137 7.50443 4.64893 7.53809V9.12793C5.10147 9.16157 5.4585 9.53888 5.4585 10C5.4585 10.4611 5.10144 10.8374 4.64893 10.8711V12.4609C5.1014 12.4946 5.45837 12.872 5.4585 13.333C5.4585 13.7941 5.10146 14.1714 4.64893 14.2051V14.5586C4.64893 15.4561 5.37646 16.1836 6.27393 16.1836H10.3403C10.8234 16.1837 11.2152 16.5755 11.2153 17.0586C11.2153 17.5418 10.8235 17.9335 10.3403 17.9336H6.27393C4.40997 17.9336 2.89893 16.4226 2.89893 14.5586V14.207C2.4238 14.1977 2.0415 13.8104 2.0415 13.333C2.04163 12.8557 2.42387 12.4674 2.89893 12.458V10.874C2.4238 10.8647 2.0415 10.4774 2.0415 10C2.0415 9.52262 2.42379 9.13436 2.89893 9.125V7.54102C2.42388 7.53165 2.04163 7.14425 2.0415 6.66699C2.0415 6.18962 2.42379 5.80136 2.89893 5.79199V5.45215C2.89893 3.58819 4.40996 2.07715 6.27393 2.07715H13.7407Z`,
+              fill: `currentColor`,
+            }),
+            (0, VF.jsx)(`path`, {
+              d: `M10.8335 9.95801C11.3164 9.95827 11.7084 10.35 11.7085 10.833C11.7085 11.3161 11.3165 11.7077 10.8335 11.708H7.50049C7.01724 11.708 6.62549 11.3163 6.62549 10.833C6.62562 10.3499 7.01732 9.95801 7.50049 9.95801H10.8335Z`,
+              fill: `currentColor`,
+            }),
+            (0, VF.jsx)(`path`, {
+              d: `M12.5005 6.625C12.9835 6.62526 13.3755 7.01691 13.3755 7.5C13.3755 7.98309 12.9835 8.37474 12.5005 8.375H7.50049C7.01724 8.375 6.62549 7.98325 6.62549 7.5C6.62549 7.01675 7.01724 6.625 7.50049 6.625H12.5005Z`,
+              fill: `currentColor`,
+            }),
+          ],
+        })));
+  });
+function WF(e) {
+  let t = (0, GF.c)(10),
+    { isGitRepository: n, isCodexWorktree: r, isRemoteProject: i, isOpen: a, className: o } = e,
+    s = i === void 0 ? !1 : i,
+    c = a === void 0 ? !1 : a;
+  if (r) {
+    let e;
+    return (
+      t[0] === o ? (e = t[1]) : ((e = (0, KF.jsx)(vp, { className: o })), (t[0] = o), (t[1] = e)), e
+    );
+  }
+  if (s) {
+    let e;
+    return (
+      t[2] === o ? (e = t[3]) : ((e = (0, KF.jsx)(Pv, { className: o })), (t[2] = o), (t[3] = e)), e
+    );
+  }
+  if (n) {
+    let e;
+    return (
+      t[4] === o ? (e = t[5]) : ((e = (0, KF.jsx)(HF, { className: o })), (t[4] = o), (t[5] = e)), e
+    );
+  }
+  if (c) {
+    let e;
+    return (
+      t[6] === o ? (e = t[7]) : ((e = (0, KF.jsx)(hv, { className: o })), (t[6] = o), (t[7] = e)), e
+    );
+  }
+  let l;
+  return (
+    t[8] === o ? (l = t[9]) : ((l = (0, KF.jsx)(yl, { className: o })), (t[8] = o), (t[9] = l)), l
+  );
+}
+var GF,
+  KF,
+  qF = e(() => {
+    ((GF = X()), UF(), fv(), jv(), Ii(), jp(), (KF = Z()));
+  });
+function JF(e) {
+  let t = (0, YF.c)(32),
+    { resolvedCwd: n } = e,
+    r = qn(di),
+    i = Ns(),
+    a = Hc(),
+    o = La(),
+    { state: s } = o,
+    c = de(Ke),
+    { selectedRemoteProjectId: l } = Ia(),
+    u = de(ic),
+    d = n === `~`,
+    f = c == null,
+    p = l ?? (d ? null : n),
+    m;
+  t[0] !== o.hash ||
+  t[1] !== o.pathname ||
+  t[2] !== o.search ||
+  t[3] !== s ||
+  t[4] !== a ||
+  t[5] !== r
+    ? ((m = (e) => {
+        let t = w_(r, e);
+        (e.projectKind === `remote`
+          ? us(r, { projectId: e.projectId, projectKind: `remote` })
+          : tc.select(r, e),
+          eu(o.pathname) &&
+            a(
+              { pathname: o.pathname, search: o.search, hash: o.hash },
+              { replace: !0, state: { ...s, prefillCwd: t } },
+            ));
+      }),
+      (t[0] = o.hash),
+      (t[1] = o.pathname),
+      (t[2] = o.search),
+      (t[3] = s),
+      (t[4] = a),
+      (t[5] = r),
+      (t[6] = m))
+    : (m = t[6]);
+  let h = m,
+    g;
+  t[7] !== o.hash ||
+  t[8] !== o.pathname ||
+  t[9] !== o.search ||
+  t[10] !== s ||
+  t[11] !== a ||
+  t[12] !== r
+    ? ((g = () => {
+        In(r, `local`);
+        let e = w_(r, null);
+        (us(r, null),
+          eu(o.pathname) &&
+            a(
+              { pathname: o.pathname, search: o.search, hash: o.hash },
+              { replace: !0, state: { ...s, prefillCwd: e } },
+            ));
+      }),
+      (t[7] = o.hash),
+      (t[8] = o.pathname),
+      (t[9] = o.search),
+      (t[10] = s),
+      (t[11] = a),
+      (t[12] = r),
+      (t[13] = g))
+    : (g = t[13]);
+  let _ = g,
+    v;
+  t[14] !== p || t[15] !== u || t[16] !== i || t[17] !== h || t[18] !== _
+    ? ((v = function (e) {
+        let { onClose: t } = e;
+        return (0, XF.jsxs)(XF.Fragment, {
+          children: [
+            (0, XF.jsx)(oy, {
+              value: `None Don't work in a project`,
+              title: i.formatMessage({
+                id: `composer.projectSlashCommand.projectless.title`,
+                defaultMessage: `None`,
+                description: `Project slash command option label for selecting no project`,
+              }),
+              description: i.formatMessage({
+                id: `composer.projectSlashCommand.projectless.description`,
+                defaultMessage: `Don't work in a project`,
+                description: `Project slash command option description for starting chats outside any project`,
+              }),
+              LeftIcon: Em,
+              RightIcon: p == null ? wo : void 0,
+              onSelect: () => {
+                (_(), t());
+              },
+            }),
+            u.length === 0
+              ? (0, XF.jsx)(oy, {
+                  value: `No projects`,
+                  title: i.formatMessage({
+                    id: `composer.projectSlashCommand.empty`,
+                    defaultMessage: `No projects available`,
+                    description: `Empty state for the project slash command`,
+                  }),
+                  disabled: !0,
+                })
+              : null,
+            u.map((e) =>
+              (0, XF.jsx)(
+                oy,
+                {
+                  value: `${e.label} ${e.path ?? ``} ${e.hostDisplayName ?? ``}`,
+                  title: e.label,
+                  description: e.path,
+                  leftAccessory: (0, XF.jsx)(WF, {
+                    className: `icon-xs shrink-0`,
+                    isCodexWorktree: e.isCodexWorktree,
+                    isGitRepository: e.repositoryData != null,
+                    isRemoteProject: e.projectKind === `remote`,
+                  }),
+                  RightIcon: e.projectId === p ? wo : void 0,
+                  onSelect: () => {
+                    (h(e), t());
+                  },
+                },
+                e.projectId,
+              ),
+            ),
+          ],
+        });
+      }),
+      (t[14] = p),
+      (t[15] = u),
+      (t[16] = i),
+      (t[17] = h),
+      (t[18] = _),
+      (t[19] = v))
+    : (v = t[19]);
+  let y = v,
+    b;
+  t[20] === i
+    ? (b = t[21])
+    : ((b = i.formatMessage({
+        id: `composer.projectSlashCommand.title`,
+        defaultMessage: `Project`,
+        description: `Title for the slash command that selects a project`,
+      })),
+      (t[20] = i),
+      (t[21] = b));
+  let x;
+  t[22] === i
+    ? (x = t[23])
+    : ((x = i.formatMessage({
+        id: `composer.projectSlashCommand.description`,
+        defaultMessage: `Choose project for new chats`,
+        description: `Description for the slash command that selects a project`,
+      })),
+      (t[22] = i),
+      (t[23] = x));
+  let S;
+  t[24] === y ? (S = t[25]) : ((S = [y]), (t[24] = y), (t[25] = S));
+  let C;
+  return (
+    t[26] !== y || t[27] !== f || t[28] !== b || t[29] !== x || t[30] !== S
+      ? ((C = {
+          id: `project`,
+          title: b,
+          description: x,
+          requiresEmptyComposer: !1,
+          Icon: Tr,
+          enabled: f,
+          Content: y,
+          dependencies: S,
+        }),
+        (t[26] = y),
+        (t[27] = f),
+        (t[28] = b),
+        (t[29] = x),
+        (t[30] = S),
+        (t[31] = C))
+      : (C = t[31]),
+    By(C),
+    null
+  );
+}
+var YF,
+  XF,
+  ZF = e(() => {
+    ((YF = X()),
+      ji(),
+      Xa(),
+      Y(),
+      Oi(),
+      qF(),
+      cr(),
+      m_(),
+      Vt(),
+      Jd(),
+      Zp(),
+      Cc(),
+      Ze(),
+      os(),
+      wi(),
+      Go(),
+      R(),
+      $r(),
+      Hy(),
+      iy(),
+      (XF = Z()));
+  });
+function QF(e) {
+  let t = (0, $F.c)(43),
+    { conversationId: n } = e,
+    r = qn(et),
+    i = Ns(),
+    a = jm(n),
+    o = un(a.hostId),
+    s = o?.requiresAuth ?? !0,
+    c;
+  t[0] === a.hostId ? (c = t[1]) : ((c = { hostId: a.hostId }), (t[0] = a.hostId), (t[1] = c));
+  let { data: l, status: u } = Sh(c),
+    d;
+  t[2] === u ? (d = t[3]) : ((d = up(u)), (t[2] = u), (t[3] = d));
+  let f = d,
+    p = o?.authMethod === `copilot`,
+    { modelSettings: m, setModelAndReasoningEffort: h } = Tp(n),
+    g = Gc(Ir, n),
+    _;
+  t[4] !== a.cwd || t[5] !== a.hostId
+    ? ((_ = { cwd: a.cwd, hostId: a.hostId }), (t[4] = a.cwd), (t[5] = a.hostId), (t[6] = _))
+    : (_ = t[6]);
+  let { data: v } = Gc(ef, _),
+    y = g ?? v?.model_provider ?? null,
+    b,
+    x,
+    S;
+  t[7] !== l?.models || t[8] !== m.model || t[9] !== m.reasoningEffort
+    ? ((b = nd(l?.models, m.model)),
+      (x = Nf(m.reasoningEffort, b)),
+      (S = eM(x)),
+      (t[7] = l?.models),
+      (t[8] = m.model),
+      (t[9] = m.reasoningEffort),
+      (t[10] = b),
+      (t[11] = x),
+      (t[12] = S))
+    : ((b = t[10]), (x = t[11]), (S = t[12]));
+  let C = S,
+    w;
+  t[13] !== b || t[14] !== i || t[15] !== m.model || t[16] !== r || t[17] !== x || t[18] !== h
+    ? ((w = function (e) {
+        let { onClose: t } = e;
+        return (0, eI.jsx)(eI.Fragment, {
+          children: b.map((e) => {
+            let { reasoningEffort: n } = e,
+              a = eM(n),
+              o = i.formatMessage(Op[n]);
+            return (0, eI.jsx)(
+              oy,
+              {
+                value: o,
+                title: o,
+                LeftIcon: a,
+                RightIcon: n === x ? wo : void 0,
+                onSelect: () => {
+                  (Va(r, Ri, { reasoningEffort: n }), t(), h(m.model, n));
+                },
+              },
+              n,
+            );
+          }),
+        });
+      }),
+      (t[13] = b),
+      (t[14] = i),
+      (t[15] = m.model),
+      (t[16] = r),
+      (t[17] = x),
+      (t[18] = h),
+      (t[19] = w))
+    : (w = t[19]);
+  let T = w,
+    E;
+  t[20] === i
+    ? (E = t[21])
+    : ((E = i.formatMessage({
+        id: `composer.reasoningSlashCommand.title`,
+        defaultMessage: `Reasoning`,
+        description: `Title for the reasoning slash command`,
+      })),
+      (t[20] = i),
+      (t[21] = E));
+  let D;
+  t[22] !== i || t[23] !== x
+    ? ((D = i.formatMessage(Op[x])), (t[22] = i), (t[23] = x), (t[24] = D))
+    : (D = t[24]);
+  let O = s && f && !p && !0,
+    k;
+  t[25] !== b ||
+  t[26] !== n ||
+  t[27] !== y ||
+  t[28] !== f ||
+  t[29] !== s ||
+  t[30] !== p ||
+  t[31] !== m ||
+  t[32] !== r ||
+  t[33] !== x ||
+  t[34] !== h
+    ? ((k = [r, b, y, s, n, f, p, m, x, h, !0]),
+      (t[25] = b),
+      (t[26] = n),
+      (t[27] = y),
+      (t[28] = f),
+      (t[29] = s),
+      (t[30] = p),
+      (t[31] = m),
+      (t[32] = r),
+      (t[33] = x),
+      (t[34] = h),
+      (t[35] = k))
+    : (k = t[35]);
+  let A;
+  return (
+    t[36] !== T || t[37] !== C || t[38] !== E || t[39] !== D || t[40] !== O || t[41] !== k
+      ? ((A = {
+          id: `reasoning`,
+          title: E,
+          description: D,
+          requiresEmptyComposer: !1,
+          Icon: C,
+          Content: T,
+          enabled: O,
+          dependencies: k,
+        }),
+        (t[36] = T),
+        (t[37] = C),
+        (t[38] = E),
+        (t[39] = D),
+        (t[40] = O),
+        (t[41] = k),
+        (t[42] = A))
+      : (A = t[42]),
+    By(A),
+    null
+  );
+}
+var $F,
+  eI,
+  tI = e(() => {
+    (($F = X()),
+      fl(),
+      ji(),
+      Y(),
+      vl(),
+      mu(),
+      Se(),
+      Bd(),
+      _h(),
+      Cc(),
+      ys(),
+      gm(),
+      wt(),
+      nM(),
+      Il(),
+      Tf(),
+      Hy(),
+      iy(),
+      (eI = Z()));
+  });
+function nI(e) {
+  let t = (0, iI.c)(15),
+    { conversationId: n, hostId: r } = e,
+    i;
+  t[0] === r ? (i = t[1]) : ((i = { hostId: r }), (t[0] = r), (t[1] = i));
+  let { isServiceTierAllowed: a } = Hf(i),
+    { serviceTierSettings: o, setServiceTier: s } = qm(n),
+    c;
+  if (
+    t[2] !== a ||
+    t[3] !== o.availableOptions ||
+    t[4] !== o.isLoading ||
+    t[5] !== o.selectedServiceTier ||
+    t[6] !== s
+  ) {
+    let e;
+    (t[8] !== a || t[9] !== o.isLoading || t[10] !== o.selectedServiceTier || t[11] !== s
+      ? ((e = (e) =>
+          e.value == null
+            ? null
+            : (0, aI.jsx)(
+                rI,
+                {
+                  enabled: a && !o.isLoading,
+                  isSelected: e.value === o.selectedServiceTier,
+                  option: e,
+                  serviceTier: e.value,
+                  setServiceTier: s,
+                },
+                e.value,
+              )),
+        (t[8] = a),
+        (t[9] = o.isLoading),
+        (t[10] = o.selectedServiceTier),
+        (t[11] = s),
+        (t[12] = e))
+      : (e = t[12]),
+      (c = o.availableOptions.map(e)),
+      (t[2] = a),
+      (t[3] = o.availableOptions),
+      (t[4] = o.isLoading),
+      (t[5] = o.selectedServiceTier),
+      (t[6] = s),
+      (t[7] = c));
+  } else c = t[7];
+  let l;
+  return (
+    t[13] === c
+      ? (l = t[14])
+      : ((l = (0, aI.jsx)(aI.Fragment, { children: c })), (t[13] = c), (t[14] = l)),
+    l
+  );
+}
+function rI(e) {
+  let t = (0, iI.c)(35),
+    { enabled: n, isSelected: r, option: i, serviceTier: a, setServiceTier: o } = e,
+    s = Ns(),
+    c,
+    l,
+    u,
+    d,
+    f,
+    p;
+  if (
+    t[0] !== s ||
+    t[1] !== r ||
+    t[2] !== i.description ||
+    t[3] !== i.iconKind ||
+    t[4] !== i.label ||
+    t[5] !== a
+  ) {
+    p = ug(s, i.label);
+    let e;
+    t[12] === i.iconKind ? (e = t[13]) : ((e = Ly(i.iconKind)), (t[12] = i.iconKind), (t[13] = e));
+    let n = e,
+      o;
+    (t[14] !== n || t[15] !== r
+      ? ((o =
+          n == null
+            ? void 0
+            : (e) => {
+                let { className: t } = e;
+                return (0, aI.jsx)(n, {
+                  className: qc(t, r ? `text-token-link-foreground` : void 0),
+                });
+              }),
+        (t[14] = n),
+        (t[15] = r),
+        (t[16] = o))
+      : (o = t[16]),
+      (c = o),
+      (f = By),
+      (l = `service-tier:${a}`),
+      (u = p),
+      (d = r ? s.formatMessage(oI.disableDescription, { serviceTier: p }) : ug(s, i.description)),
+      (t[0] = s),
+      (t[1] = r),
+      (t[2] = i.description),
+      (t[3] = i.iconKind),
+      (t[4] = i.label),
+      (t[5] = a),
+      (t[6] = c),
+      (t[7] = l),
+      (t[8] = u),
+      (t[9] = d),
+      (t[10] = f),
+      (t[11] = p));
+  } else ((c = t[6]), (l = t[7]), (u = t[8]), (d = t[9]), (f = t[10]), (p = t[11]));
+  let m;
+  t[17] !== r || t[18] !== a || t[19] !== o
+    ? ((m = async () => {
+        await o(r ? null : a, `slash_command`);
+      }),
+      (t[17] = r),
+      (t[18] = a),
+      (t[19] = o),
+      (t[20] = m))
+    : (m = t[20]);
+  let h;
+  t[21] !== n || t[22] !== r || t[23] !== a || t[24] !== o || t[25] !== p
+    ? ((h = [n, r, a, o, p]),
+      (t[21] = n),
+      (t[22] = r),
+      (t[23] = a),
+      (t[24] = o),
+      (t[25] = p),
+      (t[26] = h))
+    : (h = t[26]);
+  let g;
+  return (
+    t[27] !== c ||
+    t[28] !== n ||
+    t[29] !== l ||
+    t[30] !== u ||
+    t[31] !== d ||
+    t[32] !== m ||
+    t[33] !== h
+      ? ((g = {
+          id: l,
+          title: u,
+          description: d,
+          requiresEmptyComposer: !1,
+          enabled: n,
+          Icon: c,
+          onSelect: m,
+          dependencies: h,
+        }),
+        (t[27] = c),
+        (t[28] = n),
+        (t[29] = l),
+        (t[30] = u),
+        (t[31] = d),
+        (t[32] = m),
+        (t[33] = h),
+        (t[34] = g))
+      : (g = t[34]),
+    f(g),
+    null
+  );
+}
+var iI,
+  aI,
+  oI,
+  sI = e(() => {
+    ((iI = X()),
+      Xn(),
+      Y(),
+      Xl(),
+      Ny(),
+      Df(),
+      Fp(),
+      Hy(),
+      (aI = Z()),
+      (oI = _r({
+        disableDescription: {
+          id: `composer.speedSlashCommand.disableDescription`,
+          defaultMessage: `Turn off {serviceTier} and return to standard speed`,
+          description: `Description for a service tier slash command when that tier is on`,
+        },
+      })));
+  });
+function cI({ entry: e, keyPrefix: t }) {
+  let n = [
+    { bucket: e.snapshot.primary, role: `primary` },
+    { bucket: e.snapshot.secondary, role: `secondary` },
+  ]
+    .filter((e) => Fd(e.bucket))
+    .sort((e, t) => (e.bucket.windowDurationMins ?? 0) - (t.bucket.windowDurationMins ?? 0));
+  if (n.length === 0) return [];
+  let r = new Map();
+  return n.map(({ bucket: n, role: i }, a) => {
+    let o = lI(n, i, a),
+      s = r.get(o) ?? 0;
+    return (
+      r.set(o, s + 1),
+      { key: `${t}-${s === 0 ? o : `${o}-${i}`}`, bucket: n, limitName: e.limitName }
+    );
+  });
+}
+function lI(e, t, n) {
+  let r = e.windowDurationMins ?? 0;
+  return Math.abs(r - uI) <= 1
+    ? `five-hour`
+    : Math.abs(r - dI) <= 1
+      ? `weekly`
+      : Math.abs(r - fI) <= 1
+        ? `monthly`
+        : `${t}-${n}-${r}`;
+}
+var uI,
+  dI,
+  fI,
+  pI = e(() => {
+    (Pl(), (uI = 300), (dI = cf), (fI = 30 * pf));
+  });
+function mI(e, t, n) {
+  let r = n?.withColon !== !1,
+    i = gI(e ?? 0, xI),
+    a = gI(e ?? 0, bI),
+    o;
+  if (!e || e <= 0)
+    o = t.formatMessage({
+      id: `composer.statusPlain.rateLimitLabelBase`,
+      defaultMessage: `Rate limit`,
+      description: `Fallback label used when no time window is provided`,
+    });
+  else if (hI(e, vI))
+    o = t.formatMessage(
+      {
+        id: `composer.statusPlain.rateLimitHours`,
+        defaultMessage: `{count}h limit`,
+        description: `Label describing an hour-based rate limit window`,
+      },
+      { count: t.formatNumber(5) },
+    );
+  else if (i != null)
+    o = t.formatMessage(
+      {
+        id: `composer.statusPlain.rateLimitYears`,
+        defaultMessage: `{count}y limit`,
+        description: `Label describing a year-based rate limit window`,
+      },
+      { count: t.formatNumber(i) },
+    );
+  else if (a != null)
+    o = t.formatMessage(
+      {
+        id: `composer.statusPlain.rateLimitMonths`,
+        defaultMessage: `{count}mo limit`,
+        description: `Label describing a monthly rate limit window`,
+      },
+      { count: t.formatNumber(a) },
+    );
+  else if (e % yI === 0) {
+    let n = e / yI;
+    o = t.formatMessage(
+      {
+        id: `composer.statusPlain.rateLimitDays`,
+        defaultMessage: `{count}d limit`,
+        description: `Label describing a day-based rate limit window`,
+      },
+      { count: t.formatNumber(n) },
+    );
+  } else if (e % _I === 0) {
+    let n = e / _I;
+    o = t.formatMessage(
+      {
+        id: `composer.statusPlain.rateLimitHours`,
+        defaultMessage: `{count}h limit`,
+        description: `Label describing an hour-based rate limit window`,
+      },
+      { count: t.formatNumber(n) },
+    );
+  } else
+    o = t.formatMessage(
+      {
+        id: `composer.statusPlain.rateLimitMinutes`,
+        defaultMessage: `{count}m limit`,
+        description: `Label describing a minute-based rate limit window`,
+      },
+      { count: t.formatNumber(e) },
+    );
+  return r ? `${o}:` : o;
+}
+function hI(e, t) {
+  return e >= t * 0.95 && e <= t * 1.05;
+}
+function gI(e, t) {
+  if (!Number.isFinite(e) || e <= 0) return null;
+  let n = Math.max(1, Math.round(e / t));
+  return hI(e, n * t) ? n : null;
+}
+var _I,
+  vI,
+  yI,
+  bI,
+  xI,
+  SI = e(() => {
+    ((_I = 60), (vI = 5 * _I), (yI = 24 * _I), (bI = 30 * yI), (xI = 365 * yI));
+  });
+function CI(e) {
+  let t = (0, jI.c)(22),
+    { threadId: n, contextUsage: r, rateLimitRows: i, alertData: a, onClose: o } = e,
+    s = Ns(),
+    c = r.percent != null,
+    l = r.percent == null ? null : Math.max(0, Math.round(100 - r.percent)),
+    u = [],
+    d = (e, t, n) => {
+      u.push({ key: `${u.length}-line`, label: e, value: t, rateLimitValue: n });
+    },
+    f = () => {
+      u.push({ key: `${u.length}-spacer`, label: ``, value: null, spacer: !0 });
+    },
+    p = s.formatMessage({
+      id: `composer.statusPlain.sessionLabel`,
+      defaultMessage: `Session:`,
+      description: `Label preceding the session identifier in the status menu`,
+    }),
+    [m, h] = (0, MI.useState)(!1),
+    g = (0, MI.useRef)(null),
+    _,
+    v;
+  if (
+    (t[0] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((_ = () => () => {
+          g.current != null && window.clearTimeout(g.current);
+        }),
+        (v = []),
+        (t[0] = _),
+        (t[1] = v))
+      : ((_ = t[0]), (v = t[1])),
+    (0, MI.useEffect)(_, v),
+    n &&
+      d(
+        p,
+        (0, NI.jsx)(Cn, {
+          tooltipContent: m
+            ? (0, NI.jsx)(J, {
+                id: `composer.statusPlain.sessionCopiedTooltip`,
+                defaultMessage: `Copied ID`,
+                description: `Tooltip shown after the session id has been copied`,
+              })
+            : (0, NI.jsx)(J, {
+                id: `composer.statusPlain.sessionCopyTooltip`,
+                defaultMessage: `Copy ID`,
+                description: `Tooltip instructing the user to copy the session id`,
+              }),
+          children: (0, NI.jsx)(`button`, {
+            type: `button`,
+            onClick: () => {
+              n &&
+                Jg(n).then(() => {
+                  (h(!0),
+                    g.current != null && window.clearTimeout(g.current),
+                    (g.current = window.setTimeout(() => {
+                      h(!1);
+                    }, 2e3)));
+                });
+            },
+            "aria-label": m
+              ? s.formatMessage({
+                  id: `composer.statusPlain.sessionCopiedAriaLabel`,
+                  defaultMessage: `Copied session id`,
+                  description: `Aria label for the session id button after copying`,
+                })
+              : s.formatMessage({
+                  id: `composer.statusPlain.sessionCopyAriaLabel`,
+                  defaultMessage: `Copy session id`,
+                  description: `Aria label for the button that copies the session id`,
+                }),
+            className: `max-w-full cursor-copy truncate bg-transparent text-left text-token-foreground transition-colors hover:text-token-description-foreground focus:outline-none`,
+            children: n,
+          }),
+        }),
+      ),
+    c && l != null)
+  ) {
+    let e = s.formatMessage({
+        id: `composer.statusPlain.contextLabel`,
+        defaultMessage: `Context:`,
+        description: `Label describing the context window usage row in the status menu`,
+      }),
+      t = s.formatNumber(r.usedTokens ?? 0),
+      n = Math.round((r.contextWindow ?? 0) / 1e3),
+      i =
+        n > 0
+          ? s.formatMessage(
+              {
+                id: `composer.statusPlain.contextTotal`,
+                defaultMessage: `{count}K`,
+                description: `Abbreviated token count showing thousands for context window`,
+              },
+              { count: s.formatNumber(n) },
+            )
+          : s.formatNumber(r.contextWindow ?? 0);
+    d(
+      e,
+      (0, NI.jsx)(`span`, {
+        className: `block max-w-full truncate`,
+        children: kI(
+          `${s.formatMessage({ id: `composer.statusPlain.contextValueRemaining`, defaultMessage: `{remaining}% left`, description: `Summarizes how much context window remains as a percent (without metadata)` }, { remaining: s.formatNumber(l, { maximumFractionDigits: 0 }) })} ${s.formatMessage({ id: `composer.statusPlain.contextValueMetadata`, defaultMessage: `({used} used / {total})`, description: `Describes context window usage metadata showing used versus total tokens` }, { used: t, total: i })}`,
+        ),
+      }),
+    );
+  }
+  let y = s.formatMessage({
+      id: `composer.statusPlain.rateLimitFallbackLabel`,
+      defaultMessage: `Rate limit:`,
+      description: `Generic label when a specific rate limit window is unknown`,
+    }),
+    b = s.formatMessage({
+      id: `composer.statusPlain.rateLimitUnavailable`,
+      defaultMessage: `Unavailable`,
+      description: `Shown when rate limit data cannot be fetched`,
+    }),
+    x = i.filter(TI);
+  if (x.length > 0) {
+    let e = new Set();
+    for (let t of x) {
+      let n = Sf(t.bucket.usedPercent ?? 0),
+        r = mI(t.bucket.windowDurationMins ?? null, s);
+      if (t.limitName != null) {
+        let n = OI(t.limitName, s);
+        e.has(n) ||
+          (e.add(n),
+          u.push({ key: `${u.length}-model-section`, label: n, value: null, section: !0 }));
+      }
+      let i = s.formatMessage(
+          {
+            id: `composer.statusPlain.rateLimitPercent`,
+            defaultMessage: `{remaining}% left`,
+            description: `Describes how much of a rate limit window remains as a percentage`,
+          },
+          { remaining: s.formatNumber(n, { maximumFractionDigits: 0 }) },
+        ),
+        a = kp(t.bucket.resetsAt ?? null),
+        o = a == null ? null : Ku(a),
+        c = o
+          ? s.formatMessage(
+              {
+                id: `composer.statusPlain.rateLimitReset`,
+                defaultMessage: `resets {time}`,
+                description: `Phrase describing when the rate limit resets`,
+              },
+              { time: o },
+            )
+          : s.formatMessage({
+              id: `composer.statusPlain.rateLimitResetUnknown`,
+              defaultMessage: `reset time unavailable`,
+              description: `Fallback shown when the next rate limit reset time is unknown`,
+            }),
+        l = s.formatMessage(
+          {
+            id: `composer.statusPlain.rateLimitResetMetadata`,
+            defaultMessage: `({phrase})`,
+            description: `Parenthetical text appended after the rate limit percentage to describe the reset timing`,
+          },
+          { phrase: c },
+        );
+      d(
+        r,
+        (0, NI.jsxs)(`div`, {
+          className: `flex min-w-0 flex-wrap gap-x-1`,
+          children: [
+            (0, NI.jsx)(`span`, { className: `whitespace-nowrap`, children: i }),
+            (0, NI.jsx)(`span`, {
+              className: `max-w-full min-w-0 wrap-anywhere text-token-description-foreground`,
+              "data-chromatic": `ignore`,
+              children: l,
+            }),
+          ],
+        }),
+        { percent: n, percentageText: i, resetMetadata: l },
+      );
+    }
+  } else d(y, b);
+  a &&
+    x.length === 0 &&
+    (f(),
+    d(
+      s.formatMessage({
+        id: `composer.statusPlain.alertLabel`,
+        defaultMessage: `Alert:`,
+        description: `Label preceding a rate limit alert row`,
+      }),
+      s.formatMessage(
+        {
+          id: `composer.statusPlain.alertValue`,
+          defaultMessage: `{remaining}% left on {window}`,
+          description: `Shows how much remains on a particular rate limit window when an alert triggers`,
+        },
+        {
+          remaining: s.formatNumber(a.remainingPercent, { maximumFractionDigits: 0 }),
+          window: mI(a.windowMinutes ?? null, s, { withColon: !1 }),
+        },
+      ),
+    ));
+  let S;
+  t[2] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((S = qc(`font-semibold`, FI)), (t[2] = S))
+    : (S = t[2]);
+  let C;
+  t[3] === s
+    ? (C = t[4])
+    : ((C = s.formatMessage({
+        id: `composer.statusPlain.heading`,
+        defaultMessage: `Status`,
+        description: `Heading label for the status menu`,
+      })),
+      (t[3] = s),
+      (t[4] = C));
+  let w;
+  t[5] === C
+    ? (w = t[6])
+    : ((w = (0, NI.jsx)(`div`, {
+        className: `flex items-center gap-1`,
+        children: (0, NI.jsx)(`span`, { className: S, children: C }),
+      })),
+      (t[5] = C),
+      (t[6] = w));
+  let T;
+  t[7] === s
+    ? (T = t[8])
+    : ((T = s.formatMessage({
+        id: `composer.status.close`,
+        defaultMessage: `Close`,
+        description: `Button label to close the status slash command dialog`,
+      })),
+      (t[7] = s),
+      (t[8] = T));
+  let E;
+  t[9] !== o || t[10] !== T
+    ? ((E = (0, NI.jsx)(ya, { size: `composerSm`, color: `ghost`, onClick: o, children: T })),
+      (t[9] = o),
+      (t[10] = T),
+      (t[11] = E))
+    : (E = t[11]);
+  let D;
+  t[12] !== w || t[13] !== E
+    ? ((D = (0, NI.jsxs)(`div`, {
+        className: `flex items-start justify-between`,
+        children: [w, E],
+      })),
+      (t[12] = w),
+      (t[13] = E),
+      (t[14] = D))
+    : (D = t[14]);
+  let O;
+  t[15] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((O = qc(
+        `grid items-start gap-x-4 gap-y-1`,
+        `grid-cols-[max-content_minmax(0,1fr)]`,
+        `[@container_(min-width:400px)]:grid-cols-[max-content_minmax(72px,1fr)_minmax(0,max-content)]`,
+      )),
+      (t[15] = O))
+    : (O = t[15]);
+  let k = u.map(wI),
+    A;
+  t[16] !== O || t[17] !== k
+    ? ((A = (0, NI.jsx)(`div`, {
+        className: `@container font-mono text-xs leading-relaxed`,
+        children: (0, NI.jsx)(`div`, { className: O, children: k }),
+      })),
+      (t[16] = O),
+      (t[17] = k),
+      (t[18] = A))
+    : (A = t[18]);
+  let j;
+  return (
+    t[19] !== D || t[20] !== A
+      ? ((j = (0, NI.jsx)(`div`, {
+          className: `px-5`,
+          children: (0, NI.jsxs)(`div`, {
+            className: `flex w-full flex-col gap-3 rounded-t-xl border-x border-t border-token-border bg-token-input-background px-3 py-2 text-sm [text-wrap:pretty] text-token-foreground lg:mx-auto`,
+            children: [D, A],
+          }),
+        })),
+        (t[19] = D),
+        (t[20] = A),
+        (t[21] = j))
+      : (j = t[21]),
+    j
+  );
+}
+function wI(e) {
+  return e.spacer
+    ? (0, NI.jsx)(
+        `div`,
+        {
+          className: `col-span-2 h-3 [@container_(min-width:400px)]:col-span-3`,
+          "aria-hidden": `true`,
+        },
+        `${e.key}-spacer`,
+      )
+    : e.section
+      ? (0, NI.jsx)(
+          `div`,
+          {
+            className: `col-span-2 truncate font-medium whitespace-nowrap text-token-foreground [@container_(min-width:400px)]:col-span-3`,
+            children: e.label,
+          },
+          `${e.key}-section`,
+        )
+      : (0, NI.jsxs)(
+          `span`,
+          {
+            className: `contents`,
+            children: [
+              (0, NI.jsx)(`div`, {
+                className: qc(`text-token-description-foreground text-left`, PI),
+                children: e.label,
+              }),
+              (0, NI.jsx)(`div`, {
+                className: qc(
+                  `min-w-0 text-left text-token-foreground`,
+                  e.rateLimitValue == null ? `[@container_(min-width:400px)]:col-span-2` : II,
+                ),
+                children: AI(e.value),
+              }),
+              e.rateLimitValue == null
+                ? null
+                : (0, NI.jsxs)(NI.Fragment, {
+                    children: [
+                      (0, NI.jsx)(`div`, {
+                        className: LI,
+                        children: (0, NI.jsx)(EI, { percent: e.rateLimitValue.percent }),
+                      }),
+                      (0, NI.jsxs)(`div`, {
+                        className: qc(
+                          RI,
+                          `min-w-0 flex-wrap items-center gap-x-1 text-token-foreground`,
+                        ),
+                        children: [
+                          (0, NI.jsx)(`span`, {
+                            className: `whitespace-nowrap`,
+                            children: e.rateLimitValue.percentageText,
+                          }),
+                          (0, NI.jsx)(`span`, {
+                            className: `max-w-full min-w-0 wrap-anywhere text-token-description-foreground`,
+                            "data-chromatic": `ignore`,
+                            children: e.rateLimitValue.resetMetadata,
+                          }),
+                        ],
+                      }),
+                    ],
+                  }),
+            ],
+          },
+          `${e.key}-row`,
+        );
+}
+function TI(e) {
+  return Fd(e.bucket);
+}
+function EI(e) {
+  let t = (0, jI.c)(9),
+    { percent: n } = e,
+    [r, i] = (0, MI.useState)(HI),
+    a;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((a = (e) => {
+        let t = e.contentRect.width;
+        if (!Number.isFinite(t) || t <= 0) {
+          i(HI);
+          return;
+        }
+        let n = Math.max(zI, Math.min(BI, Math.floor(t / VI)));
+        i((e) => (e === n ? e : n));
+      }),
+      (t[0] = a))
+    : (a = t[0]);
+  let o = bp(a),
+    s;
+  t[1] !== n || t[2] !== r ? ((s = DI(n, r)), (t[1] = n), (t[2] = r), (t[3] = s)) : (s = t[3]);
+  let c;
+  t[4] === s
+    ? (c = t[5])
+    : ((c = (0, NI.jsx)(`span`, {
+        className: `w-full overflow-hidden whitespace-nowrap`,
+        children: s,
+      })),
+      (t[4] = s),
+      (t[5] = c));
+  let l;
+  return (
+    t[6] !== o || t[7] !== c
+      ? ((l = (0, NI.jsx)(`div`, { ref: o, className: `min-w-0 font-semibold`, children: c })),
+        (t[6] = o),
+        (t[7] = c),
+        (t[8] = l))
+      : (l = t[8]),
+    l
+  );
+}
+function DI(e, t) {
+  let n = Math.max(0, Math.min(e, 100)),
+    r = Math.round((n / 100) * t),
+    i = Math.max(t - r, 0);
+  return `${`█`.repeat(r)}${`░`.repeat(i)}`;
+}
+function OI(e, t) {
+  let n = e.replace(/_/g, `-`);
+  return t.formatMessage(
+    {
+      id: `composer.statusPlain.modelRateLimitSectionLabel`,
+      defaultMessage: `{modelName} limit:`,
+      description: `Section label for model-specific rate limit rows in the status menu`,
+    },
+    { modelName: n },
+  );
+}
+function kI(e) {
+  if (!e) return null;
+  let t = e.match(/^(.*?)(\s*\(.+\))$/);
+  if (!t) return e;
+  let n = t[1].trimEnd(),
+    r = t[2].trim();
+  return (0, NI.jsxs)(NI.Fragment, {
+    children: [
+      n,
+      n && r ? ` ` : null,
+      (0, NI.jsx)(`span`, {
+        className: `text-token-description-foreground`,
+        "data-chromatic": `ignore`,
+        children: r,
+      }),
+    ],
+  });
+}
+function AI(e) {
+  return e == null ? kI(null) : typeof e == `string` ? kI(e) : e;
+}
+var jI,
+  MI,
+  NI,
+  PI,
+  FI,
+  II,
+  LI,
+  RI,
+  zI,
+  BI,
+  VI,
+  HI,
+  UI = e(() => {
+    ((jI = X()),
+      Xn(),
+      (MI = t(El(), 1)),
+      Y(),
+      _s(),
+      aa(),
+      Pl(),
+      bm(),
+      Yg(),
+      SI(),
+      (NI = Z()),
+      (PI = `max-[260px]:hidden`),
+      (FI = `max-[220px]:hidden`),
+      (II = `[@container_(min-width:400px)]:hidden`),
+      (LI = `hidden [@container_(min-width:400px)]:block`),
+      (RI = `hidden [@container_(min-width:400px)]:flex`),
+      (zI = 12),
+      (BI = 48),
+      (VI = 6),
+      (HI = 24));
+  });
+function WI(e) {
+  let t = (0, KI.c)(26),
+    { conversationId: n, threadId: r, rateLimit: i, onOpenChange: a } = e,
+    o = Ns(),
+    [s, c] = (0, qI.useState)(!1),
+    { activeMode: l } = gf(n),
+    u = l?.settings.model ?? null,
+    d = Gc(j, n),
+    f;
+  t[0] === d ? (f = t[1]) : ((f = Pj(d)), (t[0] = d), (t[1] = f));
+  let p = f,
+    m,
+    h;
+  if (t[2] !== i || t[3] !== u) {
+    let e = xg(i),
+      n = gg(i),
+      r = Sg(e, { activeLimitName: n, selectedModel: u });
+    ((m = r.flatMap(GI)),
+      (h = pg(r, { activeLimitName: n, selectedModel: u })),
+      (t[2] = i),
+      (t[3] = u),
+      (t[4] = m),
+      (t[5] = h));
+  } else ((m = t[4]), (h = t[5]));
+  let g = h,
+    _;
+  t[6] === o
+    ? (_ = t[7])
+    : ((_ = o.formatMessage({
+        id: `composer.statusSlashCommand.title`,
+        defaultMessage: `Status`,
+        description: `Title for the status slash command`,
+      })),
+      (t[6] = o),
+      (t[7] = _));
+  let v;
+  t[8] === o
+    ? (v = t[9])
+    : ((v = o.formatMessage({
+        id: `composer.statusSlashCommand.description`,
+        defaultMessage: `Show chat id, context usage, and rate limits`,
+        description: `Description for the status slash command`,
+      })),
+      (t[8] = o),
+      (t[9] = v));
+  let y, b;
+  t[10] === a
+    ? ((y = t[11]), (b = t[12]))
+    : ((y = async () => {
+        (c(!0), a?.(!0));
+      }),
+      (b = [a]),
+      (t[10] = a),
+      (t[11] = y),
+      (t[12] = b));
+  let x;
+  if (
+    (t[13] !== _ || t[14] !== v || t[15] !== y || t[16] !== b
+      ? ((x = {
+          id: `status`,
+          title: _,
+          description: v,
+          requiresEmptyComposer: !1,
+          Icon: kg,
+          onSelect: y,
+          dependencies: b,
+        }),
+        (t[13] = _),
+        (t[14] = v),
+        (t[15] = y),
+        (t[16] = b),
+        (t[17] = x))
+      : (x = t[17]),
+    By(x),
+    !s)
+  )
+    return null;
+  let S;
+  t[18] === a
+    ? (S = t[19])
+    : ((S = () => {
+        (c(!1), a?.(!1));
+      }),
+      (t[18] = a),
+      (t[19] = S));
+  let C;
+  return (
+    t[20] !== g || t[21] !== p || t[22] !== m || t[23] !== S || t[24] !== r
+      ? ((C = (0, JI.jsx)(CI, {
+          threadId: r,
+          contextUsage: p,
+          rateLimitRows: m,
+          alertData: g,
+          onClose: S,
+        })),
+        (t[20] = g),
+        (t[21] = p),
+        (t[22] = m),
+        (t[23] = S),
+        (t[24] = r),
+        (t[25] = C))
+      : (C = t[25]),
+    C
+  );
+}
+function GI(e) {
+  return cI({ entry: e, keyPrefix: e.limitName ?? `core` });
+}
+var KI,
+  qI,
+  JI,
+  YI = e(() => {
+    ((KI = X()),
+      ji(),
+      (qI = t(El(), 1)),
+      Y(),
+      vl(),
+      Mg(),
+      pI(),
+      _g(),
+      Fj(),
+      Zl(),
+      Hy(),
+      UI(),
+      (JI = Z()));
+  });
+function XI(e) {
+  let t = (0, QI.c)(141),
+    {
+      agentMode: n,
+      composerMode: r,
+      currentLocalExecutionCwd: i,
+      currentLocalExecutionHostId: a,
+      effectiveIdeContextStatus: o,
+      effectiveIsAutoContextOn: s,
+      isEasterEggEnabled: c,
+      isAeonActionAvailable: l,
+      isAeonActive: d,
+      isAeonThread: f,
+      onEnablePlanMode: p,
+      onOpenGoalEditor: m,
+      onSubmitInitPrompt: h,
+      resolvedCwd: g,
+      setIsStatusMenuOpen: _,
+      skillLookupRoots: v,
+    } = e,
+    y = qn(di),
+    b = yh(),
+    x = Hc(),
+    S = Mm(b, ZI),
+    C;
+  t[0] === c ? (C = t[1]) : ((C = (e) => c && $s(e.getText())), (t[0] = c), (t[1] = C));
+  let w = Mm(b, C),
+    T = de(Ke);
+  de(wa);
+  let E = de(er) != null,
+    D;
+  t[2] !== r || t[3] !== y.value
+    ? ((D = LA(y.value, r)), (t[2] = r), (t[3] = y.value), (t[4] = D))
+    : (D = t[4]);
+  let O = D,
+    k;
+  t[5] === y ? (k = t[6]) : ((k = ol(y)), (t[5] = y), (t[6] = k));
+  let A = k,
+    j = La(),
+    { data: M } = de(Zr),
+    N = Nt(a),
+    P = jm(A),
+    F;
+  t[7] === P.hostId ? (F = t[8]) : ((F = { hostId: P.hostId }), (t[7] = P.hostId), (t[8] = F));
+  let { isPersonalityEnabled: ee } = Yy(F),
+    I = Gc(u, A),
+    L = Gc(se, A) ?? !1,
+    R = Gc(Un, A) === `projectless`,
+    z = el(),
+    B;
+  t[9] === Symbol.for(`react.memo_cache_sentinel`) ? ((B = Su()), (t[9] = B)) : (B = t[9]);
+  let V = B,
+    H = j.pathname === `/hotkey-window`,
+    te = ka(ry),
+    ne;
+  t[10] === T ? (ne = t[11]) : ((ne = FA(T)), (t[10] = T), (t[11] = ne));
+  let re = ne,
+    U = re == null ? null : `${re}`,
+    ie = S,
+    ae;
+  t[12] !== z || t[13] !== T?.type || t[14] !== g
+    ? ((ae = T?.type === `local` && ti(g, z ?? void 0)),
+      (t[12] = z),
+      (t[13] = T?.type),
+      (t[14] = g),
+      (t[15] = ae))
+    : (ae = t[15]);
+  let oe = ae,
+    W = T?.type === `local` && g.length > 0,
+    G;
+  t[16] !== r || t[17] !== E || t[18] !== L || t[19] !== g
+    ? ((G = qP({
+        composerMode: r,
+        isGoalModeActive: E,
+        isResponseInProgress: L,
+        resolvedCwd: g,
+        windowType: `electron`,
+      })),
+      (t[16] = r),
+      (t[17] = E),
+      (t[18] = L),
+      (t[19] = g),
+      (t[20] = G))
+    : (G = t[20]);
+  let K = G,
+    q;
+  t[21] !== T || t[22] !== x || t[23] !== g || t[24] !== y
+    ? ((q = async () => {
+        let e = await lv(y, {
+          sourceConversationId: T?.type === `local` ? T.localConversationId : null,
+          sourceWorkspaceRoot: T?.type === `local` ? g : null,
+        });
+        e != null && x(`/local/${e}`);
+      }),
+      (t[21] = T),
+      (t[22] = x),
+      (t[23] = g),
+      (t[24] = y),
+      (t[25] = q))
+    : (q = t[25]);
+  let ce = q,
+    le;
+  t[26] === ce
+    ? (le = t[27])
+    : ((le = () => {
+        ce();
+      }),
+      (t[26] = ce),
+      (t[27] = le));
+  let ue;
+  t[28] === T?.type
+    ? (ue = t[29])
+    : ((ue = T?.type === `local` && !tu()), (t[28] = T?.type), (t[29] = ue));
+  let fe;
+  (t[30] === ue ? (fe = t[31]) : ((fe = { enabled: ue }), (t[30] = ue), (t[31] = fe)),
+    _x(`forkThread`, le, fe));
+  let pe;
+  t[32] !== T || t[33] !== te || t[34] !== x || t[35] !== g || t[36] !== y
+    ? ((pe = async () => {
+        let e = await mv(y, {
+          localEnvironmentSelectionsByWorkspace: te,
+          sourceConversationId: T?.type === `local` ? T.localConversationId : null,
+          sourceWorkspaceRoot: T?.type === `local` ? g : null,
+        });
+        e != null && x(`/worktree-init-v2/${e}`);
+      }),
+      (t[32] = T),
+      (t[33] = te),
+      (t[34] = x),
+      (t[35] = g),
+      (t[36] = y),
+      (t[37] = pe))
+    : (pe = t[37]);
+  let me = pe,
+    he = V && !H,
+    ge;
+  t[38] === he
+    ? (ge = t[39])
+    : ((ge = (0, $I.jsx)(MN, { enabled: he })), (t[38] = he), (t[39] = ge));
+  let _e;
+  t[40] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((_e = (0, $I.jsx)(zN, { enabled: V })), (t[40] = _e))
+    : (_e = t[40]);
+  let ve;
+  t[41] !== r || t[42] !== g
+    ? ((ve = (0, $I.jsx)(CP, { composerMode: r, resolvedCwd: g })),
+      (t[41] = r),
+      (t[42] = g),
+      (t[43] = ve))
+    : (ve = t[43]);
+  let ye;
+  t[44] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((ye = (0, $I.jsx)(Sn, { electron: !0, children: (0, $I.jsx)(yP, {}) })), (t[44] = ye))
+    : (ye = t[44]);
+  let be;
+  t[45] === g
+    ? (be = t[46])
+    : ((be = (0, $I.jsx)(JF, { resolvedCwd: g })), (t[45] = g), (t[46] = be));
+  let xe;
+  t[47] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((xe = (0, $I.jsx)(lF, {})), (t[47] = xe))
+    : (xe = t[47]);
+  let Se;
+  t[48] !== A || t[49] !== T?.type || t[50] !== I
+    ? ((Se =
+        T?.type === `cloud`
+          ? null
+          : (0, $I.jsx)(yF, { conversationId: A, hostId: I }, A ?? `new-conversation`)),
+      (t[48] = A),
+      (t[49] = T?.type),
+      (t[50] = I),
+      (t[51] = Se))
+    : (Se = t[51]);
+  let Ce;
+  t[52] !== A || t[53] !== p
+    ? ((Ce = (0, $I.jsx)(IF, { conversationId: A, onEnablePlanMode: p })),
+      (t[52] = A),
+      (t[53] = p),
+      (t[54] = Ce))
+    : (Ce = t[54]);
+  let we;
+  t[55] !== A || t[56] !== c || t[57] !== w || t[58] !== O || t[59] !== m
+    ? ((we = (0, $I.jsx)(PP, {
+        conversationId: A,
+        enabled: O,
+        isEasterEggEnabled: c,
+        isExtendedGoalCommand: w,
+        onOpenGoalEditor: m,
+      })),
+      (t[55] = A),
+      (t[56] = c),
+      (t[57] = w),
+      (t[58] = O),
+      (t[59] = m),
+      (t[60] = we))
+    : (we = t[60]);
+  let Te;
+  t[61] === Symbol.for(`react.memo_cache_sentinel`) ? ((Te = null), (t[61] = Te)) : (Te = t[61]);
+  let Ee;
+  t[62] !== r || t[63] !== A
+    ? ((Ee = r === `cloud` ? null : (0, $I.jsx)(TF, { conversationId: A })),
+      (t[62] = r),
+      (t[63] = A),
+      (t[64] = Ee))
+    : (Ee = t[64]);
+  let De;
+  t[65] !== r || t[66] !== A
+    ? ((De = r === `cloud` ? null : (0, $I.jsx)(QF, { conversationId: A })),
+      (t[65] = r),
+      (t[66] = A),
+      (t[67] = De))
+    : (De = t[67]);
+  let Oe;
+  t[68] !== r || t[69] !== A || t[70] !== L
+    ? ((Oe =
+        r === `cloud` ? null : (0, $I.jsx)(EP, { conversationId: A, isResponseInProgress: L })),
+      (t[68] = r),
+      (t[69] = A),
+      (t[70] = L),
+      (t[71] = Oe))
+    : (Oe = t[71]);
+  let ke;
+  t[72] !== K || t[73] !== r || t[74] !== h || t[75] !== g || t[76] !== P.hostId
+    ? ((ke =
+        r === `cloud`
+          ? null
+          : (0, $I.jsx)(WP, { cwd: g, enabled: K, hostId: P.hostId, onSubmitInitPrompt: h })),
+      (t[72] = K),
+      (t[73] = r),
+      (t[74] = h),
+      (t[75] = g),
+      (t[76] = P.hostId),
+      (t[77] = ke))
+    : (ke = t[77]);
+  let Ae;
+  t[78] !== n || t[79] !== r || t[80] !== A
+    ? ((Ae =
+        r === `cloud`
+          ? null
+          : (0, $I.jsx)(lP, { conversationId: A, enabled: n === `guardian-approvals` })),
+      (t[78] = n),
+      (t[79] = r),
+      (t[80] = A),
+      (t[81] = Ae))
+    : (Ae = t[81]);
+  let je;
+  t[82] === y
+    ? (je = t[83])
+    : ((je = (e) => {
+        rt(y, e);
+      }),
+      (t[82] = y),
+      (t[83] = je));
+  let Me;
+  t[84] !== o || t[85] !== s || t[86] !== je
+    ? ((Me = (0, $I.jsx)(zP, { isAutoContextOn: s, setIsAutoContextOn: je, ideContextStatus: o })),
+      (t[84] = o),
+      (t[85] = s),
+      (t[86] = je),
+      (t[87] = Me))
+    : (Me = t[87]);
+  let Ne;
+  t[88] !== W || t[89] !== T?.type || t[90] !== ce || t[91] !== me || t[92] !== oe || t[93] !== R
+    ? ((Ne =
+        T?.type === `local` && !tu()
+          ? (0, $I.jsx)(AP, {
+              canForkToWorktree: W,
+              showWorktreeOption: !R,
+              isWorktreeThread: oe,
+              onForkIntoLocal: ce,
+              onForkIntoWorktree: me,
+            })
+          : null),
+      (t[88] = W),
+      (t[89] = T?.type),
+      (t[90] = ce),
+      (t[91] = me),
+      (t[92] = oe),
+      (t[93] = R),
+      (t[94] = Ne))
+    : (Ne = t[94]);
+  let Pe;
+  t[95] !== A || t[96] !== ee || t[97] !== P.hostId
+    ? ((Pe = ee ? (0, $I.jsx)(MF, { conversationId: A, hostId: P.hostId }) : null),
+      (t[95] = A),
+      (t[96] = ee),
+      (t[97] = P.hostId),
+      (t[98] = Pe))
+    : (Pe = t[98]);
+  let Fe;
+  t[99] !== A || t[100] !== P.hostId
+    ? ((Fe = (0, $I.jsx)(nI, { conversationId: A, hostId: P.hostId })),
+      (t[99] = A),
+      (t[100] = P.hostId),
+      (t[101] = Fe))
+    : (Fe = t[101]);
+  let Ie;
+  t[102] !== r || t[103] !== A || t[104] !== M || t[105] !== _ || t[106] !== U
+    ? ((Ie =
+        r === `cloud`
+          ? null
+          : (0, $I.jsx)(WI, {
+              conversationId: A,
+              threadId: U,
+              rateLimit: M ?? null,
+              onOpenChange: _,
+            })),
+      (t[102] = r),
+      (t[103] = A),
+      (t[104] = M),
+      (t[105] = _),
+      (t[106] = U),
+      (t[107] = Ie))
+    : (Ie = t[107]);
+  let J;
+  t[108] === i ? (J = t[109]) : ((J = Co(i)), (t[108] = i), (t[109] = J));
+  let Le;
+  t[110] !== A || t[111] !== N || t[112] !== J
+    ? ((Le = (0, $I.jsx)(YN, { conversationId: A, cwd: J, hostConfig: N })),
+      (t[110] = A),
+      (t[111] = N),
+      (t[112] = J),
+      (t[113] = Le))
+    : (Le = t[113]);
+  let Re;
+  t[114] === b
+    ? (Re = t[115])
+    : ((Re = (0, $I.jsx)(WN, { composerController: b })), (t[114] = b), (t[115] = Re));
+  let ze;
+  t[116] !== a || t[117] !== g || t[118] !== ie || t[119] !== v
+    ? ((ze = ie ? (0, $I.jsx)(eP, { cwd: g, roots: v, hostId: a }) : null),
+      (t[116] = a),
+      (t[117] = g),
+      (t[118] = ie),
+      (t[119] = v),
+      (t[120] = ze))
+    : (ze = t[120]);
+  let Be;
+  return (
+    t[121] !== ge ||
+    t[122] !== ve ||
+    t[123] !== be ||
+    t[124] !== Se ||
+    t[125] !== Ce ||
+    t[126] !== we ||
+    t[127] !== Ee ||
+    t[128] !== De ||
+    t[129] !== Oe ||
+    t[130] !== ke ||
+    t[131] !== Ae ||
+    t[132] !== Me ||
+    t[133] !== Ne ||
+    t[134] !== Pe ||
+    t[135] !== Fe ||
+    t[136] !== Ie ||
+    t[137] !== Le ||
+    t[138] !== Re ||
+    t[139] !== ze
+      ? ((Be = (0, $I.jsxs)($I.Fragment, {
+          children: [
+            ge,
+            _e,
+            ve,
+            ye,
+            be,
+            xe,
+            Se,
+            Ce,
+            we,
+            Te,
+            Ee,
+            De,
+            Oe,
+            ke,
+            Ae,
+            Me,
+            Ne,
+            Pe,
+            Fe,
+            Ie,
+            Le,
+            Re,
+            ze,
+          ],
+        })),
+        (t[121] = ge),
+        (t[122] = ve),
+        (t[123] = be),
+        (t[124] = Se),
+        (t[125] = Ce),
+        (t[126] = we),
+        (t[127] = Ee),
+        (t[128] = De),
+        (t[129] = Oe),
+        (t[130] = ke),
+        (t[131] = Ae),
+        (t[132] = Me),
+        (t[133] = Ne),
+        (t[134] = Pe),
+        (t[135] = Fe),
+        (t[136] = Ie),
+        (t[137] = Le),
+        (t[138] = Re),
+        (t[139] = ze),
+        (t[140] = Be))
+      : (Be = t[140]),
+    Be
+  );
+}
+function ZI(e) {
+  return wh.getState(e.view.state)?.kind === `slash-command`;
+}
+var QI,
+  $I,
+  eL = e(() => {
+    ((QI = X()),
+      bs(),
+      ji(),
+      Xa(),
+      Oi(),
+      vl(),
+      Gh(),
+      o(),
+      rs(),
+      H(),
+      _h(),
+      Od(),
+      PN(),
+      UN(),
+      gv(),
+      ny(),
+      lt(),
+      R(),
+      ao(),
+      IA(),
+      cr(),
+      RA(),
+      Vt(),
+      JN(),
+      yp(),
+      Dp(),
+      $N(),
+      cP(),
+      vP(),
+      SP(),
+      TP(),
+      kP(),
+      NP(),
+      RP(),
+      VP(),
+      KP(),
+      JP(),
+      pF(),
+      wF(),
+      jF(),
+      FF(),
+      BF(),
+      ZF(),
+      tI(),
+      sI(),
+      YI(),
+      Sx(),
+      Xy(),
+      ($I = Z()));
+  });
+function tL(e) {
+  let t = (0, nL.c)(14),
+    { isActive: n, children: r, chromeVariant: i, placement: a } = e,
+    o = i === void 0 ? `default` : i,
+    s = a === void 0 ? `top` : a,
+    c;
+  t[0] !== o || t[1] !== s
+    ? ((c = { placement: s, variant: o }), (t[0] = o), (t[1] = s), (t[2] = c))
+    : (c = t[2]);
+  let { overlayPortalContainer: l, shellClassName: u, usesExpandedTopTray: d } = eg(c);
+  if (!n) return null;
+  if (l != null) {
+    let e;
+    t[3] !== r || t[4] !== u || t[5] !== d
+      ? ((e = (0, iL.jsx)(hu, {
+          "data-composer-overlay-floating-ui": !0,
+          expandedTopTray: d,
+          className: u,
+          children: r,
+        })),
+        (t[3] = r),
+        (t[4] = u),
+        (t[5] = d),
+        (t[6] = e))
+      : (e = t[6]);
+    let n;
+    return (
+      t[7] !== l || t[8] !== e
+        ? ((n = (0, rL.createPortal)(e, l)), (t[7] = l), (t[8] = e), (t[9] = n))
+        : (n = t[9]),
+      n
+    );
+  }
+  let f;
+  return (
+    t[10] !== r || t[11] !== u || t[12] !== d
+      ? ((f = (0, iL.jsx)(hu, {
+          "data-composer-overlay-floating-ui": !0,
+          expandedTopTray: d,
+          className: u,
+          children: r,
+        })),
+        (t[10] = r),
+        (t[11] = u),
+        (t[12] = d),
+        (t[13] = f))
+      : (f = t[13]),
+    f
+  );
+}
+var nL,
+  rL,
+  iL,
+  aL = e(() => {
+    ((nL = X()), (rL = t(Bs(), 1)), cu(), Mh(), (iL = Z()));
+  });
+function oL(e) {
+  let t = (0, sL.c)(7),
+    { commands: n, onCommandSelect: r } = e,
+    i;
+  if (t[0] !== n || t[1] !== r) {
+    i = [];
+    let e = null,
+      a = [],
+      o;
+    t[3] === r
+      ? (o = t[4])
+      : ((o = (e) =>
+          (0, cL.jsx)(
+            oy,
+            {
+              value: e.title,
+              title: e.title,
+              description: e.description,
+              onSelect: () => {
+                r(e);
+              },
+              LeftIcon: e.Icon,
+              RightIcon: e.RightIcon,
+            },
+            e.id,
+          )),
+        (t[3] = r),
+        (t[4] = o));
+    let s = o,
+      c = () => {
+        a.length !== 0 &&
+          (e
+            ? i.push(
+                (0, cL.jsx)(
+                  dm.Group,
+                  {
+                    heading: (0, cL.jsx)(`span`, {
+                      className: `block px-2 pt-2 text-sm text-token-description-foreground`,
+                      children: e,
+                    }),
+                    className: `flex flex-col`,
+                    style: { gap: `var(--spacing)` },
+                    children: a.map(s),
+                  },
+                  `group-${e}`,
+                ),
+              )
+            : i.push(...a.map(s)),
+          (a = []));
+      };
+    (n.forEach((t) => {
+      let n = t.group ?? null;
+      (n !== e && (c(), (e = n)), a.push(t));
+    }),
+      c(),
+      (t[0] = n),
+      (t[1] = r),
+      (t[2] = i));
+  } else i = t[2];
+  if (i.length === 0) return null;
+  let a;
+  return (
+    t[5] === i
+      ? (a = t[6])
+      : ((a = (0, cL.jsx)(cL.Fragment, { children: i })), (t[5] = i), (t[6] = a)),
+    a
+  );
+}
+var sL,
+  cL,
+  lL = e(() => {
+    ((sL = X()), zl(), iy(), (cL = Z()));
+  });
+function uL(e) {
+  let t = (0, gL.c)(24),
+    { autocomplete: n, isHomeMenu: r } = e,
+    i = r === void 0 ? !1 : r,
+    a = n.commands,
+    o = n.composerText,
+    s = n.ui?.active === !0,
+    c = n.ui?.query ?? ``,
+    l;
+  t[0] === a ? (l = t[1]) : ((l = new Map(a.map(dL))), (t[0] = a), (t[1] = l));
+  let u = l,
+    d;
+  t[2] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((d = (0, _L.jsx)(J, {
+        id: `composer.slashCommands.noResults`,
+        defaultMessage: `No commands`,
+        description: `Shown when no slash commands match`,
+      })),
+      (t[2] = d))
+    : (d = t[2]);
+  let f;
+  t[3] !== n || t[4] !== u
+    ? ((f = (e) => {
+        n.setSelectedCommand(e == null ? null : (u.get(e.key) ?? null));
+      }),
+      (t[3] = n),
+      (t[4] = u),
+      (t[5] = f))
+    : (f = t[5]);
+  let p = n.closeAutocomplete,
+    m;
+  t[6] !== n || t[7] !== u
+    ? ((m = (e) => {
+        let t = u.get(e.key);
+        t != null && n.selectCommand(t);
+      }),
+      (t[6] = n),
+      (t[7] = u),
+      (t[8] = m))
+    : (m = t[8]);
+  let h;
+  if (t[9] !== a || t[10] !== o || t[11] !== c) {
+    let e;
+    (t[13] !== o || t[14] !== c
+      ? ((e = (e) => ({
+          id: e.label ?? `commands`,
+          items: e.commands.map((e) => ({
+            content: (0, _L.jsx)(pL, { command: e, composerText: o, query: c }),
+            key: e.id,
+          })),
+          title: e.label,
+        })),
+        (t[13] = o),
+        (t[14] = c),
+        (t[15] = e))
+      : (e = t[15]),
+      (h = fL(a).map(e)),
+      (t[9] = a),
+      (t[10] = o),
+      (t[11] = c),
+      (t[12] = h));
+  } else h = t[12];
+  let g;
+  return (
+    t[16] !== n.closeAutocomplete ||
+    t[17] !== s ||
+    t[18] !== i ||
+    t[19] !== c ||
+    t[20] !== f ||
+    t[21] !== m ||
+    t[22] !== h
+      ? ((g = (0, _L.jsx)(Gf, {
+          isActive: s,
+          isHomeMenu: i,
+          noResults: d,
+          onHighlight: f,
+          onRequestClose: p,
+          onSelect: m,
+          query: c,
+          sections: h,
+        })),
+        (t[16] = n.closeAutocomplete),
+        (t[17] = s),
+        (t[18] = i),
+        (t[19] = c),
+        (t[20] = f),
+        (t[21] = m),
+        (t[22] = h),
+        (t[23] = g))
+      : (g = t[23]),
+    g
+  );
+}
+function dL(e) {
+  return [e.id, e];
+}
+function fL(e) {
+  let t = [];
+  for (let n of e) {
+    let e = n.group ?? null,
+      r = t.at(-1);
+    r?.label === e ? r.commands.push(n) : t.push({ commands: [n], label: e });
+  }
+  return t;
+}
+function pL(e) {
+  let t = (0, gL.c)(22),
+    { command: n, composerText: r, query: i } = e,
+    a;
+  t[0] !== n || t[1] !== r
+    ? ((a = n.getDisplayTitle?.(r) ?? n.title), (t[0] = n), (t[1] = r), (t[2] = a))
+    : (a = t[2]);
+  let o = a,
+    s;
+  t[3] === n.Icon
+    ? (s = t[4])
+    : ((s = n.Icon ? (0, _L.jsx)(n.Icon, { className: `icon-xs shrink-0` }) : null),
+      (t[3] = n.Icon),
+      (t[4] = s));
+  let c = n.description ? `max-w-[60%] flex-none truncate` : `min-w-0 flex-1 truncate`,
+    l;
+  t[5] === c ? (l = t[6]) : ((l = qc(c)), (t[5] = c), (t[6] = l));
+  let u;
+  t[7] !== i || t[8] !== o
+    ? ((u = (0, _L.jsx)(mL, { query: i, title: o })), (t[7] = i), (t[8] = o), (t[9] = u))
+    : (u = t[9]);
+  let d;
+  t[10] !== l || t[11] !== u
+    ? ((d = (0, _L.jsx)(`div`, { className: l, children: u })),
+      (t[10] = l),
+      (t[11] = u),
+      (t[12] = d))
+    : (d = t[12]);
+  let f;
+  t[13] === n.description
+    ? (f = t[14])
+    : ((f = n.description
+        ? (0, _L.jsx)(`span`, {
+            className: `min-w-0 flex-1 truncate text-sm text-token-description-foreground`,
+            children: n.description,
+          })
+        : null),
+      (t[13] = n.description),
+      (t[14] = f));
+  let p;
+  t[15] === n.RightIcon
+    ? (p = t[16])
+    : ((p = n.RightIcon ? (0, _L.jsx)(n.RightIcon, { className: `icon-xs shrink-0` }) : null),
+      (t[15] = n.RightIcon),
+      (t[16] = p));
+  let m;
+  return (
+    t[17] !== s || t[18] !== d || t[19] !== f || t[20] !== p
+      ? ((m = (0, _L.jsxs)(`div`, {
+          className: `flex w-full items-center gap-2`,
+          children: [s, d, f, p],
+        })),
+        (t[17] = s),
+        (t[18] = d),
+        (t[19] = f),
+        (t[20] = p),
+        (t[21] = m))
+      : (m = t[21]),
+    m
+  );
+}
+function mL(e) {
+  let t = (0, gL.c)(5),
+    { query: n, title: r } = e,
+    i;
+  if (t[0] !== n || t[1] !== r) {
+    let e = ay(r, n),
+      a = e.some(hL);
+    ((i = e.map((e, t) =>
+      (0, _L.jsx)(
+        `span`,
+        { className: qc(!e.isMatch && a && `text-token-description-foreground`), children: e.text },
+        t,
+      ),
+    )),
+      (t[0] = n),
+      (t[1] = r),
+      (t[2] = i));
+  } else i = t[2];
+  let a;
+  return (
+    t[3] === i
+      ? (a = t[4])
+      : ((a = (0, _L.jsx)(_L.Fragment, { children: i })), (t[3] = i), (t[4] = a)),
+    a
+  );
+}
+function hL(e) {
+  return e.isMatch;
+}
+var gL,
+  _L,
+  vL = e(() => {
+    ((gL = X()), Xn(), Y(), Ah(), sy(), (_L = Z()));
+  });
+function yL(e) {
+  let t = (0, SL.c)(24),
+    {
+      composerController: n,
+      hasDraftText: r,
+      slashCommands: i,
+      onCommandSelect: a,
+      onOpenCommandContent: o,
+    } = e,
+    s = Mm(n, bL),
+    c;
+  t[0] === s ? (c = t[1]) : ((c = (e) => (s == null ? `` : e.getText())), (t[0] = s), (t[1] = c));
+  let l = Mm(n, c),
+    u = (0, CL.useRef)(null),
+    d;
+  if (t[2] !== r || t[3] !== i || t[4] !== s) {
+    let e = Wy(i, r),
+      n = s == null ? e : Gy(e, s.trigger === `@` ? `@` : `/`);
+    ((d = s == null ? n : Ry(n, s.query)), (t[2] = r), (t[3] = i), (t[4] = s), (t[5] = d));
+  } else d = t[5];
+  let f = d,
+    p;
+  t[6] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((p = (e) => {
+        u.current = e;
+      }),
+      (t[6] = p))
+    : (p = t[6]);
+  let m = p,
+    h;
+  t[7] !== n || t[8] !== a || t[9] !== o || t[10] !== s
+    ? ((h = async (e) => {
+        if (!s?.active || s.range == null) return;
+        ((u.current = null), a(e));
+        let t = s.activation === `typed` ? s.range.from + 1 : s.range.from,
+          r;
+        ((r = xL(e)
+          ? { mention: e, type: `mention` }
+          : { run: e.Content == null ? e.onSelect : () => o(e), type: `action` }),
+          await zp(
+            r,
+            { queryRange: { from: t, to: s.range.to }, replacementRange: s.range },
+            {
+              clearReplacementRange: () => n.clearSuggestion(s),
+              insertMention: (e) => {
+                e.onSelectFromInlineSlash(s);
+              },
+              openSubmenu: o,
+              replaceQuery: (e) => {
+                n.completeSuggestionQuery(e, s);
+              },
+            },
+          ));
+      }),
+      (t[7] = n),
+      (t[8] = a),
+      (t[9] = o),
+      (t[10] = s),
+      (t[11] = h))
+    : (h = t[11]);
+  let g = h,
+    _;
+  t[12] === n
+    ? (_ = t[13])
+    : ((_ = (e) => {
+        fp(n.view, e) && (u.current = null);
+      }),
+      (t[12] = n),
+      (t[13] = _));
+  let v = _,
+    y;
+  t[14] !== n || t[15] !== g
+    ? ((y = (e) => {
+        if (e === `submit`) {
+          let e = u.current;
+          if (e != null) {
+            g(e);
+            return;
+          }
+          ym(n.view);
+        }
+        u.current = null;
+      }),
+      (t[14] = n),
+      (t[15] = g),
+      (t[16] = y))
+    : (y = t[16]);
+  let b = y,
+    x;
+  return (
+    t[17] !== v || t[18] !== f || t[19] !== l || t[20] !== b || t[21] !== g || t[22] !== s
+      ? ((x = {
+          commands: f,
+          composerText: l,
+          closeAutocomplete: v,
+          handleSlashCommandEvent: b,
+          selectCommand: g,
+          setSelectedCommand: m,
+          ui: s,
+        }),
+        (t[17] = v),
+        (t[18] = f),
+        (t[19] = l),
+        (t[20] = b),
+        (t[21] = g),
+        (t[22] = s),
+        (t[23] = x))
+      : (x = t[23]),
+    x
+  );
+}
+function bL(e) {
+  let t = wh.getState(e.view.state);
+  return t?.active === !0 && t.kind === `slash-command` ? t : void 0;
+}
+function xL(e) {
+  return `onSelectFromInlineSlash` in e && e.onSelectFromInlineSlash != null;
+}
+var SL,
+  CL,
+  wL = e(() => {
+    ((SL = X()), (CL = t(El(), 1)), Jp(), yp(), ph(), Dp(), Hy());
+  });
+function TL(e) {
+  let t = (0, AL.c)(49),
+    {
+      contextualSuggestions: n,
+      contextualSuggestionUi: r,
+      hideSideSlashCommand: i,
+      isHomeMenu: a,
+      skillSuggestions: o,
+    } = e,
+    s = i === void 0 ? !1 : i,
+    c = a === void 0 ? !1 : a,
+    l = qn(di),
+    u = La().pathname === `/hotkey-window`,
+    d = yh(),
+    f = Mm(d, DL),
+    p = Ns(),
+    [m, h] = (0, jL.useState)(null),
+    [g, _] = (0, jL.useState)(null),
+    v = de(Vy),
+    y = s ? v.filter(EL) : v,
+    b = Gy(Wy(y, f), `/`),
+    x = g ? (y.find((e) => e.id === g) ?? null) : null,
+    [S, C] = (0, jL.useState)(``),
+    [w, T] = (0, jL.useState)(``),
+    [E, D] = (0, jL.useState)(!1),
+    O = qh(),
+    k = u ? `z-40` : qc(`left-0 right-0`, c ? `z-50` : `z-30`),
+    A = c && `composer-home-top-menu`,
+    j;
+  t[0] === A ? (j = t[1]) : ((j = qc(`mb-1.5 origin-bottom`, A)), (t[0] = A), (t[1] = j));
+  let M = j,
+    N;
+  t[2] === d
+    ? (N = t[3])
+    : ((N = () => {
+        requestAnimationFrame(() => {
+          d.focus();
+        });
+      }),
+      (t[2] = d),
+      (t[3] = N));
+  let P = N,
+    F;
+  t[4] === P
+    ? (F = t[5])
+    : ((F = () => {
+        (_(null), P());
+      }),
+      (t[4] = P),
+      (t[5] = F));
+  let ee = F,
+    I;
+  t[6] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((I = () => {
+        (C(``), T(``), h(null));
+      }),
+      (t[6] = I))
+    : (I = t[6]);
+  let L = I,
+    R;
+  t[7] !== E || t[8] !== l
+    ? ((R = () => {
+        (E || Va(l, zs, {}), D(!0));
+      }),
+      (t[7] = E),
+      (t[8] = l),
+      (t[9] = R))
+    : (R = t[9]);
+  let z = R,
+    B;
+  t[10] === P
+    ? (B = t[11])
+    : ((B = () => {
+        (L(), D(!1), P());
+      }),
+      (t[10] = P),
+      (t[11] = B));
+  let V = B,
+    H;
+  t[12] === l
+    ? (H = t[13])
+    : ((H = (e, t) => {
+        Va(l, uc, { commandId: OL(e.id), commandGroup: e.group, selectionSource: kL(t) });
+      }),
+      (t[12] = l),
+      (t[13] = H));
+  let te = H,
+    ne;
+  t[14] !== P || t[15] !== z
+    ? ((ne = (e) => {
+        if ((L(), e.presentation === `bare`)) {
+          (_(e.id), D(!1), P());
+          return;
+        }
+        (_(null), h(e), z());
+      }),
+      (t[14] = P),
+      (t[15] = z),
+      (t[16] = ne))
+    : (ne = t[16]);
+  let re = ne,
+    U;
+  t[17] === te
+    ? (U = t[18])
+    : ((U = (e) => {
+        te(e, `autocomplete`);
+      }),
+      (t[17] = te),
+      (t[18] = U));
+  let ie = yL({
+      composerController: d,
+      hasDraftText: f,
+      slashCommands: y,
+      onCommandSelect: U,
+      onOpenCommandContent: re,
+    }),
+    ae = E || g != null || ie.ui?.active === !0,
+    oe = c && ae,
+    W;
+  (t[19] !== O || t[20] !== oe
+    ? ((W = { element: O, isEnabled: oe }), (t[19] = O), (t[20] = oe), (t[21] = W))
+    : (W = t[21]),
+    ap(W));
+  let G;
+  t[22] === ie
+    ? (G = t[23])
+    : ((G = (e) => {
+        Mp(e) && e.kind === `slash-command` && ie.handleSlashCommandEvent(e.type);
+      }),
+      (t[22] = ie),
+      (t[23] = G));
+  let se = (0, jL.useEffectEvent)(G),
+    K;
+  t[24] !== d.eventEmitter || t[25] !== se
+    ? ((K = () => (
+        d.eventEmitter.addListener(`composer-suggestion-ui-event`, se),
+        () => {
+          d.eventEmitter.removeListener(`composer-suggestion-ui-event`, se);
+        }
+      )),
+      (t[24] = d.eventEmitter),
+      (t[25] = se),
+      (t[26] = K))
+    : (K = t[26]);
+  let q;
+  if (
+    (t[27] === d ? (q = t[28]) : ((q = [d]), (t[27] = d), (t[28] = q)),
+    (0, jL.useEffect)(K, q),
+    O == null)
+  )
+    return null;
+  let ce;
+  t[29] !== r || t[30] !== n || t[31] !== c
+    ? ((ce =
+        n && r?.active === !0
+          ? (0, NL.jsx)(tL, {
+              isActive: !0,
+              placement: c ? `bottom` : `top`,
+              children: (0, NL.jsx)(_N, { ...n, query: r.query, source: r.source }),
+            })
+          : null),
+      (t[29] = r),
+      (t[30] = n),
+      (t[31] = c),
+      (t[32] = ce))
+    : (ce = t[32]);
+  let le;
+  t[33] !== c || t[34] !== o
+    ? ((le = o ? (0, NL.jsx)(Bp, { ...o, placement: c ? `bottom` : `top` }) : null),
+      (t[33] = c),
+      (t[34] = o),
+      (t[35] = le))
+    : (le = t[35]);
+  let ue = ie.ui?.active === !0,
+    fe = c ? `bottom` : `top`,
+    pe;
+  t[36] !== c || t[37] !== ie
+    ? ((pe = (0, NL.jsx)(uL, { autocomplete: ie, isHomeMenu: c })),
+      (t[36] = c),
+      (t[37] = ie),
+      (t[38] = pe))
+    : (pe = t[38]);
+  let me;
+  t[39] !== ue || t[40] !== fe || t[41] !== pe
+    ? ((me = (0, NL.jsx)(tL, { isActive: ue, placement: fe, children: pe })),
+      (t[39] = ue),
+      (t[40] = fe),
+      (t[41] = pe),
+      (t[42] = me))
+    : (me = t[42]);
+  let he =
+      E &&
+      (0, NL.jsxs)(Rh, {
+        title: p.formatMessage(PL.dialogTitle),
+        container: O,
+        open: !0,
+        shouldFilter: m?.Content != null,
+        label: p.formatMessage({
+          id: `composer.slashCommands.dialogLabel`,
+          defaultMessage: `Slash command menu`,
+          description: `Accessibility label for the slash command dialog`,
+        }),
+        overlayClassName: `hidden`,
+        expandedTopTray: u,
+        className: u ? `origin-bottom` : M,
+        contentClassName: qc(
+          `absolute bottom-0 bg-transparent p-0 shadow-none outline-none focus-visible:outline-none`,
+          k,
+        ),
+        value: w,
+        onValueChange: T,
+        onOpenChange: (e) => {
+          e || V();
+        },
+        children: [
+          (0, NL.jsx)(Ua, {
+            className: `sr-only`,
+            children: (0, NL.jsx)(J, { ...PL.dialogTitle }),
+          }),
+          (0, NL.jsx)(Bo, {
+            className: `sr-only`,
+            children: (0, NL.jsx)(J, {
+              id: `composer.slashCommands.dialogDescription`,
+              defaultMessage: `Search and run slash commands`,
+              description: `Description for the slash command dialog`,
+            }),
+          }),
+          (0, NL.jsx)(dm.Input, {
+            placeholder: p.formatMessage({
+              id: `composer.slashCommands.inputPlaceholder`,
+              defaultMessage: `Search`,
+              description: `Placeholder for the slash command input`,
+            }),
+            value: S,
+            onValueChange: C,
+          }),
+          (0, NL.jsxs)(dm.List, {
+            children: [
+              m?.Content
+                ? (0, NL.jsx)(m.Content, { onItemsChanged: () => T(``), onClose: V })
+                : (0, NL.jsx)(oL, {
+                    commands: Ry(b, S),
+                    onCommandSelect: async (e) => {
+                      if ((te(e, `dialog`), e.Content)) {
+                        re(e);
+                        return;
+                      }
+                      (await e.onSelect?.(), V());
+                    },
+                  }),
+              (0, NL.jsx)(dm.Empty, {
+                children: (0, NL.jsx)(J, {
+                  id: `composer.slashCommands.noResults`,
+                  defaultMessage: `No commands`,
+                  description: `Shown when no slash commands match`,
+                }),
+              }),
+            ],
+          }),
+        ],
+      }),
+    ge = x?.Content
+      ? (0, ML.createPortal)(
+          (0, NL.jsx)(hu, {
+            expandedTopTray: u,
+            className: qc(
+              `absolute bottom-0 bg-transparent p-0 shadow-none outline-none focus-visible:outline-none`,
+              k,
+            ),
+            children: (0, NL.jsx)(tf, {
+              className: u ? `origin-bottom` : M,
+              expandedTopTray: u,
+              paddedBody: u,
+              children: (0, NL.jsx)(x.Content, { onItemsChanged: () => T(``), onClose: ee }),
+            }),
+          }),
+          O,
+        )
+      : null,
+    _e;
+  return (
+    t[43] !== ce || t[44] !== le || t[45] !== me || t[46] !== he || t[47] !== ge
+      ? ((_e = (0, NL.jsxs)(NL.Fragment, { children: [ce, le, me, he, ge] })),
+        (t[43] = ce),
+        (t[44] = le),
+        (t[45] = me),
+        (t[46] = he),
+        (t[47] = ge),
+        (t[48] = _e))
+      : (_e = t[48]),
+    _e
+  );
+}
+function EL(e) {
+  return e.id !== `side`;
+}
+function DL(e) {
+  return zy(e.getText());
+}
+function OL(e) {
+  return e.startsWith(`skill:`) ? `skill` : e.startsWith(`custom-prompt:`) ? `custom-prompt` : e;
+}
+function kL(e) {
+  switch (e) {
+    case `autocomplete`:
+      return Ko.CODEX_SLASH_COMMAND_SELECTION_SOURCE_AUTOCOMPLETE;
+    case `dialog`:
+      return Ko.CODEX_SLASH_COMMAND_SELECTION_SOURCE_DIALOG;
+  }
+}
+var AL,
+  jL,
+  ML,
+  NL,
+  PL,
+  FL = e(() => {
+    ((AL = X()),
+      fl(),
+      Xn(),
+      zl(),
+      ji(),
+      (jL = t(El(), 1)),
+      (ML = t(Bs(), 1)),
+      Y(),
+      Oi(),
+      ja(),
+      aL(),
+      bN(),
+      cu(),
+      ys(),
+      R(),
+      yp(),
+      Dp(),
+      Jf(),
+      Hy(),
+      lL(),
+      vL(),
+      wL(),
+      cp(),
+      Zh(),
+      ku(),
+      (NL = Z()),
+      (PL = _r({
+        dialogTitle: {
+          id: `composer.slashCommands.dialogTitle`,
+          defaultMessage: `Slash commands`,
+          description: `Title for the slash command dialog`,
+        },
+      })));
+  });
+function IL(e) {
+  let t = (0, LL.c)(77),
+    {
+      isComposerInputVisible: n,
+      onDictationTranscriptInsert: i,
+      onDictationTranscriptSend: a,
+      getDictationSurroundingText: o,
+      shouldHandleDictation: s,
+    } = e,
+    c = qn(et),
+    l = Ns(),
+    u = zL,
+    d = Gd(Wt),
+    f = (0, RL.useRef)(!1),
+    p = (0, RL.useRef)(!1),
+    m = (0, RL.useRef)(!1),
+    h;
+  t[0] === c ? (h = t[1]) : ((h = null), (t[0] = c), (t[1] = h));
+  let g = h,
+    _;
+  t[2] === g
+    ? (_ = t[3])
+    : ((_ = () => {
+        ((f.current = !1), g?.fail());
+      }),
+      (t[2] = g),
+      (t[3] = _));
+  let v = _,
+    y = n && d === !0,
+    b,
+    x,
+    S;
+  t[4] !== l || t[5] !== v || t[6] !== c
+    ? ((b = (e) => {
+        (v(),
+          c.get(Yr).danger(Zy(l, `start`, e).message),
+          r.error(`[Composer] unable to start dictation`, { safe: {}, sensitive: { error: e } }));
+      }),
+      (x = (e) => {
+        (v(),
+          c.get(Yr).danger(Zy(l, `transcription`, e).message),
+          r.error(`[Composer] dictation failed`, { safe: {}, sensitive: { error: e } }));
+      }),
+      (S = () => {
+        (v(),
+          c
+            .get(Yr)
+            .danger(
+              l.formatMessage({
+                id: `composer.dictation.unsupported`,
+                defaultMessage: `Dictation is not available on this device`,
+                description: `Toast text shown when dictation is not supported on the current device`,
+              }),
+            ));
+      }),
+      (t[4] = l),
+      (t[5] = v),
+      (t[6] = c),
+      (t[7] = b),
+      (t[8] = x),
+      (t[9] = S))
+    : ((b = t[7]), (x = t[8]), (S = t[9]));
+  let C;
+  t[10] !== o ||
+  t[11] !== i ||
+  t[12] !== a ||
+  t[13] !== y ||
+  t[14] !== b ||
+  t[15] !== x ||
+  t[16] !== S
+    ? ((C = {
+        enabled: y,
+        onTranscriptInsert: i,
+        onTranscriptSend: a,
+        getSurroundingText: o,
+        onStartError: b,
+        onTranscribeError: x,
+        onUnsupported: S,
+      }),
+      (t[10] = o),
+      (t[11] = i),
+      (t[12] = a),
+      (t[13] = y),
+      (t[14] = b),
+      (t[15] = x),
+      (t[16] = S),
+      (t[17] = C))
+    : (C = t[17]);
+  let {
+      abortDictation: w,
+      isDictating: T,
+      isTranscribing: E,
+      canRetryDictation: D,
+      recordingDurationMs: O,
+      retryDictation: k,
+      waveformCanvasRef: A,
+      startDictation: j,
+      stopDictation: M,
+    } = Lh(C),
+    N,
+    P;
+  (t[18] !== g || t[19] !== T || t[20] !== E
+    ? ((N = () => {
+        g?.sync({ isDictating: T, isTranscribing: E });
+      }),
+      (P = [g, T, E]),
+      (t[18] = g),
+      (t[19] = T),
+      (t[20] = E),
+      (t[21] = N),
+      (t[22] = P))
+    : ((N = t[21]), (P = t[22])),
+    (0, RL.useEffect)(N, P));
+  let F, ee;
+  (t[23] === g
+    ? ((F = t[24]), (ee = t[25]))
+    : ((F = () => () => {
+        g?.fail();
+      }),
+      (ee = [g]),
+      (t[23] = g),
+      (t[24] = F),
+      (t[25] = ee)),
+    (0, RL.useEffect)(F, ee));
+  let I;
+  t[26] === M
+    ? (I = t[27])
+    : ((I = () => {
+        M(`insert`);
+      }),
+      (t[26] = M),
+      (t[27] = I));
+  let L = (0, RL.useEffectEvent)(I),
+    R;
+  t[28] !== n || t[29] !== T || t[30] !== L
+    ? ((R = () => {
+        n || !T || L();
+      }),
+      (t[28] = n),
+      (t[29] = T),
+      (t[30] = L),
+      (t[31] = R))
+    : (R = t[31]);
+  let z;
+  (t[32] !== n || t[33] !== T ? ((z = [n, T]), (t[32] = n), (t[33] = T), (t[34] = z)) : (z = t[34]),
+    (0, RL.useEffect)(R, z));
+  let B = Ru(),
+    V = u.visiblePhase,
+    H = u.thread.isShowingFooter && V != null,
+    te = n && (V != null || T || E),
+    ne = n && d === !0 && u.thread.phase === `inactive`,
+    re;
+  (t[35] !== T || t[36] !== E || t[37] !== s || t[38] !== j || t[39] !== M || t[40] !== ne
+    ? ((re = {
+        enabled: ne,
+        isDictating: T,
+        isTranscribing: E,
+        startDictation: j,
+        stopDictation: M,
+        shouldHandleDictation: s,
+        ignoreWithin: null,
+      }),
+      (t[35] = T),
+      (t[36] = E),
+      (t[37] = s),
+      (t[38] = j),
+      (t[39] = M),
+      (t[40] = ne),
+      (t[41] = re))
+    : (re = t[41]),
+    mf(re));
+  let U;
+  t[42] !== g ||
+  t[43] !== d ||
+  t[44] !== n ||
+  t[45] !== T ||
+  t[46] !== E ||
+  t[47] !== s ||
+  t[48] !== j ||
+  t[49] !== M
+    ? ((U = () => {
+        !n ||
+          d !== !0 ||
+          u.thread.phase !== `inactive` ||
+          T ||
+          E ||
+          p.current ||
+          (s != null && !s()) ||
+          (g?.start(),
+          (f.current = !0),
+          (p.current = !0),
+          (m.current = !1),
+          j()
+            .then(() => {
+              f.current && g?.didStart();
+            })
+            .finally(() => {
+              ((p.current = !1), m.current && ((f.current = !1), (m.current = !1), M(`insert`)));
+            }));
+      }),
+      (t[42] = g),
+      (t[43] = d),
+      (t[44] = n),
+      (t[45] = T),
+      (t[46] = E),
+      (t[47] = s),
+      (t[48] = j),
+      (t[49] = M),
+      (t[50] = U))
+    : (U = t[50]);
+  let ie;
+  (t[51] !== g ||
+  t[52] !== d ||
+  t[53] !== n ||
+  t[54] !== T ||
+  t[55] !== E ||
+  t[56] !== j ||
+  t[57] !== M
+    ? ((ie = [n, d, T, E, g, j, M, u.thread.phase]),
+      (t[51] = g),
+      (t[52] = d),
+      (t[53] = n),
+      (t[54] = T),
+      (t[55] = E),
+      (t[56] = j),
+      (t[57] = M),
+      (t[58] = ie))
+    : (ie = t[58]),
+    qr(`codex-micro-push-to-talk-start`, U, ie));
+  let ae, oe;
+  (t[59] !== T || t[60] !== M
+    ? ((ae = () => {
+        if (f.current) {
+          if (p.current) {
+            m.current = !0;
+            return;
+          }
+          ((f.current = !1), T && M(`insert`));
+        }
+      }),
+      (oe = [T, M]),
+      (t[59] = T),
+      (t[60] = M),
+      (t[61] = ae),
+      (t[62] = oe))
+    : ((ae = t[61]), (oe = t[62])),
+    qr(`codex-micro-push-to-talk-stop`, ae, oe));
+  let W = d !== !1,
+    G = d === !0,
+    se;
+  return (
+    t[63] !== w ||
+    t[64] !== D ||
+    t[65] !== B ||
+    t[66] !== T ||
+    t[67] !== E ||
+    t[68] !== te ||
+    t[69] !== O ||
+    t[70] !== k ||
+    t[71] !== j ||
+    t[72] !== M ||
+    t[73] !== W ||
+    t[74] !== G ||
+    t[75] !== A
+      ? ((se = {
+          abortDictation: w,
+          canRetryDictation: D,
+          dictationShortcutLabel: B,
+          isDictating: T,
+          isDictationButtonVisible: W,
+          isDictationSupported: G,
+          isTranscribing: E,
+          isVoiceFooterVisible: H,
+          isVoiceLayoutActive: te,
+          recordingDurationMs: O,
+          retryDictation: k,
+          startDictation: j,
+          stopDictation: M,
+          restrictedSession: u,
+          waveformCanvasRef: A,
+        }),
+        (t[63] = w),
+        (t[64] = D),
+        (t[65] = B),
+        (t[66] = T),
+        (t[67] = E),
+        (t[68] = te),
+        (t[69] = O),
+        (t[70] = k),
+        (t[71] = j),
+        (t[72] = M),
+        (t[73] = W),
+        (t[74] = G),
+        (t[75] = A),
+        (t[76] = se))
+      : (se = t[76]),
+    se
+  );
+}
+var LL,
+  RL,
+  zL,
+  BL = e(() => {
+    ((LL = X()),
+      ji(),
+      (RL = t(El(), 1)),
+      Y(),
+      Yb(),
+      Fs(),
+      $l(),
+      og(),
+      ad(),
+      js(),
+      wt(),
+      ao(),
+      $y(),
+      xn(),
+      (zL = {
+        isStartAvailable: !1,
+        isSubmitStarting: !1,
+        startConversation: () => Promise.resolve(),
+        thread: {
+          isAvailable: !1,
+          isShowingFooter: !1,
+          isMuted: !1,
+          isMicrophoneMuted: !1,
+          ephemeralTranscript: null,
+          recordingDurationMs: 0,
+          waveformCanvasRef: { current: null },
+          phase: `inactive`,
+          toggleMute: () => {},
+          toggleMicrophoneMute: () => {},
+          stop: () => Promise.resolve(),
+        },
+        visiblePhase: null,
+      }));
+  });
+function VL({
+  attachmentGenRef: e,
+  canceledPendingFileAttachmentIds: t,
+  executionHostId: n,
+  setFileAttachments: r,
+  setPendingFileAttachments: i,
+}) {
+  return async ({ assetUrl: a, label: o }) => {
+    let s = nl(),
+      c = e.current;
+    i((e) => [...e, { id: s, label: o }]);
+    try {
+      let i = await fetch(a);
+      if (!i.ok) throw Error(`Unable to load attachment asset`);
+      let l = await Vr(`create-file-attachment-for-host`, {
+        hostId: n,
+        contentsBase64: $t(new Uint8Array(await i.arrayBuffer())),
+        label: o,
+      });
+      if (e.current !== c || t.has(s)) {
+        Ar(n, l.path);
+        return;
+      }
+      r((e) => [...e, l]);
+    } finally {
+      (i((e) => e.filter((e) => e.id !== s)), t.delete(s));
+    }
+  };
+}
+var HL = e(() => {
+  (Mi(), Jr(), p(), Ms());
+});
+function UL({ conversationId: e, onClose: t, variant: n }) {
+  let { data: r } = Sh({ hostId: jm(e).hostId }),
+    { modelSettings: i, setModelAndReasoningEffortForNextTurn: a } = Tp(e),
+    [o, s] = (0, qL.useState)(!1),
+    c = r?.models.find(({ model: e }) => e === Ye);
+  return (0, JL.jsx)(WL, {
+    variant: n,
+    canContinueWithGpt54: c != null,
+    isSwitchingToGpt54: o,
+    onClose: t,
+    onContinueWithGpt54: () => {
+      c != null &&
+        (s(!0),
+        (async () => {
+          try {
+            (await a(Ye, vt(i.reasoningEffort, c)), t());
+          } catch {
+            return;
+          } finally {
+            s(!1);
+          }
+        })());
+    },
+  });
+}
+function WL(e) {
+  let t = (0, KL.c)(30),
+    {
+      canContinueWithGpt54: n,
+      isSwitchingToGpt54: r,
+      onClose: i,
+      onContinueWithGpt54: a,
+      variant: o,
+    } = e,
+    s = n === void 0 ? !0 : n,
+    c = r === void 0 ? !1 : r,
+    l = Ns(),
+    u = GL,
+    d;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((d = (e) =>
+        (0, JL.jsx)(`button`, {
+          type: `button`,
+          className: `cursor-interaction underline underline-offset-2 hover:text-token-foreground`,
+          onClick: u,
+          children: e,
+        })),
+      (t[0] = d))
+    : (d = t[0]);
+  let f = d,
+    p,
+    m,
+    h;
+  bb0: switch (o) {
+    case `first_block`: {
+      let e;
+      (t[1] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, JL.jsx)(J, {
+            id: `codex.cyberSafetyComposerBanner.firstBlock.title`,
+            defaultMessage: `This chat was flagged for possible cybersecurity risk`,
+            description: `Title shown when the current chat has a possible cybersecurity risk flag`,
+          })),
+          (t[1] = e))
+        : (e = t[1]),
+        (p = e));
+      let n;
+      (t[2] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((n = (0, JL.jsx)(J, {
+            id: `codex.cyberSafetyComposerBanner.firstBlock.body`,
+            defaultMessage: `If this seems wrong, try rephrasing your request or submit /feedback. To get authorized for security work, join the <link>Trusted Access for Cyber</link> program.`,
+            description: `Body shown when the current chat has a possible cybersecurity risk flag`,
+            values: { link: f },
+          })),
+          (t[2] = n))
+        : (n = t[2]),
+        (m = n));
+      let r;
+      (t[3] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((r = (0, JL.jsx)(ya, {
+            color: `primary`,
+            size: `composer`,
+            onClick: u,
+            children: (0, JL.jsx)(J, {
+              id: `codex.cyberSafetyComposerBanner.learnMore`,
+              defaultMessage: `Learn more`,
+              description: `CTA label for opening the cyber safety information page`,
+            }),
+          })),
+          (t[3] = r))
+        : (r = t[3]),
+        (h = r));
+      break bb0;
+    }
+    case `repeated_blocks`: {
+      let e;
+      (t[4] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, JL.jsx)(J, {
+            id: `codex.cyberSafetyComposerBanner.repeatedBlocks.title`,
+            defaultMessage: `Your conversations have multiple flags for possible cybersecurity risk`,
+            description: `Title shown when the user's conversations have multiple possible cybersecurity risk flags`,
+          })),
+          (t[4] = e))
+        : (e = t[4]),
+        (p = e));
+      let n;
+      (t[5] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((n = (0, JL.jsx)(J, {
+            id: `codex.cyberSafetyComposerBanner.repeatedBlocks.body`,
+            defaultMessage: `Responses may take longer than usual because extra safety checks are on. Change to GPT-5.4 to get faster responses now, or join the <link>Trusted Access for Cyber</link> program.`,
+            description: `Body shown when the user's conversations have multiple possible cybersecurity risk flags`,
+            values: { link: f },
+          })),
+          (t[5] = n))
+        : (n = t[5]),
+        (m = n));
+      let r = !s,
+        i;
+      t[6] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((i = (0, JL.jsx)(J, {
+            id: `codex.cyberSafetyComposerBanner.continueWithGpt54`,
+            defaultMessage: `Continue with 5.4`,
+            description: `CTA label for switching the composer model to GPT-5.4`,
+          })),
+          (t[6] = i))
+        : (i = t[6]);
+      let o;
+      (t[7] !== c || t[8] !== a || t[9] !== r
+        ? ((o = (0, JL.jsx)(ya, {
+            color: `primary`,
+            size: `composer`,
+            loading: c,
+            disabled: r,
+            onClick: a,
+            children: i,
+          })),
+          (t[7] = c),
+          (t[8] = a),
+          (t[9] = r),
+          (t[10] = o))
+        : (o = t[10]),
+        (h = o));
+    }
+  }
+  let g;
+  t[11] === p
+    ? (g = t[12])
+    : ((g = (0, JL.jsx)(`div`, { className: `font-medium text-token-foreground`, children: p })),
+      (t[11] = p),
+      (t[12] = g));
+  let _;
+  t[13] === m
+    ? (_ = t[14])
+    : ((_ = (0, JL.jsx)(`div`, {
+        className: `mt-0.5 text-sm leading-[18px] text-token-text-secondary`,
+        children: m,
+      })),
+      (t[13] = m),
+      (t[14] = _));
+  let v;
+  t[15] !== g || t[16] !== _
+    ? ((v = (0, JL.jsxs)(`div`, { className: `min-w-0`, children: [g, _] })),
+      (t[15] = g),
+      (t[16] = _),
+      (t[17] = v))
+    : (v = t[17]);
+  let y = h,
+    b;
+  t[18] === l
+    ? (b = t[19])
+    : ((b = l.formatMessage({
+        id: `codex.cyberSafetyComposerBanner.dismissLabel`,
+        defaultMessage: `Dismiss cybersecurity banner`,
+        description: `Accessible label for dismissing the cybersecurity banner`,
+      })),
+      (t[18] = l),
+      (t[19] = b));
+  let x;
+  t[20] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((x = (0, JL.jsx)(Rn, {})), (t[20] = x))
+    : (x = t[20]);
+  let S;
+  t[21] !== i || t[22] !== b
+    ? ((S = (0, JL.jsx)(ya, {
+        className: `[&>svg]:!icon-xs size-5 self-center !p-0 text-token-text-secondary hover:text-token-foreground`,
+        "aria-label": b,
+        color: `ghost`,
+        size: `iconSm`,
+        uniform: !0,
+        onClick: i,
+        children: x,
+      })),
+      (t[21] = i),
+      (t[22] = b),
+      (t[23] = S))
+    : (S = t[23]);
+  let C;
+  t[24] !== h || t[25] !== S
+    ? ((C = (0, JL.jsxs)(JL.Fragment, { children: [y, S] })), (t[24] = h), (t[25] = S), (t[26] = C))
+    : (C = t[26]);
+  let w;
+  return (
+    t[27] !== C || t[28] !== v
+      ? ((w = (0, JL.jsx)(lm, {
+          type: `info`,
+          Icon: z_,
+          iconClassName: `icon-base text-token-text-secondary`,
+          layout: `horizontal`,
+          className: `text-size-chat border-token-input-border bg-token-input-background/80 px-4 py-3 dark:!border-token-input-border electron:border-0 electron:elevation-prominent extension:shadow-[0_4px_16px_0_rgba(0,0,0,0.05)]`,
+          content: v,
+          customCtas: C,
+        })),
+        (t[27] = C),
+        (t[28] = v),
+        (t[29] = w))
+      : (w = t[29]),
+    w
+  );
+}
+function GL(e) {
+  Ps({ event: e, href: fr, initiator: `open_in_browser_bridge` });
+}
+var KL,
+  qL,
+  JL,
+  YL = e(() => {
+    ((KL = X()),
+      (qL = t(El(), 1)),
+      Y(),
+      md(),
+      _s(),
+      Re(),
+      Bd(),
+      _h(),
+      I_(),
+      N(),
+      gm(),
+      Is(),
+      (JL = Z()));
+  });
+function XL(e) {
+  return Gc(mh, e);
+}
+function ZL(e, t, n) {
+  let r = (0, tR.c)(5),
+    i,
+    a;
+  (r[0] !== t || r[1] !== e || r[2] !== n
+    ? ((i = (r) => {
+        e == null || t == null || r.conversationId !== e || r.browserTabId !== t || n(r);
+      }),
+      (a = [t, e, n]),
+      (r[0] = t),
+      (r[1] = e),
+      (r[2] = n),
+      (r[3] = i),
+      (r[4] = a))
+    : ((i = r[3]), (a = r[4])),
+    qr(`browser-sidebar-direct-comment`, i, a));
+}
+function QL(e, t, n) {
+  let r = (t == null ? null : li(e, t)) ?? n;
+  if (r == null) return null;
+  let i = { bottom: e.get(Up), right: e.get(Fh) && e.get(rg) },
+    a = Vd(r, { bottom: e.get(Oh.activeTab$), right: e.get(np.activeTab$) }, i);
+  if (a.length === 0) return null;
+  let o = a.flatMap((t) => {
+    let n = eR(e, r, t);
+    return n == null ? [] : [n];
+  });
+  if (o.length === 0) return null;
+  let s = Of(e, r).filter(({ browserTabId: t }) => {
+    let n = eR(e, r, t)?.trim() ?? ``;
+    return n.length > 0 && !n.startsWith(`about:blank`);
+  }).length;
+  return { currentUrls: o, isOpen: !0, ...(s > 0 ? { openTabCount: s } : {}) };
+}
+function $L(e, t, n) {
+  if (t != null) return bd(e, t, n);
+}
+function eR(e, t, n) {
+  return bd(e, t, n)?.currentUrls[0] ?? Ql.getSnapshot(t, n)?.url ?? null;
+}
+var tR,
+  nR = e(() => {
+    ((tR = X()), ji(), Ih(), jd(), Jh(), su(), js(), Am(), ml(), hp());
+  });
+function rR({
+  comment: e,
+  ideContext: t,
+  inAppBrowserContext: n,
+  workspaceRoots: r,
+  collaborationMode: i,
+}) {
+  return {
+    prompt: ``,
+    addedFiles: [],
+    fileAttachments: [],
+    ideContext: t,
+    inAppBrowserContext: n,
+    imageAttachments: [],
+    commentAttachments: [e],
+    selectedTextAttachments: [],
+    pullRequestChecks: [],
+    pullRequestMergeConflict: null,
+    workspaceRoots: r,
+    collaborationMode: i,
+  };
+}
+async function iR({
+  message: e,
+  directSubmitBlockReason: t,
+  getIdeContext: n,
+  queuedLocalFollowUp: r,
+  onFallbackToSavedSubmit: i,
+  onBeforeSubmit: a,
+  onCloseOverlay: o,
+  onSubmitSuccess: s,
+  onSubmitError: c,
+  onAfterSubmit: l,
+  shouldResumeInterruptedSteers: u,
+  resumeInterruptedSteers: d,
+  submitTarget: f,
+  inAppBrowserContext: p,
+  workspaceRoots: m,
+  collaborationMode: h,
+}) {
+  if (t != null) {
+    (i(e), o(e));
+    return;
+  }
+  let { comment: g } = e,
+    _ = rR({
+      comment: g,
+      ideContext: await n(),
+      inAppBrowserContext: p,
+      workspaceRoots: m,
+      collaborationMode: h,
+    });
+  if (r != null) {
+    a(`queue`);
+    try {
+      (await r.enqueue({ text: e.body, context: _, cwd: r.cwd }), o(e));
+    } catch (e) {
+      c(e);
+    } finally {
+      l();
+    }
+    return;
+  }
+  a(`steer`);
+  try {
+    let t = await aR({ localContext: _, target: f });
+    (o(e), u && d(), s?.(t));
+  } catch (e) {
+    c(e);
+  } finally {
+    l();
+  }
+}
+async function aR({ localContext: e, target: t }) {
+  switch (t.type) {
+    case `local`:
+      return t.submit(e, t.cwd, void 0, t.executionOptions);
+    case `worktree`:
+      return (
+        await t.submit(
+          e,
+          t.cwd,
+          t.startingState,
+          t.environmentConfigPath,
+          t.executionOptions,
+          t.projectAssignment,
+        ),
+        null
+      );
+    case `cloud`:
+      return (
+        await t.submit({
+          prompt: e.prompt,
+          addedFiles: e.addedFiles,
+          fileAttachments: e.fileAttachments,
+          ideContext: e.ideContext,
+          inAppBrowserContext: e.inAppBrowserContext,
+          imageAttachments: e.imageAttachments,
+          appshotContexts: e.appshotContexts,
+          commentAttachments: e.commentAttachments,
+          selectedTextAttachments: e.selectedTextAttachments,
+          pullRequestChecks: e.pullRequestChecks,
+          cloudTaskType: t.cloudTaskType,
+          repo: t.repo,
+        }),
+        null
+      );
+  }
+}
+var oR = e(() => {});
+function sR(e, t) {
+  return (0, lR.default)([...t, ...cR(e)], (e) => {
+    let t = uR.indexOf(e.key);
+    return t === -1 ? 1 / 0 : t;
+  });
+}
+function cR(e) {
+  return Gy(e, `@`).flatMap((e) =>
+    e.onSelect == null
+      ? []
+      : [
+          {
+            action: e.onSelect,
+            detail: e.description ?? null,
+            icon: e.Icon,
+            key: `command:${e.id}`,
+            label: e.title,
+            type: `action`,
+          },
+        ],
+  );
+}
+var lR,
+  uR,
+  dR = e(() => {
+    ((lR = t(_p(), 1)),
+      Hy(),
+      (uR = [
+        `context-action:pick-local-files`,
+        `context-action:capture-appshot`,
+        `command:goal`,
+        `command:plan-mode`,
+      ]));
+  });
+function fR({
+  sharedPrefillCwd: e,
+  locationPrefillCwd: t,
+  localConversationCwd: n,
+  selectedRemoteProjectPath: r,
+  defaultCwd: i,
+  workspaceRoots: a,
+  activeWorkspaceRoot: o,
+  codexHome: s,
+  canUseProjectlessThreads: c,
+}) {
+  return (
+    e ||
+    t ||
+    n ||
+    r ||
+    i ||
+    a.find((e) => ti(e, s ?? void 0)) ||
+    (o && o !== `/` ? o : c ? `~` : `/`)
+  );
+}
+var pR = e(() => {
+  Xa();
+});
+function mR({ hostId: e, navigate: t, section: n, setSelectedHostId: r }) {
+  (r(e), t(`/settings/${n}`));
+}
+var hR = e(() => {
+  js();
+});
+function gR(e) {
+  let t = (0, _R.c)(15),
+    { count: n, onReviewHooks: r, onTrustAllHooks: i } = e,
+    a;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((a = (0, vR.jsx)(Yh, { className: `icon-2xs text-token-editor-warning-foreground` })),
+      (t[0] = a))
+    : (a = t[0]);
+  let o;
+  t[1] === n
+    ? (o = t[2])
+    : ((o = (0, vR.jsx)(J, {
+        id: `codex.hooksReviewBanner.summary`,
+        defaultMessage: `{count, plural, one {# hook needs review before it can run} other {# hooks need review before they can run}}`,
+        description: `Banner text shown when hooks need user review before they can run`,
+        values: { count: n },
+      })),
+      (t[1] = n),
+      (t[2] = o));
+  let s;
+  t[3] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((s = (0, vR.jsx)(J, {
+        id: `codex.hooksReviewBanner.trustAll`,
+        defaultMessage: `Trust all`,
+        description: `Button label to trust every hook awaiting review from the composer banner`,
+      })),
+      (t[3] = s))
+    : (s = t[3]);
+  let c;
+  t[4] === i
+    ? (c = t[5])
+    : ((c = (0, vR.jsx)(ya, { color: `ghostActive`, size: `composerSm`, onClick: i, children: s })),
+      (t[4] = i),
+      (t[5] = c));
+  let l;
+  t[6] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((l = (0, vR.jsx)(J, {
+        id: `codex.hooksReviewBanner.review`,
+        defaultMessage: `Review hooks`,
+        description: `Button label to open hooks settings from the composer banner`,
+      })),
+      (t[6] = l))
+    : (l = t[6]);
+  let u;
+  t[7] === r
+    ? (u = t[8])
+    : ((u = (0, vR.jsx)(ya, { color: `ghostActive`, size: `composerSm`, onClick: r, children: l })),
+      (t[7] = r),
+      (t[8] = u));
+  let d;
+  t[9] !== c || t[10] !== u
+    ? ((d = (0, vR.jsxs)(vR.Fragment, { children: [c, u] })), (t[9] = c), (t[10] = u), (t[11] = d))
+    : (d = t[11]);
+  let f;
+  return (
+    t[12] !== o || t[13] !== d
+      ? ((f = (0, vR.jsx)(ew, {
+          className: `bg-token-editor-warning-background/20`,
+          children: (0, vR.jsx)(vk, {
+            className: `px-3 py-1.5`,
+            icon: a,
+            titleClassName: `text-token-text-secondary`,
+            title: o,
+            actions: d,
+          }),
+        })),
+        (t[12] = o),
+        (t[13] = d),
+        (t[14] = f))
+      : (f = t[14]),
+    f
+  );
+}
+var _R,
+  vR,
+  yR = e(() => {
+    ((_R = X()), Y(), _s(), rp(), xk(), aw(), (vR = Z()));
+  });
+function bR(e) {
+  let t = (0, SR.c)(13),
+    { count: n, hooksNeedingReview: r, hostId: i, projectRoot: a } = e,
+    o = Hc(),
+    { setSelectedHostId: s } = sd(),
+    c = Gc(Ta, i),
+    l;
+  t[0] !== r || t[1] !== c
+    ? ((l = () => {
+        r != null && c.mutate(r.map(xR));
+      }),
+      (t[0] = r),
+      (t[1] = c),
+      (t[2] = l))
+    : (l = t[2]);
+  let u;
+  t[3] !== r || t[4] !== i || t[5] !== o || t[6] !== a || t[7] !== s
+    ? ((u = () => {
+        mR({
+          hostId: i,
+          navigate: o,
+          section: sh({ hooks: r ?? [], hostId: i, projectRoot: a }),
+          setSelectedHostId: s,
+        });
+      }),
+      (t[3] = r),
+      (t[4] = i),
+      (t[5] = o),
+      (t[6] = a),
+      (t[7] = s),
+      (t[8] = u))
+    : (u = t[8]);
+  let d;
+  return (
+    t[9] !== n || t[10] !== l || t[11] !== u
+      ? ((d = (0, CR.jsx)(gR, { count: n, onTrustAllHooks: l, onReviewHooks: u })),
+        (t[9] = n),
+        (t[10] = l),
+        (t[11] = u),
+        (t[12] = d))
+      : (d = t[12]),
+    d
+  );
+}
+function xR(e) {
+  return { key: e.key, trustedHash: e.currentHash };
+}
+var SR,
+  CR,
+  wR = e(() => {
+    ((SR = X()), ji(), Oi(), hR(), Mc(), tp(), Eu(), yR(), (CR = Z()));
+  });
+async function TR(e, t) {
+  return null;
+}
+var ER = e(() => {});
+async function DR({ scope: e, conversationId: t }) {
+  return (await TR(e, t)) ?? null;
+}
+var OR = e(() => {
+  ER();
+});
+function kR({
+  composerMode: e,
+  followUpType: t,
+  localExecutionRemoteHostId: n,
+  worktreeExecutionHostId: r,
+  worktreeExecutionCwd: i,
+  mcpManagerHostId: a,
+  currentRemoteCwd: o,
+}) {
+  let s = e === `local` && n != null && (t == null || t === `cloud` || a === `local`);
+  return e === `worktree` && r != null
+    ? { hostId: r, cwdOverride: i }
+    : { hostId: s && n != null ? n : (a ?? `local`), cwdOverride: s ? o : void 0 };
+}
+var AR = e(() => {
+    ao();
+  }),
+  jR,
+  MR = e(() => {
+    (wt(),
+      Fe(),
+      jn(),
+      (jR = Ct(et, `projectless-workspace-root`, {
+        select: ({ workspaceRoot: e }) => e,
+        staleTime: kr.INFINITE,
+      })));
+  });
+function NR(e) {
+  return FR.has(e) ? !1 : (FR.add(e), !0);
+}
+function PR(e) {
+  FR.delete(e);
+}
+var FR,
+  IR = e(() => {
+    FR = new Set();
+  });
+function LR({ context: e, isRemoteHost: t, shouldRestrictRemoteHostImageSize: n = !1 }) {
+  return {
+    input: [
+      { type: `text`, text: Yn(e), text_elements: [] },
+      ...oh(e, t, { shouldRestrictRemoteHostImageSize: n }),
+    ],
+    attachments: nc([
+      ...i(e.fileAttachments, e.pastedTextAttachments),
+      ...e.addedFiles,
+      ...Ci(e.imageAttachments),
+    ]),
+    commentAttachments: e.commentAttachments,
+  };
+}
+function RR(e, t) {
+  return Ks(`local`, t, e.pastedTextAttachments ?? []);
+}
+function zR({
+  conversationNeedsResume: e,
+  hasConversation: t,
+  latestTurn: n,
+  message: r,
+  streamRole: i,
+}) {
+  if (r.pausedReason || !t || i?.role === `follower` || n?.status === `inProgress`) return !0;
+  if (e || n?.status !== `completed`) return !1;
+  let a = n.items.some((e) => e.type === `agentMessage`),
+    o = n.items.some(
+      (e) => e.type === `contextCompaction` && `source` in e && e.source === `manual`,
+    );
+  return !a && !o;
+}
+var BR,
+  VR = e(() => {
+    (Kc(), Ao(), ss(), im(), to(), (BR = `pasted-text-unavailable`));
+  });
+function HR({
+  conversationId: e,
+  executionHostId: t,
+  messageId: n,
+  queuedMessages: r,
+  removeQueuedMessage: i,
+  updateQueuedMessage: a,
+  onSendResult: o,
+  onSubmitLocal: s,
+}) {
+  if (!e) return;
+  let c = r.find((e) => e.id === n);
+  if (c) {
+    if (RR(c.context, t)) {
+      a(n, (e) => ({ ...e, pausedReason: BR }));
+      return;
+    }
+    NR(e) &&
+      (async () => {
+        try {
+          o?.(`attempted`);
+          let e = await s(c.context, c.cwd, void 0, void 0, c);
+          (o?.(`succeeded`, e), i(n));
+        } catch (e) {
+          (o?.(`failed`), a(n, (t) => ({ ...t, pausedReason: Jc(e) })));
+        } finally {
+          PR(e);
+        }
+      })();
+  }
+}
+var UR = e(() => {
+  (Xa(), IR(), VR());
+});
+function WR(e) {
+  let t = (0, qR.c)(27),
+    {
+      conversationId: n,
+      executionHostId: r,
+      focusComposer: i,
+      incrementAttachmentGeneration: a,
+      onSubmitLocal: o,
+      queuedFollowUps: s,
+      remoteSshMessageAnalyticsContext: c,
+      setComments: l,
+      setPriorConversation: u,
+    } = e,
+    d = qn(di),
+    f = yh(),
+    p = de(Qc),
+    [m, h] = (0, JR.useState)(null),
+    g = m?.messageId ?? null,
+    _;
+  t[0] === d
+    ? (_ = t[1])
+    : ((_ = (e, t) => {
+        kt(d, e, t);
+      }),
+      (t[0] = d),
+      (t[1] = _));
+  let v;
+  t[2] === f
+    ? (v = t[3])
+    : ((v = (e) => {
+        f.setPromptText(e);
+      }),
+      (t[2] = f),
+      (t[3] = v));
+  let y;
+  t[4] === f
+    ? (y = t[5])
+    : ((y = (e) => {
+        f.setText(e);
+      }),
+      (t[4] = f),
+      (t[5] = y));
+  let b;
+  t[6] !== n ||
+  t[7] !== m ||
+  t[8] !== r ||
+  t[9] !== i ||
+  t[10] !== a ||
+  t[11] !== o ||
+  t[12] !== p ||
+  t[13] !== s.actions.remove ||
+  t[14] !== s.actions.reorder ||
+  t[15] !== s.actions.update ||
+  t[16] !== s.messages ||
+  t[17] !== c ||
+  t[18] !== l ||
+  t[19] !== u ||
+  t[20] !== _ ||
+  t[21] !== v ||
+  t[22] !== y
+    ? ((b = GR({
+        conversationId: n,
+        editingMessagePosition: m,
+        executionHostId: r,
+        focusComposer: i,
+        incrementAttachmentGeneration: a,
+        onSubmitLocal: o,
+        pastedTextAttachments: p,
+        queuedMessages: s.messages,
+        remoteSshMessageAnalyticsContext: c,
+        removeQueuedMessage: s.actions.remove,
+        reorderQueuedMessages: s.actions.reorder,
+        setComments: l,
+        setComposerStateField: _,
+        setEditingMessagePosition: h,
+        setPromptText: v,
+        setPriorConversation: u,
+        setText: y,
+        updateQueuedMessage: s.actions.update,
+      })),
+      (t[6] = n),
+      (t[7] = m),
+      (t[8] = r),
+      (t[9] = i),
+      (t[10] = a),
+      (t[11] = o),
+      (t[12] = p),
+      (t[13] = s.actions.remove),
+      (t[14] = s.actions.reorder),
+      (t[15] = s.actions.update),
+      (t[16] = s.messages),
+      (t[17] = c),
+      (t[18] = l),
+      (t[19] = u),
+      (t[20] = _),
+      (t[21] = v),
+      (t[22] = y),
+      (t[23] = b))
+    : (b = t[23]);
+  let x;
+  return (
+    t[24] !== g || t[25] !== b
+      ? ((x = { editingMessageId: g, ...b }), (t[24] = g), (t[25] = b), (t[26] = x))
+      : (x = t[26]),
+    x
+  );
+}
+function GR({
+  conversationId: e,
+  editingMessagePosition: t,
+  executionHostId: n,
+  focusComposer: r,
+  incrementAttachmentGeneration: i,
+  onSubmitLocal: a,
+  pastedTextAttachments: o,
+  queuedMessages: s,
+  remoteSshMessageAnalyticsContext: c,
+  removeQueuedMessage: l,
+  reorderQueuedMessages: u,
+  setComments: d,
+  setComposerStateField: f,
+  setEditingMessagePosition: p,
+  setPromptText: m,
+  setPriorConversation: h,
+  setText: g,
+  updateQueuedMessage: _,
+}) {
+  return {
+    handleDeleteMessage: (e) => {
+      let t = s.find((t) => t.id === e);
+      (t != null && Ge(n, t.context.fileAttachments, t.context.pastedTextAttachments ?? []), l(e));
+    },
+    handleEditMessage: (e) => {
+      let t = s.findIndex((t) => t.id === e),
+        a = s[t];
+      if (a == null) return;
+      (i(),
+        ar(n, o),
+        l(e),
+        p({
+          messageId: e,
+          previousMessageId: s[t - 1]?.id ?? null,
+          nextMessageId: s[t + 1]?.id ?? null,
+        }),
+        Lr(a.text) ? m(a.text) : g(a.text));
+      let c = new Set(ft(a.context.fileAttachments, a.context.generatedPastedTextAttachmentPaths)),
+        u = a.context.pastedTextAttachments ?? KR(a.context.fileAttachments, c, n);
+      (f(`imageAttachments`, a.context.imageAttachments),
+        f(`imageCommentDraft`, a.context.imageCommentDraft ?? null),
+        f(`appshotContexts`, a.context.appshotContexts ?? []),
+        f(`fileAttachments`, nc(a.context.fileAttachments.filter((e) => !c.has(e.path)))),
+        f(`pastedTextAttachments`, gc(u, n)),
+        f(`addedFiles`, nc(a.context.addedFiles)),
+        d(a.context.commentAttachments ?? []),
+        f(`mcpAppModelContextAttachments`, a.context.mcpAppModelContextAttachments ?? []),
+        f(`selectedTextAttachments`, a.context.selectedTextAttachments ?? []),
+        f(`pullRequestChecks`, a.context.pullRequestChecks ?? []),
+        f(`pullRequestMergeConflict`, a.context.pullRequestMergeConflict ?? null),
+        h(a.context.priorConversation ?? null),
+        r());
+    },
+    handleEditedMessageSubmitted: (e) => {
+      if (t != null) {
+        if (e != null) {
+          let n = s.map((e) => e.id).filter((t) => t !== e),
+            r = t.nextMessageId == null ? -1 : n.indexOf(t.nextMessageId),
+            i = t.previousMessageId == null ? -1 : n.indexOf(t.previousMessageId),
+            a = n.length;
+          (r === -1 ? i !== -1 && (a = i + 1) : (a = r), n.splice(a, 0, e), u(n));
+        }
+        p(null);
+      }
+    },
+    handleSendNowMessage: (t) => {
+      HR({
+        conversationId: e,
+        executionHostId: n,
+        messageId: t,
+        queuedMessages: s,
+        removeQueuedMessage: l,
+        updateQueuedMessage: _,
+        onSendResult: (e, t) => {
+          cx(c, e, { turnId: t?.turnId });
+        },
+        onSubmitLocal: a,
+      });
+    },
+  };
+}
+function KR(e, t, n) {
+  return e
+    .filter((e) => t.has(e.path))
+    .map((e) => ({ characterCount: m + 1, file: e, hostId: n, preview: `` }));
+}
+var qR,
+  JR,
+  YR = e(() => {
+    ((qR = X()),
+      ji(),
+      Xa(),
+      (JR = t(El(), 1)),
+      px(),
+      R(),
+      Vt(),
+      Ao(),
+      to(),
+      Ms(),
+      bt(),
+      Dp(),
+      UR());
+  });
+function XR(e) {
+  return e.url == null || e.url === `` ? null : Hp(e, QR);
+}
+function ZR(e) {
+  return Hp(e, $R);
+}
+var QR,
+  $R,
+  ez,
+  tz,
+  nz,
+  rz = e(() => {
+    (Yf(),
+      (QR = `https://openai.com/form/life-sciences-access/`),
+      ($R = `https://openai.com/form/enterprise-trusted-access-for-cyber/`),
+      (ez = `1204019290`),
+      (tz = `2362998955`),
+      (nz = `2071275089`));
+  });
+function iz(e) {
+  let t = (0, az.c)(41),
+    { domain: n, threadId: r, turnId: i } = e,
+    a = qn(et),
+    o = Xi() === !0,
+    { value: s } = Jt(ez),
+    { value: c } = Jt(tz),
+    { value: l } = Jt(nz),
+    u;
+  t[0] === l ? (u = t[1]) : ((u = Hp(l, uz)), (t[0] = l), (t[1] = u));
+  let d = u,
+    f = dz[n],
+    p = (0, oz.useRef)(null),
+    m;
+  t[2] !== f || t[3] !== a || t[4] !== r || t[5] !== i
+    ? ((m = (e) => {
+        Va(a, jr, {
+          action: e,
+          protectionType: f,
+          surface: mt.CODEX_SAFETY_UX_SURFACE_BLOCK,
+          threadId: r ?? void 0,
+          turnId: i ?? void 0,
+        });
+      }),
+      (t[2] = f),
+      (t[3] = a),
+      (t[4] = r),
+      (t[5] = i),
+      (t[6] = m))
+    : (m = t[6]);
+  let h = m,
+    g,
+    _;
+  (t[7] !== f || t[8] !== a || t[9] !== r || t[10] !== i
+    ? ((g = () => {
+        p.current !== f &&
+          ((p.current = f),
+          Va(a, jr, {
+            action: or.CODEX_SAFETY_UX_ACTION_SHOWN,
+            protectionType: f,
+            surface: mt.CODEX_SAFETY_UX_SURFACE_BLOCK,
+            threadId: r ?? void 0,
+            turnId: i ?? void 0,
+          }));
+      }),
+      (_ = [f, a, r, i]),
+      (t[7] = f),
+      (t[8] = a),
+      (t[9] = r),
+      (t[10] = i),
+      (t[11] = g),
+      (t[12] = _))
+    : ((g = t[11]), (_ = t[12])),
+    (0, oz.useEffect)(g, _));
+  let v;
+  t[13] === h
+    ? (v = t[14])
+    : ((v = (e, t, n) =>
+        (0, sz.jsx)(
+          lg,
+          {
+            className: `cursor-interaction underline underline-offset-2 hover:text-token-foreground focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-token-focus-border`,
+            href: e,
+            initiator: `open_in_browser_bridge`,
+            isBrowserSidebarEnabled: !1,
+            onClickCapture: n == null ? void 0 : () => h(n),
+            children: t,
+          },
+          e,
+        )),
+      (t[13] = h),
+      (t[14] = v));
+  let y = v,
+    b;
+  if (n === `bio`) {
+    let e;
+    t[15] === s ? (e = t[16]) : ((e = XR(s)), (t[15] = s), (t[16] = e));
+    let n = e,
+      r;
+    (t[17] !== y || t[18] !== n
+      ? ((r =
+          n == null
+            ? (0, sz.jsx)(J, {
+                id: `codex.safetyComposerBanner.bio.unavailableBody`,
+                defaultMessage: `We've limited access to this content for safety reasons. This type of information may be used to benefit or to harm people. We are continuously refining our work in this area, and you can read more about our approach in our <blogLink>blog post</blogLink> and <modelSpecLink>Model Spec</modelSpecLink>.`,
+                description: `Body for the bio safety access banner when Trusted Access is unavailable`,
+                values: { blogLink: (e) => y(cz, e), modelSpecLink: (e) => y(lz, e) },
+              })
+            : (0, sz.jsx)(J, {
+                id: `codex.safetyComposerBanner.bio.body`,
+                defaultMessage: `We take extra caution with requests involving biological research and applications that could pose safety risks. If you’re a researcher at an approved organization, you may be able to apply for <link>Trusted Access</link>.`,
+                description: `Body for bio safety access banner`,
+                values: { link: (e) => y(n, e, or.CODEX_SAFETY_UX_ACTION_TRUSTED_ACCESS_CLICKED) },
+              })),
+        (t[17] = y),
+        (t[18] = n),
+        (t[19] = r))
+      : (r = t[19]),
+      (b = r));
+  } else {
+    let e;
+    t[20] === c ? (e = t[21]) : ((e = ZR(c)), (t[20] = c), (t[21] = e));
+    let n = e,
+      r;
+    (t[22] !== y || t[23] !== n
+      ? ((r = (0, sz.jsx)(J, {
+          id: `codex.safetyComposerBanner.cyber.body`,
+          defaultMessage: `We take extra caution with cybersecurity requests. If you’re a security professional, you may be able to apply for <link>Trusted Access</link>.`,
+          description: `Body for cyber safety access banner`,
+          values: { link: (e) => y(n, e, or.CODEX_SAFETY_UX_ACTION_TRUSTED_ACCESS_CLICKED) },
+        })),
+        (t[22] = y),
+        (t[23] = n),
+        (t[24] = r))
+      : (r = t[24]),
+      (b = r));
+  }
+  let x;
+  t[25] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((x = (0, sz.jsx)(z_, { className: `icon-base shrink-0 text-token-text-secondary` })),
+      (t[25] = x))
+    : (x = t[25]);
+  let S;
+  t[26] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((S = (0, sz.jsx)(`div`, {
+        className: `text-base leading-5 font-medium text-token-foreground`,
+        children: (0, sz.jsx)(J, {
+          id: `codex.safetyComposerBanner.title`,
+          defaultMessage: `This content can't be shown`,
+          description: `Title for bio/cyber safety access banner`,
+        }),
+      })),
+      (t[26] = S))
+    : (S = t[26]);
+  let C;
+  t[27] === b
+    ? (C = t[28])
+    : ((C = (0, sz.jsxs)(`div`, {
+        className: `min-w-0 flex-1`,
+        children: [
+          S,
+          (0, sz.jsx)(`div`, {
+            className: `mt-2 text-sm leading-[18px] text-token-text-secondary`,
+            children: b,
+          }),
+        ],
+      })),
+      (t[27] = b),
+      (t[28] = C));
+  let w = o
+      ? `!bg-white !text-black hover:!bg-white/80`
+      : `!bg-black !text-white hover:!bg-black/80`,
+    T;
+  t[29] === w
+    ? (T = t[30])
+    : ((T = qc(
+        `flex h-9 shrink-0 cursor-interaction items-center rounded-full border border-transparent px-4 text-base leading-[18px] whitespace-nowrap focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-token-focus-border`,
+        w,
+      )),
+      (t[29] = w),
+      (t[30] = T));
+  let E;
+  t[31] === h
+    ? (E = t[32])
+    : ((E = () => {
+        h(or.CODEX_SAFETY_UX_ACTION_LEARN_MORE_CLICKED);
+      }),
+      (t[31] = h),
+      (t[32] = E));
+  let D;
+  t[33] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((D = (0, sz.jsx)(J, {
+        id: `codex.safetyComposerBanner.learnMore`,
+        defaultMessage: `Learn more`,
+        description: `Button linking to more information about safety buffering`,
+      })),
+      (t[33] = D))
+    : (D = t[33]);
+  let O;
+  t[34] !== d || t[35] !== T || t[36] !== E
+    ? ((O = (0, sz.jsx)(lg, {
+        className: T,
+        href: d,
+        initiator: `open_in_browser_bridge`,
+        isBrowserSidebarEnabled: !1,
+        onClickCapture: E,
+        children: D,
+      })),
+      (t[34] = d),
+      (t[35] = T),
+      (t[36] = E),
+      (t[37] = O))
+    : (O = t[37]);
+  let k;
+  return (
+    t[38] !== O || t[39] !== C
+      ? ((k = (0, sz.jsxs)(`aside`, {
+          className: `mx-auto flex w-full max-w-[1256px] items-center gap-6 rounded-[32px] border border-token-input-border bg-token-input-background px-12 py-3 text-token-foreground shadow-[0_1px_2px_rgba(0,0,0,0.03)] max-sm:gap-3 max-sm:px-4 max-sm:py-2`,
+          role: `status`,
+          "aria-live": `polite`,
+          children: [x, C, O],
+        })),
+        (t[38] = O),
+        (t[39] = C),
+        (t[40] = k))
+      : (k = t[40]),
+    k
+  );
+}
+var az,
+  oz,
+  sz,
+  cz,
+  lz,
+  uz,
+  dz,
+  fz = e(() => {
+    ((az = X()),
+      fl(),
+      Xn(),
+      ji(),
+      (oz = t(El(), 1)),
+      Y(),
+      Yl(),
+      I_(),
+      ys(),
+      wt(),
+      Lt(),
+      Yf(),
+      Ec(),
+      rz(),
+      (sz = Z()),
+      (cz = `https://openai.com/index/preparing-for-future-ai-capabilities-in-biology/`),
+      (lz = `https://openai.com/index/introducing-the-model-spec/`),
+      (uz = `https://help.openai.com/en/articles/20001326`),
+      (dz = {
+        bio: Le.CODEX_SAFETY_UX_PROTECTION_TYPE_BIO,
+        cyber: Le.CODEX_SAFETY_UX_PROTECTION_TYPE_CYBER,
+      }));
+  });
+function pz({
+  composerLayoutMode: e,
+  hasVisibleAttachments: t,
+  isEditorMultiline: n,
+  isVoiceLayoutActive: r,
+  lockedLayout: i,
+  singleLineInputWidth: a,
+  singleLineTextWidth: o,
+}) {
+  switch (e) {
+    case `multiline`:
+      return !1;
+    case `auto-single-line`:
+      return t || n || r ? !1 : i == null ? (a == null ? !0 : o + mz <= a) : i === `single-line`;
+  }
+}
+var mz,
+  hz = e(() => {
+    mz = 32;
+  });
+function gz(e) {
+  let t = (0, _z.c)(13),
+    { enabled: n, onOpenSideChat: r } = e,
+    i = Ns(),
+    a;
+  t[0] === i
+    ? (a = t[1])
+    : ((a = i.formatMessage({
+        id: `composer.sideSlashCommand.title`,
+        defaultMessage: `Side`,
+        description: `Title for the side chat slash command`,
+      })),
+      (t[0] = i),
+      (t[1] = a));
+  let o;
+  t[2] === i
+    ? (o = t[3])
+    : ((o = i.formatMessage({
+        id: `composer.sideSlashCommand.description`,
+        defaultMessage: `Start a side conversation in an ephemeral fork`,
+        description: `Description for the side chat slash command`,
+      })),
+      (t[2] = i),
+      (t[3] = o));
+  let s;
+  t[4] !== n || t[5] !== r ? ((s = [n, r]), (t[4] = n), (t[5] = r), (t[6] = s)) : (s = t[6]);
+  let c;
+  return (
+    t[7] !== n || t[8] !== r || t[9] !== a || t[10] !== o || t[11] !== s
+      ? ((c = {
+          id: `side`,
+          title: a,
+          description: o,
+          requiresEmptyComposer: !1,
+          Icon: _v,
+          enabled: n,
+          onSelect: r,
+          dependencies: s,
+        }),
+        (t[7] = n),
+        (t[8] = r),
+        (t[9] = a),
+        (t[10] = o),
+        (t[11] = s),
+        (t[12] = c))
+      : (c = t[12]),
+    By(c),
+    null
+  );
+}
+var _z,
+  vz = e(() => {
+    ((_z = X()), Y(), pv(), Hy());
+  });
+function yz(e) {
+  return Sz({
+    ...xz(e),
+    disableSubmitForUnsupportedImageInputs:
+      !e.supportsImageInputs &&
+      (e.imageAttachments.length > 0 || e.hasAppshotContexts || e.hasCommentImages),
+    disableSubmitForImageUploads:
+      e.composerMode === `cloud` && e.imageAttachments.some((e) => e.uploadStatus === `uploading`),
+    disableSubmitForFileUploads: e.hasPendingFileAttachments,
+    hasUnavailablePastedTextAttachments: e.hasUnavailablePastedTextAttachments,
+    hasMessageContent: e.hasMessageContent,
+  });
+}
+function bz(e) {
+  return Sz({
+    ...xz(e, { blockPendingPermissionsInCloud: !0 }),
+    disableSubmitForUnsupportedImageInputs: !e.supportsImageInputs && kz(e.comment),
+    disableSubmitForImageUploads: !1,
+    disableSubmitForFileUploads: !1,
+    hasUnavailablePastedTextAttachments: !1,
+    hasMessageContent: !0,
+  });
+}
+function xz(e, { blockPendingPermissionsInCloud: t = !1 } = {}) {
+  return {
+    hasWindowsSandboxRequirementError:
+      e.agentMode !== `read-only` && e.hasWindowsSandboxRequirementError,
+    windowsSandboxRequirement: e.isWindowsSandboxSetupPending
+      ? `setup`
+      : e.agentMode === `read-only`
+        ? null
+        : e.windowsSandboxRequirement,
+    disableSubmitForPendingPermissionsMode:
+      (t || e.composerMode !== `cloud`) &&
+      (e.isAgentModePending ||
+        (e.agentMode !== `read-only` &&
+          e.isWindowsSandboxRequirementPending &&
+          !e.isWindowsSandboxSetupPending)),
+    isMissingWorkspaceRoots: Az(e),
+    isRestorableWorkingDirectory:
+      e.composerMode === `local` && e.localWorkspaceMaterialization === `restorable`,
+    isMissingWorkingDirectory:
+      e.composerMode === `local` && e.localWorkspaceMaterialization === `gone`,
+    isWorkspaceStatusUnavailable:
+      e.composerMode === `local` &&
+      e.localWorkspaceMaterialization === `unavailable` &&
+      !(e.isLocalModeOnRemoteHost && e.followUp?.type === `local`),
+    disableSubmitForMissingLocalConfig:
+      (e.composerMode === `local` && e.localWorkspaceMaterialization === `loading`) || Cz(e),
+    disableSubmitForDisconnectedRemoteHost: wz(e),
+    disableSubmitForLoginRequiredRemoteHost: Tz(e),
+    disableSubmitForMissingRemoteProjectPath: Ez(e),
+    disableSubmitForMissingCloudConfig: Dz(e),
+    disableForMissingFollowUpCloudTurn: Oz(e),
+  };
+}
+function Sz({
+  hasWindowsSandboxRequirementError: e,
+  windowsSandboxRequirement: t,
+  disableSubmitForPendingPermissionsMode: n,
+  isMissingWorkspaceRoots: r,
+  isRestorableWorkingDirectory: i,
+  isMissingWorkingDirectory: a,
+  isWorkspaceStatusUnavailable: o,
+  disableSubmitForMissingLocalConfig: s,
+  disableSubmitForDisconnectedRemoteHost: c,
+  disableSubmitForLoginRequiredRemoteHost: l,
+  disableSubmitForMissingRemoteProjectPath: u,
+  disableSubmitForMissingCloudConfig: d,
+  disableSubmitForUnsupportedImageInputs: f,
+  disableSubmitForImageUploads: p,
+  disableSubmitForFileUploads: m,
+  hasUnavailablePastedTextAttachments: h,
+  disableForMissingFollowUpCloudTurn: g,
+  hasMessageContent: _,
+}) {
+  return e
+    ? `windows-sandbox-readiness-error`
+    : t === `setup`
+      ? `windows-sandbox-required`
+      : t === `update`
+        ? `windows-sandbox-update-required`
+        : n
+          ? `loading-local-config`
+          : r
+            ? `missing-workspace`
+            : i
+              ? `restorable-working-directory`
+              : a
+                ? `missing-working-directory`
+                : o
+                  ? `workspace-status-unavailable`
+                  : s
+                    ? `loading-local-config`
+                    : c
+                      ? `remote-disconnected`
+                      : l
+                        ? `remote-login-required`
+                        : u
+                          ? `missing-remote-project-path`
+                          : d
+                            ? `missing-cloud-config`
+                            : f
+                              ? `unsupported-image-inputs`
+                              : p
+                                ? `image-uploads`
+                                : m
+                                  ? `file-uploads`
+                                  : h
+                                    ? `pasted-text-unavailable`
+                                    : g
+                                      ? `missing-cloud-turn`
+                                      : _
+                                        ? null
+                                        : `empty-message`;
+}
+function Cz({ composerMode: e, workspaceRootsLoading: t, workspaceRootsForSubmit: n }) {
+  return e === `local` && t && !n.some((e) => e !== `/`);
+}
+function wz({ isLocalModeOnRemoteHost: e, localRemoteConnectionState: t }) {
+  return e && t === `disconnected`;
+}
+function Tz({ isLocalModeOnRemoteHost: e, remoteConnectionError: t }) {
+  return e && t?.code === `login-required`;
+}
+function Ez({ isLocalModeOnRemoteHost: e, currentRemoteCwd: t }) {
+  return e && t == null;
+}
+function Dz({
+  composerMode: e,
+  followUpCloudStartingState: t,
+  isWorktreeSnapshotsEnabled: n,
+  codeEnvironment: r,
+}) {
+  return e === `cloud` && t !== `direct-follow-up` && !n && !r;
+}
+function Oz({ followUp: e }) {
+  return e?.type === `cloud` && !e.selectedTurnId;
+}
+function kz(e) {
+  return (
+    e.localBrowserScreenshot != null ||
+    e.localPdfScreenshot != null ||
+    (e.localBrowserAttachedImages?.length ?? 0) > 0
+  );
+}
+function Az({
+  composerMode: e,
+  workspaceRootsLoading: t,
+  workspaceRootsForSubmit: n,
+  canUseProjectlessThreads: r,
+  isProjectlessConversation: i,
+  isBrowserEnvironmentSelectionActive: a,
+  isRemoteProjectExecution: o,
+}) {
+  let s = sc(n),
+    c = e === `local` && (i || (r && s)),
+    l = (n.some((e) => e !== `/`) || o) && !s;
+  return e !== `cloud` && !t && !l && !c && !(e === `local` && a);
+}
+function jz({ submitBlockReason: e, intl: t, imageInputUnsupportedReason: n }) {
+  switch (e) {
+    case `windows-sandbox-required`:
+      return t.formatMessage({
+        id: `composer.submit.windowsSandboxRequired`,
+        defaultMessage: `Set up Agent sandbox to continue`,
+        description: `Message shown when submitting is disabled until Windows sandbox setup finishes`,
+      });
+    case `windows-sandbox-update-required`:
+      return t.formatMessage({
+        id: `composer.submit.windowsSandboxUpdateRequired`,
+        defaultMessage: `Update Agent sandbox to continue`,
+        description: `Message shown when submitting is disabled until the Windows sandbox update finishes`,
+      });
+    case `windows-sandbox-readiness-error`:
+      return t.formatMessage({
+        id: `composer.submit.windowsSandboxReadinessError`,
+        defaultMessage: `Couldn't check Agent sandbox status`,
+        description: `Message shown when submitting is disabled because the Windows sandbox readiness check failed`,
+      });
+    case `missing-workspace`:
+      return t.formatMessage({
+        id: `composer.submit.noWorkspace`,
+        defaultMessage: `Add a project to use Codex`,
+        description: `Message shown when the extension has no workspace folders available`,
+      });
+    case `restorable-working-directory`:
+      return t.formatMessage({
+        id: `composer.submit.restorableWorkingDirectory`,
+        defaultMessage: `Restore the worktree to continue`,
+        description: `Message shown when submitting is disabled because a cleaned-up worktree must be restored`,
+      });
+    case `missing-working-directory`:
+      return t.formatMessage({
+        id: `composer.submit.missingWorkingDirectory`,
+        defaultMessage: `This chat's working directory no longer exists`,
+        description: `Message shown when submitting is disabled because the working directory is gone and cannot be restored`,
+      });
+    case `workspace-status-unavailable`:
+      return t.formatMessage({
+        id: `composer.submit.workspaceStatusUnavailable`,
+        defaultMessage: `Couldn't check worktree status`,
+        description: `Message shown when submitting is disabled because the managed worktree cannot be inspected`,
+      });
+    case `loading-local-config`:
+      return t.formatMessage({
+        id: `composer.submit.loadingLocalConfig`,
+        defaultMessage: `Loading…`,
+        description: `Message shown when the local composer is disabled while workspace information loads`,
+      });
+    case `remote-disconnected`:
+      return t.formatMessage({
+        id: `composer.submit.remoteDisconnected`,
+        defaultMessage: `Remote connection is disconnected`,
+        description: `Message shown when the remote connection is disconnected`,
+      });
+    case `remote-login-required`:
+      return t.formatMessage({
+        id: `composer.submit.remoteUnauthed`,
+        defaultMessage: `Remote connection needs authentication`,
+        description: `Message shown when the remote connection is connected but unauthenticated`,
+      });
+    case `missing-remote-project-path`:
+      return t.formatMessage({
+        id: `composer.submit.missingRemoteProjectPath`,
+        defaultMessage: `Set a remote project path to continue`,
+        description: `Message shown when remote submission is disabled until a mapped remote project path is selected`,
+      });
+    case `missing-cloud-config`:
+      return t.formatMessage({
+        id: `composer.submit.missingCloudConfig`,
+        defaultMessage: `You must choose a cloud environment`,
+        description: `Message shown when cloud submission is disabled due to missing configuration`,
+      });
+    case `unsupported-image-inputs`:
+      return n;
+    case `image-uploads`:
+      return t.formatMessage({
+        id: `composer.submit.waitForImageUploads`,
+        defaultMessage: `Images uploading…`,
+        description: `Message shown when the submit button is disabled because images are still uploading`,
+      });
+    case `file-uploads`:
+      return t.formatMessage({
+        id: `composer.submit.waitForFileUploads`,
+        defaultMessage: `Files uploading…`,
+        description: `Message shown when the submit button is disabled because files are still uploading`,
+      });
+    case `pasted-text-unavailable`:
+      return t.formatMessage({
+        id: `composer.submit.pastedTextUnavailable`,
+        defaultMessage: `Pasted text is unavailable for this target`,
+        description: `Message shown when pasted text cannot be submitted to the selected execution target`,
+      });
+    case `missing-cloud-turn`:
+      return t.formatMessage({
+        id: `composer.submit.missingCloudTurn`,
+        defaultMessage: `Cannot follow-up on this task`,
+        description: `Message shown when a follow-up cloud task requires a selected turn`,
+      });
+    case `empty-message`:
+      return t.formatMessage({
+        id: `composer.submit.emptyMessage`,
+        defaultMessage: `Type a message and click send to get started`,
+        description: `Message shown when submitting is disabled because the composer is empty`,
+      });
+  }
+}
+var Mz = e(() => {
+  ds();
+});
+function Nz(e) {
+  let t = (0, Fz.c)(21),
+    { open: n, onOpenChange: r, message: i, title: a, actions: o, onSubmit: s } = e;
+  if (!n || !i) return null;
+  let c;
+  t[0] === s
+    ? (c = t[1])
+    : ((c = (e) => {
+        (e.preventDefault(), s?.());
+      }),
+      (t[0] = s),
+      (t[1] = c));
+  let l;
+  t[2] === a
+    ? (l = t[3])
+    : ((l =
+        a ??
+        (0, Iz.jsx)(J, {
+          id: `composer.submit.blockedDialogTitle`,
+          defaultMessage: `Unable to send message`,
+          description: `Title shown when the composer cannot submit`,
+        })),
+      (t[2] = a),
+      (t[3] = l));
+  let u;
+  t[4] === l
+    ? (u = t[5])
+    : ((u = (0, Iz.jsx)(K, {
+        children: (0, Iz.jsx)(ye, {
+          title: (0, Iz.jsx)(Ua, { className: `contents`, children: l }),
+        }),
+      })),
+      (t[4] = l),
+      (t[5] = u));
+  let d;
+  t[6] === i
+    ? (d = t[7])
+    : ((d = (0, Iz.jsx)(K, {
+        className: `text-token-description-foreground`,
+        children: (0, Iz.jsx)(Bo, { children: i }),
+      })),
+      (t[6] = i),
+      (t[7] = d));
+  let f;
+  t[8] !== o || t[9] !== r
+    ? ((f =
+        o ??
+        (0, Iz.jsx)(ya, {
+          color: `primary`,
+          onClick: () => r(!1),
+          children: (0, Iz.jsx)(J, {
+            id: `composer.submit.blockedDialogOk`,
+            defaultMessage: `OK`,
+            description: `Button label to close the submit blocked dialog`,
+          }),
+        })),
+      (t[8] = o),
+      (t[9] = r),
+      (t[10] = f))
+    : (f = t[10]);
+  let p;
+  t[11] === f
+    ? (p = t[12])
+    : ((p = (0, Iz.jsx)(K, { children: (0, Iz.jsx)($n, { children: f }) })),
+      (t[11] = f),
+      (t[12] = p));
+  let m;
+  t[13] !== c || t[14] !== u || t[15] !== d || t[16] !== p
+    ? ((m = (0, Iz.jsxs)(Zc, { as: `form`, onSubmit: c, children: [u, d, p] })),
+      (t[13] = c),
+      (t[14] = u),
+      (t[15] = d),
+      (t[16] = p),
+      (t[17] = m))
+    : (m = t[17]);
+  let h;
+  return (
+    t[18] !== r || t[19] !== m
+      ? ((h = (0, Iz.jsx)(Cs, { open: !0, onOpenChange: r, children: m })),
+        (t[18] = r),
+        (t[19] = m),
+        (t[20] = h))
+      : (h = t[20]),
+    h
+  );
+}
+function Pz(e) {
+  let t = (0, Fz.c)(15),
+    { open: n, onOpenChange: r, queuedMessageCount: i, onClearQueue: a, onSubmit: o } = e,
+    s;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((s = (0, Iz.jsx)(J, {
+        id: `composer.pausedQueueSubmit.title`,
+        defaultMessage: `Send message?`,
+        description: `Title shown when sending a message while the queue is paused after an interruption`,
+      })),
+      (t[0] = s))
+    : (s = t[0]);
+  let c;
+  t[1] === i
+    ? (c = t[2])
+    : ((c = (0, Iz.jsx)(J, {
+        id: `composer.pausedQueueSubmit.description`,
+        defaultMessage: `You are about to send a message. Do you want to clear the {count, plural, one {# message} other {# messages}} previously queued?`,
+        description: `Description asking whether to clear paused queued messages before sending a new message`,
+        values: { count: i },
+      })),
+      (t[1] = i),
+      (t[2] = c));
+  let l;
+  t[3] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((l = (0, Iz.jsx)(J, {
+        id: `composer.pausedQueueSubmit.clear`,
+        defaultMessage: `Clear queue`,
+        description: `Button to clear the paused queue and send the new message`,
+      })),
+      (t[3] = l))
+    : (l = t[3]);
+  let u;
+  t[4] === a
+    ? (u = t[5])
+    : ((u = (0, Iz.jsx)(ya, { color: `danger`, size: `large`, onClick: a, children: l })),
+      (t[4] = a),
+      (t[5] = u));
+  let d;
+  t[6] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((d = (0, Iz.jsx)(ya, {
+        type: `submit`,
+        color: `primary`,
+        size: `large`,
+        children: (0, Iz.jsx)(J, {
+          id: `composer.pausedQueueSubmit.send`,
+          defaultMessage: `Send message`,
+          description: `Button to send a new message and resume the paused queue`,
+        }),
+      })),
+      (t[6] = d))
+    : (d = t[6]);
+  let f;
+  t[7] === u
+    ? (f = t[8])
+    : ((f = (0, Iz.jsxs)(Iz.Fragment, { children: [u, d] })), (t[7] = u), (t[8] = f));
+  let p;
+  return (
+    t[9] !== r || t[10] !== o || t[11] !== n || t[12] !== c || t[13] !== f
+      ? ((p = (0, Iz.jsx)(Nz, {
+          open: n,
+          onOpenChange: r,
+          title: s,
+          onSubmit: o,
+          message: c,
+          actions: f,
+        })),
+        (t[9] = r),
+        (t[10] = o),
+        (t[11] = n),
+        (t[12] = c),
+        (t[13] = f),
+        (t[14] = p))
+      : (p = t[14]),
+    p
+  );
+}
+var Fz,
+  Iz,
+  Lz = e(() => {
+    ((Fz = X()), Y(), _s(), ja(), b(), (Iz = Z()));
+  });
+async function Rz({
+  isEasterEggEnabled: e,
+  confirmedGoalReplacementDraft: t,
+  getImageAttachments: n,
+  getPastedTextAttachments: r,
+  isGoalActionAvailable: i,
+  isGoalModeActive: a,
+  promptRaw: o,
+}) {
+  if (t != null) return { status: `ready`, draft: t };
+  let s = i ? bi(o, e) : null;
+  if ((i && s == null && a && (s = o), s == null)) return { status: `not-goal` };
+  s = s
+    .replace(/\[((?:\\.|[^\]])+)\]\((?:plugin|app):\/\/(?:\\.|[^)])+\)/g, (e, t) => uo(t))
+    .trim();
+  let c = r(),
+    l = n();
+  return s.length === 0 && c.length === 0 && l.length === 0
+    ? { status: `empty` }
+    : {
+        status: `ready`,
+        draft: {
+          objective: s,
+          pastedTextAttachments: [...c],
+          imageAttachments: l.map(({ src: e, localPath: t, filename: n }) => ({
+            src: e,
+            localPath: t,
+            filename: n,
+          })),
+        },
+      };
+}
+var zz = e(() => {
+  (rs(), rn());
+});
+function Bz(e) {
+  let t = (0, Uz.c)(10),
+    { childConversationIds: n, manager: r } = e,
+    i;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((i = { key: ``, value: [] }), (t[0] = i))
+    : (i = t[0]);
+  let a = (0, Wz.useRef)(i),
+    o;
+  t[1] === n
+    ? (o = t[2])
+    : ((o = n.join(`
+`)),
+      (t[1] = n),
+      (t[2] = o));
+  let s = o,
+    c;
+  t[3] !== n || t[4] !== s || t[5] !== r
+    ? ((c = () => {
+        if (n.length === 0)
+          return (
+            (a.current.key === s && a.current.value.length === 0) ||
+              (a.current = { key: s, value: [] }),
+            a.current.value
+          );
+        let e = n.map((e) => r.getConversation(e));
+        return (
+          (a.current.key === s &&
+            a.current.value.length === e.length &&
+            e.every((e, t) => e === a.current.value[t])) ||
+            (a.current = { key: s, value: e }),
+          a.current.value
+        );
+      }),
+      (t[3] = n),
+      (t[4] = s),
+      (t[5] = r),
+      (t[6] = c))
+    : (c = t[6]);
+  let l = c,
+    u;
+  return (
+    t[7] !== n || t[8] !== r
+      ? ((u = (e) => {
+          if (n.length === 0) return Hz;
+          let t = n.map((t) => r.addConversationCallback(t, e)),
+            i = r.addAnyConversationCallback(e);
+          return () => {
+            (t.forEach(Vz), i());
+          };
+        }),
+        (t[7] = n),
+        (t[8] = r),
+        (t[9] = u))
+      : (u = t[9]),
+    (0, Wz.useSyncExternalStore)(u, l, l)
+  );
+}
+function Vz(e) {
+  e();
+}
+function Hz() {}
+var Uz,
+  Wz,
+  Gz = e(() => {
+    ((Uz = X()), (Wz = t(El(), 1)));
+  });
+function Kz(e) {
+  let t = (0, Yz.c)(24),
+    { activeConversationId: n, conversation: r, enabled: i, manager: a } = e,
+    o;
+  bb0: {
+    if (!i) {
+      let e;
+      (t[0] === Symbol.for(`react.memo_cache_sentinel`) ? ((e = []), (t[0] = e)) : (e = t[0]),
+        (o = e));
+      break bb0;
+    }
+    let e;
+    (t[1] === r ? (e = t[2]) : ((e = UO(r)), (t[1] = r), (t[2] = e)), (o = e));
+  }
+  let s = o,
+    c;
+  t[3] === s ? (c = t[4]) : ((c = s.map(Jz)), (t[3] = s), (t[4] = c));
+  let l = c,
+    u;
+  t[5] !== l || t[6] !== a
+    ? ((u = { manager: a, childConversationIds: l }), (t[5] = l), (t[6] = a), (t[7] = u))
+    : (u = t[7]);
+  let d = Bz(u),
+    f,
+    p;
+  t[8] !== d || t[9] !== r || t[10] !== i || t[11] !== a || t[12] !== s
+    ? ((f = i
+        ? $O({
+            conversation: r,
+            memberships: s,
+            childConversations: d,
+            childConversationSuppressedStates: s.map((e) =>
+              a.isConversationSuppressedAfterArchive(e.conversationId),
+            ),
+          })
+        : []),
+      (p = f.map(qz)),
+      (t[8] = d),
+      (t[9] = r),
+      (t[10] = i),
+      (t[11] = a),
+      (t[12] = s),
+      (t[13] = f),
+      (t[14] = p))
+    : ((f = t[13]), (p = t[14]));
+  let m = p,
+    h;
+  bb1: {
+    if (!i) {
+      h = null;
+      break bb1;
+    }
+    let e;
+    (t[15] !== n || t[16] !== d || t[17] !== s
+      ? ((e = ek({ activeConversationId: n, memberships: s, childConversations: d })),
+        (t[15] = n),
+        (t[16] = d),
+        (t[17] = s),
+        (t[18] = e))
+      : (e = t[18]),
+      (h = e));
+  }
+  let g = h,
+    _;
+  return (
+    t[19] !== g || t[20] !== s || t[21] !== m || t[22] !== f
+      ? ((_ = { memberships: s, rows: f, mentionItems: m, firstApproval: g }),
+        (t[19] = g),
+        (t[20] = s),
+        (t[21] = m),
+        (t[22] = f),
+        (t[23] = _))
+      : (_ = t[23]),
+    _
+  );
+}
+function qz(e) {
+  return {
+    ...pc({ conversationId: e.conversationId, displayName: e.displayName }),
+    conversationId: e.conversationId,
+    agentRole: e.agentRole,
+    status: e.status,
+    statusSummary: e.statusSummary,
+  };
+}
+function Jz(e) {
+  return e.conversationId;
+}
+var Yz,
+  Xz = e(() => {
+    ((Yz = X()), dk(), ge(), Gz());
+  });
+function Zz(e) {
+  let t = (0, Qz.c)(7),
+    { addImageDataUrls: n, directBrowserConversationId: r, directBrowserTabId: i } = e,
+    [a, o] = (0, $z.useState)(null),
+    s,
+    c;
+  (t[0] !== n || t[1] !== r || t[2] !== i
+    ? ((s = (e) => {
+        r == null ||
+          i == null ||
+          e.conversationId !== r ||
+          e.browserTabId !== i ||
+          n([{ dataUrl: e.image.dataUrl, filename: e.image.filename }]);
+      }),
+      (c = [n, r, i]),
+      (t[0] = n),
+      (t[1] = r),
+      (t[2] = i),
+      (t[3] = s),
+      (t[4] = c))
+    : ((s = t[3]), (c = t[4])),
+    qr(`browser-sidebar-image-attachment`, s, c));
+  let l, u;
+  return (
+    t[5] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((l = (e) => {
+          o((t) =>
+            e.isActive
+              ? { browserTabId: e.browserTabId, conversationId: e.conversationId }
+              : t?.conversationId === e.conversationId && t?.browserTabId === e.browserTabId
+                ? null
+                : t,
+          );
+        }),
+        (u = []),
+        (t[5] = l),
+        (t[6] = u))
+      : ((l = t[5]), (u = t[6])),
+    qr(`browser-sidebar-image-drag-state`, l, u),
+    r != null && i != null && a?.conversationId === r && a.browserTabId === i
+      ? a.browserTabId
+      : null
+  );
+}
+var Qz,
+  $z,
+  eB = e(() => {
+    ((Qz = X()), ($z = t(El(), 1)), js());
+  });
+function tB(e) {
+  let t = (0, nB.c)(4),
+    n;
+  (t[0] === e
+    ? (n = t[1])
+    : ((n = (t) => {
+        let { text: n } = t;
+        (e.insertTextAtSelection(n), e.focus());
+      }),
+      (t[0] = e),
+      (t[1] = n)),
+    yx(`codex-micro-insert-composer-text`, e.view.dom, n));
+  let r;
+  (t[2] === e
+    ? (r = t[3])
+    : ((r = (t) => {
+        let { skill: n } = t;
+        (e.insertMentionAtSelection({ kind: `skill`, ...n }), e.focus());
+      }),
+      (t[2] = e),
+      (t[3] = r)),
+    yx(`codex-micro-insert-skill-mention`, e.view.dom, r));
+}
+var nB,
+  rB = e(() => {
+    ((nB = X()), Sx());
+  });
+function iB(e) {
+  let t = (0, aB.c)(25),
+    { setComposerStateField: n } = e,
+    r;
+  t[0] === n
+    ? (r = t[1])
+    : ((r = (e) => {
+        n(`imageAttachments`, e);
+      }),
+      (t[0] = n),
+      (t[1] = r));
+  let i = r,
+    a;
+  t[2] === n
+    ? (a = t[3])
+    : ((a = (e) => {
+        n(`appshotContexts`, e);
+      }),
+      (t[2] = n),
+      (t[3] = a));
+  let o = a,
+    s;
+  t[4] === n
+    ? (s = t[5])
+    : ((s = (e) => {
+        n(`fileAttachments`, (t) => nc(typeof e == `function` ? e(t) : e));
+      }),
+      (t[4] = n),
+      (t[5] = s));
+  let c = s,
+    l;
+  t[6] === n
+    ? (l = t[7])
+    : ((l = (e) => {
+        n(`addedFiles`, (t) => nc(typeof e == `function` ? e(t) : e));
+      }),
+      (t[6] = n),
+      (t[7] = l));
+  let u = l,
+    d;
+  t[8] === n
+    ? (d = t[9])
+    : ((d = (e) => {
+        n(`pastedTextAttachments`, e);
+      }),
+      (t[8] = n),
+      (t[9] = d));
+  let f = d,
+    p;
+  t[10] === i
+    ? (p = t[11])
+    : ((p = (e) => {
+        i((t) => t.filter((t) => t.id !== e));
+      }),
+      (t[10] = i),
+      (t[11] = p));
+  let m = p,
+    h;
+  t[12] === u
+    ? (h = t[13])
+    : ((h = (e) => {
+        u((t) => t.filter((t, n) => n !== e));
+      }),
+      (t[12] = u),
+      (t[13] = h));
+  let g = h,
+    _;
+  t[14] === o
+    ? (_ = t[15])
+    : ((_ = (e) => {
+        o((t) => t.filter((t, n) => n !== e));
+      }),
+      (t[14] = o),
+      (t[15] = _));
+  let v = _,
+    y;
+  return (
+    t[16] !== v ||
+    t[17] !== g ||
+    t[18] !== m ||
+    t[19] !== u ||
+    t[20] !== o ||
+    t[21] !== c ||
+    t[22] !== i ||
+    t[23] !== f
+      ? ((y = {
+          handleRemoveFile: g,
+          handleRemoveImage: m,
+          handleRemoveAppshotContext: v,
+          setAddedFiles: u,
+          setFileAttachments: c,
+          setPastedTextAttachments: f,
+          setImageAttachments: i,
+          setAppshotContexts: o,
+        }),
+        (t[16] = v),
+        (t[17] = g),
+        (t[18] = m),
+        (t[19] = u),
+        (t[20] = o),
+        (t[21] = c),
+        (t[22] = i),
+        (t[23] = f),
+        (t[24] = y))
+      : (y = t[24]),
+    y
+  );
+}
+var aB,
+  oB = e(() => {
+    ((aB = X()), Ao());
+  });
+function sB(e) {
+  let t = (0, fB.c)(90),
+    { hostId: n, initialDirectoryPath: r } = e,
+    i = Ns(),
+    a = _(),
+    o = e.mode !== `file`,
+    s = e.mode === `file` ? e.selectedFilePaths : null,
+    c;
+  t[0] === s ? (c = t[1]) : ((c = new Set(s)), (t[0] = s), (t[1] = c));
+  let l = c,
+    u;
+  t[2] === r ? (u = t[3]) : ((u = r?.trim() ?? ``), (t[2] = r), (t[3] = u));
+  let [d, f] = (0, mB.useState)(u),
+    [p, m] = (0, mB.useState)(!1),
+    [h, g] = (0, mB.useState)(``),
+    v = ro(h, 300),
+    y,
+    b,
+    x,
+    S;
+  if (t[4] !== d || t[5] !== p || t[6] !== h) {
+    S = h.trim();
+    let e;
+    (t[11] === d ? (e = t[12]) : ((e = d.trim() || null), (t[11] = d), (t[12] = e)),
+      (b = e),
+      (y = !0),
+      (x = p && !pe(S)),
+      (t[4] = d),
+      (t[5] = p),
+      (t[6] = h),
+      (t[7] = y),
+      (t[8] = b),
+      (t[9] = x),
+      (t[10] = S));
+  } else ((y = t[7]), (b = t[8]), (x = t[9]), (S = t[10]));
+  if (x) ((b = null), (y = !1));
+  else if (p) {
+    let e;
+    t[13] === v ? (e = t[14]) : ((e = v.trim()), (t[13] = v), (t[14] = e));
+    let n = e;
+    b = n === S ? n : b;
+  }
+  let C;
+  t[15] !== b || t[16] !== n || t[17] !== o
+    ? ((C = { hostId: n, directoryPath: b, directoriesOnly: o }),
+      (t[15] = b),
+      (t[16] = n),
+      (t[17] = o),
+      (t[18] = C))
+    : (C = t[18]);
+  let w = b ?? ``,
+    T;
+  t[19] !== n || t[20] !== w ? ((T = [n, w]), (t[19] = n), (t[20] = w), (t[21] = T)) : (T = t[21]);
+  let E;
+  t[22] !== y || t[23] !== T
+    ? ((E = { cacheKey: T, enabled: y, staleTime: 0 }), (t[22] = y), (t[23] = T), (t[24] = E))
+    : (E = t[24]);
+  let D;
+  t[25] !== C || t[26] !== E
+    ? ((D = { params: C, queryConfig: E }), (t[25] = C), (t[26] = E), (t[27] = D))
+    : (D = t[27]);
+  let { data: O, error: k, isLoading: A } = wl(`remote-workspace-directory-entries`, D),
+    j = b || O?.directoryPath || ``,
+    M = y && O?.directoryPath === j ? O.entries : gB,
+    N = j;
+  (o && (N = e.selectedPath || j), o && p && (N = h));
+  let P;
+  t[28] !== y ||
+  t[29] !== O ||
+  t[30] !== j ||
+  t[31] !== M ||
+  t[32] !== N ||
+  t[33] !== o ||
+  t[34] !== p ||
+  t[35] !== e.selectedPath
+    ? ((P = lB(N)),
+      y &&
+        O?.directoryPath === j &&
+        (!p || N === j) &&
+        (P =
+          o && M.some((t) => t.type === `directory` && t.path === e.selectedPath)
+            ? j
+            : O.parentPath),
+      (t[28] = y),
+      (t[29] = O),
+      (t[30] = j),
+      (t[31] = M),
+      (t[32] = N),
+      (t[33] = o),
+      (t[34] = p),
+      (t[35] = e.selectedPath),
+      (t[36] = P))
+    : (P = t[36]);
+  let F = A || !y || P == null,
+    ee;
+  t[37] === i
+    ? (ee = t[38])
+    : ((ee = i.formatMessage({
+        id: `remoteCwdPicker.up`,
+        defaultMessage: `Enclosing folder`,
+        description: `Button label for moving the remote cwd picker to the parent directory`,
+      })),
+      (t[37] = i),
+      (t[38] = ee));
+  let I = ee,
+    L;
+  t[39] !== i || t[40] !== o
+    ? ((L = o
+        ? i.formatMessage({
+            id: `remoteCwdPicker.selectedPath`,
+            defaultMessage: `Selected folder path`,
+            description: `Accessible label for the input showing the selected remote folder path`,
+          })
+        : i.formatMessage({
+            id: `remoteCwdPicker.currentPath`,
+            defaultMessage: `Current folder path`,
+            description: `Accessible label for the disabled input showing the current remote folder path in file picker mode`,
+          })),
+      (t[39] = i),
+      (t[40] = o),
+      (t[41] = L))
+    : (L = t[41]);
+  let R = L,
+    z;
+  t[42] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((z = (e) => {
+        (m(!1), g(``), f(e));
+      }),
+      (t[42] = z))
+    : (z = t[42]);
+  let B = z,
+    V;
+  t[43] === e
+    ? (V = t[44])
+    : ((V = (t) => {
+        if (e.mode === `file`) return;
+        let n = t.trim();
+        if ((e.setSelectedPath(n), pe(n))) {
+          (f(n), m(!1), g(``));
+          return;
+        }
+        (m(!0), g(n));
+      }),
+      (t[43] = e),
+      (t[44] = V));
+  let H = V,
+    te,
+    ne;
+  (t[45] !== M || t[46] !== n || t[47] !== o || t[48] !== a
+    ? ((te = () => {
+        if (M.length === 0) return;
+        let e = M.filter(cB);
+        e.length !== 0 &&
+          Promise.all(
+            e.map((e) =>
+              a.prefetchQuery({
+                queryKey: Te(
+                  `remote-workspace-directory-entries`,
+                  { hostId: n, directoryPath: e.path, directoriesOnly: o },
+                  [n, e.path.trim()],
+                ),
+                queryFn: () =>
+                  dn(`remote-workspace-directory-entries`, {
+                    params: { hostId: n, directoryPath: e.path, directoriesOnly: o },
+                  }),
+                staleTime: kr.INFINITE,
+              }),
+            ),
+          );
+      }),
+      (ne = [M, n, o, a]),
+      (t[45] = M),
+      (t[46] = n),
+      (t[47] = o),
+      (t[48] = a),
+      (t[49] = te),
+      (t[50] = ne))
+    : ((te = t[49]), (ne = t[50])),
+    (0, mB.useEffect)(te, ne));
+  let re;
+  t[51] !== P || t[52] !== e
+    ? ((re = () => {
+        P != null && (B(P), e.mode !== `file` && e.setSelectedPath(P));
+      }),
+      (t[51] = P),
+      (t[52] = e),
+      (t[53] = re))
+    : (re = t[53]);
+  let U;
+  t[54] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((U = (0, hB.jsx)(mp, { className: `icon-2xs` })), (t[54] = U))
+    : (U = t[54]);
+  let ie;
+  t[55] !== I || t[56] !== F || t[57] !== re
+    ? ((ie = (0, hB.jsx)(ya, {
+        className: `shrink-0`,
+        color: `ghost`,
+        size: `composerSm`,
+        uniform: !0,
+        type: `button`,
+        "aria-label": I,
+        disabled: F,
+        onClick: re,
+        children: U,
+      })),
+      (t[55] = I),
+      (t[56] = F),
+      (t[57] = re),
+      (t[58] = ie))
+    : (ie = t[58]);
+  let ae = !o,
+    oe = !o,
+    W;
+  t[59] === H
+    ? (W = t[60])
+    : ((W = (e) => {
+        H(e.currentTarget.value);
+      }),
+      (t[59] = H),
+      (t[60] = W));
+  let G;
+  t[61] === e
+    ? (G = t[62])
+    : ((G = (t) => {
+        if (e.mode === `file`) return;
+        let n = t.target.value;
+        (e.setSelectedPath(n), m(!0), g(n));
+      }),
+      (t[61] = e),
+      (t[62] = G));
+  let se;
+  t[63] === H
+    ? (se = t[64])
+    : ((se = (e) => {
+        e.key === `Enter` && (e.preventDefault(), H(e.currentTarget.value));
+      }),
+      (t[63] = H),
+      (t[64] = se));
+  let K;
+  t[65] !== N ||
+  t[66] !== R ||
+  t[67] !== ae ||
+  t[68] !== oe ||
+  t[69] !== W ||
+  t[70] !== G ||
+  t[71] !== se
+    ? ((K = (0, hB.jsx)(`input`, {
+        "aria-label": R,
+        className: `w-full min-w-0 flex-1 rounded-md border border-token-input-border bg-token-input-background px-2.5 py-1.5 text-sm text-token-input-foreground outline-none disabled:bg-token-foreground/5 disabled:text-token-text-secondary disabled:opacity-100`,
+        disabled: ae,
+        readOnly: oe,
+        spellCheck: !1,
+        title: N,
+        value: N,
+        onBlur: W,
+        onChange: G,
+        onKeyDown: se,
+      })),
+      (t[65] = N),
+      (t[66] = R),
+      (t[67] = ae),
+      (t[68] = oe),
+      (t[69] = W),
+      (t[70] = G),
+      (t[71] = se),
+      (t[72] = K))
+    : (K = t[72]);
+  let q;
+  t[73] !== ie || t[74] !== K
+    ? ((q = (0, hB.jsxs)(`div`, {
+        className: `mt-1 mb-2 flex min-w-0 items-center gap-1`,
+        children: [ie, K],
+      })),
+      (t[73] = ie),
+      (t[74] = K),
+      (t[75] = q))
+    : (q = t[75]);
+  let ce;
+  t[76] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((ce = qc(
+        `min-h-0 flex-1`,
+        `bg-token-input-background border-token-input-border flex overflow-y-auto rounded-lg border`,
+      )),
+      (t[76] = ce))
+    : (ce = t[76]);
+  let le;
+  t[77] !== y ||
+  t[78] !== O ||
+  t[79] !== j ||
+  t[80] !== M ||
+  t[81] !== k ||
+  t[82] !== o ||
+  t[83] !== A ||
+  t[84] !== e ||
+  t[85] !== l
+    ? ((le = (0, hB.jsx)(`div`, {
+        className: ce,
+        children: y
+          ? A && O == null
+            ? (0, hB.jsx)(`div`, {
+                className: `flex w-full items-center justify-center px-4 text-sm text-token-description-foreground`,
+                children: (0, hB.jsx)(J, {
+                  id: `remoteCwdPicker.loading`,
+                  defaultMessage: `Loading folder contents…`,
+                  description: `Message shown while the remote cwd picker is loading the current folder contents`,
+                }),
+              })
+            : k || O == null
+              ? (0, hB.jsx)(`div`, {
+                  className: `flex w-full items-center justify-center px-4 text-sm text-token-description-foreground`,
+                  children: (0, hB.jsx)(J, {
+                    id: `remoteCwdPicker.loadError`,
+                    defaultMessage: `Unable to load this folder`,
+                    description: `Message shown when the remote cwd picker cannot load the current folder contents`,
+                  }),
+                })
+              : M.length === 0
+                ? (0, hB.jsx)(`div`, {
+                    className: `flex w-full items-center justify-center px-4 text-sm text-token-description-foreground`,
+                    children: o
+                      ? (0, hB.jsx)(J, {
+                          id: `remoteCwdPicker.empty`,
+                          defaultMessage: `No folders found in this directory.`,
+                          description: `Message shown when the current remote directory has no folders to choose from`,
+                        })
+                      : (0, hB.jsx)(J, {
+                          id: `remoteCwdPicker.emptyFiles`,
+                          defaultMessage: `No files or folders found in this directory`,
+                          description: `Message shown when the current remote directory has no files or folders to choose from`,
+                        }),
+                  })
+                : (0, hB.jsx)(`div`, {
+                    className: `flex w-full flex-col py-1`,
+                    children: M.map((t) => {
+                      if (t.type === `directory`)
+                        return (0, hB.jsx)(
+                          uB,
+                          {
+                            entry: t,
+                            isSelected: e.mode !== `file` && t.path === e.selectedPath,
+                            disabled: A,
+                            onOpen: () => {
+                              B(t.path);
+                            },
+                            onSelect: () => {
+                              if (e.mode === `file`) {
+                                B(t.path);
+                                return;
+                              }
+                              (B(j), e.setSelectedPath(t.path));
+                            },
+                          },
+                          t.path,
+                        );
+                      if (e.mode !== `file`) return null;
+                      let n = l.has(t.path);
+                      return (0, hB.jsx)(
+                        dB,
+                        {
+                          entry: t,
+                          isSelected: n,
+                          disabled: A,
+                          onSelect: () => {
+                            e.setSelectedFilePaths(
+                              n
+                                ? e.selectedFilePaths.filter((e) => e !== t.path)
+                                : [...e.selectedFilePaths, t.path],
+                            );
+                          },
+                        },
+                        t.path,
+                      );
+                    }),
+                  })
+          : (0, hB.jsx)(`div`, {
+              className: `flex w-full items-center justify-center px-4 text-sm text-token-description-foreground`,
+              children: (0, hB.jsx)(J, {
+                id: `remoteCwdPicker.enterFolderPath`,
+                defaultMessage: `Enter a folder path to browse`,
+                description: `Message shown when the remote cwd picker path input is empty`,
+              }),
+            }),
+      })),
+      (t[77] = y),
+      (t[78] = O),
+      (t[79] = j),
+      (t[80] = M),
+      (t[81] = k),
+      (t[82] = o),
+      (t[83] = A),
+      (t[84] = e),
+      (t[85] = l),
+      (t[86] = le))
+    : (le = t[86]);
+  let ue;
+  return (
+    t[87] !== q || t[88] !== le
+      ? ((ue = (0, hB.jsx)(`div`, {
+          className: `flex h-70 min-h-56 flex-col gap-3`,
+          children: (0, hB.jsxs)(`div`, {
+            className: `flex min-h-0 min-w-0 flex-1 flex-col`,
+            children: [q, le],
+          }),
+        })),
+        (t[87] = q),
+        (t[88] = le),
+        (t[89] = ue))
+      : (ue = t[89]),
+    ue
+  );
+}
+function cB(e) {
+  return e.type === `directory`;
+}
+function lB(e) {
+  if (e.length === 0) return null;
+  let t = U(e),
+    n = t ? g(e) : e,
+    r = pB.default.posix.dirname(n),
+    i = U(n) && /^[A-Za-z]:$/.test(r) ? `${r}/` : r;
+  return i === `.` || i === n ? null : t && e.includes(`\\`) ? i.replaceAll(`/`, `\\`) : i;
+}
+function uB(e) {
+  let t = (0, fB.c)(13),
+    { entry: n, isSelected: r, disabled: i, onOpen: a, onSelect: o } = e,
+    s = !i && `hover:bg-token-foreground/5`,
+    c = i && `cursor-not-allowed opacity-50`,
+    l = r && `bg-token-foreground/10`,
+    u;
+  t[0] !== s || t[1] !== c || t[2] !== l
+    ? ((u = qc(
+        `flex w-full min-w-0 self-stretch items-center gap-2 px-3 py-1.5 text-left text-sm`,
+        s,
+        c,
+        l,
+      )),
+      (t[0] = s),
+      (t[1] = c),
+      (t[2] = l),
+      (t[3] = u))
+    : (u = t[3]);
+  let d = i ? void 0 : o,
+    f;
+  t[4] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((f = (0, hB.jsx)(Tr, { className: `icon-xs shrink-0 text-token-description-foreground` })),
+      (t[4] = f))
+    : (f = t[4]);
+  let p;
+  t[5] === n.name
+    ? (p = t[6])
+    : ((p = (0, hB.jsx)(`span`, { className: `truncate`, children: n.name })),
+      (t[5] = n.name),
+      (t[6] = p));
+  let m;
+  return (
+    t[7] !== i || t[8] !== a || t[9] !== u || t[10] !== d || t[11] !== p
+      ? ((m = (0, hB.jsxs)(`button`, {
+          type: `button`,
+          className: u,
+          disabled: i,
+          onClick: d,
+          onDoubleClick: a,
+          children: [f, p],
+        })),
+        (t[7] = i),
+        (t[8] = a),
+        (t[9] = u),
+        (t[10] = d),
+        (t[11] = p),
+        (t[12] = m))
+      : (m = t[12]),
+    m
+  );
+}
+function dB(e) {
+  let t = (0, fB.c)(16),
+    { entry: n, isSelected: r, disabled: i, onSelect: a } = e,
+    o = !i && `hover:bg-token-foreground/5`,
+    s = i && `cursor-not-allowed opacity-50`,
+    c = r && `bg-token-foreground/10`,
+    l;
+  t[0] !== o || t[1] !== s || t[2] !== c
+    ? ((l = qc(
+        `flex w-full min-w-0 self-stretch items-center gap-2 px-3 py-1.5 text-left text-sm`,
+        o,
+        s,
+        c,
+      )),
+      (t[0] = o),
+      (t[1] = s),
+      (t[2] = c),
+      (t[3] = l))
+    : (l = t[3]);
+  let u = i ? void 0 : a,
+    d;
+  t[4] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((d = (0, hB.jsx)(H_, { className: `icon-xs shrink-0 text-token-description-foreground` })),
+      (t[4] = d))
+    : (d = t[4]);
+  let f;
+  t[5] === n.name
+    ? (f = t[6])
+    : ((f = (0, hB.jsx)(`span`, { className: `min-w-0 flex-1 truncate`, children: n.name })),
+      (t[5] = n.name),
+      (t[6] = f));
+  let p;
+  t[7] === r
+    ? (p = t[8])
+    : ((p = r ? (0, hB.jsx)(wo, { className: `icon-xs shrink-0` }) : null), (t[7] = r), (t[8] = p));
+  let m;
+  return (
+    t[9] !== i || t[10] !== r || t[11] !== l || t[12] !== u || t[13] !== f || t[14] !== p
+      ? ((m = (0, hB.jsxs)(`button`, {
+          type: `button`,
+          className: l,
+          "aria-pressed": r,
+          disabled: i,
+          onClick: u,
+          children: [d, f, p],
+        })),
+        (t[9] = i),
+        (t[10] = r),
+        (t[11] = l),
+        (t[12] = u),
+        (t[13] = f),
+        (t[14] = p),
+        (t[15] = m))
+      : (m = t[15]),
+    m
+  );
+}
+var fB,
+  pB,
+  mB,
+  hB,
+  gB,
+  _B = e(() => {
+    ((fB = X()),
+      (pB = t(Pt(), 1)),
+      il(),
+      Xn(),
+      Xa(),
+      (mB = t(El(), 1)),
+      Y(),
+      _s(),
+      Cc(),
+      U_(),
+      Ze(),
+      Sm(),
+      Fe(),
+      Js(),
+      jn(),
+      (hB = Z()),
+      (gB = []));
+  }),
+  vB,
+  yB,
+  bB = e(() => {
+    (t(El()),
+      (vB = Z()),
+      (yB = (e) =>
+        (0, vB.jsx)(`svg`, {
+          width: 20,
+          height: 20,
+          viewBox: `0 0 100.052084 74.21875`,
+          fill: `currentColor`,
+          xmlns: `http://www.w3.org/2000/svg`,
+          ...e,
+          children: (0, vB.jsx)(`path`, {
+            d: `M14.166667 23.802083V17.5C14.166667 11.354167 18.020833 7.5 24.166667 7.5H30.260417C32.34375 7.5 34.010417 5.833333 34.010417 3.75C34.010417 1.666667 32.34375 0 30.260417 0H24.166667C13.4375 0 6.666667 6.770833 6.666667 17.5V23.802083C6.666667 25.885417 8.333333 27.552083 10.416667 27.552083C12.5 27.552083 14.166667 25.885417 14.166667 23.802083ZM93.385417 23.802083V17.5C93.385417 6.770833 86.614583 0 75.885417 0H69.791667C67.708333 0 66.041667 1.666667 66.041667 3.75C66.041667 5.833333 67.708333 7.5 69.791667 7.5H75.885417C82.03125 7.5 85.885417 11.354167 85.885417 17.5V23.802083C85.885417 25.885417 87.552083 27.552083 89.635417 27.552083C91.71875 27.552083 93.385417 25.885417 93.385417 23.802083ZM6.666667 50.416667V56.71875C6.666667 67.447917 13.4375 74.21875 24.166667 74.21875H30.260417C32.34375 74.21875 34.010417 72.552083 34.010417 70.46875C34.010417 68.385417 32.34375 66.71875 30.260417 66.71875H24.166667C18.020833 66.71875 14.166667 62.864583 14.166667 56.71875V50.416667C14.166667 48.333333 12.5 46.666667 10.416667 46.666667C8.333333 46.666667 6.666667 48.333333 6.666667 50.416667ZM85.885417 50.416667V56.71875C85.885417 62.864583 82.03125 66.71875 75.885417 66.71875H69.791667C67.708333 66.71875 66.041667 68.385417 66.041667 70.46875C66.041667 72.552083 67.708333 74.21875 69.791667 74.21875H75.885417C86.614583 74.21875 93.385417 67.447917 93.385417 56.71875V50.416667C93.385417 48.333333 91.71875 46.666667 89.635417 46.666667C87.552083 46.666667 85.885417 48.333333 85.885417 50.416667ZM32.395833 19.479167C32.395833 16.71875 30.15625 14.479167 27.395833 14.479167C24.635417 14.479167 22.395833 16.71875 22.395833 19.479167C22.395833 22.239583 24.635417 24.479167 27.395833 24.479167C30.15625 24.479167 32.395833 22.239583 32.395833 19.479167ZM46.822917 19.479167C46.822917 16.71875 44.583333 14.479167 41.822917 14.479167C39.0625 14.479167 36.822917 16.71875 36.822917 19.479167C36.822917 22.239583 39.0625 24.479167 41.822917 24.479167C44.583333 24.479167 46.822917 22.239583 46.822917 19.479167ZM61.25 19.479167C61.25 16.71875 59.010417 14.479167 56.25 14.479167C53.489583 14.479167 51.25 16.71875 51.25 19.479167C51.25 22.239583 53.489583 24.479167 56.25 24.479167C59.010417 24.479167 61.25 22.239583 61.25 19.479167Z`,
+          }),
+        })));
+  }),
+  xB,
+  SB,
+  CB = e(() => {
+    (t(El()),
+      (xB = Z()),
+      (SB = (e) =>
+        (0, xB.jsx)(`svg`, {
+          width: 21,
+          height: 21,
+          viewBox: `0 0 21 21`,
+          fill: `none`,
+          xmlns: `http://www.w3.org/2000/svg`,
+          ...e,
+          children: (0, xB.jsx)(`path`, {
+            d: `M4.43945 12.8041V7.68261C4.43945 7.30642 4.74446 7.00141 5.12066 7.00141C5.49685 7.00141 5.80186 7.30642 5.80186 7.68261V12.8041C5.80186 15.2565 7.78984 17.2445 10.2422 17.2445C12.6945 17.2445 14.6825 15.2565 14.6825 12.8041V5.9751C14.6823 4.46587 13.4589 3.24247 11.9497 3.24229C10.4403 3.24229 9.21606 4.46576 9.21588 5.9751V12.8041C9.21588 13.3708 9.67553 13.8304 10.2422 13.8304C10.8088 13.8304 11.2685 13.3708 11.2685 12.8041V7.68261C11.2685 7.30642 11.5735 7.00141 11.9497 7.00141C12.3257 7.00159 12.6309 7.30653 12.6309 7.68261V12.8041C12.6309 14.1232 11.5612 15.1929 10.2422 15.1929C8.92314 15.1929 7.85347 14.1232 7.85347 12.8041V5.9751C7.85365 3.71337 9.68791 1.87988 11.9497 1.87988C14.2113 1.88006 16.0447 3.71348 16.0449 5.9751V12.8041C16.0449 16.0089 13.4469 18.6069 10.2422 18.6069C7.03745 18.6069 4.43945 16.0089 4.43945 12.8041Z`,
+            fill: `currentColor`,
+          }),
+        })));
+  });
+function wB(e) {
+  let t = [
+    {
+      disabled: !1,
+      icon: e.supportsFileAttachments ? `paperclip` : `image`,
+      id: `pick-local-files`,
+      label: e.supportsFileAttachments ? e.labels.filesAndFolders : e.labels.addPhotos,
+      run: () => TB(e),
+    },
+  ];
+  if (e.appshot != null) {
+    let { capture: n, target: r } = e.appshot;
+    t.push({
+      disabled: r == null,
+      icon: `appshot`,
+      iconDataUrl: r?.iconSmallDataURL,
+      id: `capture-appshot`,
+      label: r == null ? e.labels.attachAppshot : e.labels.attachApp(r.name),
+      run: async () => {
+        r != null && (await n(r));
+      },
+    });
+  }
+  let n = e.openRemoteFilePicker;
+  return (
+    e.executionTargetHostId !== `local` &&
+      n != null &&
+      t.push({
+        disabled: !1,
+        icon: `paperclip`,
+        id: `pick-remote-files`,
+        label: e.labels.addRemoteFiles,
+        run: async () => {
+          n();
+        },
+      }),
+    t
+  );
+}
+async function TB(e) {
+  try {
+    let t = e.getAttachmentGeneration(),
+      { images: n, otherFiles: r } = EB(
+        await e.pickFiles({ imagesOnly: !e.supportsFileAttachments }),
+      ),
+      i = n.length === 0 ? [] : await e.loadImageDataUrls(n);
+    if (
+      e.getAttachmentGeneration() !== t ||
+      (i.length > 0 && e.addImageDataUrls(i), !e.supportsFileAttachments || r.length === 0)
+    )
+      return;
+    if (e.executionTargetHostId !== `local` && e.uploadLocalFileAttachments != null) {
+      await e.uploadLocalFileAttachments(r);
+      return;
+    }
+    e.addFileAttachments(r);
+  } catch (t) {
+    e.onFilePickerError(t);
+  }
+}
+function EB(e) {
+  let t = [],
+    n = [];
+  for (let r of e) Ea(r.fsPath || r.path || r.label) ? t.push(r) : n.push(r);
+  return { images: t, otherFiles: n };
+}
+var DB = e(() => {
+  (Xa(), we());
+});
+function OB() {
+  let e = Ns();
+  return async ({
+    imagesOnly: t,
+    pickerTitle: n = e.formatMessage({
+      id: `composer.filePicker.selectFiles`,
+      defaultMessage: `Select files`,
+      description: `Title for the multi-file picker dialog`,
+    }),
+  } = {}) =>
+    (await dn(`pick-files`, { params: { ...(t ? { imagesOnly: !0 } : {}), pickerTitle: n } }))
+      .files ?? [];
+}
+var kB = e(() => {
+  (Y(), jn());
+});
+function AB(e) {
+  let t = (0, FB.c)(51),
+    {
+      executionTargetCwd: n,
+      executionTargetHostId: r,
+      getAppshotCaptureAnimationDestinationFrame: i,
+      getAttachmentGen: a,
+      onAddAppshotContext: o,
+      onAddImageDataUrls: s,
+      onAddLocalFileAttachments: c,
+      onAppshotCaptureAnimationDuration: l,
+      onAppshotCaptureSettled: u,
+      onAppshotCaptureStarted: d,
+      onPickBrowserFiles: f,
+      setFileAttachments: p,
+      supportsFileAttachments: m,
+      supportsRemoteFileAttachments: h,
+    } = e,
+    g = qn(et),
+    _ = Ns(),
+    v = OB(),
+    y = Gc(cy, r),
+    { data: b, isFetching: x, refetch: S } = de(mx),
+    [C, w] = (0, LB.useState)(!1),
+    T;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`) ? ((T = []), (t[0] = T)) : (T = t[0]);
+  let [E, D] = (0, LB.useState)(T),
+    O;
+  t[1] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((O = () => {
+        (w(!1), D([]));
+      }),
+      (t[1] = O))
+    : (O = t[1]);
+  let k = O,
+    A,
+    j;
+  if (
+    t[2] !== b ||
+    t[3] !== r ||
+    t[4] !== i ||
+    t[5] !== a ||
+    t[6] !== _ ||
+    t[7] !== y ||
+    t[8] !== x ||
+    t[9] !== o ||
+    t[10] !== s ||
+    t[11] !== c ||
+    t[12] !== l ||
+    t[13] !== u ||
+    t[14] !== d ||
+    t[15] !== f ||
+    t[16] !== v ||
+    t[17] !== g ||
+    t[18] !== p ||
+    t[19] !== m ||
+    t[20] !== h
+  ) {
+    A =
+      y && i != null
+        ? {
+            target: x ? null : (b ?? null),
+            capture: (e) => {
+              Bx(g, () => {
+                Cx(g, {
+                  getAnimationDestinationFrame: i,
+                  getAttachmentGen: a,
+                  onAddAppshotContext: o,
+                  onCaptureAnimationDuration: l,
+                  onCaptureSettled: u,
+                  onCaptureStarted: d,
+                  source: `add_context_menu`,
+                  target: e,
+                });
+              });
+            },
+          }
+        : null;
+    let e;
+    t[23] !== _ || t[24] !== f || t[25] !== v
+      ? ((e = async (e) => {
+          let { imagesOnly: t } = e;
+          return f == null
+            ? v({
+                imagesOnly: t,
+                pickerTitle: t
+                  ? _.formatMessage({
+                      id: `composer.contextAcquisition.filePicker.selectPhotos`,
+                      defaultMessage: `Select photos`,
+                      description: `Title of the file picker opened from the composer context menu when choosing photos`,
+                    })
+                  : _.formatMessage({
+                      id: `composer.contextAcquisition.filePicker.selectFiles`,
+                      defaultMessage: `Select files`,
+                      description: `Title of the file picker opened from the composer context menu when choosing files`,
+                    }),
+              })
+            : f({ imagesOnly: t });
+        }),
+        (t[23] = _),
+        (t[24] = f),
+        (t[25] = v),
+        (t[26] = e))
+      : (e = t[26]);
+    let n = e,
+      S;
+    t[27] === p
+      ? (S = t[28])
+      : ((S = (e) => {
+          p((t) => [...t, ...e]);
+        }),
+        (t[27] = p),
+        (t[28] = S));
+    let C;
+    t[29] === _
+      ? (C = t[30])
+      : ((C = (e) =>
+          _.formatMessage(
+            {
+              id: `composer.appshotCapture.attachApp`,
+              defaultMessage: `Attach {appName}`,
+              description: `Dropdown item label to attach an appshot from the current app`,
+            },
+            { appName: e },
+          )),
+        (t[29] = _),
+        (t[30] = C));
+    let T;
+    t[31] !== _ || t[32] !== g
+      ? ((T = () => {
+          g.get(Yr).danger(
+            _.formatMessage({
+              id: `composer.addContext.openFilePickerError`,
+              defaultMessage: `Unable to open file picker`,
+              description: `Toast shown when the host file picker fails to open`,
+            }),
+          );
+        }),
+        (t[31] = _),
+        (t[32] = g),
+        (t[33] = T))
+      : (T = t[33]);
+    let E;
+    (t[34] === h
+      ? (E = t[35])
+      : ((E = h
+          ? () => {
+              (D([]), w(!0));
+            }
+          : null),
+        (t[34] = h),
+        (t[35] = E)),
+      (j = wB({
+        addFileAttachments: S,
+        addImageDataUrls: s,
+        appshot: A,
+        executionTargetHostId: r,
+        getAttachmentGeneration: a,
+        labels: {
+          addPhotos: _.formatMessage({
+            id: `composer.addPhotos`,
+            defaultMessage: `Add photos`,
+            description: `Composer context action for adding photos`,
+          }),
+          filesAndFolders: _.formatMessage({
+            id: `composer.contextAction.filesAndFolders`,
+            defaultMessage: `Files and folders`,
+            description: `Composer context action for choosing local files and folders`,
+          }),
+          addRemoteFiles: _.formatMessage({
+            id: `composer.addRemoteFiles`,
+            defaultMessage: `Add remote files`,
+            description: `Composer context action for adding remote files`,
+          }),
+          attachAppshot: _.formatMessage({
+            id: `composer.appshotCapture.attach`,
+            defaultMessage: `Attach appshot`,
+            description: `Dropdown item label to attach an appshot`,
+          }),
+          attachApp: C,
+        },
+        loadImageDataUrls: NB,
+        onFilePickerError: T,
+        openRemoteFilePicker: E,
+        pickFiles: n,
+        supportsFileAttachments: m,
+        uploadLocalFileAttachments: c ?? null,
+      }).map(MB)),
+      (t[2] = b),
+      (t[3] = r),
+      (t[4] = i),
+      (t[5] = a),
+      (t[6] = _),
+      (t[7] = y),
+      (t[8] = x),
+      (t[9] = o),
+      (t[10] = s),
+      (t[11] = c),
+      (t[12] = l),
+      (t[13] = u),
+      (t[14] = d),
+      (t[15] = f),
+      (t[16] = v),
+      (t[17] = g),
+      (t[18] = p),
+      (t[19] = m),
+      (t[20] = h),
+      (t[21] = A),
+      (t[22] = j));
+  } else ((A = t[21]), (j = t[22]));
+  let M;
+  t[36] !== A || t[37] !== x || t[38] !== S
+    ? ((M = () => {
+        A != null && !x && S();
+      }),
+      (t[36] = A),
+      (t[37] = x),
+      (t[38] = S),
+      (t[39] = M))
+    : (M = t[39]);
+  let N;
+  t[40] !== n || t[41] !== r || t[42] !== C || t[43] !== E || t[44] !== p || t[45] !== h
+    ? ((N = h
+        ? (0, RB.jsx)(Cs, {
+            open: C,
+            onOpenChange: (e) => {
+              e || k();
+            },
+            size: `wide`,
+            children: (0, RB.jsxs)(Zc, {
+              as: `form`,
+              onSubmit: (e) => {
+                (e.preventDefault(), E.length !== 0 && (p((e) => [...e, ...E.map(jB)]), k()));
+              },
+              children: [
+                (0, RB.jsx)(K, {
+                  children: (0, RB.jsx)(ye, {
+                    title: (0, RB.jsx)(J, {
+                      id: `composer.remoteFilePicker.title`,
+                      defaultMessage: `Add remote files`,
+                      description: `Title for the remote file picker dialog`,
+                    }),
+                  }),
+                }),
+                (0, RB.jsx)(K, {
+                  children: (0, RB.jsx)(sB, {
+                    hostId: r,
+                    initialDirectoryPath: n,
+                    mode: `file`,
+                    selectedFilePaths: E,
+                    setSelectedFilePaths: D,
+                  }),
+                }),
+                (0, RB.jsx)(K, {
+                  children: (0, RB.jsxs)($n, {
+                    children: [
+                      (0, RB.jsx)(ya, {
+                        color: `ghost`,
+                        type: `button`,
+                        onClick: k,
+                        children: (0, RB.jsx)(J, {
+                          id: `composer.remoteFilePicker.cancel`,
+                          defaultMessage: `Cancel`,
+                          description: `Cancel button label for the remote file picker`,
+                        }),
+                      }),
+                      (0, RB.jsx)(ya, {
+                        color: `primary`,
+                        disabled: E.length === 0,
+                        type: `submit`,
+                        children: (0, RB.jsx)(J, {
+                          id: `composer.remoteFilePicker.add`,
+                          defaultMessage: `Add files`,
+                          description: `Confirm button label for the remote file picker`,
+                        }),
+                      }),
+                    ],
+                  }),
+                }),
+              ],
+            }),
+          })
+        : null),
+      (t[40] = n),
+      (t[41] = r),
+      (t[42] = C),
+      (t[43] = E),
+      (t[44] = p),
+      (t[45] = h),
+      (t[46] = N))
+    : (N = t[46]);
+  let P;
+  return (
+    t[47] !== j || t[48] !== M || t[49] !== N
+      ? ((P = { items: j, prepare: M, remoteFilePicker: N }),
+        (t[47] = j),
+        (t[48] = M),
+        (t[49] = N),
+        (t[50] = P))
+      : (P = t[50]),
+    P
+  );
+}
+function jB(e) {
+  return { fsPath: e, label: Qi(e), path: e };
+}
+function MB(e) {
+  let t, n;
+  bb49: switch (e.icon) {
+    case `appshot`:
+      n =
+        e.iconDataUrl == null
+          ? (0, RB.jsx)(yB, { "aria-hidden": !0, className: `icon-xs shrink-0` })
+          : (0, RB.jsx)(`img`, {
+              alt: ``,
+              "aria-hidden": !0,
+              className: `icon-xs shrink-0 rounded-[3px]`,
+              src: e.iconDataUrl,
+            });
+      break bb49;
+    case `image`:
+      t = J_;
+      break bb49;
+    case `paperclip`:
+      t = SB;
+  }
+  return {
+    action: e.run,
+    disabled: e.disabled,
+    key: `context-action:${e.id}`,
+    label: e.label,
+    detail: null,
+    icon: t,
+    iconElement: n,
+    type: `action`,
+  };
+}
+async function NB(e) {
+  return (
+    await Promise.all(
+      e.map(async (e) => {
+        try {
+          let t = Nk(e);
+          if (t != null) {
+            let n = PB({
+              contentsBase64: t.contentsBase64,
+              fsPath: e.fsPath,
+              mimeType: t.mimeType,
+            });
+            if (n != null) return { dataUrl: n, filename: e.label, localPath: e.fsPath };
+          }
+          let n = PB({
+            contentsBase64: (
+              await dn(`read-file-binary`, { params: { path: e.fsPath, hostId: Wt } })
+            ).contentsBase64,
+            fsPath: e.fsPath,
+          });
+          return n == null ? null : { dataUrl: n, filename: e.label, localPath: e.fsPath };
+        } catch {
+          return null;
+        }
+      }),
+    )
+  ).filter((e) => e != null);
+}
+function PB({ contentsBase64: e, fsPath: t, mimeType: n }) {
+  if (!e) return null;
+  let r = n || (0, IB.lookup)(t);
+  return typeof r == `string` ? `data:${r};base64,${e}` : null;
+}
+var FB,
+  IB,
+  LB,
+  RB,
+  zB = e(() => {
+    ((FB = X()),
+      ji(),
+      (IB = t(qg(), 1)),
+      (LB = t(El(), 1)),
+      Y(),
+      uy(),
+      Fx(),
+      Hx(),
+      hx(),
+      _s(),
+      ja(),
+      b(),
+      _B(),
+      Fs(),
+      bB(),
+      W_(),
+      CB(),
+      wt(),
+      we(),
+      ws(),
+      jn(),
+      tA(),
+      DB(),
+      kB(),
+      (RB = Z()));
+  });
+function BB(e) {
+  let t = (0, VB.c)(30),
+    {
+      activeCollaborationMode: n,
+      agentMode: r,
+      composerController: i,
+      composerMode: a,
+      currentLocalExecutionCwd: o,
+      currentLocalExecutionHostId: s,
+      currentRemoteCwd: c,
+      hasFollowUp: l,
+      hasText: u,
+      isLocalModeOnRemoteHost: d,
+      projectlessPrewarmReservation: f,
+      serviceTier: p,
+      shouldUseAppServerPermissionDefault: m,
+      workspaceRootsForLocalExecution: h,
+    } = e,
+    g;
+  t[0] !== n ||
+  t[1] !== r ||
+  t[2] !== i ||
+  t[3] !== a ||
+  t[4] !== o ||
+  t[5] !== s ||
+  t[6] !== c ||
+  t[7] !== l ||
+  t[8] !== d ||
+  t[9] !== f ||
+  t[10] !== p ||
+  t[11] !== m ||
+  t[12] !== h
+    ? ((g = () => {
+        if (!(Su() || m || l || a !== `local` || (d && c == null))) {
+          if (sc(h)) {
+            f.prewarm({
+              hostId: s,
+              workspaceRoots: h,
+              prompt: i.getPersistedText(),
+              collaborationMode: n,
+              agentMode: r,
+              serviceTier: p,
+            });
+            return;
+          }
+          Vr(`prewarm-conversation-for-host`, {
+            hostId: s,
+            cwd: o,
+            workspaceRoots: h,
+            workspaceKind: `project`,
+            projectlessOutputDirectory: null,
+            collaborationMode: n,
+            agentMode: r,
+            serviceTier: p,
+          });
+        }
+      }),
+      (t[0] = n),
+      (t[1] = r),
+      (t[2] = i),
+      (t[3] = a),
+      (t[4] = o),
+      (t[5] = s),
+      (t[6] = c),
+      (t[7] = l),
+      (t[8] = d),
+      (t[9] = f),
+      (t[10] = p),
+      (t[11] = m),
+      (t[12] = h),
+      (t[13] = g))
+    : (g = t[13]);
+  let _ = (0, HB.useEffectEvent)(g),
+    v;
+  t[14] !== _ || t[15] !== f || t[16] !== h
+    ? ((v = () => {
+        sc(h) && f.schedule(_);
+      }),
+      (t[14] = _),
+      (t[15] = f),
+      (t[16] = h),
+      (t[17] = v))
+    : (v = t[17]);
+  let y = (0, HB.useEffectEvent)(v),
+    b;
+  t[18] !== u || t[19] !== _ || t[20] !== y || t[21] !== h
+    ? ((b = () => {
+        if (u) {
+          if (sc(h)) {
+            y();
+            return;
+          }
+          _();
+        }
+      }),
+      (t[18] = u),
+      (t[19] = _),
+      (t[20] = y),
+      (t[21] = h),
+      (t[22] = b))
+    : (b = t[22]);
+  let x;
+  (t[23] !== i || t[24] !== u || t[25] !== h
+    ? ((x = [i, u, h]), (t[23] = i), (t[24] = u), (t[25] = h), (t[26] = x))
+    : (x = t[26]),
+    (0, HB.useEffect)(b, x));
+  let S, C;
+  return (
+    t[27] === f
+      ? ((S = t[28]), (C = t[29]))
+      : ((S = () => () => {
+          f.clear();
+        }),
+        (C = [f]),
+        (t[27] = f),
+        (t[28] = S),
+        (t[29] = C)),
+    (0, HB.useEffect)(S, C),
+    y
+  );
+}
+var VB,
+  HB,
+  UB = e(() => {
+    ((VB = X()), (HB = t(El(), 1)), Jr(), Od(), ds());
+  });
+function WB(e) {
+  let t = (0, GB.c)(19),
+    {
+      executionHostId: n,
+      fileAttachments: r,
+      setFileAttachments: i,
+      setPendingFileAttachments: a,
+      setPendingPastedTextAttachments: o,
+      setPastedTextAttachments: s,
+    } = e,
+    c = (0, KB.useRef)(0),
+    l;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`) ? ((l = new Set()), (t[0] = l)) : (l = t[0]);
+  let u = (0, KB.useRef)(l),
+    d;
+  t[1] === a
+    ? (d = t[2])
+    : ((d = (e) => {
+        (u.current.add(e), a((t) => t.filter((t) => t.id !== e)));
+      }),
+      (t[1] = a),
+      (t[2] = d));
+  let f = ns(d),
+    p = (0, KB.useRef)(n),
+    m;
+  t[3] !== r || t[4] !== s
+    ? ((m = (e) => {
+        (Ie(e, r), s((t) => gc(t, e)));
+      }),
+      (t[3] = r),
+      (t[4] = s),
+      (t[5] = m))
+    : (m = t[5]);
+  let h = (0, KB.useEffectEvent)(m),
+    g;
+  t[6] !== n || t[7] !== h || t[8] !== i || t[9] !== a || t[10] !== o
+    ? ((g = () => {
+        let e = p.current;
+        e !== n &&
+          (h(e), (p.current = n), i([]), a([]), o([]), u.current.clear(), (c.current += 1));
+      }),
+      (t[6] = n),
+      (t[7] = h),
+      (t[8] = i),
+      (t[9] = a),
+      (t[10] = o),
+      (t[11] = g))
+    : (g = t[11]);
+  let _;
+  (t[12] !== n || t[13] !== i || t[14] !== a || t[15] !== o
+    ? ((_ = [n, i, a, o]), (t[12] = n), (t[13] = i), (t[14] = a), (t[15] = o), (t[16] = _))
+    : (_ = t[16]),
+    (0, KB.useEffect)(g, _));
+  let v;
+  return (
+    t[17] === f
+      ? (v = t[18])
+      : ((v = {
+          attachmentGenRef: c,
+          canceledPendingFileAttachmentIdsRef: u,
+          handleRemovePendingFileAttachment: f,
+        }),
+        (t[17] = f),
+        (t[18] = v)),
+    v
+  );
+}
+var GB,
+  KB,
+  qB = e(() => {
+    ((GB = X()), (KB = t(El(), 1)), yi(), to(), Ms());
+  });
+function JB() {
+  let e = (0, ZB.c)(6),
+    t = qn(di),
+    n;
+  e[0] === t ? (n = e[1]) : ((n = ol(t)), (e[0] = t), (e[1] = n));
+  let r = n,
+    i;
+  e[2] === r ? (i = e[3]) : ((i = (e) => XB(r, e)), (e[2] = r), (e[3] = i));
+  let a = i,
+    o;
+  return (
+    e[4] === r ? (o = e[5]) : ((o = () => YB(r)), (e[4] = r), (e[5] = o)),
+    (0, QB.useSyncExternalStore)(a, o)
+  );
+}
+function YB(e) {
+  let t = rf(e);
+  return t ? t.childElementCount > 0 : !1;
+}
+function XB(e, t) {
+  if (typeof document > `u`) return () => {};
+  let n = null,
+    r = null,
+    i = (e) => {
+      n ||
+        ((n = new MutationObserver(() => {
+          t();
+        })),
+        n.observe(e, { childList: !0 }));
+    },
+    a = rf(e);
+  return (
+    a
+      ? i(a)
+      : (r = window.setTimeout(() => {
+          let n = rf(e);
+          n && (i(n), t());
+        }, 0)),
+    () => {
+      (r != null && (window.clearTimeout(r), (r = null)), n && n.disconnect());
+    }
+  );
+}
+var ZB,
+  QB,
+  $B = e(() => {
+    ((ZB = X()), ji(), (QB = t(El(), 1)), vu(), R());
+  });
+function eV(e) {
+  let t = (0, nV.c)(7),
+    n = e === void 0 ? !0 : e,
+    r = de(_e),
+    i;
+  t[0] === r
+    ? (i = t[1])
+    : ((i = r == null ? void 0 : { workspaceRoot: r }), (t[0] = r), (t[1] = i));
+  let a = n && r != null,
+    o;
+  t[2] === a ? (o = t[3]) : ((o = { enabled: a }), (t[2] = a), (t[3] = o));
+  let s;
+  return (
+    t[4] !== i || t[5] !== o
+      ? ((s = { params: i, queryConfig: o, select: tV }), (t[4] = i), (t[5] = o), (t[6] = s))
+      : (s = t[6]),
+    wl(`ide-context`, s)
+  );
+}
+function tV(e) {
+  return e.ideContext;
+}
+var nV,
+  rV = e(() => {
+    ((nV = X()), ji(), gn(), jn());
+  });
+function iV(e, t, n) {
+  let r = (0, oV.c)(18),
+    i = (n === void 0 ? !0 : n) && !0,
+    { isSuccess: a, isError: o, isFetching: s, refetch: c } = eV(i),
+    l = (0, sV.useEffectEvent)(c),
+    u;
+  r[0] !== l || r[1] !== i
+    ? ((u = () => {
+        if (i)
+          return xr(`client-status-changed`, () => {
+            l();
+          });
+      }),
+      (r[0] = l),
+      (r[1] = i),
+      (r[2] = u))
+    : (u = r[2]);
+  let d;
+  (r[3] === i ? (d = r[4]) : ((d = [i]), (r[3] = i), (r[4] = d)), (0, sV.useEffect)(u, d));
+  let f, p;
+  if (
+    (r[5] !== e || r[6] !== o || r[7] !== t
+      ? ((f = () => {
+          e && o && t(!1);
+        }),
+        (p = [e, o, t]),
+        (r[5] = e),
+        (r[6] = o),
+        (r[7] = t),
+        (r[8] = f),
+        (r[9] = p))
+      : ((f = r[8]), (p = r[9])),
+    (0, sV.useEffect)(f, p),
+    !i)
+  ) {
+    let e;
+    return (
+      r[10] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = { status: `no-connection`, refetch: aV }), (r[10] = e))
+        : (e = r[10]),
+      e
+    );
+  }
+  if (s) {
+    let e;
+    return (
+      r[12] === c
+        ? (e = r[13])
+        : ((e = { status: `loading`, refetch: c }), (r[12] = c), (r[13] = e)),
+      e
+    );
+  }
+  if (a) {
+    let e;
+    return (
+      r[14] === c
+        ? (e = r[15])
+        : ((e = { status: `connected`, refetch: c }), (r[14] = c), (r[15] = e)),
+      e
+    );
+  }
+  let m;
+  return (
+    r[16] === c
+      ? (m = r[17])
+      : ((m = { status: `no-connection`, refetch: c }), (r[16] = c), (r[17] = m)),
+    m
+  );
+}
+function aV() {
+  return Promise.resolve();
+}
+var oV,
+  sV,
+  cV = e(() => {
+    ((oV = X()), (sV = t(El(), 1)), rV(), O());
+  });
+function lV({
+  canceledPendingFileAttachmentIds: e,
+  conversationId: t,
+  executionHostId: n,
+  fileAttachments: r,
+  getAttachmentGen: i,
+  insertTextAtSelection: a,
+  pastedTextAttachments: o,
+  setFileAttachments: s,
+  setPastedTextAttachments: c,
+  setPendingPastedTextAttachments: l,
+}) {
+  let u = Ns(),
+    d = qn(et),
+    f = (0, uV.useRef)(new Set()),
+    p = (0, uV.useRef)(new Set());
+  (0, uV.useLayoutEffect)(() => {
+    let e = f.current,
+      t = p.current;
+    return () => {
+      for (let n of e) t.add(n);
+    };
+  }, [n]);
+  let m = ns((e) => {
+      let t = r[e];
+      (s((t) => t.filter((t, n) => n !== e)), t != null && Ar(n, t.path));
+    }),
+    h = ns((e) => {
+      let t = o[e];
+      if ((c((t) => t.filter((t, n) => n !== e)), t != null)) {
+        let e = t.file.path;
+        (f.current.has(e) && p.current.add(e), Ar(ua(t, n), e));
+      }
+    }),
+    g = ns((t) => {
+      (e.add(t), l((e) => e.filter((e) => e.id !== t)));
+    });
+  return {
+    handlePastedText: ns(async (r) => {
+      let a = u.formatMessage({
+          id: `composer.fileAttachment.pastedTextLabel`,
+          defaultMessage: `Pasted text.txt`,
+          description: `Label for a large text paste attached as a text file`,
+        }),
+        o = nl(),
+        s = i(),
+        f =
+          Zo(r) ||
+          u.formatMessage({
+            id: `composer.pastedTextAttachment.title`,
+            defaultMessage: `Pasted text`,
+            description: `Title for an attached large text paste without displayable text`,
+          });
+      (Vh(d, t, 1), l((e) => [...e, { id: o, preview: f }]));
+      try {
+        let t = await gr({
+          executionHostId: n,
+          label: a,
+          text: r,
+          shouldDiscard: () => i() !== s || e.has(o),
+        });
+        t != null && c((e) => [...e, { characterCount: r.length, file: t, hostId: n, preview: f }]);
+      } catch {
+        d.get(Yr).danger(
+          u.formatMessage({
+            id: `composer.fileAttachment.pastedTextError`,
+            defaultMessage: `Large pasted text could not be attached`,
+            description: `Toast shown when writing a large text paste as a file attachment fails`,
+          }),
+        );
+      } finally {
+        (Vh(d, t, -1), l((e) => e.filter((e) => e.id !== o)), e.delete(o));
+      }
+    }),
+    handleRemoveFileAttachment: m,
+    handleRemovePendingPastedTextAttachment: g,
+    handleRemovePastedTextAttachment: h,
+    handleShowPastedTextInTextField: ns(async (e) => {
+      let t = o[e];
+      if (t == null || !oo(t.characterCount)) return;
+      let r = t.file.path,
+        s = ua(t, n);
+      if (f.current.has(r)) return;
+      let l = i();
+      f.current.add(r);
+      try {
+        let e = await st(t, n);
+        if (i() !== l || p.current.has(r)) return;
+        (a(e.replace(/^```text\r?\n([\s\S]*?)\r?\n```\r?\n?$/, `$1`)),
+          c((e) => e.filter((e) => e.file.path !== r)),
+          Ar(s, r));
+      } catch {
+        if (i() !== l || p.current.has(r)) return;
+        d.get(Yr).danger(
+          u.formatMessage({
+            id: `composer.fileAttachment.pastedTextRestoreError`,
+            defaultMessage: `Pasted text could not be restored`,
+            description: `Toast shown when restoring an attached large text paste into the composer fails`,
+          }),
+        );
+      } finally {
+        (f.current.delete(r), p.current.delete(r));
+      }
+    }),
+  };
+}
+var uV,
+  dV = e(() => {
+    (ji(), Xa(), (uV = t(El(), 1)), Y(), Mi(), Fs(), wt(), yi(), to(), Ms(), bu());
+  });
+function fV(e) {
+  let t = (0, mV.c)(28),
+    { hostId: n, messages: r, actions: i, canShow: a, submit: o } = e,
+    [s, c] = (0, hV.useState)(!1),
+    l = _n(`3194650870`),
+    u;
+  t[0] !== l || t[1] !== r
+    ? ((u = l && r.some(pV)), (t[0] = l), (t[1] = r), (t[2] = u))
+    : (u = t[2]);
+  let d = u,
+    f;
+  t[3] === o
+    ? (f = t[4])
+    : ((f = (e) => {
+        (c(!1), o(e));
+      }),
+      (t[3] = o),
+      (t[4] = f));
+  let p = f,
+    m,
+    h;
+  t[5] === p
+    ? ((m = t[6]), (h = t[7]))
+    : ((m = () => p(!0)), (h = () => p(!1)), (t[5] = p), (t[6] = m), (t[7] = h));
+  let g;
+  t[8] !== r.length || t[9] !== s || t[10] !== m || t[11] !== h
+    ? ((g = (0, gV.jsx)(Pz, {
+        open: s,
+        onOpenChange: c,
+        queuedMessageCount: r.length,
+        onClearQueue: m,
+        onSubmit: h,
+      })),
+      (t[8] = r.length),
+      (t[9] = s),
+      (t[10] = m),
+      (t[11] = h),
+      (t[12] = g))
+    : (g = t[12]);
+  let _;
+  t[13] !== i || t[14] !== n || t[15] !== r
+    ? ((_ = (e) => {
+        if (!e) {
+          i.resumeInterruptedSteers();
+          return;
+        }
+        for (let e of r)
+          (Ge(n, e.context.fileAttachments, e.context.pastedTextAttachments ?? []), i.remove(e.id));
+      }),
+      (t[13] = i),
+      (t[14] = n),
+      (t[15] = r),
+      (t[16] = _))
+    : (_ = t[16]);
+  let v;
+  t[17] === l
+    ? (v = t[18])
+    : ((v = (e) => e != null && (!l || e !== `Interrupted before the steer was accepted.`)),
+      (t[17] = l),
+      (t[18] = v));
+  let y;
+  t[19] !== a || t[20] !== d
+    ? ((y = () => (!a || !d ? !1 : (c(!0), !0))), (t[19] = a), (t[20] = d), (t[21] = y))
+    : (y = t[21]);
+  let b;
+  return (
+    t[22] !== d || t[23] !== g || t[24] !== _ || t[25] !== v || t[26] !== y
+      ? ((b = { dialog: g, submitted: _, isPaused: d, isFailed: v, maybeShow: y }),
+        (t[22] = d),
+        (t[23] = g),
+        (t[24] = _),
+        (t[25] = v),
+        (t[26] = y),
+        (t[27] = b))
+      : (b = t[27]),
+    b
+  );
+}
+function pV(e) {
+  return e.pausedReason === xl;
+}
+var mV,
+  hV,
+  gV,
+  _V = e(() => {
+    ((mV = X()), (hV = t(El(), 1)), dl(), Lt(), Ms(), Lz(), (gV = Z()));
+  });
+function vV({ worktreeSourceCwd: e, worktreeRepoRoot: t }) {
+  return { worktreeGitContextRoot: t ?? e, workspaceRootForSubmit: e };
+}
+var yV = e(() => {});
+function bV({
+  aboveComposerHeaderContent: e,
+  belowComposerContent: t,
+  activeCollaborationMode: n,
+  browserConversationId: i,
+  collaborationModes: a,
+  serviceTier: o,
+  setSelectedCollaborationMode: s,
+  isResponseInProgress: c,
+  showExternalFooter: l,
+  hideArtifactPluginSuggestions: d,
+  showPlanKeywordSuggestion: f,
+  composerModeAvailability: p,
+  placeholderText: m,
+  composerLayoutMode: g,
+  hotkeyWindowHomeFooterControls: v,
+  homeRunLocationRemoteProject: y,
+  defaultCwd: b,
+  onSubmitLocal: S,
+  onSubmitWorktree: C,
+  onStop: w,
+  isStopping: D,
+  showWorkspaceDropdownInFooter: O,
+  externalFooterVariant: k,
+  surfaceClassName: A,
+  showFooterBranchWhen: j,
+  freeUpsellButton: M,
+  onCreateSideConversation: N,
+  hideRunLocationDropdownOverride: P,
+  projectlessPrewarmReservation: F,
+  localWorkspaceMaterialization: ee,
+}) {
+  let I = qn(di),
+    L = de(si),
+    R = de(Ke),
+    z = _(),
+    V = (0, CV.useContext)(NA),
+    H = Al(),
+    te = Nr(),
+    re = I.value.kind === `local` && I.value.placement === `side`,
+    U = ol(I),
+    ie = Rr(U);
+  Gc(Ir, U);
+  let ae = Gc(u, U),
+    oe = jm(U),
+    W = Nt(y?.hostId ?? oe.hostId),
+    G = U == null && oe.hostId === `local` && y != null,
+    K = G ? { ...oe, cwd: y.remotePath, hostConfig: W, hostId: y.hostId } : oe,
+    ce = xt(K.hostId),
+    le =
+      Gc(Jo, { hostConfig: K.hostConfig, operationSource: `composer_content` }).data?.available ===
+      !0,
+    ue = _n(`505458`),
+    fe = _n(`3025044430`);
+  _n(`3207467860`);
+  let pe = Nn(),
+    me = Gc(E, {
+      cwd: K.cwd,
+      enabled: le,
+      hostConfig: K.hostConfig,
+      operationSource: `composer_content`,
+      watchForGitInit: !1,
+    }),
+    he = Gc(vr, {
+      cwd: K.cwd,
+      enabled: le,
+      hostConfig: K.hostConfig,
+      operationSource: `composer_content`,
+      watchForGitInit: !1,
+    }),
+    ge = FA(R),
+    _e =
+      ge ??
+      (() => {
+        switch (I.value.kind) {
+          case `new`:
+            return Ys({ entrypoint: I.value.entrypoint === `panel` ? `panel` : `home` });
+          case `local`:
+            return I.value.conversationId;
+          case `cloud`:
+            return I.value.taskId;
+          case `other`:
+            return Ys({ entrypoint: `home` });
+        }
+      })(),
+    ve = i ?? ge,
+    ye = XL(ve),
+    be = n?.settings.model ?? null,
+    {
+      isUsageBannerEnabled: xe,
+      modelLimitName: Se,
+      modelLimitResetAt: Ce,
+      rateLimit: we,
+      rateLimitWarningThreshold: Te,
+      showCoreRateLimitUpsell: Ee,
+      showModelLimitBanner: De,
+      showWorkspaceUsageLimitBanner: Oe,
+    } = kw({ selectedModel: be }),
+    ke = Gc(oc, U),
+    Ae = Gc(wr, U),
+    je = Gc(Ve, U),
+    { isAppConnectCallbackClaimed: Ne } = $c(),
+    Pe = vA(je, U, Ne),
+    Fe = _A(Pe),
+    Ie = Gc(Un, U) === `projectless`,
+    J = c_() === l_,
+    Le = (!J || k === `home`) && (l || (re && Ie)),
+    Re = Gc(sl, U),
+    Be = Re === `~` ? null : Re,
+    He = Rm(),
+    We = Gc(fi, He ? U : null) ?? EV,
+    Y = (0, CV.useMemo)(() => (U == null || !He ? null : { turns: We }), [U, He, We]),
+    {
+      memberships: qe,
+      rows: Je,
+      mentionItems: Ye,
+      firstApproval: Xe,
+    } = Kz({ activeConversationId: U, conversation: Y, enabled: He, manager: ie }),
+    Ze = qO({ conversation: Y, memberships: qe }),
+    Qe = JO(Y),
+    $e = Je.filter((e) => Ze.get(e.conversationId)?.parentTurnKey === Qe),
+    et = Xe != null,
+    tt = Gc(u, Xe?.conversationId ?? null),
+    nt = As(Pe);
+  Pe?.type;
+  let it = U != null && (nt || et),
+    [at, st] = (0, CV.useState)(!1),
+    ct = JB(),
+    { isPending: lt } = GS(ae),
+    ut = Yw(),
+    dt = !Q_(),
+    ft = Ns(),
+    pt = Hc(),
+    mt = La(),
+    ht = { conversationId: U, hostId: ae },
+    gt = Gc(Pr, ht),
+    _t = Gc(Fn, U),
+    vt =
+      _t != null && U != null
+        ? {
+            conversationId: U,
+            domain: _t.domain,
+            eventId: -1,
+            turnId: _t.turnId,
+            variant: `first_block`,
+          }
+        : null,
+    yt = gt.event != null && gt.event.eventId !== gt.dismissedEventId ? gt.event : vt,
+    { state: bt } = mt,
+    St = jo(),
+    Ct = _n(`1907601843`),
+    {
+      imageInputUnsupportedReason: wt,
+      notifyImageInputUnsupported: Tt,
+      supportsImageInputs: Et,
+    } = Tw({ scope: I, conversationId: U, intl: ft }),
+    [Dt, Ot] = (0, CV.useState)(!1),
+    [At, jt] = (0, CV.useState)(null),
+    [Pt, Ft] = (0, CV.useState)(null),
+    { interruptThread: It } = xd(),
+    Lt = (e) => (I.get(Pa, e) ? { turns: I.get(fi, e) ?? EV } : null);
+  async function Rt(e) {
+    if (
+      (I.get(Pa, e) ||
+        (await Vr(`hydrate-background-threads`, { hostId: K.hostId, threadIds: [e] })),
+      I.get(Pa, e))
+    ) {
+      if (Su()) {
+        Mt.hotkeyWindowHotkeys?.open({ path: Yi(e) });
+        return;
+      }
+      pt(hs(e));
+    }
+  }
+  let zt = new Map(Je.map((e) => [e.conversationId, e])),
+    Bt = qe.some((e) =>
+      GO({ conversationId: e.conversationId, rowsByConversationId: zt, getConversation: Lt }),
+    ),
+    Vt = () => {
+      for (let e of KO({ memberships: qe, rowsByConversationId: zt, getConversation: Lt }))
+        It({ conversationId: e });
+    },
+    { isQueueingEnabled: Ht } = My(),
+    Ut = h(ne.composerEnterBehavior),
+    Wt = Gc(Ac, U),
+    Gt = Gc(ea, U),
+    Kt = Gc(Gi, U),
+    qt = jh(U),
+    { messages: Jt, actions: Yt } = qt,
+    { data: Xt, isLoading: Zt } = de(yo),
+    Qt = T(`open-file`),
+    $t = Xt?.roots?.[0] ?? null,
+    en = de(Ol),
+    { remoteConnections: tn, selectedRemoteHostId: nn } = de(em),
+    { selectedRemoteProject: rn, selectedRemoteProjectId: on } = Ia(),
+    sn = el(),
+    ln = bt?.prefillPrompt,
+    un = bt?.prefillPriorConversation ?? null,
+    dn = bt?.prefillAddedFiles ?? null,
+    pn = bt?.prefillCommentAttachments ?? null,
+    hn = bt?.prefillCwd ?? null,
+    gn = de(b_),
+    vn = Xt?.roots ?? DV,
+    yn = fR({
+      sharedPrefillCwd: gn,
+      locationPrefillCwd: hn,
+      localConversationCwd: ke,
+      selectedRemoteProjectPath: rn?.remotePath ?? null,
+      defaultCwd: b,
+      workspaceRoots: vn,
+      activeWorkspaceRoot: $t,
+      codexHome: sn,
+      canUseProjectlessThreads: dt,
+    }),
+    bn = yn === `~`,
+    xn = yn === `/` || bn ? null : yn,
+    { data: Cn } = de(jR, { enabled: dt && (bn || Ie) && Be == null }),
+    wn = Be ?? Cn,
+    Tn = yn === `/` || bn ? null : Co(yn),
+    En = (0, CV.useMemo)(
+      () =>
+        uO({
+          isProjectlessComposerCwd: bn,
+          isProjectlessConversation: Ie,
+          projectlessWorkspaceRoot: wn,
+          resolvedCwd: yn,
+          workspaceRootPaths: vn,
+        }),
+      [bn, Ie, wn, vn, yn],
+    ),
+    Dn = XD(),
+    On = yh();
+  (gx(On, !re), tB(On));
+  let kn = Mm(On, (e) => wh.getState(e.view.state)?.kind === `slash-command`),
+    An = $e.length > 0 && !1,
+    jn = it || Ee || Te != null || De || yt != null || kn || at,
+    [X, Mn] = (0, CV.useState)(null),
+    Pn = me?.root != null,
+    In = ge != null && ae !== `local` ? ae : null,
+    Ln = Zt || K.isActiveWorkspaceRootLoading,
+    Rn = Ts({ cwd: G ? K.cwd : yn, hostId: K.hostId, isFollowUp: R != null, isLoading: Ln }),
+    zn = Gc(B, Rn),
+    Bn = Gc(Sa, bt?.focusComposerNonce) ?? zn,
+    Vn = de(er),
+    Hn = de(q),
+    Wn = Gc(Hm, _e),
+    Gn = de(ll),
+    Kn = de(x),
+    Jn = de(hS),
+    Yn = de(cn),
+    Xn = de(xo),
+    Zn = de(Li),
+    Qn = de(Bc),
+    $n = de(bl),
+    tr = $n?.comments ?? [],
+    nr = Qn.filter((e) => e.id !== $n?.attachmentId),
+    rr = de(Es),
+    ir = de(Fa),
+    ar = de(Qc),
+    or = de(ra),
+    sr = de(Uo),
+    cr = de(Ga),
+    lr = de(mi),
+    { access: ur } = t_(),
+    dr = e_({
+      ...(p ??
+        r_({
+          canCreateBrowserDefaultHostThreads: !1,
+          hasBrowserLocalExecutionHost: !1,
+          hasComposerModeGitRepo: Pn,
+          hasFollowUp: R != null,
+          isBrowser: !1,
+          isComposerModeGitMetadataLoading: he,
+          isResponseInProgress: c,
+          isStatsigLoading: pe,
+          isWorktreeExecutionTargetLoading: K.cwd == null && K.isActiveWorkspaceRootLoading,
+          isWorktreePickerEnabled: ue,
+        })),
+      composerMode: Bn,
+      cloudAccess: ur,
+    }),
+    fr = yf(tn),
+    pr = Ky({
+      attachedRemoteHostId: In,
+      browserRemoteHostId: null,
+      followUpType: R?.type,
+      forceDefaultHost: !1,
+      selectedRemoteProjectHostId: rn?.hostId ?? y?.hostId ?? null,
+    }),
+    mr = xt(pr ?? ``),
+    hr = pr != null && rn?.hostId === pr ? rn.remotePath : y?.hostId === pr ? y.remotePath : null,
+    gr = pr == null ? null : In == null ? hr : (ke ?? hr),
+    _r = dr === `local` && pr != null,
+    yr = pr != null,
+    br = _r && mr != null ? pr : ae,
+    xr = Nt(br),
+    Sr = fV({
+      hostId: br,
+      messages: Jt,
+      actions: Yt,
+      canShow: dr === `local` && R?.type === `local` && !c,
+      submit: (e) => void Fs({ clear: e, focusComposerAfterSubmit: !0 }),
+    }),
+    Cr = ce == null ? br : K.hostId,
+    Tr = dr === `worktree` ? Cr : br,
+    Dr = Nt(Tr),
+    Or =
+      ut.isEnabled && ((dr === `local` && br === `local`) || (dr === `worktree` && Cr === `local`)),
+    [kr, Ar] = Bw(),
+    { hasError: jr, isPending: Mr, requirement: Fr, retry: zr } = Uw({ enabled: Or }),
+    Br = Or && (kr || Fr != null || (ut.isEnabled && lt)),
+    Ur = ut.isEnabled && Or && lt ? `host-setup` : null,
+    Wr = Ur == null,
+    Gr = K.cwd ?? yn,
+    Kr = LA(I.value, dr);
+  de(wa);
+  let qr = ns((e) => {
+      U ?? kt(I, `aeonStartTarget`, e);
+    }),
+    Jr = R?.type === `local` && Ht && !0,
+    Xr = Wt != null || Vn != null,
+    Zr = Vn != null,
+    { hostId: Qr, cwdOverride: $r } = kR({
+      composerMode: dr,
+      followUpType: R?.type,
+      localExecutionRemoteHostId: pr,
+      worktreeExecutionHostId: dr === `worktree` ? Cr : null,
+      worktreeExecutionCwd: Gr,
+      mcpManagerHostId: ae,
+      currentRemoteCwd: gr,
+    }),
+    {
+      agentMode: ei,
+      isAgentModePending: ti,
+      permissionOverrideThreadSettings: ni,
+      permissionProfileId: ri,
+      shouldSendPermissionOverrides: ii,
+      shouldUseAppServerPermissionDefault: ai,
+    } = y_({ conversationId: U, cwdOverride: $r, hostId: Qr }),
+    oi = Xo({
+      isExistingThread: U != null,
+      executionHostId: Cr,
+      activeLocalProjectId: $t,
+      existingAssignment: U == null ? void 0 : en?.[U],
+      homeRemoteProject: y ?? null,
+      selectedRemoteProject: rn,
+    }),
+    ci = _r && gr != null ? gr : yn,
+    li = pr == null ? null : (fr[pr] ?? `disconnected`),
+    ui = _r && pr != null ? pr : dr === `worktree` && Cr !== `local` ? Cr : null,
+    pi = ui == null ? null : (fr[ui] ?? `disconnected`),
+    hi = Gg(ui ?? `local`),
+    gi = ui == null ? null : hi.error,
+    _i = {
+      productLogger: L,
+      connection: ui == null ? null : (tn.find((e) => e.hostId === ui && Za(e)) ?? null),
+      connectionState: pi,
+      isFollowUp: R != null,
+      error: gi,
+      threadId: U,
+    },
+    vi = (e, t) => {
+      sx(_i, {
+        result: mn.CODEX_REMOTE_SSH_MESSAGE_RESULT_SUCCEEDED,
+        submitAction: e,
+        threadId: t?.threadId,
+        turnId: t?.turnId,
+      });
+    },
+    yi = (0, CV.useCallback)(
+      (e, t) => {
+        kt(I, e, t);
+      },
+      [I],
+    ),
+    bi = (e) => {
+      if (On.view.dom.isConnected) {
+        On.appendText(e);
+        return;
+      }
+      Ml(I, (t) => Ud(t, e));
+    },
+    xi = (e) => {
+      gp(I, _e, e);
+    },
+    Si = (0, CV.useCallback)(
+      (e) => {
+        yi(`selectedTextAttachments`, e);
+      },
+      [yi],
+    ),
+    Ci = (0, CV.useCallback)((e) => Me(I, Rn, e), [Rn, I]),
+    { status: wi } = iV(
+      Zn,
+      (0, CV.useCallback)((e) => rt(I, e), [I]),
+      !yr,
+    ),
+    Ti = !yr && wi === `connected` && Zn,
+    Ei = yr ? `no-connection` : wi,
+    Di = nr.length > 0,
+    Oi = vs(Wn),
+    {
+      handleRemoveFile: ki,
+      handleRemoveImage: Ai,
+      handleRemoveAppshotContext: ji,
+      setAddedFiles: Mi,
+      setFileAttachments: Ni,
+      setPastedTextAttachments: Pi,
+      setImageAttachments: Fi,
+      setAppshotContexts: Ii,
+    } = iB({ setComposerStateField: yi }),
+    Ri = rr.length > 0,
+    {
+      attachmentsContainerRef: zi,
+      clearPendingCaptures: Bi,
+      getAnimationDestinationFrame: Vi,
+      handleCaptureAttached: Hi,
+      handleCaptureAnimationDuration: Ui,
+      handleCaptureSettled: Wi,
+      handleCaptureStarted: Ki,
+      hasPendingCaptures: Xi,
+      pendingCaptures: Zi,
+    } = Kx({
+      attachmentTrayGrowthDirection: R?.type === `local` ? `up` : `down`,
+      imageAttachmentCount: Qn.length,
+      appshotContextCount: rr.length,
+    }),
+    [Qi, ta] = (0, CV.useState)([]),
+    [na, ia] = (0, CV.useState)([]),
+    {
+      attachmentGenRef: aa,
+      canceledPendingFileAttachmentIdsRef: oa,
+      handleRemovePendingFileAttachment: sa,
+    } = WB({
+      executionHostId: Tr,
+      fileAttachments: ir,
+      setFileAttachments: Ni,
+      setPendingFileAttachments: ta,
+      setPendingPastedTextAttachments: ia,
+      setPastedTextAttachments: Pi,
+    }),
+    ca = VL({
+      attachmentGenRef: aa,
+      canceledPendingFileAttachmentIds: oa.current,
+      executionHostId: Tr,
+      setFileAttachments: Ni,
+      setPendingFileAttachments: ta,
+    }),
+    la = !yr || dr !== `cloud`,
+    ua = dr !== `cloud`,
+    da = la ? ir : [],
+    fa = nA({
+      attachmentGeneration: aa,
+      canceledPendingFileAttachmentIds: oa.current,
+      canCopyBrowserFileAttachments: !1,
+      composerMode: dr,
+      executionHostConfig: Dr,
+      executionHostId: Tr,
+      getRestrictedRemoteHostImageSizeContext: () => ({
+        appshotContexts: rr,
+        commentAttachments: Wn,
+        imageAttachments: Qn,
+        mcpAppModelContextAttachments: Gn,
+      }),
+      intl: ft,
+      notifyImageInputUnsupported: Tt,
+      scope: I,
+      setAddedFiles: Mi,
+      setFileAttachments: Ni,
+      setImageAttachments: Fi,
+      setPendingFileAttachments: ta,
+      supportsImageInputs: Et,
+    }),
+    pa = ns(fa.addFileDescriptorsAsMentions),
+    ma = ns(fa.addFileMentionsFromFiles),
+    ha = ns(fa.addImageDataUrls),
+    ga = ns(fa.addImages);
+  ns(fa.pickBrowserFileDescriptors);
+  let _a = ns(fa.uploadImageAttachment),
+    va = ns(fa.uploadLocalFileAttachments),
+    ya = (0, CV.useCallback)(
+      (e) => {
+        yi(`asyncThreadStartingState`, e);
+      },
+      [yi],
+    ),
+    ba = (0, CV.useCallback)(
+      (e) => {
+        yi(`followUpCloudStartingState`, e);
+      },
+      [yi],
+    ),
+    [xa, Ca] = (0, CV.useState)(bt?.focusComposerNonce),
+    [Ta, Ea] = (0, CV.useState)(un),
+    Da = bt?.focusComposerNonce,
+    Oa = (0, CV.useCallback)(() => {
+      Ca((e) => (e ?? 0) + 1);
+    }, [Ca]),
+    ka = (0, CV.useEffectEvent)(() => {
+      (un && Ea(un),
+        Da != null && Ca(Da),
+        ln && ln !== On.getText() && On.setPromptText(ln),
+        dn != null && dn.length > 0 && pa(dn),
+        pn != null && pn.length > 0 && xi(pn));
+    });
+  (0, CV.useEffect)(() => {
+    ka();
+  }, [ln, un, dn, pn, Da]);
+  let [Aa, ja] = Cl(`composer_prefill`),
+    Ma = (0, CV.useEffectEvent)(() => {
+      let e = Aa?.commentAttachments,
+        t = Aa?.clearText === !0 || (Aa?.text.length ?? 0) > 0;
+      Aa == null ||
+        (!t && (e == null || e.length === 0)) ||
+        (U ??
+          (Aa.cwd == null ? I.set(b_, null) : I.set(b_, Aa.cwd),
+          t && (Lr(Aa.text) ? On.setPromptText(Aa.text) : On.setText(Aa.text)),
+          e != null && e.length > 0 && xi(e),
+          On.focus(),
+          ja(void 0)));
+    });
+  ((0, CV.useEffect)(() => {
+    Ma();
+  }, [Aa]),
+    (0, CV.useEffect)(() => {
+      !U || !gn || I.set(b_, null);
+    }, [U, I, gn]),
+    (0, CV.useEffect)(() => {}, [On]),
+    (0, CV.useEffect)(() => {
+      if (it || Dt) return;
+      let e = Wf(On.view.dom, (e) => {
+          Uh({ composerController: On, event: e });
+        }),
+        t = Xh(On.view.dom);
+      return () => {
+        (t(), e());
+      };
+    }, [On, Dt, it]));
+  let Na = Xd(U);
+  (0, CV.useEffect)(() => {
+    let e = eu(mt.pathname);
+    return (
+      document.body.toggleAttribute(Wh, e && ct),
+      () => {
+        document.body.removeAttribute(Wh);
+      }
+    );
+  }, [ct, mt.pathname]);
+  let { worktreeGitContextRoot: za, workspaceRootForSubmit: Ba } = vV({
+      worktreeSourceCwd: Gr,
+      worktreeRepoRoot: me?.root ?? null,
+    }),
+    Ha = dr === `worktree` ? za : (me?.root ?? null),
+    Ua = !R && dr !== `local` && Ha != null,
+    { data: Wa } = Qp(Ua ? Ha : null, K.hostConfig, `composer_content`, { enabled: Ua && le }),
+    Ka = dr === `worktree` ? Ba : yn,
+    qa = (0, CV.useMemo)(() => (_r ? [ci] : [Ka]), [ci, _r, Ka]),
+    Ja = (0, CV.useMemo)(() => (_r ? (gr == null ? [] : [gr]) : bn ? [] : [yn]), [gr, _r, bn, yn]),
+    Ya = _r
+      ? {
+          hostId: br,
+          permissions: {
+            agentMode: ei,
+            permissionProfileId: ri,
+            shouldSendPermissionOverrides: ii,
+          },
+          workspaceRoots: qa,
+        }
+      : void 0,
+    { resolvedConfigPath: Xa } = ty({
+      hostId: K.hostId,
+      workspaceRoot: dr === `worktree` ? Gr : null,
+    });
+  ((0, CV.useEffect)(() => {
+    let e = kd(On.view, {
+      b: (e) =>
+        !(Sd() ? e.metaKey && !e.ctrlKey : e.ctrlKey && !e.metaKey) || e.shiftKey || e.altKey
+          ? !1
+          : (Er(`toggleSidebar`, `composer_sidebar_shortcut`),
+            e.preventDefault(),
+            e.stopPropagation(),
+            !0),
+    });
+    return () => {
+      e();
+    };
+  }, [On]),
+    (0, CV.useEffect)(() => {
+      xa != null &&
+        requestAnimationFrame(() => {
+          On.focus();
+        });
+    }, [xa, On]));
+  let [Qa, eo] = (0, CV.useState)(!1),
+    [to, ro] = (0, CV.useState)(!1),
+    [io, ao] = (0, CV.useState)(!1),
+    [oo, so] = (0, CV.useState)(0),
+    {
+      clearStopTurnConfirmation: Z,
+      confirmStopTurn: co,
+      handleStop: lo,
+      isStopTurnConfirmationVisible: uo,
+    } = Iw({
+      onStop: w,
+      turnId: R?.type === `cloud` ? R.taskDetails.current_assistant_turn?.id : Ae?.turnId,
+    }),
+    fo = (0, CV.useRef)(0);
+  yx(`add-context-file`, On.view.dom, (e) => {
+    (Oa(), pa([e.file]));
+  });
+  let po = Mm(On, (e) => e.hasText()),
+    mo = g === `auto-single-line`,
+    ho = Mm(On, (e) => (mo ? e.getText() : ``)),
+    _o = Mm(On, (e) => mo && e.view.state.doc.childCount > 1),
+    vo =
+      mo &&
+      (_o ||
+        ho.includes(`
+`)),
+    bo =
+      Di ||
+      Ri ||
+      da.length > 0 ||
+      ar.length > 0 ||
+      or.length > 0 ||
+      Wn.length > 0 ||
+      tr.length > 0 ||
+      Kn.length > 0 ||
+      Jn != null ||
+      Yn.length > 0 ||
+      Xn != null ||
+      Ta != null,
+    So = bo || Gn.length > 0,
+    wo = po || So,
+    To = Xi || Qi.length > 0 || na.length > 0,
+    Eo = ns(() => {
+      let e = Jt.at(-1);
+      return wo || To || mc != null || e == null ? !1 : (gc(e.id), !0);
+    }),
+    { appendPromptToHistory: Do, resetHistorySelection: Oo } = VA(On, ge ?? i ?? null, Eo),
+    ko = To || bo || Gn.some((e) => e.showInComposer !== !1),
+    {
+      setSingleLineInputMeasureRef: Ao,
+      setSingleLineTextMeasureRef: Mo,
+      singleLineInputWidth: No,
+      singleLineTextWidth: Po,
+    } = Mw(),
+    [Io, Lo] = (0, CV.useState)(null),
+    Ro = Fl(On),
+    zo = de(Vy),
+    Bo = Yp(On),
+    Vo = Mm(On, (e) => e.getMentionedAgentConversationIdsKey()),
+    Ho = (0, CV.useMemo)(() => (Vo === `` ? [] : Vo.split(`\0`)), [Vo]),
+    Wo = Mm(On, (e) => e.getMentionedThreadIdsKey()),
+    Go = (0, CV.useMemo)(() => (Wo === `` ? [] : Wo.split(`\0`).map(Hr)), [Wo]),
+    Ko = Ro.ui?.active === !0,
+    qo = Ko || Bo.ui?.active === !0 || Hn || Ue(Aa?.text ?? ``),
+    Yo = rc(St),
+    Zo = Yo == null ? null : (St?.repo_map ?? {})[Yo],
+    Qo = R?.type === `cloud` && R.hasAppliedCodeLocally;
+  (0, CV.useEffect)(() => {
+    Qo && ba(`working-tree`);
+  }, [Qo, ba]);
+  let $o = (0, CV.useEffectEvent)(() => {
+    if (sr.type !== `branch`) return;
+    let e = St?.repos?.[0],
+      t = Wa ?? (e == null ? null : ((St?.repo_map ?? {})[e]?.default_branch ?? null));
+    t &&
+      ((t === cr && sr.branchName === t) ||
+        (yi(`defaultBranchSnapshot`, t), ya({ type: `branch`, branchName: t })));
+  });
+  (0, CV.useEffect)(() => {
+    $o();
+  }, [St, Wa]);
+  let es = BB({
+    activeCollaborationMode: n,
+    agentMode: ei,
+    composerController: On,
+    composerMode: dr,
+    currentLocalExecutionCwd: ci,
+    currentLocalExecutionHostId: br,
+    currentRemoteCwd: gr,
+    hasFollowUp: R != null,
+    hasText: po,
+    isLocalModeOnRemoteHost: _r,
+    projectlessPrewarmReservation: F,
+    serviceTier: o,
+    shouldUseAppServerPermissionDefault: ai,
+    workspaceRootsForLocalExecution: qa,
+  });
+  (0, CV.useEffect)(() => {
+    Ml(I, On.getPersistedText());
+  }, [On, I]);
+  let ts = (0, CV.useEffectEvent)((e) => {
+    Dt || e.trim() !== `` || eO({ location: mt, locationState: bt, navigate: pt, scope: I });
+  });
+  ((0, CV.useEffect)(
+    () =>
+      ah(On.view, () => {
+        let e = On.getPersistedText();
+        (Ml(I, e), ts(e), es(), so((t) => (e.trim() !== `` && t !== 0 ? 0 : t)));
+      }),
+    [On, es, I],
+  ),
+    (0, CV.useEffect)(() => {
+      if (dr !== `cloud`) return;
+      let e = aa.current,
+        t = Qn.filter((e) => e.uploadStatus === void 0 || e.uploadStatus === `idle`);
+      if (t.length !== 0) {
+        Fi((e) =>
+          e.map((e) => (t.some((t) => t.id === e.id) ? { ...e, uploadStatus: `uploading` } : e)),
+        );
+        for (let n of t) _a(n, e);
+      }
+    }, [dr]));
+  let rs = {
+      agentMode: ei,
+      composerMode: dr,
+      windowsSandboxRequirement: Fr,
+      hasWindowsSandboxRequirementError: jr,
+      isWindowsSandboxRequirementPending: Mr,
+      isWindowsSandboxSetupPending: Or && lt,
+      isAgentModePending: ti,
+      localWorkspaceMaterialization: ee,
+      workspaceRootsLoading: Zt,
+      workspaceRootsForSubmit: qa,
+      canUseProjectlessThreads: dt,
+      isProjectlessConversation: Ie,
+      isBrowserEnvironmentSelectionActive: !1,
+      isRemoteProjectExecution: yr,
+      isLocalModeOnRemoteHost: _r,
+      localRemoteConnectionState: li,
+      remoteConnectionError: gi,
+      currentRemoteCwd: gr,
+      followUpCloudStartingState: lr,
+      isWorktreeSnapshotsEnabled: Ct,
+      codeEnvironment: St,
+      followUp: R,
+    },
+    is = yz({
+      ...rs,
+      supportsImageInputs: Et,
+      imageAttachments: Qn,
+      hasAppshotContexts: Ri,
+      hasCommentImages: Oi,
+      hasPendingFileAttachments: Qi.length > 0 || na.length > 0,
+      hasUnavailablePastedTextAttachments: Ks(dr, Tr, ar),
+      hasMessageContent: wo,
+    }),
+    as =
+      is == null ? null : jz({ submitBlockReason: is, intl: ft, imageInputUnsupportedReason: wt }),
+    os = (0, CV.useCallback)(
+      (e) => {
+        (ao(e), e || Oa());
+      },
+      [Oa],
+    ),
+    ss = c && !wo ? `stop` : `submit`,
+    cs = Kt?.role !== `follower` || tu(),
+    ls = (e, t = Tr) => {
+      let n = e.fsPath || e.path;
+      if (!n || n.length === 0) return;
+      let r = e.startLine;
+      Xg({
+        path: n,
+        line: r,
+        column: r == null ? void 0 : 1,
+        cwd: Tn,
+        hostId: t,
+        openFile: Qt.mutate,
+      });
+    },
+    us = (e) => {
+      switch (e.kind) {
+        case `file`: {
+          let t = e.fsPath || e.path;
+          return t.length === 0
+            ? !1
+            : (Xg({
+                scope: I,
+                path: t,
+                cwd: Tn,
+                hostConfig: Dr,
+                hostId: Tr,
+                openFile: Qt.mutate,
+                openInSidePanel: !e.isFolder,
+                ...(e.isFolder ? { target: `fileManager` } : {}),
+              }),
+              !0);
+        }
+        case `skill`:
+          return e.path.length === 0
+            ? !1
+            : (Xg({
+                scope: I,
+                path: e.path,
+                cwd: null,
+                hostConfig: xr,
+                hostId: br,
+                openFile: Qt.mutate,
+                openInSidePanel: !0,
+              }),
+              !0);
+        case `plugin`: {
+          let t = an(e.path, { hostId: br });
+          return t == null ? !1 : (pt(t), !0);
+        }
+        case `app`:
+        case `mcp-resource`:
+          return !1;
+        case `chatgpt-conversation`:
+          return !1;
+      }
+    },
+    ds = () => {
+      xi(UC(Wn));
+    },
+    fs = () => {
+      xi(WC(Wn));
+    },
+    ps = (0, CV.useCallback)(
+      (e) => {
+        e.trim().length !== 0 && (qi(I, e), Oa());
+      },
+      [Oa, I],
+    ),
+    ms = ({ discardFileAttachments: e = !1, keepMode: t } = {}) => {
+      (On.setText(``),
+        Bi(),
+        e && Ge(Tr, ir, ar),
+        ta([]),
+        ia([]),
+        Mu({
+          browserConversationId: ve,
+          browserTabId: ye,
+          fallbackBrowserConversationId: U,
+          comments: Wn,
+          onCommentsChange: xi,
+        }),
+        jc(I),
+        t || $i(I),
+        Ea(null),
+        (aa.current += 1));
+    },
+    gs = (e, t = kk({ commentAttachments: Wn, isDirectSubmit: !1 })) => {
+      Va(I, Fo, {
+        mode: dr,
+        imageCount: Qn.length + rr.length,
+        appshotCount: rr.length,
+        fileCount: da.length + ar.length,
+        contextFileCount: or.length,
+        commentAttachmentCount: Wn.length,
+        browserCommentCount: t.browser_comment_count,
+        browserCommentWithDesignTweakCount: t.browser_comment_with_design_tweak_count,
+        browserCommentSendMode: t.browser_comment_send_mode,
+        selectedTextAttachmentCount: Kn.length,
+        hasPriorConversation: Ta != null,
+        isFollowUp: R != null,
+        isResponseInProgress: c,
+        inProgressMessageType: e,
+        serviceTier: o ?? `standard`,
+      });
+    },
+    _s = async (e, t, n = U, r) => {
+      let [i, a] = await Promise.all([ig(!0, Ti, Ka), []]);
+      return {
+        addedFiles: or,
+        chatGptConversationContexts: a,
+        collaborationMode: t,
+        aeonStartTarget: void 0,
+        prompt: r == null ? iO({ comments: tr, prompt: e }) : e,
+        ideContext: i ?? null,
+        imageAttachments: r == null ? Qn : [],
+        imageCommentDraft: r == null ? $n : null,
+        appshotContexts: rr,
+        fileAttachments: da,
+        pastedTextAttachments: ar,
+        inAppBrowserContext: QL(I, n, ve) ?? (await DR({ conversationId: n, scope: I })),
+        commentAttachments: Wn,
+        mcpAppModelContextAttachments: Gn,
+        selectedTextAttachments: Kn,
+        pullRequestChecks: Yn,
+        pullRequestMergeConflict: Xn,
+        threadGoalDraft: r,
+        priorConversation: Ta ?? void 0,
+        workspaceRoots: [Ka],
+      };
+    },
+    ys = async (e, t) => {
+      await S(await _s(e, t), yn);
+    },
+    bs = !re && N != null && R?.type === `local` && U != null && !tu(),
+    xs = ns((e) => {
+      (r.error(`[Composer] side chat failed`, { safe: {}, sensitive: { error: e } }),
+        I.get(Yr).danger(
+          Th(e, ft) ??
+            ft.formatMessage({
+              id: `composer.sideSlashCommand.error`,
+              defaultMessage: `Failed to open side chat`,
+              description: `Toast shown when opening a side chat from the composer fails`,
+            }),
+        ));
+    }),
+    Ss = ns(async (e) => {
+      if (!bs || U == null || N == null)
+        return (
+          I.get(Yr).danger(
+            re
+              ? ft.formatMessage({
+                  id: `composer.sideSlashCommand.unavailableInSideChat`,
+                  defaultMessage: `'/side' is unavailable in side chats. Return to the main thread first`,
+                  description: `Toast shown when the side chat slash command is used from inside a side chat`,
+                })
+              : ft.formatMessage({
+                  id: `composer.sideSlashCommand.unavailable`,
+                  defaultMessage: `'/side' is unavailable until the current conversation has started`,
+                  description: `Toast shown when the side chat slash command cannot be used`,
+                }),
+          ),
+          null
+        );
+      let t =
+          e == null || e.length === 0
+            ? []
+            : await Np({ excludedThreadId: U, hostId: br, threadIds: Go }),
+        r = await N({
+          sourceConversationId: U,
+          cwd: ci,
+          hostId: ae,
+          collaborationMode: n,
+          displayTitle: e == null ? null : Kw(e),
+        });
+      return (
+        e == null ||
+          e.length === 0 ||
+          (await Ap({
+            scope: I,
+            manager: ie,
+            hostId: ae,
+            context: { ...(await _s(e, n ?? void 0, r)), threadReferences: t },
+            targetConversationId: r,
+            cwd: ci,
+            agentMode: ei,
+            permissionProfileId: ri,
+            serviceTier: o,
+            shouldSendPermissionOverrides: ii,
+            activeCollaborationMode: n,
+          })),
+        r
+      );
+    }),
+    Cs = ns(async (e) => {
+      try {
+        await sO(I, e, () => Ss(null));
+      } catch (e) {
+        xs(e);
+      }
+    }),
+    ws = async (e, t, r) => {
+      let i = await _s(t, r, e);
+      I.get(no, e) &&
+        (await Vr(`maybe-resume-conversation`, {
+          hostId: ie.getHostId(),
+          conversationId: e,
+          model: null,
+          serviceTier: o,
+          reasoningEffort: null,
+          workspaceRoots: i.workspaceRoots ?? [yn],
+          collaborationMode: i.collaborationMode ?? n,
+        }));
+      let a = I.get(oc, e) ?? yn;
+      if (I.get(se, e) ?? !1) {
+        await bh({
+          scope: I,
+          manager: ie,
+          hostId: ae,
+          targetConversationId: e,
+          agentMode: ei,
+          permissionProfileId: ri,
+          serviceTier: o,
+          shouldSendPermissionOverrides: ii,
+          activeCollaborationMode: n,
+          restoreMessage: zd({ context: i, cwd: a }),
+        });
+        return;
+      }
+      await Ap({
+        scope: I,
+        manager: ie,
+        hostId: ae,
+        context: i,
+        targetConversationId: e,
+        cwd: a,
+        agentMode: ei,
+        permissionProfileId: ri,
+        serviceTier: o,
+        shouldSendPermissionOverrides: ii,
+        activeCollaborationMode: n,
+      });
+    },
+    Ds = async (e) => {
+      let t = await CA({
+        scope: I,
+        codeEnvironment: St,
+        context: e,
+        createCloudTask: H.mutateAsync,
+        followUp: R,
+        followUpToCloudTask: te.mutateAsync,
+        isWorktreeSnapshotsEnabled: Ct,
+        mcpManagerHostId: ae,
+        queryClient: z,
+        selectedModel: be,
+      });
+      if (t.type === `created-task`) {
+        if ((mt.pathname === `/` && fn(`has-seen-multi-agent-composer-banner`, !0), Su())) {
+          Mt.hotkeyWindowHotkeys?.open({ path: xc(t.taskId) });
+          return;
+        }
+        pt(Ra(t.taskId));
+      }
+    },
+    Os = (0, CV.useCallback)(
+      (e) => {
+        if (
+          (r.error(`[Composer] submit failed`, {
+            safe: { mode: dr, followUp: R?.type ?? `none` },
+            sensitive: { cwd: ci, error: e },
+          }),
+          dr === `worktree`)
+        ) {
+          I.get(Yr).danger(xm(e, ft), { id: `composer.taskError` });
+          return;
+        }
+        I.get(Yr).danger(pp({ error: e, composerMode: dr, intl: ft }));
+      },
+      [dr, ci, R?.type, ft, I],
+    ),
+    ks = (() => {
+      switch (dr) {
+        case `local`:
+          return { type: `local`, cwd: ci, executionOptions: Ya, submit: S };
+        case `worktree`:
+          return {
+            type: `worktree`,
+            cwd: Ka,
+            startingState: sr,
+            environmentConfigPath: Xa,
+            executionOptions: {
+              hostId: Cr,
+              permissions: {
+                agentMode: ei,
+                permissionProfileId: ri,
+                shouldSendPermissionOverrides: ii,
+              },
+              workspaceRoots: [Gr],
+            },
+            projectAssignment: oi,
+            submit: C,
+          };
+        case `cloud`:
+          return { type: `cloud`, cloudTaskType: mA(R, sr, lr), repo: Zo, submit: Ds };
+      }
+    })(),
+    js = ns(async (e) => {
+      let t = bz({ ...rs, supportsImageInputs: Et, comment: e.comment }),
+        r = e.type === `browser-sidebar-direct-comment` ? $L(I, ve, e.browserTabId) : void 0,
+        i = dr === `local` && R?.type === `local` && c,
+        a = t == null ? null : lx(t);
+      a != null &&
+        sx(_i, {
+          result: mn.CODEX_REMOTE_SSH_MESSAGE_RESULT_BLOCKED,
+          submitAction: `steer`,
+          blockedReason: a,
+        });
+      let o = `steer`;
+      await iR({
+        message: e,
+        directSubmitBlockReason: t,
+        getIdeContext: () => ig(!0, Ti, Ka),
+        queuedLocalFollowUp: i
+          ? {
+              enqueue: Yt.enqueue,
+              cwd: yn,
+              isRemoteHost: _r,
+              shouldRestrictRemoteHostImageSize: !1,
+            }
+          : void 0,
+        inAppBrowserContext: r,
+        workspaceRoots: [Ka],
+        collaborationMode: n ?? void 0,
+        onFallbackToSavedSubmit: (e) => {
+          if (e.type !== `browser-sidebar-direct-comment`) {
+            xi((t) => [...t, e.comment]);
+            return;
+          }
+          ot.dispatchMessage(`browser-sidebar-comment-overlay-submit`, {
+            browserTabId: e.browserTabId,
+            conversationId: e.conversationId,
+            sessionId: e.sessionId,
+            body: e.body,
+            attachedImages: e.comment.localBrowserAttachedImages,
+            captureScreenshot: e.comment.localBrowserScreenshot == null ? !1 : void 0,
+          });
+        },
+        onBeforeSubmit: (t) => {
+          (gs(
+            t,
+            e.type === `browser-sidebar-direct-comment`
+              ? kk({ commentAttachments: [e.comment], isDirectSubmit: !0 })
+              : {
+                  browser_comment_count: 0,
+                  browser_comment_with_design_tweak_count: 0,
+                  browser_comment_send_mode: `none`,
+                },
+          ),
+            (o = t),
+            sx(_i, {
+              result:
+                t === `queue`
+                  ? mn.CODEX_REMOTE_SSH_MESSAGE_RESULT_QUEUED
+                  : mn.CODEX_REMOTE_SSH_MESSAGE_RESULT_ATTEMPTED,
+              submitAction: t,
+            }),
+            Ot(!0),
+            z.invalidateQueries({ queryKey: [`rate-limit-status`] }));
+        },
+        onCloseOverlay: (e) => {
+          e.type === `browser-sidebar-direct-comment` &&
+            ot.dispatchMessage(`browser-sidebar-comment-overlay-close`, {
+              browserTabId: e.browserTabId,
+              conversationId: e.conversationId,
+              sessionId: e.sessionId,
+            });
+        },
+        onSubmitSuccess: (e) => {
+          vi(o, e);
+        },
+        onSubmitError: (e) => {
+          (sx(_i, { result: mn.CODEX_REMOTE_SSH_MESSAGE_RESULT_FAILED, submitAction: o }), Os(e));
+        },
+        onAfterSubmit: () => {
+          Ot(!1);
+        },
+        shouldResumeInterruptedSteers: R?.type === `local` && !c,
+        resumeInterruptedSteers: Yt.resumeInterruptedSteers,
+        submitTarget: ks,
+      });
+    });
+  (ZL(ve, ye, js),
+    yx(`pdf-direct-comment`, On.view.dom, (e) => {
+      Lp(e.conversationId, U, I.value.routeConversationId) && js(e);
+    }),
+    yx(`artifact-direct-comment`, On.view.dom, (e) => {
+      Lp(e.conversationId, U, I.value.routeConversationId) && js(e);
+    }));
+  async function Ms({
+    confirmedGoalReplacementDraft: e,
+    focusComposerAfterSubmit: t,
+    followUpSubmitAction: n,
+    promptRaw: r,
+    skipGoalReplacementConfirmation: i,
+  }) {
+    let a = await Rz({
+      isEasterEggEnabled: fe,
+      confirmedGoalReplacementDraft: e,
+      getImageAttachments: () => Qn,
+      getPastedTextAttachments: () => I.get(Qc),
+      isGoalActionAvailable: Kr,
+      isGoalModeActive: Zr,
+      promptRaw: r,
+    });
+    if (a.status === `not-goal`) return { status: `continue`, draft: null };
+    if (a.status === `empty`)
+      return (
+        yi(`pendingThreadGoalObjective`, ``), On.setText(``), t && Oa(), { status: `handled` }
+      );
+    let o = a.draft;
+    if (
+      Wt != null &&
+      (Wt.objective !== o.objective ||
+        o.imageAttachments.length > 0 ||
+        o.pastedTextAttachments.length > 0) &&
+      !i
+    )
+      return (
+        jt({ draft: o, focusComposerAfterSubmit: t, followUpSubmitAction: n }),
+        { status: `handled` }
+      );
+    if ((Do($a(o.objective)), Oo(), U == null)) return { status: `continue`, draft: o };
+    Ot(!0);
+    try {
+      (await KC({
+        conversationId: U,
+        draft: o,
+        hostId: br,
+        intl: ft,
+        scope: I,
+        threadSettings: ni,
+      })) && ms({ discardFileAttachments: !0 });
+    } finally {
+      (Ot(!1), t && Oa());
+    }
+    return { status: `handled` };
+  }
+  let Ps = ns(() => {
+      tO({ location: mt, locationState: bt, navigate: pt, scope: I });
+    }),
+    Fs = async (e = {}) => {
+      let t = () => void 0;
+      try {
+        await TN({
+          appendPromptToHistory: Do,
+          buildLocalContextForPrompt: _s,
+          clearComposerUi: () => {
+            if (dr !== `worktree`) {
+              ms();
+              return;
+            }
+            ((t = kc(I)), ms({ keepMode: !0 }));
+          },
+          clearStopTurnConfirmation: Z,
+          composerController: On,
+          conversationId: U,
+          defaultFollowUpSubmitAction: Jr ? `queue` : `steer`,
+          focusComposer: Oa,
+          followUp: R,
+          handleEditedQueuedMessageSubmitted: _c,
+          handleSideChatOpenError: xs,
+          handleSubmitError: Os,
+          hostId: br,
+          invalidateRateLimit: () => {
+            z.invalidateQueries({ queryKey: [`rate-limit-status`] });
+          },
+          isElectron: !0,
+          isLocalModeOnRemoteHost: _r,
+          isResponseInProgress: c,
+          isWorkspaceStatusUnavailable: ee === `unavailable`,
+          logMessageSent: (e) => {
+            gs(e);
+          },
+          maybeSendQueuedSteerMessage: Xs,
+          mentionedThreadIds: Go,
+          onAccepted: bt?.sidebarOnboardingChecklistCompletionOnSubmit == null ? void 0 : Ps,
+          openSideChatFromComposer: Ss,
+          options: e,
+          pause: Sr,
+          prepareGoalSubmit: Ms,
+          prompts: Dn,
+          queuedMessageActions: Yt,
+          remoteSshMessageAnalyticsContext: _i,
+          resetHistorySelection: Oo,
+          resolvedCwd: yn,
+          setIsSubmitting: Ot,
+          shouldRestrictRemoteHostImageSize: !1,
+          showBlockedSubmitDialog: () => {
+            ao(!0);
+          },
+          showEmptySubmitTooltip: () => {
+            so((e) => e + 1);
+          },
+          submitBlockReason: is,
+          submitButtonMode: ss,
+          submitTarget: ks,
+        });
+      } finally {
+        t();
+      }
+    },
+    Is = ns(Fs),
+    Ls = ns(async (e) => {
+      await Is({
+        focusComposerAfterSubmit: !0,
+        persistedPromptRawOverride: e,
+        promptRawOverride: e,
+        skipGoalSubmit: !0,
+      });
+    });
+  (0, CV.useEffect)(() => {}, [U == null && !1, Ls]);
+  let Rs = ve ?? U;
+  (0, CV.useEffect)(() => {
+    if (Rs != null)
+      return mm(Rs, () => {
+        Is();
+      });
+  }, [Rs, Is]);
+  let zs = ns(() => {
+      if (At == null) return;
+      let { draft: e, focusComposerAfterSubmit: t, followUpSubmitAction: n } = At;
+      (jt(null),
+        Fs({
+          confirmedGoalReplacementDraft: e,
+          focusComposerAfterSubmit: t,
+          followUpSubmitAction: n,
+          skipGoalReplacementConfirmation: !0,
+        }));
+    }),
+    Bs = ns(() => {
+      jt(null);
+    }),
+    Vs = ns(async () => {
+      try {
+        await Ss(null);
+      } catch (e) {
+        xs(e);
+      }
+    }),
+    Hs = IL({
+      conversationId: U,
+      executionTargetCwd: K.cwd,
+      executionTargetHostId: K.hostId,
+      isComposerInputVisible: !it,
+      onDictationTranscriptInsert: bi,
+      onDictationTranscriptSend: (e) => {
+        jk({
+          scope: I,
+          composerController: On,
+          transcript: e,
+          submitPrompt: ({ persistedPrompt: e, prompt: t }) =>
+            Is({ persistedPromptRawOverride: e, promptRawOverride: t }),
+        }).catch((e) => {
+          r.error(`[Composer] dictation send failed`, { safe: {}, sensitive: { error: e } });
+        });
+      },
+      getDictationSurroundingText: () => On.getText(),
+      shouldHandleDictation: () =>
+        Kl({
+          composerInput: On.view.dom,
+          focusedElement: document.activeElement,
+          isActiveComposer: Kp(On.view.dom),
+        }),
+      onStartRestrictedSession: void 0,
+      onRestrictedSessionTextChange: Mn,
+    }),
+    {
+      abortDictation: Us,
+      isDictating: Ws,
+      restrictedSession: {
+        thread: { phase: Gs, stop: qs },
+      },
+    } = Hs;
+  vx(On.view.dom, (e) => {
+    if (e.key !== `Escape` || !document.hasFocus()) return;
+    let t = Fy({
+      isDictating: Ws,
+      restrictedSessionPhase: Gs,
+      followUpType: R?.type,
+      isResponseInProgress: c,
+      canStopFromEscape: cs,
+      isComposerFocused: On.view.hasFocus(),
+      hasFocusedComposer: !!document.activeElement?.closest(`[data-codex-composer]`),
+      hasActiveMentionMenu: gA(On.view.state),
+      isTerminalTarget:
+        e.target instanceof Element && e.target.closest(`[data-codex-terminal]`) != null,
+      hasActiveApprovalSurface: document.querySelector(`[data-codex-approval-surface]`) != null,
+      isStopTurnConfirmationVisible: uo,
+    });
+    switch (t) {
+      case `abort-dictation`:
+        (e.preventDefault(), e.stopPropagation(), Us());
+        return;
+      case `focus-composer`:
+        Oa();
+        return;
+      case `confirm-stop-turn`:
+      case `stop-turn`:
+        if ((e.preventDefault(), e.stopImmediatePropagation(), t === `confirm-stop-turn`)) {
+          co();
+          return;
+        }
+        if (e.repeat) return;
+        (lo(), Oa());
+        return;
+      case `stop-restricted-session`:
+        (e.preventDefault(), e.stopPropagation(), qs());
+        return;
+      case null:
+        return;
+    }
+  });
+  let Js = pz({
+    composerLayoutMode: g,
+    hasVisibleAttachments: ko,
+    isEditorMultiline: vo,
+    isVoiceLayoutActive: Hs.isVoiceLayoutActive,
+    lockedLayout: Io,
+    singleLineInputWidth: No,
+    singleLineTextWidth: Po,
+  });
+  function Xs(e) {
+    if (R?.type !== `local` || !c || wo || (e ?? (Jr ? `queue` : `steer`)) !== `steer`) return !1;
+    let t = Jt[0]?.id;
+    return t
+      ? (HR({
+          conversationId: U,
+          executionHostId: br,
+          messageId: t,
+          queuedMessages: Jt,
+          removeQueuedMessage: Yt.remove,
+          updateQueuedMessage: Yt.update,
+          onSendResult: (e, t) => {
+            cx(_i, e, { turnId: t?.turnId });
+          },
+          onSubmitLocal: S,
+        }),
+        Oa(),
+        !0)
+      : !1;
+  }
+  let Zs = (0, CV.useEffectEvent)((e) => {
+      let t = e.metaKey || e.ctrlKey,
+        n;
+      switch (Ut) {
+        case `enter`:
+          n = t && !e.shiftKey && !e.altKey;
+          break;
+        case `cmdIfMultiline`:
+        case `cmdAlways`:
+          n = t && e.shiftKey && !e.altKey;
+          break;
+      }
+      if (!n || R?.type !== `local` || !c) return !1;
+      (e.preventDefault(), e.stopPropagation());
+      let r = Jr ? `steer` : `queue`;
+      return (Xs(r) || Fs({ followUpSubmitAction: r, focusComposerAfterSubmit: !0 }), !0);
+    }),
+    Qs = (0, CV.useEffectEvent)((e) => {
+      let t = a.some((e) => e.mode === `plan`),
+        r = a.some((e) => e.mode === `default`),
+        i = n?.mode === `plan`,
+        { selection: o } = On.view.state;
+      return ky({
+        event: e,
+        isComposerFocused: On.view.hasFocus(),
+        hasActiveMentionMenu: gA(On.view.state),
+        activateArtifactPluginSuggestion: () => {
+          let e = fy(On.view.state.doc, d);
+          if (e == null) return !1;
+          let t = Pt?.querySelector(
+            `[data-codex-above-composer-suggestion="${py(e)}"] [data-codex-above-composer-suggestion-action]`,
+          );
+          return t == null ? !1 : (t.click(), !0);
+        },
+        hasPlanMode: t,
+        hasDefaultMode: r,
+        isPlanMode: i,
+        isSelectionAtStart: o.empty && o.from === 1,
+        setSelectedMode: s,
+        handleEscape: () => {
+          if (Su()) {
+            Mt.hotkeyWindowHotkeys?.dismiss();
+            return;
+          }
+          On.view.dom.blur();
+        },
+      });
+    });
+  (0, CV.useEffect)(() => kd(On.view, { Backspace: Qs, Enter: Zs, Escape: Qs, Tab: Qs }), [On]);
+  let $s = ns((e, t = null) => {
+      let n = Hi(t);
+      Ii((t) => [...t.slice(0, n), e, ...t.slice(n)]);
+    }),
+    ec = Zz({ addImageDataUrls: ha, directBrowserConversationId: ve, directBrowserTabId: ye }),
+    tc = ns(() => aa.current),
+    nc = ns(() => {
+      (yi(`pendingThreadGoalObjective`, ``), Oa());
+    }),
+    ic = ns(() => {
+      if ((yi(`pendingThreadGoalObjective`, null), U == null)) {
+        Oa();
+        return;
+      }
+      (async () => {
+        (await Hd({ scope: I, conversationId: U, hostId: br, intl: ft })) && Oa();
+      })();
+    }),
+    ac = ns(() => {
+      U != null &&
+        Vr(`clear-thread-goal-resume-confirmation`, { conversationId: U, hostId: br }).catch(() => {
+          I.get(Yr).danger(
+            ft.formatMessage({
+              id: `composer.threadGoal.resumeConfirmation.dismissError`,
+              defaultMessage: `Failed to dismiss goal prompt`,
+              description: `Toast shown when dismissing the paused goal resume prompt fails.`,
+            }),
+          );
+        });
+    }),
+    sc = ns(() => {
+      U != null &&
+        vh({
+          scope: I,
+          conversationId: U,
+          hostId: br,
+          status: `active`,
+          threadSettings: ni ?? void 0,
+        });
+    }),
+    cc = AB({
+      executionTargetCwd: K.cwd,
+      executionTargetHostId: Tr,
+      getAppshotCaptureAnimationDestinationFrame: Vi,
+      getAttachmentGen: tc,
+      onAddAppshotContext: $s,
+      onAddImageDataUrls: ha,
+      onAddLocalFileAttachments: va,
+      onAppshotCaptureAnimationDuration: Ui,
+      onAppshotCaptureSettled: Wi,
+      onAppshotCaptureStarted: Ki,
+      onPickBrowserFiles: void 0,
+      setFileAttachments: Ni,
+      supportsFileAttachments: dr !== `cloud` || (!yr && Tr === `local`),
+      supportsRemoteFileAttachments: dr !== `cloud` && Tr !== `local`,
+    }),
+    {
+      handlePastedText: lc,
+      handleRemoveFileAttachment: uc,
+      handleRemovePendingPastedTextAttachment: dc,
+      handleRemovePastedTextAttachment: fc,
+      handleShowPastedTextInTextField: pc,
+    } = lV({
+      canceledPendingFileAttachmentIds: oa.current,
+      executionHostId: Tr,
+      fileAttachments: ir,
+      getAttachmentGen: tc,
+      insertTextAtSelection: (e) => {
+        (On.insertTextAtSelection(e), Oa());
+      },
+      conversationId: U,
+      pastedTextAttachments: ar,
+      setFileAttachments: Ni,
+      setPastedTextAttachments: Pi,
+      setPendingPastedTextAttachments: ia,
+    }),
+    {
+      editingMessageId: mc,
+      handleDeleteMessage: hc,
+      handleEditMessage: gc,
+      handleEditedMessageSubmitted: _c,
+      handleSendNowMessage: vc,
+    } = WR({
+      conversationId: U,
+      executionHostId: br,
+      focusComposer: Oa,
+      incrementAttachmentGeneration: () => {
+        aa.current += 1;
+      },
+      onSubmitLocal: S,
+      queuedFollowUps: qt,
+      remoteSshMessageAnalyticsContext: _i,
+      setComments: xi,
+      setPriorConversation: Ea,
+    });
+  (0, CV.useEffect)(
+    () => (
+      On.addPastedImagesHandler(ga),
+      On.addPastedFilesHandler(ma),
+      ua && On.addPastedTextHandler(lc),
+      () => {
+        (On.removePastedImagesHandler(ga),
+          On.removePastedFilesHandler(ma),
+          On.removePastedTextHandler(lc));
+      }
+    ),
+    [ua, On, ma, ga, lc],
+  );
+  let {
+      handleDragEnter: yc,
+      handleDragLeave: bc,
+      handleDragOver: Sc,
+      handleDrop: Cc,
+      handlePaste: wc,
+    } = _w({
+      activeBrowserImageDragBrowserTabId: ec,
+      addFileMentionsFromFiles: ma,
+      addImages: ga,
+      directBrowserConversationId: ve,
+      dragCounterRef: fo,
+      dropTargetPortalTarget: V,
+      isDragActive: Qa,
+      setIsDragActive: eo,
+      setShowShiftOverlay: ro,
+    }),
+    Tc = k === `home` && !P,
+    Ec = Ln || re || (Ka === `~` && !Tc) || (Ie && !Tc) || (P && !Tc),
+    Dc = {
+      composerMode: dr,
+      setComposerMode: Ci,
+      isResponseInProgress: c,
+      worktreeEnvironmentHostId: K.hostId,
+      worktreeEnvironmentWorkspaceRoot: Gr,
+      localRemoteExecutionTarget: K,
+      codexHome: sn,
+      variant: k,
+      showRuntimeControls: !J,
+      hideRunLocationDropdown: Ec,
+      showWorkspaceDropdown: O && !re,
+      gitRootForStartingState: Ha,
+      showFooterBranchWhen: j,
+      freeUpsellButton: M,
+      activeProjectIdOverride: k === `home` ? (on ?? $t) : void 0,
+      remoteConfig: {
+        currentHostId: pr,
+        getProjectPathForHostId: (e) =>
+          rn?.hostId === e ? rn.remotePath : y?.hostId === e ? y.remotePath : null,
+      },
+    },
+    Oc = Jt.length > 0,
+    Mc = X != null && X.length > 0,
+    Nc = I.value.kind === `new` ? xn : null,
+    { data: Pc } = Gc(Ji, { hostId: br, cwd: Nc }),
+    Fc = Pc?.data.find((e) => e.cwd === Nc)?.hooks.filter(Ch),
+    Ic = Fc?.length ?? 0,
+    Lc = I.value.kind === `new` && Ic > 0 && !wo,
+    Rc = e != null || Br || jr || Lc || Mc || Oc || Wt != null || An || !1,
+    zc = !R && (Br || jr) && !Mc && !Oc && Wt == null && !An && e == null,
+    Vc = V != null,
+    Uc = kN({
+      intl: ft,
+      followUpType: R?.type,
+      composerMode: dr,
+      cloudStartingState: lr,
+      isBackgroundSubagentsPanelVisible: An,
+      isGoalModeActive: Zr,
+      isPlanModeActive: n?.mode === `plan`,
+      placeholderText: m,
+    }),
+    Wc = ns(() => {
+      if (!Xs())
+        switch (ss) {
+          case `stop`:
+            break;
+          case `submit`:
+            Is({ focusComposerAfterSubmit: !0 });
+            break;
+        }
+    });
+  _x(`composer.submit`, Wc, { enabled: Wr });
+  let Kc = Js ? `single-line` : `multiline`,
+    Jc = v == null ? `default` : `flush`,
+    Yc = (0, TV.jsx)(
+      Mj.Input,
+      {
+        ref: Js ? Ao : null,
+        layout: Kc,
+        spacing: Jc,
+        children: (0, TV.jsx)(du, {
+          className: qc(`text-base`, !Js && `[&_.ProseMirror]:leading-5`),
+          isFocusComposerTarget: !0,
+          singleLine: Js,
+          minHeight: Js ? `1.25rem` : `2.75rem`,
+          composerController: On,
+          placeholder: Uc,
+          onMentionActivate: us,
+          onSuggestionHandler: (e) => {
+            Kh(e, { onAtMention: Ro.handleMentionEvent, onSkillMention: Bo.handleMentionEvent });
+          },
+          onCompositionStateChange: (e) => {
+            Lo(e ? Kc : null);
+          },
+          onSubmit: Wc,
+        }),
+      },
+      `composer-input`,
+    ),
+    Xc = (0, TV.jsx)(Af, {
+      active: Ro.ui?.active === !0 && Ro.ui.activation === `synthetic`,
+      onOpen: () => {
+        (cc.prepare(), On.toggleContextSuggestions());
+      },
+    });
+  return (0, TV.jsxs)(TV.Fragment, {
+    children: [
+      Wr
+        ? (0, TV.jsx)(XI, {
+            agentMode: ei,
+            composerMode: dr,
+            currentLocalExecutionCwd: ci,
+            currentLocalExecutionHostId: br,
+            effectiveIdeContextStatus: Ei,
+            effectiveIsAutoContextOn: Ti,
+            isEasterEggEnabled: fe,
+            isAeonActionAvailable: !1,
+            isAeonActive: !1,
+            isAeonThread: !1,
+            setAeonStartTarget: qr,
+            onEnablePlanMode: ic,
+            onOpenGoalEditor: nc,
+            onSubmitInitPrompt: Ls,
+            resolvedCwd: yn,
+            setIsStatusMenuOpen: st,
+            skillLookupRoots: Ja,
+          })
+        : null,
+      !re && Wr ? (0, TV.jsx)(gz, { enabled: bs, onOpenSideChat: Vs }) : null,
+      (0, TV.jsxs)(`div`, {
+        className: `relative flex w-full flex-col gap-2`,
+        onPaste: Wr ? wc : void 0,
+        children: [
+          Wr && V != null && to ? (0, wV.createPortal)((0, TV.jsx)(OA, {}), V) : null,
+          Na && Rc
+            ? (0, wV.createPortal)(
+                (0, TV.jsxs)($C, {
+                  className: qc(zc && `-mb-px`, !1),
+                  expandedTopTray: v != null,
+                  children: [
+                    Oc
+                      ? (0, TV.jsx)(yN, {
+                          messages: Jt,
+                          isMessagePaused: Sr.isFailed,
+                          isInterrupted: Sr.isPaused,
+                          editingMessageId: mc,
+                          hostId: br,
+                          isQueueingEnabled: Ht,
+                          onEditMessage: gc,
+                          onDeleteMessage: hc,
+                          onSendNowMessage: vc,
+                          onReorderMessages: Yt.reorder,
+                          onQueueingChange: (e) => {
+                            go(I, ne.followUpQueueMode, e ? `queue` : `steer`);
+                          },
+                          onResumeInterruptedQueue: Yt.resumeInterruptedSteers,
+                        })
+                      : null,
+                    U != null && Wt != null && Wt.status !== `complete`
+                      ? (0, TV.jsx)(ow, {
+                          conversationId: U,
+                          goal: Wt,
+                          hostId: br,
+                          permissionOverrideThreadSettings: ni,
+                        })
+                      : null,
+                    An
+                      ? (0, TV.jsx)(Sk, {
+                          canStopAll: Bt,
+                          onOpenThread: (e) => {
+                            Rt(e);
+                          },
+                          onStopAll: Vt,
+                          rows: $e,
+                        })
+                      : null,
+                    jr ? (0, TV.jsx)(YS, { onRetry: zr }) : null,
+                    !jr && Br
+                      ? (0, TV.jsx)($S, {
+                          cwd: yn === `/` || bn ? null : yn,
+                          requirement: Fr ?? `setup`,
+                          setShowWindowsSandboxBanner: Ar,
+                        })
+                      : null,
+                    Lc
+                      ? (0, TV.jsx)(bR, {
+                          count: Ic,
+                          hooksNeedingReview: Fc,
+                          hostId: br,
+                          projectRoot: xn,
+                        })
+                      : null,
+                    e,
+                    null,
+                    null,
+                  ],
+                }),
+                Na,
+              )
+            : null,
+          yt?.variant === `first_block`
+            ? (0, TV.jsx)(iz, { domain: yt.domain, threadId: yt.conversationId, turnId: yt.turnId })
+            : yt == null
+              ? (0, TV.jsx)(RC, {
+                  isUsageBannerEnabled: xe,
+                  modelName: Se,
+                  resetAt: Ce,
+                  rateLimit: we,
+                  rateLimitWarningThreshold: Te,
+                  showModelLimit: De,
+                  showWorkspaceUsageLimit: Oe,
+                  showUpsell: Ee,
+                })
+              : (0, TV.jsx)(UL, {
+                  conversationId: yt.conversationId,
+                  variant: yt.variant,
+                  onClose: () => ze(I, ht, yt.eventId),
+                }),
+          cc.remoteFilePicker,
+          qo
+            ? (0, TV.jsx)(jf, {
+                composerController: On,
+                hostId: br,
+                roots: Ja,
+                shouldLoadPlugins: Ko,
+              })
+            : null,
+          Bn === `cloud` ? (0, TV.jsx)($g, {}) : null,
+          (0, TV.jsxs)(`div`, {
+            className: `relative`,
+            children: [
+              (0, TV.jsx)(TL, {
+                contextualSuggestions: {
+                  backgroundAgents: Ye,
+                  excludedAgentConversationIds: Ho,
+                  excludedThreadIds: U == null ? Go : [U, ...Go],
+                  hostId: br,
+                  isHomeMenu: k === `home`,
+                  leadingItems: sR(zo, cc.items),
+                  onAddContext: Ro.addMention,
+                  onRequestClose: Ro.closeAutocomplete,
+                  onUpdateSelectedMention: Ro.setSelectedMention,
+                  roots: En,
+                  skillRoots: Ja,
+                  threadSearchRoots: bn || Ie ? [] : [...vn, ...En],
+                },
+                contextualSuggestionUi: Ro.ui,
+                hideSideSlashCommand: re,
+                isHomeMenu: k === `home`,
+                skillSuggestions: { autocomplete: Bo, cwd: yn, hostId: br, roots: Ja },
+              }),
+              mo
+                ? (0, TV.jsx)(`span`, {
+                    ref: Mo,
+                    className: `text-size-chat pointer-events-none invisible absolute h-0 w-max max-w-none overflow-hidden whitespace-pre`,
+                    "aria-hidden": !0,
+                    children: ho,
+                  })
+                : null,
+              (0, TV.jsx)(`div`, {
+                ref: Ft,
+                className: `@container pointer-events-none absolute inset-x-0 bottom-full z-20 mb-2 flex justify-center`,
+              }),
+              Pt && v == null && !jn
+                ? (0, TV.jsx)(gN, {
+                    portalTarget: Pt,
+                    hideArtifactPluginSuggestions: d,
+                    showPlanKeywordSuggestion: f,
+                  })
+                : null,
+              (0, TV.jsx)(KD, { hostId: br, roots: Ja }),
+              it
+                ? (0, TV.jsxs)(`div`, {
+                    className: qc(`relative flex flex-col gap-2`, A),
+                    children: [
+                      et && Xe != null
+                        ? (0, TV.jsx)(
+                            vN,
+                            {
+                              approvalQuestionActor: (0, TV.jsx)(`span`, {
+                                className: `font-medium text-token-foreground`,
+                                children: Xe.mentionLabel,
+                              }),
+                              conversationId: Xe.conversationId,
+                              hostId: tt,
+                              pendingRequest: Xe.pendingRequest,
+                              onSubmitLocalFollowup: (e, t) => ws(Xe.conversationId, e, t),
+                            },
+                            Xe.pendingRequest.item.approvalRequestId ??
+                              Xe.pendingRequest.item.callId,
+                          )
+                        : null,
+                      nt && Pe != null
+                        ? (0, TV.jsx)(
+                            vN,
+                            {
+                              conversationId: U,
+                              hostId: ae,
+                              pendingRequest: Pe,
+                              onSubmitLocalFollowup: ys,
+                            },
+                            Fe,
+                          )
+                        : null,
+                    ],
+                  })
+                : (0, TV.jsx)(xV, {
+                    className: A,
+                    externalFooterVariant: k,
+                    hasDropTargetPortal: Vc,
+                    blockReason: Ur,
+                    isDragActive: Qa,
+                    isSubmitting: Dt,
+                    layout: Kc,
+                    onDragEnter: yc,
+                    onDragOver: Sc,
+                    onDragLeave: bc,
+                    onDrop: Cc,
+                    showShiftOverlay: to,
+                    children: (0, TV.jsxs)(Mj.Body, {
+                      children: [
+                        Js
+                          ? null
+                          : (0, TV.jsx)(Mj.Attachments, {
+                              ref: zi,
+                              hasVisibleAttachments: ko,
+                              spacing: Jc,
+                              children: (0, TV.jsx)(TO, {
+                                imageAttachments: nr,
+                                imageComments: tr,
+                                appshotContexts: rr,
+                                pendingAppshotCaptures: Zi,
+                                fileAttachments: da,
+                                pastedTextAttachments: ar,
+                                pendingFileAttachments: Qi,
+                                pendingPastedTextAttachments: na,
+                                commentAttachments: Wn,
+                                mcpAppModelContextAttachments: Gn,
+                                selectedTextAttachments: Kn,
+                                chromeExtensionPageSelection: Jn,
+                                pullRequestChecks: Yn,
+                                pullRequestMergeConflict: Xn,
+                                onRemoveImage: Ai,
+                                onRemoveAppshotContext: ji,
+                                onRemoveFileAttachment: uc,
+                                onRemovePastedTextAttachment: fc,
+                                onShowPastedTextInTextField: (e) => void pc(e),
+                                onRemovePendingFileAttachment: sa,
+                                onRemovePendingPastedTextAttachment: dc,
+                                onRemoveFile: ki,
+                                onOpenFile: ls,
+                                addedFiles: or,
+                                onRemoveAllPullRequestChecks: () => yi(`pullRequestChecks`, []),
+                                onRemovePullRequestMergeConflict: () =>
+                                  yi(`pullRequestMergeConflict`, null),
+                                onRemoveAllBrowserCommentAttachments: ds,
+                                onRemoveAllDiffCommentAttachments: fs,
+                                onRemoveAllImageComments: () => {
+                                  rd(I);
+                                },
+                                onRemoveAllMcpAppModelContextAttachments: () =>
+                                  yi(`mcpAppModelContextAttachments`, []),
+                                onRemoveAllSelectedTextAttachments: () => Si([]),
+                                onRemoveChromeExtensionPageSelection: () => fS(I),
+                                priorConversation: Ta,
+                                onRemovePriorConversation: () => Ea(null),
+                                cwd: Tn,
+                                hostId: br,
+                                fileAttachmentHostId: Tr,
+                              }),
+                            }),
+                        (0, TV.jsx)(rN, {
+                          addContextButton: Xc,
+                          composerMode: dr,
+                          composerInput: Yc,
+                          executionTargetHostId: Tr,
+                          isSingleLineLayout: Js,
+                          hotkeyWindowHomeFooterControls: v,
+                          isAutoContextOn: Ti,
+                          ideContextStatus: Ei,
+                          hasMessageContent: wo,
+                          hasGoal: Xr,
+                          isEasterEggEnabled: fe,
+                          isAeonActive: !1,
+                          clearAeon: void 0,
+                          onClearGoal: ic,
+                          permissionsHostId: Qr,
+                          permissionsCwdOverride: $r,
+                          submitButtonMode: ss,
+                          canStopFromEscape: cs,
+                          isStopTurnConfirmationVisible: uo,
+                          isResponseInProgress: c,
+                          isQueueingEnabled: Jr,
+                          isSubmitting: Dt,
+                          isStopping: D,
+                          onStop: lo,
+                          submitBlockReason: is,
+                          disabledReason: as,
+                          emptySubmitTooltipNonce: oo,
+                          handleSubmit: (e) => Is({ ...e, focusComposerAfterSubmit: !0 }),
+                          voiceControls: Hs,
+                        }),
+                        Wr
+                          ? (0, TV.jsx)(Sn, {
+                              electron: !0,
+                              children: (0, TV.jsx)(Ux, {
+                                executionTargetHostId: Tr,
+                                getAnimationDestinationFrame: Vi,
+                                getAttachmentGen: tc,
+                                onCaptureAnimationDuration: Ui,
+                                onCaptureSettled: Wi,
+                                onCaptureStarted: Ki,
+                                onAddAppshotContext: $s,
+                                composerInput: On.view.dom,
+                              }),
+                            })
+                          : null,
+                        I.value.kind === `new`
+                          ? null
+                          : (0, TV.jsx)(bf, {
+                              bottomBoundarySelector: `[data-thread-scroll-footer='true']`,
+                              portalTargetSelector: `[data-mcp-app-portal-target='true']`,
+                              targetContainer: V ?? void 0,
+                              children: ({ selectedText: e }) =>
+                                (0, TV.jsx)(bS, {
+                                  selectedText: e,
+                                  onAddSelectedText: ps,
+                                  onOpenSideChat: bs
+                                    ? (e) => {
+                                        Cs(e);
+                                      }
+                                    : void 0,
+                                }),
+                            }),
+                      ],
+                    }),
+                  }),
+            ],
+          }),
+          g === `multiline`
+            ? (0, TV.jsx)(Mj.ExternalFooterSlot, {
+                isVisible: Le,
+                variant: k,
+                children: (0, TV.jsx)(hN, { ...Dc }),
+              })
+            : null,
+          t?.({ canUseTemplateAttachments: ua && !Dt, onAddFileAssetAttachment: ca }),
+          (0, TV.jsx)(JC, { confirmation: At, onClose: Bs, onConfirm: zs }),
+          (0, TV.jsx)(YC, { goal: Gt, onCancel: ac, onResume: sc }),
+          Sr.dialog,
+          (0, TV.jsx)(Nz, { open: io, onOpenChange: os, message: as }),
+        ],
+      }),
+    ],
+  });
+}
+function xV(e) {
+  let t = (0, SV.c)(30),
+    n,
+    r,
+    i,
+    a,
+    o,
+    s,
+    c,
+    l,
+    u,
+    d,
+    f,
+    p;
+  t[0] === e
+    ? ((n = t[1]),
+      (r = t[2]),
+      (i = t[3]),
+      (a = t[4]),
+      (o = t[5]),
+      (s = t[6]),
+      (c = t[7]),
+      (l = t[8]),
+      (u = t[9]),
+      (d = t[10]),
+      (f = t[11]),
+      (p = t[12]))
+    : (({
+        blockReason: n,
+        children: r,
+        className: i,
+        hasDropTargetPortal: a,
+        isDragActive: o,
+        isSubmitting: s,
+        onDragEnter: c,
+        onDragLeave: l,
+        onDragOver: u,
+        onDrop: d,
+        showShiftOverlay: p,
+        ...f
+      } = e),
+      (t[0] = e),
+      (t[1] = n),
+      (t[2] = r),
+      (t[3] = i),
+      (t[4] = a),
+      (t[5] = o),
+      (t[6] = s),
+      (t[7] = c),
+      (t[8] = l),
+      (t[9] = u),
+      (t[10] = d),
+      (t[11] = f),
+      (t[12] = p));
+  let m = n != null,
+    h = !m && !a,
+    g = m && `opacity-50`,
+    _;
+  t[13] !== i || t[14] !== g
+    ? ((_ = qc(i, g)), (t[13] = i), (t[14] = g), (t[15] = _))
+    : (_ = t[15]);
+  let v = s || m,
+    y = !m && o,
+    b = h ? c : void 0,
+    x = h ? l : void 0,
+    S = h ? u : void 0,
+    C = h ? d : void 0,
+    w;
+  t[16] !== h || t[17] !== p
+    ? ((w = h && p ? (0, TV.jsx)(OA, { className: `rounded-2xl` }) : null),
+      (t[16] = h),
+      (t[17] = p),
+      (t[18] = w))
+    : (w = t[18]);
+  let T;
+  return (
+    t[19] !== r ||
+    t[20] !== f ||
+    t[21] !== _ ||
+    t[22] !== v ||
+    t[23] !== y ||
+    t[24] !== b ||
+    t[25] !== x ||
+    t[26] !== S ||
+    t[27] !== C ||
+    t[28] !== w
+      ? ((T = (0, TV.jsxs)(Mj, {
+          ...f,
+          className: _,
+          inert: v,
+          isDragActive: y,
+          onDragEnter: b,
+          onDragLeave: x,
+          onDragOver: S,
+          onDrop: C,
+          children: [w, r],
+        })),
+        (t[19] = r),
+        (t[20] = f),
+        (t[21] = _),
+        (t[22] = v),
+        (t[23] = y),
+        (t[24] = b),
+        (t[25] = x),
+        (t[26] = S),
+        (t[27] = C),
+        (t[28] = w),
+        (t[29] = T))
+      : (T = t[29]),
+    T
+  );
+}
+var SV,
+  CV,
+  wV,
+  TV,
+  EV,
+  DV,
+  OV = e(() => {
+    ((SV = X()),
+      fl(),
+      il(),
+      Xn(),
+      ji(),
+      Xa(),
+      (CV = t(El(), 1)),
+      (wV = t(Bs(), 1)),
+      Y(),
+      Oi(),
+      px(),
+      Qe(),
+      Kg(),
+      df(),
+      vl(),
+      Jr(),
+      V(),
+      Gx(),
+      dS(),
+      hy(),
+      Qg(),
+      Hl(),
+      gS(),
+      ke(),
+      M(),
+      hh(),
+      Gh(),
+      Fu(),
+      TS(),
+      Fs(),
+      oC(),
+      o(),
+      Ba(),
+      VC(),
+      Wl(),
+      Um(),
+      GC(),
+      qC(),
+      io(),
+      Zg(),
+      Ws(),
+      ur(),
+      Dm(),
+      rs(),
+      Rl(),
+      QC(),
+      gw(),
+      bw(),
+      Ow(),
+      jw(),
+      Fw(),
+      zw(),
+      H(),
+      Ay(),
+      Zf(),
+      $_(),
+      _h(),
+      Hw(),
+      Gw(),
+      JS(),
+      Od(),
+      Gu(),
+      Jw(),
+      ny(),
+      Pe(),
+      Ul(),
+      js(),
+      $w(),
+      qt(),
+      YD(),
+      ys(),
+      $D(),
+      rh(),
+      Go(),
+      Ut(),
+      R(),
+      gn(),
+      fe(),
+      _m(),
+      Mc(),
+      x_(),
+      ao(),
+      An(),
+      rO(),
+      mc(),
+      Lt(),
+      D(),
+      xn(),
+      so(),
+      Wm(),
+      Wi(),
+      yi(),
+      jn(),
+      eo(),
+      $u(),
+      $m(),
+      oO(),
+      aw(),
+      lO(),
+      fO(),
+      HO(),
+      dk(),
+      Ok(),
+      Ak(),
+      Mk(),
+      rA(),
+      DA(),
+      yA(),
+      xf(),
+      jA(),
+      PA(),
+      IA(),
+      cr(),
+      RA(),
+      JA(),
+      mN(),
+      Nj(),
+      bN(),
+      ON(),
+      n_(),
+      Vo(),
+      AN(),
+      m_(),
+      Py(),
+      eL(),
+      xp(),
+      FL(),
+      Vt(),
+      BL(),
+      HL(),
+      YL(),
+      Is(),
+      nR(),
+      oR(),
+      dR(),
+      pR(),
+      Yd(),
+      wR(),
+      Jd(),
+      OR(),
+      Ll(),
+      Uy(),
+      ge(),
+      Cf(),
+      to(),
+      Ms(),
+      AR(),
+      MR(),
+      yp(),
+      vd(),
+      bt(),
+      Td(),
+      rm(),
+      Dp(),
+      Kf(),
+      YR(),
+      fz(),
+      UR(),
+      hz(),
+      vz(),
+      Hy(),
+      Mz(),
+      Lz(),
+      zz(),
+      Gm(),
+      cp(),
+      Sx(),
+      Id(),
+      Xz(),
+      eB(),
+      rB(),
+      oB(),
+      zB(),
+      UB(),
+      og(),
+      qB(),
+      $B(),
+      cV(),
+      dV(),
+      _V(),
+      __(),
+      wm(),
+      yV(),
+      (TV = Z()),
+      (EV = []),
+      (DV = []));
+  });
+async function kV({ activeCollaborationMode: e, context: t, hostId: n, scope: r, serviceTier: i }) {
+  return { collaborationMode: e, serviceTier: i };
+}
+function AV({
+  scope: e,
+  activeCollaborationMode: t,
+  agentMode: n,
+  permissionProfileId: i,
+  shouldSendPermissionOverrides: o,
+  browserConversationId: s,
+  clientThreadId: c,
+  createPendingWorktree: l,
+  followUp: u,
+  intl: d,
+  isResponseInProgress: f,
+  isMounted: p,
+  mcpManager: m,
+  navigate: h,
+  onLocalConversationCreated: g,
+  onLocalSubmitError: _,
+  onLocalSubmitStart: v,
+  projectlessPrewarmReservation: y,
+  resolvedHostId: b,
+  serviceTier: x,
+  setEffectiveCollaborationMode: S,
+  startConversationWithPrimaryRuntimeForFirstTurn: C,
+  store: w,
+}) {
+  let T = (e) =>
+      e?.permissions ?? { agentMode: n, permissionProfileId: i, shouldSendPermissionOverrides: o },
+    E = async (t, n, r) => {
+      r != null &&
+        (await Ep({
+          scope: e,
+          appendTranscriptItem: !1,
+          conversationId: t,
+          hostId: n,
+          intl: d,
+          objective: r,
+        }));
+    },
+    D = async (e, t) => {
+      if (e.threadGoalDraft == null) return { context: e, goal: void 0 };
+      let n = e.threadGoalDraft,
+        r = await kf({ draft: e.threadGoalDraft, hostId: t }),
+        { threadGoalDraft: i, ...a } = e;
+      return {
+        context: { ...a, prompt: $a(r.objective), pastedTextAttachments: [] },
+        goal: { draft: n, materialized: r },
+      };
+    },
+    O = async (n, i, a, o) => {
+      let s = o?.workspaceRoots ?? n.workspaceRoots ?? [`~`],
+        c = sc(s),
+        l = o?.hostId ?? b,
+        u = T(o),
+        { context: f, goal: m } = await D(n, l),
+        _ = jV(f, l),
+        v = !1,
+        O = Ci(f.imageAttachments),
+        k = e.get(hF),
+        A = Yn(f);
+      try {
+        let n = await PV({
+            hostId: l,
+            prompt: A,
+            projectlessPrewarmReservation: y,
+            workspaceRoots: s,
+          }),
+          r = n.cwd ?? i,
+          o = await kV({
+            activeCollaborationMode: t,
+            context: f,
+            hostId: l,
+            scope: e,
+            serviceTier: x,
+          }),
+          d = await Nm({
+            context: f,
+            prompt: A,
+            workspaceRoots: n.workspaceRoots,
+            cwd: r,
+            hostId: l,
+            agentMode: u.agentMode,
+            permissionProfileId: u.permissionProfileId,
+            serviceTier: o.serviceTier,
+            collaborationMode: o.collaborationMode,
+            memoryPreferences: k ?? void 0,
+            workspaceKind: c ? `projectless` : `project`,
+            projectlessOutputDirectory: n.projectlessOutputDirectory,
+            projectAssignment: n.projectAssignment,
+          }),
+          b = Xu({ ...d, shouldSendPermissionOverrides: u.shouldSendPermissionOverrides });
+        _.threadStartKind != null && (b.threadStartKind = _.threadStartKind);
+        let T = await C({
+          attachments: nc([...(b.attachments ?? []), ...O]),
+          baseParams: b,
+          hostId: _.threadCreationHostId,
+        });
+        v = !0;
+        let D = e.get(fi, T)?.at(-1)?.turnId ?? null;
+        return (
+          mF(e, T, k, d.config),
+          O_(w, T, l),
+          NV(),
+          S(null),
+          a || (g ? await g(T) : p() && h(`/local/${T}`)),
+          await E(T, _.threadCreationHostId, m?.materialized.objective),
+          m != null && (await Zu({ draft: m.draft, fallbackHostId: l })),
+          { threadId: T, turnId: D }
+        );
+      } catch (t) {
+        (m != null && !v && (await th({ hostId: l, materialized: m.materialized })),
+          r.error(`Error creating local task`, { safe: {}, sensitive: { error: t } }));
+        let n = xm(t, d);
+        throw (e.get(Yr).danger(n, { id: `composer.taskError` }), t);
+      }
+    },
+    k = async (n, r, i, o, u, d) => {
+      let f = u?.workspaceRoots ?? n.workspaceRoots ?? [r],
+        p = u?.hostId ?? b,
+        m = T(u),
+        g = jV(n, p),
+        _ = e.get(hF),
+        v = Yn(n),
+        y = await kV({
+          activeCollaborationMode: t,
+          context: n,
+          hostId: p,
+          scope: e,
+          serviceTier: x,
+        }),
+        C = await Nm({
+          context: n,
+          prompt: v,
+          workspaceRoots: f,
+          cwd: r,
+          hostId: p,
+          agentMode: m.agentMode,
+          permissionProfileId: m.permissionProfileId,
+          serviceTier: y.serviceTier,
+          collaborationMode: y.collaborationMode,
+          memoryPreferences: _ ?? void 0,
+          workspaceKind: `project`,
+          projectAssignment: d,
+        });
+      g.threadStartKind != null && (C.threadStartKind = g.threadStartKind);
+      let w = [],
+        E = null;
+      if (e.value.routeKind === `home` && s != null && e.get(Pn)) {
+        let { getConversationBrowserTabIdsForTransfer: t, getLastFocusedBrowserTabId: n } =
+          await _a(
+            async () => {
+              let { getConversationBrowserTabIdsForTransfer: e, getLastFocusedBrowserTabId: t } =
+                await import(`./thread-browser-panel-tabs.js`);
+              return { getConversationBrowserTabIdsForTransfer: e, getLastFocusedBrowserTabId: t };
+            },
+            __vite__mapDeps([
+              98, 4, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23,
+              24, 25, 26, 27, 28,
+            ]),
+            import.meta.url,
+          );
+        ((w = t(e, s)), w.length > 0 && (E = n(e, s)));
+      }
+      let D = E != null && w.includes(E) ? E : (w.at(-1) ?? null),
+        O = l({
+          clientThreadId: c ?? void 0,
+          hostId: p,
+          label: zm(C.input),
+          ...(s != null && D != null
+            ? {
+                browserTransferSourceBrowserTabId: D,
+                browserTransferSourceBrowserTabIds: w,
+                browserTransferSourceConversationId: s,
+              }
+            : {}),
+          sourceWorkspaceRoot: r,
+          startingState: i,
+          localEnvironmentConfigPath: o,
+          launchMode: `start-conversation`,
+          prompt: v,
+          startConversationParamsInput: {
+            ...C,
+            shouldSendPermissionOverrides: m.shouldSendPermissionOverrides,
+          },
+          threadStartHostId: MV(g),
+          threadGoalDraft: n.threadGoalDraft,
+          sourceConversationId: null,
+          sourceCollaborationMode: null,
+        }),
+        k =
+          e.value.kind === `new` && e.value.entrypoint !== `library-preview` && c != null
+            ? Ys({ entrypoint: e.value.entrypoint })
+            : null;
+      if ((k != null && e.set(a, r), e.set(hF, null), NV(), S(null), Su())) {
+        (k != null && c != null && yc(e, { clientNewThreadId: c, draftThreadLocationId: k }),
+          Mt.hotkeyWindowHotkeys?.open({ path: c == null ? ga(O) : Yi(c) }));
+        return;
+      }
+      if (k == null || c == null) {
+        h(`/worktree-init-v2/${O}`);
+        return;
+      }
+      ((0, FV.flushSync)(() => {
+        h(hs(c));
+      }),
+        yc(e, { clientNewThreadId: c, draftThreadLocationId: k }));
+    },
+    A = () => {
+      if (
+        u?.type !== `local` ||
+        e.value.routeKind !== `local-thread` ||
+        e.value.routeConversationId !== u.localConversationId ||
+        e.get(Un, u.localConversationId) === `projectless`
+      )
+        return;
+      let t = u.localConversationId;
+      (async () => {
+        try {
+          let n = (await e.get(Ym).refetch()).data;
+          await ec(t, n);
+        } catch {
+          return;
+        }
+      })();
+    },
+    j = async (n, r, i, a, o) => {
+      let s = a?.hostId ?? b,
+        c = T(a),
+        l =
+          e.value.kind === `local` &&
+          e.value.placement === `side` &&
+          e.value.conversationId === r.localConversationId &&
+          (e.get(fi, r.localConversationId)?.length ?? 0) === 0;
+      if (f) {
+        let a = await bh({
+          scope: e,
+          manager: m,
+          hostId: s,
+          targetConversationId: r.localConversationId,
+          agentMode: c.agentMode,
+          permissionProfileId: c.permissionProfileId,
+          serviceTier: x,
+          shouldSendPermissionOverrides: c.shouldSendPermissionOverrides,
+          activeCollaborationMode: t,
+          restoreMessage: o ?? zd({ context: n, cwd: i }),
+        });
+        return (A(), { threadId: r.localConversationId, turnId: a });
+      }
+      let u = await Ap({
+        scope: e,
+        manager: m,
+        hostId: s,
+        context: n,
+        targetConversationId: r.localConversationId,
+        cwd: i,
+        agentMode: c.agentMode,
+        permissionProfileId: c.permissionProfileId,
+        serviceTier: x,
+        shouldSendPermissionOverrides: c.shouldSendPermissionOverrides,
+        activeCollaborationMode: t,
+        restoreMessage: o,
+      });
+      return (
+        l && qw(e, r.localConversationId, Kw(Yn(n))),
+        A(),
+        { threadId: r.localConversationId, turnId: u }
+      );
+    },
+    M = async (n, r, i) => {
+      let a = i?.workspaceRoots ?? n.workspaceRoots ?? [`~`],
+        o = sc(a),
+        s = i?.hostId ?? b,
+        c = T(i),
+        { context: l, goal: u } = await D(n, s),
+        d = jV(l, s),
+        f = !1;
+      try {
+        let n = Xp(
+            r.selectedTurn && r.selectedTurn.id !== r.taskDetails.current_assistant_turn?.id
+              ? {
+                  ...r.taskDetails,
+                  current_assistant_turn: r.selectedTurn,
+                  current_diff_task_turn: r.selectedTurn,
+                }
+              : r.taskDetails,
+          ),
+          i = Ci(l.imageAttachments),
+          p = e.get(hF),
+          m = Yn({ ...l, priorConversation: n }),
+          _ = await PV({
+            hostId: s,
+            prompt: m,
+            projectlessPrewarmReservation: y,
+            workspaceRoots: a,
+          }),
+          v = _.cwd;
+        if (!v) throw Error(`No project root found`);
+        let b = await kV({
+            activeCollaborationMode: t,
+            context: l,
+            hostId: s,
+            scope: e,
+            serviceTier: x,
+          }),
+          C = await Nm({
+            context: l,
+            prompt: m,
+            workspaceRoots: _.workspaceRoots,
+            cwd: v,
+            hostId: s,
+            agentMode: c.agentMode,
+            permissionProfileId: c.permissionProfileId,
+            serviceTier: b.serviceTier,
+            collaborationMode: b.collaborationMode,
+            memoryPreferences: p ?? void 0,
+            workspaceKind: o ? `projectless` : `project`,
+            projectlessOutputDirectory: _.projectlessOutputDirectory,
+            projectAssignment: _.projectAssignment,
+          }),
+          w = Xu({ ...C, shouldSendPermissionOverrides: c.shouldSendPermissionOverrides });
+        d.threadStartKind != null && (w.threadStartKind = d.threadStartKind);
+        let T = await Vr(`start-conversation`, {
+          hostId: d.threadCreationHostId,
+          ...w,
+          attachments: nc([...(w.attachments ?? []), ...i]),
+        });
+        return (
+          (f = !0),
+          mF(e, T, p, C.config),
+          S(null),
+          g ? await g(T) : h(`/local/${T}`),
+          await E(T, d.threadCreationHostId, u?.materialized.objective),
+          u != null && (await Zu({ draft: u.draft, fallbackHostId: s })),
+          { threadId: T, turnId: null }
+        );
+      } catch (e) {
+        throw (u != null && !f && (await th({ hostId: s, materialized: u.materialized })), e);
+      }
+    };
+  return {
+    handleNewWorktreeConversation: k,
+    handleSubmitLocal: async (e, t, n, r, i) => {
+      let a = u?.type === `local` && !f;
+      a && v?.();
+      try {
+        switch (u?.type) {
+          case `local`:
+            return await j(e, u, t, r, i);
+          case `cloud`:
+            return await M(e, u, r);
+          case void 0:
+            return await O(e, t, n, r);
+        }
+      } catch (e) {
+        throw (a && _?.(), e);
+      }
+    },
+  };
+}
+function jV(e, t) {
+  return { localPreparationHostId: t, threadCreationHostId: t };
+}
+function MV({ localPreparationHostId: e, threadCreationHostId: t }) {
+  return t === e ? void 0 : t;
+}
+function NV() {
+  location.pathname === `/` && fn(`has-seen-multi-agent-composer-banner`, !0);
+}
+async function PV({ hostId: e, prompt: t, projectlessPrewarmReservation: n, workspaceRoots: i }) {
+  if (e === `local` && i.length === 1 && i[0] === `~`)
+    try {
+      return await n.reserve(t).selection;
+    } catch (e) {
+      return (
+        r.warning(`Failed to use reserved projectless workspace`, {
+          safe: {},
+          sensitive: { error: e },
+        }),
+        Ti(i, { prompt: t })
+      );
+    }
+  if (e !== `local` || i.length !== 1 || sc(i)) return Ti(i, { prompt: t });
+  let a = i[0];
+  return (await Si({ projectId: a, prompt: t })) ?? Ti(i, { prompt: t });
+}
+var FV,
+  IV = e(() => {
+    (Xa(),
+      (FV = t(Bs(), 1)),
+      vl(),
+      Jr(),
+      fh(),
+      as(),
+      Ot(),
+      Fs(),
+      io(),
+      rs(),
+      Rl(),
+      If(),
+      Od(),
+      Jw(),
+      ds(),
+      os(),
+      vF(),
+      Tm(),
+      ju(),
+      Kc(),
+      Ut(),
+      Ur(),
+      ao(),
+      xn(),
+      so(),
+      Ff(),
+      xp(),
+      Ao(),
+      ss(),
+      Ll(),
+      im(),
+      __(),
+      gs());
+  });
+function LV() {
+  let e = null,
+    t = null;
+  return {
+    reserve(t) {
+      if (e != null) {
+        let t = e;
+        return { created: !1, isActive: () => e === t, selection: t };
+      }
+      let n = Ti([`~`], { prompt: t });
+      return (
+        (e = n),
+        n.catch(() => {
+          e === n && (e = null);
+        }),
+        { created: !0, isActive: () => e === n, selection: n }
+      );
+    },
+    prewarm({
+      hostId: e,
+      workspaceRoots: t,
+      prompt: n,
+      collaborationMode: i,
+      agentMode: a,
+      serviceTier: o,
+    }) {
+      if (e !== `local` || t.length !== 1 || t[0] !== `~` || n.trim() === ``) return;
+      let { created: s, isActive: c, selection: l } = this.reserve(n);
+      s &&
+        l
+          .then((t) => {
+            if (c() && t.cwd != null)
+              return Vr(`prewarm-conversation-for-host`, {
+                hostId: e,
+                cwd: t.cwd,
+                workspaceRoots: t.workspaceRoots,
+                workspaceKind: `projectless`,
+                projectlessOutputDirectory: t.projectlessOutputDirectory,
+                collaborationMode: i,
+                agentMode: a,
+                serviceTier: o,
+              });
+          })
+          .catch((e) => {
+            r.warning(`Failed to prewarm projectless conversation`, {
+              safe: {},
+              sensitive: { error: e },
+            });
+          });
+    },
+    schedule(e) {
+      t ??= setTimeout(() => {
+        ((t = null), e());
+      }, RV);
+    },
+    clear() {
+      (t != null && (clearTimeout(t), (t = null)), (e = null));
+    },
+  };
+}
+var RV,
+  zV = e(() => {
+    (Xa(), Jr(), ds(), ao(), xn(), (RV = 300));
+  });
+function BV(e) {
+  let t = (0, VV.c)(10),
+    { children: n, defaultText: r, defaultTextKind: i } = e,
+    a = i === void 0 ? `plain` : i,
+    o = h(ne.composerEnterBehavior),
+    s;
+  t[0] !== r || t[1] !== a
+    ? ((s = () => sm(r, { defaultTextKind: a, enableSelectedTextLinks: !0 })),
+      (t[0] = r),
+      (t[1] = a),
+      (t[2] = s))
+    : (s = t[2]);
+  let [c] = (0, HV.useState)(s),
+    l,
+    u;
+  (t[3] !== c || t[4] !== o
+    ? ((l = () => {
+        c.setEnterBehavior(o);
+      }),
+      (u = [c, o]),
+      (t[3] = c),
+      (t[4] = o),
+      (t[5] = l),
+      (t[6] = u))
+    : ((l = t[5]), (u = t[6])),
+    (0, HV.useLayoutEffect)(l, u));
+  let d;
+  return (
+    t[7] !== n || t[8] !== c
+      ? ((d = (0, UV.jsx)(ep.Provider, { value: c, children: n })),
+        (t[7] = n),
+        (t[8] = c),
+        (t[9] = d))
+      : (d = t[9]),
+    d
+  );
+}
+var VV,
+  HV,
+  UV,
+  WV = e(() => {
+    ((VV = X()), Xa(), (HV = t(El(), 1)), fe(), Vm(), dd(), (UV = Z()));
+  });
+function GV(e) {
+  let t = (0, JV.c)(104),
+    {
+      browserConversationId: n,
+      className: r,
+      aboveComposerContent: i,
+      aboveComposerContentLayout: a,
+      belowComposerContent: o,
+      isResponseInProgress: s,
+      showWorkspaceDropdownInFooter: c,
+      showExternalFooter: l,
+      externalFooterVariant: d,
+      surfaceClassName: f,
+      showFooterBranchWhen: p,
+      freeUpsellButton: m,
+      onLocalConversationCreated: h,
+      onLocalSubmitStart: g,
+      onLocalSubmitError: _,
+      hideArtifactPluginSuggestions: v,
+      showPlanKeywordSuggestion: y,
+      hideRunLocationDropdownOverride: b,
+      composerModeAvailability: x,
+      placeholderText: S,
+      composerLayoutMode: C,
+      hotkeyWindowHomeFooterControls: w,
+      homeRunLocationRemoteProject: T,
+      defaultCwd: E,
+      lockedCollaborationMode: D,
+      localWorkspaceMaterialization: O,
+      onCreateSideConversation: k,
+    } = e,
+    A = a === void 0 ? `floating` : a,
+    j = s === void 0 ? !1 : s,
+    M = c === void 0 ? !0 : c,
+    N = l === void 0 ? !0 : l,
+    P = d === void 0 ? `default` : d,
+    F = p === void 0 ? `local` : p,
+    ee = v === void 0 ? !1 : v,
+    I = y === void 0 ? !0 : y,
+    L = b === void 0 ? !1 : b,
+    R = C === void 0 ? `multiline` : C,
+    z = O === void 0 ? `available` : O,
+    B = qn(di),
+    [V] = (0, YV.useState)(LV),
+    H;
+  t[0] !== B.value.clientThreadId || t[1] !== B.value.kind
+    ? ((H = B.value.kind === `new` && ha(B.value.clientThreadId) ? B.value.clientThreadId : null),
+      (t[0] = B.value.clientThreadId),
+      (t[1] = B.value.kind),
+      (t[2] = H))
+    : (H = t[2]);
+  let te = H,
+    ne = Ns(),
+    re = Hc(),
+    U = iu(),
+    ie = de(Ke),
+    ae;
+  t[3] === B.value ? (ae = t[4]) : ((ae = Hn(B.value)), (t[3] = B.value), (t[4] = ae));
+  let oe = ae,
+    W = B.get(be),
+    G;
+  t[5] === B ? (G = t[6]) : ((G = ol(B)), (t[5] = B), (t[6] = G));
+  let se = G,
+    K = Rr(se),
+    q = Gc(u, se),
+    { createPendingWorktree: ce } = Bu(),
+    le = Dt(),
+    [ue, fe] = (0, YV.useState)(null),
+    { activeMode: pe, modes: me, setSelectedMode: he, isLoading: ge } = gf(se, D),
+    _e;
+  t[7] !== D || t[8] !== he
+    ? ((_e = (e) => {
+        D ?? he(e);
+      }),
+      (t[7] = D),
+      (t[8] = he),
+      (t[9] = _e))
+    : (_e = t[9]);
+  let ve = _e,
+    ye;
+  t[10] === me ? (ye = t[11]) : ((ye = me.some(qV)), (t[10] = me), (t[11] = ye));
+  let xe = ye,
+    Se;
+  t[12] === me ? (Se = t[13]) : ((Se = me.some(KV)), (t[12] = me), (t[13] = Se));
+  let Ce = Se,
+    we;
+  t[14] !== pe.mode || t[15] !== Ce || t[16] !== xe || t[17] !== ve
+    ? ((we = () => {
+        Iy({
+          hasPlanMode: xe,
+          hasDefaultMode: Ce,
+          isPlanMode: pe.mode === `plan`,
+          setSelectedMode: ve,
+        });
+      }),
+      (t[14] = pe.mode),
+      (t[15] = Ce),
+      (t[16] = xe),
+      (t[17] = ve),
+      (t[18] = we))
+    : (we = t[18]);
+  let Te = !ge && xe && D == null,
+    Ee;
+  (t[19] === Te ? (Ee = t[20]) : ((Ee = { enabled: Te }), (t[19] = Te), (t[20] = Ee)),
+    _x(`composer.togglePlanMode`, we, Ee));
+  let { serviceTierSettings: De } = qm(se),
+    Oe;
+  t[21] !== se || t[22] !== q
+    ? ((Oe = { conversationId: se, hostId: q }), (t[21] = se), (t[22] = q), (t[23] = Oe))
+    : (Oe = t[23]);
+  let { agentMode: ke, permissionProfileId: Ae, shouldSendPermissionOverrides: je } = y_(Oe),
+    Me = Pc(),
+    Ne = rx(),
+    Pe;
+  t[24] !== pe ||
+  t[25] !== ke ||
+  t[26] !== n ||
+  t[27] !== te ||
+  t[28] !== ce ||
+  t[29] !== ie ||
+  t[30] !== ne ||
+  t[31] !== U ||
+  t[32] !== j ||
+  t[33] !== K ||
+  t[34] !== q ||
+  t[35] !== re ||
+  t[36] !== h ||
+  t[37] !== _ ||
+  t[38] !== g ||
+  t[39] !== Ae ||
+  t[40] !== V ||
+  t[41] !== B ||
+  t[42] !== De.serviceTierForRequest ||
+  t[43] !== ve ||
+  t[44] !== je ||
+  t[45] !== Ne ||
+  t[46] !== Me
+    ? ((Pe = AV({
+        scope: B,
+        activeCollaborationMode: pe,
+        agentMode: ke,
+        permissionProfileId: Ae,
+        shouldSendPermissionOverrides: je,
+        browserConversationId: n,
+        clientThreadId: te,
+        createPendingWorktree: ce,
+        followUp: ie,
+        intl: ne,
+        isResponseInProgress: j,
+        isMounted: U,
+        mcpManager: K,
+        navigate: re,
+        onLocalConversationCreated: h,
+        onLocalSubmitError: _,
+        onLocalSubmitStart: g,
+        projectlessPrewarmReservation: V,
+        resolvedHostId: q,
+        serviceTier: De.serviceTierForRequest,
+        setEffectiveCollaborationMode: ve,
+        startConversationWithPrimaryRuntimeForFirstTurn: Ne,
+        store: Me,
+      })),
+      (t[24] = pe),
+      (t[25] = ke),
+      (t[26] = n),
+      (t[27] = te),
+      (t[28] = ce),
+      (t[29] = ie),
+      (t[30] = ne),
+      (t[31] = U),
+      (t[32] = j),
+      (t[33] = K),
+      (t[34] = q),
+      (t[35] = re),
+      (t[36] = h),
+      (t[37] = _),
+      (t[38] = g),
+      (t[39] = Ae),
+      (t[40] = V),
+      (t[41] = B),
+      (t[42] = De.serviceTierForRequest),
+      (t[43] = ve),
+      (t[44] = je),
+      (t[45] = Ne),
+      (t[46] = Me),
+      (t[47] = Pe))
+    : (Pe = t[47]);
+  let { handleNewWorktreeConversation: Fe, handleSubmitLocal: Ie } = Pe,
+    J;
+  t[48] !== le || t[49] !== ie
+    ? ((J = async () => {
+        if (ie?.type === `local`) {
+          await Vr(`interrupt-conversation`, {
+            conversationId: ie.localConversationId,
+            initiatedBy: `user`,
+          });
+          return;
+        }
+        if (ie?.type === `cloud`) {
+          fe(ie.taskDetails.current_assistant_turn?.id ?? null);
+          try {
+            await le.mutateAsync(ie.taskDetails.task.id);
+          } catch (e) {
+            let t = e;
+            throw (fe(null), t);
+          }
+        }
+      }),
+      (t[48] = le),
+      (t[49] = ie),
+      (t[50] = J))
+    : (J = t[50]);
+  let Le = J,
+    Re;
+  t[51] === r ? (Re = t[52]) : ((Re = qc(`min-w-0`, r)), (t[51] = r), (t[52] = Re));
+  let ze = se ?? void 0,
+    Be;
+  t[53] === ze
+    ? (Be = t[54])
+    : ((Be = (0, XV.jsx)(`div`, {
+        id: ru,
+        "data-above-composer-portal": !0,
+        "data-above-composer-conversation-id": ze,
+        className: `relative px-5 empty:hidden`,
+      })),
+      (t[53] = ze),
+      (t[54] = Be));
+  let Ve = se ?? void 0,
+    He;
+  t[55] === Ve
+    ? (He = t[56])
+    : ((He = (0, XV.jsx)(`div`, {
+        id: Bh,
+        "data-above-composer-queue-portal": !0,
+        "data-above-composer-conversation-id": Ve,
+        className: `relative px-5 empty:hidden`,
+      })),
+      (t[55] = Ve),
+      (t[56] = He));
+  let Ue = BV,
+    We = Lr(W) ? `prompt` : `plain`,
+    Ge;
+  t[57] !== i || t[58] !== A || t[59] !== w
+    ? ((Ge =
+        w == null && i && A === `floating`
+          ? (0, XV.jsx)(`div`, { className: `px-5 pb-2 empty:hidden`, children: i })
+          : null),
+      (t[57] = i),
+      (t[58] = A),
+      (t[59] = w),
+      (t[60] = Ge))
+    : (Ge = t[60]);
+  let Y = w == null && i && A === `header` ? i : void 0,
+    qe = ie?.type === `cloud` && j && ie.taskDetails.current_assistant_turn?.id === ue,
+    Je;
+  t[61] !== pe ||
+  t[62] !== o ||
+  t[63] !== n ||
+  t[64] !== me ||
+  t[65] !== R ||
+  t[66] !== x ||
+  t[67] !== E ||
+  t[68] !== P ||
+  t[69] !== m ||
+  t[70] !== Fe ||
+  t[71] !== Le ||
+  t[72] !== Ie ||
+  t[73] !== ee ||
+  t[74] !== L ||
+  t[75] !== T ||
+  t[76] !== w ||
+  t[77] !== j ||
+  t[78] !== z ||
+  t[79] !== k ||
+  t[80] !== S ||
+  t[81] !== V ||
+  t[82] !== De.serviceTierForRequest ||
+  t[83] !== ve ||
+  t[84] !== N ||
+  t[85] !== F ||
+  t[86] !== I ||
+  t[87] !== M ||
+  t[88] !== f ||
+  t[89] !== Y ||
+  t[90] !== qe
+    ? ((Je = (0, XV.jsx)(bV, {
+        aboveComposerHeaderContent: Y,
+        belowComposerContent: o,
+        activeCollaborationMode: pe,
+        browserConversationId: n,
+        collaborationModes: me,
+        serviceTier: De.serviceTierForRequest,
+        setSelectedCollaborationMode: ve,
+        isResponseInProgress: j,
+        onSubmitLocal: Ie,
+        onSubmitWorktree: Fe,
+        onStop: Le,
+        isStopping: qe,
+        showWorkspaceDropdownInFooter: M,
+        showExternalFooter: N,
+        externalFooterVariant: P,
+        hideRunLocationDropdownOverride: L,
+        hideArtifactPluginSuggestions: ee,
+        showPlanKeywordSuggestion: I,
+        composerModeAvailability: x,
+        placeholderText: S,
+        composerLayoutMode: R,
+        hotkeyWindowHomeFooterControls: w,
+        homeRunLocationRemoteProject: T,
+        defaultCwd: E,
+        localWorkspaceMaterialization: z,
+        surfaceClassName: f,
+        showFooterBranchWhen: F,
+        freeUpsellButton: m,
+        onCreateSideConversation: k,
+        projectlessPrewarmReservation: V,
+      })),
+      (t[61] = pe),
+      (t[62] = o),
+      (t[63] = n),
+      (t[64] = me),
+      (t[65] = R),
+      (t[66] = x),
+      (t[67] = E),
+      (t[68] = P),
+      (t[69] = m),
+      (t[70] = Fe),
+      (t[71] = Le),
+      (t[72] = Ie),
+      (t[73] = ee),
+      (t[74] = L),
+      (t[75] = T),
+      (t[76] = w),
+      (t[77] = j),
+      (t[78] = z),
+      (t[79] = k),
+      (t[80] = S),
+      (t[81] = V),
+      (t[82] = De.serviceTierForRequest),
+      (t[83] = ve),
+      (t[84] = N),
+      (t[85] = F),
+      (t[86] = I),
+      (t[87] = M),
+      (t[88] = f),
+      (t[89] = Y),
+      (t[90] = qe),
+      (t[91] = Je))
+    : (Je = t[91]);
+  let Ye;
+  t[92] !== Ue || t[93] !== oe || t[94] !== W || t[95] !== We || t[96] !== Ge || t[97] !== Je
+    ? ((Ye = (0, XV.jsxs)(Ue, { defaultText: W, defaultTextKind: We, children: [Ge, Je] }, oe)),
+      (t[92] = Ue),
+      (t[93] = oe),
+      (t[94] = W),
+      (t[95] = We),
+      (t[96] = Ge),
+      (t[97] = Je),
+      (t[98] = Ye))
+    : (Ye = t[98]);
+  let Xe;
+  return (
+    t[99] !== Re || t[100] !== Be || t[101] !== He || t[102] !== Ye
+      ? ((Xe = (0, XV.jsxs)(`div`, { className: Re, children: [Be, He, Ye] })),
+        (t[99] = Re),
+        (t[100] = Be),
+        (t[101] = He),
+        (t[102] = Ye),
+        (t[103] = Xe))
+      : (Xe = t[103]),
+    Xe
+  );
+}
+function KV(e) {
+  return e.mode === `default`;
+}
+function qV(e) {
+  return e.mode === `plan`;
+}
+var JV,
+  YV,
+  XV,
+  ZV = e(() => {
+    ((JV = X()),
+      Xn(),
+      bs(),
+      ji(),
+      (YV = t(El(), 1)),
+      Y(),
+      Oi(),
+      Qe(),
+      vl(),
+      Jr(),
+      ke(),
+      vu(),
+      cr(),
+      ax(),
+      Fp(),
+      R(),
+      Ur(),
+      Zd(),
+      dg(),
+      Wm(),
+      OV(),
+      IV(),
+      Py(),
+      Vt(),
+      zV(),
+      WV(),
+      bt(),
+      Sx(),
+      Zl(),
+      __(),
+      (XV = Z()));
+  });
+export {
+  OD as $,
+  px as $t,
+  CM as A,
+  aT as At,
+  cA as B,
+  Gw as Bt,
+  NM as C,
+  tb as Cn,
+  kT as Ct,
+  kM as D,
+  gT as Dt,
+  DM as E,
+  $y as En,
+  hT as Et,
+  rj as F,
+  tT as Ft,
+  ID as G,
+  HC as Gt,
+  vk as H,
+  ew as Ht,
+  NA as I,
+  Zw as It,
+  FD as J,
+  LS as Jt,
+  PD as K,
+  JS as Kt,
+  PA as L,
+  Qw as Lt,
+  xM as M,
+  rT as Mt,
+  SM as N,
+  iT as Nt,
+  OM as O,
+  lT as Ot,
+  nj as P,
+  eT as Pt,
+  ED as Q,
+  ox as Qt,
+  fA as R,
+  $w as Rt,
+  qF as S,
+  rb as Sn,
+  jT as St,
+  EM as T,
+  Zy as Tn,
+  ET as Tt,
+  xk as U,
+  aw as Ut,
+  iA as V,
+  Uw as Vt,
+  GD as W,
+  GC as Wt,
+  wD as X,
+  OS as Xt,
+  TD as Y,
+  IS as Yt,
+  DD as Z,
+  NS as Zt,
+  hR as _,
+  db as _n,
+  QT as _t,
+  yB as a,
+  Kb as an,
+  xE as at,
+  pI as b,
+  mb as bn,
+  qT as bt,
+  _B as c,
+  Ib as cn,
+  bE as ct,
+  RR as d,
+  Mb as dn,
+  dE as dt,
+  ex as en,
+  xD as et,
+  VR as f,
+  Pb as fn,
+  cE as ft,
+  NR as g,
+  ub as gn,
+  ZT as gt,
+  PR as h,
+  jb as hn,
+  oE as ht,
+  JB as i,
+  Xb as in,
+  gD as it,
+  TM as j,
+  cT as jt,
+  MM as k,
+  pT as kt,
+  BR as l,
+  Lb as ln,
+  uE as lt,
+  IR as m,
+  Ab as mn,
+  lE as mt,
+  ZV as n,
+  Qb as nn,
+  SD as nt,
+  bB as o,
+  Yb as on,
+  hD as ot,
+  zR as p,
+  Fb as pn,
+  sE as pt,
+  ND as q,
+  GS as qt,
+  $B as r,
+  Zb as rn,
+  bD as rt,
+  sB as s,
+  Rb as sn,
+  hE as st,
+  GV as t,
+  nx as tn,
+  CD as tt,
+  LR as u,
+  Nb as un,
+  pE as ut,
+  mR as v,
+  cb as vn,
+  JT as vt,
+  WM as w,
+  nb as wn,
+  _T as wt,
+  WF as x,
+  ob as xn,
+  NT as xt,
+  cI as y,
+  lb as yn,
+  YT as yt,
+  aA as z,
+  Yw as zt,
+};
+//# sourceMappingURL=app-initial~app-main~remote-conversation-page~new-thread-panel-page~appgen-library-page~hot~djo67r4n.js.map

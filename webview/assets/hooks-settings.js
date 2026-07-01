@@ -1,0 +1,2140 @@
+import { n as e, s as t } from "./rolldown-runtime.js";
+import {
+  AV as n,
+  Ar as r,
+  BN as i,
+  Bf as a,
+  CP as o,
+  Dr as s,
+  EB as c,
+  Er as l,
+  GP as u,
+  HP as d,
+  Hr as f,
+  IP as p,
+  LP as m,
+  ME as h,
+  Of as g,
+  Pf as _,
+  Qj as v,
+  RN as y,
+  RV as b,
+  Rf as x,
+  SP as S,
+  TB as C,
+  TP as w,
+  U as T,
+  VP as E,
+  Vr as D,
+  W as O,
+  Yj as ee,
+  av as k,
+  bB as A,
+  bu as j,
+  dt as M,
+  eM as N,
+  fN as P,
+  ft as te,
+  gi as F,
+  gv as ne,
+  hi as I,
+  iF as L,
+  jE as R,
+  jV as z,
+  lt as re,
+  mI as ie,
+  pN as B,
+  pi as V,
+  qP as H,
+  qj as U,
+  sv as ae,
+  ut as W,
+  wB as oe,
+  wP as G,
+  wr as K,
+  xV as se,
+  xv as ce,
+  yu as le,
+  zP as ue,
+  zV as de,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~plug~kmtatxxf.js";
+import {
+  $i as fe,
+  Cr as pe,
+  Fm as me,
+  Is as he,
+  Lm as ge,
+  Ls as _e,
+  Mn as ve,
+  Sr as q,
+  _a as ye,
+  ar as be,
+  bD as xe,
+  ca as Se,
+  da as Ce,
+  dw as we,
+  ea as Te,
+  fa as Ee,
+  ga as De,
+  ha as Oe,
+  ia as ke,
+  jn as Ae,
+  la as je,
+  ma as Me,
+  nO as Ne,
+  na as Pe,
+  or as Fe,
+  pa as Ie,
+  ra as Le,
+  sa as Re,
+  tO as ze,
+  ta as Be,
+  ua as Ve,
+  uw as He,
+  yD as Ue,
+} from "./app-initial~app-main~onboarding-page.js";
+import { lt as J, ut as We } from "./app-initial~app-main~automations-page.js";
+import {
+  O as Ge,
+  k as Ke,
+} from "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~appgen-library-page~hot~djo67r4n.js";
+import {
+  m as qe,
+  p as Je,
+} from "./app-initial~app-main~worktree-init-v2-page~appgen-publication-terms-route~remote-conversati~oykv7gy7.js";
+import {
+  v as Ye,
+  y as Xe,
+} from "./app-initial~app-main~worktree-init-v2-page~appgen-publication-terms-route~remote-conversati~coa484up.js";
+import {
+  S as Ze,
+  p as Qe,
+} from "./app-initial~app-main~first-run~page~remote-conversation-page~plugin-detail-page~new-thread-~o67ur2ib.js";
+import {
+  i as $e,
+  r as et,
+} from "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~projects-index-page~app~edtlcz4n.js";
+import {
+  r as tt,
+  t as nt,
+} from "./app-initial~app-main~settings-page~open-source-licenses-page~skills-settings~plugins-settin~cxbtmbfc.js";
+import {
+  n as rt,
+  t as Y,
+} from "./app-initial~app-main~appgen-settings-page~plugin-detail-page~open-source-licenses-page~skil~grpw3pbw.js";
+function it(e, t) {
+  let n =
+      e.issueCount > 0
+        ? t.formatMessage(
+            {
+              id: `settings.hooks.summary.issueCounts`,
+              defaultMessage: `{issueCount, plural, one {# issue} other {# issues}}`,
+              description: `Hook load issue count for a project row`,
+            },
+            { issueCount: e.issueCount },
+          )
+        : ``,
+    r =
+      e.needsReview > 0
+        ? t.formatMessage(
+            {
+              id: `settings.hooks.summary.reviewCounts`,
+              defaultMessage: `{needsReview, plural, one {# needs review} other {# need review}}`,
+              description: `Review-needed hook count for a project row`,
+            },
+            { needsReview: e.needsReview },
+          )
+        : ``;
+  return (0, at.jsx)(u, {
+    id: `settings.hooks.summary.attentionCounts`,
+    defaultMessage: `{issueCount}{separator}{needsReview}`,
+    description: `Combined hook load issue and review-needed counts for a project row`,
+    values: { issueCount: n, separator: n !== `` && r !== `` ? ` · ` : ``, needsReview: r },
+  });
+}
+var at,
+  ot = e(() => {
+    (d(), (at = z()));
+  }),
+  st,
+  ct,
+  lt = e(() => {
+    (t(de()),
+      (st = z()),
+      (ct = (e) =>
+        (0, st.jsxs)(`svg`, {
+          xmlns: `http://www.w3.org/2000/svg`,
+          width: 24,
+          height: 24,
+          fill: `currentColor`,
+          viewBox: `0 0 24 24`,
+          ...e,
+          children: [
+            (0, st.jsx)(`path`, {
+              d: `M15.344 10.036a1 1 0 1 0-1.688-1.072l-2.474 3.896-.943-1.034a1 1 0 0 0-1.478 1.348l1.826 2a1 1 0 0 0 1.583-.138l3.174-5Z`,
+            }),
+            (0, st.jsx)(`path`, {
+              fillRule: `evenodd`,
+              d: `M13.203 1.935a3 3 0 0 0-2.405 0l-6 2.625A3 3 0 0 0 3 7.308V13a9 9 0 1 0 18 0V7.308a3 3 0 0 0-1.797-2.748l-6-2.625Zm-1.604 1.832a1 1 0 0 1 .802 0l6 2.625a1 1 0 0 1 .599.916V13a7 7 0 1 1-14 0V7.308a1 1 0 0 1 .6-.916l6-2.625Z`,
+              clipRule: `evenodd`,
+            }),
+          ],
+        })));
+  });
+function ut(e) {
+  let t = (0, ht.c)(26),
+    {
+      eventName: n,
+      hostId: r,
+      isRemoteHost: a,
+      hooks: o,
+      onToggleHookEnabled: s,
+      onTrustHook: c,
+    } = e,
+    l = H(),
+    [d, f] = (0, gt.useState)(null),
+    p = i(`open-file`),
+    m,
+    h,
+    g;
+  if (
+    t[0] !== n ||
+    t[1] !== d ||
+    t[2] !== o ||
+    t[3] !== r ||
+    t[4] !== l ||
+    t[5] !== a ||
+    t[6] !== s ||
+    t[7] !== c ||
+    t[8] !== p
+  ) {
+    let e = Pe(o, n);
+    ((g = `border-t border-token-border px-3`), (m = `divide-y-[0.5px] divide-token-border`));
+    let i;
+    (t[12] !== d ||
+    t[13] !== r ||
+    t[14] !== l ||
+    t[15] !== a ||
+    t[16] !== s ||
+    t[17] !== c ||
+    t[18] !== p
+      ? ((i = (e, t) => {
+          let n = Ve(e),
+            i = !a && !e.isManaged,
+            o = d === e.key;
+          return (0, X.jsxs)(
+            `div`,
+            {
+              className: G(o && `pb-2`),
+              children: [
+                (0, X.jsxs)(`div`, {
+                  className: `-mx-3 flex items-center gap-2 px-3 hover:bg-token-list-hover-background`,
+                  children: [
+                    (0, X.jsxs)(`div`, {
+                      className: `relative flex min-w-0 flex-1`,
+                      children: [
+                        (0, X.jsx)(`button`, {
+                          type: `button`,
+                          "aria-expanded": o,
+                          className: G(
+                            `flex min-w-0 flex-1 cursor-interaction appearance-none items-center border-0 bg-transparent py-2 pl-7 text-left text-sm text-inherit [font:inherit] focus-visible:rounded-md focus-visible:ring-2 focus-visible:ring-token-focus-border focus-visible:outline-none`,
+                            i ? `pr-12` : `pr-6`,
+                          ),
+                          onClick: () => {
+                            f(o ? null : e.key);
+                          },
+                          children: (0, X.jsx)(`span`, {
+                            className: `shrink-0 text-token-text-primary`,
+                            children: Ie(t, l),
+                          }),
+                        }),
+                        i
+                          ? (0, X.jsx)(v, {
+                              triggerAsChild: !0,
+                              tooltipContent: (0, X.jsx)(u, { ..._t.openConfigFile }),
+                              children: (0, X.jsx)(`button`, {
+                                type: `button`,
+                                "aria-label": l.formatMessage(_t.openConfigFile),
+                                className: `absolute top-1/2 right-6 inline-flex size-5 -translate-y-1/2 cursor-interaction items-center justify-center rounded-md text-token-text-tertiary hover:bg-token-list-hover-background hover:text-token-text-primary focus-visible:ring-2 focus-visible:ring-token-focus-border focus-visible:outline-none`,
+                                onClick: () => {
+                                  qe({
+                                    cwd: null,
+                                    hostId: r,
+                                    path: e.sourcePath,
+                                    openFile: p.mutate,
+                                  });
+                                },
+                                children: (0, X.jsx)(le, {
+                                  className: `icon-xxs`,
+                                  "aria-hidden": !0,
+                                }),
+                              }),
+                            })
+                          : null,
+                        (0, X.jsx)(S, {
+                          "aria-hidden": !0,
+                          className: G(
+                            `icon-2xs pointer-events-none absolute top-1/2 right-1 -translate-y-1/2 text-token-text-secondary`,
+                            o && `rotate-180`,
+                          ),
+                        }),
+                      ],
+                    }),
+                    (0, X.jsxs)(`div`, {
+                      className: `flex shrink-0 items-center gap-2`,
+                      children: [
+                        n
+                          ? (0, X.jsx)(v, {
+                              delayDuration: 0,
+                              tooltipContent:
+                                e.trustStatus === `modified`
+                                  ? (0, X.jsx)(u, {
+                                      id: `settings.hooks.event.changedReviewReason`,
+                                      defaultMessage: `Hook changed since last trusted`,
+                                      description: `Tooltip shown for changed hooks awaiting review`,
+                                    })
+                                  : (0, X.jsx)(u, {
+                                      id: `settings.hooks.event.untrustedReviewReason`,
+                                      defaultMessage: `New hook`,
+                                      description: `Tooltip shown for hooks awaiting first review`,
+                                    }),
+                              children: (0, X.jsxs)(P, {
+                                color: `outline`,
+                                size: `composerSm`,
+                                onClick: () => {
+                                  c(e);
+                                },
+                                children: [
+                                  (0, X.jsx)(ct, { className: `icon-2xs` }),
+                                  (0, X.jsx)(u, {
+                                    id: `settings.hooks.event.trust`,
+                                    defaultMessage: `Trust`,
+                                    description: `Button label to trust a hook`,
+                                  }),
+                                ],
+                              }),
+                            })
+                          : null,
+                        e.isManaged
+                          ? (0, X.jsx)(v, {
+                              delayDuration: 0,
+                              tooltipContent: (0, X.jsx)(u, {
+                                id: `settings.hooks.event.managedTooltip`,
+                                defaultMessage: `Managed hooks are always on`,
+                                description: `Tooltip shown for admin-managed hooks`,
+                              }),
+                              children: (0, X.jsx)(`span`, {
+                                className: `inline-flex cursor-not-allowed`,
+                                tabIndex: 0,
+                                children: (0, X.jsx)(T, {
+                                  ariaLabel: Ie(t, l),
+                                  checked: !0,
+                                  className: `pointer-events-none`,
+                                  disabled: !0,
+                                  onChange: dt,
+                                }),
+                              }),
+                            })
+                          : (0, X.jsx)(v, {
+                              delayDuration: 0,
+                              tooltipContent: n
+                                ? (0, X.jsx)(u, {
+                                    id: `settings.hooks.event.disabledUntilTrustedTooltip`,
+                                    defaultMessage: `Disabled until hook is trusted`,
+                                    description: `Tooltip shown for review-needed hooks whose toggle cannot be enabled yet`,
+                                  })
+                                : null,
+                              children: (0, X.jsx)(`span`, {
+                                className: n ? `inline-flex cursor-not-allowed` : ``,
+                                tabIndex: n ? 0 : void 0,
+                                children: (0, X.jsx)(T, {
+                                  ariaLabel: Ie(t, l),
+                                  checked: e.enabled && !n,
+                                  className: n ? `pointer-events-none` : ``,
+                                  disabled: n,
+                                  onChange: (t) => {
+                                    s(e, t);
+                                  },
+                                }),
+                              }),
+                            }),
+                      ],
+                    }),
+                  ],
+                }),
+                o
+                  ? (0, X.jsx)(`div`, { className: `pl-7`, children: (0, X.jsx)(ft, { hook: e }) })
+                  : null,
+              ],
+            },
+            e.key,
+          );
+        }),
+        (t[12] = d),
+        (t[13] = r),
+        (t[14] = l),
+        (t[15] = a),
+        (t[16] = s),
+        (t[17] = c),
+        (t[18] = p),
+        (t[19] = i))
+      : (i = t[19]),
+      (h = e.map(i)),
+      (t[0] = n),
+      (t[1] = d),
+      (t[2] = o),
+      (t[3] = r),
+      (t[4] = l),
+      (t[5] = a),
+      (t[6] = s),
+      (t[7] = c),
+      (t[8] = p),
+      (t[9] = m),
+      (t[10] = h),
+      (t[11] = g));
+  } else ((m = t[9]), (h = t[10]), (g = t[11]));
+  let _;
+  t[20] !== m || t[21] !== h
+    ? ((_ = (0, X.jsx)(`div`, { className: m, children: h })),
+      (t[20] = m),
+      (t[21] = h),
+      (t[22] = _))
+    : (_ = t[22]);
+  let y;
+  return (
+    t[23] !== g || t[24] !== _
+      ? ((y = (0, X.jsx)(`div`, { className: g, children: _ })),
+        (t[23] = g),
+        (t[24] = _),
+        (t[25] = y))
+      : (y = t[25]),
+    y
+  );
+}
+function dt() {}
+function ft(e) {
+  let t = (0, ht.c)(18),
+    { hook: n } = e,
+    r;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((r = (0, X.jsx)(u, {
+        id: `settings.hooks.event.handler`,
+        defaultMessage: `Handler`,
+        description: `Label for the handler type of a configured hook`,
+      })),
+      (t[0] = r))
+    : (r = t[0]);
+  let i;
+  t[1] === n.handlerType
+    ? (i = t[2])
+    : ((i = (0, X.jsx)(pt, { label: r, children: (0, X.jsx)(mt, { handlerType: n.handlerType }) })),
+      (t[1] = n.handlerType),
+      (t[2] = i));
+  let a;
+  t[3] === n.command
+    ? (a = t[4])
+    : ((a =
+        n.command == null
+          ? null
+          : (0, X.jsx)(pt, {
+              label: (0, X.jsx)(u, {
+                id: `settings.hooks.event.command`,
+                defaultMessage: `Command`,
+                description: `Label for the command executed by a hook`,
+              }),
+              children: (0, X.jsx)(`code`, {
+                className: `block font-mono text-xs break-all whitespace-pre-wrap`,
+                children: n.command,
+              }),
+            })),
+      (t[3] = n.command),
+      (t[4] = a));
+  let o;
+  t[5] === n.matcher
+    ? (o = t[6])
+    : ((o =
+        n.matcher == null
+          ? null
+          : (0, X.jsx)(pt, {
+              label: (0, X.jsx)(u, {
+                id: `settings.hooks.event.matcher`,
+                defaultMessage: `Matcher`,
+                description: `Label for the matcher configured for a hook`,
+              }),
+              children: (0, X.jsx)(`code`, {
+                className: `font-mono text-xs break-all`,
+                children: n.matcher,
+              }),
+            })),
+      (t[5] = n.matcher),
+      (t[6] = o));
+  let s;
+  t[7] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((s = (0, X.jsx)(u, {
+        id: `settings.hooks.event.timeout`,
+        defaultMessage: `Timeout`,
+        description: `Label for a hook execution timeout`,
+      })),
+      (t[7] = s))
+    : (s = t[7]);
+  let c;
+  t[8] === n.timeoutSec
+    ? (c = t[9])
+    : ((c = (0, X.jsx)(pt, {
+        label: s,
+        children: (0, X.jsx)(ue, {
+          value: n.timeoutSec,
+          style: `unit`,
+          unit: `second`,
+          unitDisplay: `narrow`,
+        }),
+      })),
+      (t[8] = n.timeoutSec),
+      (t[9] = c));
+  let l;
+  t[10] === n.statusMessage
+    ? (l = t[11])
+    : ((l =
+        n.statusMessage == null
+          ? null
+          : (0, X.jsx)(pt, {
+              label: (0, X.jsx)(u, {
+                id: `settings.hooks.event.statusMessage`,
+                defaultMessage: `Status message`,
+                description: `Label for the status message configured for a hook`,
+              }),
+              children: n.statusMessage,
+            })),
+      (t[10] = n.statusMessage),
+      (t[11] = l));
+  let d;
+  return (
+    t[12] !== i || t[13] !== a || t[14] !== o || t[15] !== c || t[16] !== l
+      ? ((d = (0, X.jsx)(`div`, {
+          className: `mt-2 overflow-hidden rounded-md border border-token-border text-sm`,
+          children: (0, X.jsxs)(`dl`, {
+            className: `grid grid-cols-[auto_minmax(0,1fr)] gap-x-4 gap-y-2 px-3 py-3`,
+            children: [i, a, o, c, l],
+          }),
+        })),
+        (t[12] = i),
+        (t[13] = a),
+        (t[14] = o),
+        (t[15] = c),
+        (t[16] = l),
+        (t[17] = d))
+      : (d = t[17]),
+    d
+  );
+}
+function pt(e) {
+  let t = (0, ht.c)(7),
+    { label: n, children: r } = e,
+    i;
+  t[0] === n
+    ? (i = t[1])
+    : ((i = (0, X.jsx)(`dt`, { className: `text-token-text-secondary`, children: n })),
+      (t[0] = n),
+      (t[1] = i));
+  let a;
+  t[2] === r
+    ? (a = t[3])
+    : ((a = (0, X.jsx)(`dd`, { className: `min-w-0 text-token-text-primary`, children: r })),
+      (t[2] = r),
+      (t[3] = a));
+  let o;
+  return (
+    t[4] !== i || t[5] !== a
+      ? ((o = (0, X.jsxs)(X.Fragment, { children: [i, a] })), (t[4] = i), (t[5] = a), (t[6] = o))
+      : (o = t[6]),
+    o
+  );
+}
+function mt(e) {
+  let t = (0, ht.c)(3),
+    { handlerType: n } = e;
+  switch (n) {
+    case `command`: {
+      let e;
+      return (
+        t[0] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, X.jsx)(u, {
+              id: `settings.hooks.event.commandHandler`,
+              defaultMessage: `Command`,
+              description: `Label for a command hook handler type`,
+            })),
+            (t[0] = e))
+          : (e = t[0]),
+        e
+      );
+    }
+    case `prompt`: {
+      let e;
+      return (
+        t[1] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, X.jsx)(u, {
+              id: `settings.hooks.event.promptHandler`,
+              defaultMessage: `Prompt`,
+              description: `Label for a prompt hook handler type`,
+            })),
+            (t[1] = e))
+          : (e = t[1]),
+        e
+      );
+    }
+    case `agent`: {
+      let e;
+      return (
+        t[2] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, X.jsx)(u, {
+              id: `settings.hooks.event.agentHandler`,
+              defaultMessage: `Agent`,
+              description: `Label for an agent hook handler type`,
+            })),
+            (t[2] = e))
+          : (e = t[2]),
+        e
+      );
+    }
+  }
+}
+var ht,
+  gt,
+  X,
+  _t,
+  vt = e(() => {
+    ((ht = b()),
+      w(),
+      (gt = t(de(), 1)),
+      d(),
+      B(),
+      O(),
+      N(),
+      Je(),
+      o(),
+      j(),
+      lt(),
+      y(),
+      Oe(),
+      je(),
+      (X = z()),
+      (_t = E({
+        openConfigFile: {
+          id: `settings.hooks.event.openConfigFile`,
+          defaultMessage: `Open config file`,
+          description: `Button label for opening the config file that defines a hook`,
+        },
+      })));
+  });
+function yt(e) {
+  let t = (0, Et.c)(28),
+    {
+      entry: n,
+      hostId: r,
+      isOpen: i,
+      isLoading: a,
+      isRemoteHost: o,
+      loadError: c,
+      title: d,
+      titleHref: f,
+      titleIcon: p,
+      subtitle: m,
+      onClose: h,
+      onToggleHookEnabled: g,
+      onTrustHook: _,
+    } = e,
+    v;
+  t[0] !== d || t[1] !== f || t[2] !== p
+    ? ((v =
+        d == null
+          ? null
+          : (0, Z.jsx)(I, {
+              asChild: !0,
+              children: (0, Z.jsx)(`h2`, {
+                className: `flex min-w-0`,
+                children:
+                  f == null
+                    ? (0, Z.jsxs)(`span`, {
+                        className: `flex min-w-0 items-center gap-2`,
+                        children: [
+                          p == null
+                            ? null
+                            : (0, Z.jsx)(`span`, {
+                                className: `flex shrink-0 items-center justify-center`,
+                                children: p,
+                              }),
+                          (0, Z.jsx)(`span`, { className: `min-w-0`, children: d }),
+                        ],
+                      })
+                    : (0, Z.jsxs)(ae, {
+                        className: `group -m-1 inline-flex min-w-0 cursor-interaction items-center gap-2 rounded-md p-1 hover:bg-token-list-hover-background focus-visible:ring-2 focus-visible:ring-token-focus-border focus-visible:outline-none active:scale-[0.98]`,
+                        to: f,
+                        children: [
+                          p == null
+                            ? null
+                            : (0, Z.jsx)(`span`, {
+                                className: `flex shrink-0 items-center justify-center`,
+                                children: p,
+                              }),
+                          (0, Z.jsx)(`span`, { className: `min-w-0`, children: d }),
+                          (0, Z.jsx)(S, {
+                            className: `icon-2xs shrink-0 -rotate-90 opacity-0 transition-transform duration-150 group-hover:translate-x-0.5 group-hover:opacity-100 group-focus-visible:translate-x-0.5 group-focus-visible:opacity-100`,
+                            "aria-hidden": !0,
+                          }),
+                        ],
+                      }),
+              }),
+            })),
+      (t[0] = d),
+      (t[1] = f),
+      (t[2] = p),
+      (t[3] = v))
+    : (v = t[3]);
+  let y = v,
+    b;
+  t[4] === h
+    ? (b = t[5])
+    : ((b = (e) => {
+        e || h();
+      }),
+      (t[4] = h),
+      (t[5] = b));
+  let x;
+  t[6] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((x = { "aria-describedby": void 0 }), (t[6] = x))
+    : (x = t[6]);
+  let C;
+  t[7] !== y || t[8] !== m
+    ? ((C = (0, Z.jsx)(s, {
+        children: (0, Z.jsx)(l, { title: y, subtitle: m, subtitleClassName: `break-all` }),
+      })),
+      (t[7] = y),
+      (t[8] = m),
+      (t[9] = C))
+    : (C = t[9]);
+  let w;
+  t[10] !== n ||
+  t[11] !== r ||
+  t[12] !== a ||
+  t[13] !== i ||
+  t[14] !== o ||
+  t[15] !== c ||
+  t[16] !== g ||
+  t[17] !== _
+    ? ((w = i
+        ? a
+          ? (0, Z.jsx)(Y, {
+              children: (0, Z.jsx)(q, {
+                label: (0, Z.jsx)(u, {
+                  id: `settings.hooks.loading.label`,
+                  defaultMessage: `Loading hooks…`,
+                  description: `Label while hooks are loading`,
+                }),
+                control: null,
+              }),
+            })
+          : c == null
+            ? (0, Z.jsx)(bt, {
+                entry: n,
+                hostId: r,
+                isRemoteHost: o,
+                onToggleHookEnabled: g,
+                onTrustHook: _,
+              })
+            : (0, Z.jsx)(Y, {
+                children: (0, Z.jsx)(q, {
+                  label: (0, Z.jsx)(u, {
+                    id: `settings.hooks.loadError.label`,
+                    defaultMessage: `Could not load hooks`,
+                    description: `Label when hooks settings fails to load hooks`,
+                  }),
+                  description: c.message,
+                  control: null,
+                }),
+              })
+        : null),
+      (t[10] = n),
+      (t[11] = r),
+      (t[12] = a),
+      (t[13] = i),
+      (t[14] = o),
+      (t[15] = c),
+      (t[16] = g),
+      (t[17] = _),
+      (t[18] = w))
+    : (w = t[18]);
+  let T;
+  t[19] === w
+    ? (T = t[20])
+    : ((T = (0, Z.jsx)(s, {
+        className: `vertical-scroll-fade-mask min-h-0 flex-1 gap-3 overflow-y-auto pr-1 [&>*]:shrink-0`,
+        children: w,
+      })),
+      (t[19] = w),
+      (t[20] = T));
+  let E;
+  t[21] !== C || t[22] !== T
+    ? ((E = (0, Z.jsxs)(K, {
+        className: `max-h-[calc(100vh-6rem)] min-h-0 gap-4`,
+        children: [C, T],
+      })),
+      (t[21] = C),
+      (t[22] = T),
+      (t[23] = E))
+    : (E = t[23]);
+  let D;
+  return (
+    t[24] !== i || t[25] !== b || t[26] !== E
+      ? ((D = (0, Z.jsx)(V, {
+          open: i,
+          onOpenChange: b,
+          contentProps: x,
+          size: `xwide`,
+          children: E,
+        })),
+        (t[24] = i),
+        (t[25] = b),
+        (t[26] = E),
+        (t[27] = D))
+      : (D = t[27]),
+    D
+  );
+}
+function bt(e) {
+  let t = (0, Et.c)(23),
+    { entry: n, hostId: r, isRemoteHost: i, onToggleHookEnabled: a, onTrustHook: o } = e,
+    s = H(),
+    [c, l] = (0, Dt.useState)(!1);
+  if (n == null) return null;
+  let u = n.hooks,
+    d,
+    f,
+    p;
+  if (
+    t[0] !== n.errors ||
+    t[1] !== n.warnings ||
+    t[2] !== u ||
+    t[3] !== r ||
+    t[4] !== s ||
+    t[5] !== i ||
+    t[6] !== c ||
+    t[7] !== a ||
+    t[8] !== o
+  ) {
+    let e = Te(u).filter(xt),
+      m = n.warnings,
+      h = n.errors,
+      g = Le(u),
+      _ = m.length + h.length;
+    (t[12] === g
+      ? (d = t[13])
+      : ((d = g > 0 ? (0, Z.jsx)(St, {}) : null), (t[12] = g), (t[13] = d)),
+      t[14] !== h || t[15] !== _ || t[16] !== c || t[17] !== m
+        ? ((f =
+            _ > 0
+              ? (0, Z.jsx)(Ct, {
+                  errors: h,
+                  expanded: c,
+                  issueCount: _,
+                  warnings: m,
+                  onToggleExpanded: () => {
+                    l(!c);
+                  },
+                })
+              : null),
+          (t[14] = h),
+          (t[15] = _),
+          (t[16] = c),
+          (t[17] = m),
+          (t[18] = f))
+        : (f = t[18]),
+      (p =
+        e.length > 0
+          ? (0, Z.jsx)(Y, {
+              children: e.map((e) =>
+                (0, Z.jsxs)(
+                  `div`,
+                  {
+                    children: [
+                      (0, Z.jsx)(q, {
+                        icon: (0, Z.jsx)(De, { className: `icon-xs` }),
+                        label: (0, Z.jsx)(`span`, {
+                          className: `font-medium`,
+                          children: Ee(e.eventName, s),
+                        }),
+                        description: Ce(e.eventName, s),
+                        control:
+                          e.needsReview > 0
+                            ? (0, Z.jsx)(Ue, {
+                                className: `icon-2xs shrink-0 text-token-editor-warning-foreground`,
+                              })
+                            : null,
+                      }),
+                      (0, Z.jsx)(ut, {
+                        eventName: e.eventName,
+                        hostId: r,
+                        isRemoteHost: i,
+                        hooks: u,
+                        onTrustHook: o,
+                        onToggleHookEnabled: a,
+                      }),
+                    ],
+                  },
+                  e.eventName,
+                ),
+              ),
+            })
+          : null),
+      (t[0] = n.errors),
+      (t[1] = n.warnings),
+      (t[2] = u),
+      (t[3] = r),
+      (t[4] = s),
+      (t[5] = i),
+      (t[6] = c),
+      (t[7] = a),
+      (t[8] = o),
+      (t[9] = d),
+      (t[10] = f),
+      (t[11] = p));
+  } else ((d = t[9]), (f = t[10]), (p = t[11]));
+  let m;
+  return (
+    t[19] !== d || t[20] !== f || t[21] !== p
+      ? ((m = (0, Z.jsxs)(Z.Fragment, { children: [d, f, p] })),
+        (t[19] = d),
+        (t[20] = f),
+        (t[21] = p),
+        (t[22] = m))
+      : (m = t[22]),
+    m
+  );
+}
+function xt(e) {
+  return e.installed > 0;
+}
+function St() {
+  let e = (0, Et.c)(1),
+    t;
+  return (
+    e[0] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((t = (0, Z.jsx)(Ae, {
+          Icon: Ue,
+          iconClassName: `text-token-editor-warning-foreground`,
+          type: `info`,
+          content: (0, Z.jsx)(u, {
+            id: `settings.hooks.review.summary`,
+            defaultMessage: `Hooks can run outside of the sandbox so we ask you to review any recently installed or modified hooks`,
+            description: `Banner shown when hooks require trust review`,
+          }),
+        })),
+        (e[0] = t))
+      : (t = e[0]),
+    t
+  );
+}
+function Ct(e) {
+  let t = (0, Et.c)(18),
+    { errors: n, expanded: r, issueCount: i, warnings: a, onToggleExpanded: o } = e,
+    s;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((s = (0, Z.jsx)(Ue, { className: `icon-xs shrink-0 text-token-editor-warning-foreground` })),
+      (t[0] = s))
+    : (s = t[0]);
+  let c;
+  t[1] === i
+    ? (c = t[2])
+    : ((c = (0, Z.jsxs)(`span`, {
+        className: `flex min-w-0 items-center gap-2`,
+        children: [
+          s,
+          (0, Z.jsx)(`span`, {
+            className: `truncate text-sm text-token-text-primary`,
+            children: (0, Z.jsx)(u, {
+              id: `settings.hooks.issues.summary`,
+              defaultMessage: `{count, plural, one {# issue loading hooks for this source} other {# issues loading hooks for this source}}`,
+              description: `Summary text for hook warnings and errors`,
+              values: { count: i },
+            }),
+          }),
+        ],
+      })),
+      (t[1] = i),
+      (t[2] = c));
+  let l = r && `rotate-180`,
+    d;
+  t[3] === l
+    ? (d = t[4])
+    : ((d = G(`icon-2xs shrink-0 transition-transform`, l)), (t[3] = l), (t[4] = d));
+  let f;
+  t[5] === d ? (f = t[6]) : ((f = (0, Z.jsx)(S, { className: d })), (t[5] = d), (t[6] = f));
+  let p;
+  t[7] !== o || t[8] !== c || t[9] !== f
+    ? ((p = (0, Z.jsxs)(`button`, {
+        type: `button`,
+        className: `flex w-full cursor-interaction items-center justify-between gap-3 px-3 py-2 text-left`,
+        onClick: o,
+        children: [c, f],
+      })),
+      (t[7] = o),
+      (t[8] = c),
+      (t[9] = f),
+      (t[10] = p))
+    : (p = t[10]);
+  let m;
+  t[11] !== n || t[12] !== r || t[13] !== a
+    ? ((m = r
+        ? (0, Z.jsxs)(`div`, {
+            className: `space-y-2 border-t border-token-editor-warning-foreground/20 px-3 py-2 text-sm text-token-text-secondary`,
+            children: [a.map(Tt), n.map(wt)],
+          })
+        : null),
+      (t[11] = n),
+      (t[12] = r),
+      (t[13] = a),
+      (t[14] = m))
+    : (m = t[14]);
+  let h;
+  return (
+    t[15] !== p || t[16] !== m
+      ? ((h = (0, Z.jsxs)(`div`, {
+          className: `bg-token-editor-warning-background/30 overflow-hidden rounded-lg border border-token-editor-warning-foreground/30`,
+          children: [p, m],
+        })),
+        (t[15] = p),
+        (t[16] = m),
+        (t[17] = h))
+      : (h = t[17]),
+    h
+  );
+}
+function wt(e) {
+  return (0, Z.jsx)(
+    `div`,
+    {
+      children: (0, Z.jsx)(u, {
+        id: `settings.hooks.issues.error`,
+        defaultMessage: `{path}: {message}`,
+        description: `Expanded hook error detail`,
+        values: { path: e.path, message: e.message },
+      }),
+    },
+    `${e.path}:${e.message}`,
+  );
+}
+function Tt(e) {
+  return (0, Z.jsx)(`div`, { children: e }, e);
+}
+var Et,
+  Dt,
+  Z,
+  Ot = e(() => {
+    ((Et = b()),
+      w(),
+      (Dt = t(de(), 1)),
+      d(),
+      k(),
+      ve(),
+      F(),
+      r(),
+      o(),
+      ye(),
+      xe(),
+      pe(),
+      rt(),
+      Oe(),
+      vt(),
+      je(),
+      (Z = z()));
+  });
+function kt(e) {
+  let t = (0, Q.c)(62),
+    {
+      entries: n,
+      hostId: r,
+      isRemoteHost: i,
+      isLoadingProjectRoots: a,
+      loadError: o,
+      isLoading: s,
+      isRefreshing: c,
+      projectRootLabels: l,
+      projectRoots: d,
+      selectedSourceSection: f,
+      onSelectSourceSection: p,
+      onRefreshHooks: m,
+      onToggleHookEnabled: h,
+      onTrustHook: g,
+    } = e,
+    _ = H(),
+    y;
+  t[0] === _
+    ? (y = t[1])
+    : ((y = _.formatMessage({
+        id: `settings.hooks.refresh`,
+        defaultMessage: `Reload hooks`,
+        description: `Button label to reload hooks for the visible projects`,
+      })),
+      (t[0] = _),
+      (t[1] = y));
+  let b = y,
+    x,
+    S,
+    C,
+    w,
+    T,
+    E,
+    D;
+  if (t[2] !== n || t[3] !== s || t[4] !== l || t[5] !== f) {
+    ((E = n == null || s ? [] : Be(n)), (x = []), (S = []), (C = null), (w = null));
+    for (let e of E)
+      bb0: switch (e.id) {
+        case `plugin`:
+          C = e;
+          break bb0;
+        case `project`:
+          w = e;
+          break bb0;
+        case `user`:
+        case `admin`:
+          x.push(e);
+          break bb0;
+        case `sessionFlags`:
+        case `unknown`:
+          S.push(e);
+      }
+    ((T = Se(E, f)),
+      (D = Wt({ entry: T, projectRootLabels: l, selection: f })),
+      (t[2] = n),
+      (t[3] = s),
+      (t[4] = l),
+      (t[5] = f),
+      (t[6] = x),
+      (t[7] = S),
+      (t[8] = C),
+      (t[9] = w),
+      (t[10] = T),
+      (t[11] = E),
+      (t[12] = D));
+  } else ((x = t[6]), (S = t[7]), (C = t[8]), (w = t[9]), (T = t[10]), (E = t[11]), (D = t[12]));
+  let O = D,
+    ee;
+  t[13] !== r || t[14] !== f
+    ? ((ee =
+        f?.source === `plugin` && f.pluginId != null
+          ? ie({ hostId: r, pluginId: f.pluginId })
+          : void 0),
+      (t[13] = r),
+      (t[14] = f),
+      (t[15] = ee))
+    : (ee = t[15]);
+  let k = ee,
+    A;
+  t[16] === f ? (A = t[17]) : ((A = f == null ? null : Rt(f.source)), (t[16] = f), (t[17] = A));
+  let j = A,
+    M = null;
+  if (f?.source === `project`) M = f.projectRoot;
+  else if (f != null) {
+    let e;
+    (t[18] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((e = (0, $.jsx)(u, {
+          id: `settings.hooks.source.sharedProjects`,
+          defaultMessage: `All projects`,
+          description: `Label for hook sources that apply across every project`,
+        })),
+        (t[18] = e))
+      : (e = t[18]),
+      (M = e));
+  }
+  let N = `none`;
+  if (f?.source === `project`) N = f.projectRoot;
+  else if (f?.source === `plugin`) {
+    N = `plugin`;
+    let e = f.pluginId;
+    e !== void 0 && (N = `plugin:${e ?? `unknown`}`);
+  } else f != null && (N = f.source);
+  let te;
+  t[19] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((te = (0, $.jsx)(Ge, { slug: Kt })), (t[19] = te))
+    : (te = t[19]);
+  let F;
+  t[20] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((F = (0, $.jsx)(u, {
+        id: `settings.hooks.subtitle`,
+        defaultMessage: `Manage lifecycle hooks from config and enabled plugins. <a>Learn more</a>`,
+        description: `Subtitle for hooks settings`,
+        values: { a: At },
+      })),
+      (t[20] = F))
+    : (F = t[20]);
+  let ne = d == null || d.length === 0 || s || c,
+    I;
+  t[21] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((I = (0, $.jsx)(ze, { className: `icon-xs` })), (t[21] = I))
+    : (I = t[21]);
+  let L;
+  t[22] !== m || t[23] !== b || t[24] !== ne
+    ? ((L = (0, $.jsx)(P, {
+        "aria-label": b,
+        color: `ghost`,
+        disabled: ne,
+        onClick: m,
+        size: `icon`,
+        children: I,
+      })),
+      (t[22] = m),
+      (t[23] = b),
+      (t[24] = ne),
+      (t[25] = L))
+    : (L = t[25]);
+  let R;
+  t[26] !== b || t[27] !== L
+    ? ((R = (0, $.jsx)(v, { delayDuration: 0, tooltipContent: b, children: L })),
+      (t[26] = b),
+      (t[27] = L),
+      (t[28] = R))
+    : (R = t[28]);
+  let z;
+  t[29] !== x ||
+  t[30] !== s ||
+  t[31] !== a ||
+  t[32] !== o ||
+  t[33] !== p ||
+  t[34] !== S ||
+  t[35] !== C ||
+  t[36] !== l ||
+  t[37] !== d ||
+  t[38] !== w ||
+  t[39] !== E
+    ? ((z =
+        d == null && a
+          ? (0, $.jsx)(Y, {
+              children: (0, $.jsx)(q, {
+                label: (0, $.jsx)(u, {
+                  id: `settings.hooks.loading.label`,
+                  defaultMessage: `Loading hooks…`,
+                  description: `Label while hooks are loading`,
+                }),
+                control: null,
+              }),
+            })
+          : d == null || d.length === 0
+            ? (0, $.jsx)(jt, {})
+            : o == null
+              ? s
+                ? (0, $.jsx)(Y, {
+                    children: (0, $.jsx)(q, {
+                      label: (0, $.jsx)(u, {
+                        id: `settings.hooks.loading.label`,
+                        defaultMessage: `Loading hooks…`,
+                        description: `Label while hooks are loading`,
+                      }),
+                      control: null,
+                    }),
+                  })
+                : E.length === 0
+                  ? (0, $.jsx)(jt, {})
+                  : (0, $.jsxs)(`div`, {
+                      className: `flex flex-col gap-[var(--padding-panel)]`,
+                      children: [
+                        x.length > 0
+                          ? (0, $.jsx)(Mt, {
+                              title: (0, $.jsx)(u, {
+                                id: `settings.hooks.source.globalConfig`,
+                                defaultMessage: `From Config`,
+                                description: `Group heading for hooks from global user and admin config`,
+                              }),
+                              sections: x,
+                              onSelectSourceSection: p,
+                            })
+                          : null,
+                        C == null ? null : (0, $.jsx)(Nt, { section: C, onSelectSourceSection: p }),
+                        w == null
+                          ? null
+                          : (0, $.jsx)(Ft, {
+                              section: w,
+                              projectRootLabels: l,
+                              onSelectSourceSection: p,
+                            }),
+                        S.length > 0
+                          ? (0, $.jsx)(Mt, {
+                              title: (0, $.jsx)(u, {
+                                id: `settings.hooks.source.otherSources`,
+                                defaultMessage: `Other sources`,
+                                description: `Group heading for hooks from uncommon sources`,
+                              }),
+                              sections: S,
+                              onSelectSourceSection: p,
+                            })
+                          : null,
+                      ],
+                    })
+              : (0, $.jsx)(Y, {
+                  children: (0, $.jsx)(q, {
+                    label: (0, $.jsx)(u, {
+                      id: `settings.hooks.loadError.label`,
+                      defaultMessage: `Could not load hooks`,
+                      description: `Label when hooks settings fails to load hooks`,
+                    }),
+                    description: o.message,
+                    control: null,
+                  }),
+                })),
+      (t[29] = x),
+      (t[30] = s),
+      (t[31] = a),
+      (t[32] = o),
+      (t[33] = p),
+      (t[34] = S),
+      (t[35] = C),
+      (t[36] = l),
+      (t[37] = d),
+      (t[38] = w),
+      (t[39] = E),
+      (t[40] = z))
+    : (z = t[40]);
+  let re = f != null && (s || T != null),
+    B;
+  t[41] === p
+    ? (B = t[42])
+    : ((B = () => {
+        p(null);
+      }),
+      (t[41] = p),
+      (t[42] = B));
+  let V;
+  t[43] !== r ||
+  t[44] !== s ||
+  t[45] !== i ||
+  t[46] !== o ||
+  t[47] !== h ||
+  t[48] !== g ||
+  t[49] !== T ||
+  t[50] !== N ||
+  t[51] !== M ||
+  t[52] !== O ||
+  t[53] !== k ||
+  t[54] !== j ||
+  t[55] !== re ||
+  t[56] !== B
+    ? ((V = (0, $.jsx)(
+        yt,
+        {
+          entry: T,
+          hostId: r,
+          isOpen: re,
+          isLoading: s,
+          isRemoteHost: i,
+          loadError: o,
+          title: O,
+          titleHref: k,
+          titleIcon: j,
+          subtitle: M,
+          onClose: B,
+          onToggleHookEnabled: h,
+          onTrustHook: g,
+        },
+        N,
+      )),
+      (t[43] = r),
+      (t[44] = s),
+      (t[45] = i),
+      (t[46] = o),
+      (t[47] = h),
+      (t[48] = g),
+      (t[49] = T),
+      (t[50] = N),
+      (t[51] = M),
+      (t[52] = O),
+      (t[53] = k),
+      (t[54] = j),
+      (t[55] = re),
+      (t[56] = B),
+      (t[57] = V))
+    : (V = t[57]);
+  let U;
+  return (
+    t[58] !== R || t[59] !== z || t[60] !== V
+      ? ((U = (0, $.jsxs)(nt, {
+          title: te,
+          subtitleClassName: `whitespace-normal`,
+          actionPlacement: `subtitle`,
+          subtitle: F,
+          action: R,
+          children: [z, V],
+        })),
+        (t[58] = R),
+        (t[59] = z),
+        (t[60] = V),
+        (t[61] = U))
+      : (U = t[61]),
+    U
+  );
+}
+function At(e) {
+  return (0, $.jsx)(
+    `a`,
+    {
+      className: `inline-flex text-token-text-link-foreground`,
+      href: Qe,
+      target: `_blank`,
+      rel: `noreferrer`,
+      children: e,
+    },
+    `learn-more`,
+  );
+}
+function jt() {
+  let e = (0, Q.c)(1),
+    t;
+  return (
+    e[0] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((t = (0, $.jsx)(Y, {
+          children: (0, $.jsx)(q, {
+            label: (0, $.jsx)(u, {
+              id: `settings.hooks.emptyHooks.label`,
+              defaultMessage: `No hooks found`,
+              description: `Label when known projects do not have hooks or hook load issues`,
+            }),
+            description: (0, $.jsx)(u, {
+              id: `settings.hooks.emptyHooks.description`,
+              defaultMessage: `Configured hooks will appear here`,
+              description: `Description when no hooks are configured`,
+            }),
+            control: null,
+          }),
+        })),
+        (e[0] = t))
+      : (t = e[0]),
+    t
+  );
+}
+function Mt(e) {
+  let t = (0, Q.c)(12),
+    { sections: n, title: r, onSelectSourceSection: i } = e,
+    a;
+  t[0] === r ? (a = t[1]) : ((a = (0, $.jsx)(J.Header, { title: r })), (t[0] = r), (t[1] = a));
+  let o;
+  if (t[2] !== i || t[3] !== n) {
+    let e;
+    (t[5] === i
+      ? (e = t[6])
+      : ((e = (e) => (0, $.jsx)(It, { section: e, onSelectSourceSection: i }, e.id)),
+        (t[5] = i),
+        (t[6] = e)),
+      (o = n.map(e)),
+      (t[2] = i),
+      (t[3] = n),
+      (t[4] = o));
+  } else o = t[4];
+  let s;
+  t[7] === o ? (s = t[8]) : ((s = (0, $.jsx)(J.Content, { children: o })), (t[7] = o), (t[8] = s));
+  let c;
+  return (
+    t[9] !== a || t[10] !== s
+      ? ((c = (0, $.jsxs)(J, { className: `gap-2`, children: [a, s] })),
+        (t[9] = a),
+        (t[10] = s),
+        (t[11] = c))
+      : (c = t[11]),
+    c
+  );
+}
+function Nt(e) {
+  let t = (0, Q.c)(8),
+    { section: n, onSelectSourceSection: r } = e,
+    i;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((i = (0, $.jsx)(J.Header, {
+        title: (0, $.jsx)(u, {
+          id: `settings.hooks.source.plugins`,
+          defaultMessage: `From Plugins`,
+          description: `Group heading for hooks installed by plugins`,
+        }),
+      })),
+      (t[0] = i))
+    : (i = t[0]);
+  let a;
+  if (t[1] !== r || t[2] !== n.pluginEntries) {
+    let e;
+    (t[4] === r
+      ? (e = t[5])
+      : ((e = (e) =>
+          (0, $.jsx)(
+            Pt,
+            { pluginEntry: e, onSelectSourceSection: r },
+            e.pluginId ?? `unknown-plugin`,
+          )),
+        (t[4] = r),
+        (t[5] = e)),
+      (a = n.pluginEntries.map(e)),
+      (t[1] = r),
+      (t[2] = n.pluginEntries),
+      (t[3] = a));
+  } else a = t[3];
+  let o;
+  return (
+    t[6] === a
+      ? (o = t[7])
+      : ((o = (0, $.jsxs)(J, {
+          className: `gap-2`,
+          children: [i, (0, $.jsx)(J.Content, { children: a })],
+        })),
+        (t[6] = a),
+        (t[7] = o)),
+    o
+  );
+}
+function Pt(e) {
+  let t = (0, Q.c)(22),
+    { pluginEntry: n, onSelectSourceSection: r } = e,
+    i = H(),
+    a;
+  t[0] !== i || t[1] !== n.pluginId
+    ? ((a =
+        Me(n.pluginId) ??
+        i.formatMessage({
+          id: `settings.hooks.source.unknownPlugin`,
+          defaultMessage: `Unknown plugin`,
+          description: `Fallback label for plugin hooks without a plugin id`,
+        })),
+      (t[0] = i),
+      (t[1] = n.pluginId),
+      (t[2] = a))
+    : (a = t[2]);
+  let o = a,
+    s;
+  t[3] === n.entry ? (s = t[4]) : ((s = fe(n.entry)), (t[3] = n.entry), (t[4] = s));
+  let c = s,
+    l;
+  t[5] !== r || t[6] !== n.pluginId
+    ? ((l = () => {
+        r({ source: `plugin`, pluginId: n.pluginId });
+      }),
+      (t[5] = r),
+      (t[6] = n.pluginId),
+      (t[7] = l))
+    : (l = t[7]);
+  let u;
+  t[8] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((u = (0, $.jsx)(He, { className: `icon-sm text-token-text-secondary` })), (t[8] = u))
+    : (u = t[8]);
+  let d;
+  t[9] === o
+    ? (d = t[10])
+    : ((d = (0, $.jsx)(`span`, { className: `block truncate`, children: o })),
+      (t[9] = o),
+      (t[10] = d));
+  let f;
+  t[11] === n.entry.hooks.length
+    ? (f = t[12])
+    : ((f = (0, $.jsx)(Bt, { count: n.entry.hooks.length })),
+      (t[11] = n.entry.hooks.length),
+      (t[12] = f));
+  let p;
+  t[13] === c ? (p = t[14]) : ((p = (0, $.jsx)(Vt, { summary: c })), (t[13] = c), (t[14] = p));
+  let m;
+  t[15] !== d || t[16] !== f || t[17] !== p
+    ? ((m = (0, $.jsx)(q, { icon: u, label: d, description: f, control: p })),
+      (t[15] = d),
+      (t[16] = f),
+      (t[17] = p),
+      (t[18] = m))
+    : (m = t[18]);
+  let h;
+  return (
+    t[19] !== l || t[20] !== m
+      ? ((h = (0, $.jsx)(Y, {
+          children: (0, $.jsx)(`button`, {
+            type: `button`,
+            className: `focus-visible:outline-token-focus w-full cursor-interaction rounded-lg text-left hover:bg-token-list-hover-background focus-visible:bg-token-list-hover-background focus-visible:outline-1 focus-visible:outline-offset-[-2px] active:bg-token-list-active-selection-background`,
+            onClick: l,
+            children: m,
+          }),
+        })),
+        (t[19] = l),
+        (t[20] = m),
+        (t[21] = h))
+      : (h = t[21]),
+    h
+  );
+}
+function Ft(e) {
+  let t = (0, Q.c)(10),
+    { section: n, projectRootLabels: r, onSelectSourceSection: i } = e,
+    a;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((a = (0, $.jsx)(J.Header, {
+        title: (0, $.jsx)(u, {
+          id: `settings.hooks.source.projects`,
+          defaultMessage: `From Projects`,
+          description: `Group heading for hooks from project config files`,
+        }),
+      })),
+      (t[0] = a))
+    : (a = t[0]);
+  let o;
+  if (t[1] !== i || t[2] !== r || t[3] !== n.projectEntries) {
+    let e;
+    (t[5] !== i || t[6] !== r
+      ? ((e = (e) =>
+          (0, $.jsx)(zt, { entry: e, projectRootLabels: r, onSelectSourceSection: i }, e.cwd)),
+        (t[5] = i),
+        (t[6] = r),
+        (t[7] = e))
+      : (e = t[7]),
+      (o = n.projectEntries.map(e)),
+      (t[1] = i),
+      (t[2] = r),
+      (t[3] = n.projectEntries),
+      (t[4] = o));
+  } else o = t[4];
+  let s;
+  return (
+    t[8] === o
+      ? (s = t[9])
+      : ((s = (0, $.jsxs)(J, {
+          className: `gap-2`,
+          children: [a, (0, $.jsx)(J.Content, { children: o })],
+        })),
+        (t[8] = o),
+        (t[9] = s)),
+    s
+  );
+}
+function It(e) {
+  let t = (0, Q.c)(21),
+    { section: n, onSelectSourceSection: r } = e,
+    i = n.id,
+    a = n.entry,
+    o;
+  t[0] === a ? (o = t[1]) : ((o = fe(a)), (t[0] = a), (t[1] = o));
+  let s = o,
+    c;
+  t[2] !== r || t[3] !== i
+    ? ((c = () => {
+        r({ source: i });
+      }),
+      (t[2] = r),
+      (t[3] = i),
+      (t[4] = c))
+    : (c = t[4]);
+  let l;
+  t[5] === i ? (l = t[6]) : ((l = Rt(i)), (t[5] = i), (t[6] = l));
+  let u;
+  t[7] === i ? (u = t[8]) : ((u = (0, $.jsx)(Lt, { source: i })), (t[7] = i), (t[8] = u));
+  let d;
+  t[9] === a.hooks.length
+    ? (d = t[10])
+    : ((d = (0, $.jsx)(Bt, { count: a.hooks.length })), (t[9] = a.hooks.length), (t[10] = d));
+  let f;
+  t[11] === s ? (f = t[12]) : ((f = (0, $.jsx)(Vt, { summary: s })), (t[11] = s), (t[12] = f));
+  let p;
+  t[13] !== l || t[14] !== u || t[15] !== d || t[16] !== f
+    ? ((p = (0, $.jsx)(q, { icon: l, label: u, description: d, control: f })),
+      (t[13] = l),
+      (t[14] = u),
+      (t[15] = d),
+      (t[16] = f),
+      (t[17] = p))
+    : (p = t[17]);
+  let m;
+  return (
+    t[18] !== c || t[19] !== p
+      ? ((m = (0, $.jsx)(Y, {
+          children: (0, $.jsx)(`button`, {
+            type: `button`,
+            className: `focus-visible:outline-token-focus w-full cursor-interaction rounded-lg text-left hover:bg-token-list-hover-background focus-visible:bg-token-list-hover-background focus-visible:outline-1 focus-visible:outline-offset-[-2px] active:bg-token-list-active-selection-background`,
+            onClick: c,
+            children: p,
+          }),
+        })),
+        (t[18] = c),
+        (t[19] = p),
+        (t[20] = m))
+      : (m = t[20]),
+    m
+  );
+}
+function Lt(e) {
+  let t = (0, Q.c)(6),
+    { source: n } = e;
+  switch (n) {
+    case `plugin`: {
+      let e;
+      return (
+        t[0] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, $.jsx)(u, {
+              id: `settings.hooks.source.plugin`,
+              defaultMessage: `Plugin`,
+              description: `Source label for plugin hooks`,
+            })),
+            (t[0] = e))
+          : (e = t[0]),
+        e
+      );
+    }
+    case `user`: {
+      let e;
+      return (
+        t[1] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, $.jsx)(u, {
+              id: `settings.hooks.source.userConfig`,
+              defaultMessage: `User config`,
+              description: `Source label for user hooks`,
+            })),
+            (t[1] = e))
+          : (e = t[1]),
+        e
+      );
+    }
+    case `admin`: {
+      let e;
+      return (
+        t[2] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, $.jsx)(u, {
+              id: `settings.hooks.source.adminConfig`,
+              defaultMessage: `Admin config`,
+              description: `Source label for admin-managed hooks`,
+            })),
+            (t[2] = e))
+          : (e = t[2]),
+        e
+      );
+    }
+    case `project`: {
+      let e;
+      return (
+        t[3] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, $.jsx)(u, {
+              id: `settings.hooks.source.projectConfig`,
+              defaultMessage: `Project config`,
+              description: `Source label for project hooks`,
+            })),
+            (t[3] = e))
+          : (e = t[3]),
+        e
+      );
+    }
+    case `sessionFlags`: {
+      let e;
+      return (
+        t[4] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, $.jsx)(u, {
+              id: `settings.hooks.source.sessionFlags`,
+              defaultMessage: `Session flags`,
+              description: `Source label for session flag hooks`,
+            })),
+            (t[4] = e))
+          : (e = t[4]),
+        e
+      );
+    }
+    case `unknown`: {
+      let e;
+      return (
+        t[5] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((e = (0, $.jsx)(u, {
+              id: `settings.hooks.source.unknown`,
+              defaultMessage: `Unknown source`,
+              description: `Source label for hooks with unknown provenance`,
+            })),
+            (t[5] = e))
+          : (e = t[5]),
+        e
+      );
+    }
+  }
+}
+function Rt(e) {
+  let t = `icon-sm text-token-text-secondary`;
+  switch (e) {
+    case `plugin`:
+      return (0, $.jsx)(He, { className: t });
+    case `user`:
+      return (0, $.jsx)(Ye, { className: t });
+    case `admin`:
+      return (0, $.jsx)(he, { className: t });
+    case `project`:
+      return (0, $.jsx)(D, { className: t });
+    case `sessionFlags`:
+    case `unknown`:
+      return (0, $.jsx)(De, { className: t });
+  }
+}
+function zt(e) {
+  let t = (0, Q.c)(22),
+    { entry: n, projectRootLabels: r, onSelectSourceSection: i } = e,
+    a;
+  t[0] === n ? (a = t[1]) : ((a = fe(n)), (t[0] = n), (t[1] = a));
+  let o = a,
+    s;
+  t[2] !== n.cwd || t[3] !== i
+    ? ((s = () => {
+        i({ source: `project`, projectRoot: n.cwd });
+      }),
+      (t[2] = n.cwd),
+      (t[3] = i),
+      (t[4] = s))
+    : (s = t[4]);
+  let c;
+  t[5] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((c = (0, $.jsx)(D, { className: `icon-sm text-token-text-secondary` })), (t[5] = c))
+    : (c = t[5]);
+  let l;
+  t[6] !== n.cwd || t[7] !== r
+    ? ((l = Ut(n.cwd, r)), (t[6] = n.cwd), (t[7] = r), (t[8] = l))
+    : (l = t[8]);
+  let u;
+  t[9] === l
+    ? (u = t[10])
+    : ((u = (0, $.jsx)(`span`, { className: `block truncate`, children: l })),
+      (t[9] = l),
+      (t[10] = u));
+  let d;
+  t[11] === n.hooks.length
+    ? (d = t[12])
+    : ((d = (0, $.jsx)(Bt, { count: n.hooks.length })), (t[11] = n.hooks.length), (t[12] = d));
+  let f;
+  t[13] === o ? (f = t[14]) : ((f = (0, $.jsx)(Vt, { summary: o })), (t[13] = o), (t[14] = f));
+  let p;
+  t[15] !== u || t[16] !== d || t[17] !== f
+    ? ((p = (0, $.jsx)(q, { icon: c, label: u, description: d, control: f })),
+      (t[15] = u),
+      (t[16] = d),
+      (t[17] = f),
+      (t[18] = p))
+    : (p = t[18]);
+  let m;
+  return (
+    t[19] !== s || t[20] !== p
+      ? ((m = (0, $.jsx)(Y, {
+          children: (0, $.jsx)(`button`, {
+            type: `button`,
+            className: `focus-visible:outline-token-focus w-full cursor-interaction rounded-lg text-left hover:bg-token-list-hover-background focus-visible:bg-token-list-hover-background focus-visible:outline-1 focus-visible:outline-offset-[-2px] active:bg-token-list-active-selection-background`,
+            onClick: s,
+            children: p,
+          }),
+        })),
+        (t[19] = s),
+        (t[20] = p),
+        (t[21] = m))
+      : (m = t[21]),
+    m
+  );
+}
+function Bt(e) {
+  let t = (0, Q.c)(2),
+    { count: n } = e,
+    r;
+  return (
+    t[0] === n
+      ? (r = t[1])
+      : ((r = (0, $.jsx)(u, {
+          id: `settings.hooks.source.hookCount`,
+          defaultMessage: `{count, plural, one {# hook} other {# hooks}}`,
+          description: `Short hook count shown under a hook source row`,
+          values: { count: n },
+        })),
+        (t[0] = n),
+        (t[1] = r)),
+    r
+  );
+}
+function Vt(e) {
+  let t = (0, Q.c)(5),
+    { summary: n } = e,
+    r;
+  t[0] === n ? (r = t[1]) : ((r = (0, $.jsx)(Ht, { summary: n })), (t[0] = n), (t[1] = r));
+  let i;
+  t[2] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((i = (0, $.jsx)(S, { className: `icon-2xs shrink-0 -rotate-90` })), (t[2] = i))
+    : (i = t[2]);
+  let a;
+  return (
+    t[3] === r
+      ? (a = t[4])
+      : ((a = (0, $.jsxs)(`div`, { className: `flex items-center gap-3`, children: [r, i] })),
+        (t[3] = r),
+        (t[4] = a)),
+    a
+  );
+}
+function Ht(e) {
+  let t = (0, Q.c)(6),
+    { summary: n } = e,
+    r = H();
+  if (n == null || (n.issueCount === 0 && n.needsReview === 0)) return null;
+  let i;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((i = (0, $.jsx)(Ue, {
+        className: `icon-2xs shrink-0 text-token-editor-warning-foreground`,
+      })),
+      (t[0] = i))
+    : (i = t[0]);
+  let a;
+  t[1] !== r || t[2] !== n ? ((a = it(n, r)), (t[1] = r), (t[2] = n), (t[3] = a)) : (a = t[3]);
+  let o;
+  return (
+    t[4] === a
+      ? (o = t[5])
+      : ((o = (0, $.jsxs)(`div`, {
+          className: `flex shrink-0 items-center gap-3 text-sm whitespace-nowrap text-token-text-primary`,
+          children: [i, (0, $.jsx)(`span`, { className: `max-[30rem]:hidden`, children: a })],
+        })),
+        (t[4] = a),
+        (t[5] = o)),
+    o
+  );
+}
+function Ut(e, t) {
+  return t?.[e] ?? et(e) ?? e;
+}
+function Wt({ entry: e, projectRootLabels: t, selection: n }) {
+  if (n == null) return null;
+  if (n.source === `project`) return Ut(n.projectRoot, t);
+  if (n.source === `plugin`) {
+    let t = n.pluginId === void 0 ? null : Me(n.pluginId);
+    if ((t == null && e != null && (t = Gt(e.hooks)), t != null)) return t;
+  }
+  return (0, $.jsx)(Lt, { source: n.source });
+}
+function Gt(e) {
+  let t = null;
+  for (let n of e) {
+    let e = Me(n.pluginId);
+    if (e == null || (t != null && t !== e)) return null;
+    t = e;
+  }
+  return t;
+}
+var Q,
+  $,
+  Kt,
+  qt = e(() => {
+    ((Q = b()),
+      L(),
+      d(),
+      B(),
+      N(),
+      Ze(),
+      we(),
+      _e(),
+      o(),
+      f(),
+      ye(),
+      Ne(),
+      Xe(),
+      xe(),
+      tt(),
+      We(),
+      pe(),
+      Ke(),
+      rt(),
+      $e(),
+      Oe(),
+      ot(),
+      je(),
+      Ot(),
+      ($ = z()),
+      (Kt = `hooks-settings`));
+  });
+function Jt() {
+  let e = (0, Yt.c)(55),
+    t = C(p),
+    r = H(),
+    i = ne(),
+    [o, s] = ce(),
+    l = n(),
+    { selectedHostId: u, setSelectedHostId: d } = ge(),
+    f = h(u),
+    m = c(g),
+    _ = c(x),
+    v;
+  e[0] === u ? (v = e[1]) : ((v = { hostId: u }), (e[0] = u), (e[1] = v));
+  let { data: y, isPending: b } = oe(a, v),
+    S;
+  e[2] === o ? (S = e[3]) : ((S = o.get(`hostId`)), (e[2] = o), (e[3] = S));
+  let w = S,
+    T = w == null || w === u,
+    E,
+    D;
+  if (e[4] !== m || e[5] !== T || e[6] !== o || e[7] !== u || e[8] !== _ || e[9] !== y) {
+    let t = T ? o.get(`projectRoot`) : null,
+      n = T ? o.get(`pluginId`) : null,
+      r = [];
+    (u === `local` ? (r = m) : _?.hostId === u && (r = [_.remotePath]),
+      (E = y == null ? void 0 : ke(y.roots, r, t)),
+      (D = T
+        ? Re({ pluginId: n, source: o.get(`source`), projectRoot: t, projectRoots: E })
+        : null),
+      (e[4] = m),
+      (e[5] = T),
+      (e[6] = o),
+      (e[7] = u),
+      (e[8] = _),
+      (e[9] = y),
+      (e[10] = E),
+      (e[11] = D));
+  } else ((E = e[10]), (D = e[11]));
+  let O = D,
+    k;
+  e[12] !== E || e[13] !== u
+    ? ((k = { hostId: u, cwds: E }), (e[12] = E), (e[13] = u), (e[14] = k))
+    : (k = e[14]);
+  let A = oe(re, k),
+    j;
+  e[15] === d
+    ? (j = e[16])
+    : ((j = (e) => {
+        d(e);
+      }),
+      (e[15] = d),
+      (e[16] = j));
+  let N = (0, Xt.useEffectEvent)(j),
+    P;
+  e[17] !== l || e[18] !== u || e[19] !== w || e[20] !== N
+    ? ((P = () => {
+        if (w != null && w !== u) {
+          N(w);
+          return;
+        }
+        M(l, u, { refetchType: `active` });
+      }),
+      (e[17] = l),
+      (e[18] = u),
+      (e[19] = w),
+      (e[20] = N),
+      (e[21] = P))
+    : (P = e[21]);
+  let F;
+  (e[22] !== i.key || e[23] !== l || e[24] !== u || e[25] !== w
+    ? ((F = [i.key, l, u, w]), (e[22] = i.key), (e[23] = l), (e[24] = u), (e[25] = w), (e[26] = F))
+    : (F = e[26]),
+    (0, Xt.useEffect)(P, F));
+  let I = oe(te, u),
+    L;
+  e[27] !== A || e[28] !== r || e[29] !== l || e[30] !== t || e[31] !== u
+    ? ((L = () => {
+        A.refetch().then(async (e) => {
+          e.isSuccess &&
+            (await M(l, u, { broadcast: !0, refetchType: `none` }),
+            t
+              .get(ee)
+              .success(
+                r.formatMessage({
+                  id: `settings.hooks.refresh.success`,
+                  defaultMessage: `Refreshed hooks`,
+                  description: `Success toast shown after manually refreshing hooks`,
+                }),
+              ));
+        });
+      }),
+      (e[27] = A),
+      (e[28] = r),
+      (e[29] = l),
+      (e[30] = t),
+      (e[31] = u),
+      (e[32] = L))
+    : (L = e[32]);
+  let R = L,
+    z;
+  e[33] !== o || e[34] !== u || e[35] !== s
+    ? ((z = (e) => {
+        let t = new URLSearchParams(o);
+        (Fe(t, u, e), s(t, { replace: !0 }));
+      }),
+      (e[33] = o),
+      (e[34] = u),
+      (e[35] = s),
+      (e[36] = z))
+    : (z = e[36]);
+  let ie = z,
+    B = A.data?.data,
+    V = f.kind !== `local`,
+    U = A.isFetching && !A.isPending,
+    ae = y?.labels,
+    W,
+    G;
+  e[37] === I
+    ? ((W = e[38]), (G = e[39]))
+    : ((W = (e, t) => {
+        I.mutate([{ key: e.key, enabled: t }]);
+      }),
+      (G = (e) => {
+        I.mutate([{ key: e.key, trustedHash: e.currentHash }]);
+      }),
+      (e[37] = I),
+      (e[38] = W),
+      (e[39] = G));
+  let K;
+  return (
+    e[40] !== R ||
+    e[41] !== ie ||
+    e[42] !== A.error ||
+    e[43] !== A.isPending ||
+    e[44] !== b ||
+    e[45] !== E ||
+    e[46] !== u ||
+    e[47] !== O ||
+    e[48] !== V ||
+    e[49] !== U ||
+    e[50] !== ae ||
+    e[51] !== W ||
+    e[52] !== G ||
+    e[53] !== B
+      ? ((K = (0, Zt.jsx)(kt, {
+          entries: B,
+          hostId: u,
+          isRemoteHost: V,
+          isLoadingProjectRoots: b,
+          loadError: A.error,
+          isLoading: A.isPending,
+          isRefreshing: U,
+          projectRootLabels: ae,
+          projectRoots: E,
+          selectedSourceSection: O,
+          onSelectSourceSection: ie,
+          onRefreshHooks: R,
+          onToggleHookEnabled: W,
+          onTrustHook: G,
+        })),
+        (e[40] = R),
+        (e[41] = ie),
+        (e[42] = A.error),
+        (e[43] = A.isPending),
+        (e[44] = b),
+        (e[45] = E),
+        (e[46] = u),
+        (e[47] = O),
+        (e[48] = V),
+        (e[49] = U),
+        (e[50] = ae),
+        (e[51] = W),
+        (e[52] = G),
+        (e[53] = B),
+        (e[54] = K))
+      : (K = e[54]),
+    K
+  );
+}
+var Yt, Xt, Zt;
+e(() => {
+  ((Yt = b()),
+    se(),
+    A(),
+    (Xt = t(de(), 1)),
+    d(),
+    k(),
+    U(),
+    m(),
+    _(),
+    me(),
+    R(),
+    je(),
+    W(),
+    be(),
+    qt(),
+    (Zt = z()));
+})();
+export { Jt as HooksSettings };
+//# sourceMappingURL=hooks-settings.js.map

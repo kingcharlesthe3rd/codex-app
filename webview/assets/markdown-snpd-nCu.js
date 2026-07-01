@@ -1,1 +1,3 @@
-import{n as e,t}from"./markdown-C6nqxFsx.js";t();export{e as default};
+import { n as e, t } from "./markdown.js";
+t();
+export { e as default };

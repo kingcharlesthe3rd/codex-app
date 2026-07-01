@@ -1,0 +1,2726 @@
+import { n as e, s as t } from "./rolldown-runtime.js";
+import {
+  AP as n,
+  BP as r,
+  CP as i,
+  EB as a,
+  Fl as o,
+  HP as s,
+  Hu as c,
+  IP as l,
+  JN as u,
+  Ka as d,
+  LP as f,
+  Mj as p,
+  PP as m,
+  Pj as h,
+  Qj as g,
+  RV as _,
+  SP as v,
+  TB as y,
+  TP as b,
+  Ua as x,
+  VP as ee,
+  Vp as te,
+  XO as S,
+  Xu as C,
+  YN as ne,
+  YO as w,
+  _S as re,
+  aD as T,
+  bB as ie,
+  cM as ae,
+  cP as oe,
+  eC as E,
+  eM as D,
+  fN as O,
+  gP as k,
+  gS as A,
+  hN as j,
+  iC as M,
+  iD as N,
+  jE as P,
+  jP as F,
+  jV as I,
+  mN as L,
+  mP as R,
+  nD as se,
+  oP as z,
+  oa as B,
+  pN as V,
+  pS as H,
+  qN as U,
+  qP as ce,
+  sM as le,
+  sa as ue,
+  tC as de,
+  tD as fe,
+  tu as pe,
+  vp as me,
+  wB as he,
+  wP as W,
+  yE as ge,
+  yp as _e,
+  zV as ve,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~plug~kmtatxxf.js";
+import {
+  Bw as G,
+  SD as ye,
+  Vw as K,
+  bD as q,
+  cO as be,
+  nb as J,
+  rb as xe,
+  sO as Se,
+  xD as Ce,
+  yD as we,
+} from "./app-initial~app-main~onboarding-page.js";
+import { n as Te, t as Ee } from "./avatar-mascot-button.js";
+import {
+  Lt as De,
+  Rt as Oe,
+} from "./app-initial~app-main~remote-conversation-page~hotkey-window-thread-page~keyboard-shortcuts-~n7jwlpf0.js";
+import {
+  T as Y,
+  w as ke,
+} from "./app-initial~app-main~projects-index-page~local-conversation-page.js";
+import {
+  _ as Ae,
+  a as je,
+  c as Me,
+  d as Ne,
+  f as Pe,
+  g as Fe,
+  h as Ie,
+  i as Le,
+  l as Re,
+  m as ze,
+  n as Be,
+  o as Ve,
+  r as He,
+  s as Ue,
+  t as We,
+  u as Ge,
+  v as Ke,
+  y as qe,
+} from "./avatar-overlay-pill-dismiss-button.js";
+import {
+  n as Je,
+  t as Ye,
+} from "./app-initial~app-main~avatar-overlay-page~avatar-overlay-native-page~pets-settings.js";
+import {
+  n as Xe,
+  t as Ze,
+} from "./app-initial~app-main~pet-install-modal-host~avatar-overlay-page~avatar-overlay-native-page~~s9e72i2g.js";
+import { n as Qe, t as $e } from "./use-floating-window-pointer-interactivity.js";
+import { n as et, t as tt } from "./avatar-overlay-debug-state.js";
+import {
+  a as nt,
+  c as rt,
+  d as it,
+  i as at,
+  l as ot,
+  n as st,
+  o as ct,
+  r as lt,
+  s as ut,
+  t as dt,
+  u as ft,
+} from "./use-avatar-overlay-selection.js";
+function pt({
+  avatar: e,
+  avatarMenuItems: t,
+  interactiveRegionRef: n,
+  isDragging: r = !1,
+  isNotificationTrayOpen: i = !0,
+  restrictedSurface: a,
+  layout: o,
+  mascotLayout: s = o.mascot,
+  mascotStyle: c,
+  mascotDragState: l,
+  mascotResizeHandle: u,
+  notifications: d,
+  onLostPointerCapture: f,
+  onCloseNotificationTray: p,
+  onPointerCancel: m,
+  onPointerDown: h,
+  onPointerMove: g,
+  onPointerUp: _,
+  onDismissNotification: y,
+  onRunNotificationAction: b,
+  onSubmitQuestionOption: x,
+  onNotificationReplyEditorActiveChange: ee,
+  onOpenNotificationReply: te,
+  onSubmitNotificationReply: S,
+  onOpenNotificationTray: C,
+}) {
+  let ne = ce(),
+    w = oe(),
+    re = Fe(d[0]),
+    T = d.length > 0,
+    ie = a?.phase ?? `inactive`,
+    ae = Me(a?.isSessionActive ?? !1, ie !== `inactive`),
+    E = ae === `voice-orb`,
+    D = ae === `hidden`,
+    O = ae === `pet` ? s : { ...s, height: 121, width: 112 },
+    k = T && i;
+  a?.controlsHovered;
+  let A = a?.caption ?? null,
+    j = k || A != null,
+    M = T || j,
+    N = o.placement.startsWith(`top`),
+    P = o.placement.endsWith(`end`),
+    F = d.length > Bt,
+    I = o.tray == null ? void 0 : Math.max(0, o.tray.height),
+    L = `${N ? `bottom` : `top`} ${P ? `right` : `left`}`,
+    se;
+  k
+    ? (se = {
+        ariaLabel: ne.formatMessage(Q.collapseNotificationTray),
+        backgroundColor: `var(--color-token-bg-primary)`,
+        content: (0, Z.jsx)(v, { className: `icon-xs opacity-80` }),
+        foregroundColor: `var(--color-token-text-secondary)`,
+        isIconOnly: !0,
+        onClick: p,
+      })
+    : T &&
+      (se = {
+        ariaLabel: ne.formatMessage(
+          {
+            id: `avatarOverlay.toggleNotificationTray`,
+            defaultMessage: `Open activity tray, {count, plural, one {# item} other {# items}}`,
+            description: `Accessible label for the floating avatar activity count button`,
+          },
+          { count: d.length },
+        ),
+        backgroundColor: re.badgeBackgroundColor,
+        content: d.length,
+        foregroundColor: re.badgeForegroundColor,
+        onClick: C,
+      });
+  let z = (0, Z.jsx)(Ee, {
+    ariaLabel: ne.formatMessage(Q.mascotLabel, { petName: e.displayName }),
+    assetRef: e.assetRef,
+    spritesheetUrl: e.spritesheetUrl,
+    notificationBadge: se,
+    resizeHandle: u == null ? void 0 : { ariaLabel: ne.formatMessage(Q.resizeMascot), ...u },
+    state: re.mascotState,
+    style: c,
+    transientState: l,
+  });
+  return (0, Z.jsx)(`main`, {
+    className: `relative h-screen w-screen overflow-hidden bg-transparent`,
+    children: (0, Z.jsxs)(`section`, {
+      ref: n,
+      "data-avatar-overlay-content-frame": `true`,
+      className: `relative h-full w-full cursor-grab active:cursor-grabbing`,
+      onLostPointerCapture: f,
+      onPointerCancel: m,
+      onPointerDown: h,
+      onPointerMove: g,
+      onPointerUp: _,
+      children: [
+        M
+          ? (0, Z.jsx)(`div`, {
+              "aria-hidden": j ? void 0 : !0,
+              "data-avatar-overlay-hit-region": `notification-tray`,
+              inert: !j,
+              className: W(
+                `absolute flex cursor-interaction text-sm text-token-foreground`,
+                N ? `items-end` : `items-start`,
+              ),
+              style: {
+                height: o.tray?.height,
+                left: o.tray?.left,
+                pointerEvents: j ? void 0 : `none`,
+                top: o.tray?.top,
+                visibility: o.tray == null ? `hidden` : void 0,
+                width: o.tray?.width,
+              },
+              children: (0, Z.jsxs)(R.div, {
+                animate: { opacity: j ? 1 : 0, scale: j || w ? 1 : 0.97, y: j || w ? 0 : 8 },
+                className: `relative w-full overflow-hidden [corner-shape:var(--codex-corner-shape)]`,
+                "data-avatar-overlay-size": `notification-tray`,
+                initial: !1,
+                style: F ? { maxHeight: I, transformOrigin: L } : { transformOrigin: L },
+                transition: w
+                  ? { duration: 0 }
+                  : { damping: 26, mass: 0.8, stiffness: 360, type: `spring` },
+                children: [
+                  (0, Z.jsx)(`div`, {
+                    className: `h-0 overflow-hidden`,
+                    "data-avatar-overlay-size": `notification-tray-header`,
+                  }),
+                  (0, Z.jsx)(`div`, {
+                    children: (0, Z.jsx)(mt, {
+                      areNotificationsVisible: k,
+                      isTrayAboveMascot: N,
+                      isNotificationTrayVisible: j,
+                      notifications: d,
+                      prefersReducedMotion: !!w,
+                      restrictedCaption: A,
+                      trayMaxHeight: I,
+                      onDismissNotification: y,
+                      onRunNotificationAction: b,
+                      onSubmitQuestionOption: x,
+                      onNotificationReplyEditorActiveChange: ee,
+                      onOpenNotificationReply: te,
+                      onSubmitNotificationReply: S,
+                    }),
+                  }),
+                ],
+              }),
+            })
+          : null,
+        (0, Z.jsx)(Se, {
+          items: t,
+          children: (0, Z.jsx)(`div`, {
+            "data-avatar-overlay-hit-region": D ? void 0 : `mascot`,
+            className: W(
+              `group absolute duration-[160ms] ease-out [@media(prefers-reduced-motion:reduce)]:transition-none`,
+              D && `pointer-events-none`,
+              r && !E ? `scale-95 transition-transform` : `transition-none`,
+            ),
+            style: { height: O.height, left: O.left, top: O.top, width: O.width },
+            children: z,
+          }),
+        }),
+      ],
+    }),
+  });
+}
+function mt(e) {
+  let t = (0, zt.c)(67),
+    {
+      areNotificationsVisible: n,
+      isTrayAboveMascot: r,
+      isNotificationTrayVisible: i,
+      notifications: a,
+      onDismissNotification: o,
+      onNotificationReplyEditorActiveChange: s,
+      onOpenNotificationReply: c,
+      onRunNotificationAction: l,
+      onSubmitQuestionOption: u,
+      onSubmitNotificationReply: d,
+      prefersReducedMotion: f,
+      restrictedCaption: p,
+      trayMaxHeight: m,
+    } = e,
+    h = ce(),
+    g = (0, X.useRef)(null),
+    _;
+  t[0] !== h || t[1] !== a ? ((_ = ct(a, h)), (t[0] = h), (t[1] = a), (t[2] = _)) : (_ = t[2]);
+  let v = _,
+    y = p == null ? `` : `caption`,
+    b = r ? `tray-above` : `tray-below`,
+    x;
+  t[3] !== v || t[4] !== y || t[5] !== b
+    ? ((x = [v, y, b]), (t[3] = v), (t[4] = y), (t[5] = b), (t[6] = x))
+    : (x = t[6]);
+  let ee = x.join(`\0`),
+    te = a.length > Bt,
+    S = Math.max(0, a.length - Bt),
+    C;
+  t[7] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((C = {
+        hasScrollableContent: !1,
+        hasLatestNotificationsAbove: !1,
+        hiddenOlderNotificationCount: 0,
+      }),
+      (t[7] = C))
+    : (C = t[7]);
+  let [w, re] = (0, X.useState)(C),
+    [T, ie] = (0, X.useState)(null),
+    ae = (0, X.useRef)(null),
+    oe;
+  t[8] !== a || t[9] !== T
+    ? ((oe = a.some((e) => e.id === T) ? T : null), (t[8] = a), (t[9] = T), (t[10] = oe))
+    : (oe = t[10]);
+  let E = oe,
+    D = E != null && n,
+    O,
+    A;
+  (t[11] !== D || t[12] !== s
+    ? ((O = () => {
+        if (D)
+          return (
+            s?.(!0),
+            () => {
+              s?.(!1);
+            }
+          );
+      }),
+      (A = [D, s]),
+      (t[11] = D),
+      (t[12] = s),
+      (t[13] = O),
+      (t[14] = A))
+    : ((O = t[13]), (A = t[14])),
+    (0, X.useEffect)(O, A));
+  let j, M;
+  (t[15] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((M = () => {
+        ae.current?.focus();
+      }),
+      (j = []),
+      (t[15] = j),
+      (t[16] = M))
+    : ((j = t[15]), (M = t[16])),
+    ne(`avatar-overlay-keyboard-interaction-ready`, M, j));
+  let N = Math.min(w.hiddenOlderNotificationCount, S),
+    P = w.hasScrollableContent,
+    F = n && P && te && w.hasLatestNotificationsAbove,
+    I = n && P && te && N > 0,
+    L = n && P && te,
+    se = n && P,
+    z = a.length > 0,
+    B = z && te,
+    V;
+  t[17] === f
+    ? (V = t[18])
+    : ((V = f ? { duration: 0 } : { duration: 0.18, ease: [0.16, 1, 0.3, 1] }),
+      (t[17] = f),
+      (t[18] = V));
+  let H = V,
+    U;
+  t[19] !== f || t[20] !== p || t[21] !== se
+    ? ((U =
+        p == null
+          ? null
+          : (0, Z.jsx)(
+              ht,
+              { prefersReducedMotion: f, shouldInsetForScrollbar: se, text: p },
+              `restricted-caption`,
+            )),
+      (t[19] = f),
+      (t[20] = p),
+      (t[21] = se),
+      (t[22] = U))
+    : (U = t[22]);
+  let le = U,
+    ue;
+  t[23] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((ue = (e) => {
+        re((t) => {
+          let n = kt(e);
+          return At(t, n) ? t : n;
+        });
+      }),
+      (t[23] = ue))
+    : (ue = t[23]);
+  let de = ue,
+    fe;
+  t[24] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((fe = (e) => {
+        ((g.current = e), e != null && de(e));
+      }),
+      (t[24] = fe))
+    : (fe = t[24]);
+  let pe = fe,
+    me;
+  t[25] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((me = () => {
+        let e = g.current;
+        if (e == null) return;
+        de(e);
+        let t = window.requestAnimationFrame(() => {
+            de(e);
+          }),
+          n = new ResizeObserver(() => {
+            de(e);
+          });
+        return (
+          n.observe(e),
+          () => {
+            (window.cancelAnimationFrame(t), n.disconnect());
+          }
+        );
+      }),
+      (t[25] = me))
+    : (me = t[25]);
+  let he;
+  (t[26] !== ee || t[27] !== m
+    ? ((he = [ee, m, de]), (t[26] = ee), (t[27] = m), (t[28] = he))
+    : (he = t[28]),
+    (0, X.useLayoutEffect)(me, he));
+  let ge;
+  t[29] === f
+    ? (ge = t[30])
+    : ((ge = () => {
+        let e = g.current;
+        e != null && (e.scrollTo({ behavior: f ? `auto` : `smooth`, top: 0 }), re(kt(e, 0)));
+      }),
+      (t[29] = f),
+      (t[30] = ge));
+  let _e = ge,
+    ve;
+  t[31] !== N || t[32] !== f
+    ? ((ve = () => {
+        let e = g.current;
+        if (e == null) return;
+        let t = vt(e, N);
+        (e.scrollTo({ behavior: f ? `auto` : `smooth`, top: t }), re(kt(e, t)));
+      }),
+      (t[31] = N),
+      (t[32] = f),
+      (t[33] = ve))
+    : (ve = t[33]);
+  let G = ve,
+    ye = le != null && `gap-1.5`,
+    K;
+  t[34] === ye
+    ? (K = t[35])
+    : ((K = W(`relative flex w-full min-w-0 flex-col overflow-hidden`, ye)),
+      (t[34] = ye),
+      (t[35] = K));
+  let q;
+  t[36] !== B || t[37] !== m
+    ? ((q = B ? { height: m, maxHeight: m } : void 0), (t[36] = B), (t[37] = m), (t[38] = q))
+    : (q = t[38]);
+  let be = r ? null : le,
+    J;
+  t[39] !== E ||
+  t[40] !== F ||
+  t[41] !== I ||
+  t[42] !== N ||
+  t[43] !== h ||
+  t[44] !== i ||
+  t[45] !== a ||
+  t[46] !== o ||
+  t[47] !== c ||
+  t[48] !== l ||
+  t[49] !== d ||
+  t[50] !== u ||
+  t[51] !== f ||
+  t[52] !== _e ||
+  t[53] !== G ||
+  t[54] !== L ||
+  t[55] !== z ||
+  t[56] !== B ||
+  t[57] !== H
+    ? ((J = z
+        ? (0, Z.jsxs)(R.div, {
+            layout: B,
+            className: `relative min-h-0 min-w-0 flex-1`,
+            transition: H,
+            children: [
+              (0, Z.jsx)(k, {
+                children: F
+                  ? (0, Z.jsx)(gt, { prefersReducedMotion: f, onClick: _e }, `latest`)
+                  : null,
+              }),
+              (0, Z.jsx)(R.div, {
+                ref: pe,
+                animate: { opacity: i ? 1 : 0, y: i || f ? 0 : 3 },
+                "aria-label": h.formatMessage(Q.notificationList),
+                className: W(
+                  `scrollbar-on-hover flex h-full w-full min-w-0 flex-col gap-1.5 overflow-y-auto px-1.5 pt-1 pb-0 [--edge-fade-distance:0.75rem]`,
+                  L && `vertical-scroll-fade-mask snap-y snap-mandatory`,
+                ),
+                "data-avatar-overlay-size": `notification-tray-list`,
+                role: `list`,
+                initial: !1,
+                transition: f ? { duration: 0 } : { duration: 0.16, ease: `easeOut` },
+                onScroll: (e) => {
+                  let t = kt(e.currentTarget);
+                  re((e) => (At(e, t) ? e : t));
+                },
+                children: a.map((e, t) =>
+                  (0, Z.jsx)(
+                    yt,
+                    {
+                      isReplying: E === e.id,
+                      notification: e,
+                      notificationIndex: t,
+                      onCloseReply: () => {
+                        ie((t) => (t === e.id ? null : t));
+                      },
+                      onDismissNotification: o,
+                      onOpenReply: () => {
+                        (c?.(e), ie(e.id));
+                      },
+                      onRunNotificationAction: l,
+                      onSubmitQuestionOption: u,
+                      onSubmitNotificationReply: d,
+                      prefersReducedMotion: f,
+                      replyInputRef: ae,
+                    },
+                    e.id,
+                  ),
+                ),
+              }),
+              (0, Z.jsx)(k, {
+                children: I
+                  ? (0, Z.jsx)(_t, { count: N, prefersReducedMotion: f, onClick: G }, `older`)
+                  : null,
+              }),
+            ],
+          })
+        : null),
+      (t[39] = E),
+      (t[40] = F),
+      (t[41] = I),
+      (t[42] = N),
+      (t[43] = h),
+      (t[44] = i),
+      (t[45] = a),
+      (t[46] = o),
+      (t[47] = c),
+      (t[48] = l),
+      (t[49] = d),
+      (t[50] = u),
+      (t[51] = f),
+      (t[52] = _e),
+      (t[53] = G),
+      (t[54] = L),
+      (t[55] = z),
+      (t[56] = B),
+      (t[57] = H),
+      (t[58] = J))
+    : (J = t[58]);
+  let xe = r ? le : null,
+    Se;
+  return (
+    t[59] !== B ||
+    t[60] !== K ||
+    t[61] !== q ||
+    t[62] !== be ||
+    t[63] !== J ||
+    t[64] !== xe ||
+    t[65] !== H
+      ? ((Se = (0, Z.jsxs)(R.div, {
+          layout: B,
+          className: K,
+          "data-avatar-overlay-size": `notification-tray-content`,
+          style: q,
+          transition: H,
+          children: [be, J, xe],
+        })),
+        (t[59] = B),
+        (t[60] = K),
+        (t[61] = q),
+        (t[62] = be),
+        (t[63] = J),
+        (t[64] = xe),
+        (t[65] = H),
+        (t[66] = Se))
+      : (Se = t[66]),
+    Se
+  );
+}
+function ht(e) {
+  let t = (0, zt.c)(17),
+    { prefersReducedMotion: n, shouldInsetForScrollbar: r, text: i } = e,
+    a = (0, X.useRef)(null),
+    o;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((o = () => {
+        let e = a.current;
+        e != null && (e.scrollTop = e.scrollHeight);
+      }),
+      (t[0] = o))
+    : (o = t[0]);
+  let s;
+  (t[1] === i ? (s = t[2]) : ((s = [i]), (t[1] = i), (t[2] = s)), (0, X.useLayoutEffect)(o, s));
+  let c;
+  t[3] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((c = { height: `auto`, opacity: 1 }), (t[3] = c))
+    : (c = t[3]);
+  let l = r && `[scrollbar-gutter:stable]`,
+    u;
+  t[4] === l
+    ? (u = t[5])
+    : ((u = W(`no-drag w-full min-w-0 shrink-0 overflow-hidden px-1.5 text-left`, l)),
+      (t[4] = l),
+      (t[5] = u));
+  let d;
+  t[6] === n ? (d = t[7]) : ((d = n ? !1 : { height: 0, opacity: 0 }), (t[6] = n), (t[7] = d));
+  let f;
+  t[8] === n
+    ? (f = t[9])
+    : ((f = n ? { duration: 0 } : { duration: 0.18, ease: [0.16, 1, 0.3, 1] }),
+      (t[8] = n),
+      (t[9] = f));
+  let p;
+  t[10] === i
+    ? (p = t[11])
+    : ((p = (0, Z.jsx)(`div`, {
+        className: `relative z-[1] overflow-hidden rounded-[18px] border border-token-border/60 bg-token-main-surface-primary px-3 py-2 shadow-[inset_0_1px_0_rgba(255,255,255,0.42),inset_0_-1px_0_rgba(0,0,0,0.08)] backdrop-blur-xl forced-colors:bg-[Canvas]`,
+        children: (0, Z.jsx)(`div`, {
+          ref: a,
+          className: `text-size-chat-sm h-12 overflow-hidden leading-4 break-words whitespace-pre-wrap text-token-foreground`,
+          children: i,
+        }),
+      })),
+      (t[10] = i),
+      (t[11] = p));
+  let m;
+  return (
+    t[12] !== u || t[13] !== d || t[14] !== f || t[15] !== p
+      ? ((m = (0, Z.jsx)(R.div, {
+          "aria-live": `polite`,
+          animate: c,
+          className: u,
+          "data-avatar-overlay-size": `notification-tray-caption`,
+          initial: d,
+          role: `status`,
+          transition: f,
+          children: p,
+        })),
+        (t[12] = u),
+        (t[13] = d),
+        (t[14] = f),
+        (t[15] = p),
+        (t[16] = m))
+      : (m = t[16]),
+    m
+  );
+}
+function gt(e) {
+  let t = (0, zt.c)(28),
+    { onClick: n, prefersReducedMotion: r } = e,
+    i = ce(),
+    a;
+  t[0] === i
+    ? (a = t[1])
+    : ((a = i.formatMessage(Q.showLatestNotifications)), (t[0] = i), (t[1] = a));
+  let o;
+  t[2] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((o = { opacity: 1, scale: 1, x: `-50%` }), (t[2] = o))
+    : (o = t[2]);
+  let s = r ? 1 : 0.96,
+    c;
+  t[3] === s ? (c = t[4]) : ((c = { opacity: 0, scale: s, x: `-50%` }), (t[3] = s), (t[4] = c));
+  let l = r ? 1 : 0.96,
+    u;
+  t[5] === l ? (u = t[6]) : ((u = { opacity: 0, scale: l, x: `-50%` }), (t[5] = l), (t[6] = u));
+  let d;
+  t[7] === r
+    ? (d = t[8])
+    : ((d = r ? { duration: 0 } : { duration: 0.14, ease: `easeOut` }), (t[7] = r), (t[8] = d));
+  let f;
+  t[9] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((f = W(qt, `top-1 min-w-12`)), (t[9] = f))
+    : (f = t[9]);
+  let p;
+  t[10] === r ? (p = t[11]) : ((p = r ? void 0 : { scale: 1.03 }), (t[10] = r), (t[11] = p));
+  let m;
+  t[12] === r ? (m = t[13]) : ((m = r ? void 0 : { scale: 0.96 }), (t[12] = r), (t[13] = m));
+  let h;
+  t[14] === i
+    ? (h = t[15])
+    : ((h = i.formatMessage(Q.latestNotifications)), (t[14] = i), (t[15] = h));
+  let g;
+  t[16] === h ? (g = t[17]) : ((g = (0, Z.jsx)(`span`, { children: h })), (t[16] = h), (t[17] = g));
+  let _;
+  t[18] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((_ = (0, Z.jsx)(le, {
+        className: `icon-2xs hidden -rotate-90 opacity-70 group-hover:block group-focus:block`,
+      })),
+      (t[18] = _))
+    : (_ = t[18]);
+  let v;
+  return (
+    t[19] !== n ||
+    t[20] !== a ||
+    t[21] !== m ||
+    t[22] !== g ||
+    t[23] !== c ||
+    t[24] !== u ||
+    t[25] !== d ||
+    t[26] !== p
+      ? ((v = (0, Z.jsxs)(R.button, {
+          type: `button`,
+          "aria-label": a,
+          "data-avatar-overlay-hit-region": `notification-scroll-control`,
+          animate: o,
+          exit: c,
+          initial: u,
+          transition: d,
+          className: f,
+          whileHover: p,
+          whileTap: m,
+          onClick: n,
+          children: [g, _],
+        })),
+        (t[19] = n),
+        (t[20] = a),
+        (t[21] = m),
+        (t[22] = g),
+        (t[23] = c),
+        (t[24] = u),
+        (t[25] = d),
+        (t[26] = p),
+        (t[27] = v))
+      : (v = t[27]),
+    v
+  );
+}
+function _t(e) {
+  let t = (0, zt.c)(36),
+    { count: n, onClick: r, prefersReducedMotion: i } = e,
+    a = ce(),
+    o;
+  t[0] !== n || t[1] !== a
+    ? ((o = a.formatMessage(Q.showOlderNotifications, { count: n })),
+      (t[0] = n),
+      (t[1] = a),
+      (t[2] = o))
+    : (o = t[2]);
+  let s;
+  t[3] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((s = { opacity: 1, scale: 1, x: `-50%` }), (t[3] = s))
+    : (s = t[3]);
+  let c = i ? 1 : 0.96,
+    l;
+  t[4] === c ? (l = t[5]) : ((l = { opacity: 0, scale: c, x: `-50%` }), (t[4] = c), (t[5] = l));
+  let u = i ? 1 : 0.96,
+    d;
+  t[6] === u ? (d = t[7]) : ((d = { opacity: 0, scale: u, x: `-50%` }), (t[6] = u), (t[7] = d));
+  let f;
+  t[8] === i
+    ? (f = t[9])
+    : ((f = i ? { duration: 0 } : { duration: 0.14, ease: `easeOut` }), (t[8] = i), (t[9] = f));
+  let p;
+  t[10] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((p = W(qt, `bottom-1 min-w-9`)), (t[10] = p))
+    : (p = t[10]);
+  let m;
+  t[11] === i ? (m = t[12]) : ((m = i ? void 0 : { scale: 1.03 }), (t[11] = i), (t[12] = m));
+  let h;
+  t[13] === i ? (h = t[14]) : ((h = i ? void 0 : { scale: 0.96 }), (t[13] = i), (t[14] = h));
+  let g;
+  t[15] !== n || t[16] !== a
+    ? ((g = a.formatMessage(Q.compactOlderNotificationCount, { count: n })),
+      (t[15] = n),
+      (t[16] = a),
+      (t[17] = g))
+    : (g = t[17]);
+  let _;
+  t[18] === g
+    ? (_ = t[19])
+    : ((_ = (0, Z.jsx)(`span`, {
+        className: `group-hover:hidden group-focus:hidden`,
+        children: g,
+      })),
+      (t[18] = g),
+      (t[19] = _));
+  let v;
+  t[20] !== n || t[21] !== a
+    ? ((v = a.formatMessage(Q.olderNotificationCount, { count: n })),
+      (t[20] = n),
+      (t[21] = a),
+      (t[22] = v))
+    : (v = t[22]);
+  let y;
+  t[23] === v
+    ? (y = t[24])
+    : ((y = (0, Z.jsx)(`span`, {
+        className: `hidden group-hover:inline group-focus:inline`,
+        children: v,
+      })),
+      (t[23] = v),
+      (t[24] = y));
+  let b;
+  t[25] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((b = (0, Z.jsx)(le, {
+        className: `icon-2xs hidden rotate-90 opacity-70 group-hover:block group-focus:block`,
+      })),
+      (t[25] = b))
+    : (b = t[25]);
+  let x;
+  return (
+    t[26] !== r ||
+    t[27] !== o ||
+    t[28] !== h ||
+    t[29] !== _ ||
+    t[30] !== y ||
+    t[31] !== l ||
+    t[32] !== d ||
+    t[33] !== f ||
+    t[34] !== m
+      ? ((x = (0, Z.jsxs)(R.button, {
+          type: `button`,
+          "aria-label": o,
+          "data-avatar-overlay-hit-region": `notification-scroll-control`,
+          animate: s,
+          exit: l,
+          initial: d,
+          transition: f,
+          className: p,
+          whileHover: m,
+          whileTap: h,
+          onClick: r,
+          children: [_, y, b],
+        })),
+        (t[26] = r),
+        (t[27] = o),
+        (t[28] = h),
+        (t[29] = _),
+        (t[30] = y),
+        (t[31] = l),
+        (t[32] = d),
+        (t[33] = f),
+        (t[34] = m),
+        (t[35] = x))
+      : (x = t[35]),
+    x
+  );
+}
+function vt(e, t) {
+  if (t <= Bt) return e.scrollHeight;
+  let n = Ft(e);
+  return n[Lt(n, It(e, n)) + Bt]?.offsetTop ?? e.scrollHeight;
+}
+function yt({
+  isReplying: e,
+  notification: t,
+  notificationIndex: n,
+  onDismissNotification: r,
+  onCloseReply: i,
+  onOpenReply: a,
+  onRunNotificationAction: o,
+  onSubmitQuestionOption: s,
+  onSubmitNotificationReply: c,
+  prefersReducedMotion: l,
+  replyInputRef: u,
+}) {
+  let d = ce(),
+    f = t.source === `local` && t.usesLiveConversationState !== !1 ? t.localConversationId : null,
+    p = he(te, f),
+    m = p == null ? null : Ne(p.items, d),
+    h = Fe(t),
+    _ = d.formatMessage(h.labelMessage),
+    v = m ?? t.body ?? d.formatMessage(h.fallbackBodyMessage),
+    y = t.waitingRequest,
+    b = y == null ? v : ze(y, d),
+    x = b.replace(/[.?!]+$/, ``),
+    ee = b === _ ? _ : `${_}. ${x}`,
+    S =
+      t.action == null
+        ? `${t.title}. ${ee}`
+        : `${t.title}. ${ee}. ${d.formatMessage(Q.openNotification)}`,
+    C = t.action != null,
+    ne = t.kind !== `activity` && r != null,
+    [w, re] = (0, X.useState)(!1),
+    [T, ie] = (0, X.useState)(!1),
+    [ae, oe] = (0, X.useState)(``),
+    [E, D] = (0, X.useState)(null),
+    [k, A] = (0, X.useState)(!1),
+    [j, M] = (0, X.useState)(0),
+    [N, P] = (0, X.useState)(!1),
+    F = (0, X.useRef)(w),
+    I = (0, X.useRef)(void 0),
+    L = y == null ? Ut : Wt,
+    se = (0, X.useCallback)((e) => {
+      if ((I.current?.(), (I.current = void 0), e == null)) return;
+      let t = () => {
+        let t = e.scrollHeight;
+        M((e) => (e === t ? e : t));
+        let n = Nt(e);
+        P((e) => {
+          let t = (F.current && e) || n;
+          return e === t ? e : t;
+        });
+      };
+      (t(), (I.current = Ke({ axis: `both`, target: e, onChange: t })));
+    }, []);
+  (0, X.useLayoutEffect)(() => {
+    F.current = w;
+  }, [w]);
+  let z = j > L + Kt || N,
+    B = z && w && !e,
+    V = t.controlTarget?.type === `app-server-conversation` && c != null,
+    H = ae.trim(),
+    U = l ? { duration: 0 } : { duration: k ? 0.2 : 0.28, ease: [0.16, 1, 0.3, 1] },
+    ue = async (e) => {
+      if ((e.preventDefault(), e.stopPropagation(), !(!V || H.length === 0 || T))) {
+        (ie(!0), D(null));
+        try {
+          (await c(t, H), oe(``), i());
+        } catch {
+          D(d.formatMessage(Q.notificationReplyError));
+        } finally {
+          ie(!1);
+        }
+      }
+    };
+  return (0, Z.jsxs)(R.div, {
+    animate: { opacity: 1, y: 0 },
+    initial: { opacity: 0, y: l ? 0 : 4 },
+    role: `listitem`,
+    className: `group no-drag relative w-full min-w-0 snap-start scroll-mt-2 text-left`,
+    "data-avatar-overlay-measure": `notification-tray-row`,
+    transition: l
+      ? { duration: 0 }
+      : { delay: Math.min(n, 3) * Ht, duration: 0.18, ease: `easeOut` },
+    onBlurCapture: (e) => {
+      let t = e.relatedTarget;
+      (t instanceof Node && e.currentTarget.contains(t)) || A(!1);
+    },
+    onFocusCapture: () => {
+      A(!0);
+    },
+    onPointerEnter: () => {
+      A(!0);
+    },
+    onPointerLeave: () => {
+      A(!1);
+    },
+    children: [
+      (0, Z.jsxs)(`div`, {
+        className: W(
+          `relative z-[1] overflow-hidden rounded-[18px] border border-token-border/60 bg-token-main-surface-primary shadow-[inset_0_1px_0_rgba(255,255,255,0.42),inset_0_-1px_0_rgba(0,0,0,0.08)] backdrop-blur-xl forced-colors:bg-[Canvas]`,
+          C &&
+            `transition-[background-color,border-color,box-shadow] duration-200 ease-[cubic-bezier(0.16,1,0.3,1)] hover:border-token-border/80 hover:bg-token-main-surface-primary hover:shadow-[inset_0_1px_0_rgba(255,255,255,0.52),inset_0_-1px_0_rgba(0,0,0,0.1)] motion-reduce:transition-none`,
+        ),
+        children: [
+          (0, Z.jsxs)(R.div, {
+            role: C ? `button` : void 0,
+            className: W(
+              `block w-full min-w-0 py-1.5 pr-3 text-left focus-visible:outline-token-focus focus-visible:outline focus-visible:outline-offset-[-2px]`,
+              ne ? `pl-5` : `pl-3`,
+              C ? `cursor-interaction` : `cursor-default`,
+            ),
+            tabIndex: C ? 0 : void 0,
+            transition: l ? { duration: 0 } : { duration: 0.12, ease: `easeOut` },
+            whileTap: C && !l ? { scale: 0.995 } : void 0,
+            "aria-label": C ? S : void 0,
+            onClick: () => {
+              C && o?.(t);
+            },
+            onKeyDown: (e) => {
+              !C || (e.key !== `Enter` && e.key !== ` `) || (e.preventDefault(), o?.(t));
+            },
+            children: [
+              (0, Z.jsx)(`span`, {
+                className: `flex min-w-0 items-center pr-7`,
+                children: (0, Z.jsx)(`span`, {
+                  className: W(
+                    `text-size-chat min-w-0 truncate leading-[17px]`,
+                    t.kind === `activity`
+                      ? `text-token-text-secondary`
+                      : `font-semibold text-token-foreground`,
+                  ),
+                  children: t.title,
+                }),
+              }),
+              (0, Z.jsx)(R.div, {
+                ref: se,
+                animate: { maxHeight: B ? Gt : L },
+                className: W(
+                  `text-size-chat-sm mt-0.5 overflow-hidden leading-4 text-token-foreground`,
+                  t.kind === `activity` && `hidden`,
+                  B ? `whitespace-pre-wrap` : y == null ? `line-clamp-2` : void 0,
+                ),
+                "data-avatar-overlay-measure-body": `true`,
+                initial: !1,
+                transition: l ? { duration: 0 } : { duration: 0.18, ease: `easeOut` },
+                children:
+                  y == null
+                    ? v
+                    : (0, Z.jsx)(bt, {
+                        isExpanded: B,
+                        localConversationId: f,
+                        request: y,
+                        onRunNotificationAction: (e) => {
+                          o?.(t, e);
+                        },
+                        onSubmitQuestionOption: (e) => {
+                          s?.(t, e);
+                        },
+                      }),
+              }),
+            ],
+          }),
+          (0, Z.jsx)(`span`, {
+            role: `img`,
+            "aria-label": y?.kind === `question` ? d.formatMessage(Q.questionStatusIcon) : _,
+            className: W(
+              `pointer-events-none absolute top-1 right-1 z-0 flex size-6 items-center justify-center opacity-100`,
+              z && k && `opacity-0 transition-opacity duration-150 motion-reduce:transition-none`,
+            ),
+            children:
+              y?.kind === `question` ? (0, Z.jsx)(ke, { className: h.iconClassName }) : Rt(h),
+          }),
+          z
+            ? (0, Z.jsx)(R.div, {
+                animate: { opacity: k ? 1 : 0, x: k ? 0 : 6 },
+                className: W(
+                  `absolute top-1 right-1 z-10`,
+                  k ? `pointer-events-auto` : `pointer-events-none`,
+                ),
+                "data-avatar-overlay-control": `expand`,
+                initial: !1,
+                transition: U,
+                children: (0, Z.jsx)(g, {
+                  align: `end`,
+                  side: `top`,
+                  tooltipContent: d.formatMessage(
+                    w ? Q.collapseNotificationTooltip : Q.expandNotificationTooltip,
+                  ),
+                  children: (0, Z.jsx)(O, {
+                    className: W(`size-6`, Jt),
+                    color: `ghost`,
+                    size: `icon`,
+                    "aria-expanded": w,
+                    "aria-label": d.formatMessage(
+                      w ? Q.collapseNotification : Q.expandNotification,
+                      { title: t.title },
+                    ),
+                    onClick: () => {
+                      re((e) => !e);
+                    },
+                    children: (0, Z.jsx)(R.span, {
+                      animate: { rotate: w ? 90 : 0 },
+                      transition: l ? { duration: 0 } : { duration: 0.12, ease: `easeOut` },
+                      children: (0, Z.jsx)(le, { className: `icon-xs` }),
+                    }),
+                  }),
+                }),
+              })
+            : null,
+          V && !e
+            ? (0, Z.jsx)(R.div, {
+                animate: { opacity: k ? 1 : 0, x: k ? 0 : 6 },
+                className: W(
+                  `no-drag absolute right-2 bottom-1 z-10`,
+                  k ? `pointer-events-auto` : `pointer-events-none`,
+                ),
+                "data-avatar-overlay-control": `reply`,
+                initial: !1,
+                transition: U,
+                children: (0, Z.jsx)(`div`, {
+                  className: `flex justify-end pb-1`,
+                  children: (0, Z.jsx)(O, {
+                    className: W(
+                      `h-5 px-2 text-xs leading-none text-token-foreground shadow-[0px_5px_10px_-7px_rgba(0,0,0,0.22)]`,
+                      Jt,
+                    ),
+                    color: `outline`,
+                    size: `default`,
+                    "aria-label": d.formatMessage(Q.replyNotification, { title: t.title }),
+                    onClick: (e) => {
+                      (e.stopPropagation(), D(null), oe(``), a(), A(!0));
+                    },
+                    onPointerDown: (e) => {
+                      e.stopPropagation();
+                    },
+                    children: d.formatMessage(Q.replyNotificationButton),
+                  }),
+                }),
+              })
+            : null,
+          e
+            ? (0, Z.jsxs)(R.form, {
+                className: `no-drag mx-3 mb-2 border-t border-token-border/60 pt-2`,
+                animate: { opacity: 1, y: 0 },
+                initial: { opacity: 0, y: l ? 0 : -2 },
+                transition: l ? { duration: 0 } : { duration: 0.16, ease: `easeOut` },
+                onClick: (e) => {
+                  e.stopPropagation();
+                },
+                onPointerDown: (e) => {
+                  e.stopPropagation();
+                },
+                onSubmit: (e) => {
+                  ue(e);
+                },
+                children: [
+                  (0, Z.jsxs)(`div`, {
+                    className: `flex min-w-0 items-center gap-1.5`,
+                    children: [
+                      (0, Z.jsx)(`input`, {
+                        ref: u,
+                        className: `text-size-chat-sm h-6 min-w-0 flex-1 rounded-md border border-token-border bg-token-main-surface-primary px-2 text-token-foreground outline-none placeholder:text-token-text-tertiary focus:border-token-focus-border`,
+                        "aria-label": d.formatMessage(Q.replyNotification, { title: t.title }),
+                        autoFocus: !0,
+                        placeholder: d.formatMessage(Q.notificationReplyPlaceholder),
+                        value: ae,
+                        onChange: (e) => {
+                          (oe(e.currentTarget.value), D(null));
+                        },
+                        onKeyDown: (e) => {
+                          e.key !== `Escape` || T || (e.stopPropagation(), i(), D(null));
+                        },
+                      }),
+                      (0, Z.jsx)(O, {
+                        className: `h-6 px-2 text-xs`,
+                        color: `primary`,
+                        size: `default`,
+                        type: `submit`,
+                        "aria-label": d.formatMessage(Q.sendNotificationReply, { title: t.title }),
+                        disabled: H.length === 0 || T,
+                        loading: T,
+                        children: d.formatMessage(Q.replyNotificationButton),
+                      }),
+                    ],
+                  }),
+                  E == null
+                    ? null
+                    : (0, Z.jsx)(`div`, {
+                        className: `mt-1 text-[11px] leading-4 text-token-error-foreground`,
+                        role: `alert`,
+                        children: E,
+                      }),
+                ],
+              })
+            : null,
+        ],
+      }),
+      ne && !e
+        ? (0, Z.jsx)(`div`, {
+            className: W(
+              `absolute -top-1 -left-1 z-20`,
+              k ? `pointer-events-auto opacity-100` : `pointer-events-none opacity-0`,
+            ),
+            "data-avatar-overlay-control": `dismiss`,
+            children: (0, Z.jsx)(g, {
+              align: `start`,
+              side: `top`,
+              tooltipContent: d.formatMessage(Q.dismissNotificationTooltip),
+              children: (0, Z.jsx)(We, {
+                ariaLabel: d.formatMessage(Q.dismissNotification, { title: t.title }),
+                onClick: () => {
+                  r?.(t);
+                },
+              }),
+            }),
+          })
+        : null,
+    ],
+  });
+}
+function bt(e) {
+  let t = (0, zt.c)(72),
+    {
+      isExpanded: n,
+      localConversationId: r,
+      onRunNotificationAction: i,
+      onSubmitQuestionOption: a,
+      request: o,
+    } = e,
+    s;
+  t[0] === i
+    ? (s = t[1])
+    : ((s = (e) => {
+        `questionOption` in e || i(e);
+      }),
+      (t[0] = i),
+      (t[1] = s));
+  let c = s;
+  switch (o.kind) {
+    case `question`: {
+      let e = n ? `break-words whitespace-pre-wrap` : `truncate`,
+        r;
+      t[2] === e ? (r = t[3]) : ((r = W(`min-w-0`, e)), (t[2] = e), (t[3] = r));
+      let s;
+      t[4] !== o.prompt || t[5] !== r
+        ? ((s = (0, Z.jsx)(`div`, { className: r, children: o.prompt })),
+          (t[4] = o.prompt),
+          (t[5] = r),
+          (t[6] = s))
+        : (s = t[6]);
+      let c;
+      t[7] === o.options ? (c = t[8]) : ((c = o.options.map(xt)), (t[7] = o.options), (t[8] = c));
+      let l;
+      t[9] !== i || t[10] !== a
+        ? ((l = (e) => {
+            if (`questionOption` in e) {
+              a?.(e.questionOption);
+              return;
+            }
+            i(e);
+          }),
+          (t[9] = i),
+          (t[10] = a),
+          (t[11] = l))
+        : (l = t[11]);
+      let u;
+      t[12] !== c || t[13] !== l
+        ? ((u = (0, Z.jsx)(Et, { actions: c, onRunNotificationAction: l })),
+          (t[12] = c),
+          (t[13] = l),
+          (t[14] = u))
+        : (u = t[14]);
+      let d;
+      return (
+        t[15] !== s || t[16] !== u
+          ? ((d = (0, Z.jsxs)(`div`, {
+              "data-avatar-overlay-compact-waiting-request": `question`,
+              children: [s, u],
+            })),
+            (t[15] = s),
+            (t[16] = u),
+            (t[17] = d))
+          : (d = t[17]),
+        d
+      );
+    }
+    case `patch`: {
+      let e;
+      t[18] !== n ||
+      t[19] !== o.additions ||
+      t[20] !== o.deletions ||
+      t[21] !== o.fileCount ||
+      t[22] !== o.files ||
+      t[23] !== o.summary
+        ? ((e = (0, Z.jsx)(wt, {
+            additions: o.additions,
+            deletions: o.deletions,
+            fileCount: o.fileCount,
+            files: o.files,
+            isExpanded: n,
+            summary: o.summary,
+          })),
+          (t[18] = n),
+          (t[19] = o.additions),
+          (t[20] = o.deletions),
+          (t[21] = o.fileCount),
+          (t[22] = o.files),
+          (t[23] = o.summary),
+          (t[24] = e))
+        : (e = t[24]);
+      let r;
+      t[25] !== o.actions || t[26] !== c
+        ? ((r = (0, Z.jsx)(Et, { actions: o.actions, onRunNotificationAction: c })),
+          (t[25] = o.actions),
+          (t[26] = c),
+          (t[27] = r))
+        : (r = t[27]);
+      let i;
+      return (
+        t[28] !== e || t[29] !== r
+          ? ((i = (0, Z.jsxs)(`div`, {
+              "data-avatar-overlay-compact-waiting-request": `patch`,
+              children: [e, r],
+            })),
+            (t[28] = e),
+            (t[29] = r),
+            (t[30] = i))
+          : (i = t[30]),
+        i
+      );
+    }
+    case `plan`: {
+      let e;
+      return (
+        t[31] !== n || t[32] !== r || t[33] !== o || t[34] !== c
+          ? ((e = (0, Z.jsx)(St, {
+              isExpanded: n,
+              localConversationId: r,
+              onRunNotificationAction: c,
+              request: o,
+            })),
+            (t[31] = n),
+            (t[32] = r),
+            (t[33] = o),
+            (t[34] = c),
+            (t[35] = e))
+          : (e = t[35]),
+        e
+      );
+    }
+    case `exec`: {
+      let e;
+      t[36] !== n || t[37] !== o.summary
+        ? ((e = (0, Z.jsx)(Ct, { isExpanded: n, text: o.summary })),
+          (t[36] = n),
+          (t[37] = o.summary),
+          (t[38] = e))
+        : (e = t[38]);
+      let r;
+      t[39] !== o.actions || t[40] !== c
+        ? ((r = (0, Z.jsx)(Et, { actions: o.actions, onRunNotificationAction: c })),
+          (t[39] = o.actions),
+          (t[40] = c),
+          (t[41] = r))
+        : (r = t[41]);
+      let i;
+      return (
+        t[42] !== e || t[43] !== r
+          ? ((i = (0, Z.jsxs)(`div`, {
+              "data-avatar-overlay-compact-waiting-request": `exec`,
+              children: [e, r],
+            })),
+            (t[42] = e),
+            (t[43] = r),
+            (t[44] = i))
+          : (i = t[44]),
+        i
+      );
+    }
+    case `network`: {
+      let e;
+      t[45] !== n || t[46] !== o.target
+        ? ((e = (0, Z.jsx)(Ct, { isExpanded: n, text: o.target })),
+          (t[45] = n),
+          (t[46] = o.target),
+          (t[47] = e))
+        : (e = t[47]);
+      let r;
+      t[48] !== o.actions || t[49] !== c
+        ? ((r = (0, Z.jsx)(Et, { actions: o.actions, onRunNotificationAction: c })),
+          (t[48] = o.actions),
+          (t[49] = c),
+          (t[50] = r))
+        : (r = t[50]);
+      let i;
+      return (
+        t[51] !== e || t[52] !== r
+          ? ((i = (0, Z.jsxs)(`div`, {
+              "data-avatar-overlay-compact-waiting-request": `network`,
+              children: [e, r],
+            })),
+            (t[51] = e),
+            (t[52] = r),
+            (t[53] = i))
+          : (i = t[53]),
+        i
+      );
+    }
+    case `permission`: {
+      let e;
+      t[54] !== n || t[55] !== o.target
+        ? ((e = (0, Z.jsx)(Ct, { isExpanded: n, text: o.target })),
+          (t[54] = n),
+          (t[55] = o.target),
+          (t[56] = e))
+        : (e = t[56]);
+      let r;
+      t[57] !== o.actions || t[58] !== c
+        ? ((r = (0, Z.jsx)(Et, { actions: o.actions, onRunNotificationAction: c })),
+          (t[57] = o.actions),
+          (t[58] = c),
+          (t[59] = r))
+        : (r = t[59]);
+      let i;
+      return (
+        t[60] !== e || t[61] !== r
+          ? ((i = (0, Z.jsxs)(`div`, {
+              "data-avatar-overlay-compact-waiting-request": `permission`,
+              children: [e, r],
+            })),
+            (t[60] = e),
+            (t[61] = r),
+            (t[62] = i))
+          : (i = t[62]),
+        i
+      );
+    }
+    case `tool`: {
+      let e = o.summary ?? o.target,
+        r;
+      t[63] !== n || t[64] !== e
+        ? ((r = (0, Z.jsx)(Ct, { isExpanded: n, text: e })), (t[63] = n), (t[64] = e), (t[65] = r))
+        : (r = t[65]);
+      let i;
+      t[66] !== o.actions || t[67] !== c
+        ? ((i = (0, Z.jsx)(Et, { actions: o.actions, onRunNotificationAction: c })),
+          (t[66] = o.actions),
+          (t[67] = c),
+          (t[68] = i))
+        : (i = t[68]);
+      let a;
+      return (
+        t[69] !== r || t[70] !== i
+          ? ((a = (0, Z.jsxs)(`div`, {
+              "data-avatar-overlay-compact-waiting-request": `tool`,
+              children: [r, i],
+            })),
+            (t[69] = r),
+            (t[70] = i),
+            (t[71] = a))
+          : (a = t[71]),
+        a
+      );
+    }
+  }
+}
+function xt(e, t) {
+  return { label: e.label, tone: t === 0 ? `primary` : `secondary`, questionOption: e };
+}
+function St(e) {
+  let t = (0, zt.c)(20),
+    { isExpanded: n, localConversationId: r, onRunNotificationAction: i, request: a } = e,
+    { getModeForSelection: o } = K(r),
+    s,
+    c,
+    l,
+    u;
+  if (t[0] !== o || t[1] !== n || t[2] !== a.actions || t[3] !== a.kind || t[4] !== a.summary) {
+    let e = o(`default`);
+    ((l = a.kind),
+      t[9] !== n || t[10] !== a.summary
+        ? ((u = (0, Z.jsx)(Ct, { isExpanded: n, text: a.summary })),
+          (t[9] = n),
+          (t[10] = a.summary),
+          (t[11] = u))
+        : (u = t[11]),
+      (s = Et),
+      (c = a.actions.map((t) =>
+        t.intent === `plan-start` ? { ...t, planStartCollaborationMode: e } : t,
+      )),
+      (t[0] = o),
+      (t[1] = n),
+      (t[2] = a.actions),
+      (t[3] = a.kind),
+      (t[4] = a.summary),
+      (t[5] = s),
+      (t[6] = c),
+      (t[7] = l),
+      (t[8] = u));
+  } else ((s = t[5]), (c = t[6]), (l = t[7]), (u = t[8]));
+  let d;
+  t[12] !== s || t[13] !== i || t[14] !== c
+    ? ((d = (0, Z.jsx)(s, { actions: c, onRunNotificationAction: i })),
+      (t[12] = s),
+      (t[13] = i),
+      (t[14] = c),
+      (t[15] = d))
+    : (d = t[15]);
+  let f;
+  return (
+    t[16] !== l || t[17] !== u || t[18] !== d
+      ? ((f = (0, Z.jsxs)(`div`, {
+          "data-avatar-overlay-compact-waiting-request": l,
+          children: [u, d],
+        })),
+        (t[16] = l),
+        (t[17] = u),
+        (t[18] = d),
+        (t[19] = f))
+      : (f = t[19]),
+    f
+  );
+}
+function Ct(e) {
+  let t = (0, zt.c)(5),
+    { isExpanded: n, text: r } = e,
+    i = n ? `break-words whitespace-pre-wrap` : `truncate whitespace-nowrap`,
+    a;
+  t[0] === i
+    ? (a = t[1])
+    : ((a = W(`min-w-0 text-token-text-secondary`, i)), (t[0] = i), (t[1] = a));
+  let o;
+  return (
+    t[2] !== a || t[3] !== r
+      ? ((o = (0, Z.jsx)(`div`, {
+          className: a,
+          "data-avatar-overlay-compact-waiting-summary-text": `true`,
+          children: r,
+        })),
+        (t[2] = a),
+        (t[3] = r),
+        (t[4] = o))
+      : (o = t[4]),
+    o
+  );
+}
+function wt(e) {
+  let t = (0, zt.c)(40),
+    { additions: n, deletions: r, fileCount: i, files: a, isExpanded: o, summary: s } = e,
+    c = ce(),
+    l;
+  t[0] !== i || t[1] !== c
+    ? ((l = c.formatMessage(Q.compactPatchFileCount, { count: i })),
+      (t[0] = i),
+      (t[1] = c),
+      (t[2] = l))
+    : (l = t[2]);
+  let u = l,
+    d;
+  t[3] !== n || t[4] !== c
+    ? ((d = n > 0 ? c.formatMessage(Q.compactPatchAdditions, { count: n }) : null),
+      (t[3] = n),
+      (t[4] = c),
+      (t[5] = d))
+    : (d = t[5]);
+  let f = d,
+    p;
+  t[6] !== r || t[7] !== c
+    ? ((p = r > 0 ? c.formatMessage(Q.compactPatchDeletions, { count: r }) : null),
+      (t[6] = r),
+      (t[7] = c),
+      (t[8] = p))
+    : (p = t[8]);
+  let m = p;
+  if (!o) {
+    let e;
+    t[9] === u ? (e = t[10]) : ((e = (0, Z.jsx)(`span`, { children: u })), (t[9] = u), (t[10] = e));
+    let n;
+    t[11] === f
+      ? (n = t[12])
+      : ((n =
+          f == null
+            ? null
+            : (0, Z.jsx)(`span`, { className: `ml-1.5 text-token-charts-green`, children: f })),
+        (t[11] = f),
+        (t[12] = n));
+    let r;
+    t[13] === m
+      ? (r = t[14])
+      : ((r =
+          m == null
+            ? null
+            : (0, Z.jsx)(`span`, { className: `ml-1.5 text-token-error-foreground`, children: m })),
+        (t[13] = m),
+        (t[14] = r));
+    let i;
+    t[15] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((i = (0, Z.jsx)(De, { className: `mx-1.5 text-token-text-tertiary` })), (t[15] = i))
+      : (i = t[15]);
+    let a;
+    t[16] === s
+      ? (a = t[17])
+      : ((a = (0, Z.jsx)(`span`, { children: s })), (t[16] = s), (t[17] = a));
+    let o;
+    return (
+      t[18] !== e || t[19] !== n || t[20] !== r || t[21] !== a
+        ? ((o = (0, Z.jsxs)(`div`, {
+            className: `min-w-0 truncate whitespace-nowrap text-token-text-secondary`,
+            "data-avatar-overlay-compact-waiting-summary-text": `true`,
+            children: [e, n, r, i, a],
+          })),
+          (t[18] = e),
+          (t[19] = n),
+          (t[20] = r),
+          (t[21] = a),
+          (t[22] = o))
+        : (o = t[22]),
+      o
+    );
+  }
+  let h;
+  t[23] === u
+    ? (h = t[24])
+    : ((h = (0, Z.jsx)(`span`, {
+        className: `text-[11px] leading-4 text-token-text-secondary`,
+        children: u,
+      })),
+      (t[23] = u),
+      (t[24] = h));
+  let g;
+  t[25] === f
+    ? (g = t[26])
+    : ((g =
+        f == null
+          ? null
+          : (0, Z.jsx)(`span`, {
+              className: `text-[11px] leading-4 text-token-charts-green`,
+              children: f,
+            })),
+      (t[25] = f),
+      (t[26] = g));
+  let _;
+  t[27] === m
+    ? (_ = t[28])
+    : ((_ =
+        m == null
+          ? null
+          : (0, Z.jsx)(`span`, {
+              className: `text-[11px] leading-4 text-token-error-foreground`,
+              children: m,
+            })),
+      (t[27] = m),
+      (t[28] = _));
+  let v;
+  t[29] !== h || t[30] !== g || t[31] !== _
+    ? ((v = (0, Z.jsxs)(`div`, {
+        className: `mt-0.5 flex min-w-0 flex-wrap items-center gap-x-1.5 gap-y-0.5`,
+        children: [h, g, _],
+      })),
+      (t[29] = h),
+      (t[30] = g),
+      (t[31] = _),
+      (t[32] = v))
+    : (v = t[32]);
+  let y;
+  t[33] === a ? (y = t[34]) : ((y = a.map(Tt)), (t[33] = a), (t[34] = y));
+  let b;
+  t[35] === y
+    ? (b = t[36])
+    : ((b = (0, Z.jsx)(`div`, {
+        className: `mt-0.5 min-w-0 space-y-0.5 text-token-text-secondary`,
+        children: y,
+      })),
+      (t[35] = y),
+      (t[36] = b));
+  let x;
+  return (
+    t[37] !== v || t[38] !== b
+      ? ((x = (0, Z.jsxs)(`div`, {
+          "data-avatar-overlay-compact-waiting-summary-text": `true`,
+          children: [v, b],
+        })),
+        (t[37] = v),
+        (t[38] = b),
+        (t[39] = x))
+      : (x = t[39]),
+    x
+  );
+}
+function Tt(e) {
+  return (0, Z.jsx)(`div`, { className: `leading-4 break-words`, children: e }, e);
+}
+function Et(e) {
+  let t = (0, zt.c)(7),
+    { actions: n, onRunNotificationAction: r } = e,
+    i;
+  if (t[0] !== n || t[1] !== r) {
+    let e;
+    (t[3] === r
+      ? (e = t[4])
+      : ((e = (e) =>
+          (0, Z.jsx)(
+            O,
+            {
+              className: `max-w-full min-w-0`,
+              color: Ot(e.tone),
+              size: `toolbar`,
+              "aria-label": e.ariaLabel ?? e.label,
+              title: e.ariaLabel ?? e.label,
+              onClick: (t) => {
+                (t.stopPropagation(), r(e));
+              },
+              onPointerDown: Dt,
+              children: (0, Z.jsx)(`span`, { className: `truncate`, children: e.label }),
+            },
+            e.ariaLabel ?? e.label,
+          )),
+        (t[3] = r),
+        (t[4] = e)),
+      (i = n.map(e)),
+      (t[0] = n),
+      (t[1] = r),
+      (t[2] = i));
+  } else i = t[2];
+  let a;
+  return (
+    t[5] === i
+      ? (a = t[6])
+      : ((a = (0, Z.jsx)(`div`, {
+          className: `no-drag mt-1.5 flex min-w-0 flex-wrap items-center gap-1.5 overflow-visible pb-px`,
+          children: i,
+        })),
+        (t[5] = i),
+        (t[6] = a)),
+    a
+  );
+}
+function Dt(e) {
+  e.stopPropagation();
+}
+function Ot(e) {
+  switch (e) {
+    case `primary`:
+      return `secondary`;
+    case `danger`:
+      return `danger`;
+    case `secondary`:
+      return `secondary`;
+  }
+}
+function kt(e, t = e.scrollTop) {
+  if (!Mt(e))
+    return {
+      hasScrollableContent: !1,
+      hasLatestNotificationsAbove: !1,
+      hiddenOlderNotificationCount: 0,
+    };
+  if (jt(e, t))
+    return {
+      hasScrollableContent: !0,
+      hasLatestNotificationsAbove: !0,
+      hiddenOlderNotificationCount: 0,
+    };
+  let n = Ft(e),
+    r = It(e, n, t);
+  return {
+    hasScrollableContent: !0,
+    hasLatestNotificationsAbove: t > Vt,
+    hiddenOlderNotificationCount: Pt(e, n, r),
+  };
+}
+function At(e, t) {
+  return (
+    e.hasScrollableContent === t.hasScrollableContent &&
+    e.hasLatestNotificationsAbove === t.hasLatestNotificationsAbove &&
+    e.hiddenOlderNotificationCount === t.hiddenOlderNotificationCount
+  );
+}
+function jt(e, t = e.scrollTop) {
+  let n = Math.max(0, e.scrollHeight - e.clientHeight);
+  return Mt(e) && t >= n - Vt;
+}
+function Mt(e) {
+  return e.scrollHeight > e.clientHeight + Vt;
+}
+function Nt(e) {
+  return [e, ...Array.from(e.querySelectorAll(`*`))].some(
+    (e) => e.clientWidth > 0 && e.scrollWidth > e.clientWidth + Kt,
+  );
+}
+function Pt(e, t, n) {
+  let r = n + e.clientHeight - Vt;
+  return t.filter((e) => e.offsetTop + e.offsetHeight > r).length;
+}
+function Ft(e) {
+  return Array.from(e.children).filter((e) => e instanceof HTMLElement);
+}
+function It(e, t, n = e.scrollTop) {
+  return n + (t[0]?.offsetTop ?? 0) + Vt;
+}
+function Lt(e, t) {
+  let n = 0;
+  for (let r = 0; r < e.length; r += 1) e[r].offsetTop <= t && (n = r);
+  return n;
+}
+function Rt(e) {
+  switch (e.iconType) {
+    case `check-circle`:
+      return (0, Z.jsx)(B, { className: e.iconClassName });
+    case `clock`:
+      return (0, Z.jsx)(Ce, { className: e.iconClassName });
+    case `spinner`:
+      return (0, Z.jsx)(L, { className: e.iconClassName });
+    case `warning`:
+      return (0, Z.jsx)(we, { className: e.iconClassName });
+  }
+}
+var zt,
+  X,
+  Z,
+  Q,
+  Bt,
+  Vt,
+  Ht,
+  Ut,
+  Wt,
+  Gt,
+  Kt,
+  qt,
+  Jt,
+  Yt = e(() => {
+    ((zt = _()),
+      b(),
+      z(),
+      ie(),
+      (X = t(ve(), 1)),
+      s(),
+      _e(),
+      Te(),
+      Oe(),
+      V(),
+      be(),
+      j(),
+      D(),
+      G(),
+      ue(),
+      ae(),
+      i(),
+      ye(),
+      Y(),
+      q(),
+      U(),
+      qe(),
+      Re(),
+      ut(),
+      Ve(),
+      Ae(),
+      Be(),
+      Pe(),
+      Ie(),
+      (Z = I()),
+      (Q = ee({
+        mascotLabel: {
+          id: `petOverlay.mascotLabel`,
+          defaultMessage: `{petName} pet`,
+          description: `Accessible label for the floating Codex pet`,
+        },
+        openNotification: {
+          id: `avatarOverlay.openNotification`,
+          defaultMessage: `Open notification`,
+          description: `Accessible label for an actionable row in the floating avatar notification tray`,
+        },
+        dismissNotification: {
+          id: `avatarOverlay.dismissNotification`,
+          defaultMessage: `Dismiss {title}`,
+          description: `Accessible label for dismissing a notification in the floating avatar notification tray`,
+        },
+        dismissNotificationTooltip: {
+          id: `avatarOverlay.dismissNotificationTooltip`,
+          defaultMessage: `Dismiss`,
+          description: `Tooltip for the icon button that dismisses a floating avatar notification`,
+        },
+        replyNotification: {
+          id: `avatarOverlay.replyNotification`,
+          defaultMessage: `Reply to {title}`,
+          description: `Accessible label for replying to a floating avatar notification`,
+        },
+        replyNotificationButton: {
+          id: `avatarOverlay.replyNotificationButton`,
+          defaultMessage: `Reply`,
+          description: `Compact button label for replying to a floating avatar notification`,
+        },
+        sendNotificationReply: {
+          id: `avatarOverlay.sendNotificationReply`,
+          defaultMessage: `Send reply to {title}`,
+          description: `Accessible label for submitting a floating avatar notification reply`,
+        },
+        notificationReplyPlaceholder: {
+          id: `avatarOverlay.notificationReplyPlaceholder`,
+          defaultMessage: `Reply`,
+          description: `Placeholder for the one-line floating avatar notification reply input`,
+        },
+        notificationReplyError: {
+          id: `avatarOverlay.notificationReplyError`,
+          defaultMessage: `Unable to send reply`,
+          description: `Compact error shown when a floating avatar notification reply fails`,
+        },
+        expandNotification: {
+          id: `avatarOverlay.expandNotification`,
+          defaultMessage: `Expand {title}`,
+          description: `Accessible label for expanding a floating avatar notification row`,
+        },
+        collapseNotification: {
+          id: `avatarOverlay.collapseNotification`,
+          defaultMessage: `Collapse {title}`,
+          description: `Accessible label for collapsing a floating avatar notification row`,
+        },
+        expandNotificationTooltip: {
+          id: `avatarOverlay.expandNotificationTooltip`,
+          defaultMessage: `Expand`,
+          description: `Tooltip for the icon button that expands a floating avatar notification`,
+        },
+        collapseNotificationTooltip: {
+          id: `avatarOverlay.collapseNotificationTooltip`,
+          defaultMessage: `Collapse`,
+          description: `Tooltip for the icon button that collapses a floating avatar notification`,
+        },
+        collapseNotificationTray: {
+          id: `avatarOverlay.collapseNotificationTray`,
+          defaultMessage: `Collapse activity`,
+          description: `Accessible label and tooltip for the button that collapses the floating avatar activity tray`,
+        },
+        resizeMascot: {
+          id: `avatarOverlay.resizeMascot`,
+          defaultMessage: `Resize pet`,
+          description: `Accessible label for the handle that resizes the floating Codex pet`,
+        },
+        notificationList: {
+          id: `avatarOverlay.notificationList`,
+          defaultMessage: `Activity notifications`,
+          description: `Accessible label for the list of floating avatar activity notifications`,
+        },
+        latestNotifications: {
+          id: `avatarOverlay.latestNotifications`,
+          defaultMessage: `Latest`,
+          description: `Label for the button that scrolls the floating avatar activity list back to the newest notifications`,
+        },
+        showLatestNotifications: {
+          id: `avatarOverlay.showLatestNotifications`,
+          defaultMessage: `Show latest activity`,
+          description: `Accessible label for the button that scrolls the floating avatar activity list back to the newest notifications`,
+        },
+        showOlderNotifications: {
+          id: `avatarOverlay.showOlderNotifications`,
+          defaultMessage: `Show {count, plural, one {# older activity item} other {# older activity items}}`,
+          description: `Accessible label for the button that scrolls the floating avatar activity list toward older notifications`,
+        },
+        olderNotificationCount: {
+          id: `avatarOverlay.olderNotificationCount`,
+          defaultMessage: `{count, plural, one {# more} other {# more}}`,
+          description: `Label for the button that shows there are more floating avatar activity notifications below`,
+        },
+        compactOlderNotificationCount: {
+          id: `avatarOverlay.compactOlderNotificationCount`,
+          defaultMessage: `+{count}`,
+          description: `Compact label for the edge button that shows hidden floating avatar activity notifications`,
+        },
+        questionStatusIcon: {
+          id: `avatarOverlay.questionStatusIcon`,
+          defaultMessage: `Question`,
+          description: `Accessible label for a floating avatar notification waiting on a question answer`,
+        },
+        compactPatchFileCount: {
+          id: `avatarOverlay.compactPatchFileCount`,
+          defaultMessage: `{count, plural, one {# file} other {# files}}`,
+          description: `Compact file count for a patch request in the floating avatar notification tray`,
+        },
+        compactPatchAdditions: {
+          id: `avatarOverlay.compactPatchAdditions`,
+          defaultMessage: `+{count}`,
+          description: `Compact additions count for a patch request in the floating avatar notification tray`,
+        },
+        compactPatchDeletions: {
+          id: `avatarOverlay.compactPatchDeletions`,
+          defaultMessage: `-{count}`,
+          description: `Compact deletions count for a patch request in the floating avatar notification tray`,
+        },
+      })),
+      (Bt = 2),
+      (Vt = 2),
+      (Ht = 0.035),
+      (Ut = 32),
+      (Wt = 84),
+      (Gt = 512),
+      (Kt = 1),
+      (qt = `group no-drag absolute left-1/2 z-10 flex h-5 cursor-interaction items-center justify-center gap-0.5 rounded-full border border-token-border bg-token-main-surface-primary px-2 text-[10px] leading-none font-medium text-token-text-secondary shadow-[0px_5px_10px_-7px_rgba(0,0,0,0.22)] backdrop-blur hover:text-token-foreground hover:shadow-[0px_7px_14px_-9px_rgba(0,0,0,0.26)] focus-visible:ring-1 focus-visible:ring-token-focus-border focus-visible:outline-none forced-colors:bg-[Canvas]`),
+      (Jt = `!bg-token-main-surface-primary enabled:hover:!bg-[color-mix(in_srgb,var(--color-token-main-surface-primary)_94%,var(--color-token-foreground))]`));
+  });
+function Xt() {
+  let e = (0, dn.c)(10),
+    { selectedAvatar: t, selectedAvatarId: n } = st(),
+    r = t == null,
+    i,
+    a;
+  if (
+    (e[0] === r
+      ? ((i = e[1]), (a = e[2]))
+      : ((i = () => {
+          r &&
+            u.dispatchMessage(`avatar-overlay-pointer-interaction-changed`, { isInteractive: !1 });
+        }),
+        (a = [r]),
+        (e[0] = r),
+        (e[1] = i),
+        (e[2] = a)),
+    (0, $.useEffect)(i, a),
+    t == null)
+  )
+    return null;
+  let o;
+  e[3] !== t || e[4] !== n ? ((o = en(t, n)), (e[3] = t), (e[4] = n), (e[5] = o)) : (o = e[5]);
+  let s;
+  return (
+    e[6] !== t || e[7] !== n || e[8] !== o
+      ? ((s = (0, fn.jsx)(Zt, { selectedAvatar: t, selectedAvatarId: n }, o)),
+        (e[6] = t),
+        (e[7] = n),
+        (e[8] = o),
+        (e[9] = s))
+      : (s = e[9]),
+    s
+  );
+}
+function Zt({ selectedAvatar: e, selectedAvatarId: t }) {
+  let i = y(l),
+    o = ce(),
+    s = h(`451951815`),
+    c = a(re),
+    f = a(tt),
+    p = hn,
+    g = p.phase !== `inactive` && !0;
+  he(te, void 0);
+  let { data: _ } = d({ enabled: g, hostId: void 0 }),
+    v = g,
+    [b, x] = (0, $.useState)(En),
+    [ee, w] = (0, $.useState)(null),
+    [T, ie] = (0, $.useState)(!0),
+    [ae, oe] = (0, $.useState)(!1),
+    [D, O] = (0, $.useState)(!1),
+    [k, j] = (0, $.useState)(!1),
+    [P, F] = (0, $.useState)(null),
+    { mascotWidthPx: I, setMascotWidthPx: L } = Ue(),
+    [R, se] = (0, $.useState)(() => new Map()),
+    [z, B] = (0, $.useState)(() => Date.now()),
+    [V] = (0, $.useState)(() => $t(e, t)),
+    { data: H = [], refetch: U } = C(),
+    { data: le = [], refetch: ue } = pe({ taskFilter: `current`, limit: 20 }),
+    W = Ge({
+      includeCompactWaitingRequests: s,
+      intl: o,
+      localConversations: H,
+      excludedConversationId: null,
+      remoteTasks: le,
+    }),
+    ge = V == null ? null : lt({ intl: o, petName: V.petName, startedAtMs: V.startedAtMs }),
+    _e = [],
+    { nextNotificationExpiresAtMs: ve, notifications: G } = at({
+      dismissedNotificationTurnKeys: R,
+      extraNotifications: g ? [...[], ..._e] : ge == null ? [] : [ge],
+      nowMs: z,
+      sessions: g ? [] : W,
+    }),
+    ye = ct(G, o),
+    K = W.some((e) => e.source !== `cloud` && e.status === `running`),
+    q = W.some((e) => e.source === `cloud` && e.status === `running`),
+    be = (0, $.useRef)(null),
+    J = (0, $.useRef)(null),
+    Se = (0, $.useRef)(null),
+    Ce = (0, $.useRef)(null),
+    we = (0, $.useRef)(null),
+    Te = (0, $.useRef)(null),
+    Ee = (0, $.useRef)(null),
+    De = (0, $.useRef)(null),
+    Oe = (0, $.useRef)(!1),
+    Y = (0, $.useCallback)(
+      (t, n, r, i = T) => {
+        c.logProductEvent(
+          de,
+          Ye({
+            action: t,
+            hasRunningCloudSession: q,
+            hasRunningLocalSession: K,
+            isNotificationTrayOpen: i,
+            notification: r,
+            notificationCount: G.length,
+            selectedAvatar: e,
+            source: n,
+          }),
+        );
+      },
+      [K, q, T, G.length, c, e],
+    );
+  ((0, $.useEffect)(() => {
+    if (V == null) return;
+    let e = n(mn, []);
+    e.includes(V.avatarId) || m(mn, [...e, V.avatarId]);
+  }, [V]),
+    (0, $.useEffect)(() => {
+      Oe.current ||
+        (c !== A &&
+          ((Oe.current = !0),
+          Y(E.CODEX_AVATAR_OVERLAY_ACTION_OPENED, M.CODEX_AVATAR_OVERLAY_SOURCE_UNSPECIFIED)));
+    }, [c, Y]),
+    Qe({
+      interactiveRegionRef: Ee,
+      isPaused: () => be.current != null || J.current != null,
+      onInteractiveChange: (e) => {
+        u.dispatchMessage(`avatar-overlay-pointer-interaction-changed`, { isInteractive: e });
+      },
+      regionElementSelectors: gn,
+    }));
+  let ke = (0, $.useCallback)(() => {
+      if (J.current != null || we.current != null) return;
+      let e = nn(Ee.current);
+      if (e == null) return;
+      let t = { ...e, isTrayVisible: (T && G.length > 0) || p.caption != null };
+      cn(De.current, t) ||
+        ((De.current = t),
+        u.dispatchMessage(`avatar-overlay-element-size-changed`, {
+          isTrayVisible: t.isTrayVisible,
+          mascot: t.mascot,
+          tray: t.tray,
+        }));
+    }, [T, G.length, p.caption]),
+    Ae = (0, $.useCallback)(() => {
+      Te.current != null && (window.clearTimeout(Te.current), (Te.current = null));
+    }, []),
+    Me = (0, $.useCallback)(() => {
+      (Se.current != null && (window.cancelAnimationFrame(Se.current), (Se.current = null)),
+        (Ce.current = null));
+    }, []),
+    Ne = (0, $.useCallback)((e) => {
+      ((Ce.current = e),
+        (Se.current ??= window.requestAnimationFrame(() => {
+          Se.current = null;
+          let e = Ce.current;
+          ((Ce.current = null),
+            !(e == null || J.current == null) &&
+              u.dispatchMessage(`avatar-overlay-mascot-resize-move`, { width: e }));
+        })));
+    }, []),
+    Pe = (0, $.useCallback)(
+      (e) => {
+        ((we.current = e),
+          Ae(),
+          (Te.current = window.setTimeout(() => {
+            ((Te.current = null), (we.current = null), F(null), ke());
+          }, 100)));
+      },
+      [Ae, ke],
+    ),
+    Fe = (0, $.useCallback)(
+      () => an(Ee.current?.querySelector(_n) ?? null)?.width ?? I ?? 112,
+      [I],
+    ),
+    Ie = (0, $.useCallback)((e, t) => {
+      let n = J.current;
+      n == null ||
+        n.pointerId !== e ||
+        ((J.current = null), O(!1), t?.hasPointerCapture?.(e) && t.releasePointerCapture?.(e));
+    }, []),
+    Le = (0, $.useCallback)(
+      (e, t) => {
+        let n = J.current;
+        if (n == null || n.pointerId !== e) return;
+        let r = t == null ? n.currentWidthPx : Qt(n, t);
+        ((n.currentWidthPx = r),
+          Me(),
+          F(r),
+          L(r),
+          Pe(r),
+          u.dispatchMessage(`avatar-overlay-mascot-resize-end`, { width: r }));
+      },
+      [Me, L, Pe],
+    ),
+    Re = (0, $.useCallback)(
+      (e, { releaseSample: t, shouldPreserveOrbMomentum: n = !1, shouldOpenMainWindow: r }) => {
+        let i = be.current;
+        if (i == null || i.pointerId !== e) return;
+        ((be.current = null), oe(!1), w(null));
+        let { hasMoved: a, releaseSample: o, velocity: s } = rt(i, t, n && i.usesOrbPhysics);
+        if (
+          (Ee.current?.hasPointerCapture?.(e) && Ee.current.releasePointerCapture?.(e),
+          a &&
+            !i.hasMoved &&
+            o != null &&
+            u.dispatchMessage(`avatar-overlay-drag-move`, {
+              pointerScreenX: o.screenX,
+              pointerScreenY: o.screenY,
+            }),
+          r &&
+            i.startedOnMascot &&
+            !a &&
+            (Y(E.CODEX_AVATAR_OVERLAY_ACTION_MASCOT_CLICKED, M.CODEX_AVATAR_OVERLAY_SOURCE_MASCOT),
+            u.dispatchMessage(`open-current-main-window`, {})),
+          u.dispatchMessage(`avatar-overlay-drag-end`, {
+            pointerScreenX: o?.screenX ?? i.screenX,
+            pointerScreenY: o?.screenY ?? i.screenY,
+          }),
+          a &&
+            Y(E.CODEX_AVATAR_OVERLAY_ACTION_DRAG_COMPLETED, M.CODEX_AVATAR_OVERLAY_SOURCE_MASCOT),
+          s != null)
+        ) {
+          let e = i.usesOrbPhysics ? 3 : 1;
+          u.dispatchMessage(`avatar-overlay-drag-release`, {
+            shouldBounce: i.usesOrbPhysics,
+            velocityX: s.x * e,
+            velocityY: s.y * e,
+          });
+        }
+      },
+      [g, void 0, null, Y],
+    ),
+    ze = (e) => {
+      e.button !== 0 ||
+        !(e.target instanceof Element) ||
+        e.target.closest(`.no-drag`) != null ||
+        (e.preventDefault(),
+        e.currentTarget.setPointerCapture?.(e.pointerId),
+        (be.current = {
+          startedOnMascot: e.target.closest(`[data-avatar-mascot="true"]`) != null,
+          hasMoved: !1,
+          pointerId: e.pointerId,
+          samples: [ot(e)],
+          screenX: e.screenX,
+          screenY: e.screenY,
+          usesOrbPhysics: v,
+        }),
+        u.dispatchMessage(`avatar-overlay-drag-start`, {
+          pointerScreenX: e.screenX,
+          pointerScreenY: e.screenY,
+          pointerWindowX: e.clientX,
+          pointerWindowY: e.clientY,
+          usesOrbPhysics: v,
+        }),
+        oe(!0),
+        w(null));
+    },
+    Be = (e) => {
+      let t = be.current;
+      if (t == null || t.pointerId !== e.pointerId) return;
+      let n = ot(e);
+      t.samples = ft([...t.samples, n]);
+      let r = n.screenX - t.screenX,
+        i = n.screenY - t.screenY;
+      (Math.abs(r) < 4 && Math.abs(i) < 4) ||
+        ((t.hasMoved = !0),
+        (t.screenX = n.screenX),
+        (t.screenY = n.screenY),
+        w((e) => tn({ currentDragState: e, deltaX: r })),
+        u.dispatchMessage(`avatar-overlay-drag-move`, {
+          pointerScreenX: n.screenX,
+          pointerScreenY: n.screenY,
+        }));
+    },
+    Ve = (e) => {
+      Re(e.pointerId, { releaseSample: ot(e), shouldOpenMainWindow: !0 });
+    },
+    We = (e) => {
+      Re(e.pointerId, { shouldPreserveOrbMomentum: !0, shouldOpenMainWindow: !1 });
+    },
+    Ke = (e) => {
+      Re(e.pointerId, { shouldPreserveOrbMomentum: !0, shouldOpenMainWindow: !1 });
+    },
+    qe = (e) => {
+      if (e.button !== 0) return;
+      (e.preventDefault(), e.stopPropagation(), e.currentTarget.setPointerCapture?.(e.pointerId));
+      let t = Fe();
+      (Ae(),
+        Me(),
+        (we.current = null),
+        (J.current = {
+          currentWidthPx: t,
+          pointerId: e.pointerId,
+          startScreenX: e.screenX,
+          startWidthPx: t,
+        }),
+        F(t),
+        O(!0),
+        u.dispatchMessage(`avatar-overlay-mascot-resize-start`, { width: t }));
+    },
+    Je = (e) => {
+      let t = J.current;
+      if (t == null || t.pointerId !== e.pointerId) return;
+      (e.preventDefault(), e.stopPropagation());
+      let n = Qt(t, e.screenX);
+      ((t.currentWidthPx = n), F(n), Ne(n));
+    },
+    Xe = (e) => {
+      (Le(e.pointerId, e.screenX), Ie(e.pointerId, e.currentTarget));
+    },
+    Ze = (e) => {
+      (e.stopPropagation(), Le(e.pointerId), Ie(e.pointerId, e.currentTarget));
+    },
+    $e = (e) => {
+      (Le(e.pointerId), Ie(e.pointerId));
+    },
+    et = (e, t) => {
+      let n = e.waitingRequest;
+      if (e.localConversationId != null && t != null) {
+        let r = e.localConversationId;
+        switch (t.intent) {
+          case `command-approval`:
+            if (t.commandDecision != null && (n?.kind === `exec` || n?.kind === `network`)) {
+              S(`reply-with-command-execution-approval-decision`, {
+                conversationId: r,
+                requestId: n.requestId,
+                decision: t.commandDecision,
+              }).then(() => {
+                U();
+              });
+              return;
+            }
+            break;
+          case `file-approval`:
+            if (t.fileDecision != null && n?.kind === `patch`) {
+              S(`reply-with-file-change-approval-decision`, {
+                conversationId: r,
+                requestId: n.requestId,
+                decision: t.fileDecision,
+              }).then(() => {
+                U();
+              });
+              return;
+            }
+            break;
+          case `permission-response`:
+            if (t.permissionResponse != null && n?.kind === `permission`) {
+              S(`reply-with-permissions-request-approval-response`, {
+                conversationId: r,
+                requestId: n.requestId,
+                response: t.permissionResponse,
+              }).then(() => {
+                U();
+              });
+              return;
+            }
+            break;
+          case `mcp-elicitation`:
+            if (t.mcpElicitationAction != null && n?.kind === `tool`) {
+              S(`reply-with-mcp-server-elicitation-response`, {
+                conversationId: r,
+                requestId: n.requestId,
+                response: N(t.mcpElicitationAction),
+              }).then(() => {
+                U();
+              });
+              return;
+            }
+            break;
+          case `plan-start`:
+            if (n?.kind === `plan` && t.planStartCollaborationMode != null) {
+              S(`update-thread-settings-for-next-turn`, {
+                conversationId: r,
+                threadSettings: { collaborationMode: t.planStartCollaborationMode },
+              })
+                .then(() =>
+                  S(`remove-plan-implementation-request`, { conversationId: r, turnId: n.turnId }),
+                )
+                .then(async () =>
+                  S(`send-follow-up-message`, {
+                    conversationId: r,
+                    prompt: `${fe}\n${n.planContent}`,
+                    serviceTier: await xe(
+                      i,
+                      i.get(me, r) ?? `local`,
+                      t.planStartCollaborationMode?.settings.model ?? null,
+                    ),
+                  }),
+                )
+                .then(() => {
+                  U();
+                });
+              return;
+            }
+            break;
+          case `open`:
+            break;
+        }
+      }
+      (t != null && t.intent !== `open`) ||
+        (e.action != null &&
+          (Y(
+            E.CODEX_AVATAR_OVERLAY_ACTION_NOTIFICATION_OPENED,
+            M.CODEX_AVATAR_OVERLAY_SOURCE_NOTIFICATION_ROW,
+            e,
+          ),
+          u.dispatchMessage(`open-in-main-window`, { path: e.action.path })));
+    },
+    nt = (e, t) => {
+      let n = e.waitingRequest;
+      e.localConversationId == null ||
+        n?.kind !== `question` ||
+        S(`reply-with-user-input-response`, {
+          conversationId: e.localConversationId,
+          requestId: n.requestId,
+          response: { answers: { [t.questionId]: { answers: [t.label] } } },
+        }).then(() => {
+          U();
+        });
+    },
+    it = (e) => {
+      (Y(
+        E.CODEX_AVATAR_OVERLAY_ACTION_NOTIFICATION_DISMISSED,
+        M.CODEX_AVATAR_OVERLAY_SOURCE_NOTIFICATION_ROW,
+        e,
+      ),
+        se((t) => {
+          if (t.get(e.id) === e.turnKey) return t;
+          let n = new Map(t);
+          return (n.set(e.id, e.turnKey), n);
+        }));
+    },
+    st = async (e, t) => {
+      if (e.controlTarget?.type !== `app-server-conversation`) return;
+      let n = t.trim();
+      n.length !== 0 &&
+        (Y(
+          E.CODEX_AVATAR_OVERLAY_ACTION_NOTIFICATION_REPLY_SUBMITTED,
+          M.CODEX_AVATAR_OVERLAY_SOURCE_NOTIFICATION_REPLY,
+          e,
+        ),
+        await S(`send-follow-up-message`, {
+          conversationId: e.controlTarget.conversationId,
+          prompt: n,
+          serviceTier: await xe(i, i.get(me, e.controlTarget.conversationId) ?? `local`, null),
+        }));
+    },
+    ut = (0, $.useCallback)((e) => {
+      u.dispatchMessage(`avatar-overlay-keyboard-interaction-changed`, { isInteractive: e });
+    }, []);
+  return (
+    ne(
+      `avatar-overlay-layout-changed`,
+      ({ layout: e }) => {
+        (x(e),
+          we.current === e.mascot.width &&
+            ((we.current = null), Ae(), F(null), window.requestAnimationFrame(ke)));
+      },
+      [Ae, ke],
+    ),
+    (0, $.useLayoutEffect)(() => {
+      let e = (!f && k) || D;
+      return (
+        document.documentElement.classList.toggle(wn, e),
+        document.body.classList.toggle(wn, e),
+        () => {
+          (document.documentElement.classList.remove(wn), document.body.classList.remove(wn));
+        }
+      );
+    }, [f, k, D]),
+    (0, $.useEffect)(
+      () => () => {
+        (Ae(), Me());
+      },
+      [Me, Ae],
+    ),
+    (0, $.useEffect)(() => {
+      let e = (e) => {
+          (Re(e.pointerId, { releaseSample: ot(e), shouldOpenMainWindow: !0 }),
+            Le(e.pointerId, e.screenX),
+            Ie(e.pointerId));
+        },
+        t = (e) => {
+          (Re(e.pointerId, { shouldPreserveOrbMomentum: !0, shouldOpenMainWindow: !1 }),
+            Le(e.pointerId),
+            Ie(e.pointerId));
+        };
+      return (
+        window.addEventListener(`pointerup`, e),
+        window.addEventListener(`pointercancel`, t),
+        () => {
+          (window.removeEventListener(`pointerup`, e),
+            window.removeEventListener(`pointercancel`, t));
+        }
+      );
+    }, [Le, Re, Ie]),
+    (0, $.useLayoutEffect)(() => {
+      let e = null,
+        t = () => {
+          e ??= window.requestAnimationFrame(() => {
+            ((e = null), ke());
+          });
+        },
+        n = new ResizeObserver(t),
+        r = Ee.current;
+      if (r != null) {
+        n.observe(r);
+        for (let e of rn(r)) n.observe(e);
+      }
+      return (
+        window.addEventListener(`resize`, t),
+        t(),
+        () => {
+          (e != null && window.cancelAnimationFrame(e),
+            n.disconnect(),
+            window.removeEventListener(`resize`, t));
+        }
+      );
+    }, [ke, e.id, ye]),
+    (0, $.useLayoutEffect)(() => {
+      ke();
+    }, [T, ke, e.id, ye, p.caption, I]),
+    (0, $.useEffect)(() => {
+      if (ve == null) return;
+      let e = Math.max(0, ve - Date.now()),
+        t = window.setTimeout(() => {
+          B((e) => Math.max(Date.now(), e + 1));
+        }, e);
+      return () => {
+        window.clearTimeout(t);
+      };
+    }, [ve]),
+    (0, $.useEffect)(() => {
+      if (!K && !q) return;
+      let e = window.setTimeout(() => {
+        (B((e) => Math.max(Date.now(), e + 1)), K && U(), q && ue());
+      }, pn);
+      return () => {
+        window.clearTimeout(e);
+      };
+    }, [K, q, U, ue]),
+    (0, fn.jsx)(pt, {
+      avatar: e,
+      avatarMenuItems: [
+        {
+          id: `close-avatar`,
+          message: r({
+            id: `petOverlay.closePet`,
+            defaultMessage: `Close pet`,
+            description: `Context menu item that closes the floating Codex pet`,
+          }),
+          onSelect: () => {
+            (Y(
+              E.CODEX_AVATAR_OVERLAY_ACTION_CLOSE_REQUESTED,
+              M.CODEX_AVATAR_OVERLAY_SOURCE_CONTEXT_MENU,
+            ),
+              u.dispatchMessage(`avatar-overlay-close`, {}));
+          },
+        },
+      ],
+      interactiveRegionRef: Ee,
+      restrictedSurface: void 0,
+      isDragging: ae,
+      isNotificationTrayOpen: T,
+      layout: b,
+      mascotDragState: ee,
+      mascotLayout:
+        D && P != null ? { ...b.mascot, height: Math.ceil(P / He), width: P } : b.mascot,
+      mascotResizeHandle: f
+        ? void 0
+        : {
+            onLostPointerCapture: $e,
+            onPointerCancel: Ze,
+            onPointerDown: qe,
+            onPointerEnter: () => {
+              j(!0);
+            },
+            onPointerLeave: () => {
+              j(!1);
+            },
+            onPointerMove: Je,
+            onPointerUp: Xe,
+          },
+      mascotStyle: je(P ?? I),
+      notifications: G,
+      onCloseNotificationTray: () => {
+        (Y(
+          E.CODEX_AVATAR_OVERLAY_ACTION_NOTIFICATION_TRAY_CLOSED,
+          M.CODEX_AVATAR_OVERLAY_SOURCE_NOTIFICATION_BADGE,
+          void 0,
+          !1,
+        ),
+          ie(!1));
+      },
+      onLostPointerCapture: Ke,
+      onPointerCancel: We,
+      onPointerDown: ze,
+      onPointerMove: Be,
+      onPointerUp: Ve,
+      onDismissNotification: it,
+      onNotificationReplyEditorActiveChange: ut,
+      onOpenNotificationReply: (e) => {
+        Y(
+          E.CODEX_AVATAR_OVERLAY_ACTION_NOTIFICATION_REPLY_OPENED,
+          M.CODEX_AVATAR_OVERLAY_SOURCE_NOTIFICATION_REPLY,
+          e,
+        );
+      },
+      onRunNotificationAction: et,
+      onSubmitQuestionOption: nt,
+      onSubmitNotificationReply: st,
+      onOpenNotificationTray: () => {
+        (Y(
+          E.CODEX_AVATAR_OVERLAY_ACTION_NOTIFICATION_TRAY_OPENED,
+          M.CODEX_AVATAR_OVERLAY_SOURCE_NOTIFICATION_BADGE,
+          void 0,
+          !0,
+        ),
+          ie(!0));
+      },
+    })
+  );
+}
+function Qt(e, t) {
+  return Le(e.startWidthPx + t - e.startScreenX);
+}
+function $t(e, t) {
+  return Xe(e, t) || n(mn, []).includes(e.id)
+    ? null
+    : { avatarId: e.id, petName: e.displayName, startedAtMs: Date.now() };
+}
+function en(e, t) {
+  return Xe(e, t) ? `pending-custom-avatar` : `ready`;
+}
+function tn({ currentDragState: e, deltaX: t }) {
+  return t >= 4 ? `running-right` : t <= -4 ? `running-left` : e;
+}
+function nn(e) {
+  if (e == null) return null;
+  let t = an(e.querySelector(_n)),
+    n = on(e.querySelector(vn));
+  return t == null ? null : { mascot: t, tray: n };
+}
+function rn(e) {
+  return Array.from(e.querySelectorAll(Tn.join(`, `)));
+}
+function an(e) {
+  if (e == null || un(e)) return null;
+  let t = e.getBoundingClientRect();
+  return t.width <= 0 || t.height <= 0
+    ? null
+    : { width: Math.ceil(t.width), height: Math.ceil(t.height) };
+}
+function on(e) {
+  if (e == null || un(e)) return null;
+  let t = e.getBoundingClientRect();
+  if (t.width <= 0 || t.height <= 0) return null;
+  let n = Math.ceil(e.offsetWidth > 0 ? e.offsetWidth : t.width),
+    r = e.querySelector(yn),
+    i = e.querySelector(bn),
+    a = e.querySelector(xn),
+    o = e.querySelector(Sn);
+  if (r == null || (i == null && a == null)) return { width: n, height: Math.ceil(t.height) };
+  let s = i != null && (a == null ? 0 : 1) + (o == null ? 0 : 1) > 1 ? sn(i) : 0;
+  return {
+    width: n,
+    height: Math.ceil(
+      r.getBoundingClientRect().height +
+        (a?.scrollHeight ?? 0) +
+        (o == null ? 0 : o.getBoundingClientRect().height) +
+        s,
+    ),
+  };
+}
+function sn(e) {
+  let t = Number.parseFloat(window.getComputedStyle(e).rowGap);
+  return Number.isFinite(t) ? t : 0;
+}
+function cn(e, t) {
+  return (
+    e != null &&
+    e.isTrayVisible === t.isTrayVisible &&
+    e.mascot.width === t.mascot.width &&
+    e.mascot.height === t.mascot.height &&
+    ln(e.tray, t.tray)
+  );
+}
+function ln(e, t) {
+  return e === t || (e != null && t != null && e.width === t.width && e.height === t.height);
+}
+function un(e) {
+  return window.getComputedStyle(e).display === `none`;
+}
+var dn, $, fn, pn, mn, hn, gn, _n, vn, yn, bn, xn, Sn, Cn, wn, Tn, En;
+e(() => {
+  ((dn = _()),
+    ge(),
+    ie(),
+    ($ = t(ve(), 1)),
+    s(),
+    c(),
+    _e(),
+    w(),
+    T(),
+    se(),
+    J(),
+    Je(),
+    Ze(),
+    o(),
+    $e(),
+    U(),
+    H(),
+    x(),
+    f(),
+    P(),
+    p(),
+    F(),
+    et(),
+    it(),
+    Yt(),
+    ut(),
+    Ve(),
+    nt(),
+    Pe(),
+    dt(),
+    (fn = I()),
+    (pn = 15e3),
+    (mn = `first-awake-pet-notification-avatar-ids`),
+    (hn = {
+      audioStream: null,
+      canStart: !1,
+      caption: null,
+      conversationId: null,
+      phase: `inactive`,
+      isMicrophoneMuted: !1,
+      isMuted: !1,
+      start: () => Promise.resolve(),
+      stop: () => Promise.resolve(),
+      voiceActivity: `idle`,
+      toggleMicrophoneMute: () => {},
+      toggleMute: () => {},
+      waveformCanvasRef: { current: null },
+    }),
+    (gn = [`[data-avatar-overlay-hit-region]`, `[data-avatar-mascot='true']`]),
+    (_n = `.codex-avatar-root`),
+    (vn = `[data-avatar-overlay-size='notification-tray']`),
+    (yn = `[data-avatar-overlay-size='notification-tray-header']`),
+    (bn = `[data-avatar-overlay-size='notification-tray-content']`),
+    (xn = `[data-avatar-overlay-size='notification-tray-list']`),
+    (Sn = `[data-avatar-overlay-size='notification-tray-caption']`),
+    (Cn = `[data-avatar-overlay-measure='notification-tray-row']`),
+    (wn = `codex-avatar-overlay-force-resize-cursor`),
+    (Tn = [_n, vn, yn, bn, xn, Sn, Cn]),
+    (En = {
+      mascot: { left: 244, top: 191, width: 112, height: 121 },
+      placement: `top-end`,
+      tray: { left: 80, top: 56, width: 276, height: 131 },
+      viewport: { width: 356, height: 320 },
+    }));
+})();
+export { Xt as AvatarOverlayPage };
+//# sourceMappingURL=avatar-overlay-page.js.map

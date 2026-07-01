@@ -1,1 +1,3 @@
-import{n as e,t}from"./gdshader-C6D_Nn41.js";e();export{t as default};
+import { n as e, t } from "./gdshader.js";
+e();
+export { t as default };

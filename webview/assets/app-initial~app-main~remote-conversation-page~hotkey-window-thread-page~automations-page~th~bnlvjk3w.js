@@ -1,0 +1,140 @@
+import { n as e } from "./rolldown-runtime.js";
+import {
+  AV as t,
+  EB as n,
+  FN as r,
+  GN as i,
+  IP as a,
+  JN as o,
+  LN as s,
+  LP as c,
+  RN as l,
+  RV as u,
+  WN as d,
+  bB as f,
+  qN as p,
+  xV as m,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~plug~kmtatxxf.js";
+function h(e, t, n, r = Date.now()) {
+  let i = e.items.find((e) => e.id === t);
+  if (i == null || (i.readAt != null) === n) return e;
+  let a = e.unreadRunCounts;
+  if (
+    i.automationId != null &&
+    i.threadId != null &&
+    (i.status === `PENDING_REVIEW` || i.status === `ACCEPTED`)
+  ) {
+    let e = n
+      ? a.unreadRuns.filter((e) => e.threadId !== i.threadId)
+      : [
+          ...a.unreadRuns.filter((e) => e.threadId !== i.threadId),
+          { automationId: i.automationId, threadId: i.threadId },
+        ];
+    a = {
+      total: e.length,
+      automationIds: [...new Set(e.map((e) => e.automationId))],
+      unreadRuns: e,
+    };
+  }
+  return {
+    ...e,
+    items: e.items.map((e) => (e === i ? { ...e, readAt: n ? r : null } : e)),
+    unreadRunCounts: a,
+  };
+}
+function g() {
+  let e = (0, _.c)(15),
+    i = t(),
+    a = n(v),
+    s;
+  e[0] === i
+    ? (s = e[1])
+    : ((s = (e) => {
+        (i.setQueryData(r(`inbox-items`, { limit: 200 }), (t) => (t == null ? t : h(t, e, !0))),
+          o.dispatchMessage(`inbox-item-set-read-state`, { id: e, isRead: !0 }));
+      }),
+      (e[0] = i),
+      (e[1] = s));
+  let c = s,
+    l;
+  e[2] === i
+    ? (l = e[3])
+    : ((l = (e) => {
+        (i.setQueryData(r(`inbox-items`, { limit: 200 }), (t) => (t == null ? t : h(t, e, !1))),
+          o.dispatchMessage(`inbox-item-set-read-state`, { id: e, isRead: !1 }));
+      }),
+      (e[2] = i),
+      (e[3] = l));
+  let u = l,
+    d;
+  e[4] === i
+    ? (d = e[5])
+    : ((d = () => {
+        let e = Date.now();
+        (i.setQueryData(r(`inbox-items`, { limit: 200 }), (t) =>
+          t == null
+            ? t
+            : {
+                ...t,
+                items: t.items.map((t) =>
+                  t.readAt == null &&
+                  (t.status === `PENDING_REVIEW` ||
+                    t.status === `ACCEPTED` ||
+                    t.status === `ARCHIVED`)
+                    ? { ...t, readAt: e }
+                    : t,
+                ),
+                unreadRunCounts: { total: 0, automationIds: [], unreadRuns: [] },
+              },
+        ),
+          o.dispatchMessage(`inbox-automation-runs-mark-all-read`, { readAt: e }));
+      }),
+      (e[4] = i),
+      (e[5] = d));
+  let f = d,
+    p;
+  e[6] === a.data?.items
+    ? (p = e[7])
+    : ((p = a.data?.items ?? []), (e[6] = a.data?.items), (e[7] = p));
+  let m = a.data?.unreadRunCounts,
+    g;
+  return (
+    e[8] !== a.isLoading || e[9] !== f || e[10] !== c || e[11] !== u || e[12] !== p || e[13] !== m
+      ? ((g = {
+          items: p,
+          isLoading: a.isLoading,
+          markAllRead: f,
+          markRead: c,
+          markUnread: u,
+          unreadRunCounts: m,
+        }),
+        (e[8] = a.isLoading),
+        (e[9] = f),
+        (e[10] = c),
+        (e[11] = u),
+        (e[12] = p),
+        (e[13] = m),
+        (e[14] = g))
+      : (g = e[14]),
+    g
+  );
+}
+var _,
+  v,
+  y = e(() => {
+    ((_ = u()),
+      m(),
+      f(),
+      p(),
+      c(),
+      i(),
+      l(),
+      (v = s(a, `inbox-items`, {
+        enabled: !0,
+        params: { limit: 200 },
+        refetchInterval: d.ONE_MINUTE,
+        staleTime: d.ONE_MINUTE,
+      })));
+  });
+export { g as n, y as t };
+//# sourceMappingURL=app-initial~app-main~remote-conversation-page~hotkey-window-thread-page~automations-page~th~bnlvjk3w.js.map
