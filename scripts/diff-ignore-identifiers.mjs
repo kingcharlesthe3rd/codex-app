@@ -263,6 +263,122 @@ function readQuoted(source, start) {
   return { token: source.slice(start, index), next: index };
 }
 
+function skipTemplateLiteral(source, start) {
+  let index = start + 1;
+
+  while (index < source.length) {
+    const character = source[index];
+
+    if (character === "\\") {
+      index += 2;
+      continue;
+    }
+
+    if (character === "`") {
+      return index + 1;
+    }
+
+    if (character === "$" && source[index + 1] === "{") {
+      index = findBalancedBraceEnd(source, index + 2);
+      continue;
+    }
+
+    index += 1;
+  }
+
+  return index;
+}
+
+function findBalancedBraceEnd(source, start) {
+  let index = start;
+  let depth = 1;
+
+  while (index < source.length) {
+    const character = source[index];
+
+    if (character === "'" || character === "\"") {
+      index = readQuoted(source, index).next;
+      continue;
+    }
+
+    if (character === "`") {
+      index = skipTemplateLiteral(source, index);
+      continue;
+    }
+
+    if (character === "/" && source[index + 1] === "/") {
+      index += 2;
+      while (index < source.length && source[index] !== "\n") {
+        index += 1;
+      }
+      continue;
+    }
+
+    if (character === "/" && source[index + 1] === "*") {
+      index += 2;
+      while (index < source.length && !(source[index] === "*" && source[index + 1] === "/")) {
+        index += 1;
+      }
+      index = Math.min(source.length, index + 2);
+      continue;
+    }
+
+    if (character === "{") {
+      depth += 1;
+    } else if (character === "}") {
+      depth -= 1;
+
+      if (depth === 0) {
+        return index + 1;
+      }
+    }
+
+    index += 1;
+  }
+
+  return index;
+}
+
+function stripFinalNewline(text) {
+  return text.endsWith("\n") ? text.slice(0, -1) : text;
+}
+
+function readTemplateLiteral(source, start, options) {
+  const output = ["`"];
+  let index = start + 1;
+
+  while (index < source.length) {
+    const character = source[index];
+
+    if (character === "\\") {
+      output.push(source.slice(index, Math.min(source.length, index + 2)));
+      index += 2;
+      continue;
+    }
+
+    if (character === "`") {
+      output.push("`");
+      index += 1;
+      break;
+    }
+
+    if (character === "$" && source[index + 1] === "{") {
+      const expressionStart = index + 2;
+      const expressionEnd = findBalancedBraceEnd(source, expressionStart);
+      const expression = source.slice(expressionStart, Math.max(expressionStart, expressionEnd - 1));
+
+      output.push("${", stripFinalNewline(normalizeJavaScript(expression, options)), "}");
+      index = expressionEnd;
+      continue;
+    }
+
+    output.push(character);
+    index += 1;
+  }
+
+  return { token: output.join(""), next: index };
+}
+
 function readNumber(source, start) {
   const match = source.slice(start).match(
     /^(?:0[xX][0-9A-Fa-f_]+n?|0[bB][01_]+n?|0[oO][0-7_]+n?|\d[\d_]*(?:\.[\d_]*)?(?:[eE][+-]?[\d_]+)?n?)/,
@@ -393,7 +509,15 @@ function normalizeJavaScript(source, options) {
       continue;
     }
 
-    if (character === "'" || character === "\"" || character === "`") {
+    if (character === "`") {
+      const { token, next } = readTemplateLiteral(source, index, options);
+
+      emit(token);
+      index = next;
+      continue;
+    }
+
+    if (character === "'" || character === "\"") {
       const { token, next } = readQuoted(source, index);
 
       emit(token);
