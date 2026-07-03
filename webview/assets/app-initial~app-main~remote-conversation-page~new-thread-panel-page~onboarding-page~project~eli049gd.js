@@ -1,0 +1,18 @@
+import { n as e } from "./rolldown-runtime.js";
+import {
+  AU as t,
+  DW as n,
+  EW as r,
+  IU as i,
+  LU as a,
+  kU as o,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~onboarding-page~hotkey-~ke3yc5wu.js";
+var s,
+  c = e(() => {
+    (n(),
+      a(),
+      t(),
+      (s = o(r, `list-pinned-threads`, { refetchOnWindowFocus: !0, staleTime: i.FIVE_SECONDS })));
+  });
+export { s as n, c as t };
+//# sourceMappingURL=app-initial~app-main~remote-conversation-page~new-thread-panel-page~onboarding-page~project~eli049gd.js.map
