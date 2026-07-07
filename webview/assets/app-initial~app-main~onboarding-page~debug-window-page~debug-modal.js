@@ -1,0 +1,674 @@
+import { n as e } from "./rolldown-runtime.js";
+import {
+  As as t,
+  Bc as n,
+  Bs as r,
+  Bt as i,
+  Cs as a,
+  Rt as o,
+  Xs as s,
+  c,
+  cs as ee,
+  es as te,
+  gs as l,
+  js as u,
+  l as d,
+  qs as f,
+  u as p,
+  uo as m,
+  ys as h,
+  zs as g,
+  zt as _,
+} from "./app-initial~app-main~worktree-init-v2-page~appgen-settings-page~page~appgen-publication-ter~fzo5ij6p.js";
+import {
+  X as v,
+  Z as ne,
+} from "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~onboarding-page~project~okyna5mq.js";
+import {
+  $f as re,
+  $h as y,
+  Ev as ie,
+  Gd as ae,
+  Gf as b,
+  H_ as oe,
+  Hf as x,
+  Jf as S,
+  Kf as se,
+  Ou as ce,
+  Qf as le,
+  Uf as ue,
+  V_ as de,
+  Wf as C,
+  Xb as fe,
+  Xf as pe,
+  Yf as me,
+  Yn as he,
+  Yr as ge,
+  Zb as _e,
+  Zf as ve,
+  cx as w,
+  ep as T,
+  fv as ye,
+  fy as be,
+  ku as xe,
+  lx as Se,
+  pv as E,
+  px as D,
+  qd as O,
+  qf as k,
+  uy as Ce,
+  wv as we,
+} from "./app-initial~app-main~new-thread-panel-page.js";
+function A({
+  agentMode: e,
+  permissionProfileId: t,
+  shouldSendPermissionOverrides: n,
+  workspaceRoots: r,
+  config: i,
+  configOverrides: a,
+  input: o,
+  commentAttachments: s,
+  collaborationMode: c,
+  serviceTier: ee,
+  cwd: l,
+  fileAttachments: u,
+  addedFiles: d,
+  memoryPreferences: f,
+  threadSource: p,
+  threadStartKind: m,
+  workspaceKind: h = `project`,
+  projectlessOutputDirectory: g,
+  projectAssignment: _,
+  baseInstructions: v,
+  additionalDeveloperInstructions: ne,
+}) {
+  if (h === `projectless` && g == null)
+    throw Error(`Projectless conversations require an output directory`);
+  let re = we([...u, ...d]),
+    y = n === !1 ? null : te(e, r, i);
+  return (
+    y != null &&
+      t != null &&
+      ((y.activePermissionProfile = { id: t, extends: null }), (y.runtimeWorkspaceRoots = r)),
+    {
+      input: o,
+      commentAttachments: s,
+      workspaceRoots: r,
+      collaborationMode: c,
+      multiAgentMode: Ce,
+      serviceTier: ee,
+      ...(y == null
+        ? { useAppServerPermissionDefault: !0 }
+        : { permissions: y, approvalsReviewer: y.approvalsReviewer }),
+      cwd: l,
+      attachments: re,
+      workspaceKind: h,
+      projectAssignment: _,
+      threadSource: p,
+      threadStartKind: m,
+      config: a,
+      ...(h === `projectless` ? { projectlessOutputDirectory: g } : {}),
+      memoryPreferences: f,
+      baseInstructions: v,
+      additionalDeveloperInstructions: ne,
+    }
+  );
+}
+var j = e(() => {
+  (i(), be(), ie());
+});
+function Te(e) {
+  M({ action: S.CODEX_CONVERSATIONAL_ONBOARDING_LIFECYCLE_ACTION_STARTED, scope: e });
+}
+function Ee(e, t) {
+  M({
+    action: S.CODEX_CONVERSATIONAL_ONBOARDING_LIFECYCLE_ACTION_COMPLETED,
+    scope: e,
+    selectedTask: t,
+  });
+}
+function De(e, t) {
+  M({
+    action: S.CODEX_CONVERSATIONAL_ONBOARDING_LIFECYCLE_ACTION_SKIPPED,
+    scope: e,
+    selectedTask: t,
+  });
+}
+function Oe(e, t) {
+  M({
+    action: S.CODEX_CONVERSATIONAL_ONBOARDING_LIFECYCLE_ACTION_FAILED,
+    failureKind: k.CODEX_CONVERSATIONAL_ONBOARDING_FAILURE_KIND_START_FAILED,
+    scope: e,
+    selectedTask: t,
+  });
+}
+function ke(e, t) {
+  P({
+    accessType: I(t),
+    action: x.CODEX_CONVERSATIONAL_ONBOARDING_ACCESS_ACTION_STARTED,
+    scope: e,
+    task: t,
+  });
+}
+function Ae(e, t) {
+  P({
+    accessType: I(t),
+    action: x.CODEX_CONVERSATIONAL_ONBOARDING_ACCESS_ACTION_REQUESTED,
+    scope: e,
+    task: t,
+  });
+}
+function je(e, t) {
+  P({
+    accessType: I(t),
+    action: x.CODEX_CONVERSATIONAL_ONBOARDING_ACCESS_ACTION_COMPLETED,
+    scope: e,
+    task: t,
+  });
+}
+function Me(e, t) {
+  P({
+    accessType: I(t),
+    action: x.CODEX_CONVERSATIONAL_ONBOARDING_ACCESS_ACTION_DENIED,
+    scope: e,
+    task: t,
+  });
+}
+function Ne(e, t) {
+  N(e, t, k.CODEX_CONVERSATIONAL_ONBOARDING_FAILURE_KIND_HOST_SERVICE_UNAVAILABLE);
+}
+function Pe(e, t) {
+  N(e, t, k.CODEX_CONVERSATIONAL_ONBOARDING_FAILURE_KIND_PLUGIN_UNAVAILABLE);
+}
+function Fe(e, t) {
+  F({ action: b.CODEX_CONVERSATIONAL_ONBOARDING_EXECUTION_ACTION_STARTED, scope: e, task: t });
+}
+function Ie(e, t) {
+  F({ action: b.CODEX_CONVERSATIONAL_ONBOARDING_EXECUTION_ACTION_COMPLETED, scope: e, task: t });
+}
+function Le(e, t) {
+  F({
+    action: b.CODEX_CONVERSATIONAL_ONBOARDING_EXECUTION_ACTION_FAILED,
+    failureKind: k.CODEX_CONVERSATIONAL_ONBOARDING_FAILURE_KIND_START_FAILED,
+    scope: e,
+    task: t,
+  });
+}
+function Re(e, t) {
+  F({
+    action: b.CODEX_CONVERSATIONAL_ONBOARDING_EXECUTION_ACTION_FAILED,
+    failureKind: k.CODEX_CONVERSATIONAL_ONBOARDING_FAILURE_KIND_COMPLETION_MISSING,
+    scope: e,
+    task: t,
+  });
+}
+function ze(e, t) {
+  F({ action: b.CODEX_CONVERSATIONAL_ONBOARDING_EXECUTION_ACTION_CANCELLED, scope: e, task: t });
+}
+function M({ action: e, failureKind: t, scope: n, selectedTask: r }) {
+  O(n, me, { action: e, failureKind: t, taskType: r == null ? void 0 : L(r) });
+}
+function N(e, t, n) {
+  P({
+    accessType: I(t),
+    action: x.CODEX_CONVERSATIONAL_ONBOARDING_ACCESS_ACTION_FAILED,
+    failureKind: n,
+    scope: e,
+    task: t,
+  });
+}
+function Be(e, t) {
+  O(e, ve, { action: pe.CODEX_CONVERSATIONAL_ONBOARDING_ROLE_ACTION_SELECTED, roleType: t });
+}
+function Ve(e, t) {
+  O(e, re, { action: le.CODEX_CONVERSATIONAL_ONBOARDING_TASK_ACTION_SELECTED, taskType: L(t) });
+}
+function P({ accessType: e, action: t, failureKind: n, scope: r, task: i }) {
+  O(r, ue, { accessType: e, action: t, failureKind: n, taskType: L(i) });
+}
+function F({ action: e, failureKind: t, scope: n, task: r }) {
+  O(n, se, { action: e, failureKind: t, taskType: L(r) });
+}
+function I(e) {
+  switch (e) {
+    case `desktop_note`:
+      return C.CODEX_CONVERSATIONAL_ONBOARDING_ACCESS_TYPE_DESKTOP;
+    case `csv_chart`:
+      return C.CODEX_CONVERSATIONAL_ONBOARDING_ACCESS_TYPE_CSV_PICKER;
+    case `hold_next_free_hour`:
+      return C.CODEX_CONVERSATIONAL_ONBOARDING_ACCESS_TYPE_CALENDAR_APP;
+    case `send_message_to_self`:
+      return C.CODEX_CONVERSATIONAL_ONBOARDING_ACCESS_TYPE_MESSAGING_APP;
+  }
+}
+function L(e) {
+  switch (e) {
+    case `desktop_note`:
+      return T.CODEX_CONVERSATIONAL_ONBOARDING_TASK_TYPE_DESKTOP_NOTE;
+    case `csv_chart`:
+      return T.CODEX_CONVERSATIONAL_ONBOARDING_TASK_TYPE_CSV_CHART;
+    case `hold_next_free_hour`:
+      return T.CODEX_CONVERSATIONAL_ONBOARDING_TASK_TYPE_HOLD_NEXT_FREE_HOUR;
+    case `send_message_to_self`:
+      return T.CODEX_CONVERSATIONAL_ONBOARDING_TASK_TYPE_SEND_MESSAGE_TO_SELF;
+  }
+}
+var He = e(() => {
+  (y(), ae());
+});
+function Ue(e, t) {
+  B.set(e, t);
+}
+function We(e) {
+  (B.delete(e), V.add(e));
+}
+function Ge({ argumentsValue: e, conversationId: t, scope: n }) {
+  let r = Ke({ argumentsValue: e, conversationId: t });
+  return r == null ? null : (Ie(n, r.selectedTask), r.completion);
+}
+function Ke({ argumentsValue: e, conversationId: t }) {
+  if (V.has(t)) return null;
+  let n = B.get(t);
+  if (n == null) return null;
+  let r = z.safeParse(e);
+  return r.success
+    ? (B.delete(t), V.add(t), { completion: r.data, selectedTask: n.selectedTask })
+    : null;
+}
+function qe(e) {
+  let t = e?.find((e) => e.type === `inputText`)?.text;
+  if (t == null) return null;
+  try {
+    let e = JSON.parse(t),
+      n = Je.safeParse(e);
+    return n.success ? n.data.result : null;
+  } catch {
+    return null;
+  }
+}
+var R,
+  z,
+  Je,
+  B,
+  V,
+  Ye,
+  Xe = e(() => {
+    (l(),
+      He(),
+      (R = `complete_conversational_onboarding_task`),
+      (z = g({
+        outputType: u(`text`),
+        output: r()
+          .trim()
+          .min(1)
+          .describe(
+            `For calendar tasks, the formatted date and time that was held. For messaging tasks, a short confirmation.`,
+          ),
+        url: r().url().describe(`The URL of the created calendar event or sent message.`),
+      })),
+      (Je = g({ accepted: u(!0), result: z })),
+      (B = new Map()),
+      (V = new Set()),
+      (Ye = {
+        name: R,
+        description: `Report the completed plugin-based conversational onboarding task before the final response. Include a short text result and the created event or message URL.`,
+        inputSchema: t().parse(f(z)),
+      }));
+  });
+function H(e) {
+  return e.get(G) ?? w(U, W);
+}
+function Ze(e, t) {
+  e.set(G, {
+    declinedTasks: [],
+    phase: `task`,
+    selectedRole: t,
+    selectedTask: null,
+    permissionStatus: `not-requested`,
+  });
+}
+function Qe(e, t) {
+  e.set(G, {
+    ...H(e),
+    phase: t === `csv_chart` ? `execution` : `permission`,
+    selectedTask: t,
+    permissionStatus: t === `csv_chart` ? `not-requested` : `pending`,
+  });
+}
+function $e(e, t) {
+  let n = H(e);
+  e.set(G, {
+    ...n,
+    declinedTasks: [...(n.declinedTasks ?? []), t],
+    phase: `task`,
+    selectedTask: null,
+    permissionStatus: `not-requested`,
+  });
+}
+function et(e, t) {
+  e.set(G, { ...H(e), permissionStatus: t });
+}
+function tt(e) {
+  e.set(G, W);
+}
+function nt(e) {
+  e.set(G, { ...H(e), phase: `execution` });
+}
+var U,
+  W,
+  G,
+  rt = e(() => {
+    (Se(),
+      fe(),
+      (U = `electron:conversational-onboarding-workflow`),
+      (W = {
+        declinedTasks: [],
+        phase: `role`,
+        selectedRole: null,
+        selectedTask: null,
+        permissionStatus: `not-requested`,
+      }),
+      (G = _e(U, W)));
+  });
+function K(e, t = w(q, null)) {
+  let n = ut.safeParse(t);
+  return n.success && n.data.hostId === e ? n.data : null;
+}
+function it(e) {
+  (D(q, e), at(e.conversationId));
+}
+function at(e) {
+  let t = ot();
+  t.includes(e) || D(J, [...t, e]);
+}
+function ot() {
+  return lt.catch([]).parse(w(J, []));
+}
+function st() {
+  D(J, []);
+}
+function ct(e) {
+  return K(e.hostId)?.conversationId === e.conversationId ? (D(q, null), !0) : !1;
+}
+var q,
+  J,
+  lt,
+  ut,
+  dt = e(() => {
+    (i(),
+      l(),
+      Se(),
+      (q = `electron:conversational-onboarding-conversation`),
+      (J = `electron:conversational-onboarding-conversation-ids`),
+      (lt = a(r().min(1).transform(m))),
+      (ut = g({
+        appPluginName: h([`google-calendar`, `outlook-calendar`, `slack`, `teams`])
+          .nullable()
+          .default(null),
+        approvedWritableRoot: r().min(1).nullable(),
+        conversationId: r().min(1).transform(m),
+        hostId: r().min(1),
+        selectedTask: h([
+          `desktop_note`,
+          `csv_chart`,
+          `hold_next_free_hour`,
+          `send_message_to_self`,
+        ]),
+      }).refine(
+        ({ approvedWritableRoot: e, selectedTask: t }) => t !== `desktop_note` || e != null,
+        {
+          message: `Local file onboarding requires an approved writable root`,
+          path: [`approvedWritableRoot`],
+        },
+      )));
+  });
+async function ft({
+  agentMode: e,
+  getPrompt: t,
+  hostId: n,
+  permissionProfileId: r,
+  permissionsRequirements: i,
+  projectRoot: a,
+  serviceTier: o,
+  shouldSendPermissionOverrides: s,
+}) {
+  let te = St(t()),
+    l = [a],
+    u = p(l),
+    d = await c(l, { prompt: te }),
+    f = d.cwd ?? a;
+  if (u && d.projectlessOutputDirectory == null)
+    throw Error(`No projectless output directory found`);
+  let { config: m } = await E(`read-config-for-host`, { hostId: n, includeLayers: !1, cwd: f }),
+    h = await E(`start-conversation`, {
+      hostId: n,
+      preparePrimaryRuntimeForFirstTurn: !1,
+      ...A({
+        addedFiles: [],
+        additionalDeveloperInstructions: Ct,
+        agentMode: ee(`granular`, i) ? `granular` : e,
+        permissionProfileId: r,
+        shouldSendPermissionOverrides: s,
+        collaborationMode: null,
+        config: ce(m),
+        configOverrides: { model: v, model_reasoning_effort: `low` },
+        cwd: f,
+        fileAttachments: [],
+        input: [],
+        model: v,
+        projectlessOutputDirectory: d.projectlessOutputDirectory,
+        reasoningEffort: `low`,
+        serviceTier: o,
+        threadSource: `conversational_onboarding`,
+        threadStartKind: `conversational_onboarding`,
+        workspaceKind: u ? `projectless` : `project`,
+        workspaceRoots: d.workspaceRoots,
+      }),
+    });
+  return (at(h), h);
+}
+function pt(e, t) {
+  return (nt(e), gt(t));
+}
+function mt(e) {
+  return ht(e);
+}
+function ht(e) {
+  let t = Z.get(e.hostId) ?? 0,
+    n = K(e.hostId);
+  if (n?.appPluginName === e.appPluginName && n.selectedTask === e.selectedTask)
+    return Promise.resolve(n);
+  let r = Y.get(e.hostId),
+    i = e.appPluginName;
+  if (r?.appPluginName === i && r?.generation === t && r.selectedTask === e.selectedTask)
+    return r.promise;
+  if (r?.generation === t)
+    return Promise.reject(Error(`Another conversational onboarding task is already starting`));
+  let a = bt(e, t);
+  Y.set(e.hostId, { appPluginName: i, generation: t, promise: a, selectedTask: e.selectedTask });
+  let o = () => {
+    Y.get(e.hostId)?.promise === a && Y.delete(e.hostId);
+  };
+  return (a.then(o, o), a);
+}
+async function gt(e) {
+  let t = await ht(e),
+    n = X.get(t.conversationId);
+  if (n != null) return (await n, t);
+  let r = (async () => {
+    (Ue(t.conversationId, { selectedTask: e.selectedTask }),
+      await E(`start-turn-for-host`, {
+        conversationId: t.conversationId,
+        hostId: e.hostId,
+        params: {
+          input: [{ type: `text`, text: St(e.getPrompt()), text_elements: [] }],
+          serviceTier: e.serviceTier,
+        },
+      }));
+  })();
+  X.set(t.conversationId, r);
+  try {
+    await r;
+  } catch (e) {
+    throw (X.delete(t.conversationId), e);
+  }
+  return t;
+}
+function _t(e) {
+  Z.set(e, (Z.get(e) ?? 0) + 1);
+  let t = K(e);
+  t != null && xt(t);
+}
+async function vt(e) {
+  (await Promise.all(
+    ot().map((t) =>
+      E(`archive-conversation`, {
+        conversationId: t,
+        hostId: e,
+        source: `conversational-onboarding-complete`,
+      }),
+    ),
+  ),
+    st());
+}
+function yt(e) {
+  if (e == null) return null;
+  for (let t = e.length - 1; t >= 0; --t) {
+    let n = e[t];
+    if (n != null)
+      for (let e = n.items.length - 1; e >= 0; --e) {
+        let t = n.items[e];
+        if (
+          t?.type !== `dynamicToolCall` ||
+          t.namespace !== `codex_app` ||
+          t.tool !== `complete_conversational_onboarding_task` ||
+          t.status !== `completed` ||
+          t.success !== !0
+        )
+          continue;
+        let r = qe(t.contentItems);
+        if (r != null) return r;
+      }
+  }
+  return null;
+}
+async function bt(e, t) {
+  let n = K(e.hostId);
+  n != null && xt(n);
+  let r = await ft(e);
+  if ((Z.get(e.hostId) ?? 0) !== t)
+    throw (
+      We(r),
+      E(`interrupt-conversation`, { conversationId: r, initiatedBy: `system` }),
+      Error(`Conversational onboarding start was cancelled`)
+    );
+  let i = {
+    appPluginName: e.appPluginName,
+    approvedWritableRoot: null,
+    conversationId: r,
+    hostId: e.hostId,
+    selectedTask: e.selectedTask,
+  };
+  return (it(i), i);
+}
+function xt(e) {
+  ct(e) &&
+    (We(e.conversationId),
+    X.delete(e.conversationId),
+    E(`interrupt-conversation`, { conversationId: e.conversationId, initiatedBy: `system` }));
+}
+function St(e) {
+  return oe({
+    addedFiles: [],
+    fileAttachments: [],
+    ideContext: null,
+    imageAttachments: [],
+    prompt: e,
+  });
+}
+var Ct,
+  Y,
+  X,
+  Z,
+  Q,
+  $,
+  wt = e(() => {
+    (s(),
+      i(),
+      Xe(),
+      he(),
+      ye(),
+      xe(),
+      j(),
+      ne(),
+      d(),
+      de(),
+      _(),
+      rt(),
+      dt(),
+      (Ct = [
+        `Execute the selected conversational onboarding task immediately`,
+        `Do not invoke an onboarding skill or interactive onboarding tool`,
+        `Do not ask follow-up questions or offer task choices`,
+        `Use a sensible default when optional details are unavailable`,
+        `Give brief progress updates in an ELI5 style without being patronizing`,
+        `Use one short plain-language sentence describing the user-visible goal, not the implementation`,
+        `Never mention commands, tools, code, paths, API parameters, filename checks, validation steps, or fallback logic`,
+        `Do not repeat acknowledgements`,
+        `Prefer the simplest reliable local toolchain already available and do not install packages`,
+        `Honor every writable root approved before this conversation`,
+        `After completing the task, call ${R} with outputType text and the created event or message URL before the final response. If it rejects the result, correct the result and retry. After it succeeds, do not call it again. Do not finish without a successful call`,
+        `Give one concise final response and stop`,
+      ].join(`. `)),
+      (Y = new Map()),
+      (X = new Map()),
+      (Z = new Map()),
+      (Q = n(o, (e, { get: t }) => (e == null ? null : yt(t(ge, e))))),
+      ($ = n(o, (e, { get: t }) => {
+        if (e == null) return !1;
+        let n = t(ge, e)?.at(-1);
+        return n != null && n.status !== `inProgress` && t(Q, e) == null;
+      })));
+  });
+export {
+  Fe as A,
+  Me as C,
+  ze as D,
+  Ee as E,
+  Oe as F,
+  Te as I,
+  Ve as L,
+  Pe as M,
+  Be as N,
+  Re as O,
+  De as P,
+  A as R,
+  je as S,
+  ke as T,
+  Ye as _,
+  mt as a,
+  Xe as b,
+  G as c,
+  tt as d,
+  $e as f,
+  nt as g,
+  et as h,
+  wt as i,
+  Ne as j,
+  Le as k,
+  H as l,
+  Qe as m,
+  $ as n,
+  _t as o,
+  Ze as p,
+  Q as r,
+  pt as s,
+  vt as t,
+  rt as u,
+  R as v,
+  Ae as w,
+  He as x,
+  Ge as y,
+  j as z,
+};
+//# sourceMappingURL=app-initial~app-main~onboarding-page~debug-window-page~debug-modal.js.map

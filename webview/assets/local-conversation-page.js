@@ -1,0 +1,2016 @@
+import { n as e, s as t } from "./rolldown-runtime.js";
+import {
+  Bt as n,
+  El as r,
+  G as i,
+  Ra as a,
+  Rt as o,
+  Tl as s,
+  Ua as c,
+  W as l,
+  Xs as u,
+  _l as d,
+  _t as f,
+  bt as p,
+  cl as m,
+  ct as h,
+  di as g,
+  ec as _,
+  ft as v,
+  nc as y,
+  st as b,
+  tc as x,
+  vl as S,
+  za as C,
+  zc as w,
+  zt as T,
+} from "./app-initial~app-main~worktree-init-v2-page~appgen-settings-page~page~appgen-publication-ter~fzo5ij6p.js";
+import {
+  $d as E,
+  $n as D,
+  $v as O,
+  $y as k,
+  Cn as A,
+  Cx as j,
+  D as ee,
+  Db as te,
+  Dw as ne,
+  E as re,
+  Ew as ie,
+  Fx as ae,
+  Gi as oe,
+  Gu as se,
+  Hc as ce,
+  J as le,
+  Jc as ue,
+  Jo as de,
+  Kd as fe,
+  Ki as pe,
+  Lx as me,
+  M as he,
+  N as ge,
+  O as _e,
+  Ob as ve,
+  Od as ye,
+  Ox as be,
+  P as xe,
+  Qv as Se,
+  Qy as Ce,
+  Rc as we,
+  Rx as Te,
+  T as Ee,
+  Tb as De,
+  Wu as M,
+  Xy as Oe,
+  Yy as ke,
+  _o as Ae,
+  ar as je,
+  ef as Me,
+  er as Ne,
+  fb as Pe,
+  gh as Fe,
+  go as Ie,
+  hh as Le,
+  in as Re,
+  ir as ze,
+  j as Be,
+  kb as Ve,
+  kd as He,
+  ln as Ue,
+  lu as We,
+  mh as Ge,
+  pb as Ke,
+  ph as qe,
+  q as Je,
+  qd as Ye,
+  qo as Xe,
+  uf as Ze,
+  uu as Qe,
+  wb as $e,
+  wn as et,
+  yo as tt,
+} from "./app-initial~app-main~onboarding-page.js";
+import {
+  $ as nt,
+  A as rt,
+  In as it,
+  N as at,
+  On as ot,
+  P as st,
+  Q as ct,
+  Z as lt,
+  _ as ut,
+  ct as dt,
+  g as ft,
+  k as pt,
+  lt as mt,
+  ot as ht,
+  st as gt,
+  tt as _t,
+} from "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~onboarding-page~project~okyna5mq.js";
+import {
+  $o as vt,
+  Ar as yt,
+  Br as bt,
+  Ib as xt,
+  Jo as St,
+  Kn as N,
+  Ln as Ct,
+  Mr as wt,
+  Ms as Tt,
+  Qs as Et,
+  Rb as Dt,
+  Rr as Ot,
+  Rs as kt,
+  Sx as P,
+  Us as At,
+  Wb as jt,
+  Yn as F,
+  Yr as Mt,
+  Zn as Nt,
+  Zo as Pt,
+  _c as Ft,
+  _r as It,
+  _y as Lt,
+  as as I,
+  c as Rt,
+  cr as zt,
+  dr as Bt,
+  ei as Vt,
+  fr as Ht,
+  fv as Ut,
+  gc as Wt,
+  gy as Gt,
+  ic as Kt,
+  jr as qt,
+  js as Jt,
+  kr as Yt,
+  ks as Xt,
+  lr as Zt,
+  nx as Qt,
+  pv as $t,
+  rc as en,
+  rr as tn,
+  rx as nn,
+  s as rn,
+  ts as L,
+  wr as an,
+  wx as R,
+  xr as on,
+  yx as z,
+} from "./app-initial~app-main~new-thread-panel-page.js";
+import {
+  It as sn,
+  Lt as cn,
+  Mt as ln,
+  Nt as un,
+  Ot as dn,
+  Xt as fn,
+  Zt as pn,
+  kt as mn,
+} from "./app-initial~app-main~automations-page.js";
+import {
+  Gr as hn,
+  Kr as gn,
+  Qr as _n,
+  Sn as vn,
+  Yr as yn,
+  Zr as bn,
+  _a as xn,
+  d as Sn,
+  ga as Cn,
+  h as wn,
+  io as Tn,
+  qr as En,
+  ra as Dn,
+  to as On,
+  ua as kn,
+  xn as An,
+} from "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~onboarding-page~appgen-~o4yhvtva.js";
+import {
+  Q as jn,
+  Z as Mn,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~new-~djgpfzje.js";
+import {
+  J as Nn,
+  lt as Pn,
+  n as Fn,
+  q as In,
+  t as Ln,
+  ut as Rn,
+} from "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~appgen-library-page~hot~djo67r4n.js";
+import {
+  a as zn,
+  o as Bn,
+} from "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~projects-index-page~app~edtlcz4n.js";
+import {
+  _ as Vn,
+  i as Hn,
+} from "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~projects-index-page~app~5rsl7kw4.js";
+import {
+  H as Un,
+  V as Wn,
+} from "./app-initial~app-main~pets-settings~appearance-settings~general-settings.js";
+import {
+  a as Gn,
+  o as Kn,
+} from "./app-initial~app-main~remote-conversation-page~projects-index-page~hotkey-window-thread-page~hc7acb17.js";
+import {
+  n as qn,
+  t as Jn,
+} from "./app-initial~app-main~appgen-page~remote-conversation-page~projects-index-page~appgen-librar~i4jkvfhy.js";
+import {
+  n as Yn,
+  t as Xn,
+} from "./app-initial~app-main~hotkey-window-new-thread-page~hotkey-window-home-page~local-conversati~d7c9lerv-D7vX-KTi.js";
+import {
+  n as Zn,
+  t as Qn,
+} from "./app-initial~app-main~projects-index-page~local-conversation-page.js";
+import {
+  n as $n,
+  t as er,
+} from "./app-initial~app-main~remote-conversation-page~pull-requests-page~projects-index-page~hotkey~ek7ayrmo.js";
+import { n as tr, t as nr } from "./app-initial~app-main~local-conversation-page.js";
+import {
+  n as rr,
+  t as ir,
+} from "./app-initial~app-main~remote-conversation-page~appgen-library-page~local-conversation-page.js";
+import {
+  a as ar,
+  c as or,
+  i as sr,
+  l as cr,
+  n as lr,
+  r as ur,
+  s as dr,
+  t as fr,
+} from "./use-debug-panel.js";
+import {
+  i as pr,
+  n as mr,
+  r as hr,
+  t as gr,
+} from "./local-conversation-stream-role-product-event.js";
+import {
+  A as _r,
+  C as vr,
+  D as yr,
+  E as br,
+  F as xr,
+  M as Sr,
+  N as Cr,
+  O as wr,
+  P as Tr,
+  S as Er,
+  a as Dr,
+  b as Or,
+  c as kr,
+  d as Ar,
+  f as jr,
+  h as Mr,
+  i as Nr,
+  j as Pr,
+  k as B,
+  l as Fr,
+  m as Ir,
+  n as Lr,
+  o as Rr,
+  p as zr,
+  r as Br,
+  s as Vr,
+  t as Hr,
+  u as Ur,
+  v as Wr,
+  x as Gr,
+  y as Kr,
+} from "./local-conversation-thread.js";
+import { n as qr, t as Jr } from "./thread-overflow-menu.js";
+import { n as Yr, t as Xr } from "./worktree-init-v2-page-2.js";
+import { n as Zr, r as Qr, t as $r } from "./thread-app-shell-chrome-2.js";
+function ei(e, { sourceWorkspaceRoot: t, targetWorkspaceRoot: n }) {
+  for (let r of [Ve, te])
+    for (let i of e.get(r.tabs$)) {
+      let { props: a } = i;
+      if (
+        !(`hostId` in a) ||
+        typeof a.hostId != `string` ||
+        !(`path` in a) ||
+        (typeof a.path != `string` && a.path != null)
+      )
+        continue;
+      let o = a.path == null ? null : ti(a.path, t, n);
+      if (i.kind?.startsWith(`workspaceFile:`)) {
+        if (`artifactType` in a) {
+          o != null &&
+            Ye(e, o, {
+              activate: !1,
+              hostId: a.hostId,
+              isPreview: i.isPreview,
+              syncOpenTabs: !1,
+              tabId: i.tabId,
+              target: r.panelId,
+            });
+          continue;
+        }
+        Qe(e, o, {
+          activate: !1,
+          endLine:
+            `initialEndLine` in a && typeof a.initialEndLine == `number`
+              ? a.initialEndLine
+              : void 0,
+          hostId: a.hostId,
+          isPreview: i.isPreview,
+          line: `initialLine` in a && typeof a.initialLine == `number` ? a.initialLine : void 0,
+          syncOpenTabs: !1,
+          tabId: i.tabId,
+          target: r.panelId,
+          workspaceRoot: n,
+        });
+      }
+    }
+}
+function ti(e, t, n) {
+  if (!h(e)) return e;
+  let r = v(e),
+    i = v(t),
+    o = a(i) || C(i),
+    s = V.default.posix.relative(o ? i.toLowerCase() : i, o ? r.toLowerCase() : r);
+  if (s === `..` || s.startsWith(`..${V.default.posix.sep}`) || V.default.posix.isAbsolute(s))
+    return e;
+  let c =
+      s === ``
+        ? ``
+        : r
+            .split(V.default.posix.sep)
+            .slice(-s.split(V.default.posix.sep).length)
+            .join(V.default.posix.sep),
+    l = v(V.default.posix.join(n, c));
+  return C(n) ? `//${l.replace(/^\/+/, ``)}` : l;
+}
+var V,
+  ni = e(() => {
+    ((V = t(c(), 1)), n(), fe(), ve(), We(), Ze(), b());
+  });
+function ri(e) {
+  let t = (0, ii.c)(14),
+    { conversationId: n } = e,
+    r = x(L),
+    i = y(Tt),
+    a = y(Ke),
+    o = _(Ae, n),
+    s,
+    c;
+  (t[0] !== r || t[1] !== i || t[2] !== a
+    ? ((s = () => {
+        i == null ||
+          a == null ||
+          (ei(r, { sourceWorkspaceRoot: i, targetWorkspaceRoot: a }), r.set(Tt, null));
+      }),
+      (c = [r, i, a]),
+      (t[0] = r),
+      (t[1] = i),
+      (t[2] = a),
+      (t[3] = s),
+      (t[4] = c))
+    : ((s = t[3]), (c = t[4])),
+    (0, H.useLayoutEffect)(s, c));
+  let l, u;
+  (t[5] !== o || t[6] !== r
+    ? ((l = () => {
+        o != null &&
+          tt(r, o, (e) => {
+            ce(r, e);
+          });
+      }),
+      (u = [o, r]),
+      (t[5] = o),
+      (t[6] = r),
+      (t[7] = l),
+      (t[8] = u))
+    : ((l = t[7]), (u = t[8])),
+    (0, H.useLayoutEffect)(l, u));
+  let d, f;
+  return (
+    t[9] !== o || t[10] !== r || t[11] !== i
+      ? ((d = () => {
+          i != null || o != null || Me(r);
+        }),
+        (f = [o, r, i]),
+        (t[9] = o),
+        (t[10] = r),
+        (t[11] = i),
+        (t[12] = d),
+        (t[13] = f))
+      : ((d = t[12]), (f = t[13])),
+    (0, H.useEffect)(d, f),
+    null
+  );
+}
+var ii,
+  H,
+  ai = e(() => {
+    ((ii = s()), u(), (H = t(r(), 1)), Ie(), E(), I(), Pe(), Xt(), we(), ni());
+  });
+function oi(e) {
+  let t = (0, li.c)(10),
+    { children: n, isOpen: r, onOpenChange: i, trigger: a } = e,
+    o;
+  t[0] === a
+    ? (o = t[1])
+    : ((o = (0, U.jsx)(bn, { asChild: !0, children: a })), (t[0] = a), (t[1] = o));
+  let s;
+  t[2] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((s = { maxHeight: `none`, maxWidth: `none` }), (t[2] = s))
+    : (s = t[2]);
+  let c = r ? n : null,
+    l;
+  t[3] === c
+    ? (l = t[4])
+    : ((l = (0, U.jsx)(yn, {
+        align: `end`,
+        side: `bottom`,
+        sideOffset: 8,
+        className: `!w-auto !overflow-visible !rounded-3xl !bg-transparent !p-0 !shadow-none !ring-0 !backdrop-blur-none`,
+        onFocusOutside: ci,
+        onPointerDownOutside: si,
+        style: s,
+        children: c,
+      })),
+      (t[3] = c),
+      (t[4] = l));
+  let u;
+  return (
+    t[5] !== r || t[6] !== i || t[7] !== o || t[8] !== l
+      ? ((u = (0, U.jsxs)(En, { open: r, onOpenChange: i, children: [o, l] })),
+        (t[5] = r),
+        (t[6] = i),
+        (t[7] = o),
+        (t[8] = l),
+        (t[9] = u))
+      : (u = t[9]),
+    u
+  );
+}
+function si(e) {
+  e.target instanceof Element &&
+    e.target.closest(`[data-app-shell-tab-strip-controller="right"]`) != null &&
+    e.preventDefault();
+}
+function ci(e) {
+  e.target instanceof Element &&
+    e.target.matches(`[role="tabpanel"][data-app-shell-tab-panel-controller="right"]`) &&
+    e.preventDefault();
+}
+var li,
+  U,
+  ui = e(() => {
+    ((li = s()), _n(), (U = S()));
+  });
+function di(e) {
+  let t = e.get(B);
+  if (t.displayMode !== `overlay`) {
+    e.set(ae, (e) => !e);
+    return;
+  }
+  e.set(B, { ...t, isPopoverOpen: !t.isPopoverOpen });
+}
+var fi = e(() => {
+  (be(), wr());
+});
+function pi(e) {
+  let t = (0, W.c)(32),
+    {
+      conversationId: n,
+      getConversationMarkdown: r,
+      markdownParentConversationId: a,
+      projectIcon: o,
+      projectHoverCardContent: s,
+      projectName: c,
+      title: l,
+      titleSuffix: u,
+      cwd: p,
+      canPin: m,
+      hideForkActions: h,
+    } = e,
+    v = m === void 0 ? !0 : m,
+    y = R(),
+    b = d(),
+    x;
+  t[0] === p ? (x = t[1]) : ((x = p ? g(p) : null), (t[0] = p), (t[1] = x));
+  let S = xr(x, i(_(yt, n)).id),
+    C;
+  if (t[2] !== n || t[3] !== b) {
+    let e = b.getQueryData(f(`list-automations`));
+    ((C = e == null ? null : er({ automations: e.items, conversationId: n })),
+      (t[2] = n),
+      (t[3] = b),
+      (t[4] = C));
+  } else C = t[4];
+  let w = C,
+    T;
+  t[5] !== y || t[6] !== s || t[7] !== o || t[8] !== c
+    ? ((T =
+        o == null
+          ? null
+          : s == null || c == null
+            ? (0, G.jsx)(`span`, {
+                "aria-hidden": !0,
+                className: `no-drag pointer-events-auto flex h-5 shrink-0 items-center`,
+                children: o,
+              })
+            : (0, G.jsx)(nt, {
+                align: `start`,
+                interactive: !0,
+                side: `bottom`,
+                sideOffset: 6,
+                tooltipContent: s,
+                variant: `rich`,
+                children: (0, G.jsx)(`button`, {
+                  type: `button`,
+                  "aria-label": y.formatMessage(
+                    {
+                      id: `localConversation.header.project`,
+                      defaultMessage: `Project: {projectName}`,
+                      description: `Accessible label for the project icon in a thread header`,
+                    },
+                    { projectName: c },
+                  ),
+                  className: `no-drag pointer-events-auto flex h-5 shrink-0 cursor-interaction items-center rounded focus-visible:ring-1 focus-visible:ring-token-focus-border focus-visible:outline-none`,
+                  children: o,
+                }),
+              })),
+      (t[5] = y),
+      (t[6] = s),
+      (t[7] = o),
+      (t[8] = c),
+      (t[9] = T))
+    : (T = t[9]);
+  let E;
+  t[10] === l
+    ? (E = t[11])
+    : ((E = (0, G.jsx)(`span`, { className: `min-w-0 truncate`, children: l })),
+      (t[10] = l),
+      (t[11] = E));
+  let D;
+  t[12] !== E || t[13] !== u
+    ? ((D = (0, G.jsxs)(`span`, {
+        className: `inline-flex max-w-[320px] min-w-[2ch] items-center overflow-hidden text-token-foreground`,
+        children: [E, u],
+      })),
+      (t[12] = E),
+      (t[13] = u),
+      (t[14] = D))
+    : (D = t[14]);
+  let O;
+  t[15] === w ? (O = t[16]) : ((O = (0, G.jsx)(mi, { automation: w })), (t[15] = w), (t[16] = O));
+  let k;
+  t[17] !== v ||
+  t[18] !== S ||
+  t[19] !== n ||
+  t[20] !== p ||
+  t[21] !== r ||
+  t[22] !== h ||
+  t[23] !== a ||
+  t[24] !== l
+    ? ((k = (0, G.jsx)(`div`, {
+        className: `no-drag flex items-center gap-2`,
+        children: (0, G.jsx)(Jr, {
+          conversationId: n,
+          getConversationMarkdown: r,
+          markdownParentConversationId: a,
+          sideChatTab: Br,
+          cwd: p,
+          title: l,
+          canPin: v,
+          hideForkActions: h,
+          isWorktreeThread: S,
+        }),
+      })),
+      (t[17] = v),
+      (t[18] = S),
+      (t[19] = n),
+      (t[20] = p),
+      (t[21] = r),
+      (t[22] = h),
+      (t[23] = a),
+      (t[24] = l),
+      (t[25] = k))
+    : (k = t[25]);
+  let A;
+  t[26] === Symbol.for(`react.memo_cache_sentinel`) ? ((A = null), (t[26] = A)) : (A = t[26]);
+  let j;
+  return (
+    t[27] !== T || t[28] !== D || t[29] !== O || t[30] !== k
+      ? ((j = (0, G.jsx)(`div`, {
+          className: `draggable grid w-full min-w-0 grid-cols-[minmax(0,1fr)] items-center gap-x-4 electron:h-toolbar extension:py-row-y`,
+          children: (0, G.jsxs)(`div`, {
+            className: `flex min-w-0 items-center gap-2 truncate text-base electron:font-medium`,
+            children: [T, D, O, k, A],
+          }),
+        })),
+        (t[27] = T),
+        (t[28] = D),
+        (t[29] = O),
+        (t[30] = k),
+        (t[31] = j))
+      : (j = t[31]),
+    j
+  );
+}
+function mi(e) {
+  let t = (0, W.c)(15),
+    { automation: n } = e,
+    r = R(),
+    i = x(L);
+  if (n == null) return null;
+  let a;
+  t[0] !== n.id || t[1] !== n.name || t[2] !== i
+    ? ((a = () => {
+        Ne({ scope: i, automationId: n.id, title: n.name });
+      }),
+      (t[0] = n.id),
+      (t[1] = n.name),
+      (t[2] = i),
+      (t[3] = a))
+    : (a = t[3]);
+  let o = a,
+    s;
+  t[4] === n ? (s = t[5]) : ((s = (0, G.jsx)(hi, { automation: n })), (t[4] = n), (t[5] = s));
+  let c;
+  t[6] === r
+    ? (c = t[7])
+    : ((c = r.formatMessage({
+        id: `localConversation.header.openHeartbeatAutomation`,
+        defaultMessage: `Open scheduled task`,
+        description: `Accessible label for opening the scheduled task attached to the current thread`,
+      })),
+      (t[6] = r),
+      (t[7] = c));
+  let l;
+  t[8] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((l = (0, G.jsx)(ie, { className: `icon-xs` })), (t[8] = l))
+    : (l = t[8]);
+  let u;
+  t[9] !== o || t[10] !== c
+    ? ((u = (0, G.jsx)(Mn, {
+        size: `icon`,
+        color: `ghost`,
+        className: `no-drag h-6 w-6 shrink-0 rounded-md !p-1 text-token-description-foreground hover:text-token-foreground`,
+        "aria-label": c,
+        onClick: o,
+        children: l,
+      })),
+      (t[9] = o),
+      (t[10] = c),
+      (t[11] = u))
+    : (u = t[11]);
+  let d;
+  return (
+    t[12] !== s || t[13] !== u
+      ? ((d = (0, G.jsx)(nt, { tooltipContent: s, delayOpen: !0, children: u })),
+        (t[12] = s),
+        (t[13] = u),
+        (t[14] = d))
+      : (d = t[14]),
+    d
+  );
+}
+function hi(e) {
+  let t = (0, W.c)(6),
+    { automation: n } = e,
+    r = R(),
+    i;
+  t[0] !== n.nextRunAt || t[1] !== n.status || t[2] !== r
+    ? ((i = ze({ intl: r, nextRunAt: n.nextRunAt, status: n.status })),
+      (t[0] = n.nextRunAt),
+      (t[1] = n.status),
+      (t[2] = r),
+      (t[3] = i))
+    : (i = t[3]);
+  let a;
+  return (
+    t[4] === i
+      ? (a = t[5])
+      : ((a = (0, G.jsx)(P, {
+          id: `localConversation.header.heartbeatAutomationNextRun`,
+          defaultMessage: `Next run: {nextRunLabel}`,
+          description: `Tooltip shown on the thread header heartbeat automation button`,
+          values: { nextRunLabel: i },
+        })),
+        (t[4] = i),
+        (t[5] = a)),
+    a
+  );
+}
+var W,
+  G,
+  gi = e(() => {
+    ((W = s()),
+      m(),
+      u(),
+      n(),
+      z(),
+      F(),
+      je(),
+      $n(),
+      D(),
+      jn(),
+      _t(),
+      ne(),
+      I(),
+      l(),
+      p(),
+      Qr(),
+      qr(),
+      Tr(),
+      (G = S()));
+  });
+function _i(e) {
+  let t = (0, vi.c)(37),
+    { expanded: n, headerLabel: r, isTurnInProgress: i, onExpandedChange: a, threadPreview: o } = e,
+    s;
+  t[0] !== n || t[1] !== a ? ((s = () => a(!n)), (t[0] = n), (t[1] = a), (t[2] = s)) : (s = t[2]);
+  let c;
+  t[3] !== r || t[4] !== i
+    ? ((c =
+        r ??
+        (i
+          ? (0, K.jsx)(P, {
+              id: `composer.latestTurn.working`,
+              defaultMessage: `Working`,
+              description: `Heading shown above the composer when the latest thread turn is still in progress`,
+            })
+          : (0, K.jsx)(P, {
+              id: `composer.latestTurn`,
+              defaultMessage: `Latest turn`,
+              description: `Heading shown above the latest thread turn preview above the composer`,
+            }))),
+      (t[3] = r),
+      (t[4] = i),
+      (t[5] = c))
+    : (c = t[5]);
+  let l;
+  t[6] === c
+    ? (l = t[7])
+    : ((l = (0, K.jsx)(`span`, {
+        className: `text-size-chat min-w-0 truncate leading-4 text-token-description-foreground`,
+        children: c,
+      })),
+      (t[6] = c),
+      (t[7] = l));
+  let u = n && `rotate-90`,
+    d;
+  t[8] === u
+    ? (d = t[9])
+    : ((d = Qt(`icon-2xs text-current transition-transform duration-300`, u)),
+      (t[8] = u),
+      (t[9] = d));
+  let f;
+  t[10] === d
+    ? (f = t[11])
+    : ((f = (0, K.jsx)(`span`, {
+        className: `no-drag flex items-center justify-center gap-1 rounded-full border border-token-border border-transparent p-0.5 whitespace-nowrap text-token-description-foreground select-none electron:rounded-md electron:p-1`,
+        children: (0, K.jsx)(dt, { className: d, "aria-hidden": !0 }),
+      })),
+      (t[10] = d),
+      (t[11] = f));
+  let p;
+  t[12] !== n || t[13] !== s || t[14] !== l || t[15] !== f
+    ? ((p = (0, K.jsxs)(`button`, {
+        type: `button`,
+        className: `flex w-full cursor-interaction items-center justify-between gap-2 px-3 py-row-y text-left focus:outline-none focus-visible:ring-1 focus-visible:ring-token-focus-border focus-visible:ring-inset`,
+        "aria-expanded": n,
+        onClick: s,
+        children: [l, f],
+      })),
+      (t[12] = n),
+      (t[13] = s),
+      (t[14] = l),
+      (t[15] = f),
+      (t[16] = p))
+    : (p = t[16]);
+  let m = n ? `auto` : 0,
+    h = n ? 1 : 0,
+    g;
+  t[17] !== m || t[18] !== h
+    ? ((g = { height: m, opacity: h }), (t[17] = m), (t[18] = h), (t[19] = g))
+    : (g = t[19]);
+  let _ = n ? `overflow-visible` : `overflow-hidden`,
+    v = n ? `auto` : `none`,
+    y;
+  t[20] === v ? (y = t[21]) : ((y = { pointerEvents: v }), (t[20] = v), (t[21] = y));
+  let b;
+  t[22] === o
+    ? (b = t[23])
+    : ((b = [{ key: `latest-turn-preview`, node: o }]), (t[22] = o), (t[23] = b));
+  let x;
+  t[24] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((x = { preview: `18rem`, expanded: `18rem`, collapsed: `0px` }), (t[24] = x))
+    : (x = t[24]);
+  let S = n ? `expanded` : `collapsed`,
+    C;
+  t[25] !== n || t[26] !== b || t[27] !== S
+    ? ((C = (0, K.jsx)(oe, {
+        items: b,
+        autoScrollToBottom: n,
+        className: `px-3 pt-0.5 pb-3 [--edge-fade-distance:1rem]`,
+        contentClassName: `gap-0`,
+        maxHeightByState: x,
+        viewState: S,
+      })),
+      (t[25] = n),
+      (t[26] = b),
+      (t[27] = S),
+      (t[28] = C))
+    : (C = t[28]);
+  let w;
+  t[29] !== g || t[30] !== _ || t[31] !== y || t[32] !== C
+    ? ((w = (0, K.jsx)(it.div, {
+        initial: !1,
+        animate: g,
+        transition: pt,
+        className: _,
+        style: y,
+        children: C,
+      })),
+      (t[29] = g),
+      (t[30] = _),
+      (t[31] = y),
+      (t[32] = C),
+      (t[33] = w))
+    : (w = t[33]);
+  let T;
+  return (
+    t[34] !== w || t[35] !== p
+      ? ((T = (0, K.jsxs)(Pn, { children: [p, w] })), (t[34] = w), (t[35] = p), (t[36] = T))
+      : (T = t[36]),
+    T
+  );
+}
+var vi,
+  K,
+  yi = e(() => {
+    ((vi = s()), nn(), ot(), z(), pe(), mt(), rt(), Rn(), (K = S()));
+  });
+function bi(e) {
+  let t = (0, wi.c)(30),
+    { conversationId: n, cwd: r, expanded: i, hostId: a, isInProgress: o, onExpandedChange: s } = e,
+    c = Fe(),
+    l = _(It, n),
+    u = _(Yt, n),
+    d;
+  t[0] === a ? (d = t[1]) : ((d = { hostId: a }), (t[0] = a), (t[1] = d));
+  let { data: f } = Tn(d),
+    p = f === void 0 ? Ei : f,
+    m = l?.turnId ?? null,
+    h;
+  bb0: {
+    if (u == null || m == null) {
+      h = Ti;
+      break bb0;
+    }
+    let e;
+    if (t[2] !== u || t[3] !== m) {
+      let n;
+      (t[5] === m
+        ? (n = t[6])
+        : ((n = (e) => `turnId` in e.params && e.params.turnId === m), (t[5] = m), (t[6] = n)),
+        (e = u.filter(n)),
+        (t[2] = u),
+        (t[3] = m),
+        (t[4] = e));
+    } else e = t[4];
+    h = e;
+  }
+  let g = h,
+    v;
+  bb1: {
+    if (l == null) {
+      v = null;
+      break bb1;
+    }
+    let e;
+    (t[7] !== c || t[8] !== l || t[9] !== g
+      ? ((e = Kt(l, g, { isBackgroundSubagentsEnabled: c })),
+        (t[7] = c),
+        (t[8] = l),
+        (t[9] = g),
+        (t[10] = e))
+      : (e = t[10]),
+      (v = e));
+  }
+  let y = v,
+    b;
+  bb2: {
+    if (y == null) {
+      b = null;
+      break bb2;
+    }
+    let e;
+    (t[11] !== o || t[12] !== y
+      ? ((e = xi({ isInProgress: o, latestTurnState: y })), (t[11] = o), (t[12] = y), (t[13] = e))
+      : (e = t[13]),
+      (b = e));
+  }
+  let x = b;
+  if (l == null || y == null) return null;
+  let S;
+  t[14] !== l || t[15] !== x
+    ? ((S =
+        x == null
+          ? void 0
+          : (0, q.jsx)(Xe, {
+              collapsedMessageCount: x.collapsedMessageCount,
+              workedDurationMs: Ft(l) ? null : (l.durationMs ?? null),
+              workedForItem: x.workedForItem,
+              className: `text-token-description-foreground`,
+            })),
+      (t[14] = l),
+      (t[15] = x),
+      (t[16] = S))
+    : (S = t[16]);
+  let C;
+  t[17] !== p || t[18] !== n || t[19] !== r || t[20] !== a || t[21] !== l || t[22] !== y
+    ? ((C = (0, q.jsx)(Ee, {
+        conversationId: n,
+        hostId: a,
+        turnSearchKey: `expanded-review-composer-preview`,
+        turn: l,
+        turnState: y,
+        cwd: r,
+        isMostRecentTurn: !0,
+        resolvedApps: p,
+        startAfterTurnIntro: !0,
+        showInProgressFixedContent: !1,
+      })),
+      (t[17] = p),
+      (t[18] = n),
+      (t[19] = r),
+      (t[20] = a),
+      (t[21] = l),
+      (t[22] = y),
+      (t[23] = C))
+    : (C = t[23]);
+  let w;
+  return (
+    t[24] !== i || t[25] !== o || t[26] !== s || t[27] !== S || t[28] !== C
+      ? ((w = (0, q.jsx)(_i, {
+          expanded: i,
+          headerLabel: S,
+          isTurnInProgress: o,
+          onExpandedChange: s,
+          threadPreview: C,
+        })),
+        (t[24] = i),
+        (t[25] = o),
+        (t[26] = s),
+        (t[27] = S),
+        (t[28] = C),
+        (t[29] = w))
+      : (w = t[29]),
+    w
+  );
+}
+function xi({ isInProgress: e, latestTurnState: t }) {
+  let n = Ci(t.items),
+    { agentItems: r, assistantItem: i, proposedPlanItem: a } = he(ee(t.items), t.status),
+    { renderableAgentItems: o } = xe({
+      agentItems: r,
+      isTurnInProgress: e,
+      isAnyNonAgentItemInProgress: le(i) || le(a),
+    }),
+    s = Si(o);
+  return e && n != null
+    ? {
+        collapsedMessageCount: s,
+        workedForItem: {
+          type: `worked-for`,
+          status: `working`,
+          startedAtMs: n.startedAtMs,
+          completedAtMs: null,
+        },
+      }
+    : s === 0
+      ? null
+      : { collapsedMessageCount: s, workedForItem: null };
+}
+function Si(e) {
+  return e.filter((e) => e.kind !== `item` || e.item.type !== `worked-for`).length;
+}
+function Ci(e) {
+  for (let t of e) if (t.type === `worked-for`) return t;
+  return null;
+}
+var wi,
+  q,
+  Ti,
+  Ei,
+  Di = e(() => {
+    ((wi = s()),
+      u(),
+      F(),
+      yi(),
+      Le(),
+      On(),
+      de(),
+      Je(),
+      en(),
+      re(),
+      ge(),
+      Be(),
+      _e(),
+      Wt(),
+      (q = S()),
+      (Ti = []),
+      (Ei = []));
+  });
+function Oi(e) {
+  let t = (0, ki.c)(3),
+    { conversationId: n } = e,
+    r = y(Oe) ?? n,
+    i = _(zt, r) ?? null,
+    a = _(Zt, r) ?? null,
+    o;
+  return (
+    t[0] !== i || t[1] !== a
+      ? ((o = (0, Ai.jsx)(dn, { lastTurnCwd: a, lastTurnDiff: i })),
+        (t[0] = i),
+        (t[1] = a),
+        (t[2] = o))
+      : (o = t[2]),
+    o
+  );
+}
+var ki,
+  Ai,
+  ji = e(() => {
+    ((ki = s()), u(), F(), ke(), mn(), (Ai = S()));
+  });
+function Mi(e) {
+  let { conversationId: t } = e;
+  return (Fr(t, _(N, t) ?? !1), null);
+}
+var Ni = e(() => {
+  (u(), F(), kr());
+});
+function Pi(e) {
+  let t = (0, J.c)(21),
+    { requestedConversationId: n, requestedDisplayName: r, onSelect: i } = e,
+    { backgroundAgents: a } = vr(!1),
+    o,
+    s;
+  if (t[0] !== a || t[1] !== i || t[2] !== n || t[3] !== r) {
+    s = Symbol.for(`react.early_return_sentinel`);
+    bb0: if (((o = a.filter(Fi)), n != null)) {
+      let e =
+          o.find((e) => {
+            let { conversationId: t } = e;
+            return t === n;
+          })?.displayName ??
+          r ??
+          ``,
+        a;
+      t[6] === i ? (a = t[7]) : ((a = () => i(null, null)), (t[6] = i), (t[7] = a));
+      let c;
+      t[8] !== e || t[9] !== n || t[10] !== a
+        ? ((c = (0, Y.jsx)(Bi, { conversationId: n, displayName: e, onBack: a })),
+          (t[8] = e),
+          (t[9] = n),
+          (t[10] = a),
+          (t[11] = c))
+        : (c = t[11]);
+      let l;
+      t[12] === i
+        ? (l = t[13])
+        : ((l = (e) => i(e.conversationId, e.displayName)), (t[12] = i), (t[13] = l));
+      let u;
+      (t[14] !== n || t[15] !== c || t[16] !== l
+        ? ((u = (0, Y.jsx)(Lr, { conversationId: n, header: c, onOpenBackgroundAgent: l })),
+          (t[14] = n),
+          (t[15] = c),
+          (t[16] = l),
+          (t[17] = u))
+        : (u = t[17]),
+        (s = u));
+      break bb0;
+    }
+    ((t[0] = a), (t[1] = i), (t[2] = n), (t[3] = r), (t[4] = o), (t[5] = s));
+  } else ((o = t[4]), (s = t[5]));
+  if (s !== Symbol.for(`react.early_return_sentinel`)) return s;
+  let c;
+  return (
+    t[18] !== i || t[19] !== o
+      ? ((c = (0, Y.jsx)(Ii, { subagents: o, onSelect: i })), (t[18] = i), (t[19] = o), (t[20] = c))
+      : (c = t[20]),
+    c
+  );
+}
+function Fi(e) {
+  let { showInlineActivity: t } = e;
+  return t;
+}
+function Ii(e) {
+  let t = (0, J.c)(18),
+    { subagents: n, onSelect: r } = e,
+    i;
+  t[0] === n ? (i = t[1]) : ((i = n.filter(Ri)), (t[0] = n), (t[1] = i));
+  let a = i,
+    o;
+  t[2] === n ? (o = t[3]) : ((o = n.filter(Li)), (t[2] = n), (t[3] = o));
+  let s = o,
+    c,
+    l;
+  t[4] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((c = (0, Y.jsx)(P, {
+        id: `localConversation.subagentsPanel.active`,
+        defaultMessage: `Active`,
+        description: `Heading for active subagents in the subagents side panel`,
+      })),
+      (l = (0, Y.jsx)(P, {
+        id: `localConversation.subagentsPanel.noActive`,
+        defaultMessage: `No active subagents`,
+        description: `Empty state for the active subagents section`,
+      })),
+      (t[4] = c),
+      (t[5] = l))
+    : ((c = t[4]), (l = t[5]));
+  let u;
+  t[6] !== a || t[7] !== r
+    ? ((u = (0, Y.jsx)(zi, { title: c, emptyState: l, subagents: a, onSelect: r })),
+      (t[6] = a),
+      (t[7] = r),
+      (t[8] = u))
+    : (u = t[8]);
+  let d;
+  t[9] === s.length
+    ? (d = t[10])
+    : ((d = (0, Y.jsx)(P, {
+        id: `localConversation.subagentsPanel.done`,
+        defaultMessage: `Done · {count}`,
+        description: `Heading and count for completed subagents in the subagents side panel`,
+        values: { count: s.length },
+      })),
+      (t[9] = s.length),
+      (t[10] = d));
+  let f;
+  t[11] !== s || t[12] !== r || t[13] !== d
+    ? ((f = (0, Y.jsx)(zi, { className: `mt-6`, title: d, subagents: s, onSelect: r })),
+      (t[11] = s),
+      (t[12] = r),
+      (t[13] = d),
+      (t[14] = f))
+    : (f = t[14]);
+  let p;
+  return (
+    t[15] !== u || t[16] !== f
+      ? ((p = (0, Y.jsxs)(`div`, {
+          className: `h-full min-h-0 overflow-y-auto px-3 py-5`,
+          children: [u, f],
+        })),
+        (t[15] = u),
+        (t[16] = f),
+        (t[17] = p))
+      : (p = t[17]),
+    p
+  );
+}
+function Li(e) {
+  let { status: t } = e;
+  return t === `done`;
+}
+function Ri(e) {
+  let { status: t } = e;
+  return t !== `done`;
+}
+function zi(e) {
+  let t = (0, J.c)(10),
+    { className: n, title: r, emptyState: i, subagents: a, onSelect: o } = e;
+  if (a.length === 0 && i == null) return null;
+  let s;
+  t[0] === r
+    ? (s = t[1])
+    : ((s = (0, Y.jsx)(`h2`, { className: `mb-2 text-sm text-token-text-tertiary`, children: r })),
+      (t[0] = r),
+      (t[1] = s));
+  let c;
+  t[2] !== i || t[3] !== o || t[4] !== a
+    ? ((c =
+        a.length === 0
+          ? (0, Y.jsx)(`div`, { className: `py-1 text-sm text-token-text-tertiary`, children: i })
+          : (0, Y.jsx)(`div`, {
+              className: `flex flex-col gap-0.5`,
+              children: a.map((e) =>
+                (0, Y.jsxs)(
+                  `button`,
+                  {
+                    type: `button`,
+                    className: `flex min-h-8 w-full cursor-interaction items-center gap-2 rounded-md px-1 text-start hover:bg-token-bg-secondary`,
+                    onClick: () => o(e.conversationId, e.displayName),
+                    children: [
+                      (0, Y.jsx)(A, {
+                        seed: e.conversationId,
+                        className: `size-6`,
+                        "aria-hidden": !0,
+                      }),
+                      (0, Y.jsx)(`span`, {
+                        className: `min-w-0 flex-1 truncate text-sm text-token-foreground`,
+                        children: e.displayName,
+                      }),
+                    ],
+                  },
+                  e.conversationId,
+                ),
+              ),
+            })),
+      (t[2] = i),
+      (t[3] = o),
+      (t[4] = a),
+      (t[5] = c))
+    : (c = t[5]);
+  let l;
+  return (
+    t[6] !== n || t[7] !== s || t[8] !== c
+      ? ((l = (0, Y.jsxs)(`section`, { className: n, children: [s, c] })),
+        (t[6] = n),
+        (t[7] = s),
+        (t[8] = c),
+        (t[9] = l))
+      : (l = t[9]),
+    l
+  );
+}
+function Bi(e) {
+  let t = (0, J.c)(14),
+    { conversationId: n, displayName: r, onBack: i } = e,
+    a = R(),
+    o;
+  t[0] === a
+    ? (o = t[1])
+    : ((o = a.formatMessage({
+        id: `localConversation.subagentsPanel.back`,
+        defaultMessage: `Back to subagents`,
+        description: `Accessible label for returning from a subagent transcript to the subagent list`,
+      })),
+      (t[0] = a),
+      (t[1] = o));
+  let s;
+  t[2] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((s = (0, Y.jsx)(Cn, { className: `icon-xs` })), (t[2] = s))
+    : (s = t[2]);
+  let c;
+  t[3] !== i || t[4] !== o
+    ? ((c = (0, Y.jsx)(`button`, {
+        type: `button`,
+        className: `flex size-6 cursor-interaction items-center justify-center rounded-md text-token-text-secondary hover:bg-token-bg-secondary hover:text-token-foreground`,
+        "aria-label": o,
+        onClick: i,
+        children: s,
+      })),
+      (t[3] = i),
+      (t[4] = o),
+      (t[5] = c))
+    : (c = t[5]);
+  let l;
+  t[6] === n
+    ? (l = t[7])
+    : ((l = (0, Y.jsx)(A, { seed: n, className: `size-6`, "aria-hidden": !0 })),
+      (t[6] = n),
+      (t[7] = l));
+  let u;
+  t[8] === r
+    ? (u = t[9])
+    : ((u = (0, Y.jsx)(`span`, {
+        className: `min-w-0 flex-1 truncate text-sm font-medium`,
+        children: r,
+      })),
+      (t[8] = r),
+      (t[9] = u));
+  let d;
+  return (
+    t[10] !== c || t[11] !== l || t[12] !== u
+      ? ((d = (0, Y.jsxs)(`div`, {
+          className: `flex h-12 shrink-0 items-center gap-2 border-b border-token-border-light px-4`,
+          children: [c, l, u],
+        })),
+        (t[10] = c),
+        (t[11] = l),
+        (t[12] = u),
+        (t[13] = d))
+      : (d = t[13]),
+    d
+  );
+}
+var J,
+  Y,
+  Vi = e(() => {
+    ((J = s()), z(), xn(), et(), Er(), Dr(), (Y = S()));
+  });
+async function Hi(
+  e,
+  {
+    hostId: t,
+    parentConversationId: n,
+    selectedConversationId: r = null,
+    selectedDisplayName: i = null,
+  },
+) {
+  (r != null &&
+    !(await Ui(e, { hostId: t, parentConversationId: n, selectedConversationId: r }))) ||
+    Ve.openTab(e, Pi, {
+      icon: (0, Wi.jsx)(Wn, { className: `icon-sm` }),
+      id: `subagents:${n}`,
+      title: e
+        .get(O)
+        .formatMessage({
+          id: `localConversation.subagentsPanel.title`,
+          defaultMessage: `Subagents`,
+          description: `Title for the subagents right side panel tab`,
+        }),
+      props: {
+        requestedConversationId: r,
+        requestedDisplayName: i,
+        onSelect: (r, i) => {
+          Hi(e, {
+            hostId: t,
+            parentConversationId: n,
+            selectedConversationId: r,
+            selectedDisplayName: i,
+          });
+        },
+      },
+    });
+}
+async function Ui(e, { hostId: t, parentConversationId: n, selectedConversationId: r }) {
+  if (r === n) return !1;
+  let i = new Set(),
+    a = r,
+    o = 0;
+  for (; a !== n;) {
+    if (i.has(a)) return !1;
+    i.add(a);
+    let n = o < 2;
+    if (
+      ((n || !e.get(N, a) || e.get(bt, a) == null) &&
+        (await $t(`hydrate-background-threads`, { hostId: t, includeTurns: n, threadIds: [a] })),
+      !e.get(N, a))
+    )
+      return !1;
+    let r = e.get(bt, a);
+    if (r == null) return !1;
+    ((a = r), (o += 1));
+  }
+  return (
+    await $t(`hydrate-background-threads`, { hostId: t, includeTurns: !0, threadIds: [n] }), !0
+  );
+}
+var Wi,
+  Gi = e(() => {
+    (F(), Ut(), ve(), Un(), Se(), Vi(), (Wi = S()));
+  });
+function Ki({ conversationId: e }) {
+  let t = x(L),
+    n = _(yt, e),
+    r = i(n),
+    a = y(k),
+    o = y(Ve.activeTab$),
+    s = y(j),
+    c = y(Te);
+  un((e) => ue(t, e));
+  let l = s && c,
+    u = l && o?.tabId === vt.DIFF && a.kind === `git`,
+    d = !l,
+    f = jr({ activeTabId: o?.tabId ?? null, isRightPanelExpanded: l }),
+    [p, m] = (0, Qi.useState)(null),
+    h = gt((r) => {
+      if (r.showInlineActivity === !0) {
+        Hi(t, {
+          hostId: n,
+          parentConversationId: e,
+          selectedConversationId: r.conversationId,
+          selectedDisplayName: r.displayName,
+        });
+        return;
+      }
+      Ar(t, { backgroundAgent: r, hostId: n, TabComponent: Hr });
+    }),
+    g = (0, X.jsx)(Nr, {
+      conversationId: e,
+      onOpenBackgroundAgent: h,
+      showExternalFooter: !1,
+      showComposer: d,
+    });
+  return (0, X.jsx)(In, {
+    value: p,
+    children: (0, X.jsxs)(`div`, {
+      ref: m,
+      className: `relative h-full min-h-0`,
+      children: [
+        (0, X.jsx)(ri, { conversationId: e }),
+        u ? (0, X.jsx)(Mi, { conversationId: e }) : null,
+        (0, X.jsx)(Oi, { conversationId: e }),
+        (0, X.jsx)(M.MainContentLayout, { layout: `thread-edge-scroll` }),
+        (0, X.jsx)(M.Header, { children: (0, X.jsx)(Yi, { conversationId: e }) }),
+        (0, X.jsx)(`div`, { className: `h-full min-h-0`, children: g }),
+        (0, X.jsx)($r, {
+          browserHostDisplayName: r.display_name,
+          conversationId: e,
+          threadType: `local`,
+        }),
+        null,
+        (0, X.jsx)(qi, { onOpenBackgroundAgent: h }),
+        f ? (0, X.jsx)(Xi, { conversationId: e }, e) : null,
+      ],
+    }),
+  });
+}
+function qi(e) {
+  let t = (0, Zi.c)(15),
+    { onOpenBackgroundAgent: n } = e,
+    r = x(L);
+  yr(r);
+  let i = R(),
+    a = y(ae),
+    o = y(B),
+    s = _(Sn, `togglePinnedSummary`),
+    c;
+  t[0] === i
+    ? (c = t[1])
+    : ((c = i.formatMessage({
+        id: `localConversation.summaryPanel.toggle`,
+        defaultMessage: `Toggle summary`,
+        description: `Button label for toggling the local thread summary panel`,
+      })),
+      (t[0] = i),
+      (t[1] = c));
+  let l = c,
+    u;
+  t[2] === i
+    ? (u = t[3])
+    : ((u = i.formatMessage({
+        id: `localConversation.summaryPanel.togglePinned`,
+        defaultMessage: `Toggle pinned summary`,
+        description: `Button label for toggling whether the local thread summary panel reserves layout space`,
+      })),
+      (t[2] = i),
+      (t[3] = u));
+  let d = u,
+    f;
+  (t[4] === r
+    ? (f = t[5])
+    : ((f = () => {
+        di(r);
+      }),
+      (t[4] = r),
+      (t[5] = f)),
+    vn(`togglePinnedSummary`, f));
+  let p;
+  return (
+    t[6] !== a ||
+    t[7] !== n ||
+    t[8] !== o.displayMode ||
+    t[9] !== o.isPopoverOpen ||
+    t[10] !== r ||
+    t[11] !== s ||
+    t[12] !== d ||
+    t[13] !== l
+      ? ((p = (0, X.jsx)(M.HeaderAction, {
+          actionId: `local-thread-summary-panel-toggle`,
+          align: `end`,
+          order: 250,
+          children:
+            o.displayMode === `overlay`
+              ? (0, X.jsx)(oi, {
+                  isOpen: o.isPopoverOpen,
+                  onOpenChange: (e) => {
+                    r.set(B, (t) =>
+                      t.displayMode !== `overlay` || t.isPopoverOpen === e
+                        ? t
+                        : { ...t, isPopoverOpen: e },
+                    );
+                  },
+                  trigger: (0, X.jsx)(Sr.HeaderButton, {
+                    label: l,
+                    pressed: o.isPopoverOpen,
+                    shortcut: s,
+                  }),
+                  children: (0, X.jsx)(Ji, { onOpenBackgroundAgent: n }),
+                })
+              : (0, X.jsx)(Sr.HeaderButton, {
+                  label: d,
+                  pressed: a,
+                  shortcut: s,
+                  onClick: () => di(r),
+                }),
+        })),
+        (t[6] = a),
+        (t[7] = n),
+        (t[8] = o.displayMode),
+        (t[9] = o.isPopoverOpen),
+        (t[10] = r),
+        (t[11] = s),
+        (t[12] = d),
+        (t[13] = l),
+        (t[14] = p))
+      : (p = t[14]),
+    p
+  );
+}
+function Ji(e) {
+  let t = (0, Zi.c)(3),
+    { onOpenBackgroundAgent: n } = e,
+    r = vr(),
+    i;
+  return (
+    t[0] !== r || t[1] !== n
+      ? ((i = (0, X.jsx)(_r, { ...r, onOpenBackgroundAgent: n })),
+        (t[0] = r),
+        (t[1] = n),
+        (t[2] = i))
+      : (i = t[2]),
+    i
+  );
+}
+function Yi({ conversationId: e }) {
+  let t = x(o),
+    n = Fe(),
+    r = _(N, e),
+    i = _(De, e),
+    a = _(Bt, e),
+    s = _(Ht, e),
+    c = ct(s) ? s : null,
+    l = Gt(_(Ot, e)),
+    u = l?.parentThreadId == null,
+    d = n ? l : null,
+    f = _(Vt, e) === `projectless`,
+    p = _(Ct, e),
+    m = _(Vn, Dn(l?.parentThreadId ?? e)),
+    h = f ? null : (m?.projectId ?? p),
+    g = h == null ? null : zn(p ?? h, m?.label),
+    v = Kn(h ?? ``),
+    y =
+      g == null
+        ? null
+        : (0, X.jsx)(Xn, {
+            className: `icon-sm mr-0.5 -ml-0.5`,
+            isRemoteProject: m?.projectKind === `remote`,
+          }),
+    b = d?.parentThreadId ?? null,
+    S = d == null ? null : Wr({ agentNickname: d.agentNickname, conversationId: e }),
+    C =
+      b != null && S != null
+        ? (0, X.jsxs)(`span`, {
+            className: `ml-1 flex shrink-0 items-center gap-1 font-medium`,
+            children: [
+              (0, X.jsx)(qe, { className: `icon-2xs`, seed: e, "aria-hidden": !0 }),
+              (0, X.jsx)(`span`, { children: S }),
+            ],
+          })
+        : null,
+    w = d?.agentRole == null || d.agentRole === `default` ? null : `(${d.agentRole})`,
+    T =
+      w == null
+        ? null
+        : (0, X.jsx)(`span`, {
+            className: `ml-1 shrink-0 text-token-description-foreground`,
+            children: w,
+          }),
+    E =
+      b == null || a == null
+        ? null
+        : (0, X.jsxs)(`span`, {
+            className: `ml-1 shrink-0 text-token-description-foreground`,
+            children: [
+              at(a),
+              c == null
+                ? null
+                : (0, X.jsxs)(X.Fragment, { children: [` (`, (0, X.jsx)(ft, { effort: c }), `)`] }),
+            ],
+          }),
+    D = _(an, e);
+  return (0, X.jsx)(pi, {
+    conversationId: r ? e : null,
+    markdownParentConversationId: b,
+    title: i,
+    titleSuffix:
+      C == null && T == null && E == null ? null : (0, X.jsxs)(X.Fragment, { children: [C, T, E] }),
+    projectIcon:
+      v == null
+        ? y
+        : (0, X.jsx)(hn, { appearance: v, className: `size-5 [&>svg]:size-5`, fallbackIcon: y }),
+    projectHoverCardContent: m == null ? null : (0, X.jsx)(Qn, { group: m }),
+    projectName: g,
+    cwd: p,
+    getConversationMarkdown: async () => {
+      if (!r) return null;
+      let { visibleTurnEntries: a } = t.get(Mr, {
+        conversationId: e,
+        isBackgroundSubagentsEnabled: n,
+      });
+      return Or({
+        cwd: p,
+        isBackgroundSubagentsEnabled: n,
+        projectlessOutputDirectory: D,
+        title: i,
+        visibleTurnEntries: a,
+      });
+    },
+    canPin: u,
+    hideForkActions: f,
+  });
+}
+function Xi(e) {
+  let t = (0, Zi.c)(16),
+    { conversationId: n } = e,
+    r = x(L),
+    i = _(yt, n),
+    a = _(Ct, n),
+    o;
+  t[0] === a ? (o = t[1]) : ((o = a ? g(a) : null), (t[0] = a), (t[1] = o));
+  let s = o,
+    c = _(Ue, n),
+    l = _(tn, n) ?? !1;
+  (_(Nt, n), _(on, n));
+  let u = l || !1,
+    d = _(N, n),
+    [f, p] = (0, Qi.useState)(!1);
+  if (!d) return null;
+  let m;
+  t[2] === Symbol.for(`react.memo_cache_sentinel`) ? ((m = () => p(!1)), (t[2] = m)) : (m = t[2]);
+  let h;
+  t[3] === r ? (h = t[4]) : ((h = St(r) ?? void 0), (t[3] = r), (t[4] = h));
+  let v;
+  t[5] !== n || t[6] !== s || t[7] !== i || t[8] !== u || t[9] !== f
+    ? ((v = (0, X.jsx)(bi, {
+        conversationId: n,
+        cwd: s,
+        expanded: f,
+        hostId: i,
+        isInProgress: u,
+        onExpandedChange: p,
+      })),
+      (t[5] = n),
+      (t[6] = s),
+      (t[7] = i),
+      (t[8] = u),
+      (t[9] = f),
+      (t[10] = v))
+    : (v = t[10]);
+  let y;
+  return (
+    t[11] !== u || t[12] !== c || t[13] !== h || t[14] !== v
+      ? ((y = (0, X.jsx)(ir, {
+          onPointerDownOutside: m,
+          children: (0, X.jsx)(Ln, {
+            browserConversationId: h,
+            aboveComposerContentLayout: `header`,
+            aboveComposerContent: v,
+            isResponseInProgress: u,
+            composerLayoutMode: `auto-single-line`,
+            localWorkspaceMaterialization: c,
+            showFooterBranchWhen: `always`,
+          }),
+        })),
+        (t[11] = u),
+        (t[12] = c),
+        (t[13] = h),
+        (t[14] = v),
+        (t[15] = y))
+      : (y = t[15]),
+    y
+  );
+}
+var Zi,
+  Qi,
+  X,
+  $i = e(() => {
+    ((Zi = s()),
+      u(),
+      n(),
+      (Qi = t(r(), 1)),
+      z(),
+      F(),
+      Lt(),
+      wn(),
+      An(),
+      se(),
+      me(),
+      ve(),
+      be(),
+      Fn(),
+      Nn(),
+      ut(),
+      lt(),
+      Le(),
+      ai(),
+      gn(),
+      Gn(),
+      Yn(),
+      Ce(),
+      T(),
+      I(),
+      l(),
+      Zn(),
+      kn(),
+      Hn(),
+      jt(),
+      ln(),
+      Bn(),
+      rr(),
+      Zr(),
+      Pt(),
+      we(),
+      Ge(),
+      Pr(),
+      Cr(),
+      ui(),
+      wr(),
+      fi(),
+      br(),
+      Er(),
+      st(),
+      ht(),
+      Re(),
+      Gr(),
+      Kr(),
+      gi(),
+      Di(),
+      ji(),
+      Dr(),
+      Ir(),
+      zr(),
+      $e(),
+      Ni(),
+      Ur(),
+      Gi(),
+      (X = S()));
+  });
+function ea() {
+  let e = (0, Z.c)(5),
+    t = x(L);
+  if (t.value.routeKind === `local-thread`) {
+    let n;
+    return (
+      e[0] === t.value.conversationId
+        ? (n = e[1])
+        : ((n = (0, $.jsx)(ta, { conversationId: t.value.conversationId })),
+          (e[0] = t.value.conversationId),
+          (e[1] = n)),
+      n
+    );
+  }
+  let n;
+  return (
+    e[2] !== t.value.clientThreadId || e[3] !== t.value.routeKind
+      ? ((n =
+          t.value.routeKind === `client-local-thread`
+            ? (0, $.jsx)(na, { clientThreadId: t.value.clientThreadId })
+            : (0, $.jsx)(At, { to: `/` })),
+        (e[2] = t.value.clientThreadId),
+        (e[3] = t.value.routeKind),
+        (e[4] = n))
+      : (n = e[4]),
+    n
+  );
+}
+function ta({ conversationId: e }) {
+  let t = _(N, e),
+    n = _(Ct, e),
+    r = Dt(`567837310`),
+    i = ar(),
+    { isResuming: a } = Vr(r ? e : null),
+    { canOpenThreadInNewWindow: o, openThreadInNewWindow: s } = pn({ conversationId: e }),
+    c = (0, Q.useRef)(e),
+    l = (0, Q.useRef)(!1),
+    u = (0, Q.useRef)(null);
+  if (
+    (c.current !== e && ((c.current = e), (l.current = !1), (u.current = null)),
+    t && (l.current = !0),
+    n != null && (u.current = n),
+    vn(`openThreadInNewWindow`, s, { enabled: o }),
+    l.current && !t && !a)
+  )
+    return (0, $.jsx)(At, {
+      to: `/`,
+      replace: !0,
+      state: { focusComposerNonce: Date.now(), prefillCwd: u.current },
+    });
+  let d =
+    a || !t
+      ? (0, $.jsx)(rn, { debugName: `LocalConversationPage` })
+      : (0, $.jsx)(Ki, { conversationId: e });
+  return (0, $.jsxs)($.Fragment, {
+    children: [
+      (0, $.jsx)(gr, { conversationId: e }),
+      i ? (0, $.jsx)(ia, {}) : null,
+      (0, $.jsx)(hr, { conversationId: e }),
+      (0, $.jsx)(nr, {}),
+      (0, $.jsx)(sn.Surface, {}),
+      d,
+    ],
+  });
+}
+function na(e) {
+  let t = (0, Z.c)(13),
+    { clientThreadId: n } = e,
+    r = Et(),
+    i = _(Jt, n),
+    a = _(He, n);
+  if (i != null) {
+    let e;
+    t[0] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((e = (0, $.jsx)(M.MainContentLayout, { layout: `thread-edge-scroll` })), (t[0] = e))
+      : (e = t[0]);
+    let n;
+    t[1] === i.title
+      ? (n = t[2])
+      : ((n = (0, $.jsx)(M.Header, { children: (0, $.jsx)(Jn, { start: i.title }) })),
+        (t[1] = i.title),
+        (t[2] = n));
+    let a;
+    t[3] !== r || t[4] !== i.status
+      ? ((a = (0, $.jsx)(`div`, {
+          className: `h-full min-h-0`,
+          children:
+            i.status === `creating`
+              ? (0, $.jsx)(rn, { debugName: `PendingProjectlessLocalConversationPage` })
+              : (0, $.jsxs)(`div`, {
+                  className: `flex h-full flex-col items-center justify-center gap-4 p-6 text-center`,
+                  role: `alert`,
+                  children: [
+                    (0, $.jsx)(P, {
+                      id: `localConversation.pendingProjectless.failed`,
+                      defaultMessage: `Could not start this chat`,
+                      description: `Error shown when a pending projectless local conversation cannot be created`,
+                    }),
+                    (0, $.jsx)(Mn, {
+                      color: `secondary`,
+                      onClick: () => void r(-1),
+                      children: (0, $.jsx)(P, {
+                        id: `localConversation.pendingProjectless.back`,
+                        defaultMessage: `Go back`,
+                        description: `Button returning from a failed pending projectless local conversation`,
+                      }),
+                    }),
+                  ],
+                }),
+        })),
+        (t[3] = r),
+        (t[4] = i.status),
+        (t[5] = a))
+      : (a = t[5]);
+    let o;
+    return (
+      t[6] !== n || t[7] !== a
+        ? ((o = (0, $.jsxs)(`div`, { className: `relative h-full min-h-0`, children: [e, n, a] })),
+          (t[6] = n),
+          (t[7] = a),
+          (t[8] = o))
+        : (o = t[8]),
+      o
+    );
+  }
+  if (a == null) {
+    let e;
+    return (
+      t[9] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, $.jsx)(rn, { debugName: `PendingClientLocalConversationPage` })), (t[9] = e))
+        : (e = t[9]),
+      e
+    );
+  }
+  let o;
+  return (
+    t[10] !== a.hostId || t[11] !== a.id
+      ? ((o = (0, $.jsx)(ra, { hostId: a.hostId, pendingWorktreeId: a.id })),
+        (t[10] = a.hostId),
+        (t[11] = a.id),
+        (t[12] = o))
+      : (o = t[12]),
+    o
+  );
+}
+function ra(e) {
+  let t = (0, Z.c)(9),
+    { hostId: n, pendingWorktreeId: r } = e,
+    a = i(n),
+    o,
+    s;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((o = (0, $.jsx)(M.MainContentLayout, { layout: `thread-edge-scroll` })),
+      (s = (0, $.jsx)(M.Header, {})),
+      (t[0] = o),
+      (t[1] = s))
+    : ((o = t[0]), (s = t[1]));
+  let c;
+  t[2] === r
+    ? (c = t[3])
+    : ((c = (0, $.jsx)(`div`, {
+        className: `h-full min-h-0`,
+        children: (0, $.jsx)(Xr, { pendingWorktreeId: r, stayOnClientThread: !0 }),
+      })),
+      (t[2] = r),
+      (t[3] = c));
+  let l;
+  t[4] === a.display_name
+    ? (l = t[5])
+    : ((l = (0, $.jsx)($r, {
+        browserHostDisplayName: a.display_name,
+        conversationId: null,
+        threadType: `new`,
+      })),
+      (t[4] = a.display_name),
+      (t[5] = l));
+  let u;
+  return (
+    t[6] !== c || t[7] !== l
+      ? ((u = (0, $.jsxs)(`div`, { className: `relative h-full min-h-0`, children: [o, s, c, l] })),
+        (t[6] = c),
+        (t[7] = l),
+        (t[8] = u))
+      : (u = t[8]),
+    u
+  );
+}
+function ia() {
+  let e = (0, Z.c)(3),
+    t = x(L),
+    n,
+    r;
+  return (
+    e[0] === t
+      ? ((n = e[1]), (r = e[2]))
+      : ((n = () => {
+          let e = fr(),
+            n = t.watch((n) => {
+              let { get: r } = n;
+              sr(t, e, r(oa));
+            });
+          return () => {
+            (n(), ur(t, e));
+          };
+        }),
+        (r = [t]),
+        (e[0] = t),
+        (e[1] = n),
+        (e[2] = r)),
+    (0, Q.useEffect)(n, r),
+    null
+  );
+}
+var Z, Q, $, aa, oa;
+e(() => {
+  ((Z = s()),
+    u(),
+    (Q = t(r(), 1)),
+    z(),
+    kt(),
+    F(),
+    pr(),
+    An(),
+    se(),
+    jn(),
+    cn(),
+    lr(),
+    Rt(),
+    cr(),
+    I(),
+    Xt(),
+    l(),
+    xt(),
+    Zr(),
+    qn(),
+    tr(),
+    ye(),
+    Yr(),
+    $i(),
+    mr(),
+    Dr(),
+    fn(),
+    Rr(),
+    ($ = S()),
+    (aa = []),
+    (oa = w(L, ({ get: e, scope: t }) => {
+      let n = t.value.routeKind === `local-thread` ? t.value.conversationId : null,
+        r = e(Mt, n) ?? aa,
+        i = dr(r),
+        a = or(r);
+      return {
+        title: `Local conversation`,
+        lines: [
+          { label: `id`, value: n ?? `none` },
+          { label: `model`, value: e(Bt, n) ?? `unknown` },
+          { label: `reasoning`, value: e(Ht, n) ?? `unknown` },
+          { label: `rolloutPath`, value: e(wt, n) ?? `unknown` },
+          { label: `resumeState`, value: e(qt, n) ?? `unknown` },
+          { label: `cwd`, value: e(Ct, n) ?? `unknown` },
+          { label: `editedFileCount`, value: String(i.length) },
+          ...i.map((e, t) => ({ label: `editedFile[${t}]`, value: e })),
+          { label: `referencedFileCount`, value: String(a.length) },
+          ...a.map((e, t) => ({ label: `referencedFile[${t}]`, value: e })),
+        ],
+      };
+    })));
+})();
+export { ea as LocalConversationPage };
+//# sourceMappingURL=local-conversation-page.js.map

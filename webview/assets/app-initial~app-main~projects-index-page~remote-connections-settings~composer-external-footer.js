@@ -1,0 +1,481 @@
+import { n as e } from "./rolldown-runtime.js";
+import {
+  Bt as t,
+  G as n,
+  Tl as r,
+  W as i,
+  Xs as a,
+  ec as o,
+  vl as s,
+} from "./app-initial~app-main~worktree-init-v2-page~appgen-settings-page~page~appgen-publication-ter~fzo5ij6p.js";
+import { bn as c, yn as l } from "./app-initial~app-main~onboarding-page.js";
+import {
+  $ as u,
+  tt as d,
+} from "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~onboarding-page~project~okyna5mq.js";
+import {
+  An as f,
+  En as p,
+  Qs as m,
+  Rs as h,
+  Sn as g,
+  Xn as _,
+  Yn as v,
+  bn as y,
+  nx as b,
+  rx as x,
+  vx as S,
+  wx as C,
+  yx as w,
+} from "./app-initial~app-main~new-thread-panel-page.js";
+import {
+  nt as T,
+  tt as E,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~new-~djgpfzje.js";
+function D(e) {
+  let t = (0, O.c)(9),
+    n = o(p, e),
+    r = o(g, e),
+    i = o(f, e),
+    a = o(y, e),
+    s = o(_, e);
+  if (n == null) {
+    let e;
+    return (
+      t[0] !== i || t[1] !== a || t[2] !== s
+        ? ((e = { appServerVersion: i, error: a, installedCodexVersion: s, state: null }),
+          (t[0] = i),
+          (t[1] = a),
+          (t[2] = s),
+          (t[3] = e))
+        : (e = t[3]),
+      e
+    );
+  }
+  let c;
+  return (
+    t[4] !== i || t[5] !== a || t[6] !== s || t[7] !== r
+      ? ((c = { appServerVersion: i, error: a, installedCodexVersion: s, state: r }),
+        (t[4] = i),
+        (t[5] = a),
+        (t[6] = s),
+        (t[7] = r),
+        (t[8] = c))
+      : (c = t[8]),
+    c
+  );
+}
+var O,
+  k = e(() => {
+    ((O = r()), a(), v());
+  });
+function A(e, t) {
+  switch (t.code) {
+    case `remote-codex-not-found`:
+      return e.formatMessage({
+        id: `appServer.error.remoteCodexNotFound`,
+        defaultMessage: `Codex is not installed on this remote machine`,
+        description: `Error shown when an SSH remote connection is reachable but the Codex CLI is missing`,
+      });
+    case `login-required`:
+      return e.formatMessage({
+        id: `appServer.error.loginRequired`,
+        defaultMessage: `You are currently logged out.`,
+        description: `Error shown when a remote app-server connection requires the user to authenticate`,
+      });
+    case `restart-required`:
+      return t.currentVersion == null || t.installedVersion == null
+        ? e.formatMessage({
+            id: `appServer.error.genericRestartRequired`,
+            defaultMessage: `Something went wrong connecting to Codex. Try restarting`,
+            description: `Generic error shown when an app-server connection requires restarting but exact version details are unavailable`,
+          })
+        : e.formatMessage(
+            {
+              id: `appServer.error.restartAvailable`,
+              defaultMessage: `Restart now to update to {installedVersion}. Currently running {currentVersion}`,
+              description: `Error shown when a remote Codex update has been installed and the remote app-server needs a restart`,
+            },
+            { currentVersion: t.currentVersion, installedVersion: t.installedVersion },
+          );
+    case `update-required`:
+      return e.formatMessage(
+        {
+          id: `appServer.error.unsupportedVersion`,
+          defaultMessage: `Codex on this environment is out of date. Update to {minVersion} or newer. Current version: {currentVersion}`,
+          description: `Error shown when an app-server connection is rejected because the remote Codex version is too old`,
+        },
+        { minVersion: t.minRequiredVersion, currentVersion: t.currentVersion },
+      );
+    case `connection-failed`:
+      return t.message;
+  }
+}
+var j = e(() => {});
+function M(e, { canLogin: t, error: n, hostKind: r, state: i, surface: a }) {
+  let o = e.formatMessage(N(i, n));
+  if (i === `error` && n != null) {
+    let i = A(e, n);
+    switch (n.code) {
+      case `login-required`:
+        if (t)
+          return {
+            action: { kind: `login`, label: e.formatMessage(P.login) },
+            label: o,
+            message: i,
+          };
+        if (a === `connection-status-badge`) {
+          let t = e.formatMessage(P.goToSettings);
+          return { action: { kind: `settings`, label: t }, label: o, message: `${i} ${t}` };
+        }
+        return { action: null, label: o, message: i };
+      case `remote-codex-not-found`:
+        return {
+          action: {
+            kind: `install-codex`,
+            label: e.formatMessage(P.installCodex),
+            loadingLabel: e.formatMessage(P.installingCodex),
+          },
+          label: o,
+          message: i,
+        };
+      case `restart-required`:
+        return {
+          action: {
+            kind: `restart`,
+            label: e.formatMessage(P.restartNow),
+            tooltipText: e.formatMessage(P.restartNowTooltip),
+          },
+          label: o,
+          message: i,
+        };
+      case `update-required`:
+        return r === `wsl`
+          ? {
+              action: null,
+              label: o,
+              message: e.formatMessage(P.updateWslCodexMessage, {
+                currentVersion: n.currentVersion,
+                minRequiredVersion: n.minRequiredVersion,
+              }),
+            }
+          : a === `connections-row`
+            ? {
+                action: {
+                  kind: `install-codex`,
+                  label: e.formatMessage(P.updateCodex),
+                  loadingLabel: e.formatMessage(P.updatingCodex),
+                  tooltipText: e.formatMessage(P.restartNowTooltip),
+                },
+                label: o,
+                message: i,
+              }
+            : {
+                action: { kind: `settings`, label: e.formatMessage(P.goToSettings) },
+                label: o,
+                message: i,
+              };
+      case `connection-failed`:
+        return { action: null, label: o, message: i };
+    }
+  }
+  return { action: null, label: o, message: o };
+}
+function N(e, t) {
+  if (e === `error` && t != null)
+    switch (t.code) {
+      case `login-required`:
+        return P[`login-required`];
+      case `remote-codex-not-found`:
+        return P[`remote-codex-not-found`];
+      case `update-required`:
+        return P[`update-required`];
+      case `restart-required`:
+        return P[`restart-required`];
+      case `connection-failed`:
+        return P.error;
+    }
+  return F[e];
+}
+var P,
+  F,
+  I = e(() => {
+    (t(),
+      w(),
+      j(),
+      (P = S({
+        connecting: {
+          id: `threadPage.remoteConnectionStatusBadge.connecting`,
+          defaultMessage: `Connecting`,
+          description: `Label shown when remote connection is in progress`,
+        },
+        restarting: {
+          id: `threadPage.remoteConnectionStatusBadge.restarting`,
+          defaultMessage: `Restarting`,
+          description: `Label shown when a remote connection is restarting after a user action`,
+        },
+        "login-required": {
+          id: `threadPage.remoteConnectionStatusBadge.unauthed`,
+          defaultMessage: `Login required`,
+          description: `Label shown when remote connection needs authentication`,
+        },
+        "remote-codex-not-found": {
+          id: `threadPage.remoteConnectionStatusBadge.remoteCodexNotFound`,
+          defaultMessage: `Codex not installed`,
+          description: `Label shown when the Codex CLI is missing from an SSH remote connection`,
+        },
+        "update-required": {
+          id: `threadPage.remoteConnectionStatusBadge.updateRequired`,
+          defaultMessage: `Update required`,
+          description: `Label shown when remote connection needs a newer Codex version`,
+        },
+        "restart-required": {
+          id: `threadPage.remoteConnectionStatusBadge.restartRequired`,
+          defaultMessage: `Restart required`,
+          description: `Label shown when remote connection needs a restart to use a newer Codex version`,
+        },
+        restartNow: {
+          id: `threadPage.remoteConnectionStatusBadge.restartNow`,
+          defaultMessage: `Restart now`,
+          description: `Action label shown when remote Codex has a newer installed version and can be restarted`,
+        },
+        restartNowTooltip: {
+          id: `threadPage.remoteConnectionStatusBadge.restartNowTooltip`,
+          defaultMessage: `Restarting will kill the currently running Codex process and stop any ongoing chats on this remote host`,
+          description: `Tooltip warning for a remote Codex restart action`,
+        },
+        login: {
+          id: `threadPage.remoteConnectionStatusBadge.login`,
+          defaultMessage: `Log in to Codex`,
+          description: `Action label shown when a remote connection needs login`,
+        },
+        installCodex: {
+          id: `threadPage.remoteConnectionStatusBadge.installCodex`,
+          defaultMessage: `Install Codex`,
+          description: `Action label shown when the Codex CLI is missing from an SSH remote connection`,
+        },
+        installingCodex: {
+          id: `threadPage.remoteConnectionStatusBadge.installingCodex`,
+          defaultMessage: `Installing…`,
+          description: `Action label shown while Codex is being installed on an SSH remote connection`,
+        },
+        updateCodex: {
+          id: `threadPage.remoteConnectionStatusBadge.updateCodex`,
+          defaultMessage: `Update Codex`,
+          description: `Action label shown when an SSH remote connection needs a newer Codex version`,
+        },
+        updateWslCodexMessage: {
+          id: `threadPage.remoteConnectionStatusBadge.updateWslCodexMessage`,
+          defaultMessage: `Codex in WSL is out of date. Open your WSL distro and update Codex to {minRequiredVersion} or newer. Current version: {currentVersion}`,
+          description: `Tooltip message shown when a WSL connection needs a newer Codex version`,
+        },
+        updatingCodex: {
+          id: `threadPage.remoteConnectionStatusBadge.updatingCodex`,
+          defaultMessage: `Updating…`,
+          description: `Action label shown while Codex is being updated on an SSH remote connection`,
+        },
+        goToSettings: {
+          id: `threadPage.remoteConnectionStatusBadge.goToSettings`,
+          defaultMessage: `See Settings to connect`,
+          description: `Label shown for a remote connection settings action`,
+        },
+        connected: {
+          id: `threadPage.remoteConnectionStatusBadge.connected`,
+          defaultMessage: `Connected`,
+          description: `Label shown when remote connection is established`,
+        },
+        disconnected: {
+          id: `threadPage.remoteConnectionStatusBadge.disconnected`,
+          defaultMessage: `Disconnected`,
+          description: `Label shown when remote connection is unavailable`,
+        },
+        error: {
+          id: `threadPage.remoteConnectionStatusBadge.error`,
+          defaultMessage: `Error`,
+          description: `Label shown when remote connection is in error`,
+        },
+      })),
+      (F = {
+        connecting: P.connecting,
+        restarting: P.restarting,
+        connected: P.connected,
+        disconnected: P.disconnected,
+        error: P.error,
+      }));
+  });
+function L(e) {
+  let t = (0, R.c)(34),
+    { hostId: r, onLoginRequiredClick: i } = e,
+    a = C(),
+    o = m(),
+    { error: s, state: c } = D(r),
+    l = n(r);
+  if (c == null) return null;
+  let d =
+      s?.code === `update-required` ||
+      s?.code === `restart-required` ||
+      (s?.code === `login-required` && i == null),
+    f = s?.code === `login-required` && i != null,
+    p;
+  t[0] !== s || t[1] !== l.kind || t[2] !== a || t[3] !== f || t[4] !== c
+    ? ((p = M(a, {
+        canLogin: f,
+        error: s,
+        hostKind: l.kind,
+        state: c,
+        surface: `connection-status-badge`,
+      })),
+      (t[0] = s),
+      (t[1] = l.kind),
+      (t[2] = a),
+      (t[3] = f),
+      (t[4] = c),
+      (t[5] = p))
+    : (p = t[5]);
+  let { label: h, message: g } = p,
+    _;
+  t[6] === i
+    ? (_ = t[7])
+    : ((_ = (e) => {
+        (e.preventDefault(), e.stopPropagation(), i?.());
+      }),
+      (t[6] = i),
+      (t[7] = _));
+  let v = _,
+    y;
+  t[8] === o
+    ? (y = t[9])
+    : ((y = (e) => {
+        (e.preventDefault(), e.stopPropagation(), o(`/settings/connections`));
+      }),
+      (t[8] = o),
+      (t[9] = y));
+  let x = y,
+    S = V[c],
+    w;
+  t[10] === S.iconClassName
+    ? (w = t[11])
+    : ((w = b(`icon-2xs inline-flex shrink-0 items-center justify-center`, S.iconClassName)),
+      (t[10] = S.iconClassName),
+      (t[11] = w));
+  let T = B[c],
+    E;
+  t[12] !== w || t[13] !== T
+    ? ((E = (0, z.jsx)(`span`, { className: w, children: T })),
+      (t[12] = w),
+      (t[13] = T),
+      (t[14] = E))
+    : (E = t[14]);
+  let O = E;
+  if (d || f) {
+    let e = V[c],
+      n;
+    t[15] === e.dotClassName
+      ? (n = t[16])
+      : ((n = b(
+          `no-drag icon-2xs inline-flex shrink-0 cursor-interaction items-center justify-center self-center overflow-hidden rounded-full border-0 bg-transparent p-0 text-current`,
+          e.dotClassName,
+        )),
+        (t[15] = e.dotClassName),
+        (t[16] = n));
+    let r = f ? v : x,
+      i;
+    t[17] !== h || t[18] !== O || t[19] !== r || t[20] !== n
+      ? ((i = (0, z.jsx)(`button`, {
+          type: `button`,
+          className: n,
+          "aria-label": h,
+          onClick: r,
+          children: O,
+        })),
+        (t[17] = h),
+        (t[18] = O),
+        (t[19] = r),
+        (t[20] = n),
+        (t[21] = i))
+      : (i = t[21]);
+    let a;
+    return (
+      t[22] !== i || t[23] !== g
+        ? ((a = (0, z.jsx)(u, { tooltipContent: g, children: i })),
+          (t[22] = i),
+          (t[23] = g),
+          (t[24] = a))
+        : (a = t[24]),
+      a
+    );
+  }
+  let k = V[c],
+    A;
+  t[25] === k.dotClassName
+    ? (A = t[26])
+    : ((A = b(
+        `no-drag icon-2xs inline-flex shrink-0 items-center justify-center self-center overflow-hidden rounded-full`,
+        k.dotClassName,
+      )),
+      (t[25] = k.dotClassName),
+      (t[26] = A));
+  let j;
+  t[27] !== h || t[28] !== O || t[29] !== A
+    ? ((j = (0, z.jsx)(`span`, { className: A, "aria-label": h, role: `img`, children: O })),
+      (t[27] = h),
+      (t[28] = O),
+      (t[29] = A),
+      (t[30] = j))
+    : (j = t[30]);
+  let N;
+  return (
+    t[31] !== j || t[32] !== g
+      ? ((N = (0, z.jsx)(u, { tooltipContent: g, children: j })),
+        (t[31] = j),
+        (t[32] = g),
+        (t[33] = N))
+      : (N = t[33]),
+    N
+  );
+}
+var R,
+  z,
+  B,
+  V,
+  H = e(() => {
+    ((R = r()),
+      x(),
+      w(),
+      h(),
+      k(),
+      I(),
+      d(),
+      c(),
+      T(),
+      i(),
+      (z = s()),
+      (B = {
+        connecting: (0, z.jsx)(E, {}),
+        restarting: (0, z.jsx)(E, {}),
+        connected: (0, z.jsx)(`span`, {
+          "aria-hidden": !0,
+          className: `block size-2 rounded-full bg-green-500`,
+        }),
+        disconnected: (0, z.jsx)(`span`, {
+          "aria-hidden": !0,
+          className: `block size-2 rounded-full bg-gray-400`,
+        }),
+        error: (0, z.jsx)(l, {}),
+      }),
+      (V = {
+        connecting: {
+          dotClassName: `text-token-description-foreground`,
+          iconClassName: `motion-safe:animate-spin`,
+        },
+        restarting: {
+          dotClassName: `text-token-charts-blue`,
+          iconClassName: `motion-safe:animate-spin text-token-charts-blue`,
+        },
+        connected: { dotClassName: `text-token-charts-green` },
+        disconnected: { dotClassName: `text-token-description-foreground` },
+        error: { dotClassName: `text-token-charts-red`, iconClassName: `text-token-charts-red` },
+      }));
+  });
+export { A as a, D as c, I as i, H as n, j as o, M as r, k as s, L as t };
+//# sourceMappingURL=app-initial~app-main~projects-index-page~remote-connections-settings~composer-external-footer.js.map

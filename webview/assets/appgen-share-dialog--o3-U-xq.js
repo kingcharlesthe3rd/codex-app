@@ -1,2 +1,1437 @@
-import{n as e,s as t}from"./rolldown-runtime-Czos8NxU.js";import{El as n,Rt as r,Tl as i,Xs as a,ec as o,tc as s,vl as c,zt as l}from"./app-initial~app-main~worktree-init-v2-page~appgen-settings-page~page~appgen-publication-ter~fzo5ij6p-BKVLyD1q.js";import{Cs as u,Mh as d,Nh as f,Ss as p,_h as m,_s as h,bg as g,bs as _,gs as v,hs as y,ms as b,vh as x,vs as S,xg as C,xs as w}from"./app-initial~app-main~onboarding-page-CNHnOMz8.js";import{$ as T,tt as E}from"./app-initial~app-main~remote-conversation-page~new-thread-panel-page~onboarding-page~project~okyna5mq-CgvyzQvO.js";import{$c as D,Sx as O,b as ee,nl as te,rl as ne,sl as re,vx as ie,wx as ae,x as oe,yx as se}from"./app-initial~app-main~new-thread-panel-page-BZHGOlMi.js";import{$l as ce,Al as le,Ei as ue,Fi as de,Ii as k,Il as fe,Li as pe,Ql as me,Ri as A,Ti as j,at as M,ci as he,fi as N,gi as ge,li as P,mi as F,oi as _e,ot as I,si as L}from"./app-initial~app-main~remote-conversation-page~new-thread-panel-page~onboarding-page~appgen-~o4yhvtva-CRxLUCiX.js";import{$ as ve,L as R,Q as ye,Z as z,et as be,v as xe,y as Se,z as Ce}from"./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~new-~djgpfzje-C7Uyb8hp.js";import{an as we,on as B}from"./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~new-~mam8fk3d-QYu6Tutl.js";import{g as V,m as Te}from"./app-initial~app-main~worktree-init-v2-page~appgen-page~remote-conversation-page~pull-reques~filfqv6y-CJMrT6W-.js";import{a as Ee,c as De,d as Oe,f as H,h as ke,i as U,l as Ae,m as je,o as Me,p as Ne,r as Pe,s as Fe,t as Ie}from"./use-workspace-users-BGE9-Krr.js";import{n as Le,t as Re}from"./share-invite-autocomplete-CdKHr4Gs.js";function ze(e){let t=(0,Z.c)(104),{onClose:n,projectId:i}=e,a=ae(),c=s(r),{email:l}=oe(),{data:u}=fe(),d=u?.structure===`workspace`,{data:f,isError:m,isLoading:h}=o(te,i),g=o(ne,i),[v,y]=(0,Q.useState)(``),b;t[0]===Symbol.for(`react.memo_cache_sentinel`)?(b=[],t[0]=b):b=t[0];let[x,S]=(0,Q.useState)(b),C;t[1]===Symbol.for(`react.memo_cache_sentinel`)?(C=[],t[1]=C):C=t[1];let[T,E]=(0,Q.useState)(C),[ee,re]=(0,Q.useState)(null),ie;t[2]===v?ie=t[3]:(ie=v.trim(),t[2]=v,t[3]=ie);let se=ie,le=ce(se,200),{data:ue}=Pe(d?v:``),{data:k}=o(D,d?le:null),me=le===se,{data:A}=o(D,d?``:null),j,M,N,F,I,L,R,ye;if(t[4]!==k||t[5]!==A||t[6]!==u?.account_user_id||t[7]!==a||t[8]!==f?.access_policy||t[9]!==T||t[10]!==x||t[11]!==ue){F=tt(k),I=tt(nt(k,A)),j=f?.access_policy,N=j?.allowed_users??[],M=j?.allowed_groups??[];let e=new Set(N.map(Ge));L=De({currentAccountUserId:u?.account_user_id,existingAccountUserIds:e,selectedAccountUserIds:x.map(We),workspaceUsers:ue});let n=new Set(M.map(Ue));R=new Set(I.map(He));let r;t[20]!==n||t[21]!==T?(r=e=>!n.has(e.id)&&!T.some(t=>t.id===e.id),t[20]=n,t[21]=T,t[22]=r):r=t[22];let i=F.filter(r),o;t[23]===a?o=t[24]:(o=e=>it(e,a),t[23]=a,t[24]=o),ye=[...i.map(o),...L?.map(at)??[]],t[4]=k,t[5]=A,t[6]=u?.account_user_id,t[7]=a,t[8]=f?.access_policy,t[9]=T,t[10]=x,t[11]=ue,t[12]=j,t[13]=M,t[14]=N,t[15]=F,t[16]=I,t[17]=L,t[18]=R,t[19]=ye}else j=t[12],M=t[13],N=t[14],F=t[15],I=t[16],L=t[17],R=t[18],ye=t[19];let z=ye,be;if(t[25]!==a||t[26]!==T||t[27]!==x){let e;t[29]===a?e=t[30]:(e=e=>it(e,a),t[29]=a,t[30]=e),be=[...T.map(e),...x.map(at)],t[25]=a,t[26]=T,t[27]=x,t[28]=be}else be=t[28];let xe=be,Se;t[31]===f?Se=t[32]:(Se=f==null?(0,$.jsx)(O,{id:`appgenShareDialog.title`,defaultMessage:`Share`,description:`Title for the site sharing dialog`}):(0,$.jsx)(O,{id:`appgenShareDialog.projectTitle`,defaultMessage:`Share {siteTitle}`,description:`Title for the site sharing dialog including the site title`,values:{siteTitle:f.title}}),t[31]=f,t[32]=Se);let we=Se,B=ee??j?.access_mode??null,V=d&&B!==`public`,Te=j!=null&&B!==j.access_mode,Ee=V&&xe.length>0,Oe;t[33]!==a||t[34]!==c?(Oe=function(){c.get(Ce).danger(a.formatMessage({id:`appgenShareDialog.save.error`,defaultMessage:`Unable to save sharing settings`,description:`Error toast shown when saving site sharing settings fails`}))},t[33]=a,t[34]=c,t[35]=Oe):Oe=t[35];let H=Oe,ke;t[36]!==j||t[37]!==M||t[38]!==N||t[39]!==F||t[40]!==V||t[41]!==B||t[42]!==I||t[43]!==n||t[44]!==T||t[45]!==x||t[46]!==H||t[47]!==g?(ke=function(){if(j==null||B==null){n();return}let e=_({accessGroups:F,accessMode:B,allowedUserEmails:[...N,...x].map(Ve),canManageInvitees:V,existingGroups:M,knownAccessGroups:I,selectedGroups:T});g.mutateAsync(e).then(()=>{S([]),E([]),re(null)},()=>{H()})},t[36]=j,t[37]=M,t[38]=N,t[39]=F,t[40]=V,t[41]=B,t[42]=I,t[43]=n,t[44]=T,t[45]=x,t[46]=H,t[47]=g,t[48]=ke):ke=t[48];let U=ke,Ae;t[49]===Symbol.for(`react.memo_cache_sentinel`)?(Ae=function(){S([]),E([]),re(null)},t[49]=Ae):Ae=t[49];let je=Ae,Me;t[50]===Symbol.for(`react.memo_cache_sentinel`)?(Me=function(e){re(e),e===`public`&&(y(``),S([]),E([]))},t[50]=Me):Me=t[50];let Ne=Me,Fe;t[51]!==H||t[52]!==g?(Fe=function(e){return g.mutateAsync(e).then(Be,e=>{throw H(),e})},t[51]=H,t[52]=g,t[53]=Fe):Fe=t[53];let Ie=Fe,Le;t[54]!==j||t[55]!==F||t[56]!==I||t[57]!==Ie?(Le=function(e){if(j==null)return Promise.resolve();switch(e.kind){case`user`:return Ie(p(j,e.user.account_user_id));case`group`:return Ie(w({accessGroups:F,accessPolicy:j,group:e.group,knownAccessGroups:I}))}},t[54]=j,t[55]=F,t[56]=I,t[57]=Ie,t[58]=Le):Le=t[58];let ze=Le,Ye;t[59]!==f||t[60]!==ze||t[61]!==c?(Ye=function(e){f!=null&&ge(c,Ke,{label:e.kind===`group`?e.group.name:Xe(e.user),onConfirm:()=>ze(e),siteTitle:f.title})},t[59]=f,t[60]=ze,t[61]=c,t[62]=Ye):Ye=t[62];let W=Ye,G;t[63]===Symbol.for(`react.memo_cache_sentinel`)?(G={"aria-describedby":void 0},t[63]=G):G=t[63];let K;t[64]===n?K=t[65]:(K=e=>{e||n()},t[64]=n,t[65]=K);let q;t[66]===we?q=t[67]:(q=(0,$.jsxs)(`div`,{className:`flex w-full flex-col`,children:[(0,$.jsx)(pe,{className:`sr-only`,children:we}),(0,$.jsx)(he,{title:we,titleClassName:`truncate pr-8`})]}),t[66]=we,t[67]=q);let J;t[68]!==k||t[69]!==j||t[70]!==M||t[71]!==N||t[72]!==A||t[73]!==V||t[74]!==u?.account_user_id||t[75]!==l||t[76]!==B||t[77]!==a||t[78]!==z||t[79]!==me||t[80]!==m||t[81]!==h||t[82]!==d||t[83]!==L||t[84]!==W||t[85]!==f||t[86]!==v||t[87]!==R||t[88]!==xe?(J=h?(0,$.jsx)(P,{className:`py-12`,children:(0,$.jsx)(`div`,{className:`flex justify-center`,children:(0,$.jsx)(ve,{})})}):m||f==null||j==null?(0,$.jsx)(P,{className:`py-10`,children:(0,$.jsx)(`div`,{className:`text-center text-sm font-medium text-token-text-secondary`,children:(0,$.jsx)(O,{id:`appgenShareDialog.error`,defaultMessage:`Unable to load sharing settings`,description:`Error state title in the site share dialog`})})}):(0,$.jsxs)($.Fragment,{children:[(0,$.jsx)(P,{children:(0,$.jsx)(qe,{liveUrl:f.current_live_url,title:f.title})}),V?(0,$.jsx)(P,{children:(0,$.jsx)(Re,{ariaLabel:a.formatMessage({id:`appgenShareDialog.workspaceUserSearch`,defaultMessage:`Add people or groups`,description:`Accessible label for searching workspace users and groups in the site share dialog`}),emptyMessage:(0,$.jsx)(O,{id:`appgenShareDialog.noWorkspaceUsers`,defaultMessage:`No matching people or groups`,description:`Empty state shown when no workspace users or groups match the site share dialog autocomplete query`}),options:!me||k==null||A==null||L==null?void 0:z,placeholder:a.formatMessage({id:`appgenShareDialog.workspaceUserPlaceholder`,defaultMessage:`Add people or groups`,description:`Placeholder for the site share dialog workspace user and group autocomplete`}),query:v,selectedOptions:xe,onQueryChange:y,onRemoveOption:e=>{let{target:t}=e;bb173:switch(t.kind){case`group`:E(e=>e.filter(e=>e.id!==t.group.id));break bb173;case`user`:S(e=>e.filter(e=>e.account_user_id!==t.user.account_user_id))}},onSelectOption:e=>{let{target:t}=e;bb187:switch(t.kind){case`group`:E(e=>[...e,t.group]);break bb187;case`user`:S(e=>[...e,t.user])}},getRemoveLabel:e=>a.formatMessage({id:`appgenShareDialog.removeSelectedUser`,defaultMessage:`Remove {name}`,description:`Accessible label for removing a selected workspace user from the site share dialog`},{name:e.chipLabel??e.label})})}):null,(0,$.jsx)(Je,{accessPolicy:j,activeAccessGroups:M,activeAccessUsers:N,availableAccessModes:f.available_access_modes,canManageInvitees:V,isWorkspaceAccount:d,removableAccessGroupIds:R,selectedAccessMode:B,ownerEmail:l,ownerId:u?.account_user_id,onAccessModeChange:Ne,onRemoveAccessUser:e=>{W({kind:`user`,user:e})},onRemoveAccessGroup:e=>{W({kind:`group`,group:e})}})]}),t[68]=k,t[69]=j,t[70]=M,t[71]=N,t[72]=A,t[73]=V,t[74]=u?.account_user_id,t[75]=l,t[76]=B,t[77]=a,t[78]=z,t[79]=me,t[80]=m,t[81]=h,t[82]=d,t[83]=L,t[84]=W,t[85]=f,t[86]=v,t[87]=R,t[88]=xe,t[89]=J):J=t[89];let Ze=h||m||f==null||j==null?void 0:f.current_live_url,Y;t[90]!==B||t[91]!==U||t[92]!==Te||t[93]!==Ee||t[94]!==Ze||t[95]!==g.isPending?(Y=(0,$.jsx)(Qe,{accessMode:B,hasPendingAccessChange:Te,hasPendingInvitees:Ee,isSaving:g.isPending,liveUrl:Ze,onCancelChanges:je,onDone:U}),t[90]=B,t[91]=U,t[92]=Te,t[93]=Ee,t[94]=Ze,t[95]=g.isPending,t[96]=Y):Y=t[96];let X;t[97]!==q||t[98]!==J||t[99]!==Y?(X=(0,$.jsxs)(_e,{className:`px-4 py-3`,children:[q,J,Y]}),t[97]=q,t[98]=J,t[99]=Y,t[100]=X):X=t[100];let $e;return t[101]!==K||t[102]!==X?($e=(0,$.jsx)(de,{open:!0,size:`compact`,contentOverflow:`visible`,contentProps:G,onOpenChange:K,children:X}),t[101]=K,t[102]=X,t[103]=$e):$e=t[103],$e}function Be(){}function Ve(e){return e.email}function He(e){return e.id}function Ue(e){return e.id}function We(e){return e.account_user_id}function Ge(e){return e.account_user_id}function Ke(e){let t=(0,Z.c)(36),{label:n,onClose:r,onConfirm:i,siteTitle:a}=e,[o,s]=(0,Q.useState)(!1),c=!o,l;t[0]!==o||t[1]!==r?(l=e=>{!e&&!o&&r()},t[0]=o,t[1]=r,t[2]=l):l=t[2];let u;t[3]!==o||t[4]!==r||t[5]!==i?(u=e=>{e.preventDefault(),!o&&(s(!0),i().then(r,()=>{s(!1)}))},t[3]=o,t[4]=r,t[5]=i,t[6]=u):u=t[6];let d;t[7]===n?d=t[8]:(d=(0,$.jsx)(pe,{className:`contents`,children:(0,$.jsx)(O,{id:`appgenShareDialog.removeDialog.title`,defaultMessage:`Remove {label}?`,description:`Title for dialog confirming removal of a person's or group's site access`,values:{label:n}})}),t[7]=n,t[8]=d);let f;t[9]===n?f=t[10]:(f=(0,$.jsx)(`span`,{className:`font-medium text-token-text-primary`,children:n},`remove-access-label`),t[9]=n,t[10]=f);let p;t[11]!==a||t[12]!==f?(p=(0,$.jsx)(k,{className:`contents`,children:(0,$.jsx)(O,{id:`appgenShareDialog.removeDialog.description`,defaultMessage:`{label} will no longer be able to visit {siteTitle}`,description:`Warning shown when removing a person or group from a site's access list`,values:{label:f,siteTitle:a}})}),t[11]=a,t[12]=f,t[13]=p):p=t[13];let m;t[14]!==d||t[15]!==p?(m=(0,$.jsx)(he,{title:d,titleClassName:`truncate pr-8`,subtitle:p}),t[14]=d,t[15]=p,t[16]=m):m=t[16];let h;t[17]===Symbol.for(`react.memo_cache_sentinel`)?(h=(0,$.jsx)(O,{id:`appgenShareDialog.removeDialog.cancel`,defaultMessage:`Cancel`,description:`Cancel button label for access removal confirmation dialog`}),t[17]=h):h=t[17];let g;t[18]!==o||t[19]!==r?(g=(0,$.jsx)(z,{color:`secondary`,disabled:o,onClick:r,children:h}),t[18]=o,t[19]=r,t[20]=g):g=t[20];let _;t[21]===Symbol.for(`react.memo_cache_sentinel`)?(_=(0,$.jsx)(O,{id:`appgenShareDialog.removeDialog.confirm`,defaultMessage:`Remove`,description:`Confirm button label for removing site access`}),t[21]=_):_=t[21];let v;t[22]===o?v=t[23]:(v=(0,$.jsx)(z,{color:`danger`,loading:o,type:`submit`,children:_}),t[22]=o,t[23]=v);let y;t[24]!==v||t[25]!==g?(y=(0,$.jsx)(P,{children:(0,$.jsxs)(L,{children:[g,v]})}),t[24]=v,t[25]=g,t[26]=y):y=t[26];let b;t[27]!==y||t[28]!==u||t[29]!==m?(b=(0,$.jsxs)(_e,{as:`form`,className:`gap-4 px-4 py-3`,onSubmit:u,children:[m,y]}),t[27]=y,t[28]=u,t[29]=m,t[30]=b):b=t[30];let x;return t[31]!==o||t[32]!==c||t[33]!==b||t[34]!==l?(x=(0,$.jsx)(de,{open:!0,shouldIgnoreClickOutside:o,showDialogClose:c,size:`compact`,onOpenChange:l,children:b}),t[31]=o,t[32]=c,t[33]=b,t[34]=l,t[35]=x):x=t[35],x}function qe(e){let t=(0,Z.c)(12),{liveUrl:n,title:r}=e,i;t[0]===n?i=t[1]:(i=m(n),t[0]=n,t[1]=i);let a=i,o;t[2]===Symbol.for(`react.memo_cache_sentinel`)?(o=(0,$.jsx)(`span`,{className:`flex size-10 shrink-0 items-center justify-center`,children:(0,$.jsx)(we,{className:`icon-md`})}),t[2]=o):o=t[2];let s;t[3]===r?s=t[4]:(s=(0,$.jsx)(`div`,{className:`truncate text-sm font-medium text-token-foreground`,children:r}),t[3]=r,t[4]=s);let c;t[5]===a?c=t[6]:(c=a??(0,$.jsx)(O,{id:`appgenShareDialog.site.notPublished`,defaultMessage:`Not published yet`,description:`Label in the share dialog for a site without a published URL`}),t[5]=a,t[6]=c);let l;t[7]===c?l=t[8]:(l=(0,$.jsx)(`div`,{className:`truncate text-xs text-token-text-tertiary`,children:c}),t[7]=c,t[8]=l);let u;return t[9]!==s||t[10]!==l?(u=(0,$.jsxs)(`div`,{className:`flex items-center gap-3 rounded-lg bg-token-bg-secondary p-3`,children:[o,(0,$.jsxs)(`div`,{className:`flex min-w-0 flex-col gap-0.5`,children:[s,l]})]}),t[9]=s,t[10]=l,t[11]=u):u=t[11],u}function Je(e){let t=(0,Z.c)(51),{activeAccessGroups:n,activeAccessUsers:r,accessPolicy:i,availableAccessModes:a,canManageInvitees:o,isWorkspaceAccount:s,removableAccessGroupIds:c,selectedAccessMode:l,ownerEmail:u,ownerId:d,onAccessModeChange:f,onRemoveAccessGroup:p,onRemoveAccessUser:m}=e,h=ae(),g,_,v,y,b,x,S;if(t[0]!==i.access_mode||t[1]!==i.revision||t[2]!==r||t[3]!==a||t[4]!==o||t[5]!==s||t[6]!==f||t[7]!==m||t[8]!==u||t[9]!==d||t[10]!==l){let e=Ye({activeAccessUsers:r,currentAccountUserId:d,currentUserEmail:u}),n=r.filter(t=>t.account_user_id!==e?.account_user_id);g=P,b=`gap-3`,t[18]===Symbol.for(`react.memo_cache_sentinel`)?(x=(0,$.jsx)(`div`,{className:`text-sm font-medium text-token-foreground`,children:(0,$.jsx)(O,{id:`appgenShareDialog.access.title`,defaultMessage:`Who has access`,description:`Heading for access information in the site share dialog`})}),t[18]=x):x=t[18];let c=`${i.revision}:${i.access_mode}`,p=l??i.access_mode;t[19]!==i.access_mode||t[20]!==a||t[21]!==s||t[22]!==f||t[23]!==c||t[24]!==p?(S=(0,$.jsx)(Ze,{availableAccessModes:a,currentAccessMode:i.access_mode,isWorkspaceAccount:s,selectedAccessMode:p,onAccessModeChange:f},c),t[19]=i.access_mode,t[20]=a,t[21]=s,t[22]=f,t[23]=c,t[24]=p,t[25]=S):S=t[25],_=`vertical-scroll-fade-mask flex max-h-64 flex-col gap-3 overflow-y-auto`,v=e==null?null:(0,$.jsx)(U,{avatarLabel:W(e),label:Xe(e),secondaryLabel:G(e),trailingContent:(0,$.jsx)(`span`,{className:`text-sm text-token-description-foreground`,children:(0,$.jsx)(O,{id:`appgenShareDialog.permission.owner`,defaultMessage:`Owner`,description:`Label for the owner in the site share dialog`})})});let h;t[26]!==o||t[27]!==m?(h=e=>(0,$.jsx)(U,{avatarLabel:W(e),label:Xe(e),secondaryLabel:G(e),trailingContent:(0,$.jsx)(K,{onRemoveAccess:o?()=>{m(e)}:void 0})},e.account_user_id),t[26]=o,t[27]=m,t[28]=h):h=t[28],y=n.map(h),t[0]=i.access_mode,t[1]=i.revision,t[2]=r,t[3]=a,t[4]=o,t[5]=s,t[6]=f,t[7]=m,t[8]=u,t[9]=d,t[10]=l,t[11]=g,t[12]=_,t[13]=v,t[14]=y,t[15]=b,t[16]=x,t[17]=S}else g=t[11],_=t[12],v=t[13],y=t[14],b=t[15],x=t[16],S=t[17];let C;if(t[29]!==n||t[30]!==o||t[31]!==h||t[32]!==p||t[33]!==c){let e;t[35]!==o||t[36]!==h||t[37]!==p||t[38]!==c?(e=e=>(0,$.jsx)(U,{label:e.name,secondaryLabel:h.formatMessage({id:`appgenShareDialog.access.groupSize`,defaultMessage:`{count, plural, one {# member} other {# members}}`,description:`Member count shown for a group in the site share dialog`},{count:e.size}),trailingContent:(0,$.jsx)(K,{onRemoveAccess:o&&c.has(e.id)?()=>{p(e)}:void 0})},e.id),t[35]=o,t[36]=h,t[37]=p,t[38]=c,t[39]=e):e=t[39],C=n.map(e),t[29]=n,t[30]=o,t[31]=h,t[32]=p,t[33]=c,t[34]=C}else C=t[34];let w;t[40]!==_||t[41]!==v||t[42]!==y||t[43]!==C?(w=(0,$.jsxs)(`div`,{className:_,children:[v,y,C]}),t[40]=_,t[41]=v,t[42]=y,t[43]=C,t[44]=w):w=t[44];let T;return t[45]!==g||t[46]!==b||t[47]!==x||t[48]!==S||t[49]!==w?(T=(0,$.jsxs)(g,{className:b,children:[x,S,w]}),t[45]=g,t[46]=b,t[47]=x,t[48]=S,t[49]=w,t[50]=T):T=t[50],T}function Ye({activeAccessUsers:e,currentAccountUserId:t,currentUserEmail:n}){let r=n?.trim().toLowerCase();if(r!=null&&r.length>0){let t=e.find(e=>e.email?.trim().toLowerCase()===r);if(t!=null)return t}return t==null?null:e.find(e=>e.account_user_id===t)??null}function Xe(e){return e.name??e.email??e.account_user_id}function W(e){return e.name??e.email??e.account_user_id.replace(/[-_]/g,` `)}function G(e){return e.name==null?null:e.email}function K(e){let t=(0,Z.c)(4),{onRemoveAccess:n}=e,r,i;t[0]===Symbol.for(`react.memo_cache_sentinel`)?(r=[{value:`visit`}],i=(0,$.jsx)(O,{id:`appgenShareDialog.permission.remove`,defaultMessage:`Remove access`,description:`Menu item for removing a person's site access`}),t[0]=r,t[1]=i):(r=t[0],i=t[1]);let a;return t[2]===n?a=t[3]:(a=(0,$.jsx)(Me,{options:r,removeLabel:i,value:`visit`,renderLabel:q,onRemoveAccess:n}),t[2]=n,t[3]=a),a}function q(){return(0,$.jsx)(J,{})}function J(){let e=(0,Z.c)(1),t;return e[0]===Symbol.for(`react.memo_cache_sentinel`)?(t=(0,$.jsx)(O,{id:`appgenShareDialog.permission.visit`,defaultMessage:`Can visit`,description:`Visitor permission label in the site share dialog`}),e[0]=t):t=e[0],t}function Ze(e){let t=(0,Z.c)(13),{availableAccessModes:n,currentAccessMode:r,isWorkspaceAccount:i,selectedAccessMode:a,onAccessModeChange:o}=e,s,c;if(t[0]!==n||t[1]!==r||t[2]!==i){let e=S({availableAccessModes:n,currentAccessMode:r,isWorkspaceAccount:i});s=je,c=e.map(Y),t[0]=n,t[1]=r,t[2]=i,t[3]=s,t[4]=c}else s=t[3],c=t[4];let l;t[5]===i?l=t[6]:(l=e=>e===`custom`&&!i?(0,$.jsx)(O,{id:`appgenAccess.state.personalOwnerOnly`,defaultMessage:`Just me`,description:`Label for a personal site whose access is limited to its owner`}):(0,$.jsx)(O,{...ot[e]}),t[5]=i,t[6]=l);let u;return t[7]!==s||t[8]!==o||t[9]!==a||t[10]!==c||t[11]!==l?(u=(0,$.jsx)(s,{options:c,value:a,renderLabel:l,onChange:o}),t[7]=s,t[8]=o,t[9]=a,t[10]=c,t[11]=l,t[12]=u):u=t[12],u}function Y(e){let{disabled:t,value:n}=e;return{disabled:t,Icon:X(n),value:n}}function X(e){switch(e){case`admins_only`:case`custom`:return b;case`workspace_all`:return v;case`public`:return j}}function Qe(e){let t=(0,Z.c)(35),{accessMode:n,hasPendingAccessChange:i,hasPendingInvitees:a,isSaving:o,liveUrl:c,onCancelChanges:l,onDone:u}=e,f=ae(),p=s(r),m;t[0]!==o||t[1]!==c?(m=et({action:`copyLink`,isSaving:o,liveUrl:c}),t[0]=o,t[1]=c,t[2]=m):m=t[2];let h=m,_;t[3]!==o||t[4]!==c?(_=et({action:`visit`,isSaving:o,liveUrl:c}),t[3]=o,t[4]=c,t[5]=_):_=t[5];let v=_,y;t[6]===u?y=t[7]:(y={onClick:u},t[6]=u,t[7]=y);let b;t[8]===n?b=t[9]:(b=n===`public`?(0,$.jsx)(O,{id:`appgenShareDialog.publish`,defaultMessage:`Publish`,description:`Button label for publishing a site to the public internet`}):void 0,t[8]=n,t[9]=b);let x;t[10]!==u||t[11]!==b?(x={label:b,onClick:u},t[10]=u,t[11]=b,t[12]=x):x=t[12];let S;t[13]!==y||t[14]!==x?(S={invite:y,share:x},t[13]=y,t[14]=x,t[15]=S):S=t[15];let C;t[16]===l?C=t[17]:(C={onClick:l},t[16]=l,t[17]=C);let w;t[18]!==h||t[19]!==f||t[20]!==o||t[21]!==c||t[22]!==p||t[23]!==v?(w=c===void 0?null:(0,$.jsxs)(`div`,{className:`flex items-center gap-2`,children:[(0,$.jsx)(T,{tooltipContent:v,children:(0,$.jsx)(`span`,{className:`inline-flex`,children:(0,$.jsxs)(z,{color:`outline`,disabled:o||c==null,size:`toolbar`,onClick:e=>{c!=null&&V({event:e,href:c,initiator:`mcp_app_resource`})},children:[c==null?null:(0,$.jsx)(M,{className:`icon-xs`,ExternalIcon:g,href:c}),(0,$.jsx)(O,{id:`appgenShareDialog.visit`,defaultMessage:`Visit`,description:`Button label for opening a live site externally`})]})})}),(0,$.jsx)(T,{tooltipContent:h,children:(0,$.jsx)(`span`,{className:`inline-flex`,children:(0,$.jsxs)(z,{color:`outline`,disabled:o||c==null,size:`toolbar`,onClick:()=>{c!=null&&xe(c).then(()=>{p.get(Ce).info(f.formatMessage({id:`appgenShareDialog.copySuccess`,defaultMessage:`Copied to clipboard`,description:`Toast shown after copying a live site URL`}))},$e)},children:[(0,$.jsx)(d,{className:`icon-xs`}),(0,$.jsx)(O,{id:`appgenShareDialog.copyLink`,defaultMessage:`Copy link`,description:`Button label for copying a live site URL`})]})})})]}),t[18]=h,t[19]=f,t[20]=o,t[21]=c,t[22]=p,t[23]=v,t[24]=w):w=t[24];let E;t[25]===f?E=t[26]:(E=f.formatMessage({id:`appgenShareDialog.saving`,defaultMessage:`Saving`,description:`Accessible label for the site share dialog save button while saving`}),t[25]=f,t[26]=E);let D;return t[27]!==i||t[28]!==a||t[29]!==o||t[30]!==S||t[31]!==C||t[32]!==w||t[33]!==E?(D=(0,$.jsx)(P,{className:`pt-4`,children:(0,$.jsx)(`div`,{className:`flex w-full items-center justify-end gap-3`,children:(0,$.jsx)(H,{actions:S,cancelAction:C,disabled:o,hasPendingAccessChange:i,hasPendingInvitees:a,idleActions:w,isSaving:o,savingAriaLabel:E,size:`toolbar`,spinnerClassName:`icon-xxs`})})}),t[27]=i,t[28]=a,t[29]=o,t[30]=S,t[31]=C,t[32]=w,t[33]=E,t[34]=D):D=t[34],D}function $e(){}function et({action:e,isSaving:t,liveUrl:n}){if(n==null)switch(e){case`copyLink`:return(0,$.jsx)(O,{id:`appgenShareDialog.copyLinkDisabled.notPublished`,defaultMessage:`Publish this site to copy its link`,description:`Tooltip explaining why the site share dialog copy link button is disabled`});case`visit`:return(0,$.jsx)(O,{id:`appgenShareDialog.visitDisabled.notPublished`,defaultMessage:`Publish this site before visiting it`,description:`Tooltip explaining why the site share dialog visit button is disabled`})}return t?(0,$.jsx)(O,{id:`appgenShareDialog.footerActionDisabled.saving`,defaultMessage:`Sharing settings are still saving`,description:`Tooltip explaining why site share dialog footer actions are disabled while saving`}):null}function tt(e){return[...e?.workspace_groups.map(e=>({...e,source:`workspace`}))??[],...e?.tenant_groups.map(e=>({...e,source:`tenant`}))??[]]}function nt(...e){return{tenant_groups:rt(e.flatMap(e=>e?.tenant_groups??[])),workspace_groups:rt(e.flatMap(e=>e?.workspace_groups??[]))}}function rt(e){return Array.from(new Map(e.map(e=>[e.id,e])).values())}function it(e,t){return{chipLabel:e.name,id:`group:${e.source}:${e.id}`,label:e.name,secondaryLabel:t.formatMessage({id:`appgenShareDialog.access.groupSize`,defaultMessage:`{count, plural, one {# member} other {# members}}`,description:`Member count shown for a group in the site share dialog`},{count:e.size}),target:{kind:`group`,group:e}}}function at(e){let t=Ae(e);return{chipLabel:t.chipLabel,id:`user:${e.account_user_id}`,label:t.label,secondaryLabel:t.secondaryLabel,target:{kind:`user`,user:e}}}var Z,Q,$,ot,st=e((()=>{Z=i(),a(),Q=t(n(),1),se(),ee(),le(),ye(),A(),N(),Te(),I(),F(),ke(),Ne(),Oe(),Le(),Fe(),Ee(),be(),R(),E(),C(),h(),ue(),f(),y(),B(),Ie(),l(),Se(),me(),u(),re(),x(),$=c(),ot=ie({admins_only:{id:`appgenAccess.state.ownerOnly`,defaultMessage:`Just me`,description:`Label for a site whose access is limited to its owner`},custom:{id:`appgenAccess.state.privatelyShared`,defaultMessage:`Only those invited`,description:`Label for a site shared privately with invited people`},public:{id:`appgenAccess.state.public`,defaultMessage:`Anyone on the Internet`,description:`Label for a site shared publicly on the internet`},workspace_all:{id:`appgenAccess.state.workspaceAll`,defaultMessage:`Anyone in this workspace with the link`,description:`Label for a site shared with anyone in the workspace`}})}));export{st as n,ze as t};
+import { n as e, s as t } from "./rolldown-runtime.js";
+import {
+  El as n,
+  Rt as r,
+  Tl as i,
+  Xs as a,
+  ec as o,
+  tc as s,
+  vl as c,
+  zt as l,
+} from "./app-initial~app-main~worktree-init-v2-page~appgen-settings-page~page~appgen-publication-ter~fzo5ij6p.js";
+import {
+  Cs as u,
+  Mh as d,
+  Nh as f,
+  Ss as p,
+  _h as m,
+  _s as h,
+  bg as g,
+  bs as _,
+  gs as v,
+  hs as y,
+  ms as b,
+  vh as x,
+  vs as S,
+  xg as C,
+  xs as w,
+} from "./app-initial~app-main~onboarding-page.js";
+import {
+  $ as T,
+  tt as E,
+} from "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~onboarding-page~project~okyna5mq.js";
+import {
+  $c as D,
+  Sx as O,
+  b as ee,
+  nl as te,
+  rl as ne,
+  sl as re,
+  vx as ie,
+  wx as ae,
+  x as oe,
+  yx as se,
+} from "./app-initial~app-main~new-thread-panel-page.js";
+import {
+  $l as ce,
+  Al as le,
+  Ei as ue,
+  Fi as de,
+  Ii as k,
+  Il as fe,
+  Li as pe,
+  Ql as me,
+  Ri as A,
+  Ti as j,
+  at as M,
+  ci as he,
+  fi as N,
+  gi as ge,
+  li as P,
+  mi as F,
+  oi as _e,
+  ot as I,
+  si as L,
+} from "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~onboarding-page~appgen-~o4yhvtva.js";
+import {
+  $ as ve,
+  L as R,
+  Q as ye,
+  Z as z,
+  et as be,
+  v as xe,
+  y as Se,
+  z as Ce,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~new-~djgpfzje.js";
+import {
+  an as we,
+  on as B,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~new-~mam8fk3d.js";
+import {
+  g as V,
+  m as Te,
+} from "./app-initial~app-main~worktree-init-v2-page~appgen-page~remote-conversation-page~pull-reques~filfqv6y.js";
+import {
+  a as Ee,
+  c as De,
+  d as Oe,
+  f as H,
+  h as ke,
+  i as U,
+  l as Ae,
+  m as je,
+  o as Me,
+  p as Ne,
+  r as Pe,
+  s as Fe,
+  t as Ie,
+} from "./use-workspace-users-BGE9-Krr.js";
+import { n as Le, t as Re } from "./share-invite-autocomplete.js";
+function ze(e) {
+  let t = (0, Z.c)(104),
+    { onClose: n, projectId: i } = e,
+    a = ae(),
+    c = s(r),
+    { email: l } = oe(),
+    { data: u } = fe(),
+    d = u?.structure === `workspace`,
+    { data: f, isError: m, isLoading: h } = o(te, i),
+    g = o(ne, i),
+    [v, y] = (0, Q.useState)(``),
+    b;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`) ? ((b = []), (t[0] = b)) : (b = t[0]);
+  let [x, S] = (0, Q.useState)(b),
+    C;
+  t[1] === Symbol.for(`react.memo_cache_sentinel`) ? ((C = []), (t[1] = C)) : (C = t[1]);
+  let [T, E] = (0, Q.useState)(C),
+    [ee, re] = (0, Q.useState)(null),
+    ie;
+  t[2] === v ? (ie = t[3]) : ((ie = v.trim()), (t[2] = v), (t[3] = ie));
+  let se = ie,
+    le = ce(se, 200),
+    { data: ue } = Pe(d ? v : ``),
+    { data: k } = o(D, d ? le : null),
+    me = le === se,
+    { data: A } = o(D, d ? `` : null),
+    j,
+    M,
+    N,
+    F,
+    I,
+    L,
+    R,
+    ye;
+  if (
+    t[4] !== k ||
+    t[5] !== A ||
+    t[6] !== u?.account_user_id ||
+    t[7] !== a ||
+    t[8] !== f?.access_policy ||
+    t[9] !== T ||
+    t[10] !== x ||
+    t[11] !== ue
+  ) {
+    ((F = tt(k)),
+      (I = tt(nt(k, A))),
+      (j = f?.access_policy),
+      (N = j?.allowed_users ?? []),
+      (M = j?.allowed_groups ?? []));
+    let e = new Set(N.map(Ge));
+    L = De({
+      currentAccountUserId: u?.account_user_id,
+      existingAccountUserIds: e,
+      selectedAccountUserIds: x.map(We),
+      workspaceUsers: ue,
+    });
+    let n = new Set(M.map(Ue));
+    R = new Set(I.map(He));
+    let r;
+    t[20] !== n || t[21] !== T
+      ? ((r = (e) => !n.has(e.id) && !T.some((t) => t.id === e.id)),
+        (t[20] = n),
+        (t[21] = T),
+        (t[22] = r))
+      : (r = t[22]);
+    let i = F.filter(r),
+      o;
+    (t[23] === a ? (o = t[24]) : ((o = (e) => it(e, a)), (t[23] = a), (t[24] = o)),
+      (ye = [...i.map(o), ...(L?.map(at) ?? [])]),
+      (t[4] = k),
+      (t[5] = A),
+      (t[6] = u?.account_user_id),
+      (t[7] = a),
+      (t[8] = f?.access_policy),
+      (t[9] = T),
+      (t[10] = x),
+      (t[11] = ue),
+      (t[12] = j),
+      (t[13] = M),
+      (t[14] = N),
+      (t[15] = F),
+      (t[16] = I),
+      (t[17] = L),
+      (t[18] = R),
+      (t[19] = ye));
+  } else
+    ((j = t[12]),
+      (M = t[13]),
+      (N = t[14]),
+      (F = t[15]),
+      (I = t[16]),
+      (L = t[17]),
+      (R = t[18]),
+      (ye = t[19]));
+  let z = ye,
+    be;
+  if (t[25] !== a || t[26] !== T || t[27] !== x) {
+    let e;
+    (t[29] === a ? (e = t[30]) : ((e = (e) => it(e, a)), (t[29] = a), (t[30] = e)),
+      (be = [...T.map(e), ...x.map(at)]),
+      (t[25] = a),
+      (t[26] = T),
+      (t[27] = x),
+      (t[28] = be));
+  } else be = t[28];
+  let xe = be,
+    Se;
+  t[31] === f
+    ? (Se = t[32])
+    : ((Se =
+        f == null
+          ? (0, $.jsx)(O, {
+              id: `appgenShareDialog.title`,
+              defaultMessage: `Share`,
+              description: `Title for the site sharing dialog`,
+            })
+          : (0, $.jsx)(O, {
+              id: `appgenShareDialog.projectTitle`,
+              defaultMessage: `Share {siteTitle}`,
+              description: `Title for the site sharing dialog including the site title`,
+              values: { siteTitle: f.title },
+            })),
+      (t[31] = f),
+      (t[32] = Se));
+  let we = Se,
+    B = ee ?? j?.access_mode ?? null,
+    V = d && B !== `public`,
+    Te = j != null && B !== j.access_mode,
+    Ee = V && xe.length > 0,
+    Oe;
+  t[33] !== a || t[34] !== c
+    ? ((Oe = function () {
+        c.get(Ce).danger(
+          a.formatMessage({
+            id: `appgenShareDialog.save.error`,
+            defaultMessage: `Unable to save sharing settings`,
+            description: `Error toast shown when saving site sharing settings fails`,
+          }),
+        );
+      }),
+      (t[33] = a),
+      (t[34] = c),
+      (t[35] = Oe))
+    : (Oe = t[35]);
+  let H = Oe,
+    ke;
+  t[36] !== j ||
+  t[37] !== M ||
+  t[38] !== N ||
+  t[39] !== F ||
+  t[40] !== V ||
+  t[41] !== B ||
+  t[42] !== I ||
+  t[43] !== n ||
+  t[44] !== T ||
+  t[45] !== x ||
+  t[46] !== H ||
+  t[47] !== g
+    ? ((ke = function () {
+        if (j == null || B == null) {
+          n();
+          return;
+        }
+        let e = _({
+          accessGroups: F,
+          accessMode: B,
+          allowedUserEmails: [...N, ...x].map(Ve),
+          canManageInvitees: V,
+          existingGroups: M,
+          knownAccessGroups: I,
+          selectedGroups: T,
+        });
+        g.mutateAsync(e).then(
+          () => {
+            (S([]), E([]), re(null));
+          },
+          () => {
+            H();
+          },
+        );
+      }),
+      (t[36] = j),
+      (t[37] = M),
+      (t[38] = N),
+      (t[39] = F),
+      (t[40] = V),
+      (t[41] = B),
+      (t[42] = I),
+      (t[43] = n),
+      (t[44] = T),
+      (t[45] = x),
+      (t[46] = H),
+      (t[47] = g),
+      (t[48] = ke))
+    : (ke = t[48]);
+  let U = ke,
+    Ae;
+  t[49] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((Ae = function () {
+        (S([]), E([]), re(null));
+      }),
+      (t[49] = Ae))
+    : (Ae = t[49]);
+  let je = Ae,
+    Me;
+  t[50] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((Me = function (e) {
+        (re(e), e === `public` && (y(``), S([]), E([])));
+      }),
+      (t[50] = Me))
+    : (Me = t[50]);
+  let Ne = Me,
+    Fe;
+  t[51] !== H || t[52] !== g
+    ? ((Fe = function (e) {
+        return g.mutateAsync(e).then(Be, (e) => {
+          throw (H(), e);
+        });
+      }),
+      (t[51] = H),
+      (t[52] = g),
+      (t[53] = Fe))
+    : (Fe = t[53]);
+  let Ie = Fe,
+    Le;
+  t[54] !== j || t[55] !== F || t[56] !== I || t[57] !== Ie
+    ? ((Le = function (e) {
+        if (j == null) return Promise.resolve();
+        switch (e.kind) {
+          case `user`:
+            return Ie(p(j, e.user.account_user_id));
+          case `group`:
+            return Ie(
+              w({ accessGroups: F, accessPolicy: j, group: e.group, knownAccessGroups: I }),
+            );
+        }
+      }),
+      (t[54] = j),
+      (t[55] = F),
+      (t[56] = I),
+      (t[57] = Ie),
+      (t[58] = Le))
+    : (Le = t[58]);
+  let ze = Le,
+    Ye;
+  t[59] !== f || t[60] !== ze || t[61] !== c
+    ? ((Ye = function (e) {
+        f != null &&
+          ge(c, Ke, {
+            label: e.kind === `group` ? e.group.name : Xe(e.user),
+            onConfirm: () => ze(e),
+            siteTitle: f.title,
+          });
+      }),
+      (t[59] = f),
+      (t[60] = ze),
+      (t[61] = c),
+      (t[62] = Ye))
+    : (Ye = t[62]);
+  let W = Ye,
+    G;
+  t[63] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((G = { "aria-describedby": void 0 }), (t[63] = G))
+    : (G = t[63]);
+  let K;
+  t[64] === n
+    ? (K = t[65])
+    : ((K = (e) => {
+        e || n();
+      }),
+      (t[64] = n),
+      (t[65] = K));
+  let q;
+  t[66] === we
+    ? (q = t[67])
+    : ((q = (0, $.jsxs)(`div`, {
+        className: `flex w-full flex-col`,
+        children: [
+          (0, $.jsx)(pe, { className: `sr-only`, children: we }),
+          (0, $.jsx)(he, { title: we, titleClassName: `truncate pr-8` }),
+        ],
+      })),
+      (t[66] = we),
+      (t[67] = q));
+  let J;
+  t[68] !== k ||
+  t[69] !== j ||
+  t[70] !== M ||
+  t[71] !== N ||
+  t[72] !== A ||
+  t[73] !== V ||
+  t[74] !== u?.account_user_id ||
+  t[75] !== l ||
+  t[76] !== B ||
+  t[77] !== a ||
+  t[78] !== z ||
+  t[79] !== me ||
+  t[80] !== m ||
+  t[81] !== h ||
+  t[82] !== d ||
+  t[83] !== L ||
+  t[84] !== W ||
+  t[85] !== f ||
+  t[86] !== v ||
+  t[87] !== R ||
+  t[88] !== xe
+    ? ((J = h
+        ? (0, $.jsx)(P, {
+            className: `py-12`,
+            children: (0, $.jsx)(`div`, {
+              className: `flex justify-center`,
+              children: (0, $.jsx)(ve, {}),
+            }),
+          })
+        : m || f == null || j == null
+          ? (0, $.jsx)(P, {
+              className: `py-10`,
+              children: (0, $.jsx)(`div`, {
+                className: `text-center text-sm font-medium text-token-text-secondary`,
+                children: (0, $.jsx)(O, {
+                  id: `appgenShareDialog.error`,
+                  defaultMessage: `Unable to load sharing settings`,
+                  description: `Error state title in the site share dialog`,
+                }),
+              }),
+            })
+          : (0, $.jsxs)($.Fragment, {
+              children: [
+                (0, $.jsx)(P, {
+                  children: (0, $.jsx)(qe, { liveUrl: f.current_live_url, title: f.title }),
+                }),
+                V
+                  ? (0, $.jsx)(P, {
+                      children: (0, $.jsx)(Re, {
+                        ariaLabel: a.formatMessage({
+                          id: `appgenShareDialog.workspaceUserSearch`,
+                          defaultMessage: `Add people or groups`,
+                          description: `Accessible label for searching workspace users and groups in the site share dialog`,
+                        }),
+                        emptyMessage: (0, $.jsx)(O, {
+                          id: `appgenShareDialog.noWorkspaceUsers`,
+                          defaultMessage: `No matching people or groups`,
+                          description: `Empty state shown when no workspace users or groups match the site share dialog autocomplete query`,
+                        }),
+                        options: !me || k == null || A == null || L == null ? void 0 : z,
+                        placeholder: a.formatMessage({
+                          id: `appgenShareDialog.workspaceUserPlaceholder`,
+                          defaultMessage: `Add people or groups`,
+                          description: `Placeholder for the site share dialog workspace user and group autocomplete`,
+                        }),
+                        query: v,
+                        selectedOptions: xe,
+                        onQueryChange: y,
+                        onRemoveOption: (e) => {
+                          let { target: t } = e;
+                          bb173: switch (t.kind) {
+                            case `group`:
+                              E((e) => e.filter((e) => e.id !== t.group.id));
+                              break bb173;
+                            case `user`:
+                              S((e) =>
+                                e.filter((e) => e.account_user_id !== t.user.account_user_id),
+                              );
+                          }
+                        },
+                        onSelectOption: (e) => {
+                          let { target: t } = e;
+                          bb187: switch (t.kind) {
+                            case `group`:
+                              E((e) => [...e, t.group]);
+                              break bb187;
+                            case `user`:
+                              S((e) => [...e, t.user]);
+                          }
+                        },
+                        getRemoveLabel: (e) =>
+                          a.formatMessage(
+                            {
+                              id: `appgenShareDialog.removeSelectedUser`,
+                              defaultMessage: `Remove {name}`,
+                              description: `Accessible label for removing a selected workspace user from the site share dialog`,
+                            },
+                            { name: e.chipLabel ?? e.label },
+                          ),
+                      }),
+                    })
+                  : null,
+                (0, $.jsx)(Je, {
+                  accessPolicy: j,
+                  activeAccessGroups: M,
+                  activeAccessUsers: N,
+                  availableAccessModes: f.available_access_modes,
+                  canManageInvitees: V,
+                  isWorkspaceAccount: d,
+                  removableAccessGroupIds: R,
+                  selectedAccessMode: B,
+                  ownerEmail: l,
+                  ownerId: u?.account_user_id,
+                  onAccessModeChange: Ne,
+                  onRemoveAccessUser: (e) => {
+                    W({ kind: `user`, user: e });
+                  },
+                  onRemoveAccessGroup: (e) => {
+                    W({ kind: `group`, group: e });
+                  },
+                }),
+              ],
+            })),
+      (t[68] = k),
+      (t[69] = j),
+      (t[70] = M),
+      (t[71] = N),
+      (t[72] = A),
+      (t[73] = V),
+      (t[74] = u?.account_user_id),
+      (t[75] = l),
+      (t[76] = B),
+      (t[77] = a),
+      (t[78] = z),
+      (t[79] = me),
+      (t[80] = m),
+      (t[81] = h),
+      (t[82] = d),
+      (t[83] = L),
+      (t[84] = W),
+      (t[85] = f),
+      (t[86] = v),
+      (t[87] = R),
+      (t[88] = xe),
+      (t[89] = J))
+    : (J = t[89]);
+  let Ze = h || m || f == null || j == null ? void 0 : f.current_live_url,
+    Y;
+  t[90] !== B ||
+  t[91] !== U ||
+  t[92] !== Te ||
+  t[93] !== Ee ||
+  t[94] !== Ze ||
+  t[95] !== g.isPending
+    ? ((Y = (0, $.jsx)(Qe, {
+        accessMode: B,
+        hasPendingAccessChange: Te,
+        hasPendingInvitees: Ee,
+        isSaving: g.isPending,
+        liveUrl: Ze,
+        onCancelChanges: je,
+        onDone: U,
+      })),
+      (t[90] = B),
+      (t[91] = U),
+      (t[92] = Te),
+      (t[93] = Ee),
+      (t[94] = Ze),
+      (t[95] = g.isPending),
+      (t[96] = Y))
+    : (Y = t[96]);
+  let X;
+  t[97] !== q || t[98] !== J || t[99] !== Y
+    ? ((X = (0, $.jsxs)(_e, { className: `px-4 py-3`, children: [q, J, Y] })),
+      (t[97] = q),
+      (t[98] = J),
+      (t[99] = Y),
+      (t[100] = X))
+    : (X = t[100]);
+  let $e;
+  return (
+    t[101] !== K || t[102] !== X
+      ? (($e = (0, $.jsx)(de, {
+          open: !0,
+          size: `compact`,
+          contentOverflow: `visible`,
+          contentProps: G,
+          onOpenChange: K,
+          children: X,
+        })),
+        (t[101] = K),
+        (t[102] = X),
+        (t[103] = $e))
+      : ($e = t[103]),
+    $e
+  );
+}
+function Be() {}
+function Ve(e) {
+  return e.email;
+}
+function He(e) {
+  return e.id;
+}
+function Ue(e) {
+  return e.id;
+}
+function We(e) {
+  return e.account_user_id;
+}
+function Ge(e) {
+  return e.account_user_id;
+}
+function Ke(e) {
+  let t = (0, Z.c)(36),
+    { label: n, onClose: r, onConfirm: i, siteTitle: a } = e,
+    [o, s] = (0, Q.useState)(!1),
+    c = !o,
+    l;
+  t[0] !== o || t[1] !== r
+    ? ((l = (e) => {
+        !e && !o && r();
+      }),
+      (t[0] = o),
+      (t[1] = r),
+      (t[2] = l))
+    : (l = t[2]);
+  let u;
+  t[3] !== o || t[4] !== r || t[5] !== i
+    ? ((u = (e) => {
+        (e.preventDefault(),
+          !o &&
+            (s(!0),
+            i().then(r, () => {
+              s(!1);
+            })));
+      }),
+      (t[3] = o),
+      (t[4] = r),
+      (t[5] = i),
+      (t[6] = u))
+    : (u = t[6]);
+  let d;
+  t[7] === n
+    ? (d = t[8])
+    : ((d = (0, $.jsx)(pe, {
+        className: `contents`,
+        children: (0, $.jsx)(O, {
+          id: `appgenShareDialog.removeDialog.title`,
+          defaultMessage: `Remove {label}?`,
+          description: `Title for dialog confirming removal of a person's or group's site access`,
+          values: { label: n },
+        }),
+      })),
+      (t[7] = n),
+      (t[8] = d));
+  let f;
+  t[9] === n
+    ? (f = t[10])
+    : ((f = (0, $.jsx)(
+        `span`,
+        { className: `font-medium text-token-text-primary`, children: n },
+        `remove-access-label`,
+      )),
+      (t[9] = n),
+      (t[10] = f));
+  let p;
+  t[11] !== a || t[12] !== f
+    ? ((p = (0, $.jsx)(k, {
+        className: `contents`,
+        children: (0, $.jsx)(O, {
+          id: `appgenShareDialog.removeDialog.description`,
+          defaultMessage: `{label} will no longer be able to visit {siteTitle}`,
+          description: `Warning shown when removing a person or group from a site's access list`,
+          values: { label: f, siteTitle: a },
+        }),
+      })),
+      (t[11] = a),
+      (t[12] = f),
+      (t[13] = p))
+    : (p = t[13]);
+  let m;
+  t[14] !== d || t[15] !== p
+    ? ((m = (0, $.jsx)(he, { title: d, titleClassName: `truncate pr-8`, subtitle: p })),
+      (t[14] = d),
+      (t[15] = p),
+      (t[16] = m))
+    : (m = t[16]);
+  let h;
+  t[17] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((h = (0, $.jsx)(O, {
+        id: `appgenShareDialog.removeDialog.cancel`,
+        defaultMessage: `Cancel`,
+        description: `Cancel button label for access removal confirmation dialog`,
+      })),
+      (t[17] = h))
+    : (h = t[17]);
+  let g;
+  t[18] !== o || t[19] !== r
+    ? ((g = (0, $.jsx)(z, { color: `secondary`, disabled: o, onClick: r, children: h })),
+      (t[18] = o),
+      (t[19] = r),
+      (t[20] = g))
+    : (g = t[20]);
+  let _;
+  t[21] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((_ = (0, $.jsx)(O, {
+        id: `appgenShareDialog.removeDialog.confirm`,
+        defaultMessage: `Remove`,
+        description: `Confirm button label for removing site access`,
+      })),
+      (t[21] = _))
+    : (_ = t[21]);
+  let v;
+  t[22] === o
+    ? (v = t[23])
+    : ((v = (0, $.jsx)(z, { color: `danger`, loading: o, type: `submit`, children: _ })),
+      (t[22] = o),
+      (t[23] = v));
+  let y;
+  t[24] !== v || t[25] !== g
+    ? ((y = (0, $.jsx)(P, { children: (0, $.jsxs)(L, { children: [g, v] }) })),
+      (t[24] = v),
+      (t[25] = g),
+      (t[26] = y))
+    : (y = t[26]);
+  let b;
+  t[27] !== y || t[28] !== u || t[29] !== m
+    ? ((b = (0, $.jsxs)(_e, {
+        as: `form`,
+        className: `gap-4 px-4 py-3`,
+        onSubmit: u,
+        children: [m, y],
+      })),
+      (t[27] = y),
+      (t[28] = u),
+      (t[29] = m),
+      (t[30] = b))
+    : (b = t[30]);
+  let x;
+  return (
+    t[31] !== o || t[32] !== c || t[33] !== b || t[34] !== l
+      ? ((x = (0, $.jsx)(de, {
+          open: !0,
+          shouldIgnoreClickOutside: o,
+          showDialogClose: c,
+          size: `compact`,
+          onOpenChange: l,
+          children: b,
+        })),
+        (t[31] = o),
+        (t[32] = c),
+        (t[33] = b),
+        (t[34] = l),
+        (t[35] = x))
+      : (x = t[35]),
+    x
+  );
+}
+function qe(e) {
+  let t = (0, Z.c)(12),
+    { liveUrl: n, title: r } = e,
+    i;
+  t[0] === n ? (i = t[1]) : ((i = m(n)), (t[0] = n), (t[1] = i));
+  let a = i,
+    o;
+  t[2] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((o = (0, $.jsx)(`span`, {
+        className: `flex size-10 shrink-0 items-center justify-center`,
+        children: (0, $.jsx)(we, { className: `icon-md` }),
+      })),
+      (t[2] = o))
+    : (o = t[2]);
+  let s;
+  t[3] === r
+    ? (s = t[4])
+    : ((s = (0, $.jsx)(`div`, {
+        className: `truncate text-sm font-medium text-token-foreground`,
+        children: r,
+      })),
+      (t[3] = r),
+      (t[4] = s));
+  let c;
+  t[5] === a
+    ? (c = t[6])
+    : ((c =
+        a ??
+        (0, $.jsx)(O, {
+          id: `appgenShareDialog.site.notPublished`,
+          defaultMessage: `Not published yet`,
+          description: `Label in the share dialog for a site without a published URL`,
+        })),
+      (t[5] = a),
+      (t[6] = c));
+  let l;
+  t[7] === c
+    ? (l = t[8])
+    : ((l = (0, $.jsx)(`div`, {
+        className: `truncate text-xs text-token-text-tertiary`,
+        children: c,
+      })),
+      (t[7] = c),
+      (t[8] = l));
+  let u;
+  return (
+    t[9] !== s || t[10] !== l
+      ? ((u = (0, $.jsxs)(`div`, {
+          className: `flex items-center gap-3 rounded-lg bg-token-bg-secondary p-3`,
+          children: [
+            o,
+            (0, $.jsxs)(`div`, { className: `flex min-w-0 flex-col gap-0.5`, children: [s, l] }),
+          ],
+        })),
+        (t[9] = s),
+        (t[10] = l),
+        (t[11] = u))
+      : (u = t[11]),
+    u
+  );
+}
+function Je(e) {
+  let t = (0, Z.c)(51),
+    {
+      activeAccessGroups: n,
+      activeAccessUsers: r,
+      accessPolicy: i,
+      availableAccessModes: a,
+      canManageInvitees: o,
+      isWorkspaceAccount: s,
+      removableAccessGroupIds: c,
+      selectedAccessMode: l,
+      ownerEmail: u,
+      ownerId: d,
+      onAccessModeChange: f,
+      onRemoveAccessGroup: p,
+      onRemoveAccessUser: m,
+    } = e,
+    h = ae(),
+    g,
+    _,
+    v,
+    y,
+    b,
+    x,
+    S;
+  if (
+    t[0] !== i.access_mode ||
+    t[1] !== i.revision ||
+    t[2] !== r ||
+    t[3] !== a ||
+    t[4] !== o ||
+    t[5] !== s ||
+    t[6] !== f ||
+    t[7] !== m ||
+    t[8] !== u ||
+    t[9] !== d ||
+    t[10] !== l
+  ) {
+    let e = Ye({ activeAccessUsers: r, currentAccountUserId: d, currentUserEmail: u }),
+      n = r.filter((t) => t.account_user_id !== e?.account_user_id);
+    ((g = P),
+      (b = `gap-3`),
+      t[18] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((x = (0, $.jsx)(`div`, {
+            className: `text-sm font-medium text-token-foreground`,
+            children: (0, $.jsx)(O, {
+              id: `appgenShareDialog.access.title`,
+              defaultMessage: `Who has access`,
+              description: `Heading for access information in the site share dialog`,
+            }),
+          })),
+          (t[18] = x))
+        : (x = t[18]));
+    let c = `${i.revision}:${i.access_mode}`,
+      p = l ?? i.access_mode;
+    (t[19] !== i.access_mode ||
+    t[20] !== a ||
+    t[21] !== s ||
+    t[22] !== f ||
+    t[23] !== c ||
+    t[24] !== p
+      ? ((S = (0, $.jsx)(
+          Ze,
+          {
+            availableAccessModes: a,
+            currentAccessMode: i.access_mode,
+            isWorkspaceAccount: s,
+            selectedAccessMode: p,
+            onAccessModeChange: f,
+          },
+          c,
+        )),
+        (t[19] = i.access_mode),
+        (t[20] = a),
+        (t[21] = s),
+        (t[22] = f),
+        (t[23] = c),
+        (t[24] = p),
+        (t[25] = S))
+      : (S = t[25]),
+      (_ = `vertical-scroll-fade-mask flex max-h-64 flex-col gap-3 overflow-y-auto`),
+      (v =
+        e == null
+          ? null
+          : (0, $.jsx)(U, {
+              avatarLabel: W(e),
+              label: Xe(e),
+              secondaryLabel: G(e),
+              trailingContent: (0, $.jsx)(`span`, {
+                className: `text-sm text-token-description-foreground`,
+                children: (0, $.jsx)(O, {
+                  id: `appgenShareDialog.permission.owner`,
+                  defaultMessage: `Owner`,
+                  description: `Label for the owner in the site share dialog`,
+                }),
+              }),
+            })));
+    let h;
+    (t[26] !== o || t[27] !== m
+      ? ((h = (e) =>
+          (0, $.jsx)(
+            U,
+            {
+              avatarLabel: W(e),
+              label: Xe(e),
+              secondaryLabel: G(e),
+              trailingContent: (0, $.jsx)(K, {
+                onRemoveAccess: o
+                  ? () => {
+                      m(e);
+                    }
+                  : void 0,
+              }),
+            },
+            e.account_user_id,
+          )),
+        (t[26] = o),
+        (t[27] = m),
+        (t[28] = h))
+      : (h = t[28]),
+      (y = n.map(h)),
+      (t[0] = i.access_mode),
+      (t[1] = i.revision),
+      (t[2] = r),
+      (t[3] = a),
+      (t[4] = o),
+      (t[5] = s),
+      (t[6] = f),
+      (t[7] = m),
+      (t[8] = u),
+      (t[9] = d),
+      (t[10] = l),
+      (t[11] = g),
+      (t[12] = _),
+      (t[13] = v),
+      (t[14] = y),
+      (t[15] = b),
+      (t[16] = x),
+      (t[17] = S));
+  } else
+    ((g = t[11]), (_ = t[12]), (v = t[13]), (y = t[14]), (b = t[15]), (x = t[16]), (S = t[17]));
+  let C;
+  if (t[29] !== n || t[30] !== o || t[31] !== h || t[32] !== p || t[33] !== c) {
+    let e;
+    (t[35] !== o || t[36] !== h || t[37] !== p || t[38] !== c
+      ? ((e = (e) =>
+          (0, $.jsx)(
+            U,
+            {
+              label: e.name,
+              secondaryLabel: h.formatMessage(
+                {
+                  id: `appgenShareDialog.access.groupSize`,
+                  defaultMessage: `{count, plural, one {# member} other {# members}}`,
+                  description: `Member count shown for a group in the site share dialog`,
+                },
+                { count: e.size },
+              ),
+              trailingContent: (0, $.jsx)(K, {
+                onRemoveAccess:
+                  o && c.has(e.id)
+                    ? () => {
+                        p(e);
+                      }
+                    : void 0,
+              }),
+            },
+            e.id,
+          )),
+        (t[35] = o),
+        (t[36] = h),
+        (t[37] = p),
+        (t[38] = c),
+        (t[39] = e))
+      : (e = t[39]),
+      (C = n.map(e)),
+      (t[29] = n),
+      (t[30] = o),
+      (t[31] = h),
+      (t[32] = p),
+      (t[33] = c),
+      (t[34] = C));
+  } else C = t[34];
+  let w;
+  t[40] !== _ || t[41] !== v || t[42] !== y || t[43] !== C
+    ? ((w = (0, $.jsxs)(`div`, { className: _, children: [v, y, C] })),
+      (t[40] = _),
+      (t[41] = v),
+      (t[42] = y),
+      (t[43] = C),
+      (t[44] = w))
+    : (w = t[44]);
+  let T;
+  return (
+    t[45] !== g || t[46] !== b || t[47] !== x || t[48] !== S || t[49] !== w
+      ? ((T = (0, $.jsxs)(g, { className: b, children: [x, S, w] })),
+        (t[45] = g),
+        (t[46] = b),
+        (t[47] = x),
+        (t[48] = S),
+        (t[49] = w),
+        (t[50] = T))
+      : (T = t[50]),
+    T
+  );
+}
+function Ye({ activeAccessUsers: e, currentAccountUserId: t, currentUserEmail: n }) {
+  let r = n?.trim().toLowerCase();
+  if (r != null && r.length > 0) {
+    let t = e.find((e) => e.email?.trim().toLowerCase() === r);
+    if (t != null) return t;
+  }
+  return t == null ? null : (e.find((e) => e.account_user_id === t) ?? null);
+}
+function Xe(e) {
+  return e.name ?? e.email ?? e.account_user_id;
+}
+function W(e) {
+  return e.name ?? e.email ?? e.account_user_id.replace(/[-_]/g, ` `);
+}
+function G(e) {
+  return e.name == null ? null : e.email;
+}
+function K(e) {
+  let t = (0, Z.c)(4),
+    { onRemoveAccess: n } = e,
+    r,
+    i;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((r = [{ value: `visit` }]),
+      (i = (0, $.jsx)(O, {
+        id: `appgenShareDialog.permission.remove`,
+        defaultMessage: `Remove access`,
+        description: `Menu item for removing a person's site access`,
+      })),
+      (t[0] = r),
+      (t[1] = i))
+    : ((r = t[0]), (i = t[1]));
+  let a;
+  return (
+    t[2] === n
+      ? (a = t[3])
+      : ((a = (0, $.jsx)(Me, {
+          options: r,
+          removeLabel: i,
+          value: `visit`,
+          renderLabel: q,
+          onRemoveAccess: n,
+        })),
+        (t[2] = n),
+        (t[3] = a)),
+    a
+  );
+}
+function q() {
+  return (0, $.jsx)(J, {});
+}
+function J() {
+  let e = (0, Z.c)(1),
+    t;
+  return (
+    e[0] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((t = (0, $.jsx)(O, {
+          id: `appgenShareDialog.permission.visit`,
+          defaultMessage: `Can visit`,
+          description: `Visitor permission label in the site share dialog`,
+        })),
+        (e[0] = t))
+      : (t = e[0]),
+    t
+  );
+}
+function Ze(e) {
+  let t = (0, Z.c)(13),
+    {
+      availableAccessModes: n,
+      currentAccessMode: r,
+      isWorkspaceAccount: i,
+      selectedAccessMode: a,
+      onAccessModeChange: o,
+    } = e,
+    s,
+    c;
+  if (t[0] !== n || t[1] !== r || t[2] !== i) {
+    let e = S({ availableAccessModes: n, currentAccessMode: r, isWorkspaceAccount: i });
+    ((s = je), (c = e.map(Y)), (t[0] = n), (t[1] = r), (t[2] = i), (t[3] = s), (t[4] = c));
+  } else ((s = t[3]), (c = t[4]));
+  let l;
+  t[5] === i
+    ? (l = t[6])
+    : ((l = (e) =>
+        e === `custom` && !i
+          ? (0, $.jsx)(O, {
+              id: `appgenAccess.state.personalOwnerOnly`,
+              defaultMessage: `Just me`,
+              description: `Label for a personal site whose access is limited to its owner`,
+            })
+          : (0, $.jsx)(O, { ...ot[e] })),
+      (t[5] = i),
+      (t[6] = l));
+  let u;
+  return (
+    t[7] !== s || t[8] !== o || t[9] !== a || t[10] !== c || t[11] !== l
+      ? ((u = (0, $.jsx)(s, { options: c, value: a, renderLabel: l, onChange: o })),
+        (t[7] = s),
+        (t[8] = o),
+        (t[9] = a),
+        (t[10] = c),
+        (t[11] = l),
+        (t[12] = u))
+      : (u = t[12]),
+    u
+  );
+}
+function Y(e) {
+  let { disabled: t, value: n } = e;
+  return { disabled: t, Icon: X(n), value: n };
+}
+function X(e) {
+  switch (e) {
+    case `admins_only`:
+    case `custom`:
+      return b;
+    case `workspace_all`:
+      return v;
+    case `public`:
+      return j;
+  }
+}
+function Qe(e) {
+  let t = (0, Z.c)(35),
+    {
+      accessMode: n,
+      hasPendingAccessChange: i,
+      hasPendingInvitees: a,
+      isSaving: o,
+      liveUrl: c,
+      onCancelChanges: l,
+      onDone: u,
+    } = e,
+    f = ae(),
+    p = s(r),
+    m;
+  t[0] !== o || t[1] !== c
+    ? ((m = et({ action: `copyLink`, isSaving: o, liveUrl: c })),
+      (t[0] = o),
+      (t[1] = c),
+      (t[2] = m))
+    : (m = t[2]);
+  let h = m,
+    _;
+  t[3] !== o || t[4] !== c
+    ? ((_ = et({ action: `visit`, isSaving: o, liveUrl: c })), (t[3] = o), (t[4] = c), (t[5] = _))
+    : (_ = t[5]);
+  let v = _,
+    y;
+  t[6] === u ? (y = t[7]) : ((y = { onClick: u }), (t[6] = u), (t[7] = y));
+  let b;
+  t[8] === n
+    ? (b = t[9])
+    : ((b =
+        n === `public`
+          ? (0, $.jsx)(O, {
+              id: `appgenShareDialog.publish`,
+              defaultMessage: `Publish`,
+              description: `Button label for publishing a site to the public internet`,
+            })
+          : void 0),
+      (t[8] = n),
+      (t[9] = b));
+  let x;
+  t[10] !== u || t[11] !== b
+    ? ((x = { label: b, onClick: u }), (t[10] = u), (t[11] = b), (t[12] = x))
+    : (x = t[12]);
+  let S;
+  t[13] !== y || t[14] !== x
+    ? ((S = { invite: y, share: x }), (t[13] = y), (t[14] = x), (t[15] = S))
+    : (S = t[15]);
+  let C;
+  t[16] === l ? (C = t[17]) : ((C = { onClick: l }), (t[16] = l), (t[17] = C));
+  let w;
+  t[18] !== h || t[19] !== f || t[20] !== o || t[21] !== c || t[22] !== p || t[23] !== v
+    ? ((w =
+        c === void 0
+          ? null
+          : (0, $.jsxs)(`div`, {
+              className: `flex items-center gap-2`,
+              children: [
+                (0, $.jsx)(T, {
+                  tooltipContent: v,
+                  children: (0, $.jsx)(`span`, {
+                    className: `inline-flex`,
+                    children: (0, $.jsxs)(z, {
+                      color: `outline`,
+                      disabled: o || c == null,
+                      size: `toolbar`,
+                      onClick: (e) => {
+                        c != null && V({ event: e, href: c, initiator: `mcp_app_resource` });
+                      },
+                      children: [
+                        c == null
+                          ? null
+                          : (0, $.jsx)(M, { className: `icon-xs`, ExternalIcon: g, href: c }),
+                        (0, $.jsx)(O, {
+                          id: `appgenShareDialog.visit`,
+                          defaultMessage: `Visit`,
+                          description: `Button label for opening a live site externally`,
+                        }),
+                      ],
+                    }),
+                  }),
+                }),
+                (0, $.jsx)(T, {
+                  tooltipContent: h,
+                  children: (0, $.jsx)(`span`, {
+                    className: `inline-flex`,
+                    children: (0, $.jsxs)(z, {
+                      color: `outline`,
+                      disabled: o || c == null,
+                      size: `toolbar`,
+                      onClick: () => {
+                        c != null &&
+                          xe(c).then(() => {
+                            p.get(Ce).info(
+                              f.formatMessage({
+                                id: `appgenShareDialog.copySuccess`,
+                                defaultMessage: `Copied to clipboard`,
+                                description: `Toast shown after copying a live site URL`,
+                              }),
+                            );
+                          }, $e);
+                      },
+                      children: [
+                        (0, $.jsx)(d, { className: `icon-xs` }),
+                        (0, $.jsx)(O, {
+                          id: `appgenShareDialog.copyLink`,
+                          defaultMessage: `Copy link`,
+                          description: `Button label for copying a live site URL`,
+                        }),
+                      ],
+                    }),
+                  }),
+                }),
+              ],
+            })),
+      (t[18] = h),
+      (t[19] = f),
+      (t[20] = o),
+      (t[21] = c),
+      (t[22] = p),
+      (t[23] = v),
+      (t[24] = w))
+    : (w = t[24]);
+  let E;
+  t[25] === f
+    ? (E = t[26])
+    : ((E = f.formatMessage({
+        id: `appgenShareDialog.saving`,
+        defaultMessage: `Saving`,
+        description: `Accessible label for the site share dialog save button while saving`,
+      })),
+      (t[25] = f),
+      (t[26] = E));
+  let D;
+  return (
+    t[27] !== i ||
+    t[28] !== a ||
+    t[29] !== o ||
+    t[30] !== S ||
+    t[31] !== C ||
+    t[32] !== w ||
+    t[33] !== E
+      ? ((D = (0, $.jsx)(P, {
+          className: `pt-4`,
+          children: (0, $.jsx)(`div`, {
+            className: `flex w-full items-center justify-end gap-3`,
+            children: (0, $.jsx)(H, {
+              actions: S,
+              cancelAction: C,
+              disabled: o,
+              hasPendingAccessChange: i,
+              hasPendingInvitees: a,
+              idleActions: w,
+              isSaving: o,
+              savingAriaLabel: E,
+              size: `toolbar`,
+              spinnerClassName: `icon-xxs`,
+            }),
+          }),
+        })),
+        (t[27] = i),
+        (t[28] = a),
+        (t[29] = o),
+        (t[30] = S),
+        (t[31] = C),
+        (t[32] = w),
+        (t[33] = E),
+        (t[34] = D))
+      : (D = t[34]),
+    D
+  );
+}
+function $e() {}
+function et({ action: e, isSaving: t, liveUrl: n }) {
+  if (n == null)
+    switch (e) {
+      case `copyLink`:
+        return (0, $.jsx)(O, {
+          id: `appgenShareDialog.copyLinkDisabled.notPublished`,
+          defaultMessage: `Publish this site to copy its link`,
+          description: `Tooltip explaining why the site share dialog copy link button is disabled`,
+        });
+      case `visit`:
+        return (0, $.jsx)(O, {
+          id: `appgenShareDialog.visitDisabled.notPublished`,
+          defaultMessage: `Publish this site before visiting it`,
+          description: `Tooltip explaining why the site share dialog visit button is disabled`,
+        });
+    }
+  return t
+    ? (0, $.jsx)(O, {
+        id: `appgenShareDialog.footerActionDisabled.saving`,
+        defaultMessage: `Sharing settings are still saving`,
+        description: `Tooltip explaining why site share dialog footer actions are disabled while saving`,
+      })
+    : null;
+}
+function tt(e) {
+  return [
+    ...(e?.workspace_groups.map((e) => ({ ...e, source: `workspace` })) ?? []),
+    ...(e?.tenant_groups.map((e) => ({ ...e, source: `tenant` })) ?? []),
+  ];
+}
+function nt(...e) {
+  return {
+    tenant_groups: rt(e.flatMap((e) => e?.tenant_groups ?? [])),
+    workspace_groups: rt(e.flatMap((e) => e?.workspace_groups ?? [])),
+  };
+}
+function rt(e) {
+  return Array.from(new Map(e.map((e) => [e.id, e])).values());
+}
+function it(e, t) {
+  return {
+    chipLabel: e.name,
+    id: `group:${e.source}:${e.id}`,
+    label: e.name,
+    secondaryLabel: t.formatMessage(
+      {
+        id: `appgenShareDialog.access.groupSize`,
+        defaultMessage: `{count, plural, one {# member} other {# members}}`,
+        description: `Member count shown for a group in the site share dialog`,
+      },
+      { count: e.size },
+    ),
+    target: { kind: `group`, group: e },
+  };
+}
+function at(e) {
+  let t = Ae(e);
+  return {
+    chipLabel: t.chipLabel,
+    id: `user:${e.account_user_id}`,
+    label: t.label,
+    secondaryLabel: t.secondaryLabel,
+    target: { kind: `user`, user: e },
+  };
+}
+var Z,
+  Q,
+  $,
+  ot,
+  st = e(() => {
+    ((Z = i()),
+      a(),
+      (Q = t(n(), 1)),
+      se(),
+      ee(),
+      le(),
+      ye(),
+      A(),
+      N(),
+      Te(),
+      I(),
+      F(),
+      ke(),
+      Ne(),
+      Oe(),
+      Le(),
+      Fe(),
+      Ee(),
+      be(),
+      R(),
+      E(),
+      C(),
+      h(),
+      ue(),
+      f(),
+      y(),
+      B(),
+      Ie(),
+      l(),
+      Se(),
+      me(),
+      u(),
+      re(),
+      x(),
+      ($ = c()),
+      (ot = ie({
+        admins_only: {
+          id: `appgenAccess.state.ownerOnly`,
+          defaultMessage: `Just me`,
+          description: `Label for a site whose access is limited to its owner`,
+        },
+        custom: {
+          id: `appgenAccess.state.privatelyShared`,
+          defaultMessage: `Only those invited`,
+          description: `Label for a site shared privately with invited people`,
+        },
+        public: {
+          id: `appgenAccess.state.public`,
+          defaultMessage: `Anyone on the Internet`,
+          description: `Label for a site shared publicly on the internet`,
+        },
+        workspace_all: {
+          id: `appgenAccess.state.workspaceAll`,
+          defaultMessage: `Anyone in this workspace with the link`,
+          description: `Label for a site shared with anyone in the workspace`,
+        },
+      })));
+  });
+export { st as n, ze as t };
 //# sourceMappingURL=appgen-share-dialog--o3-U-xq.js.map

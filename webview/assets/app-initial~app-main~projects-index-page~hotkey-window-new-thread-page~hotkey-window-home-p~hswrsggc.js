@@ -1,0 +1,1241 @@
+import { n as e, s as t } from "./rolldown-runtime.js";
+import {
+  Bt as n,
+  C as r,
+  El as i,
+  Ga as a,
+  O as o,
+  Rt as s,
+  Sr as c,
+  Tl as l,
+  Xs as u,
+  a as d,
+  h as f,
+  n as p,
+  nc as m,
+  nt as h,
+  o as g,
+  p as _,
+  st as v,
+  t as y,
+  tc as b,
+  v as x,
+  vl as S,
+  y as C,
+  zc as w,
+  zt as T,
+} from "./app-initial~app-main~worktree-init-v2-page~appgen-settings-page~page~appgen-publication-ter~fzo5ij6p.js";
+import {
+  $w as E,
+  Dp as D,
+  Ep as O,
+  Qf as k,
+  Qw as A,
+  Xw as ee,
+  Zw as j,
+  ep as M,
+} from "./app-initial~app-main~onboarding-page.js";
+import {
+  $ as te,
+  E as ne,
+  G as N,
+  O as P,
+  S as re,
+  T as F,
+  W as ie,
+  dt as ae,
+  tt as oe,
+  ut as se,
+  w as I,
+} from "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~onboarding-page~project~okyna5mq.js";
+import {
+  $h as ce,
+  Gd as le,
+  Ib as ue,
+  Rb as de,
+  St as fe,
+  Sx as L,
+  bt as pe,
+  if as me,
+  nx as R,
+  qd as z,
+  rf as he,
+  rx as ge,
+  wx as _e,
+  xt as ve,
+  yx as B,
+} from "./app-initial~app-main~new-thread-panel-page.js";
+import {
+  An as ye,
+  Ci as be,
+  Dn as xe,
+  Du as Se,
+  Ei as Ce,
+  Eu as we,
+  Gn as Te,
+  Gr as Ee,
+  Kr as De,
+  Mn as Oe,
+  Nn as ke,
+  On as Ae,
+  Sr as je,
+  Ti as Me,
+  Wn as Ne,
+  bu as Pe,
+  kn as Fe,
+  pr as V,
+  wi as H,
+  xu as U,
+} from "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~onboarding-page~appgen-~o4yhvtva.js";
+import {
+  $ as W,
+  F as Ie,
+  P as Le,
+  Q as Re,
+  Z as ze,
+  et as G,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~new-~djgpfzje.js";
+import { m as Be, p as K } from "./app-initial~app-main~onboarding-page~select-workspace-page.js";
+import {
+  A as Ve,
+  O as He,
+  n as Ue,
+  t as We,
+} from "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~projects-index-page~app~5rsl7kw4.js";
+import {
+  K as Ge,
+  q as Ke,
+} from "./app-initial~app-main~remote-conversation-page~plugin-detail-page~new-thread-panel-page~appg~ijdupmx5.js";
+import {
+  n as qe,
+  t as q,
+} from "./app-initial~app-main~hotkey-window-new-thread-page~hotkey-window-home-page~local-conversati~d7c9lerv-D7vX-KTi.js";
+var J,
+  Je,
+  Y = e(() => {
+    (t(i()),
+      (J = S()),
+      (Je = (e) =>
+        (0, J.jsxs)(`svg`, {
+          width: 16,
+          height: 16,
+          viewBox: `0 0 16 16`,
+          fill: `none`,
+          xmlns: `http://www.w3.org/2000/svg`,
+          ...e,
+          children: [
+            (0, J.jsx)(`path`, {
+              d: `M6.33325 1.88379C6.58178 1.88379 6.78345 2.08546 6.78345 2.33398C6.78328 2.58237 6.58168 2.78418 6.33325 2.78418H4.66626C3.62638 2.78435 2.78362 3.62711 2.78345 4.66699V11.334C2.78361 12.3739 3.62637 13.2176 4.66626 13.2178H11.3333C12.3733 13.2178 13.2169 12.374 13.217 11.334V9.66699C13.2172 9.41872 13.418 9.21795 13.6663 9.21777C13.9147 9.21777 14.1163 9.41861 14.1165 9.66699V11.334C14.1163 12.871 12.8703 14.1172 11.3333 14.1172H4.66626C3.12932 14.117 1.88322 12.8709 1.88306 11.334V4.66699C1.88323 3.13006 3.12933 1.88396 4.66626 1.88379H6.33325Z`,
+              fill: `currentColor`,
+            }),
+            (0, J.jsx)(`path`, {
+              fillRule: `evenodd`,
+              clipRule: `evenodd`,
+              d: `M10.8948 2.375C11.6494 1.63227 12.8628 1.63698 13.6116 2.38574C14.362 3.13643 14.3637 4.35266 13.6165 5.10644L9.36353 9.39355C9.01402 9.74579 8.56977 9.98985 8.08521 10.0967L6.17603 10.5166C5.74813 10.6107 5.36686 10.2296 5.46118 9.80176L5.88208 7.89746C5.98978 7.4105 6.23578 6.96428 6.59106 6.61426L10.8948 2.375ZM12.9749 3.02148C12.5756 2.62258 11.9289 2.62086 11.5266 3.0166L7.2229 7.25586C6.99148 7.4839 6.83116 7.77457 6.76099 8.0918L6.44165 9.53711L7.89185 9.21777C8.20744 9.14811 8.49721 8.98919 8.72485 8.75976L12.9778 4.47266C13.3759 4.07066 13.375 3.42164 12.9749 3.02148Z`,
+              fill: `currentColor`,
+            }),
+          ],
+        })));
+  }),
+  Ye,
+  Xe = e(() => {
+    Ye = `12346831`;
+  });
+function Ze(e) {
+  let t = (0, Qe.c)(44),
+    {
+      children: n,
+      groups: r,
+      projectAppearances: i,
+      selectedProjectIds: a,
+      onSelectProjectId: o,
+      keepOpenOnSelect: s,
+      projectlessActionLabel: c,
+      onSelectProjectless: l,
+      footerItems: u,
+      onAddLocalProject: d,
+      onAddRemoteProject: f,
+      emptyMessage: p,
+    } = e,
+    m = s === void 0 ? !1 : s,
+    g = _e(),
+    _ = l != null && c != null,
+    [v, y] = (0, $e.useState)(``),
+    b,
+    x,
+    S,
+    C,
+    w,
+    T;
+  if (
+    t[0] !== _ ||
+    t[1] !== u ||
+    t[2] !== r ||
+    t[3] !== g ||
+    t[4] !== m ||
+    t[5] !== d ||
+    t[6] !== f ||
+    t[7] !== o ||
+    t[8] !== i ||
+    t[9] !== v ||
+    t[10] !== a
+  ) {
+    let e = v.trim().toLowerCase();
+    x = r.filter((t) => {
+      if (!e) return !0;
+      let n = t.repositoryData?.rootFolder ?? ``;
+      return [t.label, n, t.path ?? ``, t.hostDisplayName ?? ``].some((t) =>
+        t.toLowerCase().includes(e),
+      );
+    });
+    let n = new Map();
+    (r.forEach((e) => {
+      if (e.path == null) return;
+      let t = n.get(e.label);
+      if (t == null) {
+        n.set(e.label, [e.path]);
+        return;
+      }
+      t.push(e.path);
+    }),
+      (S = _ || u != null || d != null || f != null));
+    let s;
+    t[17] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((s = (e) => {
+          y(e.target.value);
+        }),
+        (t[17] = s))
+      : (s = t[17]);
+    let c;
+    (t[18] === g
+      ? (c = t[19])
+      : ((c = g.formatMessage({
+          id: `composer.localCwdDropdown.searchPlaceholder`,
+          defaultMessage: `Search projects`,
+          description: `Placeholder for searching the workspace root dropdown`,
+        })),
+        (t[18] = g),
+        (t[19] = c)),
+      t[20] !== v || t[21] !== c
+        ? ((T = (0, X.jsx)(ne, { value: v, onChange: s, placeholder: c, className: `mb-1` })),
+          (t[20] = v),
+          (t[21] = c),
+          (t[22] = T))
+        : (T = t[22]),
+      (b = I.Section),
+      (C = `flex max-h-[calc((1lh+var(--padding-row-y)*2)*5)] flex-col overflow-y-auto text-sm [--edge-fade-distance:1.5rem]`),
+      (w = x.map((e) => {
+        let t = i[e.projectId] ?? null,
+          r = (0, X.jsx)(q, { className: `icon-xs`, isRemoteProject: e.projectKind === `remote` }),
+          s = e.repositoryData?.rootFolder,
+          c = s != null && s !== e.label,
+          l = n.get(e.label) ?? [],
+          u = l.length > 1 && e.path != null ? h(e.path, l) : null;
+        return (0, X.jsx)(
+          `div`,
+          {
+            className: `flex flex-col`,
+            children: (0, X.jsxs)(F, {
+              RightIcon: a.includes(e.projectId) ? se : void 0,
+              tooltipText: u ?? void 0,
+              tooltipAlign: `center`,
+              onSelect: (t) => {
+                (m && t.preventDefault(), o(e.projectId));
+              },
+              children: [
+                (0, X.jsx)(I.ItemIcon, {
+                  size: `xs`,
+                  children:
+                    t == null
+                      ? r
+                      : (0, X.jsx)(Ee, { appearance: t, className: `size-4`, fallbackIcon: r }),
+                }),
+                (0, X.jsxs)(`div`, {
+                  className: `flex min-w-0 items-center gap-1`,
+                  children: [
+                    (0, X.jsx)(`span`, { className: `truncate`, children: e.label }),
+                    e.hostDisplayName == null
+                      ? null
+                      : (0, X.jsx)(`span`, {
+                          className: `truncate text-sm text-token-description-foreground`,
+                          children: e.hostDisplayName,
+                        }),
+                    c
+                      ? (0, X.jsx)(`span`, {
+                          className: `truncate text-sm text-token-description-foreground`,
+                          children: s,
+                        })
+                      : null,
+                  ],
+                }),
+              ],
+            }),
+          },
+          e.projectId,
+        );
+      })),
+      (t[0] = _),
+      (t[1] = u),
+      (t[2] = r),
+      (t[3] = g),
+      (t[4] = m),
+      (t[5] = d),
+      (t[6] = f),
+      (t[7] = o),
+      (t[8] = i),
+      (t[9] = v),
+      (t[10] = a),
+      (t[11] = b),
+      (t[12] = x),
+      (t[13] = S),
+      (t[14] = C),
+      (t[15] = w),
+      (t[16] = T));
+  } else ((b = t[11]), (x = t[12]), (S = t[13]), (C = t[14]), (w = t[15]), (T = t[16]));
+  let E;
+  t[23] !== p || t[24] !== x.length
+    ? ((E =
+        x.length === 0
+          ? (0, X.jsx)(`div`, {
+              className: `px-3 py-2 text-sm text-token-description-foreground`,
+              children:
+                p ??
+                (0, X.jsx)(L, {
+                  id: `composer.localCwdDropdown.noProjectsFound`,
+                  defaultMessage: `No projects found`,
+                  description: `Shown when searching for projects returns no results`,
+                }),
+            })
+          : null),
+      (t[23] = p),
+      (t[24] = x.length),
+      (t[25] = E))
+    : (E = t[25]);
+  let D;
+  t[26] !== b || t[27] !== C || t[28] !== w || t[29] !== E
+    ? ((D = (0, X.jsxs)(b, { className: C, children: [w, E] })),
+      (t[26] = b),
+      (t[27] = C),
+      (t[28] = w),
+      (t[29] = E),
+      (t[30] = D))
+    : (D = t[30]);
+  let O;
+  t[31] !== _ ||
+  t[32] !== u ||
+  t[33] !== d ||
+  t[34] !== f ||
+  t[35] !== l ||
+  t[36] !== c ||
+  t[37] !== S
+    ? ((O = S
+        ? (0, X.jsxs)(X.Fragment, {
+            children: [
+              (0, X.jsx)(I.Separator, {}),
+              (0, X.jsxs)(I.Section, {
+                className: `flex flex-col`,
+                children: [
+                  (0, X.jsx)(ie, {
+                    electron: !0,
+                    browser: !0,
+                    children: f
+                      ? (0, X.jsx)(F, {
+                          LeftIcon: Me,
+                          onSelect: f,
+                          children: (0, X.jsx)(L, {
+                            id: `composer.localCwdDropdown.newRemoteProject`,
+                            defaultMessage: `New remote project`,
+                            description: `Menu item that opens the remote project setup dialog`,
+                          }),
+                        })
+                      : null,
+                  }),
+                  (0, X.jsx)(ie, {
+                    electron: !0,
+                    children: (0, X.jsxs)(X.Fragment, {
+                      children: [
+                        u,
+                        d
+                          ? (0, X.jsx)(F, {
+                              LeftIcon: Pe,
+                              onSelect: d,
+                              children: f
+                                ? (0, X.jsx)(L, {
+                                    id: `composer.localCwdDropdown.addLocalWorkspaceRoot`,
+                                    defaultMessage: `Add local project`,
+                                    description: `Menu item that opens the local folder picker in the electron app when a remote project can also be added`,
+                                  })
+                                : (0, X.jsx)(L, {
+                                    id: `composer.localCwdDropdown.addWorkspaceRoot`,
+                                    defaultMessage: `Add new project`,
+                                    description: `Menu item that opens the project picker in the electron app when only local projects can be added`,
+                                  }),
+                            })
+                          : null,
+                        _ ? (0, X.jsx)(F, { LeftIcon: Le, onSelect: l, children: c }) : null,
+                      ],
+                    }),
+                  }),
+                ],
+              }),
+            ],
+          })
+        : null),
+      (t[31] = _),
+      (t[32] = u),
+      (t[33] = d),
+      (t[34] = f),
+      (t[35] = l),
+      (t[36] = c),
+      (t[37] = S),
+      (t[38] = O))
+    : (O = t[38]);
+  let k;
+  return (
+    t[39] !== n || t[40] !== T || t[41] !== D || t[42] !== O
+      ? ((k = (0, X.jsxs)(X.Fragment, { children: [T, D, n, O] })),
+        (t[39] = n),
+        (t[40] = T),
+        (t[41] = D),
+        (t[42] = O),
+        (t[43] = k))
+      : (k = t[43]),
+    k
+  );
+}
+var Qe,
+  $e,
+  X,
+  et = e(() => {
+    ((Qe = l()),
+      ($e = t(i(), 1)),
+      B(),
+      P(),
+      N(),
+      ae(),
+      Ce(),
+      U(),
+      Ie(),
+      De(),
+      qe(),
+      v(),
+      (X = S()));
+  }),
+  tt,
+  nt = e(() => {
+    (u(),
+      T(),
+      He(),
+      ke(),
+      V(),
+      We(),
+      (tt = w(s, ({ get: e }) => {
+        let t = e(je),
+          n = e(Ne, { threadKeys: t, enabled: !0 }).groups,
+          r = new Map(e(Ue, t).map((e) => [e.task.key, e]));
+        return Ve(e(Te), n, r);
+      })));
+  }),
+  rt,
+  it,
+  at = e(() => {
+    (t(i()),
+      (rt = S()),
+      (it = (e) =>
+        (0, rt.jsx)(`svg`, {
+          width: 16,
+          height: 16,
+          viewBox: `0 0 16 16`,
+          fill: `none`,
+          xmlns: `http://www.w3.org/2000/svg`,
+          ...e,
+          children: (0, rt.jsx)(`path`, {
+            fillRule: `evenodd`,
+            clipRule: `evenodd`,
+            d: `M8 1.47461C11.6037 1.47461 14.5254 4.39634 14.5254 8C14.5254 11.6037 11.6037 14.5254 8 14.5254C4.39634 14.5254 1.47461 11.6037 1.47461 8C1.47461 4.39634 4.39634 1.47461 8 1.47461ZM10.0918 5.9082C9.88683 5.70329 9.55463 5.7024 9.34961 5.90723L8 7.25684L6.65039 5.90723C6.44535 5.70239 6.11219 5.70227 5.90723 5.90723C5.70232 6.11219 5.70241 6.44537 5.90723 6.65039L7.25684 8L5.90723 9.34961C5.70241 9.55463 5.70232 9.88781 5.90723 10.0928C6.11219 10.2977 6.44535 10.2976 6.65039 10.0928L8 8.74316L9.34961 10.0928C9.55463 10.2976 9.88683 10.2967 10.0918 10.0918C10.2968 9.88683 10.2976 9.55465 10.0928 9.34961L8.74316 8L10.0928 6.65039C10.2976 6.44535 10.2968 6.11317 10.0918 5.9082Z`,
+            fill: `currentColor`,
+          }),
+        })));
+  });
+function ot(e) {
+  let t = (0, st.c)(26),
+    { children: n, disabled: r, menuOpen: i, onClearProject: a } = e,
+    o = r === void 0 ? !1 : r,
+    s = _e(),
+    [c, l] = (0, ct.useState)(!1),
+    u = !o && !i && !c,
+    d;
+  t[0] === s
+    ? (d = t[1])
+    : ((d = s.formatMessage({
+        id: `composer.localCwdDropdown.clearProject`,
+        defaultMessage: `Don't work in a project`,
+        description: `Menu item that clears the selected project and starts projectless chats`,
+      })),
+      (t[0] = s),
+      (t[1] = d));
+  let f = d,
+    p = u && A.projectClearAvailable,
+    m = u && `hover:bg-token-list-hover-background`,
+    h;
+  t[2] !== p || t[3] !== m
+    ? ((h = R(`group/project-selector relative inline-flex shrink-0 rounded-full`, p, m)),
+      (t[2] = p),
+      (t[3] = m),
+      (t[4] = h))
+    : (h = t[4]);
+  let g, _, v;
+  t[5] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((g = () => {
+        l(!1);
+      }),
+      (_ = () => {
+        l(!1);
+      }),
+      (v = (e) => {
+        (e.target instanceof Element && e.target.closest(`[data-clear-project-button]`) != null) ||
+          l(!0);
+      }),
+      (t[5] = g),
+      (t[6] = _),
+      (t[7] = v))
+    : ((g = t[5]), (_ = t[6]), (v = t[7]));
+  let y = !u,
+    b =
+      u &&
+      `group-hover/project-selector:pointer-events-auto group-hover/project-selector:opacity-100 group-focus-within/project-selector:pointer-events-auto group-focus-within/project-selector:opacity-100`,
+    x;
+  t[8] === b
+    ? (x = t[9])
+    : ((x = R(
+        A.projectClearButton,
+        `no-drag pointer-events-none absolute inset-y-0 left-0 z-10 flex aspect-square cursor-interaction items-center justify-center rounded-full text-token-text-tertiary opacity-0 focus:outline-none focus-visible:ring-1 focus-visible:ring-token-focus-border hover:text-token-foreground`,
+        b,
+      )),
+      (t[8] = b),
+      (t[9] = x));
+  let S = !u,
+    C;
+  t[10] === a
+    ? (C = t[11])
+    : ((C = () => {
+        (l(!0), a());
+      }),
+      (t[10] = a),
+      (t[11] = C));
+  let w;
+  t[12] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((w = (0, Z.jsx)(it, { "aria-hidden": !0, className: `size-4` })), (t[12] = w))
+    : (w = t[12]);
+  let T;
+  t[13] !== f || t[14] !== x || t[15] !== S || t[16] !== C
+    ? ((T = (0, Z.jsx)(`button`, {
+        className: x,
+        type: `button`,
+        "aria-label": f,
+        "data-clear-project-button": !0,
+        disabled: S,
+        onClick: C,
+        children: w,
+      })),
+      (t[13] = f),
+      (t[14] = x),
+      (t[15] = S),
+      (t[16] = C),
+      (t[17] = T))
+    : (T = t[17]);
+  let E;
+  t[18] !== f || t[19] !== T || t[20] !== y
+    ? ((E = (0, Z.jsx)(te, { disabled: y, tooltipContent: f, children: T })),
+      (t[18] = f),
+      (t[19] = T),
+      (t[20] = y),
+      (t[21] = E))
+    : (E = t[21]);
+  let D;
+  return (
+    t[22] !== n || t[23] !== E || t[24] !== h
+      ? ((D = (0, Z.jsxs)(`div`, {
+          className: h,
+          onPointerEnter: g,
+          onPointerLeave: _,
+          onPointerDownCapture: v,
+          children: [n, E],
+        })),
+        (t[22] = n),
+        (t[23] = E),
+        (t[24] = h),
+        (t[25] = D))
+      : (D = t[25]),
+    D
+  );
+}
+var st,
+  ct,
+  Z,
+  lt = e(() => {
+    ((st = l()), ge(), (ct = t(i(), 1)), B(), oe(), at(), E(), (Z = S()));
+  });
+function ut(e) {
+  let t = (0, pt.c)(22),
+    n,
+    r,
+    i,
+    a,
+    o,
+    s,
+    c,
+    l;
+  t[0] === e
+    ? ((n = t[1]),
+      (r = t[2]),
+      (i = t[3]),
+      (a = t[4]),
+      (o = t[5]),
+      (s = t[6]),
+      (c = t[7]),
+      (l = t[8]))
+    : (({
+        categoryLabel: r,
+        className: i,
+        collapse: a,
+        icon: o,
+        indicator: s,
+        value: c,
+        valueClassName: l,
+        ...n
+      } = e),
+      (t[0] = e),
+      (t[1] = n),
+      (t[2] = r),
+      (t[3] = i),
+      (t[4] = a),
+      (t[5] = o),
+      (t[6] = s),
+      (t[7] = c),
+      (t[8] = l));
+  let u;
+  t[9] === i ? (u = t[10]) : ((u = R(A.externalFooterItem, `min-w-0`, i)), (t[9] = i), (t[10] = u));
+  let d;
+  t[11] !== r || t[12] !== a || t[13] !== o || t[14] !== s || t[15] !== c || t[16] !== l
+    ? ((d = (0, Q.jsx)(ft, {
+        categoryLabel: r,
+        collapse: a,
+        icon: o,
+        indicator: s,
+        value: c,
+        valueClassName: l,
+      })),
+      (t[11] = r),
+      (t[12] = a),
+      (t[13] = o),
+      (t[14] = s),
+      (t[15] = c),
+      (t[16] = l),
+      (t[17] = d))
+    : (d = t[17]);
+  let f;
+  return (
+    t[18] !== n || t[19] !== u || t[20] !== d
+      ? ((f = (0, Q.jsx)(ze, {
+          className: u,
+          color: `ghost`,
+          size: `composerSm`,
+          ...n,
+          children: d,
+        })),
+        (t[18] = n),
+        (t[19] = u),
+        (t[20] = d),
+        (t[21] = f))
+      : (f = t[21]),
+    f
+  );
+}
+function dt(e) {
+  let t = (0, pt.c)(11),
+    { categoryLabel: n, className: r, collapse: i, icon: a, value: o, valueClassName: s } = e,
+    c;
+  t[0] === r
+    ? (c = t[1])
+    : ((c = R(A.externalFooterItem, `flex min-w-0 items-center gap-1`, r)), (t[0] = r), (t[1] = c));
+  let l;
+  t[2] !== n || t[3] !== i || t[4] !== a || t[5] !== o || t[6] !== s
+    ? ((l = (0, Q.jsx)(ft, {
+        categoryLabel: n,
+        collapse: i,
+        icon: a,
+        indicator: `none`,
+        value: o,
+        valueClassName: s,
+      })),
+      (t[2] = n),
+      (t[3] = i),
+      (t[4] = a),
+      (t[5] = o),
+      (t[6] = s),
+      (t[7] = l))
+    : (l = t[7]);
+  let u;
+  return (
+    t[8] !== c || t[9] !== l
+      ? ((u = (0, Q.jsx)(`div`, { className: c, children: l })),
+        (t[8] = c),
+        (t[9] = l),
+        (t[10] = u))
+      : (u = t[10]),
+    u
+  );
+}
+function ft(e) {
+  let t = (0, pt.c)(26),
+    { categoryLabel: n, collapse: r, icon: i, indicator: a, value: o, valueClassName: s } = e,
+    c = de(`2700454473`) ? `icon-xs` : `icon-2xs`,
+    [l, u] = (0, mt.useState)(null),
+    [d, f] = (0, mt.useState)(null),
+    p;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((p = (e, t) => {
+        u(t.clientWidth);
+      }),
+      (t[0] = p))
+    : (p = t[0]);
+  let m = M(p),
+    h;
+  t[1] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((h = (e, t) => {
+        f(t.scrollWidth);
+      }),
+      (t[1] = h))
+    : (h = t[1]);
+  let g = M(h),
+    _ = l != null && d != null && d > l,
+    v;
+  bb0: switch (a) {
+    case `none`:
+      v = null;
+      break bb0;
+    case `pending`: {
+      let e;
+      (t[2] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, Q.jsx)(W, {
+            className: `icon-xs shrink-0 text-token-input-placeholder-foreground`,
+          })),
+          (t[2] = e))
+        : (e = t[2]),
+        (v = e));
+      break bb0;
+    }
+    case `chevron`: {
+      let e;
+      t[3] === c
+        ? (e = t[4])
+        : ((e = R(
+            A.externalFooterItemChevron,
+            c,
+            `shrink-0 text-token-input-placeholder-foreground`,
+          )),
+          (t[3] = c),
+          (t[4] = e));
+      let n;
+      (t[5] === e ? (n = t[6]) : ((n = (0, Q.jsx)(we, { className: e })), (t[5] = e), (t[6] = n)),
+        (v = n));
+      break bb0;
+    }
+    case `collapsible-chevron`: {
+      let e;
+      t[7] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = R(A.secondaryChevron, A.externalFooterItemChevron, `inline-flex`)), (t[7] = e))
+        : (e = t[7]);
+      let n;
+      t[8] === c
+        ? (n = t[9])
+        : ((n = R(c, `shrink-0 text-token-input-placeholder-foreground`)), (t[8] = c), (t[9] = n));
+      let r;
+      (t[10] === n
+        ? (r = t[11])
+        : ((r = (0, Q.jsx)(`span`, { className: e, children: (0, Q.jsx)(we, { className: n }) })),
+          (t[10] = n),
+          (t[11] = r)),
+        (v = r));
+    }
+  }
+  let y;
+  t[12] === i
+    ? (y = t[13])
+    : ((y =
+        i == null ? null : (0, Q.jsx)(`span`, { className: `inline-flex shrink-0`, children: i })),
+      (t[12] = i),
+      (t[13] = y));
+  let b;
+  t[14] !== n ||
+  t[15] !== r ||
+  t[16] !== o ||
+  t[17] !== s ||
+  t[18] !== g ||
+  t[19] !== _ ||
+  t[20] !== m
+    ? ((b =
+        n != null || o != null
+          ? (0, Q.jsxs)(`span`, {
+              className: R(
+                A.externalFooterItemText,
+                n != null && A.externalFooterItemTextWithCategoryLabel,
+                `inline-flex min-w-0 items-baseline gap-1 text-left`,
+              ),
+              children: [
+                n == null
+                  ? null
+                  : (0, Q.jsx)(`span`, {
+                      className: R(
+                        A.externalFooterItemCategoryLabel,
+                        `hidden shrink-0 font-medium text-token-foreground`,
+                      ),
+                      children: n,
+                    }),
+                (0, Q.jsx)(ee, {
+                  ref: m,
+                  className: R(
+                    A.externalFooterItemValue,
+                    `min-w-0 truncate font-normal whitespace-nowrap`,
+                    s,
+                  ),
+                  collapse: r,
+                  children: (0, Q.jsx)(`span`, {
+                    ref: g,
+                    className: R(
+                      A.externalFooterItemValueContent,
+                      `block max-w-full min-w-0 truncate`,
+                      _ && A.externalFooterItemValueOverflowing,
+                    ),
+                    "data-tooltip-overflow-target": !0,
+                    children: o,
+                  }),
+                }),
+              ],
+            })
+          : null),
+      (t[14] = n),
+      (t[15] = r),
+      (t[16] = o),
+      (t[17] = s),
+      (t[18] = g),
+      (t[19] = _),
+      (t[20] = m),
+      (t[21] = b))
+    : (b = t[21]);
+  let x;
+  return (
+    t[22] !== y || t[23] !== b || t[24] !== v
+      ? ((x = (0, Q.jsxs)(Q.Fragment, { children: [y, b, v] })),
+        (t[22] = y),
+        (t[23] = b),
+        (t[24] = v),
+        (t[25] = x))
+      : (x = t[25]),
+    x
+  );
+}
+var pt,
+  mt,
+  Q,
+  ht = e(() => {
+    ((pt = l()), ge(), (mt = t(i(), 1)), Re(), G(), Se(), k(), ue(), j(), E(), (Q = S()));
+  });
+function gt({
+  activeProjectIdOverride: e,
+  allowLocalProjects: t = !0,
+  allowLocalProjectActions: n = t,
+  allowRemoteProjects: i = !0,
+  disabled: o = !1,
+  hideLabel: l = !1,
+  onWorkspaceRootSelected: u,
+  variant: d = `default`,
+  isOpen: h,
+  onOpenChange: _,
+  triggerButton: v,
+}) {
+  let y = b(s),
+    x = _e(),
+    [S, w] = (0, vt.useState)(!1),
+    [T, E] = (0, vt.useState)(!1),
+    O = de(Ye),
+    k = de(`2700454473`),
+    ee = k,
+    j = k ? `icon-xs` : `icon-2xs`,
+    M = (0, vt.useRef)(!1),
+    ne = m(tt).filter((e) => (e.projectKind === `local` ? t : i)),
+    N = Be(),
+    P = O && !N,
+    F = fe(),
+    ie = e !== void 0,
+    ae = !N,
+    { selectedRemoteProject: oe, selectedRemoteProjectId: se } = f(),
+    { remoteConnections: ce } = ve(),
+    le = D(ce),
+    { data: ue, isLoading: pe } = m(r),
+    { data: ge } = C(a.PROJECT_APPEARANCES),
+    B = c(ge),
+    xe = i && F && !N && le.length > 0,
+    Se = (e) => {
+      z(y, me, {});
+      let t = ne.find((t) => t.projectId === e);
+      if (t == null) return;
+      if ((Ke(y, t), t.projectKind === `remote`)) {
+        p(y, { projectId: t.projectId, projectKind: `remote` });
+        return;
+      }
+      let n = g.select(y, t);
+      u?.(n);
+    },
+    Ce = () => {
+      if ((z(y, he, {}), P)) {
+        Fe(y);
+        return;
+      }
+      Oe();
+    },
+    Te = () => {
+      if ((z(y, he, {}), P)) {
+        Fe(y);
+        return;
+      }
+      Ae(y);
+    },
+    De = () => {
+      M.current = !0;
+    },
+    ke = (e) => {
+      M.current && ((M.current = !1), e.preventDefault(), Te());
+    },
+    je = () => {
+      (z(y, he, {}), ye({ setActive: !0 }));
+    },
+    Ne = () => {
+      (z(y, me, {}), Ke(y, null), p(y, null), u?.(null));
+    },
+    V = ue?.roots?.[0] ?? null;
+  ie ? (V = e) : i && (V = se ?? V);
+  let H = V == null ? null : (B[V] ?? null),
+    U = V == null && ae && !0,
+    W = ae && V != null,
+    Ie = h ?? S,
+    Le = (e) => {
+      (e && E(!1), w(e), _?.(e));
+    },
+    Re = n && d === `home` && ne.length === 0 && !N;
+  if (!ie && pe && ue == null && !Re && se == null) return null;
+  let G =
+      V == null
+        ? null
+        : _t({ activeProjectId: V, groups: ne, remoteConnections: ce, selectedRemoteProject: oe }),
+    K =
+      G?.hostDisplayName == null
+        ? (G?.label ?? G?.path ?? null)
+        : `${G.label} · ${G.hostDisplayName}`,
+    Ve =
+      G?.label ??
+      (U
+        ? (0, $.jsx)(L, {
+            id: `composer.localCwdDropdown.chooseProject`,
+            defaultMessage: `Choose project`,
+            description: `Home page button label shown when no project is selected`,
+          })
+        : (0, $.jsx)(L, {
+            id: `composer.localCwdDropdown.noActiveRoot`,
+            defaultMessage: `Select your project`,
+            description: `Shown when no active root is selected`,
+          })),
+    He =
+      G == null
+        ? x.formatMessage({
+            id: `composer.localCwdDropdown.chooseProjectTooltip`,
+            defaultMessage: `Choose project`,
+            description: `Tooltip for the home page project selector when no project is selected`,
+          })
+        : x.formatMessage({
+            id: `composer.localCwdDropdown.changeProjectTooltip`,
+            defaultMessage: `Change project`,
+            description: `Tooltip for the home page project selector when a project is selected`,
+          }),
+    Ue =
+      K == null
+        ? He
+        : x.formatMessage(
+            {
+              id: `composer.localCwdDropdown.changeProjectAccessibleLabel`,
+              defaultMessage: `Change project: {projectName}`,
+              description: `Accessible label for the home page project selector when a project is selected`,
+            },
+            { projectName: K },
+          ),
+    We =
+      K ??
+      (U
+        ? (0, $.jsx)(L, {
+            id: `composer.localCwdDropdown.newChat`,
+            defaultMessage: `New chat`,
+            description: `Label shown when no project is selected in the electron app`,
+          })
+        : (0, $.jsx)(L, {
+            id: `composer.localCwdDropdown.noActiveRoot`,
+            defaultMessage: `Select your project`,
+            description: `Shown when no active root is selected`,
+          })),
+    Ge = (0, $.jsx)(L, {
+      id: `composer.localCwdDropdown.newProject`,
+      defaultMessage: `New project`,
+      description: `Menu item that opens the local project creation flow from the composer project picker`,
+    }),
+    qe = P
+      ? (0, $.jsx)(I.Item, { LeftIcon: Pe, onSelect: De, children: Ge })
+      : (0, $.jsxs)(I.FlyoutSubmenuItem, {
+          LeftIcon: Pe,
+          label: Ge,
+          children: [
+            (0, $.jsx)(I.Item, {
+              LeftIcon: Pe,
+              onSelect: De,
+              children: (0, $.jsx)(L, {
+                id: `projectSetup.addProjectMenu.startFromScratch`,
+                defaultMessage: `Start from scratch`,
+                description: `Menu item that creates a new local project folder`,
+              }),
+            }),
+            (0, $.jsx)(I.Item, {
+              LeftIcon: be,
+              onSelect: Ce,
+              children: (0, $.jsx)(L, {
+                id: `projectSetup.addProjectMenu.useExistingFolder`,
+                defaultMessage: `Use an existing folder`,
+                description: `Menu item that opens the existing folder picker`,
+              }),
+            }),
+          ],
+        }),
+    J = () =>
+      (0, $.jsx)(te, {
+        tooltipContent: (0, $.jsx)(L, {
+          id: `composer.localCwdDropdown.tooltip`,
+          defaultMessage: `Select project`,
+          description: `Tooltip for the active project selector in the composer footer`,
+        }),
+        children: (0, $.jsxs)(ze, {
+          size: `composerSm`,
+          color: `ghost`,
+          className: `min-w-0`,
+          children: [
+            (0, $.jsx)(`span`, {
+              className: `inline-flex shrink-0`,
+              "data-project-selector-icon": W || void 0,
+              children: U
+                ? (0, $.jsx)(Je, { className: R(j, `shrink-0`) })
+                : H == null
+                  ? (0, $.jsx)(q, {
+                      className: R(j, `shrink-0`),
+                      isRemoteProject: G?.projectKind === `remote`,
+                    })
+                  : (0, $.jsx)(Ee, {
+                      appearance: H,
+                      className: `size-4`,
+                      fallbackIcon: (0, $.jsx)(q, {
+                        className: R(j, `shrink-0`),
+                        isRemoteProject: G?.projectKind === `remote`,
+                      }),
+                    }),
+            }),
+            l
+              ? null
+              : (0, $.jsx)(`span`, { className: `max-w-[240px] truncate text-left`, children: We }),
+            (0, $.jsx)(we, { className: R(j, `shrink-0 text-token-input-placeholder-foreground`) }),
+          ],
+        }),
+      }),
+    Y = `always`;
+  ee && G != null
+    ? (Y = `trigger-overflows`)
+    : !ee && G == null && (Y = `visibility-target-hidden`);
+  let Xe = ee ? (K ?? He) : He,
+    Qe = () =>
+      (0, $.jsx)(te, {
+        open: !Ie && T,
+        onOpenChange: E,
+        openWhen: Y,
+        tooltipContent: Xe,
+        children: (0, $.jsx)(ut, {
+          categoryLabel: (0, $.jsx)(L, {
+            id: `composer.localCwdDropdown.footerCategory`,
+            defaultMessage: `Project`,
+            description: `Category label for the project control in the composer footer`,
+          }),
+          className: R(A.homeProjectButton, `min-w-0 gap-2`),
+          collapse: `xs`,
+          icon: (0, $.jsx)(`span`, {
+            className: `inline-flex shrink-0`,
+            "data-project-selector-icon": W || void 0,
+            children:
+              U || G == null
+                ? (0, $.jsx)(q, { className: `icon-xs shrink-0` })
+                : H == null
+                  ? (0, $.jsx)(q, {
+                      className: `icon-xs shrink-0`,
+                      isRemoteProject: G?.projectKind === `remote`,
+                    })
+                  : (0, $.jsx)(Ee, {
+                      appearance: H,
+                      className: `size-4`,
+                      fallbackIcon: (0, $.jsx)(q, {
+                        className: `icon-xs shrink-0`,
+                        isRemoteProject: G.projectKind === `remote`,
+                      }),
+                    }),
+          }),
+          indicator: `none`,
+          value: (0, $.jsx)(`span`, { "data-tooltip-visibility-target": !0, children: Ve }),
+          valueClassName: `!max-w-60 text-token-foreground`,
+          "aria-label": Ue,
+          disabled: o,
+        }),
+      }),
+    $e = () =>
+      (0, $.jsxs)(`button`, {
+        className: R(
+          `heading-xl text-token-text-tertiary ml-2 -mt-1 flex min-w-0 items-center gap-1 font-normal transition-colors transition-background-colors duration-100 hover:text-token-foreground select-none`,
+          o ? `cursor-default opacity-60` : `cursor-interaction`,
+        ),
+        type: `button`,
+        disabled: o,
+        children: [
+          (0, $.jsx)(`span`, {
+            className: `inline-flex max-w-[420px] min-w-0 items-center`,
+            children: (0, $.jsx)(`span`, { className: `min-w-0 truncate`, children: We }),
+          }),
+          (0, $.jsx)(we, {
+            className: `icon-sm mt-1 shrink-0 self-center text-token-input-placeholder-foreground`,
+          }),
+        ],
+      });
+  if (Re)
+    return (0, $.jsxs)(re, {
+      open: h,
+      onOpenChange: Le,
+      onCloseAutoFocus: ke,
+      side: `top`,
+      triggerButton: v ?? Qe(),
+      contentWidth: `menu`,
+      children: [
+        xe
+          ? (0, $.jsx)(I.Item, {
+              LeftIcon: Me,
+              onSelect: je,
+              children: (0, $.jsx)(L, {
+                id: `composer.localCwdDropdown.newRemoteProject`,
+                defaultMessage: `New remote project`,
+                description: `Menu item that opens the remote project setup dialog`,
+              }),
+            })
+          : null,
+        qe,
+      ],
+    });
+  let X = (0, $.jsx)(re, {
+    open: h,
+    onOpenChange: Le,
+    onCloseAutoFocus: ke,
+    side: `top`,
+    align: d === `hero` ? `center` : `start`,
+    disabled: o,
+    triggerButton: v ?? (d === `hero` ? $e() : d === `home` ? Qe() : J()),
+    contentWidth: `workspace`,
+    contentMaxHeight: `tall`,
+    children: (0, $.jsx)(Ze, {
+      groups: ne,
+      projectAppearances: B,
+      selectedProjectIds: V ? [V] : [],
+      onSelectProjectId: Se,
+      projectlessActionLabel: (0, $.jsx)(L, {
+        id: `composer.localCwdDropdown.clearProject`,
+        defaultMessage: `Don't work in a project`,
+        description: `Menu item that clears the selected project and starts projectless chats`,
+      }),
+      onSelectProjectless: W ? Ne : void 0,
+      footerItems: n ? qe : null,
+      onAddRemoteProject: xe ? je : void 0,
+      children: null,
+    }),
+  });
+  return d !== `hero` && W && v == null
+    ? (0, $.jsx)(ot, { disabled: o, menuOpen: Ie, onClearProject: Ne, children: X })
+    : X;
+}
+function _t({ activeProjectId: e, groups: t, remoteConnections: n, selectedRemoteProject: r }) {
+  let i = t.find((t) => t.projectId === e) ?? null;
+  if (i != null) return i;
+  if (r == null || r.id !== e) return null;
+  let a = n.find((e) => e.hostId === r.hostId) ?? null;
+  return {
+    projectId: r.id,
+    projectKind: `remote`,
+    hostId: r.hostId,
+    hostDisplayName: a?.displayName ?? null,
+    label: r.label,
+    path: r.remotePath,
+    repositoryData: null,
+    isCodexWorktree: !1,
+    threadKeys: [],
+  };
+}
+var vt,
+  $,
+  yt = e(() => {
+    (ce(),
+      ge(),
+      u(),
+      n(),
+      (vt = t(i(), 1)),
+      B(),
+      O(),
+      Re(),
+      P(),
+      oe(),
+      et(),
+      Ge(),
+      x(),
+      K(),
+      Se(),
+      Y(),
+      H(),
+      Ce(),
+      U(),
+      d(),
+      le(),
+      De(),
+      qe(),
+      y(),
+      Xe(),
+      xe(),
+      pe(),
+      _(),
+      T(),
+      o(),
+      nt(),
+      ue(),
+      lt(),
+      ht(),
+      E(),
+      ($ = S()));
+  });
+export {
+  ht as a,
+  Ye as c,
+  Y as d,
+  ut as i,
+  Xe as l,
+  yt as n,
+  it as o,
+  dt as r,
+  at as s,
+  gt as t,
+  Je as u,
+};
+//# sourceMappingURL=app-initial~app-main~projects-index-page~hotkey-window-new-thread-page~hotkey-window-home-p~hswrsggc.js.map

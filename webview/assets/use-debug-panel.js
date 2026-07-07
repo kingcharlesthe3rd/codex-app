@@ -1,0 +1,64 @@
+import { n as e, s as t } from "./rolldown-runtime.js";
+import {
+  Bt as n,
+  El as r,
+  Ka as i,
+  Rt as a,
+  Xs as o,
+  nc as s,
+  qc as c,
+  zt as l,
+} from "./app-initial~app-main~worktree-init-v2-page~appgen-settings-page~page~appgen-publication-ter~fzo5ij6p.js";
+import { fc as u, pc as d } from "./app-initial~app-main~new-thread-panel-page.js";
+import {
+  Uo as f,
+  Wo as p,
+} from "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~onboarding-page~appgen-~o4yhvtva.js";
+function m(e) {
+  return g(e, `editedFilePaths`);
+}
+function h(e) {
+  return g(e, `referencedFilePaths`);
+}
+function g(e, t) {
+  let n = [],
+    r = new Set();
+  for (let i of e) for (let e of u(i)[t]) r.has(e) || (r.add(e), n.push(e));
+  return n;
+}
+var _ = e(() => {
+  d();
+});
+function v() {
+  return s(T);
+}
+function y() {
+  return i.isInternal(f());
+}
+function b(e, t) {
+  let n = `[non-serializable title]`;
+  return (
+    typeof t.title == `string` ? (n = t.title) : (0, w.isValidElement)(t.title) && (n = ``),
+    { id: e, titleText: n, lines: t.lines }
+  );
+}
+function x(e, t, n) {
+  let r = b(t, n);
+  e.set(T, (e) => [...e.filter((e) => e.id !== t), r]);
+}
+function S(e, t) {
+  e.set(T, (e) => e.filter((e) => e.id !== t));
+}
+function C() {
+  if (typeof crypto < `u` && typeof crypto.randomUUID == `function`) return crypto.randomUUID();
+  let e = E;
+  return ((E += 1), `debug-panel-${e}`);
+}
+var w,
+  T,
+  E,
+  D = e(() => {
+    (o(), n(), (w = t(r(), 1)), l(), p(), (T = c(a, [])), (E = 0));
+  });
+export { y as a, h as c, x as i, _ as l, D as n, v as o, S as r, m as s, C as t };
+//# sourceMappingURL=use-debug-panel.js.map

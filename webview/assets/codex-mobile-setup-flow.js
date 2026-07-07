@@ -1,0 +1,665 @@
+import { n as e, s as t } from "./rolldown-runtime.js";
+import {
+  $ as n,
+  El as r,
+  Gc as i,
+  K as a,
+  Q as o,
+  Rt as s,
+  Tl as c,
+  W as l,
+  Wc as u,
+  Xs as d,
+  Z as f,
+  bt as p,
+  cl as m,
+  ec as h,
+  el as g,
+  et as _,
+  gt as v,
+  nc as y,
+  nl as b,
+  tc as ee,
+  ul as x,
+  vl as S,
+  zt as C,
+} from "./app-initial~app-main~worktree-init-v2-page~appgen-settings-page~page~appgen-publication-ter~fzo5ij6p.js";
+import { Gu as w, Wu as T } from "./app-initial~app-main~onboarding-page.js";
+import {
+  $h as te,
+  Ai as ne,
+  Bt as E,
+  Ft as re,
+  Gb as ie,
+  Gd as ae,
+  Ht as D,
+  Ib as O,
+  It as oe,
+  Lt as se,
+  Mi as k,
+  Mt as ce,
+  Pi as A,
+  Pt as j,
+  Qs as le,
+  Rb as M,
+  Rs as ue,
+  Sx as N,
+  Wb as P,
+  Wt as F,
+  ah as de,
+  ih as fe,
+  ji as I,
+  ki as L,
+  qd as pe,
+  yx as R,
+  zt as z,
+} from "./app-initial~app-main~new-thread-panel-page.js";
+import {
+  C as B,
+  D as V,
+  E as H,
+  O as U,
+  T as me,
+  k as W,
+  w as he,
+} from "./app-initial~app-main~automations-page.js";
+import {
+  g as G,
+  m as K,
+} from "./app-initial~app-main~worktree-init-v2-page~appgen-page~remote-conversation-page~pull-reques~filfqv6y.js";
+import {
+  n as q,
+  t as J,
+} from "./app-initial~app-main~appgen-page~remote-conversation-page~projects-index-page~appgen-librar~i4jkvfhy.js";
+import { a as Y, d as X, i as Z, n as ge, t as _e, u as ve } from "./codex-mobile-setup-dialog.js";
+function ye(e, t) {
+  if (e != null) return t == null ? e : e.filter((e) => e.clientId !== t);
+}
+function be(e, t) {
+  return e?.some((e) => !t.has(e.clientId)) === !0;
+}
+function xe(e, t) {
+  return e == null || !be(e, t) ? null : t.size === 0 && e.length === 1 ? `connected` : `dismiss`;
+}
+var Se = e(() => {});
+function Ce({ existingClientIds: e, hostId: t, localRemoteControlClientId: n, waiting: r }) {
+  return JSON.stringify({
+    existingClientIds: e == null ? null : Array.from(e).sort(),
+    hostId: t,
+    localRemoteControlClientId: n,
+    waiting: r,
+  });
+}
+var we,
+  Te,
+  Ee,
+  De,
+  Oe,
+  ke = e(() => {
+    (d(),
+      L(),
+      C(),
+      _(),
+      P(),
+      z(),
+      Se(),
+      (we = 3e4),
+      (Te = i(s, ({ get: e }) => {
+        let t = n(e, `local_remote_control_environment_id`) ?? null,
+          r = !e(ie, `2055603567`);
+        return {
+          queryKey: [`remote-control-clients`, t, r],
+          queryFn: () => E(t, { includeBrowserClients: r }),
+          staleTime: we,
+        };
+      })),
+      (Ee = u(s, (e, { get: t }) => {
+        let n = t(I, e),
+          r = n?.environmentId;
+        return {
+          enabled: r != null,
+          queryKey: [`remote-control-clients`, `app-server`, e, n?.installationId],
+          queryFn: () => (r == null ? Promise.resolve([]) : E(r, { appServerHostId: e })),
+          staleTime: we,
+        };
+      })),
+      (De = u(s, (e, { get: t }) => {
+        let r = n(t, `local_remote_control_environment_id`) ?? null,
+          i = !t(ie, `2055603567`);
+        return {
+          enabled: e,
+          queryKey: [`remote-control-clients`, r, i],
+          queryFn: () => E(r, { includeBrowserClients: i }),
+          refetchInterval: e ? 1e3 : !1,
+          staleTime: 0,
+        };
+      })),
+      (Oe = u(
+        s,
+        (
+          { existingClientIds: e, hostId: t, localRemoteControlClientId: r, waiting: i },
+          { get: a, queryClient: o },
+        ) => {
+          let s = null,
+            c = null,
+            l = !a(ie, `2055603567`);
+          if (i && t == null) s = n(a, `local_remote_control_environment_id`) ?? null;
+          else if (i) {
+            let e = a(I, t);
+            ((s = e?.environmentId), (c = e?.installationId));
+          }
+          let u = [
+            `remote-control-clients`,
+            `waiting-for-added`,
+            t,
+            l,
+            t == null ? s : c,
+            e == null ? null : Array.from(e).sort(),
+            r,
+          ];
+          return {
+            enabled: i && e != null && (t == null || s != null),
+            gcTime: 0,
+            queryKey: u,
+            queryFn: async () => {
+              let n = o.getQueryData(u);
+              if (n != null || e == null) return n ?? null;
+              let i = await E(s ?? null, {
+                appServerHostId: t ?? void 0,
+                includeBrowserClients: l,
+              });
+              return (
+                t != null && o.setQueryData([`remote-control-clients`, `app-server`, t, c], i),
+                xe(ye(i, r), e)
+              );
+            },
+            refetchInterval: (e) => (i && e.state.data == null ? 1e3 : !1),
+            staleTime: 0,
+          };
+        },
+        { key: Ce },
+      )));
+  });
+async function Ae(e, t, n) {
+  if (!n) return je(e, t, !1);
+  k(e, t, !1);
+  let r = A(e, t, { ignoreCurrentError: !0 });
+  try {
+    let n = je(e, t, !0);
+    return await Promise.race([r, n.then(() => r)]);
+  } catch (n) {
+    throw (k(e, t, !0), n);
+  }
+}
+async function je(e, t, n) {
+  return t === `local`
+    ? (await v(`set-local-remote-control-enabled`, { params: { enabled: n } }),
+      V(e, n, { force: !0 }))
+    : W(e, t, n);
+}
+var Me = e(() => {
+  (U(), L(), l(), p(), H());
+});
+function Ne({ isMfaSetupRequiredError: e, mfaSetupRequired: t, remoteControlStatus: n }) {
+  return Le(n) || e ? `initial` : t ? `mfa-required` : void 0;
+}
+function Pe({
+  initialRemoteControlStatus: e,
+  isMfaSetupRequiredError: t,
+  mfaSetupRequired: n,
+  remoteControlStatus: r,
+  setupStepDebugOverride: i,
+}) {
+  return t || !!n || Le(r) || Le(e) || i !== `auto`;
+}
+function Fe({ remoteControlHostEnabled: e, hasEnrolledRemoteControlClient: t }) {
+  return e ? (t ? `connected` : `waiting`) : `initial`;
+}
+function Ie(e) {
+  return e.some((e) => e instanceof D);
+}
+function Le(e) {
+  switch (e) {
+    case `disabled`:
+    case `errored`:
+      return !0;
+    case `connecting`:
+    case `connected`:
+      return !1;
+  }
+}
+var Re = e(() => {
+  F();
+});
+function ze(e) {
+  let t = (0, He.c)(76),
+    { initialStep: n, onClose: r, variant: i } = e,
+    c = ee(s),
+    l = le(),
+    u = (0, Q.useRef)(null),
+    d = h(ne, a),
+    [f] = b(ve),
+    p = y(ce),
+    [m, g] = (0, Q.useState)(n ?? null),
+    [_, v] = (0, Q.useState)(null),
+    [S] = o(`local_remote_control_client_id`),
+    C;
+  t[0] !== d || t[1] !== m || t[2] !== p.data
+    ? ((C = m ?? Fe({ remoteControlHostEnabled: d, hasEnrolledRemoteControlClient: p.data })),
+      (t[0] = d),
+      (t[1] = m),
+      (t[2] = p.data),
+      (t[3] = C))
+    : (C = t[3]);
+  let w = C,
+    T = h(De, w === `waiting`),
+    te = ye(T.data, S),
+    E = y(se),
+    ie = w === `waiting` && (_ == null ? te?.length : be(te, _)) ? `connected` : w,
+    ae = y(oe),
+    D = f === `auto` ? (w === `mfa-required` && ae.data ? `allow-host` : ie) : f,
+    O;
+  t[4] !== D || t[5] !== c || t[6] !== i
+    ? ((O = (e) => {
+        pe(c, fe, { action: e, step: D, surface: i });
+      }),
+      (t[4] = D),
+      (t[5] = c),
+      (t[6] = i),
+      (t[7] = O))
+    : (O = t[7]);
+  let k = O,
+    A,
+    j;
+  (t[8] !== D || t[9] !== c || t[10] !== i
+    ? ((A = () => {
+        let e = `${i}:${D}`;
+        u.current !== e && ((u.current = e), pe(c, de, { step: D, surface: i }));
+      }),
+      (j = [D, c, i]),
+      (t[8] = D),
+      (t[9] = c),
+      (t[10] = i),
+      (t[11] = A),
+      (t[12] = j))
+    : ((A = t[11]), (j = t[12])),
+    (0, Q.useEffect)(A, j));
+  let M;
+  t[13] === c ? (M = t[14]) : ((M = () => re(c)), (t[13] = c), (t[14] = M));
+  let ue;
+  t[15] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((ue = (e) => {
+        g(e ? `mfa-required` : `allow-host`);
+      }),
+      (t[15] = ue))
+    : (ue = t[15]);
+  let N;
+  t[16] === M ? (N = t[17]) : ((N = { mutationFn: M, onSuccess: ue }), (t[16] = M), (t[17] = N));
+  let P = x(N),
+    F;
+  t[18] === c
+    ? (F = t[19])
+    : ((F = async () => {
+        await Ae(c, a, !0);
+        let e = c.query.snapshot(Te);
+        return (await e.invalidate({ exact: !0, refetchType: `none` }), e.fetch());
+      }),
+      (t[18] = c),
+      (t[19] = F));
+  let I;
+  t[20] === S
+    ? (I = t[21])
+    : ((I = (e) => {
+        (v(new Set(ye(e, S)?.map(Be))), g(`waiting`));
+      }),
+      (t[20] = S),
+      (t[21] = I));
+  let L;
+  t[22] === c
+    ? (L = t[23])
+    : ((L = (e) => {
+        me(c, e);
+      }),
+      (t[22] = c),
+      (t[23] = L));
+  let R;
+  t[24] !== L || t[25] !== F || t[26] !== I
+    ? ((R = { mutationFn: F, onSuccess: I, onError: L }),
+      (t[24] = L),
+      (t[25] = F),
+      (t[26] = I),
+      (t[27] = R))
+    : (R = t[27]);
+  let z = x(R),
+    B;
+  t[28] !== z || t[29] !== k
+    ? ((B = () => {
+        (k(`allow_host`), z.mutate());
+      }),
+      (t[28] = z),
+      (t[29] = k),
+      (t[30] = B))
+    : (B = t[30]);
+  let V = B,
+    H;
+  t[31] !== z.error ||
+  t[32] !== P.error ||
+  t[33] !== E.error ||
+  t[34] !== T.error ||
+  t[35] !== p.error
+    ? ((H = Ie([p.error, T.error, E.error, P.error, z.error])),
+      (t[31] = z.error),
+      (t[32] = P.error),
+      (t[33] = E.error),
+      (t[34] = T.error),
+      (t[35] = p.error),
+      (t[36] = H))
+    : (H = t[36]);
+  let U = H,
+    W,
+    G;
+  (t[37] !== l || t[38] !== U
+    ? ((W = () => {
+        U && l(`/login`, { replace: !0 });
+      }),
+      (G = [l, U]),
+      (t[37] = l),
+      (t[38] = U),
+      (t[39] = W),
+      (t[40] = G))
+    : ((W = t[39]), (G = t[40])),
+    (0, Q.useEffect)(W, G));
+  let K = P.isPending || z.isPending || (E.data === `required` && ae.isLoading),
+    q;
+  t[41] !== z.error || t[42] !== z.isError
+    ? ((q = z.isError && !he(z.error)), (t[41] = z.error), (t[42] = z.isError), (t[43] = q))
+    : (q = t[43]);
+  let J = q;
+  if ((f === `auto` && m == null && d && p.isLoading) || U) return null;
+  if (i === `dialog`) {
+    let e;
+    t[44] === r
+      ? (e = t[45])
+      : ((e = (e) => {
+          e || r();
+        }),
+        (t[44] = r),
+        (t[45] = e));
+    let n;
+    t[46] !== r || t[47] !== k
+      ? ((n = () => {
+          (k(`skip`), r());
+        }),
+        (t[46] = r),
+        (t[47] = k),
+        (t[48] = n))
+      : (n = t[48]);
+    let i;
+    t[49] !== P || t[50] !== k
+      ? ((i = () => {
+          (k(`start_setup`), P.mutate());
+        }),
+        (t[49] = P),
+        (t[50] = k),
+        (t[51] = i))
+      : (i = t[51]);
+    let a;
+    return (
+      t[52] !== V ||
+      t[53] !== P.isError ||
+      t[54] !== D ||
+      t[55] !== K ||
+      t[56] !== J ||
+      t[57] !== e ||
+      t[58] !== n ||
+      t[59] !== i
+        ? ((a = (0, $.jsx)(_e, {
+            open: !0,
+            showAllowHostError: J,
+            showStartSetupError: P.isError,
+            setupInProgress: K,
+            step: D,
+            onAllowHost: V,
+            onOpenChange: e,
+            onSkip: n,
+            onStartSetup: i,
+          })),
+          (t[52] = V),
+          (t[53] = P.isError),
+          (t[54] = D),
+          (t[55] = K),
+          (t[56] = J),
+          (t[57] = e),
+          (t[58] = n),
+          (t[59] = i),
+          (t[60] = a))
+        : (a = t[60]),
+      a
+    );
+  }
+  let Y;
+  t[61] !== r || t[62] !== k
+    ? ((Y = () => {
+        (k(`skip`), r());
+      }),
+      (t[61] = r),
+      (t[62] = k),
+      (t[63] = Y))
+    : (Y = t[63]);
+  let X;
+  t[64] !== P || t[65] !== k
+    ? ((X = () => {
+        (k(`start_setup`), P.mutate());
+      }),
+      (t[64] = P),
+      (t[65] = k),
+      (t[66] = X))
+    : (X = t[66]);
+  let Z;
+  return (
+    t[67] !== V ||
+    t[68] !== P.isError ||
+    t[69] !== r ||
+    t[70] !== D ||
+    t[71] !== K ||
+    t[72] !== J ||
+    t[73] !== Y ||
+    t[74] !== X
+      ? ((Z = (0, $.jsx)(Ve, {
+          showAllowHostError: J,
+          showStartSetupError: P.isError,
+          setupInProgress: K,
+          step: D,
+          onAllowHost: V,
+          onFinishSetup: r,
+          onSkip: Y,
+          onStartSetup: X,
+        })),
+        (t[67] = V),
+        (t[68] = P.isError),
+        (t[69] = r),
+        (t[70] = D),
+        (t[71] = K),
+        (t[72] = J),
+        (t[73] = Y),
+        (t[74] = X),
+        (t[75] = Z))
+      : (Z = t[75]),
+    Z
+  );
+}
+function Be(e) {
+  return e.clientId;
+}
+function Ve(e) {
+  let t = (0, He.c)(28),
+    {
+      onAllowHost: n,
+      onFinishSetup: r,
+      onSkip: i,
+      onStartSetup: a,
+      setupInProgress: o,
+      showAllowHostError: c,
+      showStartSetupError: l,
+      step: u,
+    } = e,
+    d = ee(s),
+    f = M(`824038554`),
+    p = le(),
+    m;
+  t[0] !== d || t[1] !== u
+    ? ((m = (e) => {
+        pe(d, fe, { action: e, step: u, surface: `page` });
+      }),
+      (t[0] = d),
+      (t[1] = u),
+      (t[2] = m))
+    : (m = t[2]);
+  let h = m,
+    g;
+  t[3] !== f || t[4] !== u
+    ? ((g =
+        u === `allow-host` || u === `mfa-required` || u === `waiting`
+          ? (0, $.jsx)(T.Header, {
+              children: (0, $.jsx)(J, {
+                start: f
+                  ? (0, $.jsx)(N, {
+                      id: `codexMobile.setupPage.remoteTitle`,
+                      defaultMessage: `Set up Remote`,
+                      description: `Toolbar title shown during Remote setup`,
+                    })
+                  : (0, $.jsx)(N, {
+                      id: `codexMobile.setupPage.title`,
+                      defaultMessage: `Set up Codex Mobile`,
+                      description: `Toolbar title shown during Codex mobile setup`,
+                    }),
+              }),
+            })
+          : null),
+      (t[3] = f),
+      (t[4] = u),
+      (t[5] = g))
+    : (g = t[5]);
+  let _;
+  t[6] === h
+    ? (_ = t[7])
+    : ((_ = (e) => {
+        (h(`continue_on_chatgpt`),
+          G({
+            event: e,
+            href: `https://chatgpt.com/#settings/Security`,
+            initiator: `open_in_browser_bridge`,
+          }));
+      }),
+      (t[6] = h),
+      (t[7] = _));
+  let v;
+  t[8] !== r || t[9] !== h
+    ? ((v = () => {
+        (h(`finish_setup`), r());
+      }),
+      (t[8] = r),
+      (t[9] = h),
+      (t[10] = v))
+    : (v = t[10]);
+  let y;
+  t[11] !== p || t[12] !== h
+    ? ((y = () => {
+        (h(`manage_connections`), p(`/settings/connections`));
+      }),
+      (t[11] = p),
+      (t[12] = h),
+      (t[13] = y))
+    : (y = t[13]);
+  let b;
+  t[14] !== n ||
+  t[15] !== i ||
+  t[16] !== a ||
+  t[17] !== o ||
+  t[18] !== c ||
+  t[19] !== l ||
+  t[20] !== u ||
+  t[21] !== _ ||
+  t[22] !== v ||
+  t[23] !== y
+    ? ((b = (0, $.jsx)(Z, {
+        onAllowHost: n,
+        onContinueOnChatGPT: _,
+        onFinishSetup: v,
+        onManageConnections: y,
+        onSkip: i,
+        onStartSetup: a,
+        setupInProgress: o,
+        showAllowHostError: c,
+        showStartSetupError: l,
+        step: u,
+        variant: `page`,
+      })),
+      (t[14] = n),
+      (t[15] = i),
+      (t[16] = a),
+      (t[17] = o),
+      (t[18] = c),
+      (t[19] = l),
+      (t[20] = u),
+      (t[21] = _),
+      (t[22] = v),
+      (t[23] = y),
+      (t[24] = b))
+    : (b = t[24]);
+  let x;
+  return (
+    t[25] !== g || t[26] !== b
+      ? ((x = (0, $.jsxs)($.Fragment, { children: [g, b] })), (t[25] = g), (t[26] = b), (t[27] = x))
+      : (x = t[27]),
+    x
+  );
+}
+var He,
+  Q,
+  $,
+  Ue = e(() => {
+    ((He = c()),
+      te(),
+      m(),
+      g(),
+      d(),
+      (Q = t(r(), 1)),
+      R(),
+      ue(),
+      L(),
+      w(),
+      K(),
+      ae(),
+      ke(),
+      Se(),
+      B(),
+      Me(),
+      C(),
+      l(),
+      f(),
+      O(),
+      q(),
+      X(),
+      ge(),
+      j(),
+      Re(),
+      Y(),
+      ($ = S()));
+  });
+export {
+  Pe as a,
+  Ee as c,
+  Oe as d,
+  ye as f,
+  Re as i,
+  ke as l,
+  Ue as n,
+  Me as o,
+  Se as p,
+  Ne as r,
+  Ae as s,
+  ze as t,
+  Te as u,
+};
+//# sourceMappingURL=codex-mobile-setup-flow.js.map

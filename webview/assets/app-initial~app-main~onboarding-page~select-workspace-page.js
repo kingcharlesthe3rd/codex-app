@@ -1,0 +1,287 @@
+import { n as e, s as t } from "./rolldown-runtime.js";
+import {
+  El as n,
+  F as r,
+  G as i,
+  O as a,
+  Tl as o,
+  W as s,
+  Xs as c,
+  el as l,
+  nc as u,
+  nl as d,
+  rl as f,
+} from "./app-initial~app-main~worktree-init-v2-page~appgen-settings-page~page~appgen-publication-ter~fzo5ij6p.js";
+import {
+  Ib as p,
+  Nb as m,
+  Pb as h,
+  Yn as g,
+  zb as _,
+  zn as v,
+} from "./app-initial~app-main~new-thread-panel-page.js";
+import {
+  Al as y,
+  Hl as b,
+} from "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~onboarding-page~appgen-~o4yhvtva.js";
+import {
+  b as x,
+  w as S,
+  x as C,
+} from "./app-initial~app-main~onboarding-page~pending-request-item-panel.js";
+function w() {
+  return i(u(v)).kind !== `local`;
+}
+var T = e(() => {
+  (c(), g(), s());
+});
+function E(e) {
+  switch (e) {
+    case `control`:
+    case `t2_direct_folder_picker`:
+    case `t3_auto_playground`:
+    case `t4_modal_copy_cta_playground`:
+    case I:
+      return e;
+    default:
+      return `control`;
+  }
+}
+function D(e) {
+  let t = E(e);
+  return t === `t5_onboarding_v2` ? `control` : t;
+}
+function O(e) {
+  let t = h(e, F),
+    n = D(t.get(L, null));
+  return n === `control`
+    ? `getGroupName` in t && typeof t.getGroupName == `function`
+      ? D(t.getGroupName())
+      : `control`
+    : n;
+}
+function k(e) {
+  return e?.experimentName === F;
+}
+function A(e) {
+  return e === `t2_direct_folder_picker`;
+}
+function j(e) {
+  return e === `t3_auto_playground`;
+}
+function M(e) {
+  return e === `t4_modal_copy_cta_playground`;
+}
+function N(e) {
+  return A(e) || j(e) || M(e);
+}
+var P,
+  F,
+  I,
+  L,
+  R = e(() => {
+    (p(), (P = `Playground`), (F = `93537254`), (I = `t5_onboarding_v2`), (L = `arm`));
+  });
+function z({ onboardingTarget: e, assignment: t, evaluateExperimentArm: n }) {
+  return t == null ? (e === `workspace` ? n() : `control`) : t.arm;
+}
+function B() {
+  let e = (0, q.c)(5),
+    t = f(C),
+    n;
+  e[0] === t ? (n = e[1]) : ((n = k(t) ? t : null), (e[0] = t), (e[1] = n));
+  let r = n,
+    i = r?.arm ?? `control`,
+    a;
+  return (
+    e[2] !== i || e[3] !== r
+      ? ((a = { workspaceOnboardingExperimentAssignment: r, workspaceOnboardingExperimentArm: i }),
+        (e[2] = i),
+        (e[3] = r),
+        (e[4] = a))
+      : (a = e[4]),
+    a
+  );
+}
+function V(e) {
+  let t = (0, q.c)(17),
+    { onboardingTarget: n } = e,
+    [r, i] = d(C),
+    a;
+  t[0] === r ? (a = t[1]) : ((a = k(r) ? r : null), (t[0] = r), (t[1] = a));
+  let o = a,
+    { client: s } = _(),
+    c;
+  t[2] === s ? (c = t[3]) : ((c = () => O(s)), (t[2] = s), (t[3] = c));
+  let l;
+  t[4] !== n || t[5] !== c || t[6] !== o
+    ? ((l = z({ onboardingTarget: n, assignment: o, evaluateExperimentArm: c })),
+      (t[4] = n),
+      (t[5] = c),
+      (t[6] = o),
+      (t[7] = l))
+    : (l = t[7]);
+  let u = l,
+    f,
+    p;
+  (t[8] !== n || t[9] !== i || t[10] !== s || t[11] !== o
+    ? ((f = () => {
+        n === `workspace` &&
+          o == null &&
+          i({ arm: O(s), assignedAtMs: Date.now(), experimentName: F });
+      }),
+      (p = [n, i, s, o]),
+      (t[8] = n),
+      (t[9] = i),
+      (t[10] = s),
+      (t[11] = o),
+      (t[12] = f),
+      (t[13] = p))
+    : ((f = t[12]), (p = t[13])),
+    (0, J.useEffect)(f, p));
+  let m;
+  return (
+    t[14] !== u || t[15] !== o
+      ? ((m = { workspaceOnboardingExperimentAssignment: o, workspaceOnboardingExperimentArm: u }),
+        (t[14] = u),
+        (t[15] = o),
+        (t[16] = m))
+      : (m = t[16]),
+    m
+  );
+}
+function H({ onboardingTarget: e, arm: t, isRemoteHost: n }) {
+  return e === `workspace` && !n && A(t);
+}
+function U(e) {
+  let t = (0, q.c)(14),
+    { enabled: n } = e,
+    { client: r, isLoading: i } = _(),
+    a;
+  t[0] !== n || t[1] !== i || t[2] !== r
+    ? ((a = n && !i && m(r, `1482884768`)), (t[0] = n), (t[1] = i), (t[2] = r), (t[3] = a))
+    : (a = t[3]);
+  let o = a,
+    s;
+  t[4] === o ? (s = t[5]) : ((s = { enabled: o }), (t[4] = o), (t[5] = s));
+  let c = b(s),
+    l = c.data?.age_status === `under_18`;
+  if (!n) {
+    let e;
+    return (
+      t[6] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = { isLoading: !1, shouldUseTeenOnboarding: !1 }), (t[6] = e))
+        : (e = t[6]),
+      e
+    );
+  }
+  let u = i || (o && c.isLoading),
+    d;
+  t[7] !== o || t[8] !== l || t[9] !== r
+    ? ((d = o && l && m(r, `3150044490`)), (t[7] = o), (t[8] = l), (t[9] = r), (t[10] = d))
+    : (d = t[10]);
+  let f;
+  return (
+    t[11] !== u || t[12] !== d
+      ? ((f = { isLoading: u, shouldUseTeenOnboarding: d }), (t[11] = u), (t[12] = d), (t[13] = f))
+      : (f = t[13]),
+    f
+  );
+}
+function W({
+  arm: e,
+  isRemoteHost: t,
+  isLoadingRoots: n,
+  hasPersistedRoots: r,
+  autoLaunchApplied: i,
+}) {
+  return t || n || r || i
+    ? `none`
+    : A(e)
+      ? `home_open_picker_or_create_default`
+      : j(e)
+        ? `select_workspace_skip_to_playground`
+        : `none`;
+}
+function G() {
+  let e = (0, q.c)(15),
+    { workspaceOnboardingExperimentArm: t } = B(),
+    n = w(),
+    [i, a] = d(x),
+    { data: o, isLoading: s } = u(r),
+    c = (o?.roots?.length ?? 0) > 0,
+    l;
+  e[0] !== c || e[1] !== s || e[2] !== n || e[3] !== i || e[4] !== t
+    ? ((l = W({
+        arm: t,
+        isRemoteHost: n,
+        isLoadingRoots: s,
+        hasPersistedRoots: c,
+        autoLaunchApplied: i,
+      })),
+      (e[0] = c),
+      (e[1] = s),
+      (e[2] = n),
+      (e[3] = i),
+      (e[4] = t),
+      (e[5] = l))
+    : (l = e[5]);
+  let f = l,
+    p;
+  return (
+    e[6] !== f ||
+    e[7] !== c ||
+    e[8] !== s ||
+    e[9] !== n ||
+    e[10] !== a ||
+    e[11] !== i ||
+    e[12] !== t ||
+    e[13] !== o
+      ? ((p = {
+          workspaceOnboardingExperimentArm: t,
+          isRemoteHost: n,
+          workspaceOnboardingAutoLaunchApplied: i,
+          setWorkspaceOnboardingAutoLaunchApplied: a,
+          workspaceRootOptions: o,
+          isLoadingWorkspaceRootOptions: s,
+          hasPersistedRoots: c,
+          autoLaunchAction: f,
+        }),
+        (e[6] = f),
+        (e[7] = c),
+        (e[8] = s),
+        (e[9] = n),
+        (e[10] = a),
+        (e[11] = i),
+        (e[12] = t),
+        (e[13] = o),
+        (e[14] = p))
+      : (p = e[14]),
+    p
+  );
+}
+function K(e) {
+  if (N(e)) return P;
+}
+var q,
+  J,
+  Y = e(() => {
+    ((q = o()), l(), c(), (J = t(n(), 1)), y(), T(), a(), p(), S(), R());
+  });
+export {
+  G as a,
+  F as c,
+  A as d,
+  M as f,
+  U as i,
+  I as l,
+  w as m,
+  Y as n,
+  V as o,
+  T as p,
+  H as r,
+  P as s,
+  K as t,
+  R as u,
+};
+//# sourceMappingURL=app-initial~app-main~onboarding-page~select-workspace-page.js.map

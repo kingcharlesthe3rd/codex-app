@@ -1,0 +1,1459 @@
+import { n as e, s as t } from "./rolldown-runtime.js";
+import {
+  El as n,
+  Rt as r,
+  Tl as i,
+  Xs as a,
+  tc as o,
+  vl as s,
+  zt as c,
+} from "./app-initial~app-main~worktree-init-v2-page~appgen-settings-page~page~appgen-publication-ter~fzo5ij6p.js";
+import {
+  $h as l,
+  Bb as u,
+  Gd as d,
+  Ib as f,
+  Sx as p,
+  Xh as m,
+  Yh as h,
+  b as g,
+  nx as _,
+  qd as v,
+  rx as y,
+  wx as b,
+  x,
+  yx as S,
+} from "./app-initial~app-main~new-thread-panel-page.js";
+import { Jn as C, qn as w } from "./app-initial~app-main~automations-page.js";
+import {
+  Al as T,
+  Fi as E,
+  Ii as D,
+  Il as O,
+  Li as k,
+  Ma as A,
+  Ri as j,
+  bl as ee,
+  fi as M,
+  ja as N,
+  oi as te,
+  yl as P,
+} from "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~onboarding-page~appgen-~o4yhvtva.js";
+import {
+  L as ne,
+  Q as F,
+  Z as I,
+  z as re,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~new-~djgpfzje.js";
+import {
+  _ as ie,
+  g as L,
+  h as R,
+  m as z,
+} from "./app-initial~app-main~worktree-init-v2-page~appgen-page~remote-conversation-page~pull-reques~filfqv6y.js";
+import {
+  $ as ae,
+  D as oe,
+  E as se,
+  G as ce,
+  I as B,
+  L as le,
+  N as ue,
+  P as de,
+  Q as fe,
+  X as pe,
+  Z as me,
+  at as V,
+  j as he,
+  mt as H,
+  pt as ge,
+  q as _e,
+  tt as U,
+} from "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~appgen-library-page~hot~fjhbmao5.js";
+import { r as ve, t as W } from "./conversation-starter-card.js";
+import {
+  a as ye,
+  i as G,
+  n as be,
+  o as xe,
+  r as K,
+  s as q,
+  t as J,
+} from "./subscription-update-plan.js";
+import { r as Y, t as X } from "./plan-pricing.js";
+function Se(e) {
+  let t = (0, Z.c)(96),
+    {
+      currentPlan: n,
+      defaultTab: r,
+      loadingTargetPlan: i,
+      pricingInfo: a,
+      getPlansUrl: o,
+      onCtaClick: s,
+      onOpenChange: c,
+      onOpenUrl: l,
+      open: u,
+    } = e,
+    d = r === void 0 ? `personal` : r,
+    f = i === void 0 ? null : i,
+    m = b(),
+    [h, g] = (0, Q.useState)(d),
+    [v, y] = (0, Q.useState)(n === P.PRO ? P.PRO : P.PROLITE),
+    x = n === P.GO || n === P.PLUS || n === P.PROLITE || n === P.PRO,
+    S;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((S = (0, $.jsx)(k, {
+        className: `text-lg font-medium`,
+        children: (0, $.jsx)(p, {
+          id: `settings.usage.upgradePlan.title`,
+          defaultMessage: `Upgrade plan`,
+          description: `Title for the plan upgrade dialog`,
+        }),
+      })),
+      (t[0] = S))
+    : (S = t[0]);
+  let C;
+  t[1] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((C = (0, $.jsx)(D, {
+        className: `sr-only`,
+        children: (0, $.jsx)(p, {
+          id: `settings.usage.upgradePlan.description`,
+          defaultMessage: `Compare personal and business plans`,
+          description: `Screen reader description for the plan upgrade dialog`,
+        }),
+      })),
+      (t[1] = C))
+    : (C = t[1]);
+  let w;
+  t[2] === m
+    ? (w = t[3])
+    : ((w = m.formatMessage({
+        id: `settings.usage.upgradePlan.tabs.ariaLabel`,
+        defaultMessage: `Choose plan category`,
+        description: `Aria label for the plan category toggle`,
+      })),
+      (t[2] = m),
+      (t[3] = w));
+  let T;
+  t[4] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((T = {
+        id: `personal`,
+        label: (0, $.jsx)(p, {
+          id: `settings.usage.upgradePlan.tabs.personal`,
+          defaultMessage: `Personal`,
+          description: `Label for personal plans tab`,
+        }),
+      }),
+      (t[4] = T))
+    : (T = t[4]);
+  let O;
+  t[5] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((O = [
+        T,
+        {
+          id: `business`,
+          label: (0, $.jsx)(p, {
+            id: `settings.usage.upgradePlan.tabs.business`,
+            defaultMessage: `Business`,
+            description: `Label for business plans tab`,
+          }),
+        },
+      ]),
+      (t[5] = O))
+    : (O = t[5]);
+  let A;
+  t[6] !== w || t[7] !== h
+    ? ((A = (0, $.jsx)(xe, {
+        ariaLabel: w,
+        className: `w-fit`,
+        selectedId: h,
+        onSelect: g,
+        options: O,
+      })),
+      (t[6] = w),
+      (t[7] = h),
+      (t[8] = A))
+    : (A = t[8]);
+  let j = h !== `personal`,
+    ee = h !== `personal` && `invisible pointer-events-none`,
+    M;
+  t[9] === ee
+    ? (M = t[10])
+    : ((M = _(`col-start-1 row-start-1 grid gap-2.5 md:grid-cols-3`, ee)),
+      (t[9] = ee),
+      (t[10] = M));
+  let N;
+  t[11] !== n ||
+  t[12] !== o ||
+  t[13] !== m ||
+  t[14] !== s ||
+  t[15] !== l ||
+  t[16] !== a ||
+  t[17] !== x
+    ? ((N = x
+        ? null
+        : (0, $.jsx)(we, {
+            currentPlan: n,
+            targetPlan: P.FREE,
+            price: je({ intl: m, pricingInfo: a, plan: P.FREE }),
+            title: (0, $.jsx)(p, {
+              id: `settings.usage.upgradePlan.personal.free.title`,
+              defaultMessage: `Free`,
+              description: `Title for the Free personal plan card`,
+            }),
+            features: [
+              {
+                icon: (0, $.jsx)(Ne, {}),
+                label: (0, $.jsx)(p, {
+                  id: `settings.usage.upgradePlan.personal.free.usage`,
+                  defaultMessage: `Limited Codex usage`,
+                  description: `Usage feature on the Free personal plan card`,
+                }),
+              },
+              {
+                icon: (0, $.jsx)(Pe, {}),
+                label: (0, $.jsx)(p, {
+                  id: `settings.usage.upgradePlan.personal.free.model`,
+                  defaultMessage: `GPT-5.3`,
+                  description: `Model feature on the Free personal plan card`,
+                }),
+              },
+            ],
+            getPlansUrl: o,
+            onCtaClick: s,
+            onOpenUrl: l,
+          })),
+      (t[11] = n),
+      (t[12] = o),
+      (t[13] = m),
+      (t[14] = s),
+      (t[15] = l),
+      (t[16] = a),
+      (t[17] = x),
+      (t[18] = N))
+    : (N = t[18]);
+  let ne = f === P.PLUS,
+    F;
+  t[19] !== m || t[20] !== a
+    ? ((F = je({ intl: m, pricingInfo: a, plan: P.PLUS })), (t[19] = m), (t[20] = a), (t[21] = F))
+    : (F = t[21]);
+  let I, re;
+  t[22] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((I = (0, $.jsx)(p, {
+        id: `settings.usage.upgradePlan.personal.plus.title`,
+        defaultMessage: `Plus`,
+        description: `Title for the Plus personal plan card`,
+      })),
+      (re = [
+        {
+          icon: (0, $.jsx)(Ne, {}),
+          label: (0, $.jsx)(p, {
+            id: `settings.usage.upgradePlan.personal.plus.usage`,
+            defaultMessage: `Enhanced Codex usage`,
+            description: `Usage feature on the Plus personal plan card`,
+          }),
+        },
+        {
+          icon: (0, $.jsx)(Pe, {}),
+          label: (0, $.jsx)(p, {
+            id: `settings.usage.upgradePlan.personal.plus.model`,
+            defaultMessage: `GPT-5.5 Thinking`,
+            description: `Model feature on the Plus personal plan card`,
+          }),
+        },
+        {
+          icon: (0, $.jsx)(Fe, {}),
+          label: (0, $.jsx)(p, {
+            id: `settings.usage.upgradePlan.personal.plus.workspace`,
+            defaultMessage: `Connect to Google Workspace`,
+            description: `Workspace feature on the Plus personal plan card`,
+          }),
+        },
+      ]),
+      (t[22] = I),
+      (t[23] = re))
+    : ((I = t[22]), (re = t[23]));
+  let ie;
+  t[24] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((ie = (0, $.jsx)(p, {
+        id: `settings.usage.upgradePlan.more.plus`,
+        defaultMessage: `View more details for Plus plan`,
+        description: `Screen reader label for the Plus plan details link`,
+      })),
+      (t[24] = ie))
+    : (ie = t[24]);
+  let L;
+  t[25] !== n || t[26] !== o || t[27] !== s || t[28] !== l || t[29] !== ne || t[30] !== F
+    ? ((L = (0, $.jsx)(we, {
+        currentPlan: n,
+        isLoading: ne,
+        targetPlan: P.PLUS,
+        price: F,
+        title: I,
+        features: re,
+        getPlansUrl: o,
+        onCtaClick: s,
+        onOpenUrl: l,
+        planDetailsLabel: ie,
+      })),
+      (t[25] = n),
+      (t[26] = o),
+      (t[27] = s),
+      (t[28] = l),
+      (t[29] = ne),
+      (t[30] = F),
+      (t[31] = L))
+    : (L = t[31]);
+  let R;
+  t[32] !== n ||
+  t[33] !== o ||
+  t[34] !== m ||
+  t[35] !== f ||
+  t[36] !== s ||
+  t[37] !== l ||
+  t[38] !== a ||
+  t[39] !== v ||
+  t[40] !== x
+    ? ((R = x
+        ? (0, $.jsxs)($.Fragment, {
+            children: [
+              (0, $.jsx)(we, {
+                currentPlan: n,
+                isLoading: f === P.PROLITE,
+                targetPlan: P.PROLITE,
+                price: je({ intl: m, pricingInfo: a, plan: P.PROLITE }),
+                title: (0, $.jsx)(Ee, {
+                  tier: (0, $.jsx)(p, {
+                    id: `settings.usage.upgradePlan.personal.proLite.tier`,
+                    defaultMessage: `5x`,
+                    description: `Tier suffix for the Pro 5x personal plan card`,
+                  }),
+                }),
+                features: De(P.PROLITE),
+                getPlansUrl: o,
+                onCtaClick: s,
+                onOpenUrl: l,
+                planDetailsLabel: (0, $.jsx)(Oe, { plan: P.PROLITE }),
+              }),
+              (0, $.jsx)(we, {
+                currentPlan: n,
+                isLoading: f === P.PRO,
+                targetPlan: P.PRO,
+                price: je({ intl: m, pricingInfo: a, plan: P.PRO }),
+                title: (0, $.jsx)(Ee, {
+                  tier: (0, $.jsx)(p, {
+                    id: `settings.usage.upgradePlan.personal.pro.tier`,
+                    defaultMessage: `20x`,
+                    description: `Tier suffix for the Pro 20x personal plan card`,
+                  }),
+                }),
+                features: De(P.PRO),
+                getPlansUrl: o,
+                onCtaClick: s,
+                onOpenUrl: l,
+                planDetailsLabel: (0, $.jsx)(Oe, { plan: P.PRO }),
+              }),
+            ],
+          })
+        : (0, $.jsx)(we, {
+            currentPlan: n,
+            isLoading: f === v,
+            targetPlan: v,
+            price: je({ intl: m, pricingInfo: a, plan: v }),
+            title: (0, $.jsxs)(`div`, {
+              className: `flex items-center justify-between gap-4`,
+              children: [
+                (0, $.jsx)(p, {
+                  id: `settings.usage.upgradePlan.personal.pro.title`,
+                  defaultMessage: `Pro`,
+                  description: `Title for the Pro personal plan card`,
+                }),
+                (0, $.jsx)(xe, {
+                  ariaLabel: m.formatMessage({
+                    id: `settings.usage.upgradePlan.personal.proTier.ariaLabel`,
+                    defaultMessage: `Choose Pro plan tier`,
+                    description: `Aria label for the Pro tier toggle`,
+                  }),
+                  className: `shrink-0`,
+                  selectedId: v,
+                  onSelect: y,
+                  options: [
+                    {
+                      id: P.PROLITE,
+                      label: (0, $.jsx)(p, {
+                        id: `settings.usage.upgradePlan.personal.proTier.fiveX`,
+                        defaultMessage: `5x`,
+                        description: `Label for the Pro 5x tier toggle`,
+                      }),
+                    },
+                    {
+                      id: P.PRO,
+                      label: (0, $.jsx)(p, {
+                        id: `settings.usage.upgradePlan.personal.proTier.twentyX`,
+                        defaultMessage: `20x`,
+                        description: `Label for the Pro 20x tier toggle`,
+                      }),
+                    },
+                  ],
+                }),
+              ],
+            }),
+            features: De(v),
+            getPlansUrl: o,
+            onCtaClick: s,
+            onOpenUrl: l,
+            planDetailsLabel: (0, $.jsx)(Oe, { plan: v }),
+          })),
+      (t[32] = n),
+      (t[33] = o),
+      (t[34] = m),
+      (t[35] = f),
+      (t[36] = s),
+      (t[37] = l),
+      (t[38] = a),
+      (t[39] = v),
+      (t[40] = x),
+      (t[41] = R))
+    : (R = t[41]);
+  let z;
+  t[42] !== M || t[43] !== N || t[44] !== L || t[45] !== R || t[46] !== j
+    ? ((z = (0, $.jsxs)(`div`, { "aria-hidden": j, className: M, children: [N, L, R] })),
+      (t[42] = M),
+      (t[43] = N),
+      (t[44] = L),
+      (t[45] = R),
+      (t[46] = j),
+      (t[47] = z))
+    : (z = t[47]);
+  let ae = h !== `business`,
+    ce = h !== `business` && `invisible pointer-events-none`,
+    B;
+  t[48] === ce
+    ? (B = t[49])
+    : ((B = _(`col-start-1 row-start-1 grid gap-2.5 md:grid-cols-2`, ce)),
+      (t[48] = ce),
+      (t[49] = B));
+  let le, ue, de, fe, pe, me;
+  t[50] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((le = (0, $.jsx)(p, {
+        id: `settings.usage.upgradePlan.business.codex.title`,
+        defaultMessage: `Business`,
+        description: `Title for the Codex Business plan card`,
+      })),
+      (ue = (0, $.jsx)(p, {
+        id: `settings.usage.upgradePlan.business.codex.subtitle`,
+        defaultMessage: `Codex`,
+        description: `Subtitle for the Codex Business plan card`,
+      })),
+      (de = (0, $.jsx)(p, {
+        id: `settings.usage.upgradePlan.business.codex.price`,
+        defaultMessage: `Usage pricing`,
+        description: `Price label for the Codex Business plan card`,
+      })),
+      (fe = (0, $.jsx)(p, {
+        id: `settings.usage.upgradePlan.business.codex.description`,
+        defaultMessage: `No fixed seat. Pay as you go based on usage`,
+        description: `Description for the Codex Business plan card`,
+      })),
+      (pe = [
+        {
+          icon: (0, $.jsx)(Ne, {}),
+          label: (0, $.jsx)(p, {
+            id: `settings.usage.upgradePlan.business.codex.usage`,
+            defaultMessage: `Pay-as-you-go usage`,
+            description: `Usage feature on the Codex Business plan card`,
+          }),
+        },
+        {
+          icon: (0, $.jsx)(Pe, {}),
+          label: (0, $.jsx)(p, {
+            id: `settings.usage.upgradePlan.business.codex.model`,
+            defaultMessage: `GPT-5.5 Thinking`,
+            description: `Model feature on the Codex Business plan card`,
+          }),
+        },
+        {
+          icon: (0, $.jsx)(Fe, {}),
+          label: (0, $.jsx)(p, {
+            id: `settings.usage.upgradePlan.business.codex.workspace`,
+            defaultMessage: `Connect to Google Workspace`,
+            description: `Workspace feature on the Codex Business plan card`,
+          }),
+        },
+        {
+          icon: (0, $.jsx)(Ie, {}),
+          label: (0, $.jsx)(p, {
+            id: `settings.usage.upgradePlan.business.codex.security`,
+            defaultMessage: `Enhanced security and admin controls`,
+            description: `Security feature on the Codex Business plan card`,
+          }),
+        },
+      ]),
+      (me = (0, $.jsx)(p, {
+        id: `settings.usage.upgradePlan.business.addWorkspace`,
+        defaultMessage: `Add Business workspace`,
+        description: `CTA to add a business workspace`,
+      })),
+      (t[50] = le),
+      (t[51] = ue),
+      (t[52] = de),
+      (t[53] = fe),
+      (t[54] = pe),
+      (t[55] = me))
+    : ((le = t[50]), (ue = t[51]), (de = t[52]), (fe = t[53]), (pe = t[54]), (me = t[55]));
+  let V;
+  t[56] === l
+    ? (V = t[57])
+    : ((V = (e) => {
+        l(oe, P.SELF_SERVE_BUSINESS_USAGE_BASED, e);
+      }),
+      (t[56] = l),
+      (t[57] = V));
+  let he;
+  t[58] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((he = (0, $.jsx)(p, {
+        id: `settings.usage.upgradePlan.more.businessCodex`,
+        defaultMessage: `View more details for Business Codex plan`,
+        description: `Screen reader label for the Business Codex plan details link`,
+      })),
+      (t[58] = he))
+    : (he = t[58]);
+  let H;
+  t[59] !== o || t[60] !== s || t[61] !== l || t[62] !== V
+    ? ((H = (0, $.jsx)(Te, {
+        title: le,
+        subtitle: ue,
+        priceLabel: de,
+        description: fe,
+        features: pe,
+        cta: me,
+        onClick: V,
+        targetPlan: P.SELF_SERVE_BUSINESS_USAGE_BASED,
+        getPlansUrl: o,
+        onCtaClick: s,
+        onOpenUrl: l,
+        planDetailsLabel: he,
+      })),
+      (t[59] = o),
+      (t[60] = s),
+      (t[61] = l),
+      (t[62] = V),
+      (t[63] = H))
+    : (H = t[63]);
+  let ge, _e;
+  t[64] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((ge = (0, $.jsx)(p, {
+        id: `settings.usage.upgradePlan.business.team.title`,
+        defaultMessage: `Business`,
+        description: `Title for the ChatGPT and Codex Business plan card`,
+      })),
+      (_e = (0, $.jsx)(p, {
+        id: `settings.usage.upgradePlan.business.team.subtitle`,
+        defaultMessage: `ChatGPT & Codex`,
+        description: `Subtitle for the ChatGPT and Codex Business plan card`,
+      })),
+      (t[64] = ge),
+      (t[65] = _e))
+    : ((ge = t[64]), (_e = t[65]));
+  let U;
+  t[66] !== m || t[67] !== a
+    ? ((U = Me({ intl: m, pricingInfo: a })), (t[66] = m), (t[67] = a), (t[68] = U))
+    : (U = t[68]);
+  let ve, W, ye;
+  t[69] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((ve = (0, $.jsx)(p, {
+        id: `settings.usage.upgradePlan.business.team.description`,
+        defaultMessage: `When billed annually. Minimum of 2 users`,
+        description: `Description for the ChatGPT and Codex Business plan card`,
+      })),
+      (W = [
+        {
+          icon: (0, $.jsx)(Ne, {}),
+          label: (0, $.jsx)(p, {
+            id: `settings.usage.upgradePlan.business.team.usage`,
+            defaultMessage: `Enhanced Codex usage`,
+            description: `Usage feature on the ChatGPT and Codex Business plan card`,
+          }),
+        },
+        {
+          icon: (0, $.jsx)(Pe, {}),
+          label: (0, $.jsx)(p, {
+            id: `settings.usage.upgradePlan.business.team.model`,
+            defaultMessage: `GPT-5.5 Thinking`,
+            description: `Model feature on the ChatGPT and Codex Business plan card`,
+          }),
+        },
+        {
+          icon: (0, $.jsx)(Fe, {}),
+          label: (0, $.jsx)(p, {
+            id: `settings.usage.upgradePlan.business.team.workspace`,
+            defaultMessage: `Connect to Google Workspace`,
+            description: `Workspace feature on the ChatGPT and Codex Business plan card`,
+          }),
+        },
+        {
+          icon: (0, $.jsx)(Ie, {}),
+          label: (0, $.jsx)(p, {
+            id: `settings.usage.upgradePlan.business.team.security`,
+            defaultMessage: `Enhanced security and admin controls`,
+            description: `Security feature on the ChatGPT and Codex Business plan card`,
+          }),
+        },
+      ]),
+      (ye = (0, $.jsx)(p, {
+        id: `settings.usage.upgradePlan.business.addWorkspace`,
+        defaultMessage: `Add Business workspace`,
+        description: `CTA to add a business workspace`,
+      })),
+      (t[69] = ve),
+      (t[70] = W),
+      (t[71] = ye))
+    : ((ve = t[69]), (W = t[70]), (ye = t[71]));
+  let G;
+  t[72] === l
+    ? (G = t[73])
+    : ((G = (e) => {
+        l(se, P.SELF_SERVE_BUSINESS, e);
+      }),
+      (t[72] = l),
+      (t[73] = G));
+  let be;
+  t[74] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((be = (0, $.jsx)(p, {
+        id: `settings.usage.upgradePlan.more.businessTeam`,
+        defaultMessage: `View more details for Business ChatGPT and Codex plan`,
+        description: `Screen reader label for the Business ChatGPT and Codex plan details link`,
+      })),
+      (t[74] = be))
+    : (be = t[74]);
+  let K;
+  t[75] !== o || t[76] !== s || t[77] !== l || t[78] !== U || t[79] !== G
+    ? ((K = (0, $.jsx)(Te, {
+        title: ge,
+        subtitle: _e,
+        priceLabel: U,
+        description: ve,
+        features: W,
+        cta: ye,
+        onClick: G,
+        targetPlan: P.SELF_SERVE_BUSINESS,
+        getPlansUrl: o,
+        onCtaClick: s,
+        onOpenUrl: l,
+        planDetailsLabel: be,
+      })),
+      (t[75] = o),
+      (t[76] = s),
+      (t[77] = l),
+      (t[78] = U),
+      (t[79] = G),
+      (t[80] = K))
+    : (K = t[80]);
+  let q;
+  t[81] !== ae || t[82] !== B || t[83] !== H || t[84] !== K
+    ? ((q = (0, $.jsxs)(`div`, { "aria-hidden": ae, className: B, children: [H, K] })),
+      (t[81] = ae),
+      (t[82] = B),
+      (t[83] = H),
+      (t[84] = K),
+      (t[85] = q))
+    : (q = t[85]);
+  let J;
+  t[86] !== z || t[87] !== q
+    ? ((J = (0, $.jsxs)(`div`, { className: `grid`, children: [z, q] })),
+      (t[86] = z),
+      (t[87] = q),
+      (t[88] = J))
+    : (J = t[88]);
+  let Y;
+  t[89] !== J || t[90] !== A
+    ? ((Y = (0, $.jsxs)(te, {
+        className: `max-h-[calc(100vh-2rem)] gap-3 overflow-y-auto px-5 py-4 [--pricing-plan-highlight:#635ef4]`,
+        children: [S, C, A, J],
+      })),
+      (t[89] = J),
+      (t[90] = A),
+      (t[91] = Y))
+    : (Y = t[91]);
+  let X;
+  return (
+    t[92] !== c || t[93] !== u || t[94] !== Y
+      ? ((X = (0, $.jsx)(E, {
+          open: u,
+          onOpenChange: c,
+          contentClassName: `!w-[min(800px,calc(100vw-2rem))]`,
+          children: Y,
+        })),
+        (t[92] = c),
+        (t[93] = u),
+        (t[94] = Y),
+        (t[95] = X))
+      : (X = t[95]),
+    X
+  );
+}
+function Ce({ currentPlan: e, defaultTab: t, onClose: n, source: i }) {
+  let a = o(r),
+    s = b(),
+    c = a.queryClient,
+    { email: l } = x(),
+    d = u(),
+    { data: f } = O(),
+    [p, g] = (0, Q.useState)(null),
+    [_, y] = (0, Q.useState)(null),
+    [S, C] = (0, Q.useState)(!1),
+    { data: w } = U({ enabled: !0 }),
+    { data: T } = V({ billingCurrency: w, enabled: !0 }),
+    E = le({ logExposure: !1 }),
+    D = f?.plan_type;
+  ((0, Q.useEffect)(() => {
+    D != null && D !== e.toString() && n();
+  }, [e, D, n]),
+    (0, Q.useEffect)(() => {
+      v(a, m, { defaultTab: t, source: i });
+    }, [t, a, i]));
+  let k = (e, t) => {
+      if (t != null) {
+        L({ event: t, href: e, initiator: `open_in_browser_bridge` });
+        return;
+      }
+      ie({ href: e, initiator: `open_in_browser_bridge` });
+    },
+    A = async (t, n, r) => {
+      let i = ge({ loginHint: l, statsigClient: d, url: t });
+      if (R(r)) {
+        k(i, r);
+        return;
+      }
+      if (f == null || e === P.FREE || (n !== P.PLUS && n !== P.PROLITE && n !== P.PRO)) {
+        k(i, r);
+        return;
+      }
+      let a = J(n),
+        o = e === P.GO,
+        s = e === P.PLUS && (n === P.PROLITE || n === P.PRO),
+        u = e === P.PRO && n === P.PROLITE,
+        p = e === P.PROLITE && n === P.PRO;
+      if (!o && !s && !u && !p) {
+        k(i, r);
+        return;
+      }
+      y(n);
+      try {
+        let e = await c.fetchQuery(fe({ accountId: f.id, updatedPlan: a }));
+        if (u) {
+          g({ kind: `scheduled_downgrade`, preview: e, updatedPlan: `chatgptprolite`, webUrl: i });
+          return;
+        }
+        let t = e.default_payment_method;
+        if (
+          !t?.card_last4?.trim() ||
+          T?.minorUnitExponent == null ||
+          T.currencyCode.toUpperCase() !== e.currency.toUpperCase()
+        ) {
+          k(i, r);
+          return;
+        }
+        g({
+          kind: `saved_card_upgrade`,
+          minorUnitExponent: T.minorUnitExponent,
+          paymentMethod: t,
+          preview: e,
+          updatedPlan: a,
+          webUrl: i,
+        });
+      } catch {
+        k(i, r);
+      } finally {
+        y(null);
+      }
+    },
+    j = (e) => {
+      p != null &&
+        v(a, h, { ctaAction: e, modalType: p.kind, source: i, targetPlan: be(p.updatedPlan) });
+    },
+    ee = async () => {
+      if (!(p == null || f == null)) {
+        C(!0);
+        try {
+          let e = await ae({ accountId: f.id, updatedPlan: p.updatedPlan });
+          if (e.status == null || e.status === `pending`) {
+            (g(null),
+              e.status == null &&
+                p.kind === `saved_card_upgrade` &&
+                (a
+                  .get(re)
+                  .success(
+                    s.formatMessage({
+                      id: `settings.usage.pricingPlanPage.subscriptionUpdate.upgradeSucceeded`,
+                      defaultMessage: `Successfully upgraded plan`,
+                      description: `Toast shown after a plan upgrade succeeds`,
+                    }),
+                  ),
+                n()),
+              await Promise.all([
+                c.invalidateQueries({ queryKey: [`accounts`, `check`] }),
+                c.invalidateQueries({ queryKey: [`rate-limit-status`] }),
+              ]));
+            return;
+          }
+          (await pe({ accountId: f.id }), k(p.webUrl), g(null));
+        } catch {
+          (k(p.webUrl), g(null));
+        } finally {
+          C(!1);
+        }
+      }
+    };
+  return (0, $.jsxs)($.Fragment, {
+    children: [
+      (0, $.jsx)(Se, {
+        open: p == null,
+        currentPlan: e,
+        defaultTab: t,
+        loadingTargetPlan: _,
+        pricingInfo: T ?? null,
+        getPlansUrl: E,
+        onCtaClick: (e, t) => {
+          (t === P.SELF_SERVE_BUSINESS_USAGE_BASED &&
+            _e(a, {
+              audience: `workspace`,
+              checkoutKind: `codex_team`,
+              entryPoint: `upgrade_plan_modal`,
+            }),
+            v(a, h, { ctaAction: e, source: i, targetPlan: t }));
+        },
+        onOpenChange: (e) => {
+          !e && p == null && n();
+        },
+        onOpenUrl: (e, t, n) => {
+          A(e, t, n);
+        },
+      }),
+      p == null
+        ? null
+        : (0, $.jsx)(G, {
+            isUpdating: S,
+            pricingInfo: T ?? null,
+            subscriptionUpdate: p,
+            onCancel: () => {
+              (j(`cancel`), g(null));
+            },
+            onConfirm: () => {
+              (j(
+                p.kind === `saved_card_upgrade` && p.preview.amount_due.amount > 0
+                  ? `pay_now`
+                  : `confirm`,
+              ),
+                ee());
+            },
+            onGoToWeb: (e) => {
+              (j(`go_to_web`), k(p.webUrl, e), g(null));
+            },
+            onOpenChange: (e) => {
+              e || (j(`dismiss`), S || g(null));
+            },
+          }),
+    ],
+  });
+}
+function we(e) {
+  let t = (0, Z.c)(32),
+    {
+      currentPlan: n,
+      features: r,
+      getPlansUrl: i,
+      isLoading: a,
+      onCtaClick: o,
+      onOpenUrl: s,
+      planDetailsLabel: c,
+      price: l,
+      targetPlan: u,
+      title: d,
+    } = e,
+    f = a === void 0 ? !1 : a,
+    m;
+  t[0] !== n || t[1] !== u
+    ? ((m = he({ currentPlan: n, targetPlan: u })), (t[0] = n), (t[1] = u), (t[2] = m))
+    : (m = t[2]);
+  let h = m,
+    g;
+  t[3] !== n || t[4] !== u
+    ? ((g = ue({ currentPlan: n, targetPlan: u })), (t[3] = n), (t[4] = u), (t[5] = g))
+    : (g = t[5]);
+  let _ = g,
+    v = (n === P.GO && u === P.PLUS) || (n === P.PLUS && u === P.PROLITE),
+    y;
+  t[6] !== i || t[7] !== s || t[8] !== c
+    ? ((y = c == null ? null : (0, $.jsx)(Ae, { detailsLabel: c, getPlansUrl: i, onOpenUrl: s })),
+      (t[6] = i),
+      (t[7] = s),
+      (t[8] = c),
+      (t[9] = y))
+    : (y = t[9]);
+  let b = h === `upgrade` ? `primary` : `outline`,
+    x = h === `current`,
+    S;
+  t[10] !== h || t[11] !== o || t[12] !== s || t[13] !== u || t[14] !== _
+    ? ((S = (e) => {
+        _ == null || h === `current` || (o(h, u), s(_, u, e));
+      }),
+      (t[10] = h),
+      (t[11] = o),
+      (t[12] = s),
+      (t[13] = u),
+      (t[14] = _),
+      (t[15] = S))
+    : (S = t[15]);
+  let C;
+  t[16] !== h || t[17] !== f
+    ? ((C = f
+        ? (0, $.jsx)(p, {
+            id: `settings.usage.upgradePlan.loadingPlanChange`,
+            defaultMessage: `Loading…`,
+            description: `Label shown in an upgrade plan button while loading its confirmation dialog`,
+          })
+        : h === `current`
+          ? (0, $.jsx)(p, {
+              id: `settings.usage.upgradePlan.current`,
+              defaultMessage: `Current plan`,
+              description: `Disabled CTA label for the user's current plan`,
+            })
+          : h === `downgrade`
+            ? (0, $.jsx)(p, {
+                id: `settings.usage.upgradePlan.downgrade`,
+                defaultMessage: `Downgrade`,
+                description: `CTA label for moving to a lower-tier plan`,
+              })
+            : (0, $.jsx)(p, {
+                id: `settings.usage.upgradePlan.upgrade`,
+                defaultMessage: `Upgrade plan`,
+                description: `CTA label for moving to a higher-tier plan`,
+              })),
+      (t[16] = h),
+      (t[17] = f),
+      (t[18] = C))
+    : (C = t[18]);
+  let w;
+  t[19] !== f || t[20] !== b || t[21] !== x || t[22] !== S || t[23] !== C
+    ? ((w = (0, $.jsx)(I, {
+        className: `w-full justify-center`,
+        color: b,
+        disabled: x,
+        loading: f,
+        size: `large`,
+        onClick: S,
+        children: C,
+      })),
+      (t[19] = f),
+      (t[20] = b),
+      (t[21] = x),
+      (t[22] = S),
+      (t[23] = C),
+      (t[24] = w))
+    : (w = t[24]);
+  let T;
+  return (
+    t[25] !== r || t[26] !== l || t[27] !== w || t[28] !== v || t[29] !== y || t[30] !== d
+      ? ((T = (0, $.jsx)(ke, {
+          highlighted: v,
+          title: d,
+          priceLabel: l,
+          features: r,
+          featureSlotCount: 3,
+          detailsLink: y,
+          footer: w,
+        })),
+        (t[25] = r),
+        (t[26] = l),
+        (t[27] = w),
+        (t[28] = v),
+        (t[29] = y),
+        (t[30] = d),
+        (t[31] = T))
+      : (T = t[31]),
+    T
+  );
+}
+function Te(e) {
+  let t = (0, Z.c)(20),
+    {
+      cta: n,
+      description: r,
+      features: i,
+      getPlansUrl: a,
+      onCtaClick: o,
+      onClick: s,
+      onOpenUrl: c,
+      planDetailsLabel: l,
+      priceLabel: u,
+      subtitle: d,
+      targetPlan: f,
+      title: p,
+    } = e,
+    m = f === P.SELF_SERVE_BUSINESS,
+    h;
+  t[0] !== a || t[1] !== c || t[2] !== l
+    ? ((h = (0, $.jsx)(Ae, { detailsLabel: l, getPlansUrl: a, onOpenUrl: c })),
+      (t[0] = a),
+      (t[1] = c),
+      (t[2] = l),
+      (t[3] = h))
+    : (h = t[3]);
+  let g;
+  t[4] !== s || t[5] !== o || t[6] !== f
+    ? ((g = (e) => {
+        (o(`upgrade`, f), s(e));
+      }),
+      (t[4] = s),
+      (t[5] = o),
+      (t[6] = f),
+      (t[7] = g))
+    : (g = t[7]);
+  let _;
+  t[8] !== n || t[9] !== g
+    ? ((_ = (0, $.jsx)(I, {
+        className: `w-full justify-center`,
+        size: `large`,
+        onClick: g,
+        children: n,
+      })),
+      (t[8] = n),
+      (t[9] = g),
+      (t[10] = _))
+    : (_ = t[10]);
+  let v;
+  return (
+    t[11] !== r ||
+    t[12] !== i ||
+    t[13] !== u ||
+    t[14] !== d ||
+    t[15] !== m ||
+    t[16] !== h ||
+    t[17] !== _ ||
+    t[18] !== p
+      ? ((v = (0, $.jsx)(ke, {
+          highlighted: m,
+          title: p,
+          subtitle: d,
+          priceLabel: u,
+          priceLabelSize: `compact`,
+          description: r,
+          features: i,
+          featureSlotCount: 4,
+          detailsLink: h,
+          footer: _,
+        })),
+        (t[11] = r),
+        (t[12] = i),
+        (t[13] = u),
+        (t[14] = d),
+        (t[15] = m),
+        (t[16] = h),
+        (t[17] = _),
+        (t[18] = p),
+        (t[19] = v))
+      : (v = t[19]),
+    v
+  );
+}
+function Ee(e) {
+  let t = (0, Z.c)(3),
+    { tier: n } = e,
+    r;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((r = (0, $.jsx)(p, {
+        id: `settings.usage.upgradePlan.personal.pro.title`,
+        defaultMessage: `Pro`,
+        description: `Title for the Pro personal plan card`,
+      })),
+      (t[0] = r))
+    : (r = t[0]);
+  let i;
+  return (
+    t[1] === n
+      ? (i = t[2])
+      : ((i = (0, $.jsxs)(`div`, {
+          className: `flex items-center gap-1`,
+          children: [
+            r,
+            (0, $.jsx)(`span`, { className: `font-normal text-token-text-secondary`, children: n }),
+          ],
+        })),
+        (t[1] = n),
+        (t[2] = i)),
+    i
+  );
+}
+function De(e) {
+  return [
+    {
+      icon: (0, $.jsx)(Ne, {}),
+      label:
+        e === P.PROLITE
+          ? (0, $.jsx)(p, {
+              id: `settings.usage.upgradePlan.personal.proLite.usage`,
+              defaultMessage: `5x more usage than Plus`,
+              description: `Usage feature for the Pro 5x plan card`,
+            })
+          : (0, $.jsx)(p, {
+              id: `settings.usage.upgradePlan.personal.pro.usage`,
+              defaultMessage: `20x more usage than Plus`,
+              description: `Usage feature for the Pro 20x plan card`,
+            }),
+    },
+    {
+      icon: (0, $.jsx)(Pe, {}),
+      label: (0, $.jsx)(p, {
+        id: `settings.usage.upgradePlan.personal.pro.model`,
+        defaultMessage: `GPT-5.5 Pro`,
+        description: `Model feature on the Pro personal plan card`,
+      }),
+    },
+    {
+      icon: (0, $.jsx)(Fe, {}),
+      label: (0, $.jsx)(p, {
+        id: `settings.usage.upgradePlan.personal.pro.workspace`,
+        defaultMessage: `Connect to Google Workspace`,
+        description: `Workspace feature on the Pro personal plan card`,
+      }),
+    },
+  ];
+}
+function Oe(e) {
+  let t = (0, Z.c)(2),
+    { plan: n } = e,
+    r;
+  return (
+    t[0] === n
+      ? (r = t[1])
+      : ((r =
+          n === P.PROLITE
+            ? (0, $.jsx)(p, {
+                id: `settings.usage.upgradePlan.more.proLite`,
+                defaultMessage: `View more details for Pro 5x plan`,
+                description: `Screen reader label for the Pro 5x plan details link`,
+              })
+            : (0, $.jsx)(p, {
+                id: `settings.usage.upgradePlan.more.pro`,
+                defaultMessage: `View more details for Pro 20x plan`,
+                description: `Screen reader label for the Pro 20x plan details link`,
+              })),
+        (t[0] = n),
+        (t[1] = r)),
+    r
+  );
+}
+function ke(e) {
+  let t = (0, Z.c)(44),
+    {
+      description: n,
+      detailsLink: r,
+      features: i,
+      featureSlotCount: a,
+      footer: o,
+      highlighted: s,
+      priceLabel: c,
+      priceLabelSize: l,
+      subtitle: u,
+      title: d,
+    } = e,
+    f = l === void 0 ? `large` : l,
+    p = s
+      ? `border-[color-mix(in_srgb,var(--pricing-plan-highlight)_30%,transparent)] bg-[color-mix(in_srgb,var(--pricing-plan-highlight)_6%,transparent)]`
+      : `border-token-border`,
+    m;
+  t[0] === p
+    ? (m = t[1])
+    : ((m = _(`flex h-full min-h-0 flex-col rounded-2xl border p-4`, p)), (t[0] = p), (t[1] = m));
+  let h = f === `large` && `h-10 justify-center`,
+    g;
+  t[2] === h ? (g = t[3]) : ((g = _(`flex flex-col gap-1`, h)), (t[2] = h), (t[3] = g));
+  let v;
+  t[4] === d
+    ? (v = t[5])
+    : ((v = (0, $.jsx)(`div`, {
+        className: `text-base font-semibold text-token-text-primary`,
+        children: d,
+      })),
+      (t[4] = d),
+      (t[5] = v));
+  let y;
+  t[6] === u
+    ? (y = t[7])
+    : ((y =
+        u == null
+          ? null
+          : (0, $.jsx)(`div`, {
+              className: `text-sm font-medium text-token-text-secondary`,
+              children: u,
+            })),
+      (t[6] = u),
+      (t[7] = y));
+  let b;
+  t[8] !== g || t[9] !== v || t[10] !== y
+    ? ((b = (0, $.jsxs)(`div`, { className: g, children: [v, y] })),
+      (t[8] = g),
+      (t[9] = v),
+      (t[10] = y),
+      (t[11] = b))
+    : (b = t[11]);
+  let x = f === `large` && `h-12 justify-center`,
+    S;
+  t[12] === x ? (S = t[13]) : ((S = _(`mt-3 flex flex-col`, x)), (t[12] = x), (t[13] = S));
+  let C;
+  t[14] !== c || t[15] !== f
+    ? ((C =
+        c == null
+          ? null
+          : (0, $.jsx)(`div`, {
+              className: _(
+                `text-token-text-primary`,
+                f === `large` ? `text-2xl font-normal` : `text-base font-medium`,
+              ),
+              children: c,
+            })),
+      (t[14] = c),
+      (t[15] = f),
+      (t[16] = C))
+    : (C = t[16]);
+  let w;
+  t[17] === n
+    ? (w = t[18])
+    : ((w =
+        n == null
+          ? null
+          : (0, $.jsx)(`div`, {
+              className: `mt-1 text-xs text-token-text-secondary`,
+              children: n,
+            })),
+      (t[17] = n),
+      (t[18] = w));
+  let T;
+  t[19] !== S || t[20] !== C || t[21] !== w
+    ? ((T = (0, $.jsxs)(`div`, { className: S, children: [C, w] })),
+      (t[19] = S),
+      (t[20] = C),
+      (t[21] = w),
+      (t[22] = T))
+    : (T = t[22]);
+  let E;
+  if (t[23] !== a || t[24] !== i || t[25] !== f) {
+    let e;
+    (t[27] !== i || t[28] !== f
+      ? ((e = (e, t) => {
+          let n = i[t];
+          return (0, $.jsx)(
+            `div`,
+            {
+              className: _(
+                `flex items-center gap-3 text-sm text-token-text-primary`,
+                f === `large` ? `h-10` : `h-8`,
+              ),
+              children:
+                n == null
+                  ? null
+                  : (0, $.jsxs)($.Fragment, {
+                      children: [
+                        (0, $.jsx)(`span`, {
+                          className: `inline-flex h-6 w-6 shrink-0 items-center justify-center`,
+                          children: n.icon,
+                        }),
+                        (0, $.jsx)(`span`, { children: n.label }),
+                      ],
+                    }),
+            },
+            t,
+          );
+        }),
+        (t[27] = i),
+        (t[28] = f),
+        (t[29] = e))
+      : (e = t[29]),
+      (E = (0, $.jsx)(`div`, {
+        className: `mt-3 flex flex-col`,
+        children: Array.from({ length: a }, e),
+      })),
+      (t[23] = a),
+      (t[24] = i),
+      (t[25] = f),
+      (t[26] = E));
+  } else E = t[26];
+  let D = r == null ? `pt-8` : `gap-3`,
+    O;
+  t[30] === D ? (O = t[31]) : ((O = _(`mt-3 flex flex-col`, D)), (t[30] = D), (t[31] = O));
+  let k;
+  t[32] === r
+    ? (k = t[33])
+    : ((k =
+        r == null ? null : (0, $.jsx)(`div`, { className: `flex h-5 items-center`, children: r })),
+      (t[32] = r),
+      (t[33] = k));
+  let A;
+  t[34] !== o || t[35] !== O || t[36] !== k
+    ? ((A = (0, $.jsxs)(`div`, { className: O, children: [k, o] })),
+      (t[34] = o),
+      (t[35] = O),
+      (t[36] = k),
+      (t[37] = A))
+    : (A = t[37]);
+  let j;
+  return (
+    t[38] !== T || t[39] !== E || t[40] !== A || t[41] !== m || t[42] !== b
+      ? ((j = (0, $.jsxs)(`section`, { className: m, children: [b, T, E, A] })),
+        (t[38] = T),
+        (t[39] = E),
+        (t[40] = A),
+        (t[41] = m),
+        (t[42] = b),
+        (t[43] = j))
+      : (j = t[43]),
+    j
+  );
+}
+function Ae(e) {
+  let t = (0, Z.c)(9),
+    { detailsLabel: n, getPlansUrl: r, onOpenUrl: i } = e,
+    a;
+  t[0] !== r || t[1] !== i
+    ? ((a = (e) => {
+        i(r(), void 0, e);
+      }),
+      (t[0] = r),
+      (t[1] = i),
+      (t[2] = a))
+    : (a = t[2]);
+  let o;
+  t[3] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((o = (0, $.jsx)(`span`, {
+        "aria-hidden": `true`,
+        children: (0, $.jsx)(p, {
+          id: `settings.usage.upgradePlan.more`,
+          defaultMessage: `+ more`,
+          description: `Link to view more plan details from a plan card`,
+        }),
+      })),
+      (t[3] = o))
+    : (o = t[3]);
+  let s;
+  t[4] === n
+    ? (s = t[5])
+    : ((s = (0, $.jsx)(`span`, { className: `sr-only`, children: n })), (t[4] = n), (t[5] = s));
+  let c;
+  return (
+    t[6] !== a || t[7] !== s
+      ? ((c = (0, $.jsxs)(`button`, {
+          className: `w-fit cursor-interaction border-0 bg-transparent p-0 text-sm text-token-text-primary underline underline-offset-2`,
+          type: `button`,
+          onClick: a,
+          children: [o, s],
+        })),
+        (t[6] = a),
+        (t[7] = s),
+        (t[8] = c))
+      : (c = t[8]),
+    c
+  );
+}
+function je({ intl: e, plan: t, pricingInfo: n }) {
+  return n == null
+    ? null
+    : X({
+        intl: e,
+        amount: n.monthlyAmounts[t],
+        currencyCode: n.currencyCode,
+        minorUnitExponent: n.minorUnitExponent,
+      });
+}
+function Me({ intl: e, pricingInfo: t }) {
+  if (t == null) return null;
+  let n = X({
+    intl: e,
+    amount: t.monthlyAmounts.business,
+    currencyCode: t.businessCurrencyCode,
+    minorUnitExponent: t.businessMinorUnitExponent,
+  });
+  return n == null
+    ? null
+    : (0, $.jsx)(p, {
+        id: `settings.usage.upgradePlan.business.team.price`,
+        defaultMessage: `{price} / user / month`,
+        description: `Localized monthly per-user price for the ChatGPT and Codex Business plan`,
+        values: { price: n },
+      });
+}
+function Ne() {
+  let e = (0, Z.c)(1),
+    t;
+  return (
+    e[0] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((t = (0, $.jsx)(W, { className: `icon-sm`, name: `bubble-on-bubble` })), (e[0] = t))
+      : (t = e[0]),
+    t
+  );
+}
+function Pe() {
+  let e = (0, Z.c)(1),
+    t;
+  return (
+    e[0] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((t = (0, $.jsx)(w, { className: `icon-sm text-token-charts-yellow` })), (e[0] = t))
+      : (t = e[0]),
+    t
+  );
+}
+function Fe() {
+  let e = (0, Z.c)(1),
+    t;
+  return (
+    e[0] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((t = (0, $.jsx)(N, { className: `icon-sm` })), (e[0] = t))
+      : (t = e[0]),
+    t
+  );
+}
+function Ie() {
+  let e = (0, Z.c)(1),
+    t;
+  return (
+    e[0] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((t = (0, $.jsx)(W, { className: `icon-base`, name: `shield` })), (e[0] = t))
+      : (t = e[0]),
+    t
+  );
+}
+var Z, Q, $;
+e(() => {
+  ((Z = i()),
+    l(),
+    y(),
+    a(),
+    (Q = t(n(), 1)),
+    S(),
+    g(),
+    T(),
+    q(),
+    F(),
+    j(),
+    M(),
+    z(),
+    ne(),
+    ve(),
+    ce(),
+    B(),
+    A(),
+    C(),
+    d(),
+    me(),
+    c(),
+    f(),
+    H(),
+    ee(),
+    de(),
+    Y(),
+    ye(),
+    K(),
+    ($ = s()));
+})();
+export { Se as UpgradePlanDialog, Ce as UpgradePlanDialogModal };
+//# sourceMappingURL=upgrade-plan-dialog.js.map

@@ -1,1 +1,0 @@
-import{n as e,t}from"./skills-page-2_HNvzDC.js";e();export{t as SkillsPage};

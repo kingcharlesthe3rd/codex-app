@@ -1,0 +1,31 @@
+import { n as e } from "./rolldown-runtime.js";
+import {
+  Tl as t,
+  vl as n,
+} from "./app-initial~app-main~worktree-init-v2-page~appgen-settings-page~page~appgen-publication-ter~fzo5ij6p.js";
+import { Dt as r, Tt as i } from "./app-initial~app-main~automations-page.js";
+import {
+  B as a,
+  z as o,
+} from "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~appgen-library-page~hot~djo67r4n.js";
+import { n as s, o as c } from "./general-settings-2.js";
+function l() {
+  let e = (0, u.c)(1),
+    t;
+  return (
+    e[0] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((t = (0, d.jsx)(i, {
+          title: (0, d.jsx)(o, { slug: `appearance` }),
+          children: (0, d.jsx)(s, {}),
+        })),
+        (e[0] = t))
+      : (t = e[0]),
+    t
+  );
+}
+var u, d;
+e(() => {
+  ((u = t()), r(), a(), c(), (d = n()));
+})();
+export { l as AppearanceSettings };
+//# sourceMappingURL=appearance-settings.js.map

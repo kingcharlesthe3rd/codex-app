@@ -1,0 +1,26 @@
+import { n as e } from "./rolldown-runtime.js";
+import {
+  Tl as t,
+  vl as n,
+} from "./app-initial~app-main~worktree-init-v2-page~appgen-settings-page~page~appgen-publication-ter~fzo5ij6p.js";
+import { nx as r, rx as i } from "./app-initial~app-main~new-thread-panel-page.js";
+function a(e) {
+  let t = (0, o.c)(5),
+    { children: n, className: i } = e,
+    a;
+  t[0] === i ? (a = t[1]) : ((a = r(`flex items-center gap-2`, i)), (t[0] = i), (t[1] = a));
+  let c;
+  return (
+    t[2] !== n || t[3] !== a
+      ? ((c = (0, s.jsx)(`div`, { className: a, children: n })), (t[2] = n), (t[3] = a), (t[4] = c))
+      : (c = t[4]),
+    c
+  );
+}
+var o,
+  s,
+  c = e(() => {
+    ((o = t()), i(), (s = n()));
+  });
+export { c as n, a as t };
+//# sourceMappingURL=control-group.js.map

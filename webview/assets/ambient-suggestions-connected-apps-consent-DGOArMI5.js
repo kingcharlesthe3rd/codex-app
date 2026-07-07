@@ -1,2 +1,0 @@
-import{n as e}from"./rolldown-runtime-Czos8NxU.js";import{Xb as t,Zb as n}from"./app-initial~app-main~new-thread-panel-page-BZHGOlMi.js";function r(e){return e.filter(e=>e.isAccessible&&e.isEnabled)}var i,a,o=e((()=>{t(),i=n(`has-seen-ambient-suggestions-connected-apps-consent`,!1),a=n(`has-dismissed-ambient-suggestions-connect-apps-row`,!1)}));export{o as i,a as n,i as r,r as t};
-//# sourceMappingURL=ambient-suggestions-connected-apps-consent-DGOArMI5.js.map

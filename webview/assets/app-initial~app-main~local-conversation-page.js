@@ -1,0 +1,712 @@
+import { n as e, s as t } from "./rolldown-runtime.js";
+import {
+  At as n,
+  Bt as r,
+  El as i,
+  Rt as a,
+  St as o,
+  Tl as s,
+  Xs as c,
+  bt as l,
+  di as u,
+  ec as d,
+  el as f,
+  il as p,
+  jt as m,
+  kt as h,
+  nc as g,
+  ol as _,
+  qc as v,
+  tc as y,
+  vl as b,
+  zt as x,
+} from "./app-initial~app-main~worktree-init-v2-page~appgen-settings-page~page~appgen-publication-ter~fzo5ij6p.js";
+import {
+  Qy as S,
+  dh as C,
+  fb as w,
+  fh as T,
+  mb as E,
+  tb as D,
+} from "./app-initial~app-main~onboarding-page.js";
+import {
+  $ as O,
+  M as k,
+  at as A,
+  it as j,
+  j as M,
+  ot as N,
+  st as P,
+  tt as F,
+} from "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~onboarding-page~project~okyna5mq.js";
+import {
+  Sx as I,
+  as as L,
+  nx as R,
+  rx as z,
+  ts as B,
+  wx as V,
+  yx as H,
+} from "./app-initial~app-main~new-thread-panel-page.js";
+import {
+  bi as U,
+  d as W,
+  h as G,
+  xi as K,
+} from "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~onboarding-page~appgen-~o4yhvtva.js";
+import {
+  $n as ee,
+  Qn as te,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~new-~mam8fk3d.js";
+import {
+  n as ne,
+  r as re,
+  t as q,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~new-~noeyr6e3.js";
+import { a as ie } from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~new-thread-panel-page~o~bj5tp28r.js";
+function ae(e) {
+  let t = (0, de.c)(16),
+    n = p(pe),
+    r;
+  t[0] === e.dependencies
+    ? (r = t[1])
+    : ((r = e.dependencies ? e.dependencies.map(le).join(`|`) : ``),
+      (t[0] = e.dependencies),
+      (t[1] = r));
+  let i = r,
+    a;
+  t[2] !== e || t[3] !== n
+    ? ((a = () => {
+        n((t) => {
+          let n = !1,
+            r = [...t].map((t) => (t.id === e.id ? ((n = !0), e) : t));
+          return (n || r.push(e), (0, fe.default)(r.filter(ce), [se, oe]));
+        });
+      }),
+      (t[2] = e),
+      (t[3] = n),
+      (t[4] = a))
+    : (a = t[4]);
+  let o = (0, J.useEffectEvent)(a),
+    s;
+  t[5] === o
+    ? (s = t[6])
+    : ((s = () => {
+        o();
+      }),
+      (t[5] = o),
+      (t[6] = s));
+  let c;
+  (t[7] !== i || t[8] !== e.enabled || t[9] !== e.id || t[10] !== e.order
+    ? ((c = [e.id, e.enabled, e.order, i]),
+      (t[7] = i),
+      (t[8] = e.enabled),
+      (t[9] = e.id),
+      (t[10] = e.order),
+      (t[11] = c))
+    : (c = t[11]),
+    (0, J.useEffect)(s, c));
+  let l, u;
+  (t[12] !== e.id || t[13] !== n
+    ? ((l = () => () => {
+        n((t) => t.filter((t) => t.id !== e.id));
+      }),
+      (u = [e.id, n]),
+      (t[12] = e.id),
+      (t[13] = n),
+      (t[14] = l),
+      (t[15] = u))
+    : ((l = t[14]), (u = t[15])),
+    (0, J.useEffect)(l, u));
+}
+function oe(e) {
+  return e.id;
+}
+function se(e) {
+  return e.order ?? 0;
+}
+function ce(e) {
+  return e.enabled !== !1;
+}
+function le(e) {
+  return ue(e);
+}
+function ue(e) {
+  return e == null ? `` : String(e);
+}
+var de,
+  fe,
+  J,
+  pe,
+  me = e(() => {
+    ((de = s()), f(), (fe = t(ie(), 1)), (J = t(i(), 1)), (pe = _([])));
+  });
+function he(e, t, n = `fuzzy`) {
+  let r = Array.from(e),
+    i = t.trim();
+  if (i.length === 0) return r.map((e) => ({ text: e, isMatch: !0 }));
+  let a = e.toLowerCase(),
+    o = i.toLowerCase(),
+    s = a.indexOf(o);
+  if (s >= 0) {
+    let e = s,
+      t = s + o.length;
+    return r.map((n, r) => ({ text: n, isMatch: r >= e && r < t }));
+  }
+  if (n === `substring`) return r.map((e) => ({ text: e, isMatch: !1 }));
+  let c = 0;
+  return r.map((e) => {
+    let t = c < o.length && e.toLowerCase() === o[c];
+    return (t && (c += 1), { text: e, isMatch: t });
+  });
+}
+var ge = e(() => {});
+function _e(e) {
+  let t = (0, we.c)(66),
+    n,
+    r,
+    i,
+    a,
+    o,
+    s,
+    c,
+    l,
+    u,
+    d,
+    f,
+    p,
+    m;
+  t[0] === e
+    ? ((n = t[1]),
+      (r = t[2]),
+      (i = t[3]),
+      (a = t[4]),
+      (o = t[5]),
+      (s = t[6]),
+      (c = t[7]),
+      (l = t[8]),
+      (u = t[9]),
+      (d = t[10]),
+      (f = t[11]),
+      (p = t[12]),
+      (m = t[13]))
+    : (({
+        title: f,
+        description: i,
+        leftAccessory: c,
+        LeftIcon: n,
+        RightIcon: r,
+        titleTooltipContent: p,
+        descriptionTooltipContent: o,
+        descriptionClassName: a,
+        highlightMode: s,
+        secondaryContent: d,
+        tooltipDelayDuration: m,
+        rightAccessory: u,
+        ...l
+      } = e),
+      (t[0] = e),
+      (t[1] = n),
+      (t[2] = r),
+      (t[3] = i),
+      (t[4] = a),
+      (t[5] = o),
+      (t[6] = s),
+      (t[7] = c),
+      (t[8] = l),
+      (t[9] = u),
+      (t[10] = d),
+      (t[11] = f),
+      (t[12] = p),
+      (t[13] = m));
+  let h = (0, Te.useRef)(null),
+    g;
+  t[14] === f ? (g = t[15]) : ((g = Se(f)), (t[14] = f), (t[15] = g));
+  let _ = g,
+    v;
+  t[16] === i ? (v = t[17]) : ((v = i == null ? void 0 : Se(i)), (t[16] = i), (t[17] = v));
+  let y = v,
+    b;
+  t[18] === p ? (b = t[19]) : ((b = Ce(p)), (t[18] = p), (t[19] = b));
+  let x = b,
+    S;
+  t[20] === o ? (S = t[21]) : ((S = Ce(o)), (t[20] = o), (t[21] = S));
+  let C = S,
+    w = q(be),
+    T = q(ye),
+    E;
+  t[22] !== s || t[23] !== w || t[24] !== _
+    ? ((E = he(_, w, s)), (t[22] = s), (t[23] = w), (t[24] = _), (t[25] = E))
+    : (E = t[25]);
+  let D = E,
+    O = D.some(ve),
+    k;
+  t[26] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((k = () => {
+        h.current?.dataset.selected === `true` && h.current.scrollIntoView({ block: `nearest` });
+      }),
+      (t[26] = k))
+    : (k = t[26]);
+  let A;
+  (t[27] === T ? (A = t[28]) : ((A = [T]), (t[27] = T), (t[28] = A)), (0, Te.useEffect)(k, A));
+  let j = ne,
+    M = d == null ? `items-center` : `items-start`,
+    N;
+  t[29] === M ? (N = t[30]) : ((N = R(`flex w-full min-w-0 gap-2`, M)), (t[29] = M), (t[30] = N));
+  let P;
+  t[31] !== n || t[32] !== c
+    ? ((P = c ?? (n ? (0, Y.jsx)(n, { className: `icon-xs shrink-0` }) : null)),
+      (t[31] = n),
+      (t[32] = c),
+      (t[33] = P))
+    : (P = t[33]);
+  let F = xe,
+    I = i ? (a ? `min-w-0 flex-1` : `max-w-[60%] flex-none`) : `min-w-0 flex-1`,
+    L;
+  t[34] === I ? (L = t[35]) : ((L = R(`truncate`, I)), (t[34] = I), (t[35] = L));
+  let z = D.map((e, t) =>
+      (0, Y.jsx)(
+        `span`,
+        { className: R(!e.isMatch && O && `text-token-description-foreground`), children: e.text },
+        t,
+      ),
+    ),
+    B;
+  t[36] !== F || t[37] !== L || t[38] !== z || t[39] !== m || t[40] !== x
+    ? ((B = (0, Y.jsx)(F, { tooltipContent: x, delayDuration: m, className: L, children: z })),
+      (t[36] = F),
+      (t[37] = L),
+      (t[38] = z),
+      (t[39] = m),
+      (t[40] = x),
+      (t[41] = B))
+    : (B = t[41]);
+  let V;
+  t[42] !== r ||
+  t[43] !== i ||
+  t[44] !== a ||
+  t[45] !== u ||
+  t[46] !== m ||
+  t[47] !== y ||
+  t[48] !== C
+    ? ((V =
+        i || u || r
+          ? (0, Y.jsxs)(`div`, {
+              className: `ml-auto flex min-w-0 items-center gap-2`,
+              children: [
+                i
+                  ? (0, Y.jsx)(xe, {
+                      tooltipContent: C,
+                      delayDuration: m,
+                      className: R(
+                        `truncate text-sm text-token-description-foreground`,
+                        a ?? `min-w-0 flex-1`,
+                      ),
+                      children: y,
+                    })
+                  : null,
+                u ? (0, Y.jsx)(`span`, { className: `shrink-0 opacity-80`, children: u }) : null,
+                r ? (0, Y.jsx)(r, { className: `icon-xs shrink-0` }) : null,
+              ],
+            })
+          : null),
+      (t[42] = r),
+      (t[43] = i),
+      (t[44] = a),
+      (t[45] = u),
+      (t[46] = m),
+      (t[47] = y),
+      (t[48] = C),
+      (t[49] = V))
+    : (V = t[49]);
+  let H;
+  t[50] !== B || t[51] !== V
+    ? ((H = (0, Y.jsxs)(`div`, {
+        className: `flex w-full min-w-0 items-center gap-2`,
+        children: [B, V],
+      })),
+      (t[50] = B),
+      (t[51] = V),
+      (t[52] = H))
+    : (H = t[52]);
+  let U;
+  t[53] === d
+    ? (U = t[54])
+    : ((U =
+        d == null
+          ? null
+          : (0, Y.jsx)(`div`, {
+              className: `truncate pt-0.5 text-xs text-token-description-foreground`,
+              children: d,
+            })),
+      (t[53] = d),
+      (t[54] = U));
+  let W;
+  t[55] !== H || t[56] !== U
+    ? ((W = (0, Y.jsxs)(`div`, { className: `min-w-0 flex-1`, children: [H, U] })),
+      (t[55] = H),
+      (t[56] = U),
+      (t[57] = W))
+    : (W = t[57]);
+  let G;
+  t[58] !== N || t[59] !== P || t[60] !== W
+    ? ((G = (0, Y.jsxs)(`div`, { className: N, children: [P, W] })),
+      (t[58] = N),
+      (t[59] = P),
+      (t[60] = W),
+      (t[61] = G))
+    : (G = t[61]);
+  let K;
+  return (
+    t[62] !== l || t[63] !== G || t[64] !== j.Item
+      ? ((K = (0, Y.jsx)(j.Item, { ref: h, ...l, children: G })),
+        (t[62] = l),
+        (t[63] = G),
+        (t[64] = j.Item),
+        (t[65] = K))
+      : (K = t[65]),
+    K
+  );
+}
+function ve(e) {
+  return e.isMatch;
+}
+function ye(e) {
+  return e.value;
+}
+function be(e) {
+  return e.search;
+}
+function xe(e) {
+  let t = (0, we.c)(8),
+    { children: n, className: r, tooltipContent: i, delayDuration: a } = e,
+    o = i == null,
+    s;
+  t[0] !== n || t[1] !== r
+    ? ((s = (0, Y.jsx)(`div`, { className: r, children: n })), (t[0] = n), (t[1] = r), (t[2] = s))
+    : (s = t[2]);
+  let c;
+  return (
+    t[3] !== a || t[4] !== o || t[5] !== s || t[6] !== i
+      ? ((c = (0, Y.jsx)(O, {
+          tooltipContent: i,
+          delayDuration: a,
+          disabled: o,
+          openWhen: `trigger-overflows`,
+          children: s,
+        })),
+        (t[3] = a),
+        (t[4] = o),
+        (t[5] = s),
+        (t[6] = i),
+        (t[7] = c))
+      : (c = t[7]),
+    c
+  );
+}
+function Se(e) {
+  return e.length <= Ee ? e : `${e.slice(0, Ee - 1).trimEnd()}…`;
+}
+function Ce(e) {
+  return typeof e == `string` ? Se(e) : e;
+}
+var we,
+  Te,
+  Y,
+  Ee,
+  De = e(() => {
+    ((we = s()), z(), re(), (Te = t(i(), 1)), F(), ge(), (Y = b()), (Ee = 100));
+  }),
+  X,
+  Oe,
+  Z,
+  Q = e(() => {
+    (c(),
+      x(),
+      (X = `command-menu-first-file-item`),
+      (Oe = `command-menu-first-chat-item`),
+      (Z = v(a, `root`)));
+  });
+function ke(e) {
+  let t = (0, Me.c)(31),
+    { clearSearch: n, close: r, hostId: i, onSelectFile: o, workspaceRoot: s } = e,
+    c = y(a),
+    l = V(),
+    u = d(W, `searchFiles`),
+    f = q(je),
+    p = g(K),
+    m = g(Z),
+    h = m === `files` ? f : ``,
+    _;
+  t[0] === s ? (_ = t[1]) : ((_ = [s]), (t[0] = s), (t[1] = _));
+  let v;
+  t[2] !== i || t[3] !== h || t[4] !== _
+    ? ((v = { hostId: i, query: h, roots: _ }), (t[2] = i), (t[3] = h), (t[4] = _), (t[5] = v))
+    : (v = t[5]);
+  let { sections: b } = T(v),
+    x = b[0],
+    S,
+    C;
+  if (
+    (t[6] !== p || t[7] !== c
+      ? ((S = () => {
+          p || c.set(Z, `root`);
+        }),
+        (C = [p, c]),
+        (t[6] = p),
+        (t[7] = c),
+        (t[8] = S),
+        (t[9] = C))
+      : ((S = t[8]), (C = t[9])),
+    (0, Ne.useEffect)(S, C),
+    m !== `files`)
+  ) {
+    let e;
+    t[10] === l
+      ? (e = t[11])
+      : ((e = l.formatMessage({
+          id: `thread.fileCommandMenu.searchFiles`,
+          defaultMessage: `Search files`,
+          description: `Command menu item that opens workspace file search`,
+        })),
+        (t[10] = l),
+        (t[11] = e));
+    let r = u ?? ``,
+      i;
+    t[12] === r ? (i = t[13]) : ((i = (0, $.jsx)(j, { keysLabel: r })), (t[12] = r), (t[13] = i));
+    let a;
+    t[14] !== n || t[15] !== c
+      ? ((a = () => {
+          (n(), c.set(Z, `files`));
+        }),
+        (t[14] = n),
+        (t[15] = c),
+        (t[16] = a))
+      : (a = t[16]);
+    let o;
+    return (
+      t[17] !== e || t[18] !== i || t[19] !== a
+        ? ((o = (0, $.jsx)(
+            _e,
+            {
+              value: `search files workspace project cmd+p`,
+              title: e,
+              LeftIcon: M,
+              rightAccessory: i,
+              onSelect: a,
+            },
+            `search-files`,
+          )),
+          (t[17] = e),
+          (t[18] = i),
+          (t[19] = a),
+          (t[20] = o))
+        : (o = t[20]),
+      o
+    );
+  }
+  if (x == null || (x.items.length === 0 && x.emptyState == null)) return null;
+  let w;
+  t[21] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((w = (0, $.jsx)(`span`, {
+        className: `block px-2 pt-2 text-sm text-token-description-foreground`,
+        children: (0, $.jsx)(I, {
+          id: `thread.fileCommandMenu.filesGroup`,
+          defaultMessage: `Files`,
+          description: `Group label for workspace file search results`,
+        }),
+      })),
+      (t[21] = w))
+    : (w = t[21]);
+  let E;
+  t[22] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((E = { gap: `var(--spacing)` }), (t[22] = E))
+    : (E = t[22]);
+  let D;
+  t[23] !== r || t[24] !== x.emptyState || t[25] !== x.items || t[26] !== l || t[27] !== o
+    ? ((D =
+        x.items.length > 0
+          ? x.items.map((e, t) =>
+              (0, $.jsx)(
+                _e,
+                {
+                  description: e.detail ?? void 0,
+                  forceMount: !0,
+                  LeftIcon: e.icon,
+                  onSelect: () => {
+                    (o(e.key.replace(/^file:/, ``)), r());
+                  },
+                  title: e.label,
+                  value: t === 0 ? X : [e.label, e.detail].join(` `),
+                },
+                e.key,
+              ),
+            )
+          : x.emptyState == null
+            ? null
+            : (0, $.jsx)(ne.Item, {
+                "data-command-menu-loading": !0,
+                forceMount: !0,
+                onSelect: Ae,
+                value: X,
+                children: (0, $.jsx)(`div`, {
+                  className: `flex w-full min-w-0 items-center gap-2`,
+                  children: (0, $.jsx)(`div`, {
+                    className: `min-w-0 flex-1 truncate`,
+                    children: l.formatMessage(x.emptyState),
+                  }),
+                }),
+              })),
+      (t[23] = r),
+      (t[24] = x.emptyState),
+      (t[25] = x.items),
+      (t[26] = l),
+      (t[27] = o),
+      (t[28] = D))
+    : (D = t[28]);
+  let O;
+  return (
+    t[29] === D
+      ? (O = t[30])
+      : ((O = (0, $.jsx)(
+          ne.Group,
+          { forceMount: !0, heading: w, className: `flex flex-col`, style: E, children: D },
+          `group-files`,
+        )),
+        (t[29] = D),
+        (t[30] = O)),
+    O
+  );
+}
+function Ae() {}
+function je(e) {
+  return e.search;
+}
+var Me,
+  Ne,
+  $,
+  Pe = e(() => {
+    ((Me = s()),
+      re(),
+      c(),
+      (Ne = t(i(), 1)),
+      H(),
+      G(),
+      Q(),
+      U(),
+      A(),
+      De(),
+      C(),
+      k(),
+      x(),
+      ($ = b()));
+  });
+function Fe() {
+  let e = (0, Ie.c)(23),
+    t = y(B),
+    r = g(Z),
+    i = o(`open-file`),
+    a = g(E),
+    s = g(D),
+    c = s != null,
+    l;
+  e[0] !== c || e[1] !== a || e[2] !== i || e[3] !== t || e[4] !== s
+    ? ((l = (e) => {
+        !c ||
+          s == null ||
+          ee({
+            scope: t,
+            path: e,
+            cwd: u(s),
+            hostConfig: a,
+            hostId: a.id,
+            openFile: i.mutate,
+            openInSidePanel: !0,
+          });
+      }),
+      (e[0] = c),
+      (e[1] = a),
+      (e[2] = i),
+      (e[3] = t),
+      (e[4] = s),
+      (e[5] = l))
+    : (l = e[5]);
+  let d = l,
+    f;
+  (e[6] !== c || e[7] !== t
+    ? ((f = () => {
+        c &&
+          (n.dispatchHostMessage({ type: `command-menu`, query: `` }),
+          t.set(Z, `files`),
+          t.set(K, !0));
+      }),
+      (e[6] = c),
+      (e[7] = t),
+      (e[8] = f))
+    : (f = e[8]),
+    m(`file-search-command-menu`, P(f)));
+  let p;
+  e[9] !== c || e[10] !== r || e[11] !== a.id || e[12] !== s
+    ? ((p = [c, r, a.id, s]), (e[9] = c), (e[10] = r), (e[11] = a.id), (e[12] = s), (e[13] = p))
+    : (p = e[13]);
+  let h = r === `files`,
+    _;
+  e[14] !== a.id || e[15] !== d || e[16] !== s
+    ? ((_ = (e, t) =>
+        s == null
+          ? null
+          : (0, Le.jsx)(ke, {
+              clearSearch: t,
+              close: e,
+              hostId: a.id,
+              onSelectFile: d,
+              workspaceRoot: s,
+            })),
+      (e[14] = a.id),
+      (e[15] = d),
+      (e[16] = s),
+      (e[17] = _))
+    : (_ = e[17]);
+  let v;
+  return (
+    e[18] !== c || e[19] !== p || e[20] !== h || e[21] !== _
+      ? ((v = {
+          dependencies: p,
+          enabled: c,
+          exclusive: h,
+          groupKey: `suggested`,
+          id: `thread-file-search`,
+          order: -1e3,
+          render: _,
+        }),
+        (e[18] = c),
+        (e[19] = p),
+        (e[20] = h),
+        (e[21] = _),
+        (e[22] = v))
+      : (v = e[22]),
+    ae(v),
+    null
+  );
+}
+var Ie,
+  Le,
+  Re = e(() => {
+    ((Ie = s()), c(), r(), me(), Q(), U(), te(), h(), S(), L(), w(), N(), l(), Pe(), (Le = b()));
+  });
+export {
+  Z as a,
+  De as c,
+  pe as d,
+  me as f,
+  X as i,
+  he as l,
+  Re as n,
+  Q as o,
+  ae as p,
+  Oe as r,
+  _e as s,
+  Fe as t,
+  ge as u,
+};
+//# sourceMappingURL=app-initial~app-main~local-conversation-page.js.map

@@ -1,0 +1,94 @@
+import { n as e, s as t } from "./rolldown-runtime.js";
+import {
+  El as n,
+  Tl as r,
+  vl as i,
+} from "./app-initial~app-main~worktree-init-v2-page~appgen-settings-page~page~appgen-publication-ter~fzo5ij6p.js";
+import {
+  ct as a,
+  lt as o,
+} from "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~onboarding-page~project~okyna5mq.js";
+import { wx as s, yx as c } from "./app-initial~app-main~new-thread-panel-page.js";
+import {
+  Q as l,
+  Z as u,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~new-~djgpfzje.js";
+function d(e) {
+  let t = (0, p.c)(11),
+    { ancestors: n, current: r } = e,
+    i = s(),
+    o;
+  t[0] === i
+    ? (o = t[1])
+    : ((o = i.formatMessage({
+        id: `toolbarBreadcrumb.label`,
+        defaultMessage: `Breadcrumb`,
+        description: `Accessible label for toolbar breadcrumb navigation`,
+      })),
+      (t[0] = i),
+      (t[1] = o));
+  let c;
+  t[2] === n ? (c = t[3]) : ((c = n.map(f)), (t[2] = n), (t[3] = c));
+  let l;
+  t[4] !== n.length || t[5] !== r
+    ? ((l =
+        r == null
+          ? null
+          : (0, h.jsxs)(h.Fragment, {
+              children: [
+                n.length > 0
+                  ? (0, h.jsx)(a, { "aria-hidden": !0, className: `icon-xs shrink-0` })
+                  : null,
+                (0, h.jsx)(`span`, {
+                  "aria-current": `page`,
+                  className: `flex h-token-button-composer min-w-0 items-center truncate px-2 text-token-foreground`,
+                  children: r,
+                }),
+              ],
+            })),
+      (t[4] = n.length),
+      (t[5] = r),
+      (t[6] = l))
+    : (l = t[6]);
+  let u;
+  return (
+    t[7] !== o || t[8] !== c || t[9] !== l
+      ? ((u = (0, h.jsxs)(`nav`, {
+          "aria-label": o,
+          className: `flex min-w-0 items-center gap-1 text-base text-token-description-foreground`,
+          children: [c, l],
+        })),
+        (t[7] = o),
+        (t[8] = c),
+        (t[9] = l),
+        (t[10] = u))
+      : (u = t[10]),
+    u
+  );
+}
+function f(e, t) {
+  return (0, h.jsxs)(
+    m.Fragment,
+    {
+      children: [
+        t > 0 ? (0, h.jsx)(a, { "aria-hidden": !0, className: `icon-xs shrink-0` }) : null,
+        (0, h.jsx)(u, {
+          className: `min-w-0`,
+          color: `ghost`,
+          size: `toolbar`,
+          onClick: e.onClick,
+          children: (0, h.jsx)(`span`, { className: `min-w-0 truncate`, children: e.label }),
+        }),
+      ],
+    },
+    e.id,
+  );
+}
+var p,
+  m,
+  h,
+  g = e(() => {
+    ((p = r()), (m = t(n(), 1)), c(), o(), l(), (h = i()));
+  });
+export { g as n, d as t };
+//# sourceMappingURL=toolbar-breadcrumb.js.map

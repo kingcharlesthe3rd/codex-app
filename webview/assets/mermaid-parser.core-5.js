@@ -1,0 +1,69 @@
+import { m as e } from "./chunk-93.js";
+var t = {},
+  n = {
+    info: e(async () => {
+      let { createInfoServices: e } = await import(`./info-2.js`);
+      t.info = e().Info.parser.LangiumParser;
+    }, `info`),
+    packet: e(async () => {
+      let { createPacketServices: e } = await import(`./packet-4.js`);
+      t.packet = e().Packet.parser.LangiumParser;
+    }, `packet`),
+    pie: e(async () => {
+      let { createPieServices: e } = await import(`./pie-3.js`);
+      t.pie = e().Pie.parser.LangiumParser;
+    }, `pie`),
+    treeView: e(async () => {
+      let { createTreeViewServices: e } = await import(`./treeView-4.js`);
+      t.treeView = e().TreeView.parser.LangiumParser;
+    }, `treeView`),
+    architecture: e(async () => {
+      let { createArchitectureServices: e } = await import(`./architecture-2.js`);
+      t.architecture = e().Architecture.parser.LangiumParser;
+    }, `architecture`),
+    gitGraph: e(async () => {
+      let { createGitGraphServices: e } = await import(`./gitGraph-4.js`);
+      t.gitGraph = e().GitGraph.parser.LangiumParser;
+    }, `gitGraph`),
+    radar: e(async () => {
+      let { createRadarServices: e } = await import(`./radar-5.js`);
+      t.radar = e().Radar.parser.LangiumParser;
+    }, `radar`),
+    treemap: e(async () => {
+      let { createTreemapServices: e } = await import(`./treemap-3.js`);
+      t.treemap = e().Treemap.parser.LangiumParser;
+    }, `treemap`),
+    wardley: e(async () => {
+      let { createWardleyServices: e } = await import(`./wardley-2.js`);
+      t.wardley = e().Wardley.parser.LangiumParser;
+    }, `wardley`),
+  };
+async function r(e, r) {
+  let a = n[e];
+  if (!a) throw Error(`Unknown diagram type: ${e}`);
+  t[e] || (await a());
+  let o = t[e].parse(r);
+  if (o.lexerErrors.length > 0 || o.parserErrors.length > 0) throw new i(o);
+  return o.value;
+}
+e(r, `parse`);
+var i = class extends Error {
+  constructor(e) {
+    let t = e.lexerErrors.map(
+        (e) =>
+          `Lexer error on line ${e.line !== void 0 && !isNaN(e.line) ? e.line : `?`}, column ${e.column !== void 0 && !isNaN(e.column) ? e.column : `?`}: ${e.message}`,
+      ).join(`
+`),
+      n = e.parserErrors.map(
+        (e) =>
+          `Parse error on line ${e.token.startLine !== void 0 && !isNaN(e.token.startLine) ? e.token.startLine : `?`}, column ${e.token.startColumn !== void 0 && !isNaN(e.token.startColumn) ? e.token.startColumn : `?`}: ${e.message}`,
+      ).join(`
+`);
+    (super(`Parsing failed: ${t} ${n}`), (this.result = e));
+  }
+  static {
+    e(this, `MermaidParseError`);
+  }
+};
+export { r as t };
+//# sourceMappingURL=mermaid-parser.core-5.js.map

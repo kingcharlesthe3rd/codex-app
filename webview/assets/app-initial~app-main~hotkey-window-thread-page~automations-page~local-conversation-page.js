@@ -1,0 +1,55 @@
+import { n as e } from "./rolldown-runtime.js";
+import {
+  Bc as t,
+  Rt as n,
+  Xs as r,
+  zt as i,
+} from "./app-initial~app-main~worktree-init-v2-page~appgen-settings-page~page~appgen-publication-ter~fzo5ij6p.js";
+import {
+  Xb as a,
+  Yn as o,
+  Zb as s,
+  _r as c,
+  hr as l,
+} from "./app-initial~app-main~new-thread-panel-page.js";
+function u(e) {
+  return e?.approvalPolicy == null || e.approvalsReviewer == null || e.sandboxPolicy == null
+    ? null
+    : {
+        ...(`activePermissionProfile` in e && e.activePermissionProfile !== void 0
+          ? { activePermissionProfile: e.activePermissionProfile }
+          : `permissions` in e && e.permissions != null
+            ? { activePermissionProfile: { id: e.permissions, extends: null } }
+            : {}),
+        ...(`runtimeWorkspaceRoots` in e && e.runtimeWorkspaceRoots != null
+          ? { runtimeWorkspaceRoots: e.runtimeWorkspaceRoots }
+          : {}),
+        approvalPolicy: e.approvalPolicy,
+        approvalsReviewer: e.approvalsReviewer,
+        sandboxPolicy: e.sandboxPolicy,
+      };
+}
+function d(e, t) {
+  return u(t) ?? (e?.turnId == null || e.params.collaborationMode == null ? null : u(e.params));
+}
+function f(e, t, n) {
+  return d(e, t) ?? n ?? null;
+}
+function p(e, t, n) {
+  return n == null || JSON.stringify(e[t]) === JSON.stringify(n) ? e : { ...e, [t]: n };
+}
+var m,
+  h,
+  g = e(() => {
+    (r(),
+      o(),
+      i(),
+      a(),
+      (m = s(`heartbeat-thread-permissions-by-id`, {})),
+      (h = t(n, (e, { get: t }) => {
+        let n = d(t(c, e), t(l, e));
+        return n == null ? null : JSON.stringify(n);
+      })));
+  });
+export { h as a, m as i, d as n, g as o, f as r, p as t };
+//# sourceMappingURL=app-initial~app-main~hotkey-window-thread-page~automations-page~local-conversation-page.js.map

@@ -1,0 +1,61 @@
+import { n as e } from "./rolldown-runtime.js";
+import {
+  At as t,
+  Bt as n,
+  Dn as r,
+  En as i,
+  Ft as a,
+  Pt as o,
+  Tn as s,
+  kt as c,
+} from "./app-initial~app-main~worktree-init-v2-page~appgen-settings-page~page~appgen-publication-ter~fzo5ij6p.js";
+async function l(e) {
+  try {
+    let t = await e.updateUserAsync(e.getContext().user);
+    t.success ||
+      a.warning(`Failed to refresh Codex runtime config from Statsig`, {
+        safe: {},
+        sensitive: { updateDetails: t },
+      });
+  } catch (e) {
+    a.warning(`Failed to refresh Codex runtime config from Statsig`, {
+      safe: {},
+      sensitive: { error: e },
+    });
+  }
+  d(u(e));
+}
+function u(e) {
+  let t = e.getLayer(`2096615506`).get(s, i),
+    n = r.safeParse(t);
+  return (
+    n.success ||
+      a.info(`Invalid Codex runtime install config; using default runtime`, {
+        safe: {},
+        sensitive: { runtimeInstallConfig: t, error: n.error },
+      }),
+    { source: t === i ? `default` : `statsig-layer`, value: n.success ? n.data : i }
+  );
+}
+function d(e) {
+  (a.info(`Codex runtime config selected`, {
+    safe: { artifact: s, source: e.source },
+    sensitive: { runtimeInstallConfig: e.value },
+  }),
+    t.dispatchMessage(`codex-runtimes-config-changed`, { config: f(e.value) }));
+}
+function f(e) {
+  return { runtimes: { [s]: e } };
+}
+var p = e(() => {
+  (n(), c(), o());
+});
+function m(e) {
+  return [`app-host`, `primary-runtime`, `diagnostics`, e];
+}
+var h,
+  g = e(() => {
+    h = [`app-host`, `primary-runtime`, `update-status`];
+  });
+export { p as a, u as i, m as n, d as o, g as r, l as s, h as t };
+//# sourceMappingURL=app-initial~app-main~debug-window-page~agent-settings~debug-modal.js.map

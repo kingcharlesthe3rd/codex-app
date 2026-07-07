@@ -1,0 +1,4509 @@
+import { n as e, s as t } from "./rolldown-runtime.js";
+import {
+  $ as n,
+  At as r,
+  Bc as i,
+  Bs as a,
+  Bt as o,
+  Dt as s,
+  El as c,
+  Et as l,
+  Fs as u,
+  Ft as d,
+  La as f,
+  Ma as p,
+  Na as m,
+  Oa as h,
+  Pt as g,
+  Q as _,
+  Rt as v,
+  Tl as y,
+  Xs as b,
+  Z as x,
+  _l as S,
+  _t as C,
+  a as w,
+  al as T,
+  bt as E,
+  cl as D,
+  di as O,
+  ec as ee,
+  el as te,
+  et as k,
+  gs as A,
+  gt as j,
+  hl as M,
+  ja as N,
+  kt as P,
+  ml as F,
+  n as ne,
+  o as re,
+  pl as I,
+  qc as ie,
+  st as L,
+  t as R,
+  tc as ae,
+  ul as oe,
+  ut as z,
+  vl as B,
+  xt as se,
+  ys as V,
+  zt as ce,
+} from "./app-initial~app-main~worktree-init-v2-page~appgen-settings-page~page~appgen-publication-ter~fzo5ij6p.js";
+import {
+  Hu as le,
+  Jx as ue,
+  Uu as H,
+  Yx as de,
+  aT as fe,
+  hs as pe,
+  iT as me,
+  lx as he,
+  ms as ge,
+  ux as _e,
+} from "./app-initial~app-main~onboarding-page.js";
+import {
+  $ as ve,
+  O as U,
+  S as W,
+  dt as ye,
+  tt as be,
+  ut as xe,
+  w as Se,
+} from "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~onboarding-page~project~okyna5mq.js";
+import {
+  $h as Ce,
+  Bl as we,
+  By as Te,
+  Ct as Ee,
+  Fl as De,
+  Gb as Oe,
+  Gd as ke,
+  Hy as Ae,
+  Ib as je,
+  Qp as G,
+  Rb as K,
+  Rs as Me,
+  Sx as q,
+  Wb as Ne,
+  Xa as Pe,
+  Xs as Fe,
+  Za as Ie,
+  Zp as Le,
+  _n as Re,
+  am as J,
+  an as ze,
+  b as Be,
+  bt as Ve,
+  fv as He,
+  hl as Ue,
+  m as We,
+  ml as Ge,
+  nx as Ke,
+  om as qe,
+  oo as Je,
+  p as Ye,
+  pl as Xe,
+  pv as Ze,
+  qd as Qe,
+  rx as $e,
+  tn as et,
+  to as tt,
+  vn as nt,
+  vx as rt,
+  wx as it,
+  x as at,
+  yn as ot,
+  yx as st,
+} from "./app-initial~app-main~new-thread-panel-page.js";
+import {
+  Ai as ct,
+  Al as lt,
+  Ao as ut,
+  Co as dt,
+  Do as ft,
+  Dt as pt,
+  Du as mt,
+  Eo as ht,
+  Et as gt,
+  Eu as _t,
+  Fi as vt,
+  Fo as yt,
+  Ft as bt,
+  Il as xt,
+  It as St,
+  Jo as Ct,
+  Li as wt,
+  Mi as Tt,
+  Mo as Et,
+  Ni as Dt,
+  No as Ot,
+  Po as kt,
+  Q as At,
+  Qo as jt,
+  Ri as Mt,
+  Rt as Nt,
+  St as Pt,
+  Tt as Ft,
+  X as It,
+  Xo as Lt,
+  Y as Rt,
+  Yo as zt,
+  Z as Bt,
+  Zo as Vt,
+  _t as Ht,
+  ba as Ut,
+  bo as Wt,
+  fi as Gt,
+  io as Kt,
+  it as qt,
+  ji as Jt,
+  ll as Yt,
+  lu as Xt,
+  mc as Zt,
+  ns as Qt,
+  nt as $t,
+  oi as en,
+  qo as tn,
+  rt as nn,
+  to as rn,
+  ts as an,
+  tt as on,
+  ul as sn,
+  uu as cn,
+  vo as ln,
+  vt as un,
+  xa as dn,
+  xc as fn,
+  yo as pn,
+  yt as mn,
+  zt as hn,
+} from "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~onboarding-page~appgen-~o4yhvtva.js";
+import {
+  $ as gn,
+  A as _n,
+  F as vn,
+  L as yn,
+  P as bn,
+  Q as xn,
+  Z as Sn,
+  et as Cn,
+  j as wn,
+  z as Tn,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~new-~djgpfzje.js";
+import {
+  Gr as En,
+  Jn as Dn,
+  P as On,
+  Wr as kn,
+  Xn as An,
+  Yn as jn,
+  Zn as Mn,
+} from "./app-initial~app-main~worktree-init-v2-page~remote-conversation-page~pull-requests-page~new-~mam8fk3d.js";
+import {
+  _ as Nn,
+  g as Pn,
+  m as Fn,
+} from "./app-initial~app-main~worktree-init-v2-page~appgen-page~remote-conversation-page~pull-reques~filfqv6y.js";
+import {
+  I as In,
+  L as Ln,
+  M as Rn,
+  P as zn,
+  b as Bn,
+  x as Vn,
+} from "./app-initial~app-main~remote-conversation-page~new-thread-panel-page~appgen-library-page~hot~fjhbmao5.js";
+import {
+  n as Hn,
+  t as Un,
+} from "./app-initial~app-main~worktree-init-v2-page~appgen-publication-terms-route~appgen-page~remot~l0r2eqtb.js";
+import {
+  n as Wn,
+  r as Gn,
+  t as Kn,
+} from "./app-initial~app-main~worktree-init-v2-page~appgen-publication-terms-route~remote-conversati~k7k1x9vf.js";
+import {
+  S as qn,
+  h as Jn,
+} from "./app-initial~app-main~first-run~page~remote-conversation-page~plugin-detail-page~new-thread-~o67ur2ib.js";
+import {
+  a as Yn,
+  r as Xn,
+  s as Zn,
+} from "./app-initial~app-main~remote-conversation-page~plugin-detail-page~new-thread-panel-page~sett~hteyajeh-oQ-75cQ4.js";
+function Qn(e, t) {
+  let n = `~`;
+  return (
+    t != null && (n = t.projectKind === `remote` ? t.path : re.getThreadStartCwd(t)),
+    e.set($n, n),
+    n
+  );
+}
+var $n,
+  er = e(() => {
+    (b(), o(), w(), ce(), ($n = ie(v, null)));
+  });
+function tr() {
+  let e = (0, rr.c)(3),
+    t = ae(v),
+    n = T(),
+    r;
+  return (
+    e[0] !== t || e[1] !== n
+      ? ((r = (e) => {
+          nr(t, n, e);
+        }),
+        (e[0] = t),
+        (e[1] = n),
+        (e[2] = r))
+      : (r = e[2]),
+    r
+  );
+}
+function nr(e, t, n) {
+  de(e, t);
+  let {
+    activeProject: i,
+    prefillAeonStartTarget: a = null,
+    prefillComposerMode: o = null,
+    startInSidebar: s,
+    ...c
+  } = n ?? {};
+  i !== void 0 && (e.set($n, null), ne(e, i));
+  let l = Date.now(),
+    u = { ...c, focusComposerNonce: l, ...(a == null ? {} : { prefillAeonStartTarget: a }) };
+  (sn(e, l, o), r.dispatchHostMessage({ type: `navigate-to-route`, path: `/`, state: u }));
+}
+var rr,
+  ir = e(() => {
+    ((rr = y()), te(), b(), Yt(), er(), ue(), On(), P(), R(), ce());
+  });
+function ar() {
+  let e = (0, cr.c)(3),
+    [t] = _(`remote_control_connections_state`),
+    n = Ee(),
+    r;
+  return (
+    e[0] !== t || e[1] !== n
+      ? ((r = or({ remoteControlConnectionsState: t, slingshotEnabled: n })),
+        (e[0] = t),
+        (e[1] = n),
+        (e[2] = r))
+      : (r = e[2]),
+    r
+  );
+}
+function or({ remoteControlConnectionsState: e, slingshotEnabled: t }) {
+  return t && (e?.available ?? !0) && e?.accessRequired !== !0;
+}
+function sr({
+  selectedConnectionsTab: e,
+  showControlOtherDevices: t,
+  showControlThisMacTab: n,
+  showRemoteControlConnectionsSection: r,
+  showRemoteSshConnections: i,
+  showTabbedSshPage: a,
+}) {
+  return r
+    ? e === `control-this-mac` && !n
+      ? t
+        ? `access-other-devices`
+        : `ssh`
+      : e === `access-other-devices` && !t
+        ? n
+          ? `control-this-mac`
+          : `ssh`
+        : e === `ssh` && !a
+          ? t
+            ? `access-other-devices`
+            : `control-this-mac`
+          : e
+    : i
+      ? `ssh`
+      : `access-other-devices`;
+}
+var cr,
+  lr = e(() => {
+    ((cr = y()), x(), Ve());
+  }),
+  ur,
+  dr = e(() => {
+    (b(),
+      ze(),
+      lr(),
+      ce(),
+      k(),
+      Ne(),
+      (ur = i(
+        v,
+        (e, { get: t }) =>
+          t(Oe, `2296472986`) &&
+          or({
+            remoteControlConnectionsState: n(t, `remote_control_connections_state`),
+            slingshotEnabled: t(Oe, `1042620455`),
+          }) &&
+          t(et, { hostId: e }).data?.requirements?.computerUse?.allowLockedComputerUse !== !1,
+      )));
+  }),
+  fr,
+  pr,
+  mr = e(() => {
+    (t(c()),
+      (fr = B()),
+      (pr = (e) =>
+        (0, fr.jsxs)(`svg`, {
+          width: 18,
+          height: 18,
+          viewBox: `0 0 18 18`,
+          fill: `none`,
+          xmlns: `http://www.w3.org/2000/svg`,
+          ...e,
+          children: [
+            (0, fr.jsx)(`path`, {
+              fillRule: `evenodd`,
+              clipRule: `evenodd`,
+              d: `M12.6673 9.45374C13.7358 9.45407 14.5577 10.3579 14.5579 11.4156V11.8239C15.1086 11.929 15.5247 12.4134 15.5247 12.9948V15.0504C15.5245 15.7084 14.9913 16.2418 14.3333 16.2418H11.0003C10.3423 16.2418 9.8081 15.7084 9.80789 15.0504V12.9948C9.80789 12.4134 10.2248 11.9291 10.7757 11.8239V11.4156C10.7759 10.3577 11.5984 9.45374 12.6673 9.45374ZM11.0003 12.8531C10.9221 12.8532 10.8587 12.9165 10.8587 12.9948V15.0504C10.8589 15.1285 10.9222 15.192 11.0003 15.192H14.3333C14.4114 15.192 14.4747 15.1285 14.4749 15.0504V12.9948C14.4749 12.9165 14.4115 12.8531 14.3333 12.8531H11.0003ZM12.6673 10.5045C12.2277 10.5045 11.8267 10.887 11.8264 11.4156V11.8024H13.5081V11.4156C13.5079 10.8873 13.1066 10.5049 12.6673 10.5045Z`,
+              fill: `currentColor`,
+            }),
+            (0, fr.jsx)(`path`, {
+              d: `M8.2659 9.84534C8.55342 9.80818 8.81657 10.011 8.85379 10.2985C8.89088 10.5859 8.68813 10.8491 8.40067 10.8864C6.26147 11.1628 4.57997 12.9025 4.39188 15.068C4.36673 15.3568 4.11136 15.5706 3.82254 15.5455C3.53398 15.5202 3.32001 15.2658 3.345 14.9772C3.57594 12.3179 5.63935 10.1848 8.2659 9.84534Z`,
+              fill: `currentColor`,
+            }),
+            (0, fr.jsx)(`path`, {
+              fillRule: `evenodd`,
+              clipRule: `evenodd`,
+              d: `M9.00028 2.31116C10.757 2.3113 12.1809 3.73602 12.1809 5.4928C12.1809 7.2495 10.757 8.67332 9.00028 8.67346C7.24346 8.67346 5.81872 7.24959 5.81863 5.4928C5.81863 3.73593 7.24341 2.31116 9.00028 2.31116ZM9.00028 3.36194C7.82331 3.36194 6.86942 4.31583 6.86942 5.4928C6.8695 6.66969 7.82336 7.62366 9.00028 7.62366C10.1771 7.62351 11.131 6.6696 11.1311 5.4928C11.1311 4.31592 10.1771 3.36208 9.00028 3.36194Z`,
+              fill: `currentColor`,
+            }),
+          ],
+        })));
+  });
+function hr(e) {
+  let t = (0, gr.c)(3),
+    { ariaLabel: n, icon: r } = e,
+    i;
+  return (
+    t[0] !== n || t[1] !== r
+      ? ((i = (0, _r.jsx)(`span`, {
+          role: `img`,
+          "aria-label": n,
+          className: `flex h-7 w-7 items-center justify-center rounded-md text-token-description-foreground`,
+          children: r,
+        })),
+        (t[0] = n),
+        (t[1] = r),
+        (t[2] = i))
+      : (i = t[2]),
+    i
+  );
+}
+var gr,
+  _r,
+  vr = e(() => {
+    ((gr = y()), (_r = B()));
+  });
+function yr(e) {
+  let t = (0, xr.c)(58),
+    {
+      icon: n,
+      title: r,
+      description: i,
+      contentClassName: a,
+      descriptionClassName: o,
+      descriptionPlacement: s,
+      badges: c,
+      actions: l,
+      actionsPlacement: u,
+      onClick: d,
+      iconContainer: f,
+      iconContainerVariant: p,
+      iconPlacement: m,
+      isHighlighted: h,
+      className: g,
+    } = e,
+    _ = s === void 0 ? `stacked` : s,
+    v = u === void 0 ? `top` : u,
+    y = f === void 0 ? !0 : f,
+    b = p === void 0 ? `filled` : p,
+    x = m === void 0 ? `outside` : m,
+    S = h === void 0 ? !1 : h,
+    C;
+  t[0] === d
+    ? (C = t[1])
+    : ((C = (e) => {
+        d &&
+          e.target === e.currentTarget &&
+          (e.key === `Enter` || e.key === ` `) &&
+          (e.preventDefault(), d());
+      }),
+      (t[0] = d),
+      (t[1] = C));
+  let w = C,
+    T = v === `center` && !!l,
+    E;
+  t[2] === l
+    ? (E = t[3])
+    : ((E = l ? (0, Y.jsx)(`div`, { className: `flex shrink-0 items-center`, children: l }) : null),
+      (t[2] = l),
+      (t[3] = E));
+  let D = E,
+    O;
+  t[4] !== n || t[5] !== y || t[6] !== b
+    ? ((O = n
+        ? y
+          ? (0, Y.jsx)(`span`, {
+              className: Ke(
+                `flex h-10 w-10 shrink-0 items-center justify-center rounded-lg`,
+                b === `outline`
+                  ? `border border-token-border-default bg-transparent`
+                  : `bg-token-bg-primary`,
+              ),
+              children: n,
+            })
+          : (0, Y.jsx)(`span`, { className: `shrink-0`, children: n })
+        : null),
+      (t[4] = n),
+      (t[5] = y),
+      (t[6] = b),
+      (t[7] = O))
+    : (O = t[7]);
+  let ee = O,
+    te = S && `bg-token-foreground/5`,
+    k = d ? `cursor-interaction` : null,
+    A;
+  t[8] !== g || t[9] !== te || t[10] !== k
+    ? ((A = Ke(
+        `border-token-border/40 flex flex-col gap-2.5 rounded-2xl border p-2.5 transition-colors hover:bg-token-foreground/5`,
+        te,
+        k,
+        g,
+      )),
+      (t[8] = g),
+      (t[9] = te),
+      (t[10] = k),
+      (t[11] = A))
+    : (A = t[11]);
+  let j = S ? `true` : void 0,
+    M = d ? `button` : void 0,
+    N = d ? 0 : -1,
+    P = _ === `inline` && `gap-2`,
+    F;
+  t[12] === P ? (F = t[13]) : ((F = Ke(`flex items-center gap-3`, P)), (t[12] = P), (t[13] = F));
+  let ne = x === `outside` ? ee : null,
+    re = T ? `items-center gap-3` : null,
+    I;
+  t[14] === re ? (I = t[15]) : ((I = Ke(`flex min-w-0 flex-1`, re)), (t[14] = re), (t[15] = I));
+  let ie = _ === `stacked` ? `flex-col` : `items-center gap-3`,
+    L;
+  t[16] !== a || t[17] !== ie
+    ? ((L = Ke(`flex min-w-0 flex-1 justify-center gap-0.5`, ie, a)),
+      (t[16] = a),
+      (t[17] = ie),
+      (t[18] = L))
+    : (L = t[18]);
+  let R = _ === `inline` && `w-28 shrink-0 sm:w-48`,
+    ae = T || x === `inline` ? null : `justify-between`,
+    oe;
+  t[19] !== R || t[20] !== ae
+    ? ((oe = Ke(`flex min-w-0 items-center gap-2`, R, ae)), (t[19] = R), (t[20] = ae), (t[21] = oe))
+    : (oe = t[21]);
+  let z = x === `inline` ? ee : null,
+    B;
+  t[22] === r
+    ? (B = t[23])
+    : ((B = (0, Y.jsx)(`div`, {
+        className: `truncate font-medium text-token-foreground`,
+        children: r,
+      })),
+      (t[22] = r),
+      (t[23] = B));
+  let se;
+  t[24] === c
+    ? (se = t[25])
+    : ((se = c?.length
+        ? (0, Y.jsx)(`div`, { className: `flex shrink-0 items-center gap-1`, children: c.map(br) })
+        : null),
+      (t[24] = c),
+      (t[25] = se));
+  let V;
+  t[26] !== B || t[27] !== se
+    ? ((V = (0, Y.jsxs)(`div`, {
+        className: `flex min-w-0 items-center gap-2`,
+        children: [B, se],
+      })),
+      (t[26] = B),
+      (t[27] = se),
+      (t[28] = V))
+    : (V = t[28]);
+  let ce = T ? null : D,
+    le;
+  t[29] !== oe || t[30] !== z || t[31] !== V || t[32] !== ce
+    ? ((le = (0, Y.jsxs)(`div`, { className: oe, children: [z, V, ce] })),
+      (t[29] = oe),
+      (t[30] = z),
+      (t[31] = V),
+      (t[32] = ce),
+      (t[33] = le))
+    : (le = t[33]);
+  let ue;
+  t[34] !== i || t[35] !== o || t[36] !== _
+    ? ((ue = i
+        ? (0, Y.jsx)(`div`, {
+            className: Ke(
+              `text-token-text-secondary text-sm leading-relaxed`,
+              _ === `inline` ? `min-w-0 flex-1 truncate text-left` : null,
+              o ?? `line-clamp-3`,
+            ),
+            children: i,
+          })
+        : null),
+      (t[34] = i),
+      (t[35] = o),
+      (t[36] = _),
+      (t[37] = ue))
+    : (ue = t[37]);
+  let H;
+  t[38] !== L || t[39] !== le || t[40] !== ue
+    ? ((H = (0, Y.jsxs)(`div`, { className: L, children: [le, ue] })),
+      (t[38] = L),
+      (t[39] = le),
+      (t[40] = ue),
+      (t[41] = H))
+    : (H = t[41]);
+  let de = T ? D : null,
+    fe;
+  t[42] !== I || t[43] !== H || t[44] !== de
+    ? ((fe = (0, Y.jsxs)(`div`, { className: I, children: [H, de] })),
+      (t[42] = I),
+      (t[43] = H),
+      (t[44] = de),
+      (t[45] = fe))
+    : (fe = t[45]);
+  let pe;
+  t[46] !== F || t[47] !== ne || t[48] !== fe
+    ? ((pe = (0, Y.jsxs)(`div`, { className: F, children: [ne, fe] })),
+      (t[46] = F),
+      (t[47] = ne),
+      (t[48] = fe),
+      (t[49] = pe))
+    : (pe = t[49]);
+  let me;
+  return (
+    t[50] !== w ||
+    t[51] !== d ||
+    t[52] !== A ||
+    t[53] !== j ||
+    t[54] !== M ||
+    t[55] !== N ||
+    t[56] !== pe
+      ? ((me = (0, Y.jsx)(`div`, {
+          className: A,
+          "data-search-result-active": j,
+          role: M,
+          tabIndex: N,
+          onClick: d,
+          onKeyDown: w,
+          children: pe,
+        })),
+        (t[50] = w),
+        (t[51] = d),
+        (t[52] = A),
+        (t[53] = j),
+        (t[54] = M),
+        (t[55] = N),
+        (t[56] = pe),
+        (t[57] = me))
+      : (me = t[57]),
+    me
+  );
+}
+function br(e, t) {
+  return typeof e == `string`
+    ? (0, Y.jsx)(
+        kn,
+        {
+          className: `border border-token-border-default bg-transparent px-1.5 py-0.5 text-xs font-medium text-token-text-secondary`,
+          children: e,
+        },
+        e,
+      )
+    : (0, Y.jsx)(`span`, { className: `flex items-center`, children: e }, t);
+}
+var xr,
+  Y,
+  Sr = e(() => {
+    ((xr = y()), $e(), En(), (Y = B()));
+  }),
+  Cr,
+  wr,
+  Tr = e(() => {
+    (t(c()),
+      (Cr = B()),
+      (wr = (e) =>
+        (0, Cr.jsx)(`svg`, {
+          width: 20,
+          height: 20,
+          viewBox: `0 0 20 20`,
+          fill: `none`,
+          xmlns: `http://www.w3.org/2000/svg`,
+          ...e,
+          children: (0, Cr.jsx)(`path`, {
+            d: `M13.3333 4.16663L6.66663 15.8333`,
+            stroke: `currentColor`,
+            strokeWidth: 1.33,
+            strokeLinecap: `round`,
+          }),
+        })));
+  });
+function Er(e) {
+  let t = (0, Mr.c)(47),
+    {
+      app: n,
+      cardIcon: r,
+      cardIconContainer: i,
+      cardIconContainerVariant: a,
+      cardIconPlacement: o,
+      cardDescriptionPlacement: s,
+      badges: c,
+      blockedStatusLabel: l,
+      className: u,
+      connectedAccountEmail: d,
+      installBlockedReason: f,
+      installedStateAction: p,
+      installActionDisabled: m,
+      installActionLabel: h,
+      manageAction: g,
+      isConnectingApp: _,
+      showInstallAction: v,
+      updatingAppId: y,
+      onInstallApp: b,
+      onOpenAppTools: x,
+      onOpenAppUrl: S,
+      onSetAppEnabled: C,
+    } = e,
+    w = i === void 0 ? !0 : i,
+    T = d === void 0 ? null : d,
+    E = f === void 0 ? null : f,
+    D = p === void 0 ? `check` : p,
+    O = m === void 0 ? !1 : m,
+    ee = g === void 0 ? `button` : g,
+    te = v === void 0 ? !0 : v,
+    k = it(),
+    A;
+  t[0] !== h || t[1] !== k
+    ? ((A = h ?? k.formatMessage(Nr.connectApp)), (t[0] = h), (t[1] = k), (t[2] = A))
+    : (A = t[2]);
+  let j = A,
+    M = n.isEnabled,
+    N = E === `disabled-by-admin` && !n.isAccessible,
+    P = y === n.id,
+    F;
+  t[3] !== T || t[4] !== k
+    ? ((F = T == null ? null : k.formatMessage(Nr.connectedTo, { email: T })),
+      (t[3] = T),
+      (t[4] = k),
+      (t[5] = F))
+    : (F = t[5]);
+  let ne = F,
+    re;
+  t[6] !== c || t[7] !== ne
+    ? ((re =
+        ne == null
+          ? c
+          : [
+              (0, X.jsxs)(
+                `span`,
+                {
+                  className: `inline-flex items-center gap-1`,
+                  children: [
+                    c,
+                    (0, X.jsx)(ve, {
+                      tooltipContent: ne,
+                      children: (0, X.jsx)(`button`, {
+                        type: `button`,
+                        className: `inline-flex shrink-0 cursor-interaction items-center justify-center text-token-description-foreground hover:text-token-foreground`,
+                        "aria-label": ne,
+                        onClick: jr,
+                        children: (0, X.jsx)(Dn, { className: `icon-2xs` }),
+                      }),
+                    }),
+                  ],
+                },
+                `connected-account-badge`,
+              ),
+            ]),
+      (t[6] = c),
+      (t[7] = ne),
+      (t[8] = re))
+    : (re = t[8]);
+  let I = re,
+    ie;
+  t[9] === u
+    ? (ie = t[10])
+    : ((ie = Ke(`group justify-center border-none`, u)), (t[9] = u), (t[10] = ie));
+  let L;
+  t[11] !== n || t[12] !== r
+    ? ((L =
+        r ??
+        (0, X.jsx)(Ut, {
+          alt: n.name,
+          appInfo: n,
+          className: `icon-md`,
+          fallback: (0, X.jsx)(Bt, { className: `icon-sm text-token-text-secondary` }),
+        })),
+      (t[11] = n),
+      (t[12] = r),
+      (t[13] = L))
+    : (L = t[13]);
+  let R;
+  t[14] === n.description
+    ? (R = t[15])
+    : ((R = n.description ?? (0, X.jsx)(q, { ...Nr.noDescription })),
+      (t[14] = n.description),
+      (t[15] = R));
+  let ae;
+  t[16] !== n || t[17] !== x
+    ? ((ae =
+        x == null
+          ? void 0
+          : () => {
+              x(n);
+            }),
+      (t[16] = n),
+      (t[17] = x),
+      (t[18] = ae))
+    : (ae = t[18]);
+  let oe;
+  t[19] !== n ||
+  t[20] !== l ||
+  t[21] !== j ||
+  t[22] !== O ||
+  t[23] !== D ||
+  t[24] !== k ||
+  t[25] !== _ ||
+  t[26] !== M ||
+  t[27] !== N ||
+  t[28] !== P ||
+  t[29] !== ee ||
+  t[30] !== b ||
+  t[31] !== S ||
+  t[32] !== C ||
+  t[33] !== te
+    ? ((oe =
+        N && l != null
+          ? (0, X.jsx)(`span`, {
+              className: `flex h-7 w-7 shrink-0 items-center justify-center text-token-text-secondary`,
+              children: l,
+            })
+          : n.isAccessible && D === `toggle`
+            ? (0, X.jsxs)(`div`, {
+                className: `flex items-center gap-2`,
+                children: [
+                  ee === `menu`
+                    ? (0, X.jsx)(`div`, {
+                        onClick: Ar,
+                        onKeyDown: kr,
+                        children: M
+                          ? (0, X.jsxs)(W, {
+                              align: `end`,
+                              contentWidth: `xs`,
+                              triggerButton: (0, X.jsxs)(Sn, {
+                                className: `gap-1.5 text-sm`,
+                                color: `outline`,
+                                size: `toolbar`,
+                                disabled: _ || P,
+                                children: [
+                                  (0, X.jsxs)(`span`, {
+                                    className: `flex items-center gap-1.5`,
+                                    children: [
+                                      (0, X.jsx)(`span`, {
+                                        className: `size-1.5 shrink-0 rounded-full bg-token-charts-green`,
+                                      }),
+                                      (0, X.jsx)(q, {
+                                        id: `skills.appsPage.apps.connected`,
+                                        defaultMessage: `Connected`,
+                                        description: `Button label shown for an app that is connected`,
+                                      }),
+                                    ],
+                                  }),
+                                  (0, X.jsx)(_t, {
+                                    className: `icon-2xs shrink-0 text-token-description-foreground`,
+                                  }),
+                                ],
+                              }),
+                              children: [
+                                (0, X.jsx)(Se.Item, {
+                                  LeftIcon: me,
+                                  onSelect: () => {
+                                    b(n);
+                                  },
+                                  children: (0, X.jsx)(q, {
+                                    id: `skills.appsPage.apps.reconnect`,
+                                    defaultMessage: `Reconnect`,
+                                    description: `Menu item label for reconnecting an app`,
+                                  }),
+                                }),
+                                (0, X.jsx)(Se.Item, {
+                                  LeftIcon: bn,
+                                  className: `!text-token-charts-red`,
+                                  leftIconClassName: `icon-xs text-token-charts-red`,
+                                  onSelect: () => {
+                                    S?.(pn(n));
+                                  },
+                                  children: (0, X.jsx)(q, {
+                                    id: `skills.appsPage.apps.disconnect`,
+                                    defaultMessage: `Disconnect`,
+                                    description: `Menu item label for disconnecting an app`,
+                                  }),
+                                }),
+                              ],
+                            })
+                          : (0, X.jsx)(Sn, {
+                              className: `shrink-0`,
+                              color: `outline`,
+                              size: `toolbar`,
+                              loading: P,
+                              onClick: () => {
+                                C?.({ appId: n.id, enabled: !0 });
+                              },
+                              children: j,
+                            }),
+                      })
+                    : (0, X.jsx)(`div`, {
+                        className: `invisible opacity-0 group-focus-within:visible group-focus-within:opacity-100 group-hover:visible group-hover:opacity-100`,
+                        children: (0, X.jsx)(ve, {
+                          tooltipContent: (0, X.jsx)(q, { ...Nr.manageOnChatGpt }),
+                          children: (0, X.jsx)(Sn, {
+                            color: `ghost`,
+                            size: `icon`,
+                            "aria-label": k.formatMessage(Nr.manageOnChatGpt),
+                            onClick: (e) => {
+                              (e.stopPropagation(), S?.(pn(n)));
+                            },
+                            children: (0, X.jsx)(Un, { className: `icon-sm` }),
+                          }),
+                        }),
+                      }),
+                  ee === `menu`
+                    ? null
+                    : (0, X.jsx)(ve, {
+                        tooltipContent: M
+                          ? (0, X.jsx)(q, { ...Nr.disableToggleTooltip })
+                          : (0, X.jsx)(q, { ...Nr.enableToggleTooltip }),
+                        children: (0, X.jsx)(`div`, {
+                          onClick: Or,
+                          onKeyDown: Dr,
+                          children: (0, X.jsx)(on, {
+                            checked: M,
+                            disabled: P,
+                            onChange: (e) => {
+                              C?.({ appId: n.id, enabled: e });
+                            },
+                            ariaLabel: k.formatMessage(Nr.enableToggleAria),
+                          }),
+                        }),
+                      }),
+                ],
+              })
+            : te
+              ? n.isAccessible
+                ? (0, X.jsx)(hr, {
+                    ariaLabel: k.formatMessage(M ? Nr.enabledStatus : Nr.disabledStatus),
+                    icon: M
+                      ? (0, X.jsx)(xe, { className: `icon-sm` })
+                      : (0, X.jsx)(wr, { className: `icon-sm` }),
+                  })
+                : (0, X.jsx)(ve, {
+                    disabled: !N && !_,
+                    tooltipContent: N
+                      ? (0, X.jsx)(q, {
+                          id: `plugins.install.disabledByAdmin`,
+                          defaultMessage: `Disabled by admin`,
+                          description: `Tooltip shown when plugin install is unavailable because all included connectors are disabled by admin`,
+                        })
+                      : _
+                        ? (0, X.jsx)(q, { ...Nr.connectingApp })
+                        : j,
+                    children: (0, X.jsx)(`div`, {
+                      children: (0, X.jsx)(Sn, {
+                        className: `shrink-0`,
+                        color: `outline`,
+                        size: `toolbar`,
+                        disabled: N || O,
+                        "aria-label": _ ? k.formatMessage(Nr.connectingApp) : j,
+                        onClick: (e) => {
+                          (e.stopPropagation(), !N && b(n));
+                        },
+                        children: _ ? (0, X.jsx)(gn, { className: `icon-xxs` }) : j,
+                      }),
+                    }),
+                  })
+              : null),
+      (t[19] = n),
+      (t[20] = l),
+      (t[21] = j),
+      (t[22] = O),
+      (t[23] = D),
+      (t[24] = k),
+      (t[25] = _),
+      (t[26] = M),
+      (t[27] = N),
+      (t[28] = P),
+      (t[29] = ee),
+      (t[30] = b),
+      (t[31] = S),
+      (t[32] = C),
+      (t[33] = te),
+      (t[34] = oe))
+    : (oe = t[34]);
+  let z;
+  return (
+    t[35] !== n.name ||
+    t[36] !== I ||
+    t[37] !== s ||
+    t[38] !== w ||
+    t[39] !== a ||
+    t[40] !== o ||
+    t[41] !== ie ||
+    t[42] !== L ||
+    t[43] !== R ||
+    t[44] !== ae ||
+    t[45] !== oe
+      ? ((z = (0, X.jsx)(yr, {
+          className: ie,
+          actionsPlacement: `center`,
+          iconContainer: w,
+          iconContainerVariant: a,
+          iconPlacement: o,
+          icon: L,
+          title: n.name,
+          badges: I,
+          description: R,
+          descriptionClassName: `line-clamp-1`,
+          descriptionPlacement: s,
+          onClick: ae,
+          actions: oe,
+        })),
+        (t[35] = n.name),
+        (t[36] = I),
+        (t[37] = s),
+        (t[38] = w),
+        (t[39] = a),
+        (t[40] = o),
+        (t[41] = ie),
+        (t[42] = L),
+        (t[43] = R),
+        (t[44] = ae),
+        (t[45] = oe),
+        (t[46] = z))
+      : (z = t[46]),
+    z
+  );
+}
+function Dr(e) {
+  e.stopPropagation();
+}
+function Or(e) {
+  e.stopPropagation();
+}
+function kr(e) {
+  e.stopPropagation();
+}
+function Ar(e) {
+  e.stopPropagation();
+}
+function jr(e) {
+  e.stopPropagation();
+}
+var Mr,
+  X,
+  Nr,
+  Pr = e(() => {
+    ((Mr = y()),
+      $e(),
+      st(),
+      Wt(),
+      xn(),
+      vr(),
+      Sr(),
+      dn(),
+      U(),
+      Cn(),
+      $t(),
+      be(),
+      ye(),
+      mt(),
+      At(),
+      jn(),
+      fe(),
+      Hn(),
+      Tr(),
+      vn(),
+      (X = B()),
+      (Nr = rt({
+        noDescription: {
+          id: `skills.appsPage.apps.noDescription`,
+          defaultMessage: `No description`,
+          description: `Fallback description for apps without description text on the Skills & Apps page`,
+        },
+        manageOnChatGpt: {
+          id: `skills.appsPage.apps.manageOnChatGpt`,
+          defaultMessage: `Manage on ChatGPT`,
+          description: `Button label to manage an installed app on ChatGPT from the Skills & Apps page`,
+        },
+        disableToggleTooltip: {
+          id: `skills.appsPage.apps.disableToggle`,
+          defaultMessage: `Disable app`,
+          description: `Tooltip label for disabling an app from the Skills & Apps page`,
+        },
+        enableToggleTooltip: {
+          id: `skills.appsPage.apps.enableToggleTooltip`,
+          defaultMessage: `Enable app`,
+          description: `Tooltip label for enabling an app from the Skills & Apps page`,
+        },
+        enableToggleAria: {
+          id: `skills.appsPage.apps.enableToggle`,
+          defaultMessage: `Enable app`,
+          description: `Accessible label for toggling whether an installed app is enabled from the Skills & Apps page`,
+        },
+        connectingApp: {
+          id: `skills.appsPage.apps.connecting`,
+          defaultMessage: `Continue connecting app`,
+          description: `Accessible label for the button shown while an app OAuth flow is still finishing on the Skills & Apps page`,
+        },
+        connectApp: {
+          id: `skills.appsPage.apps.connect`,
+          defaultMessage: `Connect`,
+          description: `Button label to connect an app from the Skills & Apps page`,
+        },
+        enabledStatus: {
+          id: `skills.appsPage.apps.enabledStatus`,
+          defaultMessage: `App enabled`,
+          description: `Status label for an installed app that is enabled`,
+        },
+        disabledStatus: {
+          id: `skills.appsPage.apps.disabledStatus`,
+          defaultMessage: `App disabled`,
+          description: `Status label for an installed app that is disabled`,
+        },
+        connectedTo: {
+          id: `skills.appsPage.apps.connectedTo`,
+          defaultMessage: `Connected to {email}`,
+          description: `Tooltip shown for an app with the connected account email`,
+        },
+      })));
+  });
+function Fr({ browserExtensionId: e }) {
+  return I({
+    queryKey:
+      e == null
+        ? [`chrome-extension-installed-read`, `missing`]
+        : C(`chrome-extension-installed-read`, { extensionId: e }),
+    queryFn: async () =>
+      e == null
+        ? { installed: !1 }
+        : j(`chrome-extension-installed-read`, { params: { extensionId: e } }),
+    staleTime: l.FIVE_SECONDS,
+  });
+}
+function Ir(e) {
+  return e?.installed === !0;
+}
+function Lr(e) {
+  let t = (0, Rr.c)(10),
+    { browserExtensionId: n } = e,
+    r = n != null,
+    i;
+  t[0] === n ? (i = t[1]) : ((i = Fr({ browserExtensionId: n })), (t[0] = n), (t[1] = i));
+  let a;
+  t[2] !== r || t[3] !== i
+    ? ((a = { enabled: r, refetchOnWindowFocus: !0, staleTime: l.FIVE_SECONDS, ...i }),
+      (t[2] = r),
+      (t[3] = i),
+      (t[4] = a))
+    : (a = t[4]);
+  let { data: o, isLoading: s } = F(a),
+    c;
+  t[5] === o ? (c = t[6]) : ((c = Ir(o)), (t[5] = o), (t[6] = c));
+  let u = n != null && s,
+    d;
+  return (
+    t[7] !== c || t[8] !== u
+      ? ((d = { isConnected: c, isLoading: u }), (t[7] = c), (t[8] = u), (t[9] = d))
+      : (d = t[9]),
+    d
+  );
+}
+var Rr,
+  zr = e(() => {
+    ((Rr = y()), D(), s(), E());
+  });
+async function Br({ codexHome: e, hostId: t, plugin: n, queryClient: r }) {
+  try {
+    let i = Wr(e, n);
+    if (i == null) return [];
+    let a = { hostId: t, path: i };
+    return await r.fetchQuery({
+      queryFn: async () => {
+        let t = await j(`read-file`, { params: a });
+        return [
+          Kr({
+            codexHome: e,
+            extensionId: ei.parse(JSON.parse(t.contents)).extensionId,
+            plugin: n,
+          }),
+        ];
+      },
+      queryKey: Jr(a),
+      retry: !1,
+      staleTime: l.INFINITE,
+    });
+  } catch (e) {
+    return (
+      d.warning(`Failed to read plugin browser extension setup`, {
+        safe: {},
+        sensitive: { error: e, pluginId: n.plugin.id },
+      }),
+      []
+    );
+  }
+}
+function Vr(e) {
+  let t = (0, Yr.c)(17),
+    { enabled: n, hostId: r, plugin: i } = e,
+    a = cn(r),
+    o,
+    s,
+    c,
+    u;
+  t[0] !== a || t[1] !== n || t[2] !== r || t[3] !== i
+    ? ((o = Wr(a, i)),
+      (u = F),
+      (s = n && o != null),
+      (c =
+        o == null ? [`plugins`, `browser-extension-setup`, `missing`] : Jr({ hostId: r, path: o })),
+      (t[0] = a),
+      (t[1] = n),
+      (t[2] = r),
+      (t[3] = i),
+      (t[4] = o),
+      (t[5] = s),
+      (t[6] = c),
+      (t[7] = u))
+    : ((o = t[4]), (s = t[5]), (c = t[6]), (u = t[7]));
+  let d;
+  t[8] !== a || t[9] !== o || t[10] !== r || t[11] !== i
+    ? ((d = async () => {
+        if (o == null || i == null) return [];
+        let e = await j(`read-file`, { params: { hostId: r, path: o } });
+        return [
+          Kr({
+            codexHome: a,
+            extensionId: ei.parse(JSON.parse(e.contents)).extensionId,
+            plugin: i,
+          }),
+        ];
+      }),
+      (t[8] = a),
+      (t[9] = o),
+      (t[10] = r),
+      (t[11] = i),
+      (t[12] = d))
+    : (d = t[12]);
+  let f;
+  t[13] !== s || t[14] !== c || t[15] !== d
+    ? ((f = { enabled: s, queryKey: c, queryFn: d, retry: !1, staleTime: l.INFINITE }),
+      (t[13] = s),
+      (t[14] = c),
+      (t[15] = d),
+      (t[16] = f))
+    : (f = t[16]);
+  let { data: p } = u(f);
+  return p;
+}
+async function Hr({
+  authPolicy: e,
+  codexHome: t,
+  hostId: n,
+  plugin: r,
+  queryClient: i,
+  windowType: a,
+}) {
+  if (e !== `ON_INSTALL` || a !== `electron` || Gr(r) == null) return [];
+  let o = await Br({
+    codexHome: t ?? (await j(`codex-home`, { params: { hostId: n } })).codexHome,
+    hostId: n,
+    plugin: await Ur({ hostId: n, plugin: r }),
+    queryClient: i,
+  });
+  return (
+    await Promise.all(
+      o.map(async (e) => ({
+        browserExtension: e,
+        needsSetup: !Ir(await i.fetchQuery({ ...Fr({ browserExtensionId: e.id }), staleTime: 0 })),
+      })),
+    )
+  )
+    .filter(({ needsSetup: e }) => e)
+    .map(({ browserExtension: e }) => e);
+}
+async function Ur({ hostId: e, plugin: t }) {
+  try {
+    return dt((await Ze(`read-plugin`, { hostId: e, ...ht(t) })).plugin);
+  } catch (e) {
+    return (
+      d.warning(`Failed to read installed plugin browser extension setup`, {
+        safe: {},
+        sensitive: { error: e, pluginId: t.plugin.id },
+      }),
+      t
+    );
+  }
+}
+function Wr(e, t) {
+  return e == null || t?.plugin.source.type !== `local` || Gr(t) == null
+    ? null
+    : z(
+        h({
+          codexHome: e,
+          localVersion: t.plugin.localVersion,
+          marketplaceName: t.marketplaceName,
+          pluginName: t.plugin.name,
+        }),
+        Zr,
+      );
+}
+function Gr(e) {
+  let t = $r.safeParse(e.plugin.name);
+  return !t.success || !e.plugin.id.startsWith(`${t.data}@`) ? null : t.data;
+}
+function Kr({ codexHome: e, extensionId: t, plugin: n }) {
+  return {
+    iconUrl:
+      qr(
+        e == null || n.plugin.source.type !== `local`
+          ? null
+          : z(
+              h({
+                codexHome: e,
+                localVersion: n.plugin.localVersion,
+                marketplaceName: n.marketplaceName,
+                pluginName: n.plugin.name,
+              }),
+              Xr,
+            ),
+      ) ?? qr(n.logoPath),
+    id: t,
+    name: `Codex Chrome Extension`,
+    url: `${Qr}${t}`,
+  };
+}
+function qr(e) {
+  let t = e?.trim();
+  if (t == null || t.length === 0) return null;
+  let n = t.toLowerCase();
+  return n.startsWith(`app:`) ||
+    n.startsWith(`data:`) ||
+    n.startsWith(`http:`) ||
+    n.startsWith(`https:`) ||
+    n.startsWith(`/@fs`)
+    ? t
+    : f(t)
+      ? window.location.protocol === `http:` || window.location.protocol === `https:`
+        ? Wn(t)
+        : Kn(t)
+      : null;
+}
+function Jr({ hostId: e, path: t }) {
+  return [`plugins`, `browser-extension-setup`, e, t];
+}
+var Yr,
+  Xr,
+  Zr,
+  Qr,
+  $r,
+  ei,
+  ti = e(() => {
+    ((Yr = y()),
+      D(),
+      o(),
+      A(),
+      He(),
+      Xt(),
+      Gn(),
+      g(),
+      L(),
+      s(),
+      E(),
+      zr(),
+      ut(),
+      (Xr = `assets/google-chrome.png`),
+      (Zr = `scripts/extension-id.json`),
+      (Qr = `https://chromewebstore.google.com/detail/codex/`),
+      ($r = V([`chrome`, `chrome-dev`, `chrome-internal`])),
+      (ei = u({ extensionId: a().trim().min(1) })));
+  }),
+  ni,
+  ri = e(() => {
+    (st(),
+      (ni = rt({
+        codexChromeDescription: {
+          id: `plugins.installModal.browserExtension.description`,
+          defaultMessage: `Install this extension in Chrome to let Codex connect to your browser`,
+          description: `Description for the required Chrome browser extension in the plugin finish setup modal`,
+        },
+      })));
+  });
+function ii(e) {
+  return e === pi;
+}
+function ai(e) {
+  return ii(e?.availability);
+}
+function oi(e) {
+  let t = (0, di.c)(14),
+    {
+      hostId: n,
+      pluginApps: r,
+      pluginSummary: i,
+      marketplacePath: a,
+      pluginName: o,
+      remoteMarketplaceName: s,
+    } = e,
+    c = r == null && (a != null || s != null) && o != null,
+    l = a ?? null,
+    u = o ?? null,
+    d = s ?? null,
+    f;
+  t[0] !== n || t[1] !== c || t[2] !== l || t[3] !== u || t[4] !== d
+    ? ((f = { hostId: n, marketplacePath: l, pluginName: u, remoteMarketplaceName: d, enabled: c }),
+      (t[0] = n),
+      (t[1] = c),
+      (t[2] = l),
+      (t[3] = u),
+      (t[4] = d),
+      (t[5] = f))
+    : (f = t[5]);
+  let { isLoading: p, plugin: m } = pt(f),
+    h = r ?? m?.apps ?? [],
+    g = i ?? m?.summary,
+    _ = g?.source.type === `remote`,
+    v = Array.from(new Set(h.map(ui).filter(li))),
+    y = v.length > 0,
+    b;
+  t[6] !== n || t[7] !== y
+    ? ((b = { enabled: y, hostId: n }), (t[6] = n), (t[7] = y), (t[8] = b))
+    : (b = t[8]);
+  let { data: x, isLoading: S, loadError: C } = Kt(b),
+    w = x === void 0 ? [] : x,
+    T = M({ queries: v.map(ci) }),
+    E;
+  t[9] !== T || t[10] !== S || t[11] !== p || t[12] !== c
+    ? ((E = (c && p) || S || T.some(si)),
+      (t[9] = T),
+      (t[10] = S),
+      (t[11] = p),
+      (t[12] = c),
+      (t[13] = E))
+    : (E = t[13]);
+  let D = E,
+    O = !0,
+    ee = 0,
+    te = {};
+  for (let [e, t] of v.entries()) {
+    let n = T[e],
+      r = !S && C == null && !w.some((e) => e.id === t),
+      i = null;
+    (n?.data?.status === fi
+      ? (i = `disabled-by-admin`)
+      : (r || (n != null && !n.isPending && n.error == null && n.data == null)) &&
+        (i = `connector-unavailable`),
+      (te[t] = i),
+      i != null && (ee += 1),
+      i !== `disabled-by-admin` && (O = !1));
+  }
+  let k = null;
+  return (
+    _ && ai(g)
+      ? (k = `disabled-by-admin`)
+      : !_ &&
+        v.length > 0 &&
+        ee === v.length &&
+        (k = O ? `disabled-by-admin` : `connector-unavailable`),
+    {
+      blockedReasonsByConnectorId: te,
+      isConnectorAvailabilityLoading: D,
+      isLoading: !_ && D,
+      blockedReason: k,
+    }
+  );
+}
+function si(e) {
+  return e.isPending;
+}
+function ci(e) {
+  return ln(e);
+}
+function li(e) {
+  return e.length > 0;
+}
+function ui(e) {
+  return e.id;
+}
+var di,
+  fi,
+  pi,
+  mi = e(() => {
+    ((di = y()), D(), Wt(), rn(), gt(), (fi = `DISABLED_BY_ADMIN`), (pi = `DISABLED_BY_ADMIN`));
+  });
+function hi(e) {
+  return e?.map((e) => e.trim()).find((e) => e.length > 0) ?? null;
+}
+function gi({ defaultPrompt: e, pluginDisplayName: t, pluginId: n }) {
+  return `${`[@${t}](${tt(Zt(n))})`} ${e?.trim() ?? ``}`;
+}
+var _i = e(() => {
+  (fn(), Je());
+});
+function vi(e) {
+  return bi.get(e) ?? null;
+}
+function yi(e, t) {
+  return t === `connector-unavailable` && vi(e) != null;
+}
+var bi,
+  xi = e(() => {
+    bi = new Map([
+      [`gmail`, `gmail`],
+      [`google-calendar`, `google-calendar`],
+      [`google-drive`, `google-drive`],
+      [`connector_gmail`, `gmail`],
+      [`connector_google_calendar`, `google-calendar`],
+      [`connector_google_drive`, `google-drive`],
+    ]);
+  });
+function Si(e) {
+  let t = (0, Ei.c)(9),
+    { upsellId: n } = e;
+  switch (n) {
+    case `gmail`: {
+      let e;
+      t[0] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, Z.jsx)(Ti, {
+            description: (0, Z.jsx)(q, {
+              id: `plugins.installModal.googleUpgrade.gmail.draftReplies.description`,
+              defaultMessage: `Codex can read the thread, understand the ask, and draft a useful response`,
+              description: `Description for the Gmail drafting benefit in the Google plugin upgrade install modal`,
+            }),
+            title: (0, Z.jsx)(q, {
+              id: `plugins.installModal.googleUpgrade.gmail.draftReplies.title`,
+              defaultMessage: `Draft replies with the right context`,
+              description: `Title for the Gmail drafting benefit in the Google plugin upgrade install modal`,
+            }),
+          })),
+          (t[0] = e))
+        : (e = t[0]);
+      let n;
+      t[1] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((n = (0, Z.jsx)(Ti, {
+            description: (0, Z.jsx)(q, {
+              id: `plugins.installModal.googleUpgrade.gmail.emailTasks.description`,
+              defaultMessage: `Pull out action items, deadlines, owners, and next steps from messy threads`,
+              description: `Description for the Gmail task extraction benefit in the Google plugin upgrade install modal`,
+            }),
+            title: (0, Z.jsx)(q, {
+              id: `plugins.installModal.googleUpgrade.gmail.emailTasks.title`,
+              defaultMessage: `Turn emails into tasks`,
+              description: `Title for the Gmail task extraction benefit in the Google plugin upgrade install modal`,
+            }),
+          })),
+          (t[1] = n))
+        : (n = t[1]);
+      let r;
+      return (
+        t[2] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((r = (0, Z.jsxs)(wi, {
+              children: [
+                e,
+                n,
+                (0, Z.jsx)(Ti, {
+                  description: (0, Z.jsx)(q, {
+                    id: `plugins.installModal.googleUpgrade.gmail.findEmail.description`,
+                    defaultMessage: `Search Gmail conversationally: "Find the vendor email with the updated contract from last month"`,
+                    description: `Description for the Gmail search benefit in the Google plugin upgrade install modal`,
+                  }),
+                  title: (0, Z.jsx)(q, {
+                    id: `plugins.installModal.googleUpgrade.gmail.findEmail.title`,
+                    defaultMessage: `Find the email you're thinking of`,
+                    description: `Title for the Gmail search benefit in the Google plugin upgrade install modal`,
+                  }),
+                }),
+              ],
+            })),
+            (t[2] = r))
+          : (r = t[2]),
+        r
+      );
+    }
+    case `google-calendar`: {
+      let e;
+      t[3] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, Z.jsx)(Ti, {
+            description: (0, Z.jsx)(q, {
+              id: `plugins.installModal.googleUpgrade.googleCalendar.schedule.description`,
+              defaultMessage: `Pull together agenda, context, and questions before a call`,
+              description: `Description for the Google Calendar scheduling benefit in the Google plugin upgrade install modal`,
+            }),
+            title: (0, Z.jsx)(q, {
+              id: `plugins.installModal.googleUpgrade.googleCalendar.schedule.title`,
+              defaultMessage: `Prepare for meetings`,
+              description: `Title for the Google Calendar scheduling benefit in the Google plugin upgrade install modal`,
+            }),
+          })),
+          (t[3] = e))
+        : (e = t[3]);
+      let n;
+      t[4] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((n = (0, Z.jsx)(Ti, {
+            description: (0, Z.jsx)(q, {
+              id: `plugins.installModal.googleUpgrade.googleCalendar.upcoming.description`,
+              defaultMessage: `See meetings, conflicts, and focus time at a glance`,
+              description: `Description for the Google Calendar planning benefit in the Google plugin upgrade install modal`,
+            }),
+            title: (0, Z.jsx)(q, {
+              id: `plugins.installModal.googleUpgrade.googleCalendar.upcoming.title`,
+              defaultMessage: `Summarize your day`,
+              description: `Title for the Google Calendar planning benefit in the Google plugin upgrade install modal`,
+            }),
+          })),
+          (t[4] = n))
+        : (n = t[4]);
+      let r;
+      return (
+        t[5] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((r = (0, Z.jsxs)(wi, {
+              children: [
+                e,
+                n,
+                (0, Z.jsx)(Ti, {
+                  description: (0, Z.jsx)(q, {
+                    id: `plugins.installModal.googleUpgrade.googleCalendar.changes.description`,
+                    defaultMessage: `Turn events into reminders, notes, and next steps`,
+                    description: `Description for the Google Calendar editing benefit in the Google plugin upgrade install modal`,
+                  }),
+                  title: (0, Z.jsx)(q, {
+                    id: `plugins.installModal.googleUpgrade.googleCalendar.changes.title`,
+                    defaultMessage: `Organize follow-ups`,
+                    description: `Title for the Google Calendar editing benefit in the Google plugin upgrade install modal`,
+                  }),
+                }),
+              ],
+            })),
+            (t[5] = r))
+          : (r = t[5]),
+        r
+      );
+    }
+    case `google-drive`: {
+      let e;
+      t[6] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, Z.jsx)(Ti, {
+            description: (0, Z.jsx)(q, {
+              id: `plugins.installModal.googleUpgrade.googleDrive.find.description`,
+              defaultMessage: `Search by project, topic, people, or recent context`,
+              description: `Description for the Google Drive search benefit in the Google plugin upgrade install modal`,
+            }),
+            title: (0, Z.jsx)(q, {
+              id: `plugins.installModal.googleUpgrade.googleDrive.find.title`,
+              defaultMessage: `Find files faster`,
+              description: `Title for the Google Drive search benefit in the Google plugin upgrade install modal`,
+            }),
+          })),
+          (t[6] = e))
+        : (e = t[6]);
+      let n;
+      t[7] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((n = (0, Z.jsx)(Ti, {
+            description: (0, Z.jsx)(q, {
+              id: `plugins.installModal.googleUpgrade.googleDrive.context.description`,
+              defaultMessage: `Understand what matters without opening every file`,
+              description: `Description for the Google Drive context benefit in the Google plugin upgrade install modal`,
+            }),
+            title: (0, Z.jsx)(q, {
+              id: `plugins.installModal.googleUpgrade.googleDrive.context.title`,
+              defaultMessage: `Summarize docs and folders`,
+              description: `Title for the Google Drive context benefit in the Google plugin upgrade install modal`,
+            }),
+          })),
+          (t[7] = n))
+        : (n = t[7]);
+      let r;
+      return (
+        t[8] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((r = (0, Z.jsxs)(wi, {
+              children: [
+                e,
+                n,
+                (0, Z.jsx)(Ti, {
+                  description: (0, Z.jsx)(q, {
+                    id: `plugins.installModal.googleUpgrade.googleDrive.update.description`,
+                    defaultMessage: `Use existing files to create briefs, replies, and plans`,
+                    description: `Description for the Google Drive file editing benefit in the Google plugin upgrade install modal`,
+                  }),
+                  title: (0, Z.jsx)(q, {
+                    id: `plugins.installModal.googleUpgrade.googleDrive.update.title`,
+                    defaultMessage: `Draft from Drive context`,
+                    description: `Title for the Google Drive file editing benefit in the Google plugin upgrade install modal`,
+                  }),
+                }),
+              ],
+            })),
+            (t[8] = r))
+          : (r = t[8]),
+        r
+      );
+    }
+  }
+}
+function Ci() {
+  let e = (0, Ei.c)(1),
+    t;
+  return (
+    e[0] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((t = (0, Z.jsxs)(kn, {
+          className: `gap-1 !bg-token-charts-purple/10 px-1.5 py-1 text-xs font-medium !text-token-charts-purple`,
+          children: [
+            (0, Z.jsx)(ge, { className: `icon-xs` }),
+            (0, Z.jsx)(q, {
+              id: `plugins.googleUpgrade.badge`,
+              defaultMessage: `Upgrade to unlock`,
+              description: `Badge label shown on Google plugins that need a paid plan`,
+            }),
+          ],
+        })),
+        (e[0] = t))
+      : (t = e[0]),
+    t
+  );
+}
+function wi(e) {
+  let t = (0, Ei.c)(2),
+    { children: n } = e,
+    r;
+  return (
+    t[0] === n
+      ? (r = t[1])
+      : ((r = (0, Z.jsx)(`div`, { className: `flex flex-col gap-3 py-1`, children: n })),
+        (t[0] = n),
+        (t[1] = r)),
+    r
+  );
+}
+function Ti(e) {
+  let t = (0, Ei.c)(8),
+    { description: n, title: r } = e,
+    i;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((i = (0, Z.jsx)(xe, { className: `icon-sm mt-0.5 shrink-0 text-token-text-secondary` })),
+      (t[0] = i))
+    : (i = t[0]);
+  let a;
+  t[1] === r
+    ? (a = t[2])
+    : ((a = (0, Z.jsx)(`div`, { className: `font-semibold text-token-text-primary`, children: r })),
+      (t[1] = r),
+      (t[2] = a));
+  let o;
+  t[3] === n
+    ? (o = t[4])
+    : ((o = (0, Z.jsx)(`div`, { className: `text-token-text-secondary`, children: n })),
+      (t[3] = n),
+      (t[4] = o));
+  let s;
+  return (
+    t[5] !== a || t[6] !== o
+      ? ((s = (0, Z.jsxs)(`div`, {
+          className: `flex gap-2 text-sm`,
+          children: [
+            i,
+            (0, Z.jsxs)(`div`, { className: `flex min-w-0 flex-col`, children: [a, o] }),
+          ],
+        })),
+        (t[5] = a),
+        (t[6] = o),
+        (t[7] = s))
+      : (s = t[7]),
+    s
+  );
+}
+var Ei,
+  Z,
+  Di = e(() => {
+    ((Ei = y()), st(), En(), ye(), pe(), (Z = B()));
+  });
+function Oi(e) {
+  let t = (0, Q.c)(142),
+    {
+      hostId: n,
+      isInstalling: r,
+      onConnectRequiredApp: i,
+      onInstall: a,
+      onOpenChange: o,
+      onRequiredAppConnected: s,
+      onRequiredAppOAuthStarted: c,
+      onTryInChat: u,
+      onViewDetails: d,
+      session: f,
+    } = e,
+    p = r === void 0 ? !1 : r,
+    m = ae(v),
+    [h, g] = (0, ha.useState)(null),
+    [_, y] = (0, ha.useState)(null),
+    { platform: b } = wn(),
+    { authMethod: x, planAtLogin: S } = at(),
+    { data: C } = xt(),
+    w = x === `chatgpt`,
+    T;
+  t[0] === w ? (T = t[1]) : ((T = { queryConfig: { enabled: w } }), (t[0] = w), (t[1] = T));
+  let { data: E } = se(`account-info`, T),
+    D = C?.plan_type ?? E?.plan ?? S,
+    O;
+  t[2] === D ? (O = t[3]) : ((O = Rn(D)?.pricePlan ?? null), (t[2] = D), (t[3] = O));
+  let te = O,
+    k;
+  t[4] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((k = { logExposure: !0 }), (t[4] = k))
+    : (k = t[4]);
+  let A = Ln(k),
+    j = Vn(),
+    M = ee(ur, n),
+    N = f.kind === `closed` ? null : f.plugin,
+    P;
+  t[5] !== f.kind || t[6] !== f.requiredApps
+    ? ((P = f.kind === `needsApps` ? f.requiredApps.map(Pi) : void 0),
+      (t[5] = f.kind),
+      (t[6] = f.requiredApps),
+      (t[7] = P))
+    : (P = t[7]);
+  let ne = P,
+    re;
+  t[8] !== n || t[9] !== ne || t[10] !== f.kind || t[11] !== f.plugin
+    ? ((re =
+        f.kind === `details`
+          ? { hostId: n, ...ht(f.plugin), pluginSummary: f.plugin.plugin }
+          : { hostId: n, pluginApps: ne }),
+      (t[8] = n),
+      (t[9] = ne),
+      (t[10] = f.kind),
+      (t[11] = f.plugin),
+      (t[12] = re))
+    : (re = t[12]);
+  let {
+      blockedReasonsByConnectorId: I,
+      blockedReason: ie,
+      isConnectorAvailabilityLoading: L,
+      isLoading: R,
+    } = oi(re),
+    oe = N != null && ai(N.plugin),
+    z = f.kind === `details` ? ie : null,
+    B = f.kind === `details` && R,
+    V = oe ? `disabled-by-admin` : z,
+    ce = V != null,
+    le = V === `disabled-by-admin`,
+    ue = N?.marketplacePath ?? null,
+    H;
+  t[13] === N ? (H = t[14]) : ((H = N == null ? null : ft(N)), (t[13] = N), (t[14] = H));
+  let de = N?.remoteMarketplaceName ?? null,
+    fe = N != null,
+    pe;
+  t[15] !== n || t[16] !== de || t[17] !== fe || t[18] !== ue || t[19] !== H
+    ? ((pe = {
+        hostId: n,
+        marketplacePath: ue,
+        pluginName: H,
+        remoteMarketplaceName: de,
+        enabled: fe,
+      }),
+      (t[15] = n),
+      (t[16] = de),
+      (t[17] = fe),
+      (t[18] = ue),
+      (t[19] = H),
+      (t[20] = pe))
+    : (pe = t[20]);
+  let { plugin: me } = pt(pe),
+    he = me?.apps,
+    _e,
+    U,
+    W,
+    ye,
+    be,
+    xe,
+    Se,
+    Ce;
+  t[21] !== I || t[22] !== he || t[23] !== f.kind || t[24] !== f.plugin
+    ? ((_e = he?.filter((e) => I[e.id] !== `disabled-by-admin`)),
+      (W = f.kind === `details` && f.plugin.plugin.authPolicy === `ON_INSTALL`),
+      (U = _e != null && _e.length > 0),
+      (Ce = F),
+      (ye = `plugins`),
+      (be = `install-modal`),
+      (xe = `disclosure`),
+      (Se = _e?.map(Ni)),
+      (t[21] = I),
+      (t[22] = he),
+      (t[23] = f.kind),
+      (t[24] = f.plugin),
+      (t[25] = _e),
+      (t[26] = U),
+      (t[27] = W),
+      (t[28] = ye),
+      (t[29] = be),
+      (t[30] = xe),
+      (t[31] = Se),
+      (t[32] = Ce))
+    : ((_e = t[25]),
+      (U = t[26]),
+      (W = t[27]),
+      (ye = t[28]),
+      (be = t[29]),
+      (xe = t[30]),
+      (Se = t[31]),
+      (Ce = t[32]));
+  let we;
+  t[33] !== ye || t[34] !== be || t[35] !== xe || t[36] !== Se
+    ? ((we = [ye, be, xe, Se]),
+      (t[33] = ye),
+      (t[34] = be),
+      (t[35] = xe),
+      (t[36] = Se),
+      (t[37] = we))
+    : (we = t[37]);
+  let Te = W && U && !L,
+    Ee;
+  t[38] === _e
+    ? (Ee = t[39])
+    : ((Ee = async () => {
+        if (_e == null) throw Error(`plugin detail apps are required`);
+        let e = await Promise.all(_e.map(Mi));
+        return { blurbs: da(e.flatMap(ji)), personalizationToggles: e.flatMap(Ai) };
+      }),
+      (t[38] = _e),
+      (t[39] = Ee));
+  let De;
+  t[40] !== we || t[41] !== Te || t[42] !== Ee
+    ? ((De = { queryKey: we, enabled: Te, staleTime: l.FIVE_MINUTES, queryFn: Ee }),
+      (t[40] = we),
+      (t[41] = Te),
+      (t[42] = Ee),
+      (t[43] = De))
+    : (De = t[43]);
+  let { data: Oe, isLoading: ke } = Ce(De),
+    Ae;
+  t[44] !== p || t[45] !== o
+    ? ((Ae = (e) => {
+        (!e && p) || (e || (g(null), y(null)), o(e));
+      }),
+      (t[44] = p),
+      (t[45] = o),
+      (t[46] = Ae))
+    : (Ae = t[46]);
+  let je = Ae;
+  if (f.kind === `closed`) return null;
+  if (f.kind === `connectApp`) {
+    let e;
+    t[47] === f.app ? (e = t[48]) : ((e = oa(f.app)), (t[47] = f.app), (t[48] = e));
+    let n = !f.closeOnOAuthStarted && f.app.status === `waitingForCallback`,
+      r;
+    t[49] !== s || t[50] !== f.app.appId
+      ? ((r = async () => {
+          await s(f.app.appId);
+        }),
+        (t[49] = s),
+        (t[50] = f.app.appId),
+        (t[51] = r))
+      : (r = t[51]);
+    let i;
+    return (
+      t[52] !== o ||
+      t[53] !== c ||
+      t[54] !== f.closeOnOAuthStarted ||
+      t[55] !== e ||
+      t[56] !== n ||
+      t[57] !== r
+        ? ((i = (0, $.jsx)(Rt, {
+            app: e,
+            closeOnOAuthStarted: f.closeOnOAuthStarted,
+            isCompletingConnection: n,
+            onOpenChange: o,
+            onConnected: r,
+            onOAuthStarted: c,
+          })),
+          (t[52] = o),
+          (t[53] = c),
+          (t[54] = f.closeOnOAuthStarted),
+          (t[55] = e),
+          (t[56] = n),
+          (t[57] = r),
+          (t[58] = i))
+        : (i = t[58]),
+      i
+    );
+  }
+  if (f.kind === `installing`) return null;
+  let G = f.kind === `needsApps` ? `needsApps` : `details`,
+    K = f.plugin,
+    Me,
+    Ne,
+    Pe,
+    Fe;
+  if (
+    t[59] !== M ||
+    t[60] !== Oe?.personalizationToggles ||
+    t[61] !== _ ||
+    t[62] !== h ||
+    t[63] !== G ||
+    t[64] !== b ||
+    t[65] !== K.plugin.id ||
+    t[66] !== W
+  ) {
+    Me = h?.pluginId === K.plugin.id ? h.modes : {};
+    let e;
+    (t[71] !== M || t[72] !== G || t[73] !== b || t[74] !== K.plugin.id
+      ? ((e = G === `details` && b === `macOS` && M && Et(K.plugin.id)),
+        (t[71] = M),
+        (t[72] = G),
+        (t[73] = b),
+        (t[74] = K.plugin.id),
+        (t[75] = e))
+      : (e = t[75]),
+      (Pe = e),
+      (Ne = _?.pluginId === K.plugin.id ? _.enabled : !0),
+      (Fe = fa({
+        draftModes: Me,
+        personalizationToggles: W ? Oe?.personalizationToggles : void 0,
+      })),
+      (t[59] = M),
+      (t[60] = Oe?.personalizationToggles),
+      (t[61] = _),
+      (t[62] = h),
+      (t[63] = G),
+      (t[64] = b),
+      (t[65] = K.plugin.id),
+      (t[66] = W),
+      (t[67] = Me),
+      (t[68] = Ne),
+      (t[69] = Pe),
+      (t[70] = Fe));
+  } else ((Me = t[67]), (Ne = t[68]), (Pe = t[69]), (Fe = t[70]));
+  let Ie = Fe,
+    Le = W && (L || (U && ke)),
+    Re;
+  t[76] !== V || t[77] !== K.plugin.name
+    ? ((Re = yi(K.plugin.name, V)), (t[76] = V), (t[77] = K.plugin.name), (t[78] = Re))
+    : (Re = t[78]);
+  let J = Re,
+    ze;
+  t[79] !== K.plugin.name || t[80] !== J
+    ? ((ze = J ? vi(K.plugin.name) : null), (t[79] = K.plugin.name), (t[80] = J), (t[81] = ze))
+    : (ze = t[81]);
+  let Be = ze,
+    Ve = !p,
+    He;
+  t[82] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((He = { "aria-describedby": void 0, style: { maxHeight: ba, width: ya } }), (t[82] = He))
+    : (He = t[82]);
+  let Ue = G === `needsApps` ? `top-5 right-5 text-token-text-secondary` : void 0,
+    We = G === `needsApps` ? `gap-0 overflow-hidden p-0` : `gap-6 overflow-hidden px-6 pt-8 pb-6`,
+    Ge;
+  t[83] === G
+    ? (Ge = t[84])
+    : ((Ge = G === `needsApps` ? { maxHeight: ba, padding: 0 } : { maxHeight: ba }),
+      (t[83] = G),
+      (t[84] = Ge));
+  let Ke;
+  t[85] !== G || t[86] !== K || t[87] !== J
+    ? ((Ke = G === `details` ? (0, $.jsx)(Fi, { plugin: K, showUpgradeBadge: J }) : null),
+      (t[85] = G),
+      (t[86] = K),
+      (t[87] = J),
+      (t[88] = Ke))
+    : (Ke = t[88]);
+  let qe;
+  t[89] !== I ||
+  t[90] !== Me ||
+  t[91] !== Ie ||
+  t[92] !== Oe ||
+  t[93] !== je ||
+  t[94] !== n ||
+  t[95] !== Ne ||
+  t[96] !== R ||
+  t[97] !== Le ||
+  t[98] !== i ||
+  t[99] !== u ||
+  t[100] !== d ||
+  t[101] !== G ||
+  t[102] !== K ||
+  t[103] !== me ||
+  t[104] !== he ||
+  t[105] !== Be ||
+  t[106] !== f.kind ||
+  t[107] !== f.requiredApps ||
+  t[108] !== f.requiredBrowserExtensions ||
+  t[109] !== W ||
+  t[110] !== Pe
+    ? ((qe =
+        G === `needsApps`
+          ? (0, $.jsx)(Li, {
+              appInstallBlockedReasonsById: I,
+              appOrder: he?.map(ki),
+              isAppBlockedReasonLoading: R,
+              onConnectRequiredApp: i,
+              onOpenChange: je,
+              onTryInChat: u,
+              onViewDetails: d,
+              plugin: K,
+              requiredApps: f.kind === `needsApps` ? f.requiredApps : [],
+              requiredBrowserExtensions: f.kind === `needsApps` ? f.requiredBrowserExtensions : [],
+            })
+          : G === `details`
+            ? (0, $.jsx)(nn, {
+                className: `relative grid min-h-0 flex-1 overflow-hidden`,
+                fadeClassName: `inset-x-0`,
+                scrollClassName: `min-h-0 overflow-y-auto group-data-[can-scroll-down=true]:pb-7`,
+                children:
+                  Be == null
+                    ? (0, $.jsx)(Bi, {
+                        appPersonalizationModes: Ie,
+                        disclosureData: W ? Oe : void 0,
+                        hostId: n,
+                        installLockedComputerUse: Ne,
+                        isLoadingDisclosureData: Le,
+                        onAppPersonalizationModeChange: (e) => {
+                          let { appId: t, mode: n } = e;
+                          g({ modes: { ...Me, [t]: n }, pluginId: K.plugin.id });
+                        },
+                        onInstallLockedComputerUseChange: (e) => {
+                          y({ enabled: e, pluginId: K.plugin.id });
+                        },
+                        plugin: K,
+                        pluginDetail: me,
+                        shouldShowInstallDisclosure: W,
+                        showLockedComputerUseInstall: Pe,
+                      })
+                    : (0, $.jsx)(Si, { upsellId: Be }),
+              })
+            : null),
+      (t[89] = I),
+      (t[90] = Me),
+      (t[91] = Ie),
+      (t[92] = Oe),
+      (t[93] = je),
+      (t[94] = n),
+      (t[95] = Ne),
+      (t[96] = R),
+      (t[97] = Le),
+      (t[98] = i),
+      (t[99] = u),
+      (t[100] = d),
+      (t[101] = G),
+      (t[102] = K),
+      (t[103] = me),
+      (t[104] = he),
+      (t[105] = Be),
+      (t[106] = f.kind),
+      (t[107] = f.requiredApps),
+      (t[108] = f.requiredBrowserExtensions),
+      (t[109] = W),
+      (t[110] = Pe),
+      (t[111] = qe))
+    : (qe = t[111]);
+  let Je;
+  t[112] !== Ie ||
+  t[113] !== te ||
+  t[114] !== V ||
+  t[115] !== A ||
+  t[116] !== Ne ||
+  t[117] !== B ||
+  t[118] !== le ||
+  t[119] !== p ||
+  t[120] !== Le ||
+  t[121] !== ce ||
+  t[122] !== a ||
+  t[123] !== j ||
+  t[124] !== G ||
+  t[125] !== K ||
+  t[126] !== m ||
+  t[127] !== J ||
+  t[128] !== Pe
+    ? ((Je =
+        G === `details`
+          ? (0, $.jsx)(ve, {
+              tooltipContent:
+                V === `connector-unavailable` && !J
+                  ? (0, $.jsx)(q, {
+                      id: `plugins.install.connectorUnavailable`,
+                      defaultMessage: `App unavailable`,
+                      description: `Tooltip shown when plugin install is unavailable because the plugin's apps are not available in the current app directory`,
+                    })
+                  : null,
+              disabled: V !== `connector-unavailable` || J,
+              children: (0, $.jsx)(`div`, {
+                className: `flex w-full`,
+                children: (0, $.jsx)(Sn, {
+                  color: `primary`,
+                  size: `large`,
+                  className: `w-full justify-center`,
+                  disabled: (!J && ce) || B || (!J && Le),
+                  loading: p,
+                  onClick: (e) => {
+                    if (J) {
+                      j({
+                        scope: m,
+                        currentPlan: te,
+                        event: e,
+                        getPricingUrl: A,
+                        source: `plugin_install_modal_upgrade_cta`,
+                      });
+                      return;
+                    }
+                    a(Ie, Pe ? Ne : void 0);
+                  },
+                  children: p
+                    ? (0, $.jsx)(q, {
+                        id: `plugins.installModal.installing`,
+                        defaultMessage: `Installing {pluginName}`,
+                        description: `Button label in the plugin install modal while installation is in progress`,
+                        values: { pluginName: Tt(K) },
+                      })
+                    : le
+                      ? (0, $.jsxs)($.Fragment, {
+                          children: [
+                            (0, $.jsx)(pr, { className: `icon-sm` }),
+                            (0, $.jsx)(q, {
+                              id: `plugins.detail.disabledByAdminButton`,
+                              defaultMessage: `Disabled by admin`,
+                              description: `Install button label shown when plugin install is unavailable because all included connectors are disabled by admin`,
+                            }),
+                          ],
+                        })
+                      : J
+                        ? (0, $.jsxs)($.Fragment, {
+                            children: [
+                              (0, $.jsx)(ge, { className: `icon-sm` }),
+                              (0, $.jsx)(q, {
+                                id: `plugins.installModal.upgradeToUnlock`,
+                                defaultMessage: `Upgrade to unlock`,
+                                description: `Button label for upgrading when a Google plugin needs a paid plan`,
+                              }),
+                            ],
+                          })
+                        : (0, $.jsx)(q, {
+                            id: `plugins.installModal.install`,
+                            defaultMessage: `Install {pluginName}`,
+                            description: `Install button label in the plugin install modal`,
+                            values: { pluginName: Tt(K) },
+                          }),
+                }),
+              }),
+            })
+          : null),
+      (t[112] = Ie),
+      (t[113] = te),
+      (t[114] = V),
+      (t[115] = A),
+      (t[116] = Ne),
+      (t[117] = B),
+      (t[118] = le),
+      (t[119] = p),
+      (t[120] = Le),
+      (t[121] = ce),
+      (t[122] = a),
+      (t[123] = j),
+      (t[124] = G),
+      (t[125] = K),
+      (t[126] = m),
+      (t[127] = J),
+      (t[128] = Pe),
+      (t[129] = Je))
+    : (Je = t[129]);
+  let Ye;
+  t[130] !== We || t[131] !== Ge || t[132] !== Ke || t[133] !== qe || t[134] !== Je
+    ? ((Ye = (0, $.jsxs)(en, { className: We, style: Ge, children: [Ke, qe, Je] })),
+      (t[130] = We),
+      (t[131] = Ge),
+      (t[132] = Ke),
+      (t[133] = qe),
+      (t[134] = Je),
+      (t[135] = Ye))
+    : (Ye = t[135]);
+  let Xe;
+  return (
+    t[136] !== je || t[137] !== p || t[138] !== Ve || t[139] !== Ue || t[140] !== Ye
+      ? ((Xe = (0, $.jsx)(vt, {
+          open: !0,
+          onOpenChange: je,
+          shouldIgnoreClickOutside: p,
+          showDialogClose: Ve,
+          size: `default`,
+          contentClassName: `h-fit max-w-[calc(100vw-2rem)] overflow-hidden`,
+          contentProps: He,
+          dialogCloseClassName: Ue,
+          children: Ye,
+        })),
+        (t[136] = je),
+        (t[137] = p),
+        (t[138] = Ve),
+        (t[139] = Ue),
+        (t[140] = Ye),
+        (t[141] = Xe))
+      : (Xe = t[141]),
+    Xe
+  );
+}
+function ki(e) {
+  return e.id;
+}
+function Ai(e) {
+  let { app: t, connectorTos: n } = e;
+  return n.personalization_toggle_blurb == null
+    ? []
+    : [
+        {
+          appId: t.id,
+          appName: t.name,
+          blurb: n.personalization_toggle_blurb,
+          defaultMode: n.personalization_default ?? `NO_PERSONALIZATION`,
+        },
+      ];
+}
+function ji(e) {
+  let { connectorTos: t } = e;
+  return t.blurbs;
+}
+async function Mi(e) {
+  return {
+    app: e,
+    connectorTos: await Te.safeGet(`/aip/connectors/{connector_id}/tos`, {
+      parameters: { path: { connector_id: e.id } },
+      additionalHeaders: { [ga]: _a },
+    }),
+  };
+}
+function Ni(e) {
+  return e.id;
+}
+function Pi(e) {
+  return {
+    category: null,
+    description: e.description,
+    id: e.appId,
+    installUrl: e.installUrl,
+    name: e.name,
+  };
+}
+function Fi(e) {
+  let t = (0, Q.c)(19),
+    { plugin: n, showUpgradeBadge: r } = e,
+    i;
+  t[0] === n.plugin.interface?.developerName
+    ? (i = t[1])
+    : ((i = n.plugin.interface?.developerName?.trim()),
+      (t[0] = n.plugin.interface?.developerName),
+      (t[1] = i));
+  let a = i,
+    o;
+  t[2] === n ? (o = t[3]) : ((o = (0, $.jsx)(Ii, { plugin: n })), (t[2] = n), (t[3] = o));
+  let s;
+  t[4] === n ? (s = t[5]) : ((s = Tt(n)), (t[4] = n), (t[5] = s));
+  let c;
+  t[6] === s
+    ? (c = t[7])
+    : ((c = (0, $.jsx)(wt, {
+        asChild: !0,
+        children: (0, $.jsx)(`div`, {
+          className: `heading-dialog font-semibold`,
+          children: (0, $.jsx)(q, {
+            id: `plugins.installModal.title`,
+            defaultMessage: `Install {pluginName}`,
+            description: `Title shown in the plugin install modal before installation starts`,
+            values: { pluginName: s },
+          }),
+        }),
+      })),
+      (t[6] = s),
+      (t[7] = c));
+  let l;
+  t[8] === a
+    ? (l = t[9])
+    : ((l = a
+        ? (0, $.jsx)(`div`, {
+            className: `text-sm text-token-text-secondary`,
+            children: (0, $.jsx)(q, {
+              id: `plugins.installModal.developedBy`,
+              defaultMessage: `Developed by {developerName}`,
+              description: `Developer subtitle shown in the plugin install modal`,
+              values: { developerName: a },
+            }),
+          })
+        : null),
+      (t[8] = a),
+      (t[9] = l));
+  let u;
+  t[10] === r ? (u = t[11]) : ((u = r ? (0, $.jsx)(Ci, {}) : null), (t[10] = r), (t[11] = u));
+  let d;
+  t[12] !== c || t[13] !== l || t[14] !== u
+    ? ((d = (0, $.jsxs)(`div`, {
+        className: `flex flex-col items-center gap-1 text-center`,
+        children: [c, l, u],
+      })),
+      (t[12] = c),
+      (t[13] = l),
+      (t[14] = u),
+      (t[15] = d))
+    : (d = t[15]);
+  let f;
+  return (
+    t[16] !== o || t[17] !== d
+      ? ((f = (0, $.jsxs)(`div`, {
+          className: `flex flex-col items-center gap-4`,
+          children: [o, d],
+        })),
+        (t[16] = o),
+        (t[17] = d),
+        (t[18] = f))
+      : (f = t[18]),
+    f
+  );
+}
+function Ii(e) {
+  let t = (0, Q.c)(9),
+    { plugin: n } = e,
+    r;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((r = (0, $.jsx)(`span`, {
+        className: `flex size-14 shrink-0 items-center justify-center rounded-xl bg-black text-white shadow-sm`,
+        children: (0, $.jsx)(Ye, { className: `size-12` }),
+      })),
+      (t[0] = r))
+    : (r = t[0]);
+  let i;
+  t[1] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((i = (0, $.jsxs)(`span`, {
+        className: `flex items-center gap-1`,
+        children: [
+          (0, $.jsx)(`span`, { className: `size-1.5 rounded-full bg-token-border-default` }),
+          (0, $.jsx)(`span`, { className: `size-1.5 rounded-full bg-token-border-default` }),
+          (0, $.jsx)(`span`, { className: `size-1.5 rounded-full bg-token-border-default` }),
+        ],
+      })),
+      (t[1] = i))
+    : (i = t[1]);
+  let a;
+  t[2] === n ? (a = t[3]) : ((a = Tt(n)), (t[2] = n), (t[3] = a));
+  let o;
+  t[4] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((o = (0, $.jsx)(An, { className: `icon-md text-token-text-secondary` })), (t[4] = o))
+    : (o = t[4]);
+  let s;
+  return (
+    t[5] !== n.logoDarkPath || t[6] !== n.logoPath || t[7] !== a
+      ? ((s = (0, $.jsxs)(`div`, {
+          className: `flex items-center gap-3`,
+          children: [
+            r,
+            i,
+            (0, $.jsx)(`span`, {
+              className: `bg-token-surface-tertiary flex size-14 shrink-0 items-center justify-center overflow-hidden rounded-xl border border-token-border-default shadow-sm`,
+              children: (0, $.jsx)(Ut, {
+                alt: a,
+                className: `size-full object-contain`,
+                logoDarkUrl: n.logoDarkPath,
+                logoUrl: n.logoPath,
+                fallback: o,
+              }),
+            }),
+          ],
+        })),
+        (t[5] = n.logoDarkPath),
+        (t[6] = n.logoPath),
+        (t[7] = a),
+        (t[8] = s))
+      : (s = t[8]),
+    s
+  );
+}
+function Li(e) {
+  let t = (0, Q.c)(22),
+    {
+      appInstallBlockedReasonsById: n,
+      appOrder: r,
+      isAppBlockedReasonLoading: i,
+      onConnectRequiredApp: a,
+      onOpenChange: o,
+      onTryInChat: s,
+      onViewDetails: c,
+      plugin: l,
+      requiredApps: u,
+      requiredBrowserExtensions: d,
+    } = e,
+    f;
+  t[0] === l ? (f = t[1]) : ((f = (0, $.jsx)(Ri, { plugin: l })), (t[0] = l), (t[1] = f));
+  let p;
+  t[2] !== n || t[3] !== r || t[4] !== i || t[5] !== a || t[6] !== u
+    ? ((p = (0, $.jsx)(Zi, {
+        appInstallBlockedReasonsById: n,
+        appOrder: r,
+        isAppBlockedReasonLoading: i,
+        onConnectRequiredApp: a,
+        requiredApps: u,
+      })),
+      (t[2] = n),
+      (t[3] = r),
+      (t[4] = i),
+      (t[5] = a),
+      (t[6] = u),
+      (t[7] = p))
+    : (p = t[7]);
+  let m;
+  t[8] === d
+    ? (m = t[9])
+    : ((m = (0, $.jsx)($i, { requiredBrowserExtensions: d })), (t[8] = d), (t[9] = m));
+  let h;
+  t[10] !== p || t[11] !== m
+    ? ((h = (0, $.jsxs)(nn, {
+        className: `relative grid min-h-0 flex-1 px-6`,
+        fadeClassName: `inset-x-6`,
+        scrollClassName: `min-h-0 overflow-y-auto group-data-[can-scroll-down=true]:pb-6`,
+        children: [p, m],
+      })),
+      (t[10] = p),
+      (t[11] = m),
+      (t[12] = h))
+    : (h = t[12]);
+  let g;
+  t[13] !== o || t[14] !== s || t[15] !== c || t[16] !== l
+    ? ((g = (0, $.jsx)(zi, { onOpenChange: o, onTryInChat: s, onViewDetails: c, plugin: l })),
+      (t[13] = o),
+      (t[14] = s),
+      (t[15] = c),
+      (t[16] = l),
+      (t[17] = g))
+    : (g = t[17]);
+  let _;
+  return (
+    t[18] !== f || t[19] !== h || t[20] !== g
+      ? ((_ = (0, $.jsxs)(`div`, {
+          className: `flex max-h-full flex-col overflow-hidden`,
+          children: [f, h, g],
+        })),
+        (t[18] = f),
+        (t[19] = h),
+        (t[20] = g),
+        (t[21] = _))
+      : (_ = t[21]),
+    _
+  );
+}
+function Ri(e) {
+  let t = (0, Q.c)(19),
+    { plugin: n } = e,
+    r;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((r = (0, $.jsx)(`span`, {
+        className: `flex size-[60px] shrink-0 items-center justify-center rounded-2xl bg-black text-white shadow-sm`,
+        children: (0, $.jsx)(Ye, { className: `size-12` }),
+      })),
+      (t[0] = r))
+    : (r = t[0]);
+  let i;
+  t[1] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((i = (0, $.jsxs)(`span`, {
+        className: `flex items-center gap-2`,
+        children: [
+          (0, $.jsx)(`span`, { className: `size-1.5 rounded-full bg-token-border-default` }),
+          (0, $.jsx)(`span`, { className: `size-1.5 rounded-full bg-token-border-default` }),
+          (0, $.jsx)(`span`, { className: `size-1.5 rounded-full bg-token-border-default` }),
+        ],
+      })),
+      (t[1] = i))
+    : (i = t[1]);
+  let a;
+  t[2] === n ? (a = t[3]) : ((a = Tt(n)), (t[2] = n), (t[3] = a));
+  let o;
+  t[4] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((o = (0, $.jsx)(An, { className: `icon-md text-token-text-secondary` })), (t[4] = o))
+    : (o = t[4]);
+  let s;
+  t[5] !== n.logoDarkPath || t[6] !== n.logoPath || t[7] !== a
+    ? ((s = (0, $.jsxs)(`div`, {
+        className: `flex items-center gap-4`,
+        children: [
+          r,
+          i,
+          (0, $.jsx)(`span`, {
+            className: `flex size-[60px] shrink-0 items-center justify-center overflow-hidden rounded-2xl bg-token-bg-primary shadow-sm`,
+            children: (0, $.jsx)(Ut, {
+              alt: a,
+              className: `size-full object-contain`,
+              logoDarkUrl: n.logoDarkPath,
+              logoUrl: n.logoPath,
+              fallback: o,
+            }),
+          }),
+        ],
+      })),
+      (t[5] = n.logoDarkPath),
+      (t[6] = n.logoPath),
+      (t[7] = a),
+      (t[8] = s))
+    : (s = t[8]);
+  let c;
+  t[9] === n ? (c = t[10]) : ((c = Tt(n)), (t[9] = n), (t[10] = c));
+  let l;
+  t[11] === c
+    ? (l = t[12])
+    : ((l = (0, $.jsx)(wt, {
+        asChild: !0,
+        children: (0, $.jsx)(`div`, {
+          className: `text-lg leading-6 font-semibold text-token-text-primary`,
+          children: (0, $.jsx)(q, {
+            id: `plugins.installModal.needsApps.title`,
+            defaultMessage: `Connect your apps to {pluginName}`,
+            description: `Title shown after plugin install when app connections are available`,
+            values: { pluginName: c },
+          }),
+        }),
+      })),
+      (t[11] = c),
+      (t[12] = l));
+  let u;
+  t[13] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((u = (0, $.jsx)(`div`, {
+        className: `max-w-[432px] text-sm leading-5 text-token-text-secondary`,
+        children: (0, $.jsx)(q, {
+          id: `plugins.installModal.needsApps.subtitle`,
+          defaultMessage: `Get more relevant help from the apps you already use. You can always do this later.`,
+          description: `Subtitle shown after plugin install when app connections are available`,
+        }),
+      })),
+      (t[13] = u))
+    : (u = t[13]);
+  let d;
+  t[14] === l
+    ? (d = t[15])
+    : ((d = (0, $.jsxs)(`div`, {
+        className: `flex flex-col items-center gap-1 text-center`,
+        children: [l, u],
+      })),
+      (t[14] = l),
+      (t[15] = d));
+  let f;
+  return (
+    t[16] !== s || t[17] !== d
+      ? ((f = (0, $.jsxs)(`div`, {
+          className: `flex shrink-0 flex-col items-center gap-4 px-6 pt-9 pb-4`,
+          children: [s, d],
+        })),
+        (t[16] = s),
+        (t[17] = d),
+        (t[18] = f))
+      : (f = t[18]),
+    f
+  );
+}
+function zi(e) {
+  let t = (0, Q.c)(14),
+    { onOpenChange: n, onTryInChat: r, onViewDetails: i, plugin: a } = e,
+    o = a.plugin.interface?.defaultPrompt,
+    s;
+  t[0] === o ? (s = t[1]) : ((s = hi(o)), (t[0] = o), (t[1] = s));
+  let c = s;
+  if (r == null && i == null) return null;
+  let l;
+  t[2] !== n || t[3] !== i || t[4] !== a
+    ? ((l =
+        i == null
+          ? null
+          : (0, $.jsx)(Sn, {
+              color: `outline`,
+              size: `default`,
+              className: `h-9 rounded-xl px-3 py-2 text-sm leading-5`,
+              style: { borderRadius: 12 },
+              onClick: () => {
+                (n(!1), i(a));
+              },
+              children: (0, $.jsx)(q, {
+                id: `plugins.installModal.needsApps.viewDetails`,
+                defaultMessage: `View details`,
+                description: `Button label to close the plugin onboarding modal and view plugin details`,
+              }),
+            })),
+      (t[2] = n),
+      (t[3] = i),
+      (t[4] = a),
+      (t[5] = l))
+    : (l = t[5]);
+  let u;
+  t[6] !== c || t[7] !== n || t[8] !== r || t[9] !== a
+    ? ((u =
+        r == null
+          ? null
+          : (0, $.jsxs)(Sn, {
+              color: `primary`,
+              size: `default`,
+              className: `h-9 rounded-xl px-3 py-2 text-sm leading-5`,
+              style: { borderRadius: 12 },
+              onClick: () => {
+                (n(!1), r(a, c));
+              },
+              children: [
+                (0, $.jsx)(he, { className: `icon-sm` }),
+                (0, $.jsx)(q, {
+                  id: `plugins.installModal.needsApps.tryInChat`,
+                  defaultMessage: `Try {pluginName} in chat`,
+                  description: `Button label to close the plugin onboarding modal and try the plugin in chat`,
+                  values: { pluginName: Tt(a) },
+                }),
+              ],
+            })),
+      (t[6] = c),
+      (t[7] = n),
+      (t[8] = r),
+      (t[9] = a),
+      (t[10] = u))
+    : (u = t[10]);
+  let d;
+  return (
+    t[11] !== l || t[12] !== u
+      ? ((d = (0, $.jsxs)(`div`, {
+          className: `flex h-[84px] shrink-0 items-center justify-end gap-2 bg-token-dropdown-background px-6 py-6`,
+          children: [l, u],
+        })),
+        (t[11] = l),
+        (t[12] = u),
+        (t[13] = d))
+      : (d = t[13]),
+    d
+  );
+}
+function Bi(e) {
+  let t = (0, Q.c)(37),
+    {
+      appPersonalizationModes: n,
+      disclosureData: r,
+      hostId: i,
+      installLockedComputerUse: a,
+      isLoadingDisclosureData: o,
+      onAppPersonalizationModeChange: s,
+      onInstallLockedComputerUseChange: c,
+      plugin: l,
+      pluginDetail: u,
+      shouldShowInstallDisclosure: d,
+      showLockedComputerUseInstall: f,
+    } = e,
+    p;
+  t[0] === l ? (p = t[1]) : ((p = pa(l)), (t[0] = l), (t[1] = p));
+  let m = p,
+    h;
+  t[2] === l.plugin.interface?.capabilities
+    ? (h = t[3])
+    : ((h = l.plugin.interface?.capabilities ?? []),
+      (t[2] = l.plugin.interface?.capabilities),
+      (t[3] = h));
+  let g = h,
+    _ = r != null && (r.blurbs.length > 0 || r.personalizationToggles.length > 0),
+    v = !d || !_,
+    y;
+  t[4] !== l || t[5] !== v
+    ? ((y = v ? (0, $.jsx)(sa, { plugin: l }) : null), (t[4] = l), (t[5] = v), (t[6] = y))
+    : (y = t[6]);
+  let b;
+  t[7] !== m || t[8] !== v
+    ? ((b =
+        v && m
+          ? (0, $.jsxs)(la, {
+              children: [
+                (0, $.jsx)(`div`, {
+                  className: `text-sm font-medium text-token-text-primary`,
+                  children: (0, $.jsx)(q, {
+                    id: `plugins.installModal.about`,
+                    defaultMessage: `About`,
+                    description: `Section title for the plugin description in the plugin install modal`,
+                  }),
+                }),
+                (0, $.jsx)(`div`, { className: `text-sm text-token-text-secondary`, children: m }),
+              ],
+            })
+          : null),
+      (t[7] = m),
+      (t[8] = v),
+      (t[9] = b))
+    : (b = t[9]);
+  let x;
+  t[10] !== i || t[11] !== l || t[12] !== u || t[13] !== v
+    ? ((x = v && u != null ? (0, $.jsx)(Hi, { hostId: i, plugin: l, pluginDetail: u }) : null),
+      (t[10] = i),
+      (t[11] = l),
+      (t[12] = u),
+      (t[13] = v),
+      (t[14] = x))
+    : (x = t[14]);
+  let S;
+  t[15] !== a || t[16] !== c || t[17] !== u || t[18] !== v || t[19] !== f
+    ? ((S = v && u != null && f ? (0, $.jsx)(Ji, { enabled: a, onChange: c }) : null),
+      (t[15] = a),
+      (t[16] = c),
+      (t[17] = u),
+      (t[18] = v),
+      (t[19] = f),
+      (t[20] = S))
+    : (S = t[20]);
+  let C;
+  t[21] !== g || t[22] !== v
+    ? ((C =
+        v && g.length > 0
+          ? (0, $.jsxs)(la, {
+              children: [
+                (0, $.jsx)(`div`, {
+                  className: `text-sm font-medium text-token-text-primary`,
+                  children: (0, $.jsx)(q, {
+                    id: `plugins.installModal.capabilities`,
+                    defaultMessage: `Capabilities`,
+                    description: `Section title for the capability list in the plugin install modal`,
+                  }),
+                }),
+                (0, $.jsx)(`div`, { className: `flex flex-wrap gap-2`, children: g.map(Vi) }),
+              ],
+            })
+          : null),
+      (t[21] = g),
+      (t[22] = v),
+      (t[23] = C))
+    : (C = t[23]);
+  let w;
+  t[24] !== n || t[25] !== r || t[26] !== o || t[27] !== s || t[28] !== d
+    ? ((w = d
+        ? (0, $.jsx)(Xi, {
+            appPersonalizationModes: n,
+            disclosureData: r,
+            isLoadingDisclosureData: o,
+            onAppPersonalizationModeChange: s,
+          })
+        : null),
+      (t[24] = n),
+      (t[25] = r),
+      (t[26] = o),
+      (t[27] = s),
+      (t[28] = d),
+      (t[29] = w))
+    : (w = t[29]);
+  let T;
+  return (
+    t[30] !== y || t[31] !== b || t[32] !== x || t[33] !== S || t[34] !== C || t[35] !== w
+      ? ((T = (0, $.jsxs)(`div`, {
+          className: `rounded-2xl border border-token-border-default px-4 py-2`,
+          children: [y, b, x, S, C, w],
+        })),
+        (t[30] = y),
+        (t[31] = b),
+        (t[32] = x),
+        (t[33] = S),
+        (t[34] = C),
+        (t[35] = w),
+        (t[36] = T))
+      : (T = t[36]),
+    T
+  );
+}
+function Vi(e) {
+  return (0, $.jsx)(
+    kn,
+    {
+      className: `border border-token-border-default bg-transparent px-1.5 py-0.5 text-xs font-medium text-token-text-secondary`,
+      children: e,
+    },
+    e,
+  );
+}
+function Hi(e) {
+  let t = (0, Q.c)(20),
+    { hostId: n, plugin: r, pluginDetail: i } = e,
+    a;
+  t[0] !== n || t[1] !== r
+    ? ((a = { enabled: !0, hostId: n, plugin: r }), (t[0] = n), (t[1] = r), (t[2] = a))
+    : (a = t[2]);
+  let o = Vr(a),
+    s = i.apps,
+    c,
+    l,
+    u,
+    d,
+    f;
+  if (t[3] !== o || t[4] !== i.apps || t[5] !== i.mcpServers || t[6] !== i.skills) {
+    f = Symbol.for(`react.early_return_sentinel`);
+    bb0: {
+      let e = [
+        {
+          id: `apps`,
+          items: s.map(qi),
+          title: (0, $.jsx)(q, {
+            id: `plugins.installModal.includes.apps`,
+            defaultMessage: `Apps`,
+            description: `Label for bundled apps in the plugin install modal`,
+          }),
+        },
+        {
+          id: `browserExtensions`,
+          items: (o ?? []).map(Ki),
+          title: (0, $.jsx)(q, {
+            id: `plugins.installModal.includes.browserExtensions`,
+            defaultMessage: `Browser extensions`,
+            description: `Label for bundled browser extensions in the plugin install modal`,
+          }),
+        },
+        {
+          id: `skills`,
+          items: i.skills.map(Gi),
+          title: (0, $.jsx)(q, {
+            id: `plugins.installModal.includes.skills`,
+            defaultMessage: `Skills`,
+            description: `Label for bundled skills in the plugin install modal`,
+          }),
+        },
+        {
+          id: `mcpServers`,
+          items: i.mcpServers,
+          title: (0, $.jsx)(q, {
+            id: `plugins.installModal.includes.mcpServers`,
+            defaultMessage: `MCP servers`,
+            description: `Label for bundled MCP servers in the plugin install modal`,
+          }),
+        },
+      ].filter(Wi);
+      if (e.length === 0) {
+        f = null;
+        break bb0;
+      }
+      ((c = la),
+        t[12] === Symbol.for(`react.memo_cache_sentinel`)
+          ? ((d = (0, $.jsx)(`div`, {
+              className: `text-sm font-medium text-token-text-primary`,
+              children: (0, $.jsx)(q, {
+                id: `plugins.installModal.includes`,
+                defaultMessage: `Includes`,
+                description: `Section title for bundled apps, skills, and MCP servers in the plugin install modal`,
+              }),
+            })),
+            (t[12] = d))
+          : (d = t[12]),
+        (l = `flex flex-col gap-3`),
+        (u = e.map(Ui)));
+    }
+    ((t[3] = o),
+      (t[4] = i.apps),
+      (t[5] = i.mcpServers),
+      (t[6] = i.skills),
+      (t[7] = c),
+      (t[8] = l),
+      (t[9] = u),
+      (t[10] = d),
+      (t[11] = f));
+  } else ((c = t[7]), (l = t[8]), (u = t[9]), (d = t[10]), (f = t[11]));
+  if (f !== Symbol.for(`react.early_return_sentinel`)) return f;
+  let p;
+  t[13] !== l || t[14] !== u
+    ? ((p = (0, $.jsx)(`div`, { className: l, children: u })),
+      (t[13] = l),
+      (t[14] = u),
+      (t[15] = p))
+    : (p = t[15]);
+  let m;
+  return (
+    t[16] !== c || t[17] !== d || t[18] !== p
+      ? ((m = (0, $.jsxs)(c, { children: [d, p] })),
+        (t[16] = c),
+        (t[17] = d),
+        (t[18] = p),
+        (t[19] = m))
+      : (m = t[19]),
+    m
+  );
+}
+function Ui(e) {
+  return (0, $.jsxs)(
+    `div`,
+    {
+      className: `flex flex-col gap-2`,
+      children: [
+        (0, $.jsx)(`div`, {
+          className: `text-xs font-medium tracking-wide text-token-text-secondary uppercase`,
+          children: e.title,
+        }),
+        (0, $.jsx)(`div`, {
+          className: `flex flex-wrap gap-2`,
+          children: e.items.map((t) =>
+            (0, $.jsx)(
+              kn,
+              {
+                className: `border border-token-border-default bg-transparent px-1.5 py-0.5 text-xs font-medium text-token-text-secondary`,
+                children: t,
+              },
+              `${e.id}-${t}`,
+            ),
+          ),
+        }),
+      ],
+    },
+    e.id,
+  );
+}
+function Wi(e) {
+  return e.items.length > 0;
+}
+function Gi(e) {
+  return ma(e);
+}
+function Ki(e) {
+  return e.name;
+}
+function qi(e) {
+  return e.name;
+}
+function Ji(e) {
+  let t = (0, Q.c)(8),
+    { enabled: n, onChange: r } = e,
+    i = it(),
+    a;
+  t[0] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((a = (0, $.jsx)(`div`, {
+        className: `text-sm font-medium text-token-text-primary`,
+        children: (0, $.jsx)(q, {
+          id: `plugins.installModal.lockedComputerUse.title`,
+          defaultMessage: `Locked Computer Use`,
+          description: `Title for the Locked Computer Use install option in the plugin install modal`,
+        }),
+      })),
+      (t[0] = a))
+    : (a = t[0]);
+  let o;
+  t[1] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((o = (0, $.jsxs)(`div`, {
+        className: `flex flex-col gap-1`,
+        children: [
+          a,
+          (0, $.jsx)(`div`, {
+            className: `text-sm text-token-text-secondary`,
+            children: (0, $.jsx)(q, {
+              id: `plugins.installModal.lockedComputerUse.description`,
+              defaultMessage: `Let Codex use your Mac when it's locked. <a>Learn more</a>`,
+              description: `Description for the Locked Computer Use install option in the plugin install modal`,
+              values: { a: Yi },
+            }),
+          }),
+        ],
+      })),
+      (t[1] = o))
+    : (o = t[1]);
+  let s;
+  t[2] === i
+    ? (s = t[3])
+    : ((s = i.formatMessage({
+        id: `plugins.installModal.lockedComputerUse.toggle`,
+        defaultMessage: `Install Locked Computer Use`,
+        description: `Accessible label for the Locked Computer Use install option in the plugin install modal`,
+      })),
+      (t[2] = i),
+      (t[3] = s));
+  let c;
+  return (
+    t[4] !== n || t[5] !== r || t[6] !== s
+      ? ((c = (0, $.jsx)(la, {
+          children: (0, $.jsxs)(`div`, {
+            className: `flex items-center justify-between gap-4`,
+            children: [o, (0, $.jsx)(on, { checked: n, ariaLabel: s, onChange: r })],
+          }),
+        })),
+        (t[4] = n),
+        (t[5] = r),
+        (t[6] = s),
+        (t[7] = c))
+      : (c = t[7]),
+    c
+  );
+}
+function Yi(e) {
+  return (0, $.jsx)(`a`, {
+    className: `inline-flex text-token-text-link-foreground`,
+    href: Jn,
+    target: `_blank`,
+    rel: `noreferrer`,
+    children: e,
+  });
+}
+function Xi(e) {
+  let t = (0, Q.c)(6),
+    {
+      appPersonalizationModes: n,
+      disclosureData: r,
+      isLoadingDisclosureData: i,
+      onAppPersonalizationModeChange: a,
+    } = e;
+  if (i) {
+    let e;
+    return (
+      t[0] === Symbol.for(`react.memo_cache_sentinel`)
+        ? ((e = (0, $.jsx)(la, { children: (0, $.jsx)(na, {}) })), (t[0] = e))
+        : (e = t[0]),
+      e
+    );
+  }
+  if (r == null || (r.blurbs.length === 0 && r.personalizationToggles.length === 0)) return null;
+  let o;
+  return (
+    t[1] !== n || t[2] !== r.blurbs || t[3] !== r.personalizationToggles || t[4] !== a
+      ? ((o = (0, $.jsx)(la, {
+          children: (0, $.jsx)(ia, {
+            appPersonalizationModes: n,
+            blurbs: r.blurbs,
+            onAppPersonalizationModeChange: a,
+            personalizationToggles: r.personalizationToggles,
+          }),
+        })),
+        (t[1] = n),
+        (t[2] = r.blurbs),
+        (t[3] = r.personalizationToggles),
+        (t[4] = a),
+        (t[5] = o))
+      : (o = t[5]),
+    o
+  );
+}
+function Zi(e) {
+  let t = (0, Q.c)(23),
+    {
+      appInstallBlockedReasonsById: n,
+      appOrder: r,
+      isAppBlockedReasonLoading: i,
+      onConnectRequiredApp: a,
+      requiredApps: o,
+    } = e,
+    s = it(),
+    c;
+  t[0] === r ? (c = t[1]) : ((c = new Map(r?.map(Qi))), (t[0] = r), (t[1] = c));
+  let l = c,
+    u,
+    d,
+    f;
+  if (t[2] !== n || t[3] !== l || t[4] !== s || t[5] !== i || t[6] !== a || t[7] !== o) {
+    f = Symbol.for(`react.early_return_sentinel`);
+    bb0: {
+      let e;
+      t[11] === n
+        ? (e = t[12])
+        : ((e = (e) => n[e.appId] !== `disabled-by-admin`), (t[11] = n), (t[12] = e));
+      let r = o.filter(e),
+        c;
+      if (
+        (t[13] === l
+          ? (c = t[14])
+          : ((c = (e, t) => (l.get(e.appId) ?? 2 ** 53 - 1) - (l.get(t.appId) ?? 2 ** 53 - 1)),
+            (t[13] = l),
+            (t[14] = c)),
+        r.sort(c),
+        r.length === 0)
+      ) {
+        f = null;
+        break bb0;
+      }
+      u = `flex flex-col`;
+      let p;
+      (t[15] !== n || t[16] !== s || t[17] !== i || t[18] !== a
+        ? ((p = (e) => {
+            let t = n[e.appId];
+            return (0, $.jsx)(
+              Er,
+              {
+                app: oa(e),
+                cardIconContainerVariant: `outline`,
+                className: `min-h-[72px] px-0 py-3 hover:!bg-transparent`,
+                installActionDisabled: i || t != null || e.status !== `pending`,
+                installActionLabel: aa(e.status, s),
+                isConnectingApp: e.status === `launching` || e.status === `waitingForCallback`,
+                updatingAppId: null,
+                onInstallApp: () => a(e.appId),
+              },
+              e.appId,
+            );
+          }),
+          (t[15] = n),
+          (t[16] = s),
+          (t[17] = i),
+          (t[18] = a),
+          (t[19] = p))
+        : (p = t[19]),
+        (d = r.map(p)));
+    }
+    ((t[2] = n),
+      (t[3] = l),
+      (t[4] = s),
+      (t[5] = i),
+      (t[6] = a),
+      (t[7] = o),
+      (t[8] = u),
+      (t[9] = d),
+      (t[10] = f));
+  } else ((u = t[8]), (d = t[9]), (f = t[10]));
+  if (f !== Symbol.for(`react.early_return_sentinel`)) return f;
+  let p;
+  return (
+    t[20] !== u || t[21] !== d
+      ? ((p = (0, $.jsx)(`div`, { className: u, children: d })),
+        (t[20] = u),
+        (t[21] = d),
+        (t[22] = p))
+      : (p = t[22]),
+    p
+  );
+}
+function Qi(e, t) {
+  return [e, t];
+}
+function $i(e) {
+  let t = (0, Q.c)(4),
+    { requiredBrowserExtensions: n } = e;
+  if (n.length === 0) return null;
+  let r;
+  t[0] === n ? (r = t[1]) : ((r = n.map(ea)), (t[0] = n), (t[1] = r));
+  let i;
+  return (
+    t[2] === r
+      ? (i = t[3])
+      : ((i = (0, $.jsx)(`div`, { className: `flex flex-col`, children: r })),
+        (t[2] = r),
+        (t[3] = i)),
+    i
+  );
+}
+function ea(e) {
+  return (0, $.jsxs)(
+    `div`,
+    {
+      className: `flex min-h-[72px] items-center justify-between gap-4 py-3`,
+      children: [
+        (0, $.jsxs)(`div`, {
+          className: `flex min-w-0 flex-1 items-center gap-4`,
+          children: [
+            (0, $.jsx)(`span`, {
+              className: `flex size-12 shrink-0 items-center justify-center overflow-hidden rounded-xl border border-token-border-default bg-token-bg-primary`,
+              children: (0, $.jsx)(Ut, {
+                alt: e.name,
+                className: `size-8 object-contain`,
+                fallback: (0, $.jsx)(An, { className: `icon-md text-token-text-secondary` }),
+                logoUrl: e.iconUrl,
+              }),
+            }),
+            (0, $.jsxs)(`div`, {
+              className: `min-w-0 flex-1`,
+              children: [
+                (0, $.jsx)(`div`, {
+                  className: `truncate text-sm leading-6 font-medium text-token-text-primary`,
+                  children: e.name,
+                }),
+                (0, $.jsx)(`div`, {
+                  className: `truncate text-sm leading-5 text-token-text-tertiary`,
+                  children: (0, $.jsx)(q, { ...ni.codexChromeDescription }),
+                }),
+              ],
+            }),
+          ],
+        }),
+        (0, $.jsx)(Sn, {
+          color: `outline`,
+          size: `toolbar`,
+          className: `h-9 min-w-20 shrink-0 justify-center rounded-xl px-3 text-sm`,
+          onClick: (t) => {
+            Pn({
+              event: t,
+              href: e.url,
+              initiator: `open_in_browser_bridge`,
+              openTarget: `external-browser`,
+            });
+          },
+          children: (0, $.jsx)(q, {
+            id: `plugins.installModal.openBrowserExtension`,
+            defaultMessage: `Open`,
+            description: `Button label to open a browser extension setup URL`,
+          }),
+        }),
+      ],
+    },
+    e.id,
+  );
+}
+function ta(e) {
+  let t = (0, Q.c)(10),
+    { children: n, url: r } = e,
+    i;
+  t[0] === r ? (i = t[1]) : ((i = r?.trim()), (t[0] = r), (t[1] = i));
+  let a = i;
+  if (!a) {
+    let e;
+    return (
+      t[2] === n
+        ? (e = t[3])
+        : ((e = (0, $.jsx)($.Fragment, { children: n })), (t[2] = n), (t[3] = e)),
+      e
+    );
+  }
+  let o;
+  t[4] === a
+    ? (o = t[5])
+    : ((o = (e) => {
+        Pn({ event: e, href: a, initiator: `open_in_browser_bridge` });
+      }),
+      (t[4] = a),
+      (t[5] = o));
+  let s;
+  return (
+    t[6] !== n || t[7] !== a || t[8] !== o
+      ? ((s = (0, $.jsx)(`a`, {
+          href: a,
+          className: `underline underline-offset-2 hover:no-underline`,
+          onClick: o,
+          children: n,
+        })),
+        (t[6] = n),
+        (t[7] = a),
+        (t[8] = o),
+        (t[9] = s))
+      : (s = t[9]),
+    s
+  );
+}
+function na() {
+  let e = (0, Q.c)(1),
+    t;
+  return (
+    e[0] === Symbol.for(`react.memo_cache_sentinel`)
+      ? ((t = (0, $.jsx)(`div`, { children: Array.from({ length: 3 }).map(ra) })), (e[0] = t))
+      : (t = e[0]),
+    t
+  );
+}
+function ra(e, t) {
+  return (0, $.jsxs)(
+    `div`,
+    {
+      className: `flex flex-col gap-1 border-t border-token-border-default py-2.5 first:border-none first:pt-0 last:pb-0`,
+      children: [
+        (0, $.jsx)(`div`, { className: `h-3 w-36 rounded bg-token-border-default` }),
+        (0, $.jsx)(`div`, { className: `h-2.5 w-full rounded bg-token-border-default` }),
+        (0, $.jsx)(`div`, { className: `h-2.5 w-4/5 rounded bg-token-border-default` }),
+      ],
+    },
+    t,
+  );
+}
+function ia(e) {
+  let t = (0, Q.c)(17),
+    {
+      appPersonalizationModes: n,
+      blurbs: r,
+      onAppPersonalizationModeChange: i,
+      personalizationToggles: a,
+    } = e,
+    o = it(),
+    s;
+  if (t[0] !== n || t[1] !== o || t[2] !== i || t[3] !== a) {
+    let e;
+    (t[5] !== n || t[6] !== o || t[7] !== i
+      ? ((e = (e) =>
+          (0, $.jsxs)(
+            `div`,
+            {
+              className: `flex items-start justify-between gap-4 border-t border-token-border-default py-2.5 first:border-none first:pt-0 last:pb-0`,
+              children: [
+                (0, $.jsxs)(`div`, {
+                  className: `min-w-0 flex-1`,
+                  children: [
+                    (0, $.jsx)(`div`, {
+                      className: `font-medium text-token-text-primary`,
+                      children: e.blurb.title,
+                    }),
+                    (0, $.jsx)(`div`, { children: ua(e.blurb.description) }),
+                  ],
+                }),
+                (0, $.jsx)(on, {
+                  checked: n[e.appId] === `PERSONALIZE_ALWAYS`,
+                  ariaLabel: o.formatMessage(
+                    {
+                      id: `plugins.installModal.personalizationToggle`,
+                      defaultMessage: `Allow ChatGPT to use reference memories and chats for {appName}`,
+                      description: `Accessible label for the personalization toggle in the plugin install modal`,
+                    },
+                    { appName: e.appName },
+                  ),
+                  onChange: (t) => {
+                    i({ appId: e.appId, mode: t ? `PERSONALIZE_ALWAYS` : `NO_PERSONALIZATION` });
+                  },
+                }),
+              ],
+            },
+            e.appId,
+          )),
+        (t[5] = n),
+        (t[6] = o),
+        (t[7] = i),
+        (t[8] = e))
+      : (e = t[8]),
+      (s = a.map(e)),
+      (t[0] = n),
+      (t[1] = o),
+      (t[2] = i),
+      (t[3] = a),
+      (t[4] = s));
+  } else s = t[4];
+  let c;
+  if (t[9] !== r || t[10] !== a.length) {
+    let e;
+    (t[12] === a.length
+      ? (e = t[13])
+      : ((e = (e, t) =>
+          (0, $.jsxs)(
+            `div`,
+            {
+              className:
+                a.length > 0 || t > 0
+                  ? `flex flex-col gap-1 border-t border-token-border-default py-2.5 last:pb-0`
+                  : `flex flex-col gap-1 py-2.5 first:pt-0 last:pb-0`,
+              children: [
+                (0, $.jsx)(`div`, {
+                  className: `font-medium text-token-text-primary`,
+                  children: e.title,
+                }),
+                (0, $.jsx)(`div`, { children: ua(e.description) }),
+              ],
+            },
+            `${e.title}-${t}`,
+          )),
+        (t[12] = a.length),
+        (t[13] = e)),
+      (c = r.map(e)),
+      (t[9] = r),
+      (t[10] = a.length),
+      (t[11] = c));
+  } else c = t[11];
+  let l;
+  return (
+    t[14] !== s || t[15] !== c
+      ? ((l = (0, $.jsxs)(`div`, {
+          className: `text-sm text-token-text-secondary`,
+          children: [s, c],
+        })),
+        (t[14] = s),
+        (t[15] = c),
+        (t[16] = l))
+      : (l = t[16]),
+    l
+  );
+}
+function aa(e, t) {
+  switch (e) {
+    case `connected`:
+      return t.formatMessage({
+        id: `plugins.installModal.requiredApps.connected`,
+        defaultMessage: `Connected`,
+        description: `Button label shown for a required app that is already connected`,
+      });
+    case `launching`:
+    case `waitingForCallback`:
+      return t.formatMessage({
+        id: `plugins.installModal.requiredApps.connecting`,
+        defaultMessage: `Opened link`,
+        description: `Button label shown after the required app connection flow has been opened`,
+      });
+    case `pending`:
+      return t.formatMessage({
+        id: `plugins.installModal.requiredApps.connect`,
+        defaultMessage: `Connect`,
+        description: `Button label shown for a required app that still needs to be connected`,
+      });
+  }
+}
+function oa(e) {
+  return {
+    appMetadata: null,
+    branding: null,
+    description: e.description,
+    distributionChannel: null,
+    id: e.appId,
+    installUrl: e.installUrl,
+    isAccessible: !1,
+    isEnabled: !1,
+    labels: null,
+    logoUrl: e.logoUrl,
+    logoUrlDark: null,
+    name: e.name,
+    pluginDisplayNames: [],
+  };
+}
+function sa(e) {
+  let t = (0, Q.c)(14),
+    { plugin: n } = e,
+    r;
+  t[0] === n ? (r = t[1]) : ((r = Tt(n)), (t[0] = n), (t[1] = r));
+  let i;
+  t[2] === r
+    ? (i = t[3])
+    : ((i = (0, $.jsx)(`div`, {
+        className: `text-sm font-medium text-token-text-primary`,
+        children: r,
+      })),
+      (t[2] = r),
+      (t[3] = i));
+  let a;
+  t[4] === n.marketplaceName
+    ? (a = t[5])
+    : ((a =
+        n.marketplaceName.length > 0
+          ? (0, $.jsx)(kn, {
+              className: `border border-token-border-default bg-transparent px-1.5 py-0.5 text-xs font-medium text-token-text-secondary`,
+              children: n.marketplaceName,
+            })
+          : null),
+      (t[4] = n.marketplaceName),
+      (t[5] = a));
+  let o;
+  t[6] !== i || t[7] !== a
+    ? ((o = (0, $.jsxs)(`div`, {
+        className: `flex flex-wrap items-center gap-2`,
+        children: [i, a],
+      })),
+      (t[6] = i),
+      (t[7] = a),
+      (t[8] = o))
+    : (o = t[8]);
+  let s;
+  t[9] === n ? (s = t[10]) : ((s = (0, $.jsx)(ca, { plugin: n })), (t[9] = n), (t[10] = s));
+  let c;
+  return (
+    t[11] !== o || t[12] !== s
+      ? ((c = (0, $.jsxs)(la, { children: [o, s] })), (t[11] = o), (t[12] = s), (t[13] = c))
+      : (c = t[13]),
+    c
+  );
+}
+function ca(e) {
+  let t = (0, Q.c)(11),
+    { plugin: n } = e,
+    r;
+  t[0] === n.plugin.interface?.developerName
+    ? (r = t[1])
+    : ((r = n.plugin.interface?.developerName?.trim()),
+      (t[0] = n.plugin.interface?.developerName),
+      (t[1] = r));
+  let i = r,
+    a;
+  t[2] === n.plugin.interface?.category
+    ? (a = t[3])
+    : ((a = n.plugin.interface?.category?.trim()),
+      (t[2] = n.plugin.interface?.category),
+      (t[3] = a));
+  let o = a;
+  if (i == null && o == null) return null;
+  let s;
+  t[4] === i
+    ? (s = t[5])
+    : ((s = i
+        ? (0, $.jsx)(`div`, {
+            children: (0, $.jsx)(q, {
+              id: `plugins.installModal.metadata.developer`,
+              defaultMessage: `By {developerName}`,
+              description: `Developer metadata shown in the plugin install modal`,
+              values: { developerName: i },
+            }),
+          })
+        : null),
+      (t[4] = i),
+      (t[5] = s));
+  let c;
+  t[6] === o
+    ? (c = t[7])
+    : ((c = o
+        ? (0, $.jsx)(`div`, {
+            children: (0, $.jsx)(q, {
+              id: `plugins.installModal.metadata.category`,
+              defaultMessage: `Category: {category}`,
+              description: `Category metadata shown in the plugin install modal`,
+              values: { category: o },
+            }),
+          })
+        : null),
+      (t[6] = o),
+      (t[7] = c));
+  let l;
+  return (
+    t[8] !== s || t[9] !== c
+      ? ((l = (0, $.jsxs)(`div`, {
+          className: `flex flex-col gap-1 text-sm text-token-text-secondary`,
+          children: [s, c],
+        })),
+        (t[8] = s),
+        (t[9] = c),
+        (t[10] = l))
+      : (l = t[10]),
+    l
+  );
+}
+function la(e) {
+  let t = (0, Q.c)(2),
+    { children: n } = e,
+    r;
+  return (
+    t[0] === n
+      ? (r = t[1])
+      : ((r = (0, $.jsx)(`div`, {
+          className: `flex flex-col gap-2 border-b border-token-border-default py-3 last:border-none`,
+          children: n,
+        })),
+        (t[0] = n),
+        (t[1] = r)),
+    r
+  );
+}
+function ua(e) {
+  let t = [],
+    n = 0,
+    r;
+  for (; (r = va.exec(e)) != null;) {
+    r.index > n && t.push(e.slice(n, r.index));
+    let [i, a, o] = r,
+      s = o.trim();
+    if (s.length === 0) {
+      (t.push(a), (n = r.index + i.length));
+      continue;
+    }
+    (t.push((0, $.jsx)(ta, { url: s, children: a }, `${s}-${r.index}`)), (n = r.index + i.length));
+  }
+  return (n < e.length && t.push(e.slice(n)), t.length === 0 ? e : t.length === 1 ? t[0] : t);
+}
+function da(e) {
+  let t = new Set();
+  return e.flatMap((e) => {
+    let n = `${e.title}\u0000${e.description}`;
+    return t.has(n) ? [] : (t.add(n), [{ description: e.description, title: e.title }]);
+  });
+}
+function fa({ draftModes: e, personalizationToggles: t }) {
+  let n = { ...e };
+  if (t == null) return n;
+  for (let e of t) n[e.appId] ??= e.defaultMode;
+  return n;
+}
+function pa(e) {
+  return (
+    e.plugin.interface?.longDescription?.trim() ||
+    e.plugin.interface?.shortDescription?.trim() ||
+    e.description?.trim() ||
+    null
+  );
+}
+function ma(e) {
+  return e.interface?.displayName?.trim() || Pe(e.name.split(`:`).pop() || e.name);
+}
+var Q,
+  ha,
+  $,
+  ga,
+  _a,
+  va,
+  ya,
+  ba,
+  xa = e(() => {
+    ((Q = y()),
+      D(),
+      b(),
+      (ha = t(c(), 1)),
+      st(),
+      Be(),
+      lt(),
+      En(),
+      xn(),
+      dn(),
+      Mt(),
+      Gt(),
+      Fn(),
+      qt(),
+      $t(),
+      be(),
+      qn(),
+      dr(),
+      In(),
+      _n(),
+      Mn(),
+      _e(),
+      pe(),
+      We(),
+      mr(),
+      gt(),
+      ce(),
+      It(),
+      zn(),
+      Bn(),
+      Pr(),
+      Ie(),
+      s(),
+      Ae(),
+      E(),
+      ti(),
+      ri(),
+      mi(),
+      Dt(),
+      _i(),
+      xi(),
+      Di(),
+      ut(),
+      ($ = B()),
+      (ga = `OAI-Product-Sku`),
+      (_a = `CODEX`),
+      (va = /\[([^\]]+)\]\(([^)]+)\)/g),
+      (ya = 480),
+      (ba = `min(720px, calc(100vh - 2rem))`));
+  });
+async function Sa({ hostId: e, queryClient: t, refreshAppsList: n }) {
+  let r = t.getQueryData([`apps`, `list`, e]),
+    i = await n();
+  return Ca({ previousApps: r, nextApps: i })
+    ? (await Promise.all(
+        Ta.map((t) =>
+          j(`ambient-suggestions-refresh`, {
+            params: { domain: t, hostId: e, projectRoot: O(`~`), mode: `first-plugin-connect` },
+          }),
+        ),
+      ),
+      await Promise.all([
+        t.invalidateQueries({ queryKey: C(`ambient-suggestions`) }),
+        t.invalidateQueries({ queryKey: C(`ambient-suggestions-refresh`) }),
+      ]),
+      i)
+    : i;
+}
+function Ca({ previousApps: e, nextApps: t }) {
+  return e != null && !e.some(wa) && t.some(wa);
+}
+function wa(e) {
+  return e.isAccessible && e.isEnabled;
+}
+var Ta,
+  Ea = e(() => {
+    (o(), E(), (Ta = [null, `science`]));
+  });
+function Da(e) {
+  let t = (0, Oa.c)(19),
+    { onClose: n, onTryInChat: r, plugin: i } = e,
+    a;
+  t[0] === i ? (a = t[1]) : ((a = Tt(i)), (t[0] = i), (t[1] = a));
+  let o = a,
+    s;
+  t[2] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((s = (0, ka.jsx)(An, { className: `icon-xs text-token-text-secondary` })), (t[2] = s))
+    : (s = t[2]);
+  let c;
+  t[3] !== i.logoDarkPath || t[4] !== i.logoPath || t[5] !== o
+    ? ((c = (0, ka.jsx)(`div`, {
+        className: `flex size-5 shrink-0 items-center justify-center overflow-hidden rounded-md`,
+        children: (0, ka.jsx)(Ut, {
+          alt: o,
+          className: `size-5`,
+          logoDarkUrl: i.logoDarkPath,
+          logoUrl: i.logoPath,
+          fallback: s,
+        }),
+      })),
+      (t[3] = i.logoDarkPath),
+      (t[4] = i.logoPath),
+      (t[5] = o),
+      (t[6] = c))
+    : (c = t[6]);
+  let l;
+  t[7] === o
+    ? (l = t[8])
+    : ((l = (0, ka.jsx)(`span`, {
+        className: `shrink-0`,
+        children: (0, ka.jsx)(q, {
+          id: `plugins.install.success`,
+          defaultMessage: `{pluginName} plugin installed`,
+          description: `Toast shown after a plugin is installed`,
+          values: { pluginName: o },
+        }),
+      })),
+      (t[7] = o),
+      (t[8] = l));
+  let u;
+  t[9] === Symbol.for(`react.memo_cache_sentinel`)
+    ? ((u = (0, ka.jsx)(q, {
+        id: `plugins.install.tryInChatToast`,
+        defaultMessage: `Try in chat`,
+        description: `Button label in the plugin-installed toast that starts a new chat with the plugin`,
+      })),
+      (t[9] = u))
+    : (u = t[9]);
+  let d;
+  t[10] === r
+    ? (d = t[11])
+    : ((d = (0, ka.jsx)(Sn, { color: `secondary`, size: `composerSm`, onClick: r, children: u })),
+      (t[10] = r),
+      (t[11] = d));
+  let f;
+  t[12] !== c || t[13] !== l || t[14] !== d
+    ? ((f = (0, ka.jsxs)(`div`, {
+        className: `flex items-center gap-2 pr-1`,
+        children: [c, l, d],
+      })),
+      (t[12] = c),
+      (t[13] = l),
+      (t[14] = d),
+      (t[15] = f))
+    : (f = t[15]);
+  let p;
+  return (
+    t[16] !== n || t[17] !== f
+      ? ((p = (0, ka.jsx)(le, {
+          className: `!items-center !rounded-[14px] !border-token-border !py-1.5 !text-sm !leading-[18px] [&>button]:!mt-0`,
+          level: `success`,
+          onRemove: n,
+          children: f,
+        })),
+        (t[16] = n),
+        (t[17] = f),
+        (t[18] = p))
+      : (p = t[18]),
+    p
+  );
+}
+var Oa,
+  ka,
+  Aa = e(() => {
+    ((Oa = y()), st(), xn(), dn(), H(), Mn(), Dt(), (ka = B()));
+  });
+function ja(e, t, n) {
+  return e != null && e.hostId === t && e.plugin.plugin.id === n ? e.progressPercent : null;
+}
+function Ma(e, t, n) {
+  return e != null && e.hostId === t && e.plugin.plugin.id === n ? e.phase : null;
+}
+var Na = e(() => {});
+function Pa({ forceReloadPlugins: e, hostId: t, onRequiredAppConnected: n }) {
+  let r = ae(v),
+    i = it(),
+    a = Fe(),
+    o = S(),
+    s = cn(t),
+    c = r.query.snapshot(Xn),
+    l = ot(),
+    [, u] = _(`composer_prefill`),
+    f = tr(),
+    h = K(`2761268526`),
+    { data: g } = ee(Re, t),
+    { clearPendingAppConnect: y, isAppConnectPending: b, markAppConnectOAuthPending: x } = St(),
+    {
+      cancelPluginInstallAppPreparation: C,
+      claimPluginInstall: w,
+      closePluginInstallAppConnectBeforeInstall: T,
+      closePluginInstallAppConnect: E,
+      closePluginInstall: D,
+      markRequiredAppStatus: O,
+      openPluginInstallDetails: te,
+      openPluginInstall: k,
+      openPluginInstallAppConnectBeforeInstall: A,
+      openRequiredAppConnect: j,
+      preparePluginInstallAppConnect: M,
+      session: P,
+      setPluginInstallProgress: F,
+      setPluginInstallNeedsApps: ne,
+      startPluginInstallAfterAppPreparation: re,
+      startPluginInstallAfterAppConnect: I,
+    } = Qt(),
+    { data: ie = [], hardRefetchAppsList: L } = Kt({
+      enabled:
+        P.kind === `needsApps` || P.kind === `connectApp` || P.kind === `connectAppBeforeInstall`,
+      hostId: t,
+    }),
+    R =
+      P.kind === `needsApps` || P.kind === `connectApp`
+        ? P.requiredApps.map((e) => e.app)
+        : P.kind === `connectAppBeforeInstall`
+          ? [P.app]
+          : void 0,
+    z =
+      P.kind === `details` ||
+      P.kind === `installing` ||
+      P.kind === `preparingApp` ||
+      P.kind === `connectAppBeforeInstall`
+        ? P.plugin
+        : null,
+    B = z == null || (z.marketplacePath == null && z.plugin.remotePluginId == null) ? null : ht(z),
+    { blockedReasonsByConnectorId: se } = oi({ hostId: t, pluginApps: R }),
+    { blockedReason: V, isLoading: ce } = oi(
+      z == null
+        ? { hostId: t }
+        : B == null
+          ? { hostId: t, pluginSummary: z.plugin }
+          : { hostId: t, ...B, pluginSummary: z.plugin },
+    ),
+    le = jt({ hostId: t }),
+    ue = Ct({ hostId: t }),
+    H = Lt({ hostId: t }),
+    de = le.available,
+    fe = ue.available,
+    pe = H.available,
+    [me, he] = (0, Ra.useState)(!1),
+    ge = oe({
+      mutationFn: async (e) => {
+        let n = await Ze(`install-plugin`, { hostId: t, ...ht(e) });
+        return (
+          await Jt({ hostId: t, marketplacePath: e.marketplacePath, pluginName: e.plugin.name }), n
+        );
+      },
+    }),
+    _e = me || ge.isPending,
+    ve = _e || P.kind === `installing` || P.kind === `preparingApp`,
+    U = Ia({ apps: ie, appInstallBlockedReasonsById: se, isAppConnectPending: b, session: P }),
+    W =
+      U.kind === `needsApps` &&
+      U.requiredBrowserExtensions.length === 0 &&
+      U.requiredApps.length > 0 &&
+      U.requiredApps.every((e) => e.status === `connected`),
+    ye = (0, Ra.useEffectEvent)((e, t) => {
+      if (t != null) {
+        f({ prefillPrompt: e, prefillCwd: t.prefillCwd, startInSidebar: t.startInSidebar });
+        return;
+      }
+      u({ text: e });
+    }),
+    be = (e, t) => {
+      f({
+        prefillPrompt: gi({
+          defaultPrompt: hi(e.plugin.interface?.defaultPrompt),
+          pluginDisplayName: Tt(e),
+          pluginId: e.plugin.id,
+        }),
+        prefillCwd: t,
+        startInSidebar: !0,
+      });
+    },
+    xe = async (n) => {
+      try {
+        return (
+          await e(),
+          yt({ enabled: !0, installed: !0, queryClient: o, hostId: t, pluginId: n.plugin.id }),
+          !0
+        );
+      } catch (e) {
+        return (
+          d.error(`Failed to refresh plugins after install`, { safe: {}, sensitive: { error: e } }),
+          r
+            .get(Tn)
+            .danger(
+              i.formatMessage(
+                {
+                  id: `plugins.install.refreshError`,
+                  defaultMessage: `Installed {pluginName}, but failed to refresh the plugin list`,
+                  description: `Toast shown when a plugin installs successfully but the plugin list refresh fails`,
+                },
+                { pluginName: Tt(n) },
+              ),
+            ),
+          !1
+        );
+      }
+    },
+    Se = ({ plugin: e, postInstallComposerPrefill: t, tryInChatCwd: n }) => {
+      t?.trim() ||
+        r.get(Tn).custom({
+          content: ({ close: t }) =>
+            (0, Ra.createElement)(Da, {
+              onClose: t,
+              onTryInChat: () => {
+                (t(), be(e, n));
+              },
+              plugin: e,
+            }),
+          duration: za,
+          id: `plugin-added:${e.plugin.id}`,
+          level: `success`,
+        });
+    },
+    Ce = (0, Ra.useEffectEvent)((t) => {
+      D();
+      let n = t.postInstallComposerPrefill?.trim();
+      (n && ye(n, t.postInstallNewConversation),
+        e()
+          .then(() => {
+            Se({ plugin: t.plugin, postInstallComposerPrefill: n, tryInChatCwd: t.tryInChatCwd });
+          })
+          .catch((e) => {
+            d.error(`Failed to refresh plugins after plugin app setup`, {
+              safe: {},
+              sensitive: { error: e },
+            });
+          }));
+    }),
+    Ee = (e) => {
+      (Fa({
+        action: Le.CODEX_NEW_CHAT_SUGGESTION_ACTION_REQUIRED_APP_CONNECTED,
+        appId: e.app.id,
+        pluginId: e.plugin.plugin.id,
+        scope: r,
+        telemetry: e.telemetry,
+      }),
+        y({ appId: e.app.id, resumeTarget: Ha }),
+        I({ appId: e.app.id, hostId: e.hostId, pluginId: e.plugin.plugin.id }));
+    },
+    De = (0, Ra.useEffectEvent)(Ee);
+  (0, Ra.useEffect)(() => {
+    if (P.kind === `connectAppBeforeInstall` && P.status === `connected`) {
+      De(P);
+      return;
+    }
+    !W || U.kind !== `needsApps` || Ce(U);
+  }, [W, U, P]);
+  let Oe = (e) =>
+      !((!de && Et(e.plugin.id)) || (!fe && kt(e.plugin.id)) || (!pe && Ot(e.plugin.id))),
+    ke = async ({ installLockedComputerUse: e = !1, options: a, plugin: u }) => {
+      if (_e || ce || !Oe(u)) {
+        D();
+        return;
+      }
+      he(!0);
+      try {
+        if (ai(u.plugin) || V === `disabled-by-admin`) {
+          te(u, a);
+          return;
+        }
+        let f;
+        try {
+          ((f = await ge.mutateAsync(u)),
+            yt({ enabled: !0, installed: !0, queryClient: o, hostId: t, pluginId: u.plugin.id }),
+            F(Ba),
+            Fa({
+              action: Le.CODEX_NEW_CHAT_SUGGESTION_ACTION_PLUGIN_INSTALLED,
+              pluginId: u.plugin.id,
+              scope: r,
+              telemetry: a.telemetry,
+            }),
+            a.origin === `setup_codex` &&
+              we(
+                r,
+                qe.CODEX_ONBOARDING_WIZARD_PHASE_PLUGIN_INSTALL,
+                J.CODEX_ONBOARDING_WIZARD_ACTION_COMPLETED,
+              ));
+        } catch (e) {
+          let t =
+            u.marketplacePath == null
+              ? {
+                  pluginName: u.plugin.remotePluginId ?? u.plugin.name,
+                  remoteMarketplaceName: u.remoteMarketplaceName,
+                }
+              : { marketplacePath: u.marketplacePath, pluginName: u.plugin.name };
+          (d.error(`manual_plugin_install_failed`, {
+            safe: { ...p(t), errorCategory: N(e) },
+            sensitive: { ...m(t), error: e },
+          }),
+            r
+              .get(Tn)
+              .danger(
+                i.formatMessage({
+                  id: `plugins.install.error`,
+                  defaultMessage: `Failed to install plugin`,
+                  description: `Toast shown when installing a plugin fails`,
+                }),
+              ),
+            D());
+          return;
+        }
+        let h = Ge(u.plugin.id);
+        if (
+          (h != null &&
+            (await un(r, h, !1),
+            await Ze(`batch-write-config-value`, {
+              hostId: t,
+              edits: Xe({ pluginId: u.plugin.id, enabled: !0 }),
+              filePath: g?.configWriteTarget?.filePath ?? null,
+              expectedVersion: null,
+              reloadUserConfig: !0,
+            })),
+          e && Et(u.plugin.id))
+        ) {
+          let e = !1;
+          try {
+            let t = await Zn(!0);
+            (c.setData((e) => ({
+              computerIconDataURL: e?.computerIconDataURL ?? null,
+              enabled: t,
+              lockIconDataURL: e?.lockIconDataURL ?? null,
+            })),
+              (e = t !== !0));
+          } catch (t) {
+            (d.error(`Failed to enable Locked Computer Use after install`, {
+              safe: {},
+              sensitive: { error: t },
+            }),
+              (e = !0));
+          }
+          e &&
+            r
+              .get(Tn)
+              .danger(
+                i.formatMessage({
+                  id: `plugins.install.lockedComputerUseError`,
+                  defaultMessage: `Installed Computer Use, but failed to enable Locked Computer Use`,
+                  description: `Toast shown when Computer Use installs but Locked Computer Use cannot be enabled`,
+                }),
+              );
+        }
+        let _ = xe(u);
+        (u.plugin.authPolicy === `ON_INSTALL` &&
+          Sa({ hostId: t, queryClient: o, refreshAppsList: L }).catch((e) => {
+            d.error(`Failed to refresh apps after plugin install`, {
+              safe: {},
+              sensitive: { error: e },
+            });
+          }),
+          Promise.all([l(Nt), l(mn)]).catch((e) => {
+            d.error(`Failed to refresh plugin skills and hooks after install`, {
+              safe: {},
+              sensitive: { error: e },
+            });
+          }),
+          F(Va));
+        let v = await Hr({
+          authPolicy: f.authPolicy,
+          codexHome: s,
+          hostId: t,
+          plugin: u,
+          queryClient: o,
+          windowType: `electron`,
+        });
+        if (
+          (F(100),
+          await new Promise((e) => setTimeout(e, 650)),
+          (n == null && f.authPolicy === `ON_USE`) ||
+            (f.appsNeedingAuth.length === 0 && v.length === 0))
+        ) {
+          let e = a.postInstallComposerPrefill?.trim();
+          (e && ye(e, a.postInstallNewConversation),
+            D(),
+            n?.(),
+            (await _) &&
+              Se({ plugin: u, postInstallComposerPrefill: e, tryInChatCwd: a.tryInChatCwd }));
+          return;
+        }
+        ne({
+          apps: f.appsNeedingAuth,
+          browserExtensions: v,
+          connectingAppId:
+            f.appsNeedingAuth.length === 1 &&
+            v.length === 0 &&
+            (f.authPolicy === `ON_INSTALL` || n != null)
+              ? f.appsNeedingAuth[0]?.id
+              : void 0,
+          options: a,
+          plugin: u,
+        });
+      } finally {
+        he(!1);
+      }
+    },
+    Ae = (0, Ra.useEffectEvent)((e) => {
+      w({ hostId: t, pluginId: e.plugin.plugin.id }) &&
+        ke({
+          options: {
+            origin: e.origin,
+            postInstallComposerPrefill: e.postInstallComposerPrefill,
+            postInstallNewConversation: e.postInstallNewConversation,
+            tryInChatCwd: e.tryInChatCwd,
+            telemetry: e.telemetry,
+          },
+          plugin: e.plugin,
+        });
+    });
+  (0, Ra.useEffect)(() => {
+    P.kind !== `installing` || P.installStarted || ce || Ae(P);
+  }, [ce, P]);
+  let je = async (e, n, a) => {
+      try {
+        let r = a ?? (await Ze(`read-plugin`, { hostId: t, ...ht(e) })).plugin;
+        if (r == null) throw Error(`Plugin detail was not found.`);
+        let i = r.apps.length === 1 ? r.apps[0] : null;
+        if (i == null) {
+          re({ hostId: t, pluginId: e.plugin.id });
+          return;
+        }
+        let { link: o } = await Te.safeGet(`/aip/connectors/{connector_id}/link`, {
+          parameters: { path: { connector_id: i.id } },
+        });
+        if (o != null) {
+          re({ hostId: t, pluginId: e.plugin.id });
+          return;
+        }
+        A({ app: i, hostId: t, options: n, plugin: e });
+      } catch (n) {
+        (d.error(`Failed to load canonical plugin app before install`, {
+          safe: {},
+          sensitive: { error: n },
+        }),
+          r
+            .get(Tn)
+            .danger(
+              i.formatMessage({
+                id: `plugins.install.loadAppError`,
+                defaultMessage: `Failed to load plugin connection`,
+                description: `Toast shown when Codex cannot load the app that must connect before installing a canonical plugin`,
+              }),
+            ),
+          C({ hostId: t, pluginId: e.plugin.id }));
+      }
+    },
+    G = (e, n = {}) => {
+      if (!(ve || !Oe(e))) {
+        if ((ge.reset(), e.plugin.authPolicy === `ON_INSTALL`)) {
+          if (ai(e.plugin) || V === `disabled-by-admin`) {
+            Me(e, n);
+            return;
+          }
+          (M(t, e, n),
+            je(
+              e,
+              n,
+              o.getQueryData(
+                Ft({
+                  hostId: t,
+                  marketplacePath: e.marketplacePath,
+                  pluginName: ft(e),
+                  remoteMarketplaceName: e.remoteMarketplaceName,
+                }),
+              ) ?? null,
+            ));
+          return;
+        }
+        k(t, e, n);
+      }
+    },
+    Me = (e, t = {}) => {
+      ve || !Oe(e) || (ge.reset(), te(e, t));
+    };
+  return {
+    closePluginInstall: () => {
+      if (!ve) {
+        if ((ge.reset(), P.kind === `connectAppBeforeInstall`)) {
+          (P.status === `waitingForCallback` && y({ appId: P.app.id, resumeTarget: Ha }), T());
+          return;
+        }
+        if (P.kind === `connectApp`) {
+          E();
+          return;
+        }
+        D();
+      }
+    },
+    connectRequiredApp: async (e) => {
+      if (U.kind !== `needsApps`) return;
+      let t = U.requiredApps.find((t) => t.appId === e);
+      if (
+        t == null ||
+        se[e] != null ||
+        t.status === `connected` ||
+        t.status === `launching` ||
+        t.status === `waitingForCallback`
+      )
+        return;
+      Fa({
+        action: Le.CODEX_NEW_CHAT_SUGGESTION_ACTION_REQUIRED_APP_CONNECT_STARTED,
+        appId: e,
+        pluginId: U.plugin.plugin.id,
+        scope: r,
+        telemetry: P.kind === `needsApps` ? P.telemetry : void 0,
+      });
+      let n = t.installUrl?.trim();
+      if (!h && n) {
+        Nn({ href: n, initiator: `open_in_browser_bridge`, openTarget: `external-browser` });
+        return;
+      }
+      (y({ appId: e }), j(e));
+    },
+    handleRequiredAppConnected: async (e) => {
+      if (P.kind === `connectAppBeforeInstall` && P.app.id === e) {
+        (P.status === `pending` &&
+          Fa({
+            action: Le.CODEX_NEW_CHAT_SUGGESTION_ACTION_REQUIRED_APP_CONNECT_STARTED,
+            appId: e,
+            pluginId: P.plugin.plugin.id,
+            scope: r,
+            telemetry: P.telemetry,
+          }),
+          Ee(P));
+        return;
+      }
+      ((P.kind === `needsApps` || P.kind === `connectApp`) &&
+        Fa({
+          action: Le.CODEX_NEW_CHAT_SUGGESTION_ACTION_REQUIRED_APP_CONNECTED,
+          appId: e,
+          pluginId: P.plugin.plugin.id,
+          scope: r,
+          telemetry: P.telemetry,
+        }),
+        O({ appId: e, status: `connected` }),
+        P.kind === `connectApp` &&
+          P.requiredApps.length === 1 &&
+          P.requiredBrowserExtensions.length === 0 &&
+          n?.());
+      try {
+        await Sa({ hostId: t, queryClient: o, refreshAppsList: L });
+      } catch (e) {
+        d.error(`Failed to refresh apps after plugin app connect`, {
+          safe: {},
+          sensitive: { error: e },
+        });
+      }
+    },
+    handleRequiredAppOAuthStarted: ({ app: e, redirectUrl: n }) => {
+      (P.kind === `connectAppBeforeInstall` &&
+        P.app.id === e.id &&
+        Fa({
+          action: Le.CODEX_NEW_CHAT_SUGGESTION_ACTION_REQUIRED_APP_CONNECT_STARTED,
+          appId: e.id,
+          pluginId: P.plugin.plugin.id,
+          scope: r,
+          telemetry: P.telemetry,
+        }),
+        O({ appId: e.id, status: `waitingForCallback` }),
+        x({
+          app: e,
+          hostId: t,
+          redirectUrl: n,
+          returnTo: `${a.pathname}${a.search}${a.hash}`,
+          resumeTarget: Ha,
+        }));
+    },
+    installPlugin: async (e = {}, t = !1) => {
+      P.kind === `details` &&
+        (await ke({
+          installLockedComputerUse: t,
+          options: {
+            origin: P.origin,
+            postInstallComposerPrefill: P.postInstallComposerPrefill,
+            postInstallNewConversation: P.postInstallNewConversation,
+            tryInChatCwd: P.tryInChatCwd,
+            telemetry: P.telemetry,
+          },
+          plugin: P.plugin,
+        }));
+    },
+    isInstalling: ve,
+    openPluginInstall: G,
+    openPluginInstallDetails: Me,
+    session: U,
+  };
+}
+function Fa({ action: e, appId: t, pluginId: n, scope: r, telemetry: i }) {
+  i?.source === `new_chat_page_suggestions` &&
+    Qe(r, G, { action: e, appId: t, pluginId: n, suggestionId: i.suggestionId });
+}
+function Ia({ apps: e, isAppConnectPending: t, appInstallBlockedReasonsById: n, session: r }) {
+  if (r.kind === `closed`) return r;
+  if (r.kind === `details`)
+    return {
+      kind: `details`,
+      postInstallComposerPrefill: r.postInstallComposerPrefill,
+      postInstallNewConversation: r.postInstallNewConversation,
+      plugin: r.plugin,
+    };
+  if (r.kind === `installing`)
+    return {
+      hostId: r.hostId,
+      kind: `installing`,
+      phase: `installing`,
+      plugin: r.plugin,
+      progressPercent: r.progressPercent,
+    };
+  if (r.kind === `preparingApp`)
+    return {
+      hostId: r.hostId,
+      kind: `installing`,
+      phase: `loading`,
+      plugin: r.plugin,
+      progressPercent: 0,
+    };
+  let i = new Map();
+  if (
+    (e.forEach((e) => {
+      i.set(e.id, e);
+    }),
+    r.kind === `connectAppBeforeInstall`)
+  )
+    return {
+      closeOnOAuthStarted: !1,
+      kind: `connectApp`,
+      plugin: r.plugin,
+      app: La({
+        appInstallBlockedReasonsById: n,
+        appsById: i,
+        isAppConnectPending: t,
+        preserveWaitingForCallback: !0,
+        resumeTarget: Ha,
+        requiredApp: { app: r.app, status: r.status },
+      }),
+    };
+  let a = r.requiredApps.map((e) =>
+    La({ appInstallBlockedReasonsById: n, appsById: i, isAppConnectPending: t, requiredApp: e }),
+  );
+  if (r.kind === `connectApp`) {
+    let e =
+      a.find((e) => e.appId === r.app.id) ??
+      La({
+        appInstallBlockedReasonsById: n,
+        appsById: i,
+        isAppConnectPending: t,
+        requiredApp: { app: r.app, status: `pending` },
+      });
+    return { closeOnOAuthStarted: !0, kind: `connectApp`, plugin: r.plugin, app: e };
+  }
+  return {
+    kind: `needsApps`,
+    postInstallComposerPrefill: r.postInstallComposerPrefill,
+    postInstallNewConversation: r.postInstallNewConversation,
+    plugin: r.plugin,
+    requiredBrowserExtensions: r.requiredBrowserExtensions,
+    requiredApps: a,
+    tryInChatCwd: r.tryInChatCwd,
+  };
+}
+function La({
+  appInstallBlockedReasonsById: e,
+  appsById: t,
+  isAppConnectPending: n,
+  preserveWaitingForCallback: r = !1,
+  resumeTarget: i,
+  requiredApp: a,
+}) {
+  let o = t.get(a.app.id),
+    s = a.status;
+  return (
+    o?.isAccessible === !0 || e[a.app.id] === `disabled-by-admin`
+      ? (s = `connected`)
+      : !r && a.status === `waitingForCallback` && !n(a.app.id, i) && (s = `pending`),
+    {
+      appId: a.app.id,
+      description: o?.description ?? a.app.description,
+      installUrl: o?.installUrl ?? a.app.installUrl,
+      logoUrl: o?.logoUrl ?? null,
+      name: o?.name ?? a.app.name,
+      status: s,
+    }
+  );
+}
+var Ra,
+  za,
+  Ba,
+  Va,
+  Ha,
+  Ua = e(() => {
+    (Ce(),
+      D(),
+      b(),
+      o(),
+      (Ra = t(c(), 1)),
+      st(),
+      Me(),
+      He(),
+      bt(),
+      Ea(),
+      Fn(),
+      yn(),
+      Xt(),
+      Vt(),
+      zt(),
+      tn(),
+      ir(),
+      De(),
+      ke(),
+      rn(),
+      ze(),
+      nt(),
+      gt(),
+      ce(),
+      Yn(),
+      Pt(),
+      x(),
+      hn(),
+      je(),
+      g(),
+      Ae(),
+      ti(),
+      Ht(),
+      mi(),
+      ct(),
+      Dt(),
+      Aa(),
+      Ue(),
+      Na(),
+      an(),
+      _i(),
+      ut(),
+      (za = 8),
+      (Ba = 55),
+      (Va = 90),
+      (Ha = { kind: `plugin-install` }));
+  });
+export {
+  Tr as A,
+  lr as B,
+  ti as C,
+  Er as D,
+  Lr as E,
+  pr as F,
+  $n as G,
+  ir as H,
+  mr as I,
+  er as K,
+  ur as L,
+  Sr as M,
+  hr as N,
+  Pr as O,
+  vr as P,
+  dr as R,
+  ri as S,
+  zr as T,
+  nr as U,
+  ar as V,
+  tr as W,
+  _i as _,
+  Na as a,
+  oi as b,
+  Oi as c,
+  Di as d,
+  vi as f,
+  hi as g,
+  gi as h,
+  ja as i,
+  yr as j,
+  wr as k,
+  xa as l,
+  yi as m,
+  Pa as n,
+  Ea as o,
+  xi as p,
+  Qn as q,
+  Ma as r,
+  Sa as s,
+  Ua as t,
+  Ci as u,
+  mi as v,
+  Vr as w,
+  ni as x,
+  ai as y,
+  sr as z,
+};
+//# sourceMappingURL=app-initial~app-main~remote-conversation-page~plugin-detail-page~new-thread-panel-page~appg~ijdupmx5.js.map
