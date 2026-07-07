@@ -1,0 +1,1 @@
+import{n as e,t}from"./plugin-detail-page-Bcnmf5GH.js";e();export{t as PluginDetailPage};

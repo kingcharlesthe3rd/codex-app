@@ -1,0 +1,2 @@
+import{n as e}from"./rolldown-runtime-Czos8NxU.js";import{kt as t}from"./app-initial~app-main~worktree-init-v2-page~appgen-settings-page~page~appgen-publication-ter~fzo5ij6p-BKVLyD1q.js";function n({hostId:e,navigate:t,section:n,setSelectedHostId:r}){r(e),t(`/settings/${n}`)}var r=e((()=>{t()}));export{n,r as t};
+//# sourceMappingURL=app-initial~app-main~worktree-init-v2-page~remote-conversation-page~plugin-detail-page~new-~sfopfmmp-Bz06EiFI.js.map
